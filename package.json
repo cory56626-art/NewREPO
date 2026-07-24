@@ -1,0 +1,12 @@
+{
+  "name": "pacing-hams",
+  "version": "1.0.0",
+  "description": "A first-person document-inspection game about screening pigs for mimics.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "node build.js",
+    "test": "node test/sim.test.js"
+  }
+}
