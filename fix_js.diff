@@ -1,0 +1,128 @@
+<<<<<<< SEARCH
+    function fadeAudio(audioElement, targetVolume, duration) {
+        if (!audioElement) return;
+        const steps = 20;
+        const stepTime = duration / steps;
+        const volumeStep = (targetVolume - audioElement.volume) / steps;
+
+        if (targetVolume > 0 && audioElement.paused) {
+            audioElement.play().catch(e => console.log('Audio blocked', e));
+        }
+
+        let currentStep = 0;
+        const interval = setInterval(() => {
+            currentStep++;
+            let newVolume = audioElement.volume + volumeStep;
+            // Clamp volume
+            if (newVolume < 0) newVolume = 0;
+            if (newVolume > 1) newVolume = 1;
+
+            audioElement.volume = newVolume;
+
+            if (currentStep >= steps) {
+                audioElement.volume = targetVolume;
+                if (targetVolume === 0) {
+                    audioElement.pause();
+                }
+                clearInterval(interval);
+            }
+        }, stepTime);
+    }
+=======
+    // Store active intervals to prevent overlapping fades
+    const activeIntervals = new WeakMap();
+
+    function fadeAudio(audioElement, targetVolume, duration) {
+        if (!audioElement) return;
+
+        // Clear any existing fade for this audio element
+        if (activeIntervals.has(audioElement)) {
+            clearInterval(activeIntervals.get(audioElement));
+        }
+
+        const steps = 20;
+        const stepTime = duration / steps;
+        const volumeStep = (targetVolume - audioElement.volume) / steps;
+
+        if (targetVolume > 0 && audioElement.paused) {
+            audioElement.play().catch(e => console.log('Audio blocked', e));
+        }
+
+        let currentStep = 0;
+        const interval = setInterval(() => {
+            currentStep++;
+            let newVolume = audioElement.volume + volumeStep;
+            // Clamp volume
+            if (newVolume < 0) newVolume = 0;
+            if (newVolume > 1) newVolume = 1;
+
+            audioElement.volume = newVolume;
+
+            if (currentStep >= steps) {
+                audioElement.volume = targetVolume;
+                if (targetVolume === 0) {
+                    audioElement.pause();
+                }
+                clearInterval(interval);
+                activeIntervals.delete(audioElement);
+            }
+        }, stepTime);
+
+        activeIntervals.set(audioElement, interval);
+    }
+>>>>>>> REPLACE
+<<<<<<< SEARCH
+    function handleScroll() {
+        if (mainContent.classList.contains('hidden')) return;
+
+        let currentSection = sections[0];
+
+        // Find which section is most visible
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+                currentSection = section;
+            }
+        });
+
+        const bgImage = currentSection.getAttribute('data-bg');
+        // Update the pseudo-element background dynamically using a style tag
+        bgStyleElement.innerHTML = `
+            #main-content::before {
+                background-image: url('${bgImage}');
+            }
+        `;
+
+        switchAmbience(currentSection.id);
+    }
+=======
+    let lastBgImage = null;
+
+    function handleScroll() {
+        if (mainContent.classList.contains('hidden')) return;
+
+        let currentSection = sections[0];
+
+        // Find which section is most visible
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+                currentSection = section;
+            }
+        });
+
+        const bgImage = currentSection.getAttribute('data-bg');
+
+        // Only update DOM if the background needs to change
+        if (bgImage !== lastBgImage) {
+            bgStyleElement.innerHTML = `
+                #main-content::before {
+                    background-image: url('${bgImage}');
+                }
+            `;
+            lastBgImage = bgImage;
+        }
+
+        switchAmbience(currentSection.id);
+    }
+>>>>>>> REPLACE

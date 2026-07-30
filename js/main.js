@@ -114,8 +114,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 2000); // 2 second jumpscare
     }
 
+    // Store active intervals to prevent overlapping fades
+    const activeIntervals = new WeakMap();
+
     function fadeAudio(audioElement, targetVolume, duration) {
         if (!audioElement) return;
+
+        // Clear any existing fade for this audio element
+        if (activeIntervals.has(audioElement)) {
+            clearInterval(activeIntervals.get(audioElement));
+        }
+
         const steps = 20;
         const stepTime = duration / steps;
         const volumeStep = (targetVolume - audioElement.volume) / steps;
@@ -140,8 +149,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     audioElement.pause();
                 }
                 clearInterval(interval);
+                activeIntervals.delete(audioElement);
             }
         }, stepTime);
+
+        activeIntervals.set(audioElement, interval);
     }
 
     function switchAmbience(newSectionId) {
@@ -163,6 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const bgStyleElement = document.createElement('style');
     document.head.appendChild(bgStyleElement);
 
+    let lastBgImage = null;
+
     function handleScroll() {
         if (mainContent.classList.contains('hidden')) return;
 
@@ -177,12 +191,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const bgImage = currentSection.getAttribute('data-bg');
-        // Update the pseudo-element background dynamically using a style tag
-        bgStyleElement.innerHTML = `
-            #main-content::before {
-                background-image: url('${bgImage}');
-            }
-        `;
+        // Update the pseudo-element background dynamically using a style tag only if it changed
+        if (bgImage !== lastBgImage) {
+            bgStyleElement.innerHTML = `
+                #main-content::before {
+                    background-image: url('${bgImage}');
+                }
+            `;
+            lastBgImage = bgImage;
+        }
 
         switchAmbience(currentSection.id);
     }
