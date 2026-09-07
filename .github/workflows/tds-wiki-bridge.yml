@@ -54,35 +54,60 @@ jobs:
           if url:
               if not url.startswith("https://tds.fandom.com/"):
                   raise SystemExit("Only tds.fandom.com URLs are allowed")
-              req = urllib.request.Request(url, headers={
-                  "User-Agent":"Mozilla/5.0 TDSWikiBridge/2.0",
-                  "Accept":"text/html,application/xhtml+xml"
+              m = re.search(r"/f/p/(\d+)", url)
+              if not m:
+                  raise SystemExit("Discussion URL must contain /f/p/<threadId>")
+              thread_id = m.group(1)
+
+              api_url = (
+                  "https://tds.fandom.com/wikia.php?"
+                  + urllib.parse.urlencode({
+                      "controller":"DiscussionThread",
+                      "method":"getThread",
+                      "threadId":thread_id,
+                      "limit":"100",
+                      "responseGroup":"full",
+                      "sortDirection":"ascending",
+                      "sortKey":"creation_date",
+                      "viewableOnly":"false"
+                  })
+              )
+              req = urllib.request.Request(api_url, headers={
+                  "User-Agent":"TDSWikiBridge/3.0 (GitHub Actions; read-only)",
+                  "Accept":"application/json"
               })
               with urllib.request.urlopen(req, timeout=30) as r:
-                  raw = r.read().decode("utf-8", "replace")
+                  data = json.load(r)
 
-              pathlib.Path("tds_bridge/discussion_raw.html").write_text(raw, encoding="utf-8")
+              pathlib.Path("tds_bridge/discussion_json.txt").write_text(
+                  json.dumps(data, ensure_ascii=False, indent=2),
+                  encoding="utf-8"
+              )
 
-              parser = TextExtractor()
-              parser.feed(raw)
-              text = html.unescape("".join(parser.parts))
-              text = re.sub(r"[ \t]+", " ", text)
-              text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text).strip()
+              def collect_text(obj, depth=0):
+                  out=[]
+                  if depth > 12:
+                      return out
+                  if isinstance(obj, dict):
+                      for k,v in obj.items():
+                          kl=str(k).lower()
+                          if kl in {"title","rawcontent","content","text","username","name"} and isinstance(v,(str,int,float)):
+                              out.append(f"{k}: {v}")
+                          else:
+                              out.extend(collect_text(v, depth+1))
+                  elif isinstance(obj, list):
+                      for v in obj:
+                          out.extend(collect_text(v, depth+1))
+                  return out
+
+              text = "\n".join(collect_text(data))
               pathlib.Path("tds_bridge/discussion_text.txt").write_text(text, encoding="utf-8")
 
-              # Also extract likely embedded JSON blobs that can contain posts/comments.
-              blobs = []
-              for m in re.finditer(r'<script[^>]+type=["\']application/json["\'][^>]*>(.*?)</script>', raw, re.S|re.I):
-                  s = html.unescape(m.group(1)).strip()
-                  if s:
-                      blobs.append(s)
-              pathlib.Path("tds_bridge/discussion_json.txt").write_text("\n\n---JSON---\n\n".join(blobs), encoding="utf-8")
-
               pathlib.Path("tds_bridge/meta.json").write_text(json.dumps({
-                  "mode":"discussion",
+                  "mode":"discussion-api",
                   "source":url,
-                  "bytes":len(raw),
-                  "json_blobs":len(blobs)
+                  "api":api_url,
+                  "thread_id":thread_id
               }, indent=2), encoding="utf-8")
           else:
               title = title_path.read_text(encoding="utf-8").strip()
