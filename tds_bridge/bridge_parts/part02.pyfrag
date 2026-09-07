@@ -1,4 +1,4 @@
-    m=re.search(r'-?\d+(?:\.\d+)?',clean(v).replace(',','')); return float(m.group()) if m else None
+    ms=re.findall(r'-?\d+(?:\.\d+)?',clean(v).replace(',','')); return float(ms[-1]) if ms else None
 
 def conflicts(st):
     out=[]
