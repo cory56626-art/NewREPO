@@ -1,0 +1,40 @@
+name: TDS Wiki Changelog Watch
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches:
+      - claude/pacing-hams-game-n6pya2
+    paths:
+      - ".github/workflows/tds-changelog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tds-wiki-bridge
+          fetch-depth: 0
+
+      - name: Scan TDS tower changes
+        shell: bash
+        run: |
+          cat tds_bridge/bridge_parts/*.pyfrag > /tmp/tds_bridge.py
+          python -m py_compile /tmp/tds_bridge.py
+          python /tmp/tds_bridge.py --mode recent_changes_watch
+
+      - name: Save changelog database
+        run: |
+          git config user.name "tds-changelog-watch[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tds_bridge/tracked_pages.json tds_bridge/changelog.json tds_bridge/changelog_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update automatic TDS tower changelog"
+          git pull --rebase origin tds-wiki-bridge
+          git push origin HEAD:tds-wiki-bridge
