@@ -1,0 +1,42 @@
+def watcher():
+    p=ROOT/'tracked_pages.json'; tracked=set()
+    if p.exists():
+        try: tracked=set(json.loads(p.read_text()).get('pages',[]))
+        except: pass
+    tracked|=towers_category(); wjson('tracked_pages.json',{'pages':sorted(tracked)})
+    d=api({'action':'query','list':'recentchanges','rcnamespace':0,'rclimit':250,'rcprop':'title|ids|timestamp|user|comment|sizes|flags|tags'}); changes=d.get('query',{}).get('recentchanges',[])
+    lp=ROOT/'changelog.json'; state={'entries':[]}
+    if lp.exists():
+        try: state=json.loads(lp.read_text())
+        except: pass
+    entries=state.get('entries',[]); existing={str(x.get('revid') or x.get('rcid')) for x in entries}; new=[]
+    for rc in changes:
+        if rc.get('title') not in tracked: continue
+        ident=str(rc.get('revid') or rc.get('rcid'))
+        if ident in existing: continue
+        e=dict(rc)
+        if rc.get('old_revid') and rc.get('revid'):
+            try:e['diff_text']=strip_html(api({'action':'compare','fromrev':rc['old_revid'],'torev':rc['revid'],'prop':'diff|ids|title|user|comment|size'}).get('compare',{}).get('body',''))[:8000]
+            except Exception as ex:e['diff_error']=str(ex)
+        new.append(e); existing.add(ident)
+    entries=sorted(entries+new,key=lambda x:x.get('timestamp',''),reverse=True)[:5000]
+    wjson('changelog.json',{'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_page_count':len(tracked),'entries':entries}); wjson('changelog_state.json',{'last_run_utc':datetime.now(timezone.utc).isoformat(),'new_entries':len(new),'tracked_page_count':len(tracked)}); return 0
+
+def main():
+    ap=argparse.ArgumentParser(); ap.add_argument('--mode'); a=ap.parse_args()
+    if a.mode=='recent_changes_watch': return watcher()
+    req=json.loads((ROOT/'request.json').read_text()); wjson('last_request.json',req)
+    mode=norm(a.mode or req.get('mode') or 'verify').replace(' ','_'); q=str(req.get('query') or req.get('title') or '').strip(); url=str(req.get('thread_url') or '').strip(); limit=int(req.get('limit') or 100)
+    if mode in {'verify','tower_verifier','article'}: return verify(q)
+    if mode=='history': return history(q)
+    if mode=='search': return search_mode(q)
+    if mode=='discussion': return discussion(url)
+    if mode in {'discussion_search','discussions_search'}: return discussion_search(q,limit)
+    if mode=='recent_changes': return recent_changes(limit)
+    if mode in {'recent_changes_watch','watch'}: return watcher()
+    raise ValueError('Unknown mode: '+mode)
+
+if __name__=='__main__':
+    try: raise SystemExit(main())
+    except Exception as e:
+        wjson('bridge_error.json',{'error':str(e),'type':type(e).__name__,'time_utc':datetime.now(timezone.utc).isoformat()}); raise
