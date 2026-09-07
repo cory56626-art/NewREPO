@@ -6,6 +6,7 @@ on:
       - tds-wiki-bridge
     paths:
       - "tds_bridge/request.txt"
+      - "tds_bridge/request_url.txt"
 
 permissions:
   contents: write
@@ -16,54 +17,119 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch requested TDS wiki page
+      - name: Fetch requested TDS wiki source
         shell: python
         run: |
-          import json, pathlib, urllib.parse, urllib.request
+          import html
+          import json
+          import pathlib
+          import re
+          import urllib.parse
+          import urllib.request
+          from html.parser import HTMLParser
 
-          title = pathlib.Path("tds_bridge/request.txt").read_text(encoding="utf-8").strip()
-          if not title:
-              raise SystemExit("request.txt is empty")
+          class TextExtractor(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.parts = []
+                  self.skip = 0
+              def handle_starttag(self, tag, attrs):
+                  if tag in {"script","style","noscript"}:
+                      self.skip += 1
+                  elif tag in {"p","div","li","br","h1","h2","h3","h4","article","section"}:
+                      self.parts.append("\n")
+              def handle_endtag(self, tag):
+                  if tag in {"script","style","noscript"} and self.skip:
+                      self.skip -= 1
+                  elif tag in {"p","div","li","h1","h2","h3","h4","article","section"}:
+                      self.parts.append("\n")
+              def handle_data(self, data):
+                  if not self.skip:
+                      self.parts.append(data)
 
-          params = urllib.parse.urlencode({
-              "action": "parse",
-              "page": title,
-              "prop": "wikitext",
-              "format": "json",
-          })
-          url = "https://tds.fandom.com/api.php?" + params
+          title_path = pathlib.Path("tds_bridge/request.txt")
+          url_path = pathlib.Path("tds_bridge/request_url.txt")
+          url = url_path.read_text(encoding="utf-8").strip() if url_path.exists() else ""
 
-          req = urllib.request.Request(
-              url,
-              headers={
-                  "User-Agent": "TDSWikiBridge/1.0 (GitHub Actions; read-only)",
-                  "Accept": "application/json",
-              },
-          )
+          if url:
+              if not url.startswith("https://tds.fandom.com/"):
+                  raise SystemExit("Only tds.fandom.com URLs are allowed")
+              req = urllib.request.Request(url, headers={
+                  "User-Agent":"Mozilla/5.0 TDSWikiBridge/2.0",
+                  "Accept":"text/html,application/xhtml+xml"
+              })
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  raw = r.read().decode("utf-8", "replace")
 
-          with urllib.request.urlopen(req, timeout=30) as r:
-              data = json.load(r)
+              pathlib.Path("tds_bridge/discussion_raw.html").write_text(raw, encoding="utf-8")
 
-          if "parse" not in data or "wikitext" not in data["parse"]:
-              raise SystemExit(json.dumps(data)[:1000])
+              parser = TextExtractor()
+              parser.feed(raw)
+              text = html.unescape("".join(parser.parts))
+              text = re.sub(r"[ \t]+", " ", text)
+              text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text).strip()
+              pathlib.Path("tds_bridge/discussion_text.txt").write_text(text, encoding="utf-8")
 
-          text = data["parse"]["wikitext"]["*"]
-          pathlib.Path("tds_bridge/result.txt").write_text(text, encoding="utf-8")
-          pathlib.Path("tds_bridge/meta.json").write_text(
-              json.dumps({
-                  "requested": title,
-                  "title": data["parse"].get("title"),
-                  "pageid": data["parse"].get("pageid"),
-                  "source": url,
-              }, indent=2),
-              encoding="utf-8",
-          )
+              # Also extract likely embedded JSON blobs that can contain posts/comments.
+              blobs = []
+              for m in re.finditer(r'<script[^>]+type=["\']application/json["\'][^>]*>(.*?)</script>', raw, re.S|re.I):
+                  s = html.unescape(m.group(1)).strip()
+                  if s:
+                      blobs.append(s)
+              pathlib.Path("tds_bridge/discussion_json.txt").write_text("\n\n---JSON---\n\n".join(blobs), encoding="utf-8")
 
-      - name: Commit fetched page
+              pathlib.Path("tds_bridge/meta.json").write_text(json.dumps({
+                  "mode":"discussion",
+                  "source":url,
+                  "bytes":len(raw),
+                  "json_blobs":len(blobs)
+              }, indent=2), encoding="utf-8")
+          else:
+              title = title_path.read_text(encoding="utf-8").strip()
+              if not title:
+                  raise SystemExit("request.txt is empty")
+
+              params = urllib.parse.urlencode({
+                  "action": "parse",
+                  "page": title,
+                  "prop": "wikitext",
+                  "format": "json",
+              })
+              url = "https://tds.fandom.com/api.php?" + params
+
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": "TDSWikiBridge/2.0 (GitHub Actions; read-only)",
+                      "Accept": "application/json",
+                  },
+              )
+
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  data = json.load(r)
+
+              if "parse" not in data or "wikitext" not in data["parse"]:
+                  raise SystemExit(json.dumps(data)[:1000])
+
+              text = data["parse"]["wikitext"]["*"]
+              pathlib.Path("tds_bridge/result.txt").write_text(text, encoding="utf-8")
+              pathlib.Path("tds_bridge/meta.json").write_text(
+                  json.dumps({
+                      "mode":"wiki",
+                      "requested": title,
+                      "title": data["parse"].get("title"),
+                      "pageid": data["parse"].get("pageid"),
+                      "source": url,
+                  }, indent=2),
+                  encoding="utf-8",
+              )
+
+      - name: Commit fetched source
         run: |
           git config user.name "tds-wiki-bridge[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tds_bridge/result.txt tds_bridge/meta.json
+          git add tds_bridge/result.txt tds_bridge/meta.json tds_bridge/discussion_raw.html tds_bridge/discussion_text.txt tds_bridge/discussion_json.txt 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Update TDS wiki bridge result"
+          git pull --rebase origin tds-wiki-bridge
           git push
