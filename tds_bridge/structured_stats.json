@@ -1,0 +1,214 @@
+{
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  },
+  "description": "The '''Accelerator''' is a hardcore tower that attacks in delayed bursts. It has a charge-up that happens before the burst and a cooldown that happens after the burst. During the burst, it can deal massive amounts of damage in a short period of time, but does no damage in between bursts. It can be purchased from the store for {{Gem|2,500}} and has a level requirement of {{Level|50}}.\n\nThe '''Accelerator''' must charge-up its plasma gun before it can attack enemies. During its attack, it will fire in quick, high-damaging bursts, remaining focused on one enemy until it is killed, leaves the '''Accelerator's''' range, or the overcharge ends. The '''Accelerator''' will deal a set amount of damage before cooling down with its left hand, indicating that the plasma gun has overcharged. After this, there will be a cooldown lasting a couple of seconds, after which it charges up again. The amount of damage needed for the '''Accelerator''' to overcharge can be seen above its tower icon in the upgrade box or when you hover your cursor over it. Damage can still go above this threshold, though the '''Accelerator''' will stop attacking immediately once it does so. For example, if the '''Accelerator''' deals 8,999 damage out of 9,000 and has 10 damage, it will deal 9,009 damage total in that burst, assuming the enemy it attacks has at least 10 health. The '''Accelerator''' can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 1.\n\nThe '''Accelerator''' is considered a mid to late-game tower because of its high damage capabilities, but extremely high cost. \n\nThe '''Accelerator''' has a placement limit of five per player. This is increased to eight in [[PVP]] mode.",
+  "upgrade_templates": [
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Extra Juice",
+        "Cost": "{{Money|2,000}}",
+        "Image": "[[File:AccelLevel1Icon.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Second Energy Canister",
+        "Cost": "{{Money|6,000}}",
+        "Image": "[[File:AccelLevel2Icon.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Powerhouse Armor",
+        "Cost": "{{Money|9,999}}",
+        "Image": "[[File:AccelLevel3Icon.png|100px]]",
+        "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Supercharger",
+        "Cost": "{{Money|27,500}}",
+        "Image": "[[File:AccelLevel4Icon.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Vessel Of Infinite Destruction",
+        "Cost": "{{Money|50,000}}",
+        "Image": "[[File:AccelLevel5Icon.png|100px]]",
+        "Information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Extra Juice",
+        "Cost": "{{Money|750}}",
+        "Image": "[[File:AccelLevel1Icon.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Second Energy Canister",
+        "Cost": "{{Money|2,000}}",
+        "Image": "[[File:AccelLevel2Icon.png|100px]]",
+        "Information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Powerhouse Armor",
+        "Cost": "{{Money|4,500}}",
+        "Image": "[[File:AccelLevel3Icon.png|100px]]",
+        "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Supercharger",
+        "Cost": "{{Money|12,000}}",
+        "Image": "[[File:AccelLevel4Icon.png|100px]]",
+        "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}"
+      },
+      "positional": [],
+      "level": null
+    },
+    {
+      "name": "Upgrade",
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Vessel Of Infinite Destruction",
+        "Cost": "{{Money|28,500}}",
+        "Image": "[[File:AccelLevel5Icon.png|100px]]",
+        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}"
+      },
+      "positional": [],
+      "level": null
+    }
+  ],
+  "infoboxes": [
+    {
+      "name": "TowerInfobox",
+      "params": {
+        "title": "Accelerator",
+        "image-static": "DefaultAcceleratorIcon2.png",
+        "image-dynamic": "AcceleratorDynamic.png",
+        "image-dynamic-start": "22",
+        "unlockcost": "{{Gem|2,500}}",
+        "levelrequirement": "{{Level|50}}",
+        "role": "Offense",
+        "placement": "Ground",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
+        "basecost": "{{Money|7,500}}",
+        "basesellingprice": "{{Money|2,500}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]12",
+        "damagetype": "Burst",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.25",
+        "baserange": "[[File:Range Icon.png|20px|Range]]19",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "N/A",
+        "immune": "None",
+        "footprint": "1.75",
+        "pvp_basecost": "{{Money|4,250}}",
+        "pvp_basesellingprice": "{{Money|1,416}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+        "pvp_damagetype": "Burst",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.2",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]18",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "N/A",
+        "pvp_immune": "None",
+        "pvp_footprint": "1.5",
+        "tooltip-1": "An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
+      },
+      "positional": []
+    }
+  ],
+  "likely_infobox": {
+    "name": "TowerInfobox",
+    "params": {
+      "title": "Accelerator",
+      "image-static": "DefaultAcceleratorIcon2.png",
+      "image-dynamic": "AcceleratorDynamic.png",
+      "image-dynamic-start": "22",
+      "unlockcost": "{{Gem|2,500}}",
+      "levelrequirement": "{{Level|50}}",
+      "role": "Offense",
+      "placement": "Ground",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
+      "basecost": "{{Money|7,500}}",
+      "basesellingprice": "{{Money|2,500}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]12",
+      "damagetype": "Burst",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.25",
+      "baserange": "[[File:Range Icon.png|20px|Range]]19",
+      "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "lead_detection": "{{Attr|Lead|Level 0+}}",
+      "flying_detection": "N/A",
+      "immune": "None",
+      "footprint": "1.75",
+      "pvp_basecost": "{{Money|4,250}}",
+      "pvp_basesellingprice": "{{Money|1,416}}",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+      "pvp_damagetype": "Burst",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.2",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]18",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+      "pvp_flying_detection": "N/A",
+      "pvp_immune": "None",
+      "pvp_footprint": "1.5",
+      "tooltip-1": "An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
+    },
+    "positional": []
+  },
+  "template_count": 318
+}

@@ -1,0 +1,15 @@
+{
+  "priority_rule": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  },
+  "potential_conflicts": [],
+  "notes": [
+    "Different upgrade levels can legitimately differ.",
+    "Current-level disagreements: Upgrade blocks and Description take priority."
+  ]
+}

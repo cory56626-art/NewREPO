@@ -1,80 +1,841 @@
-{{BuffInfobox
-|name = Damage Buff
-|image = Damage Buff.png
-|type = Buff
-|display = Tower
+{{Tabs}}
+{{For|[[Null Accelerator]]}}
+{{TowerInfobox
+|title = Accelerator
+|image-static = DefaultAcceleratorIcon2.png
+|image-dynamic = AcceleratorDynamic.png
+|image-dynamic-start = 22
+|unlockcost = {{Gem|2,500}}
+|levelrequirement = {{Level|50}}
+|role = Offense
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5
+|basecost = {{Money|7,500}}
+|basesellingprice = {{Money|2,500}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]12
+|damagetype = Burst
+|basefirerate = [[File:Cooldown Icon.png|20px|Tick]]0.25
+|baserange = [[File:Range Icon.png|20px|Range]]19
+|hidden_detection = {{Attr|Hidden|Level 1+}}
+|lead_detection = {{Attr|Lead|Level 0+}}
+|flying_detection = N/A
+|immune = None
+|footprint = 1.75
+|pvp_basecost = {{Money|4,250}}
+|pvp_basesellingprice = {{Money|1,416}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]10
+|pvp_damagetype = Burst
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Tick]]0.2
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]18
+|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
+|pvp_lead_detection = {{Attr|Lead|Level 0+}}
+|pvp_flying_detection = N/A
+|pvp_immune = None
+|pvp_footprint = 1.5
+|tooltip-1 = An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
 }}
-
+{{QuoteContainer|
+{{QuoteBox|Charge a laser and release massive damage at deadly rates!|Store Description}}
+}}
+__TOC__
 ==Description==
-The '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.
+The '''Accelerator''' is a hardcore tower that attacks in delayed bursts. It has a charge-up that happens before the burst and a cooldown that happens after the burst. During the burst, it can deal massive amounts of damage in a short period of time, but does no damage in between bursts. It can be purchased from the store for {{Gem|2,500}} and has a level requirement of {{Level|50}}.
 
-==Mechanics==
-'''Damage Buff''' range reduction is calculated as:
-::<big>'''Damage × (1 + Damage Buff)'''</big>
-:::where '''Damage Buff''' is the debuff supplied in decimal form (for example, 10% is 0.1).
+The '''Accelerator''' must charge-up its plasma gun before it can attack enemies. During its attack, it will fire in quick, high-damaging bursts, remaining focused on one enemy until it is killed, leaves the '''Accelerator's''' range, or the overcharge ends. The '''Accelerator''' will deal a set amount of damage before cooling down with its left hand, indicating that the plasma gun has overcharged. After this, there will be a cooldown lasting a couple of seconds, after which it charges up again. The amount of damage needed for the '''Accelerator''' to overcharge can be seen above its tower icon in the upgrade box or when you hover your cursor over it. Damage can still go above this threshold, though the '''Accelerator''' will stop attacking immediately once it does so. For example, if the '''Accelerator''' deals 8,999 damage out of 9,000 and has 10 damage, it will deal 9,009 damage total in that burst, assuming the enemy it attacks has at least 10 health. The '''Accelerator''' can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 1.
 
-The damage increased by the '''Damage Buff''' will always round down to the nearest integer. For example, a tower that deals 5 damage with a 50% '''Damage Buff''' will deal 7 damage, instead of 7.5.
+The '''Accelerator''' is considered a mid to late-game tower because of its high damage capabilities, but extremely high cost. 
 
-Multiple towers are not fully affected by the buff. A full list of towers affected fully, partially or that are unaffected can be found below.
-{{DamageBuff}}
+The '''Accelerator''' has a placement limit of five per player. This is increased to eight in [[PVP]] mode.
 
-==Applied By==
-The following towers or consumables can apply the '''Damage Buff''' to other towers or itself:
-*[[DJ Booth]] (Passive)
-*[[Mercenary Base]] (Passive)
-*[[Damage Flag]] (Passive)
-*[[War Machine]] (Passive)
-*[[Medic]] (''Ubercharge'' ability)
-*[[Warden]] (When parrying)
+==Upgrades==
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Extra Juice|Cost = {{Money|2,000}}|Image = [[File:AccelLevel1Icon.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
 
-The following event features can apply the '''Damage Buff''' to towers:
++Hidden Detection {{Hidden|Hidden Detection}}
 
-* [[Justice]] (Passive, [[Null & Void Event|Null & Void]])
-* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])
+9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
 
-The following towers used to have the '''Damage Buff''':
-*{{Color|Golden}} [[Crook Boss]] (Passive)
-*{{Color|Golden}} [[Minigunner]] (Passive)
-*{{Color|Golden}} [[Pyromancer]] (Passive)
-*{{Color|Golden}} [[Scout]] (Passive)
-*{{Color|Golden}} [[Cowboy]] (Passive)
-*[[Militant|John]] (''Enraging Shout'' ability)
-*[[Slasher|Shredder]] (''Knife Throw'' ability)
-*[[Cowboy]] (''Wildest of the West and Gold Rush'' abilities'')''
-*[[Gladiator]] (''Sharp Edge'' ability'')''
 
-The following tower used to apply the '''Damage Buff''' to other towers:
-*[[Militant|John]] (''Enraging Shout'' ability)
+Sell Price changes to {{Money|3,166}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Second Energy Canister|Cost = {{Money|6,000}}|Image = [[File:AccelLevel2Icon.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-The following removed towers had the '''Damage Buff''':
-*{{Color|Platinum}} [[Crook Boss]] (Passive)
-*{{Color|Platinum}} [[Minigunner]] (Passive)
++10 Damage [[File:Damage Icon.png|20px|Damage]]
 
-==Gallery==
-{{Gallery|
-{{GalleryHeader|Buff icon}}
-<gallery>
-Stronger_Bullets.png|First icon (14 June 2019 – 29 October 2020)
-</gallery>
+11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+
+Sell Price changes to {{Money|5,166}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Powerhouse Armor|Cost = {{Money|9,999}}|Image = [[File:AccelLevel3Icon.png|100px]]|Information = +15 Damage [[File:Damage Icon.png|20px|Damage]]
+
+18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+
+Sell Price changes to {{Money|8,499}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Supercharger|Cost = {{Money|27,500}}|Image = [[File:AccelLevel4Icon.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+
+0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]
+
++10 Damage [[File:Damage Icon.png|20px|Damage]]
+
+30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+
+Sell Price changes to {{Money|17,666}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Vessel Of Infinite Destruction|Cost = {{Money|50,000}}|Image = [[File:AccelLevel5Icon.png|100px]]|Information = 0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]
+
++1.5 Range [[File:Range Icon.png|20px|Range]]
+
++10 Damage [[File:Damage Icon.png|20px|Damage]]
+
+50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+
+Sell Price changes to {{Money|34,333}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Extra Juice|Cost = {{Money|750}}|Image = [[File:AccelLevel1Icon.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
+
+Sell Price changes to {{Money|1,666}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Second Energy Canister|Cost = {{Money|2,000}}|Image = [[File:AccelLevel2Icon.png|100px]]|Information = 300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+
+Sell Price changes to {{Money|2,333}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Powerhouse Armor|Cost = {{Money|4,500}}|Image = [[File:AccelLevel3Icon.png|100px]]|Information = +17 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+Sell Price changes to {{Money|3,833}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Supercharger|Cost = {{Money|12,000}}|Image = [[File:AccelLevel4Icon.png|100px]]|Information = -2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]
+
+600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+
+Sell Price changes to {{Money|7,833}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Vessel Of Infinite Destruction|Cost = {{Money|28,500}}|Image = [[File:AccelLevel5Icon.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+
++44 Damage [[File:Damage Icon.png|20px|Damage]]
+
+1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+
+
+Sell Price changes to {{Money|17,333}}}}
 }}
+
+==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+
+{{neow|<nowiki>
+<var>
+$DPS$ = Overcharge / (Charge-Up + Cooldown + (Overcharge / Damage * Tick))
+$CE$ = Total Cost / DPS
+$TP$ = $FNC-TOTAL-COST$
+$COST$ = 7500; 2000; 6000; 9999; 27500; 50000
+$PVP-COST$ = 4250; 750; 2000; 4500; 12000; 28500
+$FSE-DETECTION$ = 1; 0; ;
+$FSE-UPGRADE$ = Extra Juice; Second Energy Canister; Powerhouse Armor; Supercharger; Vessel Of Infinite Destruction
+$FSE-UPGRADEICON$ = 11821094308; 11821094198; 11821093989; 11821093828; 11821093672
+$FSE-META$ = Hardcore; File:DefaultAcceleratorIcon2.png
+$CUREF$ = <ref name="charge">The Charge-Up happens when the '''Accelerator''' first starts attacking or its cooldown ends. This is indicated by an animation where the '''Accelerator''' charges up its plasma gun.</ref>
+$CREF$ = <ref name="cooldown">The Cooldown happens when the Overcharge occurs. This is indicated by an animation where the '''Accelerator''' waves its hand.</ref>
+$DREF$ = <ref name="dps">DPS is calculated as Overcharge ÷ (Charge-Up + Cooldown + [Overcharge ÷ Damage x Tick]).</ref>
+$R$ = $FNC-RECURSION$
+</var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! Damage !! Tick !! Charge-Up$CUREF$ !! Cooldown$CREF$ !! Overcharge !! Range !! DPS$DREF$ !! Cost Efficiency
+|-
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || 0.25 || 6.5 || 2.5 || 9,000 || 19 || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 15 || 0.25 || 6.5 || 2.5 || 11,250 || 19 || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 25 || 0.25 || 5.5 || 2.5 || 18,750 || 21 || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 40 || 0.25 || 4 || 1 || 30,000 || 21 || $DPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 50 || 0.175 || 2.5 || 1 || 50,000 || 22.5 || $DPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ ||$R$ || 60 || 0.125 || 1.5 || 1 || 100,000 || 24 || $DPS$ || {{Money|$CE$}}
+|}
+</div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost || Total Cost !! Damage !! Tick !! Charge-Up$CUREF$ !! Cooldown$CREF$ !! Overcharge !! Range !! DPS$DREF$ !! Cost Efficiency
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 0.2 || 2.5 || 2 || 300 || 18 || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 13 || 0.2 || 2.5 || 2 || 300 || 18 || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 13 || 0.2 || 2.5 || 2 || 600 || 18 || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 30 || 0.15 || 2.5 || 2 || 600 || 20 || $DPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 28 || 0.1 || 1.5 || 2 || 1,280 || 20 || $DPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 72 || 0.1 || 1.5 || 2 || 2,400 || 23 || $DPS$ || {{Money|$CE$}}
+|}
+</div>
+</tabber></div>
+</nowiki>}}
+
+==Skins==
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:MageAcceleratorIcon2.png|175px]]
+|[[File:EclipseAcceleratorIcon.png|175px]]
+|[[File:CupidAcceleratorIcon.png|175px]]
+|[[File:IceWitchAcceleratorIcon2.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Mage}}
+|{{Color|Eclipse|Eclipse}}
+|{{Color|Lovely|Cupid}}
+|{{Color|ColdFront|Ice Witch}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Robux|360}}
+|N/A
+|{{Coins|7,000}}
+|{{Coins|6,000}}
+|-
+!Obtained From
+|[[Deluxe Crate]]
+|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
+|[[Cold Front Crate]]
+|-
+!
+|[[File:NavyAcceleratorIcon.png|175px]]
+|[[File:RedAcceleratorIcon.png|175px]]
+|[[File:DuckyAcceleratorIcon.png|175px]]
+|[[File:VigilanteAcceleratorIcon.png|175px]]
+|-
+!Skin
+|{{Color|Basic|Navy}}
+|{{Color|Basic|Red}}
+|{{Color|Ducky|Ducky}}
+|{{Color|Vigilante|Vigilante}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|1,000}}
+|{{Coins|1,000}}
+|{{Coins|4,500}}
+|{{Coins|7,000}}
+|-
+!Obtained From
+|[[Basic Crate]]
+|[[Basic Crate]]
+|[[Ducky Crate]]
+|[[Vigilante Crate]]
+|-
+!
+|[[File:PlushieAccelIcon.png|175px]]
+|[[File:GhostBusterAcceleratorIcon.png|175px]]
+|[[File:LegendAcceleratorSkin.png|175px]]
+|[[File:YTAccelIcon.png|175px]]
+|-
+!Skin
+|{{Color|Other|Plushie}}
+|{{Color|Halloween|Ghost Buster}}
+|{{Color|Krampus|Legend}}
+|{{Color|ContentCreator|Elite}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Exclusive}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|5,000}}
+|N/A
+|{{Coins|4,500}}
+|-
+!Obtained From
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Accelerator Plush]] or [[Mini Accelerator Plush]].</ref>
+|[[Halloween Crate]]
+|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|-
+!
+|[[File:Speakeraccel.png|175px]]
+|[[File:NuclearAccelIcon.png|175px]]
+|[[File:SenatorAccelIcon.png|175px]]
+|[[File:DanksAcceleratorIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Speaker Titan}}
+|{{Color|Mission|Nuclear}}
+|{{Color|StarWars|Senator}}
+|{{Color|ContentCreator|Dank}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Robux|560}}
+|N/A
+|{{Coins|5,000}}
+|{{Coins|4,500}}
+|-
+!Obtained From
+|[[Deluxe Crate]]
+|''Hazardous Haste'' [[Mission Quests|Mission Quest]]
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|-
+!
+|[[File:FallenAcceleratorIconIG.png|175px]]
+|[[File:PatientZeroAcceleratorIcon.png|175px]]
+|[[File:DiscoAcceleratorIconIG.png|175px]]
+|[[File:OctopusAcceleratorIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FallenMission|Fallen}}
+|{{Color|Other|Patient Zero}}
+|{{Color|Hexscape|Disco}}
+|{{Color|Surf|Octopus}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Exclusive}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|''Dark Radiance'' [[Mission Quests|Mission Quest]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Patient Zero Mini Plush]].</ref>
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
+|-
+!
+|[[File:ChampionAcceleratorIconIG.png|175px]]
+|[[File:MagicianAcceleratorIconIG.png|175px]]
+|[[File:BunnyAcceleratorIconIG.png|175px]]
+|[[File:VoidAcceleratorIconIG.png|175px]]
+|-
+!Skin
+|{{Color|PVP|Champion}}
+|{{Color|Showtime|Magician}}
+|{{Color|SpringFrenzy|Bunny}}
+|{{Color|Void}}
+|-
+!Rarity
+|{{Color|Ultimate}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|General III of [[PVP Season 0]]
+|[[Showtime Crate]]
+|[[Spring Frenzy Battle Pass]]
+|[[Void Crate]]
+|-
+!
+|[[File:BeachAcceleratorIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Beach}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|-
+!Daily Store Cost
+|{{Coins|5,250}}
+|-
+!Obtained From
+|[[Beach Crate]]
+|}
+
+==Strategy==
+*Multiple Level 2 '''Accelerators''' are a cost-efficient way to get through the mid-game, as their DPS is usually high enough to deal with most mid-game enemies.
+**The [[Farm]] or other towers that generate income like the [[Golden Cowboy]] are strongly recommended, as the '''Accelerator's''' upgrades are very expensive, especially its later upgrades. To further decrease the cost of '''Accelerator's''' upgrades, the [[DJ Booth]] is a very great choice due to its discount buff.
+*The '''Accelerator''' has a very long overcharge before having to recharge, therefore buffs from the [[Commander]], [[DJ Booth]], [[Medic]] or [[Mercenary Base]] are usually fully effective on it.
+**The [[DJ Booth]]'s purple track can still be helpful in boosting its already massive range.
+*The '''Accelerator's''' lock-on mechanic can be a disadvantage. For example, if the '''Accelerator''' locks onto a strong enemy like the [[Fallen Giant]], it will stay locked on until the strong enemy is defeated, leaves its range or the '''Accelerator''' charges up again.
+**This can result in the '''Accelerator''' leaking other enemies while it is distracted, therefore it is highly recommended to bring other towers to deal with such.
+*The '''Accelerator's''' lengthy charge-up and cooldown times hinder it greatly, with enemies getting out of range before the '''Accelerator''' can defeat them in the worst cases. It is important to utilize other towers alongside the '''Accelerator''' to prevent any potential leaks.
+**Due to this and other factors, such as its high cost, it is generally infeasible to use the '''Accelerator''' in the early game, with its sluggish charge-up at lower levels resulting in some fast enemies leaking.
+*The '''Accelerator''' should be allowed to cover large amounts of the path to maximize its DPS. The [[DJ Booth]] and [[Ranger]] are especially great in this regard for boosting the '''Accelerator's''' range.
+*Slowing towers like the [[Electroshocker]] or [[Cryomancer]] can be used to support the '''Accelerator''', slowing the enemy down and giving the '''Accelerator''' enough time to charge-up and attack them.
+
+==Trivia==
+*The '''Accelerator''' is loosely based on the [[w:c:clashroyale:Sparky|Sparky]] from ''Clash Royale''.
+**The '''Accelerator's''' plasma gun is loosely based on the [[w:c:half-life:Gluon Gun|Gluon Gun]] from ''Half-Life''.
+*Prior to the 12th of March 2022, the '''Accelerator''' was the only tower that could receive cash from summoned enemies.
+**After the update, the '''Accelerator''' is no longer able to receive cash from these enemies in most gamemodes.
+*The '''Accelerator''' used to have hidden detection at Level 0; however, as of the [[v1.8.4|Unwavering Tides Update]] this is no longer the case.
+**Currently, the [[Golden Pyromancer]] and [[Turret]] are the only towers with hidden detection at Level 0.
+**Prior to the [[Overhaul v1.0|Overhaul Update]], the only towers to have hidden detection at Level 0 were the [[Ranger|Outlaw]] and [[Paintballer]].
+*The current '''Accelerator''' Level 5 upgrade name is an acronym for the word "VOID" (<u>'''V'''</u>essel <u>'''O'''</u>f <u>'''I'''</u>nfinite <u>'''D'''</u>estruction).
+**This name may be a tribute to the Level 5 upgrade name used before the 5th of May 2023, "''Energy from the Void''".
+*The '''Accelerator''' was initially planned to be the reward for the original [[Polluted Wasteland]] map before it was turned into a [[Hardcore Mode|Hardcore]] tower.
+*The '''Accelerator''' was originally intended to have drones that also fired plasma beams.
+**The drones can be seen on some images released around the release of [[Hardcore Testing BETA]], such as the icon used for Tower Defense Simulator at the time.
+*Prior to the [[Overhaul v1.3|Frost Invasion Update]], it was possible to see some of the '''Accelerator's''' statistics from private testing sessions in the lobby. These were:
+**Damage: 3
+**Firerate: 0.2
+**Range: 18
+**Placement limit: 5
+*Prior to the 5th of May 2023, the '''Accelerator''' had its damage statistic vary per firerate.
+**The '''Accelerator''' was originally supposed to increase its damage over time by gaining a [[Damage Buff]].
+***This was most likely changed because the '''Accelerator''' would have been very similar to the [[w:c:roblox-tower-battles:Phaser|Phaser]] from ''Tower Battles''.
+*The '''Accelerator''' likes to eat hamburgers only on Monday and Fridays, as revealed by the [[Narrator (Narrator)|Narrator]] in his annoyance, which is then confirmed by the [[Commander (Narrator)|Commander]].
+**In [[The Final Act Event]] opening cutscene, the '''Accelerator''' is also shown preparing to eat a hamburger too.
 
 ==Update History==
-*'''14 June 2019''' - [[BETA v1.1|BETA v1.1.0]]
-**'''Damage Buff''' added.
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
-**'''Damage Buff''' updated, now it can affect far more than just the base damage of the tower.
-**Icon changed.
-**Now displayed on the tower rather than in the upgrade menu.
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{scroll|text =
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**'''Accelerator''' added.
+**{{Bug}} '''Accelerator''' can gain cash from summoned enemies.
+**{{Bug}} While stunned, '''Accelerator''' will still charge up, but performs its cooldown animation immediately after.
+**Removed skin: {{Color|Premium|Hazmat}}
+*'''4 July 2021''' - [[Overhaul v1.4|Overhaul v1.4.0]]
+**New skin: {{Color|Deluxe|Mage}}
+*'''4 December 2021''' - [[v1.0.0]]
+**New skin: {{Color|Eclipse|Eclipse}}
+*'''13 February 2022''' - [[v1.0.2]]
+**New skin: {{Color|SeasonOfLove|Cupid}}
 *'''12 March 2022''' - [[v1.1.0]]
-**Particles now appear when activated.
-*'''29 March 2024''' - [[v1.17.0]]
-**{{Bug}} Damage buff indicators are sunk into the ground.
-*'''10 May 2024''' - [[v1.19.2]]
-**{{Bugfix}} Damage buff indicators are no longer sunk into the ground.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Tick decreased from 0.23 to 0.225.
+***'''Level 4'''
+****Tick changed from {{Tooltip|0.23 > 0.13|-0.1}} to {{Tooltip|0.225 > 0.125|-0.1}}.
+***'''Level 5'''
+****Tick changed from {{Tooltip|0.13 > 0.08|-0.05}} to {{Tooltip|0.125 > 0.075|-0.05}}.
+**{{Bugfix}} '''Accelerator''' can no longer gain cash from summoned enemies.
+*'''29 July 2022'''
+**{{Bug}} When affected by the [[Scared Debuff]], the '''Accelerator''' will not stop attacking the enemy it was targeting, even if the [[Scared Debuff]] caused the enemy to be out of range.
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to all skins.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 10 to 8.
+****Range increased from 12 to 13.
+****Burst Time increased from 4 to 6.
+****Charge-Up decreased from 4 to 3.
+***'''Level 2'''
+****Burst Time changed from {{Tooltip|4 > 6.5|+2.5}} to {{Tooltip|6 > 8.5|+2.5}}.
+***'''Level 3'''
+****Damage increased from +6 to +7.
+***'''Level 5'''
+****Cost increased from {{Money|25,000}} to {{Money|30,000}}.
+****Damage increased from +9 to +20.
+****Range decreased from +2 to +1.
+****Tick changed from {{Tooltip|0.125 > 0.075|-0.05}} to 0.125.
+****Burst Time changed from {{Tooltip|6.5 > 12|+5.5}} to {{Tooltip|8.5 > 12|+3.5}}.
+****Charge-Up changed from {{Tooltip|4 > 2|-2}} to {{Tooltip|3 > 2|-1}}.
+*'''14 February 2023''' - [[v1.6.2]]
+**{{Color|Lovely|Cupid}} skin rarity changed from {{Color|Event}} to {{Color|Legendary}}.
+**New skin: {{Color|ColdFront|Ice Witch}}
+*'''5 May 2023''' - [[v1.7.2]]
+**Damage values no longer fluctuate.
+**Burst Time replaced with Overcharge.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|3,500}} to {{Money|4,250}}.
+****Damage increased from 6-8 to 10.
+****Range increased from 13 to 17.5.
+****Overcharge of 180 added, replacing Burst Time.
+***'''Level 1'''
+****Cost increased from {{Money|600}} to {{Money|800}}.
+****Damage increased from +0 to +4
+****Range decreased from +3 to +0.
+****Name changed from ''Focused Aiming'' to ''Extra Juice''.
+***'''Level 2'''
+****Cost increased from {{Money|1,200}} to {{Money|1,350}}.
+****Overcharge change of 180 > 280 added.
+****Burst Time change of 6 > 8.5 removed.
+****Name changed from ''Extra Juice'' to ''Second Energy Canister''.
+***'''Level 3'''
+****Cost increased from {{Money|3,200}} to {{Money|3,300}}.
+****Damage increased from +7 to +11.
+****Overcharge change of 280 > 425 added.
+***'''Level 4'''
+****Cost increased from {{Money|9,500}} to {{Money|10,000}}.
+****Damage increased from +0 to +11.
+****Range decreased from +3 to +0.
+****Tick changed from {{Tooltip|0.225 > 0.125|-0.1}} to 0.225.
+****Overcharge change of 425 > 1,080 added.
+****Name changed from ''Super Charged'' to ''Supercharger''.
+***'''Level 5'''
+****Damage decreased from +20 to +14.
+****Range increased from +1 to +5.
+****Tick changed from 0.125 to {{Tooltip|0.225 > 0.125|-0.1}}.
+****Overcharge change of 1,080 > 3,000 added.
+****Burst Time change of 8.5 > 12 removed.
+****Name changed from ''Energy From The Void..'' to ''Vessel Of Infinite Destruction''.
+**New skins: {{Color|Basic|Navy}}, {{Color|Basic|Red}}
+**{{Bug}} '''Accelerator's''' Overcharge does not increase if it is dealing damage to an enemy's health that was regenerated from the [[Toxic]]'s and [[Super Toxic]]'s ''Acid Bath'' puddles.
+**{{Bug}} [[Damage Buff]]s do not increase the '''Accelerator's''' damage.
+*'''12 May 2023''' - [[v1.7.3]]
+**New skin: {{Color|Ducky|Ducky}}
+*'''24 June 2023''' - [[v1.8.2]]
+**New skin: {{Color|Vigilante|Vigilante}}
+*'''5 August 2023''' - [[v1.8.4]]
+**Statistical changes:
+***'''Base'''
+****Hidden detection moved to Level 1.
+***'''Level 1'''
+****Damage increased from +4 to +5.
+****Hidden detection added.
+***'''Level 2'''
+****Overcharge changed from 180 > 280 to 180 > 375.
+***'''Level 3'''
+****Damage decreased from +11 to +10.
+****Overcharge changed from 280 > 425 to 375 > 625.
+***'''Level 4'''
+****Damage increased from +11 to +20.
+****Overcharge changed from 425 > 1,080 to 625 > 1,350.
+***'''Level 5'''
+****Damage decreased from +14 to +5.
+****Range decreased from +5 to +2.5.
+****Overcharge changed from 1,080 > 3,000 to 1,350 > 3,000.
+****Cost increased from {{Money|30,000}} to {{Money|34,000}}.
+*'''22 September 2023''' - [[v1.8.5]]
+**New skin: {{Color|Other|Plushie}}
+*'''28 October 2023''' - [[v1.9.0]]
+**New skin: {{Color|Halloween|Ghost Buster}}
+**{{Bug}} '''Accelerator''' will lock on the enemy even out of range, however it doesn't deal damage.
+**{{Bug}} '''Accelerator''' does not generate cash properly in [[Lunar Overture Event]].
+*'''28 October 2023''' - [[v1.9.0]]a
+**{{Bugfix}} '''Accelerator''' no longer locks on the enemy outside of it's range.
+*'''31 October 2023''' - [[v1.9.0]]h
+**{{Bugfix}} '''Accelerator''' now generates cash properly in [[Lunar Overture Event]].
+*'''21 December 2023''' - [[v1.11.0]]
+**New skin: {{Color|Krampus|Legend}}
+*'''28 January 2024''' - [[v1.12.0]]
+**New skin: {{Color|ContentCreator|Elite}}
+*'''1 April 2024''' - [[v1.17.2]]
+**New skin: {{Color|Deluxe|Speaker Titan}}
+**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin cannot be equipped in the intermission lobby.
+**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin breaks the tower icon and stats in the tower hotbar.
+**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin when sold still blocks placement in the area it was placed in.
+*'''1 April 2024''' - [[v1.17.2]]a
+**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} skin can now be equipped in the intermission lobby.
+**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} skin tower icon and stats no longer break in the tower hotbar.
+**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} no longer block placement in the area it was placed in when sold.
+*'''5 April 2024''' - [[v1.18.0]]
+**Statistical changes:
+***'''Level 2'''
+****Overcharge changed from 180 > 375 to 180 > 300.
+***'''Level 3'''
+****Cost increased from {{Money|3,300}} to {{Money|4,000}}.
+****Damage decreased from +10 to +5.
+****Overcharge changed from 375 > 625 to 300 > 600.
+***'''Level 4'''
+****Cost increased from {{Money|10,000}} to {{Money|10,500}}.
+****Damage decreased from +20 to +10.
+****Tick changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Overcharge changed from 625 > 1,350 to 600 > 1,200.
+***'''Level 5'''
+****Damage increased from +5 to +15.
+****Tick changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.175 > 0.125|-0.05}}.
+****Overcharge changed from 1,350 > 3,000 to 1,200 > 3,600.
+**New skin: {{Color|Mission|Nuclear}}
+*'''26 April 2024''' - [[v1.19.2]]
+**{{Bugfix}} '''Accelerator''' is now affected by [[Damage Buff]]s.
+*'''3 May 2024''' - [[v1.20.0]]
+**{{Bug}} Damage dealt to [[Bloated]] enemies sometimes does not fill up the overcharge meter.
+*'''4 May 2024''' - [[v1.20.0]]a
+**New skin: {{Color|Deluxe|Senator}}
+*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
+**{{Bug}} {{Color|ColdFront|Ice Witch}} skin cannot be upgraded and sold.
+*'''23 May 2024''' - [[v1.23.0]]
+**{{Bug}} Damage no longer generates cash in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
+**{{Bugfix}} {{Color|ColdFront|Ice Witch}} skin can now be upgraded and sold.
+**{{Bugfix}} '''Accelerator''' no longer tries to charge-up while stunned.
+**{{Bugfix}} '''Accelerator''' will no longer keep on targeting enemies which due to having its range reduced through debuffs, are no longer in its range.
+*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
+**{{Bugfix}} Damage now generates cash properly in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
+*'''19 July 2024''' - [[v1.26.0]]
+**New skin: {{Color|ContentCreator|Dank}}
+*'''9 August 2024''' - [[v1.27.5]]
+**New skin: {{Color|FallenMission|Fallen}}
+*'''25 September 2024''' - [[v1.33.0]]
+**New skin: {{Color|Other|Patient Zero}}
+*'''11 October 2024'''- [[v1.35.0]]a
+**{{Bug}} Statistical changes made in [[TDS Experimental]] have been moved over to the main game
+*'''11 October 2024'''- [[v1.35.0]]b
+**{{Bugfix}} '''Accelerator''' no longer uses [[TDS Experimental]] stats, though the lobby still used incorrect statistics.
+*'''11 October 2024'''- [[v1.35.0]]c
+**{{Bugfix}} '''Accelerator''' no longer uses [[TDS Experimental]] stats on the lobby.
+*'''16 October 2024''' - [[v1.36.0]]
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|4,250}} to {{Money|5,000}}.
+****Damage increased from 10 to 12.
+****Overcharge increased from 180 to 240.
+****Charge-Up decreased from 3 to 2.5.
+****Cooldown increased from 2 to 2.5.
+***'''Level 1'''
+****Cost increased from {{Money|800}} to {{Money|1,200}}.
+****Damage increased from +5 to +8.
+***'''Level 2'''
+****Cost increased from {{Money|1,350}} to {{Money|2,250}}.
+****Range increased from +0 to +1.5.
+****Overcharge changed from 180 > 300 to 240 > 420.
+***'''Level 3'''
+****Damage increased from +5 to +10.
+****Overcharge changed from 300 > 600 to 420 > 600.
+***'''Level 4'''
+****Cost decreased from {{Money|10,500}} to {{Money|9,500}}.
+****Damage decreased from +10 to +0.
+****Range increased from +0 to +1.5.
+****Overcharge changed from 600 > 1,200 to 600 > 1,050.
+****Charge-Up changed from 3 to {{Tooltip|2.5 > 1.5|-1}}.
+***'''Level 5'''
+****Cost decreased from {{Money|34,000}} to {{Money|30,000}}.
+****Damage decreased from +15 to +10.
+****Range decreased from +2.5 to +1.5.
+****Overcharge changed from 1,200 > 3,600 to 1,050 > 4,800.
+*****{{Bug}} Incorrectly listed as 4,600 in the upgrade description.
+*'''23 October 2024''' - [[v1.37.0]]
+**{{Bug}} '''Accelerator''' has received the following statistical changes:
+***'''Level 3'''
+****Overcharge changed from 420 > 600 to 420 > 750.
+***'''Level 4'''
+****Damage decreased from +0 to -5.
+****Overcharge changed from 600 > 1,050 to 750 > 1,050.
+***'''Level 5'''
+****Damage increased from +10 to +15.
+**New skin: {{Color|Hexscape|Disco}}
+*'''24 October 2024''' - [[v1.37.0|v1.37.3]]
+**{{Bugfix}} '''Accelerator''' now uses the correct statistics.
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+*'''28 May 2025''' - [[v1.65.0]]
+**{{Bugfix}} Level 5 now correctly lists overcharge as 4,800.
+*'''11 June 2025''' - [[v1.67.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|5,000}} to {{Money|4,500}}.
+****Damage decreased from 12 to 10.
+****Range increased from 17.5 to 18.
+****Overcharge increased from 240 to 300.
+***'''Level 1'''
+****Cost decreased from {{Money|1,200}} to {{Money|1,000}}.
+****Damage decreased from +8 to +5.
+***'''Level 2'''
+****Cost increased from {{Money|2,250}} to {{Money|2,500}}.
+****Range increased from +1.5 to +2.
+****Overcharge changed from 240 > 420 to 300 > 600.
+*****{{Bug}} This is repeated for Level 3.
+***'''Level 3'''
+****Cost increased from {{Money|4,000}} to {{Money|4,750}}.
+****Damage increased from +10 to +25.
+****Overcharge changed from 420 > 600 to 600.
+***'''Level 4'''
+****Cost increased from {{Money|9,500}} to {{Money|11,250}}.
+****Range increased from +1.5 to +2.5
+****Overcharge changed from 600 > 1,050 to 600 > 1,280.
+***'''Level 5'''
+****Cost increased from {{Money|30,000}} to {{Money|36,000}}.
+****Damage increased from +10 to +60.
+****Range increased from +1.5 to +2.5.
+****Overcharge changed from 1,050 > 4,800 to 1,280 > 2,400.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Octopus}}
+**{{Bug}} {{Color|Surf|Octopus}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Octopus}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
+*'''23 July 2025''' - [[v1.71.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|4,500}} to {{Money|3,000}}.
+****Cooldown decreased from 2.5 to 2.
+***'''Level 1'''
+****Cost decreased from {{Money|1,000}} to {{Money|750}}.
+***'''Level 2'''
+****Cost decreased from {{Money|2,500}} to {{Money|2,125}}.
+***'''Level 3'''
+****Cost decreased from {{Money|4,750}} to {{Money|3,250}}.
+****Damage decreased from +25 to +20.
+***'''Level 4'''
+****Cost decreased from {{Money|11,250}} to {{Money|8,250}}.
+***'''Level 5'''
+****Cost decrased from {{Money|36,000}} to {{Money|30,000}}.
+****Damage decreased from +60 to +55.
+**New skin: {{Color|PVP|Champion}}
+*'''6 August 2025''' - [[v1.72.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost increased from {{Money|3,000}} to {{Money|4,250}}.
+****Damage increased from 10 to 12.
+***'''Level 1'''
+****Damage decreased from +5 to +3.
+***'''Level 2'''
+****Cost decreased from {{Money|2,125}} to {{Money|2,000}}.
+****Range decreased from +2 to +0.
+***'''Level 3'''
+****Cost increased from {{Money|3,250}} to {{Money|4,500}}.
+****Tick changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Range increased from +0 to +2.
+***'''Level 4'''
+****Cost increased from {{Money|8,250}} to {{Money|12,000}}.
+****Tick changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
+****Range increased from +2.5 to +0.
+***'''Level 5'''
+****Cost decreased from {{Money|30,000}} to {{Money|28,500}}.
+*'''20 December 2025''' - [[v1.83.0]]
+**New skin: {{Color|Showtime|Magician}}
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement footprint size increased from 1.5 to 1.75.
+**Placement limit decreased from 8 to 5.
+**[[Stun Immunity]] added.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
+****Damage increased from 10 to 12.
+****Range increased from 18 to 20.
+****Overcharge increased from 300 to 9,000.
+****Charged-Up increased from 2.5 to 6.5.
+***'''Level 1'''
+****Cost increased from {{Money|1,000}} to {{Money|2,000}}.
+****Damage increased from +5 to +8.
+****Overcharge changed from 300 to 9,000 > 11,250
+***'''Level 2'''
+****Cost Increased from {{Money|2,500}} to {{Money|4,800}}.
+****Damage increased from +0 to +5.
+****Overcharge changed from 300 > 600 to 11,250 > 18,750.
+***'''Level 3'''
+****Cost increased from {{Money|4,750}} to {{Money|9,999}}.
+****Damage decreased from +25 to +15.
+****Overcharge changed from 600 to 18,750 > 30,000.
+****Cooldown changed from 2.5 to 2.5 > 1.
+***'''Level 4'''
+****Cost increased from {{Money|11,250}} to {{Money|30,000}}.
+****Damage increased from +0 to +10.
+****Range decreased from +2.5 to +2.
+****Overcharge changed from 600 > 1,280 to 30,000 > 50,000
+****Charge-Up time changed from 2.5 > 1.5 to 6.5 > 5.5.
+***'''Level 5'''
+****Cost increased from {{Money|36,000}} to {{Money|67,500}}.
+****Damage decreased from +60 to +5.
+****Range decreased from +2.5 to +2.
+****Overcharge changed from 1,280 > 2,400 to 50,000 > 100,000.
+****Charge-Up time changed from 1.5 to 5.5 > 6.5.
+*'''11 February 2026''' - [[v1.85.0]]
+**[[Freeze Immunity]] added.
+**Statistical changes (Regular):
+***'''Level 1'''
+****Damage decreased from +8 to +3.
+***'''Level 2'''
+****Cost increased from {{Money|4,800}} to {{Money|6,000}}.
+***'''Level 4'''
+****Cost decreased from {{Money|30,000}} to {{Money|27,500}}.
+***'''Level 5'''
+****Cost decreased from {{Money|67,500}} to {{Money|60,000}}.
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Bunny}}
+*'''22 April 2026''' - [[v1.89.0]]
+**Statistical changes (regular):
+***'''Base'''
+****Tick increased from 0.225 to 0.25.
+****Range decreased from 20 to 19.
+****[[Freeze Immunity]] removed, moved to Level 2.
+***'''Level 2'''
+****[[Freeze Immunity]] added, moved from Level 0.
+***'''Level 4'''
+****Tick changed from {{Tooltip|0.225 > 0.175|-0.5}} to {{Tooltip|0.25 > 0.175|-0.75}}
+***'''Level 5'''
+****Cost decreased from {{Money|60,000}} to {{Money|55,000}}.
+****Range decreased from +2 to +1.5.
+****Charge-Up time changed from 5.5 > 6.5 to 5.5.
+*'''5 June 2026''' - [[v2.0.0]]
+**Tick decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes (Regular):
+***'''Base'''
+****Without [[Firerate Bug]], tick increased from 0.22 to 0.25, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.25.
+****[[Stun Immunity]] removed.
+***'''Level 2'''
+****Charge-Up Time changed from 6.5 to 6.5 > 5.5.
+****[[Freeze Immunity]] removed.
+***'''Level 3'''
+****Charge-Up Time changed from 6.5 to 5.5 > 4.
+***'''Level 4'''
+****Without [[Firerate Bug]], tick changed from {{Tooltip|0.22 > 0.15|-0.07}} to {{Tooltip|0.25 > 0.175|-0.075}}, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.175.
+****Charge-Up Time changed from 6.5 > 5.5 to 4 > 2.5.
+***'''Level 5'''
+****Without [[Firerate Bug]], tick changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.175 > 0.125|-0.075}}, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.125.
+****Charge-Up Time changed from 5.5 to 2.5 > 1.5.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Damage decreased from 12 to 10.
+****Tick decreased from 0.225 to 0.2.
+***'''Level 3'''
+****Damage decreased from +20 to +17.
+****Tick changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.2 > 0.15|-0.05}}.
+***'''Level 4'''
+****Damage decreased from +0 to -2.
+****Tick changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}.
+***'''Level 5'''
+****Damage decreased from +55 to +44.
+**New skin: {{Color|Void}}
+*'''19 June 2026''' - [[v2.1.0]]
+**Statistical changes (Regular):
+***'''Level 5'''
+****Damage increased from +5 to +10.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Beach}}
+}}
 
 ==Notes==
 <references/>
 
 
 
-{{BuffsNavBox}}
+{{TowerNavBox}}
+[[Category:Ground]]
