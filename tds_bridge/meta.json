@@ -1,21 +1,5 @@
 {
-  "mode": "verify",
-  "requested": "accel",
-  "title": "Accelerator",
-  "pageid": 16493,
-  "latest_revid": 636739,
-  "latest_timestamp": "2026-09-01T14:03:44Z",
-  "source_url": "https://tds.fandom.com/wiki/Accelerator",
-  "classification": {
-    "is_tower_page": true,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  }
+  "mode": "discussion_search",
+  "requested": "accelerator golden cowboy loadout fallen",
+  "match_count": 15
 }
