@@ -1,6 +1,21 @@
 {
-  "mode": "discussion_deep_search",
-  "requested": "golden cowboy mercenary base challenge trial hardcore polluted wastelands event solo strategy loadout",
-  "threads_scanned": 82270,
-  "match_count": 38
+  "mode": "verify",
+  "requested": "Juggernaut",
+  "title": "Juggernaut",
+  "pageid": 58832,
+  "latest_revid": 645314,
+  "latest_timestamp": "2026-09-07T13:19:12Z",
+  "source_url": "https://tds.fandom.com/wiki/Juggernaut",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

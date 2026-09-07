@@ -7,18 +7,7 @@
       "infobox_or_summary"
     ]
   },
-  "potential_conflicts": [
-    {
-      "mode": "regular",
-      "level": 3,
-      "field": "cooldown",
-      "upgrade_claim": 0.1,
-      "statistics_table_claim": 1.0,
-      "preferred_source": "upgrade_template",
-      "type": "set_mismatch",
-      "claim_text": "0.25 > 0.1 Cooldown"
-    }
-  ],
+  "potential_conflicts": [],
   "notes": [
     "Different upgrade levels can legitimately differ.",
     "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
