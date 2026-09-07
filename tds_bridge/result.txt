@@ -1,582 +1,92 @@
-{{Tabs}}
-{{for|the [[Field Medic]]|[[Null Medic]]}}
-{{TowerInfobox
-|title = Medic
-|image-static = DefaultMedicIconAug25.png
-|image-dynamic = MTMedicDynamicIcon.png
-|image-dynamic-start = 1
-|unlockcost = {{Coins|2,000}}
-|basecost = {{Money|400}}
-|basesellingprice = {{Money|133}}
-|role = Support
-|placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
-|basedamage = N/A
-|damagetype = N/A
-|basefirerate = N/A
-|baserange = [[File:Range Icon.png|20px|Range]]12
-|hidden_detection = N/A
-|lead_detection = N/A
-|flying_detection = N/A
-|immune = {{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')
-|footprint = 1.5
-|tooltip-1 = A support tower that heals the base at the start of each wave and can assign its medi gun to nearby towers to give them a shield and a cooldown boost.
-|tooltip-2 = Active ability uber charge also provides a temporary damage boost to all assigned towers.
+{{BuffInfobox
+|name = Firerate Buff
+|image = Cooldown Buff.png
+|type = Buff
+|display = Tower
 }}
-{{QuoteContainer|<tabber>
-|-|Current =
-{{QuoteBox|Equipped with health regen and a medi gun to support and boost towers in range.|Current Store Description}}
-|-|Version 2 =
-{{QuoteBox|A support tower that heals the base 5 HP per wave. At max, cleanses stunned towers.|Former Store Description}}
-|-|Version 3 =
-{{QuoteBox|MEDICCCCC!|Former Store Description}}
-</tabber>}}
-__TOC__
+
 ==Description==
-The '''Medic''' is an intermediate support tower that provides various buffs to other towers and replenishes base health after it has been lost. It can be unlocked from the store for {{Coins|2,000}}.
+The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.
 
-The '''Medic''' heals base health by a specified amount each wave with ''Take your Vitamins''. The amount of health healed increases with the level of the '''Medic''' and the amount of '''Medics''' placed down. It also has the ability to overheal, increasing base health to value higher than its maximum. If there are multiple '''Medics''', the health regeneration and overheal stacks with each '''Medic'''. Similarly, these effects stack with other sources of such effects, like [[Skills]].
+==Mechanics==
+Currently, the '''Firerate Buff''' is calculated as:
+::<big>'''Original Firerate ÷ (1 + Firerate Buff)'''</big>
+:::where '''Firerate Buff''' is the buff supplied is in decimal form (for example, 10% is 0.1).
 
-The '''Medic''' holds a medi gun, which it can use to apply a shield to towers. Whenever shielded, the tower will have a shield modifier on them. This shield provides a passive 15% [[Firerate Buff]] and an immunity to stuns. It does not grant an immunity to debuffs or freeze. If the tower is stunned, its shield will be broken instead, reappearing shortly after. At Level 0, it can only shield one tower, but this is increased up to five at Level 5. It cannot shield other '''Medics''' or any tower currently shielded by another '''Medic'''. There is a 0.5 second cooldown before another tower can be selected or deselected.
+While it may look like the firerate of a tower with the '''Firerate Buff''' is rounded up or down to the third decimal, this is only visual. 
 
-At Level 3, it gets the '''Ubercharge''' ability. This provides all towers shielded by the '''Medic''' with a [[Damage Buff]], [[Stun Immunity]] and [[Freeze Immunity]] for a brief period of time. While it may look like this is tied to the shield, this is not actually the case. The [[Damage Buff]] will remain on the tower, even if its shield is gone. Unassigning a tower with '''Medic''' will however remove the buffs from it. While this ability is active, the '''Medic''' itself gains the [[Freeze Immunity]].
+Prior to the [[v2.0.0]] update, the firerate of a tower with the [[Firerate Bug]] was calculated as:
+::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) ÷ (1 + Firerate Buff) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
+:::where ''Bugged Firerate'' was the firerate with the [[Firerate Bug]].
 
-The '''Medic''' has a placement limit of 4.
+Prior to the [[V1.1.0|Entity System Update]], the '''Firerate Buff''' was calculated as:
 
-==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Medical Precautions|Cost = {{Money|425}}|Image = [[File:MedicUpg1.png|100px]]|Information = +1 Max Targets
+::Without the [[Firerate Bug]]:
+:::<big>'''Original Firerate × (1-Firerate Buff)'''</big>
+::With the [[Firerate Bug]]:
+:::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 - Firerate Buff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
 
+The following towers are either partially or fully not affected by the '''Firerate Buff''':
+*All [[units]].
+*Ability cooldowns.
+*Units spawnrates.
+*The [[Commander]]; the [[Commander]] cannot boost the firerate of other [[Commander]]s.
+*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.
+**Their main firerate can still be decreased.
+*Tick of the [[Pyromancer]], [[Toxic Gunner]], [[Cryomancer]], [[Slasher]] and [[Swarmer]].
+**The tick of the [[Accelerator]] can still be decreased.
+*The rev-up of the [[Minigunner]].
+*Charge-up and cooldown of the [[Accelerator]].
+**The cooldown of burst towers like the [[Soldier]] or [[Toxic Gunner]] also cannot be decreased.
+*The [[Executioner]]; the firerate will not be decreased if the axe takes too long to return.
+*The [[Archer]]; the '''Firerate Buff''' can decrease the time it takes for it to reload its bow, but it cannot decrease the time it takes it to aim at enemies.
 
-Sell Price Changes to {{Money|275}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Prescribed Vitamins|Cost = {{Money|650}}|Image = [[File:MedicUpg2.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+The pump time for the [[Enforcer]] is also affected by this buff.
 
-+1 Max Targets
+==Applied By==
+The following towers have the '''Firerate Buff''':
 
-+5 Healing [[File:HealingIcon.svg|20px|Healing]]
+*[[Gladiator]] (''Warrior's Call'' ability)
 
-8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
+The following towers or consumables can apply the '''Firerate Buff''' to other towers:
 
+*[[Commander]] (Passive and ''Call to Arms'' ability)
+*[[Medic]] (Passive to assigned towers)
+*[[War Machine]] (Passive)
+*[[Cooldown Flag]] (Passive)
+*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)
+*[[Easter Egg]] (Passive for 20 seconds)
+The following event enemies can apply the '''Firerate Buff''' to towers:
 
-Sell Price Changes to {{Money|491}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = BIG BRAIN|Cost = {{Money|2,400}}|Image = [[File:MedicUpg3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+* [[Null Guardian]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
+* [[Null Guardian Clone]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
+The following event features can apply the '''Firerate Buff''' to towers:
 
-{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]
+* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])
 
-'''Medic''' gains [[Freeze Immunity]] for the duration
-
-•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-
-•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
-
-
-Sell Price Changes to {{Money|1,291}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Medical Pack|Cost = {{Money|5,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
-
-+1 Max Targets
-
-+10 Healing [[File:HealingIcon.svg|20px|Healing]]
-
-6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
-
-{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-
-7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
-
-
-Sell Price Changes to {{Money|2,958}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = MD-PhD|Cost = {{Money|12,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-+1 Max Targets
-
-5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
-
-{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}
-
-
-Sell Price Changes to {{Money|6,958}}}}
-
-==Ability==
-{{Ability|Level Unlock = Level 3|Cooldown Time= 60s Cooldown|Initial Cooldown Time = 30s Initial Cooldown|Ability Title = Ubercharge|Image = [[File:Medic_Ability.png|100px]]|Information = 
-Assigned towers gain a [[Damage Buff]], [[Stun Immunity|Stun]] and [[Freeze Immunity]].
+==Gallery==
+{{Gallery|
+{{GalleryHeader|Attribute Icon}}
+<gallery>
+Faster Firerate.png|First Icon (14 June 2019 – 29 October 2020)
+</gallery>
 }}
-
-==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
-
-{{neow|<nowiki>
-<var>
-$TP$ = $FNC-TOTAL-COST$
-$COST$ = 400; 425; 650; 2400; 5000; 12000
-$FSE-UPGRADE$ = Medical Precautions; Prescribed Vitamins; BIG BRAIN; Medical Pack; MD-PhD
-$FSE-UPGRADEICON$ = 117008581932706; 71546954858462; 130592941614779; 112504548905627; 112504548905627
-$FSE-META$ = Intermediate; File:DefaultMedicIconAug25.png
-$R$ = $FNC-RECURSION$
-</var>
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Firerate Buff !! Damage Buff !! Range !! Healing !! Overheal Limit !! Max Targets !! Shield Recharge Speed !! Tower Selection Cooldown !! Ubercharge Duration
-|-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15% || 0% || 12 || 5 || 100 || 1 || 8 || 0.5 || N/A
-|-
-| 1 || $R$ || $R$ || 15% || 0% || 12 || 5 || 100 || 2 || 8 || 0.5 || N/A
-|-
-| 2 || $R$ || $R$ || 15% || 0% || 14 || 10 || 100 || 3 || 6 || 0.5 || N/A
-|-
-| 3 || $R$ || $R$ || 15% || 20% || 15 || 10 || 100 || 3 || 6 || 0.5 || 7.5
-|-
-| 4 || $R$ || $R$ || 15% || 27.5% || 18 || 20 || 100 || 4 || 5 || 0.5 || 10
-|-
-| 5 || $R$ || $R$ || 15% || 35% || 20 || 20 || 100 || 5 || 4.5 || 0.5 || 10
-|}
-</div>
-</nowiki>}}
-
-==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
-!
-|[[File:WitchMedicIconAug25.png|175px]]
-|[[File:CyberMedicIconAug25.png|175px]]
-|[[File:ValentinesMedicIconAug25.png|175px]]
-|[[File:BunnyMedicIconAug25.png|175px]]
-|-
-!Skin
-|{{Color|Unobtainable|Witch}}
-|{{Color|Premium|Cyber}}
-|{{Color|Unobtainable|Valentines}}
-|{{Color|Unobtainable|Bunny}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|N/A
-|{{Robux|120}}
-|N/A
-|N/A
-|-
-!Obtained From
-|Formerly [[Halloween 2019 Crate]]
-|[[Premium Crate]]
-|Formerly [[Valentines Crate]]
-|Formerly [[Bunny Crate]]
-|-
-!
-|[[File:StrandedMedicIconAug25.png|175px]]
-|[[File:MasqueradeMedicIconAug25.png|175px]]
-|[[File:FallenMedicIconAug25.png|175px]]
-|[[File:MermaidMedicIconAug25.png|175px]]
-|-
-!Skin
-|{{Color|ColdFront|Stranded}}
-|{{Color|Lunar|Masquerade}}
-|{{Color|FallenMission|Fallen}}
-|{{Color|EventMission|Mermaid}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|3,500}}
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Cold Front Crate]]
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|''Fallen Angel'' [[Mission Quests|Mission Quest]]
-|''The Little Medic'' [[Mission Quests|Mission Quest]]
-|-
-!
-|[[File:AFPlagueMedicIcon.png|175px]]
-|[[File:AFBartenderMedicIcon.png|175px]]
-|[[File:AFToyBallerinaMedicIcon.png|175px]]
-|[[File:AFSecondChanceMedicIcon.png|175px]]
-|-
-!Skin
-|{{Color|Null|Plague}}
-|{{Color|Showtime|Bartender}}
-|{{Color|FinalAct|Toy Ballerina}}
-|{{Color|Valentines2026|Second Chance}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Common}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
-|[[Showtime Crate]]
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
-|[[Valentines 2026 Crate]]
-|-
-!
-|[[File:AFShamrockMedicIcon.png|175px]]
-|[[File:BeachMedicIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Shamrock}}
-|{{Color|Beach}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|6,500}}
-|-
-!Obtained From
-|[[Shamrock Crate]]
-|[[Beach Crate]]
-|}
-
-==Strategy==
-*The '''Medic''' has the ability to permanently grant a [[Firerate Buff]] and temporarily grant a [[Damage Buff]] to towers, making it very useful as a support tower.
-**However, unlike other towers like the [[Commander]], [[DJ Booth]] or even the [[Mercenary Base]], it is not able to apply it to every tower in range, it can only apply it to a few of them.
-***Because of this, players may need to either place down multiple of them to cover most or all of their towers, or only target the most important of their towers.
-***Due to its limited tower selection, towers with naturally low placement limits like the [[Turret]] or [[Gatling Gun]] are a great pick when using the '''Medic''', as their low placement limits mean few '''Medics''' are needed to boost them all.
-****With all four '''Medics''' placed down, you can still boost up to 20 towers, so towers like the [[Minigunner]] or [[Swarmer]] can still be paired with it, although you might have to leave some towers unboosted.
-*The '''Medic''' can give towers a shield, which stops them from being stunned once.
-**This does not stop either debuffs or being frozen. These towers are still affected by these effects, but they will not lose their shield from them.
-**When its shield is broken, the targeted tower not only loses its immunity to stuns, but also the [[Firerate Buff]] provided by the '''Medic'''. It does not however, lose any of its ''Ubercharge'' buffs.
-***If the shield is regenerated in the middle a stun, the stun will removed. This means the duration of towers assigned to a '''Medic''' cannot be longer than its shield regeneration cooldown.
-*The '''Medic''' can provide an additional [[Damage Buff]] to targeted towers, but only temporarily.
-**This is best used on harder waves when a tough enemy appears.
-**On top of this, it also grants the tower [[Stun Immunity]] and [[Freeze Immunity]], making the tower fully invulnerable to stun and freeze, making it rather useful against enemies with offensive capabilities.
-*The '''Medic''' can be used to heal back any lost health and overheal the base health.
-**As this effect stacks with each '''Medic''' placed down, having four '''Medics''' placed down will result in the player regenerating 80 health at the start of every wave while also adding an additional overheal of 400.
-***This does not just stack with other '''Medics''', but also other towers or mechanics like [[Skills]]. For example, if [[Skills]] are fully upgraded, having one [[Medic]] placed down will allow it to overheal the base health to 250 at Level 5, not just 50 or 200.
-*There are multiple towers that cannot be affected by its [[Damage Buff]]:
-{{DamageBuff}}
-
-==Trivia==
-*The '''Medic''' is the second tower that has the ability to restore base health, although it is currently the only one to do so.
-**The first tower able to do so was the [[Gladiator]], although it has since lost this ability.
-**It is not the only way of healing back base health, as the [[Turkey Leg]] and [[Fruit Cake]] consumables can also do that.
-*The item the '''Medic''' carries from level 0-4 resembles the [https://wiki.teamfortress.com/wiki/Medi_Gun Medi Gun] from ''[[wp:Team Fortress 2|Team Fortress 2]]''.
-**Originally, the '''Medic''' carried a syringe gun that resembled the [https://wiki.teamfortress.com/wiki/Syringe_Gun Syringe Gun] in ''[[wp:Team Fortress 2|Team Fortress 2]]''.
-**The tower also had an old description ("''MEDICCCCC!''") that was a reference to ''[[wp:Team Fortress 2|Team Fortress 2]]''.
-*At Level 2, [[w:c:r2da:Vitamins|Vitamins]] from ''R2DA'' can be seen on the '''Medic's''' belt.
-*The '''Medic's''' Level 3 upgrade name is a reference to the meme [https://knowyourmeme.com/memes/yeah-this-is-big-brain-time Yeah, This Is Big Brain Time].
-*During [[Hardcore Testing BETA]], the '''Medic''' had the same upgrade icons and upgrading prices as the [[Mecha Base]], barring the placement cost.
-*Until the [[Overhaul v1.0|Overhaul Update]], the '''Medic's''' Level 5 upgrade was misspelled as ''Goddess or Healing''.
-*The '''Medic''' was unable to heal base health in the now removed [[Versus]] mode.
-*The '''Medic''' originally had a red cross shoulder patch, which violates [[wp:Geneva Conventions|Geneva Conventions Laws]], as it is being used by the [[wp:International Committee of the Red Cross|ICRC]] and is strictly restricted to be associated with real-world medical aid.
-*The '''Medic's''' ''Ubercharge'' ability icon came from ''[https://www.roblox.com/games/183929867/Ashea-Reborn Ashea: Reborn]'', where it was used as an icon for the Heal skill.
-*From [[Null Medic]]'s logbook description, the '''Medic''' has scars on itself.
 
 ==Update History==
-''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{Scroll|text=
-*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**'''Medic''' added.
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
-**New skin: {{Color|Halloween2019|Witch}}
-*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**{{Bug}} ''Cleansing'' ability range is not increased by [[Range Buff]]s.
-*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
-**New skin: {{Color|Premium|Cyber}}
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**'''Medic''' is now immune to stun from boss stomps.
-*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
-**New skin: {{Color|Valentine|Valentines}}
-*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
-**Statistical changes:
-***'''Level 3'''
-****Range increased from +1 to +3.
-*****{{Bug}} This was not changed in the upgrade description.
-****Damage decreased from +3 to +2.
-*****{{Bug}} This was not changed in the upgrade description.
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 1.05 to 1.03.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|1.05 > 0.85|-0.2}} to {{Tooltip|1.03 > 0.83|-0.2}}.
-***'''Level 3'''
-****Damage decreased from +2 to +0.
-****Firerate changed from {{Tooltip|0.85 > 0.55|-0.3}} to 0.83.
-***'''Level 4'''
-****Firerate changed from 0.55 to {{Tooltip|0.83 > 0.68|-0.15}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|0.55 > 0.35|-0.2}} to {{Tooltip|0.68 > 0.33|-0.35}}.
-**{{Bug}} Level 3 upgrade description says that the '''Medic's''' damage is increased from 6 to 6.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**{{Bug}} '''Medic's''' ''Cleansing'' ability does not work as it only applies to the old stun system, not the new one.
+*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
+**'''Firerate Buff''' added.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
+**Icon changed.
+**Now displayed on the tower rather than in the upgrade menu.
 *'''12 March 2022''' - [[v1.1.0]]
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**'''Medic''' is now immune to all stuns.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 1.03 to 1.025.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|1.03 > 0.83|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|0.83 > 0.68|-0.15}} to {{Tooltip|0.825 > 0.675|-0.15}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|0.68 > 0.33|-0.2}} to {{Tooltip|0.675 > 0.325|-0.35}}.
-**{{Bugfix}} '''Medic's''' ''Cleansing'' ability now works properly.
-**{{Bugfix}} ''Cleansing'' ability range is now increased by [[Range Buff]]s.
-**{{Bug}} '''Medic''' no longer heals the base health.
-*'''12 March 2022''' - [[v1.1.0]]a
-**{{Bugfix}} '''Medic''' now heals the base health.
-*'''21 December 2022''' - [[v1.6.0]]
-**Skin rarity added to all skins.
-*'''23 January 2023''' - [[v1.6.0]]j
-**{{Color|Unobtainable|Valentines}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
-*'''14 February 2023''' - [[v1.6.1]]
-**New skin: {{Color|ColdFront|Stranded}}
-*'''21 March 2023''' - [[v1.6.3]]e
-**{{Bug}} '''Medic'''s base health regeneration no longer increases at Level 2 and Level 4.
-**{{Bugfix}} Level 3 upgrade description no longer says that the '''Medic's''' damage has increased from 6 to 6.
-*'''31 October 2023''' - [[v1.9.0]]g
-**New skin: {{Color|Lunar|Masquerade}}
-*'''24 February 2024''' - [[v1.14.0]]
-**{{Bug}} '''Medic''' can only heal the base health in [[Tutorial]] and [[Easy Mode]].
-*'''8 March 2024''' - [[v1.15.0]]
-**{{Bugfix}} '''Medic''' now can heal the base health in every mode.
-*'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
-*'''2 August 2024''' - [[v1.27.0]]
-**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
-*'''21 August 2024''' - [[v1.28.0]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''12 March 2025''' - [[v1.57.0]]
-**Statistical changes:
-***'''Base'''
-****Damage increased from 2 to 3.
-****Range increased from 10 to 12.
-****Cost decreased from {{Money|900}} to {{Money|450}}.
-****Lead detection added.
-***'''Level 1'''
-***Damage decreased from +1 to +0.
-****Firerate changed from 1.025 to {{Tooltip|1.025 > 0.775|-0.25}}.
-****Cost decreased  from {{Money|400}} to {{Money|200}}.
-***'''Level 2'''
-****Damage decreased from +3 to +2.
-****Firerate decreased from {{Tooltip|1.025 > 0.825|-0.2}} to 0.775.
-****Range decreased from +1 to +0.
-****Healing increased from 5 > 7 to 5 > 10.
-*****{{Bug}} Healing does not increase.
-****Hidden detection added, moved from Level 3.
-****Cost increased from {{Money|900}} to {{Money|400}}.
-***'''Level 3'''
-****Damage increased from +0 to +3.
-****Firerate decreased from 0.825 to {{Tooltip|0.775 > 0.675|-0.1}}.
-****Hidden detection moved to Level 2.
-****Cost decreased from {{Money|2,400}} to {{Money|800}}.
-***'''Level 4'''
-****Damage increased  from +2 to +4.
-****Range decreased from +1 to +0.
-****Firerate decreased from {{Tooltip|0.825 > 0.675|-0.15}} to {{Tooltip|0.675 > 0.525|-0.15}}.
-****Healing increased from 7 > 10 to 10 > 25.
-*****{{Bug}} Healing does not increase.
-****Cost decreased from {{Money|4,500}} to {{Money|1,750}}.
-***'''Level 5'''
-****Firerate decreased from {{Tooltip|0.675 > 0.325|-0.35}} to {{Tooltip|0.525 > 0.325|-0.2}}.
-****''Cleansing'' ability cooldown decreased from 30 to 20.
-****Healing increased from 10 to 25 > 100.
-*****{{Bug}} Healing does not increase.
-****Flying detection added.
-****Cost decreased from {{Money|6,500}} to {{Money|5,000}}.
-*'''16 April 2025''' - [[v1.59.0]]
-**{{Bug}} ''Cleansing'' ability does not function properly if certain tower/skins are placed in its range. This includes the {{Color|CoinCrate|The Flea}} and {{Color|CoinCrate|The Beast}} [[Jester]] skins. In future updates, [[Biologist]], {{Color|DuckyRevenge|Spring Time}} [[Cowboy]], {{Color|DuckyRevenge|Duck}} [[Rocketeer]], {{Color|DuckyRevenge|Duck}} [[Necromancer]], {{Color|EventMission|Ducky}} [[DJ Booth]], {{Color|Other|Mecha Bunny}} [[Cowboy]] and [[Swarmer]] were added/changed which break it too.
-*'''9 April 2025''' - [[v1.60.0]]
-**Support role added.
-*'''28 May 2025''' - [[v1.65.0]]
-**{{Bugfix}} ''Cleansing'' no longer breaks.
-*'''25 June 2025''' - [[v1.68.0]]
-**Unlock cost decreased from {{Coins|1,500}} to {{Coins|800}}.
-*'''20 August 2025''' - [[v1.73.0]]
-**'''Medic''' is no longer capable of attacking enemies, now it only shields other towers. This provides them with buffs and an immunity to stuns.
-**''Cleansing'' ability replaced with ''Ubercharge''. Functionality changed from removing all stuns from towers to applying an additional buff to assigned towers and giving them all detections.
-**Now can overheal the base health without [[Skills]], as it has its own separate limit per '''Medic'''.
-**Updated tooltips.
-**Unlock cost increased from {{Coins|800}} to {{Coins|2,000}}.
-**Placement limit of 5 added.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|450}} to {{Money|500}}.
-****Damage removed.
-****Firerate removed.
-****Max targets of 1 added.
-****Shield recharge speed of 8 added.
-****Overheal limit of 0 added.
-****Tower selection cooldown of 0.5 added.
-****[[Firerate Buff]] of 20% added.
-****Lead detection removed.
-***'''Level 1'''
-****Cost increased from {{Money|200}} to {{Money|300}}.
-****Range decreased from +1 to +0.
-****Max targets increased from +0 to +1.
-***'''Level 2'''
-****Cost increased from {{Money|400}} to {{Money|750}}.
-****Range increased from +0 to +2.
-****Max targets increased from +0 to +1.
-****Healing decreased from +5 to +0.
-****Overheal limit increased from +0 to +5.
-****Shield recharge speed changed from 0 to 8 > 6.
-****Hidden detection removed.
-***'''Level 3'''
-****Cost increased from {{Money|800}} to {{Money|2,700}}.
-****Range decreased from +3 to +1.
-****Healing decreased from +0 to +5.
-****Overheal limit increased from +0 to +5.
-****Unlocks ''Ubercharge''.
-*****Replaces the former ''Cleansing'' ability.
-*****Grants a 20% [[Damage Buff]] and all detections.
-*****Lasts 7.5 seconds.
-***'''Level 4'''
-****Cost increased from {{Money|1,750}} to {{Money|6,000}}.
-****Range increased from +0 to +3.
-****Max targets increased from +0 to +1.
-****Healing decreased from +15 to +10.
-****Overheal limit increased from +0 to +10.
-****Shield recharge speed changed from 0 to 6 > 4.5.
-****[[Damage Buff]] changed from 0% to 20% > 27.5%.
-****''Ubercharge'' duration changed 0 to 7.5 > 10.
-***'''Level 5'''
-****Cost increased from {{Money|5,000}} to {{Money|16,000}}.
-****Max targets increased from +0 to +1.
-****Healing decreased from +75 to +5.
-****Overheal limit increased from +0 to +30.
-****Shield recharge speed changed from 0 to 4.5 > 2.
-****[[Damage Buff]] changed from 0% to 27.5% > 40%.
-****''Ubercharge'' duration changed 0 to 10 > 15.
-****Name changed from ''Goddess Of Healing'' to ''PHD''.
-**New skin: {{Color|EventMission|Mermaid}}
-**{{Bug}} '''Medic''' can switch assigned towers while [[Time Scale]] is set to 0x.
-**{{Bug}} '''Medic''' can stack its [[Firerate Buff]].
-**{{Bug}} Despite being unable to shield towers with another player's '''Medic''', selecting another player's '''Medic''' will still prevent selecting towers.
-**{{Bug}} Having a '''Medic''' selected prevents viewing enemy statistics.
-**{{Bug}} '''Medic''' can sometimes abruptly end the match in a loss at random waves.
-**{{Bug}} '''Medic's''' ''Ubercharge'' reloads the ammo of specifically just the [[Commando]] and [[Gatling Gun]] after it ends.
-**{{Bugfix}} '''Medic's''' healing now increases with upgrades.
-*'''20 August 2025''' - [[v1.73.0|v1.73.2]]
-**{{Bugfix}} It is no longer possible to stack '''Medic''' [[Firerate Buff]]s through a specific method of switching which '''Medic''' is shielding a tower after the shield breaks.
-*'''3 September 2025''' - [[v1.74.0]]
-**{{Bugfix}} '''Medic''' no longer causes the match to abruptly end in a loss.
-*'''24 September 2025''' - [[v1.75.0]]
-**Statistical changes:
-***'''Base'''
-****[[Firerate Buff]] decreased from 20% to 15%.
-***'''Level 1'''
-****Cost increased from {{Money|300}} to {{Money|500}}.
-***'''Level 3'''
-****''Ubercharge'' no longer gives all detections.
-*****{{Bug}} Despite what the update log says, this change did not actually happen. Detections are still applied by ''Ubercharge''.
-*'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Plague}}
+**'''Firerate Buff''' calculation updated. 
+*'''29 March 2024''' - [[v1.17.0]]
+**{{Bug}} Firerate buff indicators are sunk into the ground.
+*'''10 May 2024''' - [[v1.19.2]]
+**{{Bugfix}} Firerate buff indicators are no longer sunk into the ground.
 *'''12 November 2025''' - [[v1.80.0]]
-**{{Bugfix}} ''Ubercharge'' no longer gives towers hidden detection, though other detections are still applied when they should not be.
-*'''26 November 2025''' - [[v1.81.0]]
-**Statistical changes:
-***''Ubercharge'' ability now has a 15 second cooldown upon placing it down.
-*'''20 December 2025''' - [[v1.83.0]]
-**New skins: {{Color|Showtime|Bartender}}
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skins: {{Color|FinalAct|Toy Ballerina}}
-*'''23 December 2025''' - [[v1.83.0|v1.83.4]]
-**{{Bug}} All shielded towers except one once their shield is broken do not lose their [[Firerate Buff]] and never regain their shield without assigning them a shield again.
-**{{Bugfix}} It is no longer possible to stack the [[Medic]]'s [[Firerate Buff]].
-*'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 5 to 4.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|500}} to {{Money|400}}.
-***'''Level 1'''
-****Cost decreased from {{Money|500}} to {{Money|400}}.
-***'''Level 2'''
-****Cost decreased from {{Money|750}} to {{Money|675}}.
-***'''Level 3'''
-****''Ubercharge'' duration increased from 7.5 to 10.
-***'''Level 4'''
-****''Ubercharge'' damage buff increased from 20% > 27.5% to 20% > 30%.
-****''Ubercharge'' duration increased from 7.5 > 10 to 10 > 12.5.
-***'''Level 5'''
-****Cost decreased from {{Money|16,000}} to {{Money|15,000}}.
-****Shield Recharge Speed increased from 4.5 > 2 to 4.5 > 4.
-*'''11 February 2026''' - [[v1.85.0]]
-**New skin: {{Color|Valentines2026|Second Chance}}
-*'''11 March 2026''' - [[v1.86.0]]
-**New skin: {{Color|Shamrock|Shamrock}}
-**{{Bugfix}} ''Ubercharge'' no longer gives flying and lead detection.
-*'''22 May 2026''' - [[v1.91.0]]
-**{{Bugfix}} Shields now properly re-appear on towers after they were hit by a stunning ability.
-*'''5 June 2026''' - [[v2.0.0]]
-**''Ubercharge'' now grants the [[Medic]] [[Freeze Immunity]] while it is active.
-**''Ubercharge'' now gives shielded towers both the [[Stun Immunity]] and [[Freeze Immunity]].
-**Statistical changes:
-***'''Base'''
-****Overheal limit increased from 0 to 100.
-***'''Level 1'''
-****Cost increased from {{Money|400}} to {{Money|425}}.
-***'''Level 2'''
-****Cost decreased from {{Money|675}} to {{Money|650}}.
-****Healing increased from +0 to +5.
-****Overheal limit decreased from +5 to +0.
-***'''Level 3'''
-****Cost decreased from {{Money|2,950}} to {{Money|2,700}}.
-****Overheal limit decreased from +5 to -90.
-****Healing decreased from +5 to +0.
-***'''Level 4'''
-****Overheal limit increased from +10 to +90.
-****Shield recharge speed changed from 6 > 4.5 to 6 > 5.
-****''Ubercharge'' damage buff changed from 20% > 30% to 20% > 27.5%.
-***'''Level 5'''
-****Cost decreased from {{Money|15,000}} to {{Money|14,000}}.
-****Overheal limit decreased from +30 to +0.
-****Healing decreased from +5 to +0.
-****Shield recharge speed changed from 4.5 > 4 to 5 > 4.5.
-****''Ubercharge'' damage buff changed from 30% > 40% to 27.5% > 35%.
-****Name changed from '''PHD''' to '''MD-PhD'''.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Beach}}
-*'''17 July 2026''' - [[v2.3.0]]
-**Statistical changes:
-***'''Level 3'''
-****Overheal limit increased from -90 to +90.
-***'''Level 4'''
-****Overheal limit decreased from +90 to +0.
-*'''14 August 2026''' - [[v2.6.0]]
-**Statistical changes:
-***'''Level 3'''
-****Cost decreased from {{Money|2,950}} to {{Money|2,400}}.
-****''Ubercharge'' duration decreased from 10 to 7.5.
-***'''Level 4'''
-****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
-****''Ubercharge'' duration changed from 10 > 12.5 to 7.5 > 10.
-***'''Level 5'''
-****Cost decreased from {{Money|14,000}} to {{Money|12,000}}.
-****''Ubercharge'' duration changed from 12.5 > 15 to 10.
-}}
-
-==Notes==
-<references/>
+**{{Bug}} Firerate buff indicator stays active forever after a tower sold.
 
 
 
-{{TowerNavBox}}
-[[Category:Ground]]
-[[Category:Ability]]
-[[Category:Support]]
+{{BuffsNavBox}}
