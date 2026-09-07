@@ -54,6 +54,100 @@ def discussion_search(q,limit=100):
     matches.sort(key=lambda x:(-x['score'],str(x.get('title') or ''))); r={'query':q,'scope':f'latest {min(max(limit,1),100)} discussions returned by Fandom getThreads','warning':'Not an unlimited historical full-text index; searches the discussions Fandom returned.','matches':matches[:30]}
     wjson('discussion_search.json',r); wjson('meta.json',{'mode':'discussion_search','requested':q,'match_count':len(r['matches'])}); wjson('evidence_bundle.json',{'mode':'discussion_search',**r}); return 0
 
+
+def _deep_blob(o):
+    vals=[]
+    for k in ('title','rawContent','content','text','body','description'):
+        v=o.get(k) if isinstance(o,dict) else None
+        if isinstance(v,str): vals.append(v)
+    return ' '.join(vals)
+
+def _group_hit(low, group):
+    if isinstance(group,str): group=[group]
+    return any(norm(alias) in low for alias in group if str(alias).strip())
+
+def discussion_deep_search(req):
+    q=str(req.get('query') or '').strip()
+    pages=max(1,min(int(req.get('pages') or 20),50))
+    per_page=max(1,min(int(req.get('per_page') or 1000),1000))
+    must=req.get('must_include') or []
+    prefer=req.get('prefer_include') or []
+    results=[]; seen=set(); scanned=0; page_summaries=[]
+    for page in range(pages):
+        try:
+            d=get_json(WIKIA,{
+                'controller':'DiscussionThread','method':'getThreads','siteId':SITE_ID,
+                'limit':per_page,'page':page,'responseGroup':'full',
+                'sortDirection':'descending','sortKey':'creation_date','viewableOnly':'false'
+            })
+        except Exception as e:
+            page_summaries.append({'page':page,'error':str(e)})
+            break
+        objs=flatten(d)
+        roots=[]; local_seen=set()
+        for o in objs:
+            tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
+            title=o.get('title')
+            key=str(tid)+'|'+str(title)
+            if key in local_seen: continue
+            local_seen.add(key); roots.append(o)
+        scanned+=len(roots)
+        page_summaries.append({'page':page,'objects':len(roots)})
+        if not roots: break
+        for o in roots:
+            blob=_deep_blob(o); low=norm(blob)
+            if must and not all(_group_hit(low,g) for g in must): continue
+            toks=[t for t in re.findall(r'[a-z0-9]+',norm(q)) if len(t)>1]
+            score=sum(low.count(t) for t in toks)
+            score+=sum(8 for g in must if _group_hit(low,g))
+            score+=sum(3 for x in prefer if norm(x) in low)
+            tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
+            key=str(tid)+'|'+str(o.get('title'))
+            if key in seen: continue
+            seen.add(key)
+            results.append({
+                'score':score,'thread_id':tid,'title':o.get('title'),
+                'author':o.get('createdBy') or o.get('username') or o.get('user'),
+                'snippet':strip_html(blob)[:1400],
+                'url':f'{BASE}/f/p/{tid}' if str(tid).isdigit() else None,
+                'matched_required_groups':[g for g in must if _group_hit(low,g)]
+            })
+        if len(roots)<per_page: break
+    results.sort(key=lambda x:(-x['score'],str(x.get('title') or '')))
+    # Verify the strongest candidates by fetching their full threads/replies.
+    verified=[]
+    for item in results[:25]:
+        tid=item.get('thread_id')
+        if not str(tid).isdigit(): continue
+        try:
+            d=get_json(WIKIA,{
+                'controller':'DiscussionThread','method':'getThread','threadId':str(tid),
+                'limit':100,'responseGroup':'full','sortDirection':'ascending',
+                'sortKey':'creation_date','viewableOnly':'false'
+            })
+            full=' '.join(collect(d)); low=norm(full)
+            required_ok=(not must) or all(_group_hit(low,g) for g in must)
+            v=dict(item); v['full_thread_required_match']=required_ok
+            v['full_thread_text_excerpt']=strip_html(full)[:5000]
+            verified.append(v)
+        except Exception as e:
+            v=dict(item); v['verification_error']=str(e); verified.append(v)
+    r={
+        'query':q,
+        'scope':f'up to {pages*per_page} Fandom discussion threads ({pages} pages x {per_page})',
+        'threads_scanned':scanned,
+        'required_groups':must,
+        'preferred_terms':prefer,
+        'page_summaries':page_summaries,
+        'matches':results[:100],
+        'verified_top_matches':verified,
+        'selection_note':'Required groups must all appear before a thread is included; top candidates are then checked using the full thread and replies.'
+    }
+    wjson('discussion_deep_search.json',r)
+    wjson('meta.json',{'mode':'discussion_deep_search','requested':q,'threads_scanned':scanned,'match_count':len(results)})
+    wjson('evidence_bundle.json',{'mode':'discussion_deep_search',**r})
+    return 0
+
 def recent_changes(limit=100):
     d=api({'action':'query','list':'recentchanges','rcnamespace':0,'rclimit':min(max(limit,1),500),'rcprop':'title|ids|timestamp|user|comment|sizes|flags|tags'}); ch=d.get('query',{}).get('recentchanges',[])
     wjson('recent_changes.json',ch); wjson('meta.json',{'mode':'recent_changes','count':len(ch)}); wjson('evidence_bundle.json',{'mode':'recent_changes','recent_changes':ch}); return 0
