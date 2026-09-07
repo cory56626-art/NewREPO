@@ -1,0 +1,273 @@
+name: TDS Fandom Comment Bridge
+
+on:
+  push:
+    branches:
+      - tds-wiki-bridge
+    paths:
+      - "tds_bridge/comment_request.json"
+
+permissions:
+  contents: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate request
+        id: request
+        shell: python
+        run: |
+          import json, pathlib, re, os
+
+          p = pathlib.Path("tds_bridge/comment_request.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+
+          send = bool(data.get("send"))
+          print("send=" + ("true" if send else "false"))
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("send=" + ("true" if send else "false") + "\n")
+
+          if not send:
+              raise SystemExit(0)
+
+          url = str(data.get("thread_url", "")).strip()
+          body = str(data.get("body", "")).strip()
+
+          if not re.fullmatch(r"https://tds\.fandom\.com/f/p/\d+", url):
+              raise SystemExit("thread_url must be a TDS Fandom discussion URL")
+          if not body:
+              raise SystemExit("body is empty")
+          if len(body) > 2000:
+              raise SystemExit("body is over the 2000-character bridge safety limit")
+
+      - name: Post reply
+        if: steps.request.outputs.send == 'true'
+        env:
+          FANDOM_BOT_USERNAME: ${{ secrets.FANDOM_BOT_USERNAME }}
+          FANDOM_BOT_PASSWORD: ${{ secrets.FANDOM_BOT_PASSWORD }}
+        shell: python
+        run: |
+          import http.cookiejar
+          import json
+          import os
+          import pathlib
+          import re
+          import urllib.parse
+          import urllib.request
+          import urllib.error
+
+          username = os.environ.get("FANDOM_BOT_USERNAME", "").strip()
+          password = os.environ.get("FANDOM_BOT_PASSWORD", "").strip()
+
+          if not username or not password:
+              pathlib.Path("tds_bridge/comment_result.json").write_text(
+                  json.dumps({
+                      "ok": False,
+                      "stage": "auth",
+                      "error": "Missing FANDOM_BOT_USERNAME or FANDOM_BOT_PASSWORD GitHub Actions secret"
+                  }, indent=2),
+                  encoding="utf-8"
+              )
+              raise SystemExit("Missing Fandom bot credentials")
+
+          request_data = json.loads(
+              pathlib.Path("tds_bridge/comment_request.json").read_text(encoding="utf-8")
+          )
+          thread_url = request_data["thread_url"].strip()
+          body = request_data["body"].strip()
+          thread_id = re.search(r"/f/p/(\d+)", thread_url).group(1)
+
+          jar = http.cookiejar.CookieJar()
+          opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+
+          def form_post(url, values):
+              data = urllib.parse.urlencode(values).encode()
+              req = urllib.request.Request(
+                  url,
+                  data=data,
+                  headers={
+                      "User-Agent": "TDSCommentBridge/1.0 (GitHub Actions)",
+                      "Accept": "application/json"
+                  },
+                  method="POST"
+              )
+              with opener.open(req, timeout=30) as r:
+                  return json.load(r)
+
+          api = "https://tds.fandom.com/api.php"
+
+          # Modern MediaWiki login token flow.
+          token_url = api + "?" + urllib.parse.urlencode({
+              "action": "query",
+              "meta": "tokens",
+              "type": "login",
+              "format": "json"
+          })
+          try:
+              with opener.open(
+                  urllib.request.Request(
+                      token_url,
+                      headers={
+                          "User-Agent": "TDSCommentBridge/1.0 (GitHub Actions)",
+                          "Accept": "application/json"
+                      }
+                  ),
+                  timeout=30
+              ) as r:
+                  token_data = json.load(r)
+              login_token = token_data["query"]["tokens"]["logintoken"]
+              login = form_post(api, {
+                  "action": "login",
+                  "lgname": username,
+                  "lgpassword": password,
+                  "lgtoken": login_token,
+                  "format": "json"
+              })
+          except Exception:
+              # Older Fandom-compatible two-step login fallback.
+              first = form_post(api, {
+                  "action": "login",
+                  "lgname": username,
+                  "lgpassword": password,
+                  "format": "json"
+              })
+              old_token = first.get("login", {}).get("token")
+              if not old_token:
+                  raise
+              login = form_post(api, {
+                  "action": "login",
+                  "lgname": username,
+                  "lgpassword": password,
+                  "lgtoken": old_token,
+                  "format": "json"
+              })
+
+          if login.get("login", {}).get("result") != "Success":
+              pathlib.Path("tds_bridge/comment_result.json").write_text(
+                  json.dumps({
+                      "ok": False,
+                      "stage": "login",
+                      "response": login
+                  }, indent=2),
+                  encoding="utf-8"
+              )
+              raise SystemExit("Fandom login failed")
+
+          # Resolve siteId and verify the thread is live/unlocked before posting.
+          thread_api = (
+              "https://tds.fandom.com/wikia.php?"
+              + urllib.parse.urlencode({
+                  "controller": "DiscussionThread",
+                  "method": "getThread",
+                  "threadId": thread_id,
+                  "limit": "1",
+                  "responseGroup": "full",
+                  "viewableOnly": "false"
+              })
+          )
+          with opener.open(
+              urllib.request.Request(
+                  thread_api,
+                  headers={
+                      "User-Agent": "TDSCommentBridge/1.0 (GitHub Actions)",
+                      "Accept": "application/json"
+                  }
+              ),
+              timeout=30
+          ) as r:
+              thread = json.load(r)
+
+          if thread.get("isLocked"):
+              raise SystemExit("Thread is locked")
+
+          site_id = str(thread.get("siteId") or "")
+          if not site_id:
+              raise SystemExit("Could not resolve TDS Fandom siteId")
+
+          json_model = json.dumps({
+              "type": "doc",
+              "content": [{
+                  "type": "paragraph",
+                  "content": [{"type": "text", "text": body}]
+              }]
+          }, separators=(",", ":"))
+
+          payload = {
+              "source": "DISCUSSIONS",
+              "siteId": site_id,
+              "threadId": thread_id,
+              "attachments": None,
+              "body": body,
+              "jsonModel": json_model
+          }
+
+          post_url = "https://tds.fandom.com/wikia.php?controller=DiscussionPost&method=create"
+          req = urllib.request.Request(
+              post_url,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "User-Agent": "TDSCommentBridge/1.0 (GitHub Actions)",
+                  "Accept": "application/hal+json, application/json",
+                  "Content-Type": "application/json"
+              },
+              method="POST"
+          )
+
+          try:
+              with opener.open(req, timeout=30) as r:
+                  response_text = r.read().decode("utf-8", "replace")
+                  status = r.status
+          except urllib.error.HTTPError as e:
+              response_text = e.read().decode("utf-8", "replace")
+              status = e.code
+
+          try:
+              response = json.loads(response_text)
+          except Exception:
+              response = {"raw": response_text[:5000]}
+
+          ok = 200 <= status < 300 and not response.get("error")
+
+          result = {
+              "ok": ok,
+              "stage": "post",
+              "status": status,
+              "thread_url": thread_url,
+              "thread_id": thread_id,
+              "site_id": site_id,
+              "response": response
+          }
+
+          pathlib.Path("tds_bridge/comment_result.json").write_text(
+              json.dumps(result, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+
+          if not ok:
+              raise SystemExit("Fandom DiscussionPost create failed")
+
+      - name: Save result and disarm request
+        if: always()
+        shell: python
+        run: |
+          import json, pathlib
+
+          p = pathlib.Path("tds_bridge/comment_request.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          if data.get("send"):
+              data["send"] = False
+              p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+      - name: Commit bridge state
+        if: always()
+        run: |
+          git config user.name "tds-comment-bridge[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tds_bridge/comment_request.json tds_bridge/comment_result.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Update TDS comment bridge state"
+          git pull --rebase origin tds-wiki-bridge
+          git push
