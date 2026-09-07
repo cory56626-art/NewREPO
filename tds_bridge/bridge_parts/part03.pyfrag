@@ -1,0 +1,65 @@
+    if res['status']!='resolved': wjson('search_candidates.json',res.get('candidates',[])); return 2
+    p,revs,_=page_bundle(res['canonical_title']); hist=[{k:r.get(k) for k in ('revid','parentid','timestamp','user','comment','size','sha1')} for r in revs]; df=diff_of(revs)
+    wjson('revision_history.json',hist); wjson('revision_diff.json',df); wjson('meta.json',{'mode':'history','requested':q,'title':res['canonical_title'],'pageid':p.get('pageid')}); wjson('evidence_bundle.json',{'mode':'history','resolution':res,'revision_history':hist,'revision_diff':df}); return 0
+
+def search_mode(q):
+    alias=ALIASES.get(norm(q)); cs=search_candidates(alias or q,12); out=[]
+    for c in cs:
+        c=dict(c)
+        try:
+            p,_,wt=page_bundle(c['title']); pm=parse_meta(c['title']); c['classification']=classify(wt,p.get('categories',[]),pm.get('templates',[]))
+        except Exception as e:c['validation_error']=str(e)
+        out.append(c)
+    wjson('search_candidates.json',out); wjson('meta.json',{'mode':'search','requested':q,'known_alias_target':alias,'selection_policy':'No fuzzy candidate is ever auto-selected.'}); wjson('evidence_bundle.json',{'mode':'search','requested':q,'known_alias_target':alias,'candidates':out}); return 0
+
+def collect(obj,depth=0):
+    if depth>14:return []
+    out=[]
+    if isinstance(obj,dict):
+        for k,v in obj.items():
+            if norm(k) in {'title','rawcontent','content','text','username','name','id','threadid'} and isinstance(v,(str,int,float)): out.append(f'{k}: {v}')
+            else: out+=collect(v,depth+1)
+    elif isinstance(obj,list):
+        for v in obj: out+=collect(v,depth+1)
+    return out
+
+def discussion(url):
+    m=re.search(r'/f/p/(\d+)',url or '')
+    if not m: raise ValueError('thread_url must contain /f/p/<threadId>')
+    tid=m.group(1); d=get_json(WIKIA,{'controller':'DiscussionThread','method':'getThread','threadId':tid,'limit':100,'responseGroup':'full','sortDirection':'ascending','sortKey':'creation_date','viewableOnly':'false'})
+    wtext('discussion_json.txt',json.dumps(d,ensure_ascii=False,indent=2)); wtext('discussion_text.txt','\n'.join(collect(d))); wjson('meta.json',{'mode':'discussion','thread_url':url,'thread_id':tid}); wjson('evidence_bundle.json',{'mode':'discussion','thread_url':url,'thread_id':tid,'discussion':d}); return 0
+
+def flatten(obj,out=None,depth=0):
+    out=[] if out is None else out
+    if depth>12:return out
+    if isinstance(obj,dict):
+        tf=[v for k,v in obj.items() if norm(k) in {'title','rawcontent','content','text','body'} and isinstance(v,str)]
+        if tf and any(k in obj for k in ('id','threadId','threadIdStr','title')): out.append(obj)
+        for v in obj.values(): flatten(v,out,depth+1)
+    elif isinstance(obj,list):
+        for v in obj: flatten(v,out,depth+1)
+    return out
+
+def discussion_search(q,limit=100):
+    try:d=get_json(WIKIA,{'controller':'DiscussionThread','method':'getThreads','siteId':SITE_ID,'limit':min(max(limit,1),100),'responseGroup':'full','sortDirection':'descending','sortKey':'creation_date','viewableOnly':'false'})
+    except Exception as e:
+        r={'query':q,'error':str(e),'matches':[],'scope':'recent discussions endpoint'}; wjson('discussion_search.json',r); wjson('meta.json',{'mode':'discussion_search','requested':q,'status':'endpoint_error'}); wjson('evidence_bundle.json',{'mode':'discussion_search',**r}); return 1
+    toks=[t for t in re.findall(r'[a-z0-9]+',norm(q)) if len(t)>1]; matches=[]; seen=set()
+    for o in flatten(d):
+        blob=' '.join(str(o.get(k,'')) for k in ('title','rawContent','content','text','body')); low=norm(blob); score=sum(low.count(t) for t in toks)
+        if not score: continue
+        tid=o.get('threadId') or o.get('threadIdStr') or o.get('id'); key=str(tid)+'|'+str(o.get('title'))
+        if key in seen: continue
+        seen.add(key); matches.append({'score':score,'thread_id':tid,'title':o.get('title'),'author':o.get('createdBy') or o.get('username') or o.get('user'),'snippet':strip_html(blob)[:700],'url':f'{BASE}/f/p/{tid}' if str(tid).isdigit() else None})
+    matches.sort(key=lambda x:(-x['score'],str(x.get('title') or ''))); r={'query':q,'scope':f'latest {min(max(limit,1),100)} discussions returned by Fandom getThreads','warning':'Not an unlimited historical full-text index; searches the discussions Fandom returned.','matches':matches[:30]}
+    wjson('discussion_search.json',r); wjson('meta.json',{'mode':'discussion_search','requested':q,'match_count':len(r['matches'])}); wjson('evidence_bundle.json',{'mode':'discussion_search',**r}); return 0
+
+def recent_changes(limit=100):
+    d=api({'action':'query','list':'recentchanges','rcnamespace':0,'rclimit':min(max(limit,1),500),'rcprop':'title|ids|timestamp|user|comment|sizes|flags|tags'}); ch=d.get('query',{}).get('recentchanges',[])
+    wjson('recent_changes.json',ch); wjson('meta.json',{'mode':'recent_changes','count':len(ch)}); wjson('evidence_bundle.json',{'mode':'recent_changes','recent_changes':ch}); return 0
+
+def towers_category():
+    try:
+        d=api({'action':'query','list':'categorymembers','cmtitle':'Category:Towers','cmnamespace':0,'cmlimit':'max'}); return {x.get('title') for x in d.get('query',{}).get('categorymembers',[]) if x.get('title')}
+    except:return set()
+
