@@ -16,18 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Diagnose available secret names
-        env:
-          SECRET_CONTEXT_JSON: ${{ toJson(secrets) }}
-        shell: python
-        run: |
-          import json, os
-          try:
-              data = json.loads(os.environ.get("SECRET_CONTEXT_JSON", "{}"))
-          except Exception:
-              data = {}
-          print("Available secret names: " + ", ".join(sorted(data.keys())))
-
       - name: Validate request
         id: request
         shell: python
