@@ -1,7 +1,27 @@
 {
-  "mode": "discussion_search",
-  "query": "gcow merc base accel",
-  "thread_url": "",
-  "limit": 100,
-  "test_run": "find-gcow-merc-accel"
+  "mode": "discussion_deep_search",
+  "query": "golden cowboy accelerator solo fallen loadout",
+  "must_include": [
+    [
+      "golden cowboy",
+      "gcow",
+      "g cow",
+      "gold cowboy"
+    ],
+    [
+      "accelerator",
+      "accel"
+    ]
+  ],
+  "prefer_include": [
+    "fallen",
+    "solo",
+    "loadout",
+    "load out",
+    "win",
+    "won",
+    "triumph"
+  ],
+  "pages": 20,
+  "per_page": 1000
 }
