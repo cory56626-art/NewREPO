@@ -3,7 +3,7 @@ import argparse, html, json, pathlib, re, urllib.error, urllib.parse, urllib.req
 from datetime import datetime, timezone
 
 BASE='https://tds.fandom.com'; API=BASE+'/api.php'; WIKIA=BASE+'/wikia.php'; SITE_ID='2015381'
-ROOT=pathlib.Path(__file__).resolve().parent
+ROOT=pathlib.Path.cwd()/'tds_bridge'
 UA='TDSWikiBridge/5.0 (GitHub Actions; verification bridge)'
 ALIASES={
 'accel':'Accelerator','accelerator':'Accelerator','engi':'Engineer','engineer':'Engineer',
