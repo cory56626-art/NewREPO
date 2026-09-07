@@ -1,0 +1,65 @@
+    return [{'title':x.get('title'),'pageid':x.get('pageid')} for x in d.get('query',{}).get('backlinks',[])]
+def diff_of(revs):
+    if len(revs)<2: return {}
+    a,b=revs[1],revs[0]
+    c=api({'action':'compare','fromrev':a.get('revid'),'torev':b.get('revid'),'prop':'diff|ids|title|user|comment|size'}).get('compare',{})
+    return {'fromrevid':c.get('fromrevid',a.get('revid')),'torevid':c.get('torevid',b.get('revid')),'fromtitle':c.get('fromtitle'),'totitle':c.get('totitle'),'fromuser':c.get('fromuser'),'touser':c.get('touser'),'fromcomment':c.get('fromcomment'),'tocomment':c.get('tocomment'),'diff_text':strip_html(c.get('body',''))}
+def expand(title,wt):
+    try: return api({'action':'expandtemplates','title':title,'text':wt,'prop':'wikitext'}).get('expandtemplates',{}).get('wikitext','')
+    except Exception as e: return '[expandtemplates failed: %s]'%e
+
+def extract_templates(text):
+    out=[]; i=0
+    while True:
+        s=text.find('{{',i)
+        if s<0: break
+        depth=0; j=s
+        while j<len(text)-1:
+            pair=text[j:j+2]
+            if pair=='{{': depth+=1; j+=2; continue
+            if pair=='}}':
+                depth-=1; j+=2
+                if depth==0: out.append(text[s:j]); break
+                continue
+            j+=1
+        if depth!=0: break
+        i=s+2
+    return out
+
+def split_top(s,sep='|'):
+    out=[]; buf=[]; cu=sq=0; i=0
+    while i<len(s):
+        p=s[i:i+2]
+        if p=='{{': cu+=1; buf.append(p); i+=2; continue
+        if p=='}}' and cu: cu-=1; buf.append(p); i+=2; continue
+        if p=='[[': sq+=1; buf.append(p); i+=2; continue
+        if p==']]' and sq: sq-=1; buf.append(p); i+=2; continue
+        if s[i]==sep and cu==0 and sq==0: out.append(''.join(buf)); buf=[]
+        else: buf.append(s[i])
+        i+=1
+    out.append(''.join(buf)); return out
+
+def parse_tpl(raw):
+    inner=raw[2:-2]; parts=split_top(inner); name=parts[0].strip(); params={}; pos=[]
+    for p in parts[1:]:
+        seg=split_top(p,'=')
+        if len(seg)>1: params[seg[0].strip()]='='.join(seg[1:]).strip()
+        else: pos.append(p.strip())
+    return {'name':name,'params':params,'positional':pos}
+
+def description(wt):
+    m=re.search(r'(?is)==\s*Description\s*==\s*(.*?)(?=\n==[^=]|\Z)',wt); return m.group(1).strip() if m else ''
+
+def structured(wt):
+    ts=[parse_tpl(x) for x in extract_templates(wt)]
+    ups=[t for t in ts if norm(t['name'])=='upgrade']
+    for t in ups:
+        src=t['params'].get('level') or (t['positional'][0] if t['positional'] else '')
+        m=re.search(r'\d+',src); t['level']=int(m.group()) if m else None
+    ups.sort(key=lambda t:(t['level'] is None,t['level'] if t['level'] is not None else 999))
+    inf=[t for t in ts if 'infobox' in norm(t['name'])]; likely=next((t for t in inf if 'tower' in norm(t['name'])),inf[0] if inf else None)
+    return {'source_priority':PRIORITY,'description':description(wt),'upgrade_templates':ups,'infoboxes':inf,'likely_infobox':likely,'template_count':len(ts)}
+
+def clean(v):
+    s=re.sub(r'<!--.*?-->','',str(v or ''),flags=re.S); s=re.sub(r'<[^>]+>','',s); s=re.sub(r'\s+',' ',s); return s.strip()
+def num(v):
