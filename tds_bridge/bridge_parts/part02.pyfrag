@@ -52,7 +52,7 @@ def verify(q):
     res=resolve_title(q); wjson('resolution.json',res)
     if res['status']!='resolved':
         wjson('search_candidates.json',res.get('candidates',[])); wjson('meta.json',{'mode':'verify','status':'needs_selection','requested':q}); wjson('evidence_bundle.json',{'mode':'verify','requested':q,'resolution':res,'warning':'No fuzzy result auto-selected.'}); return 2
-    title=res['canonical_title']; p,revs,wt=page_bundle(title); pm=parse_meta(title); wt=pm.get('wikitext',{}).get('*') or wt
+    title=res['canonical_title']; p,revs,wt=page_bundle(title); pm=parse_meta(title); pwt=pm.get('wikitext'); wt=(pwt.get('*') if isinstance(pwt,dict) else pwt) or wt
     cats=p.get('categories',[]) or pm.get('categories',[]); links=pm.get('links',[]); tpls=pm.get('templates',[]); backs=backlinks(title)
     st=structured(wt); cf=conflicts(st); df=diff_of(revs); ex=expand(title,wt); rel=fetch_related(related_candidates(q,links)); cls=classify(wt,cats,tpls)
     hist=[{k:r.get(k) for k in ('revid','parentid','timestamp','user','comment','size','sha1')} for r in revs]
