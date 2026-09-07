@@ -1,5 +1,11 @@
 {
   "ok": false,
-  "stage": "auth",
-  "error": "Missing FANDOM_BOT_USERNAME or FANDOM_BOT_PASSWORD GitHub Actions secret"
+  "stage": "post",
+  "status": 403,
+  "thread_url": "https://tds.fandom.com/f/p/4400000000000253300",
+  "thread_id": "4400000000000253300",
+  "site_id": "2015381",
+  "response": {
+    "reason": "NON_AUTOCONFIRMED"
+  }
 }
