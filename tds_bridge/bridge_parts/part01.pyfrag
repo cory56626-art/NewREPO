@@ -50,15 +50,108 @@ def parse_tpl(raw):
 def description(wt):
     m=re.search(r'(?is)==\s*Description\s*==\s*(.*?)(?=\n==[^=]|\Z)',wt); return m.group(1).strip() if m else ''
 
+def _p(params,key):
+    nk=norm(key)
+    return next((v for k,v in params.items() if norm(k)==nk),None)
+
+def _plain_claim_line(line):
+    s=line.strip()
+    s=re.sub(r'\\[\\[File:.*?\\]\\]','',s,flags=re.I)
+    s=re.sub(r'\\{\\{[^{}]*\\}\\}','',s)
+    s=re.sub(r'\\[\\[(?:[^|\\]]*\\|)?([^\\]]+)\\]\\]',r'\\1',s)
+    return re.sub(r'\\s+',' ',s).strip(' •')
+
+def _claims(info):
+    out=[]
+    for raw in re.split(r'[\\r\\n]+',info or ''):
+        s=_plain_claim_line(raw)
+        if not s or norm(s).startswith('sell price'): continue
+        m=re.match(r'^(-?[\\d,.]+(?:\\.\\d+)?)\\s*>\\s*(-?[\\d,.]+(?:\\.\\d+)?)\\s+(.+)
+def clean(v):
+    s=re.sub(r'<!--.*?-->','',str(v or ''),flags=re.S); s=re.sub(r'<[^>]+>','',s); s=re.sub(r'\s+',' ',s); return s.strip()
+def num(v):
+,s)
+        if m:
+            out.append({'kind':'set','from':m.group(1),'to':m.group(2),'stat':m.group(3).strip(),'text':s}); continue
+        m=re.match(r'^([+-][\\d,.]+(?:\\.\\d+)?)\\s+(.+)
+def clean(v):
+    s=re.sub(r'<!--.*?-->','',str(v or ''),flags=re.S); s=re.sub(r'<[^>]+>','',s); s=re.sub(r'\s+',' ',s); return s.strip()
+def num(v):
+,s)
+        if m:
+            out.append({'kind':'delta','delta':m.group(1),'stat':m.group(2).strip(),'text':s}); continue
+        if s.startswith('+'):
+            out.append({'kind':'grant','stat':s[1:].strip(),'text':s}); continue
+        out.append({'kind':'note','text':s})
+    return out
+
+def _upgrade_list(blob,mode):
+    arr=[]
+    for raw in extract_templates(blob or ''):
+        t=parse_tpl(raw)
+        if norm(t['name'])!='upgrade': continue
+        params=t['params']; lvl=_p(params,'level') or ''
+        m=re.search(r'\\d+',lvl); level=int(m.group()) if m else None
+        info=_p(params,'information') or ''
+        arr.append({'mode':mode,'level':level,'title':_p(params,'upgrade title'),'cost':_p(params,'cost'),'information':info,'claims':_claims(info),'params':params})
+    arr.sort(key=lambda x:(x['level'] is None,x['level'] if x['level'] is not None else 999))
+    return arr
+
+def _stats_rows(wt,mode):
+    costvar='PVP-COST' if mode=='pvp' else 'COST'
+    cm=re.search(r'\\
+def clean(v):
+    s=re.sub(r'<!--.*?-->','',str(v or ''),flags=re.S); s=re.sub(r'<[^>]+>','',s); s=re.sub(r'\s+',' ',s); return s.strip()
+def num(v):
++costvar+r'\\$\\s*=\\s*([^\\n]+)',wt)
+    costs=[x.strip().replace(',','') for x in cm.group(1).split(';')] if cm else []
+    if mode=='regular':
+        sm=re.search(r'\\|-\\|Regular\\s*=\\s*(.*?)(?=\\|-\\|PVP\\s*=)',wt,re.S)
+    else:
+        sm=re.search(r'\\|-\\|PVP\\s*=\\s*(.*?)(?=</tabber>)',wt,re.S)
+    if not sm: return []
+    rows=[]; total=0
+    for m in re.finditer(r'\\|-\\s*\\n\\|\\s*(\\d+)\\s*\\|\\|(.*?)(?=\\n\\|-\\s*\\n|\\n\\|})',sm.group(1),re.S):
+        level=int(m.group(1)); cells=[re.sub(r'\\s+',' ',x.strip()) for x in m.group(2).split('||')]
+        if len(cells)<8: continue
+        cost=float(costs[level]) if level<len(costs) and re.fullmatch(r'\\d+(?:\\.\\d+)?',costs[level]) else None
+        if cost is not None: total+=cost
+        def nv(i):
+            if i>=len(cells): return None
+            z=re.sub(r'\\{\\{.*?\\}\\}|\\$[^$]+\\
+def clean(v):
+    s=re.sub(r'<!--.*?-->','',str(v or ''),flags=re.S); s=re.sub(r'<[^>]+>','',s); s=re.sub(r'\s+',' ',s); return s.strip()
+def num(v):
+,'',cells[i]); mm=re.search(r'-?[\\d,.]+(?:\\.\\d+)?',z)
+            return float(mm.group().replace(',','')) if mm else None
+        damage,tick,charge,cool,over,ran=nv(2),nv(3),nv(4),nv(5),nv(6),nv(7)
+        dps=(over/(charge+cool+(over/damage*tick))) if all(x not in (None,0) for x in (damage,tick,charge,over)) and cool is not None else None
+        rows.append({'level':level,'cost':cost,'total_cost':total if cost is not None else None,'damage':damage,'tick':tick,'charge_up':charge,'cooldown':cool,'overcharge':over,'range':ran,'dps':round(dps,3) if dps is not None else None})
+    return rows
+
 def structured(wt):
-    ts=[parse_tpl(x) for x in extract_templates(wt)]
-    ups=[t for t in ts if norm(t['name'])=='upgrade']
-    for t in ups:
-        src=t['params'].get('level') or (t['positional'][0] if t['positional'] else '')
-        m=re.search(r'\d+',src); t['level']=int(m.group()) if m else None
-    ups.sort(key=lambda t:(t['level'] is None,t['level'] if t['level'] is not None else 999))
+    raws=extract_templates(wt); ts=[parse_tpl(x) for x in raws]
     inf=[t for t in ts if 'infobox' in norm(t['name'])]; likely=next((t for t in inf if 'tower' in norm(t['name'])),inf[0] if inf else None)
-    return {'source_priority':PRIORITY,'description':description(wt),'upgrade_templates':ups,'infoboxes':inf,'likely_infobox':likely,'template_count':len(ts)}
+    regular=[]; pvp=[]
+    for raw in raws:
+        t=parse_tpl(raw)
+        if norm(t['name'])=='pvptabber' and '{{Upgrade' in raw:
+            pos=t.get('positional',[])
+            if pos:
+                regular=_upgrade_list(pos[0],'regular')
+                if len(pos)>1: pvp=_upgrade_list(pos[1],'pvp')
+                if regular: break
+    if not regular:
+        regular=_upgrade_list(wt,'unknown')
+    ip={norm(k):v for k,v in (likely or {}).get('params',{}).items()}
+    detection={
+        'regular':{'hidden':ip.get('hidden_detection'),'lead':ip.get('lead_detection'),'flying':ip.get('flying_detection'),'immune':ip.get('immune'),'placement_limit':ip.get('placement_limit')},
+        'pvp':{'hidden':ip.get('pvp_hidden_detection'),'lead':ip.get('pvp_lead_detection'),'flying':ip.get('pvp_flying_detection'),'immune':ip.get('pvp_immune')}
+    }
+    desc=description(wt)
+    pm=re.search(r'placement limit of\\s+(\\w+|\\d+).*?increased to\\s+(\\w+|\\d+)\\s+in\\s+\\[\\[PVP\\]\\]',desc,re.I|re.S)
+    if pm: detection['pvp']['placement_limit']=pm.group(2)
+    return {'source_priority':PRIORITY,'description':desc,'upgrade_modes':{'regular':regular,'pvp':pvp},'upgrade_templates':regular+pvp,'statistics_tables':{'regular':_stats_rows(wt,'regular'),'pvp':_stats_rows(wt,'pvp')},'detections_and_limits':detection,'infoboxes':inf,'likely_infobox':likely,'template_count':len(ts)}
 
 def clean(v):
     s=re.sub(r'<!--.*?-->','',str(v or ''),flags=re.S); s=re.sub(r'<[^>]+>','',s); s=re.sub(r'\s+',' ',s); return s.strip()
