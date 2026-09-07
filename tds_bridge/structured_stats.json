@@ -7,15 +7,172 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Juggernaut''' or '''EvolvedJuggernaut''' is the [[Tower Evolution|evolved]] version of the [[Minigunner]], unlocked by reaching Level 20 on the [[Minigunner]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|6,000}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.\n\nThe '''Juggernaut''' starts out working very similarly to the [[Minigunner]]. When enemies enter its range, it will rev up its minigun and start firing at them. It will not differ mechanically until Level 4, where it gains two paths.\n#The top path is a more support based path where it gains a secondary range in which it reduces stun, freeze and debuff durations. Any tower in that range will have orange shields around them.\n#The bottom path is more offensive based as it gives the passive ability of dealing boosted damage to [[Boss]] enemies.\n\nThe '''Juggernaut''' has hidden detection from Level 2, flying detection from Level 4A and lead detection from Level 4B. It has a placement limit of 1.",
+  "description": "The '''Kingpin''', internally referred to as '''EvolvedKingpin''', is the [[Tower Evolution|evolved]] version of the [[Crook Boss]], unlocked by reaching Level 20 on the [[Crook Boss]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|5,500}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.\n\nThe '''Kingpin''' itself is a single target tower with no major gimmicks in the beginning, even lacking the [[Crook Boss]]' summon animation for each unit. It does however have up to three unit queues, all of which summon in can summon a different unit. There are four available options:\n*[[Lackey]], a simple single target unit with with decent health and DPS. The unit has hidden detection. It is unlocked from Level 0.\n*[[Money Runner]], the only unit that cannot be used offensively outside of collision damage that upon death generates a set amount of cash. It is unlocked from Level 0.\n*[[Bouncer]] is a high health melee unit that attacks enemies with a bat. The unit has both hidden and lead detections. It is unlocked from Level 4B.\n*[[Contractor]] is a high range unit that deals a lot of damage at a slow speed. It has all three detections. It is unlocked from Level 6B.\n\nWhile the bottom path has two units unique to itself, the top path instead gains the ''Bounty'' ability which lets the '''Kingpin''' mark an enemy in its range. While doing so, it will stop attacking enemies for 2 seconds. This marked enemy will generate a specific percentage of the enemy's total cash reward once the enemy has been killed, though the reward cannot exceed a specific value. Both the reward percentage and the reward cap increase with upgrades.\n\nThe '''Kingpin''' is primarily a mid to late-game tower, with top path focusing on income while bottom path focuses on DPS. It has a placement limit of 4.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "unknown",
         "level": 1,
-        "title": "Combat Tactics",
-        "cost": "{{Money|2,800}}",
-        "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}",
+        "title": "Hat Trick",
+        "cost": "{{Money|1,400}}",
+        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "1.1",
+            "to": "0.85",
+            "stat": "Firerate",
+            "text": "1.1 > 0.85 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Evolution Level": "0",
+          "Upgrade Title": "Hat Trick",
+          "Cost": "{{Money|1,400}}",
+          "Image": "[[File:Kingpin1.png|100px]]",
+          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Mafia Expansion",
+        "cost": "{{Money|4,000}}",
+        "information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.85",
+            "to": "0.14",
+            "stat": "Firerate",
+            "text": "0.85 > 0.14 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "-17",
+            "stat": "Damage",
+            "text": "-17 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Unit Queue",
+            "text": "+1 Unit Queue"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Evolution Level": "0",
+          "Upgrade Title": "Mafia Expansion",
+          "Cost": "{{Money|4,000}}",
+          "Image": "[[File:Kingpin2.png|100px]]",
+          "Information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "High Roller",
+        "cost": "{{Money|6,000}}",
+        "information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}",
+        "claims": [
+          {
+            "kind": "grant",
+            "stat": "Flying Detection",
+            "text": "+Flying Detection"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Damage",
+            "text": "+5 Damage"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Evolution Level": "0",
+          "Upgrade Title": "High Roller",
+          "Cost": "{{Money|6,000}}",
+          "Image": "[[File:Kingpin3.png|100px]]",
+          "Information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "LV. 10 Bounty Hunter",
+        "cost": "{{Money|7,250}}",
+        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}",
+        "claims": [
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          },
+          {
+            "kind": "set",
+            "from": "0.14",
+            "to": "1.65",
+            "stat": "Firerate",
+            "text": "0.14 > 1.65 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+148",
+            "stat": "Damage",
+            "text": "+148 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies."
+          },
+          {
+            "kind": "note",
+            "text": "60% Reward Percentage"
+          },
+          {
+            "kind": "note",
+            "text": "Reward Cap"
+          },
+          {
+            "kind": "note",
+            "text": "120 Cooldown"
+          },
+          {
+            "kind": "note",
+            "text": "40 Initial Cooldown }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health"
+          },
+          {
+            "kind": "note",
+            "text": "> Cash on Death }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Evolution Level": "0",
+          "Upgrade Title": "LV. 10 Bounty Hunter",
+          "Cost": "{{Money|7,250}}",
+          "Image": "[[File:Kingpin4A.png|100px]]",
+          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Underworld Backup",
+        "cost": "{{Money|14,000}}",
+        "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}",
         "claims": [
           {
             "kind": "set",
@@ -23,28 +180,12 @@
             "to": "0.12",
             "stat": "Firerate",
             "text": "0.14 > 0.12 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Evolution Level": "0",
-          "Upgrade Title": "Combat Tactics",
-          "Cost": "{{Money|2,800}}",
-          "Image": "[[File:JuggernautUpgrade1.png|100px]]",
-          "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "32nd Spec-Ops",
-        "cost": "{{Money|7,000}}",
-        "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}",
-        "claims": [
+          },
           {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
           },
           {
             "kind": "delta",
@@ -54,121 +195,321 @@
           },
           {
             "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
+            "delta": "+1",
+            "stat": "Unit Queue",
+            "text": "+1 Unit Queue"
           },
           {
-            "kind": "set",
-            "from": "2",
-            "to": "1.8",
-            "stat": "Rev Time",
-            "text": "2 > 1.8 Rev Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Evolution Level": "0",
-          "Upgrade Title": "32nd Spec-Ops",
-          "Cost": "{{Money|7,000}}",
-          "Image": "[[File:JuggernautUpgrade2.png|100px]]",
-          "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "Re-routed Funds",
-        "cost": "{{Money|17,200}}",
-        "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}",
-        "claims": [
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health"
+          },
+          {
+            "kind": "note",
+            "text": "25 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "8 Range"
+          },
+          {
+            "kind": "note",
+            "text": "0.5 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "150 Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "45 Spawn Time"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection"
+          },
+          {
+            "kind": "note",
+            "text": "Lead Detection }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
+          },
           {
             "kind": "delta",
-            "delta": "+15",
+            "delta": "+3",
             "stat": "Damage",
-            "text": "+15 Damage"
+            "text": "+3 Damage"
           },
           {
             "kind": "delta",
-            "delta": "+2",
+            "delta": "+4",
             "stat": "Range",
-            "text": "+2 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Evolution Level": "0",
-          "Upgrade Title": "Re-routed Funds",
-          "Cost": "{{Money|17,200}}",
-          "Image": "[[File:JuggernautUpgrade3.png|100px]]",
-          "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Fortifier",
-        "cost": "{{Money|35,000}}",
-        "information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.12",
-            "to": "0.15",
-            "stat": "Firerate",
-            "text": "0.12 > 0.15 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+35",
-            "stat": "Damage",
-            "text": "+35 Damage"
+            "text": "+4 Range"
           },
           {
             "kind": "set",
-            "from": "1.8",
-            "to": "1.2",
-            "stat": "Rev Time",
-            "text": "1.8 > 1.2 Rev Time"
-          },
-          {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\""
-          },
-          {
-            "kind": "note",
-            "text": "'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times"
-          },
-          {
-            "kind": "note",
-            "text": "13 Fortify Radius"
-          },
-          {
-            "kind": "note",
-            "text": "35% Fortify Debuff Time Reduction}}"
+            "from": "0.22",
+            "to": "0.2",
+            "stat": "Firerate }}",
+            "text": "0.22 > 0.2 Firerate }}"
           }
         ],
         "params": {
           "Level": "Level 4",
           "Evolution Level": "0",
-          "Upgrade Title": "Fortifier",
-          "Cost": "{{Money|35,000}}",
-          "Image": "[[File:JuggernautUpgrade4A.png|100px]]",
-          "Information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}"
+          "Upgrade Title": "Underworld Backup",
+          "Cost": "{{Money|14,000}}",
+          "Image": "[[File:Kingpin4B.png|100px]]",
+          "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}"
         }
       },
       {
         "mode": "unknown",
-        "level": 4,
-        "title": "Experimental Weaponry",
-        "cost": "{{Money|40,000}}",
-        "information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}",
+        "level": 5,
+        "title": "LV. 50 Flashy Business",
+        "cost": "{{Money|16,500}}",
+        "information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}",
         "claims": [
+          {
+            "kind": "delta",
+            "delta": "+135",
+            "stat": "Damage",
+            "text": "+135 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage"
+          },
+          {
+            "kind": "note",
+            "text": "> Reward Cap }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.22",
+            "to": "0.2",
+            "stat": "Firerate }}",
+            "text": "0.22 > 0.2 Firerate }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = > Cash on Death"
+          },
+          {
+            "kind": "set",
+            "from": "30",
+            "to": "27.5",
+            "stat": "Spawn Time }}",
+            "text": "30 > 27.5 Spawn Time }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Evolution Level": "5",
+          "Upgrade Title": "LV. 50 Flashy Business",
+          "Cost": "{{Money|16,500}}",
+          "Image": "[[File:Kingpin5A.png|100px]]",
+          "Information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "B.P. Operations",
+        "cost": "{{Money|32,500}}",
+        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+17",
+            "stat": "Damage",
+            "text": "+17 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.2",
+            "to": "0.16",
+            "stat": "Firerate",
+            "text": "0.2 > 0.16 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "30",
+            "to": "25",
+            "stat": "Spawn Time }}",
+            "text": "30 > 25 Spawn Time }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "0% > 10% Defense"
+          },
+          {
+            "kind": "set",
+            "from": "45",
+            "to": "40",
+            "stat": "Spawn Time }}",
+            "text": "45 > 40 Spawn Time }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Evolution Level": "10",
+          "Upgrade Title": "B.P. Operations",
+          "Cost": "{{Money|32,500}}",
+          "Image": "[[File:Kingpin5B.png|100px]]",
+          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 6,
+        "title": "LV. 999 BOSS",
+        "cost": "{{Money|38,500}}",
+        "information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "1.65",
+            "to": "0.8",
+            "stat": "Firerate",
+            "text": "1.65 > 0.8 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "-70",
+            "stat": "Damage",
+            "text": "-70 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage"
+          },
+          {
+            "kind": "note",
+            "text": "> Reward Cap }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.2",
+            "to": "0.16",
+            "stat": "Firerate",
+            "text": "0.2 > 0.16 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "30",
+            "to": "25",
+            "stat": "Spawn Time }}",
+            "text": "30 > 25 Spawn Time }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health"
+          },
+          {
+            "kind": "note",
+            "text": "> Cash on Death"
+          },
+          {
+            "kind": "set",
+            "from": "27.5",
+            "to": "25",
+            "stat": "Spawn Time }}",
+            "text": "27.5 > 25 Spawn Time }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Evolution Level": "15",
+          "Upgrade Title": "LV. 999 BOSS",
+          "Cost": "{{Money|38,500}}",
+          "Image": "[[File:Kingpin6A.png|100px]]",
+          "Information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 6,
+        "title": "Golden Syndicate",
+        "cost": "{{Money|64,000}}",
+        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}",
+        "claims": [
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          },
           {
             "kind": "set",
             "from": "0.12",
@@ -178,240 +519,97 @@
           },
           {
             "kind": "delta",
-            "delta": "+10",
+            "delta": "+12",
             "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
+            "text": "+12 Damage"
           },
           {
             "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\""
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health"
           },
           {
             "kind": "note",
-            "text": "'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies."
+            "text": "170 Damage"
           },
           {
             "kind": "note",
-            "text": "1.4 Boss Multiplier }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Evolution Level": "0",
-          "Upgrade Title": "Experimental Weaponry",
-          "Cost": "{{Money|40,000}}",
-          "Image": "[[File:JuggernautUpgrade4B.png|100px]]",
-          "Information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 5,
-        "title": "Defensive Maneuvers",
-        "cost": "{{Money|60,000}}",
-        "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+55",
-            "stat": "Damage",
-            "text": "+55 Damage"
+            "text": "35 Range"
           },
           {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Range",
-            "text": "+4 Range"
+            "kind": "note",
+            "text": "2 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "75 Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "60 Spawn Time"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection"
+          },
+          {
+            "kind": "note",
+            "text": "Flying Detection"
+          },
+          {
+            "kind": "note",
+            "text": "Lead Detection }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health"
           },
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Fortify Radius",
-            "text": "+1 Fortify Radius"
-          },
-          {
-            "kind": "note",
-            "text": "35% > 40% Fortify Debuff Time Reduction"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Evolution Level": "3",
-          "Upgrade Title": "Defensive Maneuvers",
-          "Cost": "{{Money|60,000}}",
-          "Image": "[[File:JuggernautUpgrade5A.png|100px]]",
-          "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 5,
-        "title": "Bigger Guns",
-        "cost": "{{Money|95,000}}",
-        "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+45",
             "stat": "Damage",
-            "text": "+45 Damage"
+            "text": "+1 Damage"
           },
           {
             "kind": "delta",
-            "delta": "+4",
+            "delta": "+0.5",
             "stat": "Range",
-            "text": "+4 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Evolution Level": "6",
-          "Upgrade Title": "Bigger Guns",
-          "Cost": "{{Money|95,000}}",
-          "Image": "[[File:JuggernautUpgrade5B.png|100px]]",
-          "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 6,
-        "title": "Flak Jacket",
-        "cost": "{{Money|95,000}}",
-        "information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+30",
-            "stat": "Damage",
-            "text": "+30 Damage"
+            "text": "+0.5 Range"
           },
           {
             "kind": "set",
-            "from": "0.15",
+            "from": "0.16",
             "to": "0.12",
-            "stat": "Firerate",
-            "text": "0.15 > 0.12 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "1.2",
-            "to": "1",
-            "stat": "Rev Time",
-            "text": "1.2 > 1 Rev Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Evolution Level": "9",
-          "Upgrade Title": "Flak Jacket",
-          "Cost": "{{Money|95,000}}",
-          "Image": "[[File:JuggernautUpgrade6A.png|100px]]",
-          "Information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 6,
-        "title": "Titanium Armor",
-        "cost": "{{Money|130,000}}",
-        "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+55",
-            "stat": "Damage",
-            "text": "+55 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Evolution Level": "12",
-          "Upgrade Title": "Titanium Armor",
-          "Cost": "{{Money|130,000}}",
-          "Image": "[[File:JuggernautUpgrade6B.png|100px]]",
-          "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 7,
-        "title": "Hammerhead",
-        "cost": "{{Money|175,000}}",
-        "information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+65",
-            "stat": "Damage",
-            "text": "+65 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Fortify Radius",
-            "text": "+2 Fortify Radius"
+            "stat": "Firerate }}",
+            "text": "0.16 > 0.12 Firerate }}"
           },
           {
             "kind": "note",
-            "text": "40% > 50% Fortify Debuff Time Reduction"
-          }
-        ],
-        "params": {
-          "Level": "Level 7",
-          "Evolution Level": "16",
-          "Upgrade Title": "Hammerhead",
-          "Cost": "{{Money|175,000}}",
-          "Image": "[[File:JuggernautUpgrade7A.png|100px]]",
-          "Information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 7,
-        "title": "Thresher",
-        "cost": "{{Money|230,000}}",
-        "information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}",
-        "claims": [
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
+          },
           {
             "kind": "delta",
-            "delta": "+25",
+            "delta": "+5",
             "stat": "Damage",
-            "text": "+25 Damage"
+            "text": "+5 Damage"
           },
           {
-            "kind": "set",
-            "from": "0.1",
-            "to": "0.09",
-            "stat": "Firerate",
-            "text": "0.1 > 0.09 Firerate"
+            "kind": "delta",
+            "delta": "+0.5",
+            "stat": "Range",
+            "text": "+0.5 Range"
           },
           {
-            "kind": "set",
-            "from": "1.8",
-            "to": "1.6",
-            "stat": "Rev Time",
-            "text": "1.8 > 1.6 Rev Time"
-          },
-          {
-            "kind": "set",
-            "from": "1.4",
-            "to": "1.5",
-            "stat": "Boss Multiplier",
-            "text": "1.4 > 1.5 Boss Multiplier"
+            "kind": "note",
+            "text": "10% > 15% Defense }}"
           }
         ],
         "params": {
-          "Level": "Level 7",
+          "Level": "Level 6",
           "Evolution Level": "20",
-          "Upgrade Title": "Thresher",
-          "Cost": "{{Money|230,000}}",
-          "Image": "[[File:JuggernautUpgrade7B.png|100px]]",
-          "Information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}"
+          "Upgrade Title": "Golden Syndicate",
+          "Cost": "{{Money|64,000}}",
+          "Image": "[[File:Kingpin6B.png|100px]]",
+          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}"
         }
       }
     ],
@@ -421,9 +619,166 @@
     {
       "mode": "unknown",
       "level": 1,
-      "title": "Combat Tactics",
-      "cost": "{{Money|2,800}}",
-      "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}",
+      "title": "Hat Trick",
+      "cost": "{{Money|1,400}}",
+      "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2.5",
+          "stat": "Range",
+          "text": "+2.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "1.1",
+          "to": "0.85",
+          "stat": "Firerate",
+          "text": "1.1 > 0.85 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Evolution Level": "0",
+        "Upgrade Title": "Hat Trick",
+        "Cost": "{{Money|1,400}}",
+        "Image": "[[File:Kingpin1.png|100px]]",
+        "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 2,
+      "title": "Mafia Expansion",
+      "cost": "{{Money|4,000}}",
+      "information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "0.85",
+          "to": "0.14",
+          "stat": "Firerate",
+          "text": "0.85 > 0.14 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "-17",
+          "stat": "Damage",
+          "text": "-17 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Unit Queue",
+          "text": "+1 Unit Queue"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Evolution Level": "0",
+        "Upgrade Title": "Mafia Expansion",
+        "Cost": "{{Money|4,000}}",
+        "Image": "[[File:Kingpin2.png|100px]]",
+        "Information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 3,
+      "title": "High Roller",
+      "cost": "{{Money|6,000}}",
+      "information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}",
+      "claims": [
+        {
+          "kind": "grant",
+          "stat": "Flying Detection",
+          "text": "+Flying Detection"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Damage",
+          "text": "+5 Damage"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Evolution Level": "0",
+        "Upgrade Title": "High Roller",
+        "Cost": "{{Money|6,000}}",
+        "Image": "[[File:Kingpin3.png|100px]]",
+        "Information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "LV. 10 Bounty Hunter",
+      "cost": "{{Money|7,250}}",
+      "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}",
+      "claims": [
+        {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        },
+        {
+          "kind": "set",
+          "from": "0.14",
+          "to": "1.65",
+          "stat": "Firerate",
+          "text": "0.14 > 1.65 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+148",
+          "stat": "Damage",
+          "text": "+148 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies."
+        },
+        {
+          "kind": "note",
+          "text": "60% Reward Percentage"
+        },
+        {
+          "kind": "note",
+          "text": "Reward Cap"
+        },
+        {
+          "kind": "note",
+          "text": "120 Cooldown"
+        },
+        {
+          "kind": "note",
+          "text": "40 Initial Cooldown }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health"
+        },
+        {
+          "kind": "note",
+          "text": "> Cash on Death }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Evolution Level": "0",
+        "Upgrade Title": "LV. 10 Bounty Hunter",
+        "Cost": "{{Money|7,250}}",
+        "Image": "[[File:Kingpin4A.png|100px]]",
+        "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Underworld Backup",
+      "cost": "{{Money|14,000}}",
+      "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}",
       "claims": [
         {
           "kind": "set",
@@ -431,28 +786,12 @@
           "to": "0.12",
           "stat": "Firerate",
           "text": "0.14 > 0.12 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Evolution Level": "0",
-        "Upgrade Title": "Combat Tactics",
-        "Cost": "{{Money|2,800}}",
-        "Image": "[[File:JuggernautUpgrade1.png|100px]]",
-        "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 2,
-      "title": "32nd Spec-Ops",
-      "cost": "{{Money|7,000}}",
-      "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}",
-      "claims": [
+        },
         {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
         },
         {
           "kind": "delta",
@@ -462,121 +801,321 @@
         },
         {
           "kind": "delta",
-          "delta": "+2.5",
-          "stat": "Range",
-          "text": "+2.5 Range"
+          "delta": "+1",
+          "stat": "Unit Queue",
+          "text": "+1 Unit Queue"
         },
         {
-          "kind": "set",
-          "from": "2",
-          "to": "1.8",
-          "stat": "Rev Time",
-          "text": "2 > 1.8 Rev Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Evolution Level": "0",
-        "Upgrade Title": "32nd Spec-Ops",
-        "Cost": "{{Money|7,000}}",
-        "Image": "[[File:JuggernautUpgrade2.png|100px]]",
-        "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 3,
-      "title": "Re-routed Funds",
-      "cost": "{{Money|17,200}}",
-      "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}",
-      "claims": [
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health"
+        },
+        {
+          "kind": "note",
+          "text": "25 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "8 Range"
+        },
+        {
+          "kind": "note",
+          "text": "0.5 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "150 Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "45 Spawn Time"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection"
+        },
+        {
+          "kind": "note",
+          "text": "Lead Detection }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
+        },
         {
           "kind": "delta",
-          "delta": "+15",
+          "delta": "+3",
           "stat": "Damage",
-          "text": "+15 Damage"
+          "text": "+3 Damage"
         },
         {
           "kind": "delta",
-          "delta": "+2",
+          "delta": "+4",
           "stat": "Range",
-          "text": "+2 Range"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Evolution Level": "0",
-        "Upgrade Title": "Re-routed Funds",
-        "Cost": "{{Money|17,200}}",
-        "Image": "[[File:JuggernautUpgrade3.png|100px]]",
-        "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "Fortifier",
-      "cost": "{{Money|35,000}}",
-      "information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "0.12",
-          "to": "0.15",
-          "stat": "Firerate",
-          "text": "0.12 > 0.15 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+35",
-          "stat": "Damage",
-          "text": "+35 Damage"
+          "text": "+4 Range"
         },
         {
           "kind": "set",
-          "from": "1.8",
-          "to": "1.2",
-          "stat": "Rev Time",
-          "text": "1.8 > 1.2 Rev Time"
-        },
-        {
-          "kind": "grant",
-          "stat": "Flying Detection",
-          "text": "+Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\""
-        },
-        {
-          "kind": "note",
-          "text": "'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times"
-        },
-        {
-          "kind": "note",
-          "text": "13 Fortify Radius"
-        },
-        {
-          "kind": "note",
-          "text": "35% Fortify Debuff Time Reduction}}"
+          "from": "0.22",
+          "to": "0.2",
+          "stat": "Firerate }}",
+          "text": "0.22 > 0.2 Firerate }}"
         }
       ],
       "params": {
         "Level": "Level 4",
         "Evolution Level": "0",
-        "Upgrade Title": "Fortifier",
-        "Cost": "{{Money|35,000}}",
-        "Image": "[[File:JuggernautUpgrade4A.png|100px]]",
-        "Information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}"
+        "Upgrade Title": "Underworld Backup",
+        "Cost": "{{Money|14,000}}",
+        "Image": "[[File:Kingpin4B.png|100px]]",
+        "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}"
       }
     },
     {
       "mode": "unknown",
-      "level": 4,
-      "title": "Experimental Weaponry",
-      "cost": "{{Money|40,000}}",
-      "information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}",
+      "level": 5,
+      "title": "LV. 50 Flashy Business",
+      "cost": "{{Money|16,500}}",
+      "information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}",
       "claims": [
+        {
+          "kind": "delta",
+          "delta": "+135",
+          "stat": "Damage",
+          "text": "+135 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage"
+        },
+        {
+          "kind": "note",
+          "text": "> Reward Cap }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Damage",
+          "text": "+3 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Range",
+          "text": "+4 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.22",
+          "to": "0.2",
+          "stat": "Firerate }}",
+          "text": "0.22 > 0.2 Firerate }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = > Cash on Death"
+        },
+        {
+          "kind": "set",
+          "from": "30",
+          "to": "27.5",
+          "stat": "Spawn Time }}",
+          "text": "30 > 27.5 Spawn Time }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Evolution Level": "5",
+        "Upgrade Title": "LV. 50 Flashy Business",
+        "Cost": "{{Money|16,500}}",
+        "Image": "[[File:Kingpin5A.png|100px]]",
+        "Information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 5,
+      "title": "B.P. Operations",
+      "cost": "{{Money|32,500}}",
+      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Range",
+          "text": "+1 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+17",
+          "stat": "Damage",
+          "text": "+17 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.2",
+          "to": "0.16",
+          "stat": "Firerate",
+          "text": "0.2 > 0.16 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "30",
+          "to": "25",
+          "stat": "Spawn Time }}",
+          "text": "30 > 25 Spawn Time }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "0% > 10% Defense"
+        },
+        {
+          "kind": "set",
+          "from": "45",
+          "to": "40",
+          "stat": "Spawn Time }}",
+          "text": "45 > 40 Spawn Time }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Evolution Level": "10",
+        "Upgrade Title": "B.P. Operations",
+        "Cost": "{{Money|32,500}}",
+        "Image": "[[File:Kingpin5B.png|100px]]",
+        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 6,
+      "title": "LV. 999 BOSS",
+      "cost": "{{Money|38,500}}",
+      "information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "1.65",
+          "to": "0.8",
+          "stat": "Firerate",
+          "text": "1.65 > 0.8 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "-70",
+          "stat": "Damage",
+          "text": "-70 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage"
+        },
+        {
+          "kind": "note",
+          "text": "> Reward Cap }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.2",
+          "to": "0.16",
+          "stat": "Firerate",
+          "text": "0.2 > 0.16 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "30",
+          "to": "25",
+          "stat": "Spawn Time }}",
+          "text": "30 > 25 Spawn Time }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health"
+        },
+        {
+          "kind": "note",
+          "text": "> Cash on Death"
+        },
+        {
+          "kind": "set",
+          "from": "27.5",
+          "to": "25",
+          "stat": "Spawn Time }}",
+          "text": "27.5 > 25 Spawn Time }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Evolution Level": "15",
+        "Upgrade Title": "LV. 999 BOSS",
+        "Cost": "{{Money|38,500}}",
+        "Image": "[[File:Kingpin6A.png|100px]]",
+        "Information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 6,
+      "title": "Golden Syndicate",
+      "cost": "{{Money|64,000}}",
+      "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}",
+      "claims": [
+        {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        },
         {
           "kind": "set",
           "from": "0.12",
@@ -586,240 +1125,97 @@
         },
         {
           "kind": "delta",
-          "delta": "+10",
+          "delta": "+12",
           "stat": "Damage",
-          "text": "+10 Damage"
-        },
-        {
-          "kind": "grant",
-          "stat": "Lead Detection",
-          "text": "+Lead Detection"
+          "text": "+12 Damage"
         },
         {
           "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\""
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health"
         },
         {
           "kind": "note",
-          "text": "'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies."
+          "text": "170 Damage"
         },
         {
           "kind": "note",
-          "text": "1.4 Boss Multiplier }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Evolution Level": "0",
-        "Upgrade Title": "Experimental Weaponry",
-        "Cost": "{{Money|40,000}}",
-        "Image": "[[File:JuggernautUpgrade4B.png|100px]]",
-        "Information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 5,
-      "title": "Defensive Maneuvers",
-      "cost": "{{Money|60,000}}",
-      "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+55",
-          "stat": "Damage",
-          "text": "+55 Damage"
+          "text": "35 Range"
         },
         {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Range",
-          "text": "+4 Range"
+          "kind": "note",
+          "text": "2 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "75 Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "60 Spawn Time"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection"
+        },
+        {
+          "kind": "note",
+          "text": "Flying Detection"
+        },
+        {
+          "kind": "note",
+          "text": "Lead Detection }}"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health"
         },
         {
           "kind": "delta",
           "delta": "+1",
-          "stat": "Fortify Radius",
-          "text": "+1 Fortify Radius"
-        },
-        {
-          "kind": "note",
-          "text": "35% > 40% Fortify Debuff Time Reduction"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Evolution Level": "3",
-        "Upgrade Title": "Defensive Maneuvers",
-        "Cost": "{{Money|60,000}}",
-        "Image": "[[File:JuggernautUpgrade5A.png|100px]]",
-        "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 5,
-      "title": "Bigger Guns",
-      "cost": "{{Money|95,000}}",
-      "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+45",
           "stat": "Damage",
-          "text": "+45 Damage"
+          "text": "+1 Damage"
         },
         {
           "kind": "delta",
-          "delta": "+4",
+          "delta": "+0.5",
           "stat": "Range",
-          "text": "+4 Range"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Evolution Level": "6",
-        "Upgrade Title": "Bigger Guns",
-        "Cost": "{{Money|95,000}}",
-        "Image": "[[File:JuggernautUpgrade5B.png|100px]]",
-        "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 6,
-      "title": "Flak Jacket",
-      "cost": "{{Money|95,000}}",
-      "information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+30",
-          "stat": "Damage",
-          "text": "+30 Damage"
+          "text": "+0.5 Range"
         },
         {
           "kind": "set",
-          "from": "0.15",
+          "from": "0.16",
           "to": "0.12",
-          "stat": "Firerate",
-          "text": "0.15 > 0.12 Firerate"
-        },
-        {
-          "kind": "set",
-          "from": "1.2",
-          "to": "1",
-          "stat": "Rev Time",
-          "text": "1.2 > 1 Rev Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 6",
-        "Evolution Level": "9",
-        "Upgrade Title": "Flak Jacket",
-        "Cost": "{{Money|95,000}}",
-        "Image": "[[File:JuggernautUpgrade6A.png|100px]]",
-        "Information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 6,
-      "title": "Titanium Armor",
-      "cost": "{{Money|130,000}}",
-      "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+55",
-          "stat": "Damage",
-          "text": "+55 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 6",
-        "Evolution Level": "12",
-        "Upgrade Title": "Titanium Armor",
-        "Cost": "{{Money|130,000}}",
-        "Image": "[[File:JuggernautUpgrade6B.png|100px]]",
-        "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 7,
-      "title": "Hammerhead",
-      "cost": "{{Money|175,000}}",
-      "information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+65",
-          "stat": "Damage",
-          "text": "+65 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Fortify Radius",
-          "text": "+2 Fortify Radius"
+          "stat": "Firerate }}",
+          "text": "0.16 > 0.12 Firerate }}"
         },
         {
           "kind": "note",
-          "text": "40% > 50% Fortify Debuff Time Reduction"
-        }
-      ],
-      "params": {
-        "Level": "Level 7",
-        "Evolution Level": "16",
-        "Upgrade Title": "Hammerhead",
-        "Cost": "{{Money|175,000}}",
-        "Image": "[[File:JuggernautUpgrade7A.png|100px]]",
-        "Information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 7,
-      "title": "Thresher",
-      "cost": "{{Money|230,000}}",
-      "information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}",
-      "claims": [
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
+        },
         {
           "kind": "delta",
-          "delta": "+25",
+          "delta": "+5",
           "stat": "Damage",
-          "text": "+25 Damage"
+          "text": "+5 Damage"
         },
         {
-          "kind": "set",
-          "from": "0.1",
-          "to": "0.09",
-          "stat": "Firerate",
-          "text": "0.1 > 0.09 Firerate"
+          "kind": "delta",
+          "delta": "+0.5",
+          "stat": "Range",
+          "text": "+0.5 Range"
         },
         {
-          "kind": "set",
-          "from": "1.8",
-          "to": "1.6",
-          "stat": "Rev Time",
-          "text": "1.8 > 1.6 Rev Time"
-        },
-        {
-          "kind": "set",
-          "from": "1.4",
-          "to": "1.5",
-          "stat": "Boss Multiplier",
-          "text": "1.4 > 1.5 Boss Multiplier"
+          "kind": "note",
+          "text": "10% > 15% Defense }}"
         }
       ],
       "params": {
-        "Level": "Level 7",
+        "Level": "Level 6",
         "Evolution Level": "20",
-        "Upgrade Title": "Thresher",
-        "Cost": "{{Money|230,000}}",
-        "Image": "[[File:JuggernautUpgrade7B.png|100px]]",
-        "Information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}"
+        "Upgrade Title": "Golden Syndicate",
+        "Cost": "{{Money|64,000}}",
+        "Image": "[[File:Kingpin6B.png|100px]]",
+        "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}"
       }
     }
   ],
@@ -829,11 +1225,11 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 2+}}",
-      "lead": "{{Attr|Lead|Level 4B+}}",
-      "flying": "{{Attr|Flying|Level 4A+}}",
+      "hidden": "{{Attr|Hidden|Level 0+}} (Units only)",
+      "lead": "{{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])",
+      "flying": "{{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)",
       "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1"
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4"
     },
     "pvp": {
       "hidden": null,
@@ -846,33 +1242,29 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "image-static": "EvolvedJuggernautIcon.png",
-        "image-dynamic": "EvolvedJuggernautDynamic.png",
-        "image-dynamic-start": "22",
-        "towercost": "{{Coins|15,000}} & {{Gem|6,000}}",
+        "image-static": "DefaultKingpin0.png",
+        "image-dynamic1": "DefaultKingpin0.png",
+        "pseudoxd": "1",
+        "towercost": "{{Coins|15,000}} & {{Gem|5,500}}",
         "placement": "Ground",
         "role": "Offense",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
-        "basecost": "{{Money|10,000}}",
-        "basesellingprice": "{{Money|3,333}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4",
+        "basecost": "{{Money|3,600}}",
+        "basesellingprice": "{{Money|1,200}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]24",
         "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.14",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
         "baserange": "[[File:Range Icon.png|20px|Range]]17.5",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "lead_detection": "{{Attr|Lead|Level 4B+}}",
-        "flying_detection": "{{Attr|Flying|Level 4A+}}",
+        "hidden_detection": "{{Attr|Hidden|Level 0+}} (Units only)",
+        "lead_detection": "{{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])",
+        "flying_detection": "{{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)",
         "immune": "None",
-        "footprint": "Very Large (2.5)",
-        "evolved_from": "[[Minigunner]]",
+        "footprint": "1.5",
+        "evolved_from": "[[Crook Boss]]",
         "evolution_levels": "20",
         "base_exp": "75",
         "growth_rate": "1.075",
-        "skip_cost": "1,199",
-        "tooltip-1": "A massive offensive tower that fires high damage shots at a quick rate. At level 4, splits into two paths.",
-        "tooltip-2": "On top path, gains a fortify zone that reduces debuff and stun times for nearby towers.",
-        "tooltip-3": "On Bottom Path, gains a damage multiplier on boss enemies.",
-        "tooltip-4": "Capable of detecting hidden enemies, flying enemies on top path, and lead enemies on bottom path."
+        "skip_cost": "1,199"
       },
       "positional": []
     }
@@ -880,35 +1272,31 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "image-static": "EvolvedJuggernautIcon.png",
-      "image-dynamic": "EvolvedJuggernautDynamic.png",
-      "image-dynamic-start": "22",
-      "towercost": "{{Coins|15,000}} & {{Gem|6,000}}",
+      "image-static": "DefaultKingpin0.png",
+      "image-dynamic1": "DefaultKingpin0.png",
+      "pseudoxd": "1",
+      "towercost": "{{Coins|15,000}} & {{Gem|5,500}}",
       "placement": "Ground",
       "role": "Offense",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
-      "basecost": "{{Money|10,000}}",
-      "basesellingprice": "{{Money|3,333}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4",
+      "basecost": "{{Money|3,600}}",
+      "basesellingprice": "{{Money|1,200}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]24",
       "damagetype": "Single",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.14",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
       "baserange": "[[File:Range Icon.png|20px|Range]]17.5",
-      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-      "lead_detection": "{{Attr|Lead|Level 4B+}}",
-      "flying_detection": "{{Attr|Flying|Level 4A+}}",
+      "hidden_detection": "{{Attr|Hidden|Level 0+}} (Units only)",
+      "lead_detection": "{{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])",
+      "flying_detection": "{{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)",
       "immune": "None",
-      "footprint": "Very Large (2.5)",
-      "evolved_from": "[[Minigunner]]",
+      "footprint": "1.5",
+      "evolved_from": "[[Crook Boss]]",
       "evolution_levels": "20",
       "base_exp": "75",
       "growth_rate": "1.075",
-      "skip_cost": "1,199",
-      "tooltip-1": "A massive offensive tower that fires high damage shots at a quick rate. At level 4, splits into two paths.",
-      "tooltip-2": "On top path, gains a fortify zone that reduces debuff and stun times for nearby towers.",
-      "tooltip-3": "On Bottom Path, gains a damage multiplier on boss enemies.",
-      "tooltip-4": "Capable of detecting hidden enemies, flying enemies on top path, and lead enemies on bottom path."
+      "skip_cost": "1,199"
     },
     "positional": []
   },
-  "template_count": 199
+  "template_count": 123
 }

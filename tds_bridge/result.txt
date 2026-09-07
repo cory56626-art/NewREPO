@@ -1,170 +1,325 @@
-{{Tabs|Regular = Minigunner|Perk = Golden Minigunner|Evolved = Juggernaut}}
-{{SameName|Juggernaut|'''Tower''' • [[Juggernaut (Challenge)|Challenge]] • [[Juggernaut (Modifier)|Modifier]]}}
+{{Tabs|Regular=Crook Boss|Perk=Golden Crook Boss|Evolved=Kingpin}}
+{{For|other uses of [[King (Disambiguation)|King]]}}
 {{TowerInfobox
-|image-static = EvolvedJuggernautIcon.png
-|image-dynamic = EvolvedJuggernautDynamic.png
-|image-dynamic-start = 22
-|towercost = {{Coins|15,000}} & {{Gem|6,000}}
+|image-static = DefaultKingpin0.png
+|image-dynamic1 = DefaultKingpin0.png
+|pseudoxd = 1
+|towercost = {{Coins|15,000}} & {{Gem|5,500}}
 |placement = Ground
 |role = Offense
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]1
-|basecost = {{Money|10,000}}
-|basesellingprice = {{Money|3,333}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]10
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
+|basecost = {{Money|3,600}}
+|basesellingprice = {{Money|1,200}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]24
 |damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.14
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.1
 |baserange = [[File:Range Icon.png|20px|Range]]17.5
-|hidden_detection = {{Attr|Hidden|Level 2+}}
-|lead_detection = {{Attr|Lead|Level 4B+}}
-|flying_detection = {{Attr|Flying|Level 4A+}}
+|hidden_detection = {{Attr|Hidden|Level 0+}} (Units only)
+|lead_detection = {{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])
+|flying_detection = {{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)
 |immune = None
-|footprint = Very Large (2.5)
-|evolved_from = [[Minigunner]]
+|footprint = 1.5
+|evolved_from = [[Crook Boss]]
 |evolution_levels = 20
 |base_exp = 75
 |growth_rate = 1.075
 |skip_cost = 1,199
-|tooltip-1 = A massive offensive tower that fires high damage shots at a quick rate. At level 4, splits into two paths.
-|tooltip-2 = On top path, gains a fortify zone that reduces debuff and stun times for nearby towers.
-|tooltip-3 = On Bottom Path, gains a damage multiplier on boss enemies.
-|tooltip-4 = Capable of detecting hidden enemies, flying enemies on top path, and lead enemies on bottom path.
 }}
 {{QuoteContainer|
-{{QuoteBox|We're only just getting started... An absolute unit of a tower with unmatched firepower, supportive capabilities, and boss destruction.|Store Description}}
-{{QuoteBox|A single tower with high single target damage capabilities and the potential for some defensive utility for nearby towers.|Former Store Description}}
+{{QuoteBox|Looks like they'll be... sleepin' with the fishes! A master of the criminal underworld, Kingpin can call in hit orders and deploy a variety of henchmen to do his bidding.|Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Juggernaut''' or '''EvolvedJuggernaut''' is the [[Tower Evolution|evolved]] version of the [[Minigunner]], unlocked by reaching Level 20 on the [[Minigunner]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|6,000}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.
+The '''Kingpin''', internally referred to as '''EvolvedKingpin''', is the [[Tower Evolution|evolved]] version of the [[Crook Boss]], unlocked by reaching Level 20 on the [[Crook Boss]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|5,500}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.
 
-The '''Juggernaut''' starts out working very similarly to the [[Minigunner]]. When enemies enter its range, it will rev up its minigun and start firing at them. It will not differ mechanically until Level 4, where it gains two paths.
-#The top path is a more support based path where it gains a secondary range in which it reduces stun, freeze and debuff durations. Any tower in that range will have orange shields around them.
-#The bottom path is more offensive based as it gives the passive ability of dealing boosted damage to [[Boss]] enemies.
+The '''Kingpin''' itself is a single target tower with no major gimmicks in the beginning, even lacking the [[Crook Boss]]' summon animation for each unit. It does however have up to three unit queues, all of which summon in can summon a different unit. There are four available options:
+*[[Lackey]], a simple single target unit with with decent health and DPS. The unit has hidden detection. It is unlocked from Level 0.
+*[[Money Runner]], the only unit that cannot be used offensively outside of collision damage that upon death generates a set amount of cash. It is unlocked from Level 0.
+*[[Bouncer]] is a high health melee unit that attacks enemies with a bat. The unit has both hidden and lead detections. It is unlocked from Level 4B.
+*[[Contractor]] is a high range unit that deals a lot of damage at a slow speed. It has all three detections. It is unlocked from Level 6B.
 
-The '''Juggernaut''' has hidden detection from Level 2, flying detection from Level 4A and lead detection from Level 4B. It has a placement limit of 1.
+While the bottom path has two units unique to itself, the top path instead gains the ''Bounty'' ability which lets the '''Kingpin''' mark an enemy in its range. While doing so, it will stop attacking enemies for 2 seconds. This marked enemy will generate a specific percentage of the enemy's total cash reward once the enemy has been killed, though the reward cannot exceed a specific value. Both the reward percentage and the reward cap increase with upgrades.
+
+The '''Kingpin''' is primarily a mid to late-game tower, with top path focusing on income while bottom path focuses on DPS. It has a placement limit of 4.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Evolution Level = 0|Upgrade Title = Combat Tactics|Cost = {{Money|2,800}}|Image = [[File:JuggernautUpgrade1.png|100px]]|Information = 0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{Upgrade
+|Level = Level 1
+|Evolution Level = 0
+|Upgrade Title = Hat Trick
+|Cost = {{Money|1,400}}
+|Image = [[File:Kingpin1.png|100px]]
+|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
+
+1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|4,266}}}}
-{{Upgrade|Level = Level 2|Evolution Level = 0|Upgrade Title = 32nd Spec-Ops|Cost = {{Money|7,000}}|Image = [[File:JuggernautUpgrade2.png|100px]]|Information = +Hidden Detection {{Hidden|Hidden Detection}}
+Sell Price changes to {{Money|1,666}}
+}}
+{{Upgrade
+|Level = Level 2
+|Evolution Level = 0
+|Upgrade Title = Mafia Expansion
+|Cost = {{Money|4,000}}
+|Image = [[File:Kingpin2.png|100px]]
+|Information = 0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+-17 Damage [[File:Damage Icon.png|20px|Damage]]
+
++1 Unit Queue
+
+
+Sell Price changes to {{Money|3,000}}
+}}
+{{Upgrade
+|Level = Level 3
+|Evolution Level = 0
+|Upgrade Title = High Roller
+|Cost = {{Money|6,000}}
+|Image = [[File:Kingpin3.png|100px]]
+|Information = +Flying Detection {{Flying|Flying Detection}}
 
 +5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+2.5 Range [[File:Range Icon.png|20px|Range]]
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
 
-2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
 
 
-Sell Price changes to {{Money|6,600}}}}
-{{Upgrade|Level = Level 3|Evolution Level = 0|Upgrade Title = Re-routed Funds|Cost = {{Money|17,200}}|Image = [[File:JuggernautUpgrade3.png|100px]]|Information = +15 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|5,000}}
+}}
+{{PathTabber
+|{{Upgrade
+|Level = Level 4
+|Evolution Level = 0
+|Upgrade Title = LV. 10 Bounty Hunter
+|Cost = {{Money|7,250}}
+|Image = [[File:Kingpin4A.png|100px]]
+|Information = +Lead Detection {{Lead|Lead Detection}}
+
+0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++148 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.
+
+•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
+
+•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]
+
+•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]
+
+{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}
+
+
+Sell Price changes to {{Money|7,416}}}}
+{{Upgrade
+|Level = Level 5
+|Evolution Level = 5
+|Upgrade Title = LV. 50 Flashy Business
+|Cost = {{Money|16,500}}
+|Image = [[File:Kingpin5A.png|100px]]
+|Information = +135 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
+
+{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]
+
++3 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++4 Range [[File:Range_Icon.png|20px|Range]]
+
+0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]
+
+30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
+
+
+Sell Price changes to {{Money|12,916}}}}
+{{Upgrade
+|Level = Level 6
+|Evolution Level = 15
+|Upgrade Title = LV. 999 BOSS
+|Cost = {{Money|38,500}}
+|Image = [[File:Kingpin6A.png|100px]]
+|Information = 1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++1.5 Range [[File:Range Icon.png|20px|Range]]
+
+-70 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
+
+{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]
+
++1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++1.5 Range [[File:Range_Icon.png|20px|Range]]
+
+0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]
+
+{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]
+
+27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
+
+
+Sell Price changes to {{Money|25,750}}}}
+|{{Upgrade
+|Level = Level 4
+|Evolution Level = 0
+|Upgrade Title = Underworld Backup
+|Cost = {{Money|14,000}}
+|Image = [[File:Kingpin4B.png|100px]]
+|Information = 0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
++5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-Sell Price changes to {{Money|12,33}}}}
-{{PathTabber
-|{{Upgrade|Level = Level 4|Evolution Level = 0|Upgrade Title = Fortifier|Cost = {{Money|35,000}}|Image = [[File:JuggernautUpgrade4A.png|100px]]|Information = 0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] 
++1 Unit Queue
 
-+35 Damage [[File:Damage Icon.png|20px|Damage]]
+{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]
 
-1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
+•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-+Flying Detection {{Flying|Flying Detection}}
+•8 Range [[File:Range_Icon.png|20px|Range]]
 
-{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = "Don't quit now! We were just getting warmed up."
+•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
 
-•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]
+•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]
 
-•35% Fortify Debuff Time Reduction}}
+•Hidden Detection {{Hidden|Hidden Detection}}
 
+•Lead Detection {{Lead|Lead Detection}}}}
 
-Sell Price changes to {{Money|24,000}}}}
-{{Upgrade|Level = Level 5|Evolution Level = 3|Upgrade Title = Defensive Maneuvers|Cost = {{Money|60,000}}|Image = [[File:JuggernautUpgrade5A.png|100px]]|Information = +55 Damage [[File:Damage Icon.png|20px|Damage]]
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]
 
-+4 Range [[File:Range Icon.png|20px|Range]]
++3 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]
++4 Range [[File:Range_Icon.png|20px|Range]]
 
-35% > 40% Fortify Debuff Time Reduction
-
-
-Sell Price changes to {{Money|44,000}}}}
-{{Upgrade|Level = Level 6|Evolution Level = 9|Upgrade Title = Flak Jacket|Cost = {{Money|95,000}}|Image = [[File:JuggernautUpgrade6A.png|100px]]|Information = +30 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
+0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
 
 
-Sell Price changes to {{Money|75,666}}}}
-{{Upgrade|Level = Level 7|Evolution Level = 16|Upgrade Title = Hammerhead|Cost = {{Money|175,000}}|Image = [[File:JuggernautUpgrade7A.png|100px]]|Information = +65 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|9,666}}}}
+{{Upgrade
+|Level = Level 5
+|Evolution Level = 10
+|Upgrade Title = B.P. Operations
+|Cost = {{Money|32,500}}
+|Image = [[File:Kingpin5B.png|100px]]
+|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]
++17 Damage [[File:Damage Icon.png|20px|Damage]]
 
-40% > 50% Fortify Debuff Time Reduction
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]
 
++1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-Sell Price changes to {{Money|134,566}}}}
-|{{Upgrade|Level = Level 4|Evolution Level = 0|Upgrade Title = Experimental Weaponry|Cost = {{Money|40,000}}|Image = [[File:JuggernautUpgrade4B.png|100px]]|Information = 0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++1.5 Range [[File:Range_Icon.png|20px|Range]]
 
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
+0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-+Lead Detection {{Lead|Lead Detection}}
+30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
 
-{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = "Fine. I'll do it myself."
+{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]
 
-'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.
++10 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-•1.4 Boss Multiplier {{Boss}}}}
+0% > 10% Defense {{Defense}}
 
-
-Sell Price changes to {{Money|25,666}}}}
-{{Upgrade|Level = Level 5|Evolution Level = 6|Upgrade Title = Bigger Guns|Cost = {{Money|95,000}}|Image = [[File:JuggernautUpgrade5B.png|100px]]|Information = +45 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+4 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|57,333}}}}
-{{Upgrade|Level = Level 6|Evolution Level = 12|Upgrade Title = Titanium Armor|Cost = {{Money|130,000}}|Image = [[File:JuggernautUpgrade6B.png|100px]]|Information = +55 Damage [[File:Damage Icon.png|20px|Damage]]
+45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
 
 
-Sell Price changes to {{Money|100,666}}}}
-{{Upgrade|Level = Level 7|Evolution Level = 20|Upgrade Title = Thresher|Cost = {{Money|230,000}}|Image = [[File:JuggernautUpgrade7B.png|100px]]|Information = +25 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|20,500}}}}
+{{Upgrade
+|Level = Level 6
+|Evolution Level = 20
+|Upgrade Title = Golden Syndicate
+|Cost = {{Money|64,000}}
+|Image = [[File:Kingpin6B.png|100px]]
+|Information = +Lead Detection {{Lead|Lead Detection}}
 
-0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
++12 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.4 > 1.5 Boss Multiplier {{Boss}}
+{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]
+
+•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•35 Range [[File:Range_Icon.png|20px|Range]]
+
+•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]
+
+•Hidden Detection {{Hidden|Hidden Detection}}
+
+•Flying Detection {{Flying|Flying Detection}}
+
+•Lead Detection {{Lead|Lead Detection}}}}
+
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]
+
++1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++0.5 Range [[File:Range_Icon.png|20px|Range]]
+
+0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]
+
++5 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++0.5 Range [[File:Range_Icon.png|20px|Range]]
+
+10% > 15% Defense {{Defense}}}}
 
 
-Sell Price changes to {{Money|177,333}}}}
+Sell Price changes to {{Money|41,833}}
+}}
+}}
+
+==Ability==
+{{Ability|Level Unlock = Level 4A|Cooldown Time= 120s Cooldown|Initial Cooldown Time = 40s Initial cooldown|Ability Title = Bounty|Image = [[File:KingpinBounty.png|100px]]|Information = Places a hit order on an enemy in range, making '''Kingpin''' stop attacking enemies for 2 seconds. When that enemy is killed, a bonus reward is given which is a specific percentage of the enemy's total cash reward. The reward from this ability cannot go above a specific limit.
 }}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 {{neow|<nowiki>
 <var>
 $DPS$ = Damage / Firerate
-$BOSS$ = {{#expr:Damage * Boss Multiplier round 0}}
-$BDPS$ = Boss Damage / Firerate
+$RDPS$ = Health / Spawn Time
+$RDPS2$ = Health * (Defense * 0.01 + 1) / Spawn Time
+$IPS$ = Cash on Death / Spawn Time
 $CE$ = Total Cost / DPS
-$BCE$ = Total Cost / Boss DPS
 $TP$ = $FNC-TOTAL-COST$
 $TE$ = $FNC-TOTAL-EXP$
 $EXP$ = {{#expr:floor(75 * 1.075^(Level - 1) * (Level > 0))}}
-$FNC-SCHEMA$ = N; N; N; N; A; A; A; A; B; B; B; B;
+$FNC-SCHEMA$ = N; N; N; N; A; A; A; B; B; B;
 $FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
-$COST$ = 10000; 2800; 7000; 17200; 35000; 60000; 95000; 175000; 40000; 95000; 130000; 230000
-$FSE-DETECTION$ = 2; ; ; ; ; 5; ; 4; -1;
-$FSE-UPGRADE$ = Combat Tactics; 32nd Spec-Ops; Re-routed Funds; Fortifier; Defensive Maneuvers; Flak Jacket; Hammerhead; Experimental Weaponry; Bigger Guns; Titanium Armor; Thresher
-$FSE-UPGRADEICON$ = 123365136014760; 93721065871366; 96118655853436; 111732653007157; 95544278655808; 98941243657730; 106308635701035; 110879981278605; 88574561737643; 126158680785346; 101185222776747
-$FSE-META$ = Evolved; File:EvolvedJuggernautIcon.png
-$DREF$ = <ref name=dps>DPS does not consider rev time.</ref>
+$COST$ = 3600; 1400; 4000; 6000; 7250; 16500; 38500; 14000; 32500; 64000
+$FSE-DETECTION$ = ; 3; ; ; 3; 4; ; 3; 6;
+$FSE-UPGRADE$ = Hat Trick; Mafia Expansion; High Roller; LV. 10 Bounty Hunter; LV. 50 Flashy Business; LV. 999 BOSS; Underworld Backup; B.P. Operations; Golden Syndicate
+$FSE-UPGRADEICON$ = 115111916696325; 128115489998324; 72861050225989; 114668237754966; 132421103594393; 104949216258591; 95999047723463; 105993154736785; 119447258450364
+$FSE-META$ = Evolved; File:DefaultKingpin0.png
 $RC$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
@@ -173,15 +328,15 @@ $RC$ = $FNC-RECURSION$
 {| class="wikitable stats-table"
 ! colspan="9" |Neutral Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev Time !! Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! DPS !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 10 || 0.14 || 2 || 17.5 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 24 || 1.1 || 17.5 || 1 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $RC$ || $RC$ || 10 || 0.12 || 2 || 17.5 || $DPS$ || {{Money|$CE$}}
+| 1 || $RC$ || $RC$ || 24 || 0.85 || 20 || 1 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $RC$ || $RC$ || 15 || 0.12 || 1.8 || 20 || $DPS$ || {{Money|$CE$}}
+| 2 || $RC$ || $RC$ || 7 || 0.14 || 20 || 2 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $RC$ || $RC$ || 30 || 0.12 || 1.8 || 22 || $DPS$ || {{Money|$CE$}}
+| 3 || $RC$ || $RC$ || 12 || 0.14 || 20 || 2 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 
@@ -189,31 +344,87 @@ $RC$ = $FNC-RECURSION$
 {| class="wikitable stats-table"
 ! colspan="11" |Top Path Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev Time !! Range !! Fortify Radius !! Fortify Debuff Time Reduction !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! Reward Percentage !! Reward Cap !! DPS !! Cost Efficiency
 |-
-| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 65 || 0.15 || 1.2 || 22 || 13 || 35% || $DPS$ || {{Money|$CE$}}
+| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 160 || 1.65 || 20 || 2 || 60% || {{Money|10,000}} || $DPS$ || {{Money|$CE$}}
 |-
-| 5 || $RC$ || $RC$ || 120 || 0.15 || 1.2 || 26 || 14 || 40% || $DPS$ || {{Money|$CE$}}
+| 5 || $RC$ || $RC$ || 295 || 1.65 || 20 || 2 || 80% || {{Money|25,000}} || $DPS$ || {{Money|$CE$}}
 |-
-| 6 || $RC$ || $RC$ || 150 || 0.12 || 1 || 26 || 14 || 40% || $DPS$ || {{Money|$CE$}}
-|-
-| 7 || $RC$ || $RC$ || 215 || 0.12 || 1 || 26 || 16 || 50% || $DPS$ || {{Money|$CE$}}
+| 6 || $RC$ || $RC$ || 225 || 0.8 || 21.5 || 2 || 100% || {{Money|50,000}} || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="13" |Bottom Path Stats
+! colspan="9" |Bottom Path Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Boss Multiplier !! Boss Damage !! Firerate !! Rev Time !! Range !! DPS$DREF$ !! Boss DPS !! Cost Efficiency !! Boss Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! DPS !! Cost Efficiency
 |-
-| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 40 || 1.4 || $BOSS$ || 0.1 || 1.8 || 22 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
+| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 17 || 0.12 || 22 || 3 || $DPS$ || {{Money|$CE$}}
 |-
-| 5 || $RC$ || $RC$ || 85 || 1.4 || $BOSS$ || 0.1 || 1.8 || 26 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
+| 5 || $RC$ || $RC$ || 34 || 0.12 || 23 || 3 || $DPS$ || {{Money|$CE$}}
 |-
-| 6 || $RC$ || $RC$ || 140 || 1.4 || $BOSS$ || 0.1 || 1.8 || 26 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
+| 6 || $RC$ || $RC$ || 46 || 0.1 || 23 || 3 || $DPS$ || {{Money|$CE$}}
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="10" |[[Lackey]] Stats
 |-
-| 7 || $RC$ || $RC$ || 165 || 1.5 || $BOSS$ || 0.09 || 1.6 || 26 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
+! Level !! Health !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
+|-
+| 0–2 || 45 || 2 || 37.5 || 0.22 || 75 || 19 || Hidden || $DPS$ || $RDPS$
+|-
+| 3-4A || 45 || 2 || 30 || 0.22 || 75 || 19 || Hidden || $DPS$ || $RDPS$
+|-
+| 5A/4B || 75 || 5 || 30 || 0.2 || 75 || 23 || Hidden || $DPS$ || $RDPS$
+|-
+| 6A/5B || 200 || 6 || 25 || 0.16 || 75 || 24.5 || Hidden || $DPS$ || $RDPS$
+|-
+| 6B || 300 || 7 || 25 || 0.12 || 75 || 25 || Hidden || $DPS$ || $RDPS$
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="6" |[[Money Runner]] Stats
+|-
+! Level !! Health !! Cash on Death !! Spawn Time !! Income per Second !! Ram DPS
+|-
+| 0–2 || 40 || {{Money|200}} || 40 || {{Money|$IPS$}} || $RDPS$
+|-
+| 3-6B || 40 || {{Money|200}} || 30 || {{Money|$IPS$}} || $RDPS$
+|-
+| 4A || 75 || {{Money|450}} || 30 || {{Money|$IPS$}} || $RDPS$
+|-
+| 5A || 75 || {{Money|600}} || 27.5 || {{Money|$IPS$}} || $RDPS$
+|-
+| 6A || 100 || {{Money|850}} || 25 || {{Money|$IPS$}} || $RDPS$
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="11" |[[Bouncer]] Stats
+|-
+! Level !! Health !! Defense !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
+|-
+| 4B || 500 || N/A || 25 || 45 || 0.5 || 75 || 8 || Hidden, Lead || $DPS$ || $RDPS2$
+|-
+| 5B || 750 || 10% || 35 || 40 || 0.5 || 75 || 8 || Hidden, Lead || $DPS$ || $RDPS2$
+|-
+| 6B || 1,000 || 15% || 40 || 40 || 0.5 || 75 || 8.5 || Hidden, Lead || $DPS$ || $RDPS2$
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="10" |[[Contractor]] Stats
+|-
+! Level !! Health !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
+|-
+| 6B || 400 || 170 || 60 || 2 || 75 || 35 || Hidden, Flying, Lead || $DPS$ || $RDPS$
 |}
 </div>
 <!-- @se-ignore -->
@@ -271,277 +482,50 @@ $RC$ = $FNC-RECURSION$
 </tabber></div>
 </nowiki>}}
 
-== Strategy ==
-*The '''Juggernaut''', due to its extraordinarily high costs to place and upgrade, is impractical for lower difficulties, such as [[Intermediate Mode|Intermediate]] and [[Casual Mode|Casual]] Modes. Also due to this, it is strongly recommended to bring [[Farm]] or [[Golden Cowboy]] to help afford its extreme prices.
-*As it has a placement limit of one and the largest placement footprint in the game (tied with [[DJ Booth]]), you should carefully consider where to place it. 
-*If your current gamemode has more [[Flying]] enemies than what your current defence can defeat, and/or a lot of enemies that can apply stuns and/or debuffs to your towers, it is recommended you upgrade the '''Juggernaut''' in its top path. Conversely, should you find multiple high-health bosses and/or many high-health enemies with Lead, you should upgrade '''Juggernaut''' in its bottom path. To capitalise on the Boss Damage muliplier, you can set '''Juggernaut''' to Strongest.
-*It is strongly recommended to use the DJ Booth to help reduce the '''Juggernaut'''’s upgrade prices, among other benefits. To maximize its offensive potential, you can shield it with the [[Medic]] tower, boost its firerate with [[Commander]], and increase its damage with either a red track DJ Booth or a level 4+ [[Mercenary Base]].
+==Strategy==
+*The '''Kingpin''' is best used as a mid-to-late game tower. 
+*At Level 3, the '''Kingpin''' gains two paths.
+**The top path is focused on giving the player [[cash]] through its ''Bounty'' ability and upgrading the [[Money Runner]]s it spawns.
+***The top path can be used as a secondary income source which may help at affording certain expensive towers like the [[Juggernaut]].
+***It is advised to use the ''Bounty'' ability on enemies that have a high cash reward, which usually is enemies with high health.
+***Notably it also gains lead detection earlier than its bottom path counterpart.
+**The bottom path is more focused on DPS and spawning units, this path unlocks the [[Bouncer]] and the [[Contractor]].
+***This path focuses on increasing the efficiency in which the units deal damage, whether it be by increasing their DPS, or shortening their spawnrate.
+***Setting the bottom path ''Kingpin'' to spawn either [[Lackey]]s or [[Contractor]]s can be extremely effective on certain maps where they can stack up in a single spot and attack simultaneously.
 
 ==Trivia==
-*The '''Juggernaut''' was originally intended to release alongside the [[Overhaul v1.0|Overhaul Update]] as an evolved counterpart to the [[Minigunner]], but would be cut for undisclosed reasons, likely due to time constraints.
-*The '''Juggernaut''' tower is the most expensive tower in the game's history, regardless of whether the player uses the top or bottom path, costing a total of {{Money|532,000}} to completely max out the tower if on the bottom path, or {{Money|400,200}} otherwise, followed by the [[Gatling Gun]].
-**Although, if developer-exclusive towers are counted, the [[Golden Snowballer]] is more expensive overall, costing {{Money|1,002,609}} in total.
-*The '''Juggernaut''' is the first tower to cost both {{Coins|Coins}} and {{Gem|Gems}} simultaneously.
-*The '''Juggernaut''' is the first tower to have seven upgrades.
-*The '''Juggernaut''' is the first tower to evolve from one another—in which this tower is evolved from the [[Minigunner]]—followed by the [[Operator]] which is evolved from the [[Scout]].
-*The orange shield seen around towers in '''Juggernaut's''' ''Fortify'' range may be a reference to the [[Shield]] seen on certain enemies prior to the [[Overhaul v1.0|Overhaul Update]].
-*The '''Juggernaut's''' quote in Experimental Weaponry is likely a reference to [https://www.youtube.com/watch?v=EzWNBmjyv7Y Thanos in the end credits scene for the ''Age of Ultron''].
-*The '''Juggernaut's''' final upgrades on both paths share names with shark species.
+*The '''Kingpin''' is one of the first three evolved towers revealed in 2020 prior to the release of the [[Overhaul v1.0|Overhaul Update]].
+*The '''Kingpin's''' top path upgrade names are likely referencing those of the [[Golden Crook Boss]].
+*The '''Kingpin's''' voice actor is [https://x.com/mitchmarcmedia Mitch Kaye].
+*Kingpins are usually drug lords, in real life.
 
-==Update History==
-''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text =
-*'''1 April 2026''' - [[v1.87.0]]
-**{{Bug}} '''Juggernaut''' accidentally added and made publicly available for any player.
-*'''1 April 2026''' - [[v1.87.0|v1.87.1]]
-**{{Bug}} '''Juggernaut''' is given to every player in [[Sandbox Mode|Sandbox]] in a non-functional state if they bought Sandbox Plus+.
-**{{Bugfix}} '''Juggernaut''' no longer appears in the inventory as a purchasable tower for {{Gem|15,000}}.
-*'''1 April 2026''' - [[v1.87.0|v1.87.3]]
-**{{Bugfix}} '''Juggernaut''' is no longer given to people with Sandbox Plus+ in [[Sandbox Mode|Sandbox]] mode.
-*'''3 April 2026''' - [[v1.88.0]]
-**Description changed.
-**Tooltips added.
-**Tower information added.
-**Towers protected by fortify now gain orange shields around them.
+==Update Log==
+*'''17 July 2026''' - [[v2.3.0]]
+**'''Kingpin''' added.
+*'''14 August 2026''' - [[v2.6.0]]
 **Statistical changes:
-***'''Base'''
-****Damage increased from 10 to 14.
-****Firerate increased from 0.175 to 0.225.
-***'''Level 1'''
-****Cost increased from {{Money|2,500}} to {{Money|8,000}}.
-****Damage increased from +0 to +8.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.225 > 0.2|-0.025}}.
-****Name changed from ''Weapon Attachments'' to ''Combat Tactics''.
-***'''Level 2'''
-****Cost increased from {{Money|5,820}} to {{Money|19,500}}.
-****Damage increased from +0 to +26.
-****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.2.
-****Name changed from ''Precise Aiming'' to ''32nd Spec-Ops''.
-***'''Level 3'''
-****Cost increased from {{Money|14,000}} to {{Money|41,000}}.
-****Damage increased from +8 to +52.
-****Name changed from ''Improved Weaponry'' to ''Re-routed Funds''.
 ***'''Level 4A'''
-****Cost increased from {{Money|18,500}} to {{Money|55,000}}.
-****Firerate changed from {{Tooltip|0.125 > 0.225|+0.1}} to {{Tooltip|0.2 > 0.225|+0.025}}.
-****Damage increased from +37 to +85.
+****Reward percentage increased from 50% to 60%.
+****''Bounty'' cooldown decreased from 150 to 120.
+****''Bounty'' initial cooldown of 40 added.
 ***'''Level 5A'''
-****Cost increased from {{Money|45,000}} to {{Money|72,000}}.
-****Damage decreased from +50 to +45.
-****Firerate changed from 0.225 to {{Tooltip|0.225 > 0.2|-0.025}}.
-****Name changed from ''Bastion'' to ''Defensive Maneuvers''.
+****Reward percentage increased from 50% > 70% to 60% > 80%.
 ***'''Level 6A'''
-****Cost decreased from {{Money|120,000}} to {{Money|95,000}}.
-****Damage decreased from +95 to +85.
-****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to 0.2.
-***'''Level 7A'''
-****Cost decreased from {{Money|235,000}} to {{Money|150,000}}.
-****Damage increased from +60 to +110.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to 0.2.
-****Fortify buff time reduction changed from 30% > 60% to 30% > 50%.
-****[[Stun Immunity]] removed.
+****Reward percentage increased from 70% > 100% to 80% > 100%.
+****Reward cap changed from {{Money|25,000}} > {{Money|60,000}} to {{Money|25,000}} > {{Money|50,000}}.
 ***'''Level 4B'''
-****Cost increased from {{Money|28,750}} to {{Money|85,000}}.
-****Damage decreased from +12 to +0.
-****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.2 > 0.125|-0.075}}.
-****Boss multiplier decreased from 1.5 to 1.25.
+****[[Bouncer]] health decreased from 550 to 500.
 ***'''Level 5B'''
-****Cost increased from {{Money|95,000}} to {{Money|120,000}}.
-****Damage increased from +46 to +75.
-****Name changed from ''Higher Caliber'' to ''Bigger Guns''.
+****[[Bouncer]] health increased from +200 to +250.
 ***'''Level 6B'''
-****Cost decreased from {{Money|205,000}} to {{Money|180,000}}.
-****Damage increased from +44 to +85.
-****Firerate changed from {{Tooltip|0.117 > 0.1|-0.017}} to 0.125.
-****Boss multiplier changed from 1.5 > 2.5 to 1.25 > 1.5.
-***'''Level 7B'''
-****Damage increased from +130 to +140.
-*'''22 April 2026''' - [[v1.89.0]]
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 14 to 10.
-****Firerate decreased from 0.225 to 0.167.
-***'''Level 1'''
-****Damage decreased from +8 to +4.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.25}} to {{Tooltip|0.167 > 0.133|-0.34}}.
-***'''Level 2'''
-****Cost decreased from {{Money|19,500}} to {{Money|18,500}}.
-****Damage decreased from +26 to +16.
-***'''Level 3'''
-****Damage decreased from +52 to +35.
-***'''Level 4A'''
-****Cost decreased from {{Money|55,000}} to {{Money|45,000}}.
-****Damage increased from +85 to +100.
-****Firerate changed from {{Tooltip|0.2 > 0.225|+0.25}} to {{Tooltip|0.133 > 0.225|+0.92}}.
-****Range increased from +0 to +1.
-****Flying detection added, moved from Level 5A.
-****Fortify radius increased from 6 to 8.
-****Fortify debuff time reduction increased from 15% to 25%.
-***'''Level 5A'''
-****Damage decreased from +45 to +35.
-****Fortify radius increased from +1.5 to +2.
-***'''Level 6A'''
-****Cost increased from {{Money|95,000}} to {{Money|100,000}}.
-****Damage increased from +85 to +100.
-****Fortify radius increased from +0 to +1.
-****Fortify debuff time reduction changed from 15% > 30% to 25% > 30%.
-***'''Level 7A'''
-****Fortify radius decreased from +3.5 to +2.
-****Fortify debuff time reduction changed from 30% > 50% to 30% > 40%.
-***'''Level 4B'''
-****Cost increased from {{Money|85,000}} to {{Money|95,000}}.
-****Damage increased from +0 to +27.
-****Firerate changed from {{Tooltip|0.2 > 0.125|-0.75}} to {{Tooltip|0.133 > 0.125|-0.08}}.
-****Range increased from +0 to +1.
-****Lead detection added, moved from Level 7B.
-****Boss multiplier decreased from 1.25 to 1.2.
-***'''Level 5B'''
-****Cost increased from {{Money|120,000}} to {{Money|125,000}}.
-****Damage decreased from +75 to +64.
-****Range increased from +3 to +4.
-***'''Level 6B'''
-****Damage decreased from +85 to +54.
-****Boss multiplier changed from 1.25 > 1.5 to 1.2 > 1.4.
-***'''Level 7B'''
-****Cost decreased from {{Money|500,320}} to {{Money|400,000}}.
-****Damage increased from +140 to +190.
-****Range decreased from +4 to +0.
-*'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Now supports the [[Tower Evolution]] system.
-***Has 20 levels, base exp of 75 and a growth rate of 1.075.
-***All upgrades up until Level 4 are unlocked instantly, will all other requiring the tower to be leveled up.
-****Level 5A is unlocked at level 3.
-****Level 5B is unlocked at level 6.
-****Level 6A is unlocked at level 9.
-****Level 6B is unlocked at level 12.
-****Level 7A is unlocked at level 16.
-****Level 7B is unlocked at level 20.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|10,000}} to {{Money|8,000}}.
-****Damage decreased from 10 to 9.
-****Range increased from 16 to 17.5.
-****Firerate decreased from 0.167 to 0.15.
-****Hidden detection added, moved from Level 2.
-***'''Level 1'''
-****Cost decreased from {{Money|8,000}} to {{Money|2,600}}.
-****Damage decreased from +4 to +0.
-****Firerate changed from {{Tooltip|0.167 > 0.133|-0.034}} to {{Tooltip|0.15 > 0.12|-0.3}}.
-***'''Level 2'''
-****Cost decreased from {{Money|18,500}} to {{Money|6,450}}.
-****Damage decreased from +16 to +5.
-****Range decreased from +3 to +2.5.
-****Hidden detection moved to Level 0.
-***'''Level 3'''
-****Cost decreased from {{Money|41,000}} to {{Money|17,200}}.
-****Damage decreased from +35 to +14.
-***'''Level 4A'''
-****Cost decreased from {{Money|45,000}} to {{Money|35,000}}.
-****Damage decreased from +100 to +37.
-****Firerate changed from {{Tooltip|0.133 > 0.225|+0.092}} to {{Tooltip|0.12 > 0.15|+0.03}}.
-****Range decreased from +1 to +0.
-****Flying detection removed, moved to Level 5A.
-****Fortify radius increased from 8 to 10.
-***'''Level 5A'''
-****Cost decreased from {{Money|72,000}} to {{Money|55,000}}.
-****Damage increased from +35 to +55.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.15.
-****Fortify radius increased from +2 to +3.
-****Flying detection removed.
-***'''Level 6A'''
-****Damage decreased from +100 to +40.
-****Fortify radius decreased from +1 to +0.
-***'''Level 7A'''
-****Damage decreased from +110 to +80.
-****Fortify radius decreased from +2 to +1.
-****Fortify debuff time reduction changed from 30% > 40% to 30% > 50%.
-***'''Level 4B'''
-****Cost decreased from {{Money|90,000}} to {{Money|40,000}}.
-****Damage decreased from +27 to +22.
-****Firerate changed from {{Tooltip|0.133 > 0.125|-0.008}} to {{Tooltip|0.12 > 0.1|-0.02}}.
-****Range decreased from +1 to +0.
-****Boss multipler increased from 1.2 to 1.4.
-***'''Level 5B'''
-****Cost decreased from {{Money|125,000}} to {{Money|95,000}}.
-****Damage decreased fro +64 to +35.
-***'''Level 6B'''
-****Cost decreased from {{Money|180,000}} to {{Money|120,000}}.
-****Damage decreased from +54 to +50.
-****Boss multiplier changed from 1.2 > 1.4 to 1.4.
-***'''Level 7B'''
-****Cost decreased from {{Money|400,000}} to {{Money|250,000}}.
-****Damage decreased from +190 to +65.
-****Firerate changed from 0.125 to {{Tooltip|0.1 > 0.09|-0.01}}.
-*'''8 June 2026''' - [[v2.0.0|v2.0.6]]
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|8,000}} to {{Money|8,500}}.
-***'''Level 1'''
-****Cost increased from {{Money|2,600}} to {{Money|3,000}}.
-***'''Level 2'''
-****Cost increased from {{Money|6,450}} to {{Money|7,000}}.
-***'''Level 4B'''
-****Damage decreased from +22 to +12.
-***'''Level 5B'''
-****Damage increased from +35 to +45.
-***'''Level 7B'''
-****Damage decreased from +65 to +45.
-*'''19 June 2026''' - [[v2.1.0]]
-**Category changed from Hardcore to Evolved.
-**Statistical changes:
-***'''Level 4A'''
-****Flying detection added.
-***'''Level 5A'''
-****Flying detection moved to 4A.
-***'''Level 6A'''
-****Damage decreased from +40 to +30.
-***'''Level 7A'''
-****Cost increased from {{Money|150,000}} to {{Money|175,000}}.
-****Damage decreased from +80 to +65.
-*'''14 August 2026''' - [[v2.0.0]]
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|8,000}} to {{Money|10,000}}.
-****Damage increased from 9 to 10.
-****Firerate decreased from 0.15 to 0.14.
-***'''Level 1'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,800}}.
-****Firerate changed from {{Tooltip|0.15 > 0.12|-0.03}} to {{Tooltip|0.14 > 0.12|-0.02}}.
-***'''Level 3'''
-****Damage increased from +14 to +15.
-***'''Level 4A'''
-****Cost decreased from {{Money|45,000}} to {{Money|35,000}}.
-****Damage decreased from +37 to +35.
-****Fortify radius increased from 10 to 13.
-****Fortify debuff time reduction increased from 25% to 35%.
-***'''Level 5A'''
-****Cost increased from {{Money|55,000}} to {{Money|60,000}}.
-****Damage increased from +35 to +55.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.15.
-****Fortify radius decreased from +3 to +1.
-****Fortify debuff time reduction increased from 25% to 35% > 40%.
-***'''Level 6A'''
-****Cost decreased from {{Money|100,000}} to {{Money|95,000}}.
-****Fortify debuff time reduction increased from 25% > 30% to 40%.
-***'''Level 7A'''
-****Fortify radius increased from +1 to +2.
-****Fortify debuff time reduction changed from 30% > 50% to 40% > 50%.
-***'''Level 4B'''
-****Damage decreased from +12 to +10.
-***'''Level 6B'''
-****Cost increased from {{Money|120,000}} to {{Money|130,000}}.
-****Damage increased from +50 to +55.
-****Range decreased from +2 to +0.
-***'''Level 7B'''
-****Cost decreased from {{Money|250,000}} to {{Money|230,000}}.
-****Boss multiplier changed from 1.4 to 1.4 > 1.5.
-}}
-
-==Notes==
-<references/>
+****[[Contractor]] changed.
+****Health increased from 200 to 400.
+****Damage increased from 165 to 170.
+****Lifespan increased from 70 to 75.
+***[[Lackey]] changed.
+****Damage decreased from +2 to +1.
+****Range decreased from +2.5 to +0.5.
 
 
 
 {{TowerNavBox}}
-[[Category:Ground]]
