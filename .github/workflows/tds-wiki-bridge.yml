@@ -1,12 +1,11 @@
-name: TDS Wiki Bridge
+name: TDS Wiki Verification Bridge
 
 on:
   push:
     branches:
       - tds-wiki-bridge
     paths:
-      - "tds_bridge/request.txt"
-      - "tds_bridge/request_url.txt"
+      - "tds_bridge/request.json"
 
 permissions:
   contents: write
@@ -17,144 +16,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch requested TDS wiki source
-        shell: python
+      - name: Assemble and run TDS bridge
+        shell: bash
         run: |
-          import html
-          import json
-          import pathlib
-          import re
-          import urllib.parse
-          import urllib.request
-          from html.parser import HTMLParser
+          cat tds_bridge/bridge_parts/*.pyfrag > /tmp/tds_bridge.py
+          python -m py_compile /tmp/tds_bridge.py
+          set +e
+          python /tmp/tds_bridge.py
+          rc=$?
+          set -e
+          # Exit 2 means strict resolver needs the user to choose a candidate.
+          # That is a valid bridge result, not an infrastructure failure.
+          if [ "$rc" -eq 2 ]; then
+            exit 0
+          fi
+          exit "$rc"
 
-          class TextExtractor(HTMLParser):
-              def __init__(self):
-                  super().__init__()
-                  self.parts = []
-                  self.skip = 0
-              def handle_starttag(self, tag, attrs):
-                  if tag in {"script","style","noscript"}:
-                      self.skip += 1
-                  elif tag in {"p","div","li","br","h1","h2","h3","h4","article","section"}:
-                      self.parts.append("\n")
-              def handle_endtag(self, tag):
-                  if tag in {"script","style","noscript"} and self.skip:
-                      self.skip -= 1
-                  elif tag in {"p","div","li","h1","h2","h3","h4","article","section"}:
-                      self.parts.append("\n")
-              def handle_data(self, data):
-                  if not self.skip:
-                      self.parts.append(data)
-
-          title_path = pathlib.Path("tds_bridge/request.txt")
-          url_path = pathlib.Path("tds_bridge/request_url.txt")
-          url = url_path.read_text(encoding="utf-8").strip() if url_path.exists() else ""
-
-          if url:
-              if not url.startswith("https://tds.fandom.com/"):
-                  raise SystemExit("Only tds.fandom.com URLs are allowed")
-              m = re.search(r"/f/p/(\d+)", url)
-              if not m:
-                  raise SystemExit("Discussion URL must contain /f/p/<threadId>")
-              thread_id = m.group(1)
-
-              api_url = (
-                  "https://tds.fandom.com/wikia.php?"
-                  + urllib.parse.urlencode({
-                      "controller":"DiscussionThread",
-                      "method":"getThread",
-                      "threadId":thread_id,
-                      "limit":"100",
-                      "responseGroup":"full",
-                      "sortDirection":"ascending",
-                      "sortKey":"creation_date",
-                      "viewableOnly":"false"
-                  })
-              )
-              req = urllib.request.Request(api_url, headers={
-                  "User-Agent":"TDSWikiBridge/3.0 (GitHub Actions; read-only)",
-                  "Accept":"application/json"
-              })
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  data = json.load(r)
-
-              pathlib.Path("tds_bridge/discussion_json.txt").write_text(
-                  json.dumps(data, ensure_ascii=False, indent=2),
-                  encoding="utf-8"
-              )
-
-              def collect_text(obj, depth=0):
-                  out=[]
-                  if depth > 12:
-                      return out
-                  if isinstance(obj, dict):
-                      for k,v in obj.items():
-                          kl=str(k).lower()
-                          if kl in {"title","rawcontent","content","text","username","name"} and isinstance(v,(str,int,float)):
-                              out.append(f"{k}: {v}")
-                          else:
-                              out.extend(collect_text(v, depth+1))
-                  elif isinstance(obj, list):
-                      for v in obj:
-                          out.extend(collect_text(v, depth+1))
-                  return out
-
-              text = "\n".join(collect_text(data))
-              pathlib.Path("tds_bridge/discussion_text.txt").write_text(text, encoding="utf-8")
-
-              pathlib.Path("tds_bridge/meta.json").write_text(json.dumps({
-                  "mode":"discussion-api",
-                  "source":url,
-                  "api":api_url,
-                  "thread_id":thread_id
-              }, indent=2), encoding="utf-8")
-          else:
-              title = title_path.read_text(encoding="utf-8").strip()
-              if not title:
-                  raise SystemExit("request.txt is empty")
-
-              params = urllib.parse.urlencode({
-                  "action": "parse",
-                  "page": title,
-                  "prop": "wikitext",
-                  "format": "json",
-              })
-              url = "https://tds.fandom.com/api.php?" + params
-
-              req = urllib.request.Request(
-                  url,
-                  headers={
-                      "User-Agent": "TDSWikiBridge/2.0 (GitHub Actions; read-only)",
-                      "Accept": "application/json",
-                  },
-              )
-
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  data = json.load(r)
-
-              if "parse" not in data or "wikitext" not in data["parse"]:
-                  raise SystemExit(json.dumps(data)[:1000])
-
-              text = data["parse"]["wikitext"]["*"]
-              pathlib.Path("tds_bridge/result.txt").write_text(text, encoding="utf-8")
-              pathlib.Path("tds_bridge/meta.json").write_text(
-                  json.dumps({
-                      "mode":"wiki",
-                      "requested": title,
-                      "title": data["parse"].get("title"),
-                      "pageid": data["parse"].get("pageid"),
-                      "source": url,
-                  }, indent=2),
-                  encoding="utf-8",
-              )
-
-      - name: Commit fetched source
+      - name: Commit fetched evidence
+        if: always()
         run: |
           git config user.name "tds-wiki-bridge[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tds_bridge/
           git diff --cached --quiet && exit 0
-          git commit -m "Update TDS wiki bridge result"
+          git commit -m "Update TDS verification evidence"
           git pull --rebase origin tds-wiki-bridge
           git push
