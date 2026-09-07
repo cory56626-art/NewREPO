@@ -1,17 +1,51 @@
     m=re.search(r'-?\d+(?:\.\d+)?',clean(v).replace(',','')); return float(m.group()) if m else None
 
 def conflicts(st):
-    inf=(st.get('likely_infobox') or {}).get('params',{}); ups=st.get('upgrade_templates',[])
-    if not ups: return {'priority_rule':PRIORITY,'potential_conflicts':[],'notes':['No {{Upgrade}} templates parsed.']}
-    ip={norm(k):v for k,v in inf.items()}; up={norm(k):v for k,v in ups[-1].get('params',{}).items()}
-    syn={'damage':{'damage','dmg'},'firerate':{'firerate','fire rate','rate','tick'},'range':{'range'},'cost':{'cost','price','upgrade cost'},'placement_limit':{'limit','placement limit','placementlimit'}}
     out=[]
-    for field,keys in syn.items():
-        iv=next((ip[k] for k in keys if k in ip),None); uv=next((up[k] for k in keys if k in up),None)
-        if iv is None or uv is None: continue
-        a,b=num(iv),num(uv); differs=(a is not None and b is not None and a!=b) or (a is None and b is None and clean(iv)!=clean(uv))
-        if differs: out.append({'field':field,'infobox_or_summary':clean(iv),'highest_upgrade_template':clean(uv),'preferred_source':'highest_upgrade_template','warning':'Potential stale-summary conflict; confirm level semantics.'})
-    return {'priority_rule':PRIORITY,'potential_conflicts':out,'notes':['Different upgrade levels can legitimately differ.','Current-level disagreements: Upgrade blocks and Description take priority.']}
+    def field_for(label):
+        s=norm(label)
+        if 'damage' in s and 'chill' not in s: return 'damage'
+        if s in {'tick','firerate','fire rate'} or ' tick' in s: return 'tick'
+        if 'charge-up' in s or 'charge up' in s or 'charge time' in s: return 'charge_up'
+        if 'cooldown' in s: return 'cooldown'
+        if 'overcharge' in s: return 'overcharge'
+        if 'range' in s: return 'range'
+        return None
+    tables=st.get('statistics_tables',{})
+    modes=st.get('upgrade_modes',{})
+    for mode in ('regular','pvp'):
+        rows={r.get('level'):r for r in tables.get(mode,[])}
+        upgrades=modes.get(mode,[])
+        for u in upgrades:
+            lvl=u.get('level'); row=rows.get(lvl); prev=rows.get((lvl or 0)-1)
+            if not row: continue
+            uc=num(u.get('cost'))
+            if uc is not None and row.get('cost') is not None and abs(uc-row['cost'])>1e-9:
+                out.append({'mode':mode,'level':lvl,'field':'cost','upgrade_claim':uc,'statistics_table_claim':row['cost'],'preferred_source':'upgrade_template','type':'cost_mismatch'})
+            for cl in u.get('claims',[]):
+                fld=field_for(cl.get('stat',''))
+                if not fld: continue
+                if cl.get('kind')=='set':
+                    target=num(cl.get('to')); table=row.get(fld)
+                    if target is not None and table is not None and abs(target-table)>1e-9:
+                        out.append({'mode':mode,'level':lvl,'field':fld,'upgrade_claim':target,'statistics_table_claim':table,'preferred_source':'upgrade_template','type':'set_mismatch','claim_text':cl.get('text')})
+                elif cl.get('kind')=='delta' and prev:
+                    delta=num(cl.get('delta')); before=prev.get(fld); table=row.get(fld)
+                    if delta is not None and before is not None and table is not None:
+                        expected=before+delta
+                        if abs(expected-table)>1e-9:
+                            out.append({'mode':mode,'level':lvl,'field':fld,'upgrade_implied':expected,'statistics_table_claim':table,'preferred_source':'upgrade_template','type':'delta_mismatch','claim_text':cl.get('text')})
+    inf=(st.get('likely_infobox') or {}).get('params',{}); ip={norm(k):v for k,v in inf.items()}
+    for mode,prefix in (('regular',''),('pvp','pvp_')):
+        rows=tables.get(mode,[])
+        if not rows: continue
+        base=rows[0]
+        pairs=[('damage',prefix+'basedamage'),('tick',prefix+'basefirerate'),('range',prefix+'baserange')]
+        for fld,key in pairs:
+            iv=num(ip.get(key)); tv=base.get(fld)
+            if iv is not None and tv is not None and abs(iv-tv)>1e-9:
+                out.append({'mode':mode,'level':0,'field':fld,'infobox_claim':iv,'statistics_table_claim':tv,'preferred_source':'infobox_or_description_only_if_no_upgrade_claim','type':'base_summary_mismatch'})
+    return {'priority_rule':PRIORITY,'potential_conflicts':out,'notes':['Different upgrade levels can legitimately differ.','When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing.']}
 
 def classify(wt,cats,tpls):
     c=[norm(x.get('title') if isinstance(x,dict) else x) for x in cats]; t=[norm(x.get('title') if isinstance(x,dict) else x) for x in tpls]
