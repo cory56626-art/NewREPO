@@ -1,142 +1,103 @@
 {{Tabs}}
-{{For|[[Null Accelerator]]}}
+{{for|the [[Field Medic]]|[[Null Medic]]}}
 {{TowerInfobox
-|title = Accelerator
-|image-static = DefaultAcceleratorIcon2.png
-|image-dynamic = AcceleratorDynamic.png
-|image-dynamic-start = 22
-|unlockcost = {{Gem|2,500}}
-|levelrequirement = {{Level|50}}
-|role = Offense
+|title = Medic
+|image-static = DefaultMedicIconAug25.png
+|image-dynamic = MTMedicDynamicIcon.png
+|image-dynamic-start = 1
+|unlockcost = {{Coins|2,000}}
+|basecost = {{Money|400}}
+|basesellingprice = {{Money|133}}
+|role = Support
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5
-|basecost = {{Money|7,500}}
-|basesellingprice = {{Money|2,500}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]12
-|damagetype = Burst
-|basefirerate = [[File:Cooldown Icon.png|20px|Tick]]0.25
-|baserange = [[File:Range Icon.png|20px|Range]]19
-|hidden_detection = {{Attr|Hidden|Level 1+}}
-|lead_detection = {{Attr|Lead|Level 0+}}
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
+|basedamage = N/A
+|damagetype = N/A
+|basefirerate = N/A
+|baserange = [[File:Range Icon.png|20px|Range]]12
+|hidden_detection = N/A
+|lead_detection = N/A
 |flying_detection = N/A
-|immune = None
-|footprint = 1.75
-|pvp_basecost = {{Money|4,250}}
-|pvp_basesellingprice = {{Money|1,416}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]10
-|pvp_damagetype = Burst
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Tick]]0.2
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]18
-|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = N/A
-|pvp_immune = None
-|pvp_footprint = 1.5
-|tooltip-1 = An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
+|immune = {{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')
+|footprint = 1.5
+|tooltip-1 = A support tower that heals the base at the start of each wave and can assign its medi gun to nearby towers to give them a shield and a cooldown boost.
+|tooltip-2 = Active ability uber charge also provides a temporary damage boost to all assigned towers.
 }}
-{{QuoteContainer|
-{{QuoteBox|Charge a laser and release massive damage at deadly rates!|Store Description}}
-}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Equipped with health regen and a medi gun to support and boost towers in range.|Current Store Description}}
+|-|Version 2 =
+{{QuoteBox|A support tower that heals the base 5 HP per wave. At max, cleanses stunned towers.|Former Store Description}}
+|-|Version 3 =
+{{QuoteBox|MEDICCCCC!|Former Store Description}}
+</tabber>}}
 __TOC__
 ==Description==
-The '''Accelerator''' is a hardcore tower that attacks in delayed bursts. It has a charge-up that happens before the burst and a cooldown that happens after the burst. During the burst, it can deal massive amounts of damage in a short period of time, but does no damage in between bursts. It can be purchased from the store for {{Gem|2,500}} and has a level requirement of {{Level|50}}.
+The '''Medic''' is an intermediate support tower that provides various buffs to other towers and replenishes base health after it has been lost. It can be unlocked from the store for {{Coins|2,000}}.
 
-The '''Accelerator''' must charge-up its plasma gun before it can attack enemies. During its attack, it will fire in quick, high-damaging bursts, remaining focused on one enemy until it is killed, leaves the '''Accelerator's''' range, or the overcharge ends. The '''Accelerator''' will deal a set amount of damage before cooling down with its left hand, indicating that the plasma gun has overcharged. After this, there will be a cooldown lasting a couple of seconds, after which it charges up again. The amount of damage needed for the '''Accelerator''' to overcharge can be seen above its tower icon in the upgrade box or when you hover your cursor over it. Damage can still go above this threshold, though the '''Accelerator''' will stop attacking immediately once it does so. For example, if the '''Accelerator''' deals 8,999 damage out of 9,000 and has 10 damage, it will deal 9,009 damage total in that burst, assuming the enemy it attacks has at least 10 health. The '''Accelerator''' can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 1.
+The '''Medic''' heals base health by a specified amount each wave with ''Take your Vitamins''. The amount of health healed increases with the level of the '''Medic''' and the amount of '''Medics''' placed down. It also has the ability to overheal, increasing base health to value higher than its maximum. If there are multiple '''Medics''', the health regeneration and overheal stacks with each '''Medic'''. Similarly, these effects stack with other sources of such effects, like [[Skills]].
 
-The '''Accelerator''' is considered a mid to late-game tower because of its high damage capabilities, but extremely high cost. 
+The '''Medic''' holds a medi gun, which it can use to apply a shield to towers. Whenever shielded, the tower will have a shield modifier on them. This shield provides a passive 15% [[Firerate Buff]] and an immunity to stuns. It does not grant an immunity to debuffs or freeze. If the tower is stunned, its shield will be broken instead, reappearing shortly after. At Level 0, it can only shield one tower, but this is increased up to five at Level 5. It cannot shield other '''Medics''' or any tower currently shielded by another '''Medic'''. There is a 0.5 second cooldown before another tower can be selected or deselected.
 
-The '''Accelerator''' has a placement limit of five per player. This is increased to eight in [[PVP]] mode.
+At Level 3, it gets the '''Ubercharge''' ability. This provides all towers shielded by the '''Medic''' with a [[Damage Buff]], [[Stun Immunity]] and [[Freeze Immunity]] for a brief period of time. While it may look like this is tied to the shield, this is not actually the case. The [[Damage Buff]] will remain on the tower, even if its shield is gone. Unassigning a tower with '''Medic''' will however remove the buffs from it. While this ability is active, the '''Medic''' itself gains the [[Freeze Immunity]].
+
+The '''Medic''' has a placement limit of 4.
 
 ==Upgrades==
-{{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Extra Juice|Cost = {{Money|2,000}}|Image = [[File:AccelLevel1Icon.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+{{Upgrade|Level = Level 1|Upgrade Title = Medical Precautions|Cost = {{Money|425}}|Image = [[File:MedicUpg1.png|100px]]|Information = +1 Max Targets
 
 
-Sell Price changes to {{Money|3,166}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Second Energy Canister|Cost = {{Money|6,000}}|Image = [[File:AccelLevel2Icon.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price Changes to {{Money|275}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Prescribed Vitamins|Cost = {{Money|650}}|Image = [[File:MedicUpg2.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
++1 Max Targets
 
-11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
++5 Healing [[File:HealingIcon.svg|20px|Healing]]
 
-6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-
-Sell Price changes to {{Money|5,166}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Powerhouse Armor|Cost = {{Money|9,999}}|Image = [[File:AccelLevel3Icon.png|100px]]|Information = +15 Damage [[File:Damage Icon.png|20px|Damage]]
-
-18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
 
 
-Sell Price changes to {{Money|8,499}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Supercharger|Cost = {{Money|27,500}}|Image = [[File:AccelLevel4Icon.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+Sell Price Changes to {{Money|491}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = BIG BRAIN|Cost = {{Money|2,400}}|Image = [[File:MedicUpg3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]
+{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]
 
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
+'''Medic''' gains [[Freeze Immunity]] for the duration
 
-30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
 
-4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-
-Sell Price changes to {{Money|17,666}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Vessel Of Infinite Destruction|Cost = {{Money|50,000}}|Image = [[File:AccelLevel5Icon.png|100px]]|Information = 0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
 
 
-Sell Price changes to {{Money|34,333}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Extra Juice|Cost = {{Money|750}}|Image = [[File:AccelLevel1Icon.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price Changes to {{Money|1,291}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Medical Pack|Cost = {{Money|5,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-+Hidden Detection {{Hidden|Hidden Detection}}
++1 Max Targets
 
++10 Healing [[File:HealingIcon.svg|20px|Healing]]
 
-Sell Price changes to {{Money|1,666}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Second Energy Canister|Cost = {{Money|2,000}}|Image = [[File:AccelLevel2Icon.png|100px]]|Information = 300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
 
+{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
 
-Sell Price changes to {{Money|2,333}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Powerhouse Armor|Cost = {{Money|4,500}}|Image = [[File:AccelLevel3Icon.png|100px]]|Information = +17 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-Sell Price changes to {{Money|3,833}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Supercharger|Cost = {{Money|12,000}}|Image = [[File:AccelLevel4Icon.png|100px]]|Information = -2 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
 
 
-Sell Price changes to {{Money|7,833}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Vessel Of Infinite Destruction|Cost = {{Money|28,500}}|Image = [[File:AccelLevel5Icon.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+Sell Price Changes to {{Money|2,958}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = MD-PhD|Cost = {{Money|12,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-+44 Damage [[File:Damage Icon.png|20px|Damage]]
++1 Max Targets
 
-1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}
 
 
-Sell Price changes to {{Money|17,333}}}}
+Sell Price Changes to {{Money|6,958}}}}
+
+==Ability==
+{{Ability|Level Unlock = Level 3|Cooldown Time= 60s Cooldown|Initial Cooldown Time = 30s Initial Cooldown|Ability Title = Ubercharge|Image = [[File:Medic_Ability.png|100px]]|Information = 
+Assigned towers gain a [[Damage Buff]], [[Stun Immunity|Stun]] and [[Freeze Immunity]].
 }}
 
 ==Statistics==
@@ -144,229 +105,111 @@ Sell Price changes to {{Money|17,333}}}}
 
 {{neow|<nowiki>
 <var>
-$DPS$ = Overcharge / (Charge-Up + Cooldown + (Overcharge / Damage * Tick))
-$CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 7500; 2000; 6000; 9999; 27500; 50000
-$PVP-COST$ = 4250; 750; 2000; 4500; 12000; 28500
-$FSE-DETECTION$ = 1; 0; ;
-$FSE-UPGRADE$ = Extra Juice; Second Energy Canister; Powerhouse Armor; Supercharger; Vessel Of Infinite Destruction
-$FSE-UPGRADEICON$ = 11821094308; 11821094198; 11821093989; 11821093828; 11821093672
-$FSE-META$ = Hardcore; File:DefaultAcceleratorIcon2.png
-$CUREF$ = <ref name="charge">The Charge-Up happens when the '''Accelerator''' first starts attacking or its cooldown ends. This is indicated by an animation where the '''Accelerator''' charges up its plasma gun.</ref>
-$CREF$ = <ref name="cooldown">The Cooldown happens when the Overcharge occurs. This is indicated by an animation where the '''Accelerator''' waves its hand.</ref>
-$DREF$ = <ref name="dps">DPS is calculated as Overcharge ÷ (Charge-Up + Cooldown + [Overcharge ÷ Damage x Tick]).</ref>
+$COST$ = 400; 425; 650; 2400; 5000; 12000
+$FSE-UPGRADE$ = Medical Precautions; Prescribed Vitamins; BIG BRAIN; Medical Pack; MD-PhD
+$FSE-UPGRADEICON$ = 117008581932706; 71546954858462; 130592941614779; 112504548905627; 112504548905627
+$FSE-META$ = Intermediate; File:DefaultMedicIconAug25.png
 $R$ = $FNC-RECURSION$
 </var>
-<div class="mobile-tabber"><tabber>
-|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Tick !! Charge-Up$CUREF$ !! Cooldown$CREF$ !! Overcharge !! Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Firerate Buff !! Damage Buff !! Range !! Healing !! Overheal Limit !! Max Targets !! Shield Recharge Speed !! Tower Selection Cooldown !! Ubercharge Duration
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || 0.25 || 6.5 || 2.5 || 9,000 || 19 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15% || 0% || 12 || 5 || 100 || 1 || 8 || 0.5 || N/A
 |-
-| 1 || $R$ || $R$ || 15 || 0.25 || 6.5 || 2.5 || 11,250 || 19 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 15% || 0% || 12 || 5 || 100 || 2 || 8 || 0.5 || N/A
 |-
-| 2 || $R$ || $R$ || 25 || 0.25 || 5.5 || 2.5 || 18,750 || 21 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 15% || 0% || 14 || 10 || 100 || 3 || 6 || 0.5 || N/A
 |-
-| 3 || $R$ || $R$ || 40 || 0.25 || 4 || 1 || 30,000 || 21 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 15% || 20% || 15 || 10 || 100 || 3 || 6 || 0.5 || 7.5
 |-
-| 4 || $R$ || $R$ || 50 || 0.175 || 2.5 || 1 || 50,000 || 22.5 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 15% || 27.5% || 18 || 20 || 100 || 4 || 5 || 0.5 || 10
 |-
-| 5 || $R$ ||$R$ || 60 || 0.125 || 1.5 || 1 || 100,000 || 24 || $DPS$ || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 15% || 35% || 20 || 20 || 100 || 5 || 4.5 || 0.5 || 10
 |}
 </div>
-|-|PVP =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost || Total Cost !! Damage !! Tick !! Charge-Up$CUREF$ !! Cooldown$CREF$ !! Overcharge !! Range !! DPS$DREF$ !! Cost Efficiency
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 0.2 || 2.5 || 2 || 300 || 18 || $DPS$ || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 13 || 0.2 || 2.5 || 2 || 300 || 18 || $DPS$ || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 13 || 0.2 || 2.5 || 2 || 600 || 18 || $DPS$ || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 30 || 0.15 || 2.5 || 2 || 600 || 20 || $DPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 28 || 0.1 || 1.5 || 2 || 1,280 || 20 || $DPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 72 || 0.1 || 1.5 || 2 || 2,400 || 23 || $DPS$ || {{Money|$CE$}}
-|}
-</div>
-</tabber></div>
 </nowiki>}}
 
 ==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:MageAcceleratorIcon2.png|175px]]
-|[[File:EclipseAcceleratorIcon.png|175px]]
-|[[File:CupidAcceleratorIcon.png|175px]]
-|[[File:IceWitchAcceleratorIcon2.png|175px]]
+|[[File:WitchMedicIconAug25.png|175px]]
+|[[File:CyberMedicIconAug25.png|175px]]
+|[[File:ValentinesMedicIconAug25.png|175px]]
+|[[File:BunnyMedicIconAug25.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Mage}}
-|{{Color|Eclipse|Eclipse}}
-|{{Color|Lovely|Cupid}}
-|{{Color|ColdFront|Ice Witch}}
+|{{Color|Unobtainable|Witch}}
+|{{Color|Premium|Cyber}}
+|{{Color|Unobtainable|Valentines}}
+|{{Color|Unobtainable|Bunny}}
 |-
 !Rarity
+|{{Color|Event}}
 |{{Color|Rare}}
 |{{Color|Event}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|360}}
-|N/A
-|{{Coins|7,000}}
-|{{Coins|6,000}}
-|-
-!Obtained From
-|[[Deluxe Crate]]
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
-|[[Cold Front Crate]]
-|-
-!
-|[[File:NavyAcceleratorIcon.png|175px]]
-|[[File:RedAcceleratorIcon.png|175px]]
-|[[File:DuckyAcceleratorIcon.png|175px]]
-|[[File:VigilanteAcceleratorIcon.png|175px]]
-|-
-!Skin
-|{{Color|Basic|Navy}}
-|{{Color|Basic|Red}}
-|{{Color|Ducky|Ducky}}
-|{{Color|Vigilante|Vigilante}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|1,000}}
-|{{Coins|1,000}}
-|{{Coins|4,500}}
-|{{Coins|7,000}}
-|-
-!Obtained From
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Ducky Crate]]
-|[[Vigilante Crate]]
-|-
-!
-|[[File:PlushieAccelIcon.png|175px]]
-|[[File:GhostBusterAcceleratorIcon.png|175px]]
-|[[File:LegendAcceleratorSkin.png|175px]]
-|[[File:YTAccelIcon.png|175px]]
-|-
-!Skin
-|{{Color|Other|Plushie}}
-|{{Color|Halloween|Ghost Buster}}
-|{{Color|Krampus|Legend}}
-|{{Color|ContentCreator|Elite}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
 |{{Color|Event}}
-|{{Color|Legendary}}
 |-
 !Daily Store Cost
 |N/A
-|{{Coins|5,000}}
+|{{Robux|120}}
 |N/A
-|{{Coins|4,500}}
+|N/A
 |-
 !Obtained From
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Accelerator Plush]] or [[Mini Accelerator Plush]].</ref>
-|[[Halloween Crate]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|Formerly [[Halloween 2019 Crate]]
+|[[Premium Crate]]
+|Formerly [[Valentines Crate]]
+|Formerly [[Bunny Crate]]
 |-
 !
-|[[File:Speakeraccel.png|175px]]
-|[[File:NuclearAccelIcon.png|175px]]
-|[[File:SenatorAccelIcon.png|175px]]
-|[[File:DanksAcceleratorIconIG.png|175px]]
+|[[File:StrandedMedicIconAug25.png|175px]]
+|[[File:MasqueradeMedicIconAug25.png|175px]]
+|[[File:FallenMedicIconAug25.png|175px]]
+|[[File:MermaidMedicIconAug25.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Speaker Titan}}
-|{{Color|Mission|Nuclear}}
-|{{Color|StarWars|Senator}}
-|{{Color|ContentCreator|Dank}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|560}}
-|N/A
-|{{Coins|5,000}}
-|{{Coins|4,500}}
-|-
-!Obtained From
-|[[Deluxe Crate]]
-|''Hazardous Haste'' [[Mission Quests|Mission Quest]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|-
-!
-|[[File:FallenAcceleratorIconIG.png|175px]]
-|[[File:PatientZeroAcceleratorIcon.png|175px]]
-|[[File:DiscoAcceleratorIconIG.png|175px]]
-|[[File:OctopusAcceleratorIconIG.png|175px]]
-|-
-!Skin
+|{{Color|ColdFront|Stranded}}
+|{{Color|Lunar|Masquerade}}
 |{{Color|FallenMission|Fallen}}
-|{{Color|Other|Patient Zero}}
-|{{Color|Hexscape|Disco}}
-|{{Color|Surf|Octopus}}
+|{{Color|EventMission|Mermaid}}
 |-
 !Rarity
-|{{Color|Legendary}}
-|{{Color|Exclusive}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|''Dark Radiance'' [[Mission Quests|Mission Quest]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Patient Zero Mini Plush]].</ref>
-|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
-|-
-!
-|[[File:ChampionAcceleratorIconIG.png|175px]]
-|[[File:MagicianAcceleratorIconIG.png|175px]]
-|[[File:BunnyAcceleratorIconIG.png|175px]]
-|[[File:VoidAcceleratorIconIG.png|175px]]
-|-
-!Skin
-|{{Color|PVP|Champion}}
-|{{Color|Showtime|Magician}}
-|{{Color|SpringFrenzy|Bunny}}
-|{{Color|Void}}
-|-
-!Rarity
-|{{Color|Ultimate}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
 |{{Color|Rare}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|3,500}}
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Cold Front Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|''Fallen Angel'' [[Mission Quests|Mission Quest]]
+|''The Little Medic'' [[Mission Quests|Mission Quest]]
+|-
+!
+|[[File:AFPlagueMedicIcon.png|175px]]
+|[[File:AFBartenderMedicIcon.png|175px]]
+|[[File:AFToyBallerinaMedicIcon.png|175px]]
+|[[File:AFSecondChanceMedicIcon.png|175px]]
+|-
+!Skin
+|{{Color|Null|Plague}}
+|{{Color|Showtime|Bartender}}
+|{{Color|FinalAct|Toy Ballerina}}
+|{{Color|Valentines2026|Second Chance}}
+|-
+!Rarity
+|{{Color|Uncommon}}
 |{{Color|Common}}
+|{{Color|Rare}}
 |{{Color|Legendary}}
 |-
 !Daily Store Cost
@@ -376,460 +219,356 @@ $R$ = $FNC-RECURSION$
 |N/A
 |-
 !Obtained From
-|General III of [[PVP Season 0]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
 |[[Showtime Crate]]
-|[[Spring Frenzy Battle Pass]]
-|[[Void Crate]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
+|[[Valentines 2026 Crate]]
 |-
 !
-|[[File:BeachAcceleratorIconIG.png|175px]]
+|[[File:AFShamrockMedicIcon.png|175px]]
+|[[File:BeachMedicIconIG.png|175px]]
 |-
 !Skin
+|{{Color|Shamrock}}
 |{{Color|Beach}}
 |-
 !Rarity
 |{{Color|Uncommon}}
+|{{Color|Rare}}
 |-
 !Daily Store Cost
-|{{Coins|5,250}}
+|N/A
+|{{Coins|6,500}}
 |-
 !Obtained From
+|[[Shamrock Crate]]
 |[[Beach Crate]]
 |}
 
 ==Strategy==
-*Multiple Level 2 '''Accelerators''' are a cost-efficient way to get through the mid-game, as their DPS is usually high enough to deal with most mid-game enemies.
-**The [[Farm]] or other towers that generate income like the [[Golden Cowboy]] are strongly recommended, as the '''Accelerator's''' upgrades are very expensive, especially its later upgrades. To further decrease the cost of '''Accelerator's''' upgrades, the [[DJ Booth]] is a very great choice due to its discount buff.
-*The '''Accelerator''' has a very long overcharge before having to recharge, therefore buffs from the [[Commander]], [[DJ Booth]], [[Medic]] or [[Mercenary Base]] are usually fully effective on it.
-**The [[DJ Booth]]'s purple track can still be helpful in boosting its already massive range.
-*The '''Accelerator's''' lock-on mechanic can be a disadvantage. For example, if the '''Accelerator''' locks onto a strong enemy like the [[Fallen Giant]], it will stay locked on until the strong enemy is defeated, leaves its range or the '''Accelerator''' charges up again.
-**This can result in the '''Accelerator''' leaking other enemies while it is distracted, therefore it is highly recommended to bring other towers to deal with such.
-*The '''Accelerator's''' lengthy charge-up and cooldown times hinder it greatly, with enemies getting out of range before the '''Accelerator''' can defeat them in the worst cases. It is important to utilize other towers alongside the '''Accelerator''' to prevent any potential leaks.
-**Due to this and other factors, such as its high cost, it is generally infeasible to use the '''Accelerator''' in the early game, with its sluggish charge-up at lower levels resulting in some fast enemies leaking.
-*The '''Accelerator''' should be allowed to cover large amounts of the path to maximize its DPS. The [[DJ Booth]] and [[Ranger]] are especially great in this regard for boosting the '''Accelerator's''' range.
-*Slowing towers like the [[Electroshocker]] or [[Cryomancer]] can be used to support the '''Accelerator''', slowing the enemy down and giving the '''Accelerator''' enough time to charge-up and attack them.
+*The '''Medic''' has the ability to permanently grant a [[Firerate Buff]] and temporarily grant a [[Damage Buff]] to towers, making it very useful as a support tower.
+**However, unlike other towers like the [[Commander]], [[DJ Booth]] or even the [[Mercenary Base]], it is not able to apply it to every tower in range, it can only apply it to a few of them.
+***Because of this, players may need to either place down multiple of them to cover most or all of their towers, or only target the most important of their towers.
+***Due to its limited tower selection, towers with naturally low placement limits like the [[Turret]] or [[Gatling Gun]] are a great pick when using the '''Medic''', as their low placement limits mean few '''Medics''' are needed to boost them all.
+****With all four '''Medics''' placed down, you can still boost up to 20 towers, so towers like the [[Minigunner]] or [[Swarmer]] can still be paired with it, although you might have to leave some towers unboosted.
+*The '''Medic''' can give towers a shield, which stops them from being stunned once.
+**This does not stop either debuffs or being frozen. These towers are still affected by these effects, but they will not lose their shield from them.
+**When its shield is broken, the targeted tower not only loses its immunity to stuns, but also the [[Firerate Buff]] provided by the '''Medic'''. It does not however, lose any of its ''Ubercharge'' buffs.
+***If the shield is regenerated in the middle a stun, the stun will removed. This means the duration of towers assigned to a '''Medic''' cannot be longer than its shield regeneration cooldown.
+*The '''Medic''' can provide an additional [[Damage Buff]] to targeted towers, but only temporarily.
+**This is best used on harder waves when a tough enemy appears.
+**On top of this, it also grants the tower [[Stun Immunity]] and [[Freeze Immunity]], making the tower fully invulnerable to stun and freeze, making it rather useful against enemies with offensive capabilities.
+*The '''Medic''' can be used to heal back any lost health and overheal the base health.
+**As this effect stacks with each '''Medic''' placed down, having four '''Medics''' placed down will result in the player regenerating 80 health at the start of every wave while also adding an additional overheal of 400.
+***This does not just stack with other '''Medics''', but also other towers or mechanics like [[Skills]]. For example, if [[Skills]] are fully upgraded, having one [[Medic]] placed down will allow it to overheal the base health to 250 at Level 5, not just 50 or 200.
+*There are multiple towers that cannot be affected by its [[Damage Buff]]:
+{{DamageBuff}}
 
 ==Trivia==
-*The '''Accelerator''' is loosely based on the [[w:c:clashroyale:Sparky|Sparky]] from ''Clash Royale''.
-**The '''Accelerator's''' plasma gun is loosely based on the [[w:c:half-life:Gluon Gun|Gluon Gun]] from ''Half-Life''.
-*Prior to the 12th of March 2022, the '''Accelerator''' was the only tower that could receive cash from summoned enemies.
-**After the update, the '''Accelerator''' is no longer able to receive cash from these enemies in most gamemodes.
-*The '''Accelerator''' used to have hidden detection at Level 0; however, as of the [[v1.8.4|Unwavering Tides Update]] this is no longer the case.
-**Currently, the [[Golden Pyromancer]] and [[Turret]] are the only towers with hidden detection at Level 0.
-**Prior to the [[Overhaul v1.0|Overhaul Update]], the only towers to have hidden detection at Level 0 were the [[Ranger|Outlaw]] and [[Paintballer]].
-*The current '''Accelerator''' Level 5 upgrade name is an acronym for the word "VOID" (<u>'''V'''</u>essel <u>'''O'''</u>f <u>'''I'''</u>nfinite <u>'''D'''</u>estruction).
-**This name may be a tribute to the Level 5 upgrade name used before the 5th of May 2023, "''Energy from the Void''".
-*The '''Accelerator''' was initially planned to be the reward for the original [[Polluted Wasteland]] map before it was turned into a [[Hardcore Mode|Hardcore]] tower.
-*The '''Accelerator''' was originally intended to have drones that also fired plasma beams.
-**The drones can be seen on some images released around the release of [[Hardcore Testing BETA]], such as the icon used for Tower Defense Simulator at the time.
-*Prior to the [[Overhaul v1.3|Frost Invasion Update]], it was possible to see some of the '''Accelerator's''' statistics from private testing sessions in the lobby. These were:
-**Damage: 3
-**Firerate: 0.2
-**Range: 18
-**Placement limit: 5
-*Prior to the 5th of May 2023, the '''Accelerator''' had its damage statistic vary per firerate.
-**The '''Accelerator''' was originally supposed to increase its damage over time by gaining a [[Damage Buff]].
-***This was most likely changed because the '''Accelerator''' would have been very similar to the [[w:c:roblox-tower-battles:Phaser|Phaser]] from ''Tower Battles''.
-*The '''Accelerator''' likes to eat hamburgers only on Monday and Fridays, as revealed by the [[Narrator (Narrator)|Narrator]] in his annoyance, which is then confirmed by the [[Commander (Narrator)|Commander]].
-**In [[The Final Act Event]] opening cutscene, the '''Accelerator''' is also shown preparing to eat a hamburger too.
+*The '''Medic''' is the second tower that has the ability to restore base health, although it is currently the only one to do so.
+**The first tower able to do so was the [[Gladiator]], although it has since lost this ability.
+**It is not the only way of healing back base health, as the [[Turkey Leg]] and [[Fruit Cake]] consumables can also do that.
+*The item the '''Medic''' carries from level 0-4 resembles the [https://wiki.teamfortress.com/wiki/Medi_Gun Medi Gun] from ''[[wp:Team Fortress 2|Team Fortress 2]]''.
+**Originally, the '''Medic''' carried a syringe gun that resembled the [https://wiki.teamfortress.com/wiki/Syringe_Gun Syringe Gun] in ''[[wp:Team Fortress 2|Team Fortress 2]]''.
+**The tower also had an old description ("''MEDICCCCC!''") that was a reference to ''[[wp:Team Fortress 2|Team Fortress 2]]''.
+*At Level 2, [[w:c:r2da:Vitamins|Vitamins]] from ''R2DA'' can be seen on the '''Medic's''' belt.
+*The '''Medic's''' Level 3 upgrade name is a reference to the meme [https://knowyourmeme.com/memes/yeah-this-is-big-brain-time Yeah, This Is Big Brain Time].
+*During [[Hardcore Testing BETA]], the '''Medic''' had the same upgrade icons and upgrading prices as the [[Mecha Base]], barring the placement cost.
+*Until the [[Overhaul v1.0|Overhaul Update]], the '''Medic's''' Level 5 upgrade was misspelled as ''Goddess or Healing''.
+*The '''Medic''' was unable to heal base health in the now removed [[Versus]] mode.
+*The '''Medic''' originally had a red cross shoulder patch, which violates [[wp:Geneva Conventions|Geneva Conventions Laws]], as it is being used by the [[wp:International Committee of the Red Cross|ICRC]] and is strictly restricted to be associated with real-world medical aid.
+*The '''Medic's''' ''Ubercharge'' ability icon came from ''[https://www.roblox.com/games/183929867/Ashea-Reborn Ashea: Reborn]'', where it was used as an icon for the Heal skill.
+*From [[Null Medic]]'s logbook description, the '''Medic''' has scars on itself.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text =
+{{Scroll|text=
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**'''Medic''' added.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
+**New skin: {{Color|Halloween2019|Witch}}
+*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
+**{{Bug}} ''Cleansing'' ability range is not increased by [[Range Buff]]s.
+*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
+**New skin: {{Color|Premium|Cyber}}
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**'''Medic''' is now immune to stun from boss stomps.
+*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
+**New skin: {{Color|Valentine|Valentines}}
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Statistical changes:
+***'''Level 3'''
+****Range increased from +1 to +3.
+*****{{Bug}} This was not changed in the upgrade description.
+****Damage decreased from +3 to +2.
+*****{{Bug}} This was not changed in the upgrade description.
+*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
+**New skin: {{Color|Bunny|Bunny}}
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**'''Accelerator''' added.
-**{{Bug}} '''Accelerator''' can gain cash from summoned enemies.
-**{{Bug}} While stunned, '''Accelerator''' will still charge up, but performs its cooldown animation immediately after.
-**Removed skin: {{Color|Premium|Hazmat}}
-*'''4 July 2021''' - [[Overhaul v1.4|Overhaul v1.4.0]]
-**New skin: {{Color|Deluxe|Mage}}
-*'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-*'''13 February 2022''' - [[v1.0.2]]
-**New skin: {{Color|SeasonOfLove|Cupid}}
+**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 1.05 to 1.03.
+***'''Level 2'''
+****Firerate changed from {{Tooltip|1.05 > 0.85|-0.2}} to {{Tooltip|1.03 > 0.83|-0.2}}.
+***'''Level 3'''
+****Damage decreased from +2 to +0.
+****Firerate changed from {{Tooltip|0.85 > 0.55|-0.3}} to 0.83.
+***'''Level 4'''
+****Firerate changed from 0.55 to {{Tooltip|0.83 > 0.68|-0.15}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|0.55 > 0.35|-0.2}} to {{Tooltip|0.68 > 0.33|-0.35}}.
+**{{Bug}} Level 3 upgrade description says that the '''Medic's''' damage is increased from 6 to 6.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**{{Bug}} '''Medic's''' ''Cleansing'' ability does not work as it only applies to the old stun system, not the new one.
 *'''12 March 2022''' - [[v1.1.0]]
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**'''Medic''' is now immune to all stuns.
 **Statistical changes:
 ***'''Base'''
-****Tick decreased from 0.23 to 0.225.
+****Firerate decreased from 1.03 to 1.025.
+***'''Level 2'''
+****Firerate changed from {{Tooltip|1.03 > 0.83|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
 ***'''Level 4'''
-****Tick changed from {{Tooltip|0.23 > 0.13|-0.1}} to {{Tooltip|0.225 > 0.125|-0.1}}.
+****Firerate changed from {{Tooltip|0.83 > 0.68|-0.15}} to {{Tooltip|0.825 > 0.675|-0.15}}.
 ***'''Level 5'''
-****Tick changed from {{Tooltip|0.13 > 0.08|-0.05}} to {{Tooltip|0.125 > 0.075|-0.05}}.
-**{{Bugfix}} '''Accelerator''' can no longer gain cash from summoned enemies.
-*'''29 July 2022'''
-**{{Bug}} When affected by the [[Scared Debuff]], the '''Accelerator''' will not stop attacking the enemy it was targeting, even if the [[Scared Debuff]] caused the enemy to be out of range.
+****Firerate changed from {{Tooltip|0.68 > 0.33|-0.2}} to {{Tooltip|0.675 > 0.325|-0.35}}.
+**{{Bugfix}} '''Medic's''' ''Cleansing'' ability now works properly.
+**{{Bugfix}} ''Cleansing'' ability range is now increased by [[Range Buff]]s.
+**{{Bug}} '''Medic''' no longer heals the base health.
+*'''12 March 2022''' - [[v1.1.0]]a
+**{{Bugfix}} '''Medic''' now heals the base health.
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 10 to 8.
-****Range increased from 12 to 13.
-****Burst Time increased from 4 to 6.
-****Charge-Up decreased from 4 to 3.
-***'''Level 2'''
-****Burst Time changed from {{Tooltip|4 > 6.5|+2.5}} to {{Tooltip|6 > 8.5|+2.5}}.
-***'''Level 3'''
-****Damage increased from +6 to +7.
-***'''Level 5'''
-****Cost increased from {{Money|25,000}} to {{Money|30,000}}.
-****Damage increased from +9 to +20.
-****Range decreased from +2 to +1.
-****Tick changed from {{Tooltip|0.125 > 0.075|-0.05}} to 0.125.
-****Burst Time changed from {{Tooltip|6.5 > 12|+5.5}} to {{Tooltip|8.5 > 12|+3.5}}.
-****Charge-Up changed from {{Tooltip|4 > 2|-2}} to {{Tooltip|3 > 2|-1}}.
-*'''14 February 2023''' - [[v1.6.2]]
-**{{Color|Lovely|Cupid}} skin rarity changed from {{Color|Event}} to {{Color|Legendary}}.
-**New skin: {{Color|ColdFront|Ice Witch}}
-*'''5 May 2023''' - [[v1.7.2]]
-**Damage values no longer fluctuate.
-**Burst Time replaced with Overcharge.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|3,500}} to {{Money|4,250}}.
-****Damage increased from 6-8 to 10.
-****Range increased from 13 to 17.5.
-****Overcharge of 180 added, replacing Burst Time.
-***'''Level 1'''
-****Cost increased from {{Money|600}} to {{Money|800}}.
-****Damage increased from +0 to +4
-****Range decreased from +3 to +0.
-****Name changed from ''Focused Aiming'' to ''Extra Juice''.
-***'''Level 2'''
-****Cost increased from {{Money|1,200}} to {{Money|1,350}}.
-****Overcharge change of 180 > 280 added.
-****Burst Time change of 6 > 8.5 removed.
-****Name changed from ''Extra Juice'' to ''Second Energy Canister''.
-***'''Level 3'''
-****Cost increased from {{Money|3,200}} to {{Money|3,300}}.
-****Damage increased from +7 to +11.
-****Overcharge change of 280 > 425 added.
-***'''Level 4'''
-****Cost increased from {{Money|9,500}} to {{Money|10,000}}.
-****Damage increased from +0 to +11.
-****Range decreased from +3 to +0.
-****Tick changed from {{Tooltip|0.225 > 0.125|-0.1}} to 0.225.
-****Overcharge change of 425 > 1,080 added.
-****Name changed from ''Super Charged'' to ''Supercharger''.
-***'''Level 5'''
-****Damage decreased from +20 to +14.
-****Range increased from +1 to +5.
-****Tick changed from 0.125 to {{Tooltip|0.225 > 0.125|-0.1}}.
-****Overcharge change of 1,080 > 3,000 added.
-****Burst Time change of 8.5 > 12 removed.
-****Name changed from ''Energy From The Void..'' to ''Vessel Of Infinite Destruction''.
-**New skins: {{Color|Basic|Navy}}, {{Color|Basic|Red}}
-**{{Bug}} '''Accelerator's''' Overcharge does not increase if it is dealing damage to an enemy's health that was regenerated from the [[Toxic]]'s and [[Super Toxic]]'s ''Acid Bath'' puddles.
-**{{Bug}} [[Damage Buff]]s do not increase the '''Accelerator's''' damage.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''24 June 2023''' - [[v1.8.2]]
-**New skin: {{Color|Vigilante|Vigilante}}
-*'''5 August 2023''' - [[v1.8.4]]
-**Statistical changes:
-***'''Base'''
-****Hidden detection moved to Level 1.
-***'''Level 1'''
-****Damage increased from +4 to +5.
-****Hidden detection added.
-***'''Level 2'''
-****Overcharge changed from 180 > 280 to 180 > 375.
-***'''Level 3'''
-****Damage decreased from +11 to +10.
-****Overcharge changed from 280 > 425 to 375 > 625.
-***'''Level 4'''
-****Damage increased from +11 to +20.
-****Overcharge changed from 425 > 1,080 to 625 > 1,350.
-***'''Level 5'''
-****Damage decreased from +14 to +5.
-****Range decreased from +5 to +2.5.
-****Overcharge changed from 1,080 > 3,000 to 1,350 > 3,000.
-****Cost increased from {{Money|30,000}} to {{Money|34,000}}.
-*'''22 September 2023''' - [[v1.8.5]]
-**New skin: {{Color|Other|Plushie}}
-*'''28 October 2023''' - [[v1.9.0]]
-**New skin: {{Color|Halloween|Ghost Buster}}
-**{{Bug}} '''Accelerator''' will lock on the enemy even out of range, however it doesn't deal damage.
-**{{Bug}} '''Accelerator''' does not generate cash properly in [[Lunar Overture Event]].
-*'''28 October 2023''' - [[v1.9.0]]a
-**{{Bugfix}} '''Accelerator''' no longer locks on the enemy outside of it's range.
-*'''31 October 2023''' - [[v1.9.0]]h
-**{{Bugfix}} '''Accelerator''' now generates cash properly in [[Lunar Overture Event]].
-*'''21 December 2023''' - [[v1.11.0]]
-**New skin: {{Color|Krampus|Legend}}
-*'''28 January 2024''' - [[v1.12.0]]
-**New skin: {{Color|ContentCreator|Elite}}
-*'''1 April 2024''' - [[v1.17.2]]
-**New skin: {{Color|Deluxe|Speaker Titan}}
-**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin cannot be equipped in the intermission lobby.
-**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin breaks the tower icon and stats in the tower hotbar.
-**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin when sold still blocks placement in the area it was placed in.
-*'''1 April 2024''' - [[v1.17.2]]a
-**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} skin can now be equipped in the intermission lobby.
-**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} skin tower icon and stats no longer break in the tower hotbar.
-**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} no longer block placement in the area it was placed in when sold.
-*'''5 April 2024''' - [[v1.18.0]]
-**Statistical changes:
-***'''Level 2'''
-****Overcharge changed from 180 > 375 to 180 > 300.
-***'''Level 3'''
-****Cost increased from {{Money|3,300}} to {{Money|4,000}}.
-****Damage decreased from +10 to +5.
-****Overcharge changed from 375 > 625 to 300 > 600.
-***'''Level 4'''
-****Cost increased from {{Money|10,000}} to {{Money|10,500}}.
-****Damage decreased from +20 to +10.
-****Tick changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
-****Overcharge changed from 625 > 1,350 to 600 > 1,200.
-***'''Level 5'''
-****Damage increased from +5 to +15.
-****Tick changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.175 > 0.125|-0.05}}.
-****Overcharge changed from 1,350 > 3,000 to 1,200 > 3,600.
-**New skin: {{Color|Mission|Nuclear}}
-*'''26 April 2024''' - [[v1.19.2]]
-**{{Bugfix}} '''Accelerator''' is now affected by [[Damage Buff]]s.
-*'''3 May 2024''' - [[v1.20.0]]
-**{{Bug}} Damage dealt to [[Bloated]] enemies sometimes does not fill up the overcharge meter.
-*'''4 May 2024''' - [[v1.20.0]]a
-**New skin: {{Color|Deluxe|Senator}}
-*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
-**{{Bug}} {{Color|ColdFront|Ice Witch}} skin cannot be upgraded and sold.
-*'''23 May 2024''' - [[v1.23.0]]
-**{{Bug}} Damage no longer generates cash in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
-**{{Bugfix}} {{Color|ColdFront|Ice Witch}} skin can now be upgraded and sold.
-**{{Bugfix}} '''Accelerator''' no longer tries to charge-up while stunned.
-**{{Bugfix}} '''Accelerator''' will no longer keep on targeting enemies which due to having its range reduced through debuffs, are no longer in its range.
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**{{Bugfix}} Damage now generates cash properly in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|ContentCreator|Dank}}
-*'''9 August 2024''' - [[v1.27.5]]
+*'''23 January 2023''' - [[v1.6.0]]j
+**{{Color|Unobtainable|Valentines}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
+*'''14 February 2023''' - [[v1.6.1]]
+**New skin: {{Color|ColdFront|Stranded}}
+*'''21 March 2023''' - [[v1.6.3]]e
+**{{Bug}} '''Medic'''s base health regeneration no longer increases at Level 2 and Level 4.
+**{{Bugfix}} Level 3 upgrade description no longer says that the '''Medic's''' damage has increased from 6 to 6.
+*'''31 October 2023''' - [[v1.9.0]]g
+**New skin: {{Color|Lunar|Masquerade}}
+*'''24 February 2024''' - [[v1.14.0]]
+**{{Bug}} '''Medic''' can only heal the base health in [[Tutorial]] and [[Easy Mode]].
+*'''8 March 2024''' - [[v1.15.0]]
+**{{Bugfix}} '''Medic''' now can heal the base health in every mode.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''21 August 2024''' - [[v1.28.0]]
 **New skin: {{Color|FallenMission|Fallen}}
-*'''25 September 2024''' - [[v1.33.0]]
-**New skin: {{Color|Other|Patient Zero}}
-*'''11 October 2024'''- [[v1.35.0]]a
-**{{Bug}} Statistical changes made in [[TDS Experimental]] have been moved over to the main game
-*'''11 October 2024'''- [[v1.35.0]]b
-**{{Bugfix}} '''Accelerator''' no longer uses [[TDS Experimental]] stats, though the lobby still used incorrect statistics.
-*'''11 October 2024'''- [[v1.35.0]]c
-**{{Bugfix}} '''Accelerator''' no longer uses [[TDS Experimental]] stats on the lobby.
-*'''16 October 2024''' - [[v1.36.0]]
+*'''12 March 2025''' - [[v1.57.0]]
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|4,250}} to {{Money|5,000}}.
-****Damage increased from 10 to 12.
-****Overcharge increased from 180 to 240.
-****Charge-Up decreased from 3 to 2.5.
-****Cooldown increased from 2 to 2.5.
+****Damage increased from 2 to 3.
+****Range increased from 10 to 12.
+****Cost decreased from {{Money|900}} to {{Money|450}}.
+****Lead detection added.
 ***'''Level 1'''
-****Cost increased from {{Money|800}} to {{Money|1,200}}.
-****Damage increased from +5 to +8.
+***Damage decreased from +1 to +0.
+****Firerate changed from 1.025 to {{Tooltip|1.025 > 0.775|-0.25}}.
+****Cost decreased  from {{Money|400}} to {{Money|200}}.
 ***'''Level 2'''
-****Cost increased from {{Money|1,350}} to {{Money|2,250}}.
-****Range increased from +0 to +1.5.
-****Overcharge changed from 180 > 300 to 240 > 420.
+****Damage decreased from +3 to +2.
+****Firerate decreased from {{Tooltip|1.025 > 0.825|-0.2}} to 0.775.
+****Range decreased from +1 to +0.
+****Healing increased from 5 > 7 to 5 > 10.
+*****{{Bug}} Healing does not increase.
+****Hidden detection added, moved from Level 3.
+****Cost increased from {{Money|900}} to {{Money|400}}.
 ***'''Level 3'''
-****Damage increased from +5 to +10.
-****Overcharge changed from 300 > 600 to 420 > 600.
+****Damage increased from +0 to +3.
+****Firerate decreased from 0.825 to {{Tooltip|0.775 > 0.675|-0.1}}.
+****Hidden detection moved to Level 2.
+****Cost decreased from {{Money|2,400}} to {{Money|800}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|10,500}} to {{Money|9,500}}.
-****Damage decreased from +10 to +0.
-****Range increased from +0 to +1.5.
-****Overcharge changed from 600 > 1,200 to 600 > 1,050.
-****Charge-Up changed from 3 to {{Tooltip|2.5 > 1.5|-1}}.
+****Damage increased  from +2 to +4.
+****Range decreased from +1 to +0.
+****Firerate decreased from {{Tooltip|0.825 > 0.675|-0.15}} to {{Tooltip|0.675 > 0.525|-0.15}}.
+****Healing increased from 7 > 10 to 10 > 25.
+*****{{Bug}} Healing does not increase.
+****Cost decreased from {{Money|4,500}} to {{Money|1,750}}.
 ***'''Level 5'''
-****Cost decreased from {{Money|34,000}} to {{Money|30,000}}.
-****Damage decreased from +15 to +10.
-****Range decreased from +2.5 to +1.5.
-****Overcharge changed from 1,200 > 3,600 to 1,050 > 4,800.
-*****{{Bug}} Incorrectly listed as 4,600 in the upgrade description.
-*'''23 October 2024''' - [[v1.37.0]]
-**{{Bug}} '''Accelerator''' has received the following statistical changes:
-***'''Level 3'''
-****Overcharge changed from 420 > 600 to 420 > 750.
-***'''Level 4'''
-****Damage decreased from +0 to -5.
-****Overcharge changed from 600 > 1,050 to 750 > 1,050.
-***'''Level 5'''
-****Damage increased from +10 to +15.
-**New skin: {{Color|Hexscape|Disco}}
-*'''24 October 2024''' - [[v1.37.0|v1.37.3]]
-**{{Bugfix}} '''Accelerator''' now uses the correct statistics.
+****Firerate decreased from {{Tooltip|0.675 > 0.325|-0.35}} to {{Tooltip|0.525 > 0.325|-0.2}}.
+****''Cleansing'' ability cooldown decreased from 30 to 20.
+****Healing increased from 10 to 25 > 100.
+*****{{Bug}} Healing does not increase.
+****Flying detection added.
+****Cost decreased from {{Money|6,500}} to {{Money|5,000}}.
+*'''16 April 2025''' - [[v1.59.0]]
+**{{Bug}} ''Cleansing'' ability does not function properly if certain tower/skins are placed in its range. This includes the {{Color|CoinCrate|The Flea}} and {{Color|CoinCrate|The Beast}} [[Jester]] skins. In future updates, [[Biologist]], {{Color|DuckyRevenge|Spring Time}} [[Cowboy]], {{Color|DuckyRevenge|Duck}} [[Rocketeer]], {{Color|DuckyRevenge|Duck}} [[Necromancer]], {{Color|EventMission|Ducky}} [[DJ Booth]], {{Color|Other|Mecha Bunny}} [[Cowboy]] and [[Swarmer]] were added/changed which break it too.
 *'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
+**Support role added.
 *'''28 May 2025''' - [[v1.65.0]]
-**{{Bugfix}} Level 5 now correctly lists overcharge as 4,800.
-*'''11 June 2025''' - [[v1.67.0]]
+**{{Bugfix}} ''Cleansing'' no longer breaks.
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost decreased from {{Coins|1,500}} to {{Coins|800}}.
+*'''20 August 2025''' - [[v1.73.0]]
+**'''Medic''' is no longer capable of attacking enemies, now it only shields other towers. This provides them with buffs and an immunity to stuns.
+**''Cleansing'' ability replaced with ''Ubercharge''. Functionality changed from removing all stuns from towers to applying an additional buff to assigned towers and giving them all detections.
+**Now can overheal the base health without [[Skills]], as it has its own separate limit per '''Medic'''.
+**Updated tooltips.
+**Unlock cost increased from {{Coins|800}} to {{Coins|2,000}}.
+**Placement limit of 5 added.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|5,000}} to {{Money|4,500}}.
-****Damage decreased from 12 to 10.
-****Range increased from 17.5 to 18.
-****Overcharge increased from 240 to 300.
+****Cost increased from {{Money|450}} to {{Money|500}}.
+****Damage removed.
+****Firerate removed.
+****Max targets of 1 added.
+****Shield recharge speed of 8 added.
+****Overheal limit of 0 added.
+****Tower selection cooldown of 0.5 added.
+****[[Firerate Buff]] of 20% added.
+****Lead detection removed.
 ***'''Level 1'''
-****Cost decreased from {{Money|1,200}} to {{Money|1,000}}.
-****Damage decreased from +8 to +5.
+****Cost increased from {{Money|200}} to {{Money|300}}.
+****Range decreased from +1 to +0.
+****Max targets increased from +0 to +1.
 ***'''Level 2'''
-****Cost increased from {{Money|2,250}} to {{Money|2,500}}.
-****Range increased from +1.5 to +2.
-****Overcharge changed from 240 > 420 to 300 > 600.
-*****{{Bug}} This is repeated for Level 3.
-***'''Level 3'''
-****Cost increased from {{Money|4,000}} to {{Money|4,750}}.
-****Damage increased from +10 to +25.
-****Overcharge changed from 420 > 600 to 600.
-***'''Level 4'''
-****Cost increased from {{Money|9,500}} to {{Money|11,250}}.
-****Range increased from +1.5 to +2.5
-****Overcharge changed from 600 > 1,050 to 600 > 1,280.
-***'''Level 5'''
-****Cost increased from {{Money|30,000}} to {{Money|36,000}}.
-****Damage increased from +10 to +60.
-****Range increased from +1.5 to +2.5.
-****Overcharge changed from 1,050 > 4,800 to 1,280 > 2,400.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Octopus}}
-**{{Bug}} {{Color|Surf|Octopus}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Octopus}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''23 July 2025''' - [[v1.71.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Cost decreased from {{Money|4,500}} to {{Money|3,000}}.
-****Cooldown decreased from 2.5 to 2.
-***'''Level 1'''
-****Cost decreased from {{Money|1,000}} to {{Money|750}}.
-***'''Level 2'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,125}}.
-***'''Level 3'''
-****Cost decreased from {{Money|4,750}} to {{Money|3,250}}.
-****Damage decreased from +25 to +20.
-***'''Level 4'''
-****Cost decreased from {{Money|11,250}} to {{Money|8,250}}.
-***'''Level 5'''
-****Cost decrased from {{Money|36,000}} to {{Money|30,000}}.
-****Damage decreased from +60 to +55.
-**New skin: {{Color|PVP|Champion}}
-*'''6 August 2025''' - [[v1.72.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Cost increased from {{Money|3,000}} to {{Money|4,250}}.
-****Damage increased from 10 to 12.
-***'''Level 1'''
-****Damage decreased from +5 to +3.
-***'''Level 2'''
-****Cost decreased from {{Money|2,125}} to {{Money|2,000}}.
-****Range decreased from +2 to +0.
-***'''Level 3'''
-****Cost increased from {{Money|3,250}} to {{Money|4,500}}.
-****Tick changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Cost increased from {{Money|400}} to {{Money|750}}.
 ****Range increased from +0 to +2.
+****Max targets increased from +0 to +1.
+****Healing decreased from +5 to +0.
+****Overheal limit increased from +0 to +5.
+****Shield recharge speed changed from 0 to 8 > 6.
+****Hidden detection removed.
+***'''Level 3'''
+****Cost increased from {{Money|800}} to {{Money|2,700}}.
+****Range decreased from +3 to +1.
+****Healing decreased from +0 to +5.
+****Overheal limit increased from +0 to +5.
+****Unlocks ''Ubercharge''.
+*****Replaces the former ''Cleansing'' ability.
+*****Grants a 20% [[Damage Buff]] and all detections.
+*****Lasts 7.5 seconds.
 ***'''Level 4'''
-****Cost increased from {{Money|8,250}} to {{Money|12,000}}.
-****Tick changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
-****Range increased from +2.5 to +0.
+****Cost increased from {{Money|1,750}} to {{Money|6,000}}.
+****Range increased from +0 to +3.
+****Max targets increased from +0 to +1.
+****Healing decreased from +15 to +10.
+****Overheal limit increased from +0 to +10.
+****Shield recharge speed changed from 0 to 6 > 4.5.
+****[[Damage Buff]] changed from 0% to 20% > 27.5%.
+****''Ubercharge'' duration changed 0 to 7.5 > 10.
 ***'''Level 5'''
-****Cost decreased from {{Money|30,000}} to {{Money|28,500}}.
+****Cost increased from {{Money|5,000}} to {{Money|16,000}}.
+****Max targets increased from +0 to +1.
+****Healing decreased from +75 to +5.
+****Overheal limit increased from +0 to +30.
+****Shield recharge speed changed from 0 to 4.5 > 2.
+****[[Damage Buff]] changed from 0% to 27.5% > 40%.
+****''Ubercharge'' duration changed 0 to 10 > 15.
+****Name changed from ''Goddess Of Healing'' to ''PHD''.
+**New skin: {{Color|EventMission|Mermaid}}
+**{{Bug}} '''Medic''' can switch assigned towers while [[Time Scale]] is set to 0x.
+**{{Bug}} '''Medic''' can stack its [[Firerate Buff]].
+**{{Bug}} Despite being unable to shield towers with another player's '''Medic''', selecting another player's '''Medic''' will still prevent selecting towers.
+**{{Bug}} Having a '''Medic''' selected prevents viewing enemy statistics.
+**{{Bug}} '''Medic''' can sometimes abruptly end the match in a loss at random waves.
+**{{Bug}} '''Medic's''' ''Ubercharge'' reloads the ammo of specifically just the [[Commando]] and [[Gatling Gun]] after it ends.
+**{{Bugfix}} '''Medic's''' healing now increases with upgrades.
+*'''20 August 2025''' - [[v1.73.0|v1.73.2]]
+**{{Bugfix}} It is no longer possible to stack '''Medic''' [[Firerate Buff]]s through a specific method of switching which '''Medic''' is shielding a tower after the shield breaks.
+*'''3 September 2025''' - [[v1.74.0]]
+**{{Bugfix}} '''Medic''' no longer causes the match to abruptly end in a loss.
+*'''24 September 2025''' - [[v1.75.0]]
+**Statistical changes:
+***'''Base'''
+****[[Firerate Buff]] decreased from 20% to 15%.
+***'''Level 1'''
+****Cost increased from {{Money|300}} to {{Money|500}}.
+***'''Level 3'''
+****''Ubercharge'' no longer gives all detections.
+*****{{Bug}} Despite what the update log says, this change did not actually happen. Detections are still applied by ''Ubercharge''.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Plague}}
+*'''12 November 2025''' - [[v1.80.0]]
+**{{Bugfix}} ''Ubercharge'' no longer gives towers hidden detection, though other detections are still applied when they should not be.
+*'''26 November 2025''' - [[v1.81.0]]
+**Statistical changes:
+***''Ubercharge'' ability now has a 15 second cooldown upon placing it down.
 *'''20 December 2025''' - [[v1.83.0]]
-**New skin: {{Color|Showtime|Magician}}
+**New skins: {{Color|Showtime|Bartender}}
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skins: {{Color|FinalAct|Toy Ballerina}}
+*'''23 December 2025''' - [[v1.83.0|v1.83.4]]
+**{{Bug}} All shielded towers except one once their shield is broken do not lose their [[Firerate Buff]] and never regain their shield without assigning them a shield again.
+**{{Bugfix}} It is no longer possible to stack the [[Medic]]'s [[Firerate Buff]].
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement footprint size increased from 1.5 to 1.75.
-**Placement limit decreased from 8 to 5.
-**[[Stun Immunity]] added.
-**Statistical changes (Regular):
+**Placement limit decreased from 5 to 4.
+**Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
-****Damage increased from 10 to 12.
-****Range increased from 18 to 20.
-****Overcharge increased from 300 to 9,000.
-****Charged-Up increased from 2.5 to 6.5.
+****Cost decreased from {{Money|500}} to {{Money|400}}.
 ***'''Level 1'''
-****Cost increased from {{Money|1,000}} to {{Money|2,000}}.
-****Damage increased from +5 to +8.
-****Overcharge changed from 300 to 9,000 > 11,250
+****Cost decreased from {{Money|500}} to {{Money|400}}.
 ***'''Level 2'''
-****Cost Increased from {{Money|2,500}} to {{Money|4,800}}.
-****Damage increased from +0 to +5.
-****Overcharge changed from 300 > 600 to 11,250 > 18,750.
+****Cost decreased from {{Money|750}} to {{Money|675}}.
 ***'''Level 3'''
-****Cost increased from {{Money|4,750}} to {{Money|9,999}}.
-****Damage decreased from +25 to +15.
-****Overcharge changed from 600 to 18,750 > 30,000.
-****Cooldown changed from 2.5 to 2.5 > 1.
+****''Ubercharge'' duration increased from 7.5 to 10.
 ***'''Level 4'''
-****Cost increased from {{Money|11,250}} to {{Money|30,000}}.
-****Damage increased from +0 to +10.
-****Range decreased from +2.5 to +2.
-****Overcharge changed from 600 > 1,280 to 30,000 > 50,000
-****Charge-Up time changed from 2.5 > 1.5 to 6.5 > 5.5.
+****''Ubercharge'' damage buff increased from 20% > 27.5% to 20% > 30%.
+****''Ubercharge'' duration increased from 7.5 > 10 to 10 > 12.5.
 ***'''Level 5'''
-****Cost increased from {{Money|36,000}} to {{Money|67,500}}.
-****Damage decreased from +60 to +5.
-****Range decreased from +2.5 to +2.
-****Overcharge changed from 1,280 > 2,400 to 50,000 > 100,000.
-****Charge-Up time changed from 1.5 to 5.5 > 6.5.
+****Cost decreased from {{Money|16,000}} to {{Money|15,000}}.
+****Shield Recharge Speed increased from 4.5 > 2 to 4.5 > 4.
 *'''11 February 2026''' - [[v1.85.0]]
-**[[Freeze Immunity]] added.
-**Statistical changes (Regular):
-***'''Level 1'''
-****Damage decreased from +8 to +3.
-***'''Level 2'''
-****Cost increased from {{Money|4,800}} to {{Money|6,000}}.
-***'''Level 4'''
-****Cost decreased from {{Money|30,000}} to {{Money|27,500}}.
-***'''Level 5'''
-****Cost decreased from {{Money|67,500}} to {{Money|60,000}}.
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Bunny}}
-*'''22 April 2026''' - [[v1.89.0]]
-**Statistical changes (regular):
-***'''Base'''
-****Tick increased from 0.225 to 0.25.
-****Range decreased from 20 to 19.
-****[[Freeze Immunity]] removed, moved to Level 2.
-***'''Level 2'''
-****[[Freeze Immunity]] added, moved from Level 0.
-***'''Level 4'''
-****Tick changed from {{Tooltip|0.225 > 0.175|-0.5}} to {{Tooltip|0.25 > 0.175|-0.75}}
-***'''Level 5'''
-****Cost decreased from {{Money|60,000}} to {{Money|55,000}}.
-****Range decreased from +2 to +1.5.
-****Charge-Up time changed from 5.5 > 6.5 to 5.5.
+**New skin: {{Color|Valentines2026|Second Chance}}
+*'''11 March 2026''' - [[v1.86.0]]
+**New skin: {{Color|Shamrock|Shamrock}}
+**{{Bugfix}} ''Ubercharge'' no longer gives flying and lead detection.
+*'''22 May 2026''' - [[v1.91.0]]
+**{{Bugfix}} Shields now properly re-appear on towers after they were hit by a stunning ability.
 *'''5 June 2026''' - [[v2.0.0]]
-**Tick decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
+**''Ubercharge'' now grants the [[Medic]] [[Freeze Immunity]] while it is active.
+**''Ubercharge'' now gives shielded towers both the [[Stun Immunity]] and [[Freeze Immunity]].
+**Statistical changes:
 ***'''Base'''
-****Without [[Firerate Bug]], tick increased from 0.22 to 0.25, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.25.
-****[[Stun Immunity]] removed.
+****Overheal limit increased from 0 to 100.
+***'''Level 1'''
+****Cost increased from {{Money|400}} to {{Money|425}}.
 ***'''Level 2'''
-****Charge-Up Time changed from 6.5 to 6.5 > 5.5.
-****[[Freeze Immunity]] removed.
+****Cost decreased from {{Money|675}} to {{Money|650}}.
+****Healing increased from +0 to +5.
+****Overheal limit decreased from +5 to +0.
 ***'''Level 3'''
-****Charge-Up Time changed from 6.5 to 5.5 > 4.
+****Cost decreased from {{Money|2,950}} to {{Money|2,700}}.
+****Overheal limit decreased from +5 to -90.
+****Healing decreased from +5 to +0.
 ***'''Level 4'''
-****Without [[Firerate Bug]], tick changed from {{Tooltip|0.22 > 0.15|-0.07}} to {{Tooltip|0.25 > 0.175|-0.075}}, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.175.
-****Charge-Up Time changed from 6.5 > 5.5 to 4 > 2.5.
+****Overheal limit increased from +10 to +90.
+****Shield recharge speed changed from 6 > 4.5 to 6 > 5.
+****''Ubercharge'' damage buff changed from 20% > 30% to 20% > 27.5%.
 ***'''Level 5'''
-****Without [[Firerate Bug]], tick changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.175 > 0.125|-0.075}}, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.125.
-****Charge-Up Time changed from 5.5 to 2.5 > 1.5.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Damage decreased from 12 to 10.
-****Tick decreased from 0.225 to 0.2.
-***'''Level 3'''
-****Damage decreased from +20 to +17.
-****Tick changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.2 > 0.15|-0.05}}.
-***'''Level 4'''
-****Damage decreased from +0 to -2.
-****Tick changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}.
-***'''Level 5'''
-****Damage decreased from +55 to +44.
-**New skin: {{Color|Void}}
-*'''19 June 2026''' - [[v2.1.0]]
-**Statistical changes (Regular):
-***'''Level 5'''
-****Damage increased from +5 to +10.
+****Cost decreased from {{Money|15,000}} to {{Money|14,000}}.
+****Overheal limit decreased from +30 to +0.
+****Healing decreased from +5 to +0.
+****Shield recharge speed changed from 4.5 > 4 to 5 > 4.5.
+****''Ubercharge'' damage buff changed from 30% > 40% to 27.5% > 35%.
+****Name changed from '''PHD''' to '''MD-PhD'''.
 *'''2 July 2026''' - [[v2.1.0|v2.1.7]]
 **New skin: {{Color|Beach}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Statistical changes:
+***'''Level 3'''
+****Overheal limit increased from -90 to +90.
+***'''Level 4'''
+****Overheal limit decreased from +90 to +0.
+*'''14 August 2026''' - [[v2.6.0]]
+**Statistical changes:
+***'''Level 3'''
+****Cost decreased from {{Money|2,950}} to {{Money|2,400}}.
+****''Ubercharge'' duration decreased from 10 to 7.5.
+***'''Level 4'''
+****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
+****''Ubercharge'' duration changed from 10 > 12.5 to 7.5 > 10.
+***'''Level 5'''
+****Cost decreased from {{Money|14,000}} to {{Money|12,000}}.
+****''Ubercharge'' duration changed from 12.5 > 15 to 10.
 }}
 
 ==Notes==
@@ -839,3 +578,5 @@ $R$ = $FNC-RECURSION$
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
+[[Category:Support]]
