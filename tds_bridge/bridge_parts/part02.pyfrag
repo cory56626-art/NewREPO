@@ -1,0 +1,65 @@
+    m=re.search(r'-?\d+(?:\.\d+)?',clean(v).replace(',','')); return float(m.group()) if m else None
+
+def conflicts(st):
+    inf=(st.get('likely_infobox') or {}).get('params',{}); ups=st.get('upgrade_templates',[])
+    if not ups: return {'priority_rule':PRIORITY,'potential_conflicts':[],'notes':['No {{Upgrade}} templates parsed.']}
+    ip={norm(k):v for k,v in inf.items()}; up={norm(k):v for k,v in ups[-1].get('params',{}).items()}
+    syn={'damage':{'damage','dmg'},'firerate':{'firerate','fire rate','rate','tick'},'range':{'range'},'cost':{'cost','price','upgrade cost'},'placement_limit':{'limit','placement limit','placementlimit'}}
+    out=[]
+    for field,keys in syn.items():
+        iv=next((ip[k] for k in keys if k in ip),None); uv=next((up[k] for k in keys if k in up),None)
+        if iv is None or uv is None: continue
+        a,b=num(iv),num(uv); differs=(a is not None and b is not None and a!=b) or (a is None and b is None and clean(iv)!=clean(uv))
+        if differs: out.append({'field':field,'infobox_or_summary':clean(iv),'highest_upgrade_template':clean(uv),'preferred_source':'highest_upgrade_template','warning':'Potential stale-summary conflict; confirm level semantics.'})
+    return {'priority_rule':PRIORITY,'potential_conflicts':out,'notes':['Different upgrade levels can legitimately differ.','Current-level disagreements: Upgrade blocks and Description take priority.']}
+
+def classify(wt,cats,tpls):
+    c=[norm(x.get('title') if isinstance(x,dict) else x) for x in cats]; t=[norm(x.get('title') if isinstance(x,dict) else x) for x in tpls]
+    ok=any('tower' in x and 'infobox' in x for x in t) or any(x.endswith(':towers') or ' tower' in x for x in c) or '{{towerinfobox' in norm(wt)
+    return {'is_tower_page':bool(ok),'reason':'template/category heuristic'}
+
+def related_candidates(query,links,limit=12):
+    kws=['buff','debuff','enemy','ability','detection','defense','firerate','damage','range','hidden','flying','lead','stun','freeze']; qtok=[x for x in re.findall(r'[a-z0-9]+',norm(query)) if len(x)>2]
+    scored=[]
+    for it in links:
+        title=(it.get('*') or it.get('title')) if isinstance(it,dict) else str(it)
+        if not title or title.startswith(('File:','Category:','Template:')): continue
+        low=norm(title); score=sum(3 for x in qtok if x in low)+sum(1 for x in kws if x in low)
+        if score: scored.append((score,title))
+    scored.sort(key=lambda x:(-x[0],x[1])); seen=set(); out=[]
+    for score,title in scored:
+        if title in seen: continue
+        seen.add(title); out.append({'title':title,'score':score})
+        if len(out)>=limit: break
+    return out
+
+def fetch_related(items):
+    out=[]
+    for it in items:
+        try:
+            p,r,w=page_bundle(it['title']); out.append({'title':it['title'],'score':it['score'],'pageid':p.get('pageid'),'latest_revid':r[0].get('revid') if r else None,'latest_timestamp':r[0].get('timestamp') if r else None,'wikitext_excerpt':w[:4000]})
+        except Exception as e: out.append({'title':it['title'],'score':it['score'],'error':str(e)})
+    return out
+
+def track(title):
+    p=ROOT/'tracked_pages.json'; d={'pages':[]}
+    if p.exists():
+        try:d=json.loads(p.read_text())
+        except:pass
+    pages=set(d.get('pages',[])); pages.add(title); wjson('tracked_pages.json',{'pages':sorted(pages)})
+
+def verify(q):
+    res=resolve_title(q); wjson('resolution.json',res)
+    if res['status']!='resolved':
+        wjson('search_candidates.json',res.get('candidates',[])); wjson('meta.json',{'mode':'verify','status':'needs_selection','requested':q}); wjson('evidence_bundle.json',{'mode':'verify','requested':q,'resolution':res,'warning':'No fuzzy result auto-selected.'}); return 2
+    title=res['canonical_title']; p,revs,wt=page_bundle(title); pm=parse_meta(title); wt=pm.get('wikitext',{}).get('*') or wt
+    cats=p.get('categories',[]) or pm.get('categories',[]); links=pm.get('links',[]); tpls=pm.get('templates',[]); backs=backlinks(title)
+    st=structured(wt); cf=conflicts(st); df=diff_of(revs); ex=expand(title,wt); rel=fetch_related(related_candidates(q,links)); cls=classify(wt,cats,tpls)
+    hist=[{k:r.get(k) for k in ('revid','parentid','timestamp','user','comment','size','sha1')} for r in revs]
+    meta={'mode':'verify','requested':q,'title':title,'pageid':p.get('pageid'),'latest_revid':hist[0]['revid'] if hist else None,'latest_timestamp':hist[0]['timestamp'] if hist else None,'source_url':BASE+'/wiki/'+urllib.parse.quote(title.replace(' ','_')),'classification':cls,'source_priority':PRIORITY}
+    wtext('result.txt',wt); wjson('meta.json',meta); wjson('revision_history.json',hist); wjson('revision_diff.json',df); wjson('categories.json',cats); wjson('backlinks.json',backs); wjson('templates.json',tpls); wtext('expanded_wikitext.txt',ex); wjson('structured_stats.json',st); wjson('conflicts.json',cf); wjson('related_pages.json',rel); wjson('search_candidates.json',[]); track(title)
+    wjson('evidence_bundle.json',{'meta':meta,'resolution':res,'revision_history':hist,'revision_diff':df,'classification':cls,'structured_stats':st,'conflicts':cf,'categories':cats,'backlinks':backs,'templates':tpls,'related_pages':rel,'raw_wikitext_file':'tds_bridge/result.txt','expanded_wikitext_file':'tds_bridge/expanded_wikitext.txt'})
+    return 0
+
+def history(q):
+    res=resolve_title(q); wjson('resolution.json',res)
