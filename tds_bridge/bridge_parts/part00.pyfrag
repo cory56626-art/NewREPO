@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+import argparse, html, json, pathlib, re, urllib.error, urllib.parse, urllib.request
+from datetime import datetime, timezone
+
+BASE='https://tds.fandom.com'; API=BASE+'/api.php'; WIKIA=BASE+'/wikia.php'; SITE_ID='2015381'
+ROOT=pathlib.Path(__file__).resolve().parent
+UA='TDSWikiBridge/5.0 (GitHub Actions; verification bridge)'
+ALIASES={
+'accel':'Accelerator','accelerator':'Accelerator','engi':'Engineer','engineer':'Engineer',
+'merc':'Mercenary Base','merc base':'Mercenary Base','mercenary':'Mercenary Base','mercenary base':'Mercenary Base',
+'gcow':'Golden Cowboy','g cow':'Golden Cowboy','golden cow':'Golden Cowboy','golden cowboy':'Golden Cowboy',
+'dj':'DJ Booth','dj booth':'DJ Booth','cb':'Crook Boss','crook':'Crook Boss','crook boss':'Crook Boss',
+'gmini':'Golden Minigunner','g mini':'Golden Minigunner','golden mini':'Golden Minigunner','golden minigunner':'Golden Minigunner',
+'mini':'Minigunner','minigunner':'Minigunner','commander':'Commander','medic':'Medic','ranger':'Ranger','mortar':'Mortar',
+'turret':'Turret','hacker':'Hacker','shotgunner':'Shotgunner','electro':'Electroshocker','electroshocker':'Electroshocker',
+'pyro':'Pyromancer','pyromancer':'Pyromancer','pursuit':'Pursuit','cowboy':'Cowboy','gladiator':'Gladiator',
+'sabo':'Saboteur','saboteur':'Saboteur','militant':'Militant','farm':'Farm','tesla':'Tesla','kingpin':'Kingpin'}
+PRIORITY={'rule':'For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.','priority':['upgrade_templates','description','infobox_or_summary']}
+
+def norm(x): return re.sub(r'\s+',' ',str(x or '').strip()).casefold()
+def wjson(name,obj): (ROOT/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+def wtext(name,s): (ROOT/name).write_text(s or '',encoding='utf-8')
+def strip_html(s): return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',s or ''))).strip()
+
+def get_json(url, params=None):
+    if params: url += ('&' if '?' in url else '?')+urllib.parse.urlencode(params,doseq=True)
+    req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'application/json'})
+    try:
+        with urllib.request.urlopen(req,timeout=40) as r: return json.loads(r.read().decode('utf-8','replace'))
+    except urllib.error.HTTPError as e:
+        raw=e.read().decode('utf-8','replace')
+        raise RuntimeError(f'HTTP {e.code}: {raw[:1200]}')
+
+def api(p):
+    q={'format':'json','formatversion':2}; q.update(p); return get_json(API,q)
+
+def search_candidates(q,limit=8):
+    d=api({'action':'query','list':'search','srsearch':q,'srnamespace':0,'srlimit':limit,'srprop':'snippet|titlesnippet|size|wordcount|timestamp'})
+    return [{'title':x.get('title'),'pageid':x.get('pageid'),'snippet':strip_html(x.get('snippet','')),'size':x.get('size'),'wordcount':x.get('wordcount'),'timestamp':x.get('timestamp')} for x in d.get('query',{}).get('search',[])]
+
+def resolve_title(q):
+    raw=str(q or '').strip()
+    if not raw: raise ValueError('query is empty')
+    alias=ALIASES.get(norm(raw)); target=alias or raw
+    d=api({'action':'query','titles':target,'redirects':1,'prop':'info'})
+    pages=d.get('query',{}).get('pages',[]); p=pages[0] if pages else {}
+    if p.get('pageid') is not None and not p.get('missing'):
+        return {'status':'resolved','input':raw,'alias_used':alias,'target':target,'canonical_title':p.get('title'),'pageid':p.get('pageid'),'redirects':d.get('query',{}).get('redirects',[]),'selection_method':'known_alias' if alias else 'exact_or_redirect'}
+    cands=search_candidates(raw)
+    exact=[c for c in cands if norm(c.get('title'))==norm(raw)]
+    if len(exact)==1:
+        c=exact[0]; return {'status':'resolved','input':raw,'alias_used':alias,'target':target,'canonical_title':c['title'],'pageid':c.get('pageid'),'redirects':[],'selection_method':'exact_search_match'}
+    return {'status':'needs_selection','input':raw,'alias_used':alias,'target':target,'candidates':cands,'message':'No exact/redirect match. Fuzzy candidates returned; NONE chosen automatically.'}
+
+def page_bundle(title):
+    d=api({'action':'query','titles':title,'prop':'revisions|categories|info','rvprop':'ids|timestamp|user|comment|size|sha1|content','rvslots':'main','rvlimit':10,'cllimit':'max'})
+    p=d.get('query',{}).get('pages',[{}])[0]
+    if p.get('missing'): raise RuntimeError('page missing: '+title)
+    revs=p.get('revisions',[]); wt=''
+    if revs: wt=revs[0].get('slots',{}).get('main',{}).get('content','')
+    return p,revs,wt
+
+def parse_meta(title): return api({'action':'parse','page':title,'prop':'links|templates|categories|displaytitle|wikitext','disablelimitreport':1}).get('parse',{})
+def backlinks(title,limit=50):
+    d=api({'action':'query','list':'backlinks','bltitle':title,'blnamespace':0,'bllimit':limit})
