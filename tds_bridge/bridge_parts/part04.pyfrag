@@ -32,6 +32,7 @@ def main():
     if mode=='search': return search_mode(q)
     if mode=='discussion': return discussion(url)
     if mode in {'discussion_search','discussions_search'}: return discussion_search(q,limit)
+    if mode in {'discussion_deep_search','deep_discussion_search'}: return discussion_deep_search(req)
     if mode=='recent_changes': return recent_changes(limit)
     if mode in {'recent_changes_watch','watch'}: return watcher()
     raise ValueError('Unknown mode: '+mode)
