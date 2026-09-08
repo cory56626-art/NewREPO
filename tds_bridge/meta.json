@@ -1,21 +1,6 @@
 {
-  "mode": "verify",
-  "requested": "Enforcer",
-  "title": "Enforcer",
-  "pageid": 61367,
-  "latest_revid": 644100,
-  "latest_timestamp": "2026-09-06T15:37:47Z",
-  "source_url": "https://tds.fandom.com/wiki/Enforcer",
-  "classification": {
-    "is_tower_page": true,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  }
+  "mode": "discussion_deep_search",
+  "requested": "enforcer hacker mercenary base golden cowboy loadout solo triumph win strategy",
+  "threads_scanned": 82259,
+  "match_count": 34
 }
