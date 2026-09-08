@@ -1,12 +1,12 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Kingpin",
-    "title": "Kingpin",
-    "pageid": 61366,
-    "latest_revid": 645363,
-    "latest_timestamp": "2026-09-07T13:50:39Z",
-    "source_url": "https://tds.fandom.com/wiki/Kingpin",
+    "requested": "Enforcer",
+    "title": "Enforcer",
+    "pageid": 61367,
+    "latest_revid": 644100,
+    "latest_timestamp": "2026-09-06T15:37:47Z",
+    "source_url": "https://tds.fandom.com/wiki/Enforcer",
     "classification": {
       "is_tower_page": true,
       "reason": "template/category heuristic"
@@ -22,116 +22,116 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Kingpin",
-    "alias_used": "Kingpin",
-    "target": "Kingpin",
-    "canonical_title": "Kingpin",
-    "pageid": 61366,
+    "input": "Enforcer",
+    "alias_used": null,
+    "target": "Enforcer",
+    "canonical_title": "Enforcer",
+    "pageid": 61367,
     "redirects": [],
-    "selection_method": "known_alias"
+    "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 645363,
-      "parentid": 645361,
-      "timestamp": "2026-09-07T13:50:39Z",
+      "revid": 644100,
+      "parentid": 643832,
+      "timestamp": "2026-09-06T15:37:47Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 19215,
-      "sha1": "4fd000238c8283dfc7e209b6073ad8912a333b8a"
+      "size": 20236,
+      "sha1": "5804835e5ed31784cce16ce3c2314cd08f3af2d7"
     },
     {
-      "revid": 645361,
-      "parentid": 643072,
-      "timestamp": "2026-09-07T13:44:17Z",
+      "revid": 643832,
+      "parentid": 630533,
+      "timestamp": "2026-09-06T11:48:36Z",
+      "user": "JurassicParker32",
+      "comment": "Added Enforcer skin category",
+      "size": 20163,
+      "sha1": "d1a4a6deb4006f8fea833c37d1606688502a69ec"
+    },
+    {
+      "revid": 630533,
+      "parentid": 630408,
+      "timestamp": "2026-08-28T11:37:28Z",
       "user": "Mentin123",
-      "comment": "Undo revision [[Special:Diff/643072|643072]] by [[Special:Contributions/Dragonixe|Dragonixe]] ([[User talk:Dragonixe|talk]])",
-      "size": 19175,
-      "sha1": "a16903cd09b203ded33e44117f503ce315ac82bc"
-    },
-    {
-      "revid": 643072,
-      "parentid": 643030,
-      "timestamp": "2026-09-05T22:12:54Z",
-      "user": "Dragonixe",
       "comment": "",
-      "size": 19251,
-      "sha1": "4434ddb56cb8693d1bf4fc7f4236071716c97279"
+      "size": 19813,
+      "sha1": "cef8c95e89eed13f1f17dee090e872f6556d8d7a"
     },
     {
-      "revid": 643030,
-      "parentid": 641857,
-      "timestamp": "2026-09-05T21:21:51Z",
-      "user": "Dragonixe",
+      "revid": 630408,
+      "parentid": 618945,
+      "timestamp": "2026-08-28T08:58:24Z",
+      "user": "Yamato1928",
       "comment": "",
-      "size": 19175,
-      "sha1": "a16903cd09b203ded33e44117f503ce315ac82bc"
+      "size": 19834,
+      "sha1": "fcefefb8cbe54eaef04617e3e511d87618c7f804"
     },
     {
-      "revid": 641857,
-      "parentid": 641856,
-      "timestamp": "2026-09-05T01:26:16Z",
-      "user": "OvergrownTadpole123",
+      "revid": 618945,
+      "parentid": 618851,
+      "timestamp": "2026-08-20T14:04:01Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 19707,
+      "sha1": "96e030c62d309691fb3baeef6aca450f692de62d"
+    },
+    {
+      "revid": 618851,
+      "parentid": 618787,
+      "timestamp": "2026-08-20T12:58:51Z",
+      "user": "Mentin123",
+      "comment": "Undo revision [[Special:Diff/618787|618787]] by [[Special:Contributions/Underworld37|Underworld37]] ([[User talk:Underworld37|talk]]) have been completely unable to replicate that - moving it elsewhere did not give towers firework buffs at all, be it visually or by having fireworks get fired out",
+      "size": 19667,
+      "sha1": "c65518f055676fa712ae2011add7fb010459a468"
+    },
+    {
+      "revid": 618787,
+      "parentid": 618781,
+      "timestamp": "2026-08-20T08:24:34Z",
+      "user": "Underworld37",
       "comment": "/* Strategy */",
-      "size": 19127,
-      "sha1": "169b28db7e494bc849172bc6f2790e00f0afe93e"
+      "size": 19548,
+      "sha1": "6981fba1c5a5d798634f4a92c61ede57fef37925"
     },
     {
-      "revid": 641856,
-      "parentid": 618662,
-      "timestamp": "2026-09-05T01:22:07Z",
-      "user": "OvergrownTadpole123",
-      "comment": "/* Strategy */",
-      "size": 18945,
-      "sha1": "0d23cfc835ab163d85842fa4af99742ffa59c3ec"
+      "revid": 618781,
+      "parentid": 618666,
+      "timestamp": "2026-08-20T03:26:55Z",
+      "user": "Just a username i thought of",
+      "comment": "/* Trivia */",
+      "size": 19667,
+      "sha1": "c65518f055676fa712ae2011add7fb010459a468"
     },
     {
-      "revid": 618662,
-      "parentid": 618537,
-      "timestamp": "2026-08-19T05:37:25Z",
-      "user": "MrMosquito",
-      "comment": "/* Ability */",
-      "size": 18839,
-      "sha1": "fda2dbe33e705a61e5845822417b0b1e21c71a17"
+      "revid": 618666,
+      "parentid": 618514,
+      "timestamp": "2026-08-19T12:55:49Z",
+      "user": "Mentin123",
+      "comment": "military base can be moved",
+      "size": 19546,
+      "sha1": "ecb264482f954aa23ab98ea26e3d8ce5e511b29b"
     },
     {
-      "revid": 618537,
-      "parentid": 614662,
-      "timestamp": "2026-08-18T21:26:07Z",
+      "revid": 618514,
+      "parentid": 618488,
+      "timestamp": "2026-08-18T21:25:17Z",
       "user": "DarkGabonnie",
       "comment": "Approved by t7ru (380694434980954114) via /job",
-      "size": 18794,
-      "sha1": "8f0340d4c2392fc874eaf4da929b2e100c87b2e4"
-    },
-    {
-      "revid": 614662,
-      "parentid": 614491,
-      "timestamp": "2026-08-15T19:48:35Z",
-      "user": "NovaHallows",
-      "comment": "Contractor has 2 lead detections rather than: HD, F & L",
-      "size": 18711,
-      "sha1": "dcb229e3a30735e1a6072bdfd20dffc79c9d06e0"
-    },
-    {
-      "revid": 614491,
-      "parentid": 614437,
-      "timestamp": "2026-08-15T17:28:59Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 18707,
-      "sha1": "79827d693986c349a2167fb4ceeb3875933b48e7"
+      "size": 19566,
+      "sha1": "1076867c7058f871bb80a74c6af658967e1d7c96"
     }
   ],
   "revision_diff": {
-    "fromrevid": 645361,
-    "torevid": 645363,
-    "fromtitle": "Kingpin",
-    "totitle": "Kingpin",
-    "fromuser": "Mentin123",
+    "fromrevid": 643832,
+    "torevid": 644100,
+    "fromtitle": "Enforcer",
+    "totitle": "Enforcer",
+    "fromuser": "JurassicParker32",
     "touser": "Mentin123",
-    "fromcomment": "Undo revision [[Special:Diff/643072|643072]] by [[Special:Contributions/Dragonixe|Dragonixe]] ([[User talk:Dragonixe|talk]])",
+    "fromcomment": "Added Enforcer skin category",
     "tocomment": "",
-    "diff_text": "Line 488: Line 488: **The top path is focused on giving the player [[cash]] through its ''Bounty'' ability and upgrading the [[Money Runner]]s it spawns. **The top path is focused on giving the player [[cash]] through its ''Bounty'' ability and upgrading the [[Money Runner]]s it spawns. ***The top path can be used as a secondary income source which may help at affording certain expensive towers like the [[Juggernaut]]. ***The top path can be used as a secondary income source which may help at affording certain expensive towers like the [[Juggernaut]]. ***It is advised to use the ''Bounty'' ability on enemies with high health to maximize its effectiveness . ***It is advised to use the ''Bounty'' ability on enemies that have a high cash reward, which usually is enemies with high health . ***Notably it also gains lead detection earlier than its bottom path counterpart. ***Notably it also gains lead detection earlier than its bottom path counterpart. **The bottom path is more focused on DPS and spawning units, this path unlocks the [[Bouncer]] and the [[Contractor]]. **The bottom path is more focused on DPS and spawning units, this path unlocks the [[Bouncer]] and the [[Contractor]]. ***This path focuses on increasing the efficiency in which the units deal damage, whether it be by increasing their DPS, or shortening their spawnrate. ***This path focuses on increasing the efficiency in which the units deal damage, whether it be by increasing their DPS, or shortening their spawnrate. ***Setting the bottom path ''Kingpin'' to '' Lackey '' or '' Contractor '' can be extremely effective on certain maps where they can stack up in a single spot and attack simultaneously. ***Setting the bottom path ''Kingpin'' to spawn either [[ Lackey ]]s or [[ Contractor ]]s can be extremely effective on certain maps where they can stack up in a single spot and attack simultaneously. ==Trivia== ==Trivia=="
+    "diff_text": "Line 482: Line 482: *'''14 August 2026''' - [[v2.6.0|v2.6.1]] *'''14 August 2026''' - [[v2.6.0|v2.6.1]] **{{Bugfix}} DPS display now correctly calculates DPS. **{{Bugfix}} DPS display now correctly calculates DPS. *'''4 September 2026''' - [[v2.9.0]] **New skin: {{Color|Beach|Abyssal}} ==Notes== ==Notes=="
   },
   "classification": {
     "is_tower_page": true,
@@ -146,15 +146,386 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Kingpin''', internally referred to as '''EvolvedKingpin''', is the [[Tower Evolution|evolved]] version of the [[Crook Boss]], unlocked by reaching Level 20 on the [[Crook Boss]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|5,500}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.\n\nThe '''Kingpin''' itself is a single target tower with no major gimmicks in the beginning, even lacking the [[Crook Boss]]' summon animation for each unit. It does however have up to three unit queues, all of which summon in can summon a different unit. There are four available options:\n*[[Lackey]], a simple single target unit with with decent health and DPS. The unit has hidden detection. It is unlocked from Level 0.\n*[[Money Runner]], the only unit that cannot be used offensively outside of collision damage that upon death generates a set amount of cash. It is unlocked from Level 0.\n*[[Bouncer]] is a high health melee unit that attacks enemies with a bat. The unit has both hidden and lead detections. It is unlocked from Level 4B.\n*[[Contractor]] is a high range unit that deals a lot of damage at a slow speed. It has all three detections. It is unlocked from Level 6B.\n\nWhile the bottom path has two units unique to itself, the top path instead gains the ''Bounty'' ability which lets the '''Kingpin''' mark an enemy in its range. While doing so, it will stop attacking enemies for 2 seconds. This marked enemy will generate a specific percentage of the enemy's total cash reward once the enemy has been killed, though the reward cannot exceed a specific value. Both the reward percentage and the reward cap increase with upgrades.\n\nThe '''Kingpin''' is primarily a mid to late-game tower, with top path focusing on income while bottom path focuses on DPS. It has a placement limit of 4.",
+    "description": "The '''Enforcer''', internally referred to as '''EvolvedEnforcer''', is the [[Tower Evolution|evolved]] version of the [[Shotgunner]], unlocked by reaching Level 20 on the [[Shotgunner]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|499}}. Once done, it can be bought for {{Gem|4,750}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.\n\nThe '''Enforcer''' fires a shotgun, meaning it fires out multiple pellets at once. These pellets are spread out based on their spread and random spread values. They can pierce through enemies. These bullets can sometimes miss targets to an enemy. Once it finishes a shot, it will need to pump its shotgun. This generally takes as long as shooting itself and will affect its firerate. Pump time is affected by the [[Firerate Buff]]. Once upgraded to Level 2, it will gain a flashbang grenade which it will throw out after dealing a specific amount of damage. This grenade will also stun enemies in a radius for a short time. While throwing the grenade, the '''Enforcer''' will visually stop attacking enemies, though it will still actually deal damage. The flashbang cannot stun enemies with [[Stun Immunity]] or [[Boss]].\n\nAt Level 5, the tower splits into two separate paths:\n*Top path turns it into an ammo-based tower. Once it has fired a certain number of times, it will have to reload. This replaces its pump time. Additionally, it gains the ability to reposition towers with ''Reposition Helicopter''. This lets the player move any tower they own anywhere on the map. However, non-humanoid towers like the [[Ace Pilot]], [[Farm]], [[Pursuit]] and [[Gatling Gun]], are blacklisted from performing the ability.\n*Bottom path retains its pump functionality but gains the ''SWAT Van'' ability. This summons in depending on the upgrade either the [[Swat Van]] or [[Swat Van Gunner]] unit on the path. Both of the units are supposed to explode upon death.\n\nThe '''Enforcer''' has lead detection from Level 0 and hidden detection from Level 2. It has a placement limit of 5.",
     "upgrade_modes": {
       "regular": [
         {
           "mode": "unknown",
           "level": 1,
-          "title": "Hat Trick",
-          "cost": "{{Money|1,400}}",
-          "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}",
+          "title": "Elbow Grease",
+          "cost": "{{Money|750}}",
+          "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1 > 0.85 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n\nSell Price changes to {{Money|1,250}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
+            },
+            {
+              "kind": "set",
+              "from": "1",
+              "to": "0.85",
+              "stat": "Firerate",
+              "text": "1 > 0.85 Firerate"
+            },
+            {
+              "kind": "set",
+              "from": "1",
+              "to": "0.85",
+              "stat": "Pump Time",
+              "text": "1 > 0.85 Pump Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Evolution Level": "0",
+            "Upgrade Title": "Elbow Grease",
+            "Cost": "{{Money|750}}",
+            "Image": "[[File:EnforcerUpgrade1.png|100px]]",
+            "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1 > 0.85 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n\nSell Price changes to {{Money|1,250}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 2,
+          "title": "Flash Grenade",
+          "cost": "{{Money|2,650}}",
+          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n6 > 8 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge\n\n•0.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n•4 Flashbang Radius}}\n\n\nSell Price changes to {{Money|2,133}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Damage",
+              "text": "+2 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "6",
+              "to": "8",
+              "stat": "Pellet Count",
+              "text": "6 > 8 Pellet Count"
+            },
+            {
+              "kind": "grant",
+              "stat": "Hidden Detection",
+              "text": "+Hidden Detection"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge"
+            },
+            {
+              "kind": "note",
+              "text": "0.5 Flashbang Stun Time"
+            },
+            {
+              "kind": "note",
+              "text": "4 Flashbang Radius}}"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Evolution Level": "0",
+            "Upgrade Title": "Flash Grenade",
+            "Cost": "{{Money|2,650}}",
+            "Image": "[[File:EnforcerUpgrade2.png|100px]]",
+            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n6 > 8 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge\n\n•0.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n•4 Flashbang Radius}}\n\n\nSell Price changes to {{Money|2,133}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 3,
+          "title": "Urban Operations",
+          "cost": "{{Money|4,600}}",
+          "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n640 > 1,000 Flashbang Damage Charge\n\n4 > 5 Flashbang Radius\n\n\nSell Price changes to {{Money|3,666}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+8",
+              "stat": "Damage",
+              "text": "+8 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "640",
+              "to": "1,000",
+              "stat": "Flashbang Damage Charge",
+              "text": "640 > 1,000 Flashbang Damage Charge"
+            },
+            {
+              "kind": "set",
+              "from": "4",
+              "to": "5",
+              "stat": "Flashbang Radius",
+              "text": "4 > 5 Flashbang Radius"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Evolution Level": "0",
+            "Upgrade Title": "Urban Operations",
+            "Cost": "{{Money|4,600}}",
+            "Image": "[[File:EnforcerUpgrade3.png|100px]]",
+            "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n640 > 1,000 Flashbang Damage Charge\n\n4 > 5 Flashbang Radius\n\n\nSell Price changes to {{Money|3,666}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 4,
+          "title": "Specialist",
+          "cost": "{{Money|7,250}}",
+          "information": "+13 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,000 > 1,500 Flashbang Damage Charge\n\n0.5 > 0.75 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|6,083}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+13",
+              "stat": "Damage",
+              "text": "+13 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "1,000",
+              "to": "1,500",
+              "stat": "Flashbang Damage Charge",
+              "text": "1,000 > 1,500 Flashbang Damage Charge"
+            },
+            {
+              "kind": "set",
+              "from": "0.5",
+              "to": "0.75",
+              "stat": "Flashbang Stun Time",
+              "text": "0.5 > 0.75 Flashbang Stun Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Evolution Level": "0",
+            "Upgrade Title": "Specialist",
+            "Cost": "{{Money|7,250}}",
+            "Image": "[[File:EnforcerUpgrade4.png|100px]]",
+            "Information": "+13 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,000 > 1,500 Flashbang Damage Charge\n\n0.5 > 0.75 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|6,083}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 5,
+          "title": "Good Coms",
+          "cost": "{{Money|12,000}}",
+          "information": "-19 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.85 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+5 Range [[File:Range_Icon.png|20px|Range]]\n\n8 > 4 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n3.5 > 1.5 Base Spread\n\n2 > 1 Base Spread\n\n-1 Max Hits\n\n1,500 > 1,200 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1.2 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map.\n\n•{{Money|2,500}} Cost [[File:Cash Icon.png|20px|Cost]]\n\n•90 Cooldown [[File:Slowness.png|20px|Cooldown]]\n\n•90 Initial Cooldown [[File:Slowness.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots.\n\n•25 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n•1.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "-19",
+              "stat": "Damage",
+              "text": "-19 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "0.85",
+              "to": "0.2",
+              "stat": "Firerate",
+              "text": "0.85 > 0.2 Firerate"
+            },
+            {
+              "kind": "set",
+              "from": "0.85",
+              "to": "0",
+              "stat": "Pump Time",
+              "text": "0.85 > 0 Pump Time"
+            },
+            {
+              "kind": "delta",
+              "delta": "+5",
+              "stat": "Range",
+              "text": "+5 Range"
+            },
+            {
+              "kind": "set",
+              "from": "8",
+              "to": "4",
+              "stat": "Pellet Count",
+              "text": "8 > 4 Pellet Count"
+            },
+            {
+              "kind": "set",
+              "from": "3.5",
+              "to": "1.5",
+              "stat": "Base Spread",
+              "text": "3.5 > 1.5 Base Spread"
+            },
+            {
+              "kind": "set",
+              "from": "2",
+              "to": "1",
+              "stat": "Base Spread",
+              "text": "2 > 1 Base Spread"
+            },
+            {
+              "kind": "delta",
+              "delta": "-1",
+              "stat": "Max Hits",
+              "text": "-1 Max Hits"
+            },
+            {
+              "kind": "set",
+              "from": "1,500",
+              "to": "1,200",
+              "stat": "Flashbang Damage Charge",
+              "text": "1,500 > 1,200 Flashbang Damage Charge"
+            },
+            {
+              "kind": "set",
+              "from": "5",
+              "to": "4.5",
+              "stat": "Flashbang Radius",
+              "text": "5 > 4.5 Flashbang Radius"
+            },
+            {
+              "kind": "set",
+              "from": "0.75",
+              "to": "1.2",
+              "stat": "Flashbang Stun Time",
+              "text": "0.75 > 1.2 Flashbang Stun Time"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map."
+            },
+            {
+              "kind": "note",
+              "text": "Cost"
+            },
+            {
+              "kind": "note",
+              "text": "90 Cooldown"
+            },
+            {
+              "kind": "note",
+              "text": "90 Initial Cooldown }}"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots."
+            },
+            {
+              "kind": "note",
+              "text": "25 Ammo"
+            },
+            {
+              "kind": "note",
+              "text": "1.5 Reload Time"
+            },
+            {
+              "kind": "note",
+              "text": "120 Cooldown"
+            },
+            {
+              "kind": "note",
+              "text": "40 Initial Cooldown }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 5",
+            "Evolution Level": "0",
+            "Upgrade Title": "Good Coms",
+            "Cost": "{{Money|12,000}}",
+            "Image": "[[File:EnforcerUpgrade5A.png|100px]]",
+            "Information": "-19 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.85 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+5 Range [[File:Range_Icon.png|20px|Range]]\n\n8 > 4 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n3.5 > 1.5 Base Spread\n\n2 > 1 Base Spread\n\n-1 Max Hits\n\n1,500 > 1,200 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1.2 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map.\n\n•{{Money|2,500}} Cost [[File:Cash Icon.png|20px|Cost]]\n\n•90 Cooldown [[File:Slowness.png|20px|Cooldown]]\n\n•90 Initial Cooldown [[File:Slowness.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots.\n\n•25 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n•1.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 5,
+          "title": "SWAT Van",
+          "cost": "{{Money|12,000}}",
+          "information": "0.85 > 0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0.7 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n3.5 > 2.5 Base Spread\n\n1,500 > 2,000 Flashbang Damage Charge\n\n5 > 6.5 Flashbang Radius\n\n{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a [[Swat Van]] that collides with enemies and explodes upon death.\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•7 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•10% Defense {{Defense}}\n\n•350 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n•6 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n•45 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}",
+          "claims": [
+            {
+              "kind": "set",
+              "from": "0.85",
+              "to": "0.7",
+              "stat": "Firerate",
+              "text": "0.85 > 0.7 Firerate"
+            },
+            {
+              "kind": "set",
+              "from": "0.85",
+              "to": "0.7",
+              "stat": "Pump Time",
+              "text": "0.85 > 0.7 Pump Time"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Range",
+              "text": "+1 Range"
+            },
+            {
+              "kind": "set",
+              "from": "3.5",
+              "to": "2.5",
+              "stat": "Base Spread",
+              "text": "3.5 > 2.5 Base Spread"
+            },
+            {
+              "kind": "set",
+              "from": "1,500",
+              "to": "2,000",
+              "stat": "Flashbang Damage Charge",
+              "text": "1,500 > 2,000 Flashbang Damage Charge"
+            },
+            {
+              "kind": "set",
+              "from": "5",
+              "to": "6.5",
+              "stat": "Flashbang Radius",
+              "text": "5 > 6.5 Flashbang Radius"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a Swat Van that collides with enemies and explodes upon death."
+            },
+            {
+              "kind": "note",
+              "text": "750 Health"
+            },
+            {
+              "kind": "note",
+              "text": "7 Speed"
+            },
+            {
+              "kind": "note",
+              "text": "10% Defense"
+            },
+            {
+              "kind": "note",
+              "text": "350 Explosion Damage"
+            },
+            {
+              "kind": "note",
+              "text": "6 Explosion Radius"
+            },
+            {
+              "kind": "note",
+              "text": "45 Cooldown }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 5",
+            "Evolution Level": "0",
+            "Upgrade Title": "SWAT Van",
+            "Cost": "{{Money|12,000}}",
+            "Image": "[[File:EnforcerUpgrade5B.png|100px]]",
+            "Information": "0.85 > 0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0.7 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n3.5 > 2.5 Base Spread\n\n1,500 > 2,000 Flashbang Damage Charge\n\n5 > 6.5 Flashbang Radius\n\n{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a [[Swat Van]] that collides with enemies and explodes upon death.\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•7 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•10% Defense {{Defense}}\n\n•350 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n•6 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n•45 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 6,
+          "title": "Full Arsenal",
+          "cost": "{{Money|20,000}}",
+          "information": "+2.5 Range [[File:Range_Icon.png|20px|Range]]\n\n4 > 6 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n1,200 > 1,800 Flashbang Damage Charge\n\n+35 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|16,750}}",
           "claims": [
             {
               "kind": "delta",
@@ -164,317 +535,156 @@
             },
             {
               "kind": "set",
-              "from": "1.1",
-              "to": "0.85",
-              "stat": "Firerate",
-              "text": "1.1 > 0.85 Firerate"
-            }
-          ],
-          "params": {
-            "Level": "Level 1",
-            "Evolution Level": "0",
-            "Upgrade Title": "Hat Trick",
-            "Cost": "{{Money|1,400}}",
-            "Image": "[[File:Kingpin1.png|100px]]",
-            "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 2,
-          "title": "Mafia Expansion",
-          "cost": "{{Money|4,000}}",
-          "information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}",
-          "claims": [
-            {
-              "kind": "set",
-              "from": "0.85",
-              "to": "0.14",
-              "stat": "Firerate",
-              "text": "0.85 > 0.14 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "-17",
-              "stat": "Damage",
-              "text": "-17 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Unit Queue",
-              "text": "+1 Unit Queue"
-            }
-          ],
-          "params": {
-            "Level": "Level 2",
-            "Evolution Level": "0",
-            "Upgrade Title": "Mafia Expansion",
-            "Cost": "{{Money|4,000}}",
-            "Image": "[[File:Kingpin2.png|100px]]",
-            "Information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 3,
-          "title": "High Roller",
-          "cost": "{{Money|6,000}}",
-          "information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}",
-          "claims": [
-            {
-              "kind": "grant",
-              "stat": "Flying Detection",
-              "text": "+Flying Detection"
-            },
-            {
-              "kind": "delta",
-              "delta": "+5",
-              "stat": "Damage",
-              "text": "+5 Damage"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Evolution Level": "0",
-            "Upgrade Title": "High Roller",
-            "Cost": "{{Money|6,000}}",
-            "Image": "[[File:Kingpin3.png|100px]]",
-            "Information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 4,
-          "title": "LV. 10 Bounty Hunter",
-          "cost": "{{Money|7,250}}",
-          "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}",
-          "claims": [
-            {
-              "kind": "grant",
-              "stat": "Lead Detection",
-              "text": "+Lead Detection"
+              "from": "4",
+              "to": "6",
+              "stat": "Pellet Count",
+              "text": "4 > 6 Pellet Count"
             },
             {
               "kind": "set",
-              "from": "0.14",
-              "to": "1.65",
-              "stat": "Firerate",
-              "text": "0.14 > 1.65 Firerate"
+              "from": "1,200",
+              "to": "1,800",
+              "stat": "Flashbang Damage Charge",
+              "text": "1,200 > 1,800 Flashbang Damage Charge"
             },
             {
               "kind": "delta",
-              "delta": "+148",
-              "stat": "Damage",
-              "text": "+148 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies."
-            },
-            {
-              "kind": "note",
-              "text": "60% Reward Percentage"
-            },
-            {
-              "kind": "note",
-              "text": "Reward Cap"
-            },
-            {
-              "kind": "note",
-              "text": "120 Cooldown"
-            },
-            {
-              "kind": "note",
-              "text": "40 Initial Cooldown }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health"
-            },
-            {
-              "kind": "note",
-              "text": "> Cash on Death }}"
+              "delta": "+35",
+              "stat": "Ammo",
+              "text": "+35 Ammo"
             }
           ],
           "params": {
-            "Level": "Level 4",
-            "Evolution Level": "0",
-            "Upgrade Title": "LV. 10 Bounty Hunter",
-            "Cost": "{{Money|7,250}}",
-            "Image": "[[File:Kingpin4A.png|100px]]",
-            "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 4,
-          "title": "Underworld Backup",
-          "cost": "{{Money|14,000}}",
-          "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}",
-          "claims": [
-            {
-              "kind": "set",
-              "from": "0.14",
-              "to": "0.12",
-              "stat": "Firerate",
-              "text": "0.14 > 0.12 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Range",
-              "text": "+2 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "+5",
-              "stat": "Damage",
-              "text": "+5 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Unit Queue",
-              "text": "+1 Unit Queue"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health"
-            },
-            {
-              "kind": "note",
-              "text": "25 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "8 Range"
-            },
-            {
-              "kind": "note",
-              "text": "0.5 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "150 Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "45 Spawn Time"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection"
-            },
-            {
-              "kind": "note",
-              "text": "Lead Detection }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
-            },
-            {
-              "kind": "delta",
-              "delta": "+3",
-              "stat": "Damage",
-              "text": "+3 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+4",
-              "stat": "Range",
-              "text": "+4 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.22",
-              "to": "0.2",
-              "stat": "Firerate }}",
-              "text": "0.22 > 0.2 Firerate }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 4",
-            "Evolution Level": "0",
-            "Upgrade Title": "Underworld Backup",
-            "Cost": "{{Money|14,000}}",
-            "Image": "[[File:Kingpin4B.png|100px]]",
-            "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 5,
-          "title": "LV. 50 Flashy Business",
-          "cost": "{{Money|16,500}}",
-          "information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+135",
-              "stat": "Damage",
-              "text": "+135 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage"
-            },
-            {
-              "kind": "note",
-              "text": "> Reward Cap }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
-            },
-            {
-              "kind": "delta",
-              "delta": "+3",
-              "stat": "Damage",
-              "text": "+3 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+4",
-              "stat": "Range",
-              "text": "+4 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.22",
-              "to": "0.2",
-              "stat": "Firerate }}",
-              "text": "0.22 > 0.2 Firerate }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = > Cash on Death"
-            },
-            {
-              "kind": "set",
-              "from": "30",
-              "to": "27.5",
-              "stat": "Spawn Time }}",
-              "text": "30 > 27.5 Spawn Time }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
+            "Level": "Level 6",
             "Evolution Level": "5",
-            "Upgrade Title": "LV. 50 Flashy Business",
-            "Cost": "{{Money|16,500}}",
-            "Image": "[[File:Kingpin5A.png|100px]]",
-            "Information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}"
+            "Upgrade Title": "Full Arsenal",
+            "Cost": "{{Money|20,000}}",
+            "Image": "[[File:EnforcerUpgrade6A.png|100px]]",
+            "Information": "+2.5 Range [[File:Range_Icon.png|20px|Range]]\n\n4 > 6 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n1,200 > 1,800 Flashbang Damage Charge\n\n+35 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|16,750}}"
           }
         },
         {
           "mode": "unknown",
-          "level": 5,
-          "title": "B.P. Operations",
-          "cost": "{{Money|32,500}}",
-          "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}",
+          "level": 6,
+          "title": "Full Suit",
+          "cost": "{{Money|15,000}}",
+          "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n2,000 > 2,500 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health [[File:HealthIcon.png|20px|Health]]\n\n10% > 15% Defense {{Defense}}\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]}}\n\n\nSell Price changes to {{Money|15,083}}",
           "claims": [
+            {
+              "kind": "delta",
+              "delta": "+5",
+              "stat": "Damage",
+              "text": "+5 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "8",
+              "to": "10",
+              "stat": "Pellet Count",
+              "text": "8 > 10 Pellet Count"
+            },
+            {
+              "kind": "set",
+              "from": "2,000",
+              "to": "2,500",
+              "stat": "Flashbang Damage Charge",
+              "text": "2,000 > 2,500 Flashbang Damage Charge"
+            },
+            {
+              "kind": "set",
+              "from": "5",
+              "to": "4.5",
+              "stat": "Flashbang Radius",
+              "text": "5 > 4.5 Flashbang Radius"
+            },
+            {
+              "kind": "set",
+              "from": "0.75",
+              "to": "1",
+              "stat": "Flashbang Stun Time",
+              "text": "0.75 > 1 Flashbang Stun Time"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health"
+            },
+            {
+              "kind": "note",
+              "text": "10% > 15% Defense"
+            },
+            {
+              "kind": "delta",
+              "delta": "+100",
+              "stat": "Explosion Damage }}",
+              "text": "+100 Explosion Damage }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 6",
+            "Evolution Level": "10",
+            "Upgrade Title": "Full Suit",
+            "Cost": "{{Money|15,000}}",
+            "Image": "[[File:EnforcerUpgrade6B.png|100px]]",
+            "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n2,000 > 2,500 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health [[File:HealthIcon.png|20px|Health]]\n\n10% > 15% Defense {{Defense}}\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]}}\n\n\nSell Price changes to {{Money|15,083}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 7,
+          "title": "Punisher",
+          "cost": "{{Money|31,500}}",
+          "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n1,800 > 2,700 Flashbang Damage Charge\n\n1.2 > 1.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|27,250}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+4",
+              "stat": "Damage",
+              "text": "+4 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "1.5",
+              "to": "1",
+              "stat": "Reload Time",
+              "text": "1.5 > 1 Reload Time"
+            },
+            {
+              "kind": "set",
+              "from": "1,800",
+              "to": "2,700",
+              "stat": "Flashbang Damage Charge",
+              "text": "1,800 > 2,700 Flashbang Damage Charge"
+            },
+            {
+              "kind": "set",
+              "from": "1.2",
+              "to": "1.5",
+              "stat": "Flashbang Stun Time",
+              "text": "1.2 > 1.5 Flashbang Stun Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 7",
+            "Evolution Level": "15",
+            "Upgrade Title": "Punisher",
+            "Cost": "{{Money|31,500}}",
+            "Image": "[[File:EnforcerUpgrade7A.png|100px]]",
+            "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n1,800 > 2,700 Flashbang Damage Charge\n\n1.2 > 1.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|27,250}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 7,
+          "title": "Peacekeeper",
+          "cost": "{{Money|20,000}}",
+          "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+[[Stun Immunity]] {{Stun|Stun Immunity}}\n\n2,500 > 3,000 Flashbang Damage Charge\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health [[File:HealthIcon.png|20px|Health]]\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n+1 Vans Called\n\nNow summons the [[Swat Van Gunner]], which fires at enemies with a machine gune.\n\n•10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•25 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|21,750}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+7",
+              "stat": "Damage",
+              "text": "+7 Damage"
+            },
             {
               "kind": "delta",
               "delta": "+1",
@@ -482,273 +692,61 @@
               "text": "+1 Range"
             },
             {
-              "kind": "delta",
-              "delta": "+17",
-              "stat": "Damage",
-              "text": "+17 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Damage",
-              "text": "+1 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1.5",
-              "stat": "Range",
-              "text": "+1.5 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.2",
-              "to": "0.16",
-              "stat": "Firerate",
-              "text": "0.2 > 0.16 Firerate"
-            },
-            {
-              "kind": "set",
-              "from": "30",
-              "to": "25",
-              "stat": "Spawn Time }}",
-              "text": "30 > 25 Spawn Time }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
-            },
-            {
-              "kind": "delta",
-              "delta": "+10",
-              "stat": "Damage",
-              "text": "+10 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0% > 10% Defense"
-            },
-            {
-              "kind": "set",
-              "from": "45",
-              "to": "40",
-              "stat": "Spawn Time }}",
-              "text": "45 > 40 Spawn Time }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Evolution Level": "10",
-            "Upgrade Title": "B.P. Operations",
-            "Cost": "{{Money|32,500}}",
-            "Image": "[[File:Kingpin5B.png|100px]]",
-            "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 6,
-          "title": "LV. 999 BOSS",
-          "cost": "{{Money|38,500}}",
-          "information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}",
-          "claims": [
-            {
-              "kind": "set",
-              "from": "1.65",
-              "to": "0.8",
-              "stat": "Firerate",
-              "text": "1.65 > 0.8 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1.5",
-              "stat": "Range",
-              "text": "+1.5 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "-70",
-              "stat": "Damage",
-              "text": "-70 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage"
-            },
-            {
-              "kind": "note",
-              "text": "> Reward Cap }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Damage",
-              "text": "+1 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1.5",
-              "stat": "Range",
-              "text": "+1.5 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.2",
-              "to": "0.16",
-              "stat": "Firerate",
-              "text": "0.2 > 0.16 Firerate"
-            },
-            {
-              "kind": "set",
-              "from": "30",
-              "to": "25",
-              "stat": "Spawn Time }}",
-              "text": "30 > 25 Spawn Time }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health"
-            },
-            {
-              "kind": "note",
-              "text": "> Cash on Death"
-            },
-            {
-              "kind": "set",
-              "from": "27.5",
-              "to": "25",
-              "stat": "Spawn Time }}",
-              "text": "27.5 > 25 Spawn Time }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 6",
-            "Evolution Level": "15",
-            "Upgrade Title": "LV. 999 BOSS",
-            "Cost": "{{Money|38,500}}",
-            "Image": "[[File:Kingpin6A.png|100px]]",
-            "Information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 6,
-          "title": "Golden Syndicate",
-          "cost": "{{Money|64,000}}",
-          "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}",
-          "claims": [
-            {
               "kind": "grant",
-              "stat": "Lead Detection",
-              "text": "+Lead Detection"
+              "stat": "Stun Immunity",
+              "text": "+Stun Immunity"
             },
             {
               "kind": "set",
-              "from": "0.12",
-              "to": "0.1",
-              "stat": "Firerate",
-              "text": "0.12 > 0.1 Firerate"
+              "from": "2,500",
+              "to": "3,000",
+              "stat": "Flashbang Damage Charge",
+              "text": "2,500 > 3,000 Flashbang Damage Charge"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health"
             },
             {
               "kind": "delta",
-              "delta": "+12",
-              "stat": "Damage",
-              "text": "+12 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health"
-            },
-            {
-              "kind": "note",
-              "text": "170 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "35 Range"
-            },
-            {
-              "kind": "note",
-              "text": "2 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "75 Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "60 Spawn Time"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection"
-            },
-            {
-              "kind": "note",
-              "text": "Flying Detection"
-            },
-            {
-              "kind": "note",
-              "text": "Lead Detection }}"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health"
+              "delta": "+100",
+              "stat": "Explosion Damage",
+              "text": "+100 Explosion Damage"
             },
             {
               "kind": "delta",
               "delta": "+1",
-              "stat": "Damage",
-              "text": "+1 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+0.5",
-              "stat": "Range",
-              "text": "+0.5 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.16",
-              "to": "0.12",
-              "stat": "Firerate }}",
-              "text": "0.16 > 0.12 Firerate }}"
+              "stat": "Vans Called",
+              "text": "+1 Vans Called"
             },
             {
               "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
-            },
-            {
-              "kind": "delta",
-              "delta": "+5",
-              "stat": "Damage",
-              "text": "+5 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+0.5",
-              "stat": "Range",
-              "text": "+0.5 Range"
+              "text": "Now summons the Swat Van Gunner, which fires at enemies with a machine gune."
             },
             {
               "kind": "note",
-              "text": "10% > 15% Defense }}"
+              "text": "10 Damage"
+            },
+            {
+              "kind": "note",
+              "text": "25 Range"
+            },
+            {
+              "kind": "note",
+              "text": "0.15 Firerate"
+            },
+            {
+              "kind": "note",
+              "text": "Hidden Detection }}"
             }
           ],
           "params": {
-            "Level": "Level 6",
+            "Level": "Level 7",
             "Evolution Level": "20",
-            "Upgrade Title": "Golden Syndicate",
-            "Cost": "{{Money|64,000}}",
-            "Image": "[[File:Kingpin6B.png|100px]]",
-            "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}"
+            "Upgrade Title": "Peacekeeper",
+            "Cost": "{{Money|20,000}}",
+            "Image": "[[File:EnforcerUpgrade7B.png|100px]]",
+            "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+[[Stun Immunity]] {{Stun|Stun Immunity}}\n\n2,500 > 3,000 Flashbang Damage Charge\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health [[File:HealthIcon.png|20px|Health]]\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n+1 Vans Called\n\nNow summons the [[Swat Van Gunner]], which fires at enemies with a machine gune.\n\n•10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•25 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|21,750}}"
           }
         }
       ],
@@ -758,9 +756,380 @@
       {
         "mode": "unknown",
         "level": 1,
-        "title": "Hat Trick",
-        "cost": "{{Money|1,400}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}",
+        "title": "Elbow Grease",
+        "cost": "{{Money|750}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1 > 0.85 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n\nSell Price changes to {{Money|1,250}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "set",
+            "from": "1",
+            "to": "0.85",
+            "stat": "Firerate",
+            "text": "1 > 0.85 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "1",
+            "to": "0.85",
+            "stat": "Pump Time",
+            "text": "1 > 0.85 Pump Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Evolution Level": "0",
+          "Upgrade Title": "Elbow Grease",
+          "Cost": "{{Money|750}}",
+          "Image": "[[File:EnforcerUpgrade1.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1 > 0.85 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n\nSell Price changes to {{Money|1,250}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Flash Grenade",
+        "cost": "{{Money|2,650}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n6 > 8 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge\n\n•0.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n•4 Flashbang Radius}}\n\n\nSell Price changes to {{Money|2,133}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "6",
+            "to": "8",
+            "stat": "Pellet Count",
+            "text": "6 > 8 Pellet Count"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge"
+          },
+          {
+            "kind": "note",
+            "text": "0.5 Flashbang Stun Time"
+          },
+          {
+            "kind": "note",
+            "text": "4 Flashbang Radius}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Evolution Level": "0",
+          "Upgrade Title": "Flash Grenade",
+          "Cost": "{{Money|2,650}}",
+          "Image": "[[File:EnforcerUpgrade2.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n6 > 8 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge\n\n•0.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n•4 Flashbang Radius}}\n\n\nSell Price changes to {{Money|2,133}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Urban Operations",
+        "cost": "{{Money|4,600}}",
+        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n640 > 1,000 Flashbang Damage Charge\n\n4 > 5 Flashbang Radius\n\n\nSell Price changes to {{Money|3,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+8",
+            "stat": "Damage",
+            "text": "+8 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "640",
+            "to": "1,000",
+            "stat": "Flashbang Damage Charge",
+            "text": "640 > 1,000 Flashbang Damage Charge"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "5",
+            "stat": "Flashbang Radius",
+            "text": "4 > 5 Flashbang Radius"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Evolution Level": "0",
+          "Upgrade Title": "Urban Operations",
+          "Cost": "{{Money|4,600}}",
+          "Image": "[[File:EnforcerUpgrade3.png|100px]]",
+          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n640 > 1,000 Flashbang Damage Charge\n\n4 > 5 Flashbang Radius\n\n\nSell Price changes to {{Money|3,666}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Specialist",
+        "cost": "{{Money|7,250}}",
+        "information": "+13 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,000 > 1,500 Flashbang Damage Charge\n\n0.5 > 0.75 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|6,083}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+13",
+            "stat": "Damage",
+            "text": "+13 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1,000",
+            "to": "1,500",
+            "stat": "Flashbang Damage Charge",
+            "text": "1,000 > 1,500 Flashbang Damage Charge"
+          },
+          {
+            "kind": "set",
+            "from": "0.5",
+            "to": "0.75",
+            "stat": "Flashbang Stun Time",
+            "text": "0.5 > 0.75 Flashbang Stun Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Evolution Level": "0",
+          "Upgrade Title": "Specialist",
+          "Cost": "{{Money|7,250}}",
+          "Image": "[[File:EnforcerUpgrade4.png|100px]]",
+          "Information": "+13 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,000 > 1,500 Flashbang Damage Charge\n\n0.5 > 0.75 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|6,083}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "Good Coms",
+        "cost": "{{Money|12,000}}",
+        "information": "-19 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.85 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+5 Range [[File:Range_Icon.png|20px|Range]]\n\n8 > 4 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n3.5 > 1.5 Base Spread\n\n2 > 1 Base Spread\n\n-1 Max Hits\n\n1,500 > 1,200 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1.2 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map.\n\n•{{Money|2,500}} Cost [[File:Cash Icon.png|20px|Cost]]\n\n•90 Cooldown [[File:Slowness.png|20px|Cooldown]]\n\n•90 Initial Cooldown [[File:Slowness.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots.\n\n•25 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n•1.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "-19",
+            "stat": "Damage",
+            "text": "-19 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.85",
+            "to": "0.2",
+            "stat": "Firerate",
+            "text": "0.85 > 0.2 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.85",
+            "to": "0",
+            "stat": "Pump Time",
+            "text": "0.85 > 0 Pump Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "8",
+            "to": "4",
+            "stat": "Pellet Count",
+            "text": "8 > 4 Pellet Count"
+          },
+          {
+            "kind": "set",
+            "from": "3.5",
+            "to": "1.5",
+            "stat": "Base Spread",
+            "text": "3.5 > 1.5 Base Spread"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "1",
+            "stat": "Base Spread",
+            "text": "2 > 1 Base Spread"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Max Hits",
+            "text": "-1 Max Hits"
+          },
+          {
+            "kind": "set",
+            "from": "1,500",
+            "to": "1,200",
+            "stat": "Flashbang Damage Charge",
+            "text": "1,500 > 1,200 Flashbang Damage Charge"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "4.5",
+            "stat": "Flashbang Radius",
+            "text": "5 > 4.5 Flashbang Radius"
+          },
+          {
+            "kind": "set",
+            "from": "0.75",
+            "to": "1.2",
+            "stat": "Flashbang Stun Time",
+            "text": "0.75 > 1.2 Flashbang Stun Time"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map."
+          },
+          {
+            "kind": "note",
+            "text": "Cost"
+          },
+          {
+            "kind": "note",
+            "text": "90 Cooldown"
+          },
+          {
+            "kind": "note",
+            "text": "90 Initial Cooldown }}"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots."
+          },
+          {
+            "kind": "note",
+            "text": "25 Ammo"
+          },
+          {
+            "kind": "note",
+            "text": "1.5 Reload Time"
+          },
+          {
+            "kind": "note",
+            "text": "120 Cooldown"
+          },
+          {
+            "kind": "note",
+            "text": "40 Initial Cooldown }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Evolution Level": "0",
+          "Upgrade Title": "Good Coms",
+          "Cost": "{{Money|12,000}}",
+          "Image": "[[File:EnforcerUpgrade5A.png|100px]]",
+          "Information": "-19 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.85 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+5 Range [[File:Range_Icon.png|20px|Range]]\n\n8 > 4 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n3.5 > 1.5 Base Spread\n\n2 > 1 Base Spread\n\n-1 Max Hits\n\n1,500 > 1,200 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1.2 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map.\n\n•{{Money|2,500}} Cost [[File:Cash Icon.png|20px|Cost]]\n\n•90 Cooldown [[File:Slowness.png|20px|Cooldown]]\n\n•90 Initial Cooldown [[File:Slowness.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots.\n\n•25 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n•1.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "SWAT Van",
+        "cost": "{{Money|12,000}}",
+        "information": "0.85 > 0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0.7 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n3.5 > 2.5 Base Spread\n\n1,500 > 2,000 Flashbang Damage Charge\n\n5 > 6.5 Flashbang Radius\n\n{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a [[Swat Van]] that collides with enemies and explodes upon death.\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•7 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•10% Defense {{Defense}}\n\n•350 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n•6 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n•45 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.85",
+            "to": "0.7",
+            "stat": "Firerate",
+            "text": "0.85 > 0.7 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.85",
+            "to": "0.7",
+            "stat": "Pump Time",
+            "text": "0.85 > 0.7 Pump Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "set",
+            "from": "3.5",
+            "to": "2.5",
+            "stat": "Base Spread",
+            "text": "3.5 > 2.5 Base Spread"
+          },
+          {
+            "kind": "set",
+            "from": "1,500",
+            "to": "2,000",
+            "stat": "Flashbang Damage Charge",
+            "text": "1,500 > 2,000 Flashbang Damage Charge"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "6.5",
+            "stat": "Flashbang Radius",
+            "text": "5 > 6.5 Flashbang Radius"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a Swat Van that collides with enemies and explodes upon death."
+          },
+          {
+            "kind": "note",
+            "text": "750 Health"
+          },
+          {
+            "kind": "note",
+            "text": "7 Speed"
+          },
+          {
+            "kind": "note",
+            "text": "10% Defense"
+          },
+          {
+            "kind": "note",
+            "text": "350 Explosion Damage"
+          },
+          {
+            "kind": "note",
+            "text": "6 Explosion Radius"
+          },
+          {
+            "kind": "note",
+            "text": "45 Cooldown }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Evolution Level": "0",
+          "Upgrade Title": "SWAT Van",
+          "Cost": "{{Money|12,000}}",
+          "Image": "[[File:EnforcerUpgrade5B.png|100px]]",
+          "Information": "0.85 > 0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.85 > 0.7 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n3.5 > 2.5 Base Spread\n\n1,500 > 2,000 Flashbang Damage Charge\n\n5 > 6.5 Flashbang Radius\n\n{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a [[Swat Van]] that collides with enemies and explodes upon death.\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•7 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•10% Defense {{Defense}}\n\n•350 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n•6 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n•45 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]}}\n\n\nSell Price changes to {{Money|10,083}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 6,
+        "title": "Full Arsenal",
+        "cost": "{{Money|20,000}}",
+        "information": "+2.5 Range [[File:Range_Icon.png|20px|Range]]\n\n4 > 6 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n1,200 > 1,800 Flashbang Damage Charge\n\n+35 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|16,750}}",
         "claims": [
           {
             "kind": "delta",
@@ -770,317 +1139,156 @@
           },
           {
             "kind": "set",
-            "from": "1.1",
-            "to": "0.85",
-            "stat": "Firerate",
-            "text": "1.1 > 0.85 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Evolution Level": "0",
-          "Upgrade Title": "Hat Trick",
-          "Cost": "{{Money|1,400}}",
-          "Image": "[[File:Kingpin1.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Mafia Expansion",
-        "cost": "{{Money|4,000}}",
-        "information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.85",
-            "to": "0.14",
-            "stat": "Firerate",
-            "text": "0.85 > 0.14 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "-17",
-            "stat": "Damage",
-            "text": "-17 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Unit Queue",
-            "text": "+1 Unit Queue"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Evolution Level": "0",
-          "Upgrade Title": "Mafia Expansion",
-          "Cost": "{{Money|4,000}}",
-          "Image": "[[File:Kingpin2.png|100px]]",
-          "Information": "0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "High Roller",
-        "cost": "{{Money|6,000}}",
-        "information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}",
-        "claims": [
-          {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Damage",
-            "text": "+5 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Evolution Level": "0",
-          "Upgrade Title": "High Roller",
-          "Cost": "{{Money|6,000}}",
-          "Image": "[[File:Kingpin3.png|100px]]",
-          "Information": "+Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "LV. 10 Bounty Hunter",
-        "cost": "{{Money|7,250}}",
-        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}",
-        "claims": [
-          {
-            "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
+            "from": "4",
+            "to": "6",
+            "stat": "Pellet Count",
+            "text": "4 > 6 Pellet Count"
           },
           {
             "kind": "set",
-            "from": "0.14",
-            "to": "1.65",
-            "stat": "Firerate",
-            "text": "0.14 > 1.65 Firerate"
+            "from": "1,200",
+            "to": "1,800",
+            "stat": "Flashbang Damage Charge",
+            "text": "1,200 > 1,800 Flashbang Damage Charge"
           },
           {
             "kind": "delta",
-            "delta": "+148",
-            "stat": "Damage",
-            "text": "+148 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies."
-          },
-          {
-            "kind": "note",
-            "text": "60% Reward Percentage"
-          },
-          {
-            "kind": "note",
-            "text": "Reward Cap"
-          },
-          {
-            "kind": "note",
-            "text": "120 Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "40 Initial Cooldown }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health"
-          },
-          {
-            "kind": "note",
-            "text": "> Cash on Death }}"
+            "delta": "+35",
+            "stat": "Ammo",
+            "text": "+35 Ammo"
           }
         ],
         "params": {
-          "Level": "Level 4",
-          "Evolution Level": "0",
-          "Upgrade Title": "LV. 10 Bounty Hunter",
-          "Cost": "{{Money|7,250}}",
-          "Image": "[[File:Kingpin4A.png|100px]]",
-          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Underworld Backup",
-        "cost": "{{Money|14,000}}",
-        "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.14",
-            "to": "0.12",
-            "stat": "Firerate",
-            "text": "0.14 > 0.12 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Damage",
-            "text": "+5 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Unit Queue",
-            "text": "+1 Unit Queue"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health"
-          },
-          {
-            "kind": "note",
-            "text": "25 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "8 Range"
-          },
-          {
-            "kind": "note",
-            "text": "0.5 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "45 Spawn Time"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Lead Detection }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Range",
-            "text": "+4 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.22",
-            "to": "0.2",
-            "stat": "Firerate }}",
-            "text": "0.22 > 0.2 Firerate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Evolution Level": "0",
-          "Upgrade Title": "Underworld Backup",
-          "Cost": "{{Money|14,000}}",
-          "Image": "[[File:Kingpin4B.png|100px]]",
-          "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]\n\n•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•8 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n\nSell Price changes to {{Money|9,666}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 5,
-        "title": "LV. 50 Flashy Business",
-        "cost": "{{Money|16,500}}",
-        "information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+135",
-            "stat": "Damage",
-            "text": "+135 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage"
-          },
-          {
-            "kind": "note",
-            "text": "> Reward Cap }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Range",
-            "text": "+4 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.22",
-            "to": "0.2",
-            "stat": "Firerate }}",
-            "text": "0.22 > 0.2 Firerate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = > Cash on Death"
-          },
-          {
-            "kind": "set",
-            "from": "30",
-            "to": "27.5",
-            "stat": "Spawn Time }}",
-            "text": "30 > 27.5 Spawn Time }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
+          "Level": "Level 6",
           "Evolution Level": "5",
-          "Upgrade Title": "LV. 50 Flashy Business",
-          "Cost": "{{Money|16,500}}",
-          "Image": "[[File:Kingpin5A.png|100px]]",
-          "Information": "+135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|12,916}}"
+          "Upgrade Title": "Full Arsenal",
+          "Cost": "{{Money|20,000}}",
+          "Image": "[[File:EnforcerUpgrade6A.png|100px]]",
+          "Information": "+2.5 Range [[File:Range_Icon.png|20px|Range]]\n\n4 > 6 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n1,200 > 1,800 Flashbang Damage Charge\n\n+35 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|16,750}}"
         }
       },
       {
         "mode": "unknown",
-        "level": 5,
-        "title": "B.P. Operations",
-        "cost": "{{Money|32,500}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}",
+        "level": 6,
+        "title": "Full Suit",
+        "cost": "{{Money|15,000}}",
+        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n2,000 > 2,500 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health [[File:HealthIcon.png|20px|Health]]\n\n10% > 15% Defense {{Defense}}\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]}}\n\n\nSell Price changes to {{Money|15,083}}",
         "claims": [
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Damage",
+            "text": "+5 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "8",
+            "to": "10",
+            "stat": "Pellet Count",
+            "text": "8 > 10 Pellet Count"
+          },
+          {
+            "kind": "set",
+            "from": "2,000",
+            "to": "2,500",
+            "stat": "Flashbang Damage Charge",
+            "text": "2,000 > 2,500 Flashbang Damage Charge"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "4.5",
+            "stat": "Flashbang Radius",
+            "text": "5 > 4.5 Flashbang Radius"
+          },
+          {
+            "kind": "set",
+            "from": "0.75",
+            "to": "1",
+            "stat": "Flashbang Stun Time",
+            "text": "0.75 > 1 Flashbang Stun Time"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health"
+          },
+          {
+            "kind": "note",
+            "text": "10% > 15% Defense"
+          },
+          {
+            "kind": "delta",
+            "delta": "+100",
+            "stat": "Explosion Damage }}",
+            "text": "+100 Explosion Damage }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Evolution Level": "10",
+          "Upgrade Title": "Full Suit",
+          "Cost": "{{Money|15,000}}",
+          "Image": "[[File:EnforcerUpgrade6B.png|100px]]",
+          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]\n\n2,000 > 2,500 Flashbang Damage Charge\n\n5 > 4.5 Flashbang Radius\n\n0.75 > 1 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health [[File:HealthIcon.png|20px|Health]]\n\n10% > 15% Defense {{Defense}}\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]}}\n\n\nSell Price changes to {{Money|15,083}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 7,
+        "title": "Punisher",
+        "cost": "{{Money|31,500}}",
+        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n1,800 > 2,700 Flashbang Damage Charge\n\n1.2 > 1.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|27,250}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.5",
+            "to": "1",
+            "stat": "Reload Time",
+            "text": "1.5 > 1 Reload Time"
+          },
+          {
+            "kind": "set",
+            "from": "1,800",
+            "to": "2,700",
+            "stat": "Flashbang Damage Charge",
+            "text": "1,800 > 2,700 Flashbang Damage Charge"
+          },
+          {
+            "kind": "set",
+            "from": "1.2",
+            "to": "1.5",
+            "stat": "Flashbang Stun Time",
+            "text": "1.2 > 1.5 Flashbang Stun Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 7",
+          "Evolution Level": "15",
+          "Upgrade Title": "Punisher",
+          "Cost": "{{Money|31,500}}",
+          "Image": "[[File:EnforcerUpgrade7A.png|100px]]",
+          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n1,800 > 2,700 Flashbang Damage Charge\n\n1.2 > 1.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]\n\n\nSell Price changes to {{Money|27,250}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 7,
+        "title": "Peacekeeper",
+        "cost": "{{Money|20,000}}",
+        "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+[[Stun Immunity]] {{Stun|Stun Immunity}}\n\n2,500 > 3,000 Flashbang Damage Charge\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health [[File:HealthIcon.png|20px|Health]]\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n+1 Vans Called\n\nNow summons the [[Swat Van Gunner]], which fires at enemies with a machine gune.\n\n•10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•25 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|21,750}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
+          },
           {
             "kind": "delta",
             "delta": "+1",
@@ -1088,273 +1296,61 @@
             "text": "+1 Range"
           },
           {
-            "kind": "delta",
-            "delta": "+17",
-            "stat": "Damage",
-            "text": "+17 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.2",
-            "to": "0.16",
-            "stat": "Firerate",
-            "text": "0.2 > 0.16 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "30",
-            "to": "25",
-            "stat": "Spawn Time }}",
-            "text": "30 > 25 Spawn Time }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0% > 10% Defense"
-          },
-          {
-            "kind": "set",
-            "from": "45",
-            "to": "40",
-            "stat": "Spawn Time }}",
-            "text": "45 > 40 Spawn Time }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Evolution Level": "10",
-          "Upgrade Title": "B.P. Operations",
-          "Cost": "{{Money|32,500}}",
-          "Image": "[[File:Kingpin5B.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n0% > 10% Defense {{Defense}}\n\n45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|20,500}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 6,
-        "title": "LV. 999 BOSS",
-        "cost": "{{Money|38,500}}",
-        "information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "1.65",
-            "to": "0.8",
-            "stat": "Firerate",
-            "text": "1.65 > 0.8 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "-70",
-            "stat": "Damage",
-            "text": "-70 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage"
-          },
-          {
-            "kind": "note",
-            "text": "> Reward Cap }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.2",
-            "to": "0.16",
-            "stat": "Firerate",
-            "text": "0.2 > 0.16 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "30",
-            "to": "25",
-            "stat": "Spawn Time }}",
-            "text": "30 > 25 Spawn Time }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health"
-          },
-          {
-            "kind": "note",
-            "text": "> Cash on Death"
-          },
-          {
-            "kind": "set",
-            "from": "27.5",
-            "to": "25",
-            "stat": "Spawn Time }}",
-            "text": "27.5 > 25 Spawn Time }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Evolution Level": "15",
-          "Upgrade Title": "LV. 999 BOSS",
-          "Cost": "{{Money|38,500}}",
-          "Image": "[[File:Kingpin6A.png|100px]]",
-          "Information": "1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-70 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+1.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]\n\n27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|25,750}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 6,
-        "title": "Golden Syndicate",
-        "cost": "{{Money|64,000}}",
-        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}",
-        "claims": [
-          {
             "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
+            "stat": "Stun Immunity",
+            "text": "+Stun Immunity"
           },
           {
             "kind": "set",
-            "from": "0.12",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.12 > 0.1 Firerate"
+            "from": "2,500",
+            "to": "3,000",
+            "stat": "Flashbang Damage Charge",
+            "text": "2,500 > 3,000 Flashbang Damage Charge"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health"
           },
           {
             "kind": "delta",
-            "delta": "+12",
-            "stat": "Damage",
-            "text": "+12 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health"
-          },
-          {
-            "kind": "note",
-            "text": "170 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "35 Range"
-          },
-          {
-            "kind": "note",
-            "text": "2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "75 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "60 Spawn Time"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Lead Detection }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health"
+            "delta": "+100",
+            "stat": "Explosion Damage",
+            "text": "+100 Explosion Damage"
           },
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+0.5",
-            "stat": "Range",
-            "text": "+0.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.16",
-            "to": "0.12",
-            "stat": "Firerate }}",
-            "text": "0.16 > 0.12 Firerate }}"
+            "stat": "Vans Called",
+            "text": "+1 Vans Called"
           },
           {
             "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Damage",
-            "text": "+5 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+0.5",
-            "stat": "Range",
-            "text": "+0.5 Range"
+            "text": "Now summons the Swat Van Gunner, which fires at enemies with a machine gune."
           },
           {
             "kind": "note",
-            "text": "10% > 15% Defense }}"
+            "text": "10 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "25 Range"
+          },
+          {
+            "kind": "note",
+            "text": "0.15 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection }}"
           }
         ],
         "params": {
-          "Level": "Level 6",
+          "Level": "Level 7",
           "Evolution Level": "20",
-          "Upgrade Title": "Golden Syndicate",
-          "Cost": "{{Money|64,000}}",
-          "Image": "[[File:Kingpin6B.png|100px]]",
-          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]\n\n•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]\n\n+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]\n\n+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+0.5 Range [[File:Range_Icon.png|20px|Range]]\n\n10% > 15% Defense {{Defense}}}}\n\n\nSell Price changes to {{Money|41,833}}"
+          "Upgrade Title": "Peacekeeper",
+          "Cost": "{{Money|20,000}}",
+          "Image": "[[File:EnforcerUpgrade7B.png|100px]]",
+          "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+[[Stun Immunity]] {{Stun|Stun Immunity}}\n\n2,500 > 3,000 Flashbang Damage Charge\n\n{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health [[File:HealthIcon.png|20px|Health]]\n\n+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]\n\n+1 Vans Called\n\nNow summons the [[Swat Van Gunner]], which fires at enemies with a machine gune.\n\n•10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•25 Range [[File:Range_Icon.png|20px|Range]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|21,750}}"
         }
       }
     ],
@@ -1364,11 +1360,11 @@
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": "{{Attr|Hidden|Level 0+}} (Units only)",
-        "lead": "{{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])",
-        "flying": "{{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)",
-        "immune": "None",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4"
+        "hidden": "{{Attr|Hidden|Level 2+}}",
+        "lead": "{{Attr|Lead|Level 0+}}",
+        "flying": "N/A",
+        "immune": "{{Attr|Stun|Level 7B}}",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5"
       },
       "pvp": {
         "hidden": null,
@@ -1381,29 +1377,31 @@
       {
         "name": "TowerInfobox",
         "params": {
-          "image-static": "DefaultKingpin0.png",
-          "image-dynamic1": "DefaultKingpin0.png",
-          "pseudoxd": "1",
-          "towercost": "{{Coins|15,000}} & {{Gem|5,500}}",
-          "placement": "Ground",
+          "title": "Enforcer",
+          "image-static": "DefaultEnforcer0.png",
+          "image-dynamic": "EnforcerDynamic.png",
+          "image-dynamic-start": "0",
+          "pseudoxd": "true",
+          "unlockcost": "{{Coins|15,000}} & {{Gem|4,750}}",
+          "basecost": "{{Money|3,000}}",
+          "basesellingprice": "{{Money|1,000}}",
           "role": "Offense",
-          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4",
-          "basecost": "{{Money|3,600}}",
-          "basesellingprice": "{{Money|1,200}}",
-          "basedamage": "[[File:Damage Icon.png|20px|Damage]]24",
-          "damagetype": "Single",
-          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
-          "baserange": "[[File:Range Icon.png|20px|Range]]17.5",
-          "hidden_detection": "{{Attr|Hidden|Level 0+}} (Units only)",
-          "lead_detection": "{{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])",
-          "flying_detection": "{{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)",
-          "immune": "None",
-          "footprint": "1.5",
-          "evolved_from": "[[Crook Boss]]",
+          "placement": "Ground",
+          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
+          "basedamage": "[[File:Damage Icon.png|20px|Damage]]10x6",
+          "damagetype": "Pierce<br/>Spread",
+          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1",
+          "baserange": "[[File:Range Icon.png|20px|Range]]10",
+          "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+          "lead_detection": "{{Attr|Lead|Level 0+}}",
+          "flying_detection": "N/A",
+          "immune": "{{Attr|Stun|Level 7B}}",
+          "footprint": "1",
+          "evolved_from": "[[Shotgunner]]",
           "evolution_levels": "20",
           "base_exp": "75",
           "growth_rate": "1.075",
-          "skip_cost": "1,199"
+          "skip_cost": "999"
         },
         "positional": []
       }
@@ -1411,33 +1409,35 @@
     "likely_infobox": {
       "name": "TowerInfobox",
       "params": {
-        "image-static": "DefaultKingpin0.png",
-        "image-dynamic1": "DefaultKingpin0.png",
-        "pseudoxd": "1",
-        "towercost": "{{Coins|15,000}} & {{Gem|5,500}}",
-        "placement": "Ground",
+        "title": "Enforcer",
+        "image-static": "DefaultEnforcer0.png",
+        "image-dynamic": "EnforcerDynamic.png",
+        "image-dynamic-start": "0",
+        "pseudoxd": "true",
+        "unlockcost": "{{Coins|15,000}} & {{Gem|4,750}}",
+        "basecost": "{{Money|3,000}}",
+        "basesellingprice": "{{Money|1,000}}",
         "role": "Offense",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4",
-        "basecost": "{{Money|3,600}}",
-        "basesellingprice": "{{Money|1,200}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]24",
-        "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
-        "baserange": "[[File:Range Icon.png|20px|Range]]17.5",
-        "hidden_detection": "{{Attr|Hidden|Level 0+}} (Units only)",
-        "lead_detection": "{{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])",
-        "flying_detection": "{{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)",
-        "immune": "None",
-        "footprint": "1.5",
-        "evolved_from": "[[Crook Boss]]",
+        "placement": "Ground",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]10x6",
+        "damagetype": "Pierce<br/>Spread",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1",
+        "baserange": "[[File:Range Icon.png|20px|Range]]10",
+        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "N/A",
+        "immune": "{{Attr|Stun|Level 7B}}",
+        "footprint": "1",
+        "evolved_from": "[[Shotgunner]]",
         "evolution_levels": "20",
         "base_exp": "75",
         "growth_rate": "1.075",
-        "skip_cost": "1,199"
+        "skip_cost": "999"
       },
       "positional": []
     },
-    "template_count": 123
+    "template_count": 100
   },
   "conflicts": {
     "priority_rule": {
@@ -1469,10 +1469,6 @@
     }
   ],
   "backlinks": [
-    {
-      "title": "Tower Defense Simulator Wiki",
-      "pageid": 4
-    },
     {
       "title": "Towers",
       "pageid": 122
@@ -1668,6 +1664,10 @@
     {
       "title": "Frost Blaster/Gallery",
       "pageid": 9830
+    },
+    {
+      "title": "Swarmer/Gallery",
+      "pageid": 9888
     }
   ],
   "templates": [
@@ -1679,11 +1679,6 @@
     {
       "ns": 10,
       "title": "Template:Icon",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:For",
       "exists": true
     },
     {
@@ -1743,7 +1738,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:Flying",
+      "title": "Template:Hidden",
       "exists": true
     },
     {
@@ -1768,17 +1763,12 @@
     },
     {
       "ns": 10,
-      "title": "Template:Lead",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Hidden",
-      "exists": true
-    },
-    {
-      "ns": 10,
       "title": "Template:Defense",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Stun",
       "exists": true
     },
     {
@@ -1794,6 +1784,21 @@
     {
       "ns": 10,
       "title": "Template:Exp",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bug",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bugfix",
       "exists": true
     },
     {
@@ -1839,20 +1844,28 @@
   ],
   "related_pages": [
     {
-      "title": "Kingpin/Gallery",
+      "title": "Enforcer/Gallery",
       "score": 3,
-      "pageid": 62912,
-      "latest_revid": 645981,
-      "latest_timestamp": "2026-09-07T23:58:11Z",
-      "wikitext_excerpt": "{{Tabs|Gallery}}\n\n==Upgrade Icons==\n{{UpgradeIconsDouble\n|t1 = [[File:Kingpin1.png|125px]]\n|t2 = [[File:Kingpin2.png|125px]]\n|t3 = [[File:Kingpin3.png|125px]]\n|t4 = [[File:Kingpin4A.png|125px]]\n|t5 = [[File:Kingpin5A.png|125px]]\n|t6 = [[File:Kingpin6A.png|125px]]\n|b4 = [[File:Kingpin4B.png|125px]]\n|b5 = [[File:Kingpin5B.png|125px]]\n|b6 = [[File:Kingpin6B.png|125px]]\n|Ability = [[File:KingpinBounty.png|150px]]\n}}\n\n==Unit Icons==\n{{UpgradeIcons\n|N1 = Lackey\n|[[File:LackeyIcon.png|150px]]\n|N2 = Money Runner\n|[[File:MoneyRunnerIcon.png|150px]]\n|N3 = Bouncer\n|[[File:BouncerIcon.png|150px]]\n|N4 = Contractor\n|[[File:ContractorIcon.png|150px]]\n}}\n\n\n==Skin Upgrades==\nThe '''Kingpin''' only has the Default skin.\n{{SkinGalleryDouble\n|Title1 = Default\n|Icon1 = [[File:DefaultKingpinIconIG.png|128px]]\n|TImage1 = [[File:DefaultKingpin0.png|200px]]\n|TDesc1 = Pale skin, black hair, white shirt, black coat, black glove, black pants, golden watch and black shoes.\n\nWields a Luger P08 to attack enemies.\n|TImage2 = [[File:DefaultKingpin1.png|200px]]\n|TDesc2 = Black fedora and left glove.\n\nTie is now red.\n|TImage3 = [[File:DefaultKingpin2.png|200px]]\n|TDesc3 = Grey buttoned vest underneath coat.\n\nShoes now have grey laces.\n\nNow wields a Uzi submachine gun.\n|TImage4 = [[File:DefaultKingpin3.png|200px]]\n|TDesc4 = Fedora stripe is now red.\n|TImage5 = [[File:DefaultKingpin4A.png|200px]]\n|TDesc5 = White fur around neck.\n\nFedora and vest are now white with gold buttons, gloves are now maroon, shoes are now brown with gold laces and coat and pants are now dark brown.\n\nFace is now smiling.\n\nNow wields a Desert Eagle.\n|TImage6 = [[File:DefaultKingpin5A.png|200px]]\n|TDesc6 = White fur below coat.\n\nGloves and pants are now red and shoes are now slightly maroon.\n|TImage7 = [[File:DefaultKingpin6A.png|200px]]\n|TDesc7 = Gold monocle, red details on sleeves.\n\nCoat, shirt and pants now have golden accents.\n\nNow dual wields golden Desert Eagles.\n|BImage5 = [[File:DefaultKingpin4B.png|200px]]\n|BDesc5 =Maroon fur around neck.\n\nShirt now has long sleeves and tie is now black again, watch is now silver.\n\nFace is now smirking.\n\nNow wields an AK-47.\n|BImage6 = [[File:DefaultKingpin5B.png|200px]]\n|BDesc6 = Coat replaced with tattered black trench coat.\n\nVest and pants are now maroon.\n|BImage7 = [[File:DefaultKingpin6B.png|200px]]\n|BDesc7 = Black head piece fedora.\n\nGloves are now maroon, sleeves have stripes on them and pants are meant to have red stripes on them, though the pants are hidden by the previous pants.\n\nNow dual wields golden AK-47s.\n}}\n\n{| class=\"article-table borderless-mobile align-center pad-5\" style=\"width:200px; margin: 1em auto;\"\n![[Lackey]]\n![[Money Runner]]\n![[Bouncer]]\n![[Contractor]]\n|-\n|[[File:DefaultLackey.png|175px]]\n|[[File:DefaultMoneyRunner.png|175px]]\n|[[File:DefaultBouncer.png|175px]]\n|[[File:DefaultContractor.png|175px]]\n|}\n\n==Weapons==\n{{GalleryHeader|Default}}\n\n{{WeaponTable|Current\n|0-1|[[File:DefaultKingpinLuger.png|thumb|center|150px|Luger P08]]\n|2-3|[[File:DefaultKingpinUzi.png|thumb|center|150px|Uzi]]\n|4A-5A|[[File:DefaultKingpinDeagle1.png|thumb|center|150px|Desert Eagle]]\n|6A|[[File:DefaultKingpinDeagle2.png|thumb|center|150px|Desert Eagle]]\n|4B-5B|[[File:DefaultKingpinAK1.png|thumb|center|150px|AK-47]]\n|6B|[[File:DefaultKingpinAK2.png|thumb|center|150px|AK-47]]\n}}\n\n==Faces==\n<gallery captionalign=\"center\">\nDefaultKingpinFace1.png|Current Level 0-3 Default Face<br>(17 July 2026 – Present)\nDefaultKingpinFace.png|Current Level 4A-6A Default Face<br>(17 July 2026 – Present)\nDefaultKingpinFace2.png|Current Level 4B-6B Default Face<br>(17 July 2026 – Present)\n</gallery>\n\n==Sounds==\n{{Sounds|Open = Yes|\n{{pe|{| class{{=}}\"article-table align-center\" style{{=}}\"width:750px; margin:0 auto;\"\n|-\n! style{{=}}\"width:30%;\" |Sound\n! style{{=}}\"width:70%;\" |Description\n|-\n! colspan{{=}}\"2\" |Default\n|-\n|[[File:KingpinLugerFire.ogg]]\n|Level 0-1 firing sound\n|-\n|[[File:KingpinUziFire.ogg]]\n|Level 2-3 firing sound\n|-\n|[[File:KingpinDeagleFire.ogg]]\n|L"
+      "pageid": 48477,
+      "latest_revid": 645989,
+      "latest_timestamp": "2026-09-08T00:00:01Z",
+      "wikitext_excerpt": "{{Tabs|Gallery|History=No}}\n==Upgrade Icons==\n{{UpgradeIconsDouble\n|t1 = [[File:EnforcerUpgrade1.png|100px]]\n|t2 = [[File:EnforcerUpgrade2.png|100px]]\n|t3 = [[File:EnforcerUpgrade3.png|100px]]\n|t4 = [[File:EnforcerUpgrade4.png|100px]]\n|t5 = [[File:EnforcerUpgrade5A.png|100px]]\n|t6 = [[File:EnforcerUpgrade6A.png|100px]]\n|t7 = [[File:EnforcerUpgrade7A.png|100px]]\n|b5 = [[File:EnforcerUpgrade5B.png|100px]]\n|b6 = [[File:EnforcerUpgrade6B.png|100px]]\n|b7 = [[File:EnforcerUpgrade7B.png|100px]]\n|Ability = [[File:HelicopterRepositionAbility.png|150px]]\n|Ability2 = [[File:SWATVanAbility.png|150px]]\n}}\n\n==Skin Upgrades==\nThe '''Enforcer''' has two skins. This includes:\n#The Default skin.\n#One skin that can be unlocked from [[Crates]].\n{{Tabber\n|Default\n|{{SkinGalleryDouble\n|Title1 = Default\n|Icon1 = [[File:DefaultEnforcerIconIG.png|128px]]\n|TImage1 = [[File:DefaultEnforcer0.png|200px]]\n|TDesc1 = Dark skin, blue officer cap with yellow logo, black headset, black \"''T.D.S''\" text tattooed on left arm, blue shirt, grey watch, grey belt, dark cyan pants and black shoes.\n\nWields a Remington 870 Magpul to attack enemies.\n|TImage2 = [[File:DefaultEnforcer1.png|200px]]\n|TDesc2 = Brown gloves and black tactical vest. \n|TImage3 = [[File:DefaultEnforcer2.png|200px]]\n|TDesc3 = Black knee-pads and black pouches with shotgun shells, grenades, scissors and radios on vest.\n\nSleeves are now longer.\n\nNow can throw a flashbang.\n|TImage4 = [[File:DefaultEnforcer3.png|200px]]\n|TDesc4 = Black balaclava, shoulder-pads with shotgun shells, grey undershirt and black backpack.\n|TImage5 = [[File:DefaultEnforcer4.png|200px]]\n|TDesc5 = Black greave-pads and second set of headphones.\n\nImproved vest with a logo on it.\n\nOfficer cap and balaclava are now replaced with black gas mask. \n|TImage6 = [[File:DefaultEnforcer5A.png|200px]]\n|TDesc6 = Red beret and shirt and pants are now red.\n\nGas mask now has a cartridge, backpack now has an antennae and is bigger.\n\nLighter vest, knee-pads and headset.\n\nNow wields an Origin-12.\n\nNow fires flashbangs from a grenade launcher in its Origin-12.\n|TImage7 = [[File:DefaultEnforcer6A.png|200px]]\n|TDesc7 = Red pauldron on left arm and undershirt is now darker.\n\nOrigin-12 now has a drum magazine.\n|TImage8 = [[File:DefaultEnforcer7A.png|200px]]\n|TDesc8 = Dark grey and khaki jacket.\n\nLogo now has wings and pants are now brown.\n\nNow has a different backpack.\n\nGas mask is now replaced with skull gas mask with six red dots on each eyes and cartridges.\n|BImage6 = [[File:DefaultEnforcer5B.png|200px]]\n|BDesc6 = Black elbow-pads and better backpack.\n\nGas mask now has six yellow dots on each eyes and white respirator and bulkier vest.\n\nNow wields a DP-12.\n\nNow throws grenade launcher shells instead of flashbang.\n|BImage7 = [[File:DefaultEnforcer6B.png|200px]]\n|BDesc7 = Bulkier shoulder-pads.\n|BImage8 = [[File:DefaultEnforcer7B.png|200px]]\n|BDesc8 = Black riot helmet with metal visor, different gas mask, even bulkier vest, hammer on back, metal plates on shoulders and riot shield.\n\nClothes are now blue camo.\n\nElbow-pads replaced with shotgun shell straps.\n}}\n\n{{pe|\n{| class{{=}}\"article-table borderless-mobile align-center pad-5\" style{{=}}\"width:200px; margin: 1em auto;\"\n!Helicopter\n![[Swat Van]]\n![[Swat Van Gunner]]\n|-\n|[[File:EnforcerHelicopter.png|175px]]\n|[[File:SwatVan.png|175px]]\n|[[File:SwatVanGunner.png|175px]]\n|}}}\n|Abyssal\n|The {{Color|Beach|Abyssal}} skin can be obtained from the [[Beach Crate|{{Color|Beach|Beach Crate}}]].\n{{SkinGalleryDouble\n|Title1 = Abyssal\n|Icon1 = [[File:AbyssalEnforcerIconIG.png|128px]]\n|TImage1 = [[File:AbyssalEnforcer0.png|200px]]\n|TDesc1 = Yellow scuba diving suit with with a helmet, gloves, shoes and an oxygen tank.\n\nWields a shotgun to attack enemies.\n|TImage2 = [[File:AbyssalEnforcer1.png|200px]]\n|TDesc2 = Grey armbands.\n|TImage3 = [[File:AbyssalEnforcer2.png|200px]]\n|TDesc3 = Now has two oxygen tanks.\n\nNow can throw a flashbang.\n|TImage4 = [[File:AbyssalEnforcer3.png|200px]]\n|TDesc4 = Brown shoulder-pads "
     },
     {
-      "title": "Kingpin/History",
-      "score": 3,
-      "pageid": 63959,
-      "latest_revid": 618610,
-      "latest_timestamp": "2026-08-18T21:38:32Z",
-      "wikitext_excerpt": "{{Tabs|Regular=Crook Boss|Perk=Golden Crook Boss|Evolved=Kingpin}}\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Enforcer Tower Update (14 August 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:DefaultKingpin0.png|100px]]\n|Unlock Cost = {{Coins|15,000}} & {{Gem|5,500}}\n|Category = Evolved\n|Role = Offense\n|Cost = {{Money|3,600}}\n|Footprint = 1.5\n|Sell Price = {{Money|1,200}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]24\n|Damage Type = Pierce<br/>Spread\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1.1\n|Hidden = {{Attr|Hidden|Level 0+}} (Units only)\n|Range = [[File:Range Icon.png|20px|Range]]17.5\n|Lead = {{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])\n|Placement = [File:PlacementLimit.png|20px|Placement Limit]]4\n|Fly = {{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)\n}}\n\n==Upgrades==\n{{Upgrade\n|Level = Level 1\n|Evolution Level = 0\n|Upgrade Title = Hat Trick\n|Cost = {{Money|1,400}}\n|Image = [[File:Kingpin1.png|100px]]\n|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,666}}\n}}\n{{Upgrade\n|Level = Level 2\n|Evolution Level = 0\n|Upgrade Title = Mafia Expansion\n|Cost = {{Money|4,000}}\n|Image = [[File:Kingpin2.png|100px]]\n|Information = 0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Unit Queue\n\n\nSell Price changes to {{Money|3,000}}\n}}\n{{Upgrade\n|Level = Level 3\n|Evolution Level = 0\n|Upgrade Title = High Roller\n|Cost = {{Money|6,000}}\n|Image = [[File:Kingpin3.png|100px]]\n|Information = +Flying Detection {{Flying|Flying Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}\n\n\nSell Price changes to {{Money|5,000}}\n}}\n{{PathTabber\n|{{Upgrade\n|Level = Level 4\n|Evolution Level = 0\n|Upgrade Title = LV. 10 Bounty Hunter\n|Cost = {{Money|7,250}}\n|Image = [[File:Kingpin4A.png|100px]]\n|Information = +Lead Detection {{Lead|Lead Detection}}\n\n0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+148 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.\n\n•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]\n\n•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]\n\n{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}\n\n\nSell Price changes to {{Money|7,416}}}}\n{{Upgrade\n|Level = Level 5\n|Evolution Level = 5\n|Upgrade Title = LV. 50 Flashy Business\n|Cost = {{Money|16,500}}\n|Image = [[File:Kingpin5A.png|100px]]\n|Information = +135 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]\n\n{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]\n\n+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20p"
+      "title": "Firerate Buff",
+      "score": 2,
+      "pageid": 49630,
+      "latest_revid": 623683,
+      "latest_timestamp": "2026-08-23T15:58:43Z",
+      "wikitext_excerpt": "{{BuffInfobox\n|name = Firerate Buff\n|image = Cooldown Buff.png\n|type = Buff\n|display = Tower\n}}\n\n==Description==\nThe '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.\n\n==Mechanics==\nCurrently, the '''Firerate Buff''' is calculated as:\n::<big>'''Original Firerate ÷ (1 + Firerate Buff)'''</big>\n:::where '''Firerate Buff''' is the buff supplied is in decimal form (for example, 10% is 0.1).\n\nWhile it may look like the firerate of a tower with the '''Firerate Buff''' is rounded up or down to the third decimal, this is only visual. \n\nPrior to the [[v2.0.0]] update, the firerate of a tower with the [[Firerate Bug]] was calculated as:\n::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) ÷ (1 + Firerate Buff) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n:::where ''Bugged Firerate'' was the firerate with the [[Firerate Bug]].\n\nPrior to the [[V1.1.0|Entity System Update]], the '''Firerate Buff''' was calculated as:\n\n::Without the [[Firerate Bug]]:\n:::<big>'''Original Firerate × (1-Firerate Buff)'''</big>\n::With the [[Firerate Bug]]:\n:::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 - Firerate Buff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n\nThe following towers are either partially or fully not affected by the '''Firerate Buff''':\n*All [[units]].\n*Ability cooldowns.\n*Units spawnrates.\n*The [[Commander]]; the [[Commander]] cannot boost the firerate of other [[Commander]]s.\n*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.\n**Their main firerate can still be decreased.\n*Tick of the [[Pyromancer]], [[Toxic Gunner]], [[Cryomancer]], [[Slasher]] and [[Swarmer]].\n**The tick of the [[Accelerator]] can still be decreased.\n*The rev-up of the [[Minigunner]].\n*Charge-up and cooldown of the [[Accelerator]].\n**The cooldown of burst towers like the [[Soldier]] or [[Toxic Gunner]] also cannot be decreased.\n*The [[Executioner]]; the firerate will not be decreased if the axe takes too long to return.\n*The [[Archer]]; the '''Firerate Buff''' can decrease the time it takes for it to reload its bow, but it cannot decrease the time it takes it to aim at enemies.\n\nThe pump time for the [[Enforcer]] is also affected by this buff.\n\n==Applied By==\nThe following towers have the '''Firerate Buff''':\n\n*[[Gladiator]] (''Warrior's Call'' ability)\n\nThe following towers or consumables can apply the '''Firerate Buff''' to other towers:\n\n*[[Commander]] (Passive and ''Call to Arms'' ability)\n*[[Medic]] (Passive to assigned towers)\n*[[War Machine]] (Passive)\n*[[Cooldown Flag]] (Passive)\n*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)\n*[[Easter Egg]] (Passive for 20 seconds)\nThe following event enemies can apply the '''Firerate Buff''' to towers:\n\n* [[Null Guardian]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])\n* [[Null Guardian Clone]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])\nThe following event features can apply the '''Firerate Buff''' to towers:\n\n* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Attribute Icon}}\n<gallery>\nFaster Firerate.png|First Icon (14 June 2019 – 29 October 2020)\n</gallery>\n}}\n\n==Update History==\n*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]\n**'''Firerate Buff''' added.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]\n**Icon changed.\n**Now displayed on the tower rather than in the upgrade menu.\n*'''12 March 2022''' - [[v1.1.0]]\n**'''Firerate Buff''' calculation updated. \n*'''29 March 2024''' - [[v1.17.0]]\n**{{Bug}} Firerate buff indicators are sunk into the ground.\n*'''10 May 2024''' - [[v1.19.2]]\n**{{Bugfix}} Firerate buff indicators are no longer sunk into the ground.\n*'''12 November 2025''' - [[v1.80.0]]\n**{{Bug}} Firerate buff indicator stays active forever after a tower sold.\n\n\n\n{{BuffsNavBox}}"
+    },
+    {
+      "title": "Firework Buff",
+      "score": 1,
+      "pageid": 49634,
+      "latest_revid": 501084,
+      "latest_timestamp": "2026-06-19T18:19:46Z",
+      "wikitext_excerpt": "{{BuffInfobox\n|name = Firework buff\n|image = FireworkBuffIcon.png\n|type = Buff\n|display = Upgrade Menu\n}}\n\n==Description==\nThe '''Firework Buff''' is a buff that gives the tower a chance to fire a firework at an enemy. It appears in the tower's upgrade menu, specifically the top left part of the preview.\n\n==Mechanics==\nThis buff is activated upon enemy receiving damage from a tower with their main attack, in most cases this will give it a chance to activate it, though some towers can never activate it. There is a chance that the buff will activate itself, which is determined using the ''Firework Shot Chance Cap'' value from the '''Firework Buff''' giver and the ''Firerate'' statistic of the tower the firework is fired from. A tower has a chance to create a firework for each enemy hit, meaning that towers which can hit multiple enemies, like the [[Hallow Punk]] or [[Electroshocker]], are capable of generating multiple fireworks at once. \n\nThe chance is calculated as:\n\n<math>\\frac{\\text{Firework Shot Chance Cap}}{1+2.718^{\\left(-0.5\\times\\left(Firerate-6\\right)\\right)}}</math>\n\nwhere ''Firework Shot Chance Cap'' is taken from the [[Firework Technician]], and ''Firerate'' is taken from the tower that fires out the firework. Firerate in this case is the statistic displayed with the hour glass to the right of the tower. In most cases, this is the firerate statistic (time between each shot), though in some cases it may be the burst cooldown (time between bursts), like the [[Elementalist]], the spawnrate, like the [[Military Base]] or just unrelated to any statistic it has, such as the [[Trapper]].\n\nMultiple towers are not affected by this buff, while some can create multiple fireworks. A full list of towers affected fully, partially or that are unaffected can be found below. Only accounts for the main attack and units.\n{{FireworkBuff}}\n\n==Applied By==\nThe following towers can apply the '''Firework Buff''' to other towers:\n*[[Firework Technician]] (Passive)\n\n==Update History==\n*'''31 December 2024''' - [[v1.47.0|v1.47.5c]]\n**'''Firework Buff''' added.\n*'''15 January 2025''' - [[v1.49.0]]\n**'''Firework Buff''' is now triggered by burst towers more consistently.\n\n==Notes==\n<references/>\n\n\n\n{{BuffsNavBox}}"
     },
     {
       "title": "Freezer",
@@ -1901,6 +1914,14 @@
       "latest_revid": 618623,
       "latest_timestamp": "2026-08-18T21:39:29Z",
       "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Story Mode Update (31 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:Newranger.png|100px]]\n|Unlock Cost = {{Coins|12,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|4,500}}\n|Footprint = 1.5\n|Sell Price = {{Money|1,500}}\n|Placement Type = Cliff\n|Damage = [[File:Damage Icon.png|20px|Damage]]100\n|Damage Type = Single<br/>[[Splash_Damage|Splash]] (Level 4)\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]6\n|Hidden = N/A\n|Range = [[File:Range Icon.png|20px|Range]]70\n|Lead = {{Lead|Lead Detection}}Level 2+\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|Fly = {{Flying|Flying Detection}}Level 0+\n|PVP Cost = {{Money|2,000}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|666}}\n|PVP Placement Type = Cliff\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]40\n|PVP Damage Type = Single<br/>[[Splash_Damage|Splash]] (Level 4)\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]3\n|PVP Hidden = N/A\n|PVP Range = [[File:Range Icon.png|20px|Range]]50\n|PVP Lead = {{Lead|Lead Detection}}Level 0+\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|PVP Fly = {{Flying|Flying Detection}}Level 0+\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Money|15,750}}|Image =[[File:Outlaw4.png|100px]]|Information = +245 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|9,083}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Experimental Weapon of Destruction|Cost = {{Money|25,000}}|Image = [[File:Outlaw5.png|100px]]|Information = +445 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Explosive Impact\n\n•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Max Hits\n\n\nSell Price changes to {{Money|17,416}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|650}}|Image = [[File:Common1Image.png|100px]]|Information = 3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|883}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|2,400}}|Image = [[File:Outlaw2.png|100px]]|Information = +34 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|1,683}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Money|8,500}}|Image =[[File:Outlaw4.png|100px]]|Information = +74 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,516}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Experimental Weapon of Destruction|Cost = {{Money|17,000}}|Image = [[File:Outlaw5.png|100px]]|Information = +126 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Explosive Impact\n\n•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRang"
+    },
+    {
+      "title": "Stun Immunity",
+      "score": 1,
+      "pageid": 42530,
+      "latest_revid": 639492,
+      "latest_timestamp": "2026-09-03T12:16:30Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Energy.png\n|type = Immunity\n|variants = Regular<br/>{{Attr|Boss}}\n|immunities = Regular:\n*{{Stun}}Stun\n*{{Knockback}}Knockback\n{{Boss}}[[Boss]]:\n*{{Stun}}Stun\n*{{Stun|Partial Stun Slowdown}}Partial Stun Slowdown\n*{{Knockback}}Knockback\nTowers:\n*{{Stun|Enemy Stuns}}Enemy Stuns\n*Enemy Targeting\n|sandbox = No\n|tag = {{AttrTag|second|Energy.png|No Stun}}\n}}\n==Description==\n'''Stun Immunity''' (referred to as \"''No Stun''\" on its tag) is an immunity that prevents the enemy from being stunned and knocked back. For towers, it fully or partially prevents them from being stunned and targeted by enemies.\n\n==Mechanics==\n'''Stun Immunity''' makes it so that any enemy with it cannot be stunned/shocked by towers. They will instead be slowed down by 40% for the stun duration. The '''Stun Immunity''' also grants immunity to being knocked back.\n\nThe following towers/consumables become unable to apply these effects or have them be weakened to '''Stun Immune''' enemies:\n*[[Electroshocker]] (Shock)\n*[[Trapper]] (Stun)\n*[[Warden]] (Shock)\n*[[DJ Booth]] (Knockback)\n*[[Tesla]] (Shock)\n*[[Mercenary Base]] (Knockback)\n*[[Brawler]] (Knockback)\n*[[Commando]] (Stun)\n*[[Archer]] (Shock)\n*[[Hallow Punk]] (Knockback)\n*[[Elementalist]] (Knockback)\n*[[Warlock]] (Knockback)\n*[[Flash Bang]] (Stun)\n*[[Ducky Squad]] ([[Shock Ducky]])\n\nAll [[Boss]] enemies have this immunity, as part of being a [[Boss]] enemy. The only difference between the two is that the slowdown effect is weaker on [[Boss]] enemies, as it is 20%. If a [[Boss]] enemy also has the [[Stun Immunity]], it will only be slowed down by 10% instead.\n\n===Towers===\n'''Stun Immunity''' makes towers unaffected by stuns from enemies and, in multiple cases, also prevents them from being targeted from such attacks. The immunity to being attacked also applies to some enemy attacks which normally would actually affect them, that being freeze and debuffs. For example, the [[Unstable Ice]] from the [[Operation I.C.E Event]] will not jump at any tower with '''Stun Immunity''' visible in their upgrade menu, even though it can actually freeze them. Similarly, enemies like the [[Clown]] will avoid applying debuffs to towers with '''Stun Immunity''', even if they can be debuffed. Some towers, such as cliff units, also have '''Stun Immunity''', though it is not displayed in their upgrade menu and it is far less effective at preventing them from being targeted by enemy abilities.\n\n==Enemy List==\nThe following enemies have '''Stun Immunity''':\n{{Scroll|text=\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Hazardous]]\n*[[Fallen]] ([[Hardcore Mode|Hardcore]] only)\n*[[Molten Golem]]\n*[[Giant Boss]]\n*[[Amalgamation]] ([[Polluted Wasteland II]])\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Giant Skeleton]]\n*[[Cobalt Guard]]\n*[[Failed Experiment]]\n*[[Mega Slow]]\n*[[Fallen Giant]]\n*[[Fallen Reaper]]\n*[[Fallen Necromancer]]\n*[[Fallen Soul (Legacy)|Fallen Soul]] (Legacy version)\n*[[Glitch]]\n*[[Fallen Titan]]\n*[[Fallen Shield]]\n*[[Fallen Summoner]] ([[Fallen Mode|Fallen]])\n*[[Frost Invader]] ([[Frost Mode|Frost]])\n*[[Bulwark]]\n*[[Tanker]]\n*[[Templar]] (Legacy version)\n*[[Warden (Legacy Enemy)|Warden]]\n*[[Slow King (Legacy)|Slow King]] (Legacy version)\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Summoner Boss]]\n*[[Necromancer King]]\n*[[Conjurer]]\n*[[Reaper]]\n*[[Demon]]\n*[[Error]]\n*[[Circuit (Hardcore)|Circuit]] ([[Hardcore Mode|Hardcore]])\n*[[Circuit (Polluted Wasteland II)|Circuit]] ([[Polluted Wasteland II]])\n*[[Molten Titan (Legacy)|Molten Titan]] (Legacy version)\n*[[Fallen Hero]]\n*[[Fallen Hero (Legacy)|Fallen Hero]] (Legacy version)\n*[[Super Toxic]]\n*[[Mimic Umbra]]\n*[[Abomination]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Fallen Honor Guard]]\n*[[Packed Ice]]\n*[[Snow Minion]]\n*[[Blizzard Wizard]]\n*[[Frost Hunter]]\n*[[Frostbane]]\n*[[Frost Ravager]]\n*[[Shivergeist]]\n*[[Frost Hero]]\n*[[Deep Freeze]]\n*[[Mega Frost Mystery]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Nuclear Guardia"
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",
