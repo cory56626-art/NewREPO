@@ -1,1021 +1,531 @@
-{{Tabs}}
-{{SameName|Engineer|'''Tower''' • [[Engineer (Narrator)|Narrator]]}}
+{{Tabs|Regular=Crook Boss|Perk=Golden Crook Boss|Evolved=Kingpin}}
+{{For|other uses of [[King (Disambiguation)|King]]}}
 {{TowerInfobox
-|title = Engineer
-|image-static = EngineerIcon.png
-|image-dynamic = EngineerDynamic.png
-|unlockcost = {{Gem|4,500}} or {{Robux|1,267}}
-|levelrequirement = {{Level|50}}
-|basecost = {{Money|600}}
-|basesellingprice = {{Money|200}}
-|role = Defense
+|image-static = DefaultKingpin0.png
+|image-dynamic1 = DefaultKingpin0.png
+|pseudoxd = 1
+|towercost = {{Coins|15,000}} & {{Gem|5,500}}
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)
-|basedamage = [[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])
-|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 6)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])
-|baserange = [[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)
-|hidden_detection = {{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)
-|lead_detection = {{Attr|Lead|Level 0+}} (Tower & Splash only)
-|flying_detection = {{Attr|Fly|Level 0+}} (Tower only)<ref name="fd">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>
-|immune = Stun (Level 5+, units with shield only)<br/>Debuff (Units only)
+|role = Offense
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
+|basecost = {{Money|3,600}}
+|basesellingprice = {{Money|1,200}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]24
+|damagetype = Single
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.1
+|baserange = [[File:Range Icon.png|20px|Range]]17.5
+|hidden_detection = {{Attr|Hidden|Level 0+}} (Units only)
+|lead_detection = {{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])
+|flying_detection = {{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)
+|immune = None
 |footprint = 1.5
-|pvp_basecost = {{Money|700}}
-|pvp_basesellingprice = {{Money|233}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])
-|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 6)
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)
-|pvp_hidden_detection = {{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)
-|pvp_lead_detection = {{Attr|Lead|Level 0+}} (Tower & Splash only)
-|pvp_flying_detection = {{Attr|Fly|Level 2+}} (Tower only)<ref name="fd"/>
-|pvp_immune = Stun (Level 4+, units with shield only)<br/>Debuff (Units only)
-|pvp_footprint = 1.5
-|tooltip-1 = A well-rounded tower that takes time to ramp up and build its turrets but can create a strong defensive line with great coverage once its turrets are setup.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]], [[Lead (Attribute)|lead]], and [[flying]] enemies.
+|evolved_from = [[Crook Boss]]
+|evolution_levels = 20
+|base_exp = 75
+|growth_rate = 1.075
+|skip_cost = 1,199
 }}
 {{QuoteContainer|
-{{QuoteBox|Sentry comin' up! A Jack of All Trades tower that builds up scrap and deploys powerful sentry turrets.|Store Description}}
-{{QuoteBox|Sentry comin' up!|Former Store Description}}
+{{QuoteBox|Looks like they'll be... sleepin' with the fishes! A master of the criminal underworld, Kingpin can call in hit orders and deploy a variety of henchmen to do his bidding.|Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Engineer''' is a hardcore tower that attacks enemies with a rebar launcher and can build various [[Sentry (Unit)|sentries]] within its range to assist with defense. It can be purchased from the store for {{Gem|4,500}} and has a level requirement of {{Level|50}}. The '''Engineer''' is also available through a gamepass for {{Robux|1,267}}.
+The '''Kingpin''', internally referred to as '''EvolvedKingpin''', is the [[Tower Evolution|evolved]] version of the [[Crook Boss]], unlocked by reaching Level 20 on the [[Crook Boss]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|5,500}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.
 
-The '''Engineer''' has three range rings: the white ring is the attack range of the '''Engineer''', the yellow ring is the placement range for sentries, and the red ring is the deadzone range in which the '''Engineer''' cannot fire nor build sentries. The '''Engineer''' collects scrap when damaging enemies, with the amount of scrap obtained per shot being equivalent to the damage dealt to an enemy. The scrap fills up its ''Scrap Meter'', which can be seen above its tower icon in the upgrade box or when the player hovers over it. When its ''Scrap Meter'' is full, the '''Engineer''' will briefly stop attacking to build a sentry. Within upgrades, the '''Engineer''' will build stronger sentries, however, they will require more scrap to be built. If the ''Scrap Meter'' is filled up but the maximum number of sentries are placed, the '''Engineer''' will wait until a sentry is despawned or destroyed before building another sentry. There is a limit to how many sentries can be built.
+The '''Kingpin''' itself is a single target tower with no major gimmicks in the beginning, even lacking the [[Crook Boss]]' summon animation for each unit. It does however have up to three unit queues, all of which summon in can summon a different unit. There are four available options:
+*[[Lackey]], a simple single target unit with with decent health and DPS. The unit has hidden detection. It is unlocked from Level 0.
+*[[Money Runner]], the only unit that cannot be used offensively outside of collision damage that upon death generates a set amount of cash. It is unlocked from Level 0.
+*[[Bouncer]] is a high health melee unit that attacks enemies with a bat. The unit has both hidden and lead detections. It is unlocked from Level 4B.
+*[[Contractor]] is a high range unit that deals a lot of damage at a slow speed. It has all three detections. It is unlocked from Level 6B.
 
-Sentries built by the '''Engineer''' are considered units, though they cannot move and can only be placed on the ground in the yellow range ring. They do have health however, which drains over time or decreases when hit by an enemy ability that deals damage, limiting the amount of time they can stay alive. The amount left before a sentry despawns can be seen with the duration bar above a sentry.
+While the bottom path has two units unique to itself, the top path instead gains the ''Bounty'' ability which lets the '''Kingpin''' mark an enemy in its range. While doing so, it will stop attacking enemies for 2 seconds. This marked enemy will generate a specific percentage of the enemy's total cash reward once the enemy has been killed, though the reward cannot exceed a specific value. Both the reward percentage and the reward cap increase with upgrades.
 
-The '''Engineer''' is considered an all-round tower due to its cheap placement cost, decent DPS on early levels and very expensive upgrades with extremely high DPS later on.
-
-The '''Engineer''' has a placement limit of six per player. This is reduced to five in [[PVP]] mode.
+The '''Kingpin''' is primarily a mid to late-game tower, with top path focusing on income while bottom path focuses on DPS. It has a placement limit of 4.
 
 ==Upgrades==
-{{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Precise Calculations|Cost = {{Money|325}}|Image = [[File:Engineer_Level_1.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+{{Upgrade
+|Level = Level 1
+|Evolution Level = 0
+|Upgrade Title = Hat Trick
+|Cost = {{Money|1,400}}
+|Image = [[File:Kingpin1.png|100px]]
+|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
 
-1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|308}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Makeshift Radar|Cost = {{Money|900}}|Image = [[File:Radar.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]
-
-•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•20 Range [[File:Range Icon.png|20px|Range]]
-
-•400 Health [[File:HealthIcon.png|20px|Health]]
-
-•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•32 Scrap Meter
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
+1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|608}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Auto Converter|Cost = {{Money|2,077}}|Image = [[File:Engi3.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|1,666}}
+}}
+{{Upgrade
+|Level = Level 2
+|Evolution Level = 0
+|Upgrade Title = Mafia Expansion
+|Cost = {{Money|4,000}}
+|Image = [[File:Kingpin2.png|100px]]
+|Information = 0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-+1 Max Units
+-17 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-
-Sell Price changes to {{Money|1,300}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Heavy Construction|Cost = {{Money|6,250}}|Image = [[File:Engineer Level 5.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
--1 Build Range [[File:BuildRange.png|20px|Build Range]]
-
-1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]
-
-•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•22 Range [[File:Range Icon.png|20px|Range]]
-
-•750 Health [[File:HealthIcon.png|20px|Health]]
-
-•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•150 Scrap Meter
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
++1 Unit Queue
 
 
-Sell Price changes to {{Money|3,384}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Improved Blueprints|Cost = {{Money|12,500}}|Image = [[File:Engi4.png|100px]]|Information = +50 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|3,000}}
+}}
+{{Upgrade
+|Level = Level 3
+|Evolution Level = 0
+|Upgrade Title = High Roller
+|Cost = {{Money|6,000}}
+|Image = [[File:Kingpin3.png|100px]]
+|Information = +Flying Detection {{Flying|Flying Detection}}
 
-0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+Sentry Shield
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
 
-+1 Max Units
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
 
 
-Sell Price changes to {{Money|7,550}}}}
-{{Upgrade|Level = Level 6|Upgrade Title = Illegal Gun Parts|Cost = {{Money|32,500}}|Image = [[File:Engineerupgrade6.jpg|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|5,000}}
+}}
+{{PathTabber
+|{{Upgrade
+|Level = Level 4
+|Evolution Level = 0
+|Upgrade Title = LV. 10 Bounty Hunter
+|Cost = {{Money|7,250}}
+|Image = [[File:Kingpin4A.png|100px]]
+|Information = +Lead Detection {{Lead|Lead Detection}}
+
+0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++148 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.
+
+•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
+
+•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]
+
+•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]
+
+{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}
+
+
+Sell Price changes to {{Money|7,416}}}}
+{{Upgrade
+|Level = Level 5
+|Evolution Level = 5
+|Upgrade Title = LV. 50 Flashy Business
+|Cost = {{Money|16,500}}
+|Image = [[File:Kingpin5A.png|100px]]
+|Information = +135 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
+
+{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]
+
++3 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++4 Range [[File:Range_Icon.png|20px|Range]]
+
+0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]
+
+30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
+
+
+Sell Price changes to {{Money|12,916}}}}
+{{Upgrade
+|Level = Level 6
+|Evolution Level = 15
+|Upgrade Title = LV. 999 BOSS
+|Cost = {{Money|38,500}}
+|Image = [[File:Kingpin6A.png|100px]]
+|Information = 1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 +1.5 Range [[File:Range Icon.png|20px|Range]]
 
--1 Build Range [[File:BuildRange.png|20px|Build Range]]
+-70 Damage [[File:Damage Icon.png|20px|Damage]]
 
-0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
 
-+1 Max Units
+{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}
 
-{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]
 
-•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-•24 Range [[File:Range Icon.png|20px|Range]]
++1.5 Range [[File:Range_Icon.png|20px|Range]]
 
-•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]
+0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
 
-•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]
 
-•1,000 Health [[File:HealthIcon.png|20px|Health]]
+{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]
 
-•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•340 Scrap Meter
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
+27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
 
 
-Sell Price changes to {{Money|18,384}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Precise Calculations|Cost = {{Money|250}}|Image = [[File:Engineer_Level_1.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|316}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Makeshift Radar|Cost = {{Money|400}}|Image = [[File:Radar.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-+Flying Detection {{Flying|Flying Detection}}
-
-+1 Max Units
-
-
-Sell Price changes to {{Money|450}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Auto Converter|Cost = {{Money|1,800}}|Image = [[File:Engi3.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]
-
-•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•20 Range [[File:Range Icon.png|20px|Range]]
-
-•40 Health [[File:HealthIcon.png|20px|Health]]
-
-•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•32 Scrap Meter}}
-
-
-Sell Price changes to {{Money|1,050}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Improved Blueprints|Cost = {{Money|2,600}}|Image = [[File:Engi4.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+Sentry Shield
-
-Sell Price changes to {{Money|1,916}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Heavy Construction|Cost = {{Money|12,500}}|Image = [[File:Engineer_Level_5.png|100px]]|Information = 
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Max Units
-
-{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]
-
-•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•20 Range [[File:Range Icon.png|20px|Range]]
-
-•60 Health [[File:HealthIcon.png|20px|Health]]
-
-•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•120 Scrap Meter
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
-
-
-Sell Price changes to {{Money|5,750}}}}
-{{Upgrade|Level = Level 6|Upgrade Title = Illegal Gun Parts|Cost = {{Money|32,500}}|Image = [[File:Engineerupgrade6.jpg|100px]]|Information = 
-+18 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|25,750}}}}
+|{{Upgrade
+|Level = Level 4
+|Evolution Level = 0
+|Upgrade Title = Underworld Backup
+|Cost = {{Money|14,000}}
+|Image = [[File:Kingpin4B.png|100px]]
+|Information = 0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
--0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]
++5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++1 Unit Queue
 
-{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]
+{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]
 
-•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-•24 Range [[File:Range Icon.png|20px|Range]]
+•8 Range [[File:Range_Icon.png|20px|Range]]
 
-•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]
+•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
 
-•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]
 
-•250 Health [[File:HealthIcon.png|20px|Health]]
+•Hidden Detection {{Hidden|Hidden Detection}}
 
-•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+•Lead Detection {{Lead|Lead Detection}}}}
 
-•250 Scrap Meter
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]
 
-•Hidden Detection {{Hidden|Hidden Detection}}}}
++3 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++4 Range [[File:Range_Icon.png|20px|Range]]
+
+0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
 
 
-Sell Price changes to {{Money|14,916}}}}
+Sell Price changes to {{Money|9,666}}}}
+{{Upgrade
+|Level = Level 5
+|Evolution Level = 10
+|Upgrade Title = B.P. Operations
+|Cost = {{Money|32,500}}
+|Image = [[File:Kingpin5B.png|100px]]
+|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++17 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]
+
++1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++1.5 Range [[File:Range_Icon.png|20px|Range]]
+
+0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]
+
++10 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+0% > 10% Defense {{Defense}}
+
+45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
+
+
+Sell Price changes to {{Money|20,500}}}}
+{{Upgrade
+|Level = Level 6
+|Evolution Level = 20
+|Upgrade Title = Golden Syndicate
+|Cost = {{Money|64,000}}
+|Image = [[File:Kingpin6B.png|100px]]
+|Information = +Lead Detection {{Lead|Lead Detection}}
+
+0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++12 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]
+
+•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•35 Range [[File:Range_Icon.png|20px|Range]]
+
+•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]
+
+•Hidden Detection {{Hidden|Hidden Detection}}
+
+•Flying Detection {{Flying|Flying Detection}}
+
+•Lead Detection {{Lead|Lead Detection}}}}
+
+{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]
+
++1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++0.5 Range [[File:Range_Icon.png|20px|Range]]
+
+0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]
+
++5 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
++0.5 Range [[File:Range_Icon.png|20px|Range]]
+
+10% > 15% Defense {{Defense}}}}
+
+
+Sell Price changes to {{Money|41,833}}
+}}
+}}
+
+==Ability==
+{{Ability|Level Unlock = Level 4A|Cooldown Time= 120s Cooldown|Initial Cooldown Time = 40s Initial cooldown|Ability Title = Bounty|Image = [[File:KingpinBounty.png|100px]]|Information = Places a hit order on an enemy in range, making '''Kingpin''' stop attacking enemies for 2 seconds. When that enemy is killed, a bonus reward is given which is a specific percentage of the enemy's total cash reward. The reward from this ability cannot go above a specific limit.
 }}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
-
 {{neow|<nowiki>
 <var>
 $DPS$ = Damage / Firerate
-$MDPS$ = Splash Damage * Rocket Count / Rocket Firerate
-$SDPS$ = $DPS$ + $MDPS$
-$FNC-INDEX$ = Sentry Stats.Level
-$CDPS$ = DPS + Sentry Stats.DPS * Max Units
-$CE$ = Total Cost / Combined DPS
+$RDPS$ = Health / Spawn Time
+$RDPS2$ = Health * (Defense * 0.01 + 1) / Spawn Time
+$IPS$ = Cash on Death / Spawn Time
+$CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 600; 325; 900; 2077; 6250; 12500; 32500
-$PVP-COST$ = 700; 250; 400; 1800; 2600; 12500; 32500
-$FSE-DETECTION$ = 2; 0; 0
-$FSE-PVP-DETECTION$ = 2; 0; 2
-$FSE-UPGRADE$ = Precise Calculations; Makeshift Radar; Auto Converter; Heavy Construction; Improved Blueprints; Illegal Gun Parts
-$FSE-PVP-UPGRADE$ = Precise Calculations; Makeshift Radar; Auto Converter; Improved Blueprints; Heavy Construction; Illegal Gun Parts
-$FSE-UPGRADEICON$ = 4517035597; 149177741; 8998290803; 155526941; 31857714; 7852911857
-$FSE-PVP-UPGRADEICON$ = 4517035597; 149177741; 8998290803; 31857714; 155526941; 7852911857
-$FSE-META$ = Hardcore; File:EngineerIcon.png
-$DREF$ = <ref name="dps">Does not account for time taken to build Sentries.</ref>
-$CDREF$ = <ref name="cdps">Combined DPS is the total DPS of the tower itself and the max number of units at that Level.</ref>
-$CEREF$ = <ref name="ce">Uses combined DPS in the calculation.</ref>
-$SREF$ = <ref name="sentry">Sentries are not affected by all buffs and debuffs.</ref>
-$SDREF$ = <ref name="sentrydps">Assumes only one sentry is placed down and does not include '''Engineer''' DPS.<br/>DPS is calculated as Gun DPS + Splash DPS.</ref>
-$RREF$ = <ref name="ref">Rev-up time of 1.5 seconds is not considered into the DPS.</ref>
-$LREF$ = <ref name="lead">Through War Machine Sentry splash damage.</ref>
-$R$ = $FNC-RECURSION$
+$TE$ = $FNC-TOTAL-EXP$
+$EXP$ = {{#expr:floor(75 * 1.075^(Level - 1) * (Level > 0))}}
+$FNC-SCHEMA$ = N; N; N; N; A; A; A; B; B; B;
+$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
+$COST$ = 3600; 1400; 4000; 6000; 7250; 16500; 38500; 14000; 32500; 64000
+$FSE-DETECTION$ = ; 3; ; ; 3; 4; ; 3; 6;
+$FSE-UPGRADE$ = Hat Trick; Mafia Expansion; High Roller; LV. 10 Bounty Hunter; LV. 50 Flashy Business; LV. 999 BOSS; Underworld Backup; B.P. Operations; Golden Syndicate
+$FSE-UPGRADEICON$ = 115111916696325; 128115489998324; 72861050225989; 114668237754966; 132421103594393; 104949216258591; 95999047723463; 105993154736785; 119447258450364
+$FSE-META$ = Evolved; File:DefaultKingpin0.png
+$RC$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="12" |Engineer Stats
+! colspan="9" |Neutral Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Deadzone Range !! Build Range !! Max Units !! DPS$DREF$ !! Combined DPS$CDREF$ !! Cost Efficiency$CEREF$
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! DPS !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 1.4 || 13 || 1.5 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 24 || 1.1 || 17.5 || 1 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 6 || 1.2 || 16 || 1.5 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 1 || $RC$ || $RC$ || 24 || 0.85 || 20 || 1 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 10 || 1.2 || 18 || 1.5 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 2 || $RC$ || $RC$ || 7 || 0.14 || 20 || 2 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 20 || 1 || 18 || 1.5 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 30 || 0.9 || 21 || 1.5 || 3 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 80 || 0.75 || 21 || 1.5 || 3 || 3 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 6 || $R$ || $R$ || 90 || 0.6 || 22.5 || 1.5 || 2 || 4 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 3 || $RC$ || $RC$ || 12 || 0.14 || 20 || 2 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="15" |Sentry Stats$SREF$
+! colspan="11" |Top Path Stats
 |-
-! Level !! Sentry !! Health !! Damage !! Splash Damage !! Rocket Count !! Firerate !! Rocket Firerate !! Range !! Explosion Range !! Lifespan !! Build Time !! Scrap Meter !! Detections !! DPS$SDREF$
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! Reward Percentage !! Reward Cap !! DPS !! Cost Efficiency
 |-
-| 0–1 || [[Sentry (Unit)|Sentry]] || 100 || 2 || N/A || N/A || 1 || N/A || 18 || N/A || 20s || 1.25 || 8 || N/A || $DPS$
+| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 160 || 1.65 || 20 || 2 || 60% || {{Money|10,000}} || $DPS$ || {{Money|$CE$}}
 |-
-| 2–3 || [[Rifle Sentry]] || 400 || 1 || N/A || N/A || 0.2 || N/A || 20 || N/A || 30s || 1.5 || 32 || Hidden || $DPS$
+| 5 || $RC$ || $RC$ || 295 || 1.65 || 20 || 2 || 80% || {{Money|25,000}} || $DPS$ || {{Money|$CE$}}
 |-
-| 4–5 || [[Minigun Sentry]] || 750 || 3 || N/A || N/A || 0.15 || N/A || 22 || N/A || 45s || 1.75 || 150 || Hidden || $DPS$$RREF$
-|-
-| 6 || [[War Machine Sentry]] || 1,000 || 3 || 60 || 2 || 0.125 || 4 || 24 || 5 || 60s || 1.75 || 340 || Hidden, Lead$LREF$ || $SDPS$<ref>$DPS$ Gun DPS + $MDPS$ Rocket DPS.<br>Rev-up time of 1.5 seconds is not considered into the DPS.<br/>Rocket DPS assumes only one enemy is hit and receives full splash damage.</ref>
-|}
-</div>
-|-|PVP = 
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="12" |Engineer Stats
-|-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Deadzone Range !! Build Range !! Max Units !! DPS$DREF$ !! Combined DPS$CDREF$ !! Cost Efficiency$CEREF$
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 1.2 || 13 || 1 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 6 || 1.2 || 15 || 1 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 6 || 1.2 || 17 || 1 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 16 || 1.2 || 17 || 1 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 22 || 0.75 || 20 || 1 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 30 || 0.75 || 20 || 1 || 4 || 3 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 6 || $R$ || $R$ || 50 || 0.6 || 22 || 0.5 || 4 || 3 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 6 || $RC$ || $RC$ || 225 || 0.8 || 21.5 || 2 || 100% || {{Money|50,000}} || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="15" |Sentry Stats<ref name="sentry"/>
+! colspan="9" |Bottom Path Stats
 |-
-! Level !! Sentry !! Health !! Damage !! Splash Damage !! Rocket Count !! Firerate !! Rocket Firerate !! Range !! Explosion Range !! Lifespan !! Build Time !! Scrap Meter !! Detections !! DPS$SDREF$
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! DPS !! Cost Efficiency
 |-
-| 0–2 || [[Sentry (Unit)|Sentry]] || 20 || 2 || N/A || N/A || 0.45 || N/A || 18 || N/A || 20s || 1.25 || 16 || N/A || $DPS$
+| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 17 || 0.12 || 22 || 3 || $DPS$ || {{Money|$CE$}}
 |-
-| 3–4 || [[Rifle Sentry]] || 40 || 2 || N/A || N/A || 0.2 || N/A || 20 || N/A || 30s || 1.5 || 32 || N/A || $DPS$
+| 5 || $RC$ || $RC$ || 34 || 0.12 || 23 || 3 || $DPS$ || {{Money|$CE$}}
 |-
-| 5 || [[Minigun Sentry]] || 60 || 6 || N/A || N/A || 0.15 || N/A || 20 || N/A || 45s || 1.75 || 120 || Hidden || $DPS$$RREF$
-|-
-| 6 || [[War Machine Sentry]] || 250 || 8 || 28 || 2 || 0.1 || 4 || 24 || 5 || 60s || 1.75 || 250 || Hidden, Lead$LREF$ || $SDPS$<ref>$DPS$ Gun DPS + $MDPS$ Rocket DPS.<br>Rev-up time of 1.5 seconds is not considered into the DPS.<br/>Rocket DPS assumes only one enemy is hit and receives full splash damage.</ref>
+| 6 || $RC$ || $RC$ || 46 || 0.1 || 23 || 3 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="10" |[[Lackey]] Stats
+|-
+! Level !! Health !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
+|-
+| 0–2 || 45 || 2 || 37.5 || 0.22 || 75 || 19 || Hidden || $DPS$ || $RDPS$
+|-
+| 3-4A || 45 || 2 || 30 || 0.22 || 75 || 19 || Hidden || $DPS$ || $RDPS$
+|-
+| 5A/4B || 75 || 5 || 30 || 0.2 || 75 || 23 || Hidden || $DPS$ || $RDPS$
+|-
+| 6A/5B || 200 || 6 || 25 || 0.16 || 75 || 24.5 || Hidden || $DPS$ || $RDPS$
+|-
+| 6B || 300 || 7 || 25 || 0.12 || 75 || 25 || Hidden || $DPS$ || $RDPS$
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="6" |[[Money Runner]] Stats
+|-
+! Level !! Health !! Cash on Death !! Spawn Time !! Income per Second !! Ram DPS
+|-
+| 0–2 || 40 || {{Money|200}} || 40 || {{Money|$IPS$}} || $RDPS$
+|-
+| 3-6B || 40 || {{Money|200}} || 30 || {{Money|$IPS$}} || $RDPS$
+|-
+| 4A || 75 || {{Money|450}} || 30 || {{Money|$IPS$}} || $RDPS$
+|-
+| 5A || 75 || {{Money|600}} || 27.5 || {{Money|$IPS$}} || $RDPS$
+|-
+| 6A || 100 || {{Money|850}} || 25 || {{Money|$IPS$}} || $RDPS$
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="11" |[[Bouncer]] Stats
+|-
+! Level !! Health !! Defense !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
+|-
+| 4B || 500 || N/A || 25 || 45 || 0.5 || 75 || 8 || Hidden, Lead || $DPS$ || $RDPS2$
+|-
+| 5B || 750 || 10% || 35 || 40 || 0.5 || 75 || 8 || Hidden, Lead || $DPS$ || $RDPS2$
+|-
+| 6B || 1,000 || 15% || 40 || 40 || 0.5 || 75 || 8.5 || Hidden, Lead || $DPS$ || $RDPS2$
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="10" |[[Contractor]] Stats
+|-
+! Level !! Health !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
+|-
+| 6B || 400 || 170 || 60 || 2 || 75 || 35 || Hidden, Flying, Lead || $DPS$ || $RDPS$
+|}
+</div>
+<!-- @se-ignore -->
+|-|Levels =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="12" |Levels
+|-
+! Level !! Exp !! Total Exp
+|-
+| 0 || {{Exp|0}} || {{Exp|$TE$}}$RC$
+|-
+| 1 || {{Exp|$EXP$}}$RC$ || $RC$
+|-
+| 2 || $RC$ || $RC$
+|-
+| 3 || $RC$ || $RC$
+|-
+| 4 || $RC$ || $RC$
+|-
+| 5 || $RC$ || $RC$
+|-
+| 6 || $RC$ || $RC$
+|-
+| 7 || $RC$ || $RC$
+|-
+| 8 || $RC$ || $RC$
+|-
+| 9 || $RC$ || $RC$
+|-
+| 10 || $RC$ || $RC$
+|-
+| 11 || $RC$ || $RC$
+|-
+| 12 || $RC$ || $RC$
+|-
+| 13 || $RC$ || $RC$
+|-
+| 14 || $RC$ || $RC$
+|-
+| 15 || $RC$ || $RC$
+|-
+| 16 || $RC$ || $RC$
+|-
+| 17 || $RC$ || $RC$
+|-
+| 18 || $RC$ || $RC$
+|-
+| 19 || $RC$ || $RC$
+|-
+| 20 || $RC$ || $RC$
+|}
+</div>
+<!-- @/se-ignore -->
 </tabber></div>
 </nowiki>}}
 
-==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
-!
-|[[File:DuckyEngineerIcon.png|175px]]
-|[[File:MechanicEngineerIcon.png|175px]]
-|[[File:HolidayEngineerIcon.png|175px]]
-|[[File:HeartbreakEngineerIcon.png|175px]]
-|-
-!Skin
-|{{Color|Ducky|Ducky}}
-|{{Color|Deluxe|Mechanic}}
-|{{Color|Jolly|Holiday}}
-|{{Color|Lovely|Heartbreak}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Event}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|4,500}}
-|{{Robux|560}}
-|{{Coins|5,000}}
-|{{Coins|7,000}}
-|-
-!Obtained From
-|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
-|[[Deluxe Crate]],<br>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
-||[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]]
-|-
-!
-|[[File:GravediggerEngineer.png|175px]]
-|[[File:Plushie Engineer Icon.png|175px]]
-|[[File:PhantomEngineerSkin.png|175px]]
-|[[File:YTEngiIcon.png|175px]]
-|-
-!Skin
-|{{Color|Lunar|Grave Digger}}
-|{{Color|Other|Plushie}}
-|{{Color|Phantom|Phantom}}
-|{{Color|ContentCreator|Wikia}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Robux|499}}
-|{{Coins|3,000}}
-|-
-!Obtained From
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing an [[Engineer Plush]].</ref>
-|[[Phantom Crate]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|-
-!
-|[[File:CrazRexEngineerIcon.png|175px]]
-|[[File:FallenEngineerIcon.png|175px]]
-|[[File:DarkFrostEngineerIconIG.png|175px]]
-|[[File:BeachEngineerIcon.png|175px]]
-|-
-!Skin
-|{{Color|ContentCreator|CrazRex}}
-|{{Color|FallenMission|Fallen}}
-|{{Color|OperationICE|Dark Frost}}
-|{{Color|Surf|Beach}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|{{Coins|3,000}}
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|''Shadowforge Tinkerer'' [[Mission Quests|Mission Quest]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
-|-
-!
-|[[File:GhostEngineerIconIG.png|175px]]
-|[[File:SpringtimeEngineerIconIG.png|175px]]
-|[[File:BunnyEngineerIconIG.png|175px]]
-|[[File:ScubaOpsEngineerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Null|Ghost}}
-|{{Color|Shamrock|Springtime}}
-|{{Color|SpringFrenzy|Bunny}}
-|{{Color|Scuba|Scuba Ops}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|{{Coins|6,250}}
-|-
-!Obtained From
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
-|[[Shamrock Crate]]
-|[[Spring Frenzy Battle Pass]]
-|[[Scuba Ops Crate]]
-|}
-
 ==Strategy==
-*The '''Engineer''' is a powerful late-game tower, as its DPS combined with its maximum number of sentries is one of the highest in the entire game.
-**Since its sentries have a shield that makes them immune to damage, it can also be powerful against major bosses like the [[Frost Spirit]]. Do note that the shield is only active when the '''Engineer''' is not stunned.
-***It is possible to shield the '''Engineer''' with the [[Medic]], which means that for its sentries to be destroyed there need to be three attacks that damage units and stun towers in a row.
-*The '''Engineer''' can be used as an early game tower due to its decent DPS and sentry DPS and its cheap cost.
-**Since the '''Engineer''' has flying detection and lead detection, it can also be used as an early game tower in [[Hardcore Mode|Hardcore]] mode.
-**Placing multiple Level 2 '''Engineers''' is cost-effective due to its ability to place [[Rifle Sentry|Rifle Sentries]].
-*The sentries are not affected by any buffs or debuffs, but the '''Engineer''' is still affected by all of them.
-**The explosion damage from the [[War Machine Sentry]] is affected by buffs, though this is a bug.
-*Due to how expensive the '''Engineer''' is, the [[DJ Booth]] is highly recommended, as it can greatly decrease the '''Engineer's''' cost.
-**It can also be useful for increasing the '''Engineer's''' attack range.
-***Neither the sentry building range nor the deadzone range will be affected.
-*The '''Engineer''' needs to fill its ''Scrap Meter'' before it can build a sentry, which it can fill up by dealing damage to enemies. Using the [[Commander]], you can summon sentries faster since the damage is dealt faster.
-**The [[Mercenary Base]] and [[DJ Booth]] can also increase its damage, which also affects its ''Scrap Meter'', allowing it to summon sentries even faster.
-***The [[Field Medic]] cannot heal or shield the '''Engineer's''' sentries, as they are not considered humanoids.
-**It is recommended to set the '''Engineer's''' targeting to ''Strongest'' to fill its ''Scrap Meter'' faster due to the higher damage dealt and minimal damage wasted.
-**Do note that when the '''Engineer''' is building a sentry, it is unable to attack for a short while, allowing enemies to pass through, especially hidden enemies.
-***This is not an issue on later levels as the '''Engineer''' can have more than a single sentry. Having other towers alongside the '''Engineer''' can also help mitigate this issue.
+*The '''Kingpin''' is best used as a mid-to-late game tower. 
+*At Level 3, the '''Kingpin''' gains two paths.
+**The top path is focused on giving the player [[cash]] through its ''Bounty'' ability and upgrading the [[Money Runner]]s it spawns.
+***The top path can be used as a secondary income source which may help at affording certain expensive towers like the [[Juggernaut]].
+***It is advised to use the ''Bounty'' ability on enemies that have a high cash reward, which usually is enemies with high health.
+***Notably it also gains lead detection earlier than its bottom path counterpart.
+**The bottom path is more focused on DPS and spawning units, this path unlocks the [[Bouncer]] and the [[Contractor]].
+***This path focuses on increasing the efficiency in which the units deal damage, whether it be by increasing their DPS, or shortening their spawnrate.
+***Setting the bottom path ''Kingpin'' to spawn either [[Lackey]]s or [[Contractor]]s can be extremely effective on certain maps where they can stack up in a single spot and attack simultaneously.
 
 ==Trivia==
-*The '''Engineer''' is the only tower to have three range rings.
-**The white ring is the '''Engineer's''' range, the yellow ring is the sentry placement range, and the red ring is a deadzone range where the '''Engineer''' cannot fire or build sentries.
-*The '''Engineer''' tower is very loosely based on the [[w:c:Bloons:Engineer Monkey (BTD6)|Engineer Monkey]] from the ''Bloons Tower Defense'' series.
-**The rebar launcher used by the '''Engineer''' is a reference to a similar weapon used by [[w:c:riskofrain2:MUL-T|MUL-T]] from ''Risk of Rain 2''.
-**The '''Engineer's''' sentry shield is based on the [https://wiki.teamfortress.com/wiki/Wrangler Wrangler] shield, used by the [https://wiki.teamfortress.com/wiki/Engineer Engineer] from ''Team Fortress 2''.
-***The store description of the '''Engineer''' is a reference to a voice line said by the ''Team Fortress 2'' [https://wiki.teamfortress.com/wiki/Engineer Engineer], "''Sentry goin' up!''".
-*While unlikely to be seen as this can only happen through bugs, the shield sentries get at Level 4+ does not make them just immune to enemy abilities, but every form of damage, including damage from towers.
-*The '''Engineer''' is the first tower that has 6 upgrades.
-*The '''Engineer''' went through multiple changes before being released.
-**Rather than using a rebar launcher, it wielded a pistol, which, with levels, would be replaced with various rifles.
-**The '''Engineer''' had five sentries instead of four, which had different purposes.
-***The first three sentries were single target sentries, which would only deal damage to one enemy. These sentries are still in the game, with them being the [[Sentry (Unit)|Sentry]], [[Rifle Sentry]] and [[Minigun Sentry]].
-***The fourth sentry was the Missile Sentry, which was a quad missile launcher that would deal splash damage.
-***The fifth and last sentry was the Support Beacon, which would reveal hidden enemies in its range.
-***Due to there being multiple types of sentries, you would be able to pick what kind of sentries the '''Engineer''' would place.
-*The '''Engineer''' Level 3 upgrade cost is possibly a reference to ''Cyberpunk 2077's'' name.
-*The '''Engineer''' Level 6 upgrade is most likely a reference to [https://terraria.wiki.gg/wiki/Illegal_Gun_Parts Illegal Gun Parts] from ''Terraria''.
-*The '''Engineer''' is canonically [[Brawler]]'s sister.
-*It has been stated in [[Blind Faith]] and strongly implied in the [[Brawler]]'s trailer that the '''Engineer''' creates most vehicles and machines used by towers, such as the [[Turret]], [[Pursuit]] or [[Missile APC]].
+*The '''Kingpin''' is one of the first three evolved towers revealed in 2020 prior to the release of the [[Overhaul v1.0|Overhaul Update]].
+*The '''Kingpin's''' top path upgrade names are likely referencing those of the [[Golden Crook Boss]].
+*The '''Kingpin's''' voice actor is [https://x.com/mitchmarcmedia Mitch Kaye].
+*Kingpins are usually drug lords, in real life.
 
-==Update History==
-''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text =
-*'''17 April 2022''' - [[v1.2.0]]
-**'''Engineer''' added.
-**{{Bug}} Sentry ranged damage does not increase the ''Total Damage'' counter.
-**{{Bug}} Sentry collision damage does not increase the ''Total Damage'' counter.
-**{{Bug}} Sentry range can be increased by the [[DJ Booth]].
-**{{Bug}} '''Engineer''' does not have lead detection at all levels.
-**{{Bug}} Sentries can be built in the deadzone range.
-**{{Bug}} '''Engineer''' can collide with players.
-**{{Bug}} Upgrading the '''Engineer''' at the right moment allows it to use the previous scrap meter value to build a sentry with a higher scrap meter, making it at a lower cost.
-*'''17 April 2022''' - [[v1.2.0]]a
-**Corrected Level 1 upgrade name being ''Percise Calculations'' instead of ''Precise Calculations''.
-*'''23 April 2022''' - [[v1.2.1]]
-**Sentries can no longer collide with enemies.
+==Update Log==
+*'''17 July 2026''' - [[v2.3.0]]
+**'''Kingpin''' added.
+*'''14 August 2026''' - [[v2.6.0]]
 **Statistical changes:
-***'''Level 4'''
-****Sentries now gain a shield which protects them from damage when it is active.
-**New skin: {{Color|DuckHunt|Ducky}}
-**{{Bugfix}} Sentries can no longer be built in the deadzone range.
-**{{Bugfix}} Sentry ranged damage now increases the ''Total Damage'' counter.
-*'''13 May 2022''' - [[v1.2.2]]
-**{{Bugfix}} '''Engineer''' can no longer collide with players.
-*'''30 May 2022''' - [[v1.2.4]]
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
-*'''1 June 2022''' - [[v1.2.4]]b
-**Gamepass price increased from {{Robux|3,000}} to {{Robux|4,000}}.
-*'''26 June 2022''' - [[v1.2.4]]e
-**Gamepass taken offsale.
-*'''5 August 2022''' - [[v1.3.1]]
-**{{Bugfix}} Sentry range can no longer be increased by the [[DJ Booth]].
-*'''8 August 2022''' - [[v1.3.1]]b
-**{{Bug}} '''Engineer''' sometimes does not deal damage when an enemy is hit by its projectile.
-*'''2 September 2022''' - [[v1.3.2]]
-**{{Bugfix}} '''Engineer''' now deals damage properly.
-*'''31 October 2022''' - [[v1.4.2]]
-**'''Engineer''' is available through a gamepass for {{Robux|4,000}}.
-**{{Bugfix}} '''Engineer''' now has lead detection.
-*'''11 November 2022''' - [[v1.4.2]]d
-**New skin: {{Color|Philips|Mechanic}}
-*'''24 November 2022''' - [[v1.5.0]]b
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,200}}.
-*'''1 December 2022''' - [[v1.5.0]]d
-**Gamepass price increased from {{Robux|3,200}} to {{Robux|4,000}}.
-*'''21 December 2022''' - [[v1.6.0]]
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
-**Firerate increased for units due to [[Firerate Bug]] getting more severe for units.
-**Skin rarity added to all skins.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 2.025 to 1.525.
-****[[Sentry]] firerate increased from 0.525 to 0.53.
-***'''Level 1'''
-****Cost decreased from {{Money|350}} to {{Money|250}}.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|2.025 > 1.825|-0.2}} to {{Tooltip|1.525 > 1.275|-0.25}}.
-****[[Rifle Sentry]] firerate increased from 0.275 to 0.28.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|1.825 > 1.025|-0.8}} to {{Tooltip|1.275 > 1.025|-0.25}}.
-***'''Level 5'''
-****[[Minigun Sentry]] firerate increased from 0.183 to 0.19.
-**New skin: {{Color|ViolentNight|Holiday}}
-*'''6 January 2023''' - [[v1.6.0]]e
-**Gamepass price increased from {{Robux|3,000}} to {{Robux|4,000}}.
-*'''9 January 2023''' - [[v1.6.0]]f
-**Firerate decreased for units due to [[Firerate Bug]] getting less severe for units.
-**Statistical changes:
-***'''Base'''
-****[[Sentry]] firerate decreased from 0.53 to 0.525.
-***'''Level 3'''
-****[[Rifle Sentry]] firerate decreased from 0.28 to 0.275.
-***'''Level 5'''
-****[[Minigun Sentry]] firerate decreased from 0.19 to 0.183.
-***'''Level 6'''
-*'''14 February 2023''' - [[v1.4.2]]
-**New skin: {{Color|Lovely|Heartbreak}}
-*'''31 March 2023''' - [[v1.6.4]]
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 1.525 to 1.275.
-****Range decreased from 14 to 12.
-****Max units decreased from 2 to 1.
-***'''Level 1'''
-****Range increased from +1 to +2.
-***'''Level 2'''
-****Deadzone range decreased from +0 to -1.
-***'''Level 3'''
-****Cost increased from {{Money|1,600}} to {{Money|1,750}}.
-****Firerate changed from {{Tooltip|1.525 > 1.275|-0.25}} to {{Tooltip|1.275 > 1.025|-0.25}}.
-****Damage increased from +3 to +5.
-***'''Level 4'''
-****Cost decreased from {{Money|3,500}} to {{Money|3,250}}.
-****Damage increased from +5 to +7.
-****Renamed from ''Pressure Tank'' to ''Improved Blueprints''.
-***'''Level 5'''
-****Damage increased from +10 to +15.
-****Max units increased from +0 to +1.
-***'''Level 6'''
-****Cost decreased from {{Money|35,000}} to {{Money|33,500}}.
-****Deadzone range decreased from +0 to -1.
-****Max units decreased from +1 to +0.
-*'''7 April 2023''' - [[v1.7.0]]
-**You can now see the '''Engineer's''' scrap meter when you hover your cursor over it.
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|2,500}}.
-**{{Bug}} Sentry shields are sometimes not visible.
-*'''15 April 2023''' - [[v1.7.1]]a
-**Gamepass price increased from {{Robux|2,500}} to {{Robux|4,000}}.
-*'''5 May 2023''' - [[v1.7.3]]
-**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Common}} to {{Color|Legendary}}.
-*'''4 July 2023''' - [[v1.8.2]]d
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
-*'''6 July 2023''' - [[v1.8.2]]e
-**Gamepass price increased from {{Robux|3,000}} to {{Robux|4,000}}.
-*'''31 October 2023''' - [[v1.9.0]]g
-**New skin: {{Color|Lunar|Grave Digger}}
-*'''24 November 2023''' - [[v1.9.4]]
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|2,600}}.
-**New skin: {{Color|Other|Plushie}}
-*'''29 November 2023''' - [[v1.9.4]]a
-**Gamepass price increased from {{Robux|2,600}} to {{Robux|4,000}}.
-*'''21 December 2023''' - [[v1.11.0]]
-**New skin: {{Color|Phantom|Phantom}}
-*'''28 January 2024''' - [[v1.12.0]]
-**New skin: {{Color|ContentCreator|Wikia}}
-*'''10 February 2024''' - [[v1.13.0]]
-**Statistical changes:
-***'''Base'''
-****[[Sentry (Unit)|Sentry]] now has hidden detection.
-***'''Level 3'''
-****[[Rifle Sentry]] now has hidden detection.
-***'''Level 5'''
-****[[Minigun Sentry]] now has hidden detection.
-***'''Level 6'''
-****[[War Machine Sentry]] now has hidden detection.
-**{{Bug}} Enemies that touch the hitbox of a sentry with a shield take high amounts of damage.
-*'''12 February 2024''' - [[v1.13.0]]b
-**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
-**Statistical changes:
-***'''Base'''
-****[[Sentry (Unit)|Sentry]] no longer has hidden detection.
-***'''Level 3'''
-****[[Rifle Sentry]] no longer has hidden detection.
-***'''Level 5'''
-****[[Minigun Sentry]] no longer has hidden detection.
-***'''Level 6'''
-****[[War Machine Sentry]] no longer has hidden detection.
-*'''24 February 2024''' - [[v1.14.0]]
-**Statistical changes:
-***'''Base'''
-****Damage increased from 3 to 4.
-****Firerate increased from 1.275 to 1.525.
-****[[Sentry (Unit)|Sentry]] firerate decreased from 0.525 to 0.475.
-****[[Sentry (Unit)|Sentry]] scrap meter increased from 10 to 16.
-***'''Level 2'''
-****Cost decreased from {{Money|400}} to {{Money|300}}.
-****Range increased from +1 to +3.
-****Deadzone range decreased from -1 to -2.
-***'''Level 3'''
-****Damage increased from +5 to +6.
-****Firerate changed from 1.275 to {{Tooltip|1.525 > 1.275|-0.25}}.
-****[[Rifle Sentry]] scrap meter increased from 20 to 36.
-***'''Level 4'''
-****Cost increased from {{Money|3,250}} to {{Money|3,500}}.
-****Damage increased from +5 to +6.
-****Range decreased from +3 to +1.
-***'''Level 5'''
-****Cost increased from {{Money|12,500}} to {{Money|13,750}}.
-****Damage increased from +15 to +17.
-****[[Minigun Sentry]] scrap meter increased from 50 to 140.
-***'''Level 6'''
-****Cost decreased from {{Money|33,500}} to {{Money|32,500}}.
-****Deadzone range increased from -1 to -0.5.
-****Max units increased from +0 to +1.
-****[[War Machine Sentry]] damage decreased from 12 to 8.
-****[[War Machine Sentry]] splash damage increased from 15 to 33.
-****[[War Machine Sentry]] range increased from 22 to 24.
-****[[War Machine Sentry]] scrap meter increased from 100 to 300.
-*'''8 March 2024''' - [[v1.15.0]]
-**{{Bugfix}} Enemies that touch hitbox of a sentry with a shield no longer take high amounts of damage.
-*'''10 May 2024''' - [[v1.21.0]]
-**{{Bug}} Sentry lifespans do not scale with [[Time Scale]] properly.
-*'''18 May 2024''' - [[v1.22.0]]
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 1.525 to 1.275.
-***'''Level 2'''
-****Cost increased from {{Money|300}} to {{Money|400}}.
-****Max units increased from +0 to +1.
-***'''Level 3'''
-****Cost increased from {{Money|1,750}} to {{Money|2,000}}.
-****Firerate changed from {{Tooltip|1.525 > 1.275|-0.25}} to {{Tooltip|1.275 > 1.125|-0.15}}.
-***'''Level 4'''
-****Cost increased from {{Money|3,500}} to {{Money|3,750}}.
-****Firerate changed from {{Tooltip|1.275 > 1.025|-0.25}} to {{Tooltip|1.125 > 0.875|-0.25}}.
-***'''Level 5'''
-****Max units decreased from +1 to +0.
-****[[Minigun Sentry]] now has hidden detection.
-***'''Level 6'''
-****Damage increased from +15 to +25.
-****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to {{Tooltip|0.875 > 0.675|-0.2}}.
-****[[War Machine Sentry]] damage increased from 8 to 9.
-****[[War Machine Sentry]] splash damage increased from 33 to 35.
-****[[War Machine Sentry]] firerate decreased from 0.15 to 0.133.
-****[[War Machine Sentry]] now has hidden detection.
-*'''23 May 2024''' - [[v1.23.0]]
-**Gamepass price decreased from {{Robux|3,000}} to {{Robux|2,250}}.
-*'''27 May 2024''' - [[v1.23.0|v1.23.2]]a
-**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,800}}.
-*'''29 May 2024''' - [[v1.23.0|v1.23.3]]a
-**Gamepass price increased from {{Robux|1,800}} to {{Robux|2,250}}.
-*'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
-**{{Bug}} [[War Machine Sentry]] splash damage is boosted by [[Damage Buff]]s.
-**{{Bug}} Can still build sentries when jailed.
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|ContentCreator|DraxRex}}
-*'''2 August 2024''' - [[v1.27.0]]
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 1.275 to 1.225.
-****Range increased from 12 to 13.
-****Build range decreased from 5 to 4.
-****Deadzone range decreased from 3 to 1.
-***'''Level 2'''
-****Range decreased from +3 to +2.
-****Deadzone range increased from -2 to 0.
-***'''Level 3'''
-****Cost decreased from {{Money|2,000}} to {{Money|1,800}}.
-****Firerate changed from {{Tooltip|1.275 > 1.125|-0.15}} to 1.225.
-****[[Rifle Sentry]] firerate increased from 0.275 to 0.325.
-***'''Level 4'''
-****Cost decreased from {{Money|3,750}} to {{Money|3,000}}
-****Firerate changed from {{Tooltip|1.125 > 0.875|-0.25}} to {{Tooltip|1.225 > 0.775|-0.45}}.
-***'''Level 5'''
-****Cost decreased from {{Money|13,750}} to {{Money|12,500}}.
-****Damage decreased from +17 to +12.
-****[[Minigun Sentry]] scrap cost decreased from 140 to 120.
-***'''Level 6'''
-****Cost increased from {{Money|32,500}} to {{Money|35,000}}.
-****Damage decreased from +25 to +20.
-****Firerate changed from {{Tooltip|0.875 > 0.675|-0.2}} to {{Tooltip|0.775 > 0.625|-0.15}}.
-****[[War Machine Sentry]] damage decreased from 9 to 8.
-****[[War Machine Sentry]] firerate increased from 0.133 to 0.15.
-****[[War Machine Sentry]] health increased from 120 to 250.
-****[[War Machine Sentry]] scrap cost decreased from 300 to 250.
-**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
-*'''21 August 2024''' - [[v1.28.0]]
-**New skin: {{Color|FallenMission|Fallen}}
-**{{Bugfix}} Sentry shields now always appear instead of only appearing after the '''Engineer''' was stunned.
-*'''16 November 2024''' - [[v1.41.0|v1.41.5]]
-**{{Bug}} Sentry lifespans no longer work correctly, making them survive for significantly longer than they should and only rarely disappearing.
-*'''18 November 2024''' - [[v1.41.0|v1.41.6]]
-**{{Bugfix}} Sentry lifespans now work correctly.
-*'''20 November 2024''' - [[v1.42.0]]
-**{{Bugfix}} Sentry lifespans now scale correctly with [[Time Scale]].
-*'''27 November 2024''' - [[v1.43.0]]
-**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,462}}.
-*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
-**Gamepass price increased from {{Robux|1,462}} to {{Robux|2,250}}.
-*'''16 December 2024''' - [[v1.46.0]]
-**New skin: {{Color|OperationICE|Dark Frost}}
-*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
-**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,575}}.
-*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
-**Gamepass cost increased from {{Robux|1,575}} to {{Robux|2,250}}.
-*'''15 January 2025''' - [[v1.49.0]]
-**{{Bug}} Units have lead detection.
-*'''9 April 2025''' - [[v1.60.0]]
-**Defense role added.
-*'''30 April 2025''' - [[v1.63.0]]
-**{{Bugfix}} Units no longer have lead detection.
-*'''26 May 2025''' - [[v1.64.0]]a
-**Robux cost decreased from {{Robux|2,250}} to {{Robux|1,687}}.
-*'''28 May 2025''' - [[v1.65.0]]
-**Robux cost increased from {{Robux|1,687}} to {{Robux|2,250}}.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Beach}}
-**{{Bug}} {{Color|Surf|Beach}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Beach}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''23 July 2025''' - [[v1.71.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Cost decreased from {{Money|750}} to {{Money|700}}.
-****[[Sentry (Unit)|Sentry]] damage increased from 1 to 2.
-***'''Level 3'''
-****Damage increased from +6 to +10.
-****[[Rifle Sentry]] firerate decreased from 0.325 to 0.225.
-****[[Rifle Sentry]] scrap cost decreased from 36 to 32.
-***'''Level 4'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,600}}.
-****Range decreased from +1 to +3.
-****Max units decreased from +1 to +0.
-***'''Level 5'''
-****Cost decreased from {{Money|12,500}} to {{Money|11,500}}.
-****Damage decreased from +12 to +8.
-****Max units increased from +0 to +1.
-****[[Minigun Sentry]] damage increased from 5 to 6.
-****[[Minigun Sentry]] firerate decreased from 0.183 to 0.175.
-***'''Level 6'''
-****Cost decreased from {{Money|35,000}} to {{Money|27,500}}.
-****Max units decreased from +1 to +0.
-****[[War Machine Sentry]] damage increased from 8 to 10.
-****[[War Machine Sentry]] firerate decreased from 0.15 to 0.125.
-*'''3 September 2025''' - [[v1.74.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|750}} to {{Money|600}}.
-****Deadzone range increased from 1 to 1.5
-****[[Sentry (Unit)|Sentry]] firerate increased from 0.475 to 0.625.
-****[[Sentry (Unit)|Sentry]] scrap cost decreased from 16 to 8.
-***'''Level 1'''
-****Cost increased from {{Money|250}} to {{Money|350}}.
-****Firerate decreased from 1.208 to {{Tooltip|1.225 > 1.025|-0.2}}.
-****Range increased from +2 to +3.
-***'''Level 2'''
-****Cost increased from {{Money|400}} to {{Money|550}}.
-****Damage increased from +0 to +4.
-****Max units decreased from +1 to +0.
-***'''Level 3'''
-****Cost increased from {{Money|1,800}} to {{Money|2,250}}.
-****Damage decreased from +6 to +5.
-****Max units increased from +0 to +1.
-****[[Rifle Sentry]] firerate decreased from 0.325 to 0.275.
-****[[Rifle Sentry]] scrap cost increased from 36 to 45.
-***'''Level 4'''
-****Cost increased from {{Money|3,000}} to {{Money|4,750}}.
-****Damage increased from +6 to +15.
-****Range increased from +1 to +2.
-****Build range decreased from +0 to -1.
-***'''Level 5'''
-****Cost increased from {{Money|12,500}} to {{Money|13,500}}.
-****Damage increased from +12 to +30.
-****[[Minigun Sentry]] damage decreased from 5 to 3.
-****[[Minigun Sentry]] firerate decreased from 0.183 to 0.125.
-****[[Minigun Sentry]] scrap cost increased from 120 to 180.
-***'''Level 6'''
-****Damage increased from +20 to +35.
-****Range increased from +2 to +2.5.
-****Build range decreased from +0 to -1.
-****Deadzone range increased from -1 to +0.
-****[[War Machine Sentry]] health increased from 250 to 300.
-****[[War Machine Sentry]] damage decreased from 8 to 3.
-****[[War Machine Sentry]] firerate decreased from 0.15 to 0.125.
-****[[War Machine Sentry]] scrap cost increased from 250 to 340.
-****[[War Machine Sentry]] explosion damage increased from 35 to 70.
-*'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Ghost}}
-*'''26 November 2025''' - [[v1.81.0]]
-**Gamepass cost decreased from {{Robux|2,250}} to {{Robux|1,350}}.
-*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Gamepass cost increased from {{Robux|1,350}} to {{Robux|2,250}}.
-*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Gamepass cost decreased from {{Robux|2,250}} to {{Robux|1,350}}.
-*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Gamepass cost increased from {{Robux|1,350}} to {{Robux|2,250}}.
-*'''28 January 2026''' - [[v1.84.0]]
-**Description changed.
-**Statistical changes (Regular):
-***'''Base'''
-****Flying detection added, moved from Level 2.
-****[[Sentry (Unit)|Sentry]] damage increased from 1 to 2.
-****[[Sentry (Unit)|Sentry]] firerate increased from 0.625 to 1.025.
-***'''Level 2'''
-****Cost increased from {{Money|550}} to {{Money|1,000}}.
-****Damage increased from +4 to +2.
-****Now summons [[Rifle Sentry]] instead of [[Sentry (Unit)|Sentry]].
-****[[Rifle Sentry]] damage decreased from 2 to 1.
-****[[Rifle Sentry]] firerate decreased from 0.275 to 0.2.
-****[[Rifle Sentry]] scrap meter decreased from 45 to 32.
-****[[Rifle Sentry]] hidden detection added.
-***'''Level 3'''
-****Cost decreased from {{Money|2,250}} to {{Money|2,077}}.
-****Damage increased from +5 to +12.
-***'''Level 4'''
-****Cost increased from {{Money|4,750}} to {{Money|7,500}}.
-****Damage decreased from +15 to +5.
-****Max units decreased from +1 to +0.
-****No longer gives sentry shields, now gained at Level 5 instead.
-****Now summons [[Minigun Sentry]] instead of [[Rifle Sentry]].
-****[[Minigun Sentry]] firerate increased from 0.125 to 0.15.
-****[[Minigun Sentry]] health increased from 60 to 150.
-****[[Minigun Sentry]] scrap meter decreased from 180 to 150.
-***'''Level 5'''
-****Cost decreased from {{Money|13,500}} to {{Money|12,500}}.
-****Damage increased from +30 to +50.
-****Max units increased from +0 to +1.
-***'''Level 6'''
-****Cost decreased from {{Money|35,000}} to {{Money|32,500}}.
-****Damage decreased from +25 to +10.
-*'''11 February 2026''' - [[v1.85.0]]
-**Level 4 and 5 upgrade names swapped.
-*'''11 March 2026''' - [[v1.86.0]]
-**New skin: {{Color|Shamrock|Springtime}}
-**{{Bug}} {{Color|Surf|Beach}} skin no longer deals any damage.
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Bunny}}
-*'''22 April 2026''' - [[v1.89.0]]
-**{{Bug}} All units no longer have display names.
-*'''24 April 2026''' - [[v1.89.0|v1.89.5]]
-**{{Bugfix}} {{Color|Surf|Beach}} skin now deals damage.
-*'''8 May 2026''' - [[v1.90.0]]
-**Statistical changes (Regular):
-***'''Base'''
-****[[Sentry (Unit)|Sentry]] health increased from 20 to 100.
-***'''Level 1'''
-****Cost decreased from {{Money|350}} to {{Money|325}}.
-***'''Level 2'''
-****Cost decreased from {{Money|1,000}} to {{Money|900}}.
-****Damage increased from +2 to +4.
-****[[Rifle Sentry]] health increased from 40 to 400.
-****Without [[Firerate Bug]], [[Rifle Sentry]] firerate decreased from 0.18 to 0.17, however, because of the bug the firerate is effectively the same.
-***'''Level 3'''
-****Damage increased from +12 to +14.
-***'''Level 4'''
-****Cost decreased from {{Money|7,500}} to {{Money|6,250}}.
-****Damage increased from +5 to +6.
-****Range increased from +2 to +3.
-****[[Minigun Sentry]] health increased fro 150 to 750.
-****[[Minigun Sentry]] range increased from 20 to 22.
-***'''Level 6'''
-****Range decreased from +2.5 to +1.5.
-****[[War Machine Sentry]] health increased from 300 to 1,000.
-****[[War Machine Sentry]] explosion damage increased from 70 to 75.
-*'''22 May 2026''' - [[v1.91.0]]
-**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,575}}.
-***{{Bug}} Gifting was not discounted.
-*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Gamepass price increased from {{Robux|1,575}} to {{Robux|2,250}}.
-*'''5 June 2026''' - [[v2.0.0]]
-**Statistical changes (Regular):
-***'''Base'''
-****Firerate decreased from 1.225 to 1.2.
-****[[Sentry (Unit)|Sentry]] firerate decreased from 1.025 to 1.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|1.225 > 1.025|-0.2}} to {{Tooltip|1.2 > 1|-0.2}}.
-***'''Level 2'''
-****Without [[Firerate Bug]], [[Rifle Sentry]] firerate increased from 0.17 to 0.2, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.2.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|1 > 0.75|-0.25}}.
-****Without [[Firerate Bug]], [[Minigun Sentry]] firerate increased from 0.12 to 0.15, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.15.
-***'''Level 6'''
-****Firerate changed from {{Tooltip|0.775 > 0.625|-0.15}} to {{Tooltip|0.75 > 0.6|-0.15}}.
-****Without [[Firerate Bug]], [[War Machine Sentry]] firerate increased from 0.1 to 0.125, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.125.
-****[[War Machine Sentry]] splash damage decreased from 75 to 60.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Firerate decreased from 1.225 to 1.2.
-****[[Sentry (Unit)|Sentry]] firerate decreased from 0.475 to 0.45.
-***'''Level 3'''
-****[[Rifle Sentry]] firerate decreased from 0.225 to 0.2.
-***'''Level 4'''
-****Damage decreased from +6 to +4.
-****Firerate changed from {{Tooltip|1.225 > 0.775|-0.45}} to {{Tooltip|1.2 > 0.75|-0.45}}.
-***'''Level 5'''
-****Damage increased from +8 to +10.
-****[[Minigun Sentry]] firerate decreased from 0.175 to 0.15.
-***'''Level 6'''
-****Damage decreased from +20 to +18.
-****Firerate changed from {{Tooltip|0.775 > 0.625|-0.15}} to {{Tooltip|0.75 > 0.6|-0.15}}.
-****[[War Machine Sentry]] damage decreased from 10 to 8.
-****Without [[Firerate Bug]], [[War Machine Sentry]] firerate increased from 0.1 to 0.125, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.125.
-****[[War Machine Sentry]] splash damage decreased from 35 to 28.
-*'''8 June 2026''' - [[v2.0.0|v2.0.6]]
-**Statistical changes (Regular):
-***'''Base'''
-****Firerate increased from 1.2 to 1.4.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|1.2 > 1|-0.2}} to {{Tooltip|1.4 > 1.2|-0.2}}.
-***'''Level 3'''
-****Damage decreased from +14 to +10.
-****Firerate changed from {{Tooltip|1.2 > 1|-0.2}} to {{Tooltip|1.2 > 1}}.
-***'''Level 4'''
-****Damage increased from +6 to +10.
-****Firerate changed from {{Tooltip|1 > 0.75|-0.25}} to {{Tooltip|1 > 0.9|-0.1}}.
-***'''Level 5'''
-****Firerate changed from 0.75 to {{Tooltip|0.9 > 0.75|-0.15}}.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Scuba|Scuba Ops}}
-*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
-**Gamepass price increased from {{Robux|2,250}} to {{Robux|1,690}}.
-***{{Bug}} Gift price has not changed.
-*'''4 September 2026''' - [[v2.9.0]]
-**Gamepass price decreased from {{Robux|1,690}} to {{Robux|1,267}}.
-***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,250}} it is now {{Robux|1,687}}.
-}}
-
-==Notes==
-<references/>
+***'''Level 4A'''
+****Reward percentage increased from 50% to 60%.
+****''Bounty'' cooldown decreased from 150 to 120.
+****''Bounty'' initial cooldown of 40 added.
+***'''Level 5A'''
+****Reward percentage increased from 50% > 70% to 60% > 80%.
+***'''Level 6A'''
+****Reward percentage increased from 70% > 100% to 80% > 100%.
+****Reward cap changed from {{Money|25,000}} > {{Money|60,000}} to {{Money|25,000}} > {{Money|50,000}}.
+***'''Level 4B'''
+****[[Bouncer]] health decreased from 550 to 500.
+***'''Level 5B'''
+****[[Bouncer]] health increased from +200 to +250.
+***'''Level 6B'''
+****[[Contractor]] changed.
+****Health increased from 200 to 400.
+****Damage increased from 165 to 170.
+****Lifespan increased from 70 to 75.
+***[[Lackey]] changed.
+****Damage decreased from +2 to +1.
+****Range decreased from +2.5 to +0.5.
 
 
 
 {{TowerNavBox}}
-[[Category:Ground]]
