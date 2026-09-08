@@ -1,7 +1,45 @@
 {
-  "mode": "verify",
-  "query": "Enforcer",
-  "thread_url": "",
-  "limit": 100,
-  "test_run": "verify-enforcer-main-dps-fit"
+  "mode": "discussion_deep_search",
+  "query": "enforcer hacker mercenary base golden cowboy loadout solo triumph win strategy",
+  "must_include": [
+    [
+      "enforcer"
+    ],
+    [
+      "hacker",
+      "mercenary base",
+      "merc base",
+      "golden cowboy",
+      "gcow",
+      "g cow",
+      "gold cowboy"
+    ]
+  ],
+  "prefer_include": [
+    "golden cowboy",
+    "gcow",
+    "hacker",
+    "mercenary base",
+    "merc base",
+    "engineer",
+    "kingpin",
+    "dj",
+    "commander",
+    "medic",
+    "loadout",
+    "strategy",
+    "strat",
+    "solo",
+    "triumph",
+    "won",
+    "win",
+    "fallen",
+    "hardcore",
+    "frost",
+    "polluted",
+    "challenge",
+    "event"
+  ],
+  "pages": 50,
+  "per_page": 1000
 }
