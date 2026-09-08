@@ -1,6 +1,6 @@
 {
   "mode": "discussion_deep_search",
-  "query": "golden cowboy commander dj medic support loadout solo strategy triumph win challenge hardcore event",
+  "query": "golden cowboy hacker mercenary base kingpin loadout solo strategy win triumph",
   "must_include": [
     [
       "golden cowboy",
@@ -9,35 +9,32 @@
       "gold cowboy"
     ],
     [
-      "commander",
-      "dj",
-      "dj booth",
-      "medic"
+      "hacker",
+      "mercenary base",
+      "merc base",
+      "kingpin"
     ]
   ],
   "prefer_include": [
+    "hacker",
+    "mercenary base",
+    "merc base",
+    "kingpin",
     "commander",
     "dj",
     "dj booth",
     "medic",
-    "accelerator",
-    "accel",
-    "engineer",
-    "engi",
-    "mercenary base",
-    "merc base",
     "loadout",
     "strategy",
     "strat",
     "solo",
-    "duo",
     "triumph",
     "won",
     "win",
     "challenge",
+    "fallen",
     "hardcore",
     "polluted",
-    "wastelands",
     "event"
   ],
   "pages": 50,
