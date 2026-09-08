@@ -1,381 +1,614 @@
-{{ModeInfobox
-|title1 = Sandbox
-|image1 = TrapperStoreRender.png
-|waves = Varied
-|level_requirement = {{Level|250}}<br/>None (Sandbox Plus+ Gamepass)
-|starting_cash = {{Money|9,999,999,999}}
+{{Tabs}}
+{{TowerInfobox
+|title = Hacker
+|image-static = HackerIcon.png
+|image-dynamic = HackerDynamic.png
+|unlockcost = {{Gem|5,500}} or {{Robux|1,574}}
+|basecost = {{Money|900}}
+|basesellingprice = {{Money|300}}
+|role = Support
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]2
+|basedamage = [[File:Damage Icon.png|20px|Damage]]0
+|damagetype = Single<br/>Multi-target (Level 2+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.3
+|baserange = [[File:Range Icon.png|20px|Range]]11
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 0+}} (Converted Hologram Only)
+|flying_detection = N/A
+|immune = Partial Debuff<ref name="debuff">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name="stun">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>
+|footprint = 1.5
+|pvp_basecost = {{Money|1,400}}
+|pvp_basesellingprice = {{Money|466}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4
+|pvp_damagetype = Single<br/>Multi-target (Level 2+)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]11
+|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}
+|pvp_lead_detection = {{Attr|Lead|Level 0+}} (Collision only)
+|pvp_flying_detection = N/A
+|pvp_immune = Partial Debuff<ref name="debuff"/><br/>Partial Stun<ref name="stun"/>
+|pvp_footprint = 1.5
+|tooltip-1 = A defensive tower that targets multiple enemies and applies slow to targets
+|tooltip-2 = Enemy attacked by '''Hacker''' will be hacked and turned into a friendly units{{sic}}.
+|tooltip-3 = Enemies killed in '''Hacker's''' range will reward more cash at later levels.
+|tooltip-4 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
-{{QuoteContainer|
-{{QuoteBox|Experiment with the whole game!|Gamemode Description}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Attacks multiple enemies with synapses, siphon cash, and clone towers/enemies! This feels.. illegal!?!|Store Description}}
+|-|Version 1 =
+{{QuoteBox|A mid-range AOE tower that's capable of sending back enemies, providing eco, and allowing the player to create copies of towers.|Former Store Description}}
+</tabber>
 }}
+__TOC__
 ==Description==
-'''Sandbox'''  mode is a mode unlocked by being {{Level|250}} or by purchasing the [[Gamepasses|Sandbox Plus+ gamepass]], and can only be played through [[Matchmaking]].
+The '''Hacker''' is a hardcore tower that hacks enemies, applying various effects to them. It can be purchased from the store for {{Gem|5,500}} or through a gamepass for {{Robux|1,574}}.
 
-'''Sandbox''' mode allows experimenting with various parts of the game. For the most part, this is limited to things available to the players through regular gameplay, though some unused or legacy content has also been made available here, either for free or by owning the Sandbox Plus+ gamepass. However, that is limited only to towers the player has in their inventory and enemies need to have their [[Logbooks]] collected (though modern enemy [[Logbooks]] also unlock legacy enemies in '''Sandbox''' as long as the player has the Sandbox Plus+ gamepass) to be spawned in '''Sandbox''' mode.
+It damages enemies using synapses fired from its equipment, which starts off with a smartphone, then some sort of wrist gadget and in the bottom path, a laptop. These beams target a single enemy, dealing single target damage. Any enemy attacked by the '''Hacker''' will have these effects applied to it:
+#First hack is ''Unit Conversion'', unlocked at Level 0. When the enemy is killed, it will be converted into a hologram, with reduced health. This hologram will function similarly to a [[Units|unit]], dealing damage to an enemy upon collision. The converted enemy will ignore defense and [[Tank (Attribute)|Tank]] of the enemy it is colliding with. If the converted enemy has defense, this defense will boost the damage it deals to other enemies. [[Bloated]] does also boost the health of such enemies. [[Boss]] enemies are unable to be converted into holograms.<br/>Enemy health is calculated using their max health and the tower's EV. Health is calculated as:<br/><math>\text{Max Health}^\text{EV}</math>
+#Second hack is ''Wire Fraud''. Enemies targeted by the '''Hacker''' will have their rewards on death or damage increased. This is a global boost, meaning everyone in the match receives the added income.
+#Third hack is ''Slowness''. This applies a slowness effect to any enemy, as long as it is not a [[Boss]] enemy.
 
-Modes can only be started if they were beaten by the player. Units can be summoned, though there appears to be no restrictions on which can be summoned. Any consumables that were whitelisted by the developers can be used. For maps, it has to be triumphed on any difficulty for it to be able to be selected in '''Sandbox''' mode, though not all maps appear in the selection, meaning not all of them can be picked. The music section allows for the soundtrack to be changed to any soundtrack whitelisted by the developers.
+The '''Hacker''' also has an ability, ''Hologram Tower'', which allows it to duplicate a tower. It can duplicate any tower on the map and place it down in any spot. This tower will last for a limited amount of time and disappear once the lifetime ends. The cloned tower will have the hologram modifier on it. The ability has a varying cost based on the total cost of the cloned tower. '''Hacker''' cannot clone other '''Hackers''' or itself. If a cloned tower has a placement limit, then there can only be as many clones of that tower from one player at a time as its placement limit. For example, the [[Gatling Gun]] can only have one clone from a player at a time due to the tower having a placement limit of one.
 
-With the Sandbox Plus+ gamepass, all restrictions are removed. This makes the modifiers, challenges and stat editor sections open, while most content that was restricted behind progression (for example, gathering [[Logbooks]] or triumphing maps) is instantly unlocked. This also unlocks some things which would be impossible to collect in regular gameplay, making them Sandbox Plus+ exclusive. It also unlocks multiple options seen on the sidebar, including infinite cash, infinite towers, invincible, consumable cooldowns, and allows [[Time Scale]] to be set past 2. It also allows players to start matches with up to six people instead of the usual four. Sandbox Plus+ can also be given to three other players, granting them most of the benefits. Players can also be kicked from the match or blacklisted during a match.
+The '''Hacker''' has hidden detection from Level 2. It has a placement limit of two per player.
 
-'''Sandbox''' mode contains a large number of content which is normally, not available in-game. A list of pages which are primarily about '''Sandbox''' only content can be found [[:Category:Sandbox Only|here]].
+==Upgrades==
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Upgraded Rig|Cost = {{Money|125}}|Image = [[File:HackerUpgrade1.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-==Admin Panel Features==
-===Towers===
-'''Sandbox''' allows for any tower to be placed down, though towers require ownership. The tower will have their skin equipped, if they have any equipped. There is an option to enable golden perks for towers, though regardless if it is turned on or off towers will be placed with golden perks only if they were activated in the lobby. It is also possible to set the level at which the tower will be placed down in. Setting it to anything higher than their max level will just reduce it to that. Towers can be added to the loadout or removed from it by right clicking on their icon in the admin panel, with no limit on how many towers can be equipped. This is currently bugged and right clicking will do nothing majority of the time. However, any towers selected past the 6th will not have a hotkey, and will have to be placed by clicking their button.
+7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]
 
-If infinite cash is disabled and towers are placed down at a level higher than Level 0, they will actually only cost the placement cost to place down and not the full cost required to get to the specified level.
 
-If you have Sandbox Plus+, players can equip any non-event tower. However, it is currently bugged, and requires two clicks on "Equip" to actually equip the tower, and even then, they cannot be placed at all.
+Sell Price changes to {{Money|341}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Shady Business|Cost = {{Money|1,337}}|Image = [[File:HackerUpgrade2.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-===Enemies===
-'''Sandbox''' allows a specific list of enemies to be summoned, alongside any enemy unlocked through [[Logbooks]]. The section is split into Modern and Legacy, with Modern being enemies added after the [[Lunar Overture Event]], while the Legacy section is all enemies before that. It includes mostly enemies that were or are available to the regular player, though some unused enemies also appear there.
++Hidden Detection {{Hidden|Hidden Detection}}
 
-[[Logbooks]] are required to summon any enemy without the Sandbox Plus+. However, even when using Sandbox Plus+, [[Logbooks]] are still necessary for spawning certain enemies that cannot be selected without them, such as the [[Operation I.C.E Event]] enemies. Legacy enemies cannot be chosen without Sandbox Plus+, even if the player has the [[Logbooks]] for them. Up to 100 enemies can be summoned at once with a 0.01 minimum delay between each one. Hovering over enemies displays their health and speed.
++1 Synapses
 
-A limited selection of attributes can also be applied to them, regardless of whether the player has the Sandbox Plus+. These are:
-*[[Aggro]]
-*[[Bloated]]
-*[[Boss]]
-*[[Flying]]
-*[[Ghost (Attribute)|Ghost]]
-*[[Health Regen]] (displayed as ''HealthRegen'')
-*[[Hidden (Attribute)|Hidden]]
-*[[Lead (Attribute)|Lead]]
-*[[Slime (Attribute)|Slime]]
-*[[Corpse (Attribute)|Corpse]] (displayed as ''MoltenCorpse'')
+0.45 > 0.55 Hologram EV
 
-Summoned enemies use their default health values, even if a mode is selected. This health can be seen in the [[Index]]. If the enemy has no default health (which will be displayed as "''N/A''" in the [[Index]]), it will simply break at the entrance. Any other missing statistics will either break the enemy too or have them default to a default value if one is not set. For example, an enemy with only cash gained set to specific modes will generate {{Money|5}} on death, similarly to enemies who have no cash income set.
+12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
 
-Legacy enemies, while summonable, are not entirely the enemy they normally are. In most cases, they actually copy the statistics of the modern version of the enemy, only retaining their appearance and abilities. Additionally, while the map does not use [[Enemies Beta]] appearances on enemies, making any enemy a [[Boss]] will have it use its [[Enemies Beta]] appearance on its [[Boss]] health bar.
 
-===Units===
-Majority of the regular units can be chosen to be summoned, even without having the Sandbox Plus+ gamepass, though some of them are missing, even if the player owns the tower that it is spawned from. Units use their internal names rather than the ones displayed above their health bar. Currently, the [[Missile APC]] and all stationary units ([[Ice Turret]] and [[Engineer]]'s sentries) cannot be summoned through here. Up to 100 units can be spawned at once with a minimum delay of 0.1. Hovering over units displays their health.
+Sell Price changes to {{Money|787}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Teleportation Tech|Cost = {{Money|6,500}}|Image = [[File:HackerUpgrade3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-It is not possible to spawn units of a specific level for units like the [[Grenadier]] and it is not possible to activate golden perks for units like the [[Pistol Goon]]. Skins also cannot be applied to them, either in the units section or by equipping a skin for the tower they spawn from. While an option to apply attributes to them exists, it does not work, even ones which are displayed under their health bar, like the [[Freeze Immunity]].
++10 Damage [[File:Damage Icon.png|20px|Damage]]
 
-===Consumables===
-Majority of the consumables can be used by the player, even without the Sandbox Plus+ gamepass, though the consumables cooldown option on the sidebar is disabled. Enabling that option makes it so that any consumables with an additional cooldown before they can be used again, such as the [[Nuke]], no longer have it. Any consumables not available to be selected can still be used if they are equipped by the player in the lobby before entering '''Sandbox''' mode. Consumables can be added to the loadout or removed from it by right clicking on their icon in the admin panel. While the game will not prevent the player from adding more than four of them to their loadout, the player will not have more than the first four of them displayed.
+0.55 > 0.625 Hologram EV
 
-===Maps===
-This section allows for all publicly available maps in regular gameplay and for some other old maps, such as event maps or removed maps to be activated. It is split into five sections based on map difficulty, these being {{Color|Easy}} (which includes {{Color|VeryEasy}} maps), {{Color|Normal}}, {{Color|Hard}}, {{Color|Insane}} and {{Color|Special}}. Maps use their own icons, which for event maps available from here means they use maps taken from other maps, used as a placeholder.
+{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower
 
-===Gamemodes===
-All five survival modes can be activated here. These can be unlocked by triumphing these modes. However, multiple features of these modes will not be properly applied. For example, [[Fallen Mode|Fallen]]'s base health limit of 200 will not be applied here. There are two additional options, these being [[Hidden Wave]] which does not appear to function currently, and enable vote skip, which allows players to vote to skip the waves. Enabling any mode disables infinite cash and invincible, while also setting the wave to 1. Waves can be skipped by using the cancel timer option. Specific waves can be started by typing in the wave number before activating the mode in the desired wave option. Music that plays during the match can be disabled with the music enabled option. The match can be completely restarted from Wave 1 using restart game button.
+•30% Clone Cost
 
-===Modifiers===
-This is a section exclusive to the Sandbox Plus+. It allows for most modifiers, including some never released ones, ones that used to be seen in matches but no longer are and some that are currently available in maps. Multiple of these contain content which is actually not available through other means, but can be accessed by using them. For example, the [[Toilet Boss]] can be spawned in by activating the [[Brain Rot]] modifier and summoning the [[Grave Digger]], even though the [[Toilet Boss]] is not available as a summonable enemy. Modifiers will not display how much they boost the income by.
+•25 Hologram Lifetime}}
 
-Modifiers applied during specific time periods, such as the [[Birthday]] modifier applied on the 15th of June, are not applied in '''Sandbox''' mode. However, they can still be enabled through the admin panel.
 
-===Challenges===
-This is a section exclusive to the Sandbox Plus+. It allows for any [[Challenge Maps|Challenge Map]] to be activated. This includes the proper [[Challenge Maps]] which rotate every week, special maps which actually use the [[Challenge Maps|Challenge Map]] system, event modes which use the [[Challenge Maps|Challenge Map]] and some unreleased [[Challenge Maps]]. Some of the available [[Challenge Maps]] contain content not available in other sections. For example, the [[Classic Candy Cane Lane|Portal to the Past]] will allow players to use the [[Classic Candy Cane Lane]] map, which cannot be chosen as a map normally.
+Sell Price changes to {{Money|2,954}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = 5th Gen I9 3260590327|Cost = {{Money|24,000}}|Image = [[File:HackerUpgrade4.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-===Music===
-This section allows for majority of music which can be played in-game to be played, overriding the current music. This also includes some music that was never properly introduced or music which can no longer be heard in-game normally. Each track uses its internal name rather than the name they were uploaded by Paradoxum Games or Phoqus with, though sometimes they are the same. Music enabled option being disabled prevents these from being heard in-game. Currently selected music will be overridden by any music changes caused during the match.
++12 Damage [[File:Damage Icon.png|20px|Damage]]
 
-Currently, the following tracks can be played in '''Sandbox''' mode:
-{{scroll|text =
-*[https://www.youtube.com/watch?v=rTdBvGlf4BE/ Spooky!] - ''2020 Halloween Lobby''
-*[https://www.youtube.com/watch?v=OUeUhLrZzBg/ Winter Lobby 2023 Theme] - ''2023 Christmas Lobby''
-*[https://www.youtube.com/watch?v=snKhu-_lcNQ/ Late Fall 2024 Lobby] - ''2024 Fall Lobby''
-*[https://www.youtube.com/watch?v=boAGAMUNT74/ Red Hex Temple (Event Lobby Theme)] - ''2024 Halloween Event Area''
-*[https://www.youtube.com/watch?v=wCTUTdoNmms/ Hardcore Wave 45] - ''45''
-*[https://www.youtube.com/watch?v=jOQF6yoH3Sk/ Ancient Dream] - ''Ancient_Dream''
-*[https://www.youtube.com/watch?v=VYOuF2caPJA/ Art Of War] - ''Art of War eminor''
-*[https://www.youtube.com/watch?v=VbTgwZ5EaRw/ The Badlands] - ''Badlands''
-*[https://www.youtube.com/watch?v=l6HfemqAoQs/ Blizzard] - ''Blizzard''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=bC9SrLYhX0A here].
-*[https://www.youtube.com/watch?v=OpOhaj-Ok_M/ Broken Bastion] - ''Broken_Bastion''
-*[https://www.youtube.com/watch?v=ylRodv5mDDk/ Catharsis] - ''Catharsis''
-*[https://www.youtube.com/watch?v=DBrJI_9jOe/ Classic Lobby] - ''Classic Roblox''
-**This theme currently is bugged and cannot be played in the music tab ingame.
-*[https://www.youtube.com/watch?v=qJwC7-oPdFc/ The Classic Theme] - ''Classic Roblox Boss Fight''
-*[https://www.youtube.com/watch?v=IaPuL8iQ6Nk/ Corrupted Terror of Titus] - ''Corrupted Night 1 2024 Boss''
-*[https://www.youtube.com/watch?v=HWYl-gOSPaM/ Corrupted Skream] - ''Corrupted Night 2 2024 Boss''
-*[https://www.youtube.com/watch?v=BOOVJjNHkOQ/ Crying Obsidian] - ''Crying_Obsidian''
-*[https://www.youtube.com/watch?v=6tchrKLSQSg/ Desolate Dystopia] - ''Desolate Dystopia''
-*[https://www.youtube.com/watch?v=D3mjy8TYoKQ/ Ducky Boom] - ''Ducky Ambience''
-*[https://www.youtube.com/watch?v=c7cfN1Ituy4/ Duck Hunting] - ''Ducky Intense''
-*[https://www.youtube.com/watch?v=4J_MJUtgoOc/ Duckstep] - ''Duckystep''
-*[https://www.youtube.com/watch?v=7bVYXKylUaQ/ The Hunt] - ''Egg Hunt 2024''
-*[https://www.youtube.com/watch?v=LGyFZfpJ58c/ Equinox (Awakened Fallen King Theme)] - ''Equniox''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=PlwLRQR4tk0 here].
-*[https://www.youtube.com/watch?v=Me9Xm-X8RVk/ Heresy! (Executioner's Theme)] - ''ExecutionersTheme''
-*[https://www.youtube.com/watch?v=T-9IHtudyWk/ Eye Of The Swarm] - ''Eye of the storm''
-*[https://www.youtube.com/watch?v=mykCf_gYN6A/ Void Steps (Fallen King Theme)] - ''Fallen King''
-*[https://www.youtube.com/watch?v=KJ7jpB693DA/ Fate Sealed Shut] - ''Fate_Sealed_Shut''
-*[https://www.youtube.com/watch?v=HPY2mMigBwE/ Fill Them With Lead] - ''Fill Them With Lead''
-*[https://www.youtube.com/watch?v=zijnQ-9sy4w/ Gatekeeper] - ''Gatekeeper''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=KOUsus7ZL-U here].
-*[https://www.youtube.com/watch?v=ct0M-d0H0-k/ Gold Titan (Golden Boss)] - ''Golden Boss''
-*[https://www.youtube.com/watch?v=CKMJC4FhcUY&t=1s/ Grave Buster] - ''Grave Buster''
-*[https://www.youtube.com/watch?v=IP1m_n9MGfY/ Harvesting Season Theme] - ''Halloween''
-*[https://www.youtube.com/watch?v=osNJzlRSKj8/ You Lost! (Halloween Mix)] - ''HalloweenLose''
-*[https://www.youtube.com/watch?v=m0_gESw7DRc/ Triumph! (Halloween Mix)] - ''HalloweenTriumph''
-*[https://www.youtube.com/watch?v=DBA8xveVZ8g/ Lunar Overture] - ''HandsBoss''
-*[https://www.youtube.com/watch?v=94YtB3VD9Z8/ Raze The Void] - ''Hardcore''
-*[https://www.youtube.com/watch?v=TP2wLKnS-pM/ Hidden Wave] - ''Hidden Wave''
-*[https://www.youtube.com/watch?v=LGyFZfpJ58c/ Equinox (Awakened Fallen King Theme)] - ''Hidden Wave Intro''
-*[https://www.youtube.com/watch?v=GJokYPjXZfo/ Snow Jumper] - ''Holiday Arcade''
-*[https://www.youtube.com/watch?v=BKXdaWSxDCU/ Intermission Theme] - ''Intermission''
-*[https://www.youtube.com/watch?v=V8hAjAZMfxM/ Into The Void] - ''Into The Void''
-*[https://www.youtube.com/watch?v=X9RP3Qy8oEI/ Reignited (Jack O Bot's Theme)] - ''JackOBot''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=SdykkMUfZXo here].
-*[https://www.youtube.com/watch?v=LY-dqAvfFQk/ Krampus 2023 Theme] - ''Krampus''
-*[https://www.youtube.com/watch?v=qhTV0FkSXPY/ Fallen Boss] - ''Legacy Fallen King''
-*[https://www.youtube.com/watch?v=cYHLV7DKVr0/ Molten Doom] - ''Legacy Molten Boss''
-*[https://www.youtube.com/watch?v=HeoFu-2MSas/ Nuclear Fallen King] - ''Legacy Nuclear Fallen''
-**This theme currently is bugged and cannot be played in the music tab ingame.
-*[https://www.youtube.com/watch?v=iR2txJaVbkI/ 2022 Lobby Theme] - ''Lobby''
-*[https://www.youtube.com/watch?v=K4IC21yjHd4/ Lose Theme 2022] - ''Lose''
-*[https://www.youtube.com/watch?v=cnVkOaZ1VwM/ Lost Souls] - ''Lost Souls''
-*[https://www.youtube.com/watch?v=IKLTqe-Wg04/ Maueve Genocide] -''Maueve_Genocide''
-*[https://www.youtube.com/watch?v=prSo-UmDyuA/ Melancholy Hill] - ''Melancholy Hill''
-*[https://www.youtube.com/watch?v=BbiBFEmQQU4/ Metaverse (Giga AJ)] - ''Metaverse''
-*[https://www.youtube.com/watch?v=UMNbomqpC_4/ Meltdown (Molten Boss Theme)] - ''Molten Boss''
-*[https://www.youtube.com/watch?v=InnegOa0_rE/ Mystery Unveiled] - ''Mystery_Unveiled''
-*[https://www.youtube.com/watch?v=tr0b8zXr3QM/ Neuro Raze] - ''Neuro Raze''
-*[https://www.youtube.com/watch?v=KX_9CTO1bQk/ Terror Of Titus (Titus Theme)] - ''Night 1 2024 Boss''
-*[https://www.youtube.com/watch?v=Kj835ZPy-nE/ Skream (Conserver Theme)] - ''Night II 2024 Boss''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=AoRo_n3gkHg here].
-*[https://www.youtube.com/watch?v=eXHFR4ixLss/ Brimstone Maledict (Primordial Drakobloxxer Theme)] - ''Night III 2024 Boss''
-*[https://www.youtube.com/watch?v=VcrIbjvBp5A/ Waste Water] - ''Nuclear Ambience''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=XZQAooDPTps here].
-*[https://www.youtube.com/watch?v=YGKVFoJZBak/ Going Nuclear! (Nuclear Monster Theme)] - ''Nuclear Fallen''
-*[https://www.youtube.com/watch?v=1kHS0_D3fbg/ They're Mutated!] - ''Nuclear Intense''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=9MZbYK9K42o here].
-*[https://www.youtube.com/watch?v=aI2BIU-_bVo/ Welcome To The Party!] - ''Party Time''
-*[https://www.youtube.com/watch?v=uU3xWKjuOQA/ Containment Breach] - ''Patient Zero Ambience''
-*[https://www.youtube.com/watch?v=xLVYuF3K_g0/ The Final Experiment (Patient Zero's Theme)] - ''Patient Zero Boss''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=Mbx688smQDE here].
-*[https://www.youtube.com/watch?v=sqdoWNDyUAs/ Wox The Fox Theme] - ''Pizza Party''
-*[https://www.youtube.com/watch?v=oTkNJ7rUun0/ Break The Bank! (Corrupted Haz3mn Theme)] - ''Pls Donate Boss''
-*[https://www.youtube.com/watch?v=sZtuHsDwaws/ Portal To Hell] - ''Portal To Hell''
-*[https://www.youtube.com/watch?v=lodXVraSm_Q/ Pumpkin Shreddin’] - ''Pumpkin Shredder''
-*[https://www.youtube.com/watch?v=YPUwvN1ntV0/ Rain Dance] - ''Rain Dance''
-*[https://www.youtube.com/watch?v=nnvkABgl9w0/ Rebelution] - ''Rebelution''
-*[https://www.youtube.com/watch?v=5N7lYaAqjHI/ Gun Slinging Madness (Gunslinger's Theme)] - ''Saloon''
-*[https://www.youtube.com/watch?v=u2IDI6G6ArY Carol of the Bots] - ''Santabot''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=KNbWX3gRLRE here].
-*[https://www.youtube.com/watch?v=qDpfgYiv7-g/ Shellshock] - ''Shellshock''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=KkAPCJ1JrG0 here].
-*[https://www.youtube.com/watch?v=2Ogl3kI1sRQ/ Skibidi] - ''Skibidi''
-*[https://www.youtube.com/watch?v=DfVU8YpMLV0/ Solar Eclipse Lobby] - ''Solar Lobby''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=h7Q1om3bmkI here].
-*[https://www.youtube.com/watch?v=PoUbQdINGYE/ They Are Coming...] - ''Spooky Hour''
-*[https://www.youtube.com/watch?v=ytRBY4kXosw/ Who Lurks There?] - ''Swamp Thing''
-**The version heard in-game differs slightly from the YouTube upload. The in-game version can be found [https://www.youtube.com/watch?v=m1DTQy1r4ss here].
-*[https://www.youtube.com/watch?v=TqO4WYC3ues/ The Horde] - ''The Horde''
-*[https://www.youtube.com/watch?v=ejf8jGTcwXw/ Totality (Umbra's Theme)] - ''Totality''
-*[https://www.youtube.com/watch?v=6ZfQsbVfgwE/ Jack O Bot] - ''TrickOrThreat''
-*[https://www.youtube.com/watch?v=n-jRh1xbG1M/ Triumphant!] - ''Triumph''
-*[https://www.youtube.com/watch?v=FTWankOw18Q&t/ Tutorial Theme] - ''Tutorial''
-*[https://www.youtube.com/watch?v=avt3ApHbIlo/ Vocatis Inanis] - ''Vocatis''
-*[https://www.youtube.com/watch?v=pMxlM2jARzA/ Difficulty Select] - ''Voting''
-*[https://www.youtube.com/watch?v=ILNfg8A-DSg/ Wave 45 Theme] - ''Wave45''
-*[https://www.youtube.com/watch?v=cB3m4KusE3k/ Winter Lobby] - ''Winter 2020''
-*[https://www.youtube.com/watch?v=dtH_rhfh69Y/ Frost Invasion Lobby] - ''Winter 2021''
-*[https://www.youtube.com/watch?v=FScuzVQp-rI/ It's Getting Frosty] - ''Winter Fall''
-*[https://www.youtube.com/watch?v=k5RAy59x7vM/ Frost Solitude] - ''Winter Solitude''
++1 Synapses
+
+0.625 > 0.675 Hologram EV
+
+15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+30% > 25% Clone Cost
+
+
+Sell Price changes to {{Money|10,954}}}}
+{{PathTabber
+|{{Upgrade|Level = Level 5|Upgrade Title = Overclock|Cost = {{Money|60,001}}|Image = [[File:HackerUpgrade5A.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
+
+0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++3 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.675 > 0.75 Hologram EV
+
+25 > 30 Hologram Lifetime
+
+Sell Price changes to {{Money|30,954}}}}
+|{{Upgrade|Level = Level 5|Upgrade Title = Rug Pull|Cost = {{Money|53,200}}|Image = [[File:HackerUpgrade5B.png|100px]]|Information = +5 Range [[File:Range Icon.png|20px|Range]]
+
++1 Synapses
+
+10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]
+
+20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+25% > 75% Clone Cost
+
+25 > 120 Hologram Lifetime
+
+
+Sell Price changes to {{Money|28,687}}}}
+}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Upgraded Rig|Cost = {{Money|600}}|Image = [[File:HackerUpgrade1.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+
+0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+
+Sell Price changes to {{Money|666}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Shady Business|Cost = {{Money|1,250}}|Image = [[File:HackerUpgrade2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
++1 Synapses
+
+15% Slowness [[File:Slowness.png|20px|Slowness]]
+
+0.6 > 0.65 Hologram EV
+
+7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+
+Sell Price changes to {{Money|1,083}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Teleportation Tech|Cost = {{Money|7,500}}|Image = [[File:HackerUpgrade3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++14 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.65 > 0.725 Hologram EV
+
+7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower
+
+•35% Clone Cost
+
+•60 Hologram Lifetime}}
+
+
+Sell Price changes to {{Money|3,583}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = 5th Gen I9 3260590327|Cost = {{Money|22,000}}|Image = [[File:HackerUpgrade4.png|100px]]|Information = -2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++1 Range [[File:Range Icon.png|20px|Range]]
+
+0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]
+
+0.725 > 0.825 Hologram EV
+
+10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+35% > 30% Clone Cost
+
+60 > 75 Hologram Lifetime
+
+
+Sell Price changes to {{Money|10,916}}}}
+{{PathTabber
+|{{Upgrade|Level = Level 5|Upgrade Title = Overclock|Cost = {{Money|63,500}}|Image = [[File:HackerUpgrade5A.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
+
+0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+-3 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Synapses
+
+20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]
+
+0.825 > 0.9 Hologram EV
+
+
+Sell Price changes to {{Money|32,083}}}}
+|{{Upgrade|Level = Level 5|Upgrade Title = Rug Pull|Cost = {{Money|48,000}}|Image = [[File:HackerUpgrade5B.png|100px]]|Information = +5 Range [[File:Range Icon.png|20px|Range]]
+
++1 Synapses
+
+20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]
+
+12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]
+
+30% > 25% Clone Cost
+
+75 > 120 Hologram Lifetime
+
+
+Sell Price changes to {{Money|26,916}}}}
+}}
 }}
 
-===Stats===
-This is a section exclusive to the Sandbox Plus+. It allows for the statistics of a tower or its golden perk to be altered, though the selection of statistics is limited. The icons used are meant to be the Default skin, though due to bugs, skins of most towers are changed based on tower's equipped skins. Most often, the current [[Scout]] skin will change icons of all towers to use the skins of the same name, including unreleased skins like the Intern [[Crook Boss]]. Skins from others towers can also trigger this, though it is harder to do so. Only the price, damage, cooldown, range, limit, spawntime and income statistics can be changed. Additionally, in multiple cases, these statistics can only be changed if the upgrade currently changes them. For example, for the Level 1 [[Freezer]], only the range and cost statistics can be changed as these are the only statistics to receive a change at Level 1. Additionally, each statistic has a limit on what it can be set to, further limiting the options. These limits are:
-*Price: {{Money|0}}-{{Money|9,999,999}}
-*Damage: 0-9,999,999
-*Cooldown: 0.01-100
-*Range: 0.01-100
-*Limit: 0-100
-*Income: {{Money|0}}-{{Money|9,999,999}}
-*SpawnTime: 0.01-100
+==Ability==
+{{Ability|Level Unlock = Level 3+|Cooldown Time= 60s Cooldown|Ability Title = Hologram Tower|Image = [[File:HologramTowerIcon.png|100px]]|Information = 
+Clones a tower after the drone has selected via the ability. Cost varies based on the total cost of the tower and the '''Hacker's''' Level.
+}}
+
+==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+{{neow|<nowiki>
+<var>
+$DPS$ = Damage / Firerate
+$MDPS$ = Damage * Synapses / Firerate
+$CE$ = Total Cost / DPS
+$MCE$ = Total Cost / Max DPS
+$TP$ = $FNC-TOTAL-COST$
+$FNC-SCHEMA$ = N; N; N; N; N; A; B;
+$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
+$COST$ = 900; 125; 1337; 6500; 24000; 60001; 53200
+$PVP-COST$ = 1400; 600; 1250; 7500; 22000; 63500; 48000
+$FSE-DETECTION$ = 2; ;
+$FSE-UPGRADE$ = Upgraded Rig; Shady Business; Teleportation Tech; 5th Gen I9 3260590327; Overclock; Rug Pull
+$FSE-UPGRADEICON$ = 116572141213630; 84772480553742; 73779458293742; 71327152036764; 78547724037844; 105579078081734
+$FSE-META$ = Hardcore; File:HackerIcon.png
+$R$ = $FNC-RECURSION$
+</var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="17" |Neutral Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Synapses !! Range !! Hologram EV !! Slowness !! Clone Cost !! Hologram Lifetime !! Wire Fraud !! Unit Limit !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+|-
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 0 || 0.3 || 1 || 11 || 0.45 || 7.5% || N/A || N/A || 12.5% || 1,000 || $DPS$ || $MDPS$ || {{Money|N/A}} || {{Money|N/A}}
+|-
+| 1 || $R$ || $R$ || 0 || 0.3 || 1 || 12.5 || 0.45 || 10% || N/A || N/A || 12.5% || 1,000 || $DPS$ || $MDPS$ || {{Money|N/A}} || {{Money|N/A}}
+|-
+| 2 || $R$ || $R$ || 0 || 0.3 || 2 || 14 || 0.55 || 10% || N/A || N/A || 15% || 1,000 || $DPS$ || $MDPS$ || {{Money|N/A}} || {{Money|N/A}}
+|-
+| 3 || $R$ || $R$ || 10 || 0.3 || 2 || 15 || 0.625 || 10% || 30% || 25 || 15% || 1,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|-
+| 4 || $R$ || $R$ || 22 || 0.3 || 3 || 16 || 0.675 || 10% || 25% || 25 || 20% || 1,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="17" |Top Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Synapses !! Range !! Hologram EV !! Slowness !! Clone Cost !! Hologram Lifetime !! Wire Fraud !! Unit Limit !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+|-
+| 5 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 25 || 0.1 || 3 || 18.5 || 0.75 || 10% || 20% || 30 || 20% || 1,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="17" |Bottom Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Synapses !! Range !! Hologram EV !! Slowness !! Clone Cost !! Hologram Lifetime !! Wire Fraud !! Unit Limit !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+|-
+| 5 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 22 || 0.3 || 4 || 21 || 0.675 || 12.5% || 75% || 120 || 25% || 1,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|}
+</div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="18" |Neutral Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Synapses !! Range !! Hologram EV !! Slowness !! Clone Cost !! Hologram Lifetime !! Wire Fraud !! Unit Limit !! Unit Send Cooldown !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 0.8 || 1 || 11 || 0.6 || 0% || N/A || N/A || N/A || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|-
+| 1 || $R$ || $R$ || 4 || 0.5 || 2 || 14 || 0.6 || 0% || N/A || N/A || 7.5% || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|-
+| 2 || $R$ || $R$ || 6 || 0.5 || 2 || 14 || 0.65 || 15% || N/A || N/A || 10% || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|-
+| 3 || $R$ || $R$ || 20 || 0.5 || 2 || 15 || 0.725 || 15% || 35% || 60 || 10% || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|-
+| 4 || $R$ || $R$ || 18 || 0.3 || 2 || 16 || 0.825 || 20% || 30% || 75 || 12.5% || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="18" |Top Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Synapses !! Range !! Hologram EV !! Slowness !! Clone Cost !! Hologram Lifetime !! Wire Fraud !! Unit Limit !! Unit Send Cooldown !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+|-
+| 5 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || 0.1 || 4 || 18.5 || 0.9 || 15% || 30% || 75 || 12.5% || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="18" |Bottom Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Synapses !! Range !! Hologram EV !! Slowness !! Clone Cost !! Hologram Lifetime !! Wire Fraud !! Unit Limit !! Unit Send Cooldown !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+|-
+| 5 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 18 || 0.3 || 3 || 21 || 0.825 || 25% || 25% || 120 || 20% || 1,000 || 0.1 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+|}
+</div>
+</tabber></div>
+</nowiki>}}
+
+==Skins==
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:FallenHackerIcon.png|175px]]
+|[[File:TriumphantHackerIconIG.png|175px]]
+|[[File:CameraOperatorHackerIconIG.png|175px]]
+|[[File:ReindeerMechHackerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FallenMission|Fallen}}
+|{{Color|Other|Triumphant}}
+|{{Color|Showtime|Camera Operator}}
+|{{Color|FinalAct|Reindeer Mech}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|''Corrupted Touch'' [[Mission Quests|Mission Quest]]
+|First 50 [[Hidden Wave]] triumphs
+|[[Showtime Crate]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
+|-
+!
+|[[File:PoolDayHackerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Beach|Pool Day}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|10,000}}
+|-
+!Obtained From
+|[[Beach Crate]]
+|}
+
+==Strategy==
+*Duplicate towers with low placement limits, such as the [[Juggernaut]], [[Turret]], [[Necromancer]], [[DJ Booth]] or [[Gatling Gun]] for the most value.
+**Do note however that the lifespan of cloned towers are very short. This makes the bottom path ideal for this, as it has the longest clone lifespans.
+***Additionally, due to the cooldown being 60 seconds, it is possible to have more than 1 clone. This can be further improved by using the [[Skills|Skill]] Accelerator to reduce the cooldown to 52.5 seconds.
+**The [[DJ Booth]] can help by reducing tower costs, making them effectively cheaper to clone.
+*The '''Hacker''' will convert any enemy it is targeting into a hologram, dealing collision damage to enemies.
+**Top path is preferred for this, as its high DPS and stronger EV allows it to create stronger enemies.
+**This is most useful in modes where a large number of high health enemies are present, most preferably [[Polluted Wasteland II]].
+**As enemies only need to be targeted by the '''Hacker''' to be converted, it is recommended to have towers with high DPS, such as the [[Accelerator]], damage the enemies in order to convert them faster.
+**These enemies will bypass defense and [[Tank (Attribute)|Tank]]. However, they cannot damage [[Flying]] or [[Ghost (Attribute)|Ghost]] enemies.
+**If an enemy has defense, that defense will boost how much damage they deal.
+***Because of this, do be aware when using defense dropping towers with the '''Hacker'''. While they will make converting enemies faster, they will also reduce the damage dealt.
+*While majority of enemies will still perform their on death abilities, some of them will be partially or fully negated. For example, the [[Breaker4]] will only summon one [[Breaker3]] on death when converted instead of three.
+**Some enemies can have their second phase cancelled by the '''Hacker'''. For example, the [[Abomination]] will be converted over before it changes into the Reanimated.
+*The '''Hacker''' can be used to slow down enemies, making it easier to kill them.
+**Bottom path is best for this, as it has a far better slowness than top path.
+**Only [[Boss]] enemies are immune to this slowdown.
+***Additionally, its slowness can stack with other towers, which means, combined with the [[Toxic Gunner]] and [[Harvester]]'s thorns, they can slow down every non-boss enemy by up to 95%.
+*The '''Hacker''' can be used to boost cash gained from enemies, allowing for easier cash generation.
+**Bottom path is best for this, as it boosts the cash gained far more than top path.
+*To utilize the '''Hacker's''' high potential for dealing with crowds, set each '''Hacker’s''' targeting to ''Strongest'' and ''Weakest'', respectively.
+*Setting the '''Hacker''' to ''Weakest'' can ensure that the tower will target and kill enemies on low health.
+*When using [[Firework Technician]], each Synapses has their own chance to proc fireworks, resulting in the '''Hacker''' being way more likely to generate one.
+**This can be helpful for bottom path '''Hacker''' to make up for its lower DPS.
 
 ==Trivia==
-*'''Sandbox Mode''' has the highest level requirement out of all other game modes in the entire game, requiring players to be at least {{Level|250}} to enter, while all other game modes have a requirement significantly below this threshold.
-**However, this would not be applicable if the player were to own Sandbox Plus+. 
+*The '''Hacker’s''' Level 4 upgrade name is a reference to the ''[[wp:Intel Core|Intel Core]]'' ''i9'' processor.
+**The string of numbers "3260590327" is the Place ID of Tower Defense Simulator on Roblox.
+*The '''Hacker''' was first teased all the way back in 2020, but did not make an appearance until the 11th of June 2025 in [[v1.67.0]].
+*Bottom path '''Hacker''' has the second worst cost efficiency in the entire game, beaten by [[Swarmer]] at {{Money|5,800}}.
+**However, the [[Swarmer]] can reach higher cost efficiency with all its bee stacks applied than the [[Hacker]] with all of its synapses accounted for.
+*The '''Hacker''' is the only Hardcore tower at the time of [[Null & Void Event|Null & Void]] to not receive a null enemy variant.
 
 ==Update History==
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{scroll|text =
-*'''16 December 2024''' - [[v1.46.0]]
-**'''Sandbox''' added, though impossible to access.
-**{{Bug}} Golden perks option does not work.
-**{{Bug}} [[Hidden Wave]] option does not work.
-**{{Bug}} Enemies display their health and speed as 0.
-**{{Bug}} Modes are impossible to unlock.
-**{{Bug}} [[Molten Monster]] does not have a proper icon.
-**{{Bug}} Admin cannot be shared by players with Admin Mode. Doing so changes nothing other than listing the player as an admin.
-**{{Bug}} '''Sandbox''' statue is locked even with the Admin Mode gamepass.
-**{{Bug}} [[Missile APC]] cannot be spawned.
-**{{Bug}} When a tower with a level higher than Level 0 is placed down, its level will actually be double of what was selected. For example, if desired level is 2, it will be Level 4.
-**{{Bug}} Players cannot be kicked.
-**{{Bug}} Starting cash is not properly applied when starting matches in modes and [[Challenge Maps]].
-**{{Bug}} Changing the price of upgrades in the stat editor is unfunctional.
-**{{Bug}} Base health limits are not applied correctly when starting matches in modes and [[Challenge Maps]].
-**{{Bug}} Towers icons in the stat editor will sometimes use icons of skins other than Default, based on skins equipped by the player. Most often, they are based on the current [[Scout]] skin, applying the skin of an identical name to other towers.
-**{{Bug}} When starting a mode or [[Challenge Maps|Challenge Map]] match in [[Sandbox Mode|Sandbox]] mode, invincibility and infinite cash buttons will still be displayed as being active despite being disabled.
-**{{Bug}} Applying attributes to units does not work.
-**{{Bug}} Infinite towers option does not work.
-**{{Bug}} The [[Time Scale]] button on the screen has no limit on how fast [[Time Scale]] can be, while the one in the admin panel is limited to 10x.
-**{{Bug}} Towers are not selectable in the hotbar if a [[Challenge Maps|Challenge Map]] forcibly changes the player's loadout.
-**{{Bug}} Match does not end properly after a triumph.
-**{{Bug}} When statistics of already placed towers that are above Level 0 are altered through the stat editor, they are not affected by the changes other than the statistic boxes showing the new statistics, only newly placed towers of that Level receive the changes properly.
-**{{Bug}} Blacklisting players does nothing.
-**{{Bug}} [[Forest Camp]] and [[Farm Lands]] cannot be selected as a map.
-**{{Bug}} [[Challenge Maps]] default to [[Intermediate Mode|Intermediate]] mode instead of their intended modes.
-**{{Bug}} Old enemy summoners which learn enemies as waves progress only spawn [[Normal]]s in '''Sandbox''' mode.
-**{{Bug}} [[Nimble]] and [[Tank (Attribute)|Tank]] cannot be selected for enemy and unit summons.
-**{{Bug}} Trying to equip more than four consumables without Admin mode will have a pop up appear saying more than 5 towers cannot be equipped.
-**{{Bug}} It is not possible to skip waves.
-**{{Bug}} Enemies do not gain their health and reward values from a mode if it is activated in '''Sandbox''' mode.
-**{{Bug}} Certain modern variants of enemies are unable to be spawned.
-**{{Bug}} None of the [[Operation I.C.E Event]] or any future consumables can be chosen in the Admin GUI.
-**{{Bug}} None of the [[Operation I.C.E Event]] or any future [[Soundtrack]] can be chosen in the Admin GUI.
-**{{Bug}} Enabling music after it was disabled does not actually re-enable the previously played track.
-*'''16 December 2024''' - [[v1.46.0|v1.46.1]]
-**'''Sandbox''' is now playable.
-*'''17 December 2024''' - [[v1.46.0|v1.46.4]]
-**[[Golden Mode|Golden]], legacy [[Fallen Mode|Fallen]] and legacy [[Molten Mode|Molten]] mode added to the mode selection.
-**Multiple legacy enemies, such as the [[Gold Titan]] added to the enemy selection.
-**{{Bug}} Legacy modes use the new cash system.
-*'''17 December 2024''' - [[v1.46.0|v1.46.5]]
-**[[Golden Mode|Golden]], legacy [[Fallen Mode|Fallen]] and legacy [[Molten Mode|Molten]] mode removed from the mode selection.
-**Multiple legacy enemies, such as the [[Gold Titan]], have been removed from the enemy selection.
-*'''20 December 2024''' - [[v1.47.0]]
-**Any enemies not available by default in the enemy section can now be summoned, including their legacy variants, if the player has their [[Logbooks|Logbook]].
-**{{Bugfix}} Infinite towers option now works.
-*'''23 December 2024''' - [[v1.47.0|v1.47.3]]
-**{{Bugfix}} '''Sandbox''' statue is no longer locked when the Admin Mode gamepass is purchased.
-*'''8 January 2025''' - [[v1.48.0]]
-**All non-event towers are now available in Admin Mode even if the player does not own them.
-**Removed [[Cold Ambush]] and [[Tower Outskirts]] from map selection.
-**{{Bug}} Towers that have been added to the hotbar which the player does not own cannot be placed down if selected from the hotbar.
-**{{Bug}} Towers that the player does not own require equip to be pressed twice to be added to the loadout.
-*'''22 January 2025''' - [[v1.50.0]]
-**[[Corpse (Attribute)|Corpse]] now can be applied to enemies and units.
-**{{Bugfix}} Match now properly ends after a triumph.
-**{{Bugfix}} Towers now can be selected from the tower hotbar if a [[Challenge Maps|Challenge Map]] forcibly changes the player's loadout.
-**{{Bugfix}} Kicking players now actually kicks them and leaves a message in chat.
-**{{Bugfix}} Blacklisting players now actually blacklists them and leaves a message in chat.
-**{{Bugfix}} Giving admin to other players now gives them most of the benefits, though locked enemies, maps and gamemodes still do not get unlocked.
-*'''29 January 2025''' - [[v1.51.0]]
-**[[Dev (Map)|Dev]] can now be selected as a map.
-*'''5 February 2025''' - [[v1.52.0]]
-**{{Bug}} '''Sandbox''' mode [[Matchmaking]] is always locked, even when the player is {{Level|250+}}.
-*'''12 February 2025''' - [[v1.53.0]]
-**Added the ability to apply detections to towers.
-**{{Bug}} Tower's default detections are not displayed in the stat editor, they are always turned off.
-**{{Bug}} When detections are applied to one tower, changing towers will keep the selected detections, but only visually.
-**{{Bug}} Detections for towers with two paths in the stat editor are all in one line, making them get cut of.
-**{{Bugfix}} Altering statistics of towers above Level 0 now also affects already placed towers instead of just newly placed towers, previously already placed towers would only have their stat boxes change. The only unaffected statistic is firerate, as that still has this issue.
-*'''12 February 2025''' - [[v1.53.0|v1.53.3a]]
-**Added legacy [[Molten Mode|Molten]], [[Golden Mode|Golden]], [[Fallen Mode|Fallen]] and [[Hidden Wave (Legacy)|Hidden Wave]] modes to mode selection.
-***All naturally spawning enemies from these modes can now be summoned.
-*'''12 February 2025''' - [[v1.53.0|v1.53.3b]]
-**Removed legacy [[Hidden Wave (Legacy)|Hidden Wave]] from mode selection.
-***All naturally spawning enemies from it are also removed from enemy selection.
-*'''13 February 2025''' - [[v1.53.0|v1.53.5]]
-**{{Bugfix}} '''Sandbox''' mode [[Matchmaking]] is now properly usable by {{Level|250+}} players.
-*'''12 March 2025''' - [[v1.57.0]]
-**{{Bugfix}} Modes are now possible to unlock.
-*'''12 March 2025''' - [[v1.57.0|v1.57.3]]
-**All enemies which either do not appear in the modes available to be played in '''Sandbox''' mode or that are not whitelisted in '''Sandbox''' mode, such as [[Hardcore Mode|Hardcore]] mode enemies, can no longer be summoned.
-*'''18 March 2025''' - [[v1.57.0|1.57.10]]
-**All enemies which either do not appear in the modes available to be played in '''Sandbox''' mode or that are not whitelisted in '''Sandbox''' mode, such as [[Hardcore Mode|Hardcore]] mode enemies, can now be summoned again.
-*'''1 April 2025''' - [[v1.59.0]]
-**{{Bug}} [[April fools 2025]] modifier is not a selectable option.
-*'''9 April 2025''' - [[v1.60.0]]
-**{{Bug}} Certain enemies will display their health value as ''nil''.
-**{{Bug}} Equipping and unequipping towers does not work most of the time.
-**{{Bug}} [[Hot Spot]] cannot be chosen as a map.
-**{{Bugfix}} Enemies now display correct health and speed values in the enemies section.
-*'''16 April 2025''' - [[v1.61.0]]
-**{{Bug}} Various modifiers do not apply their visual effects like enemy hats until they or another modifier is disabled/enabled.
-*'''30 April 2025''' - [[v1.63.0]]
-**Admin mode cost increased from {{Robux|5,599}} to {{Robux|7,999}}.
-**{{Bug}} Gifting still costs {{Robux|5,599}}.
-**{{Bug}} [[Legacy Simplicity]] and [[Legacy Space City]] cannot be chosen as a map.
-*'''2 May 2025''' - [[v1.63.0|v1.63.0a]]
-**{{Bugfix}} Gifting no longer costs {{Robux|5,599}}.
-*'''14 May 2025''' - [[v1.64.0]]
-**{{Bug}} [[Lighthaos]] and [[Legacy Retro Zone]] cannot be chosen as a map.
-*'''26 May 2025''' - [[v1.64.0]]a
-**{{Bug}} Admin Mode is not discounted by 35%.
-*'''26 May 2025''' - [[v1.64.0]]b
-**{{Bug}} Gifting Admin Mode does not have the discount.
-**{{Bugfix}} Admin Mode is now discounted from {{Robux|7,999}} to {{Robux|5,199}}.
-*'''28 May 2025''' - [[v1.65.0]]
-**[[Skills]] enabled option added, allowing for [[Skills]] to be disabled/enabled in '''Sandbox''' mode.
-**Admin Mode cost increased from {{Robux|5,199}} to {{Robux|7,999}}.
-**{{Bug}} Joining '''Sandbox''' with [[Skills]] disabled makes the option to enable them still be set to enabled, even though [[Skills]] are not enabled, while also making it do absolutely nothing.
-**{{Bug}} Disabling the [[Skills]] enabled option can cause the [[Range Buff]] from Enhanced Optics to become far bigger than it should be.
-*'''18 June 2025''' - [[v1.67.0|v1.67.6]]
-**{{Bugfix}} Disabling the [[Skills]] enabled option no longer causes the range to break by making it far bigger.
+*'''11 June 2025''' - [[v1.67.0]]
+**'''Hacker''' added.
+**{{Bug}} '''Hacker''' visually appears to cost coins instead of gems.
+**{{Bug}} '''Hacker''' sometimes would not target enemies in [[Hardcore Mode|Hardcore]] mode, causing them to be stuck in place with zero base health.
+**{{Bug}} [[Flying]] and [[Ghost (Attribute)|Ghost]] enemies converted by the '''Hacker'''  deal insanely high DPS to ground enemies.
+**{{Bug}} When the '''Hacker''' kills an enemy in [[Hardcore Mode|Hardcore]] mode, there is a chance the wave will be skipped instantly.
+**{{Bug}} '''Hacker''' is immune to stuns.
+**{{Bug}} '''Hacker''' is immune to debuffs from older legacy enemies.
+**{{Bug}} '''Hacker''' is immune to being frozen.
+**{{Bug}} '''Hacker''' can still continue attacking when jailed in [[Jailed Towers (Challenge)|Jailed Towers]].
+**{{Bug}} When the '''Hacker''' clones a tower which is currently jailed in [[Jailed Towers (Challenge)|Jailed Towers]], the clone of that tower will bypass being jailed.
+**{{Bug}} Cloned towers will become permanent after reviving.
+**{{Bug}} Converted enemies can be hit by tower projectiles, taking up their pierce while also having their effects applied to them. These effects can stall them, damage them or drop their defense.
+**{{Bug}} Converted enemies can receive damage from [[Nuke]]'s fallout.
+**{{Bug}} Cloned towers take up the placement limit, despite the actual counter not increasing.
+**{{Bug}} Players block placement of cloned towers.
+**{{Bug}} Damage dealt by converted enemies does not create [[Damage Indicators]] or contribute to the total damage counter.
+**{{Bug}} Once a cloned tower disappears, the left side ability menu does not update, often leading to certain ability keybinds being completely unusable until updated manually by the player (such as by selecting a tower).
+**{{Bug}} Confusion causes converted enemies to move the wrong way.
+**{{Bug}} '''Hacker''' has lead detection.
+**{{Bug}} Cloned towers have their cost and sell cost be set to the Level 0 sell cost and cost of the tower, rather than the actual values at these Levels.
+**{{Bug}} Converted enemies do not generate cash from kills.
+**{{Bug}} Low Level '''Hacker''' can override effects of a higher Level '''Hacker'''.
+**{{Bug}} Cloned towers can be upgraded by swapping between non-cloned and cloned towers.
+**{{Bug}} '''Hacker''' breaks when reviving.
+*'''11 June 2025''' - [[v1.67.0|v1.67.1]]
+**Store description changed.
+**{{Bugfix}} '''Hacker''' now displays the correct currency.
+*'''11 June 2025''' - [[v1.67.0|v1.67.2]]
+**{{Bugfix}} '''Hacker''' now properly targets enemies in [[Hardcore Mode|Hardcore]] mode and no longer causes them to get stuck in place with zero base health.
+*'''18 June 2025''' - [[v1.67.3|v1.67.5]]
+**{{Bugfix}} [[Flying]] and [[Ghost (Attribute)|Ghost]] enemies converted by the '''Hacker'''  no longer deal insanely high DPS to ground enemies.
+**{{Bugfix}} When the '''Hacker''' kills an enemy in [[Hardcore Mode|Hardcore]] mode, it no longer causes a chance to skip the wave instantly.
+**{{Bugfix}} Cloned towers no longer become permanent after reviving.
+**{{Bugfix}} '''Hacker''' is no longer immune to stuns.
+**{{Bugfix}} '''Hacker''' is no longer immune to being frozen.
+**{{Bugfix}} Converted enemies no longer receive damage from [[Nuke]]'s fallout.
+**{{Bugfix}} Cloned towers no longer take up the placement limit.
+**{{Bugfix}} Players no longer block clone placement.
+**{{Bugfix}} '''Hacker''' no longer has lead detection, as its damage type is no longer energy.
 *'''9 July 2025''' - [[v1.70.0]]
-**[[Summer Castle]], [[Retro Crossroads]], [[Retro Rocket Arena]], [[Coral Deep]], [[Retro The Heights]] and [[Retro Stained Temple]] added to the map selection. 
-**[[Heatwave]] and [[Sandcastle (Consumable)|Sandcastle]] consumables added to the Admin GUI.
-**{{Bug}} [[Crab]] does not appear in the units section.
-*'''6 August 2025''' - [[v1.72.0]]
-**{{Bug}} [[Pier Pressure]] cannot be chosen as a map.
-*'''20 August 2025''' - [[v1.73.0]]
-**{{Bug}} [[Legacy Gilded Path]] cannot be chosen as a map.
-*'''3 September 2025''' - [[v1.74.0]]
-**{{Bug}} [[Legacy Dusty Bridges]] cannot be chosen as a map.
-*'''24 September 2025''' - [[v1.75.0]]
-**{{Bug}} None of the [[Challenge Trials]] [[Modifiers]] can be chosen.
-*'''1 October 2025''' - [[v1.76.0]]
-**{{Bugfix}} Towers now can be equipped and unequipped.
-*'''12 November 2025''' - [[v1.80.0]]
-**{{Bug}} [[Midnight Issue]] and [[Legacy Winter Abyss]] cannot be chosen as a map.
+**{{Bugfix}} Confusion no longer causes converted enemies to move the wrong way.
+*'''23 July 2025''' - [[v1.71.0]]
+**Statistical changes ([[PVP]]):
+***'''Level 3'''
+****Clone cost decreased from 90% to 35%.
+***'''Level 4'''
+****Clone cost changed from 90% to 35% > 30%.
+***'''Level 5B'''
+****Clone cost changed from 90% > 65% to 30% > 25%.
+**{{Bug}} '''Hacker''' can clone the opponent's towers.
 *'''26 November 2025''' - [[v1.81.0]]
-**Sandbox Plus+ cost decreased from {{Robux|7,999}} to {{Robux|3,999}}.
+**Gamepass cost decreased from {{Robux|2,999}} to {{Robux|1,799}}.
 *'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Sandbox Plus+ cost increased from {{Robux|3,999}} to {{Robux|7,999}}.
-*'''3 December 2025''' - [[v1.82.0]]
-**{{Bug}} Enemies from the [[Null & Void Event]] can no longer be summoned.
-**{{Bug}} [[Frost Mode|Frost]] mode cannot be chosen as a gamemode.
-**{{Bug}} [[Northern Lights]] cannot be chosen as a map.
-**{{Bug}} [https://www.youtube.com/watch?v=DBrJI_9jOe/ Classic Roblox] when chosen in the music tab will not play.
-**{{Bug}} [https://www.youtube.com/watch?v=HeoFu-2MSas/ Legacy Nuclear Fallen] when chosen in the music tab will not play.
-*'''4 December 2025''' - [[v1.82.0]]b
-**{{Bugfix}} Enemies from the [[Null & Void Event]] can now be summoned.
+**Gamepass cost increased from {{Robux|1,799}} to {{Robux|2,999}}.
+*'''20 December 2025''' - [[v1.83.0]]
+**New skins: {{Color|Showtime|Camera Operator}}
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skins: {{Color|FinalAct|Reindeer Mech}}
 *'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Sandbox Plus+ cost decreased from {{Robux|7,999}} to {{Robux|3,999}}.
+**Gamepass cost decreased from {{Robux|2,999}} to {{Robux|1,799}}.
 *'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Sandbox Plus+ cost increased from {{Robux|3,999}} to {{Robux|7,999}}.
+**Gamepass cost increased from {{Robux|1,799}} to {{Robux|2,999}}.
 *'''28 January 2026''' - [[v1.84.0]]
-**{{Bug}} Units section breaks the UI.
-**{{Bug}} [[Molten Mode|Molten]] mode and [[Legacy Molten Mode|Legacy Molten]] mode do not play when selected.
-**{{Bug}} [[Legacy Toyboard]] cannot be chosen as a map.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost decreased from {{Money|1,400}} to {{Money|900}}.
+****Damage decreased from 4 to 0.
+****Firerate decreased from 0.825 to 0.325.
+****EV decreased from 0.6 to 0.45.
+****Slowness increased from 0% to 12.5%.
+****Wire fraud increased from 0% to 12.5%.
+****Unit send cooldown decreased from 0.1 to 0, effectively removing it.
+***'''Level 1'''
+****Cost decreased from {{Money|600}} to {{Money|300}}.
+****Firerate changed from {{Tooltip|0.825 > 0.525|-0.3}} to 0.325.
+****Slowness changed from 0% to 12.5% > 15%.
+****Wire fraud increased from 0% > 7.5% to 12.5%.
+***'''Level 2'''
+****Cost increased from {{Money|1,250}} to {{Money|1,337}}.
+****Damage decreased from +2 to +0.
+****EV changed from 0.6 > 0.65 to 0.45 > 0.5.
+****Wire fraud changed from 7.5% > 10% to 12.5% > 15%.
+***'''Level 3'''
+****Damage decreased from +14 to +10.
+****EV changed from 0.65 > 0.725 to 0.5 > 0.625.
+****Slowness changed from 15% to 15% > 17.5%.
+***'''Level 4'''
+****Cost increased from {{Money|22,000}} to {{Money|24,000}}.
+****Damage increased from +0 to +10.
+****Firerate changed from {{Tooltip|0.525 > 0.325|-0.2}} to 0.325.
+****Synapses increased from +0 to +1.
+****EV changed from 0.725 > 0.825 to 0.625 > 0.725.
+****Slowness changed from 15% > 20% to 17.5% > 20%.
+****Wire fraud changed from 10% > 12.5% to 15% > 20%.
+***'''Level 5A'''
+****Damage increased from -5 to +5.
+****Synapses decreased from +2 to +0.
+****EV changed from 0.825 > 0.9 to 0.725 > 0.825.
+****Wire fraud changed from 12.5% to 20% > 15%.
+***'''Level 5B'''
+****Damage increased from -2 to +0.
+****Slowness changed from 20% > 25% to 20% > 22.5%.
+****Wire fraud changed from 12.5% > 20% to 20% > 25%.
+****Clone cost changed from 90% > 65% to 90% > 75%.
 *'''11 February 2026''' - [[v1.85.0]]
-**{{Bugfix}} Units section no longer breaks the UI.
+**Statistical changes (Regular):
+***'''Level 1'''
+****Cost decreased from {{Money|300}} to {{Money|125}}.
+****Range decreased from +3 to +1.5.
+***'''Level 2'''
+****Range increased from +0 to +1.5.
+****EV changed from 0.45 > 0.5 to 0.45 > 0.55.
+***'''Level 3'''
+****Cost decreased from {{Money|7,500}} to {{Money|6,500}}.
+****Clone cost decreased from 90% to 20%.
+****Hologram lifetime decreased from 60 to 25.
+***'''Level 4'''
+****Hologram lifetime changed from 60 > 75 to 25.
+***'''Level 5A'''
+****Cost decreased from {{Money|63,500}} to {{Money|60,001}}.
+****Clone cost changed from 90% to 20% > 15%.
+****Hologram lifetime changed from 60 to 25 > 30.
+***'''Level 5B'''
+****Clone cost changed from 90% > 75% to 20% > 75%.
+****Hologram lifetime changed from 75 > 120 to 25 > 120.
+*'''22 April 2026''' - [[v1.89.0]]
+**'''Hacker's''' enemy disabling now can be enabled or disabled for specific levels, though currently it has been set to be disabled on all Levels, stopping the '''Hacker''' from disabling death animations or on death abilities.
+**'''Hacker''' tower clones now have a limit, with the limit being the same as the tower's placement limit. For example, the '''Hacker''' from a player can only have one [[Gatling Gun]] clone at a time.
+**{{Bug}} '''Hacker''' is now stun and freeze immune.
 *'''22 May 2026''' - [[v1.91.0]]
-**Sandbox Plus+ cost decreased from {{Robux|7,999}} to {{Robux|5,199}}.
-*'''22 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Sandbox Plus+ cost increased from {{Robux|5,199}} to {{Robux|7,999}}.
-*'''29 May 2026''' - [[v1.91.0|v1.91.6]]
-**{{Bug}} Enemies tab no longer displays enemies available by defaults with Sandbox Plus+ or the ones obtained through [[Logbooks]], with the only method to get them being activating a mode or [[Challenge Maps|Challenge Map]] to unlock them.
-**{{Bug}} Legacy enemies now appear in the modern tab, and as two enemies of the same cannot exist there, any legacy enemy with a modern variant is no longer possible to summon. This also breaks the functionality of [[Legacy]] modifier, making it do nothing.
+**Gamepass price decreased from {{Robux|2,999}} to {{Robux|1,949}}.
+***{{Bug}} Gifting was not discounted.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Gamepass price increased from {{Robux|1,949}} to {{Robux|2,999}}.
 *'''5 June 2026''' - [[v2.0.0]]
-**{{Bug}} [[Wretched Front]] and [[Outskirts Commune]] cannot be chosen as a map.
-**{{Bug}} Equipping and unequipping towers and consumables does not work most of the time.
-**{{Bugfix}} Enemies tab now displays enemies available by default with Sandbox Plus+ or the ones obtained through [[Logbooks]].
-**{{Bugfix}} Legacy enemies no longer appear in the modern tab.
-**{{Bugfix}} [[Molten Mode|Molten]] mode and [[Legacy Molten Mode|Legacy Molten]] mode now play when selected.
-*'''7 June 2026''' - [[v2.0.0|v2.0.6]]
-**''Hardcore'' category has been added to the mode selection with two modes, [[Hardcore Mode|Hardcore]] mode and [[Voidcore Mode|Voidcore]].
-**Several ambience and boss [[Soundtrack|soundtracks]] were also added.
-*'''17 July 2026''' - [[v2.3.0]]
-**{{Bug}} None of the [[Kingpin]] units appear in the units section.
-*'''31 July 2026''' - [[v2.4.0]]
-**Starting cash when infinite money is disabled increased from {{Money|500}} to {{Money|9,999,999,999}}.
-**Starting cash is no longer affected by the group bonus.
-**{{Bug}} Majority of '''Sandbox''' mode features do not work correctly.
-*'''31 July 2026''' - [[v2.4.0|v2.4.1]]
-**{{Bugfix}} All issues from [[v2.4.0]] have been fixed.
-*'''14 August 2026''' - [[v2.5.0]]
-**Return to Lobby button added.
-**{{Bug}} None of the [[Enforcer]] units appear in the units section.
+**Statistical changes (Regular):
+***'''Base'''
+****Firerate decreased from 0.325 to 0.3.
+***'''Level 3'''
+****Slowness changed from 15% > 17.5% to 15%.
+****Hologram lifetime increased from 25 to 30.
+***'''Level 4'''
+****Damage increased from +10 to +12.
+****Slowness changed from 17.5% > 20% to 15%.
+****Hologram EV changed from 0.625 > 0.725 to 0.625 > 0.675. 
+***'''Level 5A'''
+****Firerate changed from {{Tooltip|0.325 > 0.125|-0.2}} to {{Tooltip|0.3 > 0.1|-0.2}}.
+****Slowness changed from 20% > 15% to 15%.
+****Wire fraud changed from 20% > 15% to 15%.
+****Hologram EV changed from 0.725 > 0.825 to 0.675 > 0.75. 
+****Hologram lifetime changed from 25 > 30 to 30 > 35.
+***'''Level 5B'''
+****Slowness changed from 20% > 22.5% to 20%.
+****Clone cost changed from 20% > 75% to 20% > 55%.
+****Hologram lifetime changed from 25 > 120 to 30 > 120.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Firerate decreased from 0.825 to 0.8.
+***'''Level 1'''
+****Firerate decreased from {{Tooltip|0.825 > 0.525|-0.3}} to {{Tooltip|0.8 > 0.5|-0.3}}.
+***'''Level 4'''
+****Damage decreased from +0 to -2.
+****Firerate decreased from {{Tooltip|0.525 > 0.5325|-0.2}} to {{Tooltip|0.5 > 0.3|-0.2}}.
+***'''Level 5A'''
+****Damage increased from -5 to -3.
+****Firerate changed from {{Tooltip|0.325 > 0.125|-0.2}} to {{Tooltip|0.3 > 0.1|-0.2}}.
+***'''Level 5B'''
+****Damage increased from -2 to +0.
+*'''8 June 2026''' - [[v2.0.0|v2.0.6]]
+**Statistical changes (Regular):
+***'''Base'''
+****Slowness decreased from 12.5% to 7.5%
+***'''Level 1'''
+****Slowness changed from 12.5% > 15% to 7.5% > 10%.
+***'''Level 3'''
+****Clone cost increased from 20% to 30%.
+****Hologram lifetime decreased from 30 to 25.
+***'''Level 4'''
+****Clone cost changed from 20% to 30% > 25%.
+***'''Level 5A'''
+****Slowness changed from 15% > 20% to 10% > 12.5%.
+****Clone cost changed from 20% > 15% to 25%.
+****Hologram lifetime changed from 30 > 35 to 25 > 30.
+***'''Level 5B'''
+****Slowness changed from 15% > 20% to 10% > 12.5%.
+****Clone cost changed from 20% > 55% to 25% > 75%.
+****Hologram lifetime changed from 30 > 120 to 25 > 120.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Beach|Pool Day}}
+*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
+**Gamepass price decreased from {{Robux|2,999}} to {{Robux|2,249}}.
+***{{Bug}} Gift price has not changed.
+*'''4 September 2026''' - [[v2.9.0]]
+**Gamepass price decreased from {{Robux|2,249}} to {{Robux|1,574}}.
+***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,999}} is now {{Robux|2,099}}.
 }}
 
+==Notes==
+<references/>
 
 
-{{ModeNavBox}}
+
+{{TowerNavBox}}
+[[Category:Ability]]
+[[Category:Support]]

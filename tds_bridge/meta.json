@@ -1,6 +1,21 @@
 {
-  "mode": "discussion_deep_search",
-  "requested": "golden cowboy hacker mercenary base kingpin loadout solo strategy win triumph",
-  "threads_scanned": 82259,
-  "match_count": 55
+  "mode": "verify",
+  "requested": "Hacker",
+  "title": "Hacker",
+  "pageid": 49984,
+  "latest_revid": 645511,
+  "latest_timestamp": "2026-09-07T16:14:07Z",
+  "source_url": "https://tds.fandom.com/wiki/Hacker",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }
