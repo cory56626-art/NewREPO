@@ -10,21 +10,309 @@
   "potential_conflicts": [
     {
       "mode": "regular",
-      "level": 0,
+      "level": 4,
+      "field": "damage",
+      "upgrade_implied": 18.0,
+      "statistics_table_claim": 10.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+6 Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "tick",
+      "upgrade_claim": 0.15,
+      "statistics_table_claim": 35.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.175 > 0.15 Firerate"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
       "field": "range",
-      "infobox_claim": 6.0,
-      "statistics_table_claim": 150.0,
-      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-      "type": "base_summary_mismatch"
+      "upgrade_implied": 7.0,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+3 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "cost",
+      "upgrade_claim": 9500.0,
+      "statistics_table_claim": 15000.0,
+      "preferred_source": "upgrade_template",
+      "type": "cost_mismatch"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "range",
+      "upgrade_implied": 6.0,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "range",
+      "upgrade_implied": 8.0,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+4 Patrol Range"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "range",
+      "upgrade_claim": 7.5,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "4 > 7.5 Explosion Range"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 38.0,
+      "statistics_table_claim": 10.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+28 Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 6.0,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Patrol Range"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "cost",
+      "upgrade_claim": 13500.0,
+      "statistics_table_claim": 47500.0,
+      "preferred_source": "upgrade_template",
+      "type": "cost_mismatch"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 6.0,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 6.0,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Patrol Range"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "range",
+      "upgrade_claim": 8.5,
+      "statistics_table_claim": 4.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "7.5 > 8.5 Explosion Range"
     },
     {
       "mode": "pvp",
-      "level": 0,
+      "level": 3,
+      "field": "tick",
+      "upgrade_claim": 0.2,
+      "statistics_table_claim": 32.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.25 > 0.2 Firerate"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
       "field": "range",
-      "infobox_claim": 6.0,
-      "statistics_table_claim": 150.0,
-      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-      "type": "base_summary_mismatch"
+      "upgrade_implied": 7.5,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+0.5 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "damage",
+      "upgrade_implied": 12.0,
+      "statistics_table_claim": 10.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Damage"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "tick",
+      "upgrade_claim": 0.1,
+      "statistics_table_claim": 25.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.2 > 0.1 Firerate"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "range",
+      "upgrade_implied": 9.5,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2.5 Patrol Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "cooldown",
+      "upgrade_claim": 6.0,
+      "statistics_table_claim": 75.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "7 > 6 Missile Cooldown"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "cost",
+      "upgrade_claim": 7500.0,
+      "statistics_table_claim": 12500.0,
+      "preferred_source": "upgrade_template",
+      "type": "cost_mismatch"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "range",
+      "upgrade_implied": 7.5,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+0.5 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "range",
+      "upgrade_implied": 8.5,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1.5 Patrol Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "range",
+      "upgrade_claim": 6.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "3 > 6 Explosion Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "cooldown",
+      "upgrade_claim": 3.0,
+      "statistics_table_claim": 75.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "7 > 3 Missile Cooldown"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 4.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 24.0,
+      "statistics_table_claim": 12.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+14 Damage"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "tick",
+      "upgrade_claim": 0.085,
+      "statistics_table_claim": 60.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.1 > 0.085 Firerate"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 5.5,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2.5 Patrol Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "cost",
+      "upgrade_claim": 22500.0,
+      "statistics_table_claim": 30000.0,
+      "preferred_source": "upgrade_template",
+      "type": "cost_mismatch"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 4.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 5.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Patrol Range"
     }
   ],
   "notes": [
