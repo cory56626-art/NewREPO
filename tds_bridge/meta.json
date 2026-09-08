@@ -1,6 +1,21 @@
 {
-  "mode": "discussion_deep_search",
-  "requested": "golden cowboy hacker loadout solo triumph win strategy",
-  "threads_scanned": 82259,
-  "match_count": 21
+  "mode": "verify",
+  "requested": "Engineer",
+  "title": "Engineer",
+  "pageid": 30057,
+  "latest_revid": 645507,
+  "latest_timestamp": "2026-09-07T16:09:17Z",
+  "source_url": "https://tds.fandom.com/wiki/Engineer",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

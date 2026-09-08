@@ -7,312 +7,15 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Hacker''' is a hardcore tower that hacks enemies, applying various effects to them. It can be purchased from the store for {{Gem|5,500}} or through a gamepass for {{Robux|1,574}}.\n\nIt damages enemies using synapses fired from its equipment, which starts off with a smartphone, then some sort of wrist gadget and in the bottom path, a laptop. These beams target a single enemy, dealing single target damage. Any enemy attacked by the '''Hacker''' will have these effects applied to it:\n#First hack is ''Unit Conversion'', unlocked at Level 0. When the enemy is killed, it will be converted into a hologram, with reduced health. This hologram will function similarly to a [[Units|unit]], dealing damage to an enemy upon collision. The converted enemy will ignore defense and [[Tank (Attribute)|Tank]] of the enemy it is colliding with. If the converted enemy has defense, this defense will boost the damage it deals to other enemies. [[Bloated]] does also boost the health of such enemies. [[Boss]] enemies are unable to be converted into holograms.<br/>Enemy health is calculated using their max health and the tower's EV. Health is calculated as:<br/><math>\\text{Max Health}^\\text{EV}</math>\n#Second hack is ''Wire Fraud''. Enemies targeted by the '''Hacker''' will have their rewards on death or damage increased. This is a global boost, meaning everyone in the match receives the added income.\n#Third hack is ''Slowness''. This applies a slowness effect to any enemy, as long as it is not a [[Boss]] enemy.\n\nThe '''Hacker''' also has an ability, ''Hologram Tower'', which allows it to duplicate a tower. It can duplicate any tower on the map and place it down in any spot. This tower will last for a limited amount of time and disappear once the lifetime ends. The cloned tower will have the hologram modifier on it. The ability has a varying cost based on the total cost of the cloned tower. '''Hacker''' cannot clone other '''Hackers''' or itself. If a cloned tower has a placement limit, then there can only be as many clones of that tower from one player at a time as its placement limit. For example, the [[Gatling Gun]] can only have one clone from a player at a time due to the tower having a placement limit of one.\n\nThe '''Hacker''' has hidden detection from Level 2. It has a placement limit of two per player.",
+  "description": "The '''Engineer''' is a hardcore tower that attacks enemies with a rebar launcher and can build various [[Sentry (Unit)|sentries]] within its range to assist with defense. It can be purchased from the store for {{Gem|4,500}} and has a level requirement of {{Level|50}}. The '''Engineer''' is also available through a gamepass for {{Robux|1,267}}.\n\nThe '''Engineer''' has three range rings: the white ring is the attack range of the '''Engineer''', the yellow ring is the placement range for sentries, and the red ring is the deadzone range in which the '''Engineer''' cannot fire nor build sentries. The '''Engineer''' collects scrap when damaging enemies, with the amount of scrap obtained per shot being equivalent to the damage dealt to an enemy. The scrap fills up its ''Scrap Meter'', which can be seen above its tower icon in the upgrade box or when the player hovers over it. When its ''Scrap Meter'' is full, the '''Engineer''' will briefly stop attacking to build a sentry. Within upgrades, the '''Engineer''' will build stronger sentries, however, they will require more scrap to be built. If the ''Scrap Meter'' is filled up but the maximum number of sentries are placed, the '''Engineer''' will wait until a sentry is despawned or destroyed before building another sentry. There is a limit to how many sentries can be built.\n\nSentries built by the '''Engineer''' are considered units, though they cannot move and can only be placed on the ground in the yellow range ring. They do have health however, which drains over time or decreases when hit by an enemy ability that deals damage, limiting the amount of time they can stay alive. The amount left before a sentry despawns can be seen with the duration bar above a sentry.\n\nThe '''Engineer''' is considered an all-round tower due to its cheap placement cost, decent DPS on early levels and very expensive upgrades with extremely high DPS later on.\n\nThe '''Engineer''' has a placement limit of six per player. This is reduced to five in [[PVP]] mode.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "regular",
         "level": 1,
-        "title": "Upgraded Rig",
-        "cost": "{{Money|125}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "note",
-            "text": "7.5% > 10% Slowness"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Upgraded Rig",
-          "Cost": "{{Money|125}}",
-          "Image": "[[File:HackerUpgrade1.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "title": "Shady Business",
-        "cost": "{{Money|1,337}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
-          },
-          {
-            "kind": "set",
-            "from": "0.45",
-            "to": "0.55",
-            "stat": "Hologram EV",
-            "text": "0.45 > 0.55 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "12.5% > 15% Wire Fraud"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Shady Business",
-          "Cost": "{{Money|1,337}}",
-          "Image": "[[File:HackerUpgrade2.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Teleportation Tech",
-        "cost": "{{Money|6,500}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.55",
-            "to": "0.625",
-            "stat": "Hologram EV",
-            "text": "0.55 > 0.625 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
-          },
-          {
-            "kind": "note",
-            "text": "30% Clone Cost"
-          },
-          {
-            "kind": "note",
-            "text": "25 Hologram Lifetime}}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Teleportation Tech",
-          "Cost": "{{Money|6,500}}",
-          "Image": "[[File:HackerUpgrade3.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "5th Gen I9 3260590327",
-        "cost": "{{Money|24,000}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+12",
-            "stat": "Damage",
-            "text": "+12 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
-          },
-          {
-            "kind": "set",
-            "from": "0.625",
-            "to": "0.675",
-            "stat": "Hologram EV",
-            "text": "0.625 > 0.675 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "15% > 20% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "30% > 25% Clone Cost"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "5th Gen I9 3260590327",
-          "Cost": "{{Money|24,000}}",
-          "Image": "[[File:HackerUpgrade4.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "Overclock",
-        "cost": "{{Money|60,001}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.3",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.3 > 0.1 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.675",
-            "to": "0.75",
-            "stat": "Hologram EV",
-            "text": "0.675 > 0.75 Hologram EV"
-          },
-          {
-            "kind": "set",
-            "from": "25",
-            "to": "30",
-            "stat": "Hologram Lifetime",
-            "text": "25 > 30 Hologram Lifetime"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Overclock",
-          "Cost": "{{Money|60,001}}",
-          "Image": "[[File:HackerUpgrade5A.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "Rug Pull",
-        "cost": "{{Money|53,200}}",
-        "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
-          },
-          {
-            "kind": "note",
-            "text": "10% > 12.5% Slowness"
-          },
-          {
-            "kind": "note",
-            "text": "20% > 25% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "25% > 75% Clone Cost"
-          },
-          {
-            "kind": "set",
-            "from": "25",
-            "to": "120",
-            "stat": "Hologram Lifetime",
-            "text": "25 > 120 Hologram Lifetime"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Rug Pull",
-          "Cost": "{{Money|53,200}}",
-          "Image": "[[File:HackerUpgrade5B.png|100px]]",
-          "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}"
-        }
-      }
-    ],
-    "pvp": [
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Upgraded Rig",
-        "cost": "{{Money|600}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.8",
-            "to": "0.5",
-            "stat": "Firerate",
-            "text": "0.8 > 0.5 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "7.5% Wire Fraud"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Upgraded Rig",
-          "Cost": "{{Money|600}}",
-          "Image": "[[File:HackerUpgrade1.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Shady Business",
-        "cost": "{{Money|1,250}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}",
+        "title": "Precise Calculations",
+        "cost": "{{Money|325}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}",
         "claims": [
           {
             "kind": "delta",
@@ -321,249 +24,608 @@
             "text": "+2 Damage"
           },
           {
+            "kind": "set",
+            "from": "1.4",
+            "to": "1.2",
+            "stat": "Firerate",
+            "text": "1.4 > 1.2 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Precise Calculations",
+          "Cost": "{{Money|325}}",
+          "Image": "[[File:Engineer_Level_1.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 2,
+        "title": "Makeshift Radar",
+        "cost": "{{Money|900}}",
+        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
             "kind": "grant",
             "stat": "Hidden Detection",
             "text": "+Hidden Detection"
           },
           {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage"
           },
           {
             "kind": "note",
-            "text": "15% Slowness"
-          },
-          {
-            "kind": "set",
-            "from": "0.6",
-            "to": "0.65",
-            "stat": "Hologram EV",
-            "text": "0.6 > 0.65 Hologram EV"
+            "text": "0.2 Firerate"
           },
           {
             "kind": "note",
-            "text": "7.5% > 10% Wire Fraud"
+            "text": "20 Range"
+          },
+          {
+            "kind": "note",
+            "text": "400 Health"
+          },
+          {
+            "kind": "note",
+            "text": "30 Second Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "32 Scrap Meter"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection }}"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Shady Business",
-          "Cost": "{{Money|1,250}}",
-          "Image": "[[File:HackerUpgrade2.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}"
+          "Upgrade Title": "Makeshift Radar",
+          "Cost": "{{Money|900}}",
+          "Image": "[[File:Radar.png|100px]]",
+          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Auto Converter",
+        "cost": "{{Money|2,077}}",
+        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Units",
+            "text": "+1 Max Units"
+          },
+          {
+            "kind": "set",
+            "from": "1.2",
+            "to": "1",
+            "stat": "Firerate",
+            "text": "1.2 > 1 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Auto Converter",
+          "Cost": "{{Money|2,077}}",
+          "Image": "[[File:Engi3.png|100px]]",
+          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Heavy Construction",
+        "cost": "{{Money|6,250}}",
+        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Build Range",
+            "text": "-1 Build Range"
+          },
+          {
+            "kind": "set",
+            "from": "1",
+            "to": "0.9",
+            "stat": "Firerate",
+            "text": "1 > 0.9 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "0.15 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "22 Range"
+          },
+          {
+            "kind": "note",
+            "text": "750 Health"
+          },
+          {
+            "kind": "note",
+            "text": "45 Second Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "150 Scrap Meter"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Heavy Construction",
+          "Cost": "{{Money|6,250}}",
+          "Image": "[[File:Engineer Level 5.png|100px]]",
+          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 5,
+        "title": "Improved Blueprints",
+        "cost": "{{Money|12,500}}",
+        "information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Damage",
+            "text": "+50 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.9",
+            "to": "0.75",
+            "stat": "Firerate",
+            "text": "0.9 > 0.75 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Sentry Shield",
+            "text": "+Sentry Shield"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Units",
+            "text": "+1 Max Units"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Improved Blueprints",
+          "Cost": "{{Money|12,500}}",
+          "Image": "[[File:Engi4.png|100px]]",
+          "Information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 6,
+        "title": "Illegal Gun Parts",
+        "cost": "{{Money|32,500}}",
+        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Build Range",
+            "text": "-1 Build Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.75",
+            "to": "0.6",
+            "stat": "Firerate",
+            "text": "0.75 > 0.6 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Units",
+            "text": "+1 Max Units"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "0.125 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "24 Range"
+          },
+          {
+            "kind": "note",
+            "text": "60x2 Splash Damage"
+          },
+          {
+            "kind": "note",
+            "text": "4 Rocket Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "5 Explosion Range"
+          },
+          {
+            "kind": "note",
+            "text": "1,000 Health"
+          },
+          {
+            "kind": "note",
+            "text": "60 Second Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "340 Scrap Meter"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Upgrade Title": "Illegal Gun Parts",
+          "Cost": "{{Money|32,500}}",
+          "Image": "[[File:Engineerupgrade6.jpg|100px]]",
+          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}"
+        }
+      }
+    ],
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Precise Calculations",
+        "cost": "{{Money|250}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Precise Calculations",
+          "Cost": "{{Money|250}}",
+          "Image": "[[File:Engineer_Level_1.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Makeshift Radar",
+        "cost": "{{Money|400}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "grant",
+            "stat": "Flying Detection",
+            "text": "+Flying Detection"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Units",
+            "text": "+1 Max Units"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Makeshift Radar",
+          "Cost": "{{Money|400}}",
+          "Image": "[[File:Radar.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}"
         }
       },
       {
         "mode": "pvp",
         "level": 3,
-        "title": "Teleportation Tech",
-        "cost": "{{Money|7,500}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}",
+        "title": "Auto Converter",
+        "cost": "{{Money|1,800}}",
+        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+14",
+            "delta": "+10",
             "stat": "Damage",
-            "text": "+14 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.65",
-            "to": "0.725",
-            "stat": "Hologram EV",
-            "text": "0.65 > 0.725 Hologram EV"
+            "text": "+10 Damage"
           },
           {
             "kind": "note",
-            "text": "7.5% > 10% Wire Fraud"
+            "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage"
           },
           {
             "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
+            "text": "0.2 Firerate"
           },
           {
             "kind": "note",
-            "text": "35% Clone Cost"
+            "text": "20 Range"
           },
           {
             "kind": "note",
-            "text": "60 Hologram Lifetime}}"
+            "text": "40 Health"
+          },
+          {
+            "kind": "note",
+            "text": "30 Second Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "32 Scrap Meter}}"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Teleportation Tech",
-          "Cost": "{{Money|7,500}}",
-          "Image": "[[File:HackerUpgrade3.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}"
+          "Upgrade Title": "Auto Converter",
+          "Cost": "{{Money|1,800}}",
+          "Image": "[[File:Engi3.png|100px]]",
+          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}"
         }
       },
       {
         "mode": "pvp",
         "level": 4,
-        "title": "5th Gen I9 3260590327",
-        "cost": "{{Money|22,000}}",
-        "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}",
+        "title": "Improved Blueprints",
+        "cost": "{{Money|2,600}}",
+        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "-2",
+            "delta": "+4",
             "stat": "Damage",
-            "text": "-2 Damage"
+            "text": "+4 Damage"
           },
           {
             "kind": "delta",
-            "delta": "+1",
+            "delta": "+3",
             "stat": "Range",
-            "text": "+1 Range"
+            "text": "+3 Range"
           },
           {
             "kind": "set",
-            "from": "0.5",
-            "to": "0.3",
+            "from": "1.2",
+            "to": "0.75",
             "stat": "Firerate",
-            "text": "0.5 > 0.3 Firerate"
+            "text": "1.2 > 0.75 Firerate"
           },
           {
-            "kind": "note",
-            "text": "15% > 20% Slowness"
-          },
-          {
-            "kind": "set",
-            "from": "0.725",
-            "to": "0.825",
-            "stat": "Hologram EV",
-            "text": "0.725 > 0.825 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "10% > 12.5% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "35% > 30% Clone Cost"
-          },
-          {
-            "kind": "set",
-            "from": "60",
-            "to": "75",
-            "stat": "Hologram Lifetime",
-            "text": "60 > 75 Hologram Lifetime"
+            "kind": "grant",
+            "stat": "Sentry Shield",
+            "text": "+Sentry Shield"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "5th Gen I9 3260590327",
-          "Cost": "{{Money|22,000}}",
-          "Image": "[[File:HackerUpgrade4.png|100px]]",
-          "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}"
+          "Upgrade Title": "Improved Blueprints",
+          "Cost": "{{Money|2,600}}",
+          "Image": "[[File:Engi4.png|100px]]",
+          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}"
         }
       },
       {
         "mode": "pvp",
         "level": 5,
-        "title": "Overclock",
-        "cost": "{{Money|63,500}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}",
+        "title": "Heavy Construction",
+        "cost": "{{Money|12,500}}",
+        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.3",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.3 > 0.1 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "-3",
+            "delta": "+10",
             "stat": "Damage",
-            "text": "-3 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Synapses",
-            "text": "+2 Synapses"
-          },
-          {
-            "kind": "note",
-            "text": "20% > 15% Slowness"
-          },
-          {
-            "kind": "set",
-            "from": "0.825",
-            "to": "0.9",
-            "stat": "Hologram EV",
-            "text": "0.825 > 0.9 Hologram EV"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Overclock",
-          "Cost": "{{Money|63,500}}",
-          "Image": "[[File:HackerUpgrade5A.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "title": "Rug Pull",
-        "cost": "{{Money|48,000}}",
-        "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
+            "text": "+10 Damage"
           },
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
+            "stat": "Max Units",
+            "text": "+1 Max Units"
           },
           {
             "kind": "note",
-            "text": "20% > 25% Slowness"
+            "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage"
           },
           {
             "kind": "note",
-            "text": "12.5% > 20% Wire Fraud"
+            "text": "0.15 Firerate"
           },
           {
             "kind": "note",
-            "text": "30% > 25% Clone Cost"
+            "text": "20 Range"
           },
           {
-            "kind": "set",
-            "from": "75",
-            "to": "120",
-            "stat": "Hologram Lifetime",
-            "text": "75 > 120 Hologram Lifetime"
+            "kind": "note",
+            "text": "60 Health"
+          },
+          {
+            "kind": "note",
+            "text": "45 Second Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "120 Scrap Meter"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection }}"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Rug Pull",
-          "Cost": "{{Money|48,000}}",
-          "Image": "[[File:HackerUpgrade5B.png|100px]]",
-          "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}"
+          "Upgrade Title": "Heavy Construction",
+          "Cost": "{{Money|12,500}}",
+          "Image": "[[File:Engineer_Level_5.png|100px]]",
+          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 6,
+        "title": "Illegal Gun Parts",
+        "cost": "{{Money|32,500}}",
+        "information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+18",
+            "stat": "Damage",
+            "text": "+18 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "-0.5",
+            "stat": "Deadzone Range",
+            "text": "-0.5 Deadzone Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.75",
+            "to": "0.6",
+            "stat": "Firerate",
+            "text": "0.75 > 0.6 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "0.125 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "24 Range"
+          },
+          {
+            "kind": "note",
+            "text": "28x2 Splash Damage"
+          },
+          {
+            "kind": "note",
+            "text": "4 Rocket Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "4 Explosion Range"
+          },
+          {
+            "kind": "note",
+            "text": "250 Health"
+          },
+          {
+            "kind": "note",
+            "text": "60 Second Lifespan"
+          },
+          {
+            "kind": "note",
+            "text": "250 Scrap Meter"
+          },
+          {
+            "kind": "note",
+            "text": "Hidden Detection }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Upgrade Title": "Illegal Gun Parts",
+          "Cost": "{{Money|32,500}}",
+          "Image": "[[File:Engineerupgrade6.jpg|100px]]",
+          "Information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}"
         }
       }
     ]
@@ -572,304 +634,9 @@
     {
       "mode": "regular",
       "level": 1,
-      "title": "Upgraded Rig",
-      "cost": "{{Money|125}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "note",
-          "text": "7.5% > 10% Slowness"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Upgraded Rig",
-        "Cost": "{{Money|125}}",
-        "Image": "[[File:HackerUpgrade1.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 2,
-      "title": "Shady Business",
-      "cost": "{{Money|1,337}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Synapses",
-          "text": "+1 Synapses"
-        },
-        {
-          "kind": "set",
-          "from": "0.45",
-          "to": "0.55",
-          "stat": "Hologram EV",
-          "text": "0.45 > 0.55 Hologram EV"
-        },
-        {
-          "kind": "note",
-          "text": "12.5% > 15% Wire Fraud"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Shady Business",
-        "Cost": "{{Money|1,337}}",
-        "Image": "[[File:HackerUpgrade2.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "title": "Teleportation Tech",
-      "cost": "{{Money|6,500}}",
-      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Range",
-          "text": "+1 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Damage",
-          "text": "+10 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.55",
-          "to": "0.625",
-          "stat": "Hologram EV",
-          "text": "0.55 > 0.625 Hologram EV"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
-        },
-        {
-          "kind": "note",
-          "text": "30% Clone Cost"
-        },
-        {
-          "kind": "note",
-          "text": "25 Hologram Lifetime}}"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Teleportation Tech",
-        "Cost": "{{Money|6,500}}",
-        "Image": "[[File:HackerUpgrade3.png|100px]]",
-        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 4,
-      "title": "5th Gen I9 3260590327",
-      "cost": "{{Money|24,000}}",
-      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Range",
-          "text": "+1 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+12",
-          "stat": "Damage",
-          "text": "+12 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Synapses",
-          "text": "+1 Synapses"
-        },
-        {
-          "kind": "set",
-          "from": "0.625",
-          "to": "0.675",
-          "stat": "Hologram EV",
-          "text": "0.625 > 0.675 Hologram EV"
-        },
-        {
-          "kind": "note",
-          "text": "15% > 20% Wire Fraud"
-        },
-        {
-          "kind": "note",
-          "text": "30% > 25% Clone Cost"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "5th Gen I9 3260590327",
-        "Cost": "{{Money|24,000}}",
-        "Image": "[[File:HackerUpgrade4.png|100px]]",
-        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 5,
-      "title": "Overclock",
-      "cost": "{{Money|60,001}}",
-      "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2.5",
-          "stat": "Range",
-          "text": "+2.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.3",
-          "to": "0.1",
-          "stat": "Firerate",
-          "text": "0.3 > 0.1 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Damage",
-          "text": "+3 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.675",
-          "to": "0.75",
-          "stat": "Hologram EV",
-          "text": "0.675 > 0.75 Hologram EV"
-        },
-        {
-          "kind": "set",
-          "from": "25",
-          "to": "30",
-          "stat": "Hologram Lifetime",
-          "text": "25 > 30 Hologram Lifetime"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "Overclock",
-        "Cost": "{{Money|60,001}}",
-        "Image": "[[File:HackerUpgrade5A.png|100px]]",
-        "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 5,
-      "title": "Rug Pull",
-      "cost": "{{Money|53,200}}",
-      "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Synapses",
-          "text": "+1 Synapses"
-        },
-        {
-          "kind": "note",
-          "text": "10% > 12.5% Slowness"
-        },
-        {
-          "kind": "note",
-          "text": "20% > 25% Wire Fraud"
-        },
-        {
-          "kind": "note",
-          "text": "25% > 75% Clone Cost"
-        },
-        {
-          "kind": "set",
-          "from": "25",
-          "to": "120",
-          "stat": "Hologram Lifetime",
-          "text": "25 > 120 Hologram Lifetime"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "Rug Pull",
-        "Cost": "{{Money|53,200}}",
-        "Image": "[[File:HackerUpgrade5B.png|100px]]",
-        "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Upgraded Rig",
-      "cost": "{{Money|600}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.8",
-          "to": "0.5",
-          "stat": "Firerate",
-          "text": "0.8 > 0.5 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "7.5% Wire Fraud"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Upgraded Rig",
-        "Cost": "{{Money|600}}",
-        "Image": "[[File:HackerUpgrade1.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 2,
-      "title": "Shady Business",
-      "cost": "{{Money|1,250}}",
-      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}",
+      "title": "Precise Calculations",
+      "cost": "{{Money|325}}",
+      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}",
       "claims": [
         {
           "kind": "delta",
@@ -878,249 +645,606 @@
           "text": "+2 Damage"
         },
         {
+          "kind": "set",
+          "from": "1.4",
+          "to": "1.2",
+          "stat": "Firerate",
+          "text": "1.4 > 1.2 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Precise Calculations",
+        "Cost": "{{Money|325}}",
+        "Image": "[[File:Engineer_Level_1.png|100px]]",
+        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 2,
+      "title": "Makeshift Radar",
+      "cost": "{{Money|900}}",
+      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
           "kind": "grant",
           "stat": "Hidden Detection",
           "text": "+Hidden Detection"
         },
         {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Synapses",
-          "text": "+1 Synapses"
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage"
         },
         {
           "kind": "note",
-          "text": "15% Slowness"
-        },
-        {
-          "kind": "set",
-          "from": "0.6",
-          "to": "0.65",
-          "stat": "Hologram EV",
-          "text": "0.6 > 0.65 Hologram EV"
+          "text": "0.2 Firerate"
         },
         {
           "kind": "note",
-          "text": "7.5% > 10% Wire Fraud"
+          "text": "20 Range"
+        },
+        {
+          "kind": "note",
+          "text": "400 Health"
+        },
+        {
+          "kind": "note",
+          "text": "30 Second Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "32 Scrap Meter"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection }}"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Shady Business",
-        "Cost": "{{Money|1,250}}",
-        "Image": "[[File:HackerUpgrade2.png|100px]]",
-        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}"
+        "Upgrade Title": "Makeshift Radar",
+        "Cost": "{{Money|900}}",
+        "Image": "[[File:Radar.png|100px]]",
+        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "title": "Auto Converter",
+      "cost": "{{Money|2,077}}",
+      "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Units",
+          "text": "+1 Max Units"
+        },
+        {
+          "kind": "set",
+          "from": "1.2",
+          "to": "1",
+          "stat": "Firerate",
+          "text": "1.2 > 1 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Auto Converter",
+        "Cost": "{{Money|2,077}}",
+        "Image": "[[File:Engi3.png|100px]]",
+        "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Heavy Construction",
+      "cost": "{{Money|6,250}}",
+      "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Build Range",
+          "text": "-1 Build Range"
+        },
+        {
+          "kind": "set",
+          "from": "1",
+          "to": "0.9",
+          "stat": "Firerate",
+          "text": "1 > 0.9 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "0.15 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "22 Range"
+        },
+        {
+          "kind": "note",
+          "text": "750 Health"
+        },
+        {
+          "kind": "note",
+          "text": "45 Second Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "150 Scrap Meter"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Heavy Construction",
+        "Cost": "{{Money|6,250}}",
+        "Image": "[[File:Engineer Level 5.png|100px]]",
+        "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "title": "Improved Blueprints",
+      "cost": "{{Money|12,500}}",
+      "information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+50",
+          "stat": "Damage",
+          "text": "+50 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.9",
+          "to": "0.75",
+          "stat": "Firerate",
+          "text": "0.9 > 0.75 Firerate"
+        },
+        {
+          "kind": "grant",
+          "stat": "Sentry Shield",
+          "text": "+Sentry Shield"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Units",
+          "text": "+1 Max Units"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Improved Blueprints",
+        "Cost": "{{Money|12,500}}",
+        "Image": "[[File:Engi4.png|100px]]",
+        "Information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 6,
+      "title": "Illegal Gun Parts",
+      "cost": "{{Money|32,500}}",
+      "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Build Range",
+          "text": "-1 Build Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.75",
+          "to": "0.6",
+          "stat": "Firerate",
+          "text": "0.75 > 0.6 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Units",
+          "text": "+1 Max Units"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "0.125 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "24 Range"
+        },
+        {
+          "kind": "note",
+          "text": "60x2 Splash Damage"
+        },
+        {
+          "kind": "note",
+          "text": "4 Rocket Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "5 Explosion Range"
+        },
+        {
+          "kind": "note",
+          "text": "1,000 Health"
+        },
+        {
+          "kind": "note",
+          "text": "60 Second Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "340 Scrap Meter"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Upgrade Title": "Illegal Gun Parts",
+        "Cost": "{{Money|32,500}}",
+        "Image": "[[File:Engineerupgrade6.jpg|100px]]",
+        "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Precise Calculations",
+      "cost": "{{Money|250}}",
+      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Damage",
+          "text": "+2 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Precise Calculations",
+        "Cost": "{{Money|250}}",
+        "Image": "[[File:Engineer_Level_1.png|100px]]",
+        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Makeshift Radar",
+      "cost": "{{Money|400}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
+        {
+          "kind": "grant",
+          "stat": "Flying Detection",
+          "text": "+Flying Detection"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Units",
+          "text": "+1 Max Units"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Makeshift Radar",
+        "Cost": "{{Money|400}}",
+        "Image": "[[File:Radar.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}"
       }
     },
     {
       "mode": "pvp",
       "level": 3,
-      "title": "Teleportation Tech",
-      "cost": "{{Money|7,500}}",
-      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}",
+      "title": "Auto Converter",
+      "cost": "{{Money|1,800}}",
+      "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Range",
-          "text": "+1 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+14",
+          "delta": "+10",
           "stat": "Damage",
-          "text": "+14 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.65",
-          "to": "0.725",
-          "stat": "Hologram EV",
-          "text": "0.65 > 0.725 Hologram EV"
+          "text": "+10 Damage"
         },
         {
           "kind": "note",
-          "text": "7.5% > 10% Wire Fraud"
+          "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage"
         },
         {
           "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
+          "text": "0.2 Firerate"
         },
         {
           "kind": "note",
-          "text": "35% Clone Cost"
+          "text": "20 Range"
         },
         {
           "kind": "note",
-          "text": "60 Hologram Lifetime}}"
+          "text": "40 Health"
+        },
+        {
+          "kind": "note",
+          "text": "30 Second Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "32 Scrap Meter}}"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Teleportation Tech",
-        "Cost": "{{Money|7,500}}",
-        "Image": "[[File:HackerUpgrade3.png|100px]]",
-        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}"
+        "Upgrade Title": "Auto Converter",
+        "Cost": "{{Money|1,800}}",
+        "Image": "[[File:Engi3.png|100px]]",
+        "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}"
       }
     },
     {
       "mode": "pvp",
       "level": 4,
-      "title": "5th Gen I9 3260590327",
-      "cost": "{{Money|22,000}}",
-      "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}",
+      "title": "Improved Blueprints",
+      "cost": "{{Money|2,600}}",
+      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "-2",
+          "delta": "+4",
           "stat": "Damage",
-          "text": "-2 Damage"
+          "text": "+4 Damage"
         },
         {
           "kind": "delta",
-          "delta": "+1",
+          "delta": "+3",
           "stat": "Range",
-          "text": "+1 Range"
+          "text": "+3 Range"
         },
         {
           "kind": "set",
-          "from": "0.5",
-          "to": "0.3",
+          "from": "1.2",
+          "to": "0.75",
           "stat": "Firerate",
-          "text": "0.5 > 0.3 Firerate"
+          "text": "1.2 > 0.75 Firerate"
         },
         {
-          "kind": "note",
-          "text": "15% > 20% Slowness"
-        },
-        {
-          "kind": "set",
-          "from": "0.725",
-          "to": "0.825",
-          "stat": "Hologram EV",
-          "text": "0.725 > 0.825 Hologram EV"
-        },
-        {
-          "kind": "note",
-          "text": "10% > 12.5% Wire Fraud"
-        },
-        {
-          "kind": "note",
-          "text": "35% > 30% Clone Cost"
-        },
-        {
-          "kind": "set",
-          "from": "60",
-          "to": "75",
-          "stat": "Hologram Lifetime",
-          "text": "60 > 75 Hologram Lifetime"
+          "kind": "grant",
+          "stat": "Sentry Shield",
+          "text": "+Sentry Shield"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "5th Gen I9 3260590327",
-        "Cost": "{{Money|22,000}}",
-        "Image": "[[File:HackerUpgrade4.png|100px]]",
-        "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}"
+        "Upgrade Title": "Improved Blueprints",
+        "Cost": "{{Money|2,600}}",
+        "Image": "[[File:Engi4.png|100px]]",
+        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}"
       }
     },
     {
       "mode": "pvp",
       "level": 5,
-      "title": "Overclock",
-      "cost": "{{Money|63,500}}",
-      "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}",
+      "title": "Heavy Construction",
+      "cost": "{{Money|12,500}}",
+      "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+2.5",
-          "stat": "Range",
-          "text": "+2.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.3",
-          "to": "0.1",
-          "stat": "Firerate",
-          "text": "0.3 > 0.1 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "-3",
+          "delta": "+10",
           "stat": "Damage",
-          "text": "-3 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Synapses",
-          "text": "+2 Synapses"
-        },
-        {
-          "kind": "note",
-          "text": "20% > 15% Slowness"
-        },
-        {
-          "kind": "set",
-          "from": "0.825",
-          "to": "0.9",
-          "stat": "Hologram EV",
-          "text": "0.825 > 0.9 Hologram EV"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "Overclock",
-        "Cost": "{{Money|63,500}}",
-        "Image": "[[File:HackerUpgrade5A.png|100px]]",
-        "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 5,
-      "title": "Rug Pull",
-      "cost": "{{Money|48,000}}",
-      "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
+          "text": "+10 Damage"
         },
         {
           "kind": "delta",
           "delta": "+1",
-          "stat": "Synapses",
-          "text": "+1 Synapses"
+          "stat": "Max Units",
+          "text": "+1 Max Units"
         },
         {
           "kind": "note",
-          "text": "20% > 25% Slowness"
+          "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage"
         },
         {
           "kind": "note",
-          "text": "12.5% > 20% Wire Fraud"
+          "text": "0.15 Firerate"
         },
         {
           "kind": "note",
-          "text": "30% > 25% Clone Cost"
+          "text": "20 Range"
         },
         {
-          "kind": "set",
-          "from": "75",
-          "to": "120",
-          "stat": "Hologram Lifetime",
-          "text": "75 > 120 Hologram Lifetime"
+          "kind": "note",
+          "text": "60 Health"
+        },
+        {
+          "kind": "note",
+          "text": "45 Second Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "120 Scrap Meter"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection }}"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "Rug Pull",
-        "Cost": "{{Money|48,000}}",
-        "Image": "[[File:HackerUpgrade5B.png|100px]]",
-        "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}"
+        "Upgrade Title": "Heavy Construction",
+        "Cost": "{{Money|12,500}}",
+        "Image": "[[File:Engineer_Level_5.png|100px]]",
+        "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 6,
+      "title": "Illegal Gun Parts",
+      "cost": "{{Money|32,500}}",
+      "information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+18",
+          "stat": "Damage",
+          "text": "+18 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "-0.5",
+          "stat": "Deadzone Range",
+          "text": "-0.5 Deadzone Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.75",
+          "to": "0.6",
+          "stat": "Firerate",
+          "text": "0.75 > 0.6 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "0.125 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "24 Range"
+        },
+        {
+          "kind": "note",
+          "text": "28x2 Splash Damage"
+        },
+        {
+          "kind": "note",
+          "text": "4 Rocket Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "4 Explosion Range"
+        },
+        {
+          "kind": "note",
+          "text": "250 Health"
+        },
+        {
+          "kind": "note",
+          "text": "60 Second Lifespan"
+        },
+        {
+          "kind": "note",
+          "text": "250 Scrap Meter"
+        },
+        {
+          "kind": "note",
+          "text": "Hidden Detection }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Upgrade Title": "Illegal Gun Parts",
+        "Cost": "{{Money|32,500}}",
+        "Image": "[[File:Engineerupgrade6.jpg|100px]]",
+        "Information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}"
       }
     }
   ],
@@ -1128,228 +1252,263 @@
     "regular": [
       {
         "level": 0,
-        "cost": 900.0,
-        "total_cost": 900.0,
-        "damage": 0.0,
-        "tick": 0.3,
-        "charge_up": 1.0,
-        "cooldown": 11.0,
-        "overcharge": 0.45,
-        "range": 7.5,
-        "dps": null
+        "cost": 600.0,
+        "total_cost": 600.0,
+        "damage": 4.0,
+        "tick": 1.4,
+        "charge_up": 13.0,
+        "cooldown": 1.5,
+        "overcharge": 4.0,
+        "range": 1.0,
+        "dps": 0.252
       },
       {
         "level": 1,
-        "cost": 125.0,
-        "total_cost": 1025.0,
-        "damage": 0.0,
-        "tick": 0.3,
-        "charge_up": 1.0,
-        "cooldown": 12.5,
-        "overcharge": 0.45,
-        "range": 10.0,
-        "dps": null
+        "cost": 325.0,
+        "total_cost": 925.0,
+        "damage": 6.0,
+        "tick": 1.2,
+        "charge_up": 16.0,
+        "cooldown": 1.5,
+        "overcharge": 4.0,
+        "range": 1.0,
+        "dps": 0.219
       },
       {
         "level": 2,
-        "cost": 1337.0,
-        "total_cost": 2362.0,
-        "damage": 0.0,
-        "tick": 0.3,
-        "charge_up": 2.0,
-        "cooldown": 14.0,
-        "overcharge": 0.55,
-        "range": 10.0,
-        "dps": null
+        "cost": 900.0,
+        "total_cost": 1825.0,
+        "damage": 10.0,
+        "tick": 1.2,
+        "charge_up": 18.0,
+        "cooldown": 1.5,
+        "overcharge": 4.0,
+        "range": 1.0,
+        "dps": 0.2
       },
       {
         "level": 3,
-        "cost": 6500.0,
-        "total_cost": 8862.0,
-        "damage": 10.0,
-        "tick": 0.3,
-        "charge_up": 2.0,
-        "cooldown": 15.0,
-        "overcharge": 0.625,
-        "range": 10.0,
-        "dps": 0.037
+        "cost": 2077.0,
+        "total_cost": 3902.0,
+        "damage": 20.0,
+        "tick": 1.0,
+        "charge_up": 18.0,
+        "cooldown": 1.5,
+        "overcharge": 4.0,
+        "range": 2.0,
+        "dps": 0.203
       },
       {
         "level": 4,
-        "cost": 24000.0,
-        "total_cost": 32862.0,
-        "damage": 22.0,
-        "tick": 0.3,
-        "charge_up": 3.0,
-        "cooldown": 16.0,
-        "overcharge": 0.675,
-        "range": 10.0,
-        "dps": 0.036
+        "cost": 6250.0,
+        "total_cost": 10152.0,
+        "damage": 30.0,
+        "tick": 0.9,
+        "charge_up": 21.0,
+        "cooldown": 1.5,
+        "overcharge": 3.0,
+        "range": 2.0,
+        "dps": 0.133
       },
       {
         "level": 5,
-        "cost": 60001.0,
-        "total_cost": 92863.0,
-        "damage": 25.0,
-        "tick": 0.1,
-        "charge_up": 3.0,
-        "cooldown": 18.5,
-        "overcharge": 0.75,
-        "range": 10.0,
-        "dps": 0.035
+        "cost": 12500.0,
+        "total_cost": 22652.0,
+        "damage": 80.0,
+        "tick": 0.75,
+        "charge_up": 21.0,
+        "cooldown": 1.5,
+        "overcharge": 3.0,
+        "range": 3.0,
+        "dps": 0.133
       },
       {
-        "level": 5,
-        "cost": 60001.0,
-        "total_cost": 152864.0,
-        "damage": 22.0,
-        "tick": 0.3,
-        "charge_up": 4.0,
-        "cooldown": 21.0,
-        "overcharge": 0.675,
-        "range": 12.5,
-        "dps": 0.027
+        "level": 6,
+        "cost": 32500.0,
+        "total_cost": 55152.0,
+        "damage": 90.0,
+        "tick": 0.6,
+        "charge_up": 22.5,
+        "cooldown": 1.5,
+        "overcharge": 2.0,
+        "range": 4.0,
+        "dps": 0.083
+      },
+      {
+        "level": 6,
+        "cost": 32500.0,
+        "total_cost": 87652.0,
+        "damage": 3.0,
+        "tick": 60.0,
+        "charge_up": 2.0,
+        "cooldown": 0.125,
+        "overcharge": 4.0,
+        "range": 24.0,
+        "dps": 0.049
       }
     ],
     "pvp": [
       {
         "level": 0,
-        "cost": 1400.0,
-        "total_cost": 1400.0,
+        "cost": 700.0,
+        "total_cost": 700.0,
         "damage": 4.0,
-        "tick": 0.8,
-        "charge_up": 1.0,
-        "cooldown": 11.0,
-        "overcharge": 0.6,
-        "range": 0.0,
-        "dps": 0.05
+        "tick": 1.2,
+        "charge_up": 13.0,
+        "cooldown": 1.0,
+        "overcharge": 4.0,
+        "range": 1.0,
+        "dps": 0.263
       },
       {
         "level": 1,
-        "cost": 600.0,
-        "total_cost": 2000.0,
-        "damage": 4.0,
-        "tick": 0.5,
-        "charge_up": 2.0,
-        "cooldown": 14.0,
-        "overcharge": 0.6,
-        "range": 0.0,
-        "dps": 0.037
+        "cost": 250.0,
+        "total_cost": 950.0,
+        "damage": 6.0,
+        "tick": 1.2,
+        "charge_up": 15.0,
+        "cooldown": 1.0,
+        "overcharge": 4.0,
+        "range": 1.0,
+        "dps": 0.238
       },
       {
         "level": 2,
-        "cost": 1250.0,
-        "total_cost": 3250.0,
+        "cost": 400.0,
+        "total_cost": 1350.0,
         "damage": 6.0,
-        "tick": 0.5,
-        "charge_up": 2.0,
-        "cooldown": 14.0,
-        "overcharge": 0.65,
-        "range": 15.0,
-        "dps": 0.04
+        "tick": 1.2,
+        "charge_up": 17.0,
+        "cooldown": 1.0,
+        "overcharge": 4.0,
+        "range": 2.0,
+        "dps": 0.213
       },
       {
         "level": 3,
-        "cost": 7500.0,
-        "total_cost": 10750.0,
-        "damage": 20.0,
-        "tick": 0.5,
-        "charge_up": 2.0,
-        "cooldown": 15.0,
-        "overcharge": 0.725,
-        "range": 15.0,
-        "dps": 0.043
+        "cost": 1800.0,
+        "total_cost": 3150.0,
+        "damage": 16.0,
+        "tick": 1.2,
+        "charge_up": 17.0,
+        "cooldown": 1.0,
+        "overcharge": 4.0,
+        "range": 2.0,
+        "dps": 0.219
       },
       {
         "level": 4,
-        "cost": 22000.0,
-        "total_cost": 32750.0,
-        "damage": 18.0,
-        "tick": 0.3,
-        "charge_up": 2.0,
-        "cooldown": 16.0,
-        "overcharge": 0.825,
+        "cost": 2600.0,
+        "total_cost": 5750.0,
+        "damage": 22.0,
+        "tick": 0.75,
+        "charge_up": 20.0,
+        "cooldown": 1.0,
+        "overcharge": 4.0,
+        "range": 2.0,
+        "dps": 0.189
+      },
+      {
+        "level": 5,
+        "cost": 12500.0,
+        "total_cost": 18250.0,
+        "damage": 30.0,
+        "tick": 0.75,
+        "charge_up": 20.0,
+        "cooldown": 1.0,
+        "overcharge": 4.0,
+        "range": 3.0,
+        "dps": 0.19
+      },
+      {
+        "level": 6,
+        "cost": 32500.0,
+        "total_cost": 50750.0,
+        "damage": 50.0,
+        "tick": 0.6,
+        "charge_up": 22.0,
+        "cooldown": 0.5,
+        "overcharge": 4.0,
+        "range": 3.0,
+        "dps": 0.177
+      },
+      {
+        "level": 5,
+        "cost": 12500.0,
+        "total_cost": 63250.0,
+        "damage": 6.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 0.15,
+        "overcharge": null,
         "range": 20.0,
-        "dps": 0.046
+        "dps": null
       },
       {
-        "level": 5,
-        "cost": 63500.0,
-        "total_cost": 96250.0,
-        "damage": 15.0,
-        "tick": 0.1,
-        "charge_up": 4.0,
-        "cooldown": 18.5,
-        "overcharge": 0.9,
-        "range": 15.0,
-        "dps": 0.04
-      },
-      {
-        "level": 5,
-        "cost": 63500.0,
-        "total_cost": 159750.0,
-        "damage": 18.0,
-        "tick": 0.3,
-        "charge_up": 3.0,
-        "cooldown": 21.0,
-        "overcharge": 0.825,
-        "range": 25.0,
-        "dps": 0.034
+        "level": 6,
+        "cost": 32500.0,
+        "total_cost": 95750.0,
+        "damage": 8.0,
+        "tick": 28.0,
+        "charge_up": 2.0,
+        "cooldown": 0.1,
+        "overcharge": 4.0,
+        "range": 24.0,
+        "dps": 0.248
       }
     ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 2+}}",
-      "lead": "{{Attr|Lead|Level 0+}} (Converted Hologram Only)",
-      "flying": "N/A",
-      "immune": "Partial Debuff<ref name=\"debuff\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2"
+      "hidden": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)",
+      "lead": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
+      "flying": "{{Attr|Fly|Level 0+}} (Tower only)<ref name=\"fd\">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>",
+      "immune": "Stun (Level 5+, units with shield only)<br/>Debuff (Units only)",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 2+}}",
-      "lead": "{{Attr|Lead|Level 0+}} (Collision only)",
-      "flying": "N/A",
-      "immune": "Partial Debuff<ref name=\"debuff\"/><br/>Partial Stun<ref name=\"stun\"/>"
+      "hidden": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)",
+      "lead": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
+      "flying": "{{Attr|Fly|Level 2+}} (Tower only)<ref name=\"fd\"/>",
+      "immune": "Stun (Level 4+, units with shield only)<br/>Debuff (Units only)"
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Hacker",
-        "image-static": "HackerIcon.png",
-        "image-dynamic": "HackerDynamic.png",
-        "unlockcost": "{{Gem|5,500}} or {{Robux|1,574}}",
-        "basecost": "{{Money|900}}",
-        "basesellingprice": "{{Money|300}}",
-        "role": "Support",
+        "title": "Engineer",
+        "image-static": "EngineerIcon.png",
+        "image-dynamic": "EngineerDynamic.png",
+        "unlockcost": "{{Gem|4,500}} or {{Robux|1,267}}",
+        "levelrequirement": "{{Level|50}}",
+        "basecost": "{{Money|600}}",
+        "basesellingprice": "{{Money|200}}",
+        "role": "Defense",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
-        "damagetype": "Single<br/>Multi-target (Level 2+)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.3",
-        "baserange": "[[File:Range Icon.png|20px|Range]]11",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "lead_detection": "{{Attr|Lead|Level 0+}} (Converted Hologram Only)",
-        "flying_detection": "N/A",
-        "immune": "Partial Debuff<ref name=\"debuff\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
+        "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])",
+        "baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)",
+        "hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)",
+        "lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
+        "flying_detection": "{{Attr|Fly|Level 0+}} (Tower only)<ref name=\"fd\">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>",
+        "immune": "Stun (Level 5+, units with shield only)<br/>Debuff (Units only)",
         "footprint": "1.5",
-        "pvp_basecost": "{{Money|1,400}}",
-        "pvp_basesellingprice": "{{Money|466}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
-        "pvp_damagetype": "Single<br/>Multi-target (Level 2+)",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.8",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]11",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision only)",
-        "pvp_flying_detection": "N/A",
-        "pvp_immune": "Partial Debuff<ref name=\"debuff\"/><br/>Partial Stun<ref name=\"stun\"/>",
+        "pvp_basecost": "{{Money|700}}",
+        "pvp_basesellingprice": "{{Money|233}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
+        "pvp_damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
+        "pvp_flying_detection": "{{Attr|Fly|Level 2+}} (Tower only)<ref name=\"fd\"/>",
+        "pvp_immune": "Stun (Level 4+, units with shield only)<br/>Debuff (Units only)",
         "pvp_footprint": "1.5",
-        "tooltip-1": "A defensive tower that targets multiple enemies and applies slow to targets",
-        "tooltip-2": "Enemy attacked by '''Hacker''' will be hacked and turned into a friendly units{{sic}}.",
-        "tooltip-3": "Enemies killed in '''Hacker's''' range will reward more cash at later levels.",
-        "tooltip-4": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        "tooltip-1": "A well-rounded tower that takes time to ramp up and build its turrets but can create a strong defensive line with great coverage once its turrets are setup.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]], [[Lead (Attribute)|lead]], and [[flying]] enemies."
       },
       "positional": []
     }
@@ -1357,41 +1516,40 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Hacker",
-      "image-static": "HackerIcon.png",
-      "image-dynamic": "HackerDynamic.png",
-      "unlockcost": "{{Gem|5,500}} or {{Robux|1,574}}",
-      "basecost": "{{Money|900}}",
-      "basesellingprice": "{{Money|300}}",
-      "role": "Support",
+      "title": "Engineer",
+      "image-static": "EngineerIcon.png",
+      "image-dynamic": "EngineerDynamic.png",
+      "unlockcost": "{{Gem|4,500}} or {{Robux|1,267}}",
+      "levelrequirement": "{{Level|50}}",
+      "basecost": "{{Money|600}}",
+      "basesellingprice": "{{Money|200}}",
+      "role": "Defense",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
-      "damagetype": "Single<br/>Multi-target (Level 2+)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.3",
-      "baserange": "[[File:Range Icon.png|20px|Range]]11",
-      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-      "lead_detection": "{{Attr|Lead|Level 0+}} (Converted Hologram Only)",
-      "flying_detection": "N/A",
-      "immune": "Partial Debuff<ref name=\"debuff\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
+      "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])",
+      "baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)",
+      "hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)",
+      "lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
+      "flying_detection": "{{Attr|Fly|Level 0+}} (Tower only)<ref name=\"fd\">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>",
+      "immune": "Stun (Level 5+, units with shield only)<br/>Debuff (Units only)",
       "footprint": "1.5",
-      "pvp_basecost": "{{Money|1,400}}",
-      "pvp_basesellingprice": "{{Money|466}}",
-      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
-      "pvp_damagetype": "Single<br/>Multi-target (Level 2+)",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.8",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]11",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}",
-      "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision only)",
-      "pvp_flying_detection": "N/A",
-      "pvp_immune": "Partial Debuff<ref name=\"debuff\"/><br/>Partial Stun<ref name=\"stun\"/>",
+      "pvp_basecost": "{{Money|700}}",
+      "pvp_basesellingprice": "{{Money|233}}",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
+      "pvp_damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
+      "pvp_flying_detection": "{{Attr|Fly|Level 2+}} (Tower only)<ref name=\"fd\"/>",
+      "pvp_immune": "Stun (Level 4+, units with shield only)<br/>Debuff (Units only)",
       "pvp_footprint": "1.5",
-      "tooltip-1": "A defensive tower that targets multiple enemies and applies slow to targets",
-      "tooltip-2": "Enemy attacked by '''Hacker''' will be hacked and turned into a friendly units{{sic}}.",
-      "tooltip-3": "Enemies killed in '''Hacker's''' range will reward more cash at later levels.",
-      "tooltip-4": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+      "tooltip-1": "A well-rounded tower that takes time to ramp up and build its turrets but can create a strong defensive line with great coverage once its turrets are setup.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]], [[Lead (Attribute)|lead]], and [[flying]] enemies."
     },
     "positional": []
   },
-  "template_count": 202
+  "template_count": 360
 }
