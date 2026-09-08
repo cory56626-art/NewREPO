@@ -1,488 +1,1157 @@
-{{Tabs|History = No|Regular = Shotgunner|Evolved= Enforcer}}
+{{Tabs}}
+{{for|[[Military Base]] or [[Mecha Base]]}}
 {{TowerInfobox
-|title=Enforcer
-|image-static = DefaultEnforcer0.png
-|image-dynamic = EnforcerDynamic.png
-|image-dynamic-start = 0
-|pseudoxd = true
-|unlockcost = {{Coins|15,000}} & {{Gem|4,750}}
-|basecost = {{Money|3,000}}
-|basesellingprice = {{Money|1,000}}
-|role = Offense
+|title = Mercenary Base
+|image-static = DefaultMercenaryBaseIcon.png
+|image-dynamic = MercenaryBaseDynamic.png
+|towercost = {{Level|150}} or {{Robux|945}}
+|role = Defense
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5
-|basedamage = [[File:Damage Icon.png|20px|Damage]]10x6
-|damagetype = Pierce<br/>Spread
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1
-|baserange = [[File:Range Icon.png|20px|Range]]10
-|hidden_detection = {{Attr|Hidden|Level 2+}}
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = N/A
-|immune = {{Attr|Stun|Level 7B}}
-|footprint = 1
-|evolved_from = [[Shotgunner]]
-|evolution_levels = 20
-|base_exp = 75
-|growth_rate = 1.075
-|skip_cost = 999
-}}{{QuoteContainer|
-{{QuoteBox|Strike force rolling! A powerful shotgunner that can flashbang enemies, call in backup swat vans, and reposition other towers with a helicopter.|Inventory Description}}
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]3
+|basecost = {{Money|2,750}}
+|basesellingprice = {{Money|916}}
+|damagetype = Single<br/>Collision<br/>[[Splash Damage|Splash]] (Level 1+)<br/>Pierce (Level 4+)
+|basefirerate = N/A
+|baserange = [[File:Range Icon.png|20px|Range]]6
+|basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]30s
+|hidden_detection = {{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name="hidden">Through splash and collision damage, hidden enemies may be hit indirectly.</ref>
+|lead_detection = {{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)
+|flying_detection = {{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name="flying">Through the [[Grenadier]]'s splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but the [[Grenadier]] itself is unable to detect flying enemies.</ref>
+|immune = Stun<br/>Partial Debuff
+|footprint = 2.25
+|pvp_basecost = {{Money|2,000}}
+|pvp_basesellingprice = {{Money|666}}
+|pvp_damagetype = Single<br/>Collision<br/>[[Splash Damage|Splash]] (Level 1+)<br/>Pierce (Level 4+)
+|pvp_basefirerate = N/A
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]6
+|pvp_basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]40s
+|pvp_hidden_detection = {{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name="hidden"/>
+|pvp_lead_detection = {{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)
+|pvp_flying_detection = {{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name="flying"/>
+|pvp_immune = Stun<br/>Partial Debuff
+|pvp_footprint = 2.25
+|tooltip-1 = A unit summoning tower that releases an endless stream of mercenary units.
+|tooltip-2 = Player can choose between a [[Rifleman|riflemen]]{{sic}}, [[grenadier]], a [[Riot Guard|riot guard]], or the [[Field Medic|medic]]; each unit having their own strengths and weaknesses.
+|tooltip-3 = Units can detect [[Hidden (Attribute)|hidden]], [[flying]], and [[Lead (Attribute)|lead]] enemies.
 }}
-__TOC__
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Pick and choose between Riflemen, Grenadiers, Field Medics, or Riot Guards to send out and defend the front lines! Must be placed close to the path to spawn units.|Inventory Description}}
+|-|Version 2 =
+{{QuoteBox|Pick & choose between Riflemen, Grenadier, Medic, or Riot Guard to send out and defend the front lines!|Inventory Description}}
+|-|Version 1 =
+{{QuoteBox|Send out a vehicle every couple of seconds to run over and shoot enemies.|Former Inventory Description}}
+</tabber>}}
 ==Description==
-The '''Enforcer''', internally referred to as '''EvolvedEnforcer''', is the [[Tower Evolution|evolved]] version of the [[Shotgunner]], unlocked by reaching Level 20 on the [[Shotgunner]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|499}}. Once done, it can be bought for {{Gem|4,750}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.
+The '''Mercenary Base''' is an advanced tower unlocked at {{Level|150}}. It can also be bought for {{Robux|945}}. It can spawn various units on the path within its range, which can deal damage to enemies or support other units. These units have varying strengths, spawnrates and purposes.
 
-The '''Enforcer''' fires a shotgun, meaning it fires out multiple pellets at once. These pellets are spread out based on their spread and random spread values. They can pierce through enemies. These bullets can sometimes miss targets to an enemy. Once it finishes a shot, it will need to pump its shotgun. This generally takes as long as shooting itself and will affect its firerate. Pump time is affected by the [[Firerate Buff]]. Once upgraded to Level 2, it will gain a flashbang grenade which it will throw out after dealing a specific amount of damage. This grenade will also stun enemies in a radius for a short time. While throwing the grenade, the '''Enforcer''' will visually stop attacking enemies, though it will still actually deal damage. The flashbang cannot stun enemies with [[Stun Immunity]] or [[Boss]].
+At Level 0, it spawns the [[Rifleman]], which is a basic burst unit that attacks similar to the [[Soldier]]. It gains hidden and flying detections at Level 3+.
 
-At Level 5, the tower splits into two separate paths:
-*Top path turns it into an ammo-based tower. Once it has fired a certain number of times, it will have to reload. This replaces its pump time. Additionally, it gains the ability to reposition towers with ''Reposition Helicopter''. This lets the player move any tower they own anywhere on the map. However, non-humanoid towers like the [[Ace Pilot]], [[Farm]], [[Pursuit]] and [[Gatling Gun]], are blacklisted from performing the ability.
-*Bottom path retains its pump functionality but gains the ''SWAT Van'' ability. This summons in depending on the upgrade either the [[Swat Van]] or [[Swat Van Gunner]] unit on the path. Both of the units are supposed to explode upon death.
+At Level 1, it gains the ability to spawn the [[Grenadier]], which deals splash damage, which works like most other splash damage towers. The explosion is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere is decreased linearly. Additionally, its explosions bypass defense. At Level 6, the [[Grenadier]] gains defense, letting it take less damage from collisions and enemy abilities.
 
-The '''Enforcer''' has lead detection from Level 0 and hidden detection from Level 2. It has a placement limit of 5.
+At Level 4, it spawns the [[Riot Guard]], which has a very high amount of health and high defense but rather low melee damage — its main form of damage is collision damage. It can hit multiple enemies with its attack, though as it requires them to be very close to each other, this does not happen often. When walking, the [[Riot Guard]] will slowly build up speed until it is running. While in this state, colliding with an enemy will damage and knock back the enemy. Bigger enemies will be pushed back a smaller distance than average-sized enemies. After colliding with or when near an enemy, the [[Riot Guard]] will remain in place to soak up more damage.
+
+At Level 5, it can spawn the [[Field Medic]], which does no damage to enemies, but can support multiple humanoid units within its range, healing them and giving them a shield. Healing works similar to damage, as it heals units by 15 (20 at Level 6) every 0.2 seconds.
+
+At Level 3, the '''Mercenary Base''' grants towers in its range a 10% [[Damage Buff]], which gets increased to 12.5% at Level 5 and 15% at Level 6. This [[Damage Buff]] does not affect all sources of damage. Additionally, while the in-game stat box suggests it allows towers to deal decimal damage, damage is rounded down instead.
+
+At Level 5, it also gains the ''Air-Drop'' ability for {{Money|2,500}}, which spawns in the units from each of the three queues on the tower itself. This ability completely ignores the regular unit spawnrates and instead has its own cooldown. The units can be air-dropped anywhere on the path, making the tower more flexible.
+
+The '''Mercenary Base''' has a placement limit of three per player. In [[PVP]] mode only, there is also a limit of 10 [[Rifleman|Riflemen]] per tower, 7 [[Grenadier]]s per tower, 4 [[Riot Guard]]s per tower and 3 [[Field Medic]]s per tower. This limit, however, does not work for the [[Field Medic]] and only [[Field Medic]]. For other units, if the limit is reached, no units will spawn when the spawnrate ends.
+
+The '''Mercenary Base''' is considered a hybrid offensive-support tower that can be used in many ways. The [[Rifleman]] and [[Grenadier]] units provide solid damage throughout the game, while the [[Damage Buff]] the tower grants from Level 3 and onwards helps it support other high-DPS towers in the late-game. Additionally, the [[Riot Guard]] can be used as backup, and the [[Field Medic]] can support all units to give them extra survivability.
 
 ==Upgrades==
-{{Upgrade
-|Level = Level 1
-|Evolution Level = 0
-|Upgrade Title = Elbow Grease
-|Cost = {{Money|750}}
-|Image = [[File:EnforcerUpgrade1.png|100px]]
-|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Explosive Experts|Cost = {{Money|1,350}}|Image = [[File:Mercenary Base Level 2 Icon.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]
 
-1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]
 
-1 > 0.85 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]
+•20 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
+•19 Range [[File:Range_Icon.png|20px|Range]]
 
-Sell Price changes to {{Money|1,250}}
-}}
-{{Upgrade
-|Level = Level 2
-|Evolution Level = 0
-|Upgrade Title = Flash Grenade
-|Cost = {{Money|2,650}}
-|Image = [[File:EnforcerUpgrade2.png|100px]]
-|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+•1.4 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-6 > 8 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]
+•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
 
-+Hidden Detection {{Hidden|Hidden Detection}}
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
 
-{{CollapsibleUpgrade|Title = Unlocks Flashbang|Description = •640 Flashbang Damage Charge
-
-•0.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]
-
-•4 Flashbang Radius}}
+•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
 
 
-Sell Price changes to {{Money|2,133}}
-}}
-{{Upgrade
-|Level = Level 3
-|Evolution Level = 0
-|Upgrade Title = Urban Operations
-|Cost = {{Money|4,600}}
-|Image = [[File:EnforcerUpgrade3.png|100px]]
-|Information = +8 Damage [[File:Damage Icon.png|20px|Damage]]
-
-640 > 1,000 Flashbang Damage Charge
-
-4 > 5 Flashbang Radius
+Sell Price changes to {{Money|1,366}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Barracks|Cost = {{Money|2,750}}|Image = [[File:Mercenary Base Level 1 Icon.png|100px]]|Information = +1 Unit Queue
 
 
-Sell Price changes to {{Money|3,666}}
-}}
-{{Upgrade
-|Level = Level 4
-|Evolution Level = 0
-|Upgrade Title = Specialist
-|Cost = {{Money|7,250}}
-|Image = [[File:EnforcerUpgrade4.png|100px]]
-|Information = +13 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|2,283}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Improved Training|Cost = {{Money|9,650}}|Image = [[File:Mercenary Base Level 3 Icon.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]
 
-1,000 > 1,500 Flashbang Damage Charge
+10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
 
-0.5 > 0.75 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]
+{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]
 
+•8 Damage [[File:Damage Icon.png|20px|Damage]]
 
-Sell Price changes to {{Money|6,083}}
-}}
-{{PathTabber
-|{{Upgrade
-|Level = Level 5
-|Evolution Level = 0
-|Upgrade Title = Good Coms
-|Cost = {{Money|12,000}}
-|Image = [[File:EnforcerUpgrade5A.png|100px]]
-|Information = -19 Damage [[File:Damage Icon.png|20px|Damage]]
+•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-0.85 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+•8 Burst [[File:Damage Icon.png|20px|Burst]]
 
-0.85 > 0 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]
+•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]
 
-+5 Range [[File:Range_Icon.png|20px|Range]]
+•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
 
-8 > 4 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]
+•24 Range [[File:Range_Icon.png|20px|Range]]
 
-3.5 > 1.5 Base Spread
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
 
-2 > 1 Base Spread
+•Hidden Detection {{Hidden|Hidden Detection}}
 
--1 Max Hits
+•Flying Detection {{Flying|Flying Detection}}
 
-1,500 > 1,200 Flashbang Damage Charge
+•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
 
-5 > 4.5 Flashbang Radius
+{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health [[File:HealthIcon.png|20px|Health]]
 
-0.75 > 1.2 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]
+•30 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
-{{CollapsibleUpgrade|Title = Unlocks Support Helicopter|Description = Calls in a helicopter to reposition one of your towers anywhere on the map.
+•1.3 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
 
-•{{Money|2,500}} Cost [[File:Cash Icon.png|20px|Cost]]
+•20 Range [[File:Range_Icon.png|20px|Range]]
 
-•90 Cooldown [[File:Slowness.png|20px|Cooldown]]
+•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
 
-•90 Initial Cooldown [[File:Slowness.png|20px|Initial Cooldown]]}}
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
 
-{{CollapsibleUpgrade|Title = Automatic Shotgun|Description = The '''Enforcer''' now fires its shotgun automatically, but it now needs to reload after a specific number of shots.
-
-•25 Ammo [[File:Damage Icon.png|20px|Ammo]]
-
-•1.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
-
-•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}
+•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
 
 
-Sell Price changes to {{Money|10,083}}}}
-{{Upgrade
-|Level = Level 6
-|Evolution Level = 5
-|Upgrade Title = Full Arsenal
-|Cost = {{Money|20,000}}
-|Image = [[File:EnforcerUpgrade6A.png|100px]]
-|Information = +2.5 Range [[File:Range_Icon.png|20px|Range]]
+Sell Price changes to {{Money|5,500}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Riot Control|Cost = {{Money|10,000}}|Image = [[File:Defense.png|100px]]|Information = +1 Unit Queue
 
-4 > 6 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]
-
-1,200 > 1,800 Flashbang Damage Charge
-
-+35 Ammo [[File:Damage Icon.png|20px|Ammo]]
-
-
-Sell Price changes to {{Money|16,750}}}}
-{{Upgrade
-|Level = Level 7
-|Evolution Level = 15
-|Upgrade Title = Punisher
-|Cost = {{Money|31,500}}
-|Image = [[File:EnforcerUpgrade7A.png|100px]]
-|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
-
-1.5 > 1 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
-
-1,800 > 2,700 Flashbang Damage Charge
-
-1.2 > 1.5 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]
-
-
-Sell Price changes to {{Money|27,250}}}}
-|{{Upgrade
-|Level = Level 5
-|Evolution Level = 0
-|Upgrade Title = SWAT Van
-|Cost = {{Money|12,000}}
-|Image = [[File:EnforcerUpgrade5B.png|100px]]
-|Information = 0.85 > 0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-0.85 > 0.7 Pump Time [[File:Cooldown Icon.png|20px|Pump Time]]
-
-+1 Range [[File:Range Icon.png|20px|Range]]
-
-3.5 > 2.5 Base Spread
-
-1,500 > 2,000 Flashbang Damage Charge
-
-5 > 6.5 Flashbang Radius
-
-{{CollapsibleUpgrade|Title = Unlocks SWAT Van|Description = Summons in a [[Swat Van]] that collides with enemies and explodes upon death.
-
-•750 Health [[File:HealthIcon.png|20px|Health]]
-
-•7 Speed [[File:SpeedIcon.png|20px|Speed]]
+{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]
 
 •10% Defense {{Defense}}
 
-•350 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]
+•50 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
-•6 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
+•15 Knockback Force {{Knockback|Knockback Force}}
 
-•45 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]}}
+•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
+•4 Range [[File:Range_Icon.png|20px|Range]]
 
-Sell Price changes to {{Money|10,083}}}}
-{{Upgrade
-|Level = Level 6
-|Evolution Level = 10
-|Upgrade Title = Full Suit
-|Cost = {{Money|15,000}}
-|Image = [[File:EnforcerUpgrade6B.png|100px]]
-|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
+•10 Max Hits
 
-8 > 10 Pellet Count [[File:Damage Icon.png|20px|Pellet Count]]
+•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]
 
-2,000 > 2,500 Flashbang Damage Charge
+•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
 
-5 > 4.5 Flashbang Radius
-
-0.75 > 1 Flashbang Stun Time [[File:Slowness.png|20px|Flashbang Stun Time]]
-
-{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +450 Health [[File:HealthIcon.png|20px|Health]]
-
-10% > 15% Defense {{Defense}}
-
-+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]}}
-
-
-Sell Price changes to {{Money|15,083}}}}
-{{Upgrade
-|Level = Level 7
-|Evolution Level = 20
-|Upgrade Title = Peacekeeper
-|Cost = {{Money|20,000}}
-|Image = [[File:EnforcerUpgrade7B.png|100px]]
-|Information = +7 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Range [[File:Range Icon.png|20px|Range]]
-
-+[[Stun Immunity]] {{Stun|Stun Immunity}}
-
-2,500 > 3,000 Flashbang Damage Charge
-
-{{CollapsibleUpgrade|Title = Upgraded SWAT Van|Description = +300 Health [[File:HealthIcon.png|20px|Health]]
-
-+100 Explosion Damage [[File:SplashDamage.png|20px|Explosion Damage]]
-
-+1 Vans Called
-
-Now summons the [[Swat Van Gunner]], which fires at enemies with a machine gune.
-
-•10 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•25 Range [[File:Range_Icon.png|20px|Range]]
-
-•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]
 
 •Hidden Detection {{Hidden|Hidden Detection}}}}
 
 
-Sell Price changes to {{Money|21,750}}
+Sell Price changes to {{Money|8,833}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Air Transport|Cost = {{Money|12,500}}|Image = [[File:Mercenary Base Level 5 Icon.png|100px]]|Information = +''Air-Drop''
+
+10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
+{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]
+
+•15 Heal [[File:HealingIcon.svg|20px|Heal]]
+
+•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•35 Range [[File:Range_Icon.png|20px|Range]]
+
+•8 Max Targets
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•15 Shield Cooldown
+
+•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+
+Sell Price changes to {{Money|13,000}}.
 }}
+{{Upgrade|Level = Level 6|Upgrade Title = Enhanced Equipment|Cost = {{Money|45,000}}|Image = [[File:Mercenary Base Level 6 Icon.png|100px]]|Information = 12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
+{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]
+
+•17 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•8 Burst [[File:Damage Icon.png|20px|Burst]]
+
+•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]
+
+•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
+
+•30 Range [[File:Range_Icon.png|20px|Range]]
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•Hidden Detection {{Hidden|Hidden Detection}}
+
+•Flying Detection {{Flying|Flying Detection}}
+
+•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health [[File:HealthIcon.png|20px|Health]]
+
+•10% Defense {{Defense}}
+
+•40 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•1.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•21.5 Range [[File:Range_Icon.png|20px|Range]]
+
+•6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]
+
+•20 Heal [[File:HealingIcon.svg|20px|Heal]]
+
+•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]
+
+•35 Range [[File:Range_Icon.png|20px|Range]]
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•10 Max Targets
+
+•15 Shield Cooldown
+
+•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]
+
+•15% Defense {{Defense}}
+
+•50 Damage [[File:OffensiveModifier.png|20px|Damage]]
+
+•25 Knockback Force {{Knockback|Knockback Force}}
+
+•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•4 Range [[File:Range_Icon.png|20px|Range]]
+
+•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•10 Max Hits
+
+•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+
+Sell Price changes to {{Money|28,000}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Explosive Experts|Cost = {{Money|1,800}}|Image = [[File:Mercenary Base Level 2 Icon.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]
+
+{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]
+
+•28 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•18 Range [[File:Range_Icon.png|20px|Range]]
+
+•1.75 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•45s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+
+Sell Price changes to {{Money|1,266}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Barracks|Cost = {{Money|2,000}}|Image = [[File:Mercenary Base Level 1 Icon.png|100px]]|Information = +1 Unit Queue
+
+
+Sell Price changes to {{Money|1,933}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Improved Training|Cost = {{Money|7,000}}|Image = [[File:Mercenary Base Level 3 Icon.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]
+
+10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
+{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]
+
+•8 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•8 Burst [[File:Damage Icon.png|20px|Burst]]
+
+•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]
+
+•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
+
+•24 Range [[File:Range_Icon.png|20px|Range]]
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•Hidden Detection {{Hidden|Hidden Detection}}
+
+•Flying Detection {{Flying|Flying Detection}}
+
+•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health [[File:HealthIcon.png|20px|Health]]
+
+•50 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•1.525 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•19 Range [[File:Range_Icon.png|20px|Range]]
+
+•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+
+Sell Price changes to {{Money|4,266}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Riot Control|Cost = {{Money|10,000}}|Image = [[File:Defense.png|100px]]|Information = +1 Unit Queue
+
+{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]
+
+•10% Defense {{Defense}}
+
+•50 Damage [[File:OffensiveModifier.png|20px|Damage]]
+
+•15 Knockback Force {{Knockback|Knockback Force}}
+
+•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•4 Range [[File:Range_Icon.png|20px|Range]]
+
+•10 Max Hits
+
+•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]
+
+•Hidden Detection {{Hidden|Hidden Detection}}}}
+
+
+Sell Price changes to {{Money|7,600}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Air Transport|Cost = {{Money|15,000}}|Image = [[File:Mercenary Base Level 5 Icon.png|100px]]|Information = +''Air-Drop''
+
+{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]
+
+•15 Heal [[File:HealingIcon.svg|20px|Heal]]
+
+•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•35 Range [[File:Range_Icon.png|20px|Range]]
+
+•8 Max Targets
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•15 Shield Cooldown
+
+•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+
+Sell Price changes to {{Money|12,600}}.
+}}
+{{Upgrade|Level = Level 6|Upgrade Title = Enhanced Equipment|Cost = {{Money|35,000}}|Image = [[File:Mercenary Base Level 6 Icon.png|100px]]|Information = 10% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
+{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]
+
+•18 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•8 Burst [[File:Damage Icon.png|20px|Burst]]
+
+•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]
+
+•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
+
+•30 Range [[File:Range_Icon.png|20px|Range]]
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•Hidden Detection {{Hidden|Hidden Detection}}
+
+•Flying Detection {{Flying|Flying Detection}}
+
+•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health [[File:HealthIcon.png|20px|Health]]
+
+•10% Defense {{Defense}}
+
+•80 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•1.25 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
+
+•20 Range [[File:Range_Icon.png|20px|Range]]
+
+•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]
+
+•20 Heal [[File:HealingIcon.svg|20px|Heal]]
+
+•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]
+
+•35 Range [[File:Range_Icon.png|20px|Range]]
+
+•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•10 Max Targets
+
+•15 Shield Cooldown
+
+•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]
+
+•15% Defense {{Defense}}
+
+•50 Damage [[File:OffensiveModifier.png|20px|Damage]]
+
+•25 Knockback Force {{Knockback|Knockback Force}}
+
+•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•4 Range [[File:Range_Icon.png|20px|Range]]
+
+•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•10 Max Hits
+
+•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]
+
+•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}
+
+
+Sell Price changes to {{Money|24,266}}}}
 }}
 
-==Abilities==
-{{Ability|Level Unlock = Level 5A+|Cooldown Time= 90s Cooldown|Initial Cooldown Time= 90s Initial Cooldown|Cost = {{Money|2,500}}|Ability Title = Helicopter Reposition|Image = [[File:HelicopterRepositionAbility.png|100px]]|Information = Moves one player owned tower from one spot on the map to another. Cannot relocate the [[Farm]], [[Pursuit]], [[Ace Pilot]] or [[Gatling Gun]].
+==Ability==
+{{PVPTabber
+|{{Ability|Level Unlock = Level 5+|Cooldown Time= 50s Cooldown|Initial Cooldown Time = 15s Initial Cooldown|Ability Title = Air-Drop|Cost = {{Money|2,500}}|Image = [[File:AirDropAbility.png|100px]]|Information = 
+Drops the '''Mercenary Base's''' units on a selected area on the path.
 }}
-{{Ability|Level Unlock = Level 5B+|Cooldown Time= 45s Cooldown|Ability Title = SWAT Van|Image = [[File:SWATVanAbility.png|100px]]|Information = Summons in a [[Swat Van]] which collides with enemies and explodes upon death. With upgrades, replaces it with [[Swat Van Gunner]] which also fires at enemies. Number of units spawned depends on the upgrade.
+|{{Ability|Level Unlock = Level 5+|Cooldown Time= 75s Cooldown|Initial Cooldown Time = 15s Initial Cooldown|Ability Title = Air-Drop|Cost = {{Money|2,500}}|Image = [[File:AirDropAbility.png|100px]]|Information = 
+Drops the '''Mercenary Base's''' units on a selected area on the path.
+}}
 }}
 
 ==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage * Pellet Count / (Firerate + Pump Time)
-$ADPS$ = Damage * Pellet Count * Ammo / (Ammo * Firerate + Reload Time)
-$MDPS$ = ($DPS$) * Max Hits
-$GDPS$ = Damage / Firerate
-$CE$ = Total Cost / DPS
-$MCE$ = Total Cost / Max DPS
-$ACE$ = Total Cost / Top Path Stats.DPS
+$DPS$ = Damage / Firerate
+$RDPS$ = (Damage * Burst Count) / (Cooldown + Aim Time + (Firerate * Burst Count))
+$GDPS$ = [[Splash Damage]] / Firerate
+$HPS$ = Heal / Firerate
+$RAM$ = Health / Spawnrate
+$CE$ = Total Cost / Combined DPS
 $TP$ = $FNC-TOTAL-COST$
-$TE$ = $FNC-TOTAL-EXP$
-$EXP$ = {{#expr:floor(75 * 1.075^(Level - 1) * (Level > 0))}}
-$FNC-SCHEMA$ = N; N; N; N; N; A; A; A; B; B; B
-$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
-$COST$ = 3000; 750; 2650; 4600; 7250; 12000; 20000; 31500; 12000; 15000; 20000
-$FSE-DETECTION$ = 2; 0; -1
-$FSE-UPGRADE$ = Elbow Grease; Flash Grenade; Urban Operations; Specialist; Good Comms; Full Arsenal; Punisher; SWAT Van; Full Suit; Peacekeeper
-$FSE-UPGRADEICON$ = 136369346813725; 107404064476607; 82782455075877; 76520357411079; 75300201894000; 90582348502485; 83679968823067; 93191574637363; 79398593824767; 79055341194840
-$FSE-META$ = Evolved; File:DefaultEnforcer0.png
-$DREF$ = <ref name=dps>DPS assumes all pellets hit a single enemy.</ref>
-$RC$ = $FNC-RECURSION$
+$COST$ = 2750; 1350; 2750; 9650; 10000; 12500; 45000
+$PVP-COST$ = 2000; 1800; 2000; 7000; 10000; 15000; 35000
+$FSE-DETECTION$ = ; ;
+$FSE-PVP-DETECTION$ = ; ;
+$FSE-UPGRADE$ = Explosive Experts; Upgraded Barracks; Improved Training; Riot Control; Air Transport; Enhanced Equipment
+$FSE-PVP-UPGRADE$ = Explosive Experts; Upgraded Barracks; Improved Training; Riot Control; Air Transport; Enhanced Equipment
+$FSE-UPGRADEICON$ = 17196819847; 17196820389; 17196819964; 13019520315; 17196820108; 17196820275
+$FSE-META$ = Advanced; File:DefaultMercenaryBaseIcon.png
+$RREF$ = <ref name="rifledps">DPS is calculated as (Damage × Burst Count) ÷ (Cooldown + Aim Time + (Firerate × Burst Count)).</ref>
+$R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="18" |Neutral Stats
+! colspan="8" |Mercenary Base Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Pellet Count !! Firerate !! Pump Time !! Range !! Max Hits !! Base Spread !! Random Spread !! Flashbang Stun Time !! Flashbang Radius !! Flashbang Charge Threshold !! DPS$DREF$ !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+! Level !! Cost !! Total Cost !! Range !! Unit Queue !! Buff
 |-
-| 0 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 10 || 6 || 1 || 1 || 10 || 2 || 3.5 || 2 || 0 || 0 || 0 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 6 || 1 || N/A
 |-
-| 1 || $RC$ || $RC$ || 10 || 6 || 0.85 || 0.85 || 12 || 2 || 3.5 || 2 || 0 || 0 || 0 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 1 || $R$ || $R$ || 8 || 1 || N/A
 |-
-| 2 || $RC$ || $RC$ || 12 || 8 || 0.85 || 0.85 || 12 || 2 || 3.5 || 2 || 0.5 || 4 || 640 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 2 || $R$ || $R$ || 8 || 2 || N/A
 |-
-| 3 || $RC$ || $RC$ || 20 || 8 || 0.85 || 0.85 || 12 || 2 || 3.5 || 2 || 0.5 || 5 || 1,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 3 || $R$ || $R$ || 10 || 2 || 10%
 |-
-| 4 || $RC$ || $RC$ || 33 || 8 || 0.85 || 0.85 || 12 || 2 || 3.5 || 2 || 0.75 || 5 || 1,500 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 4 || $R$ || $R$ || 10 || 3 || 10%
+|-
+| 5 || $R$ || $R$ || 10 || 3 || 12.5%
+|-
+| 6 || $R$ || $R$ || 10 || 3 || 15%
 |}
 </div>
 
+{| class="wikitable stats-table"
+! colspan="13" |[[Rifleman]] Stats
+|-
+! Level !! Health !! Damage !! Burst Count !! Spawnrate !! Firerate !! Cooldown !! Aim Time !! Lifespan !! Range !! Detections !! DPS$RREF$ !! Ram DPS
+|-
+| 0–2 || 40 || 5 || 6 || 30 || 0.15 || 1 || 0.35 || 150 || 20 || N/A || $RDPS$ || $RAM$
+|-
+| 3–5 || 80 || 8 || 8 || 30 || 0.15 || 1 || 0.35 || 150 || 24 || Hidden, Flying || $RDPS$ || $RAM$
+|-
+| 6 || 275 || 17 || 8 || 30 || 0.15 || 1 || 0.35 || 150 || 30 || Hidden, Flying || $RDPS$ || $RAM$
+|}
+
+{| class="wikitable stats-table"
+! colspan="12" |[[Grenadier]] Stats
+|-
+! Level !! Health !! [[Splash Damage]] !! Spawnrate !! Firerate !! Defense !! Lifespan !! Range !! Explosion Range !! Detections !! DPS !! Ram DPS
+|-
+| 1–2 || 50 || 20 || 25 || 1.4 || N/A || 150 || 19 || 4.5 || Lead || $GDPS$ || $RAM$
+|-
+| 3–5 || 135 || 30 || 25 || 1.3 || N/A || 150 || 20 || 5 || Lead || $GDPS$ || $RAM$
+|-
+| 6 || 325 || 40 || 25 || 1.2 || 10% || 150 || 21.5 || 6 || Lead || $GDPS$ || $RAM$
+|}
+
+{| class="wikitable stats-table"
+! colspan="15" |[[Riot Guard]] Stats
+|-
+! Level !! Health !! Damage !! Spawnrate !! Defense !! Firerate !! Lifespan !! Range !! Knockback Force !! Max Hits !! Charge Time !! Detections !! DPS !! Ram DPS
+|-
+| 4–5 || 800 || 50 || 40 || 10% || 1.5 || 75 || 4 || 15 || 10 || 4 || Hidden || $DPS$ || $RAM$
+|-
+|6 || 2,000 || 50 || 40 || 15% || 1 || 75 || 4 || 25 || 10 || 3 || Hidden || $DPS$ || $RAM$
+|}
+
+{| class="wikitable stats-table"
+! colspan="12" |[[Field Medic]] Stats
+|-
+! Level !! Health !! Spawnrate !! Heal !! Max Targets !! Firerate !! Lifespan !! Range !! Shield Cooldown !! Detections !! Heal per Second !! Ram DPS
+|-
+| 5 || 300 || 30 || 15 || 8 || 0.2 || 150 || 35 || 15 || N/A || $HPS$ || $RAM$
+|-
+| 6 || 600 || 30 || 20 || 10 || 0.2 || 150 || 35 || 15 || N/A || $HPS$ || $RAM$
+|}
+|-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="17" |Top Path Stats
+! colspan="8" |Mercenary Base Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Pellet Count !! Firerate !! Ammo !! Reload Time !! Range !! Max Hits !! Base Spread !! Random Spread !! Flashbang Stun Time !! Flashbang Radius !! Flashbang Charge Threshold !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Range !! Unit Queue !! Buff
 |-
-| 5 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 14 || 4 || 0.2 || 25 || 1.5 || 17 || 1 || 1.5 || 1 || 1.2 || 4.5 || 1,200 || $ADPS$ || {{Money|$ACE$}}
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 6 || 1 || N/A
 |-
-| 6 || $RC$ || $RC$ || 14 || 6 || 0.2 || 60 || 1.5 || 19.5 || 1 || 1.5 || 1 || 1.2 || 4.5 || 1,800 || $ADPS$ || {{Money|$ACE$}}
+| 1 || $R$ || $R$ || 8 || 1 || N/A
 |-
-| 7 || $RC$ || $RC$ || 18 || 6 || 0.2 || 60 || 1 || 19.5 || 1 || 1.5 || 1 || 1.5 || 4.5 || 2,700 || $ADPS$ || {{Money|$ACE$}}
+| 2 || $R$ || $R$ || 8 || 2 || N/A
+|-
+| 3 || $R$ || $R$ || 10 || 2 || 10%
+|-
+| 4 || $R$ || $R$ || 10 || 3 || 10%
+|-
+| 5 || $R$ || $R$ || 10 || 3 || 10%
+|-
+| 6 || $R$ || $R$ || 10 || 3 || 20%
 |}
 </div>
 
-<div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="19" |Bottom Path Stats
+! colspan="14" |[[Rifleman]] Stats
 |-
-! Level !! Cost !! Total Cost !! Damage !! Pellet Count !! Firerate !! Pump Time !! Range !! Max Hits !! Base Spread !! Random Spread !! Flashbang Stun Time !! Flashbang Radius !! Flashbang Charge Threshold !! DPS$DREF$ !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
+! Level !! Health !! Damage !! Burst Count !! Spawnrate !! Firerate !! Cooldown !! Aim Time !! Lifespan !! Limit !! Range !! Detections !! DPS$RREF$ !! Ram DPS
 |-
-| 5 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 33 || 8 || 0.7 || 0.7 || 13 || 2 || 2.5 || 2 || 0.75 || 6.5 || 2,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 0–2 || 40 || 5 || 6 || 45 || 0.15 || 1 || 0.35 || 150 || 10 || 20 || N/A || $RDPS$ || $RAM$
 |-
-| 6 || $RC$ || $RC$ || 38 || 10 || 0.7 || 0.7 || 13 || 2 || 2.5 || 2 || 1 || 6.5 || 2,500 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 3–5 || 80 || 8 || 8 || 40 || 0.15 || 1 || 0.35 || 150 || 10 || 24 || Hidden, Flying || $RDPS$ || $RAM$
 |-
-| 7 || $RC$ || $RC$ || 45 || 10 || 0.7 || 0.7 || 14 || 2 || 2.5 || 2 || 1 || 6.5 || 3,000 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 6 || 275 || 17 || 8 || 35 || 0.15 || 1 || 0.35 || 150 || 10 || 30 || Hidden, Flying || $RDPS$ || $RAM$
 |}
-</div>
 
-<div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="14" |SWAT Van Stats
+! colspan="13" |[[Grenadier]] Stats
 |-
-! Level !! Unit !! Health !! Defense !! Speed !! Damage !! Firerate !! Range !! Explosion Damage !! Explosion Radius !! Spawn Time !! Vans Called !! Detections !! DPS
+! Level !! Health !! [[Splash Damage]] !! Spawnrate !! Firerate !! Defense !! Lifespan !! Limit !! Range !! Explosion Range !! Detections !! DPS !! Ram DPS
 |-
-| 5B || [[Swat Van]] || 750 || 10% || 7 || N/A || N/A || 5 || 350 || 6 || 1 || 1 || None || N/A
+| 1–2 || 50 || 28 || 40 || 1.75 || N/A || 240 || 7 || 18 || 3 || Lead || $GDPS$ || $RAM$
 |-
-| 6B || [[Swat Van]] || 1,200 || 15% || 7 || N/A || N/A || 5 || 450 || 6 || 1|| 1 || None || N/A 
+| 3–5 || 125 || 50 || 40 || 1.5 || N/A || 240 || 7 || 19 || 4.5 || Lead || $GDPS$ || $RAM$
 |-
-| 7B || [[Swat Van Gunner]] || 1,500 || 15% || 7 || 10 || 0.15 || 25 || 550 || 6 || 2 || 2 || Hidden || $GDPS$
+| 6 || 300 || 80 || 40 || 1.25 || 10% || 240 || 7 || 20 || 4.5 || Lead || $GDPS$ || $RAM$
 |}
-</div>
-<!-- @se-ignore -->
-|-|Levels =
-<div class="overflow-box">
+
 {| class="wikitable stats-table"
-! colspan="12" |Levels
+! colspan="16" |[[Riot Guard]] Stats
 |-
-! Level !! Exp !! Total Exp
+! Level !! Health !! Damage !! Spawnrate !! Defense !! Firerate !! Lifespan !! Limit !! Range !! Knockback Force !! Max Hits !! Charge Time !! Detections !! DPS !! Ram DPS
 |-
-| 0 || {{Exp|0}} || {{Exp|$TE$}}$RC$
+| 4–5 || 800 || 50 || 50 || 10% || 1.5 || 75 || 4 || 4 || 15 || 10 || 4 || Hidden || $DPS$ || $RAM$
 |-
-| 1 || {{Exp|$EXP$}}$RC$ || $RC$
-|-
-| 2 || $RC$ || $RC$
-|-
-| 3 || $RC$ || $RC$
-|-
-| 4 || $RC$ || $RC$
-|-
-| 5 || $RC$ || $RC$
-|-
-| 6 || $RC$ || $RC$
-|-
-| 7 || $RC$ || $RC$
-|-
-| 8 || $RC$ || $RC$
-|-
-| 9 || $RC$ || $RC$
-|-
-| 10 || $RC$ || $RC$
-|-
-| 11 || $RC$ || $RC$
-|-
-| 12 || $RC$ || $RC$
-|-
-| 13 || $RC$ || $RC$
-|-
-| 14 || $RC$ || $RC$
-|-
-| 15 || $RC$ || $RC$
-|-
-| 16 || $RC$ || $RC$
-|-
-| 17 || $RC$ || $RC$
-|-
-| 18 || $RC$ || $RC$
-|-
-| 19 || $RC$ || $RC$
-|-
-| 20 || $RC$ || $RC$
+|6 || 2,000 || 50 || 50 || 15% || 1 || 75 || 4 || 4 || 25 || 10 || 3 || Hidden || $DPS$ || $RAM$
 |}
-</div>
-<!-- @/se-ignore -->
+
+{| class="wikitable stats-table"
+! colspan="13" |[[Field Medic]] Stats
+|-
+! Level !! Health !! Spawnrate !! Heal !! Max Targets !! Firerate !! Lifespan !! Limit !! Range !! Shield Cooldown !! Detections !! Heal per Second !! Ram DPS
+|-
+| 5 || 300 || 35 || 15 || 8 || 0.2 || 150 || 3 || 35 || 15 || N/A || $HPS$ || $RAM$
+|-
+| 6 || 600 || 30 || 20 || 10 || 0.2 || 150 || 3 || 35 || 15 || N/A || $HPS$ || $RAM$
+|}
 </tabber></div>
 </nowiki>}}
+
 ==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:AbyssalEnforcer0.png|175px]]
+|[[File:LiberatorMercenaryBase.png|175px]]
+|[[File:FrostLegionMercenaryBaseIconIG.png|175px]]
+|[[File:GraveyardMercenaryBaseIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Beach|Abyssal}}
+|{{Color|Deluxe|Liberator}}
+|{{Color|OperationICE|Frost Legion}}
+|{{Color|Null|Graveyard}}
 |-
 !Rarity
+|{{Color|Legendary}}
+|{{Color|Legendary}}
 |{{Color|Rare}}
 |-
 !Daily Store Cost
-|{{Coins|6,500}}
+|{{Robux|560}}
+|N/A
+|N/A
 |-
 !Obtained From
-|[[Beach Crate]]
+|[[Deluxe Crate]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
 |}
+
 ==Strategy==
-*The '''Enforcer''' can hit multiple enemies with one bullet. As each can hit up to two enemies, this means its DPS can effectively be doubled.
-**However, this does not mean that with each shot it can only hit two enemies, as each individual bullet can hit a different enemy, strongly increasing the number of enemies hit.
-***This is especially noticeable on the top path, as this means that despite its max hits being reduced to 1, it can still hit multiple enemies, though way less reliably.
-**Proper use of targeting options and good placement can allow the tower to pierce through enemies much more.
-***This is less important when going for the top path as each bullet can only hit one enemy.
-*At Level 2, the '''Enforcer''' unlocks the flashbang grenade, which is thrown out once its damage meter is built up, stunning enemies for a while.
-**Any enemy with the [[Stun Immunity]] or [[Boss]] will not get stunned.
-**Although visually it will look like it does not attack, the tower will actually still deal damage.
-**Support towers like the [[Commander]], [[DJ Booth]] or [[Medic]] can be used to make it build up the damage faster.
-*When upgraded to the top path, the '''Enforcer''' gains the ''Helicopter Reposition'' ability. This will let it move your towers anywhere on the map.
-**This can be used as a cheaper alternative to selling and rebuying towers as doing so will in a lot of cases be way more expensive than {{Money|2,500}}, though by late game you will also often have excess amounts of cash making this at times insignificant.
-**This is best used on low placement limit towers, like the [[Juggernaut]] or [[Accelerator]], as they can be quickly relocated with only a few ability uses. High placement limit towers like the [[Minigunner]] or [[Swarmer]] will require far more ability uses making simply rebuying them more convenient.
-**When the [[Firework Technician]] is moved, the [[Firework Buff]] is not actually removed from towers, but when moved to a different spot, any towers already there will not receive the buff, which can be fixed by either rebuying them or using the '''Enforcer''' again to move them somewhere close but still in range, though that can be rather expensive.
-*When upgraded to bottom path, it gains the ''SWAT Van'' ability, which summons in a the [[Swat Van]] unit.
-**This unit collides with enemies and is supposed to explode on death, though this seems to not work correctly and the unit instead just deals collision damage to enemies.
-**Once upgraded to Level 7B, the number of units is increased to 2 and it now spawns the [[Swat Van Gunner]], which has a machine gun at the top that fires at enemies.
-***This unit also has hidden detection, meaning it can be used against such enemies.
-*The '''Enforcer''' has a penalty to its firework generation chance, as its chance is divided by 7, making it far less likely to fire a firework.
+*When first placed down, the '''Mercenary Base''' will instantly spawn the [[Rifleman]], which fares quite well against early game enemies.
+**This can make it useful for early-game, though do note it is quite expensive at the placement cost of {{Money|2,750}}, which makes other towers much better while at a lower cost.
+*Unlike other spawning towers, the '''Mercenary Base''' must be placed by the path in order to spawn units without the use of the ''Air-Drop'' ability.
+**It is recommended to place the tower down near the back but also near other towers, as it gives the units more time to attack enemies and allows the '''Mercenary Base''' to boost the damage of towers.
+***This is especially important for [[Riot Guard]]s, as when they speed up they can become quite fast, making them get to the entrance quite quickly if the '''Mercenary Base''' is placed close to it.
+**Do note that the '''Mercenary Base''' has a large placement footprint, which can be especially an issue on maps with little ground space, such as [[Forgetten Docks]] or [[Construction Crazy]].
+*The ''Air-Drop'' ability can be useful at quickly sending out units when needed; do note that you need to pay {{Money|2,500}} to use it, though it should not matter too much.
+**The [[DJ Booth]] can be used to reduce the ability usage cost.
+**You can quickly change the units in the queue specifically for the ''Air-Drop'' and then change them back to what they were before, making the ''Air-Drop'' send out the units you need while not affecting the unit queue.
+*At Level 3, the '''Mercenary Base''' increases damage of nearby towers by 10%, which is increased to 12.5% at Level 5 and 15% at Level 6.
+**While displayed with decimals in-game, the listed damage is always rounded down.
+**This boost can be useful at boosting the damage of towers, though do note that not all sources of damage have their damage increased. A list of all affected, partially affected and unaffected towers can be found below.
+{{DamageBuff}}
+*The [[Grenadier]] can be quite useful at clearing out hordes of enemies, as it deals splash damage.
+**Because of this, it can also ignore defense.
+**At Level 6, the [[Grenadier]] gains defense, which when combined with its health allows it to collide with a few weaker enemies.
+*The [[Field Medic]], while ineffective at dealing damage to enemies, can be quite useful at boosting other units.
+**Do note that the boosts are only applied to humanoid units, which includes units like the [[Tommy Goon 1]], [[Bomber Elf (Unit)|Bomber Elf]] or [[Hallow Guard (Unit)|Hallow Guard]], but not the [[Humvee 3]] or [[War Machine Sentry]].
+*The [[Riot Guard]] can be very useful at soaking up hordes of enemies, due to its high health and defense.
+**Letting the [[Riot Guard]] run for long enough will cause it to start charging, which causes them to knock back enemies on collision.
+***Because of this, it is recommended to either have the '''Mercenary Base''' spawn the [[Riot Guard]] at the back or for it to be spawned at the back with the ''Air-Drop'' ability to give them time to charge.
+*The [[DJ Booth]] can be used to increase the '''Mercenary Base's''' very small range to give more towers the [[Damage Buff]], decrease its ability usage cost and reduce its upgrade costs as they are incredibly expensive.
+**The range can be buffed even further by using [[Ranger]], [[Range Flag]] and [[UAV]] to cover up most of your defense but keep in mind that consumables are sometimes banned, making this strategy less effective on certain gamemodes.
+*Like other unit summoning towers, the '''Mercenary Base''' is very effective in maps where paths intersect, such as in [[Crossroads]] and [[Honey Valley]], as the units will be able to target enemies from multiple different spots.
 
 ==Trivia==
-*The '''Enforcer''' appears to be based on the [[Shotgunner]] prior to the [[Overhaul v1.0|Overhaul Update]].
-**Its name would be directly taken from that period, as both were called ''Enforcer''.
-**The appearance of the tower resembles a cop, similarly to the [[Shotgunner]] at the time.
-**The ''SWAT Van'' ability is likely based on the [[Shotgunner]]'s ability of the same name.
-**The Level 3 upgrade icon is based on a former upgrade icon for the [[Shotgunner]].
-*The '''Enforcer''' is the first tower to evolve from a tower without a golden perk.
-*The '''Enforcer's''' Level 7A upgrade name may be a reference to the [[wp:Punisher|Punisher]].
-*If a tower ability is used while its getting repositioned by ''Helicopter Reposition'', the game will notify the tower is jailed.
+*The '''Mercenary Base''' is the second tower to have six upgrades, the first being the [[Engineer]].
+*The inventory preview of the '''Mercenary Base''' is a random unit that it can spawn, making it the first tower to change its icon randomly.
+*The '''Mercenary Base''' at one point had a dynamic placement limit, meaning its placement was dependent on the player count. Solo had a placement limit of 3, duo was set to 2, while trio and quad had a limit of 1.
+**This was removed on the 23rd of October 2024, where its placement limit was changed to be always 3 for all player counts.
+*The ''Air-Drop'' ability is orchestrated by a [[wp:Lockheed C-130 Hercules|Lockheed C-130]].
+*The '''Mercenary Base''' is the first spawner tower having [[defense]] applied to its spawned [[units]].
+**The [[Grenadier]] has 10% defense at Level 6 and the [[Riot Guard]] has 10% defense at Level 4 and 15% at Level 6.
 
 ==Update History==
-*'''14 August 2026''' - [[v2.6.0]]
-**'''Enforcer''' added.
-**{{Bug}} DPS in statistics simply divides the damage by firerate, resulting in highly inaccurate DPS values.
-**{{Bug}} Explosion from the [[Swat Van]] deals no damage.
-**{{Bug}} Bullets deal damage to units.
-*'''14 August 2026''' - [[v2.6.0|v2.6.1]]
-**{{Bugfix}} DPS display now correctly calculates DPS.
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{Scroll|text=
+*'''19 April 2024''' - [[v1.19.0]]
+**'''Mercenary Base''' added.
+**{{Bug}} '''Mercenary Base''' is unobtainable.
+**{{Bug}} '''Mercenary Base''' costs {{Coins|10,000}} to purchase.
+**{{Bug}} '''Mercenary Base''' has [[Military Base]]'s inventory description.
+**{{Bug}} [[Damage Buff]] does not disappear when sold.
+**{{Bug}} Unit spawnrate is displayed incorrectly.
+**{{Bug}} [[Damage Buff]] is not given to tower in '''Mercenary Base's''' range that was increased through [[Range Buff]]s unless upgraded to another level or the towers were placed after the range was boosted.
+**{{Bug}} [[Damage Buff]] does not disappear from towers which were in '''Mercenary Base's''' [[Range Buff]] boosted range if the '''Mercenary Base''' loses the buff.
+**{{Bug}} Paths cannot have enemies summoned on them when in '''Mercenary Base's''' range that was increased through [[Range Buff]]s unless it is upgraded to another level.
+**{{Bug}} '''Mercenary Base's''' dynamic placement limit can be bypassed.
+**{{Bug}} '''Mercenary Base''' can be stunned.
+**{{Bug}} '''Mercenary Base''' will never spawn units if placed down in a spot where it has no path in its range, even after getting its range increased so that it has path in its range.
+**{{Bug}} [[Grenadier]] is affected by [[Damage Buff]]s.
+**{{Bug}} '''Mercenary Base''' placement breaks when placed next to an invalid path.
+*'''19 April 2024''' - [[v1.19.0]]a
+**{{Bugfix}} '''Mercenary Base''' is now obtainable.
+*'''19 April 2024''' - [[v1.19.0|v1.19.1]]
+**{{Bugfix}} '''Mercenary Base''' is now gotten for free.
+**{{Bugfix}} '''Mercenary Base''' no longer uses [[Military Base]]'s description.
+*'''22 April 2024''' - [[v1.19.0|v1.19.1a]]
+**{{Bugfix}} '''Mercenary Base's''' dynamic placement limit can no longer be bypassed.
+*'''26 April 2024''' - [[v1.19.2]]
+**{{Bugfix}} [[Damage Buff]] now disappears from towers when the '''Mercenary Base''' is sold.
+*'''10 May 2024''' - [[v1.21.0]]
+**[[Field Medic]]'s shield no longer deals damage to enemies equal to the unit's max health upon collision and does not protect it from damage when colliding with enemies, now it only protects units from enemy abilities.
+*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
+**{{Bug}} [[Field Medic]] can protect [[Gunner APC]]s and [[Missile APC]]s.
+*'''18 May 2024''' - [[v1.22.0]]
+**Statistical changes:
+***'''Base'''
+****Level 0 [[Rifleman]] damage increased from 3 to 4.
+***'''Level 2'''
+****Level 0 [[Grenadier]] damage increased from 25 to 30.
+****Level 0 [[Grenadier]] explosion range increased from 3 to 3.5.
+***'''Level 3'''
+****Level 1 [[Rifleman]] damage increased from 7 to 9.
+****Level 1 [[Grenadier]] explosion range increased from 4.5 to 5.
+***'''Level 4'''
+****Cost increased from {{Money|10,000}} to {{Money|12,500}}.
+****Now unlocks the [[Riot Guard]] instead of the [[Field Medic]].
+****Name changed from ''Field Team Medic'' to ''Riot Control''.
+***'''Level 5'''
+****Cost decreased from {{Money|17,500}} to {{Money|15,000}}.
+****Now unlocks the [[Field Medic]] instead of the [[Riot Guard]].
+****Level 0 [[Field Medic]] max targets increased from 3 to 4.
+***'''Level 6'''
+****Level 2 [[Rifleman]] damage increased from 10 to 12.
+****Level 2 [[Grenadier]] damage decreased from 85 to 65.
+****Level 2 [[Grenadier]] explosion range increased from 4.5 to 6.
+****Level 1 [[Field Medic]] max targets increased from 4 to 8.
+*'''27 May 2024''' - [[v1.23.0|v1.23.2a]]
+**Gamepass price decreased from {{Robux|1,800}} to {{Robux|1,140}}
+*'''7 June 2024''' - [[v1.24.0]]
+**New skin: {{Color|Deluxe|Liberator}}
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Can still provide buffs when jailed.
+*'''19 July 2024''' - [[v1.26.0]]
+**{{Bugfix}} [[Gunner APC]] can no longer be protected by the [[Field Medic]].
+*'''2 August 2024''' - [[v1.27.0]]
+**Statistical changes:
+***'''Level 2'''
+****Level 0 [[Grenadier]] spawnrate increased from 42.5 to 45.
+***'''Level 3'''
+****Level 1 [[Rifleman]] burst count increased from 6 to 7.
+****Level 1 [[Grenadier]] range decreased from 19 to 17.
+****Level 1 [[Grenadier]] spawnrate increased from 37.5 to 40.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] now has a knockback force of 15.
+****Level 0 [[Riot Guard]] stun time of 1.5 removed.
+***'''Level 5'''
+****''Air-Drop'' ability cooldown increased from 40 to 60.
+****Level 0 [[Field Medic]] health increased from 135 to 400.
+****Level 0 [[Field Medic]] heal increased from 4 to 5.
+***'''Level 6'''
+****Cost increased from {{Money|32,500}} to {{Money|35,000}}.
+****Level 2 [[Rifleman]] burst count increased from 7 to 8.
+****Level 2 [[Rifleman]] range decreased from 30 to 26.
+****Level 2 [[Grenadier]] damage decreased from 65 to 60.
+****Level 2 [[Grenadier]] range decreased from 21 to 19.
+****Level 2 [[Grenadier]] spawnrate increased from 32.5 to 37.5
+****Level 1 [[Riot Guard]] health decreased from 2,250 to 2,000.
+****Level 1 [[Riot Guard]] now has a knockback force of 25.
+****Level 1 [[Riot Guard]] stun time of 3 removed.
+****Level 1 [[Field Medic]] health increased from 175 to 600.
+****Level 1 [[Field Medic]] heal increased from 8 to 10.
+*'''18 September 2024''' - [[v1.32.0]]
+**{{Bugfix}} Unit spawnrate is now displayed correctly.
+*'''9 October 2024''' - [[v1.35.0]]
+**{{Bugfix}} '''Mercenary Base''' placement now works correctly when placed next to an invalid path.
+*'''23 October 2024''' - [[v1.37.0]]
+**Placement limit is now 3 regardless of player count.
+**Statistical changes:
+***'''Base'''
+****[[Rifleman]] limit of 10 added.
+****[[Grenadier]] limit of 7 added.
+****[[Riot Guard]] limit of 4 added.
+****[[Field Medic]] limit of 3 added.
+****Level 0 [[Rifleman]] now has a lifespan of 150.
+***'''Level 2'''
+****Level 0 [[Grenadier]] now has a lifespan of 180.
+***'''Level 3'''
+****Level 1 [[Rifleman]] now decreases a lifespan of 75.
+****Level 1 [[Grenadier]] now decreases a lifespan of 90.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] now has a lifespan of 240.
+***'''Level 5'''
+****Level 0 [[Field Medic]] now has a lifespan of 240.
+***'''Level 6'''
+****Level 1 [[Rifleman]] now has a lifespan of 75.
+****Level 1 [[Grenadier]] now has a lifespan of 90.
+****Level 0 [[Riot Guard]] now has a lifespan of 120.
+****Level 0 [[Field Medic]] now has a lifespan of 120.
+**{{Bug}} Unit lifespans get halved after they are upgraded to the next Level.
+**{{Bug}} ''Air-Drop'' ability does not change lifespans of units.
+**{{Bug}} Units have incorrect spawnrates.
+**{{Bug}} [[Field Medic]]'s unit limit does not work.
+*'''25 October 2024''' - [[v1.38.0]]
+**{{Bugfix}} Units now have correct spawnrates.
+*'''30 October 2024''' - [[v1.39.0]]
+**{{Bugfix}} Unit lifespans no longer get halved after being upgraded to the next Level.
+***[[Rifleman]] lifespan stays as 150.
+***[[Grenadier]] lifespan stays as 180.
+***[[Riot Guard]] lifespan stays as 240.
+***[[Field Medic]] lifespan stays as 240.
+*'''19 November 2024''' - [[v1.41.0|v1.41.6a]]
+**Cost reduced from {{Robux|1,800}} to {{Robux|1,350}}.
+*'''27 November 2024''' - [[v1.43.0]]
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|1,200}} to {{Money|2,000}}.
+****Level 0 [[Rifleman]] spawnrate increased from 37.5 to 45.
+****Level 0 [[Rifleman]] lifespan increased from 150 to 240.
+****Level 0 [[Rifleman]] health increased from 35 to 40.
+****Level 0 [[Rifleman]] damage increased from 4 to 5.
+****Level 0 [[Rifleman]] burst increased from 5 to 6.
+****Level 0 [[Rifleman]] burst cooldown increased from 1.25 to 1.5.
+***'''Level 1'''
+****Unit queue decreased from +1 to +0.
+****Level 0 [[Grenadier]] spawnrate decreased from 45 to 40.
+****Level 0 [[Grenadier]] lifespan increased from 180 to 240.
+****Level 0 [[Grenadier]] health increased from 45 to 50.
+****Level 0 [[Grenadier]] range increased from 17 to 18.
+****Level 0 [[Grenadier]] damage increased from 30 to 35.
+****Level 0 [[Grenadier]] firerate decreased from 2.025 to 1.775.
+****Level 0 [[Grenadier]] explosion radius decreased from 3.5 to 3.
+****Name changed from ''Upgraded Barracks'' to ''Explosive Expert''.
+***'''Level 2'''
+****Cost decreased from {{Money|2,200}} to {{Money|2,000}}.
+****Unit queue increased from +0 to +1.
+****Name changed from ''Explosive Expert'' to ''Upgraded Barracks''.
+***'''Level 3'''
+****Level 1 [[Rifleman]] spawnrate increased from 32.5 to 40.
+****Level 1 [[Rifleman]] lifespan increased from 150 to 240.
+****Level 1 [[Rifleman]] damage increased from 9 to 12.
+****Level 1 [[Rifleman]] burst increased from 7 to 8.
+****Level 1 [[Rifleman]] burst cooldown increased from 1 to 1.5.
+****Level 1 [[Grenadier]] lifespan increased from 180 to 240.
+****Level 1 [[Grenadier]] health increased from 120 to 125.
+****Level 1 [[Grenadier]] range increased from 17 to 19.
+****Level 1 [[Grenadier]] damage increased from 50 to 65.
+****Level 1 [[Grenadier]] cooldown decreased from 1.758 to 1.508.
+****Level 1 [[Grenadier]] explosion radius decreased from 5 to 4.5.
+***'''Level 4'''
+****Cost deceased from {{Money|12,500}} to {{Money|10,000}}.
+****Level 0 [[Riot Guard]] spawnrate decreased from 60 to 50.
+****Level 0 [[Riot Guard]] health increased from 1,000 to 1,200.
+****Level 0 [[Riot Guard]] damage increased from 20 to 50.
+***'''Level 5'''
+****''Air-Drop'' ability cooldown increased from 60 to 75.
+****Level 0 [[Field Medic]] spawnrate decreased from 37.5 to 35.
+****Level 0 [[Field Medic]] health decreased from 400 to 300.
+****Level 0 [[Field Medic]] range increased from 25 to 30.
+***'''Level 6'''
+****Level 2 [[Rifleman]] spawnrate increased from 27.5 to 35.
+****Level 2 [[Rifleman]] lifespan increased from 150 to 240.
+****Level 2 [[Rifleman]] health increased from 195 to 250.
+****Level 2 [[Rifleman]] range increased from 26 to 28.
+****Level 2 [[Rifleman]] damage increased from 12 to 18.
+****Level 2 [[Rifleman]] burst increased from 8 to 10.
+****Level 2 [[Rifleman]] burst cooldown increased from 0.75 to 1.
+****Level 2 [[Grenadier]] spawnrate increased from 37.5 to 40.
+****Level 2 [[Grenadier]] lifespan increased from 180 to 240.
+****Level 2 [[Grenadier]] health increased from 260 to 300.
+****Level 2 [[Grenadier]] range increased from 19 to 20.
+****Level 2 [[Grenadier]] damage increased from 60 to 100.
+****Level 2 [[Grenadier]] explosion radius decreased from 6 to 4.5.
+****Level 1 [[Riot Guard]] health increased from 2,000 to 2,500.
+****Level 1 [[Riot Guard]] damage increased from 30 to 50.
+****Level 1 [[Field Medic]] spawnrate decreased from 32.5 to 30.
+****Level 1 [[Field Medic]] range increased from 25 to 30.
+*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
+**Gamepass price increased from {{Robux|1,350}} to {{Robux|1,800}}.
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Frost Legion}}
+**{{Bug}} [[Field Medic]] can shield the [[Ice Turret]].
+**{{Bugfix}} '''Mercenary Base''' will now spawn units in situations where when initially placed, it had no path in range, but its range got later increased so that it has path in its range. Previously, it would never spawn any units.
+*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
+**Gamepass price decreased from {{Robux|1,800}} to {{Robux|1,350}}.
+*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
+**Gamepass cost increased from {{Robux|1,350}} to {{Robux|1,800}}.
+*'''9 April 2025''' - [[v1.60.0]]
+**Defense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**{{Bug}} [[Field Medic]] can shield the [[Sunflower]], [[Ivy]] and [[Nightshade (Unit)|Nightshade]].
+*'''26 May 2025''' - [[v1.64.0]]a
+**Robux cost decreased from {{Robux|1,800}} to {{Robux|1,350}}.
+*'''28 May 2025''' - [[v1.65.0]]
+**Robux cost increased from {{Robux|1,350}} to {{Robux|1,800}}.
+**{{Bug}} Spawnrate timers are not synced with when units actually spawned if the Expanded Barracks [[Skills|Skill]] is active.
+**{{Bugfix}} [[Field Medic]] can no longer shield the [[Ice Turret]], [[Missile APC]], [[Sunflower]], [[Ivy]] and [[Nightshade (Unit)|Nightshade]].
+*'''6 August 2025''' - [[v1.72.0]]
+**Statistical changes ([[PVP]]):
+***'''Level 1'''
+****Cost increased from {{Money|1,000}} to {{Money|1,800}}.
+****Level 0 [[Grenadier]] damage decreased from 35 to 28. 
+***'''Level 3'''
+****Level 1 [[Grenadier]] damage decreased from 65 to 50. 
+***'''Level 6'''
+****Level 2 [[Grenadier]] damage decreased from 100 to 80. 
+*'''11 October 2025''' - [[v1.76.0|v1.76.3]]
+**{{Bug}} [[Grenadier]] no longer attacks enemies, now only stares at them.
+**{{Bug}} [[Riot Guard]] does not deal full collision damage to enemies.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Graveyard}}
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|2,000}} to {{Money|2,750}}.
+****Level 0 [[Rifleman]] spawnrate decreased from 45 to 40.
+****Level 0 [[Rifleman]] damage increased from 5 to 6.
+****Level 0 [[Rifleman]] range increased from 18 to 20.
+****Level 0 [[Rifleman]] burst cooldown decreased from 1.5 to 1.
+***'''Level 1'''
+****Cost increased from {{Money|1,000}} to {{Money|1,350}}.
+****Level 0 [[Grenadier]] spawnrate decreased from 40 to 35.
+****Level 0 [[Grenadier]] range increased from 18 to 19.
+****Level 0 [[Grenadier]] damage decreased from 35 to 25.
+****Level 0 [[Grenadier]] firerate decreased from 1.775 to 1.525.
+****Level 0 [[Grenadier]] explosion radius increased from 3 to 4.5.
+***'''Level 2'''
+****Cost increased from {{Money|2,000}} to {{Money|2,750}}.
+***'''Level 3'''
+****Cost decreased from {{Money|7,000}} to {{Money|6,500}}
+****Level 1 [[Rifleman]] range increased from 23 to 24.
+****Level 1 [[Rifleman]] burst cooldown decreased from 1.5 to 1.
+****Level 1 [[Grenadier]] spawnrate decreased from 40 to 37.5.
+****Level 1 [[Grenadier]] range increased from 19 to 20.
+****Level 1 [[Grenadier]] damage decreased from 65 to 45.
+****Level 1 [[Grenadier]] firerate decreased from 1.525 to 1.275.
+****Level 1 [[Grenadier]] explosion radius increased from 4.5 to 5.5.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] health decreased from 1,200 to 1,000.
+***'''Level 5'''
+****Cost decreased from {{Money|15,000}} to {{Money|12,650}}.
+****[[Damage Buff]] changed from 10% to 10% > 15%.
+****Level 0 [[Field Medic]] spawnrate decreased from 35 to 30.
+****Level 0 [[Field Medic]] range increased from 30 to 35.
+****Level 0 [[Field Medic]] heal increased from 5 to 15.
+****Level 0 [[Field Medic]] max targets increased from 4 to 6.
+***'''Level 6'''
+****Cost increased from {{Money|35,000}} to {{Money|36,000}}.
+****[[Damage Buff]] changed from 10% > 20% to 15% > 20%.
+****Level 2 [[Rifleman]] health increased from 250 to 275.
+****Level 2 [[Rifleman]] range increased from 28 to 30.
+****Level 2 [[Rifleman]] damage increased from 18 to 30.
+****Level 2 [[Rifleman]] burst decreased from 10 to 8.
+****Level 2 [[Grenadier]] range increased from 20 to 22.
+****Level 2 [[Grenadier]] damage decreased from 100 to 80.
+****Level 2 [[Grenadier]] firerate decreased from 1.275 to 1.125.
+****Level 2 [[Grenadier]] explosion radius increased from 4.5 to 7.
+****Level 1 [[Riot Guard]] health increased from 2,500 to 2,600.
+****Level 1 [[Field Medic]] range increased from 30 to 35.
+****Level 1 [[Field Medic]] heal increased from 10 to 20.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Level 0 [[Rifleman]] damage increased from 5 to 6.
+****Level 0 [[Rifleman]] range increased from 18 to 20.
+****Level 0 [[Rifleman]] burst increased from 5 to 6.
+****Level 0 [[Rifleman]] burst cooldown decreased from 1.5 to 1.
+***'''Level 3'''
+****Level 1 [[Rifleman]] range increased from 23 to 24.
+****Level 1 [[Rifleman]] burst cooldown decreased from 1.5 to 1.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] health decreased from 1,200 to 1,000.
+***'''Level 5'''
+****Level 0 [[Field Medic]] range increased from 30 to 35.
+****Level 0 [[Field Medic]] heal increased from 5 to 15.
+****Level 0 [[Field Medic]] max targets increased from 4 to 6.
+***'''Level 6'''
+****Level 2 [[Rifleman]] health increased from 250 to 275.
+****Level 2 [[Rifleman]] range increased from 28 to 30.
+****Level 2 [[Rifleman]] damage increased from 18 to 30.
+****Level 2 [[Rifleman]] burst decreased from 10 to 8.
+****Level 1 [[Riot Guard]] health increased from 2,500 to 2,600.
+****Level 1 [[Field Medic]] range increased from 30 to 35.
+****Level 1 [[Field Medic]] heal increased from 10 to 20.
+**{{Bugfix}} [[Grenadier]] now attacks enemies again.
+*'''25 October 2025''' - [[v1.78.0]]
+**Statistical changes:
+***'''Level 3'''
+****Cost increased from {{Money|6,500}} to {{Money|7,500}}.
+****Level 1 [[Rifleman]] damage decreased from 12 to 11.
+****Level 1 [[Grenadier]] health increased from 125 to 135.
+****Level 1 [[Grenadier]] damage decreased from 45 to 40.
+****Level 1 [[Grenadier]] spawnrate decreased from 37.5 to 35.
+***'''Level 5'''
+****Cost increased from {{Money|12,650}} to {{Money|13,500}}.
+****Level 0 [[Field Medic]] max targets increased from 6 to 8.
+***'''Level 6'''
+****Level 2 [[Rifleman]] spawnrate increased from 35 to 40.
+****Level 2 [[Rifleman]] damage decreased from 30 to 25.
+****Level 2 [[Grenadier]] health increased from 300 to 325.
+****Level 2 [[Grenadier]] damage decreased from 80 to 75.
+****Level 2 [[Grenadier]] range increased from 22 to 22.5.
+****Level 2 [[Grenadier]] spawnrate decreased from 40 to 35.
+****Level 1 [[Field Medic]] health decreased from 750 to 700.
+****Level 1 [[Field Medic]] max targets increased from 8 to 10.
+**Statistical changes ([[PVP]]):
+***'''Level 3'''
+****Level 1 [[Rifleman]] damage decreased from 12 to 11.
+***'''Level 5'''
+****Level 0 [[Field Medic]] max targets increased from 6 to 8.
+***'''Level 6'''
+****Level 2 [[Rifleman]] spawnrate increased from 35 to 40.
+****Level 2 [[Rifleman]] damage decreased from 30 to 25.
+****Level 1 [[Field Medic]] health decreased from 750 to 700.
+****Level 1 [[Field Medic]] max targets increased from 8 to 10.
+*'''26 November 2025''' - [[v1.81.0]]
+**Gamepass cost decreased from {{Robux|1,800}} to {{Robux|1,080}}.
+**''Air-Drop'' ability now has a 15 second cooldown upon placing it.
+*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
+**Gamepass cost increased from {{Robux|1,080}} to {{Robux|1,800}}.
+*'''20 December 2025''' - [[v1.83.0]]
+**{{Bugfix}} The '''Mercenary Base''' now has the [[Stun Immunity]].
+**{{Bugfix}} [[Riot Guard]] now deals full collision damage to enemies.
+*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
+**Gamepass cost decreased from {{Robux|1,800}} to {{Robux|1,170}}.
+*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
+**Gamepass cost increased from {{Robux|1,170}} to {{Robux|1,800}}.
+*'''28 January 2026''' - [[v1.84.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****Level 0 [[Rifleman]] spawnrate decreased from 40 to 30.
+****Level 0 [[Rifleman]] lifespan decreased from 240 to 150.
+****All unit limits increased to 100, effectively removing them.
+***'''Level 1'''
+****Level 0 [[Grenadier]] damage decreased from 25 to 20.
+****Level 0 [[Grenadier]] firerate decreased from 1.525 to 1.425.
+****Level 0 [[Grenadier]] lifespan decreased from 240 to 150.
+****Level 0 [[Grenadier]] spawnrate decreased from 35 to 25.
+***'''Level 3'''
+****Cost increased from {{Money|7,500}} to {{Money|9,650}}.
+****Level 1 [[Rifleman]] health increased from 75 to 80.
+****Level 1 [[Rifleman]] damage decreased from 11 to 10.
+****Level 1 [[Rifleman]] spawnrate decreased from 40 to 30.
+****Level 1 [[Rifleman]] lifespan decreased from 240 to 150.
+****Level 1 [[Grenadier]] damage decreased from 40 to 35.
+****Level 1 [[Grenadier]] firerate increased from 1.275 to 1.325.
+****Level 1 [[Grenadier]] explosion range increased from 5.5 to 6.
+****Level 1 [[Grenadier]] spawnrate decreased from 35 to 25.
+****Level 1 [[Grenadier]] lifespan decreased from 240 to 150.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] health decreased from 1,000 to 800.
+****Level 0 [[Riot Guard]] spawnrate decreased from 50 to 40.
+****Level 0 [[Riot Guard]] lifespan decreased from 240 to 75.
+***'''Level 5'''
+****Cost decreased from {{Money|13,500}} to {{Money|12,500}}.
+****''Air-Drop'' cooldown decreased from 75 to 50.
+****[[Damage Buff]] changed from 10% > 15% to 10% > 12.5%.
+****Level 0 [[Field Medic]] lifespan decreased from 240 to 150.
+***'''Level 6'''
+****Cost increased from {{Money|36,000}} to {{Money|45,000}}.
+****[[Damage Buff]] changed from 15% > 20% to 12.5% > 15%.
+****Level 2 [[Rifleman]] damage decreased from 25 to 19.
+****Level 2 [[Rifleman]] spawnrate decreased from 40 to 30.
+****Level 2 [[Rifleman]] lifespan decreased from 240 to 150.
+****Level 2 [[Grenadier]] damage decreased from 75 to 60.
+****Level 2 [[Grenadier]] firerate increased from 1.125 to 1.325.
+****Level 2 [[Grenadier]] range decreased from 22.5 to 22.
+****Level 2 [[Grenadier]] lifespan decreased from 240 to 150.
+****Level 2 [[Grenadier]] spawnrate decreased from 35 to 25.
+****Level 1 [[Riot Guard]] health decreased from 2,600 to 2,000.
+****Level 1 [[Riot Guard]] spawnrate decreased from 50 to 40.
+****Level 1 [[Riot Guard]] lifespan decreased from 240 to 75.
+****Level 1 [[Field Medic]] health decreased from 700 to 600.
+****Level 1 [[Field Medic]] lifespan decreased from 240 to 150.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Level 0 [[Rifleman]] lifespan decreased from 240 to 150.
+***'''Level 3'''
+****Level 1 [[Rifleman]] health increased from 75 to 80.
+****Level 1 [[Rifleman]] damage decreased from 11 to 10.
+****Level 1 [[Rifleman]] lifespan decreased from 240 to 150.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] health decreased from 1,000 to 800.
+****Level 0 [[Riot Guard]] lifespan decreased from 240 to 75.
+***'''Level 5'''
+****Level 0 [[Field Medic]] lifespan decreased from 240 to 150.
+***'''Level 6'''
+****Level 2 [[Rifleman]] damage decreased from 25 to 19.
+****Level 2 [[Rifleman]] lifespan decreased from 240 to 150.
+****Level 1 [[Riot Guard]] health decreased from 2,600 to 2,000.
+****Level 1 [[Riot Guard]] lifespan decreased from 240 to 75.
+****Level 1 [[Field Medic]] health decreased from 700 to 600.
+****Level 1 [[Field Medic]] lifespan decreased from 240 to 150.
+*'''11 February 2026''' - [[v1.85.0]]
+**Statistical changes (Regular):
+***'''Level 3'''
+****Level 1 [[Rifleman]] damage decreased from 10 to 9.
+****Level 1 [[Grenadier]] damage decreased from 35 to 30.
+****Level 1 [[Grenadier]] explosion range increased from 6 to 5.
+***'''Level 6'''
+****Level 2 [[Rifleman]] damage decreased from 19 to 18.
+****Level 2 [[Grenadier]] damage decreased from 60 to 40.
+****Level 2 [[Grenadier]] firerate decreased from 1.325 to 1.225.
+****Level 2 [[Grenadier]] range decreased from 22 to 21.5.
+****Level 2 [[Grenadier]] explosion range decreased from 7 to 6.
+**Statistical changes ([[PVP]]):
+***'''Level 3'''
+****Level 1 [[Rifleman]] damage decreased from 10 to 9.
+***'''Level 6'''
+****Level 2 [[Rifleman]] damage decreased from 19 to 18.
+*'''22 May 2026''' - [[v1.91.0]]
+**Gamepass price decreased from {{Robux|1,800}} to {{Robux|1,260}}.
+***{{Bug}} Gifting was not discounted.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Gamepass price increased from {{Robux|1,260}} to {{Robux|1,800}}.
+*'''5 June 2026''' - [[v2.0.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****Level 0 [[Rifleman]] damage decreased from 6 to 5.
+****Level 0 [[Rifleman]] firerate decreased from 0.175 to 0.15.
+***'''Level 2'''
+****Level 0 [[Grenadier]] firerate decreased from 1.425 to 1.4.
+***'''Level 3'''
+****Level 1 [[Rifleman]] damage decreased from 9 to 8.
+****Level 1 [[Rifleman]] firerate decreased from 0.175 to 0.15.
+****Level 1 [[Grenadier]] firerate decreased from 1.325 to 1.3.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] firerate decreased from 1.525 to 1.5.
+***'''Level 5'''
+****Level 0 [[Field Medic]] firerate decreased from 0.225 to 0.2.
+***'''Level 6'''
+****Level 2 [[Rifleman]] damage decreased from 18 to 17.
+****Level 2 [[Rifleman]] firerate decreased from 0.175 to 0.15.
+****Level 1 [[Grenadier]] firerate decreased from 1.225 to 1.2.
+****Level 1 [[Riot Guard]] firerate decreased from 1.025 to 1.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Level 0 [[Rifleman]] damage decreased from 6 to 5.
+****Level 0 [[Rifleman]] firerate decreased from 0.175 to 0.15.
+***'''Level 3'''
+****Level 1 [[Rifleman]] damage decreased from 9 to 8.
+****Level 1 [[Rifleman]] firerate decreased from 0.175 to 0.15.
+***'''Level 4'''
+****Level 0 [[Riot Guard]] firerate decreased from 1.525 to 1.5.
+***'''Level 5'''
+****Level 0 [[Field Medic]] firerate decreased from 0.225 to 0.2.
+***'''Level 6'''
+****Level 2 [[Rifleman]] damage decreased from 18 to 17.
+****Level 2 [[Rifleman]] firerate decreased from 0.175 to 0.15.
+****Level 1 [[Riot Guard]] firerate decreased from 1.025 to 1.
+*'''19 June 2026''' - [[v2.1.0]]
+**{{Bug}} When selecting other '''Mercenary Base''' mercenaries for the unit queues, the UI does not immediately update and only shows the new queue lineup upon reselecting the tower.
+**{{Bug}} When unlocking the [[Field Medic]], the unit queue may sometimes enter a scrolling state that requires scrolling left and right for navigation. However, this isn’t always the case and a non-scrolling state will sometimes initiate when selecting the '''Mercenary Base'''.
+*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
+**Gamepass price decreased from {{Robux|1,800}} to {{Robux|1,350}}.
+***{{Bug}} Gift price has not changed.
 *'''4 September 2026''' - [[v2.9.0]]
-**New skin: {{Color|Beach|Abyssal}}
+**Gamepass price decreased from {{Robux|1,350}} to {{Robux|945}}.
+***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|1,800}} it is now {{Robux|1,260}}.
+}}
 
 ==Notes==
 <references/>
@@ -490,3 +1159,5 @@ $RC$ = $FNC-RECURSION$
 
 
 {{TowerNavBox}}
+[[Category:Ground]]
+[[Category:Ability]]

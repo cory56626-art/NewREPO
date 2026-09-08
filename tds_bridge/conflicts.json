@@ -7,7 +7,26 @@
       "infobox_or_summary"
     ]
   },
-  "potential_conflicts": [],
+  "potential_conflicts": [
+    {
+      "mode": "regular",
+      "level": 0,
+      "field": "range",
+      "infobox_claim": 6.0,
+      "statistics_table_claim": 150.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    },
+    {
+      "mode": "pvp",
+      "level": 0,
+      "field": "range",
+      "infobox_claim": 6.0,
+      "statistics_table_claim": 150.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    }
+  ],
   "notes": [
     "Different upgrade levels can legitimately differ.",
     "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
