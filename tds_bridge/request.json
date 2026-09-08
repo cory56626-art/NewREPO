@@ -1,39 +1,7 @@
 {
-  "mode": "discussion_deep_search",
-  "query": "golden cowboy hacker loadout solo triumph win strategy",
-  "must_include": [
-    [
-      "golden cowboy",
-      "gcow",
-      "g cow",
-      "gold cowboy"
-    ],
-    [
-      "hacker"
-    ]
-  ],
-  "prefer_include": [
-    "loadout",
-    "strategy",
-    "strat",
-    "solo",
-    "triumph",
-    "won",
-    "win",
-    "fallen",
-    "hardcore",
-    "polluted",
-    "wastelands",
-    "challenge",
-    "event",
-    "mercenary base",
-    "merc base",
-    "kingpin",
-    "commander",
-    "dj",
-    "medic",
-    "engineer"
-  ],
-  "pages": 50,
-  "per_page": 1000
+  "mode": "verify",
+  "query": "Engineer",
+  "thread_url": "",
+  "limit": 100,
+  "test_run": "verify-engineer-synergy"
 }
