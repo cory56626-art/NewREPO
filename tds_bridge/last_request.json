@@ -1,7 +1,41 @@
 {
-  "mode": "verify",
-  "query": "Turret",
-  "thread_url": "",
-  "limit": 100,
-  "test_run": "verify-turret-main-dps"
+  "mode": "discussion_deep_search",
+  "query": "fun micro loadout golden cowboy hacker mercenary base turret dj enforcer strategy",
+  "must_include": [
+    [
+      "golden cowboy",
+      "gcow",
+      "g cow",
+      "gold cowboy"
+    ],
+    [
+      "hacker",
+      "mercenary base",
+      "merc base",
+      "turret",
+      "enforcer"
+    ]
+  ],
+  "prefer_include": [
+    "dj",
+    "commander",
+    "medic",
+    "fun",
+    "micro",
+    "ability",
+    "clone",
+    "strategy",
+    "strat",
+    "solo",
+    "triumph",
+    "won",
+    "win",
+    "hardcore",
+    "frost",
+    "polluted",
+    "challenge",
+    "event"
+  ],
+  "pages": 50,
+  "per_page": 1000
 }
