@@ -1,7 +1,45 @@
 {
-  "mode": "verify",
-  "query": "Sandbox Mode",
-  "thread_url": "",
-  "limit": 100,
-  "test_run": "verify-sandbox-level"
+  "mode": "discussion_deep_search",
+  "query": "golden cowboy commander dj medic support loadout solo strategy triumph win challenge hardcore event",
+  "must_include": [
+    [
+      "golden cowboy",
+      "gcow",
+      "g cow",
+      "gold cowboy"
+    ],
+    [
+      "commander",
+      "dj",
+      "dj booth",
+      "medic"
+    ]
+  ],
+  "prefer_include": [
+    "commander",
+    "dj",
+    "dj booth",
+    "medic",
+    "accelerator",
+    "accel",
+    "engineer",
+    "engi",
+    "mercenary base",
+    "merc base",
+    "loadout",
+    "strategy",
+    "strat",
+    "solo",
+    "duo",
+    "triumph",
+    "won",
+    "win",
+    "challenge",
+    "hardcore",
+    "polluted",
+    "wastelands",
+    "event"
+  ],
+  "pages": 50,
+  "per_page": 1000
 }
