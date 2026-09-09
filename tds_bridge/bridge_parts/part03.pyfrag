@@ -57,11 +57,35 @@ def discussion_search(q,limit=100):
 
 
 def _deep_blob(o):
+    # Include nested text too (poll answers, attachment captions, etc.).
     vals=[]
-    for k in ('title','rawContent','content','text','body','description'):
-        v=o.get(k) if isinstance(o,dict) else None
-        if isinstance(v,str): vals.append(v)
+    wanted={'title','rawcontent','content','text','body','description','question','caption','alt','label'}
+    def rec(x,depth=0):
+        if depth>12:return
+        if isinstance(x,dict):
+            for k,v in x.items():
+                if norm(k) in wanted and isinstance(v,str): vals.append(v)
+                else: rec(v,depth+1)
+        elif isinstance(x,list):
+            for v in x: rec(v,depth+1)
+    rec(o)
     return ' '.join(vals)
+
+def _media_info(o):
+    # Surface image-bearing discussion posts so screenshot-only loadouts are not filtered out.
+    urls=[]; seen=set()
+    def rec(x,depth=0):
+        if depth>12:return
+        if isinstance(x,dict):
+            u=x.get('url'); mt=str(x.get('mediaType') or '').lower()
+            if isinstance(u,str) and u and (mt.startswith('image/') or 'static.wikia' in u):
+                if u not in seen:
+                    seen.add(u); urls.append(u)
+            for v in x.values(): rec(v,depth+1)
+        elif isinstance(x,list):
+            for v in x: rec(v,depth+1)
+    rec(o)
+    return {'has_images':bool(urls),'image_urls':urls[:12]}
 
 def _group_hit(low, group):
     if isinstance(group,str): group=[group]
@@ -73,6 +97,8 @@ def discussion_deep_search(req):
     per_page=max(1,min(int(req.get('per_page') or 1000),1000))
     must=req.get('must_include') or []
     prefer=req.get('prefer_include') or []
+    strict_must=bool(req.get('strict_must_include',True))
+    include_media=bool(req.get('include_media_candidates',False))
     results=[]; seen=set(); scanned=0; page_summaries=[]
     for page in range(pages):
         try:
@@ -96,12 +122,21 @@ def discussion_deep_search(req):
         page_summaries.append({'page':page,'objects':len(roots)})
         if not roots: break
         for o in roots:
-            blob=_deep_blob(o); low=norm(blob)
-            if must and not all(_group_hit(low,g) for g in must): continue
+            blob=_deep_blob(o); low=norm(blob); media=_media_info(o)
+            matched=[g for g in must if _group_hit(low,g)]
+            all_required=(not must) or len(matched)==len(must)
+            # Strict mode preserves old behavior. Soft mode keeps partial textual
+            # matches and, optionally, image-bearing posts whose loadout may exist
+            # only inside a screenshot.
+            if strict_must:
+                if must and not all_required: continue
+            else:
+                if must and not matched and not (include_media and media['has_images']): continue
             toks=[t for t in re.findall(r'[a-z0-9]+',norm(q)) if len(t)>1]
             score=sum(low.count(t) for t in toks)
-            score+=sum(8 for g in must if _group_hit(low,g))
+            score+=sum(8 for g in matched)
             score+=sum(3 for x in prefer if norm(x) in low)
+            if include_media and media['has_images']: score+=1
             tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
             key=str(tid)+'|'+str(o.get('title'))
             if key in seen: continue
@@ -111,7 +146,9 @@ def discussion_deep_search(req):
                 'author':o.get('createdBy') or o.get('username') or o.get('user'),
                 'snippet':strip_html(blob)[:1400],
                 'url':f'{BASE}/f/p/{tid}' if str(tid).isdigit() else None,
-                'matched_required_groups':[g for g in must if _group_hit(low,g)]
+                'matched_required_groups':matched,
+                'all_required_groups_in_text':all_required,
+                **media
             })
         if len(roots)<per_page: break
     results.sort(key=lambda x:(-x['score'],str(x.get('title') or '')))
@@ -126,10 +163,14 @@ def discussion_deep_search(req):
                 'limit':100,'responseGroup':'full','sortDirection':'ascending',
                 'sortKey':'creation_date','viewableOnly':'false'
             })
-            full=' '.join(collect(d)); low=norm(full)
-            required_ok=(not must) or all(_group_hit(low,g) for g in must)
+            full=_deep_blob(d); low=norm(full); full_media=_media_info(d)
+            full_matched=[g for g in must if _group_hit(low,g)]
+            required_ok=(not must) or (len(full_matched)==len(must) if strict_must else bool(full_matched))
             v=dict(item); v['full_thread_required_match']=required_ok
+            v['full_thread_matched_required_groups']=full_matched
             v['full_thread_text_excerpt']=strip_html(full)[:5000]
+            v['full_thread_has_images']=full_media['has_images']
+            v['full_thread_image_urls']=full_media['image_urls']
             verified.append(v)
         except Exception as e:
             v=dict(item); v['verification_error']=str(e); verified.append(v)
@@ -139,10 +180,12 @@ def discussion_deep_search(req):
         'threads_scanned':scanned,
         'required_groups':must,
         'preferred_terms':prefer,
+        'strict_must_include':strict_must,
+        'include_media_candidates':include_media,
         'page_summaries':page_summaries,
         'matches':results[:100],
         'verified_top_matches':verified,
-        'selection_note':'Required groups must all appear before a thread is included; top candidates are then checked using the full thread and replies.'
+        'selection_note':('Strict mode requires every group in text.' if strict_must else 'Soft mode keeps partial text matches; image-bearing posts may also be included because loadouts can exist only in screenshots.')+' Top candidates are then checked using the full thread and replies.'
     }
     wjson('discussion_deep_search.json',r)
     wjson('meta.json',{'mode':'discussion_deep_search','requested':q,'threads_scanned':scanned,'match_count':len(results)})
