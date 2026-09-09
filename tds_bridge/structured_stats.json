@@ -7,15 +7,127 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Accelerator''' is a hardcore tower that attacks in delayed bursts. It has a charge-up that happens before the burst and a cooldown that happens after the burst. During the burst, it can deal massive amounts of damage in a short period of time, but does no damage in between bursts. It can be purchased from the store for {{Gem|2,500}} and has a level requirement of {{Level|50}}.\n\nThe '''Accelerator''' must charge-up its plasma gun before it can attack enemies. During its attack, it will fire in quick, high-damaging bursts, remaining focused on one enemy until it is killed, leaves the '''Accelerator's''' range, or the overcharge ends. The '''Accelerator''' will deal a set amount of damage before cooling down with its left hand, indicating that the plasma gun has overcharged. After this, there will be a cooldown lasting a couple of seconds, after which it charges up again. The amount of damage needed for the '''Accelerator''' to overcharge can be seen above its tower icon in the upgrade box or when you hover your cursor over it. Damage can still go above this threshold, though the '''Accelerator''' will stop attacking immediately once it does so. For example, if the '''Accelerator''' deals 8,999 damage out of 9,000 and has 10 damage, it will deal 9,009 damage total in that burst, assuming the enemy it attacks has at least 10 health. The '''Accelerator''' can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 1.\n\nThe '''Accelerator''' is considered a mid to late-game tower because of its high damage capabilities, but extremely high cost. \n\nThe '''Accelerator''' has a placement limit of five per player. This is increased to eight in [[PVP]] mode.",
+  "description": "The '''Ace Pilot''' is an intermediate [[Towers|tower]] that can be bought for {{Coins|1,500}}. Unlike other ground towers, the attacking unit of the '''Ace Pilot''', the plane, is an air unit.\n\nThe '''Ace Pilot''' will circle around the runway. At Level 2+, this can be changed to a figure eight. With its ''Toggle Reverse'' ability, it is possible to reverse its flight path. The '''Ace Pilot''' is armed with a pair of machine guns on each wing at the base and will shoot any enemy within its patrol radius. At Levels 2–5, the aircraft will periodically drop a bomb directly where the targeted enemy was last, exploding and damaging any enemies caught in the explosion. The explosion is separated into two spheres. Enemies in the inner sphere will be dealt 100% of the stated damage, while damage in the outer sphere decreases linearly by distance from the edge of the inner sphere to the edge of the outer sphere. Since its bombs deal splash damage, they ignore [[defense]], dealing full damage to the enemies with [[defense]]. These bombs can also damage [[Lead (Attribute)|Lead]] enemies. Due to it being an air-based tower, it is immune to stuns, and because it is not a humanoid tower, it is also immune to debuffs from enemies added before [[v1.9.0]]. Additionally, because it is an air-based tower, it can detect [[Flying]] enemies.\n\nAt Level 4, the '''Ace Pilot''' will also grant nearby towers hidden detection with its ''Hidden Assist'', giving towers without hidden detection, like the [[Ranger]], the ability to detect [[Hidden (Attribute)|Hidden]] enemies. Its machine guns are then replaced by a single autocannon, granting it higher damage and firerate. The '''Ace Pilot''' boasts a high DPS, but its limiting range and inconsistent circling cripple its full potential. Therefore, in most situations, it does not operate at the highest DPS most of the time.\n\nThe '''Ace Pilot''' has a placement limit of eight per player.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 1,
-        "title": "Extra Juice",
-        "cost": "{{Money|2,000}}",
-        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}",
+        "title": "Greased Guns",
+        "cost": "{{Money|225}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Greased Guns",
+          "Cost": "{{Money|225}}",
+          "Image": "[[File:AcePilotLevel1.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Bombs away!",
+        "cost": "{{Money|625}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Figure8 Flight Path",
+            "text": "+Figure8 Flight Path"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "4 Bomb Cooldown"
+          },
+          {
+            "kind": "note",
+            "text": "3 Explosion Range }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Bombs away!",
+          "Cost": "{{Money|625}}",
+          "Image": "[[File:AcePilotLevel2.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Aerial Ace",
+        "cost": "{{Money|1,500}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.22",
+            "to": "0.15",
+            "stat": "Firerate",
+            "text": "0.22 > 0.15 Firerate"
+          },
+          {
+            "kind": "note",
+            "text": "10% Speed Increase"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "4 Bomb Cooldown"
+          },
+          {
+            "kind": "note",
+            "text": "3 Explosion Range }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Aerial Ace",
+          "Cost": "{{Money|1,500}}",
+          "Image": "[[File:AcePilotLevel3.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Spy Plane",
+        "cost": "{{Money|3,000}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}",
         "claims": [
           {
             "kind": "delta",
@@ -29,378 +141,201 @@
             "text": "+Hidden Detection"
           },
           {
-            "kind": "set",
-            "from": "9,000",
-            "to": "11,250",
-            "stat": "Overcharge",
-            "text": "9,000 > 11,250 Overcharge"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Extra Juice",
-          "Cost": "{{Money|2,000}}",
-          "Image": "[[File:AccelLevel1Icon.png|100px]]",
-          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "title": "Second Energy Canister",
-        "cost": "{{Money|6,000}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
+            "kind": "note",
+            "text": "Grants Hidden Detection to nearby towers"
           },
           {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
+            "kind": "note",
+            "text": "10 Range"
           },
           {
-            "kind": "set",
-            "from": "11,250",
-            "to": "18,750",
-            "stat": "Overcharge",
-            "text": "11,250 > 18,750 Overcharge"
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
           },
           {
-            "kind": "set",
-            "from": "6.5",
-            "to": "5.5",
-            "stat": "Charge-Up Time",
-            "text": "6.5 > 5.5 Charge-Up Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Second Energy Canister",
-          "Cost": "{{Money|6,000}}",
-          "Image": "[[File:AccelLevel2Icon.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Powerhouse Armor",
-        "cost": "{{Money|9,999}}",
-        "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+15",
-            "stat": "Damage",
-            "text": "+15 Damage"
+            "kind": "note",
+            "text": "2 Bomb Cooldown"
           },
           {
-            "kind": "set",
-            "from": "18,750",
-            "to": "30,000",
-            "stat": "Overcharge",
-            "text": "18,750 > 30,000 Overcharge"
-          },
-          {
-            "kind": "set",
-            "from": "5.5",
-            "to": "4",
-            "stat": "Charge-Up Time",
-            "text": "5.5 > 4 Charge-Up Time"
-          },
-          {
-            "kind": "set",
-            "from": "0.25",
-            "to": "0.1",
-            "stat": "Cooldown",
-            "text": "0.25 > 0.1 Cooldown"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Powerhouse Armor",
-          "Cost": "{{Money|9,999}}",
-          "Image": "[[File:AccelLevel3Icon.png|100px]]",
-          "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Supercharger",
-        "cost": "{{Money|27,500}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.25",
-            "to": "0.175",
-            "stat": "Tick",
-            "text": "0.25 > 0.175 Tick"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "30,000",
-            "to": "50,000",
-            "stat": "Overcharge",
-            "text": "30,000 > 50,000 Overcharge"
-          },
-          {
-            "kind": "set",
-            "from": "4",
-            "to": "2.5",
-            "stat": "Charge-Up Time",
-            "text": "4 > 2.5 Charge-Up Time"
+            "kind": "note",
+            "text": "3 Explosion Range }}"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Supercharger",
-          "Cost": "{{Money|27,500}}",
-          "Image": "[[File:AccelLevel4Icon.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}"
+          "Upgrade Title": "Spy Plane",
+          "Cost": "{{Money|3,000}}",
+          "Image": "[[File:AcePilotLevel3.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}"
         }
       },
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 5,
-        "title": "Vessel Of Infinite Destruction",
-        "cost": "{{Money|50,000}}",
-        "information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}",
+        "title": "The Surging Sky",
+        "cost": "{{Money|7,000}}",
+        "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}",
         "claims": [
           {
-            "kind": "set",
-            "from": "0.175",
-            "to": "0.125",
-            "stat": "Tick",
-            "text": "0.175 > 0.125 Tick"
-          },
-          {
             "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
+            "delta": "+6",
             "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "50,000",
-            "to": "100,000",
-            "stat": "Overcharge",
-            "text": "50,000 > 100,000 Overcharge"
-          },
-          {
-            "kind": "set",
-            "from": "2.5",
-            "to": "1.5",
-            "stat": "Charge-Up Time",
-            "text": "2.5 > 1.5 Charge-Up Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Vessel Of Infinite Destruction",
-          "Cost": "{{Money|50,000}}",
-          "Image": "[[File:AccelLevel5Icon.png|100px]]",
-          "Information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}"
-        }
-      }
-    ],
-    "pvp": [
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Extra Juice",
-        "cost": "{{Money|750}}",
-        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Extra Juice",
-          "Cost": "{{Money|750}}",
-          "Image": "[[File:AccelLevel1Icon.png|100px]]",
-          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Second Energy Canister",
-        "cost": "{{Money|2,000}}",
-        "information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "300",
-            "to": "600",
-            "stat": "Overcharge",
-            "text": "300 > 600 Overcharge"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Second Energy Canister",
-          "Cost": "{{Money|2,000}}",
-          "Image": "[[File:AccelLevel2Icon.png|100px]]",
-          "Information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 3,
-        "title": "Powerhouse Armor",
-        "cost": "{{Money|4,500}}",
-        "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+17",
-            "stat": "Damage",
-            "text": "+17 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.2",
-            "to": "0.15",
-            "stat": "Tick",
-            "text": "0.2 > 0.15 Tick"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Powerhouse Armor",
-          "Cost": "{{Money|4,500}}",
-          "Image": "[[File:AccelLevel3Icon.png|100px]]",
-          "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "title": "Supercharger",
-        "cost": "{{Money|12,000}}",
-        "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "-2",
-            "stat": "Damage",
-            "text": "-2 Damage"
+            "text": "+6 Damage"
           },
           {
             "kind": "set",
             "from": "0.15",
-            "to": "0.1",
-            "stat": "Tick",
-            "text": "0.15 > 0.1 Tick"
+            "to": "0.12",
+            "stat": "Firerate",
+            "text": "0.15 > 0.12 Firerate"
           },
           {
-            "kind": "set",
-            "from": "600",
-            "to": "1,280",
-            "stat": "Overcharge",
-            "text": "600 > 1,280 Overcharge"
+            "kind": "note",
+            "text": "10% > 35% Speed Increase"
           },
           {
-            "kind": "set",
-            "from": "2.5",
-            "to": "1.5",
-            "stat": "Charge-Up Time",
-            "text": "2.5 > 1.5 Charge-Up Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Supercharger",
-          "Cost": "{{Money|12,000}}",
-          "Image": "[[File:AccelLevel4Icon.png|100px]]",
-          "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "title": "Vessel Of Infinite Destruction",
-        "cost": "{{Money|28,500}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage"
           },
           {
-            "kind": "delta",
-            "delta": "+44",
-            "stat": "Damage",
-            "text": "+44 Damage"
+            "kind": "note",
+            "text": "1.5 Bomb Cooldown"
           },
           {
-            "kind": "set",
-            "from": "1,280",
-            "to": "2,400",
-            "stat": "Overcharge",
-            "text": "1,280 > 2,400 Overcharge"
+            "kind": "note",
+            "text": "4 Explosion Range }}"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Vessel Of Infinite Destruction",
-          "Cost": "{{Money|28,500}}",
-          "Image": "[[File:AccelLevel5Icon.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}"
+          "Upgrade Title": "The Surging Sky",
+          "Cost": "{{Money|7,000}}",
+          "Image": "[[File:AcePilotLevel5.png|100px]]",
+          "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}"
         }
       }
-    ]
+    ],
+    "pvp": []
   },
   "upgrade_templates": [
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 1,
-      "title": "Extra Juice",
-      "cost": "{{Money|2,000}}",
-      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}",
+      "title": "Greased Guns",
+      "cost": "{{Money|225}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Greased Guns",
+        "Cost": "{{Money|225}}",
+        "Image": "[[File:AcePilotLevel1.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 2,
+      "title": "Bombs away!",
+      "cost": "{{Money|625}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "Figure8 Flight Path",
+          "text": "+Figure8 Flight Path"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "4 Bomb Cooldown"
+        },
+        {
+          "kind": "note",
+          "text": "3 Explosion Range }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Bombs away!",
+        "Cost": "{{Money|625}}",
+        "Image": "[[File:AcePilotLevel2.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 3,
+      "title": "Aerial Ace",
+      "cost": "{{Money|1,500}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Range",
+          "text": "+1 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.22",
+          "to": "0.15",
+          "stat": "Firerate",
+          "text": "0.22 > 0.15 Firerate"
+        },
+        {
+          "kind": "note",
+          "text": "10% Speed Increase"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "4 Bomb Cooldown"
+        },
+        {
+          "kind": "note",
+          "text": "3 Explosion Range }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Aerial Ace",
+        "Cost": "{{Money|1,500}}",
+        "Image": "[[File:AcePilotLevel3.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Spy Plane",
+      "cost": "{{Money|3,000}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}",
       "claims": [
         {
           "kind": "delta",
@@ -414,571 +349,124 @@
           "text": "+Hidden Detection"
         },
         {
-          "kind": "set",
-          "from": "9,000",
-          "to": "11,250",
-          "stat": "Overcharge",
-          "text": "9,000 > 11,250 Overcharge"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Extra Juice",
-        "Cost": "{{Money|2,000}}",
-        "Image": "[[File:AccelLevel1Icon.png|100px]]",
-        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 2,
-      "title": "Second Energy Canister",
-      "cost": "{{Money|6,000}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
+          "kind": "note",
+          "text": "Grants Hidden Detection to nearby towers"
         },
         {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Damage",
-          "text": "+10 Damage"
+          "kind": "note",
+          "text": "10 Range"
         },
         {
-          "kind": "set",
-          "from": "11,250",
-          "to": "18,750",
-          "stat": "Overcharge",
-          "text": "11,250 > 18,750 Overcharge"
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
         },
         {
-          "kind": "set",
-          "from": "6.5",
-          "to": "5.5",
-          "stat": "Charge-Up Time",
-          "text": "6.5 > 5.5 Charge-Up Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Second Energy Canister",
-        "Cost": "{{Money|6,000}}",
-        "Image": "[[File:AccelLevel2Icon.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "title": "Powerhouse Armor",
-      "cost": "{{Money|9,999}}",
-      "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+15",
-          "stat": "Damage",
-          "text": "+15 Damage"
+          "kind": "note",
+          "text": "2 Bomb Cooldown"
         },
         {
-          "kind": "set",
-          "from": "18,750",
-          "to": "30,000",
-          "stat": "Overcharge",
-          "text": "18,750 > 30,000 Overcharge"
-        },
-        {
-          "kind": "set",
-          "from": "5.5",
-          "to": "4",
-          "stat": "Charge-Up Time",
-          "text": "5.5 > 4 Charge-Up Time"
-        },
-        {
-          "kind": "set",
-          "from": "0.25",
-          "to": "0.1",
-          "stat": "Cooldown",
-          "text": "0.25 > 0.1 Cooldown"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Powerhouse Armor",
-        "Cost": "{{Money|9,999}}",
-        "Image": "[[File:AccelLevel3Icon.png|100px]]",
-        "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 4,
-      "title": "Supercharger",
-      "cost": "{{Money|27,500}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.25",
-          "to": "0.175",
-          "stat": "Tick",
-          "text": "0.25 > 0.175 Tick"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Damage",
-          "text": "+10 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "30,000",
-          "to": "50,000",
-          "stat": "Overcharge",
-          "text": "30,000 > 50,000 Overcharge"
-        },
-        {
-          "kind": "set",
-          "from": "4",
-          "to": "2.5",
-          "stat": "Charge-Up Time",
-          "text": "4 > 2.5 Charge-Up Time"
+          "kind": "note",
+          "text": "3 Explosion Range }}"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Supercharger",
-        "Cost": "{{Money|27,500}}",
-        "Image": "[[File:AccelLevel4Icon.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}"
+        "Upgrade Title": "Spy Plane",
+        "Cost": "{{Money|3,000}}",
+        "Image": "[[File:AcePilotLevel3.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}"
       }
     },
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 5,
-      "title": "Vessel Of Infinite Destruction",
-      "cost": "{{Money|50,000}}",
-      "information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}",
+      "title": "The Surging Sky",
+      "cost": "{{Money|7,000}}",
+      "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}",
       "claims": [
         {
-          "kind": "set",
-          "from": "0.175",
-          "to": "0.125",
-          "stat": "Tick",
-          "text": "0.175 > 0.125 Tick"
-        },
-        {
           "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
+          "delta": "+6",
           "stat": "Damage",
-          "text": "+10 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "50,000",
-          "to": "100,000",
-          "stat": "Overcharge",
-          "text": "50,000 > 100,000 Overcharge"
-        },
-        {
-          "kind": "set",
-          "from": "2.5",
-          "to": "1.5",
-          "stat": "Charge-Up Time",
-          "text": "2.5 > 1.5 Charge-Up Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "Vessel Of Infinite Destruction",
-        "Cost": "{{Money|50,000}}",
-        "Image": "[[File:AccelLevel5Icon.png|100px]]",
-        "Information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Extra Juice",
-      "cost": "{{Money|750}}",
-      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Damage",
-          "text": "+3 Damage"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Extra Juice",
-        "Cost": "{{Money|750}}",
-        "Image": "[[File:AccelLevel1Icon.png|100px]]",
-        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 2,
-      "title": "Second Energy Canister",
-      "cost": "{{Money|2,000}}",
-      "information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "300",
-          "to": "600",
-          "stat": "Overcharge",
-          "text": "300 > 600 Overcharge"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Second Energy Canister",
-        "Cost": "{{Money|2,000}}",
-        "Image": "[[File:AccelLevel2Icon.png|100px]]",
-        "Information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 3,
-      "title": "Powerhouse Armor",
-      "cost": "{{Money|4,500}}",
-      "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+17",
-          "stat": "Damage",
-          "text": "+17 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.2",
-          "to": "0.15",
-          "stat": "Tick",
-          "text": "0.2 > 0.15 Tick"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Powerhouse Armor",
-        "Cost": "{{Money|4,500}}",
-        "Image": "[[File:AccelLevel3Icon.png|100px]]",
-        "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 4,
-      "title": "Supercharger",
-      "cost": "{{Money|12,000}}",
-      "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "-2",
-          "stat": "Damage",
-          "text": "-2 Damage"
+          "text": "+6 Damage"
         },
         {
           "kind": "set",
           "from": "0.15",
-          "to": "0.1",
-          "stat": "Tick",
-          "text": "0.15 > 0.1 Tick"
+          "to": "0.12",
+          "stat": "Firerate",
+          "text": "0.15 > 0.12 Firerate"
         },
         {
-          "kind": "set",
-          "from": "600",
-          "to": "1,280",
-          "stat": "Overcharge",
-          "text": "600 > 1,280 Overcharge"
+          "kind": "note",
+          "text": "10% > 35% Speed Increase"
         },
         {
-          "kind": "set",
-          "from": "2.5",
-          "to": "1.5",
-          "stat": "Charge-Up Time",
-          "text": "2.5 > 1.5 Charge-Up Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Supercharger",
-        "Cost": "{{Money|12,000}}",
-        "Image": "[[File:AccelLevel4Icon.png|100px]]",
-        "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 5,
-      "title": "Vessel Of Infinite Destruction",
-      "cost": "{{Money|28,500}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage"
         },
         {
-          "kind": "delta",
-          "delta": "+44",
-          "stat": "Damage",
-          "text": "+44 Damage"
+          "kind": "note",
+          "text": "1.5 Bomb Cooldown"
         },
         {
-          "kind": "set",
-          "from": "1,280",
-          "to": "2,400",
-          "stat": "Overcharge",
-          "text": "1,280 > 2,400 Overcharge"
+          "kind": "note",
+          "text": "4 Explosion Range }}"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "Vessel Of Infinite Destruction",
-        "Cost": "{{Money|28,500}}",
-        "Image": "[[File:AccelLevel5Icon.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}"
+        "Upgrade Title": "The Surging Sky",
+        "Cost": "{{Money|7,000}}",
+        "Image": "[[File:AcePilotLevel5.png|100px]]",
+        "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [
-      {
-        "level": 0,
-        "cost": 7500.0,
-        "total_cost": 7500.0,
-        "damage": 12.0,
-        "tick": 0.25,
-        "charge_up": 6.5,
-        "cooldown": 2.5,
-        "overcharge": 9000.0,
-        "range": 19.0,
-        "dps": 45.802
-      },
-      {
-        "level": 1,
-        "cost": 2000.0,
-        "total_cost": 9500.0,
-        "damage": 15.0,
-        "tick": 0.25,
-        "charge_up": 6.5,
-        "cooldown": 2.5,
-        "overcharge": 11250.0,
-        "range": 19.0,
-        "dps": 57.252
-      },
-      {
-        "level": 2,
-        "cost": 6000.0,
-        "total_cost": 15500.0,
-        "damage": 25.0,
-        "tick": 0.25,
-        "charge_up": 5.5,
-        "cooldown": 2.5,
-        "overcharge": 18750.0,
-        "range": 21.0,
-        "dps": 95.908
-      },
-      {
-        "level": 3,
-        "cost": 9999.0,
-        "total_cost": 25499.0,
-        "damage": 40.0,
-        "tick": 0.25,
-        "charge_up": 4.0,
-        "cooldown": 1.0,
-        "overcharge": 30000.0,
-        "range": 21.0,
-        "dps": 155.844
-      },
-      {
-        "level": 4,
-        "cost": 27500.0,
-        "total_cost": 52999.0,
-        "damage": 50.0,
-        "tick": 0.175,
-        "charge_up": 2.5,
-        "cooldown": 1.0,
-        "overcharge": 50000.0,
-        "range": 22.5,
-        "dps": 280.112
-      },
-      {
-        "level": 5,
-        "cost": 50000.0,
-        "total_cost": 102999.0,
-        "damage": 60.0,
-        "tick": 0.125,
-        "charge_up": 1.5,
-        "cooldown": 1.0,
-        "overcharge": 100000.0,
-        "range": 24.0,
-        "dps": 474.308
-      }
-    ],
-    "pvp": [
-      {
-        "level": 0,
-        "cost": 4250.0,
-        "total_cost": 4250.0,
-        "damage": 10.0,
-        "tick": 0.2,
-        "charge_up": 2.5,
-        "cooldown": 2.0,
-        "overcharge": 300.0,
-        "range": 18.0,
-        "dps": 28.571
-      },
-      {
-        "level": 1,
-        "cost": 750.0,
-        "total_cost": 5000.0,
-        "damage": 13.0,
-        "tick": 0.2,
-        "charge_up": 2.5,
-        "cooldown": 2.0,
-        "overcharge": 300.0,
-        "range": 18.0,
-        "dps": 32.911
-      },
-      {
-        "level": 2,
-        "cost": 2000.0,
-        "total_cost": 7000.0,
-        "damage": 13.0,
-        "tick": 0.2,
-        "charge_up": 2.5,
-        "cooldown": 2.0,
-        "overcharge": 600.0,
-        "range": 18.0,
-        "dps": 43.697
-      },
-      {
-        "level": 3,
-        "cost": 4500.0,
-        "total_cost": 11500.0,
-        "damage": 30.0,
-        "tick": 0.15,
-        "charge_up": 2.5,
-        "cooldown": 2.0,
-        "overcharge": 600.0,
-        "range": 20.0,
-        "dps": 80.0
-      },
-      {
-        "level": 4,
-        "cost": 12000.0,
-        "total_cost": 23500.0,
-        "damage": 28.0,
-        "tick": 0.1,
-        "charge_up": 1.5,
-        "cooldown": 2.0,
-        "overcharge": 1280.0,
-        "range": 20.0,
-        "dps": 158.584
-      },
-      {
-        "level": 5,
-        "cost": 28500.0,
-        "total_cost": 52000.0,
-        "damage": 72.0,
-        "tick": 0.1,
-        "charge_up": 1.5,
-        "cooldown": 2.0,
-        "overcharge": 2400.0,
-        "range": 23.0,
-        "dps": 351.22
-      }
-    ]
+    "regular": [],
+    "pvp": []
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 1+}}",
-      "lead": "{{Attr|Lead|Level 0+}}",
-      "flying": "N/A",
-      "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5"
+      "hidden": "{{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref>",
+      "lead": "{{Attr|Lead|Level 2+}} ([[Splash Damage]] only)",
+      "flying": "{{Attr|Fly|Level 0+}}",
+      "immune": "Stun<br/>Partial Debuff",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 1+}}",
-      "lead": "{{Attr|Lead|Level 0+}}",
-      "flying": "N/A",
-      "immune": "None",
-      "placement_limit": "eight"
+      "hidden": null,
+      "lead": null,
+      "flying": null,
+      "immune": null
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Accelerator",
-        "image-static": "DefaultAcceleratorIcon2.png",
-        "image-dynamic": "AcceleratorDynamic.png",
-        "image-dynamic-start": "22",
-        "unlockcost": "{{Gem|2,500}}",
-        "levelrequirement": "{{Level|50}}",
-        "role": "Offense",
-        "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
-        "basecost": "{{Money|7,500}}",
-        "basesellingprice": "{{Money|2,500}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]12",
-        "damagetype": "Burst",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.25",
-        "baserange": "[[File:Range Icon.png|20px|Range]]19",
-        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-        "lead_detection": "{{Attr|Lead|Level 0+}}",
-        "flying_detection": "N/A",
-        "immune": "None",
-        "footprint": "1.75",
-        "pvp_basecost": "{{Money|4,250}}",
-        "pvp_basesellingprice": "{{Money|1,416}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
-        "pvp_damagetype": "Burst",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.2",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]18",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
-        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
-        "pvp_flying_detection": "N/A",
-        "pvp_immune": "None",
-        "pvp_footprint": "1.5",
-        "tooltip-1": "An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
+        "title": "Ace Pilot",
+        "image-static": "AcePilotNewIcon.png",
+        "image-dynamic": "AcePilotDynamic.png",
+        "unlockcost": "{{Coins|1,500}}",
+        "basecost": "{{Money|500}}",
+        "basesellingprice": "{{Money|166}}",
+        "role": "Defense",
+        "placement": "Ground (Air-based)",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
+        "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 2+)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.22",
+        "baserange": "[[File:Range Icon.png|20px|Range]]9",
+        "hidden_detection": "{{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref>",
+        "lead_detection": "{{Attr|Lead|Level 2+}} ([[Splash Damage]] only)",
+        "flying_detection": "{{Attr|Fly|Level 0+}}",
+        "immune": "Stun<br/>Partial Debuff",
+        "footprint": "1.5",
+        "tooltip-1": "An early to mid game tower that flies in a circular or figure 8 strafing pattern. Fires a barrage of bullets and bombs when staffing by enemies.",
+        "tooltip-2": "Also capable of giving nearby towers hidden detection at later levels.",
+        "tooltip-3": "Capable of detecting [[Hidden (Attribute)|hidden]], and [[flying]] enemies."
       },
       "positional": []
     }
@@ -986,41 +474,29 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Accelerator",
-      "image-static": "DefaultAcceleratorIcon2.png",
-      "image-dynamic": "AcceleratorDynamic.png",
-      "image-dynamic-start": "22",
-      "unlockcost": "{{Gem|2,500}}",
-      "levelrequirement": "{{Level|50}}",
-      "role": "Offense",
-      "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
-      "basecost": "{{Money|7,500}}",
-      "basesellingprice": "{{Money|2,500}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]12",
-      "damagetype": "Burst",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.25",
-      "baserange": "[[File:Range Icon.png|20px|Range]]19",
-      "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-      "lead_detection": "{{Attr|Lead|Level 0+}}",
-      "flying_detection": "N/A",
-      "immune": "None",
-      "footprint": "1.75",
-      "pvp_basecost": "{{Money|4,250}}",
-      "pvp_basesellingprice": "{{Money|1,416}}",
-      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
-      "pvp_damagetype": "Burst",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.2",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]18",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
-      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
-      "pvp_flying_detection": "N/A",
-      "pvp_immune": "None",
-      "pvp_footprint": "1.5",
-      "tooltip-1": "An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.",
-      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
+      "title": "Ace Pilot",
+      "image-static": "AcePilotNewIcon.png",
+      "image-dynamic": "AcePilotDynamic.png",
+      "unlockcost": "{{Coins|1,500}}",
+      "basecost": "{{Money|500}}",
+      "basesellingprice": "{{Money|166}}",
+      "role": "Defense",
+      "placement": "Ground (Air-based)",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
+      "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 2+)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.22",
+      "baserange": "[[File:Range Icon.png|20px|Range]]9",
+      "hidden_detection": "{{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref>",
+      "lead_detection": "{{Attr|Lead|Level 2+}} ([[Splash Damage]] only)",
+      "flying_detection": "{{Attr|Fly|Level 0+}}",
+      "immune": "Stun<br/>Partial Debuff",
+      "footprint": "1.5",
+      "tooltip-1": "An early to mid game tower that flies in a circular or figure 8 strafing pattern. Fires a barrage of bullets and bombs when staffing by enemies.",
+      "tooltip-2": "Also capable of giving nearby towers hidden detection at later levels.",
+      "tooltip-3": "Capable of detecting [[Hidden (Attribute)|hidden]], and [[flying]] enemies."
     },
     "positional": []
   },
-  "template_count": 318
+  "template_count": 247
 }

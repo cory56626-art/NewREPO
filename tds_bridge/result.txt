@@ -1,835 +1,643 @@
 {{Tabs}}
-{{For|[[Null Accelerator]]}}
+{{For|[[Militant/Gallery#Skin Upgrades|{{Color|Deluxe|Ace Pilot}} Militant]] skin}}
 {{TowerInfobox
-|title = Accelerator
-|image-static = DefaultAcceleratorIcon2.png
-|image-dynamic = AcceleratorDynamic.png
-|image-dynamic-start = 22
-|unlockcost = {{Gem|2,500}}
-|levelrequirement = {{Level|50}}
-|role = Offense
-|placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5
-|basecost = {{Money|7,500}}
-|basesellingprice = {{Money|2,500}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]12
-|damagetype = Burst
-|basefirerate = [[File:Cooldown Icon.png|20px|Tick]]0.25
-|baserange = [[File:Range Icon.png|20px|Range]]19
-|hidden_detection = {{Attr|Hidden|Level 1+}}
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = N/A
-|immune = None
-|footprint = 1.75
-|pvp_basecost = {{Money|4,250}}
-|pvp_basesellingprice = {{Money|1,416}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]10
-|pvp_damagetype = Burst
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Tick]]0.2
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]18
-|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = N/A
-|pvp_immune = None
-|pvp_footprint = 1.5
-|tooltip-1 = An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
+|title = Ace Pilot
+|image-static = AcePilotNewIcon.png
+|image-dynamic = AcePilotDynamic.png
+|unlockcost = {{Coins|1,500}}
+|basecost = {{Money|500}}
+|basesellingprice = {{Money|166}}
+|role = Defense
+|placement = Ground (Air-based)
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8
+|basedamage = [[File:Damage Icon.png|20px|Damage]]2
+|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 2+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.22
+|baserange = [[File:Range Icon.png|20px|Range]]9
+|hidden_detection = {{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref> 
+|lead_detection = {{Attr|Lead|Level 2+}} ([[Splash Damage]] only)
+|flying_detection = {{Attr|Fly|Level 0+}}
+|immune = Stun<br/>Partial Debuff
+|footprint = 1.5
+|tooltip-1 = An early to mid game tower that flies in a circular or figure 8 strafing pattern. Fires a barrage of bullets and bombs when staffing by enemies.
+|tooltip-2 = Also capable of giving nearby towers hidden detection at later levels.
+|tooltip-3 = Capable of detecting [[Hidden (Attribute)|hidden]], and [[flying]] enemies.
 }}
 {{QuoteContainer|
-{{QuoteBox|Charge a laser and release massive damage at deadly rates!|Store Description}}
+{{QuoteBox|Flies in a circular path, shooting enemies in its line of fire and dropping bombs.|Store Description}}
+{{QuoteBox|Rain fire from above!|Former Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Accelerator''' is a hardcore tower that attacks in delayed bursts. It has a charge-up that happens before the burst and a cooldown that happens after the burst. During the burst, it can deal massive amounts of damage in a short period of time, but does no damage in between bursts. It can be purchased from the store for {{Gem|2,500}} and has a level requirement of {{Level|50}}.
+The '''Ace Pilot''' is an intermediate [[Towers|tower]] that can be bought for {{Coins|1,500}}. Unlike other ground towers, the attacking unit of the '''Ace Pilot''', the plane, is an air unit.
 
-The '''Accelerator''' must charge-up its plasma gun before it can attack enemies. During its attack, it will fire in quick, high-damaging bursts, remaining focused on one enemy until it is killed, leaves the '''Accelerator's''' range, or the overcharge ends. The '''Accelerator''' will deal a set amount of damage before cooling down with its left hand, indicating that the plasma gun has overcharged. After this, there will be a cooldown lasting a couple of seconds, after which it charges up again. The amount of damage needed for the '''Accelerator''' to overcharge can be seen above its tower icon in the upgrade box or when you hover your cursor over it. Damage can still go above this threshold, though the '''Accelerator''' will stop attacking immediately once it does so. For example, if the '''Accelerator''' deals 8,999 damage out of 9,000 and has 10 damage, it will deal 9,009 damage total in that burst, assuming the enemy it attacks has at least 10 health. The '''Accelerator''' can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 1.
+The '''Ace Pilot''' will circle around the runway. At Level 2+, this can be changed to a figure eight. With its ''Toggle Reverse'' ability, it is possible to reverse its flight path. The '''Ace Pilot''' is armed with a pair of machine guns on each wing at the base and will shoot any enemy within its patrol radius. At Levels 2–5, the aircraft will periodically drop a bomb directly where the targeted enemy was last, exploding and damaging any enemies caught in the explosion. The explosion is separated into two spheres. Enemies in the inner sphere will be dealt 100% of the stated damage, while damage in the outer sphere decreases linearly by distance from the edge of the inner sphere to the edge of the outer sphere. Since its bombs deal splash damage, they ignore [[defense]], dealing full damage to the enemies with [[defense]]. These bombs can also damage [[Lead (Attribute)|Lead]] enemies. Due to it being an air-based tower, it is immune to stuns, and because it is not a humanoid tower, it is also immune to debuffs from enemies added before [[v1.9.0]]. Additionally, because it is an air-based tower, it can detect [[Flying]] enemies.
 
-The '''Accelerator''' is considered a mid to late-game tower because of its high damage capabilities, but extremely high cost. 
+At Level 4, the '''Ace Pilot''' will also grant nearby towers hidden detection with its ''Hidden Assist'', giving towers without hidden detection, like the [[Ranger]], the ability to detect [[Hidden (Attribute)|Hidden]] enemies. Its machine guns are then replaced by a single autocannon, granting it higher damage and firerate. The '''Ace Pilot''' boasts a high DPS, but its limiting range and inconsistent circling cripple its full potential. Therefore, in most situations, it does not operate at the highest DPS most of the time.
 
-The '''Accelerator''' has a placement limit of five per player. This is increased to eight in [[PVP]] mode.
+The '''Ace Pilot''' has a placement limit of eight per player.
 
 ==Upgrades==
-{{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Extra Juice|Cost = {{Money|2,000}}|Image = [[File:AccelLevel1Icon.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+{{Upgrade|Level = Level 1|Upgrade Title = Greased Guns|Cost = {{Money|225}}|Image = [[File:AcePilotLevel1.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+
+Sell Price changes to {{Money|241}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bombs away!|Cost = {{Money|625}}|Image = [[File:AcePilotLevel2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
++Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]
+
+{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
+
+•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
+
+
+Sell Price changes to {{Money|450}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Aerial Ace|Cost = {{Money|1,500}}|Image = [[File:AcePilotLevel3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
++1 Range [[File:Range Icon.png|20px|Range]]
+
+0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+10% Speed Increase
+
+{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
+
+•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
+
+
+Sell Price changes to {{Money|950}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Spy Plane|Cost = {{Money|3,000}}|Image = [[File:AcePilotLevel3.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+Grants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]
+
+•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
+
+•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
 
 
-Sell Price changes to {{Money|3,166}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Second Energy Canister|Cost = {{Money|6,000}}|Image = [[File:AccelLevel2Icon.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|1,950}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = The Surging Sky|Cost = {{Money|7,000}}|Image = [[File:AcePilotLevel5.png|100px]]|Information = +6 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
+0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
+10% > 35% Speed Increase
 
-6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
+{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]
 
+•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
 
-Sell Price changes to {{Money|5,166}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Powerhouse Armor|Cost = {{Money|9,999}}|Image = [[File:AccelLevel3Icon.png|100px]]|Information = +15 Damage [[File:Damage Icon.png|20px|Damage]]
-
-18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
 
 
-Sell Price changes to {{Money|8,499}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Supercharger|Cost = {{Money|27,500}}|Image = [[File:AccelLevel4Icon.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|4,283}}}}
 
-0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-
-Sell Price changes to {{Money|17,666}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Vessel Of Infinite Destruction|Cost = {{Money|50,000}}|Image = [[File:AccelLevel5Icon.png|100px]]|Information = 0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-
-Sell Price changes to {{Money|34,333}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Extra Juice|Cost = {{Money|750}}|Image = [[File:AccelLevel1Icon.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-
-Sell Price changes to {{Money|1,666}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Second Energy Canister|Cost = {{Money|2,000}}|Image = [[File:AccelLevel2Icon.png|100px]]|Information = 300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-
-Sell Price changes to {{Money|2,333}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Powerhouse Armor|Cost = {{Money|4,500}}|Image = [[File:AccelLevel3Icon.png|100px]]|Information = +17 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-Sell Price changes to {{Money|3,833}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Supercharger|Cost = {{Money|12,000}}|Image = [[File:AccelLevel4Icon.png|100px]]|Information = -2 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]
-
-
-Sell Price changes to {{Money|7,833}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Vessel Of Infinite Destruction|Cost = {{Money|28,500}}|Image = [[File:AccelLevel5Icon.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
-
-+44 Damage [[File:Damage Icon.png|20px|Damage]]
-
-1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]
-
-
-Sell Price changes to {{Money|17,333}}}}
+==Ability==
+{{Ability|Level Unlock = Level 0+|Cooldown Time= 8s Cooldown|Ability Title = Toggle Reverse|Image = [[File:ToggleReverseAbility.png|100px]]|Information = 
+Flies the opposite direction.
 }}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+''To see all the previous statistics of this tower, see the [[/History|history]] page, while for the statistics without the [[Firerate Bug]], visit the [[Firerate Bug/Ace Pilot|Firerate Bug]] page.''
 
 {{neow|<nowiki>
 <var>
-$DPS$ = Overcharge / (Charge-Up + Cooldown + (Overcharge / Damage * Tick))
+$GDPS$ = Normal Damage / Firerate
+$BDPS$ = Splash Damage / Bomb Cooldown
+$TDPS$ = $GDPS$ + $BDPS$
 $CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 7500; 2000; 6000; 9999; 27500; 50000
-$PVP-COST$ = 4250; 750; 2000; 4500; 12000; 28500
-$FSE-DETECTION$ = 1; 0; ;
-$FSE-UPGRADE$ = Extra Juice; Second Energy Canister; Powerhouse Armor; Supercharger; Vessel Of Infinite Destruction
-$FSE-UPGRADEICON$ = 11821094308; 11821094198; 11821093989; 11821093828; 11821093672
-$FSE-META$ = Hardcore; File:DefaultAcceleratorIcon2.png
-$CUREF$ = <ref name="charge">The Charge-Up happens when the '''Accelerator''' first starts attacking or its cooldown ends. This is indicated by an animation where the '''Accelerator''' charges up its plasma gun.</ref>
-$CREF$ = <ref name="cooldown">The Cooldown happens when the Overcharge occurs. This is indicated by an animation where the '''Accelerator''' waves its hand.</ref>
-$DREF$ = <ref name="dps">DPS is calculated as Overcharge ÷ (Charge-Up + Cooldown + [Overcharge ÷ Damage x Tick]).</ref>
+$COST$ = 500; 225; 625; 1500; 3000; 7000
+$FSE-DETECTION$ = 4; 2; 0
+$FSE-UPGRADE$ = Greased Guns; Bombs away!; Aerial Ace; Spy Plane; The Surging Sky
+$FSE-UPGRADEICON$ = 17847640091; 17847639896; 17847640366; 17847640366; 17847640211
+$FSE-META$ = Intermediate; File:AcePilotNewIcon.png
+$TREF$ = <ref>Calculated as Gun DPS + Bomb DPS.</ref>
 $R$ = $FNC-RECURSION$
 </var>
-<div class="mobile-tabber"><tabber>
-|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Tick !! Charge-Up$CUREF$ !! Cooldown$CREF$ !! Overcharge !! Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Normal Damage !! Splash Damage !! Firerate !! Bomb Cooldown !! Range !! Explosion Range !! Hidden Detection Range !! Speed Multiplier !! DPS$TREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || 0.25 || 6.5 || 2.5 || 9,000 || 19 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || N/A || 0.22 || N/A || 9 || N/A || N/A || 1 || $GDPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 15 || 0.25 || 6.5 || 2.5 || 11,250 || 19 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 3 || N/A || 0.22 || N/A || 9 || N/A || N/A || 1 || $GDPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 25 || 0.25 || 5.5 || 2.5 || 18,750 || 21 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 4 || 10 || 0.22 || 4 || 9 || 3 || N/A || 1 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 40 || 0.25 || 4 || 1 || 30,000 || 21 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 5 || 30 || 0.15 || 4 || 10 || 3 || N/A || 1.1 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 50 || 0.175 || 2.5 || 1 || 50,000 || 22.5 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 8 || 30 || 0.15 || 2 || 10 || 3 || 10 || 1.1 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
 |-
-| 5 || $R$ ||$R$ || 60 || 0.125 || 1.5 || 1 || 100,000 || 24 || $DPS$ || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 14 || 45 || 0.12 || 1.5 || 10 || 4 || 10 || 1.35 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
 |}
 </div>
-|-|PVP =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost || Total Cost !! Damage !! Tick !! Charge-Up$CUREF$ !! Cooldown$CREF$ !! Overcharge !! Range !! DPS$DREF$ !! Cost Efficiency
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 0.2 || 2.5 || 2 || 300 || 18 || $DPS$ || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 13 || 0.2 || 2.5 || 2 || 300 || 18 || $DPS$ || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 13 || 0.2 || 2.5 || 2 || 600 || 18 || $DPS$ || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 30 || 0.15 || 2.5 || 2 || 600 || 20 || $DPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 28 || 0.1 || 1.5 || 2 || 1,280 || 20 || $DPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 72 || 0.1 || 1.5 || 2 || 2,400 || 23 || $DPS$ || {{Money|$CE$}}
-|}
-</div>
-</tabber></div>
 </nowiki>}}
 
 ==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:MageAcceleratorIcon2.png|175px]]
-|[[File:EclipseAcceleratorIcon.png|175px]]
-|[[File:CupidAcceleratorIcon.png|175px]]
-|[[File:IceWitchAcceleratorIcon2.png|175px]]
+|[[File:GreenAcePilotIconIGJ24.png|175px]]
+|[[File:RedAcePilotIconIGJ24.png|175px]]
+|[[File:YellowAcePilotIconIGJ24.png|175px]]
+|[[File:AerialAceAcePilotIconIGJ24.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Mage}}
-|{{Color|Eclipse|Eclipse}}
-|{{Color|Lovely|Cupid}}
-|{{Color|ColdFront|Ice Witch}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|360}}
-|N/A
-|{{Coins|7,000}}
-|{{Coins|6,000}}
-|-
-!Obtained From
-|[[Deluxe Crate]]
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
-|[[Cold Front Crate]]
-|-
-!
-|[[File:NavyAcceleratorIcon.png|175px]]
-|[[File:RedAcceleratorIcon.png|175px]]
-|[[File:DuckyAcceleratorIcon.png|175px]]
-|[[File:VigilanteAcceleratorIcon.png|175px]]
-|-
-!Skin
-|{{Color|Basic|Navy}}
+|{{Color|Basic|Green}}
 |{{Color|Basic|Red}}
-|{{Color|Ducky|Ducky}}
-|{{Color|Vigilante|Vigilante}}
+|{{Color|Basic|Yellow}}
+|{{Color|Basic|Aerial Ace}}
 |-
 !Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
+|{{Color|Common}}
+|{{Color|Common}}
+|{{Color|Common}}
+|{{Color|Common}}
 |-
 !Daily Store Cost
-|{{Coins|1,000}}
-|{{Coins|1,000}}
-|{{Coins|4,500}}
-|{{Coins|7,000}}
+|{{Coins|500}}
+|{{Coins|500}}
+|{{Coins|500}}
+|{{Coins|500}}
 |-
 !Obtained From
 |[[Basic Crate]]
 |[[Basic Crate]]
-|[[Ducky Crate]]
-|[[Vigilante Crate]]
+|[[Basic Crate]]
+|[[Basic Crate]]
 |-
 !
-|[[File:PlushieAccelIcon.png|175px]]
-|[[File:GhostBusterAcceleratorIcon.png|175px]]
-|[[File:LegendAcceleratorSkin.png|175px]]
-|[[File:YTAccelIcon.png|175px]]
+|[[File:PurpleAcePilotIconIGJ24.png|175px]]
+|[[File:BlueAcePilotIconIGJ24.png|175px]]
+|[[File:PumpkinAcePilotIconIGJ24.png|175px]]
+|[[File:EasterAcePilotIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Other|Plushie}}
-|{{Color|Halloween|Ghost Buster}}
-|{{Color|Krampus|Legend}}
-|{{Color|ContentCreator|Elite}}
+|{{Color|Basic|Purple}}
+|{{Color|Basic|Navy}}
+|{{Color|Pumpkin|Pumpkin}}
+|{{Color|DuckyRevenge|Easter}}
 |-
 !Rarity
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
+|{{Color|Common}}
+|{{Color|Rare}}
 |{{Color|Event}}
 |{{Color|Legendary}}
 |-
 !Daily Store Cost
+|{{Coins|500}}
+|{{Coins|1,000}}
 |N/A
-|{{Coins|5,000}}
 |N/A
-|{{Coins|4,500}}
 |-
 !Obtained From
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Accelerator Plush]] or [[Mini Accelerator Plush]].</ref>
-|[[Halloween Crate]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|[[Basic Crate]]
+|[[Basic Crate]]
+|[[Pumpkin Crate]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
 |-
 !
-|[[File:Speakeraccel.png|175px]]
-|[[File:NuclearAccelIcon.png|175px]]
-|[[File:SenatorAccelIcon.png|175px]]
-|[[File:DanksAcceleratorIconIG.png|175px]]
+|[[File:ToyPlaneAcePilotIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Speaker Titan}}
-|{{Color|Mission|Nuclear}}
-|{{Color|StarWars|Senator}}
-|{{Color|ContentCreator|Dank}}
+|{{Color|FinalAct|Toy Plane}}
 |-
 !Rarity
-|{{Color|Legendary}}
 |{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|560}}
-|N/A
-|{{Coins|5,000}}
-|{{Coins|4,500}}
-|-
-!Obtained From
-|[[Deluxe Crate]]
-|''Hazardous Haste'' [[Mission Quests|Mission Quest]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|-
-!
-|[[File:FallenAcceleratorIconIG.png|175px]]
-|[[File:PatientZeroAcceleratorIcon.png|175px]]
-|[[File:DiscoAcceleratorIconIG.png|175px]]
-|[[File:OctopusAcceleratorIconIG.png|175px]]
-|-
-!Skin
-|{{Color|FallenMission|Fallen}}
-|{{Color|Other|Patient Zero}}
-|{{Color|Hexscape|Disco}}
-|{{Color|Surf|Octopus}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Exclusive}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
 |-
 !Daily Store Cost
 |N/A
-|N/A
-|N/A
-|N/A
 |-
 !Obtained From
-|''Dark Radiance'' [[Mission Quests|Mission Quest]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Patient Zero Mini Plush]].</ref>
-|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
-|-
-!
-|[[File:ChampionAcceleratorIconIG.png|175px]]
-|[[File:MagicianAcceleratorIconIG.png|175px]]
-|[[File:BunnyAcceleratorIconIG.png|175px]]
-|[[File:VoidAcceleratorIconIG.png|175px]]
-|-
-!Skin
-|{{Color|PVP|Champion}}
-|{{Color|Showtime|Magician}}
-|{{Color|SpringFrenzy|Bunny}}
-|{{Color|Void}}
-|-
-!Rarity
-|{{Color|Ultimate}}
-|{{Color|Rare}}
-|{{Color|Common}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|General III of [[PVP Season 0]]
-|[[Showtime Crate]]
-|[[Spring Frenzy Battle Pass]]
-|[[Void Crate]]
-|-
-!
-|[[File:BeachAcceleratorIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Beach}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|-
-!Daily Store Cost
-|{{Coins|5,250}}
-|-
-!Obtained From
-|[[Beach Crate]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
 |}
 
 ==Strategy==
-*Multiple Level 2 '''Accelerators''' are a cost-efficient way to get through the mid-game, as their DPS is usually high enough to deal with most mid-game enemies.
-**The [[Farm]] or other towers that generate income like the [[Golden Cowboy]] are strongly recommended, as the '''Accelerator's''' upgrades are very expensive, especially its later upgrades. To further decrease the cost of '''Accelerator's''' upgrades, the [[DJ Booth]] is a very great choice due to its discount buff.
-*The '''Accelerator''' has a very long overcharge before having to recharge, therefore buffs from the [[Commander]], [[DJ Booth]], [[Medic]] or [[Mercenary Base]] are usually fully effective on it.
-**The [[DJ Booth]]'s purple track can still be helpful in boosting its already massive range.
-*The '''Accelerator's''' lock-on mechanic can be a disadvantage. For example, if the '''Accelerator''' locks onto a strong enemy like the [[Fallen Giant]], it will stay locked on until the strong enemy is defeated, leaves its range or the '''Accelerator''' charges up again.
-**This can result in the '''Accelerator''' leaking other enemies while it is distracted, therefore it is highly recommended to bring other towers to deal with such.
-*The '''Accelerator's''' lengthy charge-up and cooldown times hinder it greatly, with enemies getting out of range before the '''Accelerator''' can defeat them in the worst cases. It is important to utilize other towers alongside the '''Accelerator''' to prevent any potential leaks.
-**Due to this and other factors, such as its high cost, it is generally infeasible to use the '''Accelerator''' in the early game, with its sluggish charge-up at lower levels resulting in some fast enemies leaking.
-*The '''Accelerator''' should be allowed to cover large amounts of the path to maximize its DPS. The [[DJ Booth]] and [[Ranger]] are especially great in this regard for boosting the '''Accelerator's''' range.
-*Slowing towers like the [[Electroshocker]] or [[Cryomancer]] can be used to support the '''Accelerator''', slowing the enemy down and giving the '''Accelerator''' enough time to charge-up and attack them.
+*Place this tower where it can be used to its full potential. This primarily involves placing it at turns.
+**Placing it on a straight path is not recommended, as it will not shoot as often.
+**As the '''Ace Pilot''' flies clockwise, placing it so it covers a counterclockwise path turn will mean it has a greater chance of attacking an enemy.
+***The first roundabout on [[Wrecked Battlefield]] is a good example of this.
+***You can also place it on a clockwise path and use the ''Toggle Reverse'' ability to make it fly counterclockwise, having the same effect.
+*When changing flight paths, the '''Ace Pilot''' will complete the previous flight path first before switching to the new flight path.
+*The [[DJ Booth]] can significantly increase its attack radius.
+**However, the [[DJ Booth]] does not increase the '''Ace Pilot's''' flying radius.
+*Try not to focus solely on '''Ace Pilots'''.
+**This is because faster enemies may walk right past the '''Ace Pilot''' without being damaged. If you want reliable defense, then a [[Minigunner]] or [[Cowboy]] could be a more reliable option.
+*The [[Commander]] cannot decrease the firerate of the bombs. However, it can decrease the firerate of the guns.
+*Unlike the [[Pursuit]], the '''Ace Pilot''' does not stop to hover over an area whenever an enemy enters its range.
+**This means that the '''Ace Pilot''' is unlikely to be attacking all the time, reducing the effectiveness of the tower.
+*In [[Hardcore Mode|Hardcore]] mode, the '''Ace Pilot''' can be used as an effective way to deal with flying, lead and enemies with [[defense]] that appear early on during the game, such as the [[Lead]], [[Hefty]] and [[Balloon]].
+*The bombs that the '''Ace Pilot''' drops are a good way to clear out hordes of weaker enemies, like the [[Abnormal]] or [[Slow]], while also dealing additional damage to higher health enemies, like the [[Abnormal Boss]].
+**The '''Ace Pilot's''' bombs completely ignore [[defense]], dealing full damage to enemies with defense. Because of this, it can be useful against hordes of enemies with defense that appear early on during the game, like [[Heavy|Heavies]], [[Abnormal Boss]]es or [[Hefty|Hefties]].
+**While the bomb is aimed directly at the target, it may miss the enemy as it takes a little while for the bomb to land.
+***At Level 5, the missile has a faster projectile speed, so is less likely to miss the enemy's intended target.
+*At Level 4+, the '''Ace Pilot''' gives nearby towers hidden detection for towers that do not have it, such as the [[Ranger]].
+**Towers are only granted hidden detection if they are within the radius of the runway, which is quite small.
+***This radius cannot be increased by the [[DJ Booth]].
 
 ==Trivia==
-*The '''Accelerator''' is loosely based on the [[w:c:clashroyale:Sparky|Sparky]] from ''Clash Royale''.
-**The '''Accelerator's''' plasma gun is loosely based on the [[w:c:half-life:Gluon Gun|Gluon Gun]] from ''Half-Life''.
-*Prior to the 12th of March 2022, the '''Accelerator''' was the only tower that could receive cash from summoned enemies.
-**After the update, the '''Accelerator''' is no longer able to receive cash from these enemies in most gamemodes.
-*The '''Accelerator''' used to have hidden detection at Level 0; however, as of the [[v1.8.4|Unwavering Tides Update]] this is no longer the case.
-**Currently, the [[Golden Pyromancer]] and [[Turret]] are the only towers with hidden detection at Level 0.
-**Prior to the [[Overhaul v1.0|Overhaul Update]], the only towers to have hidden detection at Level 0 were the [[Ranger|Outlaw]] and [[Paintballer]].
-*The current '''Accelerator''' Level 5 upgrade name is an acronym for the word "VOID" (<u>'''V'''</u>essel <u>'''O'''</u>f <u>'''I'''</u>nfinite <u>'''D'''</u>estruction).
-**This name may be a tribute to the Level 5 upgrade name used before the 5th of May 2023, "''Energy from the Void''".
-*The '''Accelerator''' was initially planned to be the reward for the original [[Polluted Wasteland]] map before it was turned into a [[Hardcore Mode|Hardcore]] tower.
-*The '''Accelerator''' was originally intended to have drones that also fired plasma beams.
-**The drones can be seen on some images released around the release of [[Hardcore Testing BETA]], such as the icon used for Tower Defense Simulator at the time.
-*Prior to the [[Overhaul v1.3|Frost Invasion Update]], it was possible to see some of the '''Accelerator's''' statistics from private testing sessions in the lobby. These were:
-**Damage: 3
-**Firerate: 0.2
-**Range: 18
-**Placement limit: 5
-*Prior to the 5th of May 2023, the '''Accelerator''' had its damage statistic vary per firerate.
-**The '''Accelerator''' was originally supposed to increase its damage over time by gaining a [[Damage Buff]].
-***This was most likely changed because the '''Accelerator''' would have been very similar to the [[w:c:roblox-tower-battles:Phaser|Phaser]] from ''Tower Battles''.
-*The '''Accelerator''' likes to eat hamburgers only on Monday and Fridays, as revealed by the [[Narrator (Narrator)|Narrator]] in his annoyance, which is then confirmed by the [[Commander (Narrator)|Commander]].
-**In [[The Final Act Event]] opening cutscene, the '''Accelerator''' is also shown preparing to eat a hamburger too.
+*It is stated by BelowNatural that the '''Ace Pilot''' was based on the [[w:c:bloons:Monkey Ace|Monkey Ace]] from the ''Bloons Tower Defense'' series.
+**However, its main method of distributing damage and the fact that it gives hidden detection are similar to those of the [[w:c:roblox-tower-battles:Aviator|Aviator]] from ''Tower Battles''.
+*The '''Ace Pilot''' used to share its Level 2 icon with the [[Mortar]]'s Level 4 icon but upside down.
+*This is the first tower to able to give other towers hidden detection, with the second being the [[Firework Technician]].
+*Strangely, the [[Soul Stealer (Legacy)|Soul Stealer]] and [[Void Reaver (Legacy)|Void Reaver]] can still spawn a [[Soul]] from the '''Ace Pilot''', despite not being a humanoid tower.
+*On Level 2 and 4, the '''Ace Pilot''' upgrade names have capitalization errors.
+**Additionally, there are two spaces between "''Aerial''" and "''Ace''" in the Level 3 upgrade name instead of one.
+*The Level 5 upgrade name, "''The Surging Sky''" is a reference to a fake leak of the Level 6 '''Ace Pilot''' upgrade.
+*The Level 3 upgrade name, "''Aerial  Ace''" shares its name with the {{Color|Basic|Aerial Ace}} skin.
+**Both the upgrade name and the skin were also added in the same update. Prior to the change, the Level 3 upgrade was simply just "''Better plane''".
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text =
+
+{{Scroll|text=
+*'''29 November 2019''' - [[Release v1.4|Release v1.4.0]]
+**'''Ace Pilot''' added.
+**Skins: {{Color|Basic|Red}}, {{Color|Basic|Green}}, {{Color|Basic|Yellow}}
+**{{Bug}} '''Ace Pilot's''' placement is bugged.
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**Statistical changes:
+***'''Level 0'''
+****'''Ace Pilot''' now flies faster.
+***'''Level 3'''
+****Now makes the '''Ace Pilot''' fly faster.
+***'''Level 5'''
+****Now makes the '''Ace Pilot''' fly faster.
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**{{Bug}} Placement limit is higher than intended by 1.
+*'''13 January 2020''' - [[Release v1.6|Release v1.6.0a]]
+**{{Bugfix}} Placement limit is now the correct value.
+*'''24 March 2020''' - [[Release v1.8|Release v1.8.1a]]
+**'''Ace Pilot''' placement limit increased from 5 to 10.
+*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
+**{{Bugfix}} '''Ace Pilot''' placement bug fixed.
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|1,000}} to {{Money|650}}.
+****Firerate increased from 0.2 to 0.25.
+***'''Level 1'''
+****Damage increased from +1 to +2.
+***'''Level 2'''
+****Cost decreased from {{Money|850}} to {{Money|350}}.
+***'''Level 3'''
+****Cost decreased from {{Money|2,500}} to {{Money|2,000}}.
+***'''Level 4'''
+****Cost decreased from {{Money|4,500}} to {{Money|4,000}}.
+****Damage decreased from +3 to +2.
+***'''Level 5'''
+****Damage increased from +2 to +3.
+****Range increased from +1 to +2.
+*'''31 May 2020''' - [[Release v1.11|Release v1.11.1]]
+**{{Bugfix}} Stacking issue fixed.
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**'''Accelerator''' added.
-**{{Bug}} '''Accelerator''' can gain cash from summoned enemies.
-**{{Bug}} While stunned, '''Accelerator''' will still charge up, but performs its cooldown animation immediately after.
-**Removed skin: {{Color|Premium|Hazmat}}
-*'''4 July 2021''' - [[Overhaul v1.4|Overhaul v1.4.0]]
-**New skin: {{Color|Deluxe|Mage}}
+**Unlock cost decreased from {{Coins|1,600}} to {{Coins|1,500}}.
+**Bombs now only drop when an enemy is in range.
+**Splash damage equation reworked.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.25 to 0.18.
+****Damage decreased from 2 to 1.
+****Range increased from 5 to 7.
+****Flying detection added.
+***'''Level 1'''
+****Damage decreased from +2 to +1.
+***'''Level 2'''
+****Bombs can damage lead enemies.
+***'''Level 3'''
+****Range decreased from +1 to +0.
+****Firerate changed from {{Tooltip|0.25 > 0.15|-0.1}} to {{Tooltip|0.18 > 0.13|-0.05}}.
+****Renamed from ''Better plane'' to ''Aerial  Ace''.
+***'''Level 5'''
+****Cost increased from {{Money|6,500}} to {{Money|7,500}}.
+****Firerate changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.13 > 0.08|-0.05}}.
+****Now fires missiles instead of dropping bombs.
+**{{Bug}} '''Ace Pilot''' attack range and circling direction is not shown properly.
+**{{Bug}} '''Ace Pilot's''' bombs only deal damage to one enemy.
+**New skins: {{Color|Basic|Aerial Ace}}, {{Color|Basic|Navy}}, {{Color|Basic|Purple}}
+*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
+**New skin: {{Color|Pumpkin|Pumpkin}}
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
+**{{Bugfix}} '''Ace Pilot''' attack range is now shown properly.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**'''Ace Pilot's''' bombs now ignore [[defense]].
+**'''Ace Pilot's''' bombs now aim directly to where the targeted enemy was last at, as opposed to straight down for Levels 2-4.
+**Splash damage reworked. Explosion is now separated into two spheres. Inner sphere deals 100% of the stated damage, while damage in the outer sphere decreases linearly from the edge of the inner sphere to the edge of the outer sphere.
+**'''Ace Pilot''' now has to take off from its runway when placed down, and upgraded to Level 3 or Level 5.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|650}} to {{Money|500}}.
+*****{{Bug}} Inside the Lobby, the price is {{Money|650}}, when it is actually {{Money|500}}.
+***'''Level 2'''
+****Splash Damage decreased from 12 to 10.
+****Bomb explosion range decreased from 5 to 4.
+****Projectile speed increased.
+***'''Level 3'''
+****Bomb explosion range decreased from 5 to 4.
+****Cost decreased from {{Money|2,000}} to {{Money|1,500}}.
+***'''Level 4'''
+****Bomb explosion range decreased from 6 to 4.
+****Cost decreased from {{Money|4,000}} to {{Money|3,600}}.
+****Now gives Hidden Detection for 15 seconds to nearby towers at the start of each wave.
+***'''Level 5'''
+****Splash Damage decreased from 30 to 24.
+**{{Bug}} No longer immune to stuns.
+**{{Bugfix}} '''Ace Pilot's''' bombs now deal damage to multiple enemies.
 *'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-*'''13 February 2022''' - [[v1.0.2]]
-**New skin: {{Color|SeasonOfLove|Cupid}}
+**{{Bug}} The '''Ace Pilot's''' bombs no longer grant cash.
+**{{Bugfix}} '''Ace Pilot''' is now immune to stuns.
+**{{Bugfix}} The placement cost of the '''Ace Pilot''' in the lobby is now correct.
+*'''29 December 2021'''
+**{{Bug}} All of the '''Ace Pilot's''' skins do not upgrade properly.
+*'''29 December 2021''' - [[v1.0.0]]l
+**{{Bugfix}} Every '''Ace Pilot''' skins now upgrade properly.
 *'''12 March 2022''' - [[v1.1.0]]
+**'''Ace Pilot''' is now immune to all debuffs.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
-****Tick decreased from 0.23 to 0.225.
-***'''Level 4'''
-****Tick changed from {{Tooltip|0.23 > 0.13|-0.1}} to {{Tooltip|0.225 > 0.125|-0.1}}.
+****Firerate decreased from 0.18 to 0.175.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.18 > 0.13|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
 ***'''Level 5'''
-****Tick changed from {{Tooltip|0.13 > 0.08|-0.05}} to {{Tooltip|0.125 > 0.075|-0.05}}.
-**{{Bugfix}} '''Accelerator''' can no longer gain cash from summoned enemies.
-*'''29 July 2022'''
-**{{Bug}} When affected by the [[Scared Debuff]], the '''Accelerator''' will not stop attacking the enemy it was targeting, even if the [[Scared Debuff]] caused the enemy to be out of range.
+****Firerate changed from {{Tooltip|0.13 > 0.08|-0.05}} to {{Tooltip|0.125 > 0.075|-0.05}}.
+**{{Bug}} '''Ace Pilot''' can be targeted by enemies.
+**{{Bugfix}} '''Ace Pilot's''' bombs now grant money.
+*'''17 April 2022''' - [[v1.2.0]]
+**{{Bugfix}} '''Ace Pilot''' can no longer be targeted by enemies.
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 10 to 8.
-****Range increased from 12 to 13.
-****Burst Time increased from 4 to 6.
-****Charge-Up decreased from 4 to 3.
-***'''Level 2'''
-****Burst Time changed from {{Tooltip|4 > 6.5|+2.5}} to {{Tooltip|6 > 8.5|+2.5}}.
-***'''Level 3'''
-****Damage increased from +6 to +7.
-***'''Level 5'''
-****Cost increased from {{Money|25,000}} to {{Money|30,000}}.
-****Damage increased from +9 to +20.
-****Range decreased from +2 to +1.
-****Tick changed from {{Tooltip|0.125 > 0.075|-0.05}} to 0.125.
-****Burst Time changed from {{Tooltip|6.5 > 12|+5.5}} to {{Tooltip|8.5 > 12|+3.5}}.
-****Charge-Up changed from {{Tooltip|4 > 2|-2}} to {{Tooltip|3 > 2|-1}}.
-*'''14 February 2023''' - [[v1.6.2]]
-**{{Color|Lovely|Cupid}} skin rarity changed from {{Color|Event}} to {{Color|Legendary}}.
-**New skin: {{Color|ColdFront|Ice Witch}}
+**{{Color|Basic|Navy}} skin rarity changed from {{Color|Uncommon}} to {{Color|Common}}.
+**{{Color|Basic|Aerial Ace}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
+*'''23 January 2023''' - [[v1.6.0]]j
+**{{Color|Basic|Navy}} skin rarity changed from {{Color|Common}} to {{Color|Rare}}.
+*'''7 April 2023''' - [[v1.7.0]]
+**{{Bugfix}} Circling range is now displayed properly.
 *'''5 May 2023''' - [[v1.7.2]]
-**Damage values no longer fluctuate.
-**Burst Time replaced with Overcharge.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|3,500}} to {{Money|4,250}}.
-****Damage increased from 6-8 to 10.
-****Range increased from 13 to 17.5.
-****Overcharge of 180 added, replacing Burst Time.
-***'''Level 1'''
-****Cost increased from {{Money|600}} to {{Money|800}}.
-****Damage increased from +0 to +4
-****Range decreased from +3 to +0.
-****Name changed from ''Focused Aiming'' to ''Extra Juice''.
-***'''Level 2'''
-****Cost increased from {{Money|1,200}} to {{Money|1,350}}.
-****Overcharge change of 180 > 280 added.
-****Burst Time change of 6 > 8.5 removed.
-****Name changed from ''Extra Juice'' to ''Second Energy Canister''.
-***'''Level 3'''
-****Cost increased from {{Money|3,200}} to {{Money|3,300}}.
-****Damage increased from +7 to +11.
-****Overcharge change of 280 > 425 added.
-***'''Level 4'''
-****Cost increased from {{Money|9,500}} to {{Money|10,000}}.
-****Damage increased from +0 to +11.
-****Range decreased from +3 to +0.
-****Tick changed from {{Tooltip|0.225 > 0.125|-0.1}} to 0.225.
-****Overcharge change of 425 > 1,080 added.
-****Name changed from ''Super Charged'' to ''Supercharger''.
-***'''Level 5'''
-****Damage decreased from +20 to +14.
-****Range increased from +1 to +5.
-****Tick changed from 0.125 to {{Tooltip|0.225 > 0.125|-0.1}}.
-****Overcharge change of 1,080 > 3,000 added.
-****Burst Time change of 8.5 > 12 removed.
-****Name changed from ''Energy From The Void..'' to ''Vessel Of Infinite Destruction''.
-**New skins: {{Color|Basic|Navy}}, {{Color|Basic|Red}}
-**{{Bug}} '''Accelerator's''' Overcharge does not increase if it is dealing damage to an enemy's health that was regenerated from the [[Toxic]]'s and [[Super Toxic]]'s ''Acid Bath'' puddles.
-**{{Bug}} [[Damage Buff]]s do not increase the '''Accelerator's''' damage.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''24 June 2023''' - [[v1.8.2]]
-**New skin: {{Color|Vigilante|Vigilante}}
-*'''5 August 2023''' - [[v1.8.4]]
-**Statistical changes:
-***'''Base'''
-****Hidden detection moved to Level 1.
-***'''Level 1'''
-****Damage increased from +4 to +5.
-****Hidden detection added.
-***'''Level 2'''
-****Overcharge changed from 180 > 280 to 180 > 375.
-***'''Level 3'''
-****Damage decreased from +11 to +10.
-****Overcharge changed from 280 > 425 to 375 > 625.
-***'''Level 4'''
-****Damage increased from +11 to +20.
-****Overcharge changed from 425 > 1,080 to 625 > 1,350.
-***'''Level 5'''
-****Damage decreased from +14 to +5.
-****Range decreased from +5 to +2.5.
-****Overcharge changed from 1,080 > 3,000 to 1,350 > 3,000.
-****Cost increased from {{Money|30,000}} to {{Money|34,000}}.
-*'''22 September 2023''' - [[v1.8.5]]
-**New skin: {{Color|Other|Plushie}}
+**{{Bug}} Placement footprint does not show up when the '''Ace Pilot''' is selected.
 *'''28 October 2023''' - [[v1.9.0]]
-**New skin: {{Color|Halloween|Ghost Buster}}
-**{{Bug}} '''Accelerator''' will lock on the enemy even out of range, however it doesn't deal damage.
-**{{Bug}} '''Accelerator''' does not generate cash properly in [[Lunar Overture Event]].
-*'''28 October 2023''' - [[v1.9.0]]a
-**{{Bugfix}} '''Accelerator''' no longer locks on the enemy outside of it's range.
-*'''31 October 2023''' - [[v1.9.0]]h
-**{{Bugfix}} '''Accelerator''' now generates cash properly in [[Lunar Overture Event]].
-*'''21 December 2023''' - [[v1.11.0]]
-**New skin: {{Color|Krampus|Legend}}
-*'''28 January 2024''' - [[v1.12.0]]
-**New skin: {{Color|ContentCreator|Elite}}
-*'''1 April 2024''' - [[v1.17.2]]
-**New skin: {{Color|Deluxe|Speaker Titan}}
-**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin cannot be equipped in the intermission lobby.
-**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin breaks the tower icon and stats in the tower hotbar.
-**{{Bug}} {{Color|Deluxe|Speaker Titan}} skin when sold still blocks placement in the area it was placed in.
-*'''1 April 2024''' - [[v1.17.2]]a
-**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} skin can now be equipped in the intermission lobby.
-**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} skin tower icon and stats no longer break in the tower hotbar.
-**{{Bugfix}} {{Color|Deluxe|Speaker Titan}} no longer block placement in the area it was placed in when sold.
-*'''5 April 2024''' - [[v1.18.0]]
+**Placement limit decreased from 10 to 8.
 **Statistical changes:
+***'''Base'''
+****Range increased from 7 to 7.5.
+***'''Level 1'''
+****Cost increased from {{Money|250}} to {{Money|300}}.
 ***'''Level 2'''
-****Overcharge changed from 180 > 375 to 180 > 300.
+****Range decreased from +1 to +0.
+****Bomb cooldown increased from 4 to 4.5.
 ***'''Level 3'''
-****Cost increased from {{Money|3,300}} to {{Money|4,000}}.
-****Damage decreased from +10 to +5.
-****Overcharge changed from 375 > 625 to 300 > 600.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.175 > 0.15|-0.025}}.
+****Bomb damage decreased from 18 to 15.
+****Bomb cooldown increased from 4 to 4.5.
+****Cost increased from {{Money|1,500}} to {{Money|2,000}}.
 ***'''Level 4'''
-****Cost increased from {{Money|10,000}} to {{Money|10,500}}.
-****Damage decreased from +20 to +10.
-****Tick changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
-****Overcharge changed from 625 > 1,350 to 600 > 1,200.
+****Range increased from +0 to +1.5.
+****Bomb cooldown decreased from 3.5 to 3.
+****Cost decreased from {{Money|3,600}} to {{Money|3,200}}.
 ***'''Level 5'''
-****Damage increased from +5 to +15.
-****Tick changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.175 > 0.125|-0.05}}.
-****Overcharge changed from 1,350 > 3,000 to 1,200 > 3,600.
-**New skin: {{Color|Mission|Nuclear}}
-*'''26 April 2024''' - [[v1.19.2]]
-**{{Bugfix}} '''Accelerator''' is now affected by [[Damage Buff]]s.
-*'''3 May 2024''' - [[v1.20.0]]
-**{{Bug}} Damage dealt to [[Bloated]] enemies sometimes does not fill up the overcharge meter.
-*'''4 May 2024''' - [[v1.20.0]]a
-**New skin: {{Color|Deluxe|Senator}}
-*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
-**{{Bug}} {{Color|ColdFront|Ice Witch}} skin cannot be upgraded and sold.
-*'''23 May 2024''' - [[v1.23.0]]
-**{{Bug}} Damage no longer generates cash in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
-**{{Bugfix}} {{Color|ColdFront|Ice Witch}} skin can now be upgraded and sold.
-**{{Bugfix}} '''Accelerator''' no longer tries to charge-up while stunned.
-**{{Bugfix}} '''Accelerator''' will no longer keep on targeting enemies which due to having its range reduced through debuffs, are no longer in its range.
+****Damage increased from +3 to +4.
+****Firerate changed from {{Tooltip|0.125 > 0.075|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}
+****Range decreased from +2 to +1.
+****Bomb damage decreased from 24 to 20.
+****Bomb cooldown decreased from 3 to 2.5.
+****Bomb explosion range decreased from 6 to 5.5.
+****Cost increased from {{Money|7,500}} to {{Money|8,750}}.
+****Name changed from ''Air Fighter'' to ''The Surging Skies''.
+*'''21 December 2023''' - [[v1.11.0]]
+**Unlock cost increased from {{Coins|1,500}} to {{Coins|3,500}}.
+*'''10 May 2024''' - [[v1.21.0]]
+**{{Bug}} '''Ace Pilot''' does not deal damage while its bomb is being dropped.
 *'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**{{Bugfix}} Damage now generates cash properly in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
+**Splash damage no longer bypasses defense.
+*'''16 June 2024''' - [[v1.24.0|v1.24.2]]b
+**{{Bug}} Towers do not gain hidden detection when upgraded to a Level that has one if they have the [[Hidden Detection Buff]] from the '''Ace Pilot''' active.
+*'''21 June 2024''' - [[v1.25.0]]
+**Rotating the '''Ace Pilot''' no longer has an impact on its starting position, though it does affect the rotation of the Figure8 flight path.
+**'''Ace Pilot''' now can select from two flight paths, Circle and Figure8.
+**'''Ace Pilot''' no longer has a start up animation on placement, Level 3 or Level 5.
+**Bombs now bypass defense again.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|500}} to {{Money|550}}.
+****Damage increased from 1 to 2.
+****Firerate increased from 0.175 to 0.2.
+****''Toggle Reverse'' ability added.
+*****Allows the '''Ace Pilot''' to fly in the reverse direction of its flight path.
+***'''Level 1'''
+****Cost decreased from {{Money|300}} to {{Money|150}}.
+****Damage decreased from +1 to +0.
+****Firerate changed from 0.175 to {{Tooltip|0.2 > 0.175|-0.025}}.
+****Name changed from ''Better bullets'' to ''Greased Guns''.
+***'''Level 2'''
+****Bomb cooldown decreased from 4.5 to 4.
+****Now unlocks the Figure8 flight path.
+***'''Level 3'''
+****Damage increased from +2 to +3.
+****No longer boosts flight speed.
+****Bomb damage increased from 15 to 18.
+****Bomb cooldown decreased from 4.5 to 4.
+****Bomb explosion range increased from 4 to 4.5.
+***'''Level 4'''
+****Cost increased from {{Money|3,200}} to {{Money|3,600}}.
+****Damage increased from +2 to +3.
+****Firerate changed from 0.15 to {{Tooltip|0.15 > 0.125|-0.025}}.
+****[[Hidden Detection Buff]] is now permanent.
+****[[Hidden Detection Buff]] is now given in its secondary range around the runway, which has a range of 7.
+****Bomb damage increased from 15 to 25.
+****Bomb cooldown decreased from 3 to 2.75.
+****Bomb explosion range increased from 4 to 4.5.
+***'''Level 5'''
+****Cost increased from {{Money|8,750}} to {{Money|9,750}}.
+****Firerate changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.125 > 0.117|-0.008}}.
+****Flight speed boost changed, now boosts flight speed by 35%.
+****Bomb damage increased from 20 to 30.
+****Bomb cooldown decreased from 2.5 to 0.65.
+****Bomb explosion range decreased from 5.5 to 4.
+**{{Bugfix}} Gun now deals damage while a bomb is being dropped.
+**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s, though the bomb damage still is.
+**{{Bug}} Small red cube appears on the center of the map when the '''Ace Pilot''' is placed.
+**{{Bug}} Animations breaks when rejoining the server.
+**{{Bug}} '''Ace Pilot''' is upside down in the [[Daily Store]] and when opening skincrates.
+**{{Bug}} Explosion visuals are bigger than the actual explosion.  
 *'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|ContentCreator|Dank}}
-*'''9 August 2024''' - [[v1.27.5]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''25 September 2024''' - [[v1.33.0]]
-**New skin: {{Color|Other|Patient Zero}}
-*'''11 October 2024'''- [[v1.35.0]]a
-**{{Bug}} Statistical changes made in [[TDS Experimental]] have been moved over to the main game
-*'''11 October 2024'''- [[v1.35.0]]b
-**{{Bugfix}} '''Accelerator''' no longer uses [[TDS Experimental]] stats, though the lobby still used incorrect statistics.
-*'''11 October 2024'''- [[v1.35.0]]c
-**{{Bugfix}} '''Accelerator''' no longer uses [[TDS Experimental]] stats on the lobby.
+**No longer has a white dot under the plane while using the Figure8 path.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|550}} to {{Money|450}}.
+****Damage decreased from 2 to 1.
+****Firerate decreased from 0.2 to 0.175.
+***'''Level 1'''
+****Cost increased from {{Money|150}} to {{Money|225}}.
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
+***'''Level 3'''
+****Cost increased from {{Money|2,000}} to {{Money|2,200}}.
+****Damage decreased from +3 to +2.
+***'''Level 4'''
+****Cost increased from {{Money|3,600}} to {{Money|4,000}}.
+****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.15.
+****Bomb cooldown decreased from 2.75 to 1.75.
+***'''Level 5'''
+****Cost increased from {{Money|9,750}} to {{Money|10,000}}.
+****Damage increased from +4 to +5.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.15 > 0.117|-0.033}}.
+****Bomb explosion damage decreased from 30 to 25.
+****Bomb cooldown increased from 0.65 to 0.8.
+**{{Bug}} [[Hidden Detection Buff]] range is no longer shown.
+**{{Bug}} When being placed down, the Figure8 flight path is shown instead of Circle.
+**{{Bug}} Figure8 path does not rotate with the tower, displaying the path incorrectly if rotated.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
+**{{Bugfix}} When being placed down, it correctly shows the Circle path instead of Figure8.
+*'''21 August 2024''' - [[v1.28.0]]
+**{{Bugfix}} Animations no longer break when rejoining the server.
+**{{Bugfix}} A small red cube no longer appears in the center of the map when the '''Ace Pilot''' is placed down.
+*'''28 August 2024''' - [[v1.29.0]]
+**{{Bugfix}} '''Ace Pilot''' is no longer upside down in the [[Daily Store]] and when opening skincrates.
+*'''11 October 2024''' - [[v1.35.0|v1.35.1]]a
+**{{Bug}} Statistical changes made in TDS Experimental have been moved over to the main game.
+*'''11 October 2024''' - [[v1.35.0|v1.35.1]]b
+**{{Bugfix}} No longer uses statistics from [[TDS Experimental]] during matches.
+*'''11 October 2024''' - [[v1.35.0|v1.35.1]]c
+**{{Bugfix}} No longer uses statistics from [[TDS Experimental]] in the lobby.
 *'''16 October 2024''' - [[v1.36.0]]
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|4,250}} to {{Money|5,000}}.
-****Damage increased from 10 to 12.
-****Overcharge increased from 180 to 240.
-****Charge-Up decreased from 3 to 2.5.
-****Cooldown increased from 2 to 2.5.
+****Range decreased from 7.5 to 7.
 ***'''Level 1'''
-****Cost increased from {{Money|800}} to {{Money|1,200}}.
-****Damage increased from +5 to +8.
+****Cost increased from {{Money|225}} to {{Money|300}}.
 ***'''Level 2'''
-****Cost increased from {{Money|1,350}} to {{Money|2,250}}.
-****Range increased from +0 to +1.5.
-****Overcharge changed from 180 > 300 to 240 > 420.
+****Bomb explosion range decreased from 4 to 2.
 ***'''Level 3'''
-****Damage increased from +5 to +10.
-****Overcharge changed from 300 > 600 to 420 > 600.
+****Cost decreased from {{Money|2,200}} to {{Money|1,500}}.
+****Damage decreased from +2 to +1.
+****Range increased from +0 to +0.5.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.12|-0.03}} to {{Tooltip|0.15 > 0.125|-0.025}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
+****Bomb explosion range decreased from 4.5 to 2.25.
 ***'''Level 4'''
-****Cost decreased from {{Money|10,500}} to {{Money|9,500}}.
-****Damage decreased from +10 to +0.
-****Range increased from +0 to +1.5.
-****Overcharge changed from 600 > 1,200 to 600 > 1,050.
-****Charge-Up changed from 3 to {{Tooltip|2.5 > 1.5|-1}}.
+****Cost decreased from {{Money|4,000}} to {{Money|3,500}}
+****Range decreased from +1.5 to +0.5.
+****Bomb explosion range decreased from 4.5 to 2.25.
 ***'''Level 5'''
-****Cost decreased from {{Money|34,000}} to {{Money|30,000}}.
-****Damage decreased from +15 to +10.
-****Range decreased from +2.5 to +1.5.
-****Overcharge changed from 1,200 > 3,600 to 1,050 > 4,800.
-*****{{Bug}} Incorrectly listed as 4,600 in the upgrade description.
-*'''23 October 2024''' - [[v1.37.0]]
-**{{Bug}} '''Accelerator''' has received the following statistical changes:
-***'''Level 3'''
-****Overcharge changed from 420 > 600 to 420 > 750.
-***'''Level 4'''
-****Damage decreased from +0 to -5.
-****Overcharge changed from 600 > 1,050 to 750 > 1,050.
-***'''Level 5'''
-****Damage increased from +10 to +15.
-**New skin: {{Color|Hexscape|Disco}}
-*'''24 October 2024''' - [[v1.37.0|v1.37.3]]
-**{{Bugfix}} '''Accelerator''' now uses the correct statistics.
-*'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''28 May 2025''' - [[v1.65.0]]
-**{{Bugfix}} Level 5 now correctly lists overcharge as 4,800.
-*'''11 June 2025''' - [[v1.67.0]]
+****Cost decreased from {{Money|10,000}} to {{Money|7,500}}.
+****Damage decreased from +5 to +4.
+****Firerate changed from {{Tooltip|0.15 > 0.117|-0.033}} to {{Tooltip|0.15 > 0.125|-0.025}}.
+****Bomb explosion damage increased from 25 to 35.
+****Bomb cooldown increased from 0.8 to 1.25.
+****Bomb explosion range decreased from 4 to 2.
+**{{Bug}} Level 4 upgrade description no longer mentions that it gains the ability to give other towers hidden detection in its secondary range.
+*'''30 October 2024''' - [[v1.39.0]]
+**{{Bugfix}} Level 4 upgrade description now mentions that it gains the ability to give other towers hidden detection in its secondary range.
+*'''26 March 2025''' - [[v1.58.0]]
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|5,000}} to {{Money|4,500}}.
-****Damage decreased from 12 to 10.
-****Range increased from 17.5 to 18.
-****Overcharge increased from 240 to 300.
+****Cost increased from {{Money|450}} to {{Money|550}}.
+****Damage increased from 1 to 2.
+****Firerate increased from 0.175 to 0.225.
+****Range increased from 7 to 7.5.
+****''Toggle Reverse'' cooldown decreased from 10 to 8 seconds.
 ***'''Level 1'''
-****Cost decreased from {{Money|1,200}} to {{Money|1,000}}.
-****Damage decreased from +8 to +5.
+****Cost decreased from {{Money|300}} to {{Money|200}}.
 ***'''Level 2'''
-****Cost increased from {{Money|2,250}} to {{Money|2,500}}.
-****Range increased from +1.5 to +2.
-****Overcharge changed from 240 > 420 to 300 > 600.
-*****{{Bug}} This is repeated for Level 3.
+****Bomb explosion range increased from 2 to 2.5.
 ***'''Level 3'''
-****Cost increased from {{Money|4,000}} to {{Money|4,750}}.
-****Damage increased from +10 to +25.
-****Overcharge changed from 420 > 600 to 600.
+****Cost increased from {{Money|1,500}} to {{Money|1,850}}.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.225 > 0.125|-0.1}}.
+****Bomb damage increased from 18 to 20.
+****Bomb explosion range increased from 2.25 to 2.5.
 ***'''Level 4'''
-****Cost increased from {{Money|9,500}} to {{Money|11,250}}.
-****Range increased from +1.5 to +2.5
-****Overcharge changed from 600 > 1,050 to 600 > 1,280.
+****Cost decreased from {{Money|3,500}} to {{Money|3,200}}
+****Bomb damage increased from 25 to 30.
+****Bomb cooldown increased from 1.75 to 2.
+****Bomb explosion range increased from 2.25 to 2.75.
 ***'''Level 5'''
-****Cost increased from {{Money|30,000}} to {{Money|36,000}}.
-****Damage increased from +10 to +60.
-****Range increased from +1.5 to +2.5.
-****Overcharge changed from 1,050 > 4,800 to 1,280 > 2,400.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Octopus}}
-**{{Bug}} {{Color|Surf|Octopus}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Octopus}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''23 July 2025''' - [[v1.71.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Cost decreased from {{Money|4,500}} to {{Money|3,000}}.
-****Cooldown decreased from 2.5 to 2.
-***'''Level 1'''
-****Cost decreased from {{Money|1,000}} to {{Money|750}}.
-***'''Level 2'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,125}}.
-***'''Level 3'''
-****Cost decreased from {{Money|4,750}} to {{Money|3,250}}.
-****Damage decreased from +25 to +20.
-***'''Level 4'''
-****Cost decreased from {{Money|11,250}} to {{Money|8,250}}.
-***'''Level 5'''
-****Cost decrased from {{Money|36,000}} to {{Money|30,000}}.
-****Damage decreased from +60 to +55.
-**New skin: {{Color|PVP|Champion}}
-*'''6 August 2025''' - [[v1.72.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Cost increased from {{Money|3,000}} to {{Money|4,250}}.
-****Damage increased from 10 to 12.
-***'''Level 1'''
-****Damage decreased from +5 to +3.
-***'''Level 2'''
-****Cost decreased from {{Money|2,125}} to {{Money|2,000}}.
-****Range decreased from +2 to +0.
-***'''Level 3'''
-****Cost increased from {{Money|3,250}} to {{Money|4,500}}.
-****Tick changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
-****Range increased from +0 to +2.
-***'''Level 4'''
-****Cost increased from {{Money|8,250}} to {{Money|12,000}}.
-****Tick changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
-****Range increased from +2.5 to +0.
-***'''Level 5'''
-****Cost decreased from {{Money|30,000}} to {{Money|28,500}}.
-*'''20 December 2025''' - [[v1.83.0]]
-**New skin: {{Color|Showtime|Magician}}
+****Cost increased from {{Money|7,500}} to {{Money|8,000}}.
+****Damage increased from +4 to +7.
+****Bomb damage increased from 35 to 40.
+****Bomb cooldown increased from 1.25 to 1.5.
+****Bomb explosion range increased from 2 to 3.
+*'''9 April 2025''' - [[v1.60.0]]
+**Defense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Easter}}
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost decreased from {{Coins|3,500}} to {{Coins|1,500}}.
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skin: {{Color|FinalAct|Toy Plane}}
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement footprint size increased from 1.5 to 1.75.
-**Placement limit decreased from 8 to 5.
-**[[Stun Immunity]] added.
-**Statistical changes (Regular):
+**Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
-****Damage increased from 10 to 12.
-****Range increased from 18 to 20.
-****Overcharge increased from 300 to 9,000.
-****Charged-Up increased from 2.5 to 6.5.
+****Cost decreased from {{Money|550}} to {{Money|500}}.
+****Range increased from 7.5 to 9.
 ***'''Level 1'''
-****Cost increased from {{Money|1,000}} to {{Money|2,000}}.
-****Damage increased from +5 to +8.
-****Overcharge changed from 300 to 9,000 > 11,250
+****Cost increased from {{Money|200}} to {{Money|225}}.
 ***'''Level 2'''
-****Cost Increased from {{Money|2,500}} to {{Money|4,800}}.
-****Damage increased from +0 to +5.
-****Overcharge changed from 300 > 600 to 11,250 > 18,750.
+****Cost increased from {{Money|350}} to {{Money|625}}.
+****Damage increased from +0 to +1.
+****Explosion range increased from 2.5 to 3.
 ***'''Level 3'''
-****Cost increased from {{Money|4,750}} to {{Money|9,999}}.
-****Damage decreased from +25 to +15.
-****Overcharge changed from 600 to 18,750 > 30,000.
-****Cooldown changed from 2.5 to 2.5 > 1.
+****Cost decreased from {{Money|1,850}} to {{Money|1,500}}.
+****Damage decreased from +1 to +0.
+****Range increased from +0.5 to +1.
+****Explosion damage increased from 20 to 30.
+****Explosion range increased from 2.5 to 3.
+****Flight speed is now boosted by 10%.
 ***'''Level 4'''
-****Cost increased from {{Money|11,250}} to {{Money|30,000}}.
-****Damage increased from +0 to +10.
-****Range decreased from +2.5 to +2.
-****Overcharge changed from 600 > 1,280 to 30,000 > 50,000
-****Charge-Up time changed from 2.5 > 1.5 to 6.5 > 5.5.
+****Cost decreased from {{Money|3,200}} to {{Money|2,500}}.
+****Damage decreased from +3 to +2.
+****Range decreased from +0.5 to +0.
+****Explosion range increased from 2.75 to 3.
 ***'''Level 5'''
-****Cost increased from {{Money|36,000}} to {{Money|67,500}}.
-****Damage decreased from +60 to +5.
-****Range decreased from +2.5 to +2.
-****Overcharge changed from 1,280 > 2,400 to 50,000 > 100,000.
-****Charge-Up time changed from 1.5 to 5.5 > 6.5.
-*'''11 February 2026''' - [[v1.85.0]]
-**[[Freeze Immunity]] added.
-**Statistical changes (Regular):
-***'''Level 1'''
-****Damage decreased from +8 to +3.
-***'''Level 2'''
-****Cost increased from {{Money|4,800}} to {{Money|6,000}}.
+****Cost increased from {{Money|8,000}} to {{Money|9,500}}.
+****Damage increased from +7 to +9.
+****Range decreased from +1 to +9.
+****Explosion damage increased from 40 to 45.
+****Explosion range increased from 3 to 3.5.
+*'''11 March 2026''' - [[v1.86.0]]
+**Statistical changes:
+***'''Level 3'''
+****Upgrade name changed from {{Tooltip|''Aerial  Ace''|Contains two spaces between Aerial and Ace}} to ''Aerial Ace''.
 ***'''Level 4'''
-****Cost decreased from {{Money|30,000}} to {{Money|27,500}}.
+****No longer grants towers hidden detection, moved to Level 5.
+****Upgrade name changed from ''Spy plane'' to ''Spy Plane''.
 ***'''Level 5'''
-****Cost decreased from {{Money|67,500}} to {{Money|60,000}}.
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Bunny}}
-*'''22 April 2026''' - [[v1.89.0]]
-**Statistical changes (regular):
-***'''Base'''
-****Tick increased from 0.225 to 0.25.
-****Range decreased from 20 to 19.
-****[[Freeze Immunity]] removed, moved to Level 2.
-***'''Level 2'''
-****[[Freeze Immunity]] added, moved from Level 0.
+****Now gives towers hidden detection.
+*'''8 May 2026''' - [[v1.90.0]]
+**Statistical changes:
+***'''Level 3'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.225 > 0.15|-0.075}}.
 ***'''Level 4'''
-****Tick changed from {{Tooltip|0.225 > 0.175|-0.5}} to {{Tooltip|0.25 > 0.175|-0.75}}
+****Cost increased from {{Money|2,500}} to {{Money|3,000}}.
+****Damage increased from +2 to +3.
+****Now gives towers hidden detection.
+****Hidden detection range increased from 0 to 10.
 ***'''Level 5'''
-****Cost decreased from {{Money|60,000}} to {{Money|55,000}}.
-****Range decreased from +2 to +1.5.
-****Charge-Up time changed from 5.5 > 6.5 to 5.5.
+****Cost decreased from {{Money|9,500}} to {{Money|7,000}}.
+****Damage increased from +9 to +10.
+****Explosion range increased from 3.5 to 4.
 *'''5 June 2026''' - [[v2.0.0]]
-**Tick decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes:
 ***'''Base'''
-****Without [[Firerate Bug]], tick increased from 0.22 to 0.25, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.25.
-****[[Stun Immunity]] removed.
-***'''Level 2'''
-****Charge-Up Time changed from 6.5 to 6.5 > 5.5.
-****[[Freeze Immunity]] removed.
+****Firerate decreased from 0.225 to 0.22.
 ***'''Level 3'''
-****Charge-Up Time changed from 6.5 to 5.5 > 4.
-***'''Level 4'''
-****Without [[Firerate Bug]], tick changed from {{Tooltip|0.22 > 0.15|-0.07}} to {{Tooltip|0.25 > 0.175|-0.075}}, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.175.
-****Charge-Up Time changed from 6.5 > 5.5 to 4 > 2.5.
+****Firerate changed from {{Tooltip|0.225 > 0.15|-0.075}} to {{Tooltip|0.22 > 0.15|-0.07}}.
 ***'''Level 5'''
-****Without [[Firerate Bug]], tick changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.175 > 0.125|-0.075}}, however, as in the same update it has been fully fixed, the tick effectively does not change and remains at 0.125.
-****Charge-Up Time changed from 5.5 to 2.5 > 1.5.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Damage decreased from 12 to 10.
-****Tick decreased from 0.225 to 0.2.
-***'''Level 3'''
-****Damage decreased from +20 to +17.
-****Tick changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.2 > 0.15|-0.05}}.
-***'''Level 4'''
-****Damage decreased from +0 to -2.
-****Tick changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}.
-***'''Level 5'''
-****Damage decreased from +55 to +44.
-**New skin: {{Color|Void}}
-*'''19 June 2026''' - [[v2.1.0]]
-**Statistical changes (Regular):
-***'''Level 5'''
-****Damage increased from +5 to +10.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Beach}}
+****Damage decreased from +10 to +6.
+****Firerate changed from 0.15 to {{Tooltip|0.15 > 0.12|-0.03}}.
 }}
 
 ==Notes==
@@ -839,3 +647,4 @@ $R$ = $FNC-RECURSION$
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
