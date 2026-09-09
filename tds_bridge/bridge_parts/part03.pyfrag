@@ -44,6 +44,7 @@ def discussion_search(q,limit=100):
     try:d=get_json(WIKIA,{'controller':'DiscussionThread','method':'getThreads','siteId':SITE_ID,'limit':min(max(limit,1),100),'responseGroup':'full','sortDirection':'descending','sortKey':'creation_date','viewableOnly':'false'})
     except Exception as e:
         r={'query':q,'error':str(e),'matches':[],'scope':'recent discussions endpoint'}; wjson('discussion_search.json',r); wjson('meta.json',{'mode':'discussion_search','requested':q,'status':'endpoint_error'}); wjson('evidence_bundle.json',{'mode':'discussion_search',**r}); return 1
+    wjson('discussion_recent_raw.json',d)
     toks=[t for t in re.findall(r'[a-z0-9]+',norm(q)) if len(t)>1]; matches=[]; seen=set()
     for o in flatten(d):
         blob=' '.join(str(o.get(k,'')) for k in ('title','rawContent','content','text','body')); low=norm(blob); score=sum(low.count(t) for t in toks)
