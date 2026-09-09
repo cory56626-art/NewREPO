@@ -1,6 +1,6 @@
 {
   "mode": "discussion_deep_search",
-  "query": "current evolved enforcer golden cowboy gcow loadout strategy",
+  "query": "enforcer golden cowboy gcow",
   "must_include": [
     [
       "enforcer"
@@ -10,18 +10,6 @@
       "gcow",
       "g cow",
       "gold cowboy"
-    ],
-    [
-      "evolved",
-      "evolution",
-      "research",
-      "top path",
-      "bottom path",
-      "swat",
-      "reposition",
-      "level 20",
-      "4750",
-      "4,750"
     ]
   ],
   "prefer_include": [
@@ -33,11 +21,6 @@
     "solo",
     "fallen",
     "hardcore",
-    "frost",
-    "polluted",
-    "win",
-    "won",
-    "triumph",
     "dj",
     "commander",
     "engineer",
@@ -45,9 +28,8 @@
     "turret",
     "mercenary base",
     "hacker",
-    "kingpin",
-    "ranger"
+    "kingpin"
   ],
-  "pages": 50,
+  "pages": 1,
   "per_page": 1000
 }
