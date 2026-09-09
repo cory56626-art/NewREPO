@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-09-08T21:54:15.281769+00:00",
+  "generated_at": "2026-09-09T00:19:10.569557+00:00",
   "tracked_page_count": 84,
   "entries": [
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Sledger",
+      "pageid": 24096,
+      "revid": 647368,
+      "old_revid": 646703,
+      "rcid": 651451,
+      "user": "Memor22",
+      "bot": false,
+      "new": false,
+      "minor": true,
+      "oldlen": 24950,
+      "newlen": 25046,
+      "timestamp": "2026-09-08T23:56:43Z",
+      "comment": "Added a bug with sledger not hitting flying enemies, although not sure if its recent or not",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 433: Line 433: **'''Sledger''' is now available through a gamepass for {{Robux|749}}. **'''Sledger''' is now available through a gamepass for {{Robux|749}}. **{{Bug}} Gifting does not work. **{{Bug}} Gifting does not work. **{{Bug}} Sledger cannot hit flying enemies, even when given flying detection by firework tech. *'''4 September 2026''' - [[v2.9.0|v2.9.1]] *'''4 September 2026''' - [[v2.9.0|v2.9.1]] **{{Bugfix}} '''Sledger''' now can be gifted. **{{Bugfix}} '''Sledger''' now can be gifted."
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Assassin",
+      "pageid": 51458,
+      "revid": 647367,
+      "old_revid": 647366,
+      "rcid": 651450,
+      "user": "Memor22",
+      "bot": false,
+      "new": false,
+      "minor": true,
+      "oldlen": 21153,
+      "newlen": 21304,
+      "timestamp": "2026-09-08T23:45:43Z",
+      "comment": "Changed Flying detection to a note saying it can hit flyings, to be more consistent with other splash towers that can do the same.",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 14: Line 14: |hidden_detection = {{Attr|Hidden|Level 2+}} |hidden_detection = {{Attr|Hidden|Level 2+}} |lead_detection = {{Attr|Lead|Level 2+}} |lead_detection = {{Attr|Lead|Level 2+}} |flying_detection = N/A<ref>When assassin is using whirlwind slash, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies alone.</ref> |flying_detection = {{Attr|Flying|Level 2+}} (Whirlwind only) |immune = None |immune = None |footprint = 1 |footprint = 1"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Assassin",
+      "pageid": 51458,
+      "revid": 647366,
+      "old_revid": 647365,
+      "rcid": 651449,
+      "user": "Memor22",
+      "bot": false,
+      "new": false,
+      "minor": true,
+      "oldlen": 21153,
+      "newlen": 21153,
+      "timestamp": "2026-09-08T23:41:31Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 14: Line 14: |hidden_detection = {{Attr|Hidden|Level 2+}} |hidden_detection = {{Attr|Hidden|Level 2+}} |lead_detection = {{Attr|Lead|Level 2+}} |lead_detection = {{Attr|Lead|Level 2+}} |flying_detection = {{Attr|Flying|Level 2+ (Whirlwind only) }} |flying_detection = {{Attr|Flying|Level 2+ }} (Whirlwind only) |immune = None |immune = None |footprint = 1 |footprint = 1"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Assassin",
+      "pageid": 51458,
+      "revid": 647365,
+      "old_revid": 636878,
+      "rcid": 651448,
+      "user": "Memor22",
+      "bot": false,
+      "new": false,
+      "minor": true,
+      "oldlen": 21115,
+      "newlen": 21153,
+      "timestamp": "2026-09-08T23:40:45Z",
+      "comment": "Gave assassin flying detection on whirlwind only, as it can indirectly hit flying enemies",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 14: Line 14: |hidden_detection = {{Attr|Hidden|Level 2+}} |hidden_detection = {{Attr|Hidden|Level 2+}} |lead_detection = {{Attr|Lead|Level 2+}} |lead_detection = {{Attr|Lead|Level 2+}} |flying_detection = N/A |flying_detection = {{Attr|Flying|Level 2+ (Whirlwind only)}} |immune = None |immune = None |footprint = 1 |footprint = 1"
+    },
     {
       "type": "edit",
       "ns": 0,
