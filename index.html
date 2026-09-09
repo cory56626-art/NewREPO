@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pacing Hams</title>
-<style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
-    color: #d8c39a;
-    font-family: "Courier New", Courier, monospace;
-  }
-  #stage {
-    position: fixed;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    background: #000;
-  }
-  canvas {
-    display: block;
-    image-rendering: auto;
-    cursor: default;
-  }
-  canvas.pointing { cursor: pointer; }
-  #boot {
-    position: fixed;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    background: #000;
-    color: #6b5836;
-    letter-spacing: .3em;
-    font-size: 13px;
-    z-index: 10;
-    transition: opacity .6s ease;
-  }
-  #boot.gone { opacity: 0; pointer-events: none; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNAF-Verse</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="stage"><canvas id="game"></canvas></div>
-  <div id="boot">PACING HAMS</div>
-  <script type="module" src="./src/main.js"></script>
+    <div id="landing-page" class="landing-page">
+        <h1>Welcome to the FNAF-Verse!</h1>
+        <div class="office-container">
+            <!-- We will replace this with actual FNAF 1 office later -->
+            <img id="fnaf1-office" src="assets/images/fnaf1_office.webp" alt="FNAF 1 Office" class="office-image">
+            <div id="freddy-nose" class="freddy-nose-hotspot"></div>
+        </div>
+    </div>
+
+    <div id="jumpscare-container" class="hidden">
+        <img id="jumpscare-img" src="assets/images/jumpscare.webp" alt="Jumpscare">
+    </div>
+
+    <div id="main-content" class="hidden">
+        <div class="search-container">
+            <input type="text" id="character-search" placeholder="Search for a character...">
+            <div id="music-notes-container"></div>
+        </div>
+
+        <div class="game-section" id="fnaf1-section" data-bg="assets/images/bg_fnaf1.webp">
+            <h2>Five Nights at Freddy's 1</h2>
+            <div class="character-list" id="fnaf1-characters"></div>
+        </div>
+
+        <div class="game-section" id="fnaf2-section" data-bg="assets/images/bg_fnaf2.webp">
+            <h2>Five Nights at Freddy's 2</h2>
+            <div class="character-list" id="fnaf2-characters"></div>
+        </div>
+
+        <div class="game-section" id="fnaf3-section" data-bg="assets/images/bg_fnaf3.webp">
+            <h2>Five Nights at Freddy's 3</h2>
+            <div class="character-list" id="fnaf3-characters"></div>
+        </div>
+
+        <div class="game-section" id="fnaf4-section" data-bg="assets/images/bg_fnaf4.webp">
+            <h2>Five Nights at Freddy's 4</h2>
+            <div class="character-list" id="fnaf4-characters"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
