@@ -1,6 +1,6 @@
 {
   "mode": "discussion_deep_search",
-  "query": "enforcer golden cowboy gcow loadout deck strategy setup",
+  "query": "current evolved enforcer golden cowboy gcow loadout strategy",
   "must_include": [
     [
       "enforcer"
@@ -12,14 +12,24 @@
       "gold cowboy"
     ],
     [
-      "loadout",
-      "deck",
-      "strategy",
-      "strat",
-      "setup"
+      "evolved",
+      "evolution",
+      "research",
+      "top path",
+      "bottom path",
+      "swat",
+      "reposition",
+      "level 20",
+      "4750",
+      "4,750"
     ]
   ],
   "prefer_include": [
+    "loadout",
+    "deck",
+    "strategy",
+    "strat",
+    "setup",
     "solo",
     "fallen",
     "hardcore",
