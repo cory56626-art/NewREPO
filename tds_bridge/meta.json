@@ -1,6 +1,21 @@
 {
-  "mode": "discussion_deep_search",
-  "requested": "main dps loadout ranger tesla boomerang engineer kingpin mortar shotgunner golden cowboy dj commander",
-  "threads_scanned": 82255,
-  "match_count": 2076
+  "mode": "verify",
+  "requested": "Tesla",
+  "title": "Tesla",
+  "pageid": 56979,
+  "latest_revid": 618563,
+  "latest_timestamp": "2026-08-18T21:27:06Z",
+  "source_url": "https://tds.fandom.com/wiki/Tesla",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

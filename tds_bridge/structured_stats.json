@@ -7,280 +7,165 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Shotgunner''', formerly known as the '''Enforcer''', is an intermediate ground tower that wields a powerful pump shotgun to attack enemies with. It costs {{Coins|850}} to buy from the store.\n\nThe '''Shotgunner''' shoots multiple bullets at once through ''Scatter Shot''. Damage is split among 8 bullets per firerate (so the base damage is 2x8), and these bullets are spread within a small cone and can pierce through enemies. The same enemy can be hit with multiple bullets, increasing the damage inflicted. On all levels, three enemies can be damaged by the same bullet. The first two enemies will be dealt full damage, while the last will only be dealt 50% of the damage. The closer an enemy is to the '''Shotgunner''', the more likely they are to be damaged by the bullets.\n\nThe '''Shotgunner''' is considered a mid to late-game, as its medium cost can be utilized in the mid-game, while its later upgrades and mediocre range, but high DPS can suffice in the late game. It is excellent against huge swarms of enemies as it allows '''Shotgunner''' to maximise its high DPS. \n\nThe '''Shotgunner''' has a placement limit of nine per player. This is removed in [[PVP]] mode.",
+  "description": "The '''Tesla''' is a mid-late game advanced tower which attacks enemies with chain lightning, temporarily immobilizing them. It can be bought for {{Coins|6,000}}.\n\nThe '''Tesla''' fires lightning at enemies in its range. This lightning will extend to as many enemies as its max hits will allow it to, hitting the closest enemy to the initial target in a range of 12 at Level 0. These enemies will be stunned when hit, which stops them from moving. [[Boss]] and [[Stun Immunity]] enemies will only get slowed down instead.\n\nAt Level 2+, it gains smite, an ability activated when its meter seen in the upgrade menu is filled up by hitting multiple enemies. This will unleash thunder on the targeted enemy, dealing explosion damage to it. This being an explosion, it will deal less damage to enemies the further away they are from the center of the explosion. Additionally, it can bypass [[Defense]].\n\nThe '''Tesla''' is an excellent option for stalling over a pretty large area, as its electric shocks can hold large crowds in place and give other towers more time to attack them, on top of dealing decent damage itself. \n\nThe '''Tesla''' has a placement limit of two per player.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 1,
-        "title": "Shotgun Knowledge",
-        "cost": "{{Money|750}}",
-        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}",
+        "title": "Kite in the Wind",
+        "cost": "{{Money|1,856}}",
+        "information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1",
+            "delta": "+5",
             "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Shotgun Knowledge",
-          "Cost": "{{Money|750}}",
-          "Image": "[[File:Level1.png|100px]]",
-          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "title": "Clay Pigeon Training",
-        "cost": "{{Money|1,500}}",
-        "information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "1.1",
-            "to": "0.8",
-            "stat": "Firerate",
-            "text": "1.1 > 0.8 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
+            "text": "+5 Damage"
           },
           {
             "kind": "set",
-            "from": "8",
-            "to": "9",
-            "stat": "Bullets",
-            "text": "8 > 9 Bullets"
-          },
-          {
-            "kind": "set",
-            "from": "5",
-            "to": "10",
-            "stat": "Spread",
-            "text": "5 > 10 Spread"
-          },
-          {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Clay Pigeon Training",
-          "Cost": "{{Money|1,500}}",
-          "Image": "[[File:ShotgunnerLevel2.png|100px]]",
-          "Information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Heavier Shells",
-        "cost": "{{Money|6,500}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "10",
-            "to": "25",
-            "stat": "Spread",
-            "text": "10 > 25 Spread"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Heavier Shells",
-          "Cost": "{{Money|6,500}}",
-          "Image": "[[File:ShotgunnerLevel3.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Tactical Blowback",
-        "cost": "{{Money|18,777}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+7",
-            "stat": "Damage",
-            "text": "+7 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "9",
-            "to": "12",
-            "stat": "Bullets",
-            "text": "9 > 12 Bullets"
-          },
-          {
-            "kind": "set",
-            "from": "25",
-            "to": "40",
-            "stat": "Spread",
-            "text": "25 > 40 Spread"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Tactical Blowback",
-          "Cost": "{{Money|18,777}}",
-          "Image": "[[File:ShotgunnerLevel4.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}"
-        }
-      }
-    ],
-    "pvp": [
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Faster Reloading",
-        "cost": "{{Money|150}}",
-        "information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "2",
-            "to": "1.5",
-            "stat": "Firerate",
-            "text": "2 > 1.5 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Faster Reloading",
-          "Cost": "{{Money|150}}",
-          "Image": "[[File:Level1.png|100px]]",
-          "Information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Shotgun Knowledge",
-        "cost": "{{Money|1,050}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "8",
-            "to": "10",
-            "stat": "Bullets",
-            "text": "8 > 10 Bullets"
-          },
-          {
-            "kind": "set",
-            "from": "45",
-            "to": "40",
-            "stat": "Spread",
-            "text": "45 > 40 Spread"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Shotgun Knowledge",
-          "Cost": "{{Money|1,050}}",
-          "Image": "[[File:ShotgunnerLevel2.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 3,
-        "title": "Slug Madness",
-        "cost": "{{Money|3,000}}",
-        "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+0.5",
-            "stat": "Range",
-            "text": "+0.5 Range"
+            "from": "0.15",
+            "to": "0.25",
+            "stat": "Shock Time",
+            "text": "0.15 > 0.25 Shock Time"
           },
           {
             "kind": "delta",
             "delta": "+2",
-            "stat": "Damage",
-            "text": "+2 Damage"
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Kite in the Wind",
+          "Cost": "{{Money|1,856}}",
+          "Image": "[[File:TeslaLevel1.png|100px]]",
+          "Information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Self-Sustaining Battery",
+        "cost": "{{Money|8,888}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
           },
           {
             "kind": "set",
-            "from": "1.5",
-            "to": "1.25",
+            "from": "2",
+            "to": "1.8",
             "stat": "Firerate",
-            "text": "1.5 > 1.25 Firerate"
+            "text": "2 > 1.8 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Chain Range",
+            "text": "+4 Chain Range"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion"
+          },
+          {
+            "kind": "note",
+            "text": "70 Smite Damage"
+          },
+          {
+            "kind": "note",
+            "text": "5 Smite Radius"
+          },
+          {
+            "kind": "note",
+            "text": "5 Meter}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Self-Sustaining Battery",
+          "Cost": "{{Money|8,888}}",
+          "Image": "[[File:TeslaLevel2.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Auric Quantum Cooling Cell",
+        "cost": "{{Money|18,450}}",
+        "information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "1.8",
+            "to": "1.4",
+            "stat": "Firerate",
+            "text": "1.8 > 1.4 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+15",
+            "stat": "Smite Damage",
+            "text": "+15 Smite Damage"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "5.5",
+            "stat": "Smite Radius",
+            "text": "5 > 5.5 Smite Radius"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "4",
+            "stat": "Meter",
+            "text": "5 > 4 Meter"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Slug Madness",
-          "Cost": "{{Money|3,000}}",
-          "Image": "[[File:ShotgunnerLevel3.png|100px]]",
-          "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}"
+          "Upgrade Title": "Auric Quantum Cooling Cell",
+          "Cost": "{{Money|18,450}}",
+          "Image": "[[File:TeslaLevel3.png|100px]]",
+          "Information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}"
         }
       },
       {
-        "mode": "pvp",
+        "mode": "unknown",
         "level": 4,
-        "title": "Tactical Blowback",
-        "cost": "{{Money|8,500}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}",
+        "title": "Kimat's Bite",
+        "cost": "{{Money|44,001}}",
+        "information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}",
         "claims": [
+          {
+            "kind": "set",
+            "from": "1.4",
+            "to": "1.2",
+            "stat": "Firerate",
+            "text": "1.4 > 1.2 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.25",
+            "to": "0.3",
+            "stat": "Shock Time",
+            "text": "0.25 > 0.3 Shock Time"
+          },
           {
             "kind": "delta",
             "delta": "+1.5",
@@ -290,311 +175,204 @@
           {
             "kind": "delta",
             "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
+            "stat": "Chain Range",
+            "text": "+4 Chain Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "delta",
+            "delta": "+55",
+            "stat": "Smite Damage",
+            "text": "+55 Smite Damage"
           },
           {
             "kind": "set",
-            "from": "1.25",
-            "to": "1",
-            "stat": "Firerate",
-            "text": "1.25 > 1 Firerate"
+            "from": "5.5",
+            "to": "7",
+            "stat": "Smite Radius",
+            "text": "5.5 > 7 Smite Radius"
           },
           {
             "kind": "set",
-            "from": "10",
-            "to": "12",
-            "stat": "Bullets",
-            "text": "10 > 12 Bullets"
-          },
-          {
-            "kind": "set",
-            "from": "40",
-            "to": "30",
-            "stat": "Spread",
-            "text": "40 > 30 Spread"
+            "from": "4",
+            "to": "3",
+            "stat": "Meter",
+            "text": "4 > 3 Meter"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Tactical Blowback",
-          "Cost": "{{Money|8,500}}",
-          "Image": "[[File:ShotgunnerLevel4.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}"
+          "Upgrade Title": "Kimat's Bite",
+          "Cost": "{{Money|44,001}}",
+          "Image": "[[File:TeslaLevel4.png|100px]]",
+          "Information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}"
         }
       }
-    ]
+    ],
+    "pvp": []
   },
   "upgrade_templates": [
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 1,
-      "title": "Shotgun Knowledge",
-      "cost": "{{Money|750}}",
-      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}",
+      "title": "Kite in the Wind",
+      "cost": "{{Money|1,856}}",
+      "information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+1",
+          "delta": "+5",
           "stat": "Damage",
-          "text": "+1 Damage"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Shotgun Knowledge",
-        "Cost": "{{Money|750}}",
-        "Image": "[[File:Level1.png|100px]]",
-        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 2,
-      "title": "Clay Pigeon Training",
-      "cost": "{{Money|1,500}}",
-      "information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "1.1",
-          "to": "0.8",
-          "stat": "Firerate",
-          "text": "1.1 > 0.8 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
+          "text": "+5 Damage"
         },
         {
           "kind": "set",
-          "from": "8",
-          "to": "9",
-          "stat": "Bullets",
-          "text": "8 > 9 Bullets"
-        },
-        {
-          "kind": "set",
-          "from": "5",
-          "to": "10",
-          "stat": "Spread",
-          "text": "5 > 10 Spread"
-        },
-        {
-          "kind": "grant",
-          "stat": "Flying Detection",
-          "text": "+Flying Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Clay Pigeon Training",
-        "Cost": "{{Money|1,500}}",
-        "Image": "[[File:ShotgunnerLevel2.png|100px]]",
-        "Information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "title": "Heavier Shells",
-      "cost": "{{Money|6,500}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Damage",
-          "text": "+4 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "10",
-          "to": "25",
-          "stat": "Spread",
-          "text": "10 > 25 Spread"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Heavier Shells",
-        "Cost": "{{Money|6,500}}",
-        "Image": "[[File:ShotgunnerLevel3.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 4,
-      "title": "Tactical Blowback",
-      "cost": "{{Money|18,777}}",
-      "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2.5",
-          "stat": "Range",
-          "text": "+2.5 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+7",
-          "stat": "Damage",
-          "text": "+7 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "9",
-          "to": "12",
-          "stat": "Bullets",
-          "text": "9 > 12 Bullets"
-        },
-        {
-          "kind": "set",
-          "from": "25",
-          "to": "40",
-          "stat": "Spread",
-          "text": "25 > 40 Spread"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Tactical Blowback",
-        "Cost": "{{Money|18,777}}",
-        "Image": "[[File:ShotgunnerLevel4.png|100px]]",
-        "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Faster Reloading",
-      "cost": "{{Money|150}}",
-      "information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "2",
-          "to": "1.5",
-          "stat": "Firerate",
-          "text": "2 > 1.5 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Faster Reloading",
-        "Cost": "{{Money|150}}",
-        "Image": "[[File:Level1.png|100px]]",
-        "Information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 2,
-      "title": "Shotgun Knowledge",
-      "cost": "{{Money|1,050}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "8",
-          "to": "10",
-          "stat": "Bullets",
-          "text": "8 > 10 Bullets"
-        },
-        {
-          "kind": "set",
-          "from": "45",
-          "to": "40",
-          "stat": "Spread",
-          "text": "45 > 40 Spread"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        },
-        {
-          "kind": "grant",
-          "stat": "Lead Detection",
-          "text": "+Lead Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Shotgun Knowledge",
-        "Cost": "{{Money|1,050}}",
-        "Image": "[[File:ShotgunnerLevel2.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 3,
-      "title": "Slug Madness",
-      "cost": "{{Money|3,000}}",
-      "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+0.5",
-          "stat": "Range",
-          "text": "+0.5 Range"
+          "from": "0.15",
+          "to": "0.25",
+          "stat": "Shock Time",
+          "text": "0.15 > 0.25 Shock Time"
         },
         {
           "kind": "delta",
           "delta": "+2",
-          "stat": "Damage",
-          "text": "+2 Damage"
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Kite in the Wind",
+        "Cost": "{{Money|1,856}}",
+        "Image": "[[File:TeslaLevel1.png|100px]]",
+        "Information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 2,
+      "title": "Self-Sustaining Battery",
+      "cost": "{{Money|8,888}}",
+      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
         },
         {
           "kind": "set",
-          "from": "1.5",
-          "to": "1.25",
+          "from": "2",
+          "to": "1.8",
           "stat": "Firerate",
-          "text": "1.5 > 1.25 Firerate"
+          "text": "2 > 1.8 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Chain Range",
+          "text": "+4 Chain Range"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion"
+        },
+        {
+          "kind": "note",
+          "text": "70 Smite Damage"
+        },
+        {
+          "kind": "note",
+          "text": "5 Smite Radius"
+        },
+        {
+          "kind": "note",
+          "text": "5 Meter}}"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Self-Sustaining Battery",
+        "Cost": "{{Money|8,888}}",
+        "Image": "[[File:TeslaLevel2.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 3,
+      "title": "Auric Quantum Cooling Cell",
+      "cost": "{{Money|18,450}}",
+      "information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "1.8",
+          "to": "1.4",
+          "stat": "Firerate",
+          "text": "1.8 > 1.4 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+15",
+          "stat": "Smite Damage",
+          "text": "+15 Smite Damage"
+        },
+        {
+          "kind": "set",
+          "from": "5",
+          "to": "5.5",
+          "stat": "Smite Radius",
+          "text": "5 > 5.5 Smite Radius"
+        },
+        {
+          "kind": "set",
+          "from": "5",
+          "to": "4",
+          "stat": "Meter",
+          "text": "5 > 4 Meter"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Hits",
+          "text": "+1 Max Hits"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Slug Madness",
-        "Cost": "{{Money|3,000}}",
-        "Image": "[[File:ShotgunnerLevel3.png|100px]]",
-        "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}"
+        "Upgrade Title": "Auric Quantum Cooling Cell",
+        "Cost": "{{Money|18,450}}",
+        "Image": "[[File:TeslaLevel3.png|100px]]",
+        "Information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}"
       }
     },
     {
-      "mode": "pvp",
+      "mode": "unknown",
       "level": 4,
-      "title": "Tactical Blowback",
-      "cost": "{{Money|8,500}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}",
+      "title": "Kimat's Bite",
+      "cost": "{{Money|44,001}}",
+      "information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}",
       "claims": [
+        {
+          "kind": "set",
+          "from": "1.4",
+          "to": "1.2",
+          "stat": "Firerate",
+          "text": "1.4 > 1.2 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "0.25",
+          "to": "0.3",
+          "stat": "Shock Time",
+          "text": "0.25 > 0.3 Shock Time"
+        },
         {
           "kind": "delta",
           "delta": "+1.5",
@@ -604,223 +382,88 @@
         {
           "kind": "delta",
           "delta": "+4",
-          "stat": "Damage",
-          "text": "+4 Damage"
+          "stat": "Chain Range",
+          "text": "+4 Chain Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        },
+        {
+          "kind": "delta",
+          "delta": "+55",
+          "stat": "Smite Damage",
+          "text": "+55 Smite Damage"
         },
         {
           "kind": "set",
-          "from": "1.25",
-          "to": "1",
-          "stat": "Firerate",
-          "text": "1.25 > 1 Firerate"
+          "from": "5.5",
+          "to": "7",
+          "stat": "Smite Radius",
+          "text": "5.5 > 7 Smite Radius"
         },
         {
           "kind": "set",
-          "from": "10",
-          "to": "12",
-          "stat": "Bullets",
-          "text": "10 > 12 Bullets"
-        },
-        {
-          "kind": "set",
-          "from": "40",
-          "to": "30",
-          "stat": "Spread",
-          "text": "40 > 30 Spread"
+          "from": "4",
+          "to": "3",
+          "stat": "Meter",
+          "text": "4 > 3 Meter"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Tactical Blowback",
-        "Cost": "{{Money|8,500}}",
-        "Image": "[[File:ShotgunnerLevel4.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}"
+        "Upgrade Title": "Kimat's Bite",
+        "Cost": "{{Money|44,001}}",
+        "Image": "[[File:TeslaLevel4.png|100px]]",
+        "Information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [
-      {
-        "level": 0,
-        "cost": 1500.0,
-        "total_cost": 1500.0,
-        "damage": 2.0,
-        "tick": 8.0,
-        "charge_up": 1.1,
-        "cooldown": 8.0,
-        "overcharge": 5.0,
-        "range": 3.0,
-        "dps": 0.172
-      },
-      {
-        "level": 1,
-        "cost": 750.0,
-        "total_cost": 2250.0,
-        "damage": 3.0,
-        "tick": 8.0,
-        "charge_up": 1.1,
-        "cooldown": 8.0,
-        "overcharge": 5.0,
-        "range": 3.0,
-        "dps": 0.223
-      },
-      {
-        "level": 2,
-        "cost": 1500.0,
-        "total_cost": 3750.0,
-        "damage": 3.0,
-        "tick": 9.0,
-        "charge_up": 0.8,
-        "cooldown": 9.5,
-        "overcharge": 10.0,
-        "range": 3.0,
-        "dps": 0.248
-      },
-      {
-        "level": 3,
-        "cost": 6500.0,
-        "total_cost": 10250.0,
-        "damage": 7.0,
-        "tick": 9.0,
-        "charge_up": 0.8,
-        "cooldown": 11.0,
-        "overcharge": 25.0,
-        "range": 3.0,
-        "dps": 0.569
-      },
-      {
-        "level": 4,
-        "cost": 18777.0,
-        "total_cost": 29027.0,
-        "damage": 14.0,
-        "tick": 12.0,
-        "charge_up": 0.8,
-        "cooldown": 13.5,
-        "overcharge": 40.0,
-        "range": 3.0,
-        "dps": 0.823
-      }
-    ],
-    "pvp": [
-      {
-        "level": 0,
-        "cost": 400.0,
-        "total_cost": 400.0,
-        "damage": 1.0,
-        "tick": 8.0,
-        "charge_up": 2.0,
-        "cooldown": 7.5,
-        "overcharge": 45.0,
-        "range": 3.0,
-        "dps": 0.122
-      },
-      {
-        "level": 1,
-        "cost": 150.0,
-        "total_cost": 550.0,
-        "damage": 1.0,
-        "tick": 8.0,
-        "charge_up": 1.5,
-        "cooldown": 7.5,
-        "overcharge": 45.0,
-        "range": 3.0,
-        "dps": 0.122
-      },
-      {
-        "level": 2,
-        "cost": 1050.0,
-        "total_cost": 1600.0,
-        "damage": 2.0,
-        "tick": 10.0,
-        "charge_up": 1.5,
-        "cooldown": 9.0,
-        "overcharge": 40.0,
-        "range": 3.0,
-        "dps": 0.19
-      },
-      {
-        "level": 3,
-        "cost": 3000.0,
-        "total_cost": 4600.0,
-        "damage": 4.0,
-        "tick": 10.0,
-        "charge_up": 1.25,
-        "cooldown": 9.5,
-        "overcharge": 40.0,
-        "range": 3.0,
-        "dps": 0.361
-      },
-      {
-        "level": 4,
-        "cost": 8500.0,
-        "total_cost": 13100.0,
-        "damage": 8.0,
-        "tick": 12.0,
-        "charge_up": 1.0,
-        "cooldown": 11.0,
-        "overcharge": 30.0,
-        "range": 3.0,
-        "dps": 0.526
-      }
-    ]
+    "regular": [],
+    "pvp": []
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 1+}}<ref name=\"hd\">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>",
-      "lead": "N/A",
-      "flying": "{{Attr|Flying|Level 2+}}<ref name=\"fd\">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>",
+      "hidden": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "{{Attr|Flying|Level 0+}}",
       "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)"
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
-      "lead": "{{Attr|Lead|Level 2+}}",
-      "flying": "N/A<ref name=\"fd\"/>",
-      "immune": "None"
+      "hidden": null,
+      "lead": null,
+      "flying": null,
+      "immune": null
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Shotgunner",
-        "image-static": "EasterShotgunner_Icon.png",
-        "image-dynamic": "ShotgunnerDynamic.png",
-        "unlockcost": "{{Coins|850}}",
-        "basecost": "{{Money|1,500}}",
-        "basesellingprice": "{{Money|500}}",
-        "role": "Offense",
+        "title": "Tesla",
+        "image-static": "TeslaIcon.png",
+        "image-dynamic": "TeslaDynamic.png",
+        "unlockcost": "{{Coins|6,000}}",
+        "role": "Defense",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]2x8",
-        "damagetype": "Pierce<br/>Spread",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
-        "baserange": "[[File:Range Icon.png|20px|Range]]8",
-        "hidden_detection": "{{Attr|Hidden|Level 1+}}<ref name=\"hd\">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>",
-        "lead_detection": "N/A",
-        "flying_detection": "{{Attr|Flying|Level 2+}}<ref name=\"fd\">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
+        "basecost": "{{Money|2,000}}",
+        "basesellingprice": "{{Money|666}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]15",
+        "damagetype": "Chain<br/>[[Splash Damage|Splash]] (Level 2+)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
+        "baserange": "[[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)",
+        "hidden_detection": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "{{Attr|Flying|Level 0+}}",
         "immune": "None",
-        "footprint": "1",
-        "pvp_basecost": "{{Money|400}}",
-        "pvp_basesellingprice": "{{Money|133}}",
-        "pvp_role": "Offense",
-        "pvp_placement": "Ground",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]1x8",
-        "pvp_damagetype": "Pierce<br/>Spread",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]7.5",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
-        "pvp_lead_detection": "{{Attr|Lead|Level 2+}}",
-        "pvp_flying_detection": "N/A<ref name=\"fd\"/>",
-        "pvp_immune": "None",
-        "pvp_footprint": "1",
-        "evolves_into": "[[Enforcer]]",
-        "evolution_levels": "20",
-        "base_exp": "50",
-        "growth_rate": "1.09",
-        "skip_cost": "499",
-        "tooltip-1": "A close range tower that fires a spread of bullets capable of piercing multiple enemies.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
+        "footprint": "2",
+        "tooltip-1": "A powerful tower that deals high damage and can stun all enemies in range with its active ability.",
+        "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     }
@@ -828,46 +471,28 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Shotgunner",
-      "image-static": "EasterShotgunner_Icon.png",
-      "image-dynamic": "ShotgunnerDynamic.png",
-      "unlockcost": "{{Coins|850}}",
-      "basecost": "{{Money|1,500}}",
-      "basesellingprice": "{{Money|500}}",
-      "role": "Offense",
+      "title": "Tesla",
+      "image-static": "TeslaIcon.png",
+      "image-dynamic": "TeslaDynamic.png",
+      "unlockcost": "{{Coins|6,000}}",
+      "role": "Defense",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]2x8",
-      "damagetype": "Pierce<br/>Spread",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
-      "baserange": "[[File:Range Icon.png|20px|Range]]8",
-      "hidden_detection": "{{Attr|Hidden|Level 1+}}<ref name=\"hd\">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>",
-      "lead_detection": "N/A",
-      "flying_detection": "{{Attr|Flying|Level 2+}}<ref name=\"fd\">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
+      "basecost": "{{Money|2,000}}",
+      "basesellingprice": "{{Money|666}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]15",
+      "damagetype": "Chain<br/>[[Splash Damage|Splash]] (Level 2+)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
+      "baserange": "[[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)",
+      "hidden_detection": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "lead_detection": "{{Attr|Lead|Level 0+}}",
+      "flying_detection": "{{Attr|Flying|Level 0+}}",
       "immune": "None",
-      "footprint": "1",
-      "pvp_basecost": "{{Money|400}}",
-      "pvp_basesellingprice": "{{Money|133}}",
-      "pvp_role": "Offense",
-      "pvp_placement": "Ground",
-      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]1x8",
-      "pvp_damagetype": "Pierce<br/>Spread",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]7.5",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
-      "pvp_lead_detection": "{{Attr|Lead|Level 2+}}",
-      "pvp_flying_detection": "N/A<ref name=\"fd\"/>",
-      "pvp_immune": "None",
-      "pvp_footprint": "1",
-      "evolves_into": "[[Enforcer]]",
-      "evolution_levels": "20",
-      "base_exp": "50",
-      "growth_rate": "1.09",
-      "skip_cost": "499",
-      "tooltip-1": "A close range tower that fires a spread of bullets capable of piercing multiple enemies.",
-      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
+      "footprint": "2",
+      "tooltip-1": "A powerful tower that deals high damage and can stun all enemies in range with its active ability.",
+      "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 340
+  "template_count": 62
 }
