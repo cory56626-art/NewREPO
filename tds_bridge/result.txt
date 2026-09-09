@@ -1,271 +1,245 @@
-{{Tabs}}
-{{For|[[Null Brawler]]|[[Combatant]]}}
+{{Tabs|Regular=Shotgunner|Evolved=Enforcer}}{{SameName|Shotgunner|Tower • [[Shotgunner (Pizza Party)|Enemy]]}}
 {{TowerInfobox
-|title = Brawler
-|image-static = BrawlerFromTDS.png
-|image-dynamic = BrawlerDynamic.png
-|unlockcost = {{Gem|1,250}}
-|levelrequirement = {{Level|50}}
+|title = Shotgunner
+|image-static = EasterShotgunner_Icon.png
+|image-dynamic = ShotgunnerDynamic.png
+|unlockcost = {{Coins|850}}
+|basecost = {{Money|1,500}}
+|basesellingprice = {{Money|500}}
 |role = Offense
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]10 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]6 ([[PVP]])
-|basecost = {{Money|300}}
-|basesellingprice = {{Money|100}}
-|basedamage = [[File:OffensiveModifier.png|20px|Damage]]5
-|damagetype = Single<br/>Pierce (Level 4+)
-|basefirerate = [[File:Cooldown Icon.png|20px|Swingrate]]1
-|baserange = [[File:Range Icon.png|20px|Range]]6
-|hidden_detection = {{Attr|Hidden|Level 3+}}
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = N/A<ref name="fd">Although it cannot detect flying enemies, its ''Reposition'' ability can damage [[Flying]] enemies.</ref>
-|immune = Stun
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)
+|basedamage = [[File:Damage Icon.png|20px|Damage]]2x8
+|damagetype = Pierce<br/>Spread
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.1
+|baserange = [[File:Range Icon.png|20px|Range]]8
+|hidden_detection = {{Attr|Hidden|Level 1+}}<ref name="hd">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>
+|lead_detection = N/A
+|flying_detection = {{Attr|Flying|Level 2+}}<ref name="fd">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>
+|immune = None
 |footprint = 1
-|pvp_basecost = {{Money|600}}
-|pvp_basesellingprice = {{Money|200}}
-|pvp_basedamage = [[File:OffensiveModifier.png|20px|Damage]]10
-|pvp_damagetype = Single<br/>Pierce (Level 3+)
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Swingrate]]0.9
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]6
-|pvp_hidden_detection = {{Attr|Hidden|Level 3+}}
-|pvp_lead_detection = {{Attr|Lead|Level 0+}} 
+|pvp_basecost = {{Money|400}}
+|pvp_basesellingprice = {{Money|133}}
+|pvp_role = Offense
+|pvp_placement = Ground
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1x8
+|pvp_damagetype = Pierce<br/>Spread
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]2
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]7.5
+|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}<ref name="hd"/>
+|pvp_lead_detection = {{Attr|Lead|Level 2+}}
 |pvp_flying_detection = N/A<ref name="fd"/>
-|pvp_immune = Stun
+|pvp_immune = None
 |pvp_footprint = 1
-|tooltip-1 = An early game melee tower that comes with the ability to knockback enemies. Also have{{sic}} the ability to relocate anywhere on the map.
+|evolves_into = [[Enforcer]]
+|evolution_levels = 20
+|base_exp = 50
+|growth_rate = 1.09
+|skip_cost = 499
+|tooltip-1 = A close range tower that fires a spread of bullets capable of piercing multiple enemies.
 |tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
 }}
 {{QuoteContainer|
-{{QuoteBox|A close range specialist capable of pushing back foes and moving around the battlefield!|Store Description}}
+{{QuoteBox|Wields a powerful pump shotgun with small range. Pierces through enemies.|Store Description}}
+{{QuoteBox|Wields a powerful pump shotgun with small range.|Former Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Brawler''' is a hardcore melee tower that attacks enemies with its mechanical fists. It can be purchased from the store for {{Gem|1,250}} and has a level requirement of {{Level|50}}.
+The '''Shotgunner''', formerly known as the '''Enforcer''', is an intermediate ground tower that wields a powerful pump shotgun to attack enemies with. It costs {{Coins|850}} to buy from the store.
 
-The '''Brawler''' attacks enemies with its mechanical fists, dealing damage. At Level 2, it gains the ability to combo its attacks, making it attack enemies in a burst of three continuous attacks, which ends in a cooldown. The burst does not restart if there are no more enemies in its range. For example, if it lands two hits on enemies and stops attacking, the next hit will be a final hit. The final hit from a combo will deal increased damage and knock back enemies. The enemy is not always pushed back the same distance, as this is determined by its size. Larger enemies will be pushed back less than an average-sized enemy. Knockback has a 3 second long cooldown before it can be applied again.
+The '''Shotgunner''' shoots multiple bullets at once through ''Scatter Shot''. Damage is split among 8 bullets per firerate (so the base damage is 2x8), and these bullets are spread within a small cone and can pierce through enemies. The same enemy can be hit with multiple bullets, increasing the damage inflicted. On all levels, three enemies can be damaged by the same bullet. The first two enemies will be dealt full damage, while the last will only be dealt 50% of the damage. The closer an enemy is to the '''Shotgunner''', the more likely they are to be damaged by the bullets.
 
-The '''Brawler''' also has a unique ability where it can change its current position into one which the player can select. However, this ability has a cooldown of thirty seconds. Upon landing, it will create a shockwave that deals a decent amount of damage to enemies and knocks them back. Uniquely, the ''Reposition'' ability can damage [[Flying]] enemies.
+The '''Shotgunner''' is considered a mid to late-game, as its medium cost can be utilized in the mid-game, while its later upgrades and mediocre range, but high DPS can suffice in the late game. It is excellent against huge swarms of enemies as it allows '''Shotgunner''' to maximise its high DPS. 
 
-The '''Brawler''' is considered an all-round tower due to its cheap placement cost, good DPS, and ability to knockback enemies from Level 2+.
-
-The '''Brawler''' has a placement limit of ten per player. This is decreased to six in [[PVP]] mode.
+The '''Shotgunner''' has a placement limit of nine per player. This is removed in [[PVP]] mode.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Hand to Hand Training|Cost = {{Money|200}}|Image = [[File:BrawlerUpgrade2.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
-
-1 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
-
-
-Sell Price changes to {{Money|166}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Gauntlets|Cost = {{Money|1,200}}|Image = [[File:BrawlerUpgrade2.png|100px]]|Information = +9 Damage [[File:OffensiveModifier.png|20px|Damage]]
-
-{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
-
-•3 Hit Count
-
-•0.6 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-•Knocks back enemies on final hit {{Knockback}}
-
-•17.5 Knockback Force}}
-
-
-Sell Price changes to {{Money|566}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Pack a Punch|Cost = {{Money|2,500}}|Image = [[File:BrawlerUpgrade3.png|100px]]|Information = +10 Damage [[File:OffensiveModifier.png|20px|Damage]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Shotgun Knowledge|Cost = {{Money|750}}|Image = [[File:Level1.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
 
-+27 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
+Sell Price changes to {{Money|750}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Clay Pigeon Training|Cost = {{Money|1,500}}|Image = [[File:ShotgunnerLevel2.png|100px]]|Information = 1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
++1.5 Range [[File:Range Icon.png|20px|Range]]
 
-+6.5 Knockback Force {{Knockback}}
+8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]
 
+5 > 10 Spread
 
-Sell Price changes to {{Money|1,400}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = GALVAKNUCKLES|Cost = {{Money|3,500}}|Image = [[File:BrawlerUpgrade4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
-
-+11 Damage [[File:OffensiveModifier.png|20px|Damage]]
-
-+22 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
-
-+4 Knockback Force {{Knockback}}
++Flying Detection {{Flying|Flying Detection}}
 
 
-{{CollapsibleUpgrade|Title = Reposition Ability|Description = 
+Sell Price changes to {{Money|1,250}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Heavier Shells|Cost = {{Money|6,500}}|Image = [[File:ShotgunnerLevel3.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-•7.5 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]
++4 Damage [[File:Damage Icon.png|20px|Damage]]
 
-•Knocks back all hit enemies {{Knockback}}
-
-•25 Knockback Force
-
-•The '''Brawler''' leaps to a selected spot on the map
-
-•50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]}}
+10 > 25 Spread
 
 
-Sell Price changes to {{Money|2,566}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Boreas' Fury|Cost = {{Money|7,777}}|Image = [[File:BrawlerUpgrade5.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|3,416}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Tactical Blowback|Cost = {{Money|18,777}}|Image = [[File:ShotgunnerLevel4.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
 
-+15 Damage [[File:OffensiveModifier.png|20px|Damage]]
++7 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+30 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
- 
-+50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
+9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]
 
-0.5 > 0.4 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
-
-0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-+4 Knockback Force {{Knockback}}
-
-+2.5 Reposition Range [[File:Range Icon.png|20px|Range]]
+25 > 40 Spread
 
 
-Sell Price changes to {{Money|5,159}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Hand to Hand Training|Cost = {{Money|300}}|Image = [[File:Transparent.png|100px]]|Information = 0.9 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Swingrate]]
+Sell Price changes to {{Money|9,675}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|150}}|Image = [[File:Level1.png|100px]]|Information = 2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|300}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Gauntlets|Cost = {{Money|950}}|Image = [[File:BrawlerUpgrade2.png|100px]]|Information = +2 Damage [[File:OffensiveModifier.png|20px|Damage]]
+Sell Price changes to {{Money|183}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Shotgun Knowledge|Cost = {{Money|1,050}}|Image = [[File:ShotgunnerLevel2.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
++1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-•3 Hit Count
+8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]
 
-•0.75 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+45 > 40 Spread
 
-•Knocks back enemies on final hit {{Knockback}}
++Hidden Detection {{Hidden|Hidden Detection}}
 
-•17.5 Knockback Force}}
-
-
-Sell Price changes to {{Money|616}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Pack a Punch|Cost = {{Money|2,250}}|Image = [[File:BrawlerUpgrade3.png|100px]]|Information = +Hidden Detection {{Hidden|Hidden Detection}}
-
-+8 Damage [[File:OffensiveModifier.png|20px|Damage]]
-
-+15 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
-
-0.75 > 0.65 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-+2.5 Knockback Force {{Knockback}}
-
-{{CollapsibleUpgrade|Title = Reposition Ability|Description = 
-
-•10 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]
-
-•Knocks back all hit enemies {{Knockback}}
-
-•25 Knockback Force
-
-•20 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
-
-•The '''Brawler''' leaps to a selected spot on the map}}
++Lead Detection {{Lead|Lead Detection}}
 
 
-Sell Price changes to {{Money|1,366}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Prototype Frame|Cost = {{Money|5,200}}|Image = [[File:BrawlerUpgrade4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|533}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Slug Madness|Cost = {{Money|3,000}}|Image = [[File:ShotgunnerLevel3.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
 
-+18 Damage [[File:OffensiveModifier.png|20px|Damage]]
++2 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+29 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
-
-+60 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
-
-0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
-
-0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-+4 Knockback Force {{Knockback}}
+1.5	 > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|3,100}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Faster Hydraulics|Cost = {{Money|12,000}}|Image = [[File:BrawlerUpgrade5.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|1,533}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Tactical Blowback|Cost = {{Money|8,500}}|Image = [[File:ShotgunnerLevel4.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-+32 Damage [[File:OffensiveModifier.png|20px|Damage]]
++4 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+76 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
- 
-+70 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
+1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-+6 Knockback Force {{Knockback}}
+10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]
+
+40 > 30 Spread
 
 
-Sell Price changes to {{Money|7,100}}}}
+Sell Price changes to {{Money|4,366}}}}
 }}
-
-==Ability==
-{{PVPTabber
-|{{Ability|Level Unlock = Level 4+|Cooldown Time= 30s Cooldown|Ability Title = Reposition|Image = [[File:RepositionIcon.png|100px]]|Information = 
-Leaps to the selected area on the map, changing its placement spot. Additionally, the '''Brawler''' will knockback to up to 20 enemies on its landing position with a knockback force of 25 within 7.5 reposition range at Level 3 (10 at Level 4), and will deal area damage in that range.
-}}
-|{{Ability|Level Unlock = Level 3+|Cooldown Time= 20s Cooldown|Ability Title = Reposition|Image = [[File:RepositionIcon.png|100px]]|Information = 
-Leaps to the selected area on the map, changing its placement spot. Additionally, the '''Brawler''' will knockback to up to 20 enemies on its landing position with a knockback force of 25 within 10 reposition range, and will deal area damage in that range.
-}}}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Swingrate
-$DPS2$ = ((Damage * 2) + Final Hit Damage) / (Cooldown + (Swingrate * (Hit Count - 1)))
-$CE$ = $TP$ / DPS
+$DPS$ = Damage * Bullet Count / Firerate
+$MDPS$ = Damage * Bullet Count * (Max Hits - 0.5) / Firerate
+$CE$ = Total Cost / DPS
+$MCE$ = Total Cost / Max DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 300; 200; 1200; 2500; 3500; 7777;
-$PVP-COST$ = 600; 300; 950; 2250; 5200; 12000;
-$FSE-DETECTION$ = 4; 0; ;
-$FSE-PVP-DETECTION$ = 3; 0; ;
-$FSE-UPGRADE$ = Hand to Hand Training; Enhanced Gauntlets; Pack a Punch; GALVAKNUCKLES; Boreas' Fury
-$FSE-PVP-UPGRADE$ = Hand to Hand Training; Enhanced Gauntlets; Pack a Punch; Prototype Frame; Faster Hydraulics
-$FSE-UPGRADEICON$ = 17522564142; 17522564142; 17522564023; 17522564307; 17522563932
-$FSE-PVP-UPGRADEICON$ = 0; 17522564142; 17522564023; 17522564307; 17522563932
-$FSE-META$ = Hardcore; File:BrawlerFromTDS.png
-$SREF$ = <ref name="swingrate">Swingrate only applies to the first two hits in each burst and is not the time between bursts from level 2+.</ref>
-$DREF$ = <ref name="dps">DPS is calculated as [(Damage × 2) + Final Hit Damage] ÷ [Cooldown + (Swingrate × (Hit Count - 1))] from Level 2+.</ref>
+$TE$ = $FNC-TOTAL-EXP$
+$EXP$ = {{#expr:floor(50 * 1.09^(Level - 1) * (Level > 0))}}
+$COST$ = 1500; 750; 1500; 6500; 18777
+$PVP-COST$ = 400; 150; 1050; 3000; 8500
+$FSE-DETECTION$ = 1; ; 2
+$FSE-PVP-DETECTION$ = 2; 2; 2
+$FSE-UPGRADE$ = Shotgun Knowledge; Clay Pigeon Training; Heavier Shells; Tactical Blowback
+$FSE-PVP-UPGRADE$ = Faster Reloading; Shotgun Knowledge; Slug Madness; Tactical Blowback
+$FSE-UPGRADEICON$ = 5587697635; 5587697884; 5587698104; 5587698246
+$FSE-META$ = Intermediate; File:EasterShotgunner_Icon.png
+$DREF$ = <ref name=damage>The first two enemies damaged by the same bullet are dealt full damage, while the third enemy is dealt half of the damage.</ref>
+$DPREF$ = <ref name=dps>DPS assumes all bullets hit only one enemy.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Final Hit Damage !! Reposition Damage !! Hit Count !! Swingrate$SREF$ !! Cooldown !! Knockback Force !! Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage$DREF$ !! Bullet Count !! Firerate !! Range !! Spread !! Max Hits !! DPS$DPREF$ !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || N/A || N/A || N/A || 1 || N/A || N/A || 6 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || 8 || 1.1 || 8 || 5 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 1 || $R$ || $R$ || 5 || N/A || N/A || N/A || 0.6 || N/A || N/A || 6.5 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 3 || 8 || 1.1 || 8 || 5 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 2 || $R$ || $R$ || 14 || 21 || N/A || 3 || 0.6 || 0.6 || 17.5 || 6.5 || $DPS2$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 3 || 9 || 0.8 || 9.5 || 10 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 3 || $R$ || $R$ || 24 || 48 || N/A || 3 || 0.5 || 0.5 || 24 || 6.5 || $DPS2$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 7 || 9 || 0.8 || 11 || 25 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 4 || $R$ || $R$ || 35 || 70 || 50 || 3 || 0.5 || 0.5 || 28 || 7 || $DPS2$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 50 || 100 || 100 || 3 || 0.4 || 0.4 || 32 || 8 || $DPS2$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 14 || 12 || 0.8 || 13.5 || 40 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |}
 </div>
 |-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Final Hit Damage !! Reposition Damage !! Hit Count !! Swingrate$SREF$ !! Cooldown !! Knockback Force !! Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage$DREF$ !! Bullet Count !! Firerate !! Range !! Spread !! Max Hits !! DPS$DPREF$ !! Max DPS !! Cost Efficiency !! Max Cost Efficiency
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || N/A || N/A || N/A || 0.9 || N/A || N/A || 6 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 8 || 2 || 7.5 || 45 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 1 || $R$ || $R$ || 10 || N/A || N/A || N/A || 0.6 || N/A || N/A || 6 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 1 || 8 || 1.5 || 7.5 || 45 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 2 || $R$ || $R$ || 12 || 23 || N/A || 3 || 0.6 || 0.75 || 17.5 || 6 || $DPS2$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 10 || 1.5 || 9 || 40 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 3 || $R$ || $R$ || 20 || 38 || 20 || 3 || 0.6 || 0.65 || 20 || 6 || $DPS2$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 4 || 10 || 1.25 || 9.5 || 40 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 4 || $R$ || $R$ || 38 || 67 || 80 || 3 || 0.5 || 0.5 || 24 || 6.5 || $DPS2$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 70 || 143 || 150 || 3 || 0.5 || 0.5 || 30 || 7 || $DPS2$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 8 || 12 || 1 || 11 || 30 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |}
 </div>
+<!-- @se-ignore -->
+|-|Levels =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="12" |Levels
+|-
+! Level !! Exp !! Total Exp
+|-
+| 0 || {{Exp|0}} || {{Exp|$TE$}}$R$
+|-
+| 1 || {{Exp|$EXP$}}$R$ || $R$
+|-
+| 2 || $R$ || $R$
+|-
+| 3 || $R$ || $R$
+|-
+| 4 || $R$ || $R$
+|-
+| 5 || $R$ || $R$
+|-
+| 6 || $R$ || $R$
+|-
+| 7 || $R$ || $R$
+|-
+| 8 || $R$ || $R$
+|-
+| 9 || $R$ || $R$
+|-
+| 10 || $R$ || $R$
+|-
+| 11 || $R$ || $R$
+|-
+| 12 || $R$ || $R$
+|-
+| 13 || $R$ || $R$
+|-
+| 14 || $R$ || $R$
+|-
+| 15 || $R$ || $R$
+|-
+| 16 || $R$ || $R$
+|-
+| 17 || $R$ || $R$
+|-
+| 18 || $R$ || $R$
+|-
+| 19 || $R$ || $R$
+|-
+| 20 || $R$ || $R$
+|}
+</div>
+<!-- @/se-ignore -->
 </tabber></div>
 </nowiki>}}
 
@@ -273,479 +247,590 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:BlazingBrawlerIcon.png|175px]]
-|[[File:FallenBrawlerIconIG.png|175px]]
-|[[File:LoaderBrawlerIconIG.png|175px]]
-|[[File:RudolphBrawlerIcon.png|175px]]
+|[[File:DHHallowPunk0.png|175px]]
+|[[File:SlayerShotgunner0.png|175px]]
+|[[File:NewClassicShotgunner0.png|175px]]
+|[[File:DHSpookyShotgunner0.png|175px]]
 |-
 !Skin
-|{{Color|Premium|Blazing}}
-|{{Color|FallenMission|Fallen}}
-|{{Color|Deluxe|Loader}}
-|{{Color|OperationICE|Rudolph}}
+|{{Color|Halloween|Hallow Punk}}
+|{{Color|Mission|Slayer}}
+|{{Color|Premium|Classic}}
+|{{Color|Unobtainable|Spooky}}
 |-
 !Rarity
+|{{Color|Event}}
 |{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
+|{{Color|Common}}
+|{{Color|Event}}
 |-
 !Daily Store Cost
-|{{Robux|190}}
+|{{Coins|5,000}}
 |N/A
-|{{Robux|560}}
+|{{Robux|115}}
 |N/A
 |-
 !Obtained From
+|[[Halloween Crate]]
+|''Back From Infernal'' [[Mission Quests|Mission Quest]]
 |[[Premium Crate]]
-|''Abyssal Bruiser'' [[Mission Quests|Mission Quest]]
-|[[Deluxe Crate]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|Formerly [[Spooky Crate]]
 |-
 !
-|[[File:JordanBrawlerIconIG.png|175px]]
-|[[File:LovestrikerBrawlerIcon.png|175px]]
-|[[File:LobsterBrawlerIcon.png|175px]]
-|[[File:BannedBrawlerIconIG.png|175px]]
+|[[File:DuckyShotgunner0.png|175px]]
+|[[File:HolidayShotgunner0.png|175px]]
+|[[File:VigilanteShotgunner0.png|175px]]
+|[[File:Phantom Shotgunner 0.png|175px]]
 |-
 !Skin
-|{{Color|ContentCreator|Jordan}}
-|{{Color|Lovestruck|Lovestriker}}
-|{{Color|Surf|Lobster}}
-|{{Color|Banned|Banned}}
+|{{Color|Ducky|Ducky}}
+|{{Color|Jolly|Holiday}}
+|{{Color|Vigilante|Vigilante}}
+|{{Color|Phantom|Phantom}}
 |-
 !Rarity
+|{{Color|Uncommon}}
+|{{Color|Event}}
 |{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|{{Color|Exclusive}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
-|{{Coins|3,232}}
-|N/A
-|N/A
-|N/A
+|{{Coins|3,500}}
+|{{Coins|5,000}}
+|{{Coins|5,000}}
+|{{Robux|249}}
 |-
-! Obtained From
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|[[Lovestruck Crate]],<br/>''Heartbreaker'' [[Mission Quests|Mission Quest]]
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
-|[[Banned Crate]]
+!Obtained From
+|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Vigilante Crate]]
+|[[Phantom Crate]]
 |-
 !
-|[[File:WerewolfBrawlerIconIG.png|175px]]
-|[[File:HorseBrawlerIconIG.png|175px]]
-|[[File:BunnyBrawlerIconIG.png|175px]]
-|[[File:ScubaOpsBrawlerIconIG.png|175px]]
+|[[File:DanceFeverShotgunner0.png|175px]]
+|[[File:GardenerShotgunner0.png|175px]]
+|[[File:NullShotgunner0.png|175px]]
+|[[File:TrumpeterShotgunner0.png|175px]]
 |-
 !Skin
-|{{Color|Null|Werewolf}}
-|{{Color|LunarYear|Horse}}
-|{{Color|SpringFrenzy|Bunny}}
+|{{Color|Hexscape|Dance Fever}}
+|{{Color|DuckyRevenge|Gardener}}
+|{{Color|Null|Null}}
+|{{Color|Showtime|Trumpeter}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|-
+!Daily Cost Store
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
+|[[Showtime Crate]]
+|-
+!
+|[[File:SciBunnyShotgunner0.png|175px]]
+|[[File:CommunityShotgunnerIconIG.png|175px]]
+|[[File:ScubaOpsShotgunnerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|SpringFrenzy|SciBunny}}
+|{{Color|Other|Community}}
 |{{Color|Scuba|Scuba Ops}}
 |-
 !Rarity
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Uncommon}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|5,000}}
-|N/A
-|{{Coins|10,000}}
-|-
-!Obtained From
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
-|[[Lunar Crate]]
-|[[Spring Frenzy Battle Pass]]
-|[[Scuba Ops Crate]]
-|-
-!
-|[[File:BeachBrawlerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Beach}}
-|-
-!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
 |{{Color|Rare}}
 |-
 !Daily Store Cost
-|{{Coins|6,500}}
+|N/A
+|N/A
+|{{Coins|6,250}}
 |-
 !Obtained From
-|[[Beach Crate]]
+|[[Spring Frenzy Battle Pass]]
+|[[Codes|Code]]:<br/>1MILCOMMUNITY
+|[[Scuba Ops Crate]]
 |}
 
 ==Strategy==
-*The '''Brawler''' can be an efficient tower early on during the game.
-**For hordes of weaker enemies, a few Level 0 '''Brawlers''' can quite efficiently clear out hordes of enemies.
-**For singular, high health enemies, the Level 2 '''Brawler''' can be effective at killing them and slowing them down, giving your '''Brawlers''' and other towers more time to kill it.
-*The '''Brawler''' at Level 2+ knocks back on the third hit, making it useful at slowing down enemies.
-**Enemies immune to stun are not affected, as [[Stun Immunity]] prevents them from being knocked back. Additionally, larger enemies will be pushed back less than average-sized enemies.
-**At Level 4, it gains the ''Reposition'' ability, which allows it to knock back enemies in a large area,
-**If there is only a single targetable enemy, the '''Brawler''' is capable of constantly knocking it back, preventing it from progressing further.
-*The '''Brawler''' has lead detection at Level 0, making it effective against lead enemies.
-*The '''Brawler''' cannot be stunned by any enemy, making it quite useful against enemies like the [[Warden (Legacy Enemy)|Warden]] or [[Fallen Guardian]].
-*Due to the '''Brawler's''' ''Reposition'' ability, it is likely that it will often get out of range of buffing towers, making them much less effective.
-*The '''Brawler's''' ''Reposition'' ability, starting from Level 4, can easily take out hordes of weaker enemies.
-**The ability can also hit [[Flying]] enemies, making '''Brawler''' quite effective for taking out hordes of [[Balloon]]s and [[Balloon Kid]]s faster.
-**Also do note that this ability has a cooldown of 30 seconds, and [[Flying]] enemies will not be knocked back.
-*Due to its pretty high DPS, [[Stun Immunity]] and the ''Reposition'' ability, the '''Brawler''' can actually do well against major bosses like the [[Molten Warlord]] unlike most other low range towers.
-*The '''Brawler''' has a small placement footprint, allowing it to squeeze in beside other towers easily.
-*Unlike other melee towers, the '''Brawler''' is not hitbox reliant, which means it can fully utilize [[Range Buff]]s.
+*The '''Shotgunner''' is best placed in a straight line, as enemies traveling away from the '''Shotgunner''' will be affected by all the bullets.
+**It is also recommended to set the '''Shotgunner's''' targeting to ''Farthest'' so that it hits as many enemies as possible.
+*Multiple Level 0–2 '''Shotgunners''' are very cost-efficient and effective at killing enemies, even fast ones like the [[Speedy]] or [[Quick]], although it is quite expensive.
+**Towards late-game, multiple Level 3 and 4 '''Shotgunners''' can be used to wipe out hordes of enemies, such as the [[Fallen Giant]] or [[Molten Titan]].
+*Be aware that the '''Shotgunner''' has a quite mediocre range.
+**[[DJ Booth]] or [[Ranger]] can be used to increase the range of '''Shotgunner''', but the range increase is minimal at best.
+***However, the [[DJ Booth]] can still be useful to reduce the price of the '''Shotgunner's''' upgrades or to boost its damage.
+**The [[Tesla]] complements the '''Shotgunner''' quite well as the [[Electroshocker]] can restrict enemy movement significantly, so the '''Shotgunner''' can hit more targets with each shot.
+***The [[Freezer]] can help to freeze enemies, but it cannot freeze multiple enemies without its ''Frost Grenade'' ability. Meanwhile, the [[Sledger]] and [[Frost Blaster]] can freeze multiple enemies at once.
+*The '''Shotgunner''' has a smaller placement footprint than most towers, making it take up far less space.
+*The '''Shotgunner''' fires multiple bullets at once, making it quite effective against [[Tank (Attribute)|Tank]] enemies.
+*While the '''Shotgunner''' does have high DPS for its cost, its overall damage output is mitigated due to its small range.
+**This makes '''Shotgunner''' better used as a frontline defense to maximize damage output.
+**'''Shotgunner''' is most effective on maps with small loops like [[Simplicity]] and [[Midnight Issue]].
+*The '''Shotgunner's''' bullets can only pierce through a limited number of enemies, with the first two enemies being dealt full damage, and the last enemy being dealt only half of the damage.
+**On all levels, it can pierce through two enemies, so each bullet can hit three enemies.
+**This makes '''Shotgunner''' a good choice against crowds of high-health enemies where [[Splash Damage]] towers normally struggle.
+*'''Shotgunner''' is a very effective tower for killing [[Flying]] enemies, as it gets flying detection at Level 2+ and has high dps.
+**Before Level 2+, '''Shotgunner''' can still accidentally hit flying enemies within range of the enemy it is targeting. 
 
 ==Trivia==
-*The '''Brawler''' is the first tower that can change its position on the map without being sold, the second being [[Pursuit]].
-*The '''Brawler''' is canonically [[Engineer]]'s brother.
-*The '''Brawler''' is the cheapest tower to unlock with {{Gem|Gems}}.
-*The '''Brawler''' trains with the [[Assassin]] and [[Slasher]], as revealed in [[Blind Faith]].
-*The '''Brawler''' level 4 upgrade name; ''GALVAKNUCKLES'', is a reference to the [[w:c:callofduty:Galvaknuckles|Galvaknuckles]] from the ''Call of Duty'' series.
-*The Level 5 upgrade name is a reference to [[w:c:callofduty:Staff of Lightning|Boreas' Fury]] from the ''Call of Duty'' series.
+*The '''Shotgunner''' (when it was called the '''Enforcer''') was inspired by the [[w:c:riskofrain:Enforcer|Enforcer]] from the ''Risk of Rain'' series.
+*Before the [[Overhaul v1.0|Overhaul Update]], the '''Shotgunner''' (known as the '''Enforcer''' back then) had the appearance of a police officer.
+**It also had an ability that spawned a [[SWAT Van]] with 600 health and a 45 second cooldown.
+***This ability was voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were three lines:
+****"''Strike force moving out.''"
+****"''Strike force rolling.''"
+****"''Copy, strike force is on the way.''"
+*The [[Shotgunner (Pizza Party)|Shotgunner]] enemy from [[Pizza Party]] is based on the '''Shotgunner''' tower.
+*The '''Shotgunner''' was the only tower to gain lead detection and then lose it on another level.
+**However, this was a bug and not intentional. This was later removed in the [[V2.0.0|Hardcore Rework]] update.
+*The '''Shotgunner''' used to be a starter tower prior to the [[V2.0.0|Hardcore Rework]] update.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text =
-*'''18 May 2024''' - [[v1.22.0]]
-**'''Brawler''' added.
-**{{Bug}} Buffs from [[Mercenary Base]], [[Damage Flag]], [[Cooldown Flag]] and [[Range Flag]] do not disappear when the '''Brawler''' moves away from their range.
-**{{Bug}} It is possible to stack '''Brawlers''' in one spot by making it reposition to some on walls on maps like [[Grass Isle]].
-**{{Bug}} When a player rejoins, the '''Brawlers’''' animation breaks.
-**{{Bug}} Enemies with a death animation will get knocked back backwards into entrance, if they are killed while being knocked back.
-**{{Bug}} When its ''Reposition'' ability is used to move it to a spot of higher elevation, the '''Brawler''' will start floating once it attacks an enemy.
-**{{Bug}} Damage from ''Reposition'' ability does not increase the total damage counter.
-*'''23 May 2024''' - [[v1.23.0]]
-**{{Bug}} Reposition damage no longer generates cash in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and Special maps.
-*'''29 May 2024''' - [[v1.23.0|v1.23.4]]
-**Now has a limit of 5 in [[PVP Test]].
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|Premium|Blazing}}
-**{{Bug}} ''Reposition'' damage does not create any [[Damage Indicators]].
-**{{Bugfix}} It is no longer possible to stack '''Brawlers''' in one spot by making it reposition to walls.
-*'''2 August 2024''' - [[v1.27.0]]
-**Placement limit decreased from 10 to 6.
-**Global knockback cooldown decreased from 3.5 to 2.5.
+
+{{Scroll|text=
+*'''14 July 2019''' - [[BETA v1.5|BETA v1.5.0]]
+** '''Enforcer''' added.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Unlock cost decreased from {{Coins|1,200}} to {{Coins|600}}.
+**Statistical changes:
+***'''Level 5'''
+****[[SWAT Van]] ability cooldown decreased from 60s to 45s.
+****[[SWAT Van]] ability cost decreased from {{Money|1,500}} to free.
+****For two-pathed maps, two [[SWAT Van]]s now spawn per ability.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
+**New skin: {{Color|Halloween2019|Hallow Punk}}
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**One [[SWAT Van]] now spawn per ability in two-pathed maps.
+*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
+**Upgrade names added.
+**'''Enforcer's''' bullets now function like a shotgun. Damage is the same amongst bullets and the more bullets that hit a target, the more damage it deals. Bullets pierce enemies but only go as far as the tower's range. Previously, all bullets hit one enemy, with no pierce.
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|450}} to {{Money|550}}.
-****Damage decreased from 10 to 8.
-****Firerate decreased from 1.225 to 1.025.
-****No longer stuns enemies.
+****Range increased from 5 to 9.
+****Damage decreased from 8 to 2x6.
 ***'''Level 1'''
-****Cost decreased from {{Money|700}} to {{Money|300}}.
-****Damage decreased from +5 to +0.
+****Cost decreased from {{Money|350}} to {{Money|150}}.
+****Damage decreased from +2 to +0.
+****Range increased from +0 to +2.
+***'''Level 2'''
+****Cost decreased {{Money|500}} to {{Money|350}}.
+****Damage increased from +0 to +2.
+****Range decreased from +2 to +0.
+***'''Level 3'''
+****Damage decreased from +15 to +3.
+***'''Level 4'''
+****Damage decreased from +20 to +6.
+***'''Level 5'''
+****Damage changed from +40 to +0.
+****Now gains +2 bullets.
+****Cost decreased {{Money|8,750}} to {{Money|6,250}}.
+**{{Bug}} Upgrade descriptions have not been updated for all Levels.
+**{{Bug}} [[Damage Buff]]s do not increase the '''Enforcer's''' damage.
+**{{Bug}} [[Range Buff]]s do not increase how far the '''Enforcer's''' bullets reach.
+*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
+**Unlock cost increased from {{Coins|600}} to {{Coins|1,000}}.
+**'''Enforcer's''' bullets now have damage dropoff as they pierce multiple enemies.
+**Statistical changes:
+***'''Base'''
+****Range decreased from 9 to 7.
+***'''Level 4'''
 ****Range decreased from +1 to +0.
-****Firerate changed from {{Tooltip|1.225 > 1.025|-0.2}} to {{Tooltip|1.025 > 0.775|-0.25}}.
-***'''Level 2'''
-****Cost decreased from {{Money|1,500}} to {{Money|1,000}}.
-****Damage increased from -5 to +7.
-****Final hit damage decreased from 40 to 30.
-****Firerate changed from {{Tooltip|1.025 > 0.525|-0.5}} to {{Tooltip|0.775 > 0.625|-0.15}}.
-****Hidden detection removed.
-***'''Level 3'''
-****Cost decreased from {{Money|4,000}} to {{Money|2,250}}.
-****Damage decreased from +20 to +15.
-****Final hit damage increased from +20 to +30.
-****Cooldown changed from 1 to {{Tooltip|1 > 0.75|-0.25}}.
-****Knockback force increased from +0 to +2.5.
-***'''Level 4'''
-****Cost increased from {{Money|5,000}} to {{Money|5,500}}.
-****Damage increased from +0 to +10.
-****Reposition damage decreased from 100 to 80.
-****Reposition ability cooldown decreased from 40 to 20.
-****Reposition no longer stuns enemies.
-****Reposition knockback force decreased from 35 to 25.
-****Firerate changed from 0.508 to {{Tooltip|0.625 > 0.525|-0.1}}.
-****Knockback force decreased from +7.5 to +4.
 ***'''Level 5'''
-****Cost increased from {{Money|14,000}} to {{Money|15,000}}.
-****Damage increased from +20 to +60.
-****Final hit damage increased from +15 to +115.
-****Reposition damage increased from +100 to +120.
-****Firerate changed from {{Tooltip|0.525 > 0.225|-0.3}} to 0.525.
-****Cooldown changed from {{Tooltip|1 > 0.45|-0.55}} to {{Tooltip|0.75 > 0.25|-0.25}}.
-****Knockback force increased from +0 to +6.
-**{{Bugfix}} [[Mercenary Base]] [[Damage Buff]] now disappears when the '''Brawler''' leaves its range.
-*'''9 August 2024''' - [[v1.27.5]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''21 August 2024''' - [[v1.28.0]]
+****Cost changed from {{Money|6,250}} to {{Money|7,500}}.
+**{{Bugfix}} Upgrade descriptions for all Levels are now correct.
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**New SFX.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Renamed from ''Enforcer'' to ''Shotgunner''.
+**Unlock cost increased from {{Coins|1,000}} to {{Coins|2,500}}.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|550}} to {{Money|600}}.
-****Damage increased from 8 to 10.
+****Firerate decreased from 2.55 to 2.53.
 ***'''Level 1'''
-****Cost increased from {{Money|300}} to {{Money|350}}.
+****Renamed from ''Handling'' to ''Better Handling''.
 ***'''Level 2'''
-****Cost decreased from {{Money|1,000}} to {{Money|850}}.
-****Damage decreased from +7 to +5.
+****Renamed from ''Legit Badge'' to ''Radio Communications''.
+***'''Level 3'''
+****Renamed from ''Bullet Proof Vest'' to ''Combat Ready''.
+****Firerate changed from {{Tooltip|2.55 > 2.05|-0.5}} to {{Tooltip|2.53 > 2.03|-0.5}}.
 ***'''Level 4'''
-****Cost increased from {{Money|5,500}} to {{Money|6,000}}.
-****Damage increased from +10 to +20.
-****Final hit damage increased from +25 to +40.
+****Damage decreased from +6 to +5.
+****Renamed from ''SWAT Armor'' to ''Rebel Leader''.
 ***'''Level 5'''
-****Cost increased from {{Money|15,000}} to {{Money|17,500}}.
-****Damage decreased from +60 to +50.
-****Final hit damage increased from +115 to +200.
-**{{Bugfix}} '''Brawler's''' animations no longer break when rejoining.
-*'''11 September 2024''' - [[v1.31.0]]
-**New skin: {{Color|Deluxe|Loader}}
-*'''11 December 2024''' - [[v1.45.0]]
-**{{Bug}} Enemies with the [[Corpse (Attribute)|Corpse]] attribute will get knocked back backwards into entrance, if they are killed while being knocked back.
-*'''16 December 2024''' - [[v1.46.0]]
-**New skin: {{Color|OperationICE|Rudolph}}
-*'''16 December 2024''' - [[v1.49.0]]
-**New skin: {{Color|ContentCreator|Jordan}}
-**{{Bugfix}} '''Brawler''' is no longer possible to be stacked.
-*'''5 February 2025''' - [[v1.52.0]]
-**{{Bug}} Upon reviving, all '''Brawlers''' moved away from their initial placement spot through ''Reposition'' will return to it, even if other towers have been placed there, allowing it to stack placements with other towers.
-*'''12 February 2025''' - [[v1.53.0]]
-**New skin: {{Color|Lovestruck|Lovestriker}}
-*'''12 March 2025''' - [[v1.57.0]]
+****Firerate changed from {{Tooltip|2.05 > 1.55|-0.5}} to {{Tooltip|2.03 > 1.53|-0.5}}.
+****''[[SWAT Van]]'' ability removed.
+****Renamed from ''SWAT Force'' to ''Apocalypse Slayer''.
+**New skins: {{Color|Premium|Classic}}, {{Color|Deluxe|Slayer}}
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
+**New skin: {{Color|Spooky|Spooky}}
+*'''4 December 2021''' - [[v1.0.0]]
 **Statistical changes:
 ***'''Base'''
-****Damage decreased from 10 to 6.
-****Swingrate decreased from 1.025 to 0.625.
+****Placement cost decreased from {{Money|600}} to {{Money|500}}.
+****Damage decreased from 2 to 1.
 ***'''Level 1'''
-****Cost decreased from {{Money|350}} to {{Money|300}}.
-****Damage increased from +0 to +3.
-****Swingrate decreased from {{Tooltip|1.025 > 0.775|-0.25}} to 0.625.
+****Upgrade cost increased from {{Money|150}} to {{Money|200}}.
+****Damage increased from +0 to +1.
+****Range decreased from +2 to +0.
+****Firerate changed from 2.53 to {{Tooltip|2.53 > 2.28|-0.25}}.
 ***'''Level 2'''
-****Damage decreased from +5 to +3.
-****Final hit damage decreased from 30 to 24.
-****Swingrate decreased from {{Tooltip|0.775 > 0.625|-0.15}} to 0.625.
-****Cooldown decreased from 1 to 0.75.
-****Hidden detection added.
+****Damage decreased from +2 to +0.
+****Range increased from +0 to +2.
 ***'''Level 3'''
-****Cost decreased from {{Money|2,250}} to {{Money|2,000}}.
-****Damage decreased from +15 to +8.
-****Final hit damage decreased from +30 to +16.
-****Cooldown changed from {{Tooltip|1 > 0.75|-0.25}} to {{Tooltip|0.75 > 0.65|-0.1}}.
-****Now unlocks ''Reposition'', while dealing no damage.
+****Damage increased from +3 to +4.
+****Firerate changed from {{Tooltip|2.53 > 2.03|-0.5}} to <abbr title="-0.45>2.28 > 1.83</abbr>.
 ***'''Level 4'''
-****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
-****Reposition damage increased from 80 to 100.
-****Range decreased from +1 to +0.5.
-****Cooldown changed from 0.75 to {{Tooltip|0.65 > 0.5|-0.1}}.
+****Damage increased from +5 to +6.
 ***'''Level 5'''
-****Cost decreased from {{Money|17,500}} to {{Money|12,500}}.
-****Damage decreased from +50 to +45.
-****Final hit damage decreased from +200 to +90.
-****Reposition damage decreased from +120 to +100.
-****Cooldown changed from {{Tooltip|0.75 > 0.5|-0.1}} to 0.5.
-****Range increased from +0 to +0.5.
-**{{Bug}} '''Brawler''' deals no damage with its ''Reposition''.
-*'''12 March 2025''' - [[v1.57.0|v1.57.3]]
-**{{Bugfix}} '''Brawler''' now deals damage through its ''Reposition'' at Level 4+.
+****Upgrade cost decreased from {{Money|7,500}} to {{Money|7,000}}.
+****Firerate changed from {{Tooltip|2.03 > 1.53|-0.5}} to <abbr title="-0.3>1.83 > 1.53</abbr>.
+*'''12 March 2022''' - [[v1.1.0]]
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 2.53 to 2.525.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|2.53 > 2.28|-0.25}} to {{Tooltip|2.525 > 2.275|-0.25}}.
+***'''Level 3'''
+****Firerate changed from <abbr title="-0.45>2.28 > 1.83</abbr> to <abbr title="-0.45>2.275 > 1.825</abbr>.
+***'''Level 5'''
+****Firerate changed from <abbr title="-0.3>1.83 > 1.53</abbr> to <abbr title="-0.3>1.825 > 1.525</abbr>.
+*'''17 April 2022''' - [[v1.2.0]]
+**Damage of each bullet is no longer decreased by 50% with each pierce. It now deals full damage to first two enemies and half of the damage to the last enemy.
+***Max hits is no longer based on how high the damage of '''Shotgunner''' is, instead all Levels have a max hits of 3.
+**Statistical changes:
+***'''Base'''
+****Placement cost decreased from {{Money|500}} to {{Money|400}}.
+****Damage increased from 1x6 to 2x6.
+***'''Level 1'''
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|2.525 > 2.275|-0.25}} to {{Tooltip|2.525 > 1.825|-0.7}}.
+****Spread of 80 added.
+***'''Level 2'''
+****Cost increased from {{Money|350}} to {{Money|1,250}}.
+****Damage increased from +0 to +1.
+****Bullets changed from 6 to 6 > 8.
+****Spread change of 80 > 60 added.
+***'''Level 3'''
+****Cost increased from {{Money|1,500}} to {{Money|3,500}}.
+****Damage decreased from +4 to +2.
+****Firerate changed from <abbr title="-0.45>2.275 > 1.825</abbr> to {{Tooltip|1.825 > 1.525|-0.3}}.
+***'''Level 4'''
+****Cost increased from {{Money|4,200}} to {{Money|10,000}}.
+****Range increased from +0 +2.
+****Damage decreased from +6 to +1.
+****Firerate changed from 1.825  to {{Tooltip|1.525 > 1.025|-0.5}}.
+****Bullets changed from 6 to 8 > 12.
+****Spread change of 60 > 50 added.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Apocalypse Slayer''
+*****Cost: {{Money|7,000}}
+*****Range: +1
+*****Bullets: 6 > 8
+*****Firerate: {{Tooltip|1.825 > 1.525|-0.3}}
+**New skin: {{Color|DuckHunt|Ducky}}
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to all skins.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
+*'''24 June 2023''' [[v1.8.2]]
+**New skin: {{Color|Vigilante|Vigilante}}
+*'''21 December 2023''' - [[v1.11.0]]
+**New skin: {{Color|Phantom|Phantom}}
+**{{Bug}} '''Shotgunner's''' bullets deal damage to units.
+*'''28 January 2024''' - [[v1.12.0]]
+**{{Bug}} {{Color|Unobtainable|Slayer}} skin is removed from the game.
+*'''28 January 2024''' - [[v1.12.0]]a
+**{{Bugfix}} {{Color|Unobtainable|Slayer}} skin re-added.
+*'''24 February 2024''' - [[v1.14.0]]
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 2.525 to 2.125.
+****Spread decreased from 80 to 60.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|2.525 > 1.825|-0.7}} to {{Tooltip|2.125 > 1.525|-0.6}}.
+***'''Level 2'''
+****Renamed from ''Better Handling'' to ''Shotgun Knowledge''.
+****Spread changed from 80 > 60 to 60 > 50.
+****Lead detection added.
+***'''Level 3'''
+****Cost increased from {{Money|3,500}} to {{Money|3,650}}.
+****Firerate changed from {{Tooltip|1.825 > 1.525|-0.3}} to {{Tooltip|1.525 > 1.325|-0.2}}.
+****Now removes lead detection due to a bug.
+***'''Level 4'''
+****Cost decreased from {{Money|10,000}} to {{Money|9,000}}.
+****Damage increased from +1 to +2.
+****Firerate changed from {{Tooltip|1.525 > 1.025|-0.5}} to {{Tooltip|1.325 > 0.925|-0.4}}.
+****Bullets decreased from 8 > 12 to 8 > 10.
+****Spread changed from 60 > 50 to 50 > 40.
+****Now adds lead detection.
+**{{Bug}} Level 3 removes lead detection.
+*'''1 March 2024''' - [[v1.14.0]]c
+**Statistical changes:
+***'''Level 3'''
+****Cost decreased from {{Money|3,650}} to {{Money|3,500}}.
+****Firerate changed from {{Tooltip|1.525 > 1.325|-0.2}} to {{Tooltip|1.525 > 1.225|-0.3}}.
+***'''Level 4'''
+****Cost increased from {{Money|9,000}} to {{Money|10,500}}.
+****Bullets increased from 8 > 10 to 8 > 11.
+****Firerate changed from {{Tooltip|1.325 > 0.925|-0.4}} to {{Tooltip|1.225 > 0.925|-0.3}}.
+*'''5 April 2024''' - [[v1.18.0]]
+**{{Color|Mission|Slayer}} skin rarity changed from {{Color|Common}} to {{Color|Legendary}}.
+*'''3 May 2024''' - [[v1.20.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|400}} to {{Money|300}}.
+****Damage decreased from 2x6 to 1x6.
+****Firerate decreased from 2.125 to 1.875.
+***'''Level 1'''
+****Cost decreased from {{Money|200}} to {{Money|125}}.
+****Firerate changed from {{Tooltip|2.125 > 1.525|-0.6}} to {{Tooltip|1.875 > 1.575|-0.3}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,250}} to {{Money|1,000}}.
+****Firerate changed from {{Tooltip|2.125 > 1.525|-0.6}} to {{Tooltip|1.875 > 1.575|-0.3}}.
+****Lead detection moved to Level 3.
+***'''Level 3'''
+****Cost decreased from {{Money|3,500}} to {{Money|3,000}}.
+****Firerate changed from {{Tooltip|1.525 > 1.225|-0.3}} to {{Tooltip|1.575 > 1.275|-0.3}}.
+****Lead detection added, moved from Level 2.
+***'''Level 4'''
+****Cost decreased from {{Money|10,500}} to {{Money|8,200}}.
+****Firerate changed from {{Tooltip|1.225 > 0.925|-0.3}} to {{Tooltip|1.275 > 1.025|-0.25}}.
+**{{Bugfix}} '''Shotgunner''' no longer loses lead detection at Level 3.
+*'''19 July 2024''' - [[v1.26.0]]
+**{{Bugfix}} '''Shotgunner''' can no longer deal damage to units.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage can now be boosted by [[Damage Buff]]s.
+*'''23 October 2024''' - [[v1.37.0]]
+**New skin: {{Color|Hexscape|Dance Fever}}
+*'''27 November 2024''' - [[v1.43.0]]
+**Statistical Changes:
+***'''Base'''
+****Range increased from 7 to 7.5.
+****Firerate changed from 1.875 to 1.525.
+****Spread decreased from 60 to 55.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|1.875 > 1.575|-0.3}} to {{Tooltip|1.525 > 1.275|-0.25}}.
+***'''Level 2'''
+****Cost increased from {{Money|1,000}} to {{Money|1,050}}.
+****Range decreased from +2 to +1.5
+****Spread changed from 60 > 50 to 55 > 45.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|1.575 > 1.275|-0.3}} to {{Tooltip|1.275 > 1.125|-0.1}}.
+***'''Level 4'''
+****Cost decreased from {{Money|8,200}} to {{Money|6,000}}.
+****Firerate changed from {{Tooltip|1.275 > 1.025|-0.25}} to {{Tooltip|1.125 > 0.925|-0.2}}.
+****Bullets decreased from 8 > 11 to 8 > 10.
 *'''9 April 2025''' - [[v1.60.0]]
 **Offense role added.
 *'''16 April 2025''' - [[v1.61.0]]
-**{{Bug}} '''Brawler''' is no longer affected by [[Damage Buff]]s.
+**New skin: {{Color|DuckyRevenge|Gardener}}
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost reduced from {{Coins|2,500}} to {{Coins|1,000}}.
 *'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Lobster}}
-**{{Bug}} {{Color|Surf|Lobster}} skin is not affected by certain debuffs.
+**Placement footprint decreased from 1.5 to 1.
+**Statistical changes:
+***'''Base'''
+****Firerate increased from 1.525 to 2.025.
+****Bullets increased from 6 to 8.
+****Spread decreased from 55 to 45.
+***'''Level 1'''
+****Cost increased from {{Money|125}} to {{Money|150}}.
+****Firerate changed from {{Tooltip|1.525 > 1.275|-0.25}} to {{Tooltip|2.025 > 1.425|-0.6}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,050}} to {{Money|950}}.
+****Firerate changed from 1.275 to {{Tooltip|1.425 > 1.225|-0.2}}.
+****Bullets changed from 6 > 8 to 8 > 10.
+****Spread changed from 55 > 45 to 45 > 40.
+****Lead detection added, moved from Level 3.
+***'''Level 3'''
+****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+****Firerate changed from {{Tooltip|1.275 > 1.125|-0.15}} to {{Tooltip|1.225 > 1.125|-0.1}}.
+****Range increased from +0 to +0.5.
+***'''Level 4'''
+****Cost increased from {{Money|6,000}} to {{Money|6,500}}.
+****Firerate changed from {{Tooltip|1.125 > 0.925|-0.2}} to {{Tooltip|1.125 > 0.975|-0.15}}.
+****Range decreased from +2 to +1.5.
+****Bullets changed from 8 > 10 to 10 > 12.
+****Spread changed from 45 > 40 to 40 > 30.
 *'''23 July 2025''' - [[v1.71.0]]
 **Statistical changes ([[PVP]]):
-***'''Base'''
-****Damage increased from 6 to 10.
-****Swingrate increased from 0.625 to 1.025.
-***'''Level 1'''
-****Damage decreasd from +3 to +0.
-****Firerate changed from 0.625 to {{Tooltip|1.025 > 0.775|-0.25}}.
 ***'''Level 2'''
-****Cost increased from {{Money|850}} to {{Money|950}}.
-****Damage decreased from +3 to +2.
-****Firerate changed from 0.625 to {{Tooltip|0.775 > 0.625|-0.15}}.
-****Hidden detection removed.
+****Cost increased from {{Money|950}} to {{Money|1,000}}.
+****Firerate changed from {{Tooltip|1.425 > 1.225|-0.2}} to 1.425.
 ***'''Level 3'''
-****Cost increased from {{Money|2,000}} to {{Money|2,250}}.
-****Reposition damage increased from 0 to 20.
-****Hidden detection added.
+****Cost increased from {{Money|2,500}} to {{Money|2,750}}.
+****Firerate changed from {{Tooltip|1.225 > 1.125|-0.1}} to {{Tooltip|1.425 > 1.125|-0.3}}.
 ***'''Level 4'''
-****Cost increased from {{Money|5,000}} to {{Money|6,000}}.
-****Final hit damage decreased from +40 to +30.
-****Reposition damage decreased from +100 to +30.
-***'''Level 5'''
-****Cost decreased from {{Money|12,500}} to {{Money|12,000}}.
-****Damage decreased from +45 to +35.
-****Final hit damage decreased from +90 to +80.
-****Reposition damage decreased from +100 to +50.
+****Cost increased from {{Money|6,500}} to {{Money|7,000}}.
 *'''6 August 2025''' - [[v1.72.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreasd from 1.025 to 0.925.
+****Cost increased from {{Money|300}} to {{Money|400}}.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|0.925 > 0.625|-0.3}}.
+****Firerate changed from {{Tooltip|2.025 > 1.425|-0.6}} to {{Tooltip|2.025 > 1.525|-0.5}}.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|0.775 > 0.625|-0.15}} to 0.625.
+****Cost increased from {{Money|1,000}} to {{Money|1,050}}.
+***'''Level 3'''
+****Cost increased from {{Money|2,750}} to {{Money|3,000}}.
+****Firerate changed from {{Tooltip|1.425 > 1.125|-0.3}} to {{Tooltip|1.525 > 1.275|-0.25}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|6,000}} to {{Money|5,200}}.
-****Reposition damage increased from +30 to +60.
-***'''Level 5'''
-****Reposition damage increased from +50 to +70.
-*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]
-**New skin: {{Color|Banned|Banned}}
+****Cost increased from {{Money|7,000}} to {{Money|8,500}}.
+****Damage increased from +2 to +4.
+****Firerate changed from {{Tooltip|1.125 > 0.975|-0.15}} to {{Tooltip|1.275 > 1.025|-0.25}}.
 *'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Werewolf}}
+**New skin: {{Color|Null|Null}}
+*'''31 October 2025''' - [[v1.79.0]]
+**{{Bug}} When a Level which deals 1 damage is affected by [[Damage Debuff]]s, it will start dealing nan damage.
+*'''26 November 2025''' - [[v1.81.0]]
+**{{Bugfix}} Can still deal nan damage to enemies and make them have nan health, however, any damage counters will no longer change to nan when attacking or creating such enemies.
+*'''20 December 2025''' - [[v1.83.0]]
+**New skin: {{Color|Showtime|Trumpeter}}
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit increased from 6 to 10.
+**Unlock cost decreased from {{Coins|1,000}} to {{Coins|400}}.
+**Placement limit of 9 added in regular modes.
+**Category changed from Intermediate to Starter.
 **Statistical changes (Regular):
 ***'''Base'''
-****Cost decreased from {{Money|600}} to {{Money|300}}.
-****Swingrate increased from 0.625 to 1.225.
-****Range decreased from 6 to 5.75.
+****Cost increased from {{Money|300}} to {{Money|950}}.
+****Damage increased from 1 to 2.
+****Firerate decreased from 2.025 to 1.025.
+****Range increased from 7 to 7.5.
+****Bullets decreased from 8 to 6.
+****Spread increased from 45 to 120.
 ***'''Level 1'''
-****Cost decreased from {{Money|300}} to {{Money|150}}.
-****Damage decreased from +3 to +0.
-****Swingrate changed from 0.625 to {{Tooltip|1.225 > 0.825|-0.4}}.
+****Cost increased from {{Money|150}} to {{Money|350}}.
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|2.025 > 1.425|-0.6}} to 1.025.
+****Name changed from ''Faster Reloading'' to ''Heavier Shells''.
 ***'''Level 2'''
-****Hidden detection removed, moved to Level 4.
-****Cost decreased from {{Money|850}} to {{Money|750}}.
-****Damage increased from +3 to +4.
-****Swingrate changed from 0.625 to {{Tooltip|0.825 > 0.775|-0.05}}.
-****Final hit damage decreased from 24 to 15.
+****Cost increased from {{Money|950}} to {{Money|1,350}}.
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|1.425 > 1.225|-0.2}} 1.025.
+****Bullets changed from 8 > 10 to 6 > 8.
+****Spread changed from 45 > 40 to 120 > 40.
 ***'''Level 3'''
-****Cost decreased from {{Money|2,000}} to {{Money|1,500}}.
-****Damage increased from +8 to +12.
-****Swingrate changed from 0.625 to 0.775.
-****Range increased from +0 to +0.5.
-****Final hit damage increased from +16 to +18.
-****Cooldown changed from {{Tooltip|0.75 > 0.65|-0.1}} to {{Tooltip|0.75 > 0.6|0.15}}.
-****Reposition damage increased from 0 to 15.
-****Reposition cooldown decreased from 20 seconds to 15 seconds.
+****Cost increased from {{Money|2,500}} to {{Money|3,750}}.
+****Firerate changed from {{Tooltip|1.225 > 1.125|-0.1}} to {{Tooltip|1.025 > 0.825|-0.2}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|5,000}} to {{Money|3,000}}.
-****Damage decreased from +20 to +12.
-****Swingrate changed from {{Tooltip|0.625 > 0.525|-0.1}} to {{Tooltip|0.775 > 0.625|-0.15}}.
-****Range decreased from +0.5 to +0.25.
-****Final hit damage decreased from +40 to +18.
-****Cooldown changed from {{Tooltip|0.65 > 0.5 to <abbr title="-0.1">0.6 > 0.5|-0.15}}.
-****Reposition damage decreased from 100 to +10.
-****Hidden detection added, moved from Level 2.
-****Name changed from ''Prototype Frame'' to ''GALVAKNUCKLES''.
-***'''Level 5'''
-****Cost decreased from {{Money|12,500}} to {{Money|9,999}}.
-****Damage decreased from +45 to +32.
-****Swingrate changed from 0.525 to {{Tooltip|0.625 > 0.525|-0.1}}.
-****Range increased from +0.5 to +0.75.
-****Final hit damage decreased from +90 to +49.
-****Cooldown changed from 0.5 to 0.5 > 0.4.
-****Reposition damage decreased from +100 to +35.
-****Knockback force increased from +6 to +11.
-****Name changed from ''Faster Hydraulics'' to ''Boreas' Fury''.
+****Cost increased from {{Money|6,500}} to {{Money|10,500}}.
+****Damage increased from +2 to +6.
+****Bullets changed from 10 > 12 to 8 > 9.
+****Firerate changed from {{Tooltip|1.125 > 0.975|-0.15}} to 0.825.
 *'''11 February 2026''' - [[v1.85.0]]
+**Placement limit removed.
 **Statistical changes (Regular):
 ***'''Base'''
-****Range increased from 5.75 to 6.
+****Cost decreased from {{Money|950}} to {{Money|800}}.
+****Spread decreased from 120 to 100.
+***'''Level 1'''
+****Cost decreased from {{Money|350}} to {{Money|300}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,350}} to {{Money|1,200}}.
+****Spread changed from 120 > 40 to 100 > 40.
 ***'''Level 3'''
-****Range decreased from +0.5 to +0.25.
-****Reposition damage increased from 15 to 30.
-****Swingrate changed from 0.775 to {{Tooltip|0.775 > 0.625|-0.15}}.
+****Cost decreased from {{Money|3,750}} to {{Money|3,400}}.
 ***'''Level 4'''
-****Damage increased from +12 to +13.
-****Swingrate changed from {{Tooltip|0.775 > 0.652|-0.15}} to 0.625.
-****Final hit damage increased from +18 to +37.
-****Reposition damage increased from +10 to +20.
-***'''Level 5'''
-****Cost decreased from {{Money|9,999}} to {{Money|8,250}}.
-****Damage decreased from +32 to +31.
-****Final hit damage decreased from +49 to +41.
-****Reposition damage increased from +35 to +50.
-*'''16 February 2026''' - [[v1.85.0|v1.85.3]]
-**New skin: {{Color|LunarYear|Horse}}
-**{{Bug}} Using ''Reposition'' with the {{Color|LunarYear|Horse}} skin causes for the '''Brawler's''' old placement spot to still take up space.
-*'''11 March 2026''' - [[v1.86.0]]
-**Statistical changes (Regular):
-***'''Level 3'''
-****Reposition damage decreased from 30 to 20.
-****''Reposition'' cooldown increased from 15 seconds to 20 seconds.
-***'''Level 4'''
-****Reposition damage increased from +20 to +30.
-**{{Bug}} Reposition range has not been decreased.
+****Cost decreased from {{Money|10,500}} to {{Money|9,500}}.
+****Damage decreased from +6 to +5.
 *'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Bunny}}
-**{{Bug}} Using ''Reposition'' with the {{Color|SpringFrenzy|Bunny}} skin causes for the '''Brawler's''' old placement spot to still take up space.
-*'''24 April 2026''' - [[v1.89.0|v1.89.6]]
-**{{Bugfix}} {{Color|LunarYear|Horse}} and {{Color|SpringFrenzy|Bunny}} skins no longer cause the previous placement spot to take up placement space after using the ''Reposition'' ability.
-*'''22 May 2026''' - [[v1.91.0]]
-**''Reposition'' now can damage [[Lead (Attribute)|Lead]] enemies if the main attack has lead detection.
-**Main attack now has [[Damage Indicators#Melee Indicators|Melee Damage Indicators]]
-**{{Bugfix}} '''Brawler''' is now affected by [[Damage Buff]]s.
-**{{Bugfix}} ''Reposition'' damage now creates [[Damage Indicators#Melee Indicators|Melee Damage Indicators]].
+**New skin: {{Color|SpringFrenzy|SciBunny}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Level requirement of {{Level|50}} added.
+**Category changed from Starter to Intermediate.
+**Cost increased from {{Coins|400}} to {{Coins|850}}.
+**Placement limit of 9 added in regular modes.
 **Statistical changes (Regular):
 ***'''Base'''
-****Damage decreased from 6 to 5.
-****Swingrate decreased from 1.225 to 1.
+****Cost increased fro {{Money|800}} to {{Money|1,225}}.
+****Firerate increased from 1.025 to 1.2.
+****Bullets increased from 6 to 8.
+****Spread decreased from 100 to 10.
 ***'''Level 1'''
-****Cost increased from {{Money|150}} to {{Money|200}}.
-****Range increased from +0 to +0.5.
-****Swingrate decreased from {{Tooltip|1.225 > 0.825|-0.4}} to {{Tooltip|1 > 0.6|-0.4}}.
+****Cost increased from {{Money|300}} to {{Money|640}}.
+****Hidden detection added, moved from Level 2.
+****Name changed from ''Heavier Shells'' to ''Shotgun Knowledge''.
 ***'''Level 2'''
-****Cost increased from {{Money|750}} to {{Money|1,200}}.
-****Damage increased from +4 to +9.
-****Swingrate changed {{Tooltip|from 0.825 > 0.775|-0.05}} to 0.6.
-****Final hit damage increased from 15 to 21.
-****Cooldown decreased from 0.75 to 0.6.
+****Cost increased from {{Money|1,200}} to {{Money|1,550}}.
+****Name changed from ''Shotgun Knowledge'' to ''Clay Pigeon Training''.
+****Firerate changed from 1.025 to {{Tooltip|1.2 > 0.85|-0.35}}.
+****Bullets changed from 6 > 8 to 8 > 10.
+****Spread changed from 100 > 40 to 10 > 15.
+****Hidden detection moved to Level 1.
+****Flying detection added.
+****Lead detection removed.
 ***'''Level 3'''
-****Cost increased from {{Money|1,500}} to {{Money|2,500}}
-****Hidden detection added, moved from Level 4.
-****Damage decreased from +12 to +10.
-****Swingrate decreased from {{Tooltip|0.775 > 0.625|-0.15}} to {{Tooltip|0.6 > 0.5|-0.1}}.
-****Range decreased from +0.25 to +0.
-****Final hit damage increased from +18 to +27.
-****Cooldown changed from 0.75 > 0.6 to 0.6 > 0.5.
-****Knockback force increased from +2.5 to +6.5.
-****Hidden detection added, moved from Level 3.
-****Reposition removed, moved to Level 4.
+****Cost increased from {{Money|3,400}} to {{Money|6,000}}.
+****Damage increased from +2 to +4.
+****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to 0.7
+****Range increased from +0.5 to +1.5.
+****Spread changed from 40 to 15 > 25.
+****Name changed from ''Slug Madness'' to ''Heavier Shells''.
 ***'''Level 4'''
-****Cost increased from {{Money|3,000}} to {{Money|3,500}}.
-****Damage decreased from +13 to +11.
-****Range increased from +0.25 to +0.5.
-****Final hit damage decreased from +37 to +22.
-****Cooldown changed from 0.6 > 0.5 to 0.5.
-****Reposition added, moved from Level 3.
-****Reposition range decreased from 10 to 7.5.
-****''Reposition'' cooldown increased from 20 seconds to 30 seconds.
-****Hidden detection moved to Level 3.
-***'''Level 5'''
-****Cost decreased from {{Money|8,250}} to {{Money|7,777}}.
-****Damage decreased from +31 to +15.
-****Swingrate decreased from {{Tooltip|0.625 > 0.525|-0.1}} to {{Tooltip|0.5 > 0.4|-0.1}}.
-****Range increased from +0.75 to +1.
-****Final hit damage decreased from +41 to +30.
-****Knockback force decreased from +11 to +4.
-****Reposition range increased from +0 to +2.5.
+****Cost increased from {{Money|9,500}} to {{Money|18,500}}.
+****Damage increased from +5 to +7.
+****Firerate changed from 0.825 to {{Tooltip|0.85 > 0.75|-0.1}}.
+****Range increased from +1.5 to +2.
+****Bullets changed from 8 > 9 to 10 > 12.
+****Spead changed from 40 > 30 to 25 > 40.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased from 0.925 to 0.9.
+****Firerate decreased from 2.025 to 2.
 ***'''Level 1'''
-****Swingrate decreased from {{Tooltip|0.925 > 0.625|-0.3}} to {{Tooltip|0.9 > 0.6|-0.3}}.
-***'''Level 2'''
-****Final hit damage decreased from 24 to 23.
+****Firerate changed from {{Tooltip|2.025 > 1.525|-0.5}} to {{Tooltip|2 > 1.5|-0.5}}.
 ***'''Level 3'''
-****Final hit damage decreased from +16 to +15.
+****Firerate changed from {{Tooltip|1.525 > 1.275|-0.25}} to {{Tooltip|1.5 > 1.25|-0.25}}.
 ***'''Level 4'''
-****Damage decreased from +20 to +18.
-****Final hit damage decreased from +30 to +29.
-***'''Level 5'''
-****Damage decreased from +35 to +32.
-****Final hit damage decreased from +80 to +76.
-**{{Bugfix}} Reposition range now has been properly adjusted.
+****Firerate changed from {{Tooltip|1.275 > 1.025|-0.25}} to {{Tooltip|1.25 > 1|-0.25}}.
+*'''12 June 2026''' - [[v2.0.0|v2.0.9]]
+**New skin: {{Color|Other|Community}}
 *'''2 July 2026''' - [[v2.1.0|v2.1.7]]
 **New skin: {{Color|Scuba|Scuba Ops}}
 *'''17 July 2026''' - [[v2.3.0]]
-**Corrected incorrect ''Reposition'' cooldown values and the Level 3 final hit damage in the upgrade descriptions.
-*'''7 August 2026''' - [[v2.5.0]]
-**New skin: {{Color|Beach}}
+**Corrected incorrect spread values at Level 4.
+*'''14 August 2026''' - [[v2.6.0]]
+**Now can gain experience which is used to unlock the [[Enforcer]]. Has 20 levels, a base exp of 50 and a growth rate of 1.09.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost increased from {{Money|1,225}} to {{Money|1,500}}.
+****Firerate decreased from 1.2 to 1.1.
+****Spread decreased from 10 to 5. 
+***'''Level 1'''
+****Cost increased from {{Money|640}} to {{Money|750}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,550}} to {{Money|1,500}}.
+****Firerate changed from {{Tooltip|1.2 > 0.85|-0.35}} to {{Tooltip|1.1 > 0.8|-0.3}}.
+****Bullets changed from 8 > 10 to 8 > 9.
+****Spread changed from 10 > 15 to 5 > 10.
+***'''Level 3'''
+****Cost increased from {{Money|6,000}} to {{Money|6,500}}.
+****Spread changed from 15 > 25 to 10 > 25.
+***'''Level 4'''
+****Cost increased from {{Money|18,500}} to {{Money|18,777}}.
+****Firerate changed from {{Tooltip|0.85 > 0.75|-0.1}} to 0.8.
+****Bullets changed from 10 > 12 to 9 > 12.
 }}
 
 ==Notes==
-<references />
+<references/>
+
 
 
 {{TowerNavBox}}
 [[Category:Ground]]
-[[Category:Ability]]
