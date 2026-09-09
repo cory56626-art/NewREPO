@@ -1,22 +1,33 @@
 {
   "mode": "discussion_deep_search",
-  "query": "enforcer loadout",
+  "query": "enforcer golden cowboy gcow loadout",
   "must_include": [
     [
       "enforcer"
     ],
     [
-      "loadout",
-      "deck",
-      "setup"
+      "golden cowboy",
+      "gcow",
+      "g cow",
+      "gold cowboy"
     ]
   ],
   "prefer_include": [
-    "golden cowboy",
-    "gcow",
-    "g cow",
-    "gold cowboy"
+    "loadout",
+    "deck",
+    "setup",
+    "strategy",
+    "strat",
+    "dj",
+    "commander",
+    "engineer",
+    "accelerator",
+    "mercenary base",
+    "hacker",
+    "kingpin"
   ],
-  "pages": 50,
+  "strict_must_include": false,
+  "include_media_candidates": true,
+  "pages": 1,
   "per_page": 1000
 }
