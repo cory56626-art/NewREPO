@@ -1,10 +1,15 @@
 {
   "status": "resolved",
-  "input": "Engineer",
-  "alias_used": "Engineer",
-  "target": "Engineer",
-  "canonical_title": "Engineer",
-  "pageid": 30057,
-  "redirects": [],
-  "selection_method": "known_alias"
+  "input": "Hardcore",
+  "alias_used": null,
+  "target": "Hardcore",
+  "canonical_title": "Hardcore Mode",
+  "pageid": 34099,
+  "redirects": [
+    {
+      "from": "Hardcore",
+      "to": "Hardcore Mode"
+    }
+  ],
+  "selection_method": "exact_or_redirect"
 }

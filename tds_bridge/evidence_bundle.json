@@ -1,14 +1,14 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Engineer",
-    "title": "Engineer",
-    "pageid": 30057,
-    "latest_revid": 645507,
-    "latest_timestamp": "2026-09-07T16:09:17Z",
-    "source_url": "https://tds.fandom.com/wiki/Engineer",
+    "requested": "Hardcore",
+    "title": "Hardcore Mode",
+    "pageid": 34099,
+    "latest_revid": 618700,
+    "latest_timestamp": "2026-08-19T16:01:05Z",
+    "source_url": "https://tds.fandom.com/wiki/Hardcore_Mode",
     "classification": {
-      "is_tower_page": true,
+      "is_tower_page": false,
       "reason": "template/category heuristic"
     },
     "source_priority": {
@@ -22,119 +22,124 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Engineer",
-    "alias_used": "Engineer",
-    "target": "Engineer",
-    "canonical_title": "Engineer",
-    "pageid": 30057,
-    "redirects": [],
-    "selection_method": "known_alias"
+    "input": "Hardcore",
+    "alias_used": null,
+    "target": "Hardcore",
+    "canonical_title": "Hardcore Mode",
+    "pageid": 34099,
+    "redirects": [
+      {
+        "from": "Hardcore",
+        "to": "Hardcore Mode"
+      }
+    ],
+    "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 645507,
-      "parentid": 645502,
-      "timestamp": "2026-09-07T16:09:17Z",
+      "revid": 618700,
+      "parentid": 582392,
+      "timestamp": "2026-08-19T16:01:05Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 49010,
-      "sha1": "1e8c823e58856e0c143ca6e9c58dd89caba3cc05"
+      "size": 43370,
+      "sha1": "9858d3a849fce9d4fa871baddfd43bab6dec8d97"
     },
     {
-      "revid": 645502,
-      "parentid": 639255,
-      "timestamp": "2026-09-07T16:03:55Z",
+      "revid": 582392,
+      "parentid": 570490,
+      "timestamp": "2026-07-30T14:04:21Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 49007,
-      "sha1": "7ee102d2f9018828c3786fe4898b5e85d3ac6795"
+      "size": 43359,
+      "sha1": "c589b61b9deb8160c9b50e832dc66b77baa28925"
     },
     {
-      "revid": 639255,
-      "parentid": 639254,
-      "timestamp": "2026-09-03T09:29:29Z",
+      "revid": 570490,
+      "parentid": 566143,
+      "timestamp": "2026-07-24T17:24:20Z",
       "user": "Vessel Of Infinite Destruction",
       "comment": "/* Update History */",
-      "size": 48777,
-      "sha1": "c3efa30225d2122f2241cfcf81228006e32c87fb"
+      "size": 43348,
+      "sha1": "77fa37f0f7305d3227efe3d6138755ae9c4e961b"
     },
     {
-      "revid": 639254,
-      "parentid": 639253,
-      "timestamp": "2026-09-03T09:28:33Z",
-      "user": "Vessel Of Infinite Destruction",
-      "comment": "Undo revision [[Special:Diff/639253|639253]] by [[Special:Contributions/Vessel Of Infinite Destruction|Vessel Of Infinite Destruction]] ([[User talk:Vessel Of Infinite Destruction|talk]])",
-      "size": 48779,
-      "sha1": "8288ab18b853d15e082db21639134c16b6f2c470"
-    },
-    {
-      "revid": 639253,
-      "parentid": 639252,
-      "timestamp": "2026-09-03T09:27:15Z",
-      "user": "Vessel Of Infinite Destruction",
-      "comment": "/* Update History */",
-      "size": 48775,
-      "sha1": "a0b7c7425e4e5acf761f0f45a6c408beb0a6e69a"
-    },
-    {
-      "revid": 639252,
-      "parentid": 639251,
-      "timestamp": "2026-09-03T09:24:24Z",
-      "user": "Vessel Of Infinite Destruction",
-      "comment": "/* Update History */",
-      "size": 48779,
-      "sha1": "8288ab18b853d15e082db21639134c16b6f2c470"
-    },
-    {
-      "revid": 639251,
-      "parentid": 626353,
-      "timestamp": "2026-09-03T09:19:35Z",
-      "user": "Vessel Of Infinite Destruction",
-      "comment": "/* Update History */",
-      "size": 48781,
-      "sha1": "a66cf9ae627cef8f03c524772af89a69d69d5bae"
-    },
-    {
-      "revid": 626353,
-      "parentid": 618677,
-      "timestamp": "2026-08-25T14:28:12Z",
+      "revid": 566143,
+      "parentid": 558107,
+      "timestamp": "2026-07-22T14:51:27Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 48781,
-      "sha1": "373016a7d58fcc5ff8b5c9b44b58835c7f8a50ef"
+      "size": 43352,
+      "sha1": "486041116e2370591bc0b7379fe8228f11ec8cca"
     },
     {
-      "revid": 618677,
-      "parentid": 618676,
-      "timestamp": "2026-08-19T13:29:13Z",
-      "user": "Mentin123",
+      "revid": 558107,
+      "parentid": 558106,
+      "timestamp": "2026-07-18T16:28:39Z",
+      "user": "Martin Zion Wilfred",
       "comment": "",
-      "size": 48759,
-      "sha1": "2b2f67bb8e9c8fc347e07611a9a915fc270b38a4"
+      "size": 43175,
+      "sha1": "80c46590c20dda9894475df2d94746f2c8d1e82e"
     },
     {
-      "revid": 618676,
-      "parentid": 618675,
-      "timestamp": "2026-08-19T13:28:49Z",
+      "revid": 558106,
+      "parentid": 556767,
+      "timestamp": "2026-07-18T16:27:54Z",
+      "user": "Martin Zion Wilfred",
+      "comment": "",
+      "size": 43175,
+      "sha1": "68a0d8cbb84eb56ec0da046578be9d2cf00dbb79"
+    },
+    {
+      "revid": 556767,
+      "parentid": 556760,
+      "timestamp": "2026-07-18T02:06:25Z",
+      "user": "Sofiasean560",
+      "comment": "",
+      "size": 43175,
+      "sha1": "472c29a16b05bb34d088a0a07b26c3e4c5e352d7"
+    },
+    {
+      "revid": 556760,
+      "parentid": 553641,
+      "timestamp": "2026-07-18T01:45:21Z",
+      "user": "Sofiasean560",
+      "comment": "",
+      "size": 43173,
+      "sha1": "8b1287e6844e09df435772523f68c2af1dc917aa"
+    },
+    {
+      "revid": 553641,
+      "parentid": 553640,
+      "timestamp": "2026-07-16T16:09:29Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 48760,
-      "sha1": "330a327c85ee7c3aff9244573940fb8a1b3b4cf7"
+      "size": 43155,
+      "sha1": "ad64b35d5b9869a343ad1f1cc5bbe82a13f4baa5"
+    },
+    {
+      "revid": 553640,
+      "parentid": 553638,
+      "timestamp": "2026-07-16T16:08:26Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 43149,
+      "sha1": "6bfe65985ccaabb73089fe5dd69da95a975b8142"
     }
   ],
   "revision_diff": {
-    "fromrevid": 645502,
-    "torevid": 645507,
-    "fromtitle": "Engineer",
-    "totitle": "Engineer",
+    "fromrevid": 582392,
+    "torevid": 618700,
+    "fromtitle": "Hardcore Mode",
+    "totitle": "Hardcore Mode",
     "fromuser": "Mentin123",
     "touser": "Mentin123",
     "fromcomment": "",
     "tocomment": "",
-    "diff_text": "Line 1,010: Line 1,010: *'''4 September 2026''' - [[v2.9.0]] *'''4 September 2026''' - [[v2.9.0]] **Gamepass price decreased from {{Robux|1,690}} to {{Robux|1,267}}. **Gamepass price decreased from {{Robux|1,690}} to {{Robux|1,267}}. ***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,250}} is now {{Robux|1,687}}. ***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,250}} it is now {{Robux|1,687}}. }} }}"
+    "diff_text": "Line 614: Line 614: |[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]] |[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]] |A massive enemy is coming in! Focus everything we have on it before—!<br/>[[File:HardcoreWave33-1.ogg|300px]] |A massive enemy is coming in! Focus everything we have on it before—!<br/>[[File:HardcoreWave33-1.ogg|300px]] | rowspan=\"3\" |4x [[Void Pike]] ([[Nimble]]), 2x [[Voidling]], 4x [[Voidling]] ([[Bloated]]), 2x [[Voidling]], 8x [[Elite Mystery]], 4x [[Blighted]], 1x [[Mandragora]], 1x '''[[Void Brute]]''', 1x [[Void Titan]], 9x [[Void Rusher]], 5x [[Void Floater]] | rowspan=\"3\" |4x [[Void Pike]] ([[Nimble]]), 2x [[Voidling]], 4x [[Voidling]] ([[Bloated]]), 2x [[Voidling]], 8x [[Elite Mystery]], 4x [[Blighted]], 1x [[Mandragora]], 1x '''[[Void Brute]]''' ([[Boss]]) , 1x [[Void Titan]], 9x [[Void Rusher]], 5x [[Void Floater]] |- |- |[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]] |[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]"
   },
   "classification": {
-    "is_tower_page": true,
+    "is_tower_page": false,
     "reason": "template/category heuristic"
   },
   "structured_stats": {
@@ -146,1551 +151,60 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Engineer''' is a hardcore tower that attacks enemies with a rebar launcher and can build various [[Sentry (Unit)|sentries]] within its range to assist with defense. It can be purchased from the store for {{Gem|4,500}} and has a level requirement of {{Level|50}}. The '''Engineer''' is also available through a gamepass for {{Robux|1,267}}.\n\nThe '''Engineer''' has three range rings: the white ring is the attack range of the '''Engineer''', the yellow ring is the placement range for sentries, and the red ring is the deadzone range in which the '''Engineer''' cannot fire nor build sentries. The '''Engineer''' collects scrap when damaging enemies, with the amount of scrap obtained per shot being equivalent to the damage dealt to an enemy. The scrap fills up its ''Scrap Meter'', which can be seen above its tower icon in the upgrade box or when the player hovers over it. When its ''Scrap Meter'' is full, the '''Engineer''' will briefly stop attacking to build a sentry. Within upgrades, the '''Engineer''' will build stronger sentries, however, they will require more scrap to be built. If the ''Scrap Meter'' is filled up but the maximum number of sentries are placed, the '''Engineer''' will wait until a sentry is despawned or destroyed before building another sentry. There is a limit to how many sentries can be built.\n\nSentries built by the '''Engineer''' are considered units, though they cannot move and can only be placed on the ground in the yellow range ring. They do have health however, which drains over time or decreases when hit by an enemy ability that deals damage, limiting the amount of time they can stay alive. The amount left before a sentry despawns can be seen with the duration bar above a sentry.\n\nThe '''Engineer''' is considered an all-round tower due to its cheap placement cost, decent DPS on early levels and very expensive upgrades with extremely high DPS later on.\n\nThe '''Engineer''' has a placement limit of six per player. This is reduced to five in [[PVP]] mode.",
+    "description": "'''Hardcore''' mode is one of the regular modes, being one of the hardest modes in the game. It can only be played by using the left or right [[Elevators|Hardcore Elevators]] or the hardcore [[Matchmaking]] button in the [[Matchmaking]] menu. This mode rewards {{Gem|Gems}} instead of {{Coins|Coins}}, unlike the other modes. You need to be at least {{Level|50}} to play this mode. Beating this mode will unlock [[Voidcore Mode|Voidcore]] mode.\n\nCash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo and 33% If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.\n\nConsumables are disabled in this mode. [[Shrines]] also appears in this mode starting from Wave 11, re-appearing every 10 waves.",
     "upgrade_modes": {
-      "regular": [
-        {
-          "mode": "regular",
-          "level": 1,
-          "title": "Precise Calculations",
-          "cost": "{{Money|325}}",
-          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Damage",
-              "text": "+2 Damage"
-            },
-            {
-              "kind": "set",
-              "from": "1.4",
-              "to": "1.2",
-              "stat": "Firerate",
-              "text": "1.4 > 1.2 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+3",
-              "stat": "Range",
-              "text": "+3 Range"
-            }
-          ],
-          "params": {
-            "Level": "Level 1",
-            "Upgrade Title": "Precise Calculations",
-            "Cost": "{{Money|325}}",
-            "Image": "[[File:Engineer_Level_1.png|100px]]",
-            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 2,
-          "title": "Makeshift Radar",
-          "cost": "{{Money|900}}",
-          "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+4",
-              "stat": "Damage",
-              "text": "+4 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Range",
-              "text": "+2 Range"
-            },
-            {
-              "kind": "grant",
-              "stat": "Hidden Detection",
-              "text": "+Hidden Detection"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0.2 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "20 Range"
-            },
-            {
-              "kind": "note",
-              "text": "400 Health"
-            },
-            {
-              "kind": "note",
-              "text": "30 Second Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "32 Scrap Meter"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 2",
-            "Upgrade Title": "Makeshift Radar",
-            "Cost": "{{Money|900}}",
-            "Image": "[[File:Radar.png|100px]]",
-            "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 3,
-          "title": "Auto Converter",
-          "cost": "{{Money|2,077}}",
-          "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+10",
-              "stat": "Damage",
-              "text": "+10 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Max Units",
-              "text": "+1 Max Units"
-            },
-            {
-              "kind": "set",
-              "from": "1.2",
-              "to": "1",
-              "stat": "Firerate",
-              "text": "1.2 > 1 Firerate"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Upgrade Title": "Auto Converter",
-            "Cost": "{{Money|2,077}}",
-            "Image": "[[File:Engi3.png|100px]]",
-            "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 4,
-          "title": "Heavy Construction",
-          "cost": "{{Money|6,250}}",
-          "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+10",
-              "stat": "Damage",
-              "text": "+10 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+3",
-              "stat": "Range",
-              "text": "+3 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "-1",
-              "stat": "Build Range",
-              "text": "-1 Build Range"
-            },
-            {
-              "kind": "set",
-              "from": "1",
-              "to": "0.9",
-              "stat": "Firerate",
-              "text": "1 > 0.9 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0.15 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "22 Range"
-            },
-            {
-              "kind": "note",
-              "text": "750 Health"
-            },
-            {
-              "kind": "note",
-              "text": "45 Second Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "150 Scrap Meter"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 4",
-            "Upgrade Title": "Heavy Construction",
-            "Cost": "{{Money|6,250}}",
-            "Image": "[[File:Engineer Level 5.png|100px]]",
-            "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 5,
-          "title": "Improved Blueprints",
-          "cost": "{{Money|12,500}}",
-          "information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+50",
-              "stat": "Damage",
-              "text": "+50 Damage"
-            },
-            {
-              "kind": "set",
-              "from": "0.9",
-              "to": "0.75",
-              "stat": "Firerate",
-              "text": "0.9 > 0.75 Firerate"
-            },
-            {
-              "kind": "grant",
-              "stat": "Sentry Shield",
-              "text": "+Sentry Shield"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Max Units",
-              "text": "+1 Max Units"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Upgrade Title": "Improved Blueprints",
-            "Cost": "{{Money|12,500}}",
-            "Image": "[[File:Engi4.png|100px]]",
-            "Information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 6,
-          "title": "Illegal Gun Parts",
-          "cost": "{{Money|32,500}}",
-          "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+10",
-              "stat": "Damage",
-              "text": "+10 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1.5",
-              "stat": "Range",
-              "text": "+1.5 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "-1",
-              "stat": "Build Range",
-              "text": "-1 Build Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.75",
-              "to": "0.6",
-              "stat": "Firerate",
-              "text": "0.75 > 0.6 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Max Units",
-              "text": "+1 Max Units"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0.125 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "24 Range"
-            },
-            {
-              "kind": "note",
-              "text": "60x2 Splash Damage"
-            },
-            {
-              "kind": "note",
-              "text": "4 Rocket Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "5 Explosion Range"
-            },
-            {
-              "kind": "note",
-              "text": "1,000 Health"
-            },
-            {
-              "kind": "note",
-              "text": "60 Second Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "340 Scrap Meter"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 6",
-            "Upgrade Title": "Illegal Gun Parts",
-            "Cost": "{{Money|32,500}}",
-            "Image": "[[File:Engineerupgrade6.jpg|100px]]",
-            "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}"
-          }
-        }
-      ],
-      "pvp": [
-        {
-          "mode": "pvp",
-          "level": 1,
-          "title": "Precise Calculations",
-          "cost": "{{Money|250}}",
-          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Damage",
-              "text": "+2 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Range",
-              "text": "+2 Range"
-            }
-          ],
-          "params": {
-            "Level": "Level 1",
-            "Upgrade Title": "Precise Calculations",
-            "Cost": "{{Money|250}}",
-            "Image": "[[File:Engineer_Level_1.png|100px]]",
-            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 2,
-          "title": "Makeshift Radar",
-          "cost": "{{Money|400}}",
-          "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Range",
-              "text": "+2 Range"
-            },
-            {
-              "kind": "grant",
-              "stat": "Hidden Detection",
-              "text": "+Hidden Detection"
-            },
-            {
-              "kind": "grant",
-              "stat": "Flying Detection",
-              "text": "+Flying Detection"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Max Units",
-              "text": "+1 Max Units"
-            }
-          ],
-          "params": {
-            "Level": "Level 2",
-            "Upgrade Title": "Makeshift Radar",
-            "Cost": "{{Money|400}}",
-            "Image": "[[File:Radar.png|100px]]",
-            "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 3,
-          "title": "Auto Converter",
-          "cost": "{{Money|1,800}}",
-          "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+10",
-              "stat": "Damage",
-              "text": "+10 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0.2 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "20 Range"
-            },
-            {
-              "kind": "note",
-              "text": "40 Health"
-            },
-            {
-              "kind": "note",
-              "text": "30 Second Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "32 Scrap Meter}}"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Upgrade Title": "Auto Converter",
-            "Cost": "{{Money|1,800}}",
-            "Image": "[[File:Engi3.png|100px]]",
-            "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 4,
-          "title": "Improved Blueprints",
-          "cost": "{{Money|2,600}}",
-          "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+4",
-              "stat": "Damage",
-              "text": "+4 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+3",
-              "stat": "Range",
-              "text": "+3 Range"
-            },
-            {
-              "kind": "set",
-              "from": "1.2",
-              "to": "0.75",
-              "stat": "Firerate",
-              "text": "1.2 > 0.75 Firerate"
-            },
-            {
-              "kind": "grant",
-              "stat": "Sentry Shield",
-              "text": "+Sentry Shield"
-            }
-          ],
-          "params": {
-            "Level": "Level 4",
-            "Upgrade Title": "Improved Blueprints",
-            "Cost": "{{Money|2,600}}",
-            "Image": "[[File:Engi4.png|100px]]",
-            "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 5,
-          "title": "Heavy Construction",
-          "cost": "{{Money|12,500}}",
-          "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+10",
-              "stat": "Damage",
-              "text": "+10 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Max Units",
-              "text": "+1 Max Units"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0.15 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "20 Range"
-            },
-            {
-              "kind": "note",
-              "text": "60 Health"
-            },
-            {
-              "kind": "note",
-              "text": "45 Second Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "120 Scrap Meter"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Upgrade Title": "Heavy Construction",
-            "Cost": "{{Money|12,500}}",
-            "Image": "[[File:Engineer_Level_5.png|100px]]",
-            "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 6,
-          "title": "Illegal Gun Parts",
-          "cost": "{{Money|32,500}}",
-          "information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+18",
-              "stat": "Damage",
-              "text": "+18 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Range",
-              "text": "+2 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "-0.5",
-              "stat": "Deadzone Range",
-              "text": "-0.5 Deadzone Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.75",
-              "to": "0.6",
-              "stat": "Firerate",
-              "text": "0.75 > 0.6 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "0.125 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "24 Range"
-            },
-            {
-              "kind": "note",
-              "text": "28x2 Splash Damage"
-            },
-            {
-              "kind": "note",
-              "text": "4 Rocket Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "4 Explosion Range"
-            },
-            {
-              "kind": "note",
-              "text": "250 Health"
-            },
-            {
-              "kind": "note",
-              "text": "60 Second Lifespan"
-            },
-            {
-              "kind": "note",
-              "text": "250 Scrap Meter"
-            },
-            {
-              "kind": "note",
-              "text": "Hidden Detection }}"
-            }
-          ],
-          "params": {
-            "Level": "Level 6",
-            "Upgrade Title": "Illegal Gun Parts",
-            "Cost": "{{Money|32,500}}",
-            "Image": "[[File:Engineerupgrade6.jpg|100px]]",
-            "Information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}"
-          }
-        }
-      ]
+      "regular": [],
+      "pvp": []
     },
-    "upgrade_templates": [
-      {
-        "mode": "regular",
-        "level": 1,
-        "title": "Precise Calculations",
-        "cost": "{{Money|325}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Damage",
-            "text": "+2 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "1.4",
-            "to": "1.2",
-            "stat": "Firerate",
-            "text": "1.4 > 1.2 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Precise Calculations",
-          "Cost": "{{Money|325}}",
-          "Image": "[[File:Engineer_Level_1.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "title": "Makeshift Radar",
-        "cost": "{{Money|900}}",
-        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "20 Range"
-          },
-          {
-            "kind": "note",
-            "text": "400 Health"
-          },
-          {
-            "kind": "note",
-            "text": "30 Second Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "32 Scrap Meter"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Makeshift Radar",
-          "Cost": "{{Money|900}}",
-          "Image": "[[File:Radar.png|100px]]",
-          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Auto Converter",
-        "cost": "{{Money|2,077}}",
-        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Units",
-            "text": "+1 Max Units"
-          },
-          {
-            "kind": "set",
-            "from": "1.2",
-            "to": "1",
-            "stat": "Firerate",
-            "text": "1.2 > 1 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Auto Converter",
-          "Cost": "{{Money|2,077}}",
-          "Image": "[[File:Engi3.png|100px]]",
-          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Heavy Construction",
-        "cost": "{{Money|6,250}}",
-        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "-1",
-            "stat": "Build Range",
-            "text": "-1 Build Range"
-          },
-          {
-            "kind": "set",
-            "from": "1",
-            "to": "0.9",
-            "stat": "Firerate",
-            "text": "1 > 0.9 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "22 Range"
-          },
-          {
-            "kind": "note",
-            "text": "750 Health"
-          },
-          {
-            "kind": "note",
-            "text": "45 Second Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "150 Scrap Meter"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Heavy Construction",
-          "Cost": "{{Money|6,250}}",
-          "Image": "[[File:Engineer Level 5.png|100px]]",
-          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22 Range [[File:Range Icon.png|20px|Range]]\n\n•750 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•150 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|3,384}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "Improved Blueprints",
-        "cost": "{{Money|12,500}}",
-        "information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+50",
-            "stat": "Damage",
-            "text": "+50 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.9",
-            "to": "0.75",
-            "stat": "Firerate",
-            "text": "0.9 > 0.75 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Sentry Shield",
-            "text": "+Sentry Shield"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Units",
-            "text": "+1 Max Units"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Improved Blueprints",
-          "Cost": "{{Money|12,500}}",
-          "Image": "[[File:Engi4.png|100px]]",
-          "Information": "+50 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\n+1 Max Units\n\n\nSell Price changes to {{Money|7,550}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "title": "Illegal Gun Parts",
-        "cost": "{{Money|32,500}}",
-        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "-1",
-            "stat": "Build Range",
-            "text": "-1 Build Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.75",
-            "to": "0.6",
-            "stat": "Firerate",
-            "text": "0.75 > 0.6 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Units",
-            "text": "+1 Max Units"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.125 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "24 Range"
-          },
-          {
-            "kind": "note",
-            "text": "60x2 Splash Damage"
-          },
-          {
-            "kind": "note",
-            "text": "4 Rocket Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "5 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "1,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "60 Second Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "340 Scrap Meter"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Upgrade Title": "Illegal Gun Parts",
-          "Cost": "{{Money|32,500}}",
-          "Image": "[[File:Engineerupgrade6.jpg|100px]]",
-          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n-1 Build Range [[File:BuildRange.png|20px|Build Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•1,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•340 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|18,384}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Precise Calculations",
-        "cost": "{{Money|250}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Damage",
-            "text": "+2 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Precise Calculations",
-          "Cost": "{{Money|250}}",
-          "Image": "[[File:Engineer_Level_1.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Makeshift Radar",
-        "cost": "{{Money|400}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Units",
-            "text": "+1 Max Units"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Makeshift Radar",
-          "Cost": "{{Money|400}}",
-          "Image": "[[File:Radar.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+1 Max Units\n\n\nSell Price changes to {{Money|450}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 3,
-        "title": "Auto Converter",
-        "cost": "{{Money|1,800}}",
-        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "20 Range"
-          },
-          {
-            "kind": "note",
-            "text": "40 Health"
-          },
-          {
-            "kind": "note",
-            "text": "30 Second Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "32 Scrap Meter}}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Auto Converter",
-          "Cost": "{{Money|1,800}}",
-          "Image": "[[File:Engi3.png|100px]]",
-          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•40 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter}}\n\n\nSell Price changes to {{Money|1,050}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "title": "Improved Blueprints",
-        "cost": "{{Money|2,600}}",
-        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "set",
-            "from": "1.2",
-            "to": "0.75",
-            "stat": "Firerate",
-            "text": "1.2 > 0.75 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Sentry Shield",
-            "text": "+Sentry Shield"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Improved Blueprints",
-          "Cost": "{{Money|2,600}}",
-          "Image": "[[File:Engi4.png|100px]]",
-          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Sentry Shield\n\nSell Price changes to {{Money|1,916}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "title": "Heavy Construction",
-        "cost": "{{Money|12,500}}",
-        "information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Units",
-            "text": "+1 Max Units"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "20 Range"
-          },
-          {
-            "kind": "note",
-            "text": "60 Health"
-          },
-          {
-            "kind": "note",
-            "text": "45 Second Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "120 Scrap Meter"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Heavy Construction",
-          "Cost": "{{Money|12,500}}",
-          "Image": "[[File:Engineer_Level_5.png|100px]]",
-          "Information": "+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•60 Health [[File:HealthIcon.png|20px|Health]]\n\n•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•120 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,750}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "title": "Illegal Gun Parts",
-        "cost": "{{Money|32,500}}",
-        "information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+18",
-            "stat": "Damage",
-            "text": "+18 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "-0.5",
-            "stat": "Deadzone Range",
-            "text": "-0.5 Deadzone Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.75",
-            "to": "0.6",
-            "stat": "Firerate",
-            "text": "0.75 > 0.6 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.125 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "24 Range"
-          },
-          {
-            "kind": "note",
-            "text": "28x2 Splash Damage"
-          },
-          {
-            "kind": "note",
-            "text": "4 Rocket Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "4 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "250 Health"
-          },
-          {
-            "kind": "note",
-            "text": "60 Second Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "250 Scrap Meter"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Upgrade Title": "Illegal Gun Parts",
-          "Cost": "{{Money|32,500}}",
-          "Image": "[[File:Engineerupgrade6.jpg|100px]]",
-          "Information": "+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•250 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|14,916}}"
-        }
-      }
-    ],
+    "upgrade_templates": [],
     "statistics_tables": {
-      "regular": [
-        {
-          "level": 0,
-          "cost": 600.0,
-          "total_cost": 600.0,
-          "damage": 4.0,
-          "tick": 1.4,
-          "charge_up": 13.0,
-          "cooldown": 1.5,
-          "overcharge": 4.0,
-          "range": 1.0,
-          "dps": 0.252
-        },
-        {
-          "level": 1,
-          "cost": 325.0,
-          "total_cost": 925.0,
-          "damage": 6.0,
-          "tick": 1.2,
-          "charge_up": 16.0,
-          "cooldown": 1.5,
-          "overcharge": 4.0,
-          "range": 1.0,
-          "dps": 0.219
-        },
-        {
-          "level": 2,
-          "cost": 900.0,
-          "total_cost": 1825.0,
-          "damage": 10.0,
-          "tick": 1.2,
-          "charge_up": 18.0,
-          "cooldown": 1.5,
-          "overcharge": 4.0,
-          "range": 1.0,
-          "dps": 0.2
-        },
-        {
-          "level": 3,
-          "cost": 2077.0,
-          "total_cost": 3902.0,
-          "damage": 20.0,
-          "tick": 1.0,
-          "charge_up": 18.0,
-          "cooldown": 1.5,
-          "overcharge": 4.0,
-          "range": 2.0,
-          "dps": 0.203
-        },
-        {
-          "level": 4,
-          "cost": 6250.0,
-          "total_cost": 10152.0,
-          "damage": 30.0,
-          "tick": 0.9,
-          "charge_up": 21.0,
-          "cooldown": 1.5,
-          "overcharge": 3.0,
-          "range": 2.0,
-          "dps": 0.133
-        },
-        {
-          "level": 5,
-          "cost": 12500.0,
-          "total_cost": 22652.0,
-          "damage": 80.0,
-          "tick": 0.75,
-          "charge_up": 21.0,
-          "cooldown": 1.5,
-          "overcharge": 3.0,
-          "range": 3.0,
-          "dps": 0.133
-        },
-        {
-          "level": 6,
-          "cost": 32500.0,
-          "total_cost": 55152.0,
-          "damage": 90.0,
-          "tick": 0.6,
-          "charge_up": 22.5,
-          "cooldown": 1.5,
-          "overcharge": 2.0,
-          "range": 4.0,
-          "dps": 0.083
-        },
-        {
-          "level": 6,
-          "cost": 32500.0,
-          "total_cost": 87652.0,
-          "damage": 3.0,
-          "tick": 60.0,
-          "charge_up": 2.0,
-          "cooldown": 0.125,
-          "overcharge": 4.0,
-          "range": 24.0,
-          "dps": 0.049
-        }
-      ],
-      "pvp": [
-        {
-          "level": 0,
-          "cost": 700.0,
-          "total_cost": 700.0,
-          "damage": 4.0,
-          "tick": 1.2,
-          "charge_up": 13.0,
-          "cooldown": 1.0,
-          "overcharge": 4.0,
-          "range": 1.0,
-          "dps": 0.263
-        },
-        {
-          "level": 1,
-          "cost": 250.0,
-          "total_cost": 950.0,
-          "damage": 6.0,
-          "tick": 1.2,
-          "charge_up": 15.0,
-          "cooldown": 1.0,
-          "overcharge": 4.0,
-          "range": 1.0,
-          "dps": 0.238
-        },
-        {
-          "level": 2,
-          "cost": 400.0,
-          "total_cost": 1350.0,
-          "damage": 6.0,
-          "tick": 1.2,
-          "charge_up": 17.0,
-          "cooldown": 1.0,
-          "overcharge": 4.0,
-          "range": 2.0,
-          "dps": 0.213
-        },
-        {
-          "level": 3,
-          "cost": 1800.0,
-          "total_cost": 3150.0,
-          "damage": 16.0,
-          "tick": 1.2,
-          "charge_up": 17.0,
-          "cooldown": 1.0,
-          "overcharge": 4.0,
-          "range": 2.0,
-          "dps": 0.219
-        },
-        {
-          "level": 4,
-          "cost": 2600.0,
-          "total_cost": 5750.0,
-          "damage": 22.0,
-          "tick": 0.75,
-          "charge_up": 20.0,
-          "cooldown": 1.0,
-          "overcharge": 4.0,
-          "range": 2.0,
-          "dps": 0.189
-        },
-        {
-          "level": 5,
-          "cost": 12500.0,
-          "total_cost": 18250.0,
-          "damage": 30.0,
-          "tick": 0.75,
-          "charge_up": 20.0,
-          "cooldown": 1.0,
-          "overcharge": 4.0,
-          "range": 3.0,
-          "dps": 0.19
-        },
-        {
-          "level": 6,
-          "cost": 32500.0,
-          "total_cost": 50750.0,
-          "damage": 50.0,
-          "tick": 0.6,
-          "charge_up": 22.0,
-          "cooldown": 0.5,
-          "overcharge": 4.0,
-          "range": 3.0,
-          "dps": 0.177
-        },
-        {
-          "level": 5,
-          "cost": 12500.0,
-          "total_cost": 63250.0,
-          "damage": 6.0,
-          "tick": null,
-          "charge_up": null,
-          "cooldown": 0.15,
-          "overcharge": null,
-          "range": 20.0,
-          "dps": null
-        },
-        {
-          "level": 6,
-          "cost": 32500.0,
-          "total_cost": 95750.0,
-          "damage": 8.0,
-          "tick": 28.0,
-          "charge_up": 2.0,
-          "cooldown": 0.1,
-          "overcharge": 4.0,
-          "range": 24.0,
-          "dps": 0.248
-        }
-      ]
+      "regular": [],
+      "pvp": []
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)",
-        "lead": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
-        "flying": "{{Attr|Fly|Level 0+}} (Tower only)<ref name=\"fd\">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>",
-        "immune": "Stun (Level 5+, units with shield only)<br/>Debuff (Units only)",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)"
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null,
+        "placement_limit": null
       },
       "pvp": {
-        "hidden": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)",
-        "lead": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
-        "flying": "{{Attr|Fly|Level 2+}} (Tower only)<ref name=\"fd\"/>",
-        "immune": "Stun (Level 4+, units with shield only)<br/>Debuff (Units only)"
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null
       }
     },
     "infoboxes": [
       {
-        "name": "TowerInfobox",
+        "name": "ModeInfobox",
         "params": {
-          "title": "Engineer",
-          "image-static": "EngineerIcon.png",
-          "image-dynamic": "EngineerDynamic.png",
-          "unlockcost": "{{Gem|4,500}} or {{Robux|1,267}}",
-          "levelrequirement": "{{Level|50}}",
-          "basecost": "{{Money|600}}",
-          "basesellingprice": "{{Money|200}}",
-          "role": "Defense",
-          "placement": "Ground",
-          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
-          "basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
-          "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
-          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])",
-          "baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)",
-          "hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)",
-          "lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
-          "flying_detection": "{{Attr|Fly|Level 0+}} (Tower only)<ref name=\"fd\">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>",
-          "immune": "Stun (Level 5+, units with shield only)<br/>Debuff (Units only)",
-          "footprint": "1.5",
-          "pvp_basecost": "{{Money|700}}",
-          "pvp_basesellingprice": "{{Money|233}}",
-          "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
-          "pvp_damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
-          "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])",
-          "pvp_baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)",
-          "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)",
-          "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
-          "pvp_flying_detection": "{{Attr|Fly|Level 2+}} (Tower only)<ref name=\"fd\"/>",
-          "pvp_immune": "Stun (Level 4+, units with shield only)<br/>Debuff (Units only)",
-          "pvp_footprint": "1.5",
-          "tooltip-1": "A well-rounded tower that takes time to ramp up and build its turrets but can create a strong defensive line with great coverage once its turrets are setup.",
-          "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]], [[Lead (Attribute)|lead]], and [[flying]] enemies."
+          "title1": "{{Color|HardcoreMode}}",
+          "image1": "Hardcore2026Icon.png",
+          "waves": "45",
+          "level_requirement": "{{Level|50}}",
+          "starting_cash": "Solo:\n*{{Money|900}}\n*{{Money|1,000}} (Group Bonus)\nDuo:\n*{{Money|750}}\n*{{Money|850}} (Group Bonus)\nTrio:\n*{{Money|600}}\n*{{Money|700}} (Group Bonus)",
+          "rewards": "{{Gem|400}}, {{Exp|400}} & {{TowerExp|350}}",
+          "time": "40:00"
         },
         "positional": []
       }
     ],
     "likely_infobox": {
-      "name": "TowerInfobox",
+      "name": "ModeInfobox",
       "params": {
-        "title": "Engineer",
-        "image-static": "EngineerIcon.png",
-        "image-dynamic": "EngineerDynamic.png",
-        "unlockcost": "{{Gem|4,500}} or {{Robux|1,267}}",
-        "levelrequirement": "{{Level|50}}",
-        "basecost": "{{Money|600}}",
-        "basesellingprice": "{{Money|200}}",
-        "role": "Defense",
-        "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
-        "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])",
-        "baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)",
-        "lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
-        "flying_detection": "{{Attr|Fly|Level 0+}} (Tower only)<ref name=\"fd\">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>",
-        "immune": "Stun (Level 5+, units with shield only)<br/>Debuff (Units only)",
-        "footprint": "1.5",
-        "pvp_basecost": "{{Money|700}}",
-        "pvp_basesellingprice": "{{Money|233}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])",
-        "pvp_damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 6)",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)",
-        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Tower & Splash only)",
-        "pvp_flying_detection": "{{Attr|Fly|Level 2+}} (Tower only)<ref name=\"fd\"/>",
-        "pvp_immune": "Stun (Level 4+, units with shield only)<br/>Debuff (Units only)",
-        "pvp_footprint": "1.5",
-        "tooltip-1": "A well-rounded tower that takes time to ramp up and build its turrets but can create a strong defensive line with great coverage once its turrets are setup.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]], [[Lead (Attribute)|lead]], and [[flying]] enemies."
+        "title1": "{{Color|HardcoreMode}}",
+        "image1": "Hardcore2026Icon.png",
+        "waves": "45",
+        "level_requirement": "{{Level|50}}",
+        "starting_cash": "Solo:\n*{{Money|900}}\n*{{Money|1,000}} (Group Bonus)\nDuo:\n*{{Money|750}}\n*{{Money|850}} (Group Bonus)\nTrio:\n*{{Money|600}}\n*{{Money|700}} (Group Bonus)",
+        "rewards": "{{Gem|400}}, {{Exp|400}} & {{TowerExp|350}}",
+        "time": "40:00"
       },
       "positional": []
     },
-    "template_count": 360
+    "template_count": 112
   },
   "conflicts": {
     "priority_rule": {
@@ -1701,223 +215,7 @@
         "infobox_or_summary"
       ]
     },
-    "potential_conflicts": [
-      {
-        "mode": "regular",
-        "level": 1,
-        "field": "range",
-        "upgrade_implied": 4.0,
-        "statistics_table_claim": 1.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+3 Range"
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "field": "range",
-        "upgrade_implied": 3.0,
-        "statistics_table_claim": 1.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+2 Range"
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "field": "range",
-        "upgrade_implied": 5.0,
-        "statistics_table_claim": 2.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+3 Range"
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "field": "range",
-        "upgrade_implied": 1.0,
-        "statistics_table_claim": 2.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "-1 Build Range"
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "field": "damage",
-        "upgrade_implied": 90.0,
-        "statistics_table_claim": 3.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+10 Damage"
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "field": "range",
-        "upgrade_implied": 4.5,
-        "statistics_table_claim": 24.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+1.5 Range"
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "field": "range",
-        "upgrade_implied": 2.0,
-        "statistics_table_claim": 24.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "-1 Build Range"
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "field": "tick",
-        "upgrade_claim": 0.6,
-        "statistics_table_claim": 60.0,
-        "preferred_source": "upgrade_template",
-        "type": "set_mismatch",
-        "claim_text": "0.75 > 0.6 Firerate"
-      },
-      {
-        "mode": "pvp",
-        "level": 1,
-        "field": "range",
-        "upgrade_implied": 3.0,
-        "statistics_table_claim": 1.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+2 Range"
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "field": "range",
-        "upgrade_implied": 3.0,
-        "statistics_table_claim": 2.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+2 Range"
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "field": "damage",
-        "upgrade_implied": 20.0,
-        "statistics_table_claim": 22.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+4 Damage"
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "field": "range",
-        "upgrade_implied": 5.0,
-        "statistics_table_claim": 2.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+3 Range"
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "field": "damage",
-        "upgrade_implied": 32.0,
-        "statistics_table_claim": 6.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+10 Damage"
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "field": "damage",
-        "upgrade_implied": 24.0,
-        "statistics_table_claim": 8.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+18 Damage"
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "field": "range",
-        "upgrade_implied": 22.0,
-        "statistics_table_claim": 24.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+2 Range"
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "field": "range",
-        "upgrade_implied": 19.5,
-        "statistics_table_claim": 24.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "-0.5 Deadzone Range"
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "field": "tick",
-        "upgrade_claim": 0.6,
-        "statistics_table_claim": 28.0,
-        "preferred_source": "upgrade_template",
-        "type": "set_mismatch",
-        "claim_text": "0.75 > 0.6 Firerate"
-      },
-      {
-        "mode": "regular",
-        "level": 0,
-        "field": "damage",
-        "infobox_claim": 2.0,
-        "statistics_table_claim": 4.0,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
-      },
-      {
-        "mode": "regular",
-        "level": 0,
-        "field": "tick",
-        "infobox_claim": 1.0,
-        "statistics_table_claim": 1.4,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
-      },
-      {
-        "mode": "regular",
-        "level": 0,
-        "field": "range",
-        "infobox_claim": 1.5,
-        "statistics_table_claim": 1.0,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
-      },
-      {
-        "mode": "pvp",
-        "level": 0,
-        "field": "damage",
-        "infobox_claim": 2.0,
-        "statistics_table_claim": 4.0,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
-      },
-      {
-        "mode": "pvp",
-        "level": 0,
-        "field": "tick",
-        "infobox_claim": 0.45,
-        "statistics_table_claim": 1.2,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
-      }
-    ],
+    "potential_conflicts": [],
     "notes": [
       "Different upgrade levels can legitimately differ.",
       "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
@@ -1926,53 +224,37 @@
   "categories": [
     {
       "ns": 14,
-      "title": "Category:Defense"
+      "title": "Category:Articles with improvement reason"
     },
     {
       "ns": 14,
-      "title": "Category:Ground"
+      "title": "Category:Gamemodes"
     },
     {
       "ns": 14,
-      "title": "Category:Towers"
+      "title": "Category:Marked for Improvement"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Pages with broken file links"
     }
   ],
   "backlinks": [
     {
+      "title": "Waves",
+      "pageid": 104
+    },
+    {
       "title": "How to Play",
       "pageid": 119
-    },
-    {
-      "title": "Towers",
-      "pageid": 122
-    },
-    {
-      "title": "Scout",
-      "pageid": 123
-    },
-    {
-      "title": "Soldier",
-      "pageid": 124
     },
     {
       "title": "Sniper",
       "pageid": 125
     },
     {
-      "title": "Minigunner",
-      "pageid": 162
-    },
-    {
       "title": "Freezer",
       "pageid": 185
-    },
-    {
-      "title": "Ranger",
-      "pageid": 193
-    },
-    {
-      "title": "Pyromancer",
-      "pageid": 195
     },
     {
       "title": "Military Base",
@@ -1983,166 +265,186 @@
       "pageid": 198
     },
     {
-      "title": "Commander",
-      "pageid": 199
-    },
-    {
       "title": "Militant",
       "pageid": 200
-    },
-    {
-      "title": "Paintballer",
-      "pageid": 202
     },
     {
       "title": "Crook Boss",
       "pageid": 226
     },
     {
-      "title": "Demoman",
-      "pageid": 239
+      "title": "Molten Boss",
+      "pageid": 284
     },
     {
-      "title": "Shotgunner",
-      "pageid": 275
+      "title": "Molten",
+      "pageid": 286
     },
     {
-      "title": "Gladiator",
-      "pageid": 302
+      "title": "Tank 2",
+      "pageid": 287
     },
     {
-      "title": "Rocketeer",
-      "pageid": 307
+      "title": "Grave Digger (Legacy)",
+      "pageid": 294
     },
     {
-      "title": "Sentry",
-      "pageid": 392
+      "title": "Normal",
+      "pageid": 348
     },
     {
-      "title": "Badlands",
-      "pageid": 403
+      "title": "Strong",
+      "pageid": 397
+    },
+    {
+      "title": "Harbor",
+      "pageid": 442
+    },
+    {
+      "title": "Cyber City",
+      "pageid": 443
+    },
+    {
+      "title": "Nether",
+      "pageid": 445
     },
     {
       "title": "Turret",
       "pageid": 454
     },
     {
+      "title": "Medieval Times",
+      "pageid": 479
+    },
+    {
+      "title": "Speedy",
+      "pageid": 480
+    },
+    {
+      "title": "Slow",
+      "pageid": 481
+    },
+    {
+      "title": "Robloxia",
+      "pageid": 482
+    },
+    {
+      "title": "Hidden",
+      "pageid": 484
+    },
+    {
+      "title": "Normal Boss",
+      "pageid": 486
+    },
+    {
       "title": "Mystery",
       "pageid": 488
+    },
+    {
+      "title": "Necromancer (Legacy Enemy)",
+      "pageid": 490
+    },
+    {
+      "title": "Slow Boss",
+      "pageid": 491
+    },
+    {
+      "title": "Hidden Boss",
+      "pageid": 492
+    },
+    {
+      "title": "Shock",
+      "pageid": 493
+    },
+    {
+      "title": "Speedy Boss",
+      "pageid": 494
+    },
+    {
+      "title": "Super Mystery",
+      "pageid": 496
+    },
+    {
+      "title": "Crossroads",
+      "pageid": 500
+    },
+    {
+      "title": "Mystery Summoner",
+      "pageid": 504
     },
     {
       "title": "Boomer",
       "pageid": 505
     },
     {
-      "title": "Fallen Hero (Legacy)",
-      "pageid": 534
+      "title": "Necromancer 2",
+      "pageid": 506
     },
     {
-      "title": "Commando",
-      "pageid": 599
+      "title": "Blighted (Legacy)",
+      "pageid": 507
     },
     {
-      "title": "Codes",
-      "pageid": 657
+      "title": "Tank",
+      "pageid": 508
     },
     {
-      "title": "Splash Damage",
-      "pageid": 1007
+      "title": "Boomer 2",
+      "pageid": 509
     },
     {
-      "title": "Medic",
-      "pageid": 1545
+      "title": "Carrier",
+      "pageid": 510
     },
     {
-      "title": "Hunter",
-      "pageid": 1546
+      "title": "Controlled",
+      "pageid": 511
     },
     {
-      "title": "Fallen",
-      "pageid": 1613
+      "title": "Chained Boss",
+      "pageid": 512
     },
     {
-      "title": "Fallen Guardian (Legacy)",
-      "pageid": 1614
+      "title": "Witch Doctor",
+      "pageid": 513
     },
     {
-      "title": "Fallen King (Legacy)",
-      "pageid": 1615
+      "title": "Infernal Abyss",
+      "pageid": 515
     },
     {
-      "title": "Error",
-      "pageid": 1616
+      "title": "Gold Titan",
+      "pageid": 526
     },
     {
-      "title": "Slasher",
-      "pageid": 1752
+      "title": "Shrike Crystal",
+      "pageid": 527
     },
     {
-      "title": "DJ Booth",
-      "pageid": 2235
+      "title": "Tombstone",
+      "pageid": 528
     },
     {
-      "title": "Ace Pilot",
-      "pageid": 2469
+      "title": "Golden",
+      "pageid": 529
     },
     {
-      "title": "Hidden Wave",
-      "pageid": 2531
+      "title": "Knight (The Heights)",
+      "pageid": 530
     },
     {
-      "title": "Mortar",
-      "pageid": 2730
+      "title": "Stone Viking",
+      "pageid": 531
     },
     {
-      "title": "Frost Blaster",
-      "pageid": 2732
-    },
-    {
-      "title": "Archer",
-      "pageid": 2747
-    },
-    {
-      "title": "Electroshocker",
-      "pageid": 3751
-    },
-    {
-      "title": "Warden (Modern Enemy)",
-      "pageid": 4117
-    },
-    {
-      "title": "Swarmer",
-      "pageid": 4581
-    },
-    {
-      "title": "Pursuit",
-      "pageid": 6735
-    },
-    {
-      "title": "Mecha Base",
-      "pageid": 7179
-    },
-    {
-      "title": "War Machine",
-      "pageid": 7181
-    },
-    {
-      "title": "Cowboy",
-      "pageid": 7565
-    },
-    {
-      "title": "Units",
-      "pageid": 9458
-    },
-    {
-      "title": "Humvee",
-      "pageid": 9668
+      "title": "Crystalite",
+      "pageid": 532
     }
   ],
   "templates": [
     {
       "ns": 10,
-      "title": "Template:Tabs",
+      "title": "Template:ModeTabs",
       "exists": true
     },
     {
@@ -2152,22 +454,27 @@
     },
     {
       "ns": 10,
-      "title": "Template:SameName",
+      "title": "Template:Improve",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:TowerInfobox",
+      "title": "Template:Improve/border.css",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Gem",
+      "title": "Template:Notice",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Robux",
+      "title": "Template:ModeInfobox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
       "exists": true
     },
     {
@@ -2182,77 +489,112 @@
     },
     {
       "ns": 10,
-      "title": "Template:Attr",
+      "title": "Template:Gem",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:AttrTag",
+      "title": "Template:Exp",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:AttrTag/styles.css",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:QuoteContainer",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:QuoteBox",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:PVPTabber",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:PathTabber/style.css",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Tabber",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Upgrade",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Hidden",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:CollapsibleUpgrade",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Flying",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Neow",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Color",
+      "title": "Template:TowerExp",
       "exists": true
     },
     {
       "ns": 10,
       "title": "Template:Coins",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Badge",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Badge/float.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Badge/data",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TimeScaleTicket",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:SpinTicket",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:LoveLetter",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:SolarShard",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Shards",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bell",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:DuckyEggs",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:BeachBalls",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:GumDrops",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:PlushieSnowman",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bunz",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteDiff",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteDiff/styles.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Soundtrack",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:GalleryHeader",
       "exists": true
     },
     {
@@ -2272,17 +614,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:Tooltip",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:TowerNavBox",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:TowerNavBox/labels.css",
+      "title": "Template:ModeNavBox",
       "exists": true
     },
     {
@@ -2292,115 +624,57 @@
     },
     {
       "ns": 828,
-      "title": "Module:NumName",
+      "title": "Module:Roapid",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:Tabber",
+      "title": "Module:Roapid/badges-3068686954467604.json",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:Randomizer",
+      "title": "Module:Roapid/badges-2124629158.json",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:StripNaked",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Neowbunto",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Tipgen",
+      "title": "Module:Roapid/badges-2124597827.json",
       "exists": true
     }
   ],
   "related_pages": [
     {
-      "title": "Engineer (Narrator)",
+      "title": "Hardcore Mode/Rewards",
       "score": 3,
-      "pageid": 55740,
-      "latest_revid": 589062,
-      "latest_timestamp": "2026-08-02T15:46:49Z",
-      "wikitext_excerpt": "{{SameName|Engineer|[[Engineer|Tower]] • '''Narrator'''}}\n{{NarratorInfobox\n|title1 = Engineer\n|image1 = EngineerNeutral.gif\n|type = Animated\n|appearances = [[Hardcore Mode]]<br>[[Voidcore Mode]]<br>[[The Narratorium]]\n|animations = 6\n|voice = [https://x.com/skylarxene Sky Santacruz]\n}}\n{{QuoteContainer|\n{{QuoteBox|Ugh—...you know what, I'm fine with this. The whole 'last stand' thing. Maybe if I beat this guy I could earn enough brownie points to get the funding for a new build I've been working on.|audio = HardcoreWave43-2.ogg|'''Engineer''' on Wave 43 ([[Hardcore Mode|Hardcore]])}}\n}}\n\n==Description==\nThe '''Engineer''' is a narrator that appears in [[Hardcore Mode|Hardcore]] mode and [[Voidcore Mode|Voidcore]] mode. She also appeared in [[The Narratorium]] as part of [[The Final Act Event]].\n\nShe is a member of the [[T.D.S. Organization]] who primarily focuses on engineering machines, vehicles, manufacturing weapons and other industries situated in her factory.\n\n==Appearance== \nThe '''Engineer''' takes the appearance of the Level 2 Default [[Engineer]]. She has tan skin, lavender hair tied in a ponytail, a white shirt covered by salmon overalls, a maroon belt with a golden belt buckle, two golden leg buckles, black boots, gloves, goggles and a radio pack on her back. \n\nShe can be seen wielding a wrench in three of her animations.\n\n==Animations==\n{| class=\"article-table pad-5 align-center\" style=\"width:95%; margin: 0 auto\"\n!Neutral\n!Angry\n!Disappointed\n|-\n|[[File:EngineerNeutral.gif|center|thumb|175px]]\n|[[File:EngineerAngry.gif|center|thumb|175px]]\n|[[File:EngineerDisappointed.gif|center|thumb|175px]]\n|-\n!Teach\n!Scared\n!Despair\n|-\n|[[File:EngineerTeach.gif|center|thumb|175px]]\n|[[File:EngineerScared.gif|center|thumb|175px]]\n|[[File:EngineerDespair.gif|center|thumb|175px]]\n|}\n\n==Trivia==\n*The '''Engineer''' is the second tower to become a narrator, the first being [[Commander (Narrator)|Commander]].\n**She is also the second tower to be given a voice actor.\n*The '''Engineer''' is implied to be of Hispanic descent, as she has a Spanish accent and speaks a few lines of Spanish in [[Hardcore Mode|Hardcore]] mode.\n\n==Update History==\n*'''20 December 2025''' - [[v1.83.0]]a\n**'''Engineer''' added.\n*'''11 March 2026''' - [[v1.86.0]]\n**'''Engineer''' removed.\n*'''5 June 2026''' - [[v2.0.0]]\n**Scared and despair animations added.\n\n\n\n{{NarratorNavBox}}\n{{DISPLAYTITLE:Engineer}}\n[[Category:Characters]]"
+      "pageid": 41180,
+      "latest_revid": 582404,
+      "latest_timestamp": "2026-07-30T14:07:39Z",
+      "wikitext_excerpt": "{{ModeTabs|Rewards|Story = No}}\n{{Improve|Missing triumph rewards}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''17 July 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Gems Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Gem|150}} ÷ (1 + [(45 ÷ Current Wave) - 1]^3.5) + {{Gem|250}} (Triumph Bonus)\n|{{Exp|200}} ÷ (1 + [(45 ÷ Current Wave) - 1]) + {{Exp|200}} (Triumph Bonus)\n|{{TowerExp|160}} ÷ (1 + [(45 ÷ Current Wave) - 1]) + {{TowerExp|190}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Hardcore''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:\n*TBA\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''5 June 2026 – 17 July 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Gems Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Gem|150}} ÷ (1 + [(45 ÷ Current Wave) - 1]^1.3) + {{Gem|150}} (Triumph Bonus)\n|{{Exp|200}} ÷ (1 + [(45 ÷ Current Wave) - 1]) + {{Exp|200}} (Triumph Bonus)\n|{{TowerExp|160}} ÷ (1 + [(45 ÷ Current Wave) - 1]) + {{TowerExp|190}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Hardcore''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:\n*TBA\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''25 September 2024 – 5 June 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n|-\n!Gem Reward\n!EXP Reward\n|-\n|({{Gem|100}} × (Waves/50)^1.75 + {{Gem|150}} (Triumph Only)) × 1.2\n|({{Exp|300}} × (Waves/50)^1.75 + {{Exp|34}} (Triumph Only)) × 1.2\n|}\n\n==Triumph Rewards==\nTriumphing '''Hardcore''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:\n*{{Color|Common}} (40%)\n**{{TimeScaleTicket|Time Scale Ticket}} (1-2)\n**[[Grenade]] (1-3)\n**[[Flash Bang]] (1-3)\n**[[Molotov]] (1-3)\n*{{Color|Uncommon}} (30%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]] (1-2)\n**[[Supply Drop]] (1-2)\n**[[AirStrike]] (1-2)\n*{{Color|Rare}} (20%)\n**[[Mid Grade Crate]]\n**[[Napalm Strike]]\n**[[Blizzard Bomb]]\n**[[UAV]]\n*{{Color|Legendary}} (10%)\n**[[High Grade Crate]]\n**[[Nuke]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''19 July 2024 – 25 September 2024'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n|-\n!Gem Reward\n!EXP Reward\n|-\n|({{Gem|100}} × (Waves/50)^1.75 + {{Gem|150}} (Triumph Only)) × 1.2\n|Wave 1-9: (Waves Completed × {{Exp|1.5}}) × 1.2<br/>Wave 10-50: (Waves Completed × {{Exp|3}}) × 1.2\n|}\n\n==Triumph Rewards==\nTriumphing '''Hardcore''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:\n*{{Color|Common}} (40%)\n**{{TimeScaleTicket|Time Scale Ticket}} (1-2)\n**[[Grenade]] (1-3)\n**[[Flash Bang]] (1-3)\n**[[Molotov]] (1-3)\n*{{Color|Uncommon}} (30%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]] (1-2)\n**[[Supply Drop]] (1-2)\n**[[AirStrike]] (1-2)\n*{{Color|Rare}} (20%)\n**[[Mid Grade Crate]]\n**[[Napalm Strike]]\n**[[Blizzard Bomb]]\n**[[UAV]"
     },
     {
-      "title": "Engineer Plush",
+      "title": "Hardcore Mode/Waves",
       "score": 3,
-      "pageid": 37098,
-      "latest_revid": 468138,
-      "latest_timestamp": "2026-06-05T07:47:18Z",
-      "wikitext_excerpt": "{{MerchShopWarning}}\n{{Toy\n|image1 = EngineerPlush.png\n|release_date = 24 November 2023\n|virtual_item = {{Color|Other|Plushie}} [[Engineer]] skin\n|toy_type = Plushie\n}}\n__TOC__\n==Description==\nThe '''Engineer Plush''' is an official Paradoxum Games toy. It was made by Juniper Creates™. The plushie offers the Default Level 6 [[Engineer]]. AAnybody who bought the toy from the in-game Merch Store will receive the {{Color|Other|Plushie}} skin for the [[Engineer]].  If bought on the [https://shop.paradoxum.games/ Paradoxum Games store], it will not come with any rewards.\n\nThe rebar launcher of the '''Engineer Plush''' is detachable. It is made out of plush fabric and polypropylene cotton, its size measures 12 inches (30.48 cm) tall, 10.5 inches (26.67 cm) wide and 7.48 inches (19 cm) long. A tree is planted for every order of the '''Engineer Plush'''.\n\n==Official Description==\n*'''Online (Third)'''\n*:This Engineer Plush is armed and ready and you know her aim is steady. Her weapon is attachable via Velcro for a quick setup when she needs to defend. This plush does not include an in-game reward. \n*'''Online (Second)'''\n*:This Engineer Plush is armed and ready and you know her aim is steady. Her weapon is attachable via Velcro for a quick setup when she needs to defend. The in-game reward is only included with purchases made in Roblox. Items purchased from shop.paradoxum.games do not include an in-game reward.\n*'''Online (First)'''\n*:This Engineer Plush is armed and ready - you know her aim is steady. Her weapon is attachable via Velcro for a quick setup when she needs to defend.\n\n==Prices & Stores==\nPrices vary by country due to shipping costs and local currency. The '''Engineer Plush''' can be purchased on the official [https://shop.paradoxum.games/ Paradoxum Games online store] for for $34.99. If bought as part of the Engineer Bundle, which also includes the [[Engineer]] pin, it costs $43.18.\n\nBefore April 2025, the '''Engineer Plush''' could be purchased for $29.99, while the bundle could be purchased for $35.98. During the Black Friday 2024 Sale, it could be bought for $22.49, while the bundle had a cost of $23.83. During the Black Friday 2025 Sale, it could be bought for $28.99.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Showcase}}\n<gallery>\nEngineerPlushShowcase1.png\nEngineerPlushShowcase2.png\nEngineerPlushShowcase3.png\nEngineerPlushShowcase4.png\nEngineerPlushShowcase5.png\nEngineerPlushShowcase6.png\nEngineerPlushShowcase7.png\nEngineerPlushShowcase8.png\nEngineerPlushShowcase9.png\nEngineerPlushShowcase10.png\nEngineerPlushShowcase11.png\nEngineerPlushShowcase12.png\n</gallery>\n}}\n\n\n\n{{ToyNavBox}}\n[[Category:Plushies]]"
+      "pageid": 16452,
+      "latest_revid": 618701,
+      "latest_timestamp": "2026-08-19T16:01:40Z",
+      "wikitext_excerpt": "<noinclude>{{ModeTabs|Waves|Story = No}}</noinclude>These are the current and former wave layouts for '''Hardcore''' mode. It can only be played by using the [[Elevators|Hardcore Elevator]] or the hardcore [[Matchmaking]] button at the bottom screen. \n\n'''Bolded''' names indicates an enemy type's debut.\n\n''(Note that two enemies or more may be separated in spawning time by a long period of time. For example, the [[Fallen Guardian (Legacy)|Fallen Guardian]]s on wave 50 used to be separated in spawn by a long period of time.)''\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''5 June 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n{| class=\"wikitable pad-10\" style=\"width:100%; text-align: center;\"\n!Wave\n! colspan=\"2\" |Dialogue\n!Enemy Type & Amount\n!Time & Skip\n|-\n| rowspan=\"2\" |1\n| style=\"width:75px;\" |[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]\n|Not good. NOT good. V, watch The Gate! We've just been spotted by some enemies!<br/>[[File:HardcoreWave1-1.ogg|300px]]\n| rowspan=\"2\" |3x '''[[Odd]]''', 3x '''[[Swift]]'''\n| rowspan=\"2\" |0:15 (0:05)\n|-\n|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]\n|Enemies? There's no way. You're so far down inside the Nil Zone's depths that nothing could survive in there. Hold on, we're setting up a portal.<br/>[[File:HardcoreWave1-2.ogg|300px]]\n|-\n|2\n| colspan=\"2\" | -\n|7x [[Odd]]\n|0:15 (0:05)\n|-\n| rowspan=\"2\" |3\n|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]\n|Come on, V! Get us an exit, NOW! If we're surrounded, there won't be a chance to run.<br/>[[File:HardcoreWave3-1.ogg|300px]]\n| rowspan=\"2\" |5x [[Swift]]\n| rowspan=\"2\" |0:15 (0:05)\n|-\n|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]\n|We're doing everything we can!<br/>[[File:HardcoreWave3-2.ogg|300px]]\n|-\n|4\n| colspan=\"2\" | -\n|4x '''[[Hefty]]''', 5x [[Odd]]\n|0:20 (0:06)\n|-\n| rowspan=\"2\" |5\n|[[File:CommanderHardcoreThinking.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]\n|It's too late to backtrack. They've already cut off where The Void's entrance is. Have Hacker send in the recon drones and figure out where we are.<br/>[[File:HardcoreWave5-1.ogg|300px]]\n| rowspan=\"2\" |2x [[Hefty]] ([[Bloated]]), 4x [[Swift]] ([[Bloated]])\n| rowspan=\"2\" |0:20 (0:06)\n|-\n|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]\n|Already on it.<br/>[[File:HardcoreWave5-2.ogg|300px]]\n|-\n|6\n| colspan=\"2\" | -\n|3x [[Odd]] ([[Bloated]]), 6x [[Hefty]]\n|0:20 (0:06)\n|-\n|7\n|[[File:EngineerTeach.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]\n|Commander, Narrator told us that this place is hidden deep within the Nil Zone. The rifts act differently at these depths.<br/>[[File:HardcoreWave7-1.ogg|300px]]\n|3x [[Hefty]] ([[Health Regen]]), 6x [[Odd]], 4x [[Swift]] ([[Bloated]])\n|0:25 (0:08)\n|-\n|8\n|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]\n|That's why we need to study the Void Rifts. If we can figure out how they're formed, then maybe we can also figure out how to prevent them.<br/>[[File:HardcoreWave8-1.ogg|300px]]\n|1x '''[[Mandrake]]''', 4x [[Hefty]], 5x [[Odd]] ([[Bloated]])\n|0:25 (0:08)\n|-\n|9\n|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]\n|There are some insane-looking enemies up ahead. Some of them we can barely see, but — Ugh! Come on! Whatever they are, some keep flying up and destroying all the drones!<br/>[[File:HardcoreWave9-1.ogg|300px]]\n|12x [[Hefty]]\n|0:25 (0:08)\n|-\n|10\n| colspan=\"2\" | -\n|7x '''[[Phantom]]'''\n|0:20 (0:06)\n|-\n|11\n| colspan=\"2\" | -\n|6x [[Hefty]] ([[Nimble]]), 1x [[Mandrake]], 6x [[Swift]] ([[Nimble]])\n|0:20 (0:06)\n|-\n| rowspan=\"3\" |12\n|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]\n|I want them out of the sky! Shoot them down!<br/>[[File:HardcoreWave12-1.ogg|300px]]\n| rowsp"
     },
     {
-      "title": "Engineer/Gallery",
-      "score": 3,
-      "pageid": 30058,
-      "latest_revid": 648656,
-      "latest_timestamp": "2026-09-09T21:29:16Z",
-      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|{{UpgradeIcons\n|[[File:Engineer_Level_1.png|125px]]\n|[[File:Radar.png|125px]]\n|[[File:Engi3.png|125px|class=image-shadow-light]]\n|[[File:Engineer_Level_5.png|125px]]\n|[[File:Engi4.png|125px]]\n|[[File:Engineerupgrade6.jpg|125px]]\n}}\n|17 April 2022 – 11 February 2026\n|{{UpgradeIcons\n|[[File:Engineer_Level_1.png|125px]]\n|[[File:Radar.png|125px]]\n|[[File:Engi3.png|125px|class=image-shadow-light]]\n|[[File:Engi4.png|125px]]\n|[[File:Engineer_Level_5.png|125px]]\n|[[File:Engineerupgrade6.jpg|125px]]\n}}\n}}\n\n==Skin Upgrades==\nThe '''Engineer''' has seventeen skins in total. These include:\n#The Default skin.\n#Four skins that can be unlocked from [[Skincrates]].\n#Five skins that can be unlocked from [[Passes]].\n#Three skins that can be unlocked from both [[Skincrates]] and [[Passes]].\n#One skin that can be unlocked from the Merch Shop.\n#Two skins that can only be purchased through the [[Daily Store#Daily Skin Store|Daily Store]].\n#One skin that can be obtained through [[Mission Quests]].\n{{Tabber\n|Default\n|{{SkinGalleryUnit\n|Title1 = Default\n|Icon1 = [[File:DefaultEngineerIconIGAug26.png|128px]]\n|[[File:DefaultEngineer0.png|200px]]\n|[[File:SentryUnit.png|200px]]<br/>[[Sentry (Unit)|Sentry]]\n|Tan skin, white shirt covered by salmon overalls, maroon belt with a golden belt buckle, two golden leg buckles, black boots and lavender hair.\n\nWields a black rebar launcher to attack enemies and a wrench to build sentries.\n|[[File:DefaultEngineer01.png|200px]]\n|[[File:SentryUnit.png|200px]]<br/>[[Sentry (Unit)|Sentry]]\n|Black gloves.\n\nNow wields a rebar launcher with a sight.\n|[[File:DefaultEngineer02.png|200px]]\n|[[File:Rifle Sentry.png|200px]]<br/>[[Rifle Sentry]]\n|Goggles and a radio pack on its back.\n|[[File:DefaultEngineer3.png|200px]]\n|[[File:Rifle Sentry.png|200px]]<br/>[[Rifle Sentry]]\n|Maroon vest with pouches.\n|[[File:DefaultEngineer4.png|200px]]\n|[[File:Minigun Sentry.png|200px]]<br/>[[Minigun Sentry]]\n|Now wields a rebar launcher with a gas tank.\n|[[File:DefaultEngineer5.png|200px]]\n|[[File:Minigun Sentry.png|200px]]<br/>[[Minigun Sentry]]\n|Salmon and yellow construction helmet, and yellow coat tied around waist.\n|[[File:DefaultEngineer06.png|200px]]\n|[[File:WarMachineSentry.png|200px]]<br/>[[War Machine Sentry]]\n|Sleeves removed.\n\nBandages on right shoulder and salmon colored prosthetic left arm with glowing yellow highlights.\n\nNow wields a black and yellow rebar launcher with a scope and multiple neon yellow parts.\n}}\n<gallery>\nDefaultWarMachineTeddy.png|[[War Machine Sentry]] with a teddy bear.\n</gallery>\n|Ducky\n|The {{Color|Ducky|Ducky}} skin is obtained from the [[Ducky Crate|{{Color|Ducky|Ducky Crate}}]]. It was also obtained from Rank 9 of the [[Duck Hunt Event#Hunting Season Pass|Hunting Season]].\n{{SkinGalleryUnit\n|Title1 = {{Color|Ducky|Ducky}}\n|Icon1 = [[File:DuckyEngineerIconIGAug26.png|128px]]\n|[[File:DuckyEngi0.png|200px]]\n|[[File:SentryUnit.png|200px]]<br/>[[Sentry (Unit)|Sentry]]\n|Pale skin, black shirt covered by light orange overalls, black belt with a silver belt buckle, two silver leg buckles, black boots and dark red hair.\n\nWields a black rebar launcher to attack enemies and a wrench to build sentries.\n|[[File:DuckyEngi1.png|200px]]\n|[[File:SentryUnit.png|200px]]<br/>[[Sentry (Unit)|Sentry]]\n|Black gloves.\n\nNow wields a rebar launcher with a sight.\n|[[File:DuckyEngi2.png|200px]]\n|[[File:Rifle Sentry.png|200px]]<br/>[[Rifle Sentry]]\n|Goggles on top of its head and a radio pack on its back.\n|[[File:DuckyEngi3.png|200px]]\n|[[File:Rifle Sentry.png|200px]]<br/>[[Rifle Sentry]]\n|Light orange vest with pouches.\n|[[File:DuckyEngi4.png|200px]]\n|[[File:Minigun Sentry.png|200px]]<br/>[[Minigun Sentry]]\n|Now wields a rebar launcher with a gas tank.\n|[[File:DuckyEngi5.png|200px]]\n|[[File:Minigun Sentry.png|200px]]<br/>[[Minigun Sentry]]\n|Black and light orange ducky construction helmet, and light red coat tied around waist.\n|[[File:DuckyEngi6.png|200px]]\n|[[File:WarMachineSentr"
-    },
-    {
-      "title": "Engineer/History",
-      "score": 3,
-      "pageid": 33066,
-      "latest_revid": 618678,
-      "latest_timestamp": "2026-08-19T13:32:49Z",
-      "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''8 June 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:EngineerIcon.png|100px]]\n|Unlock Cost = {{Gem|4,500}}\n|Category = Hardcore\n|Role = Defense\n|Cost = {{Money|600}}\n|Footprint = 1.5\n|Sell Price = {{Money|200}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])\n|Damage Type = Single<br/>[[Splash Damage|Splash]] (Level 6)\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])\n|Hidden = {{Hidden|Hidden Detection}}Level 2+ (Tower only)<ref name=\"Hidden\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target hidden enemies.</ref>\n|Range = [[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)\n|Lead = {{Lead|Lead Detection}}Level 0+ (Tower & Splash only)\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]6\n|Fly = {{Flying|Flying Detection}}Level 2+ (Tower only)<ref name=\"Flying\">Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>\n|PVP Cost = {{Money|700}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|233}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])\n|PVP Damage Type = Single<br/>[[Splash Damage|Splash]] (Level 6)\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])\n|PVP Hidden = {{Hidden|Hidden Detection}}Level 2+ (Tower only)<ref name=\"Hidden\"/>\n|PVP Range = [[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)\n|PVP Lead = {{Lead|Lead Detection}}Level 0+ (Tower & Splash only)\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]6\n|PVP Fly = {{Flying|Flying Detection}}Level 2+ (Tower only)<ref name=\"Flying\"/>\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Precise Calculations|Cost = {{Money|325}}|Image = [[File:Engineer_Level_1.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|308}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Makeshift Radar|Cost = {{Money|900}}|Image = [[File:Radar.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range Icon.png|20px|Range]]\n\n•400 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•32 Scrap Meter\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|608}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Auto Converter|Cost = {{Money|2,077}}|Image = [[File:Engi3.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Units\n\n1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,300}}}}\n{{Upgrade|Level = Level 4|Upgra"
-    },
-    {
-      "title": "Damage Buff",
-      "score": 2,
-      "pageid": 49629,
-      "latest_revid": 513226,
-      "latest_timestamp": "2026-06-25T11:52:27Z",
-      "wikitext_excerpt": "{{BuffInfobox\n|name = Damage Buff\n|image = Damage Buff.png\n|type = Buff\n|display = Tower\n}}\n\n==Description==\nThe '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.\n\n==Mechanics==\n'''Damage Buff''' range reduction is calculated as:\n::<big>'''Damage × (1 + Damage Buff)'''</big>\n:::where '''Damage Buff''' is the debuff supplied in decimal form (for example, 10% is 0.1).\n\nThe damage increased by the '''Damage Buff''' will always round down to the nearest integer. For example, a tower that deals 5 damage with a 50% '''Damage Buff''' will deal 7 damage, instead of 7.5.\n\nMultiple towers are not fully affected by the buff. A full list of towers affected fully, partially or that are unaffected can be found below.\n{{DamageBuff}}\n\n==Applied By==\nThe following towers or consumables can apply the '''Damage Buff''' to other towers or itself:\n*[[DJ Booth]] (Passive)\n*[[Mercenary Base]] (Passive)\n*[[Damage Flag]] (Passive)\n*[[War Machine]] (Passive)\n*[[Medic]] (''Ubercharge'' ability)\n*[[Warden]] (When parrying)\n\nThe following event features can apply the '''Damage Buff''' to towers:\n\n* [[Justice]] (Passive, [[Null & Void Event|Null & Void]])\n* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\nThe following towers used to have the '''Damage Buff''':\n*{{Color|Golden}} [[Crook Boss]] (Passive)\n*{{Color|Golden}} [[Minigunner]] (Passive)\n*{{Color|Golden}} [[Pyromancer]] (Passive)\n*{{Color|Golden}} [[Scout]] (Passive)\n*{{Color|Golden}} [[Cowboy]] (Passive)\n*[[Militant|John]] (''Enraging Shout'' ability)\n*[[Slasher|Shredder]] (''Knife Throw'' ability)\n*[[Cowboy]] (''Wildest of the West and Gold Rush'' abilities'')''\n*[[Gladiator]] (''Sharp Edge'' ability'')''\n\nThe following tower used to apply the '''Damage Buff''' to other towers:\n*[[Militant|John]] (''Enraging Shout'' ability)\n\nThe following removed towers had the '''Damage Buff''':\n*{{Color|Platinum}} [[Crook Boss]] (Passive)\n*{{Color|Platinum}} [[Minigunner]] (Passive)\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Buff icon}}\n<gallery>\nStronger_Bullets.png|First icon (14 June 2019 – 29 October 2020)\n</gallery>\n}}\n\n==Update History==\n*'''14 June 2019''' - [[BETA v1.1|BETA v1.1.0]]\n**'''Damage Buff''' added.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]\n**'''Damage Buff''' updated, now it can affect far more than just the base damage of the tower.\n**Icon changed.\n**Now displayed on the tower rather than in the upgrade menu.\n*'''12 March 2022''' - [[v1.1.0]]\n**Particles now appear when activated.\n*'''29 March 2024''' - [[v1.17.0]]\n**{{Bug}} Damage buff indicators are sunk into the ground.\n*'''10 May 2024''' - [[v1.19.2]]\n**{{Bugfix}} Damage buff indicators are no longer sunk into the ground.\n\n==Notes==\n<references/>\n\n\n\n{{BuffsNavBox}}"
-    },
-    {
-      "title": "Firerate Bug",
+      "title": "Elite Lead",
       "score": 1,
-      "pageid": 29369,
-      "latest_revid": 629054,
-      "latest_timestamp": "2026-08-27T12:17:15Z",
-      "wikitext_excerpt": "{{Removed|date = 6th of June 2026}}\n{{Improve|this page and majority of tower/unit pages require updating}}\nThe '''Firerate Bug''', also known as the '''RoF (Rate of Fire) Bug''', was a bug that slightly increased the firerate of all towers and units. This increase was not displayed on the statistics in the game. This bug significantly affected the statistics of fast-firing towers, such as the [[Minigunner]] and [[Ace Pilot]], by significantly decreasing their DPS, whereas slow-firing towers like the [[Ranger]] or [[Sniper]] were hardly affected.\n\nThis has been fixed as of the 6th of June 2026, and all firerate statistics in the game are considered to be accurate unless affected by a different unrelated bug.\n\n{{RightTOC}}\n\n==Prior to 5th of June 2026==\nThe '''Firerate Bug''' affects all towers and units that can directly attack enemies, meaning the only towers that are not affected are the [[Farm]], [[Medic]] and the [[Firework Technician]] and the only units that are not affected are the [[Humvee]], [[Humvee 2]], [[Elf]], [[Bomber Elf (Unit)|Bomber Elf]], [[Skeleton (Unit)|Skeleton]], [[Giant Skeleton (Unit)|Giant Skeleton]] and [[Hallow Guard (Unit)|Hallow Guard]]. The '''Firerate Bug''' does not affect the firerate of some secondary attacks towers or units may perform, some damage-over-time effects applied by towers (like burn from the [[Pyromancer]]) or certain other cooldowns.\n\nThe '''Firerate Bug''' increases the firerate of a tower/unit depending on its firerate, which can vary anywhere between 0.017 and 0.032 seconds. The firerate increase affects fast firing towers the most; for example, the [[Minigunner]] at Level 4 should have a firerate of 0.09, but because of the '''Firerate Bug''', it has a firerate of about 0.117, decreasing its DPS from 166.67 to 128.20, which is a decrease of 38.47 DPS, or a loss of about 23.08 DPS. Meanwhile, slow firing towers are barely affected by it; for example, the [[Ranger]] at Level 4 should have a firerate of 8, but because of the '''Firerate Bug''', it has a firerate of about 8.025, decreasing its DPS from 156.26 to 155.76, which is a decrease of 0.30 DPS, or a loss of 0.2% DPS.\n\nThe [[Firerate Buff]] is also affected by the '''Firerate Bug''', making it less effective. For example, the Level 4 [[Minigunner]] without the '''Firerate Bug''' with a 50% firerate boost should have a firerate of 0.06, but with the '''Firerate Bug''' it has a firerate of 0.083. This means that its DPS with a 50% firerate boost is decreased from 250 to 180.72, which is a decrease of 69.28 DPS, or a loss of 27.71% DPS.\n\nOn this Wiki, the firerate statistic of all towers and units is increased by specific values based on the firerate. While technically possible to calculate by hand, due to the effort it would take, it is overall recommended to either use [[Help:Neowtext#ROFBUG|Neowtext]] or [https://fiheron.github.io/dps-calc/ an online calculator].\n\n==Prior to the 9th of January 2023==\nPrior to the 9th of January 2023, the firerate increase caused by the '''Firerate Bug''' for units was higher than it currently is. The firerate increase was generally around 0.03 seconds. For towers, the firerate increase remained at around 0.008 seconds.\n\nOn this Wiki, the firerate statistic of all towers and units after the [[V1.6.0|Violent Night Update]] and before the 9th of January 2023 is increased by 0.008 and 0.03 respectively, unless stated otherwise. This does not, however, mean the actual value is this; it can vary between towers and even between matches.\n\n==Prior to the Violent Night Update==\nPrior to the [[V1.6.0|Violent Night Update]], the firerate increase caused by the '''Firerate Bug''' for units was lower than it was before the [[V1.6.0|Violent Night Update]]. The firerate increases could be anywhere between 0.008 and 0.017 seconds, but the increase was generally around 0.008 seconds. This is the same as the current situation.\n\nOn this Wiki, the firerate statistic of all units after the [[V1.1.0|Entity Syst"
+      "pageid": 61544,
+      "latest_revid": 614783,
+      "latest_timestamp": "2026-08-15T21:31:57Z",
+      "wikitext_excerpt": "{{EnemyTabs}}\n{{Improve|Missing strategy}}\n{{For|other uses of [[Elite (Disambiguation)|Elite]], [[Lead Boss]], the [[Lead (Attribute)|Lead]] attribute or the [[Lead]] enemy}}\n{{Zombie\n|title1 = Elite Lead\n|image1 = <tabber>\n|-|With Covering = [[File:EliteLead1.png]]\n|-|Without Covering = [[File:EliteLead2.png]]\n</tabber>\n|mode_appearance = [[Hardcore Mode|{{Color|HardcoreMode}}]]<br/>[[Voidcore Mode|{{Color|VoidcoreMode|Voidcore}}]]\n|first_wave_appearance = 16 (Hardcore)<br/>17 (Voidcore)\n|base_hp = [[File:HealthIcon.png|20px|Health]]400 (Hardcore)<br/>[[File:HealthIcon.png|20px|Health]]650 (Voidcore)<br/>[[File:HealthIcon.png|20px|Health]]600 (Sandbox)\n|shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]150\n|speed = [[File:SpeedIcon.png|20px|Speed]]Average (3, with coverings)<br/>[[File:SpeedIcon.png|20px|Speed]]Slightly Fast (5, without coverings)\n|cash = {{Money|200}} on death\n|spawned_by = [[Void Keeper]]\n|hidden = No\n|fly = No\n|ghost = No\n|lead = {{Attr|Lead|Yes}} (With covering)\n|immunity = {{Attr|Stun}} (With covering)<br/>{{Attr|Blessed}} (Variable)<br/>{{Attr|Bloated}} (Variable)\n}}\n\n==Description==\nThe '''Elite Lead''' is a tanky [[Lead (Attribute)|Lead]] enemy that appears in [[Hardcore Mode|Hardcore]] and [[Voidcore Mode|Voidcore]] modes. It has high health and average speed. It initially spawns with [[Lead (Attribute)|Lead]], meaning only towers with lead detection can damage it, and with the [[Stun Immunity]], meaning stuns are less effective on it while knockback does not affect it. However, once it loses all of its [[Shield Health]], it will lose its covering and also the [[Lead (Attribute)|Lead]] and [[Stun Immunity]] attributes it has by default. To compensate however, it will increase its speed to 5 once all of its coverings are lost.\n\n==Logbook Description==\n\"''Taking the same concept as the Lead, the Elite Lead are Swifts who have fallen victim to the same process as the Odds. Though, more careful consideration was taken for their armor due to mobility reasons.''\"\n\n==Appearance==\nThe '''Elite Lead''' is a humanoid entirely covered with grey metal armor. Upon losing all of its [[Shield Health]], it will lose its metal coverings, revealing that it is an entity with grey skin, purple substance on its hands and purple veins. In its torso, it has a giant hole with a purple crystal.\n\n==Strategy==\n*The '''Elite Lead''' has the [[Lead (Attribute)|Lead]] attribute until its shield health is depleted.\n**Towers with lead detection like the [[Engineer]] and [[Accelerator]] are required for dealing with the '''Elite Lead'''.\n\n==Gallery==\n{{Gallery|{{GalleryHeader|Trailers}}\n<gallery>\nHardcore Rework Trailer - Tower Defense Simulator|'''Elite Lead''' in the game trailer.\n</gallery>\n\n{{GalleryHeader|Concept Art}}\n<gallery>\nEliteLeadCA.png|'''Elite Lead''' on its concept art.\n</gallery>\n\n{{GalleryHeader|Miscellaneous}}\n<gallery>\nModernEliteLeadIconIG.png|'''Elite Lead''' on its [[Index]] icon.\n</gallery>\n}}\n\n==Trivia==\n*The '''Elite Lead''' is unaffected by enemy appearance [[modifiers]], such as [[Talk Like a Pirate Day]].\n\n==Update History==\n*'''5 June 2026''' - [[v2.0.0]]\n**'''Elite Lead''' added, replacing the [[Lead Boss]].\n\n\n{{Hardcore|[[Lead]]|Wave 14|Elite Lead|Wave 16|[[Mystery]]|Wave 17}}\n{{Voidcore|[[Lead]]|Wave 13|Elite Lead|Wave 15|[[Mystery]]|Wave 16}}\n\n\n\n{{ZombieNavBox}}\n[[Category:Early-Game]]"
     },
     {
-      "title": "Flying",
+      "title": "Freeze Immunity",
       "score": 1,
-      "pageid": 42529,
-      "latest_revid": 639555,
-      "latest_timestamp": "2026-09-03T13:25:42Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Fly.png\n|type = Enemy Type\n|detection = Flying Detection\n|immunities = [[File:VehicleSpawn.png|20px|Collision Damage]]Collision Damage<br/>[[File:TrapperLevel1.png|20px|Road Hazards|link=]]Road Hazards<br/>{{Knockback}}Knockback\n|sandbox = Yes\n|tag = {{AttrTag|Second|Fly.png|Flying}}\n}}\n==Description==\n'''Flying''' is an enemy type that makes the enemy fly above the path, making them avoid being damaged by most things on the path. Towers need flying detection to target these enemies.\n\n==Mechanics==\n'''Flying''' enemies fly above the path, which grants them multiple perks. The main immunity that it grants is requiring flying detection to target them, making it difficult for towers without said detection to damage a '''Flying''' enemy.\n\n'''Flying''' enemies have various other unique immunities that are applied, outside of flying detection:\n\n# They are completely immune to being damaged by unit collision damage, even if they would normally collide with each other.\n#*This includes the [[Gift Bomber]], which cannot collide with '''Flying''' enemies, despite visually passing through '''Flying''' enemies.\n#*Some units, like the [[Rifleman]] or [[Missile APC]], can detect flying enemies, even if they cannot collide with them.\n#They are able to fly over road hazards, namely the [[Trapper]]'s traps and the [[Harvester]]'s thorns (and by extension the [[Farm]]'s).\n#*The [[Commando]]'s missiles, can still affect them.\n#*The [[Barricade]] can collide with '''Flying''' enemies, but they deal unit collision damage. Therefore, '''Flying''' enemies are also immune to this.\n#They are immune to being knocked back by towers. This does not mean they are immune to other effects from attacks that knock back enemies.\n#*For example, the [[DJ Booth]] can still slow down '''Flying''' enemies, even if the purple track cannot knock them back.\n\n'''Flying''' enemies may be indirectly damaged by towers, even if they do not have flying detection. For example, the [[Brawler]]'s ''Reposition'' ability deals damage to '''Flying''' enemies, though due to their knockback immunity it does not knock them back.\n\nIf an enemy is applied the '''Flying''' attribute through [[Sandbox Mode|Sandbox]] mode, and they do not typically have the attribute, all of the said immunities apply to the enemy, even if they visually remain on the ground.\n\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Flying Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\">From Level 0+, its splash damage can indirectly damage '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Demoman]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 4\n|-\n|[[Soldier]] \n| class=\"yes-table\" |Full\n|Level 4<br/>Level 0+ ([[PVP]])\n|-\n| rowspan=\"2\" |[[Shotgunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n| class=\"no-table\" |None\n|N/A ([[PVP]])\n|-\n|[[Freezer]]\n| class=\"no-table\" |None<ref>Its ''Frost Grenade'' ability can indirectly hit '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Pyromancer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"no-table\" |None<ref>Through chaining, it can indirectly hit '''Flying''' enemies, but it can never target them.</ref>\n|N/A\n|-\n|[[Rocketeer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Trapper]]\n"
-    },
-    {
-      "title": "Freezer",
-      "score": 1,
-      "pageid": 185,
-      "latest_revid": 648535,
-      "latest_timestamp": "2026-09-09T19:35:44Z",
-      "wikitext_excerpt": "{{Tabs}}\n{{For|[[Frost Blaster]]|[[Null Freezer]]}}\n{{TowerInfobox\n|title = Freezer\n|image-static = ReworkedFreezerIcon.png\n|image-dynamic = FreezerDynamic.png\n|unlockcost = {{Coins|650}}\n|basecost = {{Money|450}}\n|basesellingprice = {{Money|150}}\n|role = Defense\n|placement = Ground\n|basedamage = [[File:Damage Icon.png|20px|Damage]]2\n|damagetype = Single<br/>Burst (Level 3+)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|baserange = [[File:Range Icon.png|20px|Range]]12\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A\n|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]\n|immune = None\n|footprint = 1.5\n|pvp_basecost = {{Money|450}}\n|pvp_basesellingprice = {{Money|150}}\n|pvp_role = Defense\n|pvp_placement = Ground\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1\n|pvp_damagetype = Single<br/>Burst (Level 3+)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]12\n|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = None\n|pvp_footprint = 1.5\n|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}\n|-|Version 3 =\n{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}\n|-|Version 2 =\n{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}\n|-|Version 1 =\n{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.\n\nThe '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.\n\nAt Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.\n\nThe '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.\n\nThe '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Ma"
-    },
-    {
-      "title": "Freezer/Gallery",
-      "score": 1,
-      "pageid": 10474,
-      "latest_revid": 648664,
-      "latest_timestamp": "2026-09-09T21:41:26Z",
-      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|{{UpgradeIcons\n|[[File:Freezer Upgrade 1.png|150px]]\n|[[File:Freezer Upgrade 2.png|150px]]\n|[[File:Freezer Upgrade 3.png|150px]]\n|[[File:Freezer Upgrade 4.png|150px]]\n|Ability = [[File:Jester Ability.png|150px]]\n}}\n|29 October 2020 – 21 December 2023\n|{{UpgradeIcons\n|[[File:Freezer1.png|150px]]\n|[[File:Freezer2.png|150px]]\n|[[File:Freezer3.png|150px]]\n|[[File:Freezer4.png|150px]]\n|[[File:Freezer5.png|150px]]\n}}\n|24 June 2019 – 29 October 2020\n|{{UpgradeIcons\n|[[File:Freezer1.png|150px]]\n|[[File:Freezer2.png|150px]]\n|[[File:Freezer3.png|150px]]\n|[[File:Freezer4.png|150px]]\n|[[File:Freezer5.png|150px]]\n|Ability = [[File:IceDrop.png|150px]]\n}}\n}}\n\n==Skin Upgrades==\nThe '''Freezer''' has ten skins in total. This includes:\n#The Default skin.\n#Two skins that can be unlocked from [[Skincrates]].\n#One skin that can be unlocked from a [[Codes|Code]].\n#One skin that could have been unlocked from a Roblox [https://www.roblox.com/redeem code].\n#Five skins that can be unlocked from [[Passes]].\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultFreezerIconIGAug26.png|128px]]\n|[[File:KRFreezer0.png|200px]]\n|Very pale skin, blue shirt and cap, black pants, shoes, gloves and belt, and black goggles with blue translucent visor.\n\nWields a cryo pistol to attack enemies.\n|[[File:KRFreezer1.png|200px]]\n|Black duffel bag.\n|[[File:KRFreezer2.png|200px]]\n|Blue scarf, light blue fur around neck, black knee-pads and blue beanie.\n|[[File:KRFreezer3.png|200px]]\n|Black vest and gloves with grey fingers and white wrist.\n\nNow wields a cryo rifle.\n|[[File:KRFreezer4.png|200px]]\n|Frost grenades on belt and black headset.\n\nPants gain pockets and gloves now have white buckles.\n\nNow wields a cryo blaster.\n}}\n|Deep Freeze\n|The {{Color|Premium|Deep Freeze}} skin is obtained from the [[Premium Crate|{{Color|Premium|Premium Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Premium|Deep Freeze}}\n|Icon1 = [[File:DeepFreezeFreezerIconIGAug26.png|128px]]\n|[[File:KRDFFreezer0.png|200px]]\n|Very pale skin, dark blue shirt, black pants with a belt, black shoes and black gloves with dark green knuckles, white and grey headset, neon light blue goggles and white cap with a black brim.\n\nWields a white camouflaged cryo pistol to attack enemies.\n|[[File:KRDFFreezer1.png|200px]]\n|Large backpack with a water bottle, machete and antenna.\n|[[File:KRDFFreezer2.png|200px]]\n|Grey scarf, dark grey shoulder and knee-pads, and grey straps with pouches.\n\nGloves' dark green knuckles replaced with grey fingers and white wrist.\n\n|[[File:KRDFFreezer3.png|200px]]\n|White fur around neck and white and black beanie.\n\nShirt is now white and camouflaged.\n\nNow wields a white camouflaged cryo rifle.\n|[[File:KRDFFreezer4.png|200px]]\n|Black and grey ski mask with neon light blue visor and frost grenades on belt.\n\nNow wields a white camouflaged cryo blaster with a black silencer.\n}}\n|Mint Choco\n|The {{Color|Premium|Mint Choco}} skin is obtained from the [[Premium Crate|{{Color|Premium|Premium Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Premium|Mint Choco}}\n|Icon1 = [[File:MintChocoFreezerIconIGAug26.png|128px]]\n|[[File:KRMCFreezer0.png|200px]]\n|Very pale skin, light green shirt with a white vest and fluff on sleeves, maroon pants with a black belt, black shoes with fluff and gloves, pink ice cream beanie with chocolate chips and a cherry, maroon and white scarf, and maroon goggles with neon blue lens.\n\nWields a light pink and maroon cryo pistol to attack enemies.\n|[[File:KRMCFreezer1.png|200px]]\n|Brown duffel bag.\n|[[File:KRMCFreezer2.png|200px]]\n|White knee-pads.\n\nGloves are now maroon with white fingers and wrist.\n|[[File:KRMCFreezer3.png|200px]]\n|Light blue shirt with chocolate chips on sleeves, hood and green fluff, and green horns on beanie.\n\nDuffel bag is now maroon with pink ice cream and chocolate chips on top. \n\nNow wields a light pink and maroon cryo rifle.\n|[[File:KRMCFreezer4.png|200px]]\n|Pink ice cream with chocolate chips an"
-    },
-    {
-      "title": "Freezer/History",
-      "score": 1,
-      "pageid": 28714,
-      "latest_revid": 618593,
-      "latest_timestamp": "2026-08-18T21:37:38Z",
-      "wikitext_excerpt": "{{Tabs|History}}\n''To see the statistics of this tower without the [[Firerate Bug]], visit the [[Firerate Bug/Freezer|Firerate Bug]] page.''\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:ReworkedFreezerIcon.png|100px]]\n|Unlock Cost = {{Coins|650}}\n|Category = Intermediate\n|Role = Defense\n|Cost = {{Money|450}}\n|Footprint = 1.5\n|Sell Price = {{Money|150}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]1\n|Damage Type = Single<br/>Burst (Level 3+)\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|Hidden = {{Hidden|Hidden Detection}}Level 4\n|Range = [[File:Range Icon.png|20px|Range]]12\n|Lead = N/A\n|Placement = N/A\n|Fly = N/A\n|Title1 = Max Slowdown\n|Stat1 = [[File:Slowness.png|20px|Max Slowdown]]15%\n|Title2 = Slowdown per Hit\n|Stat2 = [[File:Slowness.png|20px|Max Slowdown]]7.5%\n|Title3 = Slowdown Time\n|Stat3 = [[File:Slowness.png|20px|Slowdown Time]]2\n|PVP Cost = {{Money|425}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|141}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]1\n|PVP Damage Type = Single<br/>Burst (Level 3+)\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|PVP Hidden = {{Hidden|Hidden Detection}}Level 4\n|PVP Range = [[File:Range Icon.png|20px|Range]]12\n|PVP Lead = N/A\n|PVP Placement = N/A\n|PVP Fly = N/A\n|PVP Title1 = Max Slowdown\n|PVP Stat1 = [[File:Slowness.png|20px|Max Slowdown]]30%\n|PVP Title2 = Slowdown per Hit\n|PVP Stat2 = [[File:Slowness.png|20px|Max Slowdown]]10%\n|PVP Title3 = Slowdown Time\n|PVP Stat3 = [[File:Slowness.png|20px|Slowdown Time]]5\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]\n\n7.5% > 10% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]\n\n\nSell Price changes to {{Money|250}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Bundled Up!|Cost = {{Money|450}}|Image = [[File:Freezer Upgrade 2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow freezes enemies upon reaching max chillness\n\n•0.5 Freeze Time [[File:Slowness.png|20px|Freeze Time]]\n\n\nSell Price changes to {{Money|400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Arctic Soldier|Cost = {{Money|1,700}}|Image = [[File:Freezer Upgrade 3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.35 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1 > 6 Burst [[File:Damage Icon.png|20px|Burst]]\n\n0 > 0.6 Burst Cooldown [[File:Cooldown Icon.png|20px|Firerate]]\n\n20% > 25% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]\n\n10% > 12.5% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]\n\n2 > 3 Slowdown Time [[File:Slowness.png|20px|Slowdown Time]]\n\nMelts 10% defense every tick {{Defense|Defense Melting}}\n\nEnemies take damage when slowed down\n\n•3 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]\n\n•1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|966}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Ull's Arrow|Cost = {{Money|4,500}}|Image = [[File:Freezer Upgrade 4.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n6 > 8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n0.5 > 0.75 Freeze Time [[File:Slowness.png|20px|Freeze Time]]\n\n+Frost Grenade Ability\n\n\nSell Price changes to {{Money|2,466}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|225}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = +1 Damage ["
+      "pageid": 42532,
+      "latest_revid": 648267,
+      "latest_timestamp": "2026-09-09T15:23:02Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Freeze.png\n|type = Immunity\n|variants = Regular<br/>{{Boss}}[[Boss]]\n|immunities = Regular:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Chillness}}Chillness\n*{{Freeze|Freeze Defense Dropping}}Freeze Defense Dropping\n*[[File:SledgerLevel2.png|20px|Sledger Ice Breaker]][[Sledger]] Ice Breaker\n{{Boss}}[[Boss]]:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Partial Chillness}}Partial Chillness\nTowers & Units:\n*{{Freeze|Enemy Freeze}}Enemy Freeze\n|sandbox = No\n|tag = {{AttrTag|Second|Freeze.png|No Freeze}}\n}}\n==Description==\n'''Freeze Immunity''' (with its tag referring to it as \"''No Freeze''\")  is an immunity that prevents the enemy from being frozen and chilled. For towers and units, it prevents them from being frozen.\n\n==Mechanics==\n'''Freeze Immunity''' makes it so that the enemy cannot be frozen. Additionally, it stops the enemy from being chilled by them. Because of its chillness immunity, it also prevents the enemies from having their defense dropped by freezing towers. Additionally, as the [[Sledger]] deals double damage to frozen or chilled enemies, it cannot deal double damage to them. Larger enemies are also frozen for a shorter amount of time than average sized enemies.\n\nThe following towers/consumables become unable to apply these freeze based effects to '''Freeze Immune''' enemies:\n*[[Freezer]]\n*[[Frost Blaster]]\n*[[Sledger]]\n*[[Jester]]\n*[[Cryomancer]]\n*[[Snowballer]]\n*[[Elementalist]]\n*[[Blizzard Bomb]]\n*[[Pumpkin Bomb]]\n*[[Santa's Air Strike]]\n*[[Ducky Squad]] ([[Ice Ducky]])\n\n'''Freeze Immunity''' is given to all [[Boss]] enemies, though that immunity is different from the regular one. Both version are immune to being frozen, however, it is only partially immune to chillness. It is slowed down less by chillness, but it is not immune to it. This means that bosses can have their defense dropped and can be dealt double damage to by the [[Sledger]], as long as the enemy does not have the regular '''Freeze Immunity'''.\n\n'''Freeze Immunity''' also used to prevent enemies from being slowed down from frost mark while it was still in the game.\n\nWhile the [[Freezer]] dealt splash damage, it could not freeze any enemy with [[Splash Damage Immunity]]. However, these enemies could still be frozen by the [[Frost Blaster]] or through its ''Ice Age'' ability.\n\nBefore the [[Release v1.0|MEGA Update]], there was an additional type of '''Freeze Immunity''', referred to as '''Basic Freeze'''. These enemies could not be frozen by the [[Freezer]]'s main attack, but could be frozen through its ''Ice Drop'' ability.\n\n===Towers===\nCertain towers and units also have the '''Freeze Immunity''', which prevents them from being frozen, though it does not prevent them from being targeted. An [[Unstable Ice]] from the [[Operation I.C.E Event]] will still target a freeze immune [[Molten Monster]], even though it not only deals no damage but also does not freeze it.\n\n==Enemy List==\nThe following enemies have '''Freeze Immunity''':\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Elite Molten]]\n*[[Tanker]]\n*[[Molten Summoner]]\n*[[Giant Boss]]\n*[[Summoner Boss]]\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Hazardous]]\n*[[Amalgamation]] (Modern version)\n*[[Circuit (Polluted Wasteland II)|Circuit]] (Modern [[Polluted Wasteland II]] version)\n*[[Abomination]] (Legacy version)\n*[[Super Toxic]] (Modern version)\n*[[Necromancer King]]\n*[[Nuclear Guardian]]\n*[[Conjurer]]\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Cavalry]] (Modern version)\n*[[Patient Zero]]\n*[[Awakened Fallen King]]\n*[[Molten Hazmat]]\n*[[Blizzard Wizard]]\n*[[Frost Ravager]] (With shield)\n*[[Deep Freeze]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Void Reaper]]\n*[[Mandragora]]\n*[[Slow King]] (Modern version, with Forcefield)\n*[[Crystalian]]\n*[[Void Trickster]]\n*[[Void Portal]]\n*[[Void Cultist]]\n*[[Healing Beacon]]\n*[[Void Eye]]\n*[[Void Knight]]\n*[[Void Guardian]]\n*[[Golden Mystery]]\n\nAll [[Boss]] enemies have their own varian"
     },
     {
       "title": "Hidden (Attribute)",
@@ -2411,12 +685,44 @@
       "wikitext_excerpt": "{{SameName|Hidden|[[Hidden (Attribute)|Attribute]] • [[Hidden|Enemy]]}}\n{{For|the [[Hidden Boss]]|[[Hidden Zoomer]]}}\n{{AttributeInfobox\n|title1 = Hidden\n|image1 = HiddenDetection.png\n|type = Enemy Type\n|detection = Hidden Detection\n|effects = Translucent Body\n|sandbox = Yes\n|tag = {{AttrTag|Second|HiddenDetection.png|Hidden}}\n}}\n==Description==\n'''Hidden''' is an enemy type that makes the enemy require hidden detection to be targeted.\n\n==Mechanics==\nEnemies that are '''Hidden''' cannot be detected by towers that do not have hidden detection. They may be indirectly damaged by towers that do not have hidden detection by collision with [[units]] or by being caught in an explosive radius, for example. The appearance of '''Hidden''' enemies are also affected, in which they will have a transparency. These following towers have hidden detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Hidden Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Paintballer]]\n| class=\"yes-table\" |Full<ref>At Level 0, its splash damage can indirectly damage '''Hidden''' enemies.</ref>\n|Level 1+\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full<ref>From Level 0+, its splash damage can indirectly damage '''Hidden''' enemies, but this tower cannot directly target '''Hidden''' enemies until Level 3.</ref>\n|Level 3+<br/>N/A ([[PVP]])\n|-\n|[[Boomerang]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies if hit by the boomerang, but they cannot be targeted.</ref>\n|N/A\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Soldier]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Shotgunner]]\n| class=\"yes-table\" |Full<ref>Its piercing can indirectly damage '''Hidden''' enemies.</ref>\n|Level 2+\n|-\n|[[Freezer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Assassin]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 3+<br/>Level 1+ ([[PVP]])\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 4+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies with thorns generated, if a [[Harvester]] is also used in the match.</ref>\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full<ref>Its chain attack can indirectly target '''Hidden''' enemies before Level 2.</ref>\n|Level 2+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Trapper]]\n| class=\"no-table\" |None<ref>Despite not having hidden detections, its traps can deal damage to '''Hidden''' enemies.</ref>\n|N/A\n|-\n|[[Military Base]]\n| class=\"yes-table\" |Full<ref>Can deal damage to enemies with collisions for Level 0-2.</ref>\n|Level 3+\n|-\n|[[Crook Boss]]\n| class=\"yes-table\" |Full<ref>Its unit can target '''Hidden''' enemies at Level 0.</ref>\n|Level 2+ (Tower)<br/>Level 0+ (Units)\n|-\n|[[Commander]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Cowboy]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 3+ ([[PVP]])\n|-\n|[[DJ Booth]]\n| class=\"no-table\" |None<ref>At Level 3, its pulses can indirectly hit hidden enemies if they are in its range, though the actual tower cannot detect them.</ref>\n|N/A\n|-\n|[[Tesla]]\n| class=\"no-table\" |None<ref>Its lightning can damage '''Hidden''' enemies by chaining to them, but the tower itself cannot directly target them.</ref>\n|N/A\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Minigunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ranger]]\n| class=\"no-table\" |None<ref>Only its splash damage can indirectly hit hidden enemies. The tower itself can never directly target them.</ref>\n|N/A\n|-\n|[[Pursuit]]\n| class=\"yes-table\" |Full\n|Level 4B+\n|-\n|[[Gatling Gun]]\n| class=\"yes-table\" |Full<ref>When controlled by the player, the Gatling Gun"
     },
     {
-      "title": "Lead (Attribute)",
+      "title": "Hidden Wave",
       "score": 1,
-      "pageid": 42673,
-      "latest_revid": 639551,
-      "latest_timestamp": "2026-09-03T13:18:18Z",
-      "wikitext_excerpt": "{{SameName|Lead|[[Lead (Attribute)|Attribute]] • [[Lead (Legacy Enemy)|Legacy Enemy]] • [[Lead|Modern Enemy]]}}\n{{For|the [[Lead Boss]]|[[Lead Balloon]]}}\n{{AttributeInfobox\n|title1 = Lead\n|image1 = LeadIcon.png\n|type = Enemy Type\n|detection = Lead Detection\n|immunities = Damage\n|sandbox = Yes\n|tag = {{AttrTag|Second|LeadIcon.png|Lead}}\n}}\n==Description==\n'''Lead''' is an enemy type that prevents the enemy from being damaged by any tower that does not have lead detection.\n\n==Mechanics==\n'''Lead''' enemies cannot be damaged by any tower without lead detection, though despite what the detection name suggests, they can still be targeted by towers without it unless other attributes prevent the tower from doing so. Only towers with lead detection can damage them. By default, [[Splash Damage]] (except [[Paintballer]]), fire damage and collision damage all have lead detection. Some towers cannot damage lead enemies with all their attacks as only some of them have it, such as the [[Archer]] not being able to damage ''Lead'' enemies with its arrows, but still being able to damage them through its burn. These following towers have lead detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Lead Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Slime Trooper]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Soldier]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Shotgunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Freezer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Hunter]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Ace Pilot]]\n| class=\"neutral-table\" |Partial<ref name=\"splash\">Splash damage only.</ref>\n|Level 2+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Trapper]]\n| class=\"yes-table\" |Full<ref>While the [[Trapper]] itself does not have lead detection, all of its traps can damage lead enemies.</ref>\n|Level 0+\n|-\n|[[Military Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\">Collision and splash damage only.</ref>\n|Level 0+\n|-\n|[[Crook Boss]]\n| class=\"neutral-table\" |Partial<ref name=\"col\">Collision damage only.</ref>\n|Level 0+\n|-\n|[[Commander]]\n| class=\"neutral-table\" |Partial<ref>Tower, splash and collision damage only.</ref>\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Cowboy]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Tesla]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[DJ Booth]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Minigunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ranger]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 0+ ([[PVP]])\n|-\n|[[Pursuit]]\n| class=\"neutral-table\" |Partial<ref>Missiles only. Bullets do not damage '''Lead''' enemies.</ref>\n|Level 3+\n|-\n|[[Gatling Gun]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Turret]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Mortar]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Mercenary Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Brawler]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Necromancer]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Accelerator]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Engineer]]\n| class=\"neutral-table\" |Partial<ref>Tower and splash damage only. Sentries are also able to damage them through their main gun, but that is a bug.</ref>\n|Level 0+\n|-\n|[[Hacker]]\n| class=\"neutral-table\" |Partial<ref>Converted enemy collision only.</ref>\n|Level 0+\n|-\n|[[Opera"
+      "pageid": 2531,
+      "latest_revid": 579442,
+      "latest_timestamp": "2026-07-29T02:38:55Z",
+      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{HiddenWaveInfobox\n|image1 = HiddenBadge3.png\n|rewards = {{Gem|50}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|VeryEasy}})<br/>{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Easy}})<br/>{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}  ({{Color|Normal}})<br/>{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Hard}})<br/>{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Insane}})<br/>{{Gem|+100}} (First Triumph)\n|music-1 = '''Wave 41''' [[File:(Official) Tower Defense Simulator OST - Eye Of The Swarm|thumb|center|250px]]\n|music-2 = '''[[???]] Speech & Wave ???''' [[File:(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|thumb|center|250px]]\n|music-ingame-2 = '''[[???]] Speech & Wave ???''' [[File:Tower Defense Simulator OST - Equinox In-Game Version|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<br/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|[[???]] dialogue at Wave 41}}\n}}\n__TOC__\n==Description==\nThe '''Hidden Wave''' is a secret wave that can only be accessed in [[Fallen Mode|Fallen]] mode.\n\nPlayers need to disable \"Skills Enabled\" from the Gameplay [[Settings]] first to enable Hidden Wave.\n\nAfter voting for [[Fallen Mode|Fallen]] mode, one player must type \"120\", \"1\" and \"1009\" in the game chat. A shriek and screen darkening will accompany each message. After the last number is typed out, the map will become permanently discolored. The base health needs to be reduced to 1, and on Wave 40, the [[Fallen King]] must be defeated in under 60 seconds, which will cause a quicker death animation to play, with the [[Fallen King]] smashing the ground and fleeing with its sword. Using [[Consumables]] on Wave 40 will cause the '''Hidden Wave''' not to be activated.\n\nAfter defeating the [[Fallen King]] under 60 seconds, the next wave will appear as Wave 41. After the Wave 41 timer ends, the players will begin floating in mid-air, and the screen will become a strong purple static background. An unknown narrator simply known in the game as [[???]] will address the player. After the [[Commander (Narrator)|Commander]]'s dialogue, the game abruptly pauses and displays a false disconnect message with defeating the [[Fallen King]] as the reason on a pitch-black background. As the fake error message glitches, it flashes back to the game. The [[Awakened Fallen King]] will spawn in, and the Wave ??? begins, giving all players {{Money|50,000}}.\n\nDuring the course of the wave, purple fog and dark purple particles will cover the entire map, with bright trails flying around. The wave text becomes glitched in a similar fashion to the [[Glitchy Nametag]].\n\n==Rewards==\nTriumph rewards are based on the difficulty of the map. First time triumph also have their rewards increased by {{Gem|100}}. The rewards for each difficulty are:\n\n{| class=\"tds-table align-center\" style=\"width:600px; margin:1em auto;\"\n! rowspan=\"2\" |Difficulty\n! colspan=\"2\" |Rewards\n|-\n!Regular\n!First Triumph\n|-\n|{{Color|VeryEasy}}\n|{{Gem|50}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Easy}}\n|{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|175}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Normal}}\n|{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|200}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Hard}}\n|{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|225}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Insane}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|250}}, {{Exp|250}} & {{TowerExp|185}}\n|}\n\nThe reward for the first 50 players who beat '''Hidden Wave''' was the {{Color|Other|Triumphant}} [[Hacker]] skin.\n\nTriumphing '''Hidden Wave''' will give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. These items are:\n*{{Color|Common}} (47.39%"
+    },
+    {
+      "title": "Hidden Wave (Legacy)",
+      "score": 1,
+      "pageid": 41598,
+      "latest_revid": 582188,
+      "latest_timestamp": "2026-07-30T11:55:18Z",
+      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{Removed|date=4th of December 2021}}\n{{HiddenWaveInfobox\n|title1 = Hidden Wave\n|image1 = <tabber>\n|-|Icon 3 = [[File:HiddenBadge2.png]]\n|-|Icon 2 = [[File:HiddenBadge.png]]\n|-|Icon 1 = [[File:Rocketeer4.png]]\n</tabber>\n|rewards = {{Coins|700}}, {{Exp|100}} & [[Glitchy Nametag]]<ref>After the 9th of June 2023, any player who beat the legacy  '''Hidden Wave''' prior to its removal receives this nametag. Prior to that date, there were no other rewards for triumphing '''Hidden Wave'''.</ref>\n|music-1 = [[File:Tower Defense Simulator OST - Hidden Wave Intro|thumb|center|250px]]\n|music-2 = [[File:(Official) Tower Defense Simulator OST - Hidden Wave|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<BR/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|Activating the Hidden Wave}}\n{{QuoteBox|LET'S PUT IT TO THE TEST<br/>HIDDEN WAVE|Right before the Hidden Wave}}\n{{QuoteBox|ARE YOU READY?<br/>SEE IF YOU CAN BEAT THIS!|Beginning of the Hidden Wave}}\n}}\n__TOC__\n==Description==\nThe legacy version of the '''Hidden Wave''' was a secret wave that could have been accessed by defeating wave 40 on [[Fallen Mode|Fallen]] mode in 1,009 seconds (16 minutes and 49 seconds) or less.\n\nThis wave was extremely difficult and spawned unique and powerful enemies. {{Coins|Coins}} and {{Exp|}} earned remained the same for [[Fallen Mode|Fallen]] mode regardless if the '''Hidden Wave''' was triggered, but losing on the '''Hidden Wave''' only rewarded you with the rewards when losing on wave 40 [[Fallen Mode|Fallen]] mode. Triumphing the '''Hidden Wave''' awarded a special {{RLinkB|2124477833|badge}}. Originally, there was no other reward, though after the 9th of June 2023 anyone with the badge is able to claim the [[Glitchy Nametag]] through the [[Gift Box]].\n\nAccessing the wave was quite difficult as you needed to speedrun through [[Fallen Mode|Fallen]] mode. This meant that you needed three or more other players to trigger the '''Hidden Wave'''. The '''Hidden Wave''' could not have been triggered on [[MEGA Servers]] through the time requirement (interestingly, the '''Hidden Wave''' could have been triggered on a [[MEGA Servers|MEGA Server]] if the player count was 4 or lower before wave 40 on [[Fallen Mode|Fallen]] mode). Certain maps were favored over others due to cliff space, space near the path entrance, etc.\n\nAfter the [[Overhaul v1.0|Overhaul Update]], the wave intro broke. You could still activate it, but the text box did not appear and the game did not acknowledge that the '''Hidden Wave''' had been activated. Additionally, the lighting filter did not change to a red hue with text glitching. The wave would change to 1, while the timer would change to 111111111111111120:00. The only way to know if you have triggered the '''Hidden Wave''' was if the triumph screen did not show after the final wave countdown after you defeated the [[Fallen King (Legacy)|Fallen King]].\n\nThe '''Hidden Wave''' has since been replaced with a [[Hidden Wave|modern version]].\n\n==Rewards==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchyTag.gif|200px|link=Glitchy Nametag]]\n|-\n|[[Glitchy Nametag]]\n|}\n\n==Enemies==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchedGiant-0.png|125px|link=Glitched Giant]]\n|[[File:Bruh-0.png|125px|link=Bruh]]\n|[[File:Bug-0.png|125px|link=Bug]]\n|[[File:FrostHero2020.png|125px|link=Frost Hero (Frost Invasion)]]\n|[[File:Jaxe.png|125px|link=Jaxe (Nightmare Carnival)]]\n|[[File:MechanicalRot-0.png|125px|link=Mechanical Rot (Legacy)]]\n|-\n|[[Glitched Giant]]<br/>30+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bruh]]<br/>33+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bug]]<br/>41 Total\n|[[Frost H"
+    },
+    {
+      "title": "Lead",
+      "score": 1,
+      "pageid": 61576,
+      "latest_revid": 645810,
+      "latest_timestamp": "2026-09-07T21:22:36Z",
+      "wikitext_excerpt": "{{EnemyTabs}}\n{{SameName|Lead|[[Lead (Attribute)|Attribute]] • [[Lead (Legacy Enemy)|Legacy Enemy]] • [[Lead|Modern Enemy]]}}\n{{For|[[Elite Lead]], [[Lead Boss]] or [[Lead Balloon]]}}\n{{Zombie\n|title1 = Lead\n|image1 = <tabber>\n|-|Animation 1 (Covered) = [[File:VoidLeadCover1.png]]\n|-|Animation 2 (Covered) = [[File:VoidLeadCover2.png]]\n|-|Animation 1 (Exposed) = [[File:VoidLead1.png]]\n|-|Animation 2 (Exposed) = [[File:VoidLead2.png]]\n</tabber>\n|mode_appearance = [[Hardcore Mode|{{Color|HardcoreMode}}]]<br/>[[Voidcore Mode|{{Color|VoidcoreMode|Voidcore}}]]\n|first_wave_appearance = 14 (Hardcore)<br/>13 (Voidcore)\n|base_hp = [[File:HealthIcon.png|20px|Health]]30 (Hardcore)<br/>[[File:HealthIcon.png|20px|Health]]80 (Voidcore & Sandbox)\n|shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]40\n|speed = 3.2\n|cash = {{Money|15}} on death (Hardcore)<br/>{{Money|20}} on death (Voidcore)\n|hidden = No\n|fly = No\n|ghost = No\n|lead = {{Attr|Lead|Yes}} (With covering)\n|immunity = {{Attr|Stun}} (With covering)<br/>{{Attr|Bloated}} (Variable)\n}}\n\n==Description==\nThe '''Lead''' is a [[Lead (Attribute)|Lead]] enemy that appears in [[Hardcore Mode|Hardcore]] and [[Voidcore Mode|Voidcore]] modes. It has decent health and speed. It initially spawns with [[Lead (Attribute)|Lead]], meaning only towers with lead detection can damage it, and with the [[Stun Immunity]], meaning stuns are less effective on it while knockback does not affect it. However, once it loses all of its [[Shield Health]], it will lose its covering and also the [[Lead (Attribute)|Lead]] and [[Stun Immunity]] attributes it has by default.\n\n==Logbook Description==\n\"''Molten material was poured on the bodies of Odds and molded by the blacksmiths. If they were lucky enough to survive, it would be nearly impossible for the Leads to take damage. In fact, this worked so well that Odds were beginning to run from the selection process, with many dragged back. If the Odds still had their individuality, it was most apparent during this part.''\"\n\n==Appearance==\nThe '''Lead''' is a humanoid entirely covered in grey metal. Upon losing all of its [[Shield Health]], it will lose its metal coverings, revealing that it is an entity with grey skin and purple veins. In its torso, it has a giant hole. It has two walking animations it can choose from.\n\n==Strategy==\n*Cheap towers that have lead detection like the [[Engineer]], [[Mortar]] or [[Rocketeer]] are recommended against the '''Lead''' due to its lead coverings, though as it loses its [[Lead (Attribute)|Lead]] after its shield health is depleted, other towers can also help in taking it out.\n*The [[Cowboy]] and [[Golden Cowboy]] do not have lead detection, but their shots at the '''Lead''' still count towards their income generation, allowing them to earn extra cash.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Concept Art}}\n<gallery>\nLeadCA.png|'''Lead''' on its concept art.\n</gallery>\n\n{{GalleryHeader|Miscellaneous}}\n<gallery>\nModernLeadIconIG.png|'''Lead''' on its [[Index]] icon.\n</gallery>\n}}\n\n==Trivia==\n*The '''Lead''' is unaffected by enemy appearance [[modifiers]], such as [[Talk Like a Pirate Day]].\n\n==Update History==\n*'''5 June 2026''' - [[v2.0.0]]\n**'''Lead''' added.\n\n\n{{Hardcore|[[Balloon]]|Wave 12|Lead|Wave 14|[[Elite Lead]]|Wave 16}}\n{{Voidcore|[[Balloon]]|Wave 11|Lead|Wave 13|[[Elite Lead]]|Wave 15}}\n\n\n\n{{ZombieNavBox}}\n{{DISPLAYTITLE:Lead}}\n[[Category:Early-Game]]"
+    },
+    {
+      "title": "Stun Immunity",
+      "score": 1,
+      "pageid": 42530,
+      "latest_revid": 648213,
+      "latest_timestamp": "2026-09-09T14:52:14Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Energy.png\n|type = Immunity\n|variants = Regular<br/>{{Attr|Boss}}\n|immunities = Regular:\n*{{Stun}}Stun\n*{{Knockback}}Knockback\n{{Boss}}[[Boss]]:\n*{{Stun}}Stun\n*{{Stun|Partial Stun Slowdown}}Partial Stun Slowdown\n*{{Knockback}}Knockback\nTowers:\n*{{Stun|Enemy Stuns}}Enemy Stuns\n*Enemy Targeting\n|sandbox = No\n|tag = {{AttrTag|second|Energy.png|No Stun}}\n}}\n==Description==\n'''Stun Immunity''' (referred to as \"''No Stun''\" on its tag) is an immunity that prevents the enemy from being stunned and knocked back. For towers, it fully or partially prevents them from being stunned and targeted by enemies.\n\n==Mechanics==\n'''Stun Immunity''' makes it so that any enemy with it cannot be stunned/shocked by towers. They will instead be slowed down by 40% for the stun duration. The '''Stun Immunity''' also grants immunity to being knocked back.\n\nThe following towers/consumables become unable to apply these effects or have them be weakened to '''Stun Immune''' enemies:\n*[[Electroshocker]] (Shock)\n*[[Trapper]] (Stun)\n*[[Warden]] (Shock)\n*[[DJ Booth]] (Knockback)\n*[[Tesla]] (Shock)\n*[[Mercenary Base]] (Knockback)\n*[[Brawler]] (Knockback)\n*[[Commando]] (Stun)\n*[[Archer]] (Shock)\n*[[Hallow Punk]] (Knockback)\n*[[Elementalist]] (Knockback)\n*[[Warlock]] (Knockback)\n*[[Flash Bang]] (Stun)\n*[[Ducky Squad]] ([[Shock Ducky]])\n\nAll [[Boss]] enemies have this immunity, as part of being a [[Boss]] enemy. The only difference between the two is that the slowdown effect is weaker on [[Boss]] enemies, as it is 20%. If a [[Boss]] enemy also has the [[Stun Immunity]], it will only be slowed down by 10% instead.\n\n===Towers===\n'''Stun Immunity''' makes towers unaffected by stuns from enemies and, in multiple cases, also prevents them from being targeted from such attacks. The immunity to being attacked also applies to some enemy attacks which normally would actually affect them, that being freeze and debuffs. For example, the [[Unstable Ice]] from the [[Operation I.C.E Event]] will not jump at any tower with '''Stun Immunity''' visible in their upgrade menu, even though it can actually freeze them. Similarly, enemies like the [[Clown]] will avoid applying debuffs to towers with '''Stun Immunity''', even if they can be debuffed. Some towers, such as cliff units, also have '''Stun Immunity''', though it is not displayed in their upgrade menu and it is far less effective at preventing them from being targeted by enemy abilities.\n\n==Enemy List==\nThe following enemies have '''Stun Immunity''':\n{{Scroll|text=\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Hazardous]]\n*[[Fallen]] ([[Hardcore Mode|Hardcore]] only)\n*[[Molten Golem]]\n*[[Giant Boss]]\n*[[Amalgamation]] ([[Polluted Wasteland II]])\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Giant Skeleton]]\n*[[Cobalt Guard]]\n*[[Failed Experiment]]\n*[[Mega Slow]]\n*[[Fallen Giant]]\n*[[Fallen Reaper]]\n*[[Fallen Necromancer]]\n*[[Fallen Soul (Legacy)|Fallen Soul]] (Legacy version)\n*[[Glitch]]\n*[[Fallen Titan]]\n*[[Fallen Shield]]\n*[[Fallen Summoner]] ([[Fallen Mode|Fallen]])\n*[[Frost Invader]] ([[Frost Mode|Frost]])\n*[[Bulwark]]\n*[[Tanker]]\n*[[Templar]] (Legacy version)\n*[[Warden (Legacy Enemy)|Warden]]\n*[[Slow King (Legacy)|Slow King]] (Legacy version)\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Summoner Boss]]\n*[[Necromancer King]]\n*[[Conjurer]]\n*[[Reaper]]\n*[[Demon]]\n*[[Error]]\n*[[Circuit (Hardcore)|Circuit]] ([[Hardcore Mode|Hardcore]])\n*[[Circuit (Polluted Wasteland II)|Circuit]] ([[Polluted Wasteland II]])\n*[[Molten Titan (Legacy)|Molten Titan]] (Legacy version)\n*[[Fallen Hero]]\n*[[Fallen Hero (Legacy)|Fallen Hero]] (Legacy version)\n*[[Super Toxic]]\n*[[Mimic Umbra]]\n*[[Abomination]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Fallen Honor Guard]]\n*[[Packed Ice]]\n*[[Snow Minion]]\n*[[Blizzard Wizard]]\n*[[Frost Hunter]]\n*[[Frostbane]]\n*[[Frost Ravager]]\n*[[Shivergeist]]\n*[[Frost Hero]]\n*[[Deep Freeze]]\n*[[Mega Frost Mystery]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Nuclear Guardia"
+    },
+    {
+      "title": "Tower Defense Simulator",
+      "score": 1,
+      "pageid": 52016,
+      "latest_revid": 468670,
+      "latest_timestamp": "2026-06-05T08:02:42Z",
+      "wikitext_excerpt": "{{GameInfobox\n|title1 = {{RLinkG|3260590327|Tower Defense Simulator}}\n|image1 = V1.35.0UpdateIcon.png\n|creator = [[Paradoxum Games]]\n|playing = {{formatnum:{{#invoke:roapid|games|1176784616|data|1|playing}}}}\n|favorites = {{formatnum:{{#invoke:roapid|favorites|1176784616|favoritesCount}}}}\n|visits = {{formatnum:{{#invoke:roapid|games|1176784616|data|1|visits}}}}\n|date = 5 June 2019, 04:21:45 UTC\n|genre = Strategy\n|subgenre = Tower Defense\n}}\n==Description==\n'''Tower Defense Simulator''' ('''TDS'''), is a game created by [[Paradoxum Games]] on the 5th of June 2019, though it was not officially released until the 14th of June 2019. It is a tower defense game where players are tasked with defending the exit from hordes of enemies using towers. It is playable on PC, mobile and consoles.\n\n'''Tower Defense Simulator''' was [[Tower Defense Simulator Award Nominations|nominated for awards]] multiple times in the Bloxies and the Innovation Awards, though it only won the 8th Annual Bloxy Awards in the ''Best Game Trailer'' category.\n\n'''Tower Defense Simulator''' has various social media accounts, including an [https://x.com/paradoxum_games X account], a [https://discord.gg/tds Discord server], [https://www.youtube.com/@ParadoxumGames YouTube channel] and [https://www.reddit.com/r/TDS_Roblox/ Reddit subreddit]. Other accounts also exist, though they are tied to [[Paradoxum Games]] rather than '''Tower Defense Simulator''' specifically, meaning content from [[Paradoxum Games]]' other games also appear there.\n\n==Gameplay==\nThe main gameplay loop of '''Tower Defense Simulator''' revolves around the players using their [[towers]] and [[consumables]] to defend a map they have chosen from [[enemies]]. Players can pick a limited number of towers and consumables into their loadout. These have varying abilities making them excel in different areas, like some towers being better suited for the early waves or certain towers being used to provide buffs to other towers.\n\nPlayers can pick a [[Maps|map]] of their choosing in either the main lobby or the intermission lobby. The main lobby allows for picking maps via [[Elevators]], while intermission lobby allows for players to vote on which map they want to play on. In certain modes, like the special maps or [[Challenge Trials]], there is a set map which cannot be changed.\n\nThe mode can also be chosen by players. If a map is accessed through the main lobby, there is a vote between the survival modes, while for [[Hardcore Mode|Hardcore]] mode, no such vote is held due to it only having one. If a map is chosen in the intermission lobby, there is no mode vote as it was already chosen through the [[Matchmaking]] menu by the player.\n\nWhen a match starts, hordes of enemies will be sent out. Initially, these enemies do not possess any abilities and they will simply walk towards the exit. However, as the match goes on, these enemies will receive various abilities or attributes, such as immunities, abilities to support other enemies and attacks which stun or debuff towers. On the final wave, a major boss will spawn, which the player needs to defeat to triumph the match.\n\n'''Tower Defense Simulator''' also offers [[PVP]], where instead of surviving all the waves, the players are tasked with defeating another player by surviving for longer. [[PVP]] has its own unique mechanics, unique statistics of towers for the mode and consumables that are only usable in [[PVP]] mode.\n\nAfter beating a match, players are rewarded with various currency, such as {{Coins|Coins}}, {{Exp|}} and {{Gem|Gems}}. These are mainly used to progress through the game, as they allow the player to unlock new areas of the game, purchase items and obtain [[cosmetics]].\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Wordmarks}}\n<gallery>\nTDSLogoEarly1.png|First version (June 2019 – July 2019)\nTDSLogoEarly2.png|Second version (July 2019)\nTDSLogo.png|Third version (July 2019 – 29 October 2020)\nSecondTDSLogo.png|Fourth version (29 October 2020 – 4 December"
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",
