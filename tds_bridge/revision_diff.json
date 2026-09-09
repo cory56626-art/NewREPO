@@ -1,11 +1,11 @@
 {
-  "fromrevid": 624869,
-  "torevid": 624870,
-  "fromtitle": "Militant",
-  "totitle": "Militant",
-  "fromuser": "Mentin123",
-  "touser": "Mentin123",
-  "fromcomment": "",
-  "tocomment": "",
-  "diff_text": "Line 506: Line 506: ***'''Level 3''' ***'''Level 3''' ****Name changed from ''Sharp Shooter'' to ''Upskill''. ****Name changed from ''Sharp Shooter'' to ''Upskill''. ****Firerate changed from {{Tooltip|0.23 > 0.155 <abbr> to <abbr title=\"-0.025\"> 0.225 > 0.2 <abbr> . ****Firerate changed from {{Tooltip|0.23 > 0.155 |-0.075}} to {{Tooltip| 0.225 > 0.2 |-0.025}} . ****Damage increased from +1 to +2. ****Damage increased from +1 to +2. ****Range increased from +0 to +2. ****Range increased from +0 to +2."
+  "fromrevid": 610133,
+  "torevid": 618495,
+  "fromtitle": "Boomerang",
+  "totitle": "Boomerang",
+  "fromuser": "DarkGabonnie",
+  "touser": "DarkGabonnie",
+  "fromcomment": "Approved by t7ru (380694434980954114) via /job",
+  "tocomment": "Approved by t7ru (380694434980954114) via /job",
+  "diff_text": "Line 76: Line 76: $DPS$ = Damage * Boomerang Count / (Firerate + Throw Delay) $DPS$ = Damage * Boomerang Count / (Firerate + Throw Delay) $MDPS$ = Damage * Boomerang Count / (Firerate + Throw Delay) * Max Hits $MDPS$ = Damage * Boomerang Count / (Firerate + Throw Delay) * Max Hits $CE$ = Total Price / DPS $CE$ = Total Cost / DPS $MCE$ = Total Price / Max DPS $MCE$ = Total Cost / Max DPS $TP$ = $FNC- TOTALPRICE $ $TP$ = $FNC- TOTAL-COST $ $ FNC- COST$ = 550; 400; 750; 2500; 7000 $COST$ = 550; 400; 750; 2500; 7000 $FSE-DETECTION$ = ; 3; 0 $FSE-DETECTION$ = ; 3; 0 $FSE-UPGRADE$ = Steel Fang; Firmer Grip; Twin Strike; Lord Of The Rangs $FSE-UPGRADE$ = Steel Fang; Firmer Grip; Twin Strike; Lord Of The Rangs $FSE-UPGRADEICON$ = 86490015907171; 115637133853496; 82968142141425; 129523706643871 $FSE-UPGRADEICON$ = 86490015907171; 115637133853496; 82968142141425; 129523706643871 $FSE-META$ = Starter; File:DefaultBoomerang0.png $FSE-META$ = Starter; File:DefaultBoomerang0.png $R$ = $FNC-RECURSION$ </var> </var> <div class=\"overflow-box\"> <div class=\"overflow-box\"> {| class=\"wikitable stats-table\" {| class=\"wikitable stats-table\" ! Level !! Total Price !! Damage !! Boomerang Count !! Firerate !! Throw Delay !! Range !! Max Hits !! Boomerang Travel Time !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency ! Level !! Cost !! Total Cost !! Damage !! Boomerang Count !! Firerate !! Throw Delay !! Range !! Max Hits !! Boomerang Travel Time !! DPS !! Max DPS !! Cost Efficiency !! Max Cost Efficiency |- |- | 0 || {{Money|$TP$}} || 7 || 1 || 2.6 || 1 || 14 || 3 || 0.4 || $DPS$ || $MDPS$ || {{Money|$CE$}}|| {{Money|$MCE$}} | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}} $R$ || 7 || 1 || 2.6 || 1 || 14 || 3 || 0.4 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}} |- |- | 1 || {{Money |$ TP $ }} || 12 || 1 || 2.6 || 1 || 15 || 3 || 0.4 || $DPS$ || $MDPS$ || {{Money|$CE$}}|| {{Money|$MCE$}} | 1 || $R$ | | $ R $ || 12 || 1 || 2.6 || 1 || 15 || 3 || 0.4 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}} |- |- | 2 || {{Money |$ TP $ }} || 12 || 1 || 1.6 || 1 || 15 || 4 || 0.3 || $DPS$ || $MDPS$ || {{Money|$CE$}}|| {{Money|$MCE$}} | 2 || $R$ | | $ R $ || 12 || 1 || 1.6 || 1 || 15 || 4 || 0.3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}} |- |- | 3 || {{Money |$ TP $ }} || 16 || 2 || 1.6 || 1 || 16 || 4 || 0.3 || $DPS$ || $MDPS$ || {{Money|$CE$}}|| {{Money|$MCE$}} | 3 || $R$ | | $ R $ || 16 || 2 || 1.6 || 1 || 16 || 4 || 0.3 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}} |- |- | 4 || {{Money |$ TP $ }} || 40 || 2 || 1.4 || 1 || 16 || 5 || 0.25 || $DPS$ || $MDPS$ || {{Money|$CE$}}|| {{Money|$MCE$}} | 4 || $R$ | | $ R $ || 40 || 2 || 1.4 || 1 || 16 || 5 || 0.25 || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}} |} |} </div> </div>"
 }

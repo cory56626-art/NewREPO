@@ -7,458 +7,301 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Militant''', formerly known as '''John''', is an intermediate tower that costs {{Coins|800}} to buy from the store, but can also be obtained by purchasing the [[Starter Bundle]]. It could also be obtained by a now expired [[Codes|code]].\n\nThe '''Militant''' begins with low damage but it is supported by a fast firerate. It has long range, allowing it to cover large amounts of the track. Through upgrades its DPS, firerate, range increase greatly, but these upgrades are costly.\n\nThe '''Militant''' is considered an early to mid-game tower.",
+  "description": "The '''Boomerang''' is a starter tower bought for {{Coins|300}}. It attacks enemies by throwing a boomerang at them.\n\nThe '''Boomerang''' will lock onto an enemy within its range and aim for 1 second before throwing out a boomerang. This boomerang will travel in an arc and pierces through multiple enemies until it either runs out of enemies to hit or reaches the maximum number of enemies it can hit, where it returns back to the '''Boomerang'''. Regardless of how many enemies the '''Boomerang''' hit visually, it will always only damage as many enemies as what its max hits is set to. Although setting the targeting is possible and visually, the '''Boomerang''' will target enemies based on it, once thrown it will instantly snap back and throw it at the first enemy. This boomerang takes time to travel to an enemy. It will not throw its boomerang again until it has returned to it, meaning its actual firerate is capped based on how long it takes for the boomerang to return.\n\nAt Level 3, it will gain a second boomerang, effectively doubling its damage. This will also not function the same as the first one, as it will target the last enemy the first boomerang will hit. For example, if there are six enemies in a line, the '''Boomerang''' will throw the first boomerang at the first enemy in the line and the second boomerang at the fifth enemy. They will begin returning to it once the first boomerang hits the fifth enemy in the line and the second boomerang hits the first enemy in the line.\n\nThe '''Boomerang''' is primarily an early to mid-game AOE tower which from Level 0 can be used to damage [[Flying]] enemies and from Level 3+ [[Lead (Attribute)|Lead]] enemies. It has a placement limit of 12.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 1,
-        "title": "Radio Comms",
-        "cost": "{{Money|300}}",
-        "information": "0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|300}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.225",
-            "to": "0.175",
-            "stat": "Firerate",
-            "text": "0.225 > 0.175 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Radio Comms",
-          "Cost": "{{Money|300}}",
-          "Image": "[[File:John Upgrade 1 New.png|100px]]",
-          "Information": "0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|300}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "title": "Field Ops",
-        "cost": "{{Money|850}}",
-        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|583}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Field Ops",
-          "Cost": "{{Money|850}}",
-          "Image": "[[File:John Upgrade 2 New.png|100px]]",
-          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|583}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Guerrilla Tactics",
-        "cost": "{{Money|2,750}}",
-        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|1,500}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Guerrilla Tactics",
-          "Cost": "{{Money|2,750}}",
-          "Image": "[[File:John Upgrade 3 New.png|100px]]",
-          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|1,500}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Stealth Mercenary",
-        "cost": "{{Money|8,000}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|4,166}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+7",
-            "stat": "Damage",
-            "text": "+7 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Stealth Mercenary",
-          "Cost": "{{Money|8,000}}",
-          "Image": "[[File:John Upgrade 4 New.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|4,166}}"
-        }
-      }
-    ],
-    "pvp": [
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Radio Comms",
-        "cost": "{{Money|600}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.2",
-            "to": "0.15",
-            "stat": "Firerate",
-            "text": "0.2 > 0.15 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Radio Comms",
-          "Cost": "{{Money|600}}",
-          "Image": "[[File:John Upgrade 1 New.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|666}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Bigger Rifle",
-        "cost": "{{Money|2,600}}",
-        "information": "0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n\nSell Price changes to {{Money|1,533}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.15",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.15 > 0.1 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Bigger Rifle",
-          "Cost": "{{Money|2,600}}",
-          "Image": "[[File:John Upgrade 2 New.png|100px]]",
-          "Information": "0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n\nSell Price changes to {{Money|1,533}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 3,
-        "title": "Upskill",
-        "cost": "{{Money|5,000}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|3,200}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Upskill",
-          "Cost": "{{Money|5,000}}",
-          "Image": "[[File:John Upgrade 3 New.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|3,200}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "title": "Stealth Mercenary",
-        "cost": "{{Money|10,000}}",
-        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|6,533}}",
+        "title": "Steel Fang",
+        "cost": "{{Money|400}}",
+        "information": "+5 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}",
         "claims": [
           {
             "kind": "delta",
             "delta": "+5",
             "stat": "Damage",
             "text": "+5 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Steel Fang",
+          "Cost": "{{Money|400}}",
+          "Image": "[[File:Boomerang1.png|100px]]",
+          "Information": "+5 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Firmer Grip",
+        "cost": "{{Money|750}}",
+        "information": "2.6 > 1.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.4 > 0.3 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|566}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "2.6",
+            "to": "1.6",
+            "stat": "Firerate",
+            "text": "2.6 > 1.6 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.4",
+            "to": "0.3",
+            "stat": "Boomerang Travel Time",
+            "text": "0.4 > 0.3 Boomerang Travel Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Firmer Grip",
+          "Cost": "{{Money|750}}",
+          "Image": "[[File:Boomerang2.png|100px]]",
+          "Information": "2.6 > 1.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.4 > 0.3 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|566}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Twin Strike",
+        "cost": "{{Money|2,500}}",
+        "information": "+4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Boomerang Count\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|1,400}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Boomerang Count",
+            "text": "+1 Boomerang Count"
+          },
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Twin Strike",
+          "Cost": "{{Money|2,500}}",
+          "Image": "[[File:Boomerang3.png|100px]]",
+          "Information": "+4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Boomerang Count\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|1,400}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Lord Of The Rangs",
+        "cost": "{{Money|7,000}}",
+        "information": "+24 Damage [[File:SplashDamage.png|20px|Damage]]\n\n1.6 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.3 > 0.25 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|3,733}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+24",
+            "stat": "Damage",
+            "text": "+24 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.6",
+            "to": "1.4",
+            "stat": "Firerate",
+            "text": "1.6 > 1.4 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.3",
+            "to": "0.25",
+            "stat": "Boomerang Travel Time",
+            "text": "0.3 > 0.25 Boomerang Travel Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Stealth Mercenary",
-          "Cost": "{{Money|10,000}}",
-          "Image": "[[File:John Upgrade 4 New.png|100px]]",
-          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|6,533}}"
+          "Upgrade Title": "Lord Of The Rangs",
+          "Cost": "{{Money|7,000}}",
+          "Image": "[[File:Boomerang4.png|100px]]",
+          "Information": "+24 Damage [[File:SplashDamage.png|20px|Damage]]\n\n1.6 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.3 > 0.25 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|3,733}}"
         }
       }
-    ]
+    ],
+    "pvp": []
   },
   "upgrade_templates": [
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 1,
-      "title": "Radio Comms",
-      "cost": "{{Money|300}}",
-      "information": "0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|300}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "0.225",
-          "to": "0.175",
-          "stat": "Firerate",
-          "text": "0.225 > 0.175 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        },
-        {
-          "kind": "grant",
-          "stat": "Flying Detection",
-          "text": "+Flying Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Radio Comms",
-        "Cost": "{{Money|300}}",
-        "Image": "[[File:John Upgrade 1 New.png|100px]]",
-        "Information": "0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|300}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 2,
-      "title": "Field Ops",
-      "cost": "{{Money|850}}",
-      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|583}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Field Ops",
-        "Cost": "{{Money|850}}",
-        "Image": "[[File:John Upgrade 2 New.png|100px]]",
-        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|583}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "title": "Guerrilla Tactics",
-      "cost": "{{Money|2,750}}",
-      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|1,500}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Damage",
-          "text": "+3 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Guerrilla Tactics",
-        "Cost": "{{Money|2,750}}",
-        "Image": "[[File:John Upgrade 3 New.png|100px]]",
-        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|1,500}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 4,
-      "title": "Stealth Mercenary",
-      "cost": "{{Money|8,000}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|4,166}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+7",
-          "stat": "Damage",
-          "text": "+7 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Stealth Mercenary",
-        "Cost": "{{Money|8,000}}",
-        "Image": "[[File:John Upgrade 4 New.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|4,166}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Radio Comms",
-      "cost": "{{Money|600}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.2",
-          "to": "0.15",
-          "stat": "Firerate",
-          "text": "0.2 > 0.15 Firerate"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        },
-        {
-          "kind": "grant",
-          "stat": "Flying Detection",
-          "text": "+Flying Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Radio Comms",
-        "Cost": "{{Money|600}}",
-        "Image": "[[File:John Upgrade 1 New.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|666}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 2,
-      "title": "Bigger Rifle",
-      "cost": "{{Money|2,600}}",
-      "information": "0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n\nSell Price changes to {{Money|1,533}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "0.15",
-          "to": "0.1",
-          "stat": "Firerate",
-          "text": "0.15 > 0.1 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Bigger Rifle",
-        "Cost": "{{Money|2,600}}",
-        "Image": "[[File:John Upgrade 2 New.png|100px]]",
-        "Information": "0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]\n\n\nSell Price changes to {{Money|1,533}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 3,
-      "title": "Upskill",
-      "cost": "{{Money|5,000}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|3,200}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Damage",
-          "text": "+3 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Upskill",
-        "Cost": "{{Money|5,000}}",
-        "Image": "[[File:John Upgrade 3 New.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|3,200}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 4,
-      "title": "Stealth Mercenary",
-      "cost": "{{Money|10,000}}",
-      "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|6,533}}",
+      "title": "Steel Fang",
+      "cost": "{{Money|400}}",
+      "information": "+5 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}",
       "claims": [
         {
           "kind": "delta",
           "delta": "+5",
           "stat": "Damage",
           "text": "+5 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Range",
+          "text": "+1 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Steel Fang",
+        "Cost": "{{Money|400}}",
+        "Image": "[[File:Boomerang1.png|100px]]",
+        "Information": "+5 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|316}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 2,
+      "title": "Firmer Grip",
+      "cost": "{{Money|750}}",
+      "information": "2.6 > 1.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.4 > 0.3 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|566}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "2.6",
+          "to": "1.6",
+          "stat": "Firerate",
+          "text": "2.6 > 1.6 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "0.4",
+          "to": "0.3",
+          "stat": "Boomerang Travel Time",
+          "text": "0.4 > 0.3 Boomerang Travel Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Hits",
+          "text": "+1 Max Hits"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Firmer Grip",
+        "Cost": "{{Money|750}}",
+        "Image": "[[File:Boomerang2.png|100px]]",
+        "Information": "2.6 > 1.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.4 > 0.3 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|566}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 3,
+      "title": "Twin Strike",
+      "cost": "{{Money|2,500}}",
+      "information": "+4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Boomerang Count\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|1,400}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Range",
+          "text": "+1 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Boomerang Count",
+          "text": "+1 Boomerang Count"
+        },
+        {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Twin Strike",
+        "Cost": "{{Money|2,500}}",
+        "Image": "[[File:Boomerang3.png|100px]]",
+        "Information": "+4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Boomerang Count\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|1,400}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Lord Of The Rangs",
+      "cost": "{{Money|7,000}}",
+      "information": "+24 Damage [[File:SplashDamage.png|20px|Damage]]\n\n1.6 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.3 > 0.25 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|3,733}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+24",
+          "stat": "Damage",
+          "text": "+24 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "1.6",
+          "to": "1.4",
+          "stat": "Firerate",
+          "text": "1.6 > 1.4 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "0.3",
+          "to": "0.25",
+          "stat": "Boomerang Travel Time",
+          "text": "0.3 > 0.25 Boomerang Travel Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Max Hits",
+          "text": "+1 Max Hits"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Stealth Mercenary",
-        "Cost": "{{Money|10,000}}",
-        "Image": "[[File:John Upgrade 4 New.png|100px]]",
-        "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|6,533}}"
+        "Upgrade Title": "Lord Of The Rangs",
+        "Cost": "{{Money|7,000}}",
+        "Image": "[[File:Boomerang4.png|100px]]",
+        "Information": "+24 Damage [[File:SplashDamage.png|20px|Damage]]\n\n1.6 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.3 > 0.25 Boomerang Travel Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|3,733}}"
       }
     }
   ],
@@ -468,53 +311,42 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 1+}}",
-      "lead": "N/A",
-      "flying": "{{Attr|Fly|Level 1+}}",
+      "hidden": "N/A<ref>Through its boomerang flight pattern, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies.</ref>",
+      "lead": "{{Attr|Lead|Level 3+}}",
+      "flying": "{{Attr|Flying|Level 0+}}",
       "immune": "None",
-      "placement_limit": null
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 1+}}",
-      "lead": "N/A",
-      "flying": "{{Attr|Fly|Level 1+}}",
-      "immune": "None"
+      "hidden": null,
+      "lead": null,
+      "flying": null,
+      "immune": null
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Militant",
-        "image-static": "EasterMilitant_Icon.png",
-        "image-dynamic": "MilitantDynamic.png",
-        "unlockcost": "{{Coins|800}}",
-        "role": "Offense",
+        "image-static": "DefaultBoomerang0.png",
+        "image-dynamic": "BoomerangDynamic.png",
+        "image-dynamic-start": "22",
+        "pseudoxd": "true",
+        "unlockcost": "{{Coins|300}}",
+        "role": "Defense",
         "placement": "Ground",
-        "basecost": "{{Money|600}}",
-        "basesellingprice": "{{Money|200}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]1",
-        "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Fireate]]0.225",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12",
+        "basecost": "{{Money|550}}",
+        "basesellingprice": "{{Money|183}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]7",
+        "damagetype": "Ricochet",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2.6",
         "baserange": "[[File:Range Icon.png|20px|Range]]14",
-        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-        "lead_detection": "N/A",
-        "flying_detection": "{{Attr|Fly|Level 1+}}",
+        "hidden_detection": "N/A<ref>Through its boomerang flight pattern, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies.</ref>",
+        "lead_detection": "{{Attr|Lead|Level 3+}}",
+        "flying_detection": "{{Attr|Flying|Level 0+}}",
         "immune": "None",
-        "footprint": "1.5",
-        "pvp_basecost": "{{Money|1,400}}",
-        "pvp_basesellingprice": "{{Money|466}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
-        "pvp_damagetype": "Single",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Fireate]]0.2",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]15",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
-        "pvp_lead_detection": "N/A",
-        "pvp_flying_detection": "{{Attr|Fly|Level 1+}}",
-        "pvp_immune": "None",
-        "pvp_footprint": "1.5",
-        "tooltip-1": "A{{sic}} early-mid game tower with moderately low damage, high fire rate, and great range.",
-        "tooltip-2": "Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies."
+        "footprint": "1.5"
       },
       "positional": []
     }
@@ -522,38 +354,27 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Militant",
-      "image-static": "EasterMilitant_Icon.png",
-      "image-dynamic": "MilitantDynamic.png",
-      "unlockcost": "{{Coins|800}}",
-      "role": "Offense",
+      "image-static": "DefaultBoomerang0.png",
+      "image-dynamic": "BoomerangDynamic.png",
+      "image-dynamic-start": "22",
+      "pseudoxd": "true",
+      "unlockcost": "{{Coins|300}}",
+      "role": "Defense",
       "placement": "Ground",
-      "basecost": "{{Money|600}}",
-      "basesellingprice": "{{Money|200}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]1",
-      "damagetype": "Single",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Fireate]]0.225",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12",
+      "basecost": "{{Money|550}}",
+      "basesellingprice": "{{Money|183}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]7",
+      "damagetype": "Ricochet",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2.6",
       "baserange": "[[File:Range Icon.png|20px|Range]]14",
-      "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-      "lead_detection": "N/A",
-      "flying_detection": "{{Attr|Fly|Level 1+}}",
+      "hidden_detection": "N/A<ref>Through its boomerang flight pattern, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies.</ref>",
+      "lead_detection": "{{Attr|Lead|Level 3+}}",
+      "flying_detection": "{{Attr|Flying|Level 0+}}",
       "immune": "None",
-      "footprint": "1.5",
-      "pvp_basecost": "{{Money|1,400}}",
-      "pvp_basesellingprice": "{{Money|466}}",
-      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
-      "pvp_damagetype": "Single",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Fireate]]0.2",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]15",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
-      "pvp_lead_detection": "N/A",
-      "pvp_flying_detection": "{{Attr|Fly|Level 1+}}",
-      "pvp_immune": "None",
-      "pvp_footprint": "1.5",
-      "tooltip-1": "A{{sic}} early-mid game tower with moderately low damage, high fire rate, and great range.",
-      "tooltip-2": "Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies."
+      "footprint": "1.5"
     },
     "positional": []
   },
-  "template_count": 291
+  "template_count": 41
 }
