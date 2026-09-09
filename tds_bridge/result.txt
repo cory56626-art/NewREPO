@@ -1,518 +1,751 @@
 {{Tabs}}
-{{For|the [[Turret]]|one of the multiple [[Sentry (Disambiguation)|Sentries]]|the [[Gatling Gun Banned]] modifier}}
+{{For|[[Null Brawler]]|[[Combatant]]}}
 {{TowerInfobox
-|image-static = GatlingGunIcon.png
-|image-dynamic = GatlingGunDynamic.png
-|unlockcost = {{Coins|35,000}} or {{Robux|1,364}}
-|levelrequirement = {{Level|175}}
+|title = Brawler
+|image-static = BrawlerFromTDS.png
+|image-dynamic = BrawlerDynamic.png
+|unlockcost = {{Gem|1,250}}
+|levelrequirement = {{Level|50}}
 |role = Offense
-|placement = Ground<br/>Cliff
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]1
-|basecost = {{Money|5,250}}
-|basesellingprice = {{Money|1,750}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]5
-|damagetype = Single (Tower)<br/>Pierce (Controlled)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.17
-|baserange = [[File:Range Icon.png|20px|Range]]25
-|hidden_detection = {{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)
-|lead_detection = N/A
-|flying_detection = {{Attr|Fly|Level 0+}}
-|immune = Stun<br/>Partial Debuff
-|footprint = 2
-|pvp_basecost = {{Money|4,500}}
-|pvp_basesellingprice = {{Money|1,500}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4
-|pvp_damagetype = Single (Tower)<br/>Pierce (Controlled)
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]25
-|pvp_hidden_detection = {{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)
-|pvp_lead_detection = N/A
-|pvp_flying_detection = {{Attr|Fly|Level 0+}}
-|pvp_immune = Stun<br/>Partial Debuff
-|pvp_footprint = 2
-|tooltip-1 = An expensiveone of a kind tower that fires within a cone range. Comes with high damage, range, and the ability to pierce multiple targets.
-|tooltip-2 = Players can also take personal control to fire the '''gatling gun''' in first person mode.
-|tooltip-3 = Capable of detecting [[flying]] and [[Hidden (Attribute)|hidden]] enemies.
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]10 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]6 ([[PVP]])
+|basecost = {{Money|300}}
+|basesellingprice = {{Money|100}}
+|basedamage = [[File:OffensiveModifier.png|20px|Damage]]5
+|damagetype = Single<br/>Pierce (Level 4+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Swingrate]]1
+|baserange = [[File:Range Icon.png|20px|Range]]6
+|hidden_detection = {{Attr|Hidden|Level 3+}}
+|lead_detection = {{Attr|Lead|Level 0+}}
+|flying_detection = N/A<ref name="fd">Although it cannot detect flying enemies, its ''Reposition'' ability can damage [[Flying]] enemies.</ref>
+|immune = Stun
+|footprint = 1
+|pvp_basecost = {{Money|600}}
+|pvp_basesellingprice = {{Money|200}}
+|pvp_basedamage = [[File:OffensiveModifier.png|20px|Damage]]10
+|pvp_damagetype = Single<br/>Pierce (Level 3+)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Swingrate]]0.9
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]6
+|pvp_hidden_detection = {{Attr|Hidden|Level 3+}}
+|pvp_lead_detection = {{Attr|Lead|Level 0+}} 
+|pvp_flying_detection = N/A<ref name="fd"/>
+|pvp_immune = Stun
+|pvp_footprint = 1
+|tooltip-1 = An early game melee tower that comes with the ability to knockback enemies. Also have{{sic}} the ability to relocate anywhere on the map.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
 }}
 {{QuoteContainer|
-{{QuoteBox|A cliff tower that you take personal control of. Time to take matters into your own hands|Store Description}}
+{{QuoteBox|A close range specialist capable of pushing back foes and moving around the battlefield!|Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Gatling Gun''' is an advanced [[Towers|tower]] that is able to be placed on both ground and cliffs, which can be controlled by the player using its ability. It can be bought for {{Coins|35,000}} when the player has reached {{Level|175}} or bought for {{Robux|1,364}}.
+The '''Brawler''' is a hardcore melee tower that attacks enemies with its mechanical fists. It can be purchased from the store for {{Gem|1,250}} and has a level requirement of {{Level|50}}.
 
-The '''Gatling Gun''' will fire at any enemy in its range based on its targeting, hitting only one enemy. However, unlike most other towers, its range is actually a circular sector, which gets a larger angle with upgrades. When an enemy gets out of its range, it will not follow it, even if it could technically reach it if it moved. The '''Gatling Gun''' also has a limited amount of ammo. Every shot loses one ammo; it will not reload until it runs out of ammo; after that, it will take a few seconds for it to reload.
+The '''Brawler''' attacks enemies with its mechanical fists, dealing damage. At Level 2, it gains the ability to combo its attacks, making it attack enemies in a burst of three continuous attacks, which ends in a cooldown. The burst does not restart if there are no more enemies in its range. For example, if it lands two hits on enemies and stops attacking, the next hit will be a final hit. The final hit from a combo will deal increased damage and knock back enemies. The enemy is not always pushed back the same distance, as this is determined by its size. Larger enemies will be pushed back less than an average-sized enemy. Knockback has a 3 second long cooldown before it can be applied again.
 
-Its ''FPS'' (''<u>f</u>irst-<u>p</u>erson <u>s</u>hooter'') ability allows the player to control the '''Gatling Gun''', which changes how the tower is used drastically. Most noticeably, the tower itself will no longer automatically shoot at enemies, and will only do so when the player shoots. The player can also reload at any point while the tower itself only does so when it runs out of ammo. The player does not have to manually reload when the tower runs out of ammo, as that still happens automatically. When firing, the bullets now pierce through enemies. The first two enemies receive full damage, while the third receives halved damage. If the damage is not a whole number, it is rounded up. Additionally, the player is not affected by any range statistics; the player can fire anywhere on the map, even if the '''Gatling Gun''' could not do it on its own. However, unlike the non-controlled '''Gatling Gun''', the player cannot shoot through some obstacles, such as cliffs. Additionally, the player itself is affected by spread and recoil.
+The '''Brawler''' also has a unique ability where it can change its current position into one which the player can select. However, this ability has a cooldown of thirty seconds. Upon landing, it will create a shockwave that deals a decent amount of damage to enemies and knocks them back. Uniquely, the ''Reposition'' ability can damage [[Flying]] enemies.
 
-The '''Gatling Gun''' itself has flying detection from Level 0 and hidden detection from Level 3. When controlled by the player, it has both of these detections. The '''Gatling Gun''' also cannot be stunned, regardless if it is being controlled or not. It also cannot have debuffs applied to it if the enemy that applies it was added before the [[v1.9.0]] update.
+The '''Brawler''' is considered an all-round tower due to its cheap placement cost, good DPS, and ability to knockback enemies from Level 2+.
 
-Due to the '''Gatling Gun's''' high base cost, extremely expensive upgrades, and high DPS, it is considered a mid-late game tower due to the placement limit of one. 
-
-There is a limit of one '''Gatling Gun''' per player.
+The '''Brawler''' has a placement limit of ten per player. This is decreased to six in [[PVP]] mode.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Heavier Bullets|Cost = {{Money|3,000}}|Image = [[File:GatlingGunLevel1.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Hand to Hand Training|Cost = {{Money|200}}|Image = [[File:BrawlerUpgrade2.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
 
-+5 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|2,750}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Bigger Magazine|Cost = {{Money|7,500}}|Image = [[File:GatlingGunLevel2.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
-
-2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
-
-+5 Angle
-
--1 Spread
-
-+50 Ammo [[File:Damage Icon.png|20px|Ammo]]
+1 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|5,250}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Extra Barrel|Cost = {{Money|15,000}}|Image = [[File:GatlingGunLevel3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|166}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Gauntlets|Cost = {{Money|1,200}}|Image = [[File:BrawlerUpgrade2.png|100px]]|Information = +9 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
-+5 Range [[File:Range Icon.png|20px|Range]]
+{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
 
-0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+•3 Hit Count
 
-+10 Angle
+•0.6 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
 
--1.5 Spread
+•Knocks back enemies on final hit {{Knockback}}
 
-+100 Ammo [[File:Damage Icon.png|20px|Ammo]]
+•17.5 Knockback Force}}
+
+
+Sell Price changes to {{Money|566}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Pack a Punch|Cost = {{Money|2,500}}|Image = [[File:BrawlerUpgrade3.png|100px]]|Information = +10 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
+0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
 
-Sell Price changes to {{Money|10,250}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Minigun Barrel|Cost = {{Money|32,500}}|Image = [[File:GatlingGunLevel4.png|100px]]|Information = +7 Damage [[File:Damage Icon.png|20px|Damage]]
++27 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
 
-+10 Range [[File:Range Icon.png|20px|Range]]
+0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
 
-0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
--1 Spread
-
--0.02 Recoil
++6.5 Knockback Force {{Knockback}}
 
 
-Sell Price changes to {{Money|21,083}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Impenetrable Fortress|Cost = {{Money|50,000}}|Image = [[File:GatlingGunLevel5.png|100px]]|Information = +16 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|1,400}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = GALVAKNUCKLES|Cost = {{Money|3,500}}|Image = [[File:BrawlerUpgrade4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
 
-+5 Range [[File:Range Icon.png|20px|Range]]
++11 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
-2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
++22 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
 
-+10 Angle
-
--0.03 Recoil
-
-+200 Ammo [[File:Damage Icon.png|20px|Ammo]]
++4 Knockback Force {{Knockback}}
 
 
-Sell Price changes to {{Money|37,750}}}}
-{{Upgrade|Level = Level 6|Upgrade Title = Destruction-Oriented Output Machine|Cost = {{Money|100,000}}|Image = [[File:GatlingGunLevel6.png|100px]]|Information = +31 Damage [[File:Damage Icon.png|20px|Damage]]
+{{CollapsibleUpgrade|Title = Reposition Ability|Description = 
 
-+5 Angle
+•7.5 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]
 
-+200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+•Knocks back all hit enemies {{Knockback}}
 
+•25 Knockback Force
 
-Sell Price changes to {{Money|71,083}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Heavier Bullets|Cost = {{Money|2,500}}|Image = [[File:GatlingGunLevel1.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+•The '''Brawler''' leaps to a selected spot on the map
 
-+5 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|2,333}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Bigger Magazine|Cost = {{Money|7,500}}|Image = [[File:GatlingGunLevel2.png|100px]]|Information = +6 Damage [[File:Damage Icon.png|20px|Damage]]
-
-2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
-
-+5 Angle
-
--1 Spread
-
-+50 Ammo [[File:Damage Icon.png|20px|Ammo]]
+•50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]}}
 
 
-Sell Price changes to {{Money|4,833}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Extra Barrel|Cost = {{Money|15,000}}|Image = [[File:GatlingGunLevel3.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|2,566}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Boreas' Fury|Cost = {{Money|7,777}}|Image = [[File:BrawlerUpgrade5.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-+5 Range [[File:Range Icon.png|20px|Range]]
++15 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
-0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++30 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
+ 
++50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
 
-+10 Angle
+0.5 > 0.4 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
 
--1.5 Spread
+0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
 
-+100 Ammo [[File:Damage Icon.png|20px|Ammo]]
++4 Knockback Force {{Knockback}}
 
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-
-Sell Price changes to {{Money|9,833}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Minigun Barrel|Cost = {{Money|32,500}}|Image = [[File:GatlingGunLevel4.png|100px]]|Information = +8 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+10 Range [[File:Range Icon.png|20px|Range]]
-
-0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
--1 Spread
-
--0.02 Recoil
++2.5 Reposition Range [[File:Range Icon.png|20px|Range]]
 
 
-Sell Price changes to {{Money|20,666}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Impenetrable Fortress|Cost = {{Money|42,000}}|Image = [[File:GatlingGunLevel5.png|100px]]|Information = +16 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+5 Range [[File:Range Icon.png|20px|Range]]
-
-2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
-
-+10 Angle
-
--0.03 Recoil
-
-+200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+Sell Price changes to {{Money|5,159}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Hand to Hand Training|Cost = {{Money|300}}|Image = [[File:Transparent.png|100px]]|Information = 0.9 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Swingrate]]
 
 
-Sell Price changes to {{Money|34,666}}}}
-{{Upgrade|Level = Level 6|Upgrade Title = Destruction-Oriented Output Machine|Cost = {{Money|100,000}}|Image = [[File:GatlingGunLevel6.png|100px]]|Information = +40 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|300}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Gauntlets|Cost = {{Money|950}}|Image = [[File:BrawlerUpgrade2.png|100px]]|Information = +2 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
-+5 Angle
+{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
 
-+200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+•3 Hit Count
+
+•0.75 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+•Knocks back enemies on final hit {{Knockback}}
+
+•17.5 Knockback Force}}
 
 
-Sell Price changes to {{Money|68,000}}}}
+Sell Price changes to {{Money|616}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Pack a Punch|Cost = {{Money|2,250}}|Image = [[File:BrawlerUpgrade3.png|100px]]|Information = +Hidden Detection {{Hidden|Hidden Detection}}
+
++8 Damage [[File:OffensiveModifier.png|20px|Damage]]
+
++15 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
+
+0.75 > 0.65 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
++2.5 Knockback Force {{Knockback}}
+
+{{CollapsibleUpgrade|Title = Reposition Ability|Description = 
+
+•10 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]
+
+•Knocks back all hit enemies {{Knockback}}
+
+•25 Knockback Force
+
+•20 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
+
+•The '''Brawler''' leaps to a selected spot on the map}}
+
+
+Sell Price changes to {{Money|1,366}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Prototype Frame|Cost = {{Money|5,200}}|Image = [[File:BrawlerUpgrade4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+
++18 Damage [[File:OffensiveModifier.png|20px|Damage]]
+
++29 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
+
++60 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
+
+0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]
+
+0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
++4 Knockback Force {{Knockback}}
+
+
+Sell Price changes to {{Money|3,100}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Faster Hydraulics|Cost = {{Money|12,000}}|Image = [[File:BrawlerUpgrade5.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+
++32 Damage [[File:OffensiveModifier.png|20px|Damage]]
+
++76 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]
+ 
++70 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]
+
++6 Knockback Force {{Knockback}}
+
+
+Sell Price changes to {{Money|7,100}}}}
 }}
 
 ==Ability==
-{{Ability|Level Unlock = Level 0+|Cooldown Time= 0.5s Cooldown|Ability Title = FPS|Image = [[File:FPSAbilityIcon.png|100px]]|Information = 
-Upon use, player gains control of the tower. Tower now needs to be fired by the player, though it gains the ability to pierce through enemies, hidden detection (if not at Level 3), no longer affected by range and is now affected by spread, recoil and obstacles on the map. Using the ability while the player is in control will remove control from the player.
+{{PVPTabber
+|{{Ability|Level Unlock = Level 4+|Cooldown Time= 30s Cooldown|Ability Title = Reposition|Image = [[File:RepositionIcon.png|100px]]|Information = 
+Leaps to the selected area on the map, changing its placement spot. Additionally, the '''Brawler''' will knockback to up to 20 enemies on its landing position with a knockback force of 25 within 7.5 reposition range at Level 3 (10 at Level 4), and will deal area damage in that range.
 }}
+|{{Ability|Level Unlock = Level 3+|Cooldown Time= 20s Cooldown|Ability Title = Reposition|Image = [[File:RepositionIcon.png|100px]]|Information = 
+Leaps to the selected area on the map, changing its placement spot. Additionally, the '''Brawler''' will knockback to up to 20 enemies on its landing position with a knockback force of 25 within 10 reposition range, and will deal area damage in that range.
+}}}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 
 {{neow|<nowiki>
 <var>
-$DPS$ = (Damage * Ammo) / (Reload Time + (Firerate * Ammo))
-$MDPS$ = (Damage * Ammo) / (Reload Time + (Firerate * Ammo)) * 2 + ((Damage/2) * Ammo) / (Reload Time + (Firerate * Ammo))
-$CE$ = Total Cost / DPS
+$DPS$ = Damage / Swingrate
+$DPS2$ = ((Damage * 2) + Final Hit Damage) / (Cooldown + (Swingrate * (Hit Count - 1)))
+$CE$ = $TP$ / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 5250; 3000; 7500; 15000; 32500; 50000; 100000
-$PVP-COST$ = 4500; 2500; 7500; 15000; 32500; 42000; 100000
-$FSE-DETECTION$ = 3; ; 0
-$FSE-UPGRADE$ = Heavier Bullets; Bigger Magazine; Extra Barrel; Minigun Barrel; Impenetrable Fortress; Destruction-Oriented-Output-Machine
-$FSE-UPGRADEICON$ = 70569444235865; 104227180979769; 71764582498505; 128136625170591; 125372339735512
-$FSE-META$ = Advanced; File:GatlingGunIcon.png
-$DREF$ = <ref name=dps>Calculated as (Damage × Ammo) ÷ (Reload Time + (Firerate × Ammo)). Assumes bullets only hit one enemy.</ref>
-$CREF$ = <ref name=ce>Uses normal DPS.</ref>
+$COST$ = 300; 200; 1200; 2500; 3500; 7777;
+$PVP-COST$ = 600; 300; 950; 2250; 5200; 12000;
+$FSE-DETECTION$ = 4; 0; ;
+$FSE-PVP-DETECTION$ = 3; 0; ;
+$FSE-UPGRADE$ = Hand to Hand Training; Enhanced Gauntlets; Pack a Punch; GALVAKNUCKLES; Boreas' Fury
+$FSE-PVP-UPGRADE$ = Hand to Hand Training; Enhanced Gauntlets; Pack a Punch; Prototype Frame; Faster Hydraulics
+$FSE-UPGRADEICON$ = 17522564142; 17522564142; 17522564023; 17522564307; 17522563932
+$FSE-PVP-UPGRADEICON$ = 0; 17522564142; 17522564023; 17522564307; 17522563932
+$FSE-META$ = Hardcore; File:BrawlerFromTDS.png
+$SREF$ = <ref name="swingrate">Swingrate only applies to the first two hits in each burst and is not the time between bursts from level 2+.</ref>
+$DREF$ = <ref name="dps">DPS is calculated as [(Damage × 2) + Final Hit Damage] ÷ [Cooldown + (Swingrate × (Hit Count - 1))] from Level 2+.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Ammo !! Firerate !! Reload Time !! Range !! Angle !! Spread !! Recoil !! Max Hits !! DPS$DREF$ !! Max DPS !! Cost Efficiency$CREF$
+! Level !! Cost !! Total Cost !! Damage !! Final Hit Damage !! Reposition Damage !! Hit Count !! Swingrate$SREF$ !! Cooldown !! Knockback Force !! Range !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || 50 || 0.17 || 2.5 || 25 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || N/A || N/A || N/A || 1 || N/A || N/A || 6 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 8 || 50 || 0.17 || 2.5 || 30 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 5 || N/A || N/A || N/A || 0.6 || N/A || N/A || 6.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 12 || 100 || 0.17 || 2 || 30 || 45 || 9 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 14 || 21 || N/A || 3 || 0.6 || 0.6 || 17.5 || 6.5 || $DPS2$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 13 || 200 || 0.12 || 2 || 35 || 55 || 7.5 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 24 || 48 || N/A || 3 || 0.5 || 0.5 || 24 || 6.5 || $DPS2$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 20 || 200 || 0.09 || 2 || 45 || 55 || 6.5 || 0.06 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 35 || 70 || 50 || 3 || 0.5 || 0.5 || 28 || 7 || $DPS2$ || {{Money|$CE$}}
 |-
-| 5 || $R$ || $R$ || 36 || 400 || 0.09 || 6 || 50 || 65 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
-|-
-| 6 || $R$ || $R$ || 67 || 600 || 0.09 || 6 || 50 || 70 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 50 || 100 || 100 || 3 || 0.4 || 0.4 || 32 || 8 || $DPS2$ || {{Money|$CE$}}
 |}
 </div>
 |-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Ammo !! Firerate !! Reload Time !! Range !! Angle !! Spread !! Recoil !! Max Hits !! DPS$DREF$ !! Max DPS !! Cost Efficiency$CREF$
+! Level !! Cost !! Total Cost !! Damage !! Final Hit Damage !! Reposition Damage !! Hit Count !! Swingrate$SREF$ !! Cooldown !! Knockback Force !! Range !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 50 || 0.15 || 2.5 || 25 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || N/A || N/A || N/A || 0.9 || N/A || N/A || 6 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 7 || 50 || 0.15 || 2.5 || 30 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 10 || N/A || N/A || N/A || 0.6 || N/A || N/A || 6 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 13 || 100 || 0.15 || 2 || 30 || 45 || 9 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 12 || 23 || N/A || 3 || 0.6 || 0.75 || 17.5 || 6 || $DPS2$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 16 || 200 || 0.12 || 2 || 35 || 55 || 7.5 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 20 || 38 || 20 || 3 || 0.6 || 0.65 || 20 || 6 || $DPS2$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 24 || 200 || 0.09 || 2 || 45 || 55 || 6.5 || 0.06 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 38 || 67 || 80 || 3 || 0.5 || 0.5 || 24 || 6.5 || $DPS2$ || {{Money|$CE$}}
 |-
-| 5 || $R$ || $R$ || 40 || 400 || 0.09 || 6 || 50 || 65 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
-|-
-| 6 || $R$ || $R$ || 80 || 600 || 0.09 || 6 || 50 || 70 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 70 || 143 || 150 || 3 || 0.5 || 0.5 || 30 || 7 || $DPS2$ || {{Money|$CE$}}
 |}
 </div>
 </tabber></div>
 </nowiki>}}
 
 ==Skins==
-{| class="light-table align-center pad-5" style="width:300px; margin:0 auto"
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:EasterGatlingGunnerIconIG.png|175x175px]]
+|[[File:BlazingBrawlerIcon.png|175px]]
+|[[File:FallenBrawlerIconIG.png|175px]]
+|[[File:LoaderBrawlerIconIG.png|175px]]
+|[[File:RudolphBrawlerIcon.png|175px]]
 |-
 !Skin
-|{{Color|DuckyRevenge|Easter}}
+|{{Color|Premium|Blazing}}
+|{{Color|FallenMission|Fallen}}
+|{{Color|Deluxe|Loader}}
+|{{Color|OperationICE|Rudolph}}
 |-
 !Rarity
-|{{Color|Uncommon}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Legendary}}
 |-
 !Daily Store Cost
+|{{Robux|190}}
+|N/A
+|{{Robux|560}}
 |N/A
 |-
 !Obtained From
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
+|[[Premium Crate]]
+|''Abyssal Bruiser'' [[Mission Quests|Mission Quest]]
+|[[Deluxe Crate]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|-
+!
+|[[File:JordanBrawlerIconIG.png|175px]]
+|[[File:LovestrikerBrawlerIcon.png|175px]]
+|[[File:LobsterBrawlerIcon.png|175px]]
+|[[File:BannedBrawlerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|ContentCreator|Jordan}}
+|{{Color|Lovestruck|Lovestriker}}
+|{{Color|Surf|Lobster}}
+|{{Color|Banned|Banned}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Exclusive}}
+|-
+!Daily Store Cost
+|{{Coins|3,232}}
+|N/A
+|N/A
+|N/A
+|-
+! Obtained From
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|[[Lovestruck Crate]],<br/>''Heartbreaker'' [[Mission Quests|Mission Quest]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
+|[[Banned Crate]]
+|-
+!
+|[[File:WerewolfBrawlerIconIG.png|175px]]
+|[[File:HorseBrawlerIconIG.png|175px]]
+|[[File:BunnyBrawlerIconIG.png|175px]]
+|[[File:ScubaOpsBrawlerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Null|Werewolf}}
+|{{Color|LunarYear|Horse}}
+|{{Color|SpringFrenzy|Bunny}}
+|{{Color|Scuba|Scuba Ops}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Uncommon}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|5,000}}
+|N/A
+|{{Coins|10,000}}
+|-
+!Obtained From
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
+|[[Lunar Crate]]
+|[[Spring Frenzy Battle Pass]]
+|[[Scuba Ops Crate]]
+|-
+!
+|[[File:BeachBrawlerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Beach}}
+|-
+!Rarity
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|{{Coins|6,500}}
+|-
+!Obtained From
+|[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Gatling Gun''' is one of the most expensive towers to place down and upgrade, making it impractical for early-game.
-** Other, cheaper towers or consumables are recommended for early-game.
-**Using income sources like the [[Cowboy]], [[DJ Booth]], [[Supply Drop]] or [[Farm]] is heavily recommended to be able to afford the '''Gatling Gun''' and its upgrades.
-*The '''Gatling Gun''' has a high DPS, making it great against high health targets.
-**When controlled using its ''FPS'' ability, it is even better, as it can pierce through enemies, making it great against hordes of high health enemies.
-*While its range is quite high, being the second highest in the game at Level 5-6, its range is in the shape of a circular sector, meaning its effectiveness is significantly reduced.
-**This can be fixed by controlling it through its ''FPS'' ability, as you can attack enemies from any point of the map. However, it means you only have control of the tower and cannot do anything else.
-***You can still use abilities that do not require you to choose a spot, such as the [[Commander]]'s ''Call to Arms'' or the [[DJ Booth]]'s ''Drop the Beat''.
-****However, abilities that require you to choose a spot such as [[Brawler]]'s ''Reposition'' or the [[Military Base]]'s ''Airstrike'' are disabled for the player during ''FPS'' ability.
-**Taking control of the '''Gatling Gun''', turning to face a desired spot, then releasing control allows for the player to influence where the '''Gatling Gun''' is aimed at.
-**The '''Gatling Gun''' should be positioned so that will face a straight path, allowing for it to shoot for as long as possible if not controlled by a player. This additionally makes it easier to hit multiple enemies at once while controlling the '''Gatling Gun'''.
-*While controlling the '''Gatling Gun''' after using the ''FPS'' ability, it is not affected by the selected targeting. This makes it great against [[Aggro]] enemies, as you can target the enemy that you want to be targeted instead of being forced to target the [[Aggro]] enemy.
-**It is recommended to target problematic enemies such as summoners like the [[Fallen Summoner]] or enemies that can buff other enemies like the [[Fallen Jester]].
-**This is also why the '''Gatling Gun''' is a good choice on multiplayer matches as it can handle some difficult enemies with ease.
-*The '''Gatling Gun''' can be placed on both cliff and ground spots, meaning it can be placed anywhere on the map. Both spots have their own benefits while using its ability. 
-**If placed on the ground, it is much easier to make use of its piercing, as you will be firing in a straight line.
-**If placed on a cliff, it is less likely that you will be obstructed by objects on the map due to you being above them. Do note, however, that not all objects actually prevent the '''Gatling Gun''' from shooting at enemies, though they can obstruct the view.
-*Do note that while the tower itself can fire through objects of the map, you cannot fire through all of them. Consider if the spot you are placing the '''Gatling Gun''' in is obstructed by anything in any impactful way while placing it down.
-**Some elements on the map may be able to be fired through, but will still obstruct the player's vision. Skilled users of the '''Gatling Gun''' can fire at enemies behind said cover even when they are not able to be directly seen. What can or cannot be fired through is not always intuitive, so knowledge is required to make the most of this quirk.
-*While the tower normally only reloads when it runs out of ammo, it can be reloaded manually at any time while controlled. It is recommended to reload manually whenever no enemies are spawning, which is usually the period of time between current wave ending and new wave starting.
-**Manual reloads can also be performed if enemies are currently being blocked by map elements.
-**Do be aware that the Level 5–6 '''Gatling Gun''' have a very long reload time, longer than even the period of time between waves.
-**You can start a manual reload, then release control of the '''Gatling Gun''' to focus on other enemies. This is useful for multitasking.
-*The '''Gatling Gun''' has flying detection from Level 0, hidden detection from Level 3 if not controlled by player and from Level 0 if controlled by a player, making it great against such enemies that appear in the mid and late-game.
-*The '''Gatling Gun''' has a larger placement footprint than other towers, so be aware of the space that it takes up. This should not matter too much, as each player can only have one placed down.
-*The '''Gatling Gun''' can be very useful in [[Jailed Towers (Challenge)|Jailed Towers]], as when it gets jailed while a player is using its ''FPS'' ability, the player will still be able to attack enemies with it.
-**However, trying to use the ''FPS'' ability after it got jailed will result in it not working. The gun will visually fire, but no damage will be dealt and no ammo will be lost. Other controls like reloading are also unusable.
-*In ''FPS'' mode, the '''Gatling Gun''' has recoil, which means it is possible for some bullets to offshoot and not hit an enemy, something more glaring from Level 4+. A simple way to avoid this is to fire in bursts which will avoid too much recoil.
+*The '''Brawler''' can be an efficient tower early on during the game.
+**For hordes of weaker enemies, a few Level 0 '''Brawlers''' can quite efficiently clear out hordes of enemies.
+**For singular, high health enemies, the Level 2 '''Brawler''' can be effective at killing them and slowing them down, giving your '''Brawlers''' and other towers more time to kill it.
+*The '''Brawler''' at Level 2+ knocks back on the third hit, making it useful at slowing down enemies.
+**Enemies immune to stun are not affected, as [[Stun Immunity]] prevents them from being knocked back. Additionally, larger enemies will be pushed back less than average-sized enemies.
+**At Level 4, it gains the ''Reposition'' ability, which allows it to knock back enemies in a large area,
+**If there is only a single targetable enemy, the '''Brawler''' is capable of constantly knocking it back, preventing it from progressing further.
+*The '''Brawler''' has lead detection at Level 0, making it effective against lead enemies.
+*The '''Brawler''' cannot be stunned by any enemy, making it quite useful against enemies like the [[Warden (Legacy Enemy)|Warden]] or [[Fallen Guardian]].
+*Due to the '''Brawler's''' ''Reposition'' ability, it is likely that it will often get out of range of buffing towers, making them much less effective.
+*The '''Brawler's''' ''Reposition'' ability, starting from Level 4, can easily take out hordes of weaker enemies.
+**The ability can also hit [[Flying]] enemies, making '''Brawler''' quite effective for taking out hordes of [[Balloon]]s and [[Balloon Kid]]s faster.
+**Also do note that this ability has a cooldown of 30 seconds, and [[Flying]] enemies will not be knocked back.
+*Due to its pretty high DPS, [[Stun Immunity]] and the ''Reposition'' ability, the '''Brawler''' can actually do well against major bosses like the [[Molten Warlord]] unlike most other low range towers.
+*The '''Brawler''' has a small placement footprint, allowing it to squeeze in beside other towers easily.
+*Unlike other melee towers, the '''Brawler''' is not hitbox reliant, which means it can fully utilize [[Range Buff]]s.
 
 ==Trivia==
-*The '''Gatling Gun''' is the first tower that can be placed both on ground and cliff spots. 
-**Despite this, the description of the '''Gatling Gun''' suggests that it can only be placed on cliffs, calling it a 'cliff tower'.
-**It is also the first ever tower that can be controlled by a player.
-*The abbreviation of the Level 6 upgrade name spells the word "DOOM" (<u>'''D'''</u>estruction-<u>'''O'''</u>riented <u>'''O'''</u>utput <u>'''M'''</u>achine).
-*The '''Gatling Gun''' is the fourth most expensive public tower to place down, being beaten by the [[Juggernaut]] by {{Money|4750}}, [[Turret]] by {{Money|2,500}} and the [[Accelerator]] by {{Money|2,250}}.
-*The '''Gatling Gun''' currently has the second highest total price of any public tower at a total cost of {{Money|213,250}}, being beaten by the [[Juggernaut]]. 
-**The '''Gatling Gun''' also has the fourth highest upgrade cost, with its Level 6 upgrade costing {{Money|100,000}}.
-**Moreover, the '''Gatling Gun''' has the most expensive Level 1 upgrade cost of {{Money|3,000}}.
-*The '''Gatling Gun''' has the second highest DPS ever of any public tower with 670 DPS at Level 6.
-**If counting its [[PVP]] stats, the '''Gatling Gun''' breaks this record with over 787 DPS at Level 6.
-**The [[Juggernaut]] exceeds the [[Gatling Gun]]'s DPS on both of its upgrades paths.
-*The Level 5 and 6 '''Gatling Gun''' currently has the second longest range of any publicly available tower in the game, beaten by the [[Ranger]] with 70 range at all levels. 
-**If using FPS mode, the '''Gatling Gun''' technically has infinite range.
-**It is also the first tower to have a conical range.
-*Despite the name, the '''Gatling Gun''' does not resemble an actual [[wp:Gatling gun|Gatling Gun]] at earlier levels, with it only getting a weapon resembling one at Level 4.
+*The '''Brawler''' is the first tower that can change its position on the map without being sold, the second being [[Pursuit]].
+*The '''Brawler''' is canonically [[Engineer]]'s brother.
+*The '''Brawler''' is the cheapest tower to unlock with {{Gem|Gems}}.
+*The '''Brawler''' trains with the [[Assassin]] and [[Slasher]], as revealed in [[Blind Faith]].
+*The '''Brawler''' level 4 upgrade name; ''GALVAKNUCKLES'', is a reference to the [[w:c:callofduty:Galvaknuckles|Galvaknuckles]] from the ''Call of Duty'' series.
+*The Level 5 upgrade name is a reference to [[w:c:callofduty:Staff of Lightning|Boreas' Fury]] from the ''Call of Duty'' series.
 
-== Update History==
+==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{scroll|text =
-*'''18 September 2024''' - [[v1.32.0]]
-**'''Gatling Gun''' added.
-**{{Bug}} If a player is wearing an item accessory that emits particles, players using the ''FPS'' ability will still see the player's particles despite their avatar being invisible.
-**{{Bug}} Players using the ''FPS'' ability will able to see the player's avatar when they reset or rejoin.
-**{{Bug}} Players can soft-lock the tower when they upgrade it too quickly while the operator's avatar is still loading.
-**{{Bug}} Using the ''FPS'' ability while the '''Gatling Gun''' is made to shoot slower, such as through [[Time Scale]] will break the '''Gatling Gun''', preventing it from shooting.
-**{{Bug}} Using the ''FPS'' ability while the '''Gatling Gun's''' firerate is altered, such as through [[Time Scale]], [[Commander]] or [[Necrotic Skeleton]]'s ability, will make the '''Gatling Gun''' shoot much slower than intended.
-**{{Bug}} Firerate and reload time is affected by player's FPS device during its ''FPS'' ability, either becoming faster or slower.
-**{{Bug}} Reviving while using ''FPS'' ability can cause the ability to break completely, making the player's avatar invisible while the camera is moved to where the player's character would be.
-**{{Bug}} It is possible to fire from multiple '''Gatling Guns''' at once with ''FPS'' through using ''FPS'' on specific '''Gatling Guns''' and not stopping to fire.
-*'''12 October 2024''' - [[v1.35.0|v1.35.2]]
-**{{Bugfix}} [[Time Scale]] no longer breaks the '''Gatling Gun''' during its ''FPS'' ability.
-*'''16 October 2024''' - [[v1.36.0]]
-**Level 3 renamed from ''Double Trouble'' to ''Extra Barrel''.
-**{{Bugfix}} '''Gatling Gun''' no longer soft-locks when upgraded quickly.
-*'''25 October 2024''' - [[v1.38.0]]
-**{{Bug}} Using the '''Gatling Gun's''' ''FPS'' ability does not deal damage to [[Hex Corpse|Lower Body]].
-*'''30 October 2024''' - [[v1.39.0]]
-**{{Bugfix}} Using the '''Gatling Gun's''' ''FPS'' ability now deals damage to [[Hex Corpse|Lower Body]].
-*'''4 November 2024''' - [[v1.39.0|v1.39.7]]
-**{{Bugfix}} Using the ''FPS'' ability while the '''Gatling Gun's''' firerate is altered no longer makes it shoot slower than intended.
-*'''19 November 2024''' - [[v1.41.0|v1.41.6a]]
-**Cost reduced from {{Robux|2,599}} to {{Robux|1,950}}.
-*'''27 November 2024''' - [[v1.43.0]]
-**Gamepass price increased from {{Robux|1,950}} to {{Robux|2,079}}.
+*'''18 May 2024''' - [[v1.22.0]]
+**'''Brawler''' added.
+**{{Bug}} Buffs from [[Mercenary Base]], [[Damage Flag]], [[Cooldown Flag]] and [[Range Flag]] do not disappear when the '''Brawler''' moves away from their range.
+**{{Bug}} It is possible to stack '''Brawlers''' in one spot by making it reposition to some on walls on maps like [[Grass Isle]].
+**{{Bug}} When a player rejoins, the '''Brawlers’''' animation breaks.
+**{{Bug}} Enemies with a death animation will get knocked back backwards into entrance, if they are killed while being knocked back.
+**{{Bug}} When its ''Reposition'' ability is used to move it to a spot of higher elevation, the '''Brawler''' will start floating once it attacks an enemy.
+**{{Bug}} Damage from ''Reposition'' ability does not increase the total damage counter.
+*'''23 May 2024''' - [[v1.23.0]]
+**{{Bug}} Reposition damage no longer generates cash in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and Special maps.
+*'''29 May 2024''' - [[v1.23.0|v1.23.4]]
+**Now has a limit of 5 in [[PVP Test]].
+*'''19 July 2024''' - [[v1.26.0]]
+**New skin: {{Color|Premium|Blazing}}
+**{{Bug}} ''Reposition'' damage does not create any [[Damage Indicators]].
+**{{Bugfix}} It is no longer possible to stack '''Brawlers''' in one spot by making it reposition to walls.
+*'''2 August 2024''' - [[v1.27.0]]
+**Placement limit decreased from 10 to 6.
+**Global knockback cooldown decreased from 3.5 to 2.5.
 **Statistical changes:
 ***'''Base'''
-****Damage decreased from 6 to 5.
-****Angle decreased from 45 to 30.
-****Cost increased from {{Money|5,000}} to {{Money|5,750}}.
+****Cost increased from {{Money|450}} to {{Money|550}}.
+****Damage decreased from 10 to 8.
+****Firerate decreased from 1.225 to 1.025.
+****No longer stuns enemies.
 ***'''Level 1'''
-****Damage increased from +2 to +3.
+****Cost decreased from {{Money|700}} to {{Money|300}}.
+****Damage decreased from +5 to +0.
+****Range decreased from +1 to +0.
+****Firerate changed from {{Tooltip|1.225 > 1.025|-0.2}} to {{Tooltip|1.025 > 0.775|-0.25}}.
 ***'''Level 2'''
-****Damage decreased from +4 to +2.
-****Angle increased from +0 to +5.
-****Cost decreased from {{Money|8,250}} to {{Money|7,250}}.
+****Cost decreased from {{Money|1,500}} to {{Money|1,000}}.
+****Damage increased from -5 to +7.
+****Final hit damage decreased from 40 to 30.
+****Firerate changed from {{Tooltip|1.025 > 0.525|-0.5}} to {{Tooltip|0.775 > 0.625|-0.15}}.
+****Hidden detection removed.
 ***'''Level 3'''
-****Damage decreased from +6 to +4.
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.12|-0.03}} to {{Tooltip|0.15 > 0.13|-0.02}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
-****Angle decreased from +15 to +5.
+****Cost decreased from {{Money|4,000}} to {{Money|2,250}}.
+****Damage decreased from +20 to +15.
+****Final hit damage increased from +20 to +30.
+****Cooldown changed from 1 to {{Tooltip|1 > 0.75|-0.25}}.
+****Knockback force increased from +0 to +2.5.
 ***'''Level 4'''
-****Damage decreased from +10 to +6.
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.12 > 0.09|-0.03}} to {{Tooltip|0.13 > 0.09|-0.04}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
-****Angle increased from +0 to +5.
+****Cost increased from {{Money|5,000}} to {{Money|5,500}}.
+****Damage increased from +0 to +10.
+****Reposition damage decreased from 100 to 80.
+****Reposition ability cooldown decreased from 40 to 20.
+****Reposition no longer stuns enemies.
+****Reposition knockback force decreased from 35 to 25.
+****Firerate changed from 0.508 to {{Tooltip|0.625 > 0.525|-0.1}}.
+****Knockback force decreased from +7.5 to +4.
 ***'''Level 5'''
-****Damage decreased from +27 to +18.
-****Angle decreased from +15 to +5.
-***'''Level 6'''
-****Damage decreased from +45 to +27.
-****Angle increased from +0 to +10.
-****Cost increased from {{Money|100,000}} to {{Money|115,000}}.
-*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
-**Gamepass price increased from {{Robux|2,079}} to {{Robux|2,599}}.
-*'''4 December 2024''' - [[v1.44.0]]
-**Statistical changes.
+****Cost increased from {{Money|14,000}} to {{Money|15,000}}.
+****Damage increased from +20 to +60.
+****Final hit damage increased from +15 to +115.
+****Reposition damage increased from +100 to +120.
+****Firerate changed from {{Tooltip|0.525 > 0.225|-0.3}} to 0.525.
+****Cooldown changed from {{Tooltip|1 > 0.45|-0.55}} to {{Tooltip|0.75 > 0.25|-0.25}}.
+****Knockback force increased from +0 to +6.
+**{{Bugfix}} [[Mercenary Base]] [[Damage Buff]] now disappears when the '''Brawler''' leaves its range.
+*'''9 August 2024''' - [[v1.27.5]]
+**New skin: {{Color|FallenMission|Fallen}}
+*'''21 August 2024''' - [[v1.28.0]]
+**Statistical changes:
 ***'''Base'''
-****Angle increased from 30 to 40.
-***'''Level 3'''
-****Damage increased from +4 to +5.
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.13|-0.02}} to {{Tooltip|0.15 > 0.12|-0.03}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
-****Angle increased from +5 to +10.
+****Cost increased from {{Money|550}} to {{Money|600}}.
+****Damage increased from 8 to 10.
+***'''Level 1'''
+****Cost increased from {{Money|300}} to {{Money|350}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,000}} to {{Money|850}}.
+****Damage decreased from +7 to +5.
 ***'''Level 4'''
-****Damage increased from +6 to +10.
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.13 > 0.09|-0.04}} to {{Tooltip|0.12 > 0.09|-0.03}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
-****Angle decreased from +5 to +0.
+****Cost increased from {{Money|5,500}} to {{Money|6,000}}.
+****Damage increased from +10 to +20.
+****Final hit damage increased from +25 to +40.
 ***'''Level 5'''
-****Damage increased from +18 to +20.
-****Angle increased from +5 to +10.
-***'''Level 6'''
-****Damage increased from +27 to +30.
-****Angle decreased from +10 to +5.
-****Cost decreased from {{Money|115,000}} to {{Money|100,000}}.
-*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
-**Gamepass price decreased from {{Robux|2,599}} to {{Robux|1,819}}.
-*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
-**Gamepass cost increased from {{Robux|1,819}} to {{Robux|2,599}}.
+****Cost increased from {{Money|15,000}} to {{Money|17,500}}.
+****Damage decreased from +60 to +50.
+****Final hit damage increased from +115 to +200.
+**{{Bugfix}} '''Brawler's''' animations no longer break when rejoining.
+*'''11 September 2024''' - [[v1.31.0]]
+**New skin: {{Color|Deluxe|Loader}}
+*'''11 December 2024''' - [[v1.45.0]]
+**{{Bug}} Enemies with the [[Corpse (Attribute)|Corpse]] attribute will get knocked back backwards into entrance, if they are killed while being knocked back.
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Rudolph}}
+*'''16 December 2024''' - [[v1.49.0]]
+**New skin: {{Color|ContentCreator|Jordan}}
+**{{Bugfix}} '''Brawler''' is no longer possible to be stacked.
+*'''5 February 2025''' - [[v1.52.0]]
+**{{Bug}} Upon reviving, all '''Brawlers''' moved away from their initial placement spot through ''Reposition'' will return to it, even if other towers have been placed there, allowing it to stack placements with other towers.
+*'''12 February 2025''' - [[v1.53.0]]
+**New skin: {{Color|Lovestruck|Lovestriker}}
+*'''12 March 2025''' - [[v1.57.0]]
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 10 to 6.
+****Swingrate decreased from 1.025 to 0.625.
+***'''Level 1'''
+****Cost decreased from {{Money|350}} to {{Money|300}}.
+****Damage increased from +0 to +3.
+****Swingrate decreased from {{Tooltip|1.025 > 0.775|-0.25}} to 0.625.
+***'''Level 2'''
+****Damage decreased from +5 to +3.
+****Final hit damage decreased from 30 to 24.
+****Swingrate decreased from {{Tooltip|0.775 > 0.625|-0.15}} to 0.625.
+****Cooldown decreased from 1 to 0.75.
+****Hidden detection added.
+***'''Level 3'''
+****Cost decreased from {{Money|2,250}} to {{Money|2,000}}.
+****Damage decreased from +15 to +8.
+****Final hit damage decreased from +30 to +16.
+****Cooldown changed from {{Tooltip|1 > 0.75|-0.25}} to {{Tooltip|0.75 > 0.65|-0.1}}.
+****Now unlocks ''Reposition'', while dealing no damage.
+***'''Level 4'''
+****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
+****Reposition damage increased from 80 to 100.
+****Range decreased from +1 to +0.5.
+****Cooldown changed from 0.75 to {{Tooltip|0.65 > 0.5|-0.1}}.
+***'''Level 5'''
+****Cost decreased from {{Money|17,500}} to {{Money|12,500}}.
+****Damage decreased from +50 to +45.
+****Final hit damage decreased from +200 to +90.
+****Reposition damage decreased from +120 to +100.
+****Cooldown changed from {{Tooltip|0.75 > 0.5|-0.1}} to 0.5.
+****Range increased from +0 to +0.5.
+**{{Bug}} '''Brawler''' deals no damage with its ''Reposition''.
+*'''12 March 2025''' - [[v1.57.0|v1.57.3]]
+**{{Bugfix}} '''Brawler''' now deals damage through its ''Reposition'' at Level 4+.
 *'''9 April 2025''' - [[v1.60.0]]
 **Offense role added.
 *'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Easter}}
-**{{Bug}} '''Gatling Gun''' cannot damage any enemy from the [[Ducky Revenge Event]] when using ''FPS''.
-*'''14 May 2025''' - [[v1.64.0]]
-**{{Bugfix}} '''Gatling Gun''' can now damage enemies from the [[Ducky Revenge Event]] when using ''FPS''.
-*'''26 May 2025''' - [[v1.64.0]]a
-**Robux cost decreased from {{Robux|2,599}} to {{Robux|1,819}}.
-*'''28 May 2025''' - [[v1.65.0]]
-**Robux cost increased from {{Robux|1,819}} to {{Robux|2,599}}.
-*'''11 June 2025''' - [[v1.67.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|5,750}} to {{Money|5,250}}.
-***'''Level 2'''
-****Damage increased from +2 to +4.
-****Cost increased from {{Money|7,250}} to {{Money|7,500}}.
-***'''Level 3'''
-****Damage decreased from +10 to +9.
-****Cost decreased from {{Money|17,500}} to {{Money|15,000}}.
-***'''Level 4'''
-****Cost decreased from {{Money|35,500}} to {{Money|32,500}}.
-***'''Level 5'''
-****Cost decreased from {{Money|60,000}} to {{Money|50,000}}.
-***'''Level 6'''
-****Damage increased from +30 to +40.
-**{{Bug}} Cloned '''Gatling Guns''' stop firing when activating their ability then leaving.
+**{{Bug}} '''Brawler''' is no longer affected by [[Damage Buff]]s.
 *'''9 July 2025''' - [[v1.70.0]]
-**{{Bug}} '''Gatling Gun''' no longer visually turns for players other than the tower owner.
+**New skin: {{Color|Surf|Lobster}}
+**{{Bug}} {{Color|Surf|Lobster}} skin is not affected by certain debuffs.
 *'''23 July 2025''' - [[v1.71.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Cost decreased from {{Money|5,250}} to {{Money|4,500}}.
-****Wind down time increased from 2 to 3.2.
+****Damage increased from 6 to 10.
+****Swingrate increased from 0.625 to 1.025.
 ***'''Level 1'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+****Damage decreasd from +3 to +0.
+****Firerate changed from 0.625 to {{Tooltip|1.025 > 0.775|-0.25}}.
 ***'''Level 2'''
-****Damage increased from +4 to +7.
+****Cost increased from {{Money|850}} to {{Money|950}}.
+****Damage decreased from +3 to +2.
+****Firerate changed from 0.625 to {{Tooltip|0.775 > 0.625|-0.15}}.
+****Hidden detection removed.
 ***'''Level 3'''
-****Damage increased from +4 to +5.
+****Cost increased from {{Money|2,000}} to {{Money|2,250}}.
+****Reposition damage increased from 0 to 20.
+****Hidden detection added.
 ***'''Level 4'''
-****Damage increased from +9 to +10.
+****Cost increased from {{Money|5,000}} to {{Money|6,000}}.
+****Final hit damage decreased from +40 to +30.
+****Reposition damage decreased from +100 to +30.
 ***'''Level 5'''
-****Cost decreased from {{Money|50,000}} to {{Money|42,000}}.
-***'''Level 6'''
-****Damage increased from +40 to +50.
-*'''31 October 2025''' - [[v1.79.0]]
-**{{Bug}} When affected by [[Damage Debuff]]s while also dealing 1 damage, it will start dealing nan damage.
-*'''26 November 2025''' - [[v1.81.0]]
-**Gamepass cost decreased from {{Robux|2,599}} to {{Robux|1,689}}.
-**{{Bugfix}} Can still deal nan damage to enemies and make them have nan health, however, any damage counters will no longer change to nan when attacking or creating such enemies.
-*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Gamepass cost increased from {{Robux|1,689}} to {{Robux|2,599}}.
-*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Gamepass cost decreased from {{Robux|2,599}} to {{Robux|1,819}}.
-*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Gamepass cost increased from {{Robux|1,819}} to {{Robux|2,599}}.
-*'''22 May 2026''' - [[v1.91.0]]
-**Gamepass price decreased from {{Robux|2,599}} to {{Robux|1,689}}.
-***{{Bug}} Gifting was not discounted.
-*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Gamepass price increased from {{Robux|1,689}} to {{Robux|2,599}}.
-*'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
-***'''Base'''
-****Firerate decreased from 0.175 to 0.17.
-***'''Level 3'''
-****Damage decreased from +4 to +1.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.17 > 0.12|-0.05}}.
-***'''Level 4'''
-****Damage decreased from +9 to +7.
-****Firerate changed from {{Tooltip|0.15 > 0.117|-0.033}} to {{Tooltip|0.12 > 0.09|-0.03}}.
-***'''Level 5'''
-****Damage decreased from +20 to +16.
-***'''Level 6'''
-****Damage decreased from +40 to +31.
+****Cost decreased from {{Money|12,500}} to {{Money|12,000}}.
+****Damage decreased from +45 to +35.
+****Final hit damage decreased from +90 to +80.
+****Reposition damage decreased from +100 to +50.
+*'''6 August 2025''' - [[v1.72.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Damage decreased from 5 to 4.
-****Firerate decreased from 0.175 to 0.15.
+****Firerate decreasd from 1.025 to 0.925.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|0.925 > 0.625|-0.3}}.
 ***'''Level 2'''
-****Damage decreased from +7 to +6.
-***'''Level 3'''
-****Damage decreased fro +5 to +2.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.15 > 0.12|-0.03}}.
+****Firerate changed from {{Tooltip|0.775 > 0.625|-0.15}} to 0.625.
 ***'''Level 4'''
-****Damage decreaesd from +10 to +8.
-****Firerate changed from {{Tooltip|0.15 > 0.117|-0.033}} to {{Tooltip|0.12 > 0.09|-0.03}}.
+****Cost decreased from {{Money|6,000}} to {{Money|5,200}}.
+****Reposition damage increased from +30 to +60.
 ***'''Level 5'''
-****Damage decreased from +20 to +16.
-***'''Level 6'''
-****Damage decreased from +50 to +40.
-*'''19 June 2026''' - [[v2.1.0]]
-**{{Bug}} Range is no longer visible.
-*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
-**Gamepass price decreased from {{Robux|2,599}} to {{Robux|1,949}}.
-***{{Bug}} Gift price has not changed.
-*'''4 September 2026''' - [[v2.9.0]]
-**Gamepass price decreased from {{Robux|1,949}} to {{Robux|1,364}}.
-***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,599}} it is now {{Robux|1,819}}.
+****Reposition damage increased from +50 to +70.
+*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]
+**New skin: {{Color|Banned|Banned}}
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Werewolf}}
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit increased from 6 to 10.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost decreased from {{Money|600}} to {{Money|300}}.
+****Swingrate increased from 0.625 to 1.225.
+****Range decreased from 6 to 5.75.
+***'''Level 1'''
+****Cost decreased from {{Money|300}} to {{Money|150}}.
+****Damage decreased from +3 to +0.
+****Swingrate changed from 0.625 to {{Tooltip|1.225 > 0.825|-0.4}}.
+***'''Level 2'''
+****Hidden detection removed, moved to Level 4.
+****Cost decreased from {{Money|850}} to {{Money|750}}.
+****Damage increased from +3 to +4.
+****Swingrate changed from 0.625 to {{Tooltip|0.825 > 0.775|-0.05}}.
+****Final hit damage decreased from 24 to 15.
+***'''Level 3'''
+****Cost decreased from {{Money|2,000}} to {{Money|1,500}}.
+****Damage increased from +8 to +12.
+****Swingrate changed from 0.625 to 0.775.
+****Range increased from +0 to +0.5.
+****Final hit damage increased from +16 to +18.
+****Cooldown changed from {{Tooltip|0.75 > 0.65|-0.1}} to {{Tooltip|0.75 > 0.6|0.15}}.
+****Reposition damage increased from 0 to 15.
+****Reposition cooldown decreased from 20 seconds to 15 seconds.
+***'''Level 4'''
+****Cost decreased from {{Money|5,000}} to {{Money|3,000}}.
+****Damage decreased from +20 to +12.
+****Swingrate changed from {{Tooltip|0.625 > 0.525|-0.1}} to {{Tooltip|0.775 > 0.625|-0.15}}.
+****Range decreased from +0.5 to +0.25.
+****Final hit damage decreased from +40 to +18.
+****Cooldown changed from {{Tooltip|0.65 > 0.5 to <abbr title="-0.1">0.6 > 0.5|-0.15}}.
+****Reposition damage decreased from 100 to +10.
+****Hidden detection added, moved from Level 2.
+****Name changed from ''Prototype Frame'' to ''GALVAKNUCKLES''.
+***'''Level 5'''
+****Cost decreased from {{Money|12,500}} to {{Money|9,999}}.
+****Damage decreased from +45 to +32.
+****Swingrate changed from 0.525 to {{Tooltip|0.625 > 0.525|-0.1}}.
+****Range increased from +0.5 to +0.75.
+****Final hit damage decreased from +90 to +49.
+****Cooldown changed from 0.5 to 0.5 > 0.4.
+****Reposition damage decreased from +100 to +35.
+****Knockback force increased from +6 to +11.
+****Name changed from ''Faster Hydraulics'' to ''Boreas' Fury''.
+*'''11 February 2026''' - [[v1.85.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****Range increased from 5.75 to 6.
+***'''Level 3'''
+****Range decreased from +0.5 to +0.25.
+****Reposition damage increased from 15 to 30.
+****Swingrate changed from 0.775 to {{Tooltip|0.775 > 0.625|-0.15}}.
+***'''Level 4'''
+****Damage increased from +12 to +13.
+****Swingrate changed from {{Tooltip|0.775 > 0.652|-0.15}} to 0.625.
+****Final hit damage increased from +18 to +37.
+****Reposition damage increased from +10 to +20.
+***'''Level 5'''
+****Cost decreased from {{Money|9,999}} to {{Money|8,250}}.
+****Damage decreased from +32 to +31.
+****Final hit damage decreased from +49 to +41.
+****Reposition damage increased from +35 to +50.
+*'''16 February 2026''' - [[v1.85.0|v1.85.3]]
+**New skin: {{Color|LunarYear|Horse}}
+**{{Bug}} Using ''Reposition'' with the {{Color|LunarYear|Horse}} skin causes for the '''Brawler's''' old placement spot to still take up space.
+*'''11 March 2026''' - [[v1.86.0]]
+**Statistical changes (Regular):
+***'''Level 3'''
+****Reposition damage decreased from 30 to 20.
+****''Reposition'' cooldown increased from 15 seconds to 20 seconds.
+***'''Level 4'''
+****Reposition damage increased from +20 to +30.
+**{{Bug}} Reposition range has not been decreased.
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Bunny}}
+**{{Bug}} Using ''Reposition'' with the {{Color|SpringFrenzy|Bunny}} skin causes for the '''Brawler's''' old placement spot to still take up space.
+*'''24 April 2026''' - [[v1.89.0|v1.89.6]]
+**{{Bugfix}} {{Color|LunarYear|Horse}} and {{Color|SpringFrenzy|Bunny}} skins no longer cause the previous placement spot to take up placement space after using the ''Reposition'' ability.
+*'''22 May 2026''' - [[v1.91.0]]
+**''Reposition'' now can damage [[Lead (Attribute)|Lead]] enemies if the main attack has lead detection.
+**Main attack now has [[Damage Indicators#Melee Indicators|Melee Damage Indicators]]
+**{{Bugfix}} '''Brawler''' is now affected by [[Damage Buff]]s.
+**{{Bugfix}} ''Reposition'' damage now creates [[Damage Indicators#Melee Indicators|Melee Damage Indicators]].
+*'''5 June 2026''' - [[v2.0.0]]
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Level requirement of {{Level|50}} added.
+**Statistical changes (Regular):
+***'''Base'''
+****Damage decreased from 6 to 5.
+****Swingrate decreased from 1.225 to 1.
+***'''Level 1'''
+****Cost increased from {{Money|150}} to {{Money|200}}.
+****Range increased from +0 to +0.5.
+****Swingrate decreased from {{Tooltip|1.225 > 0.825|-0.4}} to {{Tooltip|1 > 0.6|-0.4}}.
+***'''Level 2'''
+****Cost increased from {{Money|750}} to {{Money|1,200}}.
+****Damage increased from +4 to +9.
+****Swingrate changed {{Tooltip|from 0.825 > 0.775|-0.05}} to 0.6.
+****Final hit damage increased from 15 to 21.
+****Cooldown decreased from 0.75 to 0.6.
+***'''Level 3'''
+****Cost increased from {{Money|1,500}} to {{Money|2,500}}
+****Hidden detection added, moved from Level 4.
+****Damage decreased from +12 to +10.
+****Swingrate decreased from {{Tooltip|0.775 > 0.625|-0.15}} to {{Tooltip|0.6 > 0.5|-0.1}}.
+****Range decreased from +0.25 to +0.
+****Final hit damage increased from +18 to +27.
+****Cooldown changed from 0.75 > 0.6 to 0.6 > 0.5.
+****Knockback force increased from +2.5 to +6.5.
+****Hidden detection added, moved from Level 3.
+****Reposition removed, moved to Level 4.
+***'''Level 4'''
+****Cost increased from {{Money|3,000}} to {{Money|3,500}}.
+****Damage decreased from +13 to +11.
+****Range increased from +0.25 to +0.5.
+****Final hit damage decreased from +37 to +22.
+****Cooldown changed from 0.6 > 0.5 to 0.5.
+****Reposition added, moved from Level 3.
+****Reposition range decreased from 10 to 7.5.
+****''Reposition'' cooldown increased from 20 seconds to 30 seconds.
+****Hidden detection moved to Level 3.
+***'''Level 5'''
+****Cost decreased from {{Money|8,250}} to {{Money|7,777}}.
+****Damage decreased from +31 to +15.
+****Swingrate decreased from {{Tooltip|0.625 > 0.525|-0.1}} to {{Tooltip|0.5 > 0.4|-0.1}}.
+****Range increased from +0.75 to +1.
+****Final hit damage decreased from +41 to +30.
+****Knockback force decreased from +11 to +4.
+****Reposition range increased from +0 to +2.5.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Firerate decreased from 0.925 to 0.9.
+***'''Level 1'''
+****Swingrate decreased from {{Tooltip|0.925 > 0.625|-0.3}} to {{Tooltip|0.9 > 0.6|-0.3}}.
+***'''Level 2'''
+****Final hit damage decreased from 24 to 23.
+***'''Level 3'''
+****Final hit damage decreased from +16 to +15.
+***'''Level 4'''
+****Damage decreased from +20 to +18.
+****Final hit damage decreased from +30 to +29.
+***'''Level 5'''
+****Damage decreased from +35 to +32.
+****Final hit damage decreased from +80 to +76.
+**{{Bugfix}} Reposition range now has been properly adjusted.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Scuba|Scuba Ops}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Corrected incorrect ''Reposition'' cooldown values and the Level 3 final hit damage in the upgrade descriptions.
+*'''7 August 2026''' - [[v2.5.0]]
+**New skin: {{Color|Beach}}
 }}
 
 ==Notes==
-<references/>
-
+<references />
 
 
 {{TowerNavBox}}
 [[Category:Ground]]
-[[Category:Cliff]]
 [[Category:Ability]]

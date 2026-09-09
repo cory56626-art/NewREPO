@@ -1,6 +1,21 @@
 {
-  "mode": "discussion_deep_search",
-  "requested": "enforcer golden cowboy gcow loadout",
-  "threads_scanned": 122655,
-  "match_count": 42717
+  "mode": "verify",
+  "requested": "Brawler",
+  "title": "Brawler",
+  "pageid": 40014,
+  "latest_revid": 627692,
+  "latest_timestamp": "2026-08-26T13:01:59Z",
+  "source_url": "https://tds.fandom.com/wiki/Brawler",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

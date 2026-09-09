@@ -10,169 +10,183 @@
   "potential_conflicts": [
     {
       "mode": "regular",
-      "level": 1,
-      "field": "range",
-      "upgrade_implied": 45.0,
-      "statistics_table_claim": 40.0,
+      "level": 3,
+      "field": "damage",
+      "upgrade_implied": 41.0,
+      "statistics_table_claim": 24.0,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+5 Range"
+      "claim_text": "+27 Final Hit Damage"
     },
     {
       "mode": "regular",
       "level": 3,
-      "field": "range",
-      "upgrade_implied": 50.0,
-      "statistics_table_claim": 55.0,
-      "preferred_source": "upgrade_template",
-      "type": "delta_mismatch",
-      "claim_text": "+5 Range"
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "field": "tick",
-      "upgrade_claim": 0.12,
-      "statistics_table_claim": 200.0,
+      "field": "cooldown",
+      "upgrade_claim": 0.5,
+      "statistics_table_claim": 3.0,
       "preferred_source": "upgrade_template",
       "type": "set_mismatch",
-      "claim_text": "0.17 > 0.12 Firerate"
+      "claim_text": "0.6 > 0.5 Cooldown"
     },
     {
       "mode": "regular",
       "level": 4,
       "field": "range",
-      "upgrade_implied": 65.0,
-      "statistics_table_claim": 55.0,
+      "upgrade_implied": 1.0,
+      "statistics_table_claim": 0.5,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+10 Range"
+      "claim_text": "+0.5 Range"
     },
     {
       "mode": "regular",
       "level": 4,
-      "field": "tick",
-      "upgrade_claim": 0.09,
-      "statistics_table_claim": 200.0,
+      "field": "damage",
+      "upgrade_implied": 46.0,
+      "statistics_table_claim": 35.0,
       "preferred_source": "upgrade_template",
-      "type": "set_mismatch",
-      "claim_text": "0.12 > 0.09 Firerate"
+      "type": "delta_mismatch",
+      "claim_text": "+22 Final Hit Damage"
     },
     {
       "mode": "regular",
       "level": 5,
       "field": "range",
-      "upgrade_implied": 60.0,
-      "statistics_table_claim": 65.0,
+      "upgrade_implied": 1.5,
+      "statistics_table_claim": 0.4,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+5 Range"
+      "claim_text": "+1 Range"
     },
     {
-      "mode": "pvp",
-      "level": 1,
-      "field": "range",
-      "upgrade_implied": 45.0,
-      "statistics_table_claim": 40.0,
+      "mode": "regular",
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 65.0,
+      "statistics_table_claim": 50.0,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+5 Range"
+      "claim_text": "+30 Final Hit Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 85.0,
+      "statistics_table_claim": 50.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+50 Reposition Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "cooldown",
+      "upgrade_claim": 0.4,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.5 > 0.4 Cooldown"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 3.0,
+      "statistics_table_claim": 0.4,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2.5 Reposition Range"
     },
     {
       "mode": "pvp",
       "level": 3,
       "field": "damage",
-      "upgrade_implied": 15.0,
-      "statistics_table_claim": 16.0,
+      "upgrade_implied": 27.0,
+      "statistics_table_claim": 20.0,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+2 Damage"
+      "claim_text": "+15 Final Hit Damage"
     },
     {
       "mode": "pvp",
       "level": 3,
-      "field": "range",
-      "upgrade_implied": 50.0,
-      "statistics_table_claim": 55.0,
-      "preferred_source": "upgrade_template",
-      "type": "delta_mismatch",
-      "claim_text": "+5 Range"
-    },
-    {
-      "mode": "pvp",
-      "level": 3,
-      "field": "tick",
-      "upgrade_claim": 0.12,
-      "statistics_table_claim": 200.0,
+      "field": "cooldown",
+      "upgrade_claim": 0.65,
+      "statistics_table_claim": 3.0,
       "preferred_source": "upgrade_template",
       "type": "set_mismatch",
-      "claim_text": "0.15 > 0.12 Firerate"
+      "claim_text": "0.75 > 0.65 Cooldown"
     },
     {
       "mode": "pvp",
       "level": 4,
       "field": "range",
-      "upgrade_implied": 65.0,
-      "statistics_table_claim": 55.0,
+      "upgrade_implied": 1.15,
+      "statistics_table_claim": 0.5,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+10 Range"
+      "claim_text": "+0.5 Range"
     },
     {
       "mode": "pvp",
       "level": 4,
-      "field": "tick",
-      "upgrade_claim": 0.09,
-      "statistics_table_claim": 200.0,
+      "field": "damage",
+      "upgrade_implied": 49.0,
+      "statistics_table_claim": 38.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+29 Final Hit Damage"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "damage",
+      "upgrade_implied": 80.0,
+      "statistics_table_claim": 38.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+60 Reposition Damage"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "cooldown",
+      "upgrade_claim": 0.5,
+      "statistics_table_claim": 3.0,
       "preferred_source": "upgrade_template",
       "type": "set_mismatch",
-      "claim_text": "0.12 > 0.09 Firerate"
+      "claim_text": "0.6 > 0.5 Cooldown"
     },
     {
       "mode": "pvp",
       "level": 5,
       "field": "range",
-      "upgrade_implied": 60.0,
-      "statistics_table_claim": 65.0,
+      "upgrade_implied": 1.0,
+      "statistics_table_claim": 0.5,
       "preferred_source": "upgrade_template",
       "type": "delta_mismatch",
-      "claim_text": "+5 Range"
-    },
-    {
-      "mode": "regular",
-      "level": 0,
-      "field": "tick",
-      "infobox_claim": 0.17,
-      "statistics_table_claim": 50.0,
-      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-      "type": "base_summary_mismatch"
-    },
-    {
-      "mode": "regular",
-      "level": 0,
-      "field": "range",
-      "infobox_claim": 25.0,
-      "statistics_table_claim": 40.0,
-      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-      "type": "base_summary_mismatch"
+      "claim_text": "+0.5 Range"
     },
     {
       "mode": "pvp",
-      "level": 0,
-      "field": "tick",
-      "infobox_claim": 0.15,
-      "statistics_table_claim": 50.0,
-      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-      "type": "base_summary_mismatch"
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 114.0,
+      "statistics_table_claim": 70.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+76 Final Hit Damage"
     },
     {
       "mode": "pvp",
-      "level": 0,
-      "field": "range",
-      "infobox_claim": 25.0,
-      "statistics_table_claim": 40.0,
-      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-      "type": "base_summary_mismatch"
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 108.0,
+      "statistics_table_claim": 70.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+70 Reposition Damage"
     }
   ],
   "notes": [

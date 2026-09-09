@@ -7,274 +7,261 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Gatling Gun''' is an advanced [[Towers|tower]] that is able to be placed on both ground and cliffs, which can be controlled by the player using its ability. It can be bought for {{Coins|35,000}} when the player has reached {{Level|175}} or bought for {{Robux|1,364}}.\n\nThe '''Gatling Gun''' will fire at any enemy in its range based on its targeting, hitting only one enemy. However, unlike most other towers, its range is actually a circular sector, which gets a larger angle with upgrades. When an enemy gets out of its range, it will not follow it, even if it could technically reach it if it moved. The '''Gatling Gun''' also has a limited amount of ammo. Every shot loses one ammo; it will not reload until it runs out of ammo; after that, it will take a few seconds for it to reload.\n\nIts ''FPS'' (''<u>f</u>irst-<u>p</u>erson <u>s</u>hooter'') ability allows the player to control the '''Gatling Gun''', which changes how the tower is used drastically. Most noticeably, the tower itself will no longer automatically shoot at enemies, and will only do so when the player shoots. The player can also reload at any point while the tower itself only does so when it runs out of ammo. The player does not have to manually reload when the tower runs out of ammo, as that still happens automatically. When firing, the bullets now pierce through enemies. The first two enemies receive full damage, while the third receives halved damage. If the damage is not a whole number, it is rounded up. Additionally, the player is not affected by any range statistics; the player can fire anywhere on the map, even if the '''Gatling Gun''' could not do it on its own. However, unlike the non-controlled '''Gatling Gun''', the player cannot shoot through some obstacles, such as cliffs. Additionally, the player itself is affected by spread and recoil.\n\nThe '''Gatling Gun''' itself has flying detection from Level 0 and hidden detection from Level 3. When controlled by the player, it has both of these detections. The '''Gatling Gun''' also cannot be stunned, regardless if it is being controlled or not. It also cannot have debuffs applied to it if the enemy that applies it was added before the [[v1.9.0]] update.\n\nDue to the '''Gatling Gun's''' high base cost, extremely expensive upgrades, and high DPS, it is considered a mid-late game tower due to the placement limit of one. \n\nThere is a limit of one '''Gatling Gun''' per player.",
+  "description": "The '''Brawler''' is a hardcore melee tower that attacks enemies with its mechanical fists. It can be purchased from the store for {{Gem|1,250}} and has a level requirement of {{Level|50}}.\n\nThe '''Brawler''' attacks enemies with its mechanical fists, dealing damage. At Level 2, it gains the ability to combo its attacks, making it attack enemies in a burst of three continuous attacks, which ends in a cooldown. The burst does not restart if there are no more enemies in its range. For example, if it lands two hits on enemies and stops attacking, the next hit will be a final hit. The final hit from a combo will deal increased damage and knock back enemies. The enemy is not always pushed back the same distance, as this is determined by its size. Larger enemies will be pushed back less than an average-sized enemy. Knockback has a 3 second long cooldown before it can be applied again.\n\nThe '''Brawler''' also has a unique ability where it can change its current position into one which the player can select. However, this ability has a cooldown of thirty seconds. Upon landing, it will create a shockwave that deals a decent amount of damage to enemies and knocks them back. Uniquely, the ''Reposition'' ability can damage [[Flying]] enemies.\n\nThe '''Brawler''' is considered an all-round tower due to its cheap placement cost, good DPS, and ability to knockback enemies from Level 2+.\n\nThe '''Brawler''' has a placement limit of ten per player. This is decreased to six in [[PVP]] mode.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "regular",
         "level": 1,
-        "title": "Heavier Bullets",
-        "cost": "{{Money|3,000}}",
-        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}",
+        "title": "Hand to Hand Training",
+        "cost": "{{Money|200}}",
+        "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|166}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
+            "delta": "+0.5",
+            "stat": "Range",
+            "text": "+0.5 Range"
           },
           {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
+            "kind": "set",
+            "from": "1",
+            "to": "0.6",
+            "stat": "Swingrate",
+            "text": "1 > 0.6 Swingrate"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Heavier Bullets",
-          "Cost": "{{Money|3,000}}",
-          "Image": "[[File:GatlingGunLevel1.png|100px]]",
-          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}"
+          "Upgrade Title": "Hand to Hand Training",
+          "Cost": "{{Money|200}}",
+          "Image": "[[File:BrawlerUpgrade2.png|100px]]",
+          "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|166}}"
         }
       },
       {
         "mode": "regular",
         "level": 2,
-        "title": "Bigger Magazine",
-        "cost": "{{Money|7,500}}",
-        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}",
+        "title": "Enhanced Gauntlets",
+        "cost": "{{Money|1,200}}",
+        "information": "+9 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.6 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|566}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+4",
+            "delta": "+9",
             "stat": "Damage",
-            "text": "+4 Damage"
+            "text": "+9 Damage"
           },
           {
-            "kind": "set",
-            "from": "2.5",
-            "to": "2",
-            "stat": "Reload Time",
-            "text": "2.5 > 2 Reload Time"
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage"
           },
           {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Angle",
-            "text": "+5 Angle"
+            "kind": "note",
+            "text": "3 Hit Count"
           },
           {
-            "kind": "delta",
-            "delta": "-1",
-            "stat": "Spread",
-            "text": "-1 Spread"
+            "kind": "note",
+            "text": "0.6 Cooldown"
           },
           {
-            "kind": "delta",
-            "delta": "+50",
-            "stat": "Ammo",
-            "text": "+50 Ammo"
+            "kind": "note",
+            "text": "Knocks back enemies on final hit"
+          },
+          {
+            "kind": "note",
+            "text": "17.5 Knockback Force}}"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Bigger Magazine",
-          "Cost": "{{Money|7,500}}",
-          "Image": "[[File:GatlingGunLevel2.png|100px]]",
-          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}"
+          "Upgrade Title": "Enhanced Gauntlets",
+          "Cost": "{{Money|1,200}}",
+          "Image": "[[File:BrawlerUpgrade2.png|100px]]",
+          "Information": "+9 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.6 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|566}}"
         }
       },
       {
         "mode": "regular",
         "level": 3,
-        "title": "Extra Barrel",
-        "cost": "{{Money|15,000}}",
-        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}",
+        "title": "Pack a Punch",
+        "cost": "{{Money|2,500}}",
+        "information": "+10 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+27 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+6.5 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|1,400}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.17",
-            "to": "0.12",
-            "stat": "Firerate",
-            "text": "0.17 > 0.12 Firerate"
-          },
-          {
-            "kind": "delta",
             "delta": "+10",
-            "stat": "Angle",
-            "text": "+10 Angle"
-          },
-          {
-            "kind": "delta",
-            "delta": "-1.5",
-            "stat": "Spread",
-            "text": "-1.5 Spread"
-          },
-          {
-            "kind": "delta",
-            "delta": "+100",
-            "stat": "Ammo",
-            "text": "+100 Ammo"
+            "stat": "Damage",
+            "text": "+10 Damage"
           },
           {
             "kind": "grant",
             "stat": "Hidden Detection",
             "text": "+Hidden Detection"
+          },
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.5",
+            "stat": "Swingrate",
+            "text": "0.6 > 0.5 Swingrate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+27",
+            "stat": "Final Hit Damage",
+            "text": "+27 Final Hit Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.5",
+            "stat": "Cooldown",
+            "text": "0.6 > 0.5 Cooldown"
+          },
+          {
+            "kind": "delta",
+            "delta": "+6.5",
+            "stat": "Knockback Force",
+            "text": "+6.5 Knockback Force"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Extra Barrel",
-          "Cost": "{{Money|15,000}}",
-          "Image": "[[File:GatlingGunLevel3.png|100px]]",
-          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}"
+          "Upgrade Title": "Pack a Punch",
+          "Cost": "{{Money|2,500}}",
+          "Image": "[[File:BrawlerUpgrade3.png|100px]]",
+          "Information": "+10 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+27 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+6.5 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|1,400}}"
         }
       },
       {
         "mode": "regular",
         "level": 4,
-        "title": "Minigun Barrel",
-        "cost": "{{Money|32,500}}",
-        "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}",
+        "title": "GALVAKNUCKLES",
+        "cost": "{{Money|3,500}}",
+        "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+22 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+4 Knockback Force {{Knockback}}\n\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•7.5 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•The '''Brawler''' leaps to a selected spot on the map\n\n•50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]}}\n\n\nSell Price changes to {{Money|2,566}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+7",
-            "stat": "Damage",
-            "text": "+7 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
+            "delta": "+0.5",
             "stat": "Range",
-            "text": "+10 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.12",
-            "to": "0.09",
-            "stat": "Firerate",
-            "text": "0.12 > 0.09 Firerate"
+            "text": "+0.5 Range"
           },
           {
             "kind": "delta",
-            "delta": "-1",
-            "stat": "Spread",
-            "text": "-1 Spread"
+            "delta": "+11",
+            "stat": "Damage",
+            "text": "+11 Damage"
           },
           {
             "kind": "delta",
-            "delta": "-0.02",
-            "stat": "Recoil",
-            "text": "-0.02 Recoil"
+            "delta": "+22",
+            "stat": "Final Hit Damage",
+            "text": "+22 Final Hit Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Knockback Force",
+            "text": "+4 Knockback Force"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Reposition Ability|Description ="
+          },
+          {
+            "kind": "note",
+            "text": "7.5 Reposition Range"
+          },
+          {
+            "kind": "note",
+            "text": "Knocks back all hit enemies"
+          },
+          {
+            "kind": "note",
+            "text": "25 Knockback Force"
+          },
+          {
+            "kind": "note",
+            "text": "The '''Brawler''' leaps to a selected spot on the map"
+          },
+          {
+            "kind": "note",
+            "text": "50 Reposition Damage }}"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Minigun Barrel",
-          "Cost": "{{Money|32,500}}",
-          "Image": "[[File:GatlingGunLevel4.png|100px]]",
-          "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}"
+          "Upgrade Title": "GALVAKNUCKLES",
+          "Cost": "{{Money|3,500}}",
+          "Image": "[[File:BrawlerUpgrade4.png|100px]]",
+          "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+22 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+4 Knockback Force {{Knockback}}\n\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•7.5 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•The '''Brawler''' leaps to a selected spot on the map\n\n•50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]}}\n\n\nSell Price changes to {{Money|2,566}}"
         }
       },
       {
         "mode": "regular",
         "level": 5,
-        "title": "Impenetrable Fortress",
-        "cost": "{{Money|50,000}}",
-        "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}",
+        "title": "Boreas' Fury",
+        "cost": "{{Money|7,777}}",
+        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+30 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.5 > 0.4 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n+2.5 Reposition Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|5,159}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+16",
-            "stat": "Damage",
-            "text": "+16 Damage"
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
           },
           {
             "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
+            "delta": "+15",
+            "stat": "Damage",
+            "text": "+15 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+30",
+            "stat": "Final Hit Damage",
+            "text": "+30 Final Hit Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Reposition Damage",
+            "text": "+50 Reposition Damage"
           },
           {
             "kind": "set",
-            "from": "2",
-            "to": "6",
-            "stat": "Reload Time",
-            "text": "2 > 6 Reload Time"
+            "from": "0.5",
+            "to": "0.4",
+            "stat": "Swingrate",
+            "text": "0.5 > 0.4 Swingrate"
+          },
+          {
+            "kind": "set",
+            "from": "0.5",
+            "to": "0.4",
+            "stat": "Cooldown",
+            "text": "0.5 > 0.4 Cooldown"
           },
           {
             "kind": "delta",
-            "delta": "+10",
-            "stat": "Angle",
-            "text": "+10 Angle"
+            "delta": "+4",
+            "stat": "Knockback Force",
+            "text": "+4 Knockback Force"
           },
           {
             "kind": "delta",
-            "delta": "-0.03",
-            "stat": "Recoil",
-            "text": "-0.03 Recoil"
-          },
-          {
-            "kind": "delta",
-            "delta": "+200",
-            "stat": "Ammo",
-            "text": "+200 Ammo"
+            "delta": "+2.5",
+            "stat": "Reposition Range",
+            "text": "+2.5 Reposition Range"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Impenetrable Fortress",
-          "Cost": "{{Money|50,000}}",
-          "Image": "[[File:GatlingGunLevel5.png|100px]]",
-          "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "title": "Destruction-Oriented Output Machine",
-        "cost": "{{Money|100,000}}",
-        "information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+31",
-            "stat": "Damage",
-            "text": "+31 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Angle",
-            "text": "+5 Angle"
-          },
-          {
-            "kind": "delta",
-            "delta": "+200",
-            "stat": "Ammo",
-            "text": "+200 Ammo"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Upgrade Title": "Destruction-Oriented Output Machine",
-          "Cost": "{{Money|100,000}}",
-          "Image": "[[File:GatlingGunLevel6.png|100px]]",
-          "Information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}"
+          "Upgrade Title": "Boreas' Fury",
+          "Cost": "{{Money|7,777}}",
+          "Image": "[[File:BrawlerUpgrade5.png|100px]]",
+          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+30 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.5 > 0.4 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n+2.5 Reposition Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|5,159}}"
         }
       }
     ],
@@ -282,84 +269,32 @@
       {
         "mode": "pvp",
         "level": 1,
-        "title": "Heavier Bullets",
-        "cost": "{{Money|2,500}}",
-        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}",
+        "title": "Hand to Hand Training",
+        "cost": "{{Money|300}}",
+        "information": "0.9 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Swingrate]]\n\n\nSell Price changes to {{Money|300}}",
         "claims": [
           {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
+            "kind": "set",
+            "from": "0.9",
+            "to": "0.6",
+            "stat": "Swingrate",
+            "text": "0.9 > 0.6 Swingrate"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Heavier Bullets",
-          "Cost": "{{Money|2,500}}",
-          "Image": "[[File:GatlingGunLevel1.png|100px]]",
-          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}"
+          "Upgrade Title": "Hand to Hand Training",
+          "Cost": "{{Money|300}}",
+          "Image": "[[File:Transparent.png|100px]]",
+          "Information": "0.9 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Swingrate]]\n\n\nSell Price changes to {{Money|300}}"
         }
       },
       {
         "mode": "pvp",
         "level": 2,
-        "title": "Bigger Magazine",
-        "cost": "{{Money|7,500}}",
-        "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+6",
-            "stat": "Damage",
-            "text": "+6 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "2.5",
-            "to": "2",
-            "stat": "Reload Time",
-            "text": "2.5 > 2 Reload Time"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Angle",
-            "text": "+5 Angle"
-          },
-          {
-            "kind": "delta",
-            "delta": "-1",
-            "stat": "Spread",
-            "text": "-1 Spread"
-          },
-          {
-            "kind": "delta",
-            "delta": "+50",
-            "stat": "Ammo",
-            "text": "+50 Ammo"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Bigger Magazine",
-          "Cost": "{{Money|7,500}}",
-          "Image": "[[File:GatlingGunLevel2.png|100px]]",
-          "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 3,
-        "title": "Extra Barrel",
-        "cost": "{{Money|15,000}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}",
+        "title": "Enhanced Gauntlets",
+        "cost": "{{Money|950}}",
+        "information": "+2 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.75 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|616}}",
         "claims": [
           {
             "kind": "delta",
@@ -368,57 +303,46 @@
             "text": "+2 Damage"
           },
           {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage"
           },
           {
-            "kind": "set",
-            "from": "0.15",
-            "to": "0.12",
-            "stat": "Firerate",
-            "text": "0.15 > 0.12 Firerate"
+            "kind": "note",
+            "text": "3 Hit Count"
           },
           {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Angle",
-            "text": "+10 Angle"
+            "kind": "note",
+            "text": "0.75 Cooldown"
           },
           {
-            "kind": "delta",
-            "delta": "-1.5",
-            "stat": "Spread",
-            "text": "-1.5 Spread"
+            "kind": "note",
+            "text": "Knocks back enemies on final hit"
           },
           {
-            "kind": "delta",
-            "delta": "+100",
-            "stat": "Ammo",
-            "text": "+100 Ammo"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
+            "kind": "note",
+            "text": "17.5 Knockback Force}}"
           }
         ],
         "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Extra Barrel",
-          "Cost": "{{Money|15,000}}",
-          "Image": "[[File:GatlingGunLevel3.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}"
+          "Level": "Level 2",
+          "Upgrade Title": "Enhanced Gauntlets",
+          "Cost": "{{Money|950}}",
+          "Image": "[[File:BrawlerUpgrade2.png|100px]]",
+          "Information": "+2 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.75 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|616}}"
         }
       },
       {
         "mode": "pvp",
-        "level": 4,
-        "title": "Minigun Barrel",
-        "cost": "{{Money|32,500}}",
-        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}",
+        "level": 3,
+        "title": "Pack a Punch",
+        "cost": "{{Money|2,250}}",
+        "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+8 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+15 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.75 > 0.65 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+2.5 Knockback Force {{Knockback}}\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•10 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•20 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n•The '''Brawler''' leaps to a selected spot on the map}}\n\n\nSell Price changes to {{Money|1,366}}",
         "claims": [
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
           {
             "kind": "delta",
             "delta": "+8",
@@ -427,123 +351,160 @@
           },
           {
             "kind": "delta",
-            "delta": "+10",
-            "stat": "Range",
-            "text": "+10 Range"
+            "delta": "+15",
+            "stat": "Final Hit Damage",
+            "text": "+15 Final Hit Damage"
           },
           {
             "kind": "set",
-            "from": "0.12",
-            "to": "0.09",
-            "stat": "Firerate",
-            "text": "0.12 > 0.09 Firerate"
+            "from": "0.75",
+            "to": "0.65",
+            "stat": "Cooldown",
+            "text": "0.75 > 0.65 Cooldown"
           },
           {
             "kind": "delta",
-            "delta": "-1",
-            "stat": "Spread",
-            "text": "-1 Spread"
+            "delta": "+2.5",
+            "stat": "Knockback Force",
+            "text": "+2.5 Knockback Force"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Reposition Ability|Description ="
+          },
+          {
+            "kind": "note",
+            "text": "10 Reposition Range"
+          },
+          {
+            "kind": "note",
+            "text": "Knocks back all hit enemies"
+          },
+          {
+            "kind": "note",
+            "text": "25 Knockback Force"
+          },
+          {
+            "kind": "note",
+            "text": "20 Reposition Damage"
+          },
+          {
+            "kind": "note",
+            "text": "The '''Brawler''' leaps to a selected spot on the map}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Pack a Punch",
+          "Cost": "{{Money|2,250}}",
+          "Image": "[[File:BrawlerUpgrade3.png|100px]]",
+          "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+8 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+15 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.75 > 0.65 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+2.5 Knockback Force {{Knockback}}\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•10 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•20 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n•The '''Brawler''' leaps to a selected spot on the map}}\n\n\nSell Price changes to {{Money|1,366}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Prototype Frame",
+        "cost": "{{Money|5,200}}",
+        "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+18 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+29 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+60 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|3,100}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+0.5",
+            "stat": "Range",
+            "text": "+0.5 Range"
           },
           {
             "kind": "delta",
-            "delta": "-0.02",
-            "stat": "Recoil",
-            "text": "-0.02 Recoil"
+            "delta": "+18",
+            "stat": "Damage",
+            "text": "+18 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+29",
+            "stat": "Final Hit Damage",
+            "text": "+29 Final Hit Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+60",
+            "stat": "Reposition Damage",
+            "text": "+60 Reposition Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.5",
+            "stat": "Swingrate",
+            "text": "0.6 > 0.5 Swingrate"
+          },
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.5",
+            "stat": "Cooldown",
+            "text": "0.6 > 0.5 Cooldown"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Knockback Force",
+            "text": "+4 Knockback Force"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Minigun Barrel",
-          "Cost": "{{Money|32,500}}",
-          "Image": "[[File:GatlingGunLevel4.png|100px]]",
-          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}"
+          "Upgrade Title": "Prototype Frame",
+          "Cost": "{{Money|5,200}}",
+          "Image": "[[File:BrawlerUpgrade4.png|100px]]",
+          "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+18 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+29 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+60 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|3,100}}"
         }
       },
       {
         "mode": "pvp",
         "level": 5,
-        "title": "Impenetrable Fortress",
-        "cost": "{{Money|42,000}}",
-        "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}",
+        "title": "Faster Hydraulics",
+        "cost": "{{Money|12,000}}",
+        "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+32 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+76 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+70 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n+6 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|7,100}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+16",
-            "stat": "Damage",
-            "text": "+16 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
+            "delta": "+0.5",
             "stat": "Range",
-            "text": "+5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "2",
-            "to": "6",
-            "stat": "Reload Time",
-            "text": "2 > 6 Reload Time"
+            "text": "+0.5 Range"
           },
           {
             "kind": "delta",
-            "delta": "+10",
-            "stat": "Angle",
-            "text": "+10 Angle"
+            "delta": "+32",
+            "stat": "Damage",
+            "text": "+32 Damage"
           },
           {
             "kind": "delta",
-            "delta": "-0.03",
-            "stat": "Recoil",
-            "text": "-0.03 Recoil"
+            "delta": "+76",
+            "stat": "Final Hit Damage",
+            "text": "+76 Final Hit Damage"
           },
           {
             "kind": "delta",
-            "delta": "+200",
-            "stat": "Ammo",
-            "text": "+200 Ammo"
+            "delta": "+70",
+            "stat": "Reposition Damage",
+            "text": "+70 Reposition Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+6",
+            "stat": "Knockback Force",
+            "text": "+6 Knockback Force"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Impenetrable Fortress",
-          "Cost": "{{Money|42,000}}",
-          "Image": "[[File:GatlingGunLevel5.png|100px]]",
-          "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "title": "Destruction-Oriented Output Machine",
-        "cost": "{{Money|100,000}}",
-        "information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+40",
-            "stat": "Damage",
-            "text": "+40 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Angle",
-            "text": "+5 Angle"
-          },
-          {
-            "kind": "delta",
-            "delta": "+200",
-            "stat": "Ammo",
-            "text": "+200 Ammo"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Upgrade Title": "Destruction-Oriented Output Machine",
-          "Cost": "{{Money|100,000}}",
-          "Image": "[[File:GatlingGunLevel6.png|100px]]",
-          "Information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}"
+          "Upgrade Title": "Faster Hydraulics",
+          "Cost": "{{Money|12,000}}",
+          "Image": "[[File:BrawlerUpgrade5.png|100px]]",
+          "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+32 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+76 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+70 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n+6 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|7,100}}"
         }
       }
     ]
@@ -552,351 +513,286 @@
     {
       "mode": "regular",
       "level": 1,
-      "title": "Heavier Bullets",
-      "cost": "{{Money|3,000}}",
-      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}",
+      "title": "Hand to Hand Training",
+      "cost": "{{Money|200}}",
+      "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|166}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+3",
-          "stat": "Damage",
-          "text": "+3 Damage"
+          "delta": "+0.5",
+          "stat": "Range",
+          "text": "+0.5 Range"
         },
         {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
+          "kind": "set",
+          "from": "1",
+          "to": "0.6",
+          "stat": "Swingrate",
+          "text": "1 > 0.6 Swingrate"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Heavier Bullets",
-        "Cost": "{{Money|3,000}}",
-        "Image": "[[File:GatlingGunLevel1.png|100px]]",
-        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}"
+        "Upgrade Title": "Hand to Hand Training",
+        "Cost": "{{Money|200}}",
+        "Image": "[[File:BrawlerUpgrade2.png|100px]]",
+        "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|166}}"
       }
     },
     {
       "mode": "regular",
       "level": 2,
-      "title": "Bigger Magazine",
-      "cost": "{{Money|7,500}}",
-      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}",
+      "title": "Enhanced Gauntlets",
+      "cost": "{{Money|1,200}}",
+      "information": "+9 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.6 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|566}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+4",
+          "delta": "+9",
           "stat": "Damage",
-          "text": "+4 Damage"
+          "text": "+9 Damage"
         },
         {
-          "kind": "set",
-          "from": "2.5",
-          "to": "2",
-          "stat": "Reload Time",
-          "text": "2.5 > 2 Reload Time"
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage"
         },
         {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Angle",
-          "text": "+5 Angle"
+          "kind": "note",
+          "text": "3 Hit Count"
         },
         {
-          "kind": "delta",
-          "delta": "-1",
-          "stat": "Spread",
-          "text": "-1 Spread"
+          "kind": "note",
+          "text": "0.6 Cooldown"
         },
         {
-          "kind": "delta",
-          "delta": "+50",
-          "stat": "Ammo",
-          "text": "+50 Ammo"
+          "kind": "note",
+          "text": "Knocks back enemies on final hit"
+        },
+        {
+          "kind": "note",
+          "text": "17.5 Knockback Force}}"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Bigger Magazine",
-        "Cost": "{{Money|7,500}}",
-        "Image": "[[File:GatlingGunLevel2.png|100px]]",
-        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}"
+        "Upgrade Title": "Enhanced Gauntlets",
+        "Cost": "{{Money|1,200}}",
+        "Image": "[[File:BrawlerUpgrade2.png|100px]]",
+        "Information": "+9 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •21 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.6 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|566}}"
       }
     },
     {
       "mode": "regular",
       "level": 3,
-      "title": "Extra Barrel",
-      "cost": "{{Money|15,000}}",
-      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}",
+      "title": "Pack a Punch",
+      "cost": "{{Money|2,500}}",
+      "information": "+10 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+27 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+6.5 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|1,400}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.17",
-          "to": "0.12",
-          "stat": "Firerate",
-          "text": "0.17 > 0.12 Firerate"
-        },
-        {
-          "kind": "delta",
           "delta": "+10",
-          "stat": "Angle",
-          "text": "+10 Angle"
-        },
-        {
-          "kind": "delta",
-          "delta": "-1.5",
-          "stat": "Spread",
-          "text": "-1.5 Spread"
-        },
-        {
-          "kind": "delta",
-          "delta": "+100",
-          "stat": "Ammo",
-          "text": "+100 Ammo"
+          "stat": "Damage",
+          "text": "+10 Damage"
         },
         {
           "kind": "grant",
           "stat": "Hidden Detection",
           "text": "+Hidden Detection"
+        },
+        {
+          "kind": "set",
+          "from": "0.6",
+          "to": "0.5",
+          "stat": "Swingrate",
+          "text": "0.6 > 0.5 Swingrate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+27",
+          "stat": "Final Hit Damage",
+          "text": "+27 Final Hit Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.6",
+          "to": "0.5",
+          "stat": "Cooldown",
+          "text": "0.6 > 0.5 Cooldown"
+        },
+        {
+          "kind": "delta",
+          "delta": "+6.5",
+          "stat": "Knockback Force",
+          "text": "+6.5 Knockback Force"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Extra Barrel",
-        "Cost": "{{Money|15,000}}",
-        "Image": "[[File:GatlingGunLevel3.png|100px]]",
-        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}"
+        "Upgrade Title": "Pack a Punch",
+        "Cost": "{{Money|2,500}}",
+        "Image": "[[File:BrawlerUpgrade3.png|100px]]",
+        "Information": "+10 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+27 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+6.5 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|1,400}}"
       }
     },
     {
       "mode": "regular",
       "level": 4,
-      "title": "Minigun Barrel",
-      "cost": "{{Money|32,500}}",
-      "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}",
+      "title": "GALVAKNUCKLES",
+      "cost": "{{Money|3,500}}",
+      "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+22 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+4 Knockback Force {{Knockback}}\n\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•7.5 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•The '''Brawler''' leaps to a selected spot on the map\n\n•50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]}}\n\n\nSell Price changes to {{Money|2,566}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+7",
-          "stat": "Damage",
-          "text": "+7 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
+          "delta": "+0.5",
           "stat": "Range",
-          "text": "+10 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.12",
-          "to": "0.09",
-          "stat": "Firerate",
-          "text": "0.12 > 0.09 Firerate"
+          "text": "+0.5 Range"
         },
         {
           "kind": "delta",
-          "delta": "-1",
-          "stat": "Spread",
-          "text": "-1 Spread"
+          "delta": "+11",
+          "stat": "Damage",
+          "text": "+11 Damage"
         },
         {
           "kind": "delta",
-          "delta": "-0.02",
-          "stat": "Recoil",
-          "text": "-0.02 Recoil"
+          "delta": "+22",
+          "stat": "Final Hit Damage",
+          "text": "+22 Final Hit Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Knockback Force",
+          "text": "+4 Knockback Force"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Reposition Ability|Description ="
+        },
+        {
+          "kind": "note",
+          "text": "7.5 Reposition Range"
+        },
+        {
+          "kind": "note",
+          "text": "Knocks back all hit enemies"
+        },
+        {
+          "kind": "note",
+          "text": "25 Knockback Force"
+        },
+        {
+          "kind": "note",
+          "text": "The '''Brawler''' leaps to a selected spot on the map"
+        },
+        {
+          "kind": "note",
+          "text": "50 Reposition Damage }}"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Minigun Barrel",
-        "Cost": "{{Money|32,500}}",
-        "Image": "[[File:GatlingGunLevel4.png|100px]]",
-        "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}"
+        "Upgrade Title": "GALVAKNUCKLES",
+        "Cost": "{{Money|3,500}}",
+        "Image": "[[File:BrawlerUpgrade4.png|100px]]",
+        "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+22 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+4 Knockback Force {{Knockback}}\n\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•7.5 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•The '''Brawler''' leaps to a selected spot on the map\n\n•50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]}}\n\n\nSell Price changes to {{Money|2,566}}"
       }
     },
     {
       "mode": "regular",
       "level": 5,
-      "title": "Impenetrable Fortress",
-      "cost": "{{Money|50,000}}",
-      "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}",
+      "title": "Boreas' Fury",
+      "cost": "{{Money|7,777}}",
+      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+30 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.5 > 0.4 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n+2.5 Reposition Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|5,159}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+16",
-          "stat": "Damage",
-          "text": "+16 Damage"
+          "delta": "+1",
+          "stat": "Range",
+          "text": "+1 Range"
         },
         {
           "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
+          "delta": "+15",
+          "stat": "Damage",
+          "text": "+15 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+30",
+          "stat": "Final Hit Damage",
+          "text": "+30 Final Hit Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+50",
+          "stat": "Reposition Damage",
+          "text": "+50 Reposition Damage"
         },
         {
           "kind": "set",
-          "from": "2",
-          "to": "6",
-          "stat": "Reload Time",
-          "text": "2 > 6 Reload Time"
+          "from": "0.5",
+          "to": "0.4",
+          "stat": "Swingrate",
+          "text": "0.5 > 0.4 Swingrate"
+        },
+        {
+          "kind": "set",
+          "from": "0.5",
+          "to": "0.4",
+          "stat": "Cooldown",
+          "text": "0.5 > 0.4 Cooldown"
         },
         {
           "kind": "delta",
-          "delta": "+10",
-          "stat": "Angle",
-          "text": "+10 Angle"
+          "delta": "+4",
+          "stat": "Knockback Force",
+          "text": "+4 Knockback Force"
         },
         {
           "kind": "delta",
-          "delta": "-0.03",
-          "stat": "Recoil",
-          "text": "-0.03 Recoil"
-        },
-        {
-          "kind": "delta",
-          "delta": "+200",
-          "stat": "Ammo",
-          "text": "+200 Ammo"
+          "delta": "+2.5",
+          "stat": "Reposition Range",
+          "text": "+2.5 Reposition Range"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "Impenetrable Fortress",
-        "Cost": "{{Money|50,000}}",
-        "Image": "[[File:GatlingGunLevel5.png|100px]]",
-        "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 6,
-      "title": "Destruction-Oriented Output Machine",
-      "cost": "{{Money|100,000}}",
-      "information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+31",
-          "stat": "Damage",
-          "text": "+31 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Angle",
-          "text": "+5 Angle"
-        },
-        {
-          "kind": "delta",
-          "delta": "+200",
-          "stat": "Ammo",
-          "text": "+200 Ammo"
-        }
-      ],
-      "params": {
-        "Level": "Level 6",
-        "Upgrade Title": "Destruction-Oriented Output Machine",
-        "Cost": "{{Money|100,000}}",
-        "Image": "[[File:GatlingGunLevel6.png|100px]]",
-        "Information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}"
+        "Upgrade Title": "Boreas' Fury",
+        "Cost": "{{Money|7,777}}",
+        "Image": "[[File:BrawlerUpgrade5.png|100px]]",
+        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+30 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+50 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.5 > 0.4 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n+2.5 Reposition Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|5,159}}"
       }
     },
     {
       "mode": "pvp",
       "level": 1,
-      "title": "Heavier Bullets",
-      "cost": "{{Money|2,500}}",
-      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}",
+      "title": "Hand to Hand Training",
+      "cost": "{{Money|300}}",
+      "information": "0.9 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Swingrate]]\n\n\nSell Price changes to {{Money|300}}",
       "claims": [
         {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Damage",
-          "text": "+3 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
+          "kind": "set",
+          "from": "0.9",
+          "to": "0.6",
+          "stat": "Swingrate",
+          "text": "0.9 > 0.6 Swingrate"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Heavier Bullets",
-        "Cost": "{{Money|2,500}}",
-        "Image": "[[File:GatlingGunLevel1.png|100px]]",
-        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}"
+        "Upgrade Title": "Hand to Hand Training",
+        "Cost": "{{Money|300}}",
+        "Image": "[[File:Transparent.png|100px]]",
+        "Information": "0.9 > 0.6 Swingrate [[File:Cooldown Icon.png|20px|Swingrate]]\n\n\nSell Price changes to {{Money|300}}"
       }
     },
     {
       "mode": "pvp",
       "level": 2,
-      "title": "Bigger Magazine",
-      "cost": "{{Money|7,500}}",
-      "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+6",
-          "stat": "Damage",
-          "text": "+6 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "2.5",
-          "to": "2",
-          "stat": "Reload Time",
-          "text": "2.5 > 2 Reload Time"
-        },
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Angle",
-          "text": "+5 Angle"
-        },
-        {
-          "kind": "delta",
-          "delta": "-1",
-          "stat": "Spread",
-          "text": "-1 Spread"
-        },
-        {
-          "kind": "delta",
-          "delta": "+50",
-          "stat": "Ammo",
-          "text": "+50 Ammo"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Bigger Magazine",
-        "Cost": "{{Money|7,500}}",
-        "Image": "[[File:GatlingGunLevel2.png|100px]]",
-        "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 3,
-      "title": "Extra Barrel",
-      "cost": "{{Money|15,000}}",
-      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}",
+      "title": "Enhanced Gauntlets",
+      "cost": "{{Money|950}}",
+      "information": "+2 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.75 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|616}}",
       "claims": [
         {
           "kind": "delta",
@@ -905,57 +801,46 @@
           "text": "+2 Damage"
         },
         {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Range",
-          "text": "+5 Range"
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage"
         },
         {
-          "kind": "set",
-          "from": "0.15",
-          "to": "0.12",
-          "stat": "Firerate",
-          "text": "0.15 > 0.12 Firerate"
+          "kind": "note",
+          "text": "3 Hit Count"
         },
         {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Angle",
-          "text": "+10 Angle"
+          "kind": "note",
+          "text": "0.75 Cooldown"
         },
         {
-          "kind": "delta",
-          "delta": "-1.5",
-          "stat": "Spread",
-          "text": "-1.5 Spread"
+          "kind": "note",
+          "text": "Knocks back enemies on final hit"
         },
         {
-          "kind": "delta",
-          "delta": "+100",
-          "stat": "Ammo",
-          "text": "+100 Ammo"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
+          "kind": "note",
+          "text": "17.5 Knockback Force}}"
         }
       ],
       "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Extra Barrel",
-        "Cost": "{{Money|15,000}}",
-        "Image": "[[File:GatlingGunLevel3.png|100px]]",
-        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}"
+        "Level": "Level 2",
+        "Upgrade Title": "Enhanced Gauntlets",
+        "Cost": "{{Money|950}}",
+        "Image": "[[File:BrawlerUpgrade2.png|100px]]",
+        "Information": "+2 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n{{CollapsibleUpgrade|Title = Attack Combo|Description = •23 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n•3 Hit Count\n\n•0.75 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n•Knocks back enemies on final hit {{Knockback}}\n\n•17.5 Knockback Force}}\n\n\nSell Price changes to {{Money|616}}"
       }
     },
     {
       "mode": "pvp",
-      "level": 4,
-      "title": "Minigun Barrel",
-      "cost": "{{Money|32,500}}",
-      "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}",
+      "level": 3,
+      "title": "Pack a Punch",
+      "cost": "{{Money|2,250}}",
+      "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+8 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+15 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.75 > 0.65 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+2.5 Knockback Force {{Knockback}}\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•10 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•20 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n•The '''Brawler''' leaps to a selected spot on the map}}\n\n\nSell Price changes to {{Money|1,366}}",
       "claims": [
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
         {
           "kind": "delta",
           "delta": "+8",
@@ -964,123 +849,160 @@
         },
         {
           "kind": "delta",
-          "delta": "+10",
-          "stat": "Range",
-          "text": "+10 Range"
+          "delta": "+15",
+          "stat": "Final Hit Damage",
+          "text": "+15 Final Hit Damage"
         },
         {
           "kind": "set",
-          "from": "0.12",
-          "to": "0.09",
-          "stat": "Firerate",
-          "text": "0.12 > 0.09 Firerate"
+          "from": "0.75",
+          "to": "0.65",
+          "stat": "Cooldown",
+          "text": "0.75 > 0.65 Cooldown"
         },
         {
           "kind": "delta",
-          "delta": "-1",
-          "stat": "Spread",
-          "text": "-1 Spread"
+          "delta": "+2.5",
+          "stat": "Knockback Force",
+          "text": "+2.5 Knockback Force"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Reposition Ability|Description ="
+        },
+        {
+          "kind": "note",
+          "text": "10 Reposition Range"
+        },
+        {
+          "kind": "note",
+          "text": "Knocks back all hit enemies"
+        },
+        {
+          "kind": "note",
+          "text": "25 Knockback Force"
+        },
+        {
+          "kind": "note",
+          "text": "20 Reposition Damage"
+        },
+        {
+          "kind": "note",
+          "text": "The '''Brawler''' leaps to a selected spot on the map}}"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Pack a Punch",
+        "Cost": "{{Money|2,250}}",
+        "Image": "[[File:BrawlerUpgrade3.png|100px]]",
+        "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+8 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+15 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n0.75 > 0.65 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+2.5 Knockback Force {{Knockback}}\n\n{{CollapsibleUpgrade|Title = Reposition Ability|Description = \n\n•10 Reposition Range [[File:Range Icon.png|20px|Reposition Range]]\n\n•Knocks back all hit enemies {{Knockback}}\n\n•25 Knockback Force\n\n•20 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n•The '''Brawler''' leaps to a selected spot on the map}}\n\n\nSell Price changes to {{Money|1,366}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Prototype Frame",
+      "cost": "{{Money|5,200}}",
+      "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+18 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+29 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+60 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|3,100}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+0.5",
+          "stat": "Range",
+          "text": "+0.5 Range"
         },
         {
           "kind": "delta",
-          "delta": "-0.02",
-          "stat": "Recoil",
-          "text": "-0.02 Recoil"
+          "delta": "+18",
+          "stat": "Damage",
+          "text": "+18 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+29",
+          "stat": "Final Hit Damage",
+          "text": "+29 Final Hit Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+60",
+          "stat": "Reposition Damage",
+          "text": "+60 Reposition Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.6",
+          "to": "0.5",
+          "stat": "Swingrate",
+          "text": "0.6 > 0.5 Swingrate"
+        },
+        {
+          "kind": "set",
+          "from": "0.6",
+          "to": "0.5",
+          "stat": "Cooldown",
+          "text": "0.6 > 0.5 Cooldown"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Knockback Force",
+          "text": "+4 Knockback Force"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Minigun Barrel",
-        "Cost": "{{Money|32,500}}",
-        "Image": "[[File:GatlingGunLevel4.png|100px]]",
-        "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}"
+        "Upgrade Title": "Prototype Frame",
+        "Cost": "{{Money|5,200}}",
+        "Image": "[[File:BrawlerUpgrade4.png|100px]]",
+        "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+18 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+29 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n\n+60 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n0.6 > 0.5 Swingrate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.6 > 0.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n+4 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|3,100}}"
       }
     },
     {
       "mode": "pvp",
       "level": 5,
-      "title": "Impenetrable Fortress",
-      "cost": "{{Money|42,000}}",
-      "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}",
+      "title": "Faster Hydraulics",
+      "cost": "{{Money|12,000}}",
+      "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+32 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+76 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+70 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n+6 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|7,100}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+16",
-          "stat": "Damage",
-          "text": "+16 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+5",
+          "delta": "+0.5",
           "stat": "Range",
-          "text": "+5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "2",
-          "to": "6",
-          "stat": "Reload Time",
-          "text": "2 > 6 Reload Time"
+          "text": "+0.5 Range"
         },
         {
           "kind": "delta",
-          "delta": "+10",
-          "stat": "Angle",
-          "text": "+10 Angle"
+          "delta": "+32",
+          "stat": "Damage",
+          "text": "+32 Damage"
         },
         {
           "kind": "delta",
-          "delta": "-0.03",
-          "stat": "Recoil",
-          "text": "-0.03 Recoil"
+          "delta": "+76",
+          "stat": "Final Hit Damage",
+          "text": "+76 Final Hit Damage"
         },
         {
           "kind": "delta",
-          "delta": "+200",
-          "stat": "Ammo",
-          "text": "+200 Ammo"
+          "delta": "+70",
+          "stat": "Reposition Damage",
+          "text": "+70 Reposition Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+6",
+          "stat": "Knockback Force",
+          "text": "+6 Knockback Force"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "Impenetrable Fortress",
-        "Cost": "{{Money|42,000}}",
-        "Image": "[[File:GatlingGunLevel5.png|100px]]",
-        "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 6,
-      "title": "Destruction-Oriented Output Machine",
-      "cost": "{{Money|100,000}}",
-      "information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+40",
-          "stat": "Damage",
-          "text": "+40 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Angle",
-          "text": "+5 Angle"
-        },
-        {
-          "kind": "delta",
-          "delta": "+200",
-          "stat": "Ammo",
-          "text": "+200 Ammo"
-        }
-      ],
-      "params": {
-        "Level": "Level 6",
-        "Upgrade Title": "Destruction-Oriented Output Machine",
-        "Cost": "{{Money|100,000}}",
-        "Image": "[[File:GatlingGunLevel6.png|100px]]",
-        "Information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}"
+        "Upgrade Title": "Faster Hydraulics",
+        "Cost": "{{Money|12,000}}",
+        "Image": "[[File:BrawlerUpgrade5.png|100px]]",
+        "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+32 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n+76 Final Hit Damage [[File:OffensiveModifier.png|20px|Final Hit Damage]]\n \n+70 Reposition Damage [[File:OffensiveModifier.png|20px|Reposition Damage]]\n\n+6 Knockback Force {{Knockback}}\n\n\nSell Price changes to {{Money|7,100}}"
       }
     }
   ],
@@ -1088,227 +1010,203 @@
     "regular": [
       {
         "level": 0,
-        "cost": 5250.0,
-        "total_cost": 5250.0,
+        "cost": 300.0,
+        "total_cost": 300.0,
         "damage": 5.0,
-        "tick": 50.0,
-        "charge_up": 0.17,
-        "cooldown": 2.5,
-        "overcharge": 25.0,
-        "range": 40.0,
-        "dps": 0.099
+        "tick": null,
+        "charge_up": null,
+        "cooldown": null,
+        "overcharge": 1.0,
+        "range": null,
+        "dps": null
       },
       {
         "level": 1,
-        "cost": 3000.0,
-        "total_cost": 8250.0,
-        "damage": 8.0,
-        "tick": 50.0,
-        "charge_up": 0.17,
-        "cooldown": 2.5,
-        "overcharge": 30.0,
-        "range": 40.0,
-        "dps": 0.158
+        "cost": 200.0,
+        "total_cost": 500.0,
+        "damage": 5.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": null,
+        "overcharge": 0.6,
+        "range": null,
+        "dps": null
       },
       {
         "level": 2,
-        "cost": 7500.0,
-        "total_cost": 15750.0,
-        "damage": 12.0,
-        "tick": 100.0,
-        "charge_up": 0.17,
-        "cooldown": 2.0,
-        "overcharge": 30.0,
-        "range": 45.0,
-        "dps": 0.119
+        "cost": 1200.0,
+        "total_cost": 1700.0,
+        "damage": 14.0,
+        "tick": 21.0,
+        "charge_up": null,
+        "cooldown": 3.0,
+        "overcharge": 0.6,
+        "range": 0.6,
+        "dps": null
       },
       {
         "level": 3,
-        "cost": 15000.0,
-        "total_cost": 30750.0,
-        "damage": 13.0,
-        "tick": 200.0,
-        "charge_up": 0.12,
-        "cooldown": 2.0,
-        "overcharge": 35.0,
-        "range": 55.0,
-        "dps": 0.065
+        "cost": 2500.0,
+        "total_cost": 4200.0,
+        "damage": 24.0,
+        "tick": 48.0,
+        "charge_up": null,
+        "cooldown": 3.0,
+        "overcharge": 0.5,
+        "range": 0.5,
+        "dps": null
       },
       {
         "level": 4,
-        "cost": 32500.0,
-        "total_cost": 63250.0,
-        "damage": 20.0,
-        "tick": 200.0,
-        "charge_up": 0.09,
-        "cooldown": 2.0,
-        "overcharge": 45.0,
-        "range": 55.0,
-        "dps": 0.1
+        "cost": 3500.0,
+        "total_cost": 7700.0,
+        "damage": 35.0,
+        "tick": 70.0,
+        "charge_up": 50.0,
+        "cooldown": 3.0,
+        "overcharge": 0.5,
+        "range": 0.5,
+        "dps": 0.009
       },
       {
         "level": 5,
-        "cost": 50000.0,
-        "total_cost": 113250.0,
-        "damage": 36.0,
-        "tick": 400.0,
-        "charge_up": 0.09,
-        "cooldown": 6.0,
-        "overcharge": 50.0,
-        "range": 65.0,
-        "dps": 0.089
-      },
-      {
-        "level": 6,
-        "cost": 100000.0,
-        "total_cost": 213250.0,
-        "damage": 67.0,
-        "tick": 600.0,
-        "charge_up": 0.09,
-        "cooldown": 6.0,
-        "overcharge": 50.0,
-        "range": 70.0,
-        "dps": 0.11
+        "cost": 7777.0,
+        "total_cost": 15477.0,
+        "damage": 50.0,
+        "tick": 100.0,
+        "charge_up": 100.0,
+        "cooldown": 3.0,
+        "overcharge": 0.4,
+        "range": 0.4,
+        "dps": 0.004
       }
     ],
     "pvp": [
       {
         "level": 0,
-        "cost": 4500.0,
-        "total_cost": 4500.0,
-        "damage": 4.0,
-        "tick": 50.0,
-        "charge_up": 0.15,
-        "cooldown": 2.5,
-        "overcharge": 25.0,
-        "range": 40.0,
-        "dps": 0.079
+        "cost": 600.0,
+        "total_cost": 600.0,
+        "damage": 10.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": null,
+        "overcharge": 0.9,
+        "range": null,
+        "dps": null
       },
       {
         "level": 1,
-        "cost": 2500.0,
-        "total_cost": 7000.0,
-        "damage": 7.0,
-        "tick": 50.0,
-        "charge_up": 0.15,
-        "cooldown": 2.5,
-        "overcharge": 30.0,
-        "range": 40.0,
-        "dps": 0.138
+        "cost": 300.0,
+        "total_cost": 900.0,
+        "damage": 10.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": null,
+        "overcharge": 0.6,
+        "range": null,
+        "dps": null
       },
       {
         "level": 2,
-        "cost": 7500.0,
-        "total_cost": 14500.0,
-        "damage": 13.0,
-        "tick": 100.0,
-        "charge_up": 0.15,
-        "cooldown": 2.0,
-        "overcharge": 30.0,
-        "range": 45.0,
-        "dps": 0.129
+        "cost": 950.0,
+        "total_cost": 1850.0,
+        "damage": 12.0,
+        "tick": 23.0,
+        "charge_up": null,
+        "cooldown": 3.0,
+        "overcharge": 0.6,
+        "range": 0.75,
+        "dps": null
       },
       {
         "level": 3,
-        "cost": 15000.0,
-        "total_cost": 29500.0,
-        "damage": 16.0,
-        "tick": 200.0,
-        "charge_up": 0.12,
-        "cooldown": 2.0,
-        "overcharge": 35.0,
-        "range": 55.0,
-        "dps": 0.08
+        "cost": 2250.0,
+        "total_cost": 4100.0,
+        "damage": 20.0,
+        "tick": 38.0,
+        "charge_up": 20.0,
+        "cooldown": 3.0,
+        "overcharge": 0.6,
+        "range": 0.65,
+        "dps": 0.025
       },
       {
         "level": 4,
-        "cost": 32500.0,
-        "total_cost": 62000.0,
-        "damage": 24.0,
-        "tick": 200.0,
-        "charge_up": 0.09,
-        "cooldown": 2.0,
-        "overcharge": 45.0,
-        "range": 55.0,
-        "dps": 0.119
+        "cost": 5200.0,
+        "total_cost": 9300.0,
+        "damage": 38.0,
+        "tick": 67.0,
+        "charge_up": 80.0,
+        "cooldown": 3.0,
+        "overcharge": 0.5,
+        "range": 0.5,
+        "dps": 0.006
       },
       {
         "level": 5,
-        "cost": 42000.0,
-        "total_cost": 104000.0,
-        "damage": 40.0,
-        "tick": 400.0,
-        "charge_up": 0.09,
-        "cooldown": 6.0,
-        "overcharge": 50.0,
-        "range": 65.0,
-        "dps": 0.099
-      },
-      {
-        "level": 6,
-        "cost": 100000.0,
-        "total_cost": 204000.0,
-        "damage": 80.0,
-        "tick": 600.0,
-        "charge_up": 0.09,
-        "cooldown": 6.0,
-        "overcharge": 50.0,
-        "range": 70.0,
-        "dps": 0.131
+        "cost": 12000.0,
+        "total_cost": 21300.0,
+        "damage": 70.0,
+        "tick": 143.0,
+        "charge_up": 150.0,
+        "cooldown": 3.0,
+        "overcharge": 0.5,
+        "range": 0.5,
+        "dps": 0.003
       }
     ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
-      "lead": "N/A",
-      "flying": "{{Attr|Fly|Level 0+}}",
-      "immune": "Stun<br/>Partial Debuff",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1"
+      "hidden": "{{Attr|Hidden|Level 3+}}",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "N/A<ref name=\"fd\">Although it cannot detect flying enemies, its ''Reposition'' ability can damage [[Flying]] enemies.</ref>",
+      "immune": "Stun",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]10 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]6 ([[PVP]])"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
-      "lead": "N/A",
-      "flying": "{{Attr|Fly|Level 0+}}",
-      "immune": "Stun<br/>Partial Debuff"
+      "hidden": "{{Attr|Hidden|Level 3+}}",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "N/A<ref name=\"fd\"/>",
+      "immune": "Stun"
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "image-static": "GatlingGunIcon.png",
-        "image-dynamic": "GatlingGunDynamic.png",
-        "unlockcost": "{{Coins|35,000}} or {{Robux|1,364}}",
-        "levelrequirement": "{{Level|175}}",
+        "title": "Brawler",
+        "image-static": "BrawlerFromTDS.png",
+        "image-dynamic": "BrawlerDynamic.png",
+        "unlockcost": "{{Gem|1,250}}",
+        "levelrequirement": "{{Level|50}}",
         "role": "Offense",
-        "placement": "Ground<br/>Cliff",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
-        "basecost": "{{Money|5,250}}",
-        "basesellingprice": "{{Money|1,750}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
-        "damagetype": "Single (Tower)<br/>Pierce (Controlled)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.17",
-        "baserange": "[[File:Range Icon.png|20px|Range]]25",
-        "hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
-        "lead_detection": "N/A",
-        "flying_detection": "{{Attr|Fly|Level 0+}}",
-        "immune": "Stun<br/>Partial Debuff",
-        "footprint": "2",
-        "pvp_basecost": "{{Money|4,500}}",
-        "pvp_basesellingprice": "{{Money|1,500}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
-        "pvp_damagetype": "Single (Tower)<br/>Pierce (Controlled)",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.15",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]25",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
-        "pvp_lead_detection": "N/A",
-        "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
-        "pvp_immune": "Stun<br/>Partial Debuff",
-        "pvp_footprint": "2",
-        "tooltip-1": "An expensiveone of a kind tower that fires within a cone range. Comes with high damage, range, and the ability to pierce multiple targets.",
-        "tooltip-2": "Players can also take personal control to fire the '''gatling gun''' in first person mode.",
-        "tooltip-3": "Capable of detecting [[flying]] and [[Hidden (Attribute)|hidden]] enemies."
+        "placement": "Ground",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]10 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]6 ([[PVP]])",
+        "basecost": "{{Money|300}}",
+        "basesellingprice": "{{Money|100}}",
+        "basedamage": "[[File:OffensiveModifier.png|20px|Damage]]5",
+        "damagetype": "Single<br/>Pierce (Level 4+)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]1",
+        "baserange": "[[File:Range Icon.png|20px|Range]]6",
+        "hidden_detection": "{{Attr|Hidden|Level 3+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "N/A<ref name=\"fd\">Although it cannot detect flying enemies, its ''Reposition'' ability can damage [[Flying]] enemies.</ref>",
+        "immune": "Stun",
+        "footprint": "1",
+        "pvp_basecost": "{{Money|600}}",
+        "pvp_basesellingprice": "{{Money|200}}",
+        "pvp_basedamage": "[[File:OffensiveModifier.png|20px|Damage]]10",
+        "pvp_damagetype": "Single<br/>Pierce (Level 3+)",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]0.9",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]6",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}}",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "N/A<ref name=\"fd\"/>",
+        "pvp_immune": "Stun",
+        "pvp_footprint": "1",
+        "tooltip-1": "An early game melee tower that comes with the ability to knockback enemies. Also have{{sic}} the ability to relocate anywhere on the map.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     }
@@ -1316,40 +1214,40 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "image-static": "GatlingGunIcon.png",
-      "image-dynamic": "GatlingGunDynamic.png",
-      "unlockcost": "{{Coins|35,000}} or {{Robux|1,364}}",
-      "levelrequirement": "{{Level|175}}",
+      "title": "Brawler",
+      "image-static": "BrawlerFromTDS.png",
+      "image-dynamic": "BrawlerDynamic.png",
+      "unlockcost": "{{Gem|1,250}}",
+      "levelrequirement": "{{Level|50}}",
       "role": "Offense",
-      "placement": "Ground<br/>Cliff",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
-      "basecost": "{{Money|5,250}}",
-      "basesellingprice": "{{Money|1,750}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
-      "damagetype": "Single (Tower)<br/>Pierce (Controlled)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.17",
-      "baserange": "[[File:Range Icon.png|20px|Range]]25",
-      "hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
-      "lead_detection": "N/A",
-      "flying_detection": "{{Attr|Fly|Level 0+}}",
-      "immune": "Stun<br/>Partial Debuff",
-      "footprint": "2",
-      "pvp_basecost": "{{Money|4,500}}",
-      "pvp_basesellingprice": "{{Money|1,500}}",
-      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
-      "pvp_damagetype": "Single (Tower)<br/>Pierce (Controlled)",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.15",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]25",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
-      "pvp_lead_detection": "N/A",
-      "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
-      "pvp_immune": "Stun<br/>Partial Debuff",
-      "pvp_footprint": "2",
-      "tooltip-1": "An expensiveone of a kind tower that fires within a cone range. Comes with high damage, range, and the ability to pierce multiple targets.",
-      "tooltip-2": "Players can also take personal control to fire the '''gatling gun''' in first person mode.",
-      "tooltip-3": "Capable of detecting [[flying]] and [[Hidden (Attribute)|hidden]] enemies."
+      "placement": "Ground",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]10 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]6 ([[PVP]])",
+      "basecost": "{{Money|300}}",
+      "basesellingprice": "{{Money|100}}",
+      "basedamage": "[[File:OffensiveModifier.png|20px|Damage]]5",
+      "damagetype": "Single<br/>Pierce (Level 4+)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]1",
+      "baserange": "[[File:Range Icon.png|20px|Range]]6",
+      "hidden_detection": "{{Attr|Hidden|Level 3+}}",
+      "lead_detection": "{{Attr|Lead|Level 0+}}",
+      "flying_detection": "N/A<ref name=\"fd\">Although it cannot detect flying enemies, its ''Reposition'' ability can damage [[Flying]] enemies.</ref>",
+      "immune": "Stun",
+      "footprint": "1",
+      "pvp_basecost": "{{Money|600}}",
+      "pvp_basesellingprice": "{{Money|200}}",
+      "pvp_basedamage": "[[File:OffensiveModifier.png|20px|Damage]]10",
+      "pvp_damagetype": "Single<br/>Pierce (Level 3+)",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]0.9",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]6",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}}",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+      "pvp_flying_detection": "N/A<ref name=\"fd\"/>",
+      "pvp_immune": "Stun",
+      "pvp_footprint": "1",
+      "tooltip-1": "An early game melee tower that comes with the ability to knockback enemies. Also have{{sic}} the ability to relocate anywhere on the map.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 186
+  "template_count": 267
 }
