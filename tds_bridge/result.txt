@@ -1,643 +1,510 @@
 {{Tabs}}
-{{For|[[Militant/Gallery#Skin Upgrades|{{Color|Deluxe|Ace Pilot}} Militant]] skin}}
+{{For|the [[Turret]]|one of the multiple [[Sentry (Disambiguation)|Sentries]]|the [[Gatling Gun Banned]] modifier}}
 {{TowerInfobox
-|title = Ace Pilot
-|image-static = AcePilotNewIcon.png
-|image-dynamic = AcePilotDynamic.png
-|unlockcost = {{Coins|1,500}}
-|basecost = {{Money|500}}
-|basesellingprice = {{Money|166}}
-|role = Defense
-|placement = Ground (Air-based)
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8
-|basedamage = [[File:Damage Icon.png|20px|Damage]]2
-|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 2+)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.22
-|baserange = [[File:Range Icon.png|20px|Range]]9
-|hidden_detection = {{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref> 
-|lead_detection = {{Attr|Lead|Level 2+}} ([[Splash Damage]] only)
+|image-static = GatlingGunIcon.png
+|image-dynamic = GatlingGunDynamic.png
+|unlockcost = {{Coins|35,000}} or {{Robux|1,364}}
+|levelrequirement = {{Level|175}}
+|role = Offense
+|placement = Ground<br/>Cliff
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]1
+|basecost = {{Money|5,250}}
+|basesellingprice = {{Money|1,750}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]5
+|damagetype = Single (Tower)<br/>Pierce (Controlled)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.17
+|baserange = [[File:Range Icon.png|20px|Range]]25
+|hidden_detection = {{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)
+|lead_detection = N/A
 |flying_detection = {{Attr|Fly|Level 0+}}
 |immune = Stun<br/>Partial Debuff
-|footprint = 1.5
-|tooltip-1 = An early to mid game tower that flies in a circular or figure 8 strafing pattern. Fires a barrage of bullets and bombs when staffing by enemies.
-|tooltip-2 = Also capable of giving nearby towers hidden detection at later levels.
-|tooltip-3 = Capable of detecting [[Hidden (Attribute)|hidden]], and [[flying]] enemies.
+|footprint = 2
+|pvp_basecost = {{Money|4,500}}
+|pvp_basesellingprice = {{Money|1,500}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4
+|pvp_damagetype = Single (Tower)<br/>Pierce (Controlled)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]25
+|pvp_hidden_detection = {{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)
+|pvp_lead_detection = N/A
+|pvp_flying_detection = {{Attr|Fly|Level 0+}}
+|pvp_immune = Stun<br/>Partial Debuff
+|pvp_footprint = 2
+|tooltip-1 = An expensiveone of a kind tower that fires within a cone range. Comes with high damage, range, and the ability to pierce multiple targets.
+|tooltip-2 = Players can also take personal control to fire the '''gatling gun''' in first person mode.
+|tooltip-3 = Capable of detecting [[flying]] and [[Hidden (Attribute)|hidden]] enemies.
 }}
 {{QuoteContainer|
-{{QuoteBox|Flies in a circular path, shooting enemies in its line of fire and dropping bombs.|Store Description}}
-{{QuoteBox|Rain fire from above!|Former Store Description}}
+{{QuoteBox|A cliff tower that you take personal control of. Time to take matters into your own hands|Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Ace Pilot''' is an intermediate [[Towers|tower]] that can be bought for {{Coins|1,500}}. Unlike other ground towers, the attacking unit of the '''Ace Pilot''', the plane, is an air unit.
+The '''Gatling Gun''' is an advanced [[Towers|tower]] that is able to be placed on both ground and cliffs, which can be controlled by the player using its ability. It can be bought for {{Coins|35,000}} when the player has reached {{Level|175}} or bought for {{Robux|1,364}}.
 
-The '''Ace Pilot''' will circle around the runway. At Level 2+, this can be changed to a figure eight. With its ''Toggle Reverse'' ability, it is possible to reverse its flight path. The '''Ace Pilot''' is armed with a pair of machine guns on each wing at the base and will shoot any enemy within its patrol radius. At Levels 2–5, the aircraft will periodically drop a bomb directly where the targeted enemy was last, exploding and damaging any enemies caught in the explosion. The explosion is separated into two spheres. Enemies in the inner sphere will be dealt 100% of the stated damage, while damage in the outer sphere decreases linearly by distance from the edge of the inner sphere to the edge of the outer sphere. Since its bombs deal splash damage, they ignore [[defense]], dealing full damage to the enemies with [[defense]]. These bombs can also damage [[Lead (Attribute)|Lead]] enemies. Due to it being an air-based tower, it is immune to stuns, and because it is not a humanoid tower, it is also immune to debuffs from enemies added before [[v1.9.0]]. Additionally, because it is an air-based tower, it can detect [[Flying]] enemies.
+The '''Gatling Gun''' will fire at any enemy in its range based on its targeting, hitting only one enemy. However, unlike most other towers, its range is actually a circular sector, which gets a larger angle with upgrades. When an enemy gets out of its range, it will not follow it, even if it could technically reach it if it moved. The '''Gatling Gun''' also has a limited amount of ammo. Every shot loses one ammo; it will not reload until it runs out of ammo; after that, it will take a few seconds for it to reload.
 
-At Level 4, the '''Ace Pilot''' will also grant nearby towers hidden detection with its ''Hidden Assist'', giving towers without hidden detection, like the [[Ranger]], the ability to detect [[Hidden (Attribute)|Hidden]] enemies. Its machine guns are then replaced by a single autocannon, granting it higher damage and firerate. The '''Ace Pilot''' boasts a high DPS, but its limiting range and inconsistent circling cripple its full potential. Therefore, in most situations, it does not operate at the highest DPS most of the time.
+Its ''FPS'' (''<u>f</u>irst-<u>p</u>erson <u>s</u>hooter'') ability allows the player to control the '''Gatling Gun''', which changes how the tower is used drastically. Most noticeably, the tower itself will no longer automatically shoot at enemies, and will only do so when the player shoots. The player can also reload at any point while the tower itself only does so when it runs out of ammo. The player does not have to manually reload when the tower runs out of ammo, as that still happens automatically. When firing, the bullets now pierce through enemies. The first two enemies receive full damage, while the third receives halved damage. If the damage is not a whole number, it is rounded up. Additionally, the player is not affected by any range statistics; the player can fire anywhere on the map, even if the '''Gatling Gun''' could not do it on its own. However, unlike the non-controlled '''Gatling Gun''', the player cannot shoot through some obstacles, such as cliffs. Additionally, the player itself is affected by spread and recoil.
 
-The '''Ace Pilot''' has a placement limit of eight per player.
+The '''Gatling Gun''' itself has flying detection from Level 0 and hidden detection from Level 3. When controlled by the player, it has both of these detections. The '''Gatling Gun''' also cannot be stunned, regardless if it is being controlled or not. It also cannot have debuffs applied to it if the enemy that applies it was added before the [[v1.9.0]] update.
+
+Due to the '''Gatling Gun's''' high base cost, extremely expensive upgrades, and high DPS, it is considered a mid-late game tower due to the placement limit of one. 
+
+There is a limit of one '''Gatling Gun''' per player.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Greased Guns|Cost = {{Money|225}}|Image = [[File:AcePilotLevel1.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Heavier Bullets|Cost = {{Money|3,000}}|Image = [[File:GatlingGunLevel1.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Range [[File:Range Icon.png|20px|Range]]
 
 
-Sell Price changes to {{Money|241}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Bombs away!|Cost = {{Money|625}}|Image = [[File:AcePilotLevel2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|2,750}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bigger Magazine|Cost = {{Money|7,500}}|Image = [[File:GatlingGunLevel2.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]
+2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
 
-{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]
++5 Angle
 
-•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
+-1 Spread
 
-•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
-
-
-Sell Price changes to {{Money|450}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Aerial Ace|Cost = {{Money|1,500}}|Image = [[File:AcePilotLevel3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Range [[File:Range Icon.png|20px|Range]]
-
-0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-10% Speed Increase
-
-{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
-
-•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
++50 Ammo [[File:Damage Icon.png|20px|Ammo]]
 
 
-Sell Price changes to {{Money|950}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Spy Plane|Cost = {{Money|3,000}}|Image = [[File:AcePilotLevel3.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|5,250}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Extra Barrel|Cost = {{Money|15,000}}|Image = [[File:GatlingGunLevel3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Range [[File:Range Icon.png|20px|Range]]
+
+0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++10 Angle
+
+-1.5 Spread
+
++100 Ammo [[File:Damage Icon.png|20px|Ammo]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-Grants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]
 
-•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]
+Sell Price changes to {{Money|10,250}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Minigun Barrel|Cost = {{Money|32,500}}|Image = [[File:GatlingGunLevel4.png|100px]]|Information = +7 Damage [[File:Damage Icon.png|20px|Damage]]
 
-{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]
++10 Range [[File:Range Icon.png|20px|Range]]
 
-•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
+0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
+-1 Spread
+
+-0.02 Recoil
 
 
-Sell Price changes to {{Money|1,950}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = The Surging Sky|Cost = {{Money|7,000}}|Image = [[File:AcePilotLevel5.png|100px]]|Information = +6 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|21,083}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Impenetrable Fortress|Cost = {{Money|50,000}}|Image = [[File:GatlingGunLevel5.png|100px]]|Information = +16 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Range [[File:Range Icon.png|20px|Range]]
+
+2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+
++10 Angle
+
+-0.03 Recoil
+
++200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+
+Sell Price changes to {{Money|37,750}}}}
+{{Upgrade|Level = Level 6|Upgrade Title = Destruction-Oriented Output Machine|Cost = {{Money|100,000}}|Image = [[File:GatlingGunLevel6.png|100px]]|Information = +31 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Angle
+
++200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+
+Sell Price changes to {{Money|71,083}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Heavier Bullets|Cost = {{Money|2,500}}|Image = [[File:GatlingGunLevel1.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Range [[File:Range Icon.png|20px|Range]]
+
+
+Sell Price changes to {{Money|2,333}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bigger Magazine|Cost = {{Money|7,500}}|Image = [[File:GatlingGunLevel2.png|100px]]|Information = +6 Damage [[File:Damage Icon.png|20px|Damage]]
+
+2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+
++5 Angle
+
+-1 Spread
+
++50 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+
+Sell Price changes to {{Money|4,833}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Extra Barrel|Cost = {{Money|15,000}}|Image = [[File:GatlingGunLevel3.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Range [[File:Range Icon.png|20px|Range]]
 
 0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-10% > 35% Speed Increase
++10 Angle
 
-{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]
+-1.5 Spread
 
-•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]
++100 Ammo [[File:Damage Icon.png|20px|Ammo]]
 
-•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}
++Hidden Detection {{Hidden|Hidden Detection}}
 
 
-Sell Price changes to {{Money|4,283}}}}
+Sell Price changes to {{Money|9,833}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Minigun Barrel|Cost = {{Money|32,500}}|Image = [[File:GatlingGunLevel4.png|100px]]|Information = +8 Damage [[File:Damage Icon.png|20px|Damage]]
+
++10 Range [[File:Range Icon.png|20px|Range]]
+
+0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+-1 Spread
+
+-0.02 Recoil
+
+
+Sell Price changes to {{Money|20,666}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Impenetrable Fortress|Cost = {{Money|42,000}}|Image = [[File:GatlingGunLevel5.png|100px]]|Information = +16 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Range [[File:Range Icon.png|20px|Range]]
+
+2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+
++10 Angle
+
+-0.03 Recoil
+
++200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+
+Sell Price changes to {{Money|34,666}}}}
+{{Upgrade|Level = Level 6|Upgrade Title = Destruction-Oriented Output Machine|Cost = {{Money|100,000}}|Image = [[File:GatlingGunLevel6.png|100px]]|Information = +40 Damage [[File:Damage Icon.png|20px|Damage]]
+
++5 Angle
+
++200 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+
+Sell Price changes to {{Money|68,000}}}}
+}}
 
 ==Ability==
-{{Ability|Level Unlock = Level 0+|Cooldown Time= 8s Cooldown|Ability Title = Toggle Reverse|Image = [[File:ToggleReverseAbility.png|100px]]|Information = 
-Flies the opposite direction.
+{{Ability|Level Unlock = Level 0+|Cooldown Time= 0.5s Cooldown|Ability Title = FPS|Image = [[File:FPSAbilityIcon.png|100px]]|Information = 
+Upon use, player gains control of the tower. Tower now needs to be fired by the player, though it gains the ability to pierce through enemies, hidden detection (if not at Level 3), no longer affected by range and is now affected by spread, recoil and obstacles on the map. Using the ability while the player is in control will remove control from the player.
 }}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page, while for the statistics without the [[Firerate Bug]], visit the [[Firerate Bug/Ace Pilot|Firerate Bug]] page.''
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 
 {{neow|<nowiki>
 <var>
-$GDPS$ = Normal Damage / Firerate
-$BDPS$ = Splash Damage / Bomb Cooldown
-$TDPS$ = $GDPS$ + $BDPS$
+$DPS$ = (Damage * Ammo) / (Reload Time + (Firerate * Ammo))
+$MDPS$ = (Damage * Ammo) / (Reload Time + (Firerate * Ammo)) * 2 + ((Damage/2) * Ammo) / (Reload Time + (Firerate * Ammo))
 $CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 500; 225; 625; 1500; 3000; 7000
-$FSE-DETECTION$ = 4; 2; 0
-$FSE-UPGRADE$ = Greased Guns; Bombs away!; Aerial Ace; Spy Plane; The Surging Sky
-$FSE-UPGRADEICON$ = 17847640091; 17847639896; 17847640366; 17847640366; 17847640211
-$FSE-META$ = Intermediate; File:AcePilotNewIcon.png
-$TREF$ = <ref>Calculated as Gun DPS + Bomb DPS.</ref>
+$COST$ = 5250; 3000; 7500; 15000; 32500; 50000; 100000
+$PVP-COST$ = 4500; 2500; 7500; 15000; 32500; 42000; 100000
+$FSE-DETECTION$ = 3; ; 0
+$FSE-UPGRADE$ = Heavier Bullets; Bigger Magazine; Extra Barrel; Minigun Barrel; Impenetrable Fortress; Destruction-Oriented-Output-Machine
+$FSE-UPGRADEICON$ = 70569444235865; 104227180979769; 71764582498505; 128136625170591; 125372339735512
+$FSE-META$ = Advanced; File:GatlingGunIcon.png
+$DREF$ = <ref name=dps>Calculated as (Damage × Ammo) ÷ (Reload Time + (Firerate × Ammo)). Assumes bullets only hit one enemy.</ref>
+$CREF$ = <ref name=ce>Uses normal DPS.</ref>
 $R$ = $FNC-RECURSION$
 </var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Normal Damage !! Splash Damage !! Firerate !! Bomb Cooldown !! Range !! Explosion Range !! Hidden Detection Range !! Speed Multiplier !! DPS$TREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Ammo !! Firerate !! Reload Time !! Range !! Angle !! Spread !! Recoil !! Max Hits !! DPS$DREF$ !! Max DPS !! Cost Efficiency$CREF$
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || N/A || 0.22 || N/A || 9 || N/A || N/A || 1 || $GDPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || 50 || 0.17 || 2.5 || 25 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 3 || N/A || 0.22 || N/A || 9 || N/A || N/A || 1 || $GDPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 8 || 50 || 0.17 || 2.5 || 30 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 4 || 10 || 0.22 || 4 || 9 || 3 || N/A || 1 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 12 || 100 || 0.17 || 2 || 30 || 45 || 9 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 5 || 30 || 0.15 || 4 || 10 || 3 || N/A || 1.1 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 13 || 200 || 0.12 || 2 || 35 || 55 || 7.5 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 8 || 30 || 0.15 || 2 || 10 || 3 || 10 || 1.1 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 20 || 200 || 0.09 || 2 || 45 || 55 || 6.5 || 0.06 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
 |-
-| 5 || $R$ || $R$ || 14 || 45 || 0.12 || 1.5 || 10 || 4 || 10 || 1.35 || $TDPS$<ref>$GDPS$ Gun DPS + $BDPS$ Bomb DPS</ref> || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 36 || 400 || 0.09 || 6 || 50 || 65 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 6 || $R$ || $R$ || 67 || 600 || 0.09 || 6 || 50 || 70 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
 |}
 </div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! Damage !! Ammo !! Firerate !! Reload Time !! Range !! Angle !! Spread !! Recoil !! Max Hits !! DPS$DREF$ !! Max DPS !! Cost Efficiency$CREF$
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 50 || 0.15 || 2.5 || 25 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 7 || 50 || 0.15 || 2.5 || 30 || 40 || 10 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 13 || 100 || 0.15 || 2 || 30 || 45 || 9 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 16 || 200 || 0.12 || 2 || 35 || 55 || 7.5 || 0.08 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 24 || 200 || 0.09 || 2 || 45 || 55 || 6.5 || 0.06 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 40 || 400 || 0.09 || 6 || 50 || 65 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|-
+| 6 || $R$ || $R$ || 80 || 600 || 0.09 || 6 || 50 || 70 || 6.5 || 0.03 || 3 || $DPS$ || $MDPS$ || {{Money|$CE$}}
+|}
+</div>
+</tabber></div>
 </nowiki>}}
 
 ==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+{| class="light-table align-center pad-5" style="width:300px; margin:0 auto"
 !
-|[[File:GreenAcePilotIconIGJ24.png|175px]]
-|[[File:RedAcePilotIconIGJ24.png|175px]]
-|[[File:YellowAcePilotIconIGJ24.png|175px]]
-|[[File:AerialAceAcePilotIconIGJ24.png|175px]]
+|[[File:EasterGatlingGunnerIconIG.png|175x175px]]
 |-
 !Skin
-|{{Color|Basic|Green}}
-|{{Color|Basic|Red}}
-|{{Color|Basic|Yellow}}
-|{{Color|Basic|Aerial Ace}}
-|-
-!Rarity
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|{{Coins|500}}
-|{{Coins|500}}
-|{{Coins|500}}
-|{{Coins|500}}
-|-
-!Obtained From
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|-
-!
-|[[File:PurpleAcePilotIconIGJ24.png|175px]]
-|[[File:BlueAcePilotIconIGJ24.png|175px]]
-|[[File:PumpkinAcePilotIconIGJ24.png|175px]]
-|[[File:EasterAcePilotIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Basic|Purple}}
-|{{Color|Basic|Navy}}
-|{{Color|Pumpkin|Pumpkin}}
 |{{Color|DuckyRevenge|Easter}}
 |-
 !Rarity
-|{{Color|Common}}
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|500}}
-|{{Coins|1,000}}
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Pumpkin Crate]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
-|-
-!
-|[[File:ToyPlaneAcePilotIconIG.png|175px]]
-|-
-!Skin
-|{{Color|FinalAct|Toy Plane}}
-|-
-!Rarity
-|{{Color|Rare}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |-
 !Obtained From
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
 |}
 
 ==Strategy==
-*Place this tower where it can be used to its full potential. This primarily involves placing it at turns.
-**Placing it on a straight path is not recommended, as it will not shoot as often.
-**As the '''Ace Pilot''' flies clockwise, placing it so it covers a counterclockwise path turn will mean it has a greater chance of attacking an enemy.
-***The first roundabout on [[Wrecked Battlefield]] is a good example of this.
-***You can also place it on a clockwise path and use the ''Toggle Reverse'' ability to make it fly counterclockwise, having the same effect.
-*When changing flight paths, the '''Ace Pilot''' will complete the previous flight path first before switching to the new flight path.
-*The [[DJ Booth]] can significantly increase its attack radius.
-**However, the [[DJ Booth]] does not increase the '''Ace Pilot's''' flying radius.
-*Try not to focus solely on '''Ace Pilots'''.
-**This is because faster enemies may walk right past the '''Ace Pilot''' without being damaged. If you want reliable defense, then a [[Minigunner]] or [[Cowboy]] could be a more reliable option.
-*The [[Commander]] cannot decrease the firerate of the bombs. However, it can decrease the firerate of the guns.
-*Unlike the [[Pursuit]], the '''Ace Pilot''' does not stop to hover over an area whenever an enemy enters its range.
-**This means that the '''Ace Pilot''' is unlikely to be attacking all the time, reducing the effectiveness of the tower.
-*In [[Hardcore Mode|Hardcore]] mode, the '''Ace Pilot''' can be used as an effective way to deal with flying, lead and enemies with [[defense]] that appear early on during the game, such as the [[Lead]], [[Hefty]] and [[Balloon]].
-*The bombs that the '''Ace Pilot''' drops are a good way to clear out hordes of weaker enemies, like the [[Abnormal]] or [[Slow]], while also dealing additional damage to higher health enemies, like the [[Abnormal Boss]].
-**The '''Ace Pilot's''' bombs completely ignore [[defense]], dealing full damage to enemies with defense. Because of this, it can be useful against hordes of enemies with defense that appear early on during the game, like [[Heavy|Heavies]], [[Abnormal Boss]]es or [[Hefty|Hefties]].
-**While the bomb is aimed directly at the target, it may miss the enemy as it takes a little while for the bomb to land.
-***At Level 5, the missile has a faster projectile speed, so is less likely to miss the enemy's intended target.
-*At Level 4+, the '''Ace Pilot''' gives nearby towers hidden detection for towers that do not have it, such as the [[Ranger]].
-**Towers are only granted hidden detection if they are within the radius of the runway, which is quite small.
-***This radius cannot be increased by the [[DJ Booth]].
+*The '''Gatling Gun''' is one of the most expensive towers to place down and upgrade, making it impractical for early-game.
+** Other, cheaper towers or consumables are recommended for early-game.
+**Using income sources like the [[Cowboy]], [[DJ Booth]], [[Supply Drop]] or [[Farm]] is heavily recommended to be able to afford the '''Gatling Gun''' and its upgrades.
+*The '''Gatling Gun''' has a high DPS, making it great against high health targets.
+**When controlled using its ''FPS'' ability, it is even better, as it can pierce through enemies, making it great against hordes of high health enemies.
+*While its range is quite high, being the second highest in the game at Level 5-6, its range is in the shape of a circular sector, meaning its effectiveness is significantly reduced.
+**This can be fixed by controlling it through its ''FPS'' ability, as you can attack enemies from any point of the map. However, it means you only have control of the tower and cannot do anything else.
+***You can still use abilities that do not require you to choose a spot, such as the [[Commander]]'s ''Call to Arms'' or the [[DJ Booth]]'s ''Drop the Beat''.
+****However, abilities that require you to choose a spot such as [[Brawler]]'s ''Reposition'' or the [[Military Base]]'s ''Airstrike'' are disabled for the player during ''FPS'' ability.
+**Taking control of the '''Gatling Gun''', turning to face a desired spot, then releasing control allows for the player to influence where the '''Gatling Gun''' is aimed at.
+**The '''Gatling Gun''' should be positioned so that will face a straight path, allowing for it to shoot for as long as possible if not controlled by a player. This additionally makes it easier to hit multiple enemies at once while controlling the '''Gatling Gun'''.
+*While controlling the '''Gatling Gun''' after using the ''FPS'' ability, it is not affected by the selected targeting. This makes it great against [[Aggro]] enemies, as you can target the enemy that you want to be targeted instead of being forced to target the [[Aggro]] enemy.
+**It is recommended to target problematic enemies such as summoners like the [[Fallen Summoner]] or enemies that can buff other enemies like the [[Fallen Jester]].
+**This is also why the '''Gatling Gun''' is a good choice on multiplayer matches as it can handle some difficult enemies with ease.
+*The '''Gatling Gun''' can be placed on both cliff and ground spots, meaning it can be placed anywhere on the map. Both spots have their own benefits while using its ability. 
+**If placed on the ground, it is much easier to make use of its piercing, as you will be firing in a straight line.
+**If placed on a cliff, it is less likely that you will be obstructed by objects on the map due to you being above them. Do note, however, that not all objects actually prevent the '''Gatling Gun''' from shooting at enemies, though they can obstruct the view.
+*Do note that while the tower itself can fire through objects of the map, you cannot fire through all of them. Consider if the spot you are placing the '''Gatling Gun''' in is obstructed by anything in any impactful way while placing it down.
+**Some elements on the map may be able to be fired through, but will still obstruct the player's vision. Skilled users of the '''Gatling Gun''' can fire at enemies behind said cover even when they are not able to be directly seen. What can or cannot be fired through is not always intuitive, so knowledge is required to make the most of this quirk.
+*While the tower normally only reloads when it runs out of ammo, it can be reloaded manually at any time while controlled. It is recommended to reload manually whenever no enemies are spawning, which is usually the period of time between current wave ending and new wave starting.
+**Manual reloads can also be performed if enemies are currently being blocked by map elements.
+**Do be aware that the Level 5–6 '''Gatling Gun''' have a very long reload time, longer than even the period of time between waves.
+**You can start a manual reload, then release control of the '''Gatling Gun''' to focus on other enemies. This is useful for multitasking.
+*The '''Gatling Gun''' has flying detection from Level 0, hidden detection from Level 3 if not controlled by player and from Level 0 if controlled by a player, making it great against such enemies that appear in the mid and late-game.
+*The '''Gatling Gun''' has a larger placement footprint than other towers, so be aware of the space that it takes up. This should not matter too much, as each player can only have one placed down.
+*The '''Gatling Gun''' can be very useful in [[Jailed Towers (Challenge)|Jailed Towers]], as when it gets jailed while a player is using its ''FPS'' ability, the player will still be able to attack enemies with it.
+**However, trying to use the ''FPS'' ability after it got jailed will result in it not working. The gun will visually fire, but no damage will be dealt and no ammo will be lost. Other controls like reloading are also unusable.
+*In ''FPS'' mode, the '''Gatling Gun''' has recoil, which means it is possible for some bullets to offshoot and not hit an enemy, something more glaring from Level 4+. A simple way to avoid this is to fire in bursts which will avoid too much recoil.
 
 ==Trivia==
-*It is stated by BelowNatural that the '''Ace Pilot''' was based on the [[w:c:bloons:Monkey Ace|Monkey Ace]] from the ''Bloons Tower Defense'' series.
-**However, its main method of distributing damage and the fact that it gives hidden detection are similar to those of the [[w:c:roblox-tower-battles:Aviator|Aviator]] from ''Tower Battles''.
-*The '''Ace Pilot''' used to share its Level 2 icon with the [[Mortar]]'s Level 4 icon but upside down.
-*This is the first tower to able to give other towers hidden detection, with the second being the [[Firework Technician]].
-*Strangely, the [[Soul Stealer (Legacy)|Soul Stealer]] and [[Void Reaver (Legacy)|Void Reaver]] can still spawn a [[Soul]] from the '''Ace Pilot''', despite not being a humanoid tower.
-*On Level 2 and 4, the '''Ace Pilot''' upgrade names have capitalization errors.
-**Additionally, there are two spaces between "''Aerial''" and "''Ace''" in the Level 3 upgrade name instead of one.
-*The Level 5 upgrade name, "''The Surging Sky''" is a reference to a fake leak of the Level 6 '''Ace Pilot''' upgrade.
-*The Level 3 upgrade name, "''Aerial  Ace''" shares its name with the {{Color|Basic|Aerial Ace}} skin.
-**Both the upgrade name and the skin were also added in the same update. Prior to the change, the Level 3 upgrade was simply just "''Better plane''".
+*The '''Gatling Gun''' is the first tower that can be placed both on ground and cliff spots. 
+**Despite this, the description of the '''Gatling Gun''' suggests that it can only be placed on cliffs, calling it a 'cliff tower'.
+**It is also the first ever tower that can be controlled by a player.
+*The abbreviation of the Level 6 upgrade name spells the word "DOOM" (<u>'''D'''</u>estruction-<u>'''O'''</u>riented <u>'''O'''</u>utput <u>'''M'''</u>achine).
+*The '''Gatling Gun''' is the fourth most expensive public tower to place down, being beaten by the [[Juggernaut]] by {{Money|4750}}, [[Turret]] by {{Money|2,500}} and the [[Accelerator]] by {{Money|2,250}}.
+*The '''Gatling Gun''' currently has the second highest total price of any public tower at a total cost of {{Money|213,250}}, being beaten by the [[Juggernaut]]. 
+**The '''Gatling Gun''' also has the fourth highest upgrade cost, with its Level 6 upgrade costing {{Money|100,000}}.
+**Moreover, the '''Gatling Gun''' has the most expensive Level 1 upgrade cost of {{Money|3,000}}.
+*The '''Gatling Gun''' has the second highest DPS ever of any public tower with 670 DPS at Level 6.
+**If counting its [[PVP]] stats, the '''Gatling Gun''' breaks this record with over 787 DPS at Level 6.
+**The [[Juggernaut]] exceeds the [[Gatling Gun]]'s DPS on both of its upgrades paths.
+*The Level 5 and 6 '''Gatling Gun''' currently has the second longest range of any publicly available tower in the game, beaten by the [[Ranger]] with 70 range at all levels. 
+**If using FPS mode, the '''Gatling Gun''' technically has infinite range.
+**It is also the first tower to have a conical range.
+*Despite the name, the '''Gatling Gun''' does not resemble an actual [[wp:Gatling gun|Gatling Gun]] at earlier levels, with it only getting a weapon resembling one at Level 4.
 
-==Update History==
+== Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-
-{{Scroll|text=
-*'''29 November 2019''' - [[Release v1.4|Release v1.4.0]]
-**'''Ace Pilot''' added.
-**Skins: {{Color|Basic|Red}}, {{Color|Basic|Green}}, {{Color|Basic|Yellow}}
-**{{Bug}} '''Ace Pilot's''' placement is bugged.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**Statistical changes:
-***'''Level 0'''
-****'''Ace Pilot''' now flies faster.
-***'''Level 3'''
-****Now makes the '''Ace Pilot''' fly faster.
-***'''Level 5'''
-****Now makes the '''Ace Pilot''' fly faster.
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**{{Bug}} Placement limit is higher than intended by 1.
-*'''13 January 2020''' - [[Release v1.6|Release v1.6.0a]]
-**{{Bugfix}} Placement limit is now the correct value.
-*'''24 March 2020''' - [[Release v1.8|Release v1.8.1a]]
-**'''Ace Pilot''' placement limit increased from 5 to 10.
-*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
-**{{Bugfix}} '''Ace Pilot''' placement bug fixed.
-*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|1,000}} to {{Money|650}}.
-****Firerate increased from 0.2 to 0.25.
-***'''Level 1'''
-****Damage increased from +1 to +2.
-***'''Level 2'''
-****Cost decreased from {{Money|850}} to {{Money|350}}.
-***'''Level 3'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,000}}.
-***'''Level 4'''
-****Cost decreased from {{Money|4,500}} to {{Money|4,000}}.
-****Damage decreased from +3 to +2.
-***'''Level 5'''
-****Damage increased from +2 to +3.
-****Range increased from +1 to +2.
-*'''31 May 2020''' - [[Release v1.11|Release v1.11.1]]
-**{{Bugfix}} Stacking issue fixed.
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Unlock cost decreased from {{Coins|1,600}} to {{Coins|1,500}}.
-**Bombs now only drop when an enemy is in range.
-**Splash damage equation reworked.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Skin rarity added to [[Basic Crate]] skins.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 0.25 to 0.18.
-****Damage decreased from 2 to 1.
-****Range increased from 5 to 7.
-****Flying detection added.
-***'''Level 1'''
-****Damage decreased from +2 to +1.
-***'''Level 2'''
-****Bombs can damage lead enemies.
-***'''Level 3'''
-****Range decreased from +1 to +0.
-****Firerate changed from {{Tooltip|0.25 > 0.15|-0.1}} to {{Tooltip|0.18 > 0.13|-0.05}}.
-****Renamed from ''Better plane'' to ''Aerial  Ace''.
-***'''Level 5'''
-****Cost increased from {{Money|6,500}} to {{Money|7,500}}.
-****Firerate changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.13 > 0.08|-0.05}}.
-****Now fires missiles instead of dropping bombs.
-**{{Bug}} '''Ace Pilot''' attack range and circling direction is not shown properly.
-**{{Bug}} '''Ace Pilot's''' bombs only deal damage to one enemy.
-**New skins: {{Color|Basic|Aerial Ace}}, {{Color|Basic|Navy}}, {{Color|Basic|Purple}}
-*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
-**New skin: {{Color|Pumpkin|Pumpkin}}
-*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
-**{{Bugfix}} '''Ace Pilot''' attack range is now shown properly.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**'''Ace Pilot's''' bombs now ignore [[defense]].
-**'''Ace Pilot's''' bombs now aim directly to where the targeted enemy was last at, as opposed to straight down for Levels 2-4.
-**Splash damage reworked. Explosion is now separated into two spheres. Inner sphere deals 100% of the stated damage, while damage in the outer sphere decreases linearly from the edge of the inner sphere to the edge of the outer sphere.
-**'''Ace Pilot''' now has to take off from its runway when placed down, and upgraded to Level 3 or Level 5.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|650}} to {{Money|500}}.
-*****{{Bug}} Inside the Lobby, the price is {{Money|650}}, when it is actually {{Money|500}}.
-***'''Level 2'''
-****Splash Damage decreased from 12 to 10.
-****Bomb explosion range decreased from 5 to 4.
-****Projectile speed increased.
-***'''Level 3'''
-****Bomb explosion range decreased from 5 to 4.
-****Cost decreased from {{Money|2,000}} to {{Money|1,500}}.
-***'''Level 4'''
-****Bomb explosion range decreased from 6 to 4.
-****Cost decreased from {{Money|4,000}} to {{Money|3,600}}.
-****Now gives Hidden Detection for 15 seconds to nearby towers at the start of each wave.
-***'''Level 5'''
-****Splash Damage decreased from 30 to 24.
-**{{Bug}} No longer immune to stuns.
-**{{Bugfix}} '''Ace Pilot's''' bombs now deal damage to multiple enemies.
-*'''4 December 2021''' - [[v1.0.0]]
-**{{Bug}} The '''Ace Pilot's''' bombs no longer grant cash.
-**{{Bugfix}} '''Ace Pilot''' is now immune to stuns.
-**{{Bugfix}} The placement cost of the '''Ace Pilot''' in the lobby is now correct.
-*'''29 December 2021'''
-**{{Bug}} All of the '''Ace Pilot's''' skins do not upgrade properly.
-*'''29 December 2021''' - [[v1.0.0]]l
-**{{Bugfix}} Every '''Ace Pilot''' skins now upgrade properly.
-*'''12 March 2022''' - [[v1.1.0]]
-**'''Ace Pilot''' is now immune to all debuffs.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 0.18 to 0.175.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|0.18 > 0.13|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|0.13 > 0.08|-0.05}} to {{Tooltip|0.125 > 0.075|-0.05}}.
-**{{Bug}} '''Ace Pilot''' can be targeted by enemies.
-**{{Bugfix}} '''Ace Pilot's''' bombs now grant money.
-*'''17 April 2022''' - [[v1.2.0]]
-**{{Bugfix}} '''Ace Pilot''' can no longer be targeted by enemies.
-*'''21 December 2022''' - [[v1.6.0]]
-**Skin rarity added to all skins.
-**{{Color|Basic|Navy}} skin rarity changed from {{Color|Uncommon}} to {{Color|Common}}.
-**{{Color|Basic|Aerial Ace}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
-*'''23 January 2023''' - [[v1.6.0]]j
-**{{Color|Basic|Navy}} skin rarity changed from {{Color|Common}} to {{Color|Rare}}.
-*'''7 April 2023''' - [[v1.7.0]]
-**{{Bugfix}} Circling range is now displayed properly.
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Bug}} Placement footprint does not show up when the '''Ace Pilot''' is selected.
-*'''28 October 2023''' - [[v1.9.0]]
-**Placement limit decreased from 10 to 8.
-**Statistical changes:
-***'''Base'''
-****Range increased from 7 to 7.5.
-***'''Level 1'''
-****Cost increased from {{Money|250}} to {{Money|300}}.
-***'''Level 2'''
-****Range decreased from +1 to +0.
-****Bomb cooldown increased from 4 to 4.5.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.175 > 0.15|-0.025}}.
-****Bomb damage decreased from 18 to 15.
-****Bomb cooldown increased from 4 to 4.5.
-****Cost increased from {{Money|1,500}} to {{Money|2,000}}.
-***'''Level 4'''
-****Range increased from +0 to +1.5.
-****Bomb cooldown decreased from 3.5 to 3.
-****Cost decreased from {{Money|3,600}} to {{Money|3,200}}.
-***'''Level 5'''
-****Damage increased from +3 to +4.
-****Firerate changed from {{Tooltip|0.125 > 0.075|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}
-****Range decreased from +2 to +1.
-****Bomb damage decreased from 24 to 20.
-****Bomb cooldown decreased from 3 to 2.5.
-****Bomb explosion range decreased from 6 to 5.5.
-****Cost increased from {{Money|7,500}} to {{Money|8,750}}.
-****Name changed from ''Air Fighter'' to ''The Surging Skies''.
-*'''21 December 2023''' - [[v1.11.0]]
-**Unlock cost increased from {{Coins|1,500}} to {{Coins|3,500}}.
-*'''10 May 2024''' - [[v1.21.0]]
-**{{Bug}} '''Ace Pilot''' does not deal damage while its bomb is being dropped.
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**Splash damage no longer bypasses defense.
-*'''16 June 2024''' - [[v1.24.0|v1.24.2]]b
-**{{Bug}} Towers do not gain hidden detection when upgraded to a Level that has one if they have the [[Hidden Detection Buff]] from the '''Ace Pilot''' active.
-*'''21 June 2024''' - [[v1.25.0]]
-**Rotating the '''Ace Pilot''' no longer has an impact on its starting position, though it does affect the rotation of the Figure8 flight path.
-**'''Ace Pilot''' now can select from two flight paths, Circle and Figure8.
-**'''Ace Pilot''' no longer has a start up animation on placement, Level 3 or Level 5.
-**Bombs now bypass defense again.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|500}} to {{Money|550}}.
-****Damage increased from 1 to 2.
-****Firerate increased from 0.175 to 0.2.
-****''Toggle Reverse'' ability added.
-*****Allows the '''Ace Pilot''' to fly in the reverse direction of its flight path.
-***'''Level 1'''
-****Cost decreased from {{Money|300}} to {{Money|150}}.
-****Damage decreased from +1 to +0.
-****Firerate changed from 0.175 to {{Tooltip|0.2 > 0.175|-0.025}}.
-****Name changed from ''Better bullets'' to ''Greased Guns''.
-***'''Level 2'''
-****Bomb cooldown decreased from 4.5 to 4.
-****Now unlocks the Figure8 flight path.
-***'''Level 3'''
-****Damage increased from +2 to +3.
-****No longer boosts flight speed.
-****Bomb damage increased from 15 to 18.
-****Bomb cooldown decreased from 4.5 to 4.
-****Bomb explosion range increased from 4 to 4.5.
-***'''Level 4'''
-****Cost increased from {{Money|3,200}} to {{Money|3,600}}.
-****Damage increased from +2 to +3.
-****Firerate changed from 0.15 to {{Tooltip|0.15 > 0.125|-0.025}}.
-****[[Hidden Detection Buff]] is now permanent.
-****[[Hidden Detection Buff]] is now given in its secondary range around the runway, which has a range of 7.
-****Bomb damage increased from 15 to 25.
-****Bomb cooldown decreased from 3 to 2.75.
-****Bomb explosion range increased from 4 to 4.5.
-***'''Level 5'''
-****Cost increased from {{Money|8,750}} to {{Money|9,750}}.
-****Firerate changed from {{Tooltip|0.15 > 0.1|-0.05}} to {{Tooltip|0.125 > 0.117|-0.008}}.
-****Flight speed boost changed, now boosts flight speed by 35%.
-****Bomb damage increased from 20 to 30.
-****Bomb cooldown decreased from 2.5 to 0.65.
-****Bomb explosion range decreased from 5.5 to 4.
-**{{Bugfix}} Gun now deals damage while a bomb is being dropped.
-**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s, though the bomb damage still is.
-**{{Bug}} Small red cube appears on the center of the map when the '''Ace Pilot''' is placed.
-**{{Bug}} Animations breaks when rejoining the server.
-**{{Bug}} '''Ace Pilot''' is upside down in the [[Daily Store]] and when opening skincrates.
-**{{Bug}} Explosion visuals are bigger than the actual explosion.  
-*'''19 July 2024''' - [[v1.26.0]]
-**No longer has a white dot under the plane while using the Figure8 path.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|550}} to {{Money|450}}.
-****Damage decreased from 2 to 1.
-****Firerate decreased from 0.2 to 0.175.
-***'''Level 1'''
-****Cost increased from {{Money|150}} to {{Money|225}}.
-****Damage increased from +0 to +1.
-****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
-***'''Level 3'''
-****Cost increased from {{Money|2,000}} to {{Money|2,200}}.
-****Damage decreased from +3 to +2.
-***'''Level 4'''
-****Cost increased from {{Money|3,600}} to {{Money|4,000}}.
-****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.15.
-****Bomb cooldown decreased from 2.75 to 1.75.
-***'''Level 5'''
-****Cost increased from {{Money|9,750}} to {{Money|10,000}}.
-****Damage increased from +4 to +5.
-****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.15 > 0.117|-0.033}}.
-****Bomb explosion damage decreased from 30 to 25.
-****Bomb cooldown increased from 0.65 to 0.8.
-**{{Bug}} [[Hidden Detection Buff]] range is no longer shown.
-**{{Bug}} When being placed down, the Figure8 flight path is shown instead of Circle.
-**{{Bug}} Figure8 path does not rotate with the tower, displaying the path incorrectly if rotated.
-*'''2 August 2024''' - [[v1.27.0]]
-**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
-**{{Bugfix}} When being placed down, it correctly shows the Circle path instead of Figure8.
-*'''21 August 2024''' - [[v1.28.0]]
-**{{Bugfix}} Animations no longer break when rejoining the server.
-**{{Bugfix}} A small red cube no longer appears in the center of the map when the '''Ace Pilot''' is placed down.
-*'''28 August 2024''' - [[v1.29.0]]
-**{{Bugfix}} '''Ace Pilot''' is no longer upside down in the [[Daily Store]] and when opening skincrates.
-*'''11 October 2024''' - [[v1.35.0|v1.35.1]]a
-**{{Bug}} Statistical changes made in TDS Experimental have been moved over to the main game.
-*'''11 October 2024''' - [[v1.35.0|v1.35.1]]b
-**{{Bugfix}} No longer uses statistics from [[TDS Experimental]] during matches.
-*'''11 October 2024''' - [[v1.35.0|v1.35.1]]c
-**{{Bugfix}} No longer uses statistics from [[TDS Experimental]] in the lobby.
+{{scroll|text =
+*'''18 September 2024''' - [[v1.32.0]]
+**'''Gatling Gun''' added.
+**{{Bug}} If a player is wearing an item accessory that emits particles, players using the ''FPS'' ability will still see the player's particles despite their avatar being invisible.
+**{{Bug}} Players using the ''FPS'' ability will able to see the player's avatar when they reset or rejoin.
+**{{Bug}} Players can soft-lock the tower when they upgrade it too quickly while the operator's avatar is still loading.
+**{{Bug}} Using the ''FPS'' ability while the '''Gatling Gun''' is made to shoot slower, such as through [[Time Scale]] will break the '''Gatling Gun''', preventing it from shooting.
+**{{Bug}} Using the ''FPS'' ability while the '''Gatling Gun's''' firerate is altered, such as through [[Time Scale]], [[Commander]] or [[Necrotic Skeleton]]'s ability, will make the '''Gatling Gun''' shoot much slower than intended.
+**{{Bug}} Firerate and reload time is affected by player's FPS device during its ''FPS'' ability, either becoming faster or slower.
+**{{Bug}} Reviving while using ''FPS'' ability can cause the ability to break completely, making the player's avatar invisible while the camera is moved to where the player's character would be.
+**{{Bug}} It is possible to fire from multiple '''Gatling Guns''' at once with ''FPS'' through using ''FPS'' on specific '''Gatling Guns''' and not stopping to fire.
+*'''12 October 2024''' - [[v1.35.0|v1.35.2]]
+**{{Bugfix}} [[Time Scale]] no longer breaks the '''Gatling Gun''' during its ''FPS'' ability.
 *'''16 October 2024''' - [[v1.36.0]]
-**Statistical changes:
-***'''Base'''
-****Range decreased from 7.5 to 7.
-***'''Level 1'''
-****Cost increased from {{Money|225}} to {{Money|300}}.
-***'''Level 2'''
-****Bomb explosion range decreased from 4 to 2.
-***'''Level 3'''
-****Cost decreased from {{Money|2,200}} to {{Money|1,500}}.
-****Damage decreased from +2 to +1.
-****Range increased from +0 to +0.5.
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.12|-0.03}} to {{Tooltip|0.15 > 0.125|-0.025}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
-****Bomb explosion range decreased from 4.5 to 2.25.
-***'''Level 4'''
-****Cost decreased from {{Money|4,000}} to {{Money|3,500}}
-****Range decreased from +1.5 to +0.5.
-****Bomb explosion range decreased from 4.5 to 2.25.
-***'''Level 5'''
-****Cost decreased from {{Money|10,000}} to {{Money|7,500}}.
-****Damage decreased from +5 to +4.
-****Firerate changed from {{Tooltip|0.15 > 0.117|-0.033}} to {{Tooltip|0.15 > 0.125|-0.025}}.
-****Bomb explosion damage increased from 25 to 35.
-****Bomb cooldown increased from 0.8 to 1.25.
-****Bomb explosion range decreased from 4 to 2.
-**{{Bug}} Level 4 upgrade description no longer mentions that it gains the ability to give other towers hidden detection in its secondary range.
+**Level 3 renamed from ''Double Trouble'' to ''Extra Barrel''.
+**{{Bugfix}} '''Gatling Gun''' no longer soft-locks when upgraded quickly.
+*'''25 October 2024''' - [[v1.38.0]]
+**{{Bug}} Using the '''Gatling Gun's''' ''FPS'' ability does not deal damage to [[Hex Corpse|Lower Body]].
 *'''30 October 2024''' - [[v1.39.0]]
-**{{Bugfix}} Level 4 upgrade description now mentions that it gains the ability to give other towers hidden detection in its secondary range.
-*'''26 March 2025''' - [[v1.58.0]]
+**{{Bugfix}} Using the '''Gatling Gun's''' ''FPS'' ability now deals damage to [[Hex Corpse|Lower Body]].
+*'''4 November 2024''' - [[v1.39.0|v1.39.7]]
+**{{Bugfix}} Using the ''FPS'' ability while the '''Gatling Gun's''' firerate is altered no longer makes it shoot slower than intended.
+*'''19 November 2024''' - [[v1.41.0|v1.41.6a]]
+**Cost reduced from {{Robux|2,599}} to {{Robux|1,950}}.
+*'''27 November 2024''' - [[v1.43.0]]
+**Gamepass price increased from {{Robux|1,950}} to {{Robux|2,079}}.
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|450}} to {{Money|550}}.
-****Damage increased from 1 to 2.
-****Firerate increased from 0.175 to 0.225.
-****Range increased from 7 to 7.5.
-****''Toggle Reverse'' cooldown decreased from 10 to 8 seconds.
+****Damage decreased from 6 to 5.
+****Angle decreased from 45 to 30.
+****Cost increased from {{Money|5,000}} to {{Money|5,750}}.
 ***'''Level 1'''
-****Cost decreased from {{Money|300}} to {{Money|200}}.
+****Damage increased from +2 to +3.
 ***'''Level 2'''
-****Bomb explosion range increased from 2 to 2.5.
+****Damage decreased from +4 to +2.
+****Angle increased from +0 to +5.
+****Cost decreased from {{Money|8,250}} to {{Money|7,250}}.
 ***'''Level 3'''
-****Cost increased from {{Money|1,500}} to {{Money|1,850}}.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.225 > 0.125|-0.1}}.
-****Bomb damage increased from 18 to 20.
-****Bomb explosion range increased from 2.25 to 2.5.
+****Damage decreased from +6 to +4.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.12|-0.03}} to {{Tooltip|0.15 > 0.13|-0.02}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
+****Angle decreased from +15 to +5.
 ***'''Level 4'''
-****Cost decreased from {{Money|3,500}} to {{Money|3,200}}
-****Bomb damage increased from 25 to 30.
-****Bomb cooldown increased from 1.75 to 2.
-****Bomb explosion range increased from 2.25 to 2.75.
+****Damage decreased from +10 to +6.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.12 > 0.09|-0.03}} to {{Tooltip|0.13 > 0.09|-0.04}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
+****Angle increased from +0 to +5.
 ***'''Level 5'''
-****Cost increased from {{Money|7,500}} to {{Money|8,000}}.
-****Damage increased from +4 to +7.
-****Bomb damage increased from 35 to 40.
-****Bomb cooldown increased from 1.25 to 1.5.
-****Bomb explosion range increased from 2 to 3.
+****Damage decreased from +27 to +18.
+****Angle decreased from +15 to +5.
+***'''Level 6'''
+****Damage decreased from +45 to +27.
+****Angle increased from +0 to +10.
+****Cost increased from {{Money|100,000}} to {{Money|115,000}}.
+*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
+**Gamepass price increased from {{Robux|2,079}} to {{Robux|2,599}}.
+*'''4 December 2024''' - [[v1.44.0]]
+**Statistical changes.
+***'''Base'''
+****Angle increased from 30 to 40.
+***'''Level 3'''
+****Damage increased from +4 to +5.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.13|-0.02}} to {{Tooltip|0.15 > 0.12|-0.03}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
+****Angle increased from +5 to +10.
+***'''Level 4'''
+****Damage increased from +6 to +10.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.13 > 0.09|-0.04}} to {{Tooltip|0.12 > 0.09|-0.03}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
+****Angle decreased from +5 to +0.
+***'''Level 5'''
+****Damage increased from +18 to +20.
+****Angle increased from +5 to +10.
+***'''Level 6'''
+****Damage increased from +27 to +30.
+****Angle decreased from +10 to +5.
+****Cost decreased from {{Money|115,000}} to {{Money|100,000}}.
+*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
+**Gamepass price decreased from {{Robux|2,599}} to {{Robux|1,819}}.
+*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
+**Gamepass cost increased from {{Robux|1,819}} to {{Robux|2,599}}.
 *'''9 April 2025''' - [[v1.60.0]]
-**Defense role added.
+**Offense role added.
 *'''16 April 2025''' - [[v1.61.0]]
 **New skin: {{Color|DuckyRevenge|Easter}}
-*'''25 June 2025''' - [[v1.68.0]]
-**Unlock cost decreased from {{Coins|3,500}} to {{Coins|1,500}}.
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Toy Plane}}
-*'''28 January 2026''' - [[v1.84.0]]
+**{{Bug}} '''Gatling Gun''' cannot damage any enemy from the [[Ducky Revenge Event]] when using ''FPS''.
+*'''14 May 2025''' - [[v1.64.0]]
+**{{Bugfix}} '''Gatling Gun''' can now damage enemies from the [[Ducky Revenge Event]] when using ''FPS''.
+*'''26 May 2025''' - [[v1.64.0]]a
+**Robux cost decreased from {{Robux|2,599}} to {{Robux|1,819}}.
+*'''28 May 2025''' - [[v1.65.0]]
+**Robux cost increased from {{Robux|1,819}} to {{Robux|2,599}}.
+*'''11 June 2025''' - [[v1.67.0]]
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|550}} to {{Money|500}}.
-****Range increased from 7.5 to 9.
-***'''Level 1'''
-****Cost increased from {{Money|200}} to {{Money|225}}.
+****Cost decreased from {{Money|5,750}} to {{Money|5,250}}.
 ***'''Level 2'''
-****Cost increased from {{Money|350}} to {{Money|625}}.
-****Damage increased from +0 to +1.
-****Explosion range increased from 2.5 to 3.
+****Damage increased from +2 to +4.
+****Cost increased from {{Money|7,250}} to {{Money|7,500}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|1,850}} to {{Money|1,500}}.
-****Damage decreased from +1 to +0.
-****Range increased from +0.5 to +1.
-****Explosion damage increased from 20 to 30.
-****Explosion range increased from 2.5 to 3.
-****Flight speed is now boosted by 10%.
+****Damage decreased from +10 to +9.
+****Cost decreased from {{Money|17,500}} to {{Money|15,000}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|3,200}} to {{Money|2,500}}.
-****Damage decreased from +3 to +2.
-****Range decreased from +0.5 to +0.
-****Explosion range increased from 2.75 to 3.
+****Cost decreased from {{Money|35,500}} to {{Money|32,500}}.
 ***'''Level 5'''
-****Cost increased from {{Money|8,000}} to {{Money|9,500}}.
-****Damage increased from +7 to +9.
-****Range decreased from +1 to +9.
-****Explosion damage increased from 40 to 45.
-****Explosion range increased from 3 to 3.5.
-*'''11 March 2026''' - [[v1.86.0]]
-**Statistical changes:
+****Cost decreased from {{Money|60,000}} to {{Money|50,000}}.
+***'''Level 6'''
+****Damage increased from +30 to +40.
+**{{Bug}} Cloned '''Gatling Guns''' stop firing when activating their ability then leaving.
+*'''9 July 2025''' - [[v1.70.0]]
+**{{Bug}} '''Gatling Gun''' no longer visually turns for players other than the tower owner.
+*'''23 July 2025''' - [[v1.71.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|5,250}} to {{Money|4,500}}.
+****Wind down time increased from 2 to 3.2.
+***'''Level 1'''
+****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+***'''Level 2'''
+****Damage increased from +4 to +7.
 ***'''Level 3'''
-****Upgrade name changed from {{Tooltip|''Aerial  Ace''|Contains two spaces between Aerial and Ace}} to ''Aerial Ace''.
+****Damage increased from +4 to +5.
 ***'''Level 4'''
-****No longer grants towers hidden detection, moved to Level 5.
-****Upgrade name changed from ''Spy plane'' to ''Spy Plane''.
-***'''Level 5'''
-****Now gives towers hidden detection.
-*'''8 May 2026''' - [[v1.90.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage increased from +0 to +1.
-****Firerate changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.225 > 0.15|-0.075}}.
-***'''Level 4'''
-****Cost increased from {{Money|2,500}} to {{Money|3,000}}.
-****Damage increased from +2 to +3.
-****Now gives towers hidden detection.
-****Hidden detection range increased from 0 to 10.
-***'''Level 5'''
-****Cost decreased from {{Money|9,500}} to {{Money|7,000}}.
 ****Damage increased from +9 to +10.
-****Explosion range increased from 3.5 to 4.
+***'''Level 5'''
+****Cost decreased from {{Money|50,000}} to {{Money|42,000}}.
+***'''Level 6'''
+****Damage increased from +40 to +50.
+*'''31 October 2025''' - [[v1.79.0]]
+**{{Bug}} When affected by [[Damage Debuff]]s while also dealing 1 damage, it will start dealing nan damage.
+*'''26 November 2025''' - [[v1.81.0]]
+**Gamepass cost decreased from {{Robux|2,599}} to {{Robux|1,689}}.
+**{{Bugfix}} Can still deal nan damage to enemies and make them have nan health, however, any damage counters will no longer change to nan when attacking or creating such enemies.
+*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
+**Gamepass cost increased from {{Robux|1,689}} to {{Robux|2,599}}.
+*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
+**Gamepass cost decreased from {{Robux|2,599}} to {{Robux|1,819}}.
+*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
+**Gamepass cost increased from {{Robux|1,819}} to {{Robux|2,599}}.
+*'''22 May 2026''' - [[v1.91.0]]
+**Gamepass price decreased from {{Robux|2,599}} to {{Robux|1,689}}.
+***{{Bug}} Gifting was not discounted.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Gamepass price increased from {{Robux|1,689}} to {{Robux|2,599}}.
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes:
+**Statistical changes (Regular):
 ***'''Base'''
-****Firerate decreased from 0.225 to 0.22.
+****Firerate decreased from 0.175 to 0.17.
 ***'''Level 3'''
-****Firerate changed from {{Tooltip|0.225 > 0.15|-0.075}} to {{Tooltip|0.22 > 0.15|-0.07}}.
+****Damage decreased from +4 to +1.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.17 > 0.12|-0.05}}.
+***'''Level 4'''
+****Damage decreased from +9 to +7.
+****Firerate changed from {{Tooltip|0.15 > 0.117|-0.033}} to {{Tooltip|0.12 > 0.09|-0.03}}.
 ***'''Level 5'''
-****Damage decreased from +10 to +6.
-****Firerate changed from 0.15 to {{Tooltip|0.15 > 0.12|-0.03}}.
+****Damage decreased from +20 to +16.
+***'''Level 6'''
+****Damage decreased from +40 to +31.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Damage decreased from 5 to 4.
+****Firerate decreased from 0.175 to 0.15.
+***'''Level 2'''
+****Damage decreased from +7 to +6.
+***'''Level 3'''
+****Damage decreased fro +5 to +2.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.15 > 0.12|-0.03}}.
+***'''Level 4'''
+****Damage decreaesd from +10 to +8.
+****Firerate changed from {{Tooltip|0.15 > 0.117|-0.033}} to {{Tooltip|0.12 > 0.09|-0.03}}.
+***'''Level 5'''
+****Damage decreased from +20 to +16.
+***'''Level 6'''
+****Damage decreased from +50 to +40.
+*'''19 June 2026''' - [[v2.1.0]]
+**{{Bug}} Range is no longer visible.
+*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
+**Gamepass price decreased from {{Robux|2,599}} to {{Robux|1,949}}.
+***{{Bug}} Gift price has not changed.
+*'''4 September 2026''' - [[v2.9.0]]
+**Gamepass price decreased from {{Robux|1,949}} to {{Robux|1,364}}.
+***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,599}} it is now {{Robux|1,819}}.
 }}
 
 ==Notes==
@@ -647,4 +514,5 @@ $R$ = $FNC-RECURSION$
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Cliff]]
 [[Category:Ability]]

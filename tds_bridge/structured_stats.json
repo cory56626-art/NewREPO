@@ -7,127 +7,15 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Ace Pilot''' is an intermediate [[Towers|tower]] that can be bought for {{Coins|1,500}}. Unlike other ground towers, the attacking unit of the '''Ace Pilot''', the plane, is an air unit.\n\nThe '''Ace Pilot''' will circle around the runway. At Level 2+, this can be changed to a figure eight. With its ''Toggle Reverse'' ability, it is possible to reverse its flight path. The '''Ace Pilot''' is armed with a pair of machine guns on each wing at the base and will shoot any enemy within its patrol radius. At Levels 2–5, the aircraft will periodically drop a bomb directly where the targeted enemy was last, exploding and damaging any enemies caught in the explosion. The explosion is separated into two spheres. Enemies in the inner sphere will be dealt 100% of the stated damage, while damage in the outer sphere decreases linearly by distance from the edge of the inner sphere to the edge of the outer sphere. Since its bombs deal splash damage, they ignore [[defense]], dealing full damage to the enemies with [[defense]]. These bombs can also damage [[Lead (Attribute)|Lead]] enemies. Due to it being an air-based tower, it is immune to stuns, and because it is not a humanoid tower, it is also immune to debuffs from enemies added before [[v1.9.0]]. Additionally, because it is an air-based tower, it can detect [[Flying]] enemies.\n\nAt Level 4, the '''Ace Pilot''' will also grant nearby towers hidden detection with its ''Hidden Assist'', giving towers without hidden detection, like the [[Ranger]], the ability to detect [[Hidden (Attribute)|Hidden]] enemies. Its machine guns are then replaced by a single autocannon, granting it higher damage and firerate. The '''Ace Pilot''' boasts a high DPS, but its limiting range and inconsistent circling cripple its full potential. Therefore, in most situations, it does not operate at the highest DPS most of the time.\n\nThe '''Ace Pilot''' has a placement limit of eight per player.",
+  "description": "The '''Gatling Gun''' is an advanced [[Towers|tower]] that is able to be placed on both ground and cliffs, which can be controlled by the player using its ability. It can be bought for {{Coins|35,000}} when the player has reached {{Level|175}} or bought for {{Robux|1,364}}.\n\nThe '''Gatling Gun''' will fire at any enemy in its range based on its targeting, hitting only one enemy. However, unlike most other towers, its range is actually a circular sector, which gets a larger angle with upgrades. When an enemy gets out of its range, it will not follow it, even if it could technically reach it if it moved. The '''Gatling Gun''' also has a limited amount of ammo. Every shot loses one ammo; it will not reload until it runs out of ammo; after that, it will take a few seconds for it to reload.\n\nIts ''FPS'' (''<u>f</u>irst-<u>p</u>erson <u>s</u>hooter'') ability allows the player to control the '''Gatling Gun''', which changes how the tower is used drastically. Most noticeably, the tower itself will no longer automatically shoot at enemies, and will only do so when the player shoots. The player can also reload at any point while the tower itself only does so when it runs out of ammo. The player does not have to manually reload when the tower runs out of ammo, as that still happens automatically. When firing, the bullets now pierce through enemies. The first two enemies receive full damage, while the third receives halved damage. If the damage is not a whole number, it is rounded up. Additionally, the player is not affected by any range statistics; the player can fire anywhere on the map, even if the '''Gatling Gun''' could not do it on its own. However, unlike the non-controlled '''Gatling Gun''', the player cannot shoot through some obstacles, such as cliffs. Additionally, the player itself is affected by spread and recoil.\n\nThe '''Gatling Gun''' itself has flying detection from Level 0 and hidden detection from Level 3. When controlled by the player, it has both of these detections. The '''Gatling Gun''' also cannot be stunned, regardless if it is being controlled or not. It also cannot have debuffs applied to it if the enemy that applies it was added before the [[v1.9.0]] update.\n\nDue to the '''Gatling Gun's''' high base cost, extremely expensive upgrades, and high DPS, it is considered a mid-late game tower due to the placement limit of one. \n\nThere is a limit of one '''Gatling Gun''' per player.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 1,
-        "title": "Greased Guns",
-        "cost": "{{Money|225}}",
-        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Greased Guns",
-          "Cost": "{{Money|225}}",
-          "Image": "[[File:AcePilotLevel1.png|100px]]",
-          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Bombs away!",
-        "cost": "{{Money|625}}",
-        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "grant",
-            "stat": "Figure8 Flight Path",
-            "text": "+Figure8 Flight Path"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "4 Bomb Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "3 Explosion Range }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Bombs away!",
-          "Cost": "{{Money|625}}",
-          "Image": "[[File:AcePilotLevel2.png|100px]]",
-          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "Aerial Ace",
-        "cost": "{{Money|1,500}}",
-        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.22",
-            "to": "0.15",
-            "stat": "Firerate",
-            "text": "0.22 > 0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "10% Speed Increase"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "4 Bomb Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "3 Explosion Range }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Aerial Ace",
-          "Cost": "{{Money|1,500}}",
-          "Image": "[[File:AcePilotLevel3.png|100px]]",
-          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Spy Plane",
+        "title": "Heavier Bullets",
         "cost": "{{Money|3,000}}",
-        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}",
         "claims": [
           {
             "kind": "delta",
@@ -136,45 +24,295 @@
             "text": "+3 Damage"
           },
           {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Heavier Bullets",
+          "Cost": "{{Money|3,000}}",
+          "Image": "[[File:GatlingGunLevel1.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 2,
+        "title": "Bigger Magazine",
+        "cost": "{{Money|7,500}}",
+        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "2.5",
+            "to": "2",
+            "stat": "Reload Time",
+            "text": "2.5 > 2 Reload Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Angle",
+            "text": "+5 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Spread",
+            "text": "-1 Spread"
+          },
+          {
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Ammo",
+            "text": "+50 Ammo"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Bigger Magazine",
+          "Cost": "{{Money|7,500}}",
+          "Image": "[[File:GatlingGunLevel2.png|100px]]",
+          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Extra Barrel",
+        "cost": "{{Money|15,000}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.17",
+            "to": "0.12",
+            "stat": "Firerate",
+            "text": "0.17 > 0.12 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Angle",
+            "text": "+10 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1.5",
+            "stat": "Spread",
+            "text": "-1.5 Spread"
+          },
+          {
+            "kind": "delta",
+            "delta": "+100",
+            "stat": "Ammo",
+            "text": "+100 Ammo"
+          },
+          {
             "kind": "grant",
             "stat": "Hidden Detection",
             "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Extra Barrel",
+          "Cost": "{{Money|15,000}}",
+          "Image": "[[File:GatlingGunLevel3.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Minigun Barrel",
+        "cost": "{{Money|32,500}}",
+        "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
           },
           {
-            "kind": "note",
-            "text": "Grants Hidden Detection to nearby towers"
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Range",
+            "text": "+10 Range"
           },
           {
-            "kind": "note",
-            "text": "10 Range"
+            "kind": "set",
+            "from": "0.12",
+            "to": "0.09",
+            "stat": "Firerate",
+            "text": "0.12 > 0.09 Firerate"
           },
           {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Spread",
+            "text": "-1 Spread"
           },
           {
-            "kind": "note",
-            "text": "2 Bomb Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "3 Explosion Range }}"
+            "kind": "delta",
+            "delta": "-0.02",
+            "stat": "Recoil",
+            "text": "-0.02 Recoil"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Spy Plane",
-          "Cost": "{{Money|3,000}}",
-          "Image": "[[File:AcePilotLevel3.png|100px]]",
-          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}"
+          "Upgrade Title": "Minigun Barrel",
+          "Cost": "{{Money|32,500}}",
+          "Image": "[[File:GatlingGunLevel4.png|100px]]",
+          "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}"
         }
       },
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 5,
-        "title": "The Surging Sky",
-        "cost": "{{Money|7,000}}",
-        "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}",
+        "title": "Impenetrable Fortress",
+        "cost": "{{Money|50,000}}",
+        "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+16",
+            "stat": "Damage",
+            "text": "+16 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "6",
+            "stat": "Reload Time",
+            "text": "2 > 6 Reload Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Angle",
+            "text": "+10 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "-0.03",
+            "stat": "Recoil",
+            "text": "-0.03 Recoil"
+          },
+          {
+            "kind": "delta",
+            "delta": "+200",
+            "stat": "Ammo",
+            "text": "+200 Ammo"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Impenetrable Fortress",
+          "Cost": "{{Money|50,000}}",
+          "Image": "[[File:GatlingGunLevel5.png|100px]]",
+          "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 6,
+        "title": "Destruction-Oriented Output Machine",
+        "cost": "{{Money|100,000}}",
+        "information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+31",
+            "stat": "Damage",
+            "text": "+31 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Angle",
+            "text": "+5 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "+200",
+            "stat": "Ammo",
+            "text": "+200 Ammo"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Upgrade Title": "Destruction-Oriented Output Machine",
+          "Cost": "{{Money|100,000}}",
+          "Image": "[[File:GatlingGunLevel6.png|100px]]",
+          "Information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}"
+        }
+      }
+    ],
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Heavier Bullets",
+        "cost": "{{Money|2,500}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Heavier Bullets",
+          "Cost": "{{Money|2,500}}",
+          "Image": "[[File:GatlingGunLevel1.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Bigger Magazine",
+        "cost": "{{Money|7,500}}",
+        "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}",
         "claims": [
           {
             "kind": "delta",
@@ -184,158 +322,239 @@
           },
           {
             "kind": "set",
+            "from": "2.5",
+            "to": "2",
+            "stat": "Reload Time",
+            "text": "2.5 > 2 Reload Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Angle",
+            "text": "+5 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Spread",
+            "text": "-1 Spread"
+          },
+          {
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Ammo",
+            "text": "+50 Ammo"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Bigger Magazine",
+          "Cost": "{{Money|7,500}}",
+          "Image": "[[File:GatlingGunLevel2.png|100px]]",
+          "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Extra Barrel",
+        "cost": "{{Money|15,000}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          },
+          {
+            "kind": "set",
             "from": "0.15",
             "to": "0.12",
             "stat": "Firerate",
             "text": "0.15 > 0.12 Firerate"
           },
           {
-            "kind": "note",
-            "text": "10% > 35% Speed Increase"
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Angle",
+            "text": "+10 Angle"
           },
           {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage"
+            "kind": "delta",
+            "delta": "-1.5",
+            "stat": "Spread",
+            "text": "-1.5 Spread"
           },
           {
-            "kind": "note",
-            "text": "1.5 Bomb Cooldown"
+            "kind": "delta",
+            "delta": "+100",
+            "stat": "Ammo",
+            "text": "+100 Ammo"
           },
           {
-            "kind": "note",
-            "text": "4 Explosion Range }}"
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Extra Barrel",
+          "Cost": "{{Money|15,000}}",
+          "Image": "[[File:GatlingGunLevel3.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Minigun Barrel",
+        "cost": "{{Money|32,500}}",
+        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+8",
+            "stat": "Damage",
+            "text": "+8 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Range",
+            "text": "+10 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.12",
+            "to": "0.09",
+            "stat": "Firerate",
+            "text": "0.12 > 0.09 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Spread",
+            "text": "-1 Spread"
+          },
+          {
+            "kind": "delta",
+            "delta": "-0.02",
+            "stat": "Recoil",
+            "text": "-0.02 Recoil"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Minigun Barrel",
+          "Cost": "{{Money|32,500}}",
+          "Image": "[[File:GatlingGunLevel4.png|100px]]",
+          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 5,
+        "title": "Impenetrable Fortress",
+        "cost": "{{Money|42,000}}",
+        "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+16",
+            "stat": "Damage",
+            "text": "+16 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "6",
+            "stat": "Reload Time",
+            "text": "2 > 6 Reload Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Angle",
+            "text": "+10 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "-0.03",
+            "stat": "Recoil",
+            "text": "-0.03 Recoil"
+          },
+          {
+            "kind": "delta",
+            "delta": "+200",
+            "stat": "Ammo",
+            "text": "+200 Ammo"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "The Surging Sky",
-          "Cost": "{{Money|7,000}}",
-          "Image": "[[File:AcePilotLevel5.png|100px]]",
-          "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}"
+          "Upgrade Title": "Impenetrable Fortress",
+          "Cost": "{{Money|42,000}}",
+          "Image": "[[File:GatlingGunLevel5.png|100px]]",
+          "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 6,
+        "title": "Destruction-Oriented Output Machine",
+        "cost": "{{Money|100,000}}",
+        "information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+40",
+            "stat": "Damage",
+            "text": "+40 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Angle",
+            "text": "+5 Angle"
+          },
+          {
+            "kind": "delta",
+            "delta": "+200",
+            "stat": "Ammo",
+            "text": "+200 Ammo"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Upgrade Title": "Destruction-Oriented Output Machine",
+          "Cost": "{{Money|100,000}}",
+          "Image": "[[File:GatlingGunLevel6.png|100px]]",
+          "Information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}"
         }
       }
-    ],
-    "pvp": []
+    ]
   },
   "upgrade_templates": [
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 1,
-      "title": "Greased Guns",
-      "cost": "{{Money|225}}",
-      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Greased Guns",
-        "Cost": "{{Money|225}}",
-        "Image": "[[File:AcePilotLevel1.png|100px]]",
-        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|241}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 2,
-      "title": "Bombs away!",
-      "cost": "{{Money|625}}",
-      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
-        },
-        {
-          "kind": "grant",
-          "stat": "Figure8 Flight Path",
-          "text": "+Figure8 Flight Path"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "4 Bomb Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "3 Explosion Range }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Bombs away!",
-        "Cost": "{{Money|625}}",
-        "Image": "[[File:AcePilotLevel2.png|100px]]",
-        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Figure8 Flight Path [[File:AcePilotFigureEight.png|20px|Figure8]]\n\n{{CollapsibleUpgrade|Title = Bomb Dropping|Description = •10 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|450}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 3,
-      "title": "Aerial Ace",
-      "cost": "{{Money|1,500}}",
-      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Range",
-          "text": "+1 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.22",
-          "to": "0.15",
-          "stat": "Firerate",
-          "text": "0.22 > 0.15 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "10% Speed Increase"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "4 Bomb Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "3 Explosion Range }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Aerial Ace",
-        "Cost": "{{Money|1,500}}",
-        "Image": "[[File:AcePilotLevel3.png|100px]]",
-        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.22 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|950}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "Spy Plane",
+      "title": "Heavier Bullets",
       "cost": "{{Money|3,000}}",
-      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}",
       "claims": [
         {
           "kind": "delta",
@@ -344,45 +563,293 @@
           "text": "+3 Damage"
         },
         {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Heavier Bullets",
+        "Cost": "{{Money|3,000}}",
+        "Image": "[[File:GatlingGunLevel1.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,750}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 2,
+      "title": "Bigger Magazine",
+      "cost": "{{Money|7,500}}",
+      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "2.5",
+          "to": "2",
+          "stat": "Reload Time",
+          "text": "2.5 > 2 Reload Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Angle",
+          "text": "+5 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Spread",
+          "text": "-1 Spread"
+        },
+        {
+          "kind": "delta",
+          "delta": "+50",
+          "stat": "Ammo",
+          "text": "+50 Ammo"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Bigger Magazine",
+        "Cost": "{{Money|7,500}}",
+        "Image": "[[File:GatlingGunLevel2.png|100px]]",
+        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|5,250}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "title": "Extra Barrel",
+      "cost": "{{Money|15,000}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.17",
+          "to": "0.12",
+          "stat": "Firerate",
+          "text": "0.17 > 0.12 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Angle",
+          "text": "+10 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "-1.5",
+          "stat": "Spread",
+          "text": "-1.5 Spread"
+        },
+        {
+          "kind": "delta",
+          "delta": "+100",
+          "stat": "Ammo",
+          "text": "+100 Ammo"
+        },
+        {
           "kind": "grant",
           "stat": "Hidden Detection",
           "text": "+Hidden Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Extra Barrel",
+        "Cost": "{{Money|15,000}}",
+        "Image": "[[File:GatlingGunLevel3.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.17 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|10,250}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Minigun Barrel",
+      "cost": "{{Money|32,500}}",
+      "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+7",
+          "stat": "Damage",
+          "text": "+7 Damage"
         },
         {
-          "kind": "note",
-          "text": "Grants Hidden Detection to nearby towers"
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Range",
+          "text": "+10 Range"
         },
         {
-          "kind": "note",
-          "text": "10 Range"
+          "kind": "set",
+          "from": "0.12",
+          "to": "0.09",
+          "stat": "Firerate",
+          "text": "0.12 > 0.09 Firerate"
         },
         {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage"
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Spread",
+          "text": "-1 Spread"
         },
         {
-          "kind": "note",
-          "text": "2 Bomb Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "3 Explosion Range }}"
+          "kind": "delta",
+          "delta": "-0.02",
+          "stat": "Recoil",
+          "text": "-0.02 Recoil"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Spy Plane",
-        "Cost": "{{Money|3,000}}",
-        "Image": "[[File:AcePilotLevel3.png|100px]]",
-        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nGrants Hidden Detection to nearby towers [[File:HiddenDetectionOld.png|20px|Hidden Detection]]\n\n•10 Range [[File:BuildRange.png|20px|Hidden Detection Range]]\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•2 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|1,950}}"
+        "Upgrade Title": "Minigun Barrel",
+        "Cost": "{{Money|32,500}}",
+        "Image": "[[File:GatlingGunLevel4.png|100px]]",
+        "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|21,083}}"
       }
     },
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 5,
-      "title": "The Surging Sky",
-      "cost": "{{Money|7,000}}",
-      "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}",
+      "title": "Impenetrable Fortress",
+      "cost": "{{Money|50,000}}",
+      "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+16",
+          "stat": "Damage",
+          "text": "+16 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "2",
+          "to": "6",
+          "stat": "Reload Time",
+          "text": "2 > 6 Reload Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Angle",
+          "text": "+10 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "-0.03",
+          "stat": "Recoil",
+          "text": "-0.03 Recoil"
+        },
+        {
+          "kind": "delta",
+          "delta": "+200",
+          "stat": "Ammo",
+          "text": "+200 Ammo"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Impenetrable Fortress",
+        "Cost": "{{Money|50,000}}",
+        "Image": "[[File:GatlingGunLevel5.png|100px]]",
+        "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|37,750}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 6,
+      "title": "Destruction-Oriented Output Machine",
+      "cost": "{{Money|100,000}}",
+      "information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+31",
+          "stat": "Damage",
+          "text": "+31 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Angle",
+          "text": "+5 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "+200",
+          "stat": "Ammo",
+          "text": "+200 Ammo"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Upgrade Title": "Destruction-Oriented Output Machine",
+        "Cost": "{{Money|100,000}}",
+        "Image": "[[File:GatlingGunLevel6.png|100px]]",
+        "Information": "+31 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|71,083}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Heavier Bullets",
+      "cost": "{{Money|2,500}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Damage",
+          "text": "+3 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Heavier Bullets",
+        "Cost": "{{Money|2,500}}",
+        "Image": "[[File:GatlingGunLevel1.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,333}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Bigger Magazine",
+      "cost": "{{Money|7,500}}",
+      "information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}",
       "claims": [
         {
           "kind": "delta",
@@ -392,81 +859,456 @@
         },
         {
           "kind": "set",
+          "from": "2.5",
+          "to": "2",
+          "stat": "Reload Time",
+          "text": "2.5 > 2 Reload Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Angle",
+          "text": "+5 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Spread",
+          "text": "-1 Spread"
+        },
+        {
+          "kind": "delta",
+          "delta": "+50",
+          "stat": "Ammo",
+          "text": "+50 Ammo"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Bigger Magazine",
+        "Cost": "{{Money|7,500}}",
+        "Image": "[[File:GatlingGunLevel2.png|100px]]",
+        "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+5 Angle\n\n-1 Spread\n\n+50 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|4,833}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "title": "Extra Barrel",
+      "cost": "{{Money|15,000}}",
+      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Damage",
+          "text": "+2 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        },
+        {
+          "kind": "set",
           "from": "0.15",
           "to": "0.12",
           "stat": "Firerate",
           "text": "0.15 > 0.12 Firerate"
         },
         {
-          "kind": "note",
-          "text": "10% > 35% Speed Increase"
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Angle",
+          "text": "+10 Angle"
         },
         {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage"
+          "kind": "delta",
+          "delta": "-1.5",
+          "stat": "Spread",
+          "text": "-1.5 Spread"
         },
         {
-          "kind": "note",
-          "text": "1.5 Bomb Cooldown"
+          "kind": "delta",
+          "delta": "+100",
+          "stat": "Ammo",
+          "text": "+100 Ammo"
         },
         {
-          "kind": "note",
-          "text": "4 Explosion Range }}"
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Extra Barrel",
+        "Cost": "{{Money|15,000}}",
+        "Image": "[[File:GatlingGunLevel3.png|100px]]",
+        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Angle\n\n-1.5 Spread\n\n+100 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|9,833}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Minigun Barrel",
+      "cost": "{{Money|32,500}}",
+      "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+8",
+          "stat": "Damage",
+          "text": "+8 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Range",
+          "text": "+10 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.12",
+          "to": "0.09",
+          "stat": "Firerate",
+          "text": "0.12 > 0.09 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Spread",
+          "text": "-1 Spread"
+        },
+        {
+          "kind": "delta",
+          "delta": "-0.02",
+          "stat": "Recoil",
+          "text": "-0.02 Recoil"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Minigun Barrel",
+        "Cost": "{{Money|32,500}}",
+        "Image": "[[File:GatlingGunLevel4.png|100px]]",
+        "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+10 Range [[File:Range Icon.png|20px|Range]]\n\n0.12 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-1 Spread\n\n-0.02 Recoil\n\n\nSell Price changes to {{Money|20,666}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "title": "Impenetrable Fortress",
+      "cost": "{{Money|42,000}}",
+      "information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+16",
+          "stat": "Damage",
+          "text": "+16 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "2",
+          "to": "6",
+          "stat": "Reload Time",
+          "text": "2 > 6 Reload Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Angle",
+          "text": "+10 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "-0.03",
+          "stat": "Recoil",
+          "text": "-0.03 Recoil"
+        },
+        {
+          "kind": "delta",
+          "delta": "+200",
+          "stat": "Ammo",
+          "text": "+200 Ammo"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "The Surging Sky",
-        "Cost": "{{Money|7,000}}",
-        "Image": "[[File:AcePilotLevel5.png|100px]]",
-        "Information": "+6 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10% > 35% Speed Increase\n\n{{CollapsibleUpgrade|Title = Upgraded Bombs|Description = •45 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.5 Bomb Cooldown [[File:Cooldown Icon.png|20px|Bomb Cooldown]]\n\n•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]}}\n\n\nSell Price changes to {{Money|4,283}}"
+        "Upgrade Title": "Impenetrable Fortress",
+        "Cost": "{{Money|42,000}}",
+        "Image": "[[File:GatlingGunLevel5.png|100px]]",
+        "Information": "+16 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 6 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]\n\n+10 Angle\n\n-0.03 Recoil\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|34,666}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 6,
+      "title": "Destruction-Oriented Output Machine",
+      "cost": "{{Money|100,000}}",
+      "information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+40",
+          "stat": "Damage",
+          "text": "+40 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Angle",
+          "text": "+5 Angle"
+        },
+        {
+          "kind": "delta",
+          "delta": "+200",
+          "stat": "Ammo",
+          "text": "+200 Ammo"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Upgrade Title": "Destruction-Oriented Output Machine",
+        "Cost": "{{Money|100,000}}",
+        "Image": "[[File:GatlingGunLevel6.png|100px]]",
+        "Information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Angle\n\n+200 Ammo [[File:Damage Icon.png|20px|Ammo]]\n\n\nSell Price changes to {{Money|68,000}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [],
-    "pvp": []
+    "regular": [
+      {
+        "level": 0,
+        "cost": 5250.0,
+        "total_cost": 5250.0,
+        "damage": 5.0,
+        "tick": 50.0,
+        "charge_up": 0.17,
+        "cooldown": 2.5,
+        "overcharge": 25.0,
+        "range": 40.0,
+        "dps": 0.099
+      },
+      {
+        "level": 1,
+        "cost": 3000.0,
+        "total_cost": 8250.0,
+        "damage": 8.0,
+        "tick": 50.0,
+        "charge_up": 0.17,
+        "cooldown": 2.5,
+        "overcharge": 30.0,
+        "range": 40.0,
+        "dps": 0.158
+      },
+      {
+        "level": 2,
+        "cost": 7500.0,
+        "total_cost": 15750.0,
+        "damage": 12.0,
+        "tick": 100.0,
+        "charge_up": 0.17,
+        "cooldown": 2.0,
+        "overcharge": 30.0,
+        "range": 45.0,
+        "dps": 0.119
+      },
+      {
+        "level": 3,
+        "cost": 15000.0,
+        "total_cost": 30750.0,
+        "damage": 13.0,
+        "tick": 200.0,
+        "charge_up": 0.12,
+        "cooldown": 2.0,
+        "overcharge": 35.0,
+        "range": 55.0,
+        "dps": 0.065
+      },
+      {
+        "level": 4,
+        "cost": 32500.0,
+        "total_cost": 63250.0,
+        "damage": 20.0,
+        "tick": 200.0,
+        "charge_up": 0.09,
+        "cooldown": 2.0,
+        "overcharge": 45.0,
+        "range": 55.0,
+        "dps": 0.1
+      },
+      {
+        "level": 5,
+        "cost": 50000.0,
+        "total_cost": 113250.0,
+        "damage": 36.0,
+        "tick": 400.0,
+        "charge_up": 0.09,
+        "cooldown": 6.0,
+        "overcharge": 50.0,
+        "range": 65.0,
+        "dps": 0.089
+      },
+      {
+        "level": 6,
+        "cost": 100000.0,
+        "total_cost": 213250.0,
+        "damage": 67.0,
+        "tick": 600.0,
+        "charge_up": 0.09,
+        "cooldown": 6.0,
+        "overcharge": 50.0,
+        "range": 70.0,
+        "dps": 0.11
+      }
+    ],
+    "pvp": [
+      {
+        "level": 0,
+        "cost": 4500.0,
+        "total_cost": 4500.0,
+        "damage": 4.0,
+        "tick": 50.0,
+        "charge_up": 0.15,
+        "cooldown": 2.5,
+        "overcharge": 25.0,
+        "range": 40.0,
+        "dps": 0.079
+      },
+      {
+        "level": 1,
+        "cost": 2500.0,
+        "total_cost": 7000.0,
+        "damage": 7.0,
+        "tick": 50.0,
+        "charge_up": 0.15,
+        "cooldown": 2.5,
+        "overcharge": 30.0,
+        "range": 40.0,
+        "dps": 0.138
+      },
+      {
+        "level": 2,
+        "cost": 7500.0,
+        "total_cost": 14500.0,
+        "damage": 13.0,
+        "tick": 100.0,
+        "charge_up": 0.15,
+        "cooldown": 2.0,
+        "overcharge": 30.0,
+        "range": 45.0,
+        "dps": 0.129
+      },
+      {
+        "level": 3,
+        "cost": 15000.0,
+        "total_cost": 29500.0,
+        "damage": 16.0,
+        "tick": 200.0,
+        "charge_up": 0.12,
+        "cooldown": 2.0,
+        "overcharge": 35.0,
+        "range": 55.0,
+        "dps": 0.08
+      },
+      {
+        "level": 4,
+        "cost": 32500.0,
+        "total_cost": 62000.0,
+        "damage": 24.0,
+        "tick": 200.0,
+        "charge_up": 0.09,
+        "cooldown": 2.0,
+        "overcharge": 45.0,
+        "range": 55.0,
+        "dps": 0.119
+      },
+      {
+        "level": 5,
+        "cost": 42000.0,
+        "total_cost": 104000.0,
+        "damage": 40.0,
+        "tick": 400.0,
+        "charge_up": 0.09,
+        "cooldown": 6.0,
+        "overcharge": 50.0,
+        "range": 65.0,
+        "dps": 0.099
+      },
+      {
+        "level": 6,
+        "cost": 100000.0,
+        "total_cost": 204000.0,
+        "damage": 80.0,
+        "tick": 600.0,
+        "charge_up": 0.09,
+        "cooldown": 6.0,
+        "overcharge": 50.0,
+        "range": 70.0,
+        "dps": 0.131
+      }
+    ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref>",
-      "lead": "{{Attr|Lead|Level 2+}} ([[Splash Damage]] only)",
+      "hidden": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
+      "lead": "N/A",
       "flying": "{{Attr|Fly|Level 0+}}",
       "immune": "Stun<br/>Partial Debuff",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8"
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1"
     },
     "pvp": {
-      "hidden": null,
-      "lead": null,
-      "flying": null,
-      "immune": null
+      "hidden": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
+      "lead": "N/A",
+      "flying": "{{Attr|Fly|Level 0+}}",
+      "immune": "Stun<br/>Partial Debuff"
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Ace Pilot",
-        "image-static": "AcePilotNewIcon.png",
-        "image-dynamic": "AcePilotDynamic.png",
-        "unlockcost": "{{Coins|1,500}}",
-        "basecost": "{{Money|500}}",
-        "basesellingprice": "{{Money|166}}",
-        "role": "Defense",
-        "placement": "Ground (Air-based)",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
-        "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 2+)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.22",
-        "baserange": "[[File:Range Icon.png|20px|Range]]9",
-        "hidden_detection": "{{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref>",
-        "lead_detection": "{{Attr|Lead|Level 2+}} ([[Splash Damage]] only)",
+        "image-static": "GatlingGunIcon.png",
+        "image-dynamic": "GatlingGunDynamic.png",
+        "unlockcost": "{{Coins|35,000}} or {{Robux|1,364}}",
+        "levelrequirement": "{{Level|175}}",
+        "role": "Offense",
+        "placement": "Ground<br/>Cliff",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
+        "basecost": "{{Money|5,250}}",
+        "basesellingprice": "{{Money|1,750}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
+        "damagetype": "Single (Tower)<br/>Pierce (Controlled)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.17",
+        "baserange": "[[File:Range Icon.png|20px|Range]]25",
+        "hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
+        "lead_detection": "N/A",
         "flying_detection": "{{Attr|Fly|Level 0+}}",
         "immune": "Stun<br/>Partial Debuff",
-        "footprint": "1.5",
-        "tooltip-1": "An early to mid game tower that flies in a circular or figure 8 strafing pattern. Fires a barrage of bullets and bombs when staffing by enemies.",
-        "tooltip-2": "Also capable of giving nearby towers hidden detection at later levels.",
-        "tooltip-3": "Capable of detecting [[Hidden (Attribute)|hidden]], and [[flying]] enemies."
+        "footprint": "2",
+        "pvp_basecost": "{{Money|4,500}}",
+        "pvp_basesellingprice": "{{Money|1,500}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
+        "pvp_damagetype": "Single (Tower)<br/>Pierce (Controlled)",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.15",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]25",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
+        "pvp_lead_detection": "N/A",
+        "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
+        "pvp_immune": "Stun<br/>Partial Debuff",
+        "pvp_footprint": "2",
+        "tooltip-1": "An expensiveone of a kind tower that fires within a cone range. Comes with high damage, range, and the ability to pierce multiple targets.",
+        "tooltip-2": "Players can also take personal control to fire the '''gatling gun''' in first person mode.",
+        "tooltip-3": "Capable of detecting [[flying]] and [[Hidden (Attribute)|hidden]] enemies."
       },
       "positional": []
     }
@@ -474,29 +1316,40 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Ace Pilot",
-      "image-static": "AcePilotNewIcon.png",
-      "image-dynamic": "AcePilotDynamic.png",
-      "unlockcost": "{{Coins|1,500}}",
-      "basecost": "{{Money|500}}",
-      "basesellingprice": "{{Money|166}}",
-      "role": "Defense",
-      "placement": "Ground (Air-based)",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
-      "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 2+)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.22",
-      "baserange": "[[File:Range Icon.png|20px|Range]]9",
-      "hidden_detection": "{{Attr|Hidden|Level 4+}}<ref>From Level 2, its bombs can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4.</ref>",
-      "lead_detection": "{{Attr|Lead|Level 2+}} ([[Splash Damage]] only)",
+      "image-static": "GatlingGunIcon.png",
+      "image-dynamic": "GatlingGunDynamic.png",
+      "unlockcost": "{{Coins|35,000}} or {{Robux|1,364}}",
+      "levelrequirement": "{{Level|175}}",
+      "role": "Offense",
+      "placement": "Ground<br/>Cliff",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
+      "basecost": "{{Money|5,250}}",
+      "basesellingprice": "{{Money|1,750}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
+      "damagetype": "Single (Tower)<br/>Pierce (Controlled)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.17",
+      "baserange": "[[File:Range Icon.png|20px|Range]]25",
+      "hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
+      "lead_detection": "N/A",
       "flying_detection": "{{Attr|Fly|Level 0+}}",
       "immune": "Stun<br/>Partial Debuff",
-      "footprint": "1.5",
-      "tooltip-1": "An early to mid game tower that flies in a circular or figure 8 strafing pattern. Fires a barrage of bullets and bombs when staffing by enemies.",
-      "tooltip-2": "Also capable of giving nearby towers hidden detection at later levels.",
-      "tooltip-3": "Capable of detecting [[Hidden (Attribute)|hidden]], and [[flying]] enemies."
+      "footprint": "2",
+      "pvp_basecost": "{{Money|4,500}}",
+      "pvp_basesellingprice": "{{Money|1,500}}",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
+      "pvp_damagetype": "Single (Tower)<br/>Pierce (Controlled)",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.15",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]25",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}} (Tower)<br/>{{Attr|Hidden|Level 0+}} (Controlled)",
+      "pvp_lead_detection": "N/A",
+      "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
+      "pvp_immune": "Stun<br/>Partial Debuff",
+      "pvp_footprint": "2",
+      "tooltip-1": "An expensiveone of a kind tower that fires within a cone range. Comes with high damage, range, and the ability to pierce multiple targets.",
+      "tooltip-2": "Players can also take personal control to fire the '''gatling gun''' in first person mode.",
+      "tooltip-3": "Capable of detecting [[flying]] and [[Hidden (Attribute)|hidden]] enemies."
     },
     "positional": []
   },
-  "template_count": 247
+  "template_count": 186
 }
