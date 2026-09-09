@@ -1,285 +1,270 @@
 {{Tabs}}
+{{For|[[Military Base]]}}
 {{TowerInfobox
-|title = Mortar
-|image-static = MortarIcon.png
-|image-dynamic = MortarDynamic.png
-|unlockcost = {{Level|75}} or {{Robux|300}}
-|role = Defense
-|placement = Cliff
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])
-|basecost = {{Money|1,000}}
-|basesellingprice = {{Money|333}}
-|basedamage = [[File:SplashDamage.png|20px|Damage]]15
-|damagetype = [[Splash Damage|Splash]]
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]4
-|baserange = [[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)
-|hidden_detection = N/A<ref name="hd">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = {{Attr|Fly|Level 0+}}
-|immune = Stun
-|footprint = 1.75
-|pvp_basecost = {{Money|1,000}}
-|pvp_basesellingprice = {{Money|333}}
-|pvp_basedamage = [[File:SplashDamage.png|20px|Damage]]12
-|pvp_damagetype = [[Splash Damage|Splash]]
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]4
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)
-|pvp_hidden_detection = N/A<ref name="hd"/>
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = {{Attr|Fly|Level 0+}}
-|pvp_immune = Stun
+|title = Militant
+|image-static = EasterMilitant_Icon.png
+|image-dynamic = MilitantDynamic.png
+|unlockcost = {{Coins|800}}
+|role = Offense
+|placement = Ground
+|basecost = {{Money|600}}
+|basesellingprice = {{Money|200}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]1
+|damagetype = Single
+|basefirerate = [[File:Cooldown Icon.png|20px|Fireate]]0.225
+|baserange = [[File:Range Icon.png|20px|Range]]14
+|hidden_detection = {{Attr|Hidden|Level 1+}}
+|lead_detection = N/A
+|flying_detection = {{Attr|Fly|Level 1+}}
+|immune = None
+|footprint = 1.5
+|pvp_basecost = {{Money|1,400}}
+|pvp_basesellingprice = {{Money|466}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]2
+|pvp_damagetype = Single
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Fireate]]0.2
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]15
+|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
+|pvp_lead_detection = N/A
+|pvp_flying_detection = {{Attr|Fly|Level 1+}}
+|pvp_immune = None
 |pvp_footprint = 1.5
-|tooltip-1 = AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.
-|tooltip-2 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.
+|tooltip-1 = A{{sic}} early-mid game tower with moderately low damage, high fire rate, and great range.
+|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|Rain fire from above! Deals extremely high splash damage!|Store Description}}
+{{QuoteBox|Trained with an assault rifle, this tower deals medium damage at a fast firerate.|Store Description}}
+|-|Version 3 =
+{{QuoteBox|Trained with an assault rifle, this tower deals medium damage at a fast firerate. Keep an eye out for his ammo!|Former Store Description}}
+|-|Version 2 =
+{{QuoteBox|Equipped with a FN FAL and has a fast firerate.|Former Store Description}}
 |-|Hardcore Testing =
-{{QuoteBox|Rain fire from above! Deals extremely high splash damage! Unlockable at Lv. 75|Former Store Description}}
-|-|Original =
-{{QuoteBox|Rain from above! Unlockable at Lv. 75|Former Store Description}}
+{{QuoteBox|At max level, he uses his raging voice to increase the damage of ally towers. Based on the youtuber: JOHNROBLOX.|Former Store Description}}
+|-|Version 1 =
+{{QuoteBox|Subscribe to JOHN ROBLOX for very funny Roblox videos.|Former Store Description}}
 </tabber>}}
-__TOC__
 ==Description==
-The '''Mortar''' is an advanced cliff [[Towers|tower]] with a long range capable of damaging enemies with its explosions. It can be unlocked by reaching {{Level|75}} or purchased via a gamepass for {{Robux|300}}. When the player reaches {{Level|75}}, the '''Mortar''' can be claimed by using the pop-up message that appears when joining the lobby.
+The '''Militant''', formerly known as '''John''', is an intermediate tower that costs {{Coins|800}} to buy from the store, but can also be obtained by purchasing the [[Starter Bundle]]. It could also be obtained by a now expired [[Codes|code]].
 
-The '''Mortar''' is a cliff tower that shoots rather slowly but deals high damage over a large explosion radius. It has a long range, but as the '''Mortar''' shoots at a target farther away, the shells take longer to reach their target. These shells will generally land behind the targeted enemy. The explosion it produces is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. At Level 4, when the '''Mortar's''' shells explode, they will drop three cluster bombs, which will create additional explosions when they hit the ground. These will land around the main explosion, meaning they are very unlikely to all hit and deal full damage to the targeted enemy. By default, the '''Mortar''' can damage [[Lead (Attribute)|Lead]], as well as target all non-hidden flying enemies. The '''Mortar''' is immune to all stuns by default. 
+The '''Militant''' begins with low damage but it is supported by a fast firerate. It has long range, allowing it to cover large amounts of the track. Through upgrades its DPS, firerate, range increase greatly, but these upgrades are costly.
 
-The '''Mortar''' is considered an all-round tower due to its relatively cheap placement cost, expensive upgrade prices, and its ability to effectively handle groups of enemies throughout the game thanks to its high area damage and strong overall damage output.
-
-The '''Mortar''' has a placement limit of four per player. This is increased to five in [[PVP]] mode.
+The '''Militant''' is considered an early to mid-game tower.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|500}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = 4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Radio Comms|Cost = {{Money|300}}|Image = [[File:John Upgrade 1 New.png|100px]]|Information = 0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
 
 +3 Range [[File:Range Icon.png|20px|Range]]
 
++Hidden Detection {{Hidden|Hidden Detection}}
 
-Sell Price changes to {{Money|500}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|2,250}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +20 Damage [[File:SplashDamage.png|20px|Damage]]
-
-5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
++Flying Detection {{Flying|Flying Detection}}
 
 
-Sell Price changes to {{Money|1,250}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|4,250}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +30 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
+Sell Price changes to {{Money|300}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Field Ops|Cost = {{Money|850}}|Image = [[File:John Upgrade 2 New.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|2,666}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|13,500}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +35 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+4 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]
-
-•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}
+Sell Price changes to {{Money|583}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Guerrilla Tactics|Cost = {{Money|2,750}}|Image = [[File:John Upgrade 3 New.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|7,166}}}}
+Sell Price changes to {{Money|1,500}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Stealth Mercenary|Cost = {{Money|8,000}}|Image = [[File:John Upgrade 4 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|30,000}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +135 Damage [[File:SplashDamage.png|20px|Damage]]
-
-8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+2 Cluster Amount}}
++7 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|17,166}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|300}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|4,166}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Radio Comms|Cost = {{Money|600}}|Image = [[File:John Upgrade 1 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
 
++Hidden Detection {{Hidden|Hidden Detection}}
 
-Sell Price changes to {{Money|433}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|1,400}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +13 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
++Flying Detection {{Flying|Flying Detection}}
 
 
-Sell Price changes to {{Money|900}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|2,500}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +25 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+5 Range [[File:Range Icon.png|20px|Range]]
-
-7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
+Sell Price changes to {{Money|666}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bigger Rifle|Cost = {{Money|2,600}}|Image = [[File:John Upgrade 2 New.png|100px]]|Information = 0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
 
 
-Sell Price changes to {{Money|1,733}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|12,000}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +50 Damage [[File:SplashDamage.png|20px|Damage]]
+Sell Price changes to {{Money|1,533}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Upskill|Cost = {{Money|5,000}}|Image = [[File:John Upgrade 3 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]
-
-•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}
++3 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|5,733}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|22,500}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
-
-+50 Damage [[File:SplashDamage.png|20px|Damage]]
-
-8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Cluster Amount}}
+Sell Price changes to {{Money|3,200}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Stealth Mercenary|Cost = {{Money|10,000}}|Image = [[File:John Upgrade 4 New.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|13,233}}}}
+Sell Price changes to {{Money|6,533}}}}
 }}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
-
 {{neow|<nowiki>
 <var>
-$DPS$ = [[Splash Damage]] / Firerate
-$CDPS$ = Cluster Damage * Cluster Count / Firerate
-$CE$ = Total Cost / ($DPS$ + $CDPS$)
+$DPS$ = Damage / Firerate
+$CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 1000; 500; 2250; 4250; 13500; 30000
-$PVP-COST$ = 1000; 300; 1400; 2500; 12000; 22500
-$FSE-DETECTION$ = ; 0; 0
-$FSE-UPGRADE$ = Improved Handling; Upgraded Armaments; Bigger Cannon; Loaded Warhead; City Buster
-$FSE-UPGRADEICON$ = 4538447265; 4538447347; 4538447424; 4538447493; 4538447579
-$FSE-META$ = Advanced; File:MortarIcon.png
-$SREF$ = <ref name="splash">Number is the damage dealt in the inner explosion sphere. Splash damage is decreased linearly if the enemy is in the outer explosion sphere.</ref>
-$FREF$ = <ref name="fr">Firerate does not account for projectile travel time.</ref>
-$DREF$ = <ref name="DPS">DPS assumes only one enemy is hit and receives full splash damage. DPS does not account for projectile travel time.</ref>
-$CREF$ = <ref name="ce">Accounts for both normal and cluster bomb DPS.</ref>
+$COST$ = 600; 300; 850; 2750; 8000
+$PVP-COST$ = 1400; 600; 2600; 5000; 10000
+$FSE-DETECTION$ = 1; ; 1
+$FSE-UPGRADE$ = Radio Comms; Field Ops; Guerrilla Tactics; Stealth Mercenary
+$FSE-PVP-UPGRADE$ = Radio Comms; Bigger Rifle; Upskill; Stealth Mercenary
+$FSE-UPGRADEICON$ = 5523212631; 5523215135; 5523216332; 5523217773
+$FSE-META$ = Intermediate; File:EasterMilitant_Icon.png
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]]$SREF$ !! Cluster Damage$SREF$ !! Cluster Count !! Firerate$FREF$ !! Range !! Explosion Radius !! Cluster Explosion Radius !! DPS$DREF$ !! Cluster DPS$DREF$ !! Cost Efficiency$CREF$
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || N/A || N/A || 4 || 24 || 5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 0.225 || 14 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 15 || N/A || N/A || 2.75 || 27 || 5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 1 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 35 || N/A || N/A || 2.75 || 27 || 7.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 65 || N/A || N/A || 2.75 || 30 || 8.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 5 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 100 || 30 || 4 || 2.75 || 34 || 8.5 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 235 || 40 || 6 || 2.75 || 34 || 9 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 12 || 0.175 || 20 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 |-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]]$SREF$ !! Cluster Damage$SREF$ !! Cluster Count !! Firerate$FREF$ !! Range !! Explosion Radius !! Cluster Explosion Radius !! DPS$DREF$ !! Cluster DPS$DREF$ !! Cost Efficiency$CREF$
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || N/A || N/A || 4 || 20 || 5.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || 0.2 || 15 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 12 || N/A || N/A || 3.25 || 22 || 5.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 2 || 0.15 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 25 || N/A || N/A || 3.25 || 25 || 7 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 0.1 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 50 || N/A || N/A || 3.258 || 30 || 8 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 5 || 0.1 || 20 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 100 || 40 || 3 || 3.25 || 32 || 8 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 150 || 50 || 6 || 3.25 || 35 || 8.5 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 10 || 0.1 || 20 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 </tabber></div>
 </nowiki>}}
 
-==Skins==
+== Skins ==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:DHBunnyMortarIcon.png|175px]]
-|[[File:EclipseMortar.png|175px]]
-|[[File:DuckyMortarIcon.png|175px]]
-|[[File:VigilanteMortarIcon.png|175px]]
+|[[File:ESAcePilotMilitantIcon.png|175px]]
+|[[File:ESPumpkinMilitantIcon.png|175px]]
+|[[File:NewHazmatMilitantIcon.png|175px]]
+|[[File:GMilitantIcon.png|175px]]
 |-
 !Skin
-|{{Color|Bunny|Bunny}}
-|{{Color|Eclipse|Eclipse}}
-|{{Color|Ducky|Ducky}}
-|{{Color|Vigilante|Vigilante}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A 
-|N/A
-|{{Coins|4,000}}
-|{{Coins|5,000}}
-|-
-!Obtained From
-|[[Bunny Crate]]
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Ducky Crate]]
-|[[Vigilante Crate]]
-|-
-!
-|[[File:PirateMortarIcon.png|175px]]
-|[[File:DefenderMortarSkin.png|175px]]
-|[[File:BaseballMortarIcon.png|175px]]
-|[[File:FallenMortarIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Pirate|Pirate}}
-|{{Color|Krampus|Defender}}
-|{{Color|Deluxe|Baseball}}
-|{{Color|FallenMission|Fallen}}
+|{{Color|Deluxe|Ace Pilot}}
+|{{Color|Unobtainable|Pumpkin}}
+|{{Color|Premium|Hazmat}}
+|{{Color|Spooky|Ghost}}
 |-
 !Rarity
 |{{Color|Rare}}
 |{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
+|{{Color|Common}}
+|{{Color|Event}}
 |-
 !Daily Store Cost
-|{{Coins|5,000}}
+|{{Robux|350}}
 |N/A
-|{{Robux|360}}
+|{{Robux|85}}
 |N/A
 |-
 !Obtained From
-|[[Pirate Crate]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
 |[[Deluxe Crate]]
-|''Oppressive Bombardment'' [[Mission Quests|Mission Quest]]
+|Formerly [[Halloween 2019 Crate]]
+|[[Premium Crate]]
+|[[Spooky Crate]]
 |-
 !
-|[[File:DarkFrostMortarIconIG.png|175px]]
-|[[File:FrostMortarIconIG.png|175px]]
-|[[File:MechaDuckyMortarIconIG.png|175px]]
-|[[File:FestiveMortarIconIG.png|175px]]
+|[[File:ESChocolatierMilitantIcon.png|175px]]
+|[[File:DuckyMilitantIcon.png|175px]]
+|[[File:BeachMilitantIcon.png|175px]]
+|[[File:JohnMilitantIcon.png|175px]]
 |-
 !Skin
-|{{Color|OperationICE|Dark Frost}}
-|{{Color|Frost|Frost}}
-|{{Color|DuckyRevenge|Mecha Ducky}}
-|{{Color|Christmas2025|Festive}}
+|{{Color|Lovely|Chocolatier}}
+|{{Color|Ducky|Ducky}}
+|{{Color|EndOfSummer|Beach}}
+|{{Color|Other|John}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
+|{{Color|Exclusive}}
+|-
+!Daily Store Cost
+|{{Coins|4,500}}
+|{{Coins|3,500}}
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
+|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|[[End of Summer Season#Hunting Season Pass|End of Summer Season]]
+|[[Codes|Code]]:<br/>JOHNRETURNS,<ref>Expired.</ref><br/>9509253943<ref>Expired.</ref>
+|-
+!
+|[[File:LumberjackMilitantIcon.png|175px]]
+|[[File:Davinchimilitant.png|175px]]
+|[[File:FallenMilitantIconIG.png|175px]]
+|[[File:StarSpartanMilitantIcon.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Lumberjack}}
+|{{Color|Lunar|Davinchi}}
+|{{Color|FallenMission|Fallen}}
+|{{Color|Mission|Star Spartan}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Event|Event}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|{{Robux|105}}
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Premium Crate]],<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
+|[[Lunar Overture Event#Lunar Overtures Season Pass|Lunar Overture Season]]
+|''Undead Solider'' [[Mission Quests|Mission Quest]]
+|''For the Commander!'' [[Mission Quests|Mission Quest]]
+|-
+!
+|[[File:WastelandMilitantIconIG.png|175px]]
+|[[File:EasterMilitantIcon.png|175px]]
+|[[File:AcheronMilitantIcon.png|175px]]
+|[[File:UndeadMilitantIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Hexscape|Wasteland}}
+|{{Color|DuckyRevenge|Easter}}
+|{{Color|Surf|Acheron}}
+|{{Color|Null|Undead}}
 |-
 !Rarity
 |{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Uncommon}}
 |{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
@@ -288,471 +273,417 @@ $R$ = $FNC-RECURSION$
 |N/A
 |-
 !Obtained From
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|[[Frost Crate]],<br/>''Nuclear Winter'' [[Mission Quests|Mission Quest]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
-|[[Christmas 2025 Crate]]
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
 |-
 !
-|[[File:KrampusMortarIconIG.png|175px]]
-|[[File:ValentinesMortarIconIG.png|175px]]
-|[[File:BeachMortar0.png|175px]]
+|[[File:SuperFanMilitant0.png|175px]]
+|[[File:PirateMilitant0.png|175px]]
 |-
 !Skin
-|{{Color|FinalAct|Krampus}}
-|{{Color|Valentines2026|Valentines}}
-|{{Color|Beach}}
+|{{Color|Backyard|SuperFan}}
+|{{Color|Pirate}}
 |-
 !Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
-|{{Color|Uncommon}}
+|{{Color|Exclusive}}
+|{{Color|Common}}
 |-
 !Daily Store Cost
 |N/A
-|N/A
-|{{Coins|5,250}}
+|{{Coins|3,500}}
 |-
 !Obtained From
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
-|[[Valentines 2026 Crate]]
-|[[Beach Crate]]
+|''Do The Wave!'' [[Mission Quests|Mission Quest]]
+|[[Pirate Crate]]
 |}
 
 ==Strategy==
-*The '''Mortar''' is essentially a cliff-based [[Rocketeer]]. However, the '''Mortar''' deals less single target damage without its cluster bombs (which are very unlikely to all deal full damage to the enemy) while having a significantly larger explosion. This makes the '''Mortar''' a better option against hordes.
-*In most cases, the '''Mortar's''' shells will land behind an enemy.
-**This can be useful for hordes of enemies, as the '''Mortar's''' shells will land closer to the middle of the hordes instead of landing at the front. This allows its explosions to hit more enemies.
-**However, this makes the '''Mortar''' somewhat weaker against single targets. As explosions will land behind an enemy, the enemy will be further away from the center of the explosion, which can reduce the amount of damage it receives.
-***This is usually negligible for slow enemies, but for much faster ones like the [[Fallen Rusher]], the '''Mortar's''' DPS may be reduced drastically.
-*At Level 4, the '''Mortar's''' shells drop cluster bombs when they explode. These cluster bombs will also explode when they hit the ground.
-**However, do note that these should not be relied on, as the cluster bombs are very inaccurate and create a smaller explosion than the shells.
-**At least 1 or 2 Level 5 '''Mortars''' can be efficient with taking out hordes of [[Breaker4]]s due to it being able to kill it in a single hit and its cluster bombs killing the [[Breaker3]]s that spawn.
-*Compared to the [[Ranger]] and [[Sniper]], the '''Mortar''' has a significantly smaller range, lacking in range when cliff spots are far enough from the path.
-**The [[DJ Booth]] can aid with this by boosting its range.
-*The [[Commander]] can help remedy the '''Mortar's''' slow firerate.
-*This tower has surprisingly good DPS for a splash damage tower, so it will also be able to help with major bosses like the [[Fallen King]].
-**Additionally, it can easily take care of their summons with its explosions.
-*The '''Mortar''' cannot detect [[Hidden (Attribute)|Hidden]] enemies. You will have to use other towers for an effective [[Hidden (Attribute)|Hidden]] defense.
-**In most gamemodes, [[Hidden (Attribute)|Hidden]] enemies are usually close to other enemies, so the '''Mortar''' can indirectly hit them with its large explosion radius.
-**Towers like the [[Ace Pilot]] or [[Firework Technician]] can give hidden detection but must be close to the '''Mortar''' in order to do so.
-*Large clumped groups that appear from [[Breaker4]] can be better targeted by setting '''Mortar''' to ''Random''.
-*This tower completely ignores defense, dealing full damage to the enemy. Because of this, it can be useful against hordes of enemies with defense, like [[Fallen Hazmat|Hazards]], [[Reaver]] or [[Fallen Giant]].
-*In [[Hardcore Mode|Hardcore]] mode, the '''Mortar''' can be used to kill hordes of [[Lead (Attribute)|Lead]] enemies.
-*The '''Mortar''' can be an effective tower in certain maps where you can stack the '''Mortar''' to maximize the cliff spaces and free up more space for other cliff towers like the [[Ranger]].
+*The '''Militant's''' high DPS and low cost make it very viable to use early on during the game. It can also be very useful mid-game and in some weaker modes, late-game.
+**Early on, you can place multiple Level 1 '''Militants''', due to their high DPS, high range, flying detection and hidden detection.
+***Later on during the game, they should be upgraded to Level 3 or 4.
+**Later on during the game, the [[Commander]] can be very useful at increasing its DPS, making it quite useful late-game.
+*The '''Militant''' can be quite effective against hidden enemies like the [[Hidden Boss]] due to its cheap [[Hidden (Attribute)|Hidden]] detection and decent DPS.
+*Because the '''Militant''' gains flying detection at Level 1, it can be used in [[Hardcore Mode|Hardcore]] to kill early-game [[Balloon]]s or, if enough are placed down, deal with [[Flying]] enemies that appear in mid to late-game waves of [[Fallen Mode|Fallen]] and [[Pizza Party]] modes.
+**You will need multiple Level 3-4 '''Militants''' to deal with the late-game [[Fallen Mode|Fallen]] and [[Pizza Party]] enemies due to their high health.
 
 ==Trivia==
-*Outside of sales, the '''Mortar''' is a {{Level|75}} tower with a gamepass cost of {{Robux|300}}, lower in Robux compared to the [[Turret]] which is a {{Level|50}} tower with a gamepass cost of {{Robux|340}}.
-*The '''Mortar''' is loosely based on the [[w:c:roblox-tower-battles:Mortar|Mortar]] from ''Tower Battles'' and the [[w:c:bloons:Mortar Monkey|Mortar Monkey]] from the ''Bloons Tower Defense'' series.
-*When the '''Mortar''' was first released, it would have been affected by shockwaves created by bosses from their ''Stomp'' abilities. This would later be fixed the same day.
-**This glitch would later return in the [[Overhaul v1.0|Overhaul Update]], though it only applied to the [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp''. This was later fixed in the [[v1.1.0|Entity System Update]].
-*The '''Mortar''' formerly shared its Level 4 icon with the [[Ace Pilot]]'s Level 2 icon, but rotated.
-*The '''Mortar''' has a unique explosion at Level 5. It will create a nuclear explosion, instead of the usual explosion most other splash towers use.
-*Unlike the game, dropping a shell in real life will spontaneously fire the mortar. In the game, '''Mortar''' drops in a shell after firing and waits for an enemy to come close to fire again.
-*The '''Mortar's''' default skin in the lobby uses its [[Hardcore Testing BETA]] appearance with its face changed, instead of its current appearance.
+*When '''John''' was first added to the game, its upgrade stats were not displayed on its upgrade description. It was simply referred to as "swager21".
+**It was the only tower that did not include the word "sans" in its upgrade description at the time of its release.
+*This tower used to be redeemable with the now expired [[Codes|code]]: J0HNRBX.
+*The '''Militant''' (when it was originally called '''John''') had an ability called ''Gorilla Sounds'' which increased the damage of most towers within its range by 30%. This lasted 10 seconds and had a 30 second cooldown.
+**During [[Hardcore Testing BETA]], this ability was renamed to ''Enraging Shout''.
+**This ability could not increase the damage of the following towers:
+***Any projectile-based towers: the [[Mortar]], [[Rocketeer]], [[Demoman]], [[Freezer]] (splash damage only; its direct, non-explosive, damage can be increased), [[Paintballer]] and [[Archer|Holiday Archer]].
+***The [[Ace Pilot]] bombs, [[Commando]] missiles or [[Pursuit]] missiles, as they all count as projectiles.
+***The [[Slasher|Shredder]] when its ''Knife Throw'' ability was activated, as the knives it threw counted as a projectile.
+***The [[Pyromancer]]'s burn damage or the [[Swarmer]]'s bee damage.
+****The [[Pyromancer]]'s normal damage could still be increased.
+***The [[Shotgunner|Enforcer]].
+***All units.
+*This tower was originally dedicated to YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX].
+**Before the addition of this tower, the [[Paintballer]] was considered John's tower.
+**The ''Enraging Shout'' ability was based on various noises that he would make in his videos.
+*The now removed ''Enraging Shout'' ability would play various sound effects, with some skins having their own specific sound effects.
+**The regular ''Enraging Shout'' sound was voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were four lines:
+***"''Oh you think you're hard, you think you're hard ya dumb old zombies, shred em, shred em, shred em, shred!''"
+***"''Yeah! Yeah! Yeah!''" with a scream at the end.
+***Sounds resembling that of a gorilla, specifically one going "''oo-oo-oo''" repeatedly.
+***"''Yeah, get em, get em, get em, yeah, yeah, get em!''"
+**The {{Color|Unobtainable|Pumpkin}} skin for '''Militant''' had two sound effects, both of which are laughs.
+**The {{Color|Deluxe|Ace Pilot}} skin for '''Militant''' had one sound effect that was only used during [[Hardcore Testing BETA|Hardcore Testing]], prior to that it did not play anything. The one line was:
+***"''kakugo surun yo''"
+****In English, it translates to "Ya better be prepared!".
+****This is a reference to JOHN ROBLOX's video, [https://www.youtube.com/watch?v=y_NfKixI3Sk zerotwo but in roblox], although the actual sound effect comes from the anime [[w:c:macross:Macross Δ|Macross Delta]].
+*The '''Militant''' still uses '''John''' upgrade icons from [[Hardcore Testing BETA]], even though its design has been drastically changed.
+*The '''Militant''' was the only tower that used a reloading system, until the [[Cryomancer]] was released.
+**The '''Militant's''' reloading system was removed in the [[v1.1.0|Entity System Update]].
+*The '''Militant''' has the most category changes for a tower, as it has been moved from Starter to Intermediate and the other way around, as it changed a total of three times.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{Scroll|text =
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**'''Mortar''' added.
-**{{Bug}} Has the ability to give you negative cash.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0a]]
-**Can no longer be stunned by boss stomps.
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**Projectile speed increased from 25 to 35.
-*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
-**New SFX.
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Splash damage equation reworked.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+{{Scroll|text=
+*'''16 June 2019''' - [[BETA v1.1|BETA v1.1.0]]
+**'''John''' added.
+*'''24 June 2019''' - [[BETA v1.2|BETA v1.2.0]]
 **Statistical changes:
 ***'''Base'''
-****Range decreased from 25 to 22.
-****Damage decreased from 6 to 5.
-****Firerate decreased from 5.05 to 5.03.
-****Explosion radius decreased from 12 to 4.
-****Flying detection added.
-****Lead detection added.
-***'''Level 1'''
-****Damage decreased from +2 to +0.
-****Range increased from +0 to +3.
-****Cost decreased from {{Money|500}} to {{Money|250}}.
-***'''Level 2'''
-****Damage decreased from +6 to +0.
-****Firerate changed from 5.05 to {{Tooltip|5.03 > 4.53|-0.5}}.
-****Cost decreased from {{Money|1,000}} to {{Money|400}}.
-****Renamed from ''Safety Gear'' to ''Quick Reloading''.
-***'''Level 3'''
-****Damage decreased from +25 to +10.
-****Range decreased from +6 to +0.
-****Firerate changed from {{Tooltip|5.05 > 4.05|-1}} to 4.53.
-****Renamed from ''BIGGER CANNON'' to ''Bigger Cannon''.
+****Range increased from 7 to 12.
+***'''Level 5'''
+****Cost increased from {{Money|12,000}} to {{Money|16,000}}.
+****''Gorilla Noises'' [[Damage Buff]] increased from 20% to 50%.
+****''Gorilla Noises'' cost increased from free to {{Money|100}}.
+*'''1 July 2019''' - [[BETA v1.3|BETA v1.3.2]]
+**Statistical changes:
 ***'''Level 4'''
-****Damage decreased from +60 to +10.
-****Explosion radius changed from 12 > 17 to 4 > 6.
-****Renamed from ''BETTER BOMBS'' to ''Stronger Shells''.
+****Cost decreased from {{Money|8,200}} to {{Money|6,200}}.
 ***'''Level 5'''
-****Range decreased from +8 to +5.
-****Damage decreased from +65 to +35.
-****Cost decreased from {{Money|13,000}} to {{Money|12,000}}.
-****Explosion radius changed from 17 > 25 to 6.
-****Firerate changed from {{Tooltip|4.05 > 3.05|-1}} to {{Tooltip|4.53 > 3.03|-1.5}}.
-****Renamed from ''NUCLEAR CANNON'' to ''Nuclear Devistation''.
-**{{Bug}} {{Color|Bunny|Bunny}} skin does not attack any enemies.
-**{{Bug}} [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp'' ability can stun the '''Mortar'''.
-**{{Bug}} Default '''Mortar''' uses old [[Hardcore Testing BETA]] appearance in the lobby.
-**{{Bug}} Level 5 upgrade does not increase explosion radius.
-**{{Bug}} Level 5 '''Mortar's''' explosion uses the same explosion as other levels, instead of a nuclear explosion.
-**{{Bugfix}} '''Mortar''' can no longer give negative cash.
-*'''25 December 2020''' - [[Overhaul v1.1|Overhaul v1.1.1d]]
-**Gamepass price decreased from {{Robux|750}} to {{Robux|535}}.
-*'''4 January 2021''' - [[Overhaul v1.1|Overhaul v1.1.1e]]
-**Gamepass price increased from {{Robux|535}} to {{Robux|700}}.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**'''Mortar''' now ignores [[defense]].
-**Splash damage reworked. Now the explosion is separated into two spheres. Inner sphere deals 100% of the stated damage while the damage in the outer sphere decreases linearly.
+****Cost decreased from {{Money|16,000}} to {{Money|10,000}}.
+*'''19 July 2019''' - [[BETA v1.6|BETA v1.6.0]]
+**Code expired, unlock cost is now {{Coins|1,000}}.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Upgrade names added.
+**Statistical changes:
+***'''Level 2'''
+****Cost decreased from {{Money|1,400}} to {{Money|1,000}}.
+***'''Level 3'''
+****Cost decreased from {{Money|3,250}} to {{Money|2,400}}.
+***'''Level 4'''
+****Cost decreased from {{Money|6,200}} to {{Money|5,000}}.
+***'''Level 5'''
+****''Gorilla Noises'' [[Damage Buff]] decreased from 50% to 30%.
+****''Gorilla Noises'' cost decreased from {{Money|100}} to free.
+****''Gorilla Noises'' cooldown decreased from 65s to 30s.
+****''Gorilla Noises'' now has rage particles that only last 5 seconds while the ability lasts 10 seconds.
+**New skin: {{Color|Premium|Ace Pilot}}
+**{{Bug}} '''John''' does not gain hidden detection on Level 2.
+*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]
+** New skin: {{Color|Halloween2019|Pumpkin}}
+*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
 **Statistical changes:
 ***'''Level 3'''
-****Explosion radius changed from 4 to 4 > 5.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
+****Damage increased from +1 to +2.
+*****{{Bug}} This was not changed in the upgrade description.
+***'''Level 5'''
+****''Gorilla Noises'' now stacks with other [[Damage Buff]]s.
+**{{Bugfix}} '''John''' now gains hidden detection on Level 2.
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|575}} to {{Money|550}}.
+****Range decreased from 12 to 10.
+***'''Level 1'''
+****Renamed from ''Gloves'' to ''Laser Sight''.
+****Cost decreased from {{Money|450}} to {{Money|200}}.
+***'''Level 2'''
+****Renamed from ''Laser Sight'' to ''Improved Handling''.
+****Cost decreased from {{Money|1,000}} to {{Money|600}}.
+***'''Level 3'''
+****Renamed from ''Light Machine Gun'' to ''Master Chef''.
+****Cost decreased from {{Money|2,400}} to {{Money|1,250}}.
+***'''Level 4'''
+****Renamed from ''Master Chef'' to ''AUG A1''.
+****Cost decreased from {{Money|5,000}} to {{Money|3,500}}.
+***'''Level 5'''
+****Renamed from ''GORILLA SOUNDS'' to ''A Force to be Reckoned With''.
+****Cost decreased from {{Money|10,000}} to {{Money|8,500}}.
+****Firerate changed from 0.25 to {{Tooltip|0.25 to 0.2|-0.05}}.
+**Ability particles updated and now last for 10 seconds.
+*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
+**New skin: {{Color|Premium|Hazmat}}
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Renamed from ''John'' to ''Militant''.
+**Unlock cost increased from {{Coins|1,000}} to {{Coins|2,000}}.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.85 to 0.43.
+****Range increased from 10 to 12.
+****Cost increased from {{Money|550}} to {{Money|1,200}}.
+***'''Level 1'''
+****Renamed from ''Laser Sight'' to ''Percise Aiming''.
+***'''Level 2'''
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|0.85 > 0.65|-0.2}} to 0.43.
+****Cost decreased from {{Money|600}} to {{Money|450}}.
+****Renamed from ''Improved Handling'' to ''Radio Support''.
+***'''Level 3'''
+****Damage decreased from +2 to +0.
+****Range decreased from +2 to +0.
+****Firerate changed from 0.65 to {{Tooltip|0.43 > 0.23|-0.2}}.
+****Cost decreased from {{Money|1,250}} to {{Money|1,200}}.
+****Renamed from ''Master Chef'' to ''Automatic''.
+***'''Level 4'''
+****Range decreased from +3 to +0.
+****Firerate changed from {{Tooltip|0.65 > 0.25|-0.4}} to 0.23.
+****Damage increased from +0 to +2.
+****Renamed from ''AUG A1'' to ''Intense Training''.
+***'''Level 5'''
+****Range decreased from +3 to +2.
+****Firerate changed from {{Tooltip|0.25 > 0.2|-0.05}} to {{Tooltip|0.23 > 0.18|-0.05}}.
+****''Gorilla Noises'' ability removed.
+****Renamed from ''A Force to be Reckoned With'' to ''Special Forces''.
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
+**New skin: {{Color|Spooky|Ghost}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**''Militant'' now has ammo, when it runs out of ammo or does not detect any enemies for a while it will start reloading.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|1,200}} to {{Money|750}}.
+****Damage decreased from 2 to 1.
+****Firerate decreased from 0.43 to 0.23.
+****Range decreased from 12 to 10.
+****Now has 18 ammo.
+***'''Level 3'''
+****Name changed from ''Automatic'' to ''Sharp Shooter''.
+****Firerate changed from {{Tooltip|0.43 > 0.23|-0.2}} to {{Tooltip|0.23 > 0.155|-0.075}}.
+****Damage increased from +0 to +1.
+****Ammo increased from +0 to +12.
+****Cost increased from {{Money|1,200}} to {{Money|1,800}}.
+***'''Level 4'''
+****Range increased from +0 to +1.
+****Cost increased from {{Money|3,500}} to {{Money|4,500}}.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Special Forces''
+*****Cost: {{Money|7,500}}
+*****+2 Damage
+*****+2 Range
+*****Firerate: {{Tooltip|0.23 > 0.18|-0.05}}
 *'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-*'''29 December 2021'''
-**{{Bug}} Default skin now uses its original version, does not upgrade properly and does not attack any enemies.
-*'''29 December 2021''' - [[v1.0.0]]l
-**{{Bugfix}} Default skin now uses its correct model, fixing it not upgrading properly and it not attacking enemies.
+**Statistical changes:
+***'''Base'''
+****Ammo increased from 18 to 20.
+***'''Level 3'''
+****Ammo decreased from +12 to +10.
+****Reload Time changed from 2.5 to {{Tooltip|2.5 > 1.5|-1}}.
+**{{Bug}} When the '''Militant''' has its reload time decreased by the [[Commander]], the '''Militant''' will not play any animation after its reloading animation is finished, but it still can attack enemies.
+*'''13 February 2022''' - [[v1.0.2]]
+**New skin: {{Color|SeasonOfLove|Chocolatier}}.
 *'''12 March 2022''' - [[v1.1.0]]
-**'''Mortar''' now uses a path based movement prediction, causing it to hit enemies more accurately.
-**'''Mortar''' is now immune to all stuns.
+**Reloading mechanic removed.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 5.03 to 5.008.
+****Firerate increased from 0.23 to 0.275.
+****Range increased from 10 to 14.
+****Reload Time removed (was 2.5).
+****Ammo removed (was 20).
+****Cost increased from {{Money|750}} to {{Money|800}}.
+***'''Level 1'''
+****Name changed from ''Percise Aiming'' to ''Radio Comms''.
+****Range increased from +2 to +3.
+****Hidden Detection moved from Level 2 to Level 1.
+****Cost increased from {{Money|200}} to {{Money|250}}.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|5.03 > 4.53|-0.5}} to {{Tooltip|5.025 > 4.525|-0.5}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|4.53 > 3.03|-1.5}} to {{Tooltip|4.525 > 3.025|-1.5}}.
-**{{Bug}} {{Color|Bunny|Bunny}} uses incorrect animations in the lobby.
-**{{Bugfix}} {{Color|Bunny|Bunny}} skin now works properly.
-**{{Bugfix}} [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp'' ability now cannot stun the '''Mortar'''.
+****Name changed from ''Radio Support'' to ''Bigger Rifle''.
+****Damage increased from +0 to +1.
+****Firerate changed from 0.23 to {{Tooltip|0.275 > 0.225|-0.05}}.
+****Range decreased from +1 to +0.
+****Cost increased from {{Money|450}} to {{Money|1,500}}.
+***'''Level 3'''
+****Name changed from ''Sharp Shooter'' to ''Upskill''.
+****Firerate changed from {{Tooltip|0.23 > 0.155|-0.075}} to {{Tooltip|0.225 > 0.2|-0.025}}.
+****Damage increased from +1 to +2.
+****Range increased from +0 to +2.
+****Cost increased from {{Money|1,800}} to {{Money|3,500}}.
+***'''Level 4'''
+****Name changed from ''Intense Training'' to ''Stealth Mercenary''.
+****Firerate changed from 0.155 to {{Tooltip|0.2 > 0.175|-0.025}}.
+****Damage increased from +2 to +3.
+****Range increased from +1 to +2.
+****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
 *'''17 April 2022''' - [[v1.2.0]]
-**'''Mortar''' can no longer be targeted by most enemy abilities.
-*'''23 April 2022''' - [[v1.2.1]]
-**{{Bugfix}} Level 5 upgrade name ''Nuclear Devastation'' is no longer misspelt as ''Nuclear Devistation''.
+**New skin: {{Color|DuckHunt|Ducky}}
+*'''5 August 2022''' - [[v1.3.1]]
+**New skin: {{Color|EndOfSummer|Beach}}
+*'''9 September 2022''' - [[v1.3.2]]a
+**New skin: {{Color|Other|John}}
+*'''30 September 2022''' - [[v1.4.0]]
+**New skin: {{Color|Philips|Lumberjack}}
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-*'''21 March 2023''' - [[v1.6.3]]e
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|400}} to {{Money|1,000}}.
-****Damage increased from 5 to 10.
-****Explosion radius increased from 4 to 8.
-****Placement limit increased from 5 to 6.
-***'''Level 1'''
-****Firerate changed from 5.008 to {{Tooltip|5.025 > 4.525|-0.5}}.
-****Range decreased from +3 to +2.
-****Cost increased from {{Money|250}} to {{Money|600}}.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.525 > 4.025|-0.5}}.
-****Damage increased from +0 to +10.
-****Explosion radius changed from 4 to 8 > 12.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-****Cost increased from {{Money|400}} to {{Money|1,300}}.
-****Renamed from ''Quick Reloading'' to ''Upgraded Armaments''.
-***'''Level 3'''
-****Damage increased from +10 to +30.
-****Range increased from +0 to +4.
-****Explosion radius changed from 4 > 5 to 12 > 14.
-****Cost increased from {{Money|3,000}} to {{Money|3,200}}.
-***'''Level 4'''
-****Damage increased from +10 to +50.
-****Firerate changed from 4.525 to {{Tooltip|4.025 > 3.525|-0.5}}.
-****Range increased from +0 to +2.
-****Explosion radius changed from 5 > 6 to 14.
-*****{{Bug}} The upgrade description did not change, it still says that the explosion radius increases.
-****Cost increased from {{Money|7,200}} to {{Money|9,500}}.
-****Renamed from ''Stronger Shells'' to ''Loaded Warhead''.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|4.525 > 3.025|-1.5}} to 3.525.
-****Damage increased from +35 to +75.
-****Explosion radius changed from 6 to 14 > 20.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-****Cost increased from {{Money|12,000}} to {{Money|23,000}}.
-****Renamed from ''Nuclear Devastation'' to ''Nuclear Annihilation''.
-**{{Bug}} '''Mortar's''' explosions are smaller than they look.
-*'''22 March 2023''' - [[v1.6.3]]f
-**{{Bugfix}} '''Mortar's''' explosions are now the proper size.
-*'''31 March 2023''' - [[v1.6.4]]
-**Statistical changes:
-***'''Base'''
-****Damage increased from 10 to 12.
-****Explosion radius decreased from 8 to 5.
-***'''Level 2'''
-****Damage increased from +10 to +12.
-****Explosion radius changed from 8 > 12 to 5 > 6.5.
-***'''Level 3'''
-****Damage increased from +30 to +31.
-****Explosion radius changed from 12 > 14 to 6.5.
-***'''Level 4'''
-****Damage increased from +50 to +70.
-****Explosion radius changed from 14 to 6.5 > 7.
-****Cost decreased from {{Money|9,500}} to {{Money|8,500}}.
-***'''Level 5'''
-****Damage increased from +75 to +125.
-****Explosion radius changed from 14 > 20 to 7 > 8.
-****Cost decreased from {{Money|23,000}} to {{Money|21,500}}.
-**{{Bugfix}} '''Mortar's''' upgrade descriptions now list explosion changes properly on all Levels.
-*'''7 April 2023''' - [[v1.7.0]]
-**Gamepass price decreased from {{Robux|700}} to {{Robux|500}}.
-**Shells will now land behind enemies.
-**Statistical changes:
-***'''Base'''
-****Placement limit decreased from 6 to 4.
-****Projectile speed decreased.
-***'''Level 4:'''
-****Cluster bombs with 40 damage and 4 explosion radius added.
-****Explosion radius changed from 6.5 > 7 to 6.5.
-***'''Level 5'''
-****Now increases cluster bomb damage by +10.
-****Explosion radius changed from 7 > 8 to 6.5 > 8.
-****Cost decreased from {{Money|21,500}} to {{Money|20,000}}.
-****Name changed from ''Nuclear Annihilation'' to ''City Buster''.
-**{{Bugfix}} Level 5 '''Mortar''' now has unique nuclear explosions instead of the regular explosions.
-*'''15 April 2023''' - [[v1.7.1]]
-**Gamepass price increased from {{Robux|500}} to {{Robux|700}}.
+**{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
+*'''23 January 2023''' - [[v1.6.0]]j
+**{{Color|Halloween2019|Pumpkin}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
+*'''14 February 2023''' - [[v1.6.1]]
+**{{Color|Lovely|Chocolatier}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
 *'''5 May 2023''' - [[v1.7.2]]
-**{{Bug}} {{Color|Bunny|Bunny}} '''Mortar''' icon has a floating projectile.
-**{{Bugfix}} Default '''Mortar''' now uses its current appearance in the regular lobby.
-**{{Bugfix}} {{Color|Bunny|Bunny}} '''Mortar''' now uses its current animations in the regular lobby.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''24 June 2023''' - [[v1.8.2]]
-**New skin: {{Color|Vigilante|Vigilante}}
-*'''4 July 2023''' - [[v1.8.2]]d
-**Gamepass price decreased from {{Robux|700}} to {{Robux|500}}.
-*'''6 July 2023''' - [[v1.8.2]]e
-**Gamepass price increased from {{Robux|500}} to {{Robux|700}}.
-*'''5 August 2023''' - [[v1.8.4]]
-**New skin: {{Color|Pirate|Pirate}}
-*'''24 November 2023''' - [[v1.9.4]]
-**Gamepass price decreased from {{Robux|800}} to {{Robux|490}}.
-*'''29 November 2023''' - [[v1.9.4]]a
-**Gamepass price increased from {{Robux|490}} to {{Robux|700}}.
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
 *'''21 December 2023''' - [[v1.11.0]]
-**New skin: {{Color|Krampus|Defender}}
-*'''24 February 2024''' - [[v1.14.0]]
-**Gamepass price decreased from {{Robux|700}} to {{Robux|525}}.
-**{{Bug}} Gamepass cost is still listed as {{Robux|700}} in the inventory.
-*'''19 April 2024''' - [[v1.19.0]]
-**{{Bugfix}} Gamepass cost is now correctly listed as {{Robux|525}} in the inventory.
-*'''23 May 2024''' - [[v1.23.0]]
-**Gamepass cost decreased from {{Robux|525}} to {{Robux|395}}.
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**No longer bypasses defense.
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|Deluxe|Baseball}}
+**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
+*'''3 May 2024''' - [[v1.20.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|800}} to {{Money|700}}.
+***'''Level 1'''
+****Flying detection added.
+***'''Level 2'''
+****Cost decreased from {{Money|1,500}} to {{Money|1,250}}.
+****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to {{Tooltip|0.275 > 0.2|-0.075}}.
+***'''Level 3'''
+****Cost decreased from {{Money|3,500}} to {{Money|3,000}}.
+****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to {{Tooltip|0.2 > 0.175|-0.025}}.
+***'''Level 4'''
+****Damage increased from +3 to +4.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
 *'''9 August 2024''' - [[v1.27.5]]
 **New skin: {{Color|FallenMission|Fallen}}
-*'''27 November 2024''' - [[v1.43.0]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|296}}.
-*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
-**Gamepass price increased from {{Robux|296}} to {{Robux|395}}.
-*'''16 December 2024''' - [[v1.46.0]]
-**New skins: {{Color|Frost|Frost}}, {{Color|OperationICE|Dark Frost}}
-*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|296}}.
-*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
-*'''15 January 2025''' - [[v1.49.0]]
-**Placement limit increased from 4 to 5.
-**Now bypasses defense.
+*'''11 September 2024''' - [[v1.31.0]]
+**New skin: {{Color|Mission|Star Spartan}}
+*'''23 October 2024''' - [[v1.37.0]]
+**New skin: {{Color|Hexscape|Wasteland}}
+*'''26 March 2025''' - [[v1.58.0]]
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 5.025 to 4.025.
-****Range decreased from 22 to 20
-****Explosion Radius increased from 5 to 6.
-****Cost decreased from {{Money|1,000}} to {{Money|900}}.
+****Firerate decreased from 0.275 to 0.225.
+****Range decreased from 14 to 13.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.025 > 3.025|-1}}.
-****Range decreased from +2 to +0.
-****Cost decreased from {{Money|600}} to {{Money|325}}.
+****Cost decreased from {{Money|250}} to {{Money|200}}.
+****Firerate changed from 0.258 to {{Tooltip|0.225 > 0.2|-0.025}}.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|4.525 > 4.025|-0.5}} to 3.025.
-****Range increased from +0 to +4.
-****Explosion Radius changed from 5 > 6.5 to 6 > 7.5.
-****Cost increased from {{Money|1,300}} to {{Money|1,400}}.
+****Cost decreased from {{Money|1,250}} to {{Money|900}}.
+****Firerate changed from {{Tooltip|0.275 > 0.2|-0.075}} to 0.2
 ***'''Level 3'''
-****Range decreased from +4 to +3.
-****Damage decreased from +31 to +26.
-****Explosion Radius changed from 6.5 to 7.5 > 8.5.
-****Cost increased from {{Money|3,200}} to {{Money|3,500}}.
+****Cost decreased from {{Money|3,000}} to {{Money|2,750}}.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|4.025 > 3.525|-0.5}} to 3.025.
-****Range decreased from +2 to +0.
-****Cluster bomb damage increased from 40x3 to 40x4.
-****Cluster bomb explosion radius increased from 4 to 5.
-****Cost increased from {{Money|8,500}} to {{Money|10,000}}.
-***'''Level 5'''
-****Range decreased from +5 to +3.
-****Damage decreased from +125 to +80.
-****Cluster bomb damage increased from 50x3 to 75x6.
-****Explosion Radius changed from 6.5 > 8 to 8.5 > 10.
-****Cost increased from {{Money|20,000}} to {{Money|22,500}}.
-*'''23 January 2025''' - [[v1.50.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage increased from +26 to +36.
-****Cost decreased from {{Money|3,500}} to {{Money|3,250}}.
-***'''Level 4'''
-****Damage decreased from +70 to +60.
-****Cluster bomb amount decreased from 40x4 to 40x3.
-****Cost increased from {{Money|10,000}} to {{Money|12,000}}.
-***'''Level 5'''
-****Cluster bomb damage decreased from 75x6 to 50x6.
-****Cost increased from {{Money|22,500}} to {{Money|25,000}}.
+****Cost increased from {{Money|7,500}} to {{Money|9,000}}.
+****Damage increaased from +4 to +8.
+****Range increased from +2 to +3.
 *'''9 April 2025''' - [[v1.60.0]]
-**Defense role added.
+**Offense role added.
 *'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Mecha Ducky}}.
-*'''11 June 2025''' - [[v1.67.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage decreased from +36 to +31.
-***'''Level 4'''
-****Damage decreased from +60 to +45.
-***'''Level 5'''
-****Damage decreased from +80 to +50.
-****Explosion Radius changed from 8.5 > 10 to 8.5 > 9.
+**New skin: {{Color|DuckyRevenge|Easter}}
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost reduced from {{Coins|1,500}} to {{Coins|650}}.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Acheron}}
 *'''23 July 2025''' - [[v1.71.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
-****Firerate decreased from 4.025 to 3.775.
+****Cost increased from {{Money|700}} to {{Money|1,600}}.
+****Damage increased from 1 to 2.
+****Range increased from 13 to 16.
 ***'''Level 1'''
-****Cost increased from {{Money|325}} to {{Money|400}}.
-****Damage increased from +0 to +3.
-****Range increased from +0 to +2.
-****Firerate changed from {{Tooltip|4.025 > 3.025|-1}} to {{Tooltip|3.775 > 3.275|0.5}}.
+****Cost increased from {{Money|200}} to {{Money|700}}.
+****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to {{Tooltip|0.225 > 0.175|-0.05}}
+****Range decreased from +3 to +2.
 ***'''Level 2'''
-****Damage increased from +12 to +13.
-****Range decreased from +4 to +3.
+****Cost increased from {{Money|900}} to {{Money|1,000}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|3,250}} to {{Money|3,000}}.
-****Damage increased from +31 to +32.
-****Range increased from +3 to +5.
-****Firerate changed from 3.025 to {{Tooltip|3.275 > 3.025|-0.25}}.
+****Cost increased from {{Money|2,750}} to {{Money|3,500}}.
+****Damage decreased from +2 to +1.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to {{Tooltip|0.175 > 0.125|-0.05}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|12,000}} to {{Money|10,000}}.
-****Damage decreased from +45 to +40.
-****Range increased from +0 to +2.
-***'''Level 5'''
-****Cost decreased from {{Money|25,000}} to {{Money|20,000}}.
+****Cost increased from {{Money|9,000}} to {{Money|10,000}}.
+****Damage decreased from +8 to +6.
+****Range decreased from +3 to +0.
 *'''6 August 2025''' - [[v1.72.0]]
+**Cost decreased from {{Coins|650}} to {{Coins|500}}.
+**Category changed from Intermediate to Starter.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate increased from 3.775 to 4.025.
-****Explosion radius decreased from 6 to 5.5.
+****Cost decreased from {{Money|1,600}} to {{Money|1,400}}.
+****Range decreased from 16 to 15.
 ***'''Level 1'''
-****Cost decreased from {{Money|400}} to {{Money|300}}.
-****Damage decreased from +3 to +0.
-****Firerate changed from {{Tooltip|3.757 > 3.275|-0.5}} to {{Tooltip|4.025 > 3.275|-0.75}}.
+****Cost decreased from {{Money|700}} to {{Money|600}}.
 ***'''Level 2'''
-****Explosion radius changed from 6 > 7.5 to 5.5 > 7.
+****Cost increased from {{Money|1,000}} to {{Money|2,600}}.
+****Firerate changed from 0.175 to {{Tooltip|0.175 > 0.125|-0.05}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
-****Damage decreased from +32 to +25.
-****Firerate changed from {{Tooltip|3.275 > 3.025|-0.25}} to 3.275.
-****Explosion radius changed from 7.5 > 8.5 to 7 > 8.
-***'''Level 4'''
-****Cost increased from {{Money|10,000}} to {{Money|12,000}}.
-****Damage increased from +40 to +50.
-***'''Level 5'''
-****Cost increased from {{Money|20,000}} to {{Money|22,500}}.
-****Explosion radius changed from 8.5 > 9 to 8 > 8.5.
-*'''26 November 2025''' - [[v1.81.0]]
-**Gamepass cost decreased from {{Robux|395}} to {{Robux|296}}.
-*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
-*'''20 December 2025''' - [[v1.83.0]]
-**New skin: {{Color|Christmas2025|Festive}}
-**{{Bug}} {{Color|Christmas2025|Festive}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Krampus}}
-**{{Bug}} {{Color|FinalAct|Krampus}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
-*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Gamepass cost decreased from {{Robux|395}} to {{Robux|296}}.
-*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
+****Cost increased from {{Money|3,500}} to {{Money|5,000}}.
+****Damage increased from +1 to +3.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to 0.125.
+****Range increased from +2 to +3.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Undead}}
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 5 to 3 in regular modes.
 **Statistical changes (Regular):
 ***'''Base'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
-****Damage increased from 12 to 15.
-****Range increased from 20 to 24.
-****Explosion radius decreased from 6 to 5.
+****Cost decreased from {{Money|700}} to {{Money|600}}.
 ***'''Level 1'''
-****Cost increased from {{Money|325}} to {{Money|500}}.
-****Firerate changed from {{Tooltip|4.025 > 3.025|-1}} to {{Tooltip|4.025 > 2.775|-1.25}}.
-****Range increased from +0 to +3.
+****Cost decreased from {{Money|200}} to {{Money|150}}.
+****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.225.
+****Range increased from +3 to +4.
 ***'''Level 2'''
-****Cost increased from {{Money|1,400}} to {{Money|2,250}}.
-****Damage increased from +12 to +20.
-****Range decreased from +4 to +0.
-****Explosion radius changed from 6 > 7.5 to 5 > 7.
+****Cost increased from {{Money|900}} to {{Money|1,050}}.
+****Firerate changed from 0.2 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Name changed from ''Bigger Rifle'' to ''Field Ops''.
 ***'''Level 3'''
-****Cost increased from {{Money|3,250}} to {{Money|4,250}}.
-****Damage decreased from +31 to +30.
-****Explosion radius changed from 7.5 > 8.5 to 7 > 8.5.
+****Cost increased from {{Money|2,750}} to {{Money|3,125}}.
+****Damage increased from +2 to +3.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
+****Range decreased from +2 to +0.
+****Name changed from ''Upskill'' to ''Guerilla Tactics''.
 ***'''Level 4'''
-****Cost increased from {{Money|12,000}} to {{Money|19,000}}.
-****Damage increased from +45 to +60.
-****Range increased from +0 to +4.
-****Cluster damage decreased from 40 to 30.
-****Cluster count increased from 3 to 4.
-***'''Level 5'''
-****Cost increased from {{Money|25,000}} to {{Money|35,500}}.
-****Damage increased from +50 to +165.
-****Range decreased from +3 to +0.
-****Cluster count decreased from +3 to +2.
-*'''11 February 2026''' - [[v1.85.0]]
-**New skin: {{Color|Valentines2026|Valentines}}
-**{{Bug}} {{Color|Valentines2026|Valentines}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
+****Cost decreased from {{Money|9,000}} to {{Money|5,750}}.
+****Damage decreased from +8 to +5.
+****Range decreased from +3 to +2.
+*'''11 March 2026''' - [[v1.86.0]]
+**Category changed from Starter to Intermediate.
+**Statistical changes (Regular):
+***'''Base'''
+****Range increased from 13 to 14.
+***'''Level 1'''
+****Cost increased from {{Money|150}} to {{Money|300}}.
+****Firerate changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Range decreased from +4 to +3.
+***'''Level 2'''
+****Cost decreased from {{Money|1,050}} to {{Money|850}}.
+****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to 0.175.
+***'''Level 3'''
+****Cost decreased from {{Money|3,125}} to {{Money|2,750}}.
+***'''Level 4'''
+****Cost increased from {{Money|5,750}} to {{Money|8,000}}.
+****Damage increased from +5 to +7.
+****Range increased from +2 to +3.
 *'''22 May 2026''' - [[v1.91.0]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|316}}.
-***{{Bug}} Gifting was not discounted.
-*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Gamepass price increased from {{Robux|316}} to {{Robux|395}}.
+**New skin: {{Color|Backyard|SuperFan}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
 **Statistical changes (Regular):
 ***'''Base'''
-****Firerate decreased from 4.025 to 4.
-****Now displays its [[Stun Immunity]].
+****Without [[Firerate Bug]], firerate increased from 0.2 to 0.225, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.225.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|4.025 > 2.775|-1.25}} to {{Tooltip|4 > 2.75|-1.25}}.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.2 > 0.15|-0.05}} to {{Tooltip|0.225 > 0.175|-0.05}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased from 4.025 to 4.
+****Firerate decreased from 0.225 to 0.2.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|4.025 > 3.275|-1.25}} to {{Tooltip|4 > 3.25|-1.25}}.
-*'''19 June 2026''' - [[v2.1.0]]
-**Placement limit increased from 3 to 4 in regular modes.
-**Statistical changes (Regular):
+****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.2 > 0.15|-0.05}}.
+***'''Level 2'''
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}.
 ***'''Level 4'''
-***Cost decreased from {{Money|19,000}} to {{Money|13,500}}.
-***Damage decreased from +50 to +35.
-***'''Level 5'''
-***Cost decreased from {{Money|35,500}} to {{Money|30,000}}.
-***Damage decreased from +165 to +135.
-*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|300}}.
-***{{Bug}} Gift price has not changed.
-*'''4 September 2026''' - [[v2.9.0]]
-**New skin: {{Color|Beach}}
+****Damage decreased from +6 to +5.
+*'''17 July 2026''' - [[v2.3.0]]
+**New skin: {{Color|Pirate|Pirate}}
 }}
 
 ==Notes==
@@ -761,4 +692,4 @@ $R$ = $FNC-RECURSION$
 
 
 {{TowerNavBox}}
-[[Category:Cliff]]
+[[Category:Ground]]
