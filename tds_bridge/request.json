@@ -1,38 +1,7 @@
 {
-  "mode": "discussion_deep_search",
-  "query": "enforcer loadout solo fallen hardcore polluted frost challenge",
-  "must_include": [
-    [
-      "enforcer"
-    ],
-    [
-      "loadout",
-      "strat",
-      "strategy"
-    ]
-  ],
-  "prefer_include": [
-    "golden cowboy",
-    "gcow",
-    "turret",
-    "pursuit",
-    "engineer",
-    "mercenary base",
-    "merc base",
-    "dj",
-    "commander",
-    "medic",
-    "hacker",
-    "solo",
-    "fallen",
-    "hardcore",
-    "polluted",
-    "frost",
-    "challenge",
-    "win",
-    "won",
-    "triumph"
-  ],
-  "pages": 50,
-  "per_page": 1000
+  "mode": "verify",
+  "query": "Shotgunner",
+  "thread_url": "",
+  "limit": 100,
+  "test_run": "verify-shotgunner-loadout"
 }
