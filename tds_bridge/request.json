@@ -1,47 +1,37 @@
 {
   "mode": "discussion_deep_search",
-  "query": "fun unique loadout golden cowboy hacker enforcer pursuit kingpin mercenary base engineer turret dj commander medic solo fallen challenge",
+  "query": "enforcer loadout solo fallen hardcore polluted frost challenge",
   "must_include": [
+    [
+      "enforcer"
+    ],
     [
       "loadout",
       "strat",
       "strategy"
-    ],
-    [
-      "golden cowboy",
-      "gcow",
-      "hacker",
-      "enforcer",
-      "pursuit",
-      "kingpin",
-      "mercenary base",
-      "merc base",
-      "engineer",
-      "turret"
     ]
   ],
   "prefer_include": [
-    "fun",
-    "unique",
-    "solo",
-    "fallen",
-    "challenge",
-    "polluted",
-    "hardcore",
-    "win",
-    "won",
-    "triumph",
+    "golden cowboy",
+    "gcow",
+    "turret",
+    "pursuit",
+    "engineer",
+    "mercenary base",
+    "merc base",
     "dj",
     "commander",
     "medic",
-    "golden cowboy",
     "hacker",
-    "enforcer",
-    "pursuit",
-    "kingpin",
-    "mercenary base",
-    "engineer",
-    "turret"
+    "solo",
+    "fallen",
+    "hardcore",
+    "polluted",
+    "frost",
+    "challenge",
+    "win",
+    "won",
+    "triumph"
   ],
   "pages": 50,
   "per_page": 1000
