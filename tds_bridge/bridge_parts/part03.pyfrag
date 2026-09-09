@@ -93,7 +93,7 @@ def _group_hit(low, group):
 
 def discussion_deep_search(req):
     q=str(req.get('query') or '').strip()
-    pages=max(1,min(int(req.get('pages') or 20),50))
+    pages=max(1,min(int(req.get('pages') or 20),2000))
     per_page=max(1,min(int(req.get('per_page') or 1000),1000))
     must=req.get('must_include') or []
     prefer=req.get('prefer_include') or []
