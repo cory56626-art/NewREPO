@@ -1,21 +1,6 @@
 {
-  "mode": "verify",
-  "requested": "Shotgunner",
-  "title": "Shotgunner",
-  "pageid": 275,
-  "latest_revid": 626346,
-  "latest_timestamp": "2026-08-25T14:07:01Z",
-  "source_url": "https://tds.fandom.com/wiki/Shotgunner",
-  "classification": {
-    "is_tower_page": true,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  }
+  "mode": "discussion_deep_search",
+  "requested": "main dps loadout ranger tesla boomerang engineer kingpin mortar shotgunner golden cowboy dj commander",
+  "threads_scanned": 82255,
+  "match_count": 2076
 }

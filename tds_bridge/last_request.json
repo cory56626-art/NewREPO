@@ -1,7 +1,42 @@
 {
-  "mode": "verify",
-  "query": "Shotgunner",
-  "thread_url": "",
-  "limit": 100,
-  "test_run": "verify-shotgunner-loadout"
+  "mode": "discussion_deep_search",
+  "query": "main dps loadout ranger tesla boomerang engineer kingpin mortar shotgunner golden cowboy dj commander",
+  "must_include": [
+    [
+      "main dps",
+      "dps",
+      "carry",
+      "boss"
+    ],
+    [
+      "ranger",
+      "tesla",
+      "boomerang",
+      "engineer",
+      "kingpin",
+      "mortar",
+      "shotgunner"
+    ]
+  ],
+  "prefer_include": [
+    "loadout",
+    "solo",
+    "fallen",
+    "hardcore",
+    "polluted",
+    "frost",
+    "challenge",
+    "win",
+    "won",
+    "triumph",
+    "golden cowboy",
+    "dj",
+    "commander",
+    "medic",
+    "accelerator",
+    "turret",
+    "pursuit"
+  ],
+  "pages": 50,
+  "per_page": 1000
 }
