@@ -7,178 +7,21 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Turret''' is an advanced [[Towers|tower]] with long range and high damage. It cannot be purchased from the store, instead unlocked at {{Level|50}} or via its [[Gamepasses|gamepass]], priced at {{Robux|340}}. When the player reaches {{Level|50}}, the '''Turret''' can be claimed using the pop up message that appears when joining the lobby.\n\nThe '''Turret''' excels at single target damage, boasting a strong mix of high range, damage and firerate. However, it is also very expensive. It costs {{Money|7,750}} to place it down, the second most expensive starting cost for any tower. It takes a cumulative total of {{Money|149,000}} to reach the max level, making it the third most expensive tower to fully upgrade in the entire game. In [[PVP]] mode, it does have reduced placement and upgrade costs, but it is still one of the most expensive towers to fully upgrade there. As the '''Turret''' is not a humanoid tower, it is immune to debuffs which are applied by enemies added before the [[v1.9.0]] update. Debuffs from enemies like the [[Boomer]] can still affect it. This however does not make it immune to stuns. Additionally, it has a larger placement footprint than most other towers. It can detect hidden enemies and has lead detection.\n\nBecause of its extremely high base cost and very expensive upgrade prices, as well as high DPS, the '''Turret''' is considered a mid-late game tower.\n\nThe '''Turret''' has a placement limit of three per player. This is increased to five in [[PVP]] mode.",
+  "description": "The '''Shotgunner''', formerly known as the '''Enforcer''', is an intermediate ground tower that wields a powerful pump shotgun to attack enemies with. It costs {{Coins|850}} to buy from the store.\n\nThe '''Shotgunner''' shoots multiple bullets at once through ''Scatter Shot''. Damage is split among 8 bullets per firerate (so the base damage is 2x8), and these bullets are spread within a small cone and can pierce through enemies. The same enemy can be hit with multiple bullets, increasing the damage inflicted. On all levels, three enemies can be damaged by the same bullet. The first two enemies will be dealt full damage, while the last will only be dealt 50% of the damage. The closer an enemy is to the '''Shotgunner''', the more likely they are to be damaged by the bullets.\n\nThe '''Shotgunner''' is considered a mid to late-game, as its medium cost can be utilized in the mid-game, while its later upgrades and mediocre range, but high DPS can suffice in the late game. It is excellent against huge swarms of enemies as it allows '''Shotgunner''' to maximise its high DPS. \n\nThe '''Shotgunner''' has a placement limit of nine per player. This is removed in [[PVP]] mode.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "regular",
         "level": 1,
-        "title": "Stronger Ammunition",
-        "cost": "{{Money|3,750}}",
-        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}",
+        "title": "Shotgun Knowledge",
+        "cost": "{{Money|750}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+8",
+            "delta": "+1",
             "stat": "Damage",
-            "text": "+8 Damage"
-          },
-          {
-            "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Stronger Ammunition",
-          "Cost": "{{Money|3,750}}",
-          "Image": "[[File:Radar.png|100px]]",
-          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "title": "Radar",
-        "cost": "{{Money|7,500}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.4",
-            "to": "0.26",
-            "stat": "Firerate",
-            "text": "0.4 > 0.26 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Radar",
-          "Cost": "{{Money|7,500}}",
-          "Image": "[[File:Radar.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Dual Turret",
-        "cost": "{{Money|20,000}}",
-        "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+7",
-            "stat": "Damage",
-            "text": "+7 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.26",
-            "to": "0.16",
-            "stat": "Firerate",
-            "text": "0.26 > 0.16 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Dual Turret",
-          "Cost": "{{Money|20,000}}",
-          "Image": "[[File:Turret3.png|100px]]",
-          "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Even Heavier Ammo",
-        "cost": "{{Money|35,000}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+22",
-            "stat": "Damage",
-            "text": "+22 Damage"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Even Heavier Ammo",
-          "Cost": "{{Money|35,000}}",
-          "Image": "[[File:Turret4.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "XR-200 Turret",
-        "cost": "{{Money|65,000}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Range",
-            "text": "+3 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+11",
-            "stat": "Damage",
-            "text": "+11 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.16",
-            "to": "0.12",
-            "stat": "Firerate",
-            "text": "0.16 > 0.12 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "XR-200 Turret",
-          "Cost": "{{Money|65,000}}",
-          "Image": "[[File:Turret5.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}"
-        }
-      }
-    ],
-    "pvp": [
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Radar",
-        "cost": "{{Money|1,000}}",
-        "information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+4.5",
-            "stat": "Range",
-            "text": "+4.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.35",
-            "to": "0.3",
-            "stat": "Firerate",
-            "text": "0.35 > 0.3 Firerate"
+            "text": "+1 Damage"
           },
           {
             "kind": "grant",
@@ -188,80 +31,66 @@
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Radar",
-          "Cost": "{{Money|1,000}}",
-          "Image": "[[File:Radar.png|100px]]",
-          "Information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+          "Upgrade Title": "Shotgun Knowledge",
+          "Cost": "{{Money|750}}",
+          "Image": "[[File:Level1.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}"
         }
       },
       {
-        "mode": "pvp",
+        "mode": "regular",
         "level": 2,
-        "title": "Stronger Ammunition",
-        "cost": "{{Money|2,750}}",
-        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}",
+        "title": "Clay Pigeon Training",
+        "cost": "{{Money|1,500}}",
+        "information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}",
         "claims": [
           {
+            "kind": "set",
+            "from": "1.1",
+            "to": "0.8",
+            "stat": "Firerate",
+            "text": "1.1 > 0.8 Firerate"
+          },
+          {
             "kind": "delta",
-            "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "8",
+            "to": "9",
+            "stat": "Bullets",
+            "text": "8 > 9 Bullets"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "10",
+            "stat": "Spread",
+            "text": "5 > 10 Spread"
           },
           {
             "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
+            "stat": "Flying Detection",
+            "text": "+Flying Detection"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Stronger Ammunition",
-          "Cost": "{{Money|2,750}}",
-          "Image": "[[File:Radar.png|100px]]",
-          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}"
+          "Upgrade Title": "Clay Pigeon Training",
+          "Cost": "{{Money|1,500}}",
+          "Image": "[[File:ShotgunnerLevel2.png|100px]]",
+          "Information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}"
         }
       },
       {
-        "mode": "pvp",
+        "mode": "regular",
         "level": 3,
-        "title": "Dual Turret",
-        "cost": "{{Money|9,000}}",
-        "information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "-1",
-            "stat": "Damage",
-            "text": "-1 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.3",
-            "to": "0.15",
-            "stat": "Firerate",
-            "text": "0.3 > 0.15 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Dual Turret",
-          "Cost": "{{Money|9,000}}",
-          "Image": "[[File:Turret3.png|100px]]",
-          "Information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "title": "Even Heavier Ammo",
-        "cost": "{{Money|20,000}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}",
+        "title": "Heavier Shells",
+        "cost": "{{Money|6,500}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}",
         "claims": [
           {
             "kind": "delta",
@@ -271,52 +100,227 @@
           },
           {
             "kind": "delta",
-            "delta": "+14",
+            "delta": "+4",
             "stat": "Damage",
-            "text": "+14 Damage"
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "10",
+            "to": "25",
+            "stat": "Spread",
+            "text": "10 > 25 Spread"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Heavier Shells",
+          "Cost": "{{Money|6,500}}",
+          "Image": "[[File:ShotgunnerLevel3.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Tactical Blowback",
+        "cost": "{{Money|18,777}}",
+        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "9",
+            "to": "12",
+            "stat": "Bullets",
+            "text": "9 > 12 Bullets"
+          },
+          {
+            "kind": "set",
+            "from": "25",
+            "to": "40",
+            "stat": "Spread",
+            "text": "25 > 40 Spread"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Even Heavier Ammo",
-          "Cost": "{{Money|20,000}}",
-          "Image": "[[File:Turret4.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}"
+          "Upgrade Title": "Tactical Blowback",
+          "Cost": "{{Money|18,777}}",
+          "Image": "[[File:ShotgunnerLevel4.png|100px]]",
+          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}"
+        }
+      }
+    ],
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Faster Reloading",
+        "cost": "{{Money|150}}",
+        "information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "1.5",
+            "stat": "Firerate",
+            "text": "2 > 1.5 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Faster Reloading",
+          "Cost": "{{Money|150}}",
+          "Image": "[[File:Level1.png|100px]]",
+          "Information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}"
         }
       },
       {
         "mode": "pvp",
-        "level": 5,
-        "title": "XR-200 Turret",
-        "cost": "{{Money|42,500}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}",
+        "level": 2,
+        "title": "Shotgun Knowledge",
+        "cost": "{{Money|1,050}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+2",
+            "delta": "+1.5",
             "stat": "Range",
-            "text": "+2 Range"
+            "text": "+1.5 Range"
           },
           {
             "kind": "delta",
-            "delta": "+17",
+            "delta": "+1",
             "stat": "Damage",
-            "text": "+17 Damage"
+            "text": "+1 Damage"
           },
           {
             "kind": "set",
-            "from": "0.15",
-            "to": "0.12",
-            "stat": "Firerate",
-            "text": "0.15 > 0.12 Firerate"
+            "from": "8",
+            "to": "10",
+            "stat": "Bullets",
+            "text": "8 > 10 Bullets"
+          },
+          {
+            "kind": "set",
+            "from": "45",
+            "to": "40",
+            "stat": "Spread",
+            "text": "45 > 40 Spread"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
           }
         ],
         "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "XR-200 Turret",
-          "Cost": "{{Money|42,500}}",
-          "Image": "[[File:Turret5.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}"
+          "Level": "Level 2",
+          "Upgrade Title": "Shotgun Knowledge",
+          "Cost": "{{Money|1,050}}",
+          "Image": "[[File:ShotgunnerLevel2.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Slug Madness",
+        "cost": "{{Money|3,000}}",
+        "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+0.5",
+            "stat": "Range",
+            "text": "+0.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.5",
+            "to": "1.25",
+            "stat": "Firerate",
+            "text": "1.5 > 1.25 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Slug Madness",
+          "Cost": "{{Money|3,000}}",
+          "Image": "[[File:ShotgunnerLevel3.png|100px]]",
+          "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Tactical Blowback",
+        "cost": "{{Money|8,500}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.25",
+            "to": "1",
+            "stat": "Firerate",
+            "text": "1.25 > 1 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "10",
+            "to": "12",
+            "stat": "Bullets",
+            "text": "10 > 12 Bullets"
+          },
+          {
+            "kind": "set",
+            "from": "40",
+            "to": "30",
+            "stat": "Spread",
+            "text": "40 > 30 Spread"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Tactical Blowback",
+          "Cost": "{{Money|8,500}}",
+          "Image": "[[File:ShotgunnerLevel4.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}"
         }
       }
     ]
@@ -325,170 +329,15 @@
     {
       "mode": "regular",
       "level": 1,
-      "title": "Stronger Ammunition",
-      "cost": "{{Money|3,750}}",
-      "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}",
+      "title": "Shotgun Knowledge",
+      "cost": "{{Money|750}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+8",
+          "delta": "+1",
           "stat": "Damage",
-          "text": "+8 Damage"
-        },
-        {
-          "kind": "grant",
-          "stat": "Lead Detection",
-          "text": "+Lead Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Stronger Ammunition",
-        "Cost": "{{Money|3,750}}",
-        "Image": "[[File:Radar.png|100px]]",
-        "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 2,
-      "title": "Radar",
-      "cost": "{{Money|7,500}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.4",
-          "to": "0.26",
-          "stat": "Firerate",
-          "text": "0.4 > 0.26 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Radar",
-        "Cost": "{{Money|7,500}}",
-        "Image": "[[File:Radar.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "title": "Dual Turret",
-      "cost": "{{Money|20,000}}",
-      "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+7",
-          "stat": "Damage",
-          "text": "+7 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.26",
-          "to": "0.16",
-          "stat": "Firerate",
-          "text": "0.26 > 0.16 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Dual Turret",
-        "Cost": "{{Money|20,000}}",
-        "Image": "[[File:Turret3.png|100px]]",
-        "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 4,
-      "title": "Even Heavier Ammo",
-      "cost": "{{Money|35,000}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+22",
-          "stat": "Damage",
-          "text": "+22 Damage"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Even Heavier Ammo",
-        "Cost": "{{Money|35,000}}",
-        "Image": "[[File:Turret4.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 5,
-      "title": "XR-200 Turret",
-      "cost": "{{Money|65,000}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+11",
-          "stat": "Damage",
-          "text": "+11 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.16",
-          "to": "0.12",
-          "stat": "Firerate",
-          "text": "0.16 > 0.12 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "XR-200 Turret",
-        "Cost": "{{Money|65,000}}",
-        "Image": "[[File:Turret5.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Radar",
-      "cost": "{{Money|1,000}}",
-      "information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+4.5",
-          "stat": "Range",
-          "text": "+4.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.35",
-          "to": "0.3",
-          "stat": "Firerate",
-          "text": "0.35 > 0.3 Firerate"
+          "text": "+1 Damage"
         },
         {
           "kind": "grant",
@@ -498,80 +347,66 @@
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Radar",
-        "Cost": "{{Money|1,000}}",
-        "Image": "[[File:Radar.png|100px]]",
-        "Information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+        "Upgrade Title": "Shotgun Knowledge",
+        "Cost": "{{Money|750}}",
+        "Image": "[[File:Level1.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|750}}"
       }
     },
     {
-      "mode": "pvp",
+      "mode": "regular",
       "level": 2,
-      "title": "Stronger Ammunition",
-      "cost": "{{Money|2,750}}",
-      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}",
+      "title": "Clay Pigeon Training",
+      "cost": "{{Money|1,500}}",
+      "information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}",
       "claims": [
         {
+          "kind": "set",
+          "from": "1.1",
+          "to": "0.8",
+          "stat": "Firerate",
+          "text": "1.1 > 0.8 Firerate"
+        },
+        {
           "kind": "delta",
-          "delta": "+4",
-          "stat": "Damage",
-          "text": "+4 Damage"
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "8",
+          "to": "9",
+          "stat": "Bullets",
+          "text": "8 > 9 Bullets"
+        },
+        {
+          "kind": "set",
+          "from": "5",
+          "to": "10",
+          "stat": "Spread",
+          "text": "5 > 10 Spread"
         },
         {
           "kind": "grant",
-          "stat": "Lead Detection",
-          "text": "+Lead Detection"
+          "stat": "Flying Detection",
+          "text": "+Flying Detection"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Stronger Ammunition",
-        "Cost": "{{Money|2,750}}",
-        "Image": "[[File:Radar.png|100px]]",
-        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}"
+        "Upgrade Title": "Clay Pigeon Training",
+        "Cost": "{{Money|1,500}}",
+        "Image": "[[File:ShotgunnerLevel2.png|100px]]",
+        "Information": "1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n8 > 9 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n5 > 10 Spread\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,250}}"
       }
     },
     {
-      "mode": "pvp",
+      "mode": "regular",
       "level": 3,
-      "title": "Dual Turret",
-      "cost": "{{Money|9,000}}",
-      "information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "-1",
-          "stat": "Damage",
-          "text": "-1 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "set",
-          "from": "0.3",
-          "to": "0.15",
-          "stat": "Firerate",
-          "text": "0.3 > 0.15 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Dual Turret",
-        "Cost": "{{Money|9,000}}",
-        "Image": "[[File:Turret3.png|100px]]",
-        "Information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 4,
-      "title": "Even Heavier Ammo",
-      "cost": "{{Money|20,000}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}",
+      "title": "Heavier Shells",
+      "cost": "{{Money|6,500}}",
+      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}",
       "claims": [
         {
           "kind": "delta",
@@ -581,109 +416,410 @@
         },
         {
           "kind": "delta",
-          "delta": "+14",
+          "delta": "+4",
           "stat": "Damage",
-          "text": "+14 Damage"
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "10",
+          "to": "25",
+          "stat": "Spread",
+          "text": "10 > 25 Spread"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Heavier Shells",
+        "Cost": "{{Money|6,500}}",
+        "Image": "[[File:ShotgunnerLevel3.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n10 > 25 Spread\n\n\nSell Price changes to {{Money|3,416}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Tactical Blowback",
+      "cost": "{{Money|18,777}}",
+      "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2.5",
+          "stat": "Range",
+          "text": "+2.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+7",
+          "stat": "Damage",
+          "text": "+7 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "9",
+          "to": "12",
+          "stat": "Bullets",
+          "text": "9 > 12 Bullets"
+        },
+        {
+          "kind": "set",
+          "from": "25",
+          "to": "40",
+          "stat": "Spread",
+          "text": "25 > 40 Spread"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Even Heavier Ammo",
-        "Cost": "{{Money|20,000}}",
-        "Image": "[[File:Turret4.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}"
+        "Upgrade Title": "Tactical Blowback",
+        "Cost": "{{Money|18,777}}",
+        "Image": "[[File:ShotgunnerLevel4.png|100px]]",
+        "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n9 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n25 > 40 Spread\n\n\nSell Price changes to {{Money|9,675}}"
       }
     },
     {
       "mode": "pvp",
-      "level": 5,
-      "title": "XR-200 Turret",
-      "cost": "{{Money|42,500}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}",
+      "level": 1,
+      "title": "Faster Reloading",
+      "cost": "{{Money|150}}",
+      "information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}",
       "claims": [
         {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+17",
-          "stat": "Damage",
-          "text": "+17 Damage"
-        },
-        {
           "kind": "set",
-          "from": "0.15",
-          "to": "0.12",
+          "from": "2",
+          "to": "1.5",
           "stat": "Firerate",
-          "text": "0.15 > 0.12 Firerate"
+          "text": "2 > 1.5 Firerate"
         }
       ],
       "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "XR-200 Turret",
-        "Cost": "{{Money|42,500}}",
-        "Image": "[[File:Turret5.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}"
+        "Level": "Level 1",
+        "Upgrade Title": "Faster Reloading",
+        "Cost": "{{Money|150}}",
+        "Image": "[[File:Level1.png|100px]]",
+        "Information": "2 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|183}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Shotgun Knowledge",
+      "cost": "{{Money|1,050}}",
+      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "8",
+          "to": "10",
+          "stat": "Bullets",
+          "text": "8 > 10 Bullets"
+        },
+        {
+          "kind": "set",
+          "from": "45",
+          "to": "40",
+          "stat": "Spread",
+          "text": "45 > 40 Spread"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
+        {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Shotgun Knowledge",
+        "Cost": "{{Money|1,050}}",
+        "Image": "[[File:ShotgunnerLevel2.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n8 > 10 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n45 > 40 Spread\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|533}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "title": "Slug Madness",
+      "cost": "{{Money|3,000}}",
+      "information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+0.5",
+          "stat": "Range",
+          "text": "+0.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Damage",
+          "text": "+2 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "1.5",
+          "to": "1.25",
+          "stat": "Firerate",
+          "text": "1.5 > 1.25 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Slug Madness",
+        "Cost": "{{Money|3,000}}",
+        "Image": "[[File:ShotgunnerLevel3.png|100px]]",
+        "Information": "+0.5 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5\t > 1.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|1,533}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Tactical Blowback",
+      "cost": "{{Money|8,500}}",
+      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "1.25",
+          "to": "1",
+          "stat": "Firerate",
+          "text": "1.25 > 1 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "10",
+          "to": "12",
+          "stat": "Bullets",
+          "text": "10 > 12 Bullets"
+        },
+        {
+          "kind": "set",
+          "from": "40",
+          "to": "30",
+          "stat": "Spread",
+          "text": "40 > 30 Spread"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Tactical Blowback",
+        "Cost": "{{Money|8,500}}",
+        "Image": "[[File:ShotgunnerLevel4.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.25 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n10 > 12 Bullets [[File:Damage Icon.png|20px|Bullets]]\n\n40 > 30 Spread\n\n\nSell Price changes to {{Money|4,366}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [],
-    "pvp": []
+    "regular": [
+      {
+        "level": 0,
+        "cost": 1500.0,
+        "total_cost": 1500.0,
+        "damage": 2.0,
+        "tick": 8.0,
+        "charge_up": 1.1,
+        "cooldown": 8.0,
+        "overcharge": 5.0,
+        "range": 3.0,
+        "dps": 0.172
+      },
+      {
+        "level": 1,
+        "cost": 750.0,
+        "total_cost": 2250.0,
+        "damage": 3.0,
+        "tick": 8.0,
+        "charge_up": 1.1,
+        "cooldown": 8.0,
+        "overcharge": 5.0,
+        "range": 3.0,
+        "dps": 0.223
+      },
+      {
+        "level": 2,
+        "cost": 1500.0,
+        "total_cost": 3750.0,
+        "damage": 3.0,
+        "tick": 9.0,
+        "charge_up": 0.8,
+        "cooldown": 9.5,
+        "overcharge": 10.0,
+        "range": 3.0,
+        "dps": 0.248
+      },
+      {
+        "level": 3,
+        "cost": 6500.0,
+        "total_cost": 10250.0,
+        "damage": 7.0,
+        "tick": 9.0,
+        "charge_up": 0.8,
+        "cooldown": 11.0,
+        "overcharge": 25.0,
+        "range": 3.0,
+        "dps": 0.569
+      },
+      {
+        "level": 4,
+        "cost": 18777.0,
+        "total_cost": 29027.0,
+        "damage": 14.0,
+        "tick": 12.0,
+        "charge_up": 0.8,
+        "cooldown": 13.5,
+        "overcharge": 40.0,
+        "range": 3.0,
+        "dps": 0.823
+      }
+    ],
+    "pvp": [
+      {
+        "level": 0,
+        "cost": 400.0,
+        "total_cost": 400.0,
+        "damage": 1.0,
+        "tick": 8.0,
+        "charge_up": 2.0,
+        "cooldown": 7.5,
+        "overcharge": 45.0,
+        "range": 3.0,
+        "dps": 0.122
+      },
+      {
+        "level": 1,
+        "cost": 150.0,
+        "total_cost": 550.0,
+        "damage": 1.0,
+        "tick": 8.0,
+        "charge_up": 1.5,
+        "cooldown": 7.5,
+        "overcharge": 45.0,
+        "range": 3.0,
+        "dps": 0.122
+      },
+      {
+        "level": 2,
+        "cost": 1050.0,
+        "total_cost": 1600.0,
+        "damage": 2.0,
+        "tick": 10.0,
+        "charge_up": 1.5,
+        "cooldown": 9.0,
+        "overcharge": 40.0,
+        "range": 3.0,
+        "dps": 0.19
+      },
+      {
+        "level": 3,
+        "cost": 3000.0,
+        "total_cost": 4600.0,
+        "damage": 4.0,
+        "tick": 10.0,
+        "charge_up": 1.25,
+        "cooldown": 9.5,
+        "overcharge": 40.0,
+        "range": 3.0,
+        "dps": 0.361
+      },
+      {
+        "level": 4,
+        "cost": 8500.0,
+        "total_cost": 13100.0,
+        "damage": 8.0,
+        "tick": 12.0,
+        "charge_up": 1.0,
+        "cooldown": 11.0,
+        "overcharge": 30.0,
+        "range": 3.0,
+        "dps": 0.526
+      }
+    ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 0+}}",
-      "lead": "{{Attr|Lead|Level 1+}}",
-      "flying": "N/A",
-      "immune": "Partial Debuff",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)"
+      "hidden": "{{Attr|Hidden|Level 1+}}<ref name=\"hd\">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>",
+      "lead": "N/A",
+      "flying": "{{Attr|Flying|Level 2+}}<ref name=\"fd\">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>",
+      "immune": "None",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 1+}}",
+      "hidden": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
       "lead": "{{Attr|Lead|Level 2+}}",
-      "flying": "N/A",
-      "immune": "Partial Debuff",
-      "placement_limit": "five"
+      "flying": "N/A<ref name=\"fd\"/>",
+      "immune": "None"
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Turret",
-        "image-static": "TurretIcon.png",
-        "image-dynamic": "TurretDynamic.png",
-        "unlockcost": "{{Level|50}} or {{Robux|340}}",
+        "title": "Shotgunner",
+        "image-static": "EasterShotgunner_Icon.png",
+        "image-dynamic": "ShotgunnerDynamic.png",
+        "unlockcost": "{{Coins|850}}",
+        "basecost": "{{Money|1,500}}",
+        "basesellingprice": "{{Money|500}}",
         "role": "Offense",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
-        "basecost": "{{Money|7,750}}",
-        "basesellingprice": "{{Money|2,583}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]20",
-        "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.4",
-        "baserange": "[[File:Range Icon.png|20px|Range]]19",
-        "hidden_detection": "{{Attr|Hidden|Level 0+}}",
-        "lead_detection": "{{Attr|Lead|Level 1+}}",
-        "flying_detection": "N/A",
-        "immune": "Partial Debuff",
-        "footprint": "Large (2)",
-        "pvp_basecost": "{{Money|4,000}}",
-        "pvp_basesellingprice": "{{Money|1,333}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
-        "pvp_damagetype": "Single",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.35",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]16.5",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]2x8",
+        "damagetype": "Pierce<br/>Spread",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
+        "baserange": "[[File:Range Icon.png|20px|Range]]8",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}<ref name=\"hd\">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>",
+        "lead_detection": "N/A",
+        "flying_detection": "{{Attr|Flying|Level 2+}}<ref name=\"fd\">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>",
+        "immune": "None",
+        "footprint": "1",
+        "pvp_basecost": "{{Money|400}}",
+        "pvp_basesellingprice": "{{Money|133}}",
+        "pvp_role": "Offense",
+        "pvp_placement": "Ground",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]1x8",
+        "pvp_damagetype": "Pierce<br/>Spread",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]7.5",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
         "pvp_lead_detection": "{{Attr|Lead|Level 2+}}",
-        "pvp_flying_detection": "N/A",
-        "pvp_immune": "Partial Debuff",
-        "pvp_footprint": "2",
-        "tooltip-1": "An expensive high damage dealing tower with great range. Exceptional stats make up for low placement limit.",
+        "pvp_flying_detection": "N/A<ref name=\"fd\"/>",
+        "pvp_immune": "None",
+        "pvp_footprint": "1",
+        "evolves_into": "[[Enforcer]]",
+        "evolution_levels": "20",
+        "base_exp": "50",
+        "growth_rate": "1.09",
+        "skip_cost": "499",
+        "tooltip-1": "A close range tower that fires a spread of bullets capable of piercing multiple enemies.",
         "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
@@ -692,39 +828,46 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Turret",
-      "image-static": "TurretIcon.png",
-      "image-dynamic": "TurretDynamic.png",
-      "unlockcost": "{{Level|50}} or {{Robux|340}}",
+      "title": "Shotgunner",
+      "image-static": "EasterShotgunner_Icon.png",
+      "image-dynamic": "ShotgunnerDynamic.png",
+      "unlockcost": "{{Coins|850}}",
+      "basecost": "{{Money|1,500}}",
+      "basesellingprice": "{{Money|500}}",
       "role": "Offense",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
-      "basecost": "{{Money|7,750}}",
-      "basesellingprice": "{{Money|2,583}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]20",
-      "damagetype": "Single",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.4",
-      "baserange": "[[File:Range Icon.png|20px|Range]]19",
-      "hidden_detection": "{{Attr|Hidden|Level 0+}}",
-      "lead_detection": "{{Attr|Lead|Level 1+}}",
-      "flying_detection": "N/A",
-      "immune": "Partial Debuff",
-      "footprint": "Large (2)",
-      "pvp_basecost": "{{Money|4,000}}",
-      "pvp_basesellingprice": "{{Money|1,333}}",
-      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
-      "pvp_damagetype": "Single",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.35",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]16.5",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]∞ (PVP)",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]2x8",
+      "damagetype": "Pierce<br/>Spread",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.1",
+      "baserange": "[[File:Range Icon.png|20px|Range]]8",
+      "hidden_detection": "{{Attr|Hidden|Level 1+}}<ref name=\"hd\">From Level 0, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 1.</ref>",
+      "lead_detection": "N/A",
+      "flying_detection": "{{Attr|Flying|Level 2+}}<ref name=\"fd\">Flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target flying enemies until Level 2.</ref>",
+      "immune": "None",
+      "footprint": "1",
+      "pvp_basecost": "{{Money|400}}",
+      "pvp_basesellingprice": "{{Money|133}}",
+      "pvp_role": "Offense",
+      "pvp_placement": "Ground",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]1x8",
+      "pvp_damagetype": "Pierce<br/>Spread",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]7.5",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
       "pvp_lead_detection": "{{Attr|Lead|Level 2+}}",
-      "pvp_flying_detection": "N/A",
-      "pvp_immune": "Partial Debuff",
-      "pvp_footprint": "2",
-      "tooltip-1": "An expensive high damage dealing tower with great range. Exceptional stats make up for low placement limit.",
+      "pvp_flying_detection": "N/A<ref name=\"fd\"/>",
+      "pvp_immune": "None",
+      "pvp_footprint": "1",
+      "evolves_into": "[[Enforcer]]",
+      "evolution_levels": "20",
+      "base_exp": "50",
+      "growth_rate": "1.09",
+      "skip_cost": "499",
+      "tooltip-1": "A close range tower that fires a spread of bullets capable of piercing multiple enemies.",
       "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 287
+  "template_count": 340
 }
