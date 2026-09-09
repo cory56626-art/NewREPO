@@ -1,262 +1,782 @@
 {{Tabs}}
+{{SameName|Commander|Tower • [[Commander (Pizza Party)|Enemy]] • [[Commander (Narrator)|Narrator]]}}
+{{For|the [[Commando]], [[Mission Quests|For the Commander!]], a [[Mission Quests|Mission Quest]]|[[Null Commander]]}}
 {{TowerInfobox
-|title = Tesla
-|image-static = TeslaIcon.png
-|image-dynamic = TeslaDynamic.png
-|unlockcost = {{Coins|6,000}}
-|role = Defense
+|title = Commander
+|image-static = Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->
+|image-dynamic = CommanderDynamic.png
+|unlockcost = {{Coins|4,000}}
+|basecost = {{Money|650}}
+|basesellingprice = {{Money|216}}
+|role = Support
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]2
-|basecost = {{Money|2,000}}
-|basesellingprice = {{Money|666}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]15
-|damagetype = Chain<br/>[[Splash Damage|Splash]] (Level 2+)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]2
-|baserange = [[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)
-|hidden_detection = N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = {{Attr|Flying|Level 0+}}
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6
+|basedamage = [[File:Damage Icon.png|20px|Damage]]0
+|damagetype = Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0
+|baserange = [[File:Range Icon.png|20px|Range]]10
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)
+|flying_detection = {{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])
 |immune = None
-|footprint = 2
-|tooltip-1 = A powerful tower that deals high damage and can stun all enemies in range with its active ability.
-|tooltip-2 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.
+|footprint = 1.5
+|tooltip-1 = A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.
+|tooltip-2 = At final level also unlocks the ability to summon a caravan of friendly APC units.
 }}
 {{QuoteContainer|
-{{QuoteBox|A strong crowd controller with SHOCKING results! Builds up a meter to smite enemies from above|Store Description}}
+{{QuoteBox|A support tower that boosts the firerate of towers within its range.|Store Description}}
 }}
-
+__TOC__
 ==Description==
-The '''Tesla''' is a mid-late game advanced tower which attacks enemies with chain lightning, temporarily immobilizing them. It can be bought for {{Coins|6,000}}.
+The '''Commander''' is an advanced support [[Towers|tower]] that decreases the firerate of towers within its range, increasing their damage output. It can be purchased in the store for {{Coins|4,000}}.
 
-The '''Tesla''' fires lightning at enemies in its range. This lightning will extend to as many enemies as its max hits will allow it to, hitting the closest enemy to the initial target in a range of 12 at Level 0. These enemies will be stunned when hit, which stops them from moving. [[Boss]] and [[Stun Immunity]] enemies will only get slowed down instead.
+The '''Commander''' provides a 10% firerate boost to towers in its range, making them attack enemies faster. This buff can be boosted further at Level 2+ through the ''Call to Arms'' ability, which increases it by 10% for ten seconds. Both buffs get higher with levels, with the passive buff getting increased to 20% and the ''Call to Arms'' ability buff getting increased to 20%. It also has a second ability, ''Support Caravan'', which costs {{Money|2,000}} to use. This will summon two [[Gunner APC]]s and one [[Missile APC]] on the map. When any ability used, it will enter fury mode, allowing it to attack any enemy in its range for ten seconds. The attack time from using an ability stacks if multiple are used at once or when an ability is used while it is attacking. When an ability is used while fury mode is active, the timer for it will stop until the ability animation is finished.
 
-At Level 2+, it gains smite, an ability activated when its meter seen in the upgrade menu is filled up by hitting multiple enemies. This will unleash thunder on the targeted enemy, dealing explosion damage to it. This being an explosion, it will deal less damage to enemies the further away they are from the center of the explosion. Additionally, it can bypass [[Defense]].
+The '''Commander''' is the primary [[Narrators|narrator]] in most matches. Text dialogue appears beside the image or the model with an idle animation of the '''Commander''', corresponding to the appearance of certain [[waves]]. This dialogue appears regardless of whether a '''Commander''' tower is present on the map, and the image or model of the '''Commander''' next to the dialogue will display different emotions.
 
-The '''Tesla''' is an excellent option for stalling over a pretty large area, as its electric shocks can hold large crowds in place and give other towers more time to attack them, on top of dealing decent damage itself. 
-
-The '''Tesla''' has a placement limit of two per player.
+The '''Commander''' has a placement limit of six per player.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Kite in the Wind|Cost = {{Money|1,856}}|Image = [[File:TeslaLevel1.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Range]]
+{{Upgrade|Level = Level 1|Upgrade Title = Leadership|Cost = {{Money|400}}|Image = [[File:Commander Upgrade 1  New.png|100px]]|Information = 
+10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
-0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]
+Sell Price changes to {{Money|350}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Call to Arms|Cost = {{Money|2,450}}|Image = [[File:Commander_Upgrade_3.png|100px]]|Information = +Lead Detection {{Lead|Lead Detection}}
 
-+2 Max Hits
++Flying Detection {{Flying|Flying Detection}}
 
++Hidden Detection {{Hidden|Hidden Detection}}
 
-Sell Price changes to {{Money|1,285}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Self-Sustaining Battery|Cost = {{Money|8,888}}|Image = [[File:TeslaLevel2.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
++3 Range [[File:Range Icon.png|20px|Range]]
 
-2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++15 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]
+0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion
++Call to Arms Ability 
 
-•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-•5 Meter}}
+•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
 
-Sell Price changes to {{Money|4,248}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Auric Quantum Cooling Cell|Cost = {{Money|18,450}}|Image = [[File:TeslaLevel3.png|100px]]|Information = 1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell Price changes to {{Money|1,166}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Intense Training|Cost = {{Money|4,500}}|Image = [[File:Commander Upgrade 4 New.png|100px]]|Information = 
 
-+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]
++2 Range [[File:Range Icon.png|20px|Range]]
 
-5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]
++15 Damage [[File:Damage Icon.png|20px|Damage]]
 
-5 > 4 Meter
+15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
-+1 Max Hits
-
-
-Sell Price changes to {{Money|10,398}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Kimat's Bite|Cost = {{Money|44,001}}|Image = [[File:TeslaLevel4.png|100px]]|Information = 1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]
-
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
-+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]
-
-+2 Max Hits
-
-+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-4 > 3 Meter
+10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
 
-Sell Price changes to {{Money|25,065}}}}
+Sell Price changes to {{Money|2,666}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Strength in Numbers|Cost = {{Money|14,000}}|Image = [[File:SupportCaravanIcon.png|100px]]|Information = 
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
++20 Damage [[File:Damage Icon.png|20px|Damage]]
+
+17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
+
+15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
+
++Support Caravan Ability
+
+
+Sell Price changes to {{Money|7,333}}}}
+
+==Abilities==
+{{Ability|Level Unlock = Level 2+|Cooldown Time= 30s Cooldown|Ability Title = Call to Arms|Image = [[File:Commander_Upgrade_3.png|100px]]|Information = 
+Boosts all towers' firerate in its range by a variable amount for 10 seconds. Additionally, the '''Commander''' will be able to attack enemies with its own weapon for 10 seconds.
+}}
+{{Ability|Level Unlock = Level 4|Cooldown Time= 60s Cooldown|Ability Title = Support Caravan<ref>This ability is disabled in [[Victory Field]].</ref>|Cost = {{Money|2,000}}|Image = [[File:SupportCaravanIcon.png|100px]]|Information = Summons two [[Gunner APC]]s and one [[Missile APC]]. Additionally, the '''Commander''' will be able to attack enemies with its own weapon for 10 seconds.
+}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 
 {{neow|<nowiki>
 <var>
-$DPS0$ = Damage / Firerate
-$MDPS0$ = DPS * Max Hits
-$DPS2$ =  (Smite Meter * Damage + Smite Damage) / (Firerate * Smite Meter)
-$MDPS2$ = {{#expr:(Damage * Max Hits * ceil((Smite Meter / Max Hits)) + Smite Damage) / (Firerate * ceil((Smite Meter / Max Hits))) round 2}}
-$CE$ = Total Cost / DPS
-$MCE$ = Total Cost / Max DPS
+$DPS$ = Damage / Firerate
+$TDPS$ = Damage * Missile Count / Firerate 
+$CDPS$ = ((Damage / Firerate) * 10) / 30
+$SDPS$ = ((Damage / Firerate) * 10) / 60
+$CE$ = Total Cost / Call to Arms DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 2000; 1856; 8888; 18450; 44001
-$FSE-DETECTION$ = ; 0; 0
-$FSE-UPGRADE$ = Kite in the Wind; Self-Sustaining Battery; Auric Quantum Cooling Cell; Kimat's Bite
-$FSE-UPGRADEICON$ = 91355001385794; 75051178841119; 106313416363708; 109247042334349
-$FSE-META$ = Advanced; File:TeslaIcon.png
-$DREF$ = <ref>For Level 2+, the '''Smite Damage''' is also included, assuming it only hits the targeted enemy and deals full damage to it.<br>Calculated as (Smite Meter × Damage + Smite Damage) ÷ (Firerate × Smite Meter).</ref>
-$MREF$ = <ref>Accounts for every enemy being hit.<br>Calculated as (Damage × Max Hits * [Smite Meter ÷ Max Hits] + Smite Damage) ÷ (Firerate × [Smite Meter ÷ Max Hits]) for Level 2+, where in both cases of Smite Meter ÷ Max Hits, the result of that (such as 3 divided by 8 resulting in 0.375) has to be rounded up (in the previous example, that turns 0.375 to 1).</ref>
+$COST$ = 650; 400; 2450; 4500; 14000
+$FSE-DETECTION$ = 2; 2; 2
+$FSE-UPGRADE$ = Leadership; Call to Arms; Intense Training; Strength in Numbers
+$FSE-UPGRADEICON$ = 5525000768; 4594880289; 5525002879; 17512145719
+$FSE-META$ = Advanced; File:Commandernew.png
+$DREF$ = <ref>DPS is calculated as ((Damage ÷ Firerate) × Attack Time) ÷ Ability Cooldown<br>'''Attack Time''' is the time in which the Commander can attack during its abilities while '''Ability Cooldown''' is the minimum time between ability activations.<br>DPS does not include any Firerate Buffs.</ref>
+$SREF$ = <ref>If both abilites are used, DPS is the same as Call to Arms DPS.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Smite Damage !! Firerate !! Range !! Smite Radius !! Smite Meter !! Shock Time !! Chain Range !! Max Hits !! DPS$DREF$ !! Max DPS$MREF$ !! Cost Efficiency !! Max Cost Efficiency
+! colspan="11" | Commander Stats
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || N/A || 2 || 17 || N/A || N/A || 0.15 || 12 || 3 || $DPS0$ || $MDPS0$ || {{Money|$CE$}} || {{Money|$MCE$}}
+! Level !! Cost !! Total Cost !! Firerate Buff !! Call to Arms Buff !! Damage !! Firerate !! Range !! Call to Arms DPS$DREF$ !! Support Caravan DPS$DREF$ !! Cost Efficiency
 |-
-| 1 || $R$ || $R$ || 20 || N/A || 2 || 17 || N/A || N/A || 0.25 || 12 || 5 || $DPS0$ || $MDPS0$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10% || N/A || N/A || N/A || 10 || N/A || N/A || N/A
 |-
-| 2 || $R$ || $R$ || 20 || 70 || 1.8 || 18.5 || 5 || 5 || 0.25 || 16 || 5 || $DPS2$ || $MDPS2$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 1 || $R$ || $R$ || 15% || N/A || N/A || N/A || 10 || N/A || N/A || N/A
 |-
-| 3 || $R$ || $R$ || 20 || 85 || 1.4 || 18.5 || 5.5 || 4 || 0.25 || 16 || 6 || $DPS2$ || $MDPS2$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 2 || $R$ || $R$ || 15% || 10% || 15 || 0.6 || 13 || $CDPS$ || N/A || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 20 || 140 || 1.2 || 20 || 7 || 3 || 0.3 || 20 || 8 || $DPS2$ || $MDPS2$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 3 || $R$ || $R$ || 17.5% || 15% || 30 || 0.6 || 15 || $CDPS$ || N/A || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 20% || 20% || 50 || 0.6 || 17 || $CDPS$$SREF$ || $SDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="8" | Support Caravan Units Stats
+|-
+! Unit !! Health !! Damage !! Missile Count !! Firerate !! Range !! Explosion Range !! DPS
+|-
+| [[Gunner APC]] || 200 || 7 || N/A || 0.2 || 30 || N/A || $DPS$
+|-
+| [[Missile APC]] || 300 || 40 || 4 || 2 || 25 || 5 || $TDPS$
 |}
 </div>
 </nowiki>}}
 
 ==Skins==
-{| class="light-table align-center" style="width:500px; margin:0 auto"
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:GardenTeslaIconIG.png|175px]]
-|[[File:VoidborneTeslaIconIG.png|175px]]
+|[[File:May17GargoyleCommander.png|175px]]
+|[[File:Newredcommander.png|175px]]
+|[[File:Newgreencommander.png|175px]]
+|[[File:May17VictorianCommander.png|175px]]
 |-
 !Skin
-|{{Color|SpringFrenzy|Garden}}
-|{{Color|Void|Voidborne}}
+|{{Color|Halloween2019|Gargoyle}}
+|{{Color|Basic|Red}}
+|{{Color|Basic|Green}}
+|{{Color|Premium|Victorian}}
 |-
 !Rarity
+|{{Color|Event}}
+|{{Color|Common}}
+|{{Color|Common}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|500}}
+|{{Coins|500}}
+|{{Robux|85}}
+|-
+!Obtained From
+|[[Halloween 2019 Crate]]
+|[[Basic Crate]]
+|[[Basic Crate]]
+|[[Premium Crate]]
+|-
+!
+|[[File:May17GalacticCommander.png|175px]]
+|[[File:May17GeneralCommander.png|175px]]
+|[[File:WarLordCommanderDH0.png|175px]]
+|[[File:May17BunnyCommander.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Galactic}}
+|{{Color|Premium|General}}
+|{{Color|Other|War Lord}}
+|{{Color|Bunny|Bunny}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Common}}
+|{{Color|Exclusive}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|{{Robux|105}}
+|{{Robux|85}}
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Premium Crate]]
+|[[Premium Crate]]
+|Exclusive
+|[[Bunny Crate]]
+|-
+!
+|[[File:16MaySpringTimeCommanderIcon.png|175px]]
+|[[File:Newmaidcommander.png|175px]]
+|[[File:Newnekocommander.png|175px]]
+|[[File:May17GhostCommander.png|175px]]
+|-
+!Skin
+|{{Color|Shamrock|Spring Time}}
+|{{Color|Deluxe|Maid}}
+|{{Color|Deluxe|Neko}}
+|{{Color|Spooky|Ghost}}
+|-
+!Rarity
+|{{Color|Exclusive}}
 |{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|N/A
+|{{Robux|560}}
+|{{Robux|360}}
+|N/A
+|-
+!Obtained From
+|[[Shamrock Crate]]<br/>[[Codes|Code]]:<br/>HAPPY3AST3R!<ref name="expired">Expired</ref>
+|[[Deluxe Crate]]
+|[[Deluxe Crate]]
+|[[Spooky Crate]]
+|-
+!
+|[[File:May17FrostCommander.png|175px]]
+|[[File:BloxyCommanderIcon.png|175px]]
+|[[File:eclipsecomm.png|175px]]
+|[[File:Newduckycommander.png|175px]]
+|-
+!Skin
+|{{Color|Frost|Frost}}
+|{{Color|Other|Bloxy}}
+|{{Color|Eclipse|Eclipse}}
+|{{Color|Ducky|Ducky}}
+|-
+!Rarity
+|{{Color|Event}}
+|{{Color|Exclusive}}
+|{{Color|Event}}
 |{{Color|Rare}}
 |-
 !Daily Store Cost
 |N/A
 |N/A
+|N/A
+|{{Coins|4,000}}
 |-
 !Obtained From
-|[[Spring Frenzy Battle Pass]]
-|[[Void Crate]]
+|[[Frost Crate]]
+|[[Codes|Code]]:<br/>BLOXY21<ref name="expired"/>
+|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
+|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|-
+!
+|[[File:PlCommanderIcon.png|175px]]
+|[[File:May17LifeguardCommander.png|175px]]
+|[[File:May17ElfCommander.png|175px]]
+|[[File:Newbriskcommander.png|175px]]
+|-
+!Skin
+|{{Color|Other|Plushie}}
+|{{Color|EndOfSummer|Lifeguard}}
+|{{Color|Jolly|Holiday}}
+|{{Color|ColdFront|Brisk}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Event}}
+|{{Color|Event}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|{{Coins|5,000}}
+|{{Coins|4,250}}
+|-
+!Obtained From
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing the [[Commander Plush (Level 4)]], [[Commander Plush (Level 1)]]  or [[Mini Commander Plush]].</ref>
+|[[End of Summer Season#Season Pass|End of Summer Season]]
+|[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Cold Front Crate]]
+|-
+!
+|[[File:May17ValentinesCommander.png|175px]]
+|[[File:PirateCommanderIcon.png|175px]]
+|[[File:UmbraCommanderIcon.png|175px]]
+|[[File:PhantomCommanderSkin.png|175px]]
+|-
+!Skin
+|{{Color|Lovely|Valentines}}
+|{{Color|Pirate|Pirate}}
+|{{Color|Other|Umbra}} 
+|{{Color|Phantom|Phantom}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|5,500}}
+|{{Coins|5,000}}
+|N/A
+|{{Robux|499}}
+|-
+!Obtained From
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]]
+|[[Pirate Crate]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Umbra Mini Plush]].</ref>
+|[[Phantom Crate]],<br/>''Tech Tactician'' [[Mission Quests|Mission Quest]]
+|-
+!
+|[[File:May17EggryptedCommander.png|175px]]
+|[[File:PatternCommanderIcon.png|175px]]
+|[[File:VigilanteCommanderIcon.png|175px]]
+|[[File:PatriotCommanderIcon2.png|175px]]
+|-
+!Skin
+|{{Color|ContentCreator|Eggrypted}}
+|{{Color|Premium|Pattern}}
+|{{Color|Vigilante|Vigilante}}
+|{{Color|Deluxe|Patriotic}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|3,000}}
+|{{Robux|105}}
+|{{Coins|5,000}}
+|{{Robux|560}} ([[Deluxe Crate]]])<br/>{{Coins|10,000}} ([[Patriotic Crate]])
+|-
+!Obtained From
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|[[Premium Crate]]
+|[[Vigilante Crate]]
+|[[Deluxe Crate]]<br/>[[Patriotic Crate]]
+|-
+!
+|[[File:FallenCommanderIconIG.png|175px]]
+|[[File:WastelandCommanderIconIG.png|175px]]
+|[[File:SantaCommanderIconIG.png|175px]]
+|[[File:AquaCommanderIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FallenMission|Fallen}}
+|{{Color|Hexscape|Wasteland}}
+|{{Color|OperationICE|Santa}}
+|{{Color|Surf|Aqua}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|''A Cold Tyrant'' [[Mission Quests|Mission Quest]]
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Regular Battle Pass]]
+|-
+!
+|[[File:WerewolfCommanderIconIG.png|175px]]
+|[[File:CandyCaneCommanderIconIG.png|175px]]
+|[[File:DirectorCommanderIconIG.png|175px]]
+|[[File:WonderlandCommanderIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Null|Werewolf}}
+|{{Color|Christmas2025|Candy Cane}}
+|{{Color|Showtime|Director}}
+|{{Color|FinalAct|Wonderland}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
+|[[Christmas 2025 Crate]]
+|[[Showtime Crate]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
+|-
+!
+|[[File:RefereeCommanderIconIG.png|175px]]
+|[[File:SealCommanderIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Backyard|Referee}}
+|{{Color|Beach|Seal}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|4,500}}
+|-
+!Obtained From
+|Triumph all [[Backyard Legends Event]] maps on Hard
+|[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Tesla''' can be an effective mid to late-game AOE tower due to its chaining.
-**While its range is rather average, its lightning has a high chain range, allowing it to chain to enemies that are very far away, though it still needs an enemy to attack in its main range for that to happen.
-**Its shock allows it to keep enemies in its and other tower's range for longer, allowing it to deal more damage to them.
-*The '''Tesla''' is essentially a larger version of the [[Electroshocker]], with a much higher chain radius. However, the '''Tesla''' has slightly less single target DPS and worse single target value compared to the [[Electroshocker]], while being able to hit more enemies. This means that the '''Tesla''' is much more effective against hordes.
-**Moreover, the '''Tesla''' has a much higher shock time, making it more better for stunning enemies and crowds than the [[Electroshocker]]. 
-*At Level 2, the '''Tesla''' unlocks smite, which unleashes thunder on the targeted enemy once a damage meter is filled up.
-**This thunder creates an explosion, meaning it bypasses [[Defense]], making the '''Tesla''' more effective against such enemies.
-**While the smite does have a small explosion radius, the shock applied by its main attack will help with keeping enemies close to each other, allowing the '''Tesla''' to hit more enemies at once.
-*The '''Tesla''' shocks enemies when they are hit by its lightning, allowing it to be used as a stalling tower.
-**Do note that enemies with the [[Stun Immunity]] or [[Boss]] are only slowed down instead.
-*The '''Tesla''' can detect [[Flying]] and [[Lead (Attribute)|Lead]] enemies, making it useful against hordes of such enemies.
-**While it does not have [[Hidden (Attribute)|Hidden]], its lightning can still chain to them if they are in its chain range, though this requires other enemies that can be targeted.
-***Similarly, its explosion from smite also can hit these enemies.
+*Firerate boost is calculated as
+*:<big>'''Original Firerate ÷ (1+Firerate Boost)'''</big>
+*:where ''Original Firerate'' is the base firerate of the tower,
+*:''Firerate Boost'' is the boost supplied by the '''Commander''' in decimal form (for example, 10% is 0.1).
+**For example, a Level 4 '''Commander''' (20%) will decrease the firerate of a [[Towers|tower]] firing from 1 second to 0.833 seconds.
+***While in the game it may look like the firerate is rounded down to the second decimal, this is only visual. The firerate is longer than that and is not rounded up.
+**The '''Commander''' can boost the pump time of the [[Enforcer]], meaning it is fully effective on it if units are not included.
+**The '''Commander''' cannot decrease the cooldown of burst towers.
+**The '''Commander''' also cannot boost the [[Executioner]] due to the axe not returning in time to take advantage.
+*When placing a '''Commander''', try to place it near as many towers as possible, as this will allow for a high number of towers to be boosted.
+**This is also true in reverse; it is recommended that you place your towers close to a '''Commander''' (if there is one) for the [[Firerate Buff]].
+**This also includes cliff-based towers. The [[Ace Pilot]] and [[Pursuit]] can also be boosted, though their towers (runway and helipad, respectively) must be within range of the '''Commander'''.
+*Slow firing towers, such as the [[Rocketeer]] or [[Ranger]], will benefit massively from the [[Firerate Buff]] that the '''Commander''' supplies.
+*Placing three Level 2+ '''Commanders''' and activating their ''Call to Arms'' ability one at a time every 10 seconds is one of the most effective ways to utilize the '''Commander''', as ''Call to Arms'' will be permanently active if this is done correctly, providing the 20% buff permanently.
+**You can also place two Level 2+ '''Commanders''' and constantly sell and replace one to renew its ''Call to Arms'' ability to save a placement for another tower, or four if you want to be safer with keeping the ''Call to Arms'' ability active at all times while not having to worry about selling and replacing '''Commanders''', as having three '''Commanders''' require you to be quite precise to keep the 20% buff at all times, and you may get distracted from using its ability while upgrading other towers.
+**There are a few ways to tell when to use another ability, which include waiting until the [[Firerate Buff]] icon and visuals disappears, waiting until the ability timer gets reduced by 10 (which without [[Skills]], is it reaching 20) or waiting until the attack timer reaches 2.
+*You can increase the range in which the '''Commander''' can affect towers and the ''Call to Arms'' range by using the [[DJ Booth]].
+**The [[DJ Booth]] can also be useful at reducing the usage cost of the ''Support Caravan'' ability.
+*It is best to use the '''Commander's''' ''Call to Arms'' ability on a boss with high health (such as a major boss, like the [[Fallen King]]).
+**Be aware that some bosses have blocking abilities, meaning that a wrongly timed ''Call to Arms'' ability will be useless.
+**Additionally, you cannot activate the ''Call to Arms'' ability if the '''Commander''' is stunned.
+***To overcome this, the [[Medic]] can be used to protect the '''Commander''' from stuns, though this is generally not recommended as the shield also provides boosts best used on other towers.
+***Alternatively, you can sell and replace the '''Commander'''. Do note that this will remove the passive [[Firerate Buff]] for a short while if there are no other '''Commanders''' placed down.
+*Be aware that you cannot stack the ''Call to Arms'' ability.
+**If a ''Call to Arms'' ability is still active for towers, then activating another ''Call to Arms'' will not grant any additional buff. However, it resets the duration of the ability.
+**However, the ''Call to Arms'' ability can stack with boosts from other towers, like the [[Gladiator]]'s ''Warrior's Call''.
+*The '''Commander''' cannot boost the firerate of the [[Ace Pilot]]'s bombs, [[Pursuit]]'s missiles, [[Commando]]'s missiles or any [[units]] like the [[Railgun Tank]] from the [[Military Base]] or the [[Tommy Goon 2]] from the [[Crook Boss]], even if their associated tower is in the range of a '''Commander'''.
+*If the ''Call to Arms'' ability is active, and a new tower is placed in the range of the '''Commander''', that tower will not be boosted by the ability until it is activated again.
+*While the '''Commander''' has flying, lead and hidden detection, it can only attack enemies with these attributes periodically with its two abilities. Given how costly it is to get its abilities and that they both have lengthy cooldowns, relying solely on the '''Commander''' to fight against enemies with these attributes is unwise.
+**Other towers like the [[Ace Pilot]], [[Electroshocker]] and [[Militant]] are more effective and reliable against them, with the '''Commander''' buffing them.
+*When Call of Arms is used, the fireate buff is applied instantly, however, the displayed timer only appears once the animation is done, which is roughly 2 seconds. Therefore, to be more optimized with chaining the buff, wait until the timer hits 2, then activate the next ability.
 
 ==Trivia==
-*The Level 1 has two references:
-**The upgrade cost is a reference to [[wp:Nikola Tesla|Nikola Tesla]]'s birth year.
-**The upgrade name "''Kite in the Wind''" is a reference to [[wp:Benjamin Franklin|Benjamin Franklin]]'s [[wp:Kite experiment|Kite experiment]].
-*The Level 3 upgrade name is likely a reference to the [https://calamitymod.wiki.gg/wiki/The_Codebreaker#Components final upgrade for the Codebreaker] in the ''Terraria Calamity'' mod.
-**In addition, the overall color scheme resembles [https://calamitymod.wiki.gg/wiki/Auric_Bar auric] material from the mod.
-*The Level 4 upgrade name is a reference to [[w:c:callofduty:Staff of Lightning|Kimat's Bite]] from ''Call of Duty'' series.
-*The '''Tesla''' tower was originally set to release in September of 2025, but was delayed to November of 2025, later being delayed to its current release date of 28th of January 2026.
-**Stated reasons for the delays were the developers not being satisfied with the design and balancing of the tower<ref>[[File:TeslaDelayReason1.png|280px]]<br/>https://discord.com/channels/587355301083349002/664997359071002637/1417226801192636536 (Tower Defense Simulator Server)</ref> and making sure it is unique from [[Electroshocker]].<ref>[[File:TeslaDelayReason2.png|280px]]<br/>https://discord.com/channels/735394249863987241/735394249863987244/1463595406477885440 (Tower Defense Simulator Wiki Server)</ref>
-**As stated by the developers, the '''Tesla''' tower was originally meant to be an intermediate tower. It was likely shifted to advanced due to its uniqueness and higher damage as opposed to the [[Electroshocker]].
-*The '''Tesla''' tower is likely inspired by earlier versions of [[Electroshocker]] which used a tesla gun at later levels.<ref>https://discord.com/channels/587355301083349002/664903629546717218/1441270727893585951</ref>
-**The trailer for the '''Tesla''' tower refers to the tesla it is using as something which has been catching dust for a while, implying that the '''Tesla''' tower is potentially using the [[Electroshocker]]'s old teslas.
-*Strangely, '''Tesla's''' tooltips refer to ''Smite'' as an active ability even though the ability happens automatically.
+*When the game was in Alpha, the '''Commander's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "sans support sans support".
+*The '''Commander''' is heavily inspired by the ''Tower Battles'' tower of the [[w:c:roblox-tower-battles:Commander|same name]].
+*Before the [[Overhaul v1.0|Overhaul Update]], the spawnrate of the [[Military Base]] could be boosted by a '''Commander''' (so that the spawn time between units is reduced), but it was through an unconventional method. The stated buff was subtracted from the spawnrate (an example is a 25% buff on a Level 5 [[Military Base]]; the spawnrate would decrease from 45 to 44.75).
+**As 44.75 seconds rounded up to 45 seconds, there was no noticeable decrease in spawn time.
+**However, this did not apply to the spawnrates of [[units]] from the [[Crook Boss]].
+***Interestingly, the ''Call to Arms'' reduced the spawnrate of units from the [[Military Base]] further, but even this buff could not produce a noticeable decrease in spawnrate.
+*The original ''Call to Arms'' sound was just a short shout from ''Call of Duty: Modern Warfare 2''. This is the same sound used for the [[Gladiator]]'s ''Warrior's Call'' ability.
+**The second version of the ''Call to Arms'' sounds were voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were three lines voiced by him.
+***There were multiple other voice lines that were recorded by JOHN ROBLOX, however they were never added to the game. All of those lines, along with variations of current lines that were not added, can be heard [https://www.youtube.com/watch?v=eIH8aGkA6p8 here].
+***This version was replaced by [https://youtube.com/@enthrallist_?si=mjsg6lUOnuGaMRk4 Enthrallist], a developer for the game, on the 16th of May 2024 to match the quality of other voice lines at the time as well as to have a professional voice act the lines.
+**The {{Color|Deluxe|Maid}} (and formerly the {{Color|Eclipse|Eclipse}}) skin voice lines are voiced by [https://www.roblox.com/users/74363346/profile nekoriru].
+**The {{Color|Eclipse|Eclipse}} skin voice lines are voiced by [https://www.roblox.com/users/959606619/profile AerelisVA].
+**The {{Color|Other|Umbra}} skin voice lines are voiced [https://www.roblox.com/users/959606619/profile AerelisVA].
+**The {{Color|ContentCreator|Eggrypted}} skin voice lines were voiced by [https://www.youtube.com/@eggrypted Eggrypted].
+*The [[Commander]] has a cat named Claudette, which can be seen in certain [[Story Mode|Story]] mode cutscenes, like [[Welcome Recruit]]. It was added to the game as a tribute to BelowNatural's and Maddy's first cat, which has passed away in early 2026.<ref>[[File:ClaudetteProof.png|280px]]<br/>https://x.com/GlagglezRBLX/status/2088343563230724469</ref>
+*Originally, when the '''Commander''' was first added to the game, you could stand on the wooden stool before placing the '''Commander''' down.
+*Prior to the [[v1.8.0|Community Maps Update]], the '''Commander''' used to appear alongside the [[Pyromancer]], [[Scout]], [[Sniper]] and [[Minigunner]] on the "Triumph" screen. This was changed to your towers' loadout. 
+**Before the [[Overhaul v1.0|Overhaul Update]], it appeared alongside the [[Commando]].
+**During [[Hardcore Testing BETA]], it appeared alongside the [[Minigunner]]. 
+***The "Triumph" screen used the {{Color|Premium|Galactic}} skin instead of the Default skin.
+**Before the [[v1.0.0|Solar Eclipse Update]], it appeared alongside the [[Soldier]].
+*Before the [[Release v1.0|MEGA Update]], multiple ''Call to Arms'' abilities could be stacked. This could reduce the firerate of towers that ordinarily had high, like the [[Ranger|Outlaw]], to low firerates. Due to most slow firing towers dealing a lot of damage in a single shot, this could easily kill major bosses, like the [[Gold Titan]].
+*There was a [https://twitter.com/belownatural/status/1214209129587367940 poll] made on BelowNatural's Twitter that held contestants for the next {{Color|Golden}} skin. One of the options, which was the most chosen, was a {{Color|Golden}} '''Commander''' skin.
+**Instead of a {{Color|Golden}} '''Commander''' skin being made, there was instead a {{Color|Golden}} [[Cowboy]] skin. It is unknown why this change was made.
+*The [[Commander (Pizza Party)|Commander]] enemy from [[Pizza Party]] is based on the '''Commander''' tower.
+*From [[Null Missile APC]]'s logbook description, the APC was his first vehicle he ever commanded, since he was promoted.
+*Commander is a [[w:c:alter-ego:Commander|playable character]] in [[Paradoxum Games]]' second game, ''ALTER EGO''.
 
 ==Update History==
-''For previous cosmetic variations, see the [[Tesla/Gallery|gallery]] page.''
-{{scroll|text=
-*'''28 January 2026''' - [[v1.84.0]]
-**'''Tesla''' added.
-**{{Bug}} Smite damage does not update, making it always 85.
-*'''11 February 2026''' - [[v1.85.0]]
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+
+{{Scroll|text=
+*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
+** '''Commander''' added.
+**{{Bug}} The '''Commander's''' [[Firerate Buff]] can be overwritten by a weaker '''Commander''' [[Firerate Buff]].
+**{{Bug}} The '''Commander's''' [[Firerate Buff]] will be removed from all towers in its range when sold, even if they are in range of another '''Commander'''.
+**{{Bug}} Towers do not receive the [[Firerate Buff]] in the gained range when the '''Commander''' is upgraded.
+**{{Bug}} The '''Commander's''' ''Call to Arms'' ability can stack infinitely.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Upgrade names added.
+**''Call to Arms'' ability now affects the activated '''Commander'''.
 **Statistical changes:
 ***'''Base'''
-****Chain range decreased from 40 to 30.
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Garden}}
-*'''22 April 2026''' - [[v1.89.0]]
-**Smite meter now tracks how many enemies were hit instead of damage dealt.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,000}}.
-****Damage decreased from 20 to 15.
-****Firerate decreased from 2.525 to 2.025.
-****Range increased from 16 to 17.
-****Chain range decreased from 30 to 12.
-****Shock time decreased from 0.5 to 0.15.
-****Max hits decreased from 5 to 3.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|2.525 > 2.275|-0.25}} to 2.025.
-****Shock time changed from 0.5 to 0.15 > 0.25.
-****Max hits increased from +0 to +2.
+****Range increased from 8 to 14.
 ***'''Level 2'''
-****Cost increased from {{Money|8,400}} to {{Money|8,888}}.
-****Damage decreased from +15 to +0.
-****Firerate changed from {{Tooltip|2.275 > 1.825|-0.45}} to {{Tooltip|2.025 > 1.825|-0.2}}.
-****Range increased from +0.5 to +1.5.
-****Max hits decreased from +2 to +0.
-****Chain range increased from +0 to +4.
-****Shock time changed from 0.5 > 0.6 to 0.25.
-****Smite damage decreased from 70 to 85.
-****Smite radius increased from 2 to 5.
-****Smite meter decreased from 1,400 to 5.
+****Hidden detection removed.
+****''Call to Arms'' [[Firerate Buff]] increased from +10% to +30%.
+****''Call to Arms'' cooldown decreased from 70s to 30s.
+****''Call to Arms'' ability attack time increased from 8 seconds to 25-30 seconds.
+**New ''Call to Arms'' sound effects and particles.
+**{{Bug}} The '''Commander''' always provides a fixed +10% [[Firerate Buff]] regardless of upgrades.
+**{{Bugfix}} ''Call to Arms'' ability no longer stacks.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
+**New skin: {{Color|Halloween2019|Gargoyle}}
+*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
+**{{Bug}} [[Range Buff]]s do not increase the range of the ''Call to Arms'' ability.
+**{{Bugfix}} The '''Commander''' now properly provides [[Firerate Buff]]s according to upgrades.
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**New skins: {{Color|Basic|Red}}, {{Color|Basic|Green}}, {{Color|Premium|Victorian}}, {{Color|Premium|Galactic}}, {{Color|Premium|General}}, {{Color|Other|War Lord}}
+**''Call to Arms'' sound effects changed.
+**Level 2 renamed from ''Dog Tags'' to ''Intimidation''.
+**Level 3 renamed from ''G.I. Joe'' to ''Call to Arms''.
+**Level 5 renamed from ''Space Force Leader'' to ''Commander Of The World''.
+*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
+**New skins: {{Color|Bunny|Bunny}}, {{Color|Other|Spring Time}}
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**{{Bug}} Level 0 and 1 '''Commander''' no longer supply a 10% [[Firerate Buff]].
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Unlock cost increased from {{Coins|1,500}} to {{Coins|3,500}}.
+**{{Level|5}} requirement added. 
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 6 to 4.
+****Firerate decreased from 1.05 to 0.53.
+****Range decreased from 14 to 12.
+***'''Level 1'''
+****Cost increased from {{Money|300}} to {{Money|850}}.
+****Range increased from +1 to +2.
+****[[Firerate Buff]] changed from 10% to 10% > 15%.
+****Renamed from ''Gloves'' to ''Leadership''.
+***'''Level 2'''
+****Cost increased from {{Money|850}} to {{Money|1,800}}.
+****Range decreased from +1 to 0.
+****''Call to Arms'' ability unlocked, moved from Level 3.
+***** ''Call to Arms'' ability attack time decreased from 25-30 seconds to 10 seconds.
+****Renamed from ''Intimidation'' to ''Call to Arms''.
 ***'''Level 3'''
-****Damage decreased from +44 to +0.
-****Shock time changed from 0.6 > 0.45 to 0.25.
-****Max hits increased from +0 to +1.
-****Smite damage increased from +0 to +15.
-****Smite radius changed from 2 to 5 > 5.5.
-****Smite meter changed from 1,400 > 2,250 to 5 > 4.
+****Cost increased from {{Money|2,000}} to {{Money|5,500}}.
+****Range increased from +1 to +2.
+****Damage increased from +0 to +2.
+****[[Firerate Buff]] changed from 15% to 15% > 20%.
+****Renamed from ''Call to Arms'' to ''Intense Training''.
 ***'''Level 4'''
-****Cost decreased from {{Money|50,001}} to {{Money|44,001}}.
-****Damage decreased from +21 to +0.
-****Range increased from +1 to +1.5.
-****Max hits decreased from +5 to +2.
-****Chain range increased from +0 to +4.
-****Shock time changed from 0.45 > 0.55 to 0.25 > 0.3.
-****Smite damage increased from +0 to +55.
-****Smite radius changed from 2 > 2.5 to 5.5 > 7.
-****Smite meter changed from 2,250 > 4,900 to 4 > 3.
-**{{Bugfix}} Smite damage now changes with upgrades.
+****Cost increased from {{Money|5,500}} to {{Money|9,000}}.
+****Range increased from +1 to +4.
+****Damage increased from +2 to +4.
+****[[Firerate Buff]] changed from 15% > 20% to 20% > 25%.
+****Firerate changed from {{Tooltip|1.05 > 0.8|-0.25}} to 0.53.
+****Renamed from ''Boot Camp Training'' to ''World Leader''.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Commander of The World''
+*****Cost: {{Money|10,000}}
+*****+2 Range
+*****+2 Damage
+*****20% > 25% [[Firerate Buff]]
+*****0.8 > 0.55 Firerate
+**New skins: {{Color|Deluxe|Maid}}, {{Color|Deluxe|Neko}}
+**''Call to Arms'' ability no longer affects the activated '''Commander'''.
+*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
+**New skin: {{Color|Spooky|Ghost}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**New skin: {{Color|Frost|Frost}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0a]]
+**New skin: {{Color|Other|Bloxy}}
+*'''4 December 2021''' - [[v1.0.0]]
+**New skin: {{Color|Eclipse|Eclipse}}
+**{{Bug}} {{Color|Eclipse|Eclipse}} skin uses incorrect voicelines.
+*'''11 December 2021''' - [[v1.0.0]]f
+**{{Bugfix}} {{Color|Eclipse|Eclipse}} skin now uses correct voicelines.
+*'''17 February 2022'''
+**{{Bug}} The '''Commander's''' firerate boost decreases the firerate to a number with a very long decimal.
+*'''12 March 2022''' - [[v1.1.0]]
+**[[Firerate Buff]] equation changed.
+**''Call to Arms'' effect changed.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.53 to 0.525.
+**{{Bug}} Towers in the gained range from the [[Range Buff]]s do not receive the passive [[Firerate Buff]] until the '''Commander''' is upgraded.
+**{{Bugfix}} The '''Commander's''' firerate boost no longer decreases the firerate to a number with a very long decimal.
+**{{Bugfix}} The '''Commander's''' [[Firerate Buff]] is no longer be overwritten by a weaker '''Commander''' [[Firerate Buff]].
+**{{Bugfix}} The '''Commander's''' [[Firerate Buff]] is no longer be removed from all towers in its range when sold, even if they are in range of another '''Commander'''.
+**{{Bugfix}} Towers now receive the [[Firerate Buff]] in the gained range when the '''Commander''' is upgraded.
+**{{Bugfix}} [[Range Buff]] now increases the range of the ''Call to Arms'' ability.
+*'''16 March 2022''' - [[v1.1.0]]d
+**{{Bugfix}} Towers in the gained range from the [[Range Buff]]s do now receive the passive [[Firerate Buff]] without the '''Commander''' being upgraded.
+*'''17 April 2022''' - [[v1.2.0]]
+**New skin: {{Color|DuckHunt|Ducky}}
+*'''23 April 2022''' - [[v1.2.1]]
+**New skin: {{Color|Other|Plushie}}
+*'''5 August 2022''' - [[v1.3.1]]
+**The '''Commander''' now returns to its original rotation after the ''Call to Arms'' ability ends.
+**New skin: {{Color|EndOfSummer|Lifeguard}}
+*'''21 December 2022''' - [[v1.6.0]]
+**Level requirement removed.
+**Skin rarity added to all skins.
+**{{Color|Premium|Galactic}} skin rarity changed from {{Color|Rare}} to {{Color|Uncommon}}.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''14 February 2023''' - [[v1.6.2]]
+**New skins: {{Color|ColdFront|Brisk}}, {{Color|Lovely|Valentines}}
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
+*'''5 August 2023''' - [[v1.8.4]]
+**New skin: {{Color|Pirate|Pirate}}
+*'''28 October 2023''' - [[v1.9.0]]
+**New skin: {{Color|Other|Umbra}}
+*'''21 December 2023''' - [[v1.11.0]]
+**Unlock cost increased from {{Coins|3,500}} to {{Coins|4,000}}.
+**New skin: {{Color|Phantom|Phantom}}
+*'''28 January 2024''' - [[v1.12.0]]
+**New skin: {{Color|ContentCreator|Eggrypted}}
+*'''19 April 2024''' - [[v1.19.0]]
+**{{Bug}} ''Call to Arms'' costs {{Money|300}} to use.
+*'''19 April 2024''' - [[v1.19.0|v1.19.1]]
+**{{Bugfix}} ''Call to Arms'' is free again.
+*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
+**Placement limit of 3 '''Commanders''' per player added.
+**'''Commander''' now attacks enemies when any ability is activated, not just the ''Call to Arms'' ability.
+***Attack time stacks if multiple ability are used in a short period of time.
+**New ''Call to Arms'' ability effects.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|650}} to {{Money|850}}.
+****Range decreased from 12 to 9.
+****Damage decreased from 4 to 0.
+****Firerate decreased from 0.525 to 0.
+****Hidden detection added.
+****Flying detection added.
+****[[Firerate Buff]] increased from 10% to 12.5%.
+***'''Level 1'''
+****Cost decreased from {{Money|850}} to {{Money|300}}.
+****Range decreased from +2 to +0.
+****[[Firerate Buff]] changed from 10% > 15% to 12.5% > 15%.
+***'''Level 2'''
+****Cost increased from {{Money|1,800}} to {{Money|2,500}}.
+****Lead detection added.
+****Range increased from +0 to +2.
+****Damage increased from +0 to +10.
+****Firerate changed from 0.525 to {{Tooltip|0 > 0.625|+0.625}}.
+****''Call to Arms''' ability buff reduced from 30% to 15%.
+***'''Level 3'''
+****Range decreased from +2 to +1.5.
+****Damage increased from +2 to +5.
+****[[Firerate Buff]] decreased from 15% > 20% to 15% > 17.5%.
+****''Call to Arms''' ability buff changed from 30% to 15% > 22.5%.
+***'''Level 4'''
+****Cost increased from {{Money|9,000}} to {{Money|15,000}}.
+****Range decreased from +4 to +1.5.
+****Damage increased from +4 to +10.
+****[[Firerate Buff]] decreased from 20% > 25% to 17.5% > 20%.
+****''Call to Arms''' ability buff changed from 30% to 22.5% > 30%.
+****''Support Caravan'' ability added.
+****Name changed from ''World Leader'' to ''Strength in Numbers''.
+**{{Bug}} {{Color|ContentCreator|Eggrypted}}, {{Color|Other|Umbra}}, {{Color|Phantom|Phantom}} and {{Color|Other|Spring Time}} skins do not have models and cannot be placed down.
+**{{Bug}} Attack bar will occasionally list a ridiculously long attack time due to it containing long decimals.
+**{{Bug}} Attack bar does not appear until the tower is reselected.
+**{{Bug}} If two ''Call to Arms'' abilities are active at once, once the first ends the visual indicators for the buff will disappear when they should still remain.
+*'''16 May 2024''' - [[v1.21.0|v1.21.9a]]
+**{{Bugfix}} {{Color|ContentCreator|Eggrypted}}, {{Color|Other|Umbra}} and {{Color|Phantom|Phantom}} skins now have models, allowing for them to be placed down.
+*'''18 May 2024''' - [[v1.22.0]]
+**'''New skins''': {{Color|Vigilante|Vigilante}}, {{Color|Premium|Pattern}}
+**Placement limit increased from 3 to 4.
+**Statistical changes:
+***'''Level 2'''
+****''Call to Arms'' cooldown decreased from 40 to 30.
+***'''Level 4'''
+****''Support Caravan'' cost decreased from {{Money|3,000}} to {{Money|2,000}}.
+**{{Bugfix}} {{Color|Other|Spring Time}} now has models and can be placed down.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s.
+**{{Bug}} [[Missile APC]] damage is boosted by [[Damage Buff]]s.
+*'''4 July 2024''' - [[v1.25.0|v1.25.4]]
+**New skin: {{Color|Deluxe|Patriotic}}
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
+*'''21 August 2024''' - [[v1.28.0]]
+**New skin: {{Color|FallenMission|Fallen}}
+*'''23 October 2024''' - [[v1.37.0]]
+**New skin: {{Color|Hexscape|Wasteland}}
+*'''9 April 2025''' - [[v1.60.0]]
+**Support role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**Attack bar now goes down by 0.1 seconds instead of 1 second.
+**{{Bugfix}} Attack time bar no longer lists ridiculously long time remaining due to the decimals present on it.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Aqua}}
+**{{Bug}} {{Color|Surf|Aqua}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Aqua}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Werewolf}}
+*'''12 November 2025''' - [[V1.80.0]]
+**{{Bug}} ''Call to Arms'' particle effect stays indefinitely on towers sold during it.
+*'''20 December 2025''' - [[v1.83.0]]
+**''Call to Arms'' internal name changed from ''Call Of Arms'' to ''Call to Arms''.
+**New skins: {{Color|Christmas2025|Candy Cane}}, {{Color|Showtime|Director}}
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skins: {{Color|FinalAct|Wonderland}}
+*'''29 December 2025''' - [[v1.83.0|v1.83.7]]
+**''Call to Arms'' internal name changed from ''Call to Arms'' to ''Call Of Arms''.
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit increased from 4 to 6.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|850}} to {{Money|650}}.
+****Range increased from 9 to 10.
+****[[Firerate Buff]] decreased from 12.5% to 10%.
+****Hidden detection removed, moved to Level 2.
+****Flying detection removed, moved to Level 2.
+***'''Level 1'''
+****Cost increased from {{Money|300}} to {{Money|400}}.
+****[[Firerate Buff]] changed from 12.5% > 15% to 10% > 15%.
+***'''Level 2'''
+****Cost decreased from {{Money|2,500}} to {{Money|2,450}}.
+****Damage increased from +10 to +15.
+****Range increased from +2 to +3.
+****''Call to Arms'' [[Firerate Buff]] decreased from 15% to 10%.
+***'''Level 3'''
+****Cost decreased from {{Money|5,500}} to {{Money|4,500}}.
+****Damage increased from +5 to +15.
+****Range increased from +1.5 to +2.
+****''Call to Arms'' [[Firerate Buff]] changed from 15% > 22.5% to 10% > 15%.
+***'''Level 4'''
+****Cost decreased from {{Money|15,000}} to {{Money|14,000}}.
+****Damage increased from +10 to +20.
+****Range increased from +1.5 to +2.
+****''Call to Arms'' [[Firerate Buff]] changed from 22.5% > 30% to 15% > 20%.
+****[[Gunner APC]] health decreased from 250 to 200.
+****[[Gunner APC]] damage decreased from 10 to 8.
+****[[Missile APC]] health decreased from 400 to 300.
+****[[Missile APC]] damage decreased from 50 to 40.
+****[[Missile APC]] flying detection removed.
+*'''22 May 2026''' - [[v1.91.0]]
+**''Call to Arms'' now has its display name set to that, correcting some issues with it being displayed as its internal ''Call Of Arms'' name.
+**New skin: {{Color|Backyard|Referee}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 2.025 to 2.
-****Flying detection added, moved from Level 2.
+**Statistical changes (Regular):
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|2.025 > 1.825|-0.2}} to {{Tooltip|2 > 1.8|-0.2}}.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|1.825 > 1.425|-0.4}} to {{Tooltip|1.8 > 1.4|-0.2}}.
+****Firerate changed from {{Tooltip|0 > 0.625|+0.625}} to {{Tooltip|0 > 0.6|+0.6}}.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|1.425 > 1.225|-0.2}} to {{Tooltip|1.4 > 1.2|-0.2}}.
-**New skin: {{Color|Void|Voidborne}}
+****[[Gunner APC]] damage decreased from 8 to 7.
+****[[Gunner APC]] firerate decreased from 0.225 to 0.2.
+****[[Missile APC]] firerate decreased from 2.025 to 4.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Beach|Seal}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Updated tower information to refer to the buffs it provides as a cooldown buff.
 }}
 
 ==Notes==
 <references/>
 
 
-
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
+[[Category:Support]]

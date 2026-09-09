@@ -7,210 +7,163 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Tesla''' is a mid-late game advanced tower which attacks enemies with chain lightning, temporarily immobilizing them. It can be bought for {{Coins|6,000}}.\n\nThe '''Tesla''' fires lightning at enemies in its range. This lightning will extend to as many enemies as its max hits will allow it to, hitting the closest enemy to the initial target in a range of 12 at Level 0. These enemies will be stunned when hit, which stops them from moving. [[Boss]] and [[Stun Immunity]] enemies will only get slowed down instead.\n\nAt Level 2+, it gains smite, an ability activated when its meter seen in the upgrade menu is filled up by hitting multiple enemies. This will unleash thunder on the targeted enemy, dealing explosion damage to it. This being an explosion, it will deal less damage to enemies the further away they are from the center of the explosion. Additionally, it can bypass [[Defense]].\n\nThe '''Tesla''' is an excellent option for stalling over a pretty large area, as its electric shocks can hold large crowds in place and give other towers more time to attack them, on top of dealing decent damage itself. \n\nThe '''Tesla''' has a placement limit of two per player.",
+  "description": "The '''Commander''' is an advanced support [[Towers|tower]] that decreases the firerate of towers within its range, increasing their damage output. It can be purchased in the store for {{Coins|4,000}}.\n\nThe '''Commander''' provides a 10% firerate boost to towers in its range, making them attack enemies faster. This buff can be boosted further at Level 2+ through the ''Call to Arms'' ability, which increases it by 10% for ten seconds. Both buffs get higher with levels, with the passive buff getting increased to 20% and the ''Call to Arms'' ability buff getting increased to 20%. It also has a second ability, ''Support Caravan'', which costs {{Money|2,000}} to use. This will summon two [[Gunner APC]]s and one [[Missile APC]] on the map. When any ability used, it will enter fury mode, allowing it to attack any enemy in its range for ten seconds. The attack time from using an ability stacks if multiple are used at once or when an ability is used while it is attacking. When an ability is used while fury mode is active, the timer for it will stop until the ability animation is finished.\n\nThe '''Commander''' is the primary [[Narrators|narrator]] in most matches. Text dialogue appears beside the image or the model with an idle animation of the '''Commander''', corresponding to the appearance of certain [[waves]]. This dialogue appears regardless of whether a '''Commander''' tower is present on the map, and the image or model of the '''Commander''' next to the dialogue will display different emotions.\n\nThe '''Commander''' has a placement limit of six per player.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "unknown",
         "level": 1,
-        "title": "Kite in the Wind",
-        "cost": "{{Money|1,856}}",
-        "information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}",
+        "title": "Leadership",
+        "cost": "{{Money|400}}",
+        "information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}",
         "claims": [
           {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Damage",
-            "text": "+5 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.15",
-            "to": "0.25",
-            "stat": "Shock Time",
-            "text": "0.15 > 0.25 Shock Time"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Max Hits",
-            "text": "+2 Max Hits"
+            "kind": "note",
+            "text": "10% > 15% Buff"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Kite in the Wind",
-          "Cost": "{{Money|1,856}}",
-          "Image": "[[File:TeslaLevel1.png|100px]]",
-          "Information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}"
+          "Upgrade Title": "Leadership",
+          "Cost": "{{Money|400}}",
+          "Image": "[[File:Commander Upgrade 1  New.png|100px]]",
+          "Information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}"
         }
       },
       {
         "mode": "unknown",
         "level": 2,
-        "title": "Self-Sustaining Battery",
-        "cost": "{{Money|8,888}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}",
+        "title": "Call to Arms",
+        "cost": "{{Money|2,450}}",
+        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}",
         "claims": [
           {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          },
+          {
+            "kind": "grant",
+            "stat": "Flying Detection",
+            "text": "+Flying Detection"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
             "kind": "delta",
-            "delta": "+1.5",
+            "delta": "+3",
             "stat": "Range",
-            "text": "+1.5 Range"
+            "text": "+3 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+15",
+            "stat": "Damage",
+            "text": "+15 Damage"
           },
           {
             "kind": "set",
-            "from": "2",
-            "to": "1.8",
+            "from": "0",
+            "to": "0.6",
             "stat": "Firerate",
-            "text": "2 > 1.8 Firerate"
+            "text": "0 > 0.6 Firerate"
           },
           {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Chain Range",
-            "text": "+4 Chain Range"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion"
+            "kind": "grant",
+            "stat": "Call to Arms Ability",
+            "text": "+Call to Arms Ability"
           },
           {
             "kind": "note",
-            "text": "70 Smite Damage"
-          },
-          {
-            "kind": "note",
-            "text": "5 Smite Radius"
-          },
-          {
-            "kind": "note",
-            "text": "5 Meter}}"
+            "text": "10% Firerate Buff"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Self-Sustaining Battery",
-          "Cost": "{{Money|8,888}}",
-          "Image": "[[File:TeslaLevel2.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}"
+          "Upgrade Title": "Call to Arms",
+          "Cost": "{{Money|2,450}}",
+          "Image": "[[File:Commander_Upgrade_3.png|100px]]",
+          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}"
         }
       },
       {
         "mode": "unknown",
         "level": 3,
-        "title": "Auric Quantum Cooling Cell",
-        "cost": "{{Money|18,450}}",
-        "information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}",
+        "title": "Intense Training",
+        "cost": "{{Money|4,500}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}",
         "claims": [
           {
-            "kind": "set",
-            "from": "1.8",
-            "to": "1.4",
-            "stat": "Firerate",
-            "text": "1.8 > 1.4 Firerate"
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
           },
           {
             "kind": "delta",
             "delta": "+15",
-            "stat": "Smite Damage",
-            "text": "+15 Smite Damage"
+            "stat": "Damage",
+            "text": "+15 Damage"
           },
           {
-            "kind": "set",
-            "from": "5",
-            "to": "5.5",
-            "stat": "Smite Radius",
-            "text": "5 > 5.5 Smite Radius"
+            "kind": "note",
+            "text": "15% > 17.5% Buff"
           },
           {
-            "kind": "set",
-            "from": "5",
-            "to": "4",
-            "stat": "Meter",
-            "text": "5 > 4 Meter"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Hits",
-            "text": "+1 Max Hits"
+            "kind": "note",
+            "text": "10% > 15% Call To Arms Buff"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Auric Quantum Cooling Cell",
-          "Cost": "{{Money|18,450}}",
-          "Image": "[[File:TeslaLevel3.png|100px]]",
-          "Information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}"
+          "Upgrade Title": "Intense Training",
+          "Cost": "{{Money|4,500}}",
+          "Image": "[[File:Commander Upgrade 4 New.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}"
         }
       },
       {
         "mode": "unknown",
         "level": 4,
-        "title": "Kimat's Bite",
-        "cost": "{{Money|44,001}}",
-        "information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}",
+        "title": "Strength in Numbers",
+        "cost": "{{Money|14,000}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}",
         "claims": [
-          {
-            "kind": "set",
-            "from": "1.4",
-            "to": "1.2",
-            "stat": "Firerate",
-            "text": "1.4 > 1.2 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "0.25",
-            "to": "0.3",
-            "stat": "Shock Time",
-            "text": "0.25 > 0.3 Shock Time"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Chain Range",
-            "text": "+4 Chain Range"
-          },
           {
             "kind": "delta",
             "delta": "+2",
-            "stat": "Max Hits",
-            "text": "+2 Max Hits"
+            "stat": "Range",
+            "text": "+2 Range"
           },
           {
             "kind": "delta",
-            "delta": "+55",
-            "stat": "Smite Damage",
-            "text": "+55 Smite Damage"
+            "delta": "+20",
+            "stat": "Damage",
+            "text": "+20 Damage"
           },
           {
-            "kind": "set",
-            "from": "5.5",
-            "to": "7",
-            "stat": "Smite Radius",
-            "text": "5.5 > 7 Smite Radius"
+            "kind": "note",
+            "text": "17.5% > 20% Buff"
           },
           {
-            "kind": "set",
-            "from": "4",
-            "to": "3",
-            "stat": "Meter",
-            "text": "4 > 3 Meter"
+            "kind": "note",
+            "text": "15% > 20% Call To Arms Buff"
+          },
+          {
+            "kind": "grant",
+            "stat": "Support Caravan Ability",
+            "text": "+Support Caravan Ability"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Kimat's Bite",
-          "Cost": "{{Money|44,001}}",
-          "Image": "[[File:TeslaLevel4.png|100px]]",
-          "Information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}"
+          "Upgrade Title": "Strength in Numbers",
+          "Cost": "{{Money|14,000}}",
+          "Image": "[[File:SupportCaravanIcon.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}"
         }
       }
     ],
@@ -220,204 +173,157 @@
     {
       "mode": "unknown",
       "level": 1,
-      "title": "Kite in the Wind",
-      "cost": "{{Money|1,856}}",
-      "information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}",
+      "title": "Leadership",
+      "cost": "{{Money|400}}",
+      "information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}",
       "claims": [
         {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Damage",
-          "text": "+5 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.15",
-          "to": "0.25",
-          "stat": "Shock Time",
-          "text": "0.15 > 0.25 Shock Time"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Max Hits",
-          "text": "+2 Max Hits"
+          "kind": "note",
+          "text": "10% > 15% Buff"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Kite in the Wind",
-        "Cost": "{{Money|1,856}}",
-        "Image": "[[File:TeslaLevel1.png|100px]]",
-        "Information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}"
+        "Upgrade Title": "Leadership",
+        "Cost": "{{Money|400}}",
+        "Image": "[[File:Commander Upgrade 1  New.png|100px]]",
+        "Information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}"
       }
     },
     {
       "mode": "unknown",
       "level": 2,
-      "title": "Self-Sustaining Battery",
-      "cost": "{{Money|8,888}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}",
+      "title": "Call to Arms",
+      "cost": "{{Money|2,450}}",
+      "information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}",
       "claims": [
         {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        },
+        {
+          "kind": "grant",
+          "stat": "Flying Detection",
+          "text": "+Flying Detection"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
+        {
           "kind": "delta",
-          "delta": "+1.5",
+          "delta": "+3",
           "stat": "Range",
-          "text": "+1.5 Range"
+          "text": "+3 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+15",
+          "stat": "Damage",
+          "text": "+15 Damage"
         },
         {
           "kind": "set",
-          "from": "2",
-          "to": "1.8",
+          "from": "0",
+          "to": "0.6",
           "stat": "Firerate",
-          "text": "2 > 1.8 Firerate"
+          "text": "0 > 0.6 Firerate"
         },
         {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Chain Range",
-          "text": "+4 Chain Range"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion"
+          "kind": "grant",
+          "stat": "Call to Arms Ability",
+          "text": "+Call to Arms Ability"
         },
         {
           "kind": "note",
-          "text": "70 Smite Damage"
-        },
-        {
-          "kind": "note",
-          "text": "5 Smite Radius"
-        },
-        {
-          "kind": "note",
-          "text": "5 Meter}}"
+          "text": "10% Firerate Buff"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Self-Sustaining Battery",
-        "Cost": "{{Money|8,888}}",
-        "Image": "[[File:TeslaLevel2.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}"
+        "Upgrade Title": "Call to Arms",
+        "Cost": "{{Money|2,450}}",
+        "Image": "[[File:Commander_Upgrade_3.png|100px]]",
+        "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}"
       }
     },
     {
       "mode": "unknown",
       "level": 3,
-      "title": "Auric Quantum Cooling Cell",
-      "cost": "{{Money|18,450}}",
-      "information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}",
+      "title": "Intense Training",
+      "cost": "{{Money|4,500}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}",
       "claims": [
         {
-          "kind": "set",
-          "from": "1.8",
-          "to": "1.4",
-          "stat": "Firerate",
-          "text": "1.8 > 1.4 Firerate"
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
         },
         {
           "kind": "delta",
           "delta": "+15",
-          "stat": "Smite Damage",
-          "text": "+15 Smite Damage"
+          "stat": "Damage",
+          "text": "+15 Damage"
         },
         {
-          "kind": "set",
-          "from": "5",
-          "to": "5.5",
-          "stat": "Smite Radius",
-          "text": "5 > 5.5 Smite Radius"
+          "kind": "note",
+          "text": "15% > 17.5% Buff"
         },
         {
-          "kind": "set",
-          "from": "5",
-          "to": "4",
-          "stat": "Meter",
-          "text": "5 > 4 Meter"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Hits",
-          "text": "+1 Max Hits"
+          "kind": "note",
+          "text": "10% > 15% Call To Arms Buff"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Auric Quantum Cooling Cell",
-        "Cost": "{{Money|18,450}}",
-        "Image": "[[File:TeslaLevel3.png|100px]]",
-        "Information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}"
+        "Upgrade Title": "Intense Training",
+        "Cost": "{{Money|4,500}}",
+        "Image": "[[File:Commander Upgrade 4 New.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}"
       }
     },
     {
       "mode": "unknown",
       "level": 4,
-      "title": "Kimat's Bite",
-      "cost": "{{Money|44,001}}",
-      "information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}",
+      "title": "Strength in Numbers",
+      "cost": "{{Money|14,000}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}",
       "claims": [
-        {
-          "kind": "set",
-          "from": "1.4",
-          "to": "1.2",
-          "stat": "Firerate",
-          "text": "1.4 > 1.2 Firerate"
-        },
-        {
-          "kind": "set",
-          "from": "0.25",
-          "to": "0.3",
-          "stat": "Shock Time",
-          "text": "0.25 > 0.3 Shock Time"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Chain Range",
-          "text": "+4 Chain Range"
-        },
         {
           "kind": "delta",
           "delta": "+2",
-          "stat": "Max Hits",
-          "text": "+2 Max Hits"
+          "stat": "Range",
+          "text": "+2 Range"
         },
         {
           "kind": "delta",
-          "delta": "+55",
-          "stat": "Smite Damage",
-          "text": "+55 Smite Damage"
+          "delta": "+20",
+          "stat": "Damage",
+          "text": "+20 Damage"
         },
         {
-          "kind": "set",
-          "from": "5.5",
-          "to": "7",
-          "stat": "Smite Radius",
-          "text": "5.5 > 7 Smite Radius"
+          "kind": "note",
+          "text": "17.5% > 20% Buff"
         },
         {
-          "kind": "set",
-          "from": "4",
-          "to": "3",
-          "stat": "Meter",
-          "text": "4 > 3 Meter"
+          "kind": "note",
+          "text": "15% > 20% Call To Arms Buff"
+        },
+        {
+          "kind": "grant",
+          "stat": "Support Caravan Ability",
+          "text": "+Support Caravan Ability"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Kimat's Bite",
-        "Cost": "{{Money|44,001}}",
-        "Image": "[[File:TeslaLevel4.png|100px]]",
-        "Information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}"
+        "Upgrade Title": "Strength in Numbers",
+        "Cost": "{{Money|14,000}}",
+        "Image": "[[File:SupportCaravanIcon.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}"
       }
     }
   ],
@@ -427,11 +333,11 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
-      "lead": "{{Attr|Lead|Level 0+}}",
-      "flying": "{{Attr|Flying|Level 0+}}",
+      "hidden": "{{Attr|Hidden|Level 2+}}",
+      "lead": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
+      "flying": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
       "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2"
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6"
     },
     "pvp": {
       "hidden": null,
@@ -444,26 +350,26 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Tesla",
-        "image-static": "TeslaIcon.png",
-        "image-dynamic": "TeslaDynamic.png",
-        "unlockcost": "{{Coins|6,000}}",
-        "role": "Defense",
+        "title": "Commander",
+        "image-static": "Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->",
+        "image-dynamic": "CommanderDynamic.png",
+        "unlockcost": "{{Coins|4,000}}",
+        "basecost": "{{Money|650}}",
+        "basesellingprice": "{{Money|216}}",
+        "role": "Support",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-        "basecost": "{{Money|2,000}}",
-        "basesellingprice": "{{Money|666}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]15",
-        "damagetype": "Chain<br/>[[Splash Damage|Splash]] (Level 2+)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
-        "baserange": "[[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)",
-        "hidden_detection": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
-        "lead_detection": "{{Attr|Lead|Level 0+}}",
-        "flying_detection": "{{Attr|Flying|Level 0+}}",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
+        "damagetype": "Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0",
+        "baserange": "[[File:Range Icon.png|20px|Range]]10",
+        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+        "lead_detection": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
+        "flying_detection": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
         "immune": "None",
-        "footprint": "2",
-        "tooltip-1": "A powerful tower that deals high damage and can stun all enemies in range with its active ability.",
-        "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
+        "footprint": "1.5",
+        "tooltip-1": "A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.",
+        "tooltip-2": "At final level also unlocks the ability to summon a caravan of friendly APC units."
       },
       "positional": []
     }
@@ -471,28 +377,28 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Tesla",
-      "image-static": "TeslaIcon.png",
-      "image-dynamic": "TeslaDynamic.png",
-      "unlockcost": "{{Coins|6,000}}",
-      "role": "Defense",
+      "title": "Commander",
+      "image-static": "Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->",
+      "image-dynamic": "CommanderDynamic.png",
+      "unlockcost": "{{Coins|4,000}}",
+      "basecost": "{{Money|650}}",
+      "basesellingprice": "{{Money|216}}",
+      "role": "Support",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-      "basecost": "{{Money|2,000}}",
-      "basesellingprice": "{{Money|666}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]15",
-      "damagetype": "Chain<br/>[[Splash Damage|Splash]] (Level 2+)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
-      "baserange": "[[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)",
-      "hidden_detection": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
-      "lead_detection": "{{Attr|Lead|Level 0+}}",
-      "flying_detection": "{{Attr|Flying|Level 0+}}",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
+      "damagetype": "Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0",
+      "baserange": "[[File:Range Icon.png|20px|Range]]10",
+      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+      "lead_detection": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
+      "flying_detection": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
       "immune": "None",
-      "footprint": "2",
-      "tooltip-1": "A powerful tower that deals high damage and can stun all enemies in range with its active ability.",
-      "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
+      "footprint": "1.5",
+      "tooltip-1": "A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.",
+      "tooltip-2": "At final level also unlocks the ability to summon a caravan of friendly APC units."
     },
     "positional": []
   },
-  "template_count": 62
+  "template_count": 274
 }
