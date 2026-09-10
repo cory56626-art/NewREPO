@@ -1,664 +1,960 @@
-{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}
-{{For|other uses of [[Gold (Disambiguation)|Gold]]}}
-{{TowerInfobox
-|title = {{Color|Golden|Golden Cowboy}}
-|image-static = WDGoldenCowboyIcon.png
-|image-dynamic = GoldenCowboyDynamic.png
-|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)
-|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])
-|basecost = {{Money|600}}
-|basesellingprice = {{Money|200}}
-|role = Offense
-|placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12
-|basedamage = [[File:Damage Icon.png|20px|Damage]]3
-|damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9
-|baserange = [[File:Range Icon.png|20px|Range]]13
-|baseincome = {{Money|35}}
-|hidden_detection = {{Attr|Hidden|Level 3+}}
-|lead_detection = N/A
-|flying_detection = N/A
-|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)
-|footprint = 1.25
-|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
+{{ModeTabs|Story = No}}
+{{For|other uses of [[Fallen (Disambiguation)|Fallen]]}}
+{{ModeInfobox
+|title1 = {{Color|FallenMode}}
+|image1 = <tabber>
+|-|Regular = [[File:FallenReworkIcon.png]]
+|-|After Hidden Wave = [[File:AwakenedFallenKingIcon.png|thumb]]
+</tabber>
+|waves = 40<br/>42 ([[Hidden Wave]]) 
+|level_requirement = {{Level|30}} (Vote Only)
+|starting_cash = {{Money|500}}<br/>{{Money|600}} (Group Bonus)
+|max_health = 200
+|health_scale = 15% (Duo)<br/>25% (Trio)<br/>40% (Quad)
+|time = 18:00
+|rewards = {{Coins|1,350}}, {{Exp|250}} & {{TowerExp|185}}
 }}
-{{QuoteContainer|<tabber>
-|-|Current =
-{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}
-|-|Version 2 =
-{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}
-|-|Version 1 =
-{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}
-</tabber>}}
+{{QuoteContainer|
+{{QuoteBox|For players who are experts at the game and want to test their limits.|Description in Elevators}}
+}}
 __TOC__
 ==Description==
-The '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.
+'''Fallen''' mode, formerly called '''Insane''' mode, is one of the six main survival modes. '''Fallen''' mode has 40 waves. When the [[Hidden Wave]] is activated it has 42 waves. The mode is named after the Fallen enemies that appear throughout it.
 
-While initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. 
+Cash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.
 
-The '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.
+The health of enemies in this mode scales with the player count, starting at two players. The increase is 15% in duo, 25% in trio and 40% in quad. It is applied after attributes, like [[Bloated]], meaning they can affect the health of an enemy. The increase is not always the stated amount.
 
-In comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.
+You can activate the [[Hidden Wave]] by following these certain steps:
+*Every player has to disable [[Skills]] before starting the match.
+*After voting '''Fallen''' mode, sending separate messages that contain these numbers in the chat: "''120''", "''1''" and "''1009''". On the last number, the screen will flash and a noise will play.
+*The base health should be set to one before reaching to Wave 40.
+*Defeat the [[Fallen King]] under 60 seconds without using consumables on Wave 40. If done successfully instead of dropping its sword and vanishing in a beam of light, it will survive, but smashing the ground enraged and retreating with its sword.
+*After completing [[Hidden Wave]], the icon of '''Fallen''' mode on the difficulty select screen will change to the [[Awakened Fallen King]].
 
-The '''Golden Cowboy''' has a placement limit of twelve per player.
+==Rewards==
+''For former rewards, see this mode's [[Fallen Mode/Rewards|Rewards]] page.''
 
-==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+The game calculates how many {{Coins|Coins}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. Some maps like [[Mason Arch]] can also increase all rewards by a specific amount. Regular {{Exp|}} boosts are multiplicative with other modifiers.
 
-+2 Range [[File:Range Icon.png|20px|Range]]
+Any rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.
 
-2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
-
-
-Sell Price changes to {{Money|266}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]
-
-
-Sell Price changes to {{Money|483}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
-
-+7 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
-
-
-Sell Price changes to {{Money|1,283}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+2.5 Range [[File:Range Icon.png|20px|Range]]
-
-{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]
-
-6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]
-
-
-Sell Price changes to {{Money|2,700}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]
-
-1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
-
-
-Sell Price changes to {{Money|5,950}}}}
-
-==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
-{{neow|<nowiki>
-<var>
-$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))
-$CE$ = Total Cost / DPS
-$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))
-$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)
-$TP$ = $FNC-TOTAL-COST$
-$COST$ = 600; 200; 650; 2400; 4250; 9750
-$FSE-DETECTION$ = 3; ;
-$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West
-$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990
-$FSE-META$ = Golden Perks; File:WDGoldenCowboyIcon.png
-$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
-$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
-$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>
-$R$ = $FNC-RECURSION$
-</var>
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$
+Rewards are calculated as:
+{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
+!Coins Reward
+!EXP Reward
+!Tower EXP Reward
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|{{Coins|700}} ÷ (1 + [(40 ÷ Current Wave) - 1]^2.4) + {{Coins|650}} (Triumph Bonus)
+|{{Exp|200}} ÷ (1 + [(40 ÷ Current Wave) - 1]^2) + {{Exp|50}} (Triumph Bonus)
+|{{TowerExp|85}} ÷ (1 + [(40 ÷ Current Wave) - 1]) + {{TowerExp|100}} (Triumph Bonus)
+|}
+
+Triumphing '''Fallen''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. [[Beach Crate]], [[Scuba Ops Crate]] and [[Patriotic Crate]] are also part of this, though it is not known which rarity they are in. These items are:
+*{{Color|Common}} (47.39%)
+**{{TimeScaleTicket|Time Scale Ticket}} (2-4)
+**{{ReviveTicket|Revive Ticket}} (2-3)
+**{{SpinTicket|Spin Ticket}} (2-3)
+**[[Low Grade Crate]]
+**[[Barricade]] (2-4)
+**[[Supply Drop]] (2-4)
+**[[Easter Egg]] (2-4)
+*{{Color|Uncommon}} (28.44%)
+**[[Cooldown Flag]] (2-4)
+**[[Range Flag]] (2-4)
+**[[Damage Flag]] (2-4)
+**[[Mid Grade Crate]]
+**[[Ducky Squad]] (2-4)
+*{{Color|Rare}} (18.96%)
+**[[High Grade Crate]]
+**[[Napalm Strike]] (2-3)
+**[[Blizzard Bomb]] (2-3)
+*{{Color|Legendary}} (4.74%)
+**[[Nuke]]
+*{{Color|Common|Custom}} (0.47%)
+**[[Molten Monster (Consumable)|Molten Monster]]
+
+===Badges/Achievements===
+There are [[badges]] and achievements that you can or could obtain when playing this mode, which may have additional rewards alongside them. These are:
+
+{{Badge
+|title = Defeat the Fallen King
+|description = The leader of the army.
+|image = ErrorBusterNew.png
+|obtainable = Yes
+}}
+{{Badge
+|title = ???
+|image = HiddenBadge3.png
+|obtainable = Yes
+}}
+{{Badge
+|title = Usurper
+|description = Triumph in Fallen mode
+|image = Achievement
+|obtainable = Yes
+|rewards = {{Coins|500}}
+}}
+{{Badge
+|title = Sentinel
+|description = Complete a match of Fallen Mode on a Hard map(Solo)
+|image = Achievement
+|obtainable = Yes
+|rewards = {{Coins|1,000}} & 1x {{SpinTicket|Spin Ticket}}
+}}
+{{Badge
+|title = Ascended
+|description = Complete a match of Fallen Mode on a{{sic}} Insane map(Solo)
+|image = Achievement
+|obtainable = Yes
+|rewards = {{Coins|1,250}} & 2x {{SpinTicket|Spin Ticket}}
+}}
+{{Badge
+|title = Awakened (tH3 GL1tcH)
+|description = Complete the Fallen Hidden wave
+|image = Achievement
+|obtainable = Yes
+|rewards = {{Coins|2,000}}, {{Gem|150}} & 1x [[High Grade Crate]]
+}}
+{{Badge
+|title = Defeat Legacy Fallen King
+|description = The leader of the army.
+|rewards = {{Exp|250}}
+|image = FKBadge.png
+|obtainable = No
+}}
+{{Badge
+|title = Suspicious...
+|description = When the imposter is SUS! You have 1 minute...
+|rewards = {{Exp|150}}
+|image = AprilFoolsBadgeSus.png
+|obtainable = No
+}}
+{{Badge
+|title = Defeat Nuclear Fallen King
+|description = You took on the challenge and emerged victorious over the wastelands.
+|rewards = 1 [[Premium Crate|{{Color|Premium|Premium Crate}}]]
+|image = NFKBadge.png
+|obtainable = No
+}}
+{{Badge
+|title = Hidden Badge
+|description = ???
+|rewards = [[Glitchy Nametag]]
+|image = HiddenBadge2.png
+|obtainable = No
+}}
+{{Badge
+|title = Western Action
+|description = This town ain't big enough for the two of us pardner.. Triumph Badlands on Insane mode!
+|rewards = [[Cowboy]]
+|image = CBadge.png
+|obtainable = No
+}}
+
+===Seasons===
+During some [[Passes]], the '''Fallen''' mode could give currency rewards that you used to progress through a season. Rewards for all the seasons were calculated as:
+
+{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
+!Season
+!Rewards
 |-
-| 1 || $R$ || $R$ || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|[[End of Summer Season]]
+|{{Shells|250}} × (Waves/30)^1.75
 |-
-| 2 || $R$ || $R$ || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|[[Season of Love]]
+| {{LoveLetter|80}}<ref>Originally was {{LoveLetter|25}}</ref> × (Waves/30)^1.75
 |-
-| 3 || $R$ || $R$ || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|[[Solar Eclipse Event#Solar Eclipse Season|Solar Eclipse Season]]
+|{{SolarShard|35}} × (Waves/30)^1.75 
 |-
-| 4 || $R$ || $R$ || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|[[Frost Invasion Event#Frost Invasion Season|Frost Invasion Season]]
+|{{Shards|35}}<ref>Before 16th of May 2021, it was {{Shards|50}}.</ref> × (Waves/30)^1.75
 |-
-| 5 || $R$ || $R$ || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Battle Pass]]
+|{{Bell|14}}<ref>Before 18th of December 2024, the rewards were {{Bell|15}} per wave.</ref> per wave
+|-
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Battle Pass]]
+|{{DuckyEggs|13}} per wave
+|-
+|[[Surf & Turf Battle Pass]]
+|{{BeachBalls|13}} per wave
+|-
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Battle Pass]]
+|{{GumDrops|13}} per wave
+|-
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Battle Pass]]
+|{{PlushieSnowman|13}} per wave
+|-
+|[[Spring Frenzy Battle Pass]]
+|{{Bunz|13}} per wave
+|}
+
+==Enemies==
+{| class="empty-table pad-5 align-center" style="width:80%; margin:1em auto"
+|[[File:{{#choose:AbnormalFallen.png|AbnormalFallenAnim2.png}}|center|150px|link=Abnormal]]
+|[[File:QuickFallen.png|center|150px|link=Quick]]
+|[[File:FallenSkeletonEnemy.png|center|150px|link=Fallen Skeleton]]
+|[[File:FallenDreg.png|center|150px|link=Fallen Dreg]]
+|-
+|[[Abnormal]]<br/>Wave 1<br/>47 Total
+|[[Quick]]<br/>Wave 3<br/>20 Total
+|[[Fallen Skeleton]]<br/>Wave 5<br/>10+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Fallen Necromancer]].</ref>
+|[[Fallen Dreg]]<br/>Wave 7<br/>28 Total
+|-
+|[[File:CorpseEnemy.png|center|150px|link=Corpse (Enemy)]]
+|[[File:{{#choose:FallenSquire.png|FallenSquireAnim2.png|FallenSquireAnim3.png}}|center|150px|link=Fallen_Squire]]
+|[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
+|[[File:BreakerFallen.png|center|150px|link=Breaker]]
+|-
+|[[Corpse (Enemy)|Corpse]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by killing enemies with the [[Corpse (Attribute)|Corpse]] attribute.</ref><br/>28 Total
+|[[Fallen Squire]]<br/>Wave 9<br/>22 Total
+|[[Breaker2]]<br/>Wave 10<br/>137 Total
+|[[Breaker]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by the [[Breaker2]].</ref><br/>137 Total
+|-
+|[[File:FallenSoulRework.png|center|150px|link=Fallen Soul]]
+|[[File:{{#choose:FallenEnemyRework.png|FallenAnim2.png}}|center|150px|link=Fallen]]
+|[[File:Fallen giant.png|center|150px|link=Fallen Giant]]
+|[[File:{{#choose:Fallen hazmat.png|FallenHazmatAnim2.png|FallenHazmatAnim3.png}}|center|150px|link=Fallen Hazmat]]
+|-
+|[[Fallen Soul]]<br/>Wave 12<br/>44 Total
+|[[Fallen]]<br/>Wave 14<br/>15 Total
+|[[Fallen Giant]]<br/>Wave 16<br/>37+ Total<ref name="fksummon">Number is natural spawns. Number can be exceeded if spawned by the [[Fallen King]].</ref>
+|[[Fallen Hazmat]]<br/>Wave 17<br/>48 Total
+|-
+|[[File:Possesed armor.png|center|150px|link=Possessed Armor]]
+|[[File:FallenNecromancer.png|center|150px|link=Fallen Necromancer]]
+|[[File:{{#choose:CorruptedFallenAnim2.png|CorruptedFallen.png}}|center|150px|link=Corrupted Fallen]]
+|[[File:FallenSeraph.png|center|150px|link=Fallen Seraph]]
+|-
+|[[Possessed Armor]]<br/>Wave 19<br/>48+ Total<ref name="fssummon">Number is natural spawns. Number can be exceeded if spawned by the [[Fallen King]] or [[Fallen Summoner]].</ref>
+|[[Fallen Necromancer]]<br/>Wave 20<br/>15 Total
+|[[Corrupted Fallen]]<br/>Wave 21<br/>48+ Total<ref name="fksummon"/>
+|[[Fallen Seraph]]<br/>Wave 22<br/>36 Total
+|-
+|[[File:FallenJester.png|center|150px|link=Fallen Jester]]
+|[[File:NecroticSkeleton.png|center|150px|link=Necrotic Skeleton]]
+|[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
+|[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
+|-
+|[[Fallen Jester]]<br/>Wave 25<br/>6 Total
+|[[Necrotic Skeleton]]<br/>Wave 26<br/>19+ Total<ref name="fssummon"/>
+|[[Breaker4]]<br/>Wave 26<br/>39 Total
+|[[Breaker3]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by the [[Breaker4]].</ref><br/>117 Total
+|-
+|[[File:Fallen rusher.png|center|150px|link=Fallen Rusher]]
+|[[File:FallenHeroRework.png|center|150px|link=Fallen Hero]]
+|[[File:FallenShield.png|center|150px|link=Fallen Shield]]
+|[[File:FallenSummoner.png|center|150px|link=Fallen Summoner]]
+|-
+|[[Fallen Rusher]]<br/>Wave 28<br/>43 Total
+|[[Fallen Hero]]<br/>Wave 29<br/>64+ Total<ref name="fksummon"/>
+|[[Fallen Shield]]<br/>Wave 30<br/>6 Total
+|[[Fallen Summoner]]<br/>Wave 30<br/>8 Total
+|-
+|[[File:FallenAngel.png|center|150px|link=Fallen Angel]]
+|[[File:FallenHonorGuard.png|center|150px|link=Fallen Honor Guard]]
+|[[File:FallenTank.png|center|150px|link=Fallen Tank]]
+|[[File:ModernFallenGuardian.png|center|150px|link=Fallen Guardian]]
+|-
+|[[Fallen Angel]]<br/>Wave 33<br/>12 Total
+|[[Fallen Honor Guard]]<br/>Wave 35<br/>1 Total
+|[[Fallen Tank]]<br/>Wave 36<br/>4 Total
+|[[Fallen Guardian]]<br/>Wave 38<br/>4 Total
+|-
+|[[File:FallenKingRework.png|center|150px|link=Fallen King]]
+|-
+|[[Fallen King]]<br/>Wave 40<br/>1 Total
+|}
+
+==Wave Structure==
+Currently, '''Fallen Mode''' has two wave bonuses, based on the current wave. Between waves 1 to 30, the wave bonus is calculated as:
+:<big>{{Money|300}} + ([Waves Completed - 1] × {{Money|60}})^1.03</big>
+Between waves 31 and 40, it is calculated as:
+:<big>{{Money|300}} + ([Waves Completed - 1] × {{Money|60}})^1.07</big>
+Depending on player count, the wave bonus is reduced using multipliers. These multipliers are:
+{| class="wikitable pad-10 align-center" style="width:50%; margin:1em auto"
+!Players
+!Reduction per Player
+!Total Reduction
+|-
+|Solo
+|0%
+|0%
+|-
+|Duo
+|16%
+|32%
+|-
+|Trio
+|13%
+|39%
+|-
+|Quad
+|10%
+|40%
+|}
+For example, on Wave 2, the wave bonus is {{Money|367.84155407}}, rounded down to {{Money|367}}. The full number is used in the equation. In duo, it is {{Money|250}} ({{Money|367.84155407}} × 0.68), in trio, it is {{Money|224}} ({{Money|367.84155407}} × 0.61), while in quad it is {{Money|220}} ({{Money|367.84155407}} × 0.6). The wave clear bonus appears when every enemy from that wave was killed and no damage was dealt to the base health. It is 40% of the wave bonus in solo, while for duo, trio and quad it is 20%.
+
+Before 2nd of August 2024, the formula for calculating wave bonus on each wave was:
+:<big>({{Money|205}} + (Waves Completed - 1) × {{Money|50}}) × (1 - 0.1 × Players)</big>
+The wave clear bonus appears when every enemy from that wave was killed. It is 35% of the wave bonus in solo, while for duo, trio and quad it is 20%.
+
+Before 23rd of May 2024, the formula for calculating wave bonus on each wave is:   
+:<big>({{Money|180}} + ({{Money|50}} ×  Waves Completed)) ÷ Players</big>
+Before the [[Overhaul v1.0|Overhaul Update]], it was calculated as:
+:<big>({{Money|40}} - 4 × (Players - 1)) × Waves Completed</big>
+
+The waves in '''Fallen''' mode follow these timings:
+{| class="wikitable pad-10 align-center" style="width:50%; margin:1em auto"
+!Waves
+!Wave Timer
+!Skip Time<ref>How long you have to wait before you can skip.</ref>
+|-
+|1-15
+|1:00
+|0:20<ref name="t40">Skip at 0:40.</ref>
+|-
+|16
+|1:20
+|0:26<ref name="t54">Skip at 0:54.</ref>
+|-
+|17
+|1:00
+|0:20<ref name="t40"/>
+|-
+|18-19
+|1:15
+|0:25<ref name="t50">Skip at 0:50.</ref>
+|-
+|20-22
+|1:00
+|0:20<ref name="t40"/>
+|-
+|23
+|1:15
+|0:25<ref name="t50"/>
+|-
+|24
+|1:00
+|0:20<ref name="t40"/>
+|-
+|25
+|1:10
+|0:23<ref>Skip at 0:47.</ref>
+|-
+|26
+|1:15
+|0:25<ref name="t50"/>
+|-
+|27-29
+|1:00
+|0:20<ref name="t40"/>
+|-
+|30-34
+|1:20
+|0:26<ref>Skip at 0:54.</ref>
+|-
+|35
+|0:20
+|0:06<ref>Skip at 0:14.</ref>
+|-
+|36
+|0:35
+|0:11<ref>Skip at 0:24.</ref>
+|-
+|37
+|0:40
+|0:13<ref>Skip at 0:27.</ref>
+|-
+|38
+|3:00
+|1:00<ref>Skip at 2:00.</ref>
+|-
+|39
+|2:00
+|0:40<ref>Skip at 1:20.</ref>
+|-
+|40
+|∞
+|N/A
+|}
+
+'''Bolded''' names indicates an enemy type's debut.
+
+The total of enemies in '''Fallen''' Mode excluding summoned enemies is 854 enemies.
+
+For former wave structures of '''Fallen''' mode, visit the [[Fallen Mode/Waves|Waves]] page.
+
+<div class="mw-collapsible mw-collapsed">
+<div class="sectionheader">'''Wave Structure'''</div>
+<div class="ContainerColumn mw-collapsible-content">
+{| class="wikitable pad-10" style="width:100%; text-align: center;"
+!Wave
+! colspan="2" |[[Commander (Narrator)|Commander]] Dialogue
+!Enemy Type & Amount
+|-
+| rowspan="2" |1
+| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
+|Commander, enemies have been detected in this area. Intel reports mention something called "The Fallen." I need you to secure the perimeter and report back what you find.<br/>[[File:FallenWave1-1.ogg|300px]]
+| rowspan="2" |5x '''[[Abnormal]]'''
+|-
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Yes Ma'am!<br/>[[File:FallenWave1-2.ogg|300px]]
+|-
+|2
+| colspan="2" | -
+|8x [[Abnormal]]
+|-
+| rowspan="2" |3
+| style="width:75px;" |[[File:REWCommanderScared.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Dispatcher, these aren't your normal enemies. It' like they're wearing some kind of ancient armor!!<br/>[[File:FallenWave3-1.ogg|300px]]
+| rowspan="2" |1x '''[[Quick]]''', 2x [[Abnormal]], 1x [[Quick]], 2x [[Abnormal]], 1x [[Quick]], 2x [[Abnormal]], 1x [[Quick]]
+|-
+| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
+|From what little we know, the Fallen are highly organized. Treat them as hostile and keep your distance until we know more.<br/>[[File:FallenWave3-2.ogg|300px]]
+|-
+|4
+| colspan="2" | -
+|8x [[Quick]], 8x [[Abnormal]]
+|-
+|5
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Look at that rust! I can only imagine how old these guys might be.<br/>[[File:FallenWave5-1.ogg|300px]]
+|3x '''[[Fallen Skeleton]]''', 5x [[Abnormal]], 5x [[Quick]]
+|-
+|6
+| colspan="2" | -
+|5x [[Fallen Skeleton]]
+|-
+| rowspan="2" |7
+| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
+|Watch out, Commander, those Dregs will leave a corpse behind if their flames go out.<br/>[[File:FallenWave7-1.ogg|300px]]
+| rowspan="2" |1x '''[[Fallen Dreg]]''', 9x [[Abnormal]] ([[Bloated]]), 3x [[Quick]] ([[Nimble]])
+|-
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Got it!<br/>[[File:FallenWave7-2.ogg|300px]]
+|-
+|8
+| colspan="2" | -
+|1x [[Fallen Dreg]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]]
+|-
+|9
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Agh! That Squire has aggro and is pulling our attention! We can't target anything else!<br/>[[File:FallenWave9-1.ogg|300px]]
+|1x '''[[Fallen Squire]]''' ([[Boss]], [[Aggro]]), 3x [[Abnormal]], 3x [[Abnormal]] ([[Bloated]]), 2x [[Fallen Skeleton]], 2x [[Fallen Skeleton]] ([[Bloated]])
+|-
+|10
+| colspan="2" | -
+|1x [[Fallen Dreg]], 1x '''[[Breaker2]]''', 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]], 1x [[Breaker2]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]]
+|-
+| rowspan="2" |11
+|[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]
+|There's a lot of Hidden enemies ahead of you. Make sure none slip by.<br/>[[File:FallenWave11-1.ogg|300px]]
+| rowspan="2" |1x [[Fallen Squire]] ([[Aggro]]), 3x [[Fallen Dreg]], 3x [[Fallen Skeleton]], 3x [[Breaker2]]
+|-
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Already on it!<br/>[[File:FallenWave11-2.ogg|300px]]
+|-
+|12
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Man, I'm shivering! When did it get so cold?<br/>[[File:FallenWave12-1.ogg|300px]]
+|11x '''[[Fallen Soul]]'''
+|-
+|13
+| colspan="2" | -
+|5x [[Fallen Skeleton]], 2x [[Fallen Dreg]], 1x [[Fallen Dreg]] ([[Bloated]]), 1x [[Fallen Squire]] ([[Nimble]])
+|-
+|14
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|I can tell these guys are getting tougher. Keep your eyes open; we're not out of the woods yet.<br/>[[File:FallenWave14-1.ogg|300px]]
+|6x [[Breaker2]], 6x [[Fallen Soul]], 3x '''[[Fallen]]'''
+|-
+|15
+| colspan="2" | -
+|8x [[Fallen Skeleton]], 1x [[Fallen Squire]] ([[Aggro]]), 4x [[Breaker2]], 1x [[Fallen]], 1x [[Fallen Squire]] ([[Aggro]])
+|-
+| rowspan="3" |16
+| style="width:75px;" |[[File:REWCommanderScared.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|The ground is starting to shake! Tell me what's going on!<br/>[[File:FallenWave16-1.ogg|300px]]
+| rowspan="2" |5x [[Fallen Dreg]], 4x [[Fallen Soul]], 3x [[Fallen]], 2x [[Fallen Squire]], 1x '''[[Fallen Giant]]''' ([[Boss]])
+|-
+| style="width:75px;" |[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]
+|There's a Fallen Giant up ahead! They're sending in more units too!<br/>[[File:FallenWave16-2.ogg|300px]]
+|-
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Everyone hold your ground!<br/>[[File:FallenWave16-3.ogg|300px]]
+|-
+|17
+| colspan="2" | -
+|3x '''[[Fallen Hazmat]]''', 1x [[Fallen]], 3x [[Fallen Hazmat]], 1x [[Fallen]]
+|-
+|18
+| colspan="2" | -
+|1x [[Fallen Giant]], 7x [[Fallen Hazmat]]
+|-
+|19
+| colspan="2" | -
+|3x [[Fallen Squire]] ([[Nimble]]), 10x [[Fallen Dreg]], 4x [[Fallen]], 8x [[Fallen Soul]] ([[Bloated]]), 1x '''[[Possessed Armor]]'''
+|-
+| rowspan="2" |20
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|I'm seeing more Fallen Squires!<br/>[[File:FallenWave20-1.ogg|300px]]
+| rowspan="2" |6x [[Fallen]], 5x [[Fallen Hazmat]], 8x [[Fallen Skeleton]], 3x [[Fallen Squire]] ([[Aggro]]), 1x '''[[Fallen Necromancer]]''' ([[Freeze Immunity|Freeze Immune]], [[Nimble]])
+|-
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|This is looking too coordinated for a random attack.<br/>[[File:FallenWave20-2.ogg|300px]]
+|-
+|21
+| colspan="2" | -
+|1x '''[[Corrupted Fallen]]''', 5x [[Breaker2]], 3x [[Fallen Squire]], 8x [[Fallen Soul]], 2x [[Possessed Armor]], 1x [[Corrupted Fallen]]
+|-
+|22
+| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
+|Look up, Commander. There's Fallen Seraphs above you scouting out your position!<br/>[[File:FallenWave22-1.ogg|300px]]
+|3x [[Corrupted Fallen]], 2x [[Fallen Squire]] ([[Nimble]]), 1x [[Fallen Squire]] ([[Bloated]], [[Nimble]]), 5x '''[[Fallen Seraph]]'''
+|-
+|23
+| colspan="2" | -
+|1x [[Fallen Squire]] ([[Bloated]], [[Aggro]]), 5x [[Fallen Seraph]], 1x [[Fallen Squire]] ([[Bloated]], [[Aggro]]), 1x [[Fallen Necromancer]] ([[Nimble]]), 1x [[Fallen Squire]] ([[Bloated]], [[Aggro]]), 5x [[Fallen Hazmat]] ([[Nimble]])
+|-
+|24
+| colspan="2" | -
+|7x [[Fallen Soul]] ([[Bloated]]), 1x [[Possessed Armor]], 4x [[Fallen Hazmat]], 1x [[Possessed Armor]], 2x [[Corrupted Fallen]] ([[Hidden (Attribute)|Hidden]]), 1x [[Possessed Armor]]
+|-
+| rowspan="2" |25
+| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
+|Commander, those Jesters aren't throwing normal presents. Each one strengthens the enemies around it!<br/>[[File:FallenWave25-1.ogg|300px]]
+| rowspan="2" |1x [[Possessed Armor]] ([[Aggro]]), 6x [[Fallen Hazmat]] ([[Nimble]]), 3x [[Corrupted Fallen]], 3x [[Fallen Giant]], 1x '''[[Fallen Jester]]''' ([[Boss]])
+|-
+|[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Take him out before you're overwhelmed!<br/>[[File:FallenWave25-2.ogg|300px]]<ref>This dialogue incorrectly used Commander appearance</ref>
+|-
+|26
+| colspan="2" | -
+|1x '''[[Necrotic Skeleton]]''' ([[Bloated]]), 2x [[Fallen Giant]], 1x [[Fallen Giant]] ([[Bloated]]), 8x '''[[Breaker4]]'''
+|-
+|27
+| colspan="2" | -
+|1x [[Fallen Giant]] ([[Bloated]]), 3x [[Necrotic Skeleton]], 3x [[Possessed Armor]], 8x [[Fallen Seraph]] ([[Bloated]]), 1x [[Fallen Necromancer]] ([[Bloated]], [[Nimble]])
+|-
+| rowspan="2" |28
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Get out of the way! They're running right at us!<br/>[[File:FallenWave28-1.ogg|300px]]
+| rowspan="2" |7x '''[[Fallen Rusher]]'''
+|-
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Maybe we can stop their charge if we break the shields!<br/>[[File:FallenWave28-2.ogg|300px]]
+|-
+|29
+| colspan="2" | -
+|1x [[Fallen Rusher]], 4x [[Corrupted Fallen]], 10x [[Breaker4]], 8x [[Fallen Hazmat]], 1x '''[[Fallen Hero]]''' ([[Bloated]]), 9x [[Fallen Seraph]]
+|-
+|30
+| style="width:75px;" |[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]
+|Woah… I didn't think the Fallen could use war tactics. They have a Shield in front protecting a Summoner behind it. Just who are these guys?<br/>[[File:FallenWave30-1.ogg|300px]]
+|3x [[Fallen Rusher]], 5x [[Corrupted Fallen]], 4x [[Fallen Giant]], 1x [[Fallen Necromancer]] ([[Bloated]]), 1x '''[[Fallen Shield]]''' ([[Boss]]), 5x [[Necrotic Skeleton]], 1x '''[[Fallen Summoner]]'''
+|-
+|31
+| colspan="2" | -
+|2x [[Fallen Hero]], 1x [[Fallen Giant]] ([[Bloated]]), 2x [[Fallen Hero]], 1x [[Fallen Giant]] ([[Bloated]]), 2x [[Fallen Hero]], 1x [[Fallen Giant]] ([[Bloated]]), 7x [[Fallen Hazmat]] ([[Bloated]], [[Nimble]]), 3x [[Possessed Armor]], 4x [[Corrupted Fallen]], 2x [[Fallen Necromancer]] ([[Nimble]]), 1x [[Fallen Summoner]] ([[Nimble]])
+|-
+|32
+| colspan="2"  | -
+|1x [[Fallen Shield]] ([[Nimble]]), 5x [[Fallen Rusher]], 6x [[Breaker4]], 2x [[Fallen Jester]], 4x [[Fallen Hero]]
+|-
+| rowspan="2" |33
+| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|What… are those? It looks like they're healing themselves.<br/>[[File:FallenWave33-1.ogg|300px]]
+| rowspan="2" |1x [[Necrotic Skeleton]] ([[Nimble]]), 7x [[Corrupted Fallen]], 3x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 3x [[Fallen Necromancer]] 9x [[Fallen Seraph]] ([[Nimble]]), 9x [[Fallen Seraph]] ([[Bloated]]), 1x '''[[Fallen Angel]]''' ([[Boss]], [[Bloated]])
+|-
+| style="width:75px;" |[[File:DispatcherThinking2.gif|thumb|center|75px|[[Dispatcher]]]]
+|Fallen Angels. They really make you wonder what else might be out there, huh?<br/>[[File:FallenWave33-2.ogg|300px]]
+|-
+|34
+| colspan="2" | -
+|1x [[Fallen Shield]] ([[Bloated]]), 1x [[Necrotic Skeleton]], 2x [[Fallen Hero]], 1x [[Fallen Hero]] ([[Bloated]]), 3x [[Fallen Rusher]], 1x [[Necrotic Skeleton]], 2x [[Fallen Hero]], 1x [[Fallen Hero]] ([[Bloated]]), 3x [[Fallen Rusher]], 1x [[Fallen Summoner]] ([[Bloated]], [[Nimble]])
+|-
+| rowspan="2" |35
+| style="width:75px;" |[[File:REWCommanderScared.gif|center|thumb|75px|[[Commander (Narrator)|Commander]]]]
+|Oh man, what is that thing?! It's even got reinforcements!<br/>[[File:FallenWave35-1.ogg|300px]]
+| rowspan="2" |1x [[Necrotic Skeleton]] ([[Bloated]], [[Nimble]]), 9x [[Breaker4]] ([[Bloated]], [[Nimble]]), 5x [[Fallen Hero]] ([[Bloated]]), 3x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 2x [[Fallen Necromancer]] ([[Nimble]]), 1x [[Fallen Necromancer]] ([[Nimble]], [[Bloated]]), 1x '''[[Fallen Honor Guard]]''' ([[Boss]])
+|-
+| style="width:75px;" |[[File:DispatcherSneaky.gif|center|thumb|75px|[[Dispatcher]]]]
+|According to V's notes, that's the Fallen's most honored. They leave a trail of magic behind them that speeds up any enemy that steps on it!<br/>[[File:FallenWave35-2.ogg|300px]]
+|-
+|36
+| colspan="2" | -
+|4x [[Fallen Giant]] ([[Aggro]]), 8x [[Corrupted Fallen]], 10x [[Fallen Hero]], 1x '''[[Fallen Tank]]'''
+|-
+|37
+| colspan="2" | -
+|10x [[Corrupted Fallen]] ([[Bloated]]), 4x [[Fallen Hero]], 1x [[Fallen Necromancer]] ([[Nimble]], [[Health Regen]]), 5x [[Possessed Armor]], 4x [[Fallen Hero]], 1x [[Fallen Necromancer]] ([[Nimble]], [[Health Regen]]), 5x [[Possessed Armor]], 4x [[Fallen Hero]], 1x [[Fallen Necromancer]] ([[Nimble]], [[Health Regen]]), 5x [[Possessed Armor]], 3x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 2x [[Fallen Angel]], 1x [[Fallen Angel]] ([[Bloated]]), 2x [[Fallen Summoner]] ([[Bloated]], [[Nimble]])
+|-
+| rowspan="2" |38
+|[[File:DispatcherAggressive.gif|center|thumb|75px|[[Dispatcher]]]]
+|If that Fallen Guardian is here, that could only mean the King is nearby. Commander, please be careful.<br/>[[File:FallenWave38-1.ogg|300px]]
+| rowspan="2" |1x [[Fallen Shield]] ([[Nimble]]), 3x [[Necrotic Skeleton]] ([[Nimble]]), 2x [[Possessed Armor]] ([[Bloated]]), 4x [[Possessed Armor]], 2x [[Possessed Armor]] ([[Bloated]]), 4x [[Possessed Armor]], 2x [[Possessed Armor]] ([[Bloated]]), 7x [[Fallen Rusher]], 5x [[Fallen Hero]], 3x [[Fallen Hero]] ([[Bloated]]), 5x [[Fallen Angel]], 1x '''[[Fallen Guardian]]''' ([[Nimble]]), 1x [[Fallen Tank]]
+|-
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|Don't worry. We don't plan on going down that easily.<br/>[[File:FallenWave38-2.ogg|300px]]
+|-
+|39
+| colspan="2" | -
+|1x [[Fallen Tank]], 6x [[Fallen Rusher]], 6x [[Breaker4]] ([[Nimble]]), 1x [[Fallen Shield]] ([[Bloated]]), 7x [[Fallen Hero]], 5x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 3x [[Fallen Jester]], 1x [[Fallen Guardian]], 1x [[Fallen Summoner]] ([[Nimble]])
+|-
+| rowspan="3" |40
+| style="width:75px;" |[[File:DispatcherAggressive.gif|thumb|center|75px|[[Dispatcher]]]]
+|There's the Fallen King!<br/>[[File:FallenWave40-1.ogg|300px]]
+| rowspan="3" |1x [[Fallen Shield]] ([[Bloated]], [[Nimble]]), 4x [[Fallen Rusher]], 3x [[Necrotic Skeleton]] ([[Bloated]], [[Nimble]]), 4x [[Fallen Rusher]], 1x [[Fallen Tank]], 6x [[Possessed Armor]], 5x [[Fallen Hero]], 3x [[Fallen Giant]] ([[Bloated]]), 3x [[Fallen Angel]], 1x [[Fallen Summoner]] ([[Bloated]], [[Nimble]]), 2x [[Fallen Guardian]], 1x '''[[Fallen King]]''', 1x [[Fallen Summoner]]
+|-
+|[[File:DispatcherAggressive.gif|center|thumb|75px|[[Dispatcher]]]]
+|He'll be calling in reinforcements! Watch yourself out there, Commander!<br/>[[File:FallenWave40-2.ogg|300px]]
+|-
+| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
+|This is our last stand! Lets give it everything we got!<br/>[[File:FallenWave40-3.ogg|300px]]
+|-
+! colspan="4" |Lose Dialogue
+|-
+| colspan="2" |[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
+| colspan="2" |One icon and dialogue is randomly chosen upon defeat:
+•We're toast!<br />•OOF!<br />•Mission Failed, we'll get em' next time.<br />•Not enough numbers!<br />•Mistakes are just part of the journey..<br />•We're overrun chief!<br />•We'll get them next time!<br />•Don't give up!<br />•We need back up sergeant!<br />•We just had our grave dug..<br />•We have to fall back soldier!<br />•Oops! Try again!<br />•The enemies got to the base!<br />•Strategy is key!
 |}
 </div>
-</nowiki>}}
+</div>
 
-==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
-!
-|[[File:WDDefaultCowboyIcon.png|175px]]
-|[[File:WDPumpkinCowboyIcon.png|175px]]
-|[[File:WDRedemptionCowboyIcon.png|175px]]
-|[[File:WDBanditCowboyIcon.png|175px]]
-|-
-!Skin
-|Default
-|{{Color|Halloween2019|Pumpkin}}
-|{{Color|Premium|Redemption}}
-|{{Color|Premium|Bandit}}
-|-
-!Rarity
-|{{Color|Common}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|5,000}}
-|{{Robux|120}}
-|{{Robux|120}}
-|-
-!Obtained From
-|Owning [[Cowboy]]
-|[[Halloween Crate]]<br/>[[Pumpkin Crate]]<br/>[[Halloween 2019 Crate]]
-|[[Premium Crate]]
-|[[Premium Crate]]
-|-
-!
-|[[File:NewKasodusCowboyIcon.png|175px]]
-|[[File:WDValentinesCowboyIcon.png|175px]]
-|[[File:CopCowboyIcon.png|175px]]
-|[[File:NoirCowboyIcon.png|175px]]
-|-
-!Skin
-|{{Color|Premium|Kasodus}}
-|{{Color|Lovely|Valentines}}
-|{{Color|Premium|Cop}}
-|{{Color|Deluxe|Noir}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Uncommon}}
-|{{Color|Rare}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|{{Robux|360}}
-|{{Robux|105}}
-|{{Coins|5,500}}
-|{{Robux|85}}
-|-
-!Obtained From
-|[[Premium Crate]]<br/>[[Codes|Code]]:<br/>DOUBLEBLOXIES<ref>Expired</ref>
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
-|[[Premium Crate]]
-|[[Deluxe Crate]]
-|-
-!
-|[[File:CyberpunkCowboy.png|175px]]
-|[[File:RetiredCowboyIcon.png|175px]]
-|[[File:BadlandsCowboyIcon.png|175px]]
-|[[File:AgentCowboyIcon.png|175px]]
-|-
-!Skin
-|{{Color|Deluxe|Cyberpunk}}
-|{{Color|Deluxe|Retired}}
-|{{Color|Other|Badlands}}
-|{{Color|Premium|Agent}}
-|-
-!Rarity 
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Exclusive}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|560}}
-|{{Robux|560}}
-|N/A 
-|{{Robux|190}}
-|-
-! Obtained From
-|[[Deluxe Crate]]
-|[[Deluxe Crate]]
-|[[Badges|Quickdraw! Badge]]<ref>Triumph [[Badlands II]] in under 16 minutes.</ref>
-|[[Premium Crate]]<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
-|-
-!
-|[[File:HolidayCowboyIcon.png|175px]]
-|[[File:DuckyCowboyIcon.png|175px]]
-|[[File:BountyHunterCowboyIcon.png|175px]]
-|[[File:MasqCowboyIcon.png|175px]]
-|-
-!Skin
-|{{Color|Jolly|Holiday}}
-|{{Color|Ducky|Ducky}}
-|{{Color|Deluxe|Bounty Hunter}}
-|{{Color|Lunar|Masquerade}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|{{Coins|5,000}}
-|{{Coins|4,000}}
-|{{Robux|560}}
-|N/A
-|-
-! Obtained From
-|[[Jolly Crate]]<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
-|[[Ducky Crate]]
-|[[Deluxe Crate]]
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|-
-!
-|[[File:FallenCowboyIconIG.png|175px]]
-|[[File:PlushieCowboyIconIG.png|175px]]
-|[[File:MegalodonCowboy.png|175px]]
-|[[File:DarkFrostCowboyIconIG.png|175px]]
-|-
-!Skin
-|{{Color|FallenMission|Fallen}}
-|{{Color|Other|Plushie}}
-|{{Color|ContentCreator|MegaBit}}
-|{{Color|OperationICE|Dark Frost}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Exclusive}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Coins|3,000}}
-|N/A
-|-
-!Obtained From
-|''Condemned Vigilante'' [[Mission Quests|Mission Quest]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Cowboy Plush]].</ref>
-|[[Daily Store]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|-
-!
-|[[File:SpringTimeCowboyIconIG.png|175px]]
-|[[File:MechaBunnyCowboyIconIG.png|175px]]
-|[[File:VampireHunterCowboyIconIG.png|175px]]
-|[[File:ShamrockCowboyIconIG.png|175px]]
-|-
-!Skin
-|{{Color|DuckyRevenge|Spring Time}}
-|{{Color|Other|Mecha Bunny}}
-|{{Color|Null|Vampire Hunter}}
-|{{Color|Shamrock|Shamrock}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Code obtained by purchasing a [[Mecha Bunny + Nerd Ducky Mini Plush]].</ref>
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
-|[[Shamrock Crate]]
-|-
-!
-|[[File:PatrioticCowboyIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Patriotic}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|N/A
-|-
-!Obtained From
-|[[Patriotic Crate]]
-|}
+==Soundtracks==
+{{Soundtrack|
+{{GalleryHeader|Wave 1-9, Wave 10-15 & Wave 16-22}}<br/>These soundtracks can be randomly chosen to play between these waves. Used to play between Waves 1-7, Waves 8-11 and Waves 12-15.
+<gallery>
+(Official) Tower Defense Simulator OST - Into The Void
+(Official) Tower Defense Simulator OST - Melancholy Hill
+(Official) Tower Defense Simulator OST - Rebelution
+(Official) Tower Defense Simulator OST - Rain Dance
+(Official) Tower Defense Simulator OST - The Horde
+</gallery>
 
-==Strategy==
-*The '''Golden Cowboy''' is a great all-round tower, being able to handle earlier waves and later waves on most gamemodes.
-**Early on during the game, you may want to place down multiple Level 0 '''Golden Cowboys''' because of their low price.
-***Due to its low placement limit of 12, it is unable to deal with the later waves on its own in terms of DPS, though its money generation can still be effective in the later waves.
-*The '''Golden Cowboy''' generates a specified amount of money every sixth shot from Levels 0-3 and every twelfth shot at Levels 4-5.
-**Later on during the game, higher level '''Golden Cowboys''' will be able to earn lots of money from enemies, being on par with the [[Farm]], and even outperforming it.
-**If you want to use this tower for farming early on, multiple Level 2 '''Golden Cowboys''' can be quite effective at generating money.
-***The amount of cash earned can be increased even further with the [[Commander]] and [[Cooldown Flag]] [[Firerate Buff]].
-***Enemies summoned by other enemies or sent by players do not count for cash shot.
-****Any enemy that the game does not consider a summoned enemy can still be generated cash from. This includes actually summoned enemies that the game does not consider summoned, like the [[Slime]] from the [[Slime (Attribute)|Slime]], or enemies converted in a way that makes them look like a summoned enemy, such as [[Corpse (Attribute)|Corpses]].
-***Additionally, you can increase the money earned by the '''Golden Cowboy''' by placing it near the start of the path, ensuring that no other towers can damage enemies before the '''Golden Cowboy'''.
-***While the '''Golden Cowboy''' cannot damage lead enemies, like the [[Lead]], shots towards these enemies will contribute to the '''Golden Cowboy's''' cash shot.
-*The [[DJ Booth]] can be very useful at decreasing the '''Golden Cowboy's''' high upgrade costs.
-**It can also be useful for further increasing its high range.
+{{GalleryHeader|Wave 23-29}}<br/>These soundtracks can be randomly chosen to play between these waves. Used to play between Waves 16-23 and Waves 24-31.
+<gallery>
+(Official) Tower Defense Simulator OST - Shellshock|YouTube Upload
+Tower Defense Simulator OST - Shellshock In-Game|In-Game Version
+(Official) Tower Defense Simulator OST - Neuro Raze
+(Official) Tower Defense Simulator OST - Art Of War
+(Official) Tower Defense Simulator OST - Fill Them With Lead
+</gallery>
 
-== Trivia==
-*The two former descriptions for the '''Golden Cowboy''' are incorrect, as the '''Golden Cowboy''' generates money every sixth or twelfth shot, instead of fifth or eighth.
-**This is because the description is referring to previous versions of the normal [[Cowboy]], though these are outdated even for it.
-*The Level 5 upgrade name, ''Wildest Of The West'', is a reference to the [[Cowboy]]'s old ability, ''Wildest of The West'' which it gained at Level 5 before the [[Overhaul v1.0|Overhaul Update]].
-*The '''Golden Cowboy''' is the first golden perk to give a tower a placement limit.
+{{GalleryHeader|Wave 30-34 & 35-39}}<br/>These soundtracks can be randomly chosen to play between these waves. Used to play between Waves 32-39.
+<gallery>
+(Official) Tower Defense Simulator OST - Catharsis
+(Official) Tower Defense Simulator OST - Desolate Dystopia
+(Official) Tower Defense Simulator OST - Portal To Hell
+</gallery>
+
+{{GalleryHeader|Final Wave}}<br/>These soundtracks are or were played on the final wave.
+<gallery>
+(Official) Tower Defense Simulator OST - Void Steps (Fallen King Theme)|Current (29 July 2022 – Present)
+(Official) Tower Defense Simulator OST - Fallen Boss|First version (13 October 2019 – 29 July 2022)
+</gallery>
+
+{{GalleryHeader|Wave 41}}<br/>This soundtrack plays on this wave.
+<gallery>
+(Official) Tower Defense Simulator OST - Eye Of The Swarm
+</gallery>
+
+{{GalleryHeader|Hidden Wave}}<br/>These soundtracks are or were played during the [[Hidden Wave]].
+<gallery>
+(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|Current, YouTube Upload (2 August 2024 – Present)
+Tower Defense Simulator OST - Equinox In-Game Version|Current, In-Game Version (2 August 2024 – Present)
+(Official) Tower Defense Simulator OST - Hidden Wave|First Version (25 November 2019 – 4 December 2021)
+Tower Defense Simulator OST - Hidden Wave Intro|First Version's Intro (25 November 2019 – 4 December 2021)
+</gallery>
+}}
+
+==Gallery==
+{{Gallery|Open = Yes|
+{{GalleryHeader|Icons}}
+<gallery>
+FallenHiddenWaveIcon.png|Current '''Fallen''' Mode Icon ([[Hidden Wave]])
+FallenModeIconRework.png|Current '''Fallen''' Mode Icon
+FallenModeIcon2.png|Version 5 '''Fallen''' Mode Icon
+FallenModeIcon.png|Version 4 '''Fallen''' Mode Icon
+NewFallenMode.png|Version 3 '''Fallen''' Mode Icon
+FallenMode.png|Version 2 '''Fallen''' Mode Icon
+04FE63A0-A40D-432A-A5B5-ACD0E51664FD.jpeg|Version 1 '''Insane''' Mode Icon
+</gallery>
+
+{{GalleryHeader|Medals}}
+<gallery>
+FallenHardcoreIcon.png|Current '''Fallen''' Mode Icon
+FallenMedal.png|Version 2 '''Fallen''' Mode Icon
+Platinum-Medal.png|Version 1 '''Insane''' Mode Icon
+</gallery>
+}}
+
+==Trivia==
+*The [[Hidden Wave (Legacy)|Legacy Hidden Wave]] could have been activated in '''Fallen''' mode by beating the game in 1,009 seconds (16:49) or under.
+*Originally, another theme was supposed to play in the late game waves of this mode,<ref>https://discord.com/channels/587355301083349002/892156782347161690/1340572588975460383 (Tower Defense Simulator Server)</ref> that being '''Duality'''. However, the loop audio was not accepted by Roblox as it was deemed too "''high pitched''".<ref>https://discord.com/channels/587355301083349002/587355301674614854/1277699028523548734 (Tower Defense Simulator Server)</ref> Only the intro got accepted.<ref>https://create.roblox.com/store/asset/18741907954</ref>
+**The only time the track was played was in the trailer for '''Fallen''' mode.
 
 ==Update History==
-''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{scroll|text =
-*'''13 May 2022''' - [[v1.2.2]]
-**'''Golden Cowboy''' added, replacing the {{Color|Golden}} [[Cowboy]] skin buffs.
-*'''30 September 2022''' - [[v1.4.0]]
-**No longer gives a random amount of cash, now gives a set amount of cash.
-**Amount of cash generated no longer increases with each wave, now increases with Levels.
-**Now shows the amount of shots needed for it to generate cash.
-**Now spins its guns when generating cash, which prevents it from attacking.
-**{{Color|Other|Kasodus}} skin now has rarity.
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 4 to 3.
-****Range decreased from 14 to 13.
-****Firerate decreased from 1.525 to 1.025.
-****Spin Time of 1.7 added.
-****Now generates {{Money|35}} cash instead of a random amount which increases with each wave.
-***'''Level 1'''
-****Cost increased from {{Money|250}} to {{Money|300}}.
-****Firerate changed from {{Tooltip|1.525 > 1.325|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
-****Renamed from ''Quick Shot'' to ''Steady Hand''.
-***'''Level 2'''
-****Cost increased from {{Money|300}} to {{Money|400}}.
-****Damage increased from +0 to +2.
-****Range increased from +0 to +3.
-****Cash shot changed from 6 > 4 to 6.
-****Income now changes from {{Money|35}} > {{Money|65}}.
-****Renamed from ''Gold Shot'' to ''Lucky Shot''.
-***'''Level 3'''
-****Damage increased from +4 to +7.
-****Range increased from +2 to +4.
-****Firerate changed from {{Tooltip|1.325 > 1.025|-0.3}} to {{Tooltip|0.825 > 0.625|-0.2}}.
-****Spin Time now changes from 1.7 > 1.3.
-****Renamed from ''Dualling Instincts'' to ''Faster Instincts''.
-***'''Level 4'''
-****Damage decreased from +7 to +3.
-****Firerate changed from {{Tooltip|1.025 > 0.575|-0.45}} to {{Tooltip|0.625 > 0.375|-0.25}}.
-****Income now changes from {{Money|65}} > {{Money|90}}.
-***'''Level 5'''
-****Cost increased from {{Money|11,500}} to {{Money|12,000}}.
-****Damage increased from +10 to +15.
-****Firerate changed from {{Tooltip|0.575 > 0.425|-0.15}} to 0.375.
-****Income now changes from {{Money|90}} > {{Money|120}}.
-****Spin Time now changes from 1.3 > 1.
-****Renamed from ''Gunslinger of Death'' to ''Outlawed''.
-**New skins: {{Color|Premium|Cop}}, {{Color|Philips|Agent}}, {{Color|Deluxe|Noir}}, {{Color|Deluxe|Cyberpunk}}, {{Color|Deluxe|Retired}}, {{Color|Other|Badlands}}
-*'''4 October 2022''' - [[v1.4.0]]b
-**Statistical changes:
-***'''Level 3'''
-****Cost increased from {{Money|1,750}} to {{Money|2,150}}.
-*'''31 October 2022''' - [[v1.4.2]]
-**Statistical changes:
-***'''Level 2'''
-****Cost increased from {{Money|400}} to {{Money|450}}.
-***'''Level 3'''
-****Cost increased from {{Money|2,150}} to {{Money|2,250}}.
-*'''21 December 2022''' - [[v1.6.0]]
-**Skin rarity added to all skins.
-**{{Color|Premium|Bandit}} skin rarity changed from {{Color|Uncommon}} to {{Color|Rare}}.
-**{{Color|Premium|Redemption}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
-**{{Color|Premium|Kasodus}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
-**New skin: {{Color|ViolentNight|Holiday}}
-*'''14 February 2023''' - [[v1.6.2]]
-**{{Color|Lovely|Valentines}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
-*'''7 April 2023''' - [[v1.7.0]]
-**You can now see '''Golden Cowboy's''' cash shot when you hover your cursor over it.
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 3 to 2.
-****Firerate decreased from 1.025 to 0.725.
-****Range decreased from 13 to 12.
-****Income decreased from {{Money|35}} to {{Money|25}}.
-***'''Level 1'''
-****Damage increased from +0 to +1.
-****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to 0.725.
-****Cost decreased from {{Money|300}} to {{Money|250}}.
-***'''Level 2'''
-****Range decreased from +3 to +2.
-****Firerate changed from 0.825 to {{Tooltip|0.725 > 0.625|-0.1}}.
-****Damage decreased from +2 to +1.
-****Income changed from {{Money|35}} > {{Money|65}} to {{Money|25}} > {{Money|40}}.
-****Cost increased from {{Money|450}} to {{Money|500}}.
-***'''Level 3'''
-****Damage decreased from +7 to +6.
-****Firerate changed from {{Tooltip|0.825 > 0.625|-0.2}} to {{Tooltip|0.625 > 0.525|-0.1}}.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|0.625 > 0.375|-0.25}} to {{Tooltip|0.525 > 0.3|-0.225}}.
-****Damage decreased from +3 to +2.
-****Cash shot changed from 6 to 6 > 12.
-****Income changed from {{Money|65}} > {{Money|90}} to {{Money|40}} > {{Money|65}}.
-****Cost increased from {{Money|5,500}} to {{Money|6,650}}.
-***'''Level 5'''
-****Damage decreased from +15 to +8.
-****Income changed from {{Money|90}} > {{Money|120}} to {{Money|65}} > {{Money|100}}.
-****Renamed from ''Outlawed'' to ''Gold Rush''.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''5 August 2023''' - [[v1.8.4]]
-**Statistical changes:
-***'''Level 1'''
-****Name changed from ''Steady Hand'' to ''Headshot Practice''.
-***'''Level 2'''
-****Income changed from {{Money|25}} > {{Money|40}} to {{Money|25}} > {{Money|45}}.
-****Name changed from ''Lucky Shot'' to ''Gold Shot''.
-***'''Level 4'''
-****Income changed from {{Money|40}} > {{Money|65}} to {{Money|45}} > {{Money|115}}.
-***'''Level 5'''
-****Income changed from {{Money|65}} > {{Money|100}} to {{Money|115}} > {{Money|160}}.
-****Name changed from ''Gold Rush'' to ''Wildest Of The West''.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**'''Insane''' mode added.
+*'''14 October 2019''' - [[Release v1.0|Release v1.0.1]]
+**Shared cash of 50% added.
+*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
+**[[Hidden Wave (Legacy)|Hidden Wave]] added.
+**Wave structure changed.
+*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
+**Name changed from '''Insane''' mode to '''Fallen''' mode.
+**New icons.
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Wave structure changed.
+**Shared cash decreased from 50% to 25%.
+*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
+**New medal icon.
+*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
+**Wave structure changed.
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**Wave structure changed.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Wave structure changed.
+**Dialogue added.
+**Wave bonus formula changed.
+**{{Coins|Coins}} and {{Exp|}} rewards formula changed.
+**New medal icon.
+**New mode icon.
+**Final wave music now plays when the first [[Fallen Guardian (Legacy)|Fallen Guardian]] spawns instead of it playing at the beginning of the wave.
+*'''1 April 2021''' - [[Overhaul v1.2|Overhaul v1.2.0]]
+**Wave structure changed.
+*'''2 April 2021''' - [[Overhaul v1.2|Overhaul v1.2.0b]]
+**Wave structure changed.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**Wave structure changed.
+*'''4 December 2021''' - [[v1.0.0]]
+**[[Hidden Wave (Legacy)|Hidden Wave]] removed.
+*'''22 March 2022''' - [[v1.1.0]]e
+**{{Bug}} Final wave music no longer plays.
+*'''11 April 2022''' - [[v1.1.0]]k
+**{{Bugfix}} Final wave music now plays again.
+*'''17 April 2022''' - [[v1.2.0]]
+**Corrected "''approaching''" being spelt as "''approacing''" on Wave 1.
+*'''23 April 2022''' - [[v1.2.1]]
+**Corrected ''a'' being misspelt as ''an'' on Wave 13.
+*'''29 July 2022''' - [[v1.3.0]]
+**Final wave music changed from Fallen Boss to Void Steps.
+**Final wave music now plays at the beginning of the wave instead of it playing when the first [[Fallen Guardian (Legacy)|Fallen Guardian]] spawns.
+*'''9 June 2023''' - [[v1.8.0]]
+**In community maps, rewards now depend on difficulty. Easier maps have reduced rewards and harder maps have increased rewards. {{Color|Normal}} difficulty rewards are not changed.
 *'''28 October 2023''' - [[v1.9.0]]
-**New skins: {{Color|Deluxe|Bounty Hunter}}, {{Color|Lunar|Masquerade}}
-*'''5 April 2024''' - [[v1.18.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|700}} to {{Money|600}}.
-****Damage increased from 2 to 3.
-****Firerate increased from 0.725 to 1.025.
-****Spin Time increased from 1.7 to 1.75.
-****Range increased from 12 to 14.
-****Income increased from {{Money|25}} to {{Money|30}}.
-****Placement limit of 12 added.
-***'''Level 1'''
-****Cost decreased from {{Money|250}} to {{Money|225}}.
-****Damage decreased from +1 to +0.
-****Firerate changed from 0.708 to {{Tooltip|1.025 > 0.725|-0.3}}
-****Spin Time changed from 1.7 to 1.75 > 1.35.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|0.725 > 0.625|-0.1}} to 0.725.
-****Range decreased from +2 to +0.
-****Income changed from {{Money|25}} > {{Money|45}} to {{Money|30}} > {{Money|50}}.
-***'''Level 3'''
-****Cost decreased from {{Money|2,250}} to {{Money|2,000}}.
-****Damage increased from +6 to +8.
-****Firerate changed from {{Tooltip|0.625 > 0.525|-0.1}} to 0.725.
-****Spin time changed from 1.7 > 1.3 to 1.35 > 1.
-***'''Level 4'''
-****Cost decreased from {{Money|6,650}} to {{Money|5,850}}.
-****Damage decreased from +2 to +0.
-****Income changed from {{Money|45}} > {{Money|115}} to {{Money|50}} > {{Money|150}}.
-****Firerate changed from {{Tooltip|0.525 > 0.3|-0.225}} to {{Tooltip|0.725 > 0.325|-0.4}}.
-****Renamed from ''Double Tap'' to ''Double Tap II''.
-***'''Level 5'''
-****Cost increased from {{Money|12,000}} to {{Money|17,500}}.
-****Damage increased from +8 to +12.
-****Range increased from +0 to +2.
-****Firerate changed from 0.3 to {{Tooltip|0.325 > 0.225|-0.1}}.
-****Income changed from {{Money|115}} > {{Money|160}} to {{Money|150}} > {{Money|250}}.
-****Spin time changed from 1.3 > 1 to 1 > 0.75.
+**{{Bug}} Shared cash does not work.
+*'''3 November 2023''' - [[v1.9.0]]j
+**{{Bugfix}} Shared cash now works.
+*'''18 May 2024''' - [[v1.22.0]]
+**Triumphing now has a chance to give one of these rewards:
+***[[Low Grade Crate]] with a 30% chance.
+***[[Mid Grade Crate]] with a 15% chance.
+***[[Currencies#Time Scale Tickets|Time Scale Tickets]] with a 15% chance.
 *'''23 May 2024''' - [[v1.23.0]]
-**Damage dealt to summoned enemies no longer counts for cash shot.
-*'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+**Wave structure changed.
+**Starting cash changed.
+***Solo starting cash remains at {{Money|500}}.
+***Decreased from {{Money|500}} to {{Money|400}} in duo.
+***Decreased from {{Money|500}} to {{Money|350}} in trio.
+***Decreased from {{Money|500}} to {{Money|300}} in quad.
+**{{Coins|Coins}} and {{Exp|}} rewards formula changed.
+**Wave bonus formula changed.
+**Updated to the new mode system.
+**{{Bug}} Economy does not work.
+**{{Bug}} '''Fallen''' mode is prone to issues.
+**{{Bug}} Rewards are much lower than intended.
+**{{Bug}} [[Commander (Narrator)|Commander]]'s dialogue for Wave 13 does not appear.
+**{{Bug}} Rewards are unaffected by the difficulty based rewards on community maps.
+**{{Bug}} Consumable crate and {{TimeScaleTicket|Time Scale Ticket}} rewards can no longer be gotten.
+*'''23 May 2024''' - [[v1.23.0]]a
+**{{Bugfix}} Economy now works.
+*'''23 May 2024''' - [[v1.23.0|v1.23.1]]
+**{{Bugfix}} '''Fallen''' mode is no longer prone to errors.
+*'''27 May 2024''' - [[v1.23.0|v1.23.2]]
+**Starting cash increased.
+***Increased from {{Money|500}} to {{Money|600}} in solo.
+***Increased from {{Money|400}} to {{Money|500}} in duo.
+***Increased from {{Money|350}} to {{Money|450}} in trio.
+***Increased from {{Money|300}} to {{Money|400}} in quad.
+**{{Bugfix}} Rewards are now the intended amount.
+*'''27 May 2024''' - [[v1.23.0|v1.23.2a]]
+**Rewards now use the old equations.
+*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
+**Starting cash is now {{Money|500}} regardless of player count.
+*'''19 July 2024''' - [[v1.26.0]]
+**Triumph bonus reduced from {{Coins|100}} to {{Coins|50}}.
+**Bonus rewards for triumphing changed.
+***Now has a 50% to give one of these {{Color|Common}} items:
+****{{TimeScaleTicket|Time Scale Ticket}} (1-2)
+****{{ReviveTicket|Revive Ticket}} (1-2)
+****[[Grenade]] (1-3)
+****[[Flash Bang]] (1-3)
+****[[Molotov]] (1-3)
+***Now has a 30% chance to give one of these {{Color|Uncommon}} items:
+****[[Low Grade Crate]]
+****{{SpinTicket|Spin Ticket}}
+****[[Barricade]] (1-2)
+****[[Supply Drop]] (1-2)
+****[[AirStrike]] (1-2)
+***Now has a 15% chance to give one of these {{Color|Rare}} items:
+****[[Mid Grade Crate]]
+****[[Napalm Strike]]
+****[[Blizzard Bomb]]
+****[[UAV]]
+***Now has a 5% chance to give one of these {{Color|Legendary}} items:
+****[[High Grade Crate]]
+****[[Nuke]]
+**{{Bug}} {{SpinTicket|Spin Ticket}} and {{ReviveTicket|Revive Ticket}} triumph rewards are not always given out despite being shown on the triumph screen.
+**{{Bug}} Triumph rewards sometimes are not given out or shown in the triumph screen.
+**{{Bugfix}} Triumph rewards now work again.
 *'''2 August 2024''' - [[v1.27.0]]
-**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+**Wave structure changed.
+**{{Coins|Coins}} and {{Exp|}} rewards formulas changed.
+**Wave bonus formula changed.
+**Triumph bonus increased from {{Coins|50}} to {{Coins|150}}.
+**Changed triumph rewards.
+***Rarity odds changed.
+****{{Color|Common}} chance reduced from 50% to 47.62%.
+****{{Color|Uncommon}} chance reduced from 30% to 28.57%.
+****{{Color|Rare}} chance increased from 15% to 19.05%.
+****{{Color|Legendary}} chance reduced from 5% to 4.76%.
+***[[Grenade]], [[Flash Bang]], [[Molotov]] and [[UAV]] removed from reward pool.
+***{{TimeScaleTicket|Time Scale Tickets}} increased from 1-2 to 2-4.
+***{{SpinTicket|Spin Tickets}} increased from 1-2 to 2-3.
+***{{SpinTicket|Spin Tickets}} are now {{Color|Common}} instead of {{Color|Uncommon}}.
+***{{ReviveTicket|Revive Tickets}} increased from 1-2 to 2-3.
+***[[Low Grade Crate]] is now {{Color|Common}} instead of {{Color|Uncommon}}.
+***[[Barricade]] increased from 1-2 to 2-4.
+***[[Barricade]] is now {{Color|Common}} instead of {{Color|Uncommon}}.
+***[[Supply Drop]] increased from 1-2 to 2-4.
+***[[Supply Drop]] is now {{Color|Common}} instead of {{Color|Uncommon}}.
+***[[Range Flag]], [[Cooldown Flag]] and [[Damage Flag]] added as a {{Color|Uncommon}} reward. Given out 2-4 times.
+***[[Mid Grade Crate]] is now {{Color|Uncommon}} instead of {{Color|Rare}}.
+***[[Napalm Strike]] increased from 1 to 2-3.
+***[[Blizzard Bomb]] increased from 1 to 2-3.
+***[[High Grade Crate]] is now {{Color|Rare}} instead of {{Color|Legendary}}.
+**Now uses the new income system.
+**Updated mode icon.
+**Ambient music added.
+**Added new mode icon that appears after triumphing [[Hidden Wave]].
+**[[Hidden Wave]] re-added.
+**Level requirement increased from {{Level|10}} to {{Level|30}}.
+**{{Bug}} Level requirement lock still only appears for players below {{Level|10}} in the [[Elevators]] mode vote, but players between {{Level|11}} and {{Level|29}} cannot vote on it, despite there being no lock.
+*'''6 August 2024''' - [[v1.27.0|v1.27.2]]
+**{{Bugfix}} {{SpinTicket|Spin Ticket}} and {{ReviveTicket|Revive Ticket}} triumph rewards are now given out.
 *'''9 August 2024''' - [[v1.27.5]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''4 September 2024''' - [[v1.30.0]]
-**New skin: {{Color|Other|Plushie}}
-*'''11 September 2024''' - [[v1.31.0]]
-**New skin: {{Color|ContentCreator|Megalodon}}
+**Wave structure changed.
+**Wave bonus formula changed, increasing rewards by {{Coins|100}}.
+**Triumph bonus decreased from {{Coins|150}} to {{Coins|100}}.
+**Updated soundtracks to play on different waves.
+***First set of tracks now plays on Waves 1-9, 10-15 and 16-22.
+***Second set of tracks now plays on Waves 23-29.
+***Third set of tracks now plays on Waves 30-34 and 35-39.
+**Corrected ''business'' being misspelled as ''buisness'' on Wave 1, updated wording on Wave 1, changed wording on Wave 35, and corrected ''soldier'' being misspelled as ''solider'' alongside a few punctuation corrections on Wave 40.
+**Updated Wave 35 dialogue slightly.
+*'''21 August 2024''' - [[v1.28.0]]
+**{{Bug}} Triumph bonus is always granted, even when losing.
+*'''27 August 2024''' - [[v1.28.0|v1.28.7]]
+**{{Bugfix}} Triumph bonus is now only granted upon triumphing.
+*'''18 September 2024''' - [[v1.32.0]]
+**Moved Wave 16 dialogue to Wave 14 and Wave 33 dialogue to Wave 30 to match the wave debuts of enemies mentioned in these dialogues.
+*'''25 September 2024''' - [[v1.33.0]]
+**{{Coins|Coins}} and {{Exp|}} rewards increased.
+**{{Coins|Coins}} triumph bonus increased from {{Coins|100}} to {{Coins|150}}.
+**{{Exp|}} triumph bonus increased from {{Exp|25}} to {{Exp|50}}.
+*'''23 October 2024''' - [[v1.37.0]]
+**Updated bonus triumph rewards.
+***{{Color|Uncommon}} rewards now also include the [[Turkey Leg]] (1-3) and [[Pumpkin Bomb]] (1-2).
+***{{Color|Rare}} rewards now also include the [[Sugar Rush (Consumable)|Sugar Rush]] (1-2).
+*'''11 December 2024''' - [[v1.45.0]]
+**Wave structure updated.
 *'''16 December 2024''' - [[v1.46.0]]
-**New skin: {{Color|OperationICE|Dark Frost}}
-*'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Spring Time}}
-**{{Bug}} {{Color|DuckyRevenge|Spring Time}} at Level 5 will break if placed in range of a [[Firework Technician]] after it generates a firework, it will stop dealing damage and once the targeted enemies get out of its range, it will stop attacking enemies entirely.
-*'''18 April 2025''' - [[v1.61.0|v1.61.6a]]
-**New skin: {{Color|Other|Mecha Bunny}}
+**{{Bug}} Icon no longer changes after [[Hidden Wave]] has been beaten.
+*'''26 December 2024''' - [[v1.47.0|v1.46.5]]
+**{{Bugfix}} Icon now changes after [[Hidden Wave]] has been beaten.
+*'''15 January 2025''' - [[v1.49.0]]
+**Updated bonus triumph rewards.
+***[[Turkey Leg]], [[Pumpkin Bomb]] and [[Sugar Rush (Consumable)|Sugar Rush]] removed from the reward pool.
+***{{Color|Common}} rewards now also include the [[Fruit Cake]] (2-4).
+***{{Color|Uncommon}} rewards now also include the [[Present Cluster Bomb]] (1-3).
+***{{Color|Rare}} rewards now also include the [[Festive Tree]] (1-3) and [[Santa's Air Strike]] (1-3).
+***{{Color|Common|Custom}} rarity added, which only gives a single [[Molten Monster (Consumable)|Molten Monster]] with a 0.47% chance, also making other rarities less common:
+****{{Color|Common}} chance reduced from 47.62% to 47.39%.
+****{{Color|Uncommon}} chance reduced from 28.57% to 28.44%.
+****{{Color|Rare}} chance reduced from 19.05% to 18.96%.
+****{{Color|Legendary}} chance reduced from 4.76% to 4.74%.
+*'''5 February 2025''' - [[v1.52.0]]
+**Increased health scaling.
+***5% in duo, previously none.
+***Increased from 10% to 20% in trio.
+***Increased from 20% to 30% in quad.
+*'''5 February 2025''' - [[v1.53.0]]
+**Reverted health scaling changes from the previous update.
+***Duo health scaling removed.
+***Decreased from 20% to 10% in trio.
+***Decreased from 30% to 20% in quad.
+*'''5 March 2025''' - [[v1.56.0]]
+**Removed all [[Operation I.C.E Event]] consumables except [[Molten Monster (Consumable)|Molten Monster]] from the reward pool.
+*'''12 March 2025''' - [[v1.57.0]]
+**Enemies now always give the same amount of cash on death or after receiving enough damage, regardless of how much damage the player deals, but the amount is split between players, meaning in solo, an enemy gives 100% of its cash, 50% in duo, 33% in trio and 25% in quad.
 *'''11 June 2025''' - [[v1.67.0]]
-**Placement limit decreased from 12 to 10.
-**Statistical changes:
-***'''Base'''
-****Damage increased from 3 to 4.
-****Spin time decreased from 1.75 to 1.5.
-****Income increased from {{Money|30}} to {{Money|35}}
-***'''Level 1'''
-****Cost decreased from {{Money|225}} to {{Money|150}}.
-****Firerate changed from {{Tooltip|1.025 > 0.725|-0.3}} to {{Tooltip|1.025 > 0.775|-0.25}}
-****Range decreased from +2 to +0.
-****Spin time changed from 1.75 > 1.35 to 1.5 > 1.25.
-***'''Level 2'''
-****Cost increased from {{Money|500}} to {{Money|600}}.
-****Damage increased from +1 to +2.
-****Range increased from +0 to +2.
-****Income changed from {{Money|30}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
-***'''Level 3'''
-****Cost decreased from {{Money|2,000}} to {{Money|1,750}}.
-****Damage decreased from +8 to +4.
-****Firerate changed from 0.725 to {{Tooltip|0.775 > 0.525|-0.25}}.
-****Spin time changed from 1.35 > 1 to 1.25 > 1.
-***'''Level 4'''
-****Cost decreased from {{Money|5,850}} to {{Money|4,750}}.
-****Firerate changed from {{Tooltip|0.725 > 0.325|-0.4}} to {{Tooltip|0.525 > 0.275|-0.25}}.
-****Range increased from +0 to +2.
-****Income changed from {{Money|50}} > {{Money|150}} to {{Money|60}} > {{Money|150}}.
-***'''Level 5'''
-****Cost decreased from {{Money|17,500}} to {{Money|9,500}}.
-****Damage increased from +12 to +14.
-****Range decreased from +2 to +0.
-****Firerate changed from {{Tooltip|0.325 > 0.225|-0.1}} to 0.275.
-****Income changed from {{Money|150}} > {{Money|250}} to {{Money|150}} > {{Money|225}}.
+**Wave structure updated.
+*'''25 June 2025''' - [[v1.68.0]]
+**Wave structure updated.
+**Dialogue updated.
+*'''9 July 2025''' - [[v1.70.0]]
+**Updated bonus triumph rewards.
+***{{Color|Uncommon}} rewards now also include the [[Sandcastle (Consumable)|Sandcastle]] (1-3).
+***{{Color|Rare}} rewards now also include the [[Heatwave]] (2-3).
 *'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Vampire Hunter}}
+**Updated bonus triumph rewards.
+***[[Sandcastle (Consumable)|Sandcastle]] and [[Heatwave]] removed from the reward pool.
+***{{Color|Common}} rewards now also include the [[Turkey Leg]] (2-4) and [[Pumpkin Bomb]] (2-4).
+***{{Color|Uncommon}} rewards now also include the [[Sugar Rush (Consumable)|Sugar Rush]] (2-3).
+***{{Color|Rare}} rewards now also include the [[Unholy Storm]] (2-3) and [[Necromancer's Tome (Consumable)|Necromancer's Tome]] (2-3).
+*'''20 December 2025''' - [[v1.83.0]]
+**Updated bonus triumph rewards.
+***[[Pumpkin Bomb]], [[Turkey Leg]], [[Sugar Rush (Consumable)|Sugar Rush]], [[Unholy Storm]] and [[Necromancer's Tome (Consumable)|Necromancer's Tome]] removed from the reward pool.
+***{{Color|Common}} rewards now also include the [[Present Cluster Bomb]] (2-4) and [[Fruit Cake]] (2-4).
+***{{Color|Uncommon}} rewards now also include the [[Santa's Air Strike]] (2-2) and [[Festive Tree]] (2-4).
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 10 to 6.
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 4 to 2.
-****Firerate decreased from 1.025 to 0.375.
-****Range increased from 14 to 15.
-****Income decreased from {{Money|35}} to {{Money|20}}.
-****Spin time increasaed from 1.5 to 1.75.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|0.375 > 0.325|-0.05}}.
-****Range increased from +0 to +2.
-****Spin time changed from 1.5 > 1.25 to 1.75 > 1.25.
-***'''Level 2'''
-****Cost increased from {{Money|600}} to {{Money|1,000}}.
-****Range decreased from +2 to +0.
-****Hidden detection added, moved from Level 3.
-****Income changed from {{Money|35}} > {{Money|60}} to {{Money|20}} > {{Money|40}}.
-***'''Level 3'''
-****Cost increased from {{Money|1,750}} to {{Money|4,500}}.
-****Damage increased from +4 to +11.
-****Firerate changed from {{Tooltip|0.775 > 0.525|-0.25}} to {{Tooltip|0.325 > 0.425|+0.1}}.
-****Income changed from {{Money|60}} to {{Money|40}} > {{Money|75}}.
-***'''Level 4'''
-****Cost increased from {{Money|4,750}} to {{Money|7,500}}.
-****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.425 > 0.225|-0.2}}.
-****Range decreased from +2 to +0.
-****Income changed from {{Money|60}} > {{Money|150}} to {{Money|75}} > {{Money|150}}.
-***'''Level 5'''
-****Cost increased from {{Money|9,500}} to {{Money|15,000}}
-****Damage increased from +14 to +15.
-****Range increased from +0 to +2.
-**{{Color|ContentCreator|Megalodon}} renamed to {{Color|ContentCreator|MegaBit}}.
-***{{Bug}} Still uses the previous name on mobile.
+**Wave structure updated.
+**Health scaling changed.
+***Duo now has 15% health scaling.
+***Trio health scaling increased from 10% to 25%.
+***Quad health scaling increased from 20% to 40%.
+**Dialogue changed.
 *'''11 February 2026''' - [[v1.85.0]]
-**Placement footprint decreased from 1.5 to 1.25.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|600}} to {{Money|550}}.
-****Income increased from {{Money|20}} to {{Money|25}}.
-***'''Level 2'''
-****Cost decreased from {{Money|1,000}} to {{Money|900}}.
-****Income changed from {{Money|20}} > {{Money|40}} to {{Money|25}} > {{Money|50}}.
-***'''Level 3'''
-****Cost decreased from {{Money|4,500}} to {{Money|3,500}}.
-****Firerate changed from {{Tooltip|0.325 > 0.425|+0.1}} to {{Tooltip|0.325 > 0.525|+0.2}}.
-****Income changed from {{Money|40}} > {{Money|75}} to {{Money|50}} > {{Money|85}}.
-***'''Level 4'''
-****Cost decreased from {{Money|7,500}} to {{Money|5,500}}.
-****Firerate changed from {{Tooltip|0.425 > 0.225|-0.2}} to {{Tooltip|0.525 > 0.275|-0.25}}.
-****Range increased from +0 to +2.
-****Income changed from {{Money|75}} > {{Money|150}} to {{Money|85}} > {{Money|175}}.
-***'''Level 5'''
-****Cost increased from {{Money|15,000}} to {{Money|17,000}}
-****Damage increased from +15 to +20.
-****Range decreased from +2 to +0.
-****Income changed from {{Money|150}} > {{Money|225}} to {{Money|175}} > {{Money|325}}.
-*'''11 March 2026''' - [[v1.86.0]]
-**New skin: {{Color|Shamrock|Shamrock}}
+**Dialogue changed.
+*'''3 April 2026''' - [[v1.88.0]]
+**Updated bonus triumph rewards.
+***[[Present Cluster Bomb]], [[Fruit Cake]], [[Festive Tree]] and [[Santa's Air Strike]] removed from the reward pool.
+***{{Color|Common}} rewards now also include the [[Easter Egg]] (2-4).
+***{{Color|Uncommon}} rewards now also include the [[Ducky Squad]] (2-4).
 *'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Placement limit increased from 6 to 12.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|550}} to {{Money|600}}.
-****Damage increased from 2 to 3.
-****Firerate increased for 0.375 to 0.9.
-****Range decreased from 15 to 13.
-****Income increased from {{Money|25}} to {{Money|35}}.
-****Spin time increased from 1.75 to 2.
-***'''Level 1'''
-****Cost decreased from {{Money|225}} to {{Money|200}}.
-****Firerate increased for {{Tooltip|0.375 > 0.325|-0.05}} to {{Tooltip|0.9 > 0.75|-0.15}}.
-****Spin time changed from 1.75 > 1.25 to 2 > 1.5.
-***'''Level 2'''
-****Cost decreased from {{Money|900}} to {{Money|650}}.
-****Income changed from {{Money|25}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
-****Hidden detection removed, moved to Level 3.
-***'''Level 3'''
-****Cost decreased from {{Money|3,500}} to {{Money|2,400}}.
-****Damage decreased from +11 to +7.
-****Firerate changed from {{Tooltip|0.325 > 0.525|+0.2}} to {{Tooltip|0.75 > 0.6|-0.15}}.
-****Range increased from +2 to +2.5.
-****Income changed from {{Money|50}} > {{Money|85}} to {{Money|60}}.
-****Spin time changed from 1.25 > 1 to 1.5 > 1.25.
-****Hidden detection added.
-****Name changed from ''Faster Instincts'' to ''Deadly Precision''.
-***'''Level 4'''
-****Cost increased from {{Money|5,500}} to {{Money|4,250}}.
-****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.6 > 0.3|-0.3}}.
-****Range increased from +2 to +2.5.
-****Income changed from {{Money|85}} > {{Money|175}} to {{Money|60}} > {{Money|150}}.
-***'''Level 5'''
-****Cost decreased from {{Money|17,000}} to {{Money|9,750}}.
-****Damage decreased from +20 to +14.
-****Income changed from {{Money|175}} > {{Money|325}} to {{Money|150}} > {{Money|225}}.
-****Spin time changed from 1 to 1.25 > 1.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Patriotic}}
+**Now gives tower experience, with a {{TowerExp|85}} base reward and an {{TowerExp|100}} triumph bonus.
+**All skip timers are now one third of the wave duration.
+**Voiceline dialogues added.
+***{{Bug}} Audio does not play in-game.
+**{{Bug}} Wave 25 second dialogue incorrectly uses [[Commander (Narrator)|Commander]] instead of [[Dispatcher]].
+*'''8 June 2026''' - [[v2.0.0|v2.0.6a]]
+**{{Bugfix}} Voiceline dialogues now play correctly.
 *'''17 July 2026''' - [[v2.3.0]]
-**Corrected incorrect spin time values at Level 5 in the upgrade descriptions.
+**Estimated match time increased from 18:00 to 25:00.
+**Updated reward equations.
+***Base coins reward decreased from {{Coins|850}} to {{Coins|700}}.
+***Triumph bonus increased from {{Coins|150}} to {{Coins|650}}.
+***Coins exponential value increased from 1.3 to 2.4.
+***Exp exponential value increased from 1 to 2.
 }}
 
 ==Notes==
-<references />
+<references/>
 
 
-{{TowerNavBox}}
-[[Category:Ground]]
+{{ModeNavBox}}

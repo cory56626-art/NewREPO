@@ -1,14 +1,14 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Golden Cowboy",
-    "title": "Golden Cowboy",
-    "pageid": 30799,
-    "latest_revid": 618523,
-    "latest_timestamp": "2026-08-18T21:25:37Z",
-    "source_url": "https://tds.fandom.com/wiki/Golden_Cowboy",
+    "requested": "Fallen Mode",
+    "title": "Fallen Mode",
+    "pageid": 34091,
+    "latest_revid": 639828,
+    "latest_timestamp": "2026-09-03T17:18:15Z",
+    "source_url": "https://tds.fandom.com/wiki/Fallen_Mode",
     "classification": {
-      "is_tower_page": true,
+      "is_tower_page": false,
       "reason": "template/category heuristic"
     },
     "source_priority": {
@@ -22,119 +22,119 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Golden Cowboy",
-    "alias_used": "Golden Cowboy",
-    "target": "Golden Cowboy",
-    "canonical_title": "Golden Cowboy",
-    "pageid": 30799,
+    "input": "Fallen Mode",
+    "alias_used": null,
+    "target": "Fallen Mode",
+    "canonical_title": "Fallen Mode",
+    "pageid": 34091,
     "redirects": [],
-    "selection_method": "known_alias"
+    "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 618523,
-      "parentid": 610153,
-      "timestamp": "2026-08-18T21:25:37Z",
-      "user": "DarkGabonnie",
-      "comment": "Approved by t7ru (380694434980954114) via /job",
-      "size": 29622,
-      "sha1": "3971630157446f59e0a626f2940c0ddecd3ead69"
-    },
-    {
-      "revid": 610153,
-      "parentid": 579509,
-      "timestamp": "2026-08-12T20:04:53Z",
-      "user": "DarkGabonnie",
-      "comment": "Approved by t7ru (380694434980954114) via /job",
-      "size": 29593,
-      "sha1": "01293d0a75057433a6fee1fc2d047bd6d83e01ff"
-    },
-    {
-      "revid": 579509,
-      "parentid": 578623,
-      "timestamp": "2026-07-29T03:09:55Z",
-      "user": "IFeelSoSubjective!",
-      "comment": "",
-      "size": 29568,
-      "sha1": "f8a4dcba007b1f319e01f759b3b46f1a8bbb2a30"
-    },
-    {
-      "revid": 578623,
-      "parentid": 551788,
-      "timestamp": "2026-07-28T17:01:56Z",
+      "revid": 639828,
+      "parentid": 615831,
+      "timestamp": "2026-09-03T17:18:15Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 29568,
-      "sha1": "a82947633891f206057939ba7379cac59595df77"
+      "size": 48005,
+      "sha1": "09b4b69fa64dda07c82e2463fe503300042e925b"
     },
     {
-      "revid": 551788,
-      "parentid": 545354,
-      "timestamp": "2026-07-13T16:49:16Z",
-      "user": "Fiprandom",
-      "comment": "lvl 2's range stays at 15, it's not 17.5",
-      "size": 29456,
-      "sha1": "0b06bff61ef83886aaa3c9ccb0e9568f60f7f542"
+      "revid": 615831,
+      "parentid": 584235,
+      "timestamp": "2026-08-16T15:06:42Z",
+      "user": "Destro From Mega Man",
+      "comment": "",
+      "size": 47685,
+      "sha1": "4af7a36a04d14d72b4a2f506b4b8d45d0929880c"
     },
     {
-      "revid": 545354,
-      "parentid": 545353,
-      "timestamp": "2026-07-10T13:19:19Z",
+      "revid": 584235,
+      "parentid": 582390,
+      "timestamp": "2026-07-31T11:24:16Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 29458,
-      "sha1": "8555cd0e9715fce0abd531aa63dffc683a3ebccd"
+      "size": 47685,
+      "sha1": "c4728378a0894263b02db0d042d6480e3e5dae32"
     },
     {
-      "revid": 545353,
-      "parentid": 540057,
-      "timestamp": "2026-07-10T13:17:19Z",
+      "revid": 582390,
+      "parentid": 580394,
+      "timestamp": "2026-07-30T14:03:52Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 29387,
-      "sha1": "0b20b6bcb4f8958732bc2dbecd4ff72189e65022"
+      "size": 47631,
+      "sha1": "5ffc7260f263264573103403c581b79ecd9b611c"
     },
     {
-      "revid": 540057,
-      "parentid": 539799,
-      "timestamp": "2026-07-07T22:44:59Z",
-      "user": "Gabonnie",
-      "comment": "[IPE-NEXT] Quick edit",
-      "size": 29213,
-      "sha1": "ed5634b7d5f76268b11679b801d335f715a25c85"
+      "revid": 580394,
+      "parentid": 566001,
+      "timestamp": "2026-07-29T13:51:10Z",
+      "user": "Mentin123",
+      "comment": "/* Wave Structure */",
+      "size": 47620,
+      "sha1": "4965037879ac5abd19305dbb7a66d2c84616848c"
     },
     {
-      "revid": 539799,
-      "parentid": 537065,
-      "timestamp": "2026-07-07T22:03:21Z",
-      "user": "DarkGabonnie",
-      "comment": "/* Statistics */ migrate fnc to fse, replaced: $FNC-UPGRADEICON → $FSE-UPGRADEICON, $FNC-UPGRADE → $FSE-UPGRADE, $FNC-DETECTION → $FSE-DETECTION",
-      "size": 29183,
-      "sha1": "8c6a627778acaa3b7e91d4d99c3c93b4a95cf7b7"
+      "revid": 566001,
+      "parentid": 555543,
+      "timestamp": "2026-07-22T12:54:09Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 47620,
+      "sha1": "ef32a0b420e964e4ba9bfb483a1141646c52da63"
     },
     {
-      "revid": 537065,
-      "parentid": 533760,
-      "timestamp": "2026-07-06T17:14:21Z",
-      "user": "DarkGabonnie",
-      "comment": "/* Statistics */ rename, replaced: Stats Table → Statistics",
-      "size": 29183,
-      "sha1": "cbb92dbe48f199bcc98c2b6f69481bd47e1efdb9"
+      "revid": 555543,
+      "parentid": 555542,
+      "timestamp": "2026-07-17T14:42:09Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 47190,
+      "sha1": "f1ed39885bc77efe8f67b2def4599e3392339554"
+    },
+    {
+      "revid": 555542,
+      "parentid": 555541,
+      "timestamp": "2026-07-17T14:41:55Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 47189,
+      "sha1": "f71a75613624cdc3e659f3f7fb74cf6fd33b30c2"
+    },
+    {
+      "revid": 555541,
+      "parentid": 553735,
+      "timestamp": "2026-07-17T14:39:36Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 47131,
+      "sha1": "68168740ea26b9b10bee726552f7f56fd36ab7cd"
+    },
+    {
+      "revid": 553735,
+      "parentid": 553734,
+      "timestamp": "2026-07-16T16:50:37Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 47054,
+      "sha1": "e9509458f9bd1ef9b384086db9d1f46f3286df12"
     }
   ],
   "revision_diff": {
-    "fromrevid": 610153,
-    "torevid": 618523,
-    "fromtitle": "Golden Cowboy",
-    "totitle": "Golden Cowboy",
-    "fromuser": "DarkGabonnie",
-    "touser": "DarkGabonnie",
-    "fromcomment": "Approved by t7ru (380694434980954114) via /job",
-    "tocomment": "Approved by t7ru (380694434980954114) via /job",
-    "diff_text": "Line 96: Line 96: <var> <var> $DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--))) $DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--))) $CE$ = Total Price / DPS $CE$ = Total Cost / DPS $IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--))) $IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--))) $IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage) $IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage) $TP$ = $FNC- TOTALPRICE $ $TP$ = $FNC- TOTAL-COST $ $ FNC- COST$ = 600; 200; 650; 2400; 4250; 9750 $COST$ = 600; 200; 650; 2400; 4250; 9750 $FSE-DETECTION$ = 3; ; $FSE-DETECTION$ = 3; ; $FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West $FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West Line 108: Line 108: $IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref> $IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref> $IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref> $IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref> $R$ = $FNC-RECURSION$ </var> </var> <div class=\"overflow-box\"> <div class=\"overflow-box\"> {| class=\"wikitable stats-table\" {| class=\"wikitable stats-table\" ! Level !! Total Price !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$ ! Level !! Cost !! Total Cost !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$ |- |- | 0 || {{Money|$TP$}} || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}} $R$ || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 1 || {{Money |$ TP $ }} || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 1 || $R$ | | $ R $ || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 2 || {{Money |$ TP $ }} || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 2 || $R$ | | $ R $ || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 3 || {{Money |$ TP $ }} || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 3 || $R$ | | $ R $ || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 4 || {{Money |$ TP $ }} || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 4 || $R$ | | $ R $ || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 5 || {{Money| $ TP $ }} || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 5 || $ R $ || $R$ || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |} |} </div> </div>"
+    "fromrevid": 615831,
+    "torevid": 639828,
+    "fromtitle": "Fallen Mode",
+    "totitle": "Fallen Mode",
+    "fromuser": "Destro From Mega Man",
+    "touser": "Mentin123",
+    "fromcomment": "",
+    "tocomment": "",
+    "diff_text": "Line 694: Line 694: ==Trivia== ==Trivia== *The [[Hidden Wave (Legacy)|Legacy Hidden Wave]] could have been activated in '''Fallen''' mode by beating the game in 1,009 seconds (16:49) or under. *The [[Hidden Wave (Legacy)|Legacy Hidden Wave]] could have been activated in '''Fallen''' mode by beating the game in 1,009 seconds (16:49) or under. *Originally, another theme was supposed to play in the late game waves of this mode, that being '''Duality'''. However, the loop audio was not accepted by Roblox as it was deemed too \"''high pitched''\". Only the intro got accepted. *Originally, another theme was supposed to play in the late game waves of this mode, <ref>https://discord.com/channels/587355301083349002/892156782347161690/1340572588975460383 (Tower Defense Simulator Server)</ref> that being '''Duality'''. However, the loop audio was not accepted by Roblox as it was deemed too \"''high pitched''\". <ref>https://discord.com/channels/587355301083349002/587355301674614854/1277699028523548734 (Tower Defense Simulator Server)</ref> Only the intro got accepted. <ref>https://create.roblox.com/store/asset/18741907954</ref> **The only time the track was played was in the trailer for '''Fallen''' mode. **The only time the track was played was in the trailer for '''Fallen''' mode."
   },
   "classification": {
-    "is_tower_page": true,
+    "is_tower_page": false,
     "reason": "template/category heuristic"
   },
   "structured_stats": {
@@ -146,389 +146,23 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.\n\nWhile initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. \n\nThe '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.\n\nIn comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.\n\nThe '''Golden Cowboy''' has a placement limit of twelve per player.",
+    "description": "'''Fallen''' mode, formerly called '''Insane''' mode, is one of the six main survival modes. '''Fallen''' mode has 40 waves. When the [[Hidden Wave]] is activated it has 42 waves. The mode is named after the Fallen enemies that appear throughout it.\n\nCash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.\n\nThe health of enemies in this mode scales with the player count, starting at two players. The increase is 15% in duo, 25% in trio and 40% in quad. It is applied after attributes, like [[Bloated]], meaning they can affect the health of an enemy. The increase is not always the stated amount.\n\nYou can activate the [[Hidden Wave]] by following these certain steps:\n*Every player has to disable [[Skills]] before starting the match.\n*After voting '''Fallen''' mode, sending separate messages that contain these numbers in the chat: \"''120''\", \"''1''\" and \"''1009''\". On the last number, the screen will flash and a noise will play.\n*The base health should be set to one before reaching to Wave 40.\n*Defeat the [[Fallen King]] under 60 seconds without using consumables on Wave 40. If done successfully instead of dropping its sword and vanishing in a beam of light, it will survive, but smashing the ground enraged and retreating with its sword.\n*After completing [[Hidden Wave]], the icon of '''Fallen''' mode on the difficulty select screen will change to the [[Awakened Fallen King]].",
     "upgrade_modes": {
-      "regular": [
-        {
-          "mode": "unknown",
-          "level": 1,
-          "title": "Headshot Practice",
-          "cost": "{{Money|200}}",
-          "information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}",
-          "claims": [
-            {
-              "kind": "set",
-              "from": "0.9",
-              "to": "0.75",
-              "stat": "Firerate",
-              "text": "0.9 > 0.75 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Range",
-              "text": "+2 Range"
-            },
-            {
-              "kind": "set",
-              "from": "2",
-              "to": "1.5",
-              "stat": "Spin Time",
-              "text": "2 > 1.5 Spin Time"
-            }
-          ],
-          "params": {
-            "Level": "Level 1",
-            "Upgrade Title": "Headshot Practice",
-            "Cost": "{{Money|200}}",
-            "Image": "[[File:Cowboy Upgrade 1 New.png|100px]]",
-            "Information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 2,
-          "title": "Gold Shot",
-          "cost": "{{Money|650}}",
-          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Damage",
-              "text": "+2 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "> Income"
-            }
-          ],
-          "params": {
-            "Level": "Level 2",
-            "Upgrade Title": "Gold Shot",
-            "Cost": "{{Money|650}}",
-            "Image": "[[File:NewCowboyLevel2.png|100px]]",
-            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 3,
-          "title": "Deadly Precision",
-          "cost": "{{Money|2,400}}",
-          "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2.5",
-              "stat": "Range",
-              "text": "+2.5 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "+7",
-              "stat": "Damage",
-              "text": "+7 Damage"
-            },
-            {
-              "kind": "set",
-              "from": "0.75",
-              "to": "0.6",
-              "stat": "Firerate",
-              "text": "0.75 > 0.6 Firerate"
-            },
-            {
-              "kind": "grant",
-              "stat": "Hidden Detection",
-              "text": "+Hidden Detection"
-            },
-            {
-              "kind": "set",
-              "from": "1.5",
-              "to": "1.25",
-              "stat": "Spin Time",
-              "text": "1.5 > 1.25 Spin Time"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Upgrade Title": "Deadly Precision",
-            "Cost": "{{Money|2,400}}",
-            "Image": "[[File:Cowboy Upgrade 3 New.png|100px]]",
-            "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 4,
-          "title": "Double Tap II",
-          "cost": "{{Money|4,250}}",
-          "information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}",
-          "claims": [
-            {
-              "kind": "set",
-              "from": "0.6",
-              "to": "0.3",
-              "stat": "Firerate",
-              "text": "0.6 > 0.3 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2.5",
-              "stat": "Range",
-              "text": "+2.5 Range"
-            },
-            {
-              "kind": "note",
-              "text": "> Income"
-            },
-            {
-              "kind": "set",
-              "from": "6",
-              "to": "12",
-              "stat": "Cash Shot",
-              "text": "6 > 12 Cash Shot"
-            }
-          ],
-          "params": {
-            "Level": "Level 4",
-            "Upgrade Title": "Double Tap II",
-            "Cost": "{{Money|4,250}}",
-            "Image": "[[File:Cowboy Upgrade 4 New.png|100px]]",
-            "Information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 5,
-          "title": "Wildest Of The West",
-          "cost": "{{Money|9,750}}",
-          "information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+14",
-              "stat": "Damage",
-              "text": "+14 Damage"
-            },
-            {
-              "kind": "note",
-              "text": "> Income"
-            },
-            {
-              "kind": "set",
-              "from": "1.25",
-              "to": "1",
-              "stat": "Spin Time",
-              "text": "1.25 > 1 Spin Time"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Upgrade Title": "Wildest Of The West",
-            "Cost": "{{Money|9,750}}",
-            "Image": "[[File:Cowboy Upgrade 5 New.png|100px]]",
-            "Information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}"
-          }
-        }
-      ],
+      "regular": [],
       "pvp": []
     },
-    "upgrade_templates": [
-      {
-        "mode": "unknown",
-        "level": 1,
-        "title": "Headshot Practice",
-        "cost": "{{Money|200}}",
-        "information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.9",
-            "to": "0.75",
-            "stat": "Firerate",
-            "text": "0.9 > 0.75 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "set",
-            "from": "2",
-            "to": "1.5",
-            "stat": "Spin Time",
-            "text": "2 > 1.5 Spin Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Headshot Practice",
-          "Cost": "{{Money|200}}",
-          "Image": "[[File:Cowboy Upgrade 1 New.png|100px]]",
-          "Information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Gold Shot",
-        "cost": "{{Money|650}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Damage",
-            "text": "+2 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "> Income"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Gold Shot",
-          "Cost": "{{Money|650}}",
-          "Image": "[[File:NewCowboyLevel2.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "Deadly Precision",
-        "cost": "{{Money|2,400}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+7",
-            "stat": "Damage",
-            "text": "+7 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.75",
-            "to": "0.6",
-            "stat": "Firerate",
-            "text": "0.75 > 0.6 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "set",
-            "from": "1.5",
-            "to": "1.25",
-            "stat": "Spin Time",
-            "text": "1.5 > 1.25 Spin Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Deadly Precision",
-          "Cost": "{{Money|2,400}}",
-          "Image": "[[File:Cowboy Upgrade 3 New.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Double Tap II",
-        "cost": "{{Money|4,250}}",
-        "information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.6",
-            "to": "0.3",
-            "stat": "Firerate",
-            "text": "0.6 > 0.3 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "note",
-            "text": "> Income"
-          },
-          {
-            "kind": "set",
-            "from": "6",
-            "to": "12",
-            "stat": "Cash Shot",
-            "text": "6 > 12 Cash Shot"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Double Tap II",
-          "Cost": "{{Money|4,250}}",
-          "Image": "[[File:Cowboy Upgrade 4 New.png|100px]]",
-          "Information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 5,
-        "title": "Wildest Of The West",
-        "cost": "{{Money|9,750}}",
-        "information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+14",
-            "stat": "Damage",
-            "text": "+14 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "> Income"
-          },
-          {
-            "kind": "set",
-            "from": "1.25",
-            "to": "1",
-            "stat": "Spin Time",
-            "text": "1.25 > 1 Spin Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Wildest Of The West",
-          "Cost": "{{Money|9,750}}",
-          "Image": "[[File:Cowboy Upgrade 5 New.png|100px]]",
-          "Information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}"
-        }
-      }
-    ],
+    "upgrade_templates": [],
     "statistics_tables": {
       "regular": [],
       "pvp": []
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": "{{Attr|Hidden|Level 3+}}",
-        "lead": "N/A",
-        "flying": "N/A",
-        "immune": "Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12"
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null,
+        "placement_limit": null
       },
       "pvp": {
         "hidden": null,
@@ -539,63 +173,47 @@
     },
     "infoboxes": [
       {
-        "name": "TowerInfobox",
+        "name": "ModeInfobox",
         "params": {
-          "title": "{{Color|Golden|Golden Cowboy}}",
-          "image-static": "WDGoldenCowboyIcon.png",
-          "image-dynamic": "GoldenCowboyDynamic.png",
-          "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)",
-          "towercost": "Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])",
-          "basecost": "{{Money|600}}",
-          "basesellingprice": "{{Money|200}}",
-          "role": "Offense",
-          "placement": "Ground",
-          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12",
-          "basedamage": "[[File:Damage Icon.png|20px|Damage]]3",
-          "damagetype": "Single",
-          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.9",
-          "baserange": "[[File:Range Icon.png|20px|Range]]13",
-          "baseincome": "{{Money|35}}",
-          "hidden_detection": "{{Attr|Hidden|Level 3+}}",
-          "lead_detection": "N/A",
-          "flying_detection": "N/A",
-          "immune": "Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)",
-          "footprint": "1.25",
-          "tooltip-1": "A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.",
-          "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+          "title1": "{{Color|FallenMode}}",
+          "image1": "<tabber>",
+          "Regular": "[[File:FallenReworkIcon.png]]",
+          "After Hidden Wave": "[[File:AwakenedFallenKingIcon.png|thumb]]\n</tabber>",
+          "waves": "40<br/>42 ([[Hidden Wave]])",
+          "level_requirement": "{{Level|30}} (Vote Only)",
+          "starting_cash": "{{Money|500}}<br/>{{Money|600}} (Group Bonus)",
+          "max_health": "200",
+          "health_scale": "15% (Duo)<br/>25% (Trio)<br/>40% (Quad)",
+          "time": "18:00",
+          "rewards": "{{Coins|1,350}}, {{Exp|250}} & {{TowerExp|185}}"
         },
-        "positional": []
+        "positional": [
+          "-",
+          "-"
+        ]
       }
     ],
     "likely_infobox": {
-      "name": "TowerInfobox",
+      "name": "ModeInfobox",
       "params": {
-        "title": "{{Color|Golden|Golden Cowboy}}",
-        "image-static": "WDGoldenCowboyIcon.png",
-        "image-dynamic": "GoldenCowboyDynamic.png",
-        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)",
-        "towercost": "Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])",
-        "basecost": "{{Money|600}}",
-        "basesellingprice": "{{Money|200}}",
-        "role": "Offense",
-        "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]3",
-        "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.9",
-        "baserange": "[[File:Range Icon.png|20px|Range]]13",
-        "baseincome": "{{Money|35}}",
-        "hidden_detection": "{{Attr|Hidden|Level 3+}}",
-        "lead_detection": "N/A",
-        "flying_detection": "N/A",
-        "immune": "Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)",
-        "footprint": "1.25",
-        "tooltip-1": "A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        "title1": "{{Color|FallenMode}}",
+        "image1": "<tabber>",
+        "Regular": "[[File:FallenReworkIcon.png]]",
+        "After Hidden Wave": "[[File:AwakenedFallenKingIcon.png|thumb]]\n</tabber>",
+        "waves": "40<br/>42 ([[Hidden Wave]])",
+        "level_requirement": "{{Level|30}} (Vote Only)",
+        "starting_cash": "{{Money|500}}<br/>{{Money|600}} (Group Bonus)",
+        "max_health": "200",
+        "health_scale": "15% (Duo)<br/>25% (Trio)<br/>40% (Quad)",
+        "time": "18:00",
+        "rewards": "{{Coins|1,350}}, {{Exp|250}} & {{TowerExp|185}}"
       },
-      "positional": []
+      "positional": [
+        "-",
+        "-"
+      ]
     },
-    "template_count": 394
+    "template_count": 227
   },
   "conflicts": {
     "priority_rule": {
@@ -615,223 +233,215 @@
   "categories": [
     {
       "ns": 14,
-      "title": "Category:Ground"
-    },
-    {
-      "ns": 14,
-      "title": "Category:Offense"
-    },
-    {
-      "ns": 14,
-      "title": "Category:Towers"
+      "title": "Category:Gamemodes"
     }
   ],
   "backlinks": [
     {
-      "title": "Towers",
-      "pageid": 122
+      "title": "Waves",
+      "pageid": 104
+    },
+    {
+      "title": "How to Play",
+      "pageid": 119
     },
     {
       "title": "Scout",
       "pageid": 123
     },
     {
-      "title": "Soldier",
-      "pageid": 124
-    },
-    {
-      "title": "Sniper",
-      "pageid": 125
-    },
-    {
-      "title": "Minigunner",
-      "pageid": 162
-    },
-    {
-      "title": "Freezer",
-      "pageid": 185
-    },
-    {
-      "title": "Ranger",
-      "pageid": 193
-    },
-    {
       "title": "Pyromancer",
       "pageid": 195
-    },
-    {
-      "title": "Military Base",
-      "pageid": 197
     },
     {
       "title": "Farm",
       "pageid": 198
     },
     {
-      "title": "Commander",
-      "pageid": 199
-    },
-    {
       "title": "Militant",
       "pageid": 200
     },
     {
-      "title": "Paintballer",
-      "pageid": 202
+      "title": "Molten Boss",
+      "pageid": 284
     },
     {
-      "title": "Crook Boss",
-      "pageid": 226
+      "title": "Molten",
+      "pageid": 286
     },
     {
-      "title": "Demoman",
-      "pageid": 239
+      "title": "Tank 2",
+      "pageid": 287
     },
     {
-      "title": "Shotgunner",
-      "pageid": 275
+      "title": "Grave Digger (Legacy)",
+      "pageid": 294
     },
     {
-      "title": "Gladiator",
-      "pageid": 302
+      "title": "Normal",
+      "pageid": 348
     },
     {
-      "title": "Rocketeer",
-      "pageid": 307
+      "title": "Strong",
+      "pageid": 397
     },
     {
-      "title": "Sentry",
-      "pageid": 392
+      "title": "Badlands",
+      "pageid": 403
     },
     {
-      "title": "Turret",
-      "pageid": 454
+      "title": "Rocket Arena",
+      "pageid": 441
+    },
+    {
+      "title": "Harbor",
+      "pageid": 442
+    },
+    {
+      "title": "Cyber City",
+      "pageid": 443
+    },
+    {
+      "title": "Moon Base",
+      "pageid": 444
+    },
+    {
+      "title": "Nether",
+      "pageid": 445
+    },
+    {
+      "title": "Chess Board",
+      "pageid": 446
+    },
+    {
+      "title": "The Heights",
+      "pageid": 447
+    },
+    {
+      "title": "Forest Camp",
+      "pageid": 477
+    },
+    {
+      "title": "Iceville",
+      "pageid": 478
+    },
+    {
+      "title": "Medieval Times",
+      "pageid": 479
+    },
+    {
+      "title": "Speedy",
+      "pageid": 480
+    },
+    {
+      "title": "Slow",
+      "pageid": 481
+    },
+    {
+      "title": "Hidden",
+      "pageid": 484
+    },
+    {
+      "title": "Toyboard",
+      "pageid": 485
+    },
+    {
+      "title": "Normal Boss",
+      "pageid": 486
+    },
+    {
+      "title": "Mystery",
+      "pageid": 488
     },
     {
       "title": "Necromancer (Legacy Enemy)",
       "pageid": 490
     },
     {
+      "title": "Slow Boss",
+      "pageid": 491
+    },
+    {
+      "title": "Hidden Boss",
+      "pageid": 492
+    },
+    {
+      "title": "Shock",
+      "pageid": 493
+    },
+    {
+      "title": "Speedy Boss",
+      "pageid": 494
+    },
+    {
+      "title": "Super Mystery",
+      "pageid": 496
+    },
+    {
+      "title": "Crystal Cave",
+      "pageid": 497
+    },
+    {
+      "title": "Sky Islands",
+      "pageid": 498
+    },
+    {
+      "title": "Crossroads",
+      "pageid": 500
+    },
+    {
+      "title": "Mystery Summoner",
+      "pageid": 504
+    },
+    {
+      "title": "Boomer",
+      "pageid": 505
+    },
+    {
+      "title": "Necromancer 2",
+      "pageid": 506
+    },
+    {
+      "title": "Blighted (Legacy)",
+      "pageid": 507
+    },
+    {
+      "title": "Tank",
+      "pageid": 508
+    },
+    {
+      "title": "Boomer 2",
+      "pageid": 509
+    },
+    {
+      "title": "Carrier",
+      "pageid": 510
+    },
+    {
+      "title": "Controlled",
+      "pageid": 511
+    },
+    {
+      "title": "Chained Boss",
+      "pageid": 512
+    },
+    {
+      "title": "Witch Doctor",
+      "pageid": 513
+    },
+    {
       "title": "Infernal Abyss",
       "pageid": 515
     },
     {
-      "title": "Commando",
-      "pageid": 599
-    },
-    {
-      "title": "Medic",
-      "pageid": 1545
-    },
-    {
-      "title": "Hunter",
-      "pageid": 1546
-    },
-    {
-      "title": "Fallen",
-      "pageid": 1613
-    },
-    {
-      "title": "Abnormal",
-      "pageid": 1617
-    },
-    {
-      "title": "Quick",
-      "pageid": 1625
-    },
-    {
-      "title": "Slasher",
-      "pageid": 1752
-    },
-    {
-      "title": "DJ Booth",
-      "pageid": 2235
-    },
-    {
-      "title": "Ace Pilot",
-      "pageid": 2469
-    },
-    {
-      "title": "Mortar",
-      "pageid": 2730
-    },
-    {
-      "title": "Frost Blaster",
-      "pageid": 2732
-    },
-    {
-      "title": "Archer",
-      "pageid": 2747
-    },
-    {
-      "title": "Winter Stronghold",
-      "pageid": 2952
-    },
-    {
-      "title": "Premium Crate",
-      "pageid": 2967
-    },
-    {
-      "title": "Golden Crate",
-      "pageid": 2968
-    },
-    {
-      "title": "Electroshocker",
-      "pageid": 3751
-    },
-    {
-      "title": "Swarmer",
-      "pageid": 4581
-    },
-    {
-      "title": "Pursuit",
-      "pageid": 6735
-    },
-    {
-      "title": "Mecha Base",
-      "pageid": 7179
-    },
-    {
-      "title": "War Machine",
-      "pageid": 7181
-    },
-    {
-      "title": "Cowboy",
-      "pageid": 7565
-    },
-    {
-      "title": "Humvee",
-      "pageid": 9668
-    },
-    {
-      "title": "Humvee 2",
-      "pageid": 9670
-    },
-    {
-      "title": "Humvee 3",
-      "pageid": 9671
-    },
-    {
-      "title": "Tank (Unit)",
-      "pageid": 9672
-    },
-    {
-      "title": "Railgun Tank",
-      "pageid": 9673
-    },
-    {
-      "title": "SWAT Van",
-      "pageid": 9681
-    },
-    {
-      "title": "Crook",
-      "pageid": 9688
+      "title": "Tropical Isles",
+      "pageid": 516
     }
   ],
   "templates": [
     {
       "ns": 10,
-      "title": "Template:Tabs",
+      "title": "Template:ModeTabs",
       "exists": true
     },
     {
@@ -846,7 +456,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:TowerInfobox",
+      "title": "Template:ModeInfobox",
       "exists": true
     },
     {
@@ -856,12 +466,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:Coins",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Robux",
+      "title": "Template:Level",
       "exists": true
     },
     {
@@ -871,17 +476,17 @@
     },
     {
       "ns": 10,
-      "title": "Template:Attr",
+      "title": "Template:Coins",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:AttrTag",
+      "title": "Template:Exp",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:AttrTag/styles.css",
+      "title": "Template:TowerExp",
       "exists": true
     },
     {
@@ -896,27 +501,117 @@
     },
     {
       "ns": 10,
-      "title": "Template:Upgrade",
+      "title": "Template:TimeScaleTicket",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Hidden",
+      "title": "Template:ReviveTicket",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Neow",
+      "title": "Template:SpinTicket",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Badge",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Badge/float.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Badge/data",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Sic",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Sic/quote.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Gem",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Shells",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:LoveLetter",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:SolarShard",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Shards",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bell",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:DuckyEggs",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:BeachBalls",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:GumDrops",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:PlushieSnowman",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bunz",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Soundtrack",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:GalleryHeader",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Gallery",
       "exists": true
     },
     {
       "ns": 10,
       "title": "Template:Scroll",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Tooltip",
       "exists": true
     },
     {
@@ -931,12 +626,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:TowerNavBox",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:TowerNavBox/labels.css",
+      "title": "Template:ModeNavBox",
       "exists": true
     },
     {
@@ -946,126 +636,141 @@
     },
     {
       "ns": 828,
-      "title": "Module:NumName",
+      "title": "Module:Roapid",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:Randomizer",
+      "title": "Module:Roapid/badges-2124615655.json",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:StripNaked",
+      "title": "Module:Roapid/badges-1270412135564244.json",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:Neowbunto",
+      "title": "Module:Roapid/badges-2124572796.json",
       "exists": true
     },
     {
       "ns": 828,
-      "title": "Module:Tipgen",
+      "title": "Module:Roapid/badges-2124572795.json",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Roapid/badges-2124572797.json",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Roapid/badges-2124477833.json",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Roapid/badges-2124474327.json",
       "exists": true
     }
   ],
   "related_pages": [
     {
-      "title": "Golden Cowboy/Gallery",
+      "title": "Fallen Mode/Rewards",
       "score": 6,
-      "pageid": 30854,
-      "latest_revid": 140039,
-      "latest_timestamp": "2023-02-15T10:13:40Z",
-      "wikitext_excerpt": "#REDIRECT [[Cowboy/Gallery]]"
+      "pageid": 41177,
+      "latest_revid": 615832,
+      "latest_timestamp": "2026-08-16T15:07:38Z",
+      "wikitext_excerpt": "{{ModeTabs|Rewards|Story = No}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''17 July 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|700}} ÷ (1 + [(40 ÷ Current Wave) - 1]^2.4) + {{Coins|650}} (Triumph Bonus)\n|{{Exp|200}} ÷ (1 + [(40 ÷ Current Wave) - 1]^2) + {{Exp|50}} (Triumph Bonus)\n|{{TowerExp|85}} ÷ (1 + [(40 ÷ Current Wave) - 1]) + {{TowerExp|100}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Fallen''' mode can give out an additional reward. [[Beach Crate]], [[Scuba Ops Crate]] and [[Patriotic Crate]] are also part of this, though it is not known which rarity they are in:\n*{{Color|Common}} (47.39%)\n**{{TimeScaleTicket|Time Scale Ticket}} (2-4)\n**{{ReviveTicket|Revive Ticket}} (2-3)\n**{{SpinTicket|Spin Ticket}} (2-3)\n**[[Low Grade Crate]]\n**[[Barricade]] (2-4)\n**[[Supply Drop]] (2-4)\n**[[Easter Egg]] (2-4)\n*{{Color|Uncommon}} (28.44%)\n**[[Cooldown Flag]] (2-4)\n**[[Range Flag]] (2-4)\n**[[Damage Flag]] (2-4)\n**[[Mid Grade Crate]]\n**[[Ducky Squad]] (2-4)\n*{{Color|Rare}} (18.96%)\n**[[High Grade Crate]]\n**[[Napalm Strike]] (2-3)\n**[[Blizzard Bomb]] (2-3)\n*{{Color|Legendary}} (4.74%)\n**[[Nuke]]\n*{{Color|Common|Custom}} (0.47%)\n**[[Molten Monster (Consumable)|Molten Monster]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''5 June 2026 – 17 July 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|850}} ÷ (1 + [(40 ÷ Current Wave) - 1]^1.3) + {{Coins|150}} (Triumph Bonus)\n|{{Exp|200}} ÷ (1 + [(40 ÷ Current Wave) - 1]) + {{Exp|50}} (Triumph Bonus)\n|{{TowerExp|85}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{TowerExp|100}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Fallen''' mode can give out an additional reward:\n*{{Color|Common}} (47.39%)\n**{{TimeScaleTicket|Time Scale Ticket}} (2-4)\n**{{ReviveTicket|Revive Ticket}} (2-3)\n**{{SpinTicket|Spin Ticket}} (2-3)\n**[[Low Grade Crate]]\n**[[Barricade]] (2-4)\n**[[Supply Drop]] (2-4)\n**[[Easter Egg]] (2-4)\n*{{Color|Uncommon}} (28.44%)\n**[[Cooldown Flag]] (2-4)\n**[[Range Flag]] (2-4)\n**[[Damage Flag]] (2-4)\n**[[Mid Grade Crate]]\n**[[Ducky Squad]] (2-4)\n*{{Color|Rare}} (18.96%)\n**[[High Grade Crate]]\n**[[Napalm Strike]] (2-3)\n**[[Blizzard Bomb]] (2-3)\n*{{Color|Legendary}} (4.74%)\n**[[Nuke]]\n*{{Color|Common|Custom}} (0.47%)\n**[[Molten Monster (Consumable)|Molten Monster]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''3 April 2026 – 5 June 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|850}} ÷ (1 + [(40 ÷ Current Wave) - 1]^1.3) + {{Coins|150}} (Triumph Bonus)\n|{{Exp|200}} ÷ (1 + [(40 ÷ Current Wave) - 1]) + {{Exp|50}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Fallen''' mode can give out an additional reward:\n*{{Color|Common}} (47.39%)\n**{{TimeScaleTicket|Time Scale Ticket}} (2-4)\n**{{ReviveTicket|Revive Ticket}} (2-3)\n**{{SpinTicket|Spin Ticket}} (2-3)\n**[[Low Grade Crate]]\n**[[Barricade]] (2-4)\n**[[Supply Drop]] (2-4)\n**[[Easter Egg]] (2-4)\n*{{Color|Uncommon}} (28.44%)\n**[[Cooldown Flag]] (2-4)\n**[[Range Flag]] (2-4)\n**[[Damage Flag]] (2-4)\n**[[Mid Grade Crate]]\n**[[Ducky Squad]] (2-4)\n*{{Color|Rare}} (18.96%)\n**[[High Grade Crate]]\n**[[Napalm Strike]] (2-3)\n**[[Blizzard Bomb]] (2-3)\n*{{Color|Legendary}} (4.74%)\n**[[Nuke]]\n*{{Color|Common|Custom}} (0.47%)\n**[[Molten Monster (Consumable)|Molten Monster]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''20 December 2025 – 3 April 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n"
     },
     {
-      "title": "Golden Cowboy/History",
+      "title": "Fallen Mode/Waves",
       "score": 6,
-      "pageid": 32596,
-      "latest_revid": 618597,
-      "latest_timestamp": "2026-08-18T21:37:52Z",
-      "wikitext_excerpt": "{{Tabs|History|Regular = Cowboy/History|Perk = Golden Cowboy/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Cowboy/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore Rework Update (5 June 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:WDGoldenCowboyIcon.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|600}}\n|Footprint = 1.25\n|Sell Price = {{Money|200}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|Hidden = {{Hidden|Hidden Detection}}Level 3+\n|Range = [[File:Range Icon.png|20px|Range]]13\n|Lead = N/A\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|Fly = N/A\n|Title1 = Income\n|Stat1 = {{Money|35}}\n|Title2 = Cash Shot\n|Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|Title3 = Spin Time\n|Stat3 = [[File:Cooldown Icon.png|20px|Spin Time]]2\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))\n$CE$ = Total Cost / DPS\n$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))\n$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 600; 200; 650; 2400; 4250; 9750\n$FSE-DETECTION$ = 3; ;\n$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West\n$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990\n$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{| class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Damage !! Firer"
+      "pageid": 1679,
+      "latest_revid": 582387,
+      "latest_timestamp": "2026-07-30T14:03:09Z",
+      "wikitext_excerpt": "<noinclude>{{ModeTabs|Waves|Story = No}}\n[[File:FallenHardcoreIcon.png|75px|thumb]]</noinclude>\nThese are the current and former wave layouts for '''Fallen''' mode on standard maps. For differences in [[Polluted Wasteland]]s wave structure during '''Fallen''' mode, click on that respective page. For differences in [[Badlands II]] and [[Pizza Party]]'s wave structure, click on that respective page. For information about the [[Hidden Wave]], click on that respective page.\n\n'''Bolded''' names indicates an enemy type's debut.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''11 February 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n{| class=\"wikitable pad-10\" style=\"width:100%; text-align: center;\"\n!Wave\n! colspan=\"2\" |[[Commander (Narrator)|Commander]] Dialogue\n!Enemy Type & Amount\n|-\n| rowspan=\"2\" |1\n| style=\"width:75px;\" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]\n|Commander, enemies have been detected in this area. Intel reports mention something called \"The Fallen.\" I need you to secure the perimeter and report back what you find.\n| rowspan=\"2\" |5x '''[[Abnormal]]'''\n|-\n| style=\"width:75px;\" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Yes Ma'am!\n|-\n|2\n| colspan=\"2\" | -\n|8x [[Abnormal]]\n|-\n| rowspan=\"2\" |3\n| style=\"width:75px;\" |[[File:REWCommanderScared.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Dispatcher, these aren't your normal enemies. It' like they're wearing some kind of ancient armor!!\n| rowspan=\"2\" |1x '''[[Quick]]''', 2x [[Abnormal]], 1x [[Quick]], 2x [[Abnormal]], 1x [[Quick]], 2x [[Abnormal]], 1x [[Quick]]\n|-\n| style=\"width:75px;\" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]\n|From what little we know, the Fallen are highly organized. Treat them as hostile and keep your distance until we know more.\n|-\n|4\n| colspan=\"2\" | -\n|8x [[Quick]], 8x [[Abnormal]]\n|-\n|5\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Look at that rust! I can only imagine how old these guys might be.\n|3x '''[[Fallen Skeleton]]''', 5x [[Abnormal]], 5x [[Quick]]\n|-\n|6\n| colspan=\"2\" | -\n|5x [[Fallen Skeleton]]\n|-\n| rowspan=\"2\" |7\n| style=\"width:75px;\" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]\n|Watch out, Commander, those Dregs will leave a corpse behind if their flames go out.\n| rowspan=\"2\" |1x '''[[Fallen Dreg]]''', 9x [[Abnormal]] ([[Bloated]]), 3x [[Quick]] ([[Nimble]])\n|-\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Got it!\n|-\n|8\n| colspan=\"2\" | -\n|1x [[Fallen Dreg]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]]\n|-\n|9\n| style=\"width:75px;\" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Agh! That Squire has aggro and is pulling our attention! We can't target anything else!\n|1x '''[[Fallen Squire]]''' ([[Boss]], [[Aggro]]), 3x [[Abnormal]], 3x [[Abnormal]] ([[Bloated]]), 2x [[Fallen Skeleton]], 2x [[Fallen Skeleton]] ([[Bloated]])\n|-\n|10\n| colspan=\"2\" | -\n|1x [[Fallen Dreg]], 1x '''[[Breaker2]]''', 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]], 1x [[Breaker2]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]]\n|-\n| rowspan=\"2\" |11\n|[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]\n|There's a lot of Hidden enemies ahead of you. Make sure none slip by.\n| rowspan=\"2\" |1x [[Fallen Squire]] ([[Aggro]]), 3x [[Fallen Dreg]], 3x [[Fallen Skeleton]], 3x [[Breaker2]]\n|-\n| style=\"width:75px;\" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Already on it!\n|-\n|12\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]\n|Man, I'm shivering! When did it get so cold?\n|11x '''[[Fallen Soul]]'''\n|-\n|13\n| colspan=\"2\" | -\n|5x [[Fallen Skeleton]], 2x [[Fallen Dreg]], 1x [[F"
     },
     {
-      "title": "Cowboy",
-      "score": 3,
-      "pageid": 7565,
-      "latest_revid": 626397,
-      "latest_timestamp": "2026-08-25T14:52:09Z",
-      "wikitext_excerpt": "{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}\n{{SameName|Cowboy|[[Cowboy|Tower]] • [[Cowboy (Modifier)|Modifier]]}}\n{{TowerInfobox\n|title = Cowboy\n|image-static = WDDefaultCowboyIcon.png\n|image-dynamic = CowboyDynamic.png\n|unlockcost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]10 ([[PVP]])\n|basecost = {{Money|550}}\n|basesellingprice = {{Money|183}}\n|basedamage = [[File:Damage Icon.png|20px|Damage]]3\n|damagetype = Single\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|baserange = [[File:Range Icon.png|20px|Range]]13\n|baseincome = {{Money|30}}\n|hidden_detection = {{Attr|Hidden|Level 3+}}\n|lead_detection = N/A\n|flying_detection = N/A\n|immune = Partial Debuff<ref name=\"pd\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|footprint = 1.25\n|pvp_basecost = {{Money|550}}\n|pvp_basesellingprice = {{Money|183}}\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4\n|pvp_damagetype = Single\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]14\n|pvp_baseincome = {{Money|50}}\n|pvp_hidden_detection = {{Attr|Hidden|Level 3+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = Partial Debuff<ref name=\"pd\"/> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref name=\"stun\"/> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|pvp_footprint = 1.5\n|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}\n{{QuoteBox|[[File:BadlandsIIIcon.png|20px|Badlands II]] Beat \"Badlands II\" to buy this tower.|Shop Description}}\n|-|Version 4 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}\n{{QuoteBox|[[File:BadlandsIIIcon.png|20px|Badlands II]] Beat \"Badlands II\" to buy this tower.|Former Shop Description}}\n|-|Version 3 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 5th shot.|Former Inventory Description}}\n{{QuoteBox|[[File:BadlandsIIIcon.png|20px|Badlands II]] Beat \"Badlands II\" to buy this tower.|Former Shop Description}}\n|-|Version 2 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|Won from beating a Badlands.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Cowboy''' is an advanced ground [[Towers|tower]] which generates income every few shots. It can be purchased from the store for {{Coins|4,000}} only after triumphing [[Badlands II]]. Due to a bug, the tower does not need to be purchased, instead appearing in the [[Gift Box]]. Alternatively, its [[Gamepasses|gamepass]] can be purchased for {{Robux|3"
+      "title": "Legacy Fallen Mode",
+      "score": 6,
+      "pageid": 46623,
+      "latest_revid": 553302,
+      "latest_timestamp": "2026-07-14T20:29:15Z",
+      "wikitext_excerpt": "{{SandboxOnly}}\n{{for|other uses of [[Fallen (Disambiguation)|Fallen]]}}\n{{ModeInfobox\n|title1 = {{Color|LegacyFallenMode}}\n|image1 = FallenBossRender.png\n|waves = 40\n|level_requirement = None\n|starting_cash = {{Money|500}}<br/>{{Money|600}} (Group Bonus)\n|shared_cash = 12.5% (Duo)<br/>16.7% (Trio)<br/>18.75% (Quad)\n|rewards = N/A\n|modifiers = [[Legacy]]\n|music-1 = '''Final Wave''' [[File:(Official) Tower Defense Simulator OST - Fallen Boss|center|250px|thumb]]\n}}\n==Description==\n'''Legacy Fallen''', internally referred to as '''Insane''', is a mode exclusive to [[Sandbox Mode|Sandbox]] mode. It is an older version of [[Fallen Mode|Fallen]] mode, more specifically mostly replicating the version before the 2nd of August 2024 without [[Enemies Beta]] applied, with some minor differences, like the income, certain enemy statistics or soundtracks.\n\nWhile the actual legacy [[Fallen Mode|Fallen]] mode used to give cash on damage, with a shared cash of 25% of the damage dealt being given to all other players, this is not the case here. In the [[Sandbox Mode|Sandbox]] mode, it uses the new income system, though as the enemies have no set up cash values, they all give {{Money|5}} on death.\n\nCash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. In solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this decreases by 25%, which means that in a quad, you only get 25% of the cash.\n\nThe cash distribution between players is based on how much damage they dealt. If a player has not dealt any damage, they will receive a percentage of the enemy's full cash upon its death or when it was damaged enough: \n*Duo: 12.5%\n*Trio: 16.7%\n*Quad: 18.75%\nOn the condition that the resulting amount has a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down. For example, the [[Abnormal]] gives {{Money|5}} when killed in solo, {{Money|3.75}} in duo, rounded up to {{Money|4}}, {{Money|2.5}} in trio, rounded up to {{Money|3}} and {{Money|1.25}} in quad, rounded down to {{Money|1}} between the players that damaged it. Players that did not damage it receive {{Money|0.625}} in duo, rounded up to {{Money|1}}, {{Money|0.835}} in trio, rounded up to {{Money|1}} and {{Money|0.9375}} in quad, rounded up to {{Money|1}}.\n\n==Enemies==\n{| class=\"empty-table pad-5 align-center\" style=\"width:80%; margin:1em auto\"\n|[[File:Abnormal1.png|center|150px|link=Abnormal]]\n|[[File:Quick4.png|center|150px|link=Quick]]\n|[[File:HeavyFrostUpdate.png|center|150px|link=Heavy]]\n|[[File:AbnormalBossFrostUpdate.png|center|150px|link=Abnormal Boss]]\n|-\n|[[Abnormal]]<br/>Wave 1<br/>70+ Total<ref name=\"mysterynecromancer\">Number is based on natural spawns. Number can be exceeded if spawned by the [[Mystery]] and [[Dark Necromancer]].</ref>\n|[[Quick]]<br/>Wave 5<br/>42+ Total<ref name=\"mysterynecromancer\"/>\n|[[Heavy]]<br/>Wave 7<br/>76+ Total<ref name=\"mysterynecromancer\"/>\n|[[Abnormal Boss]]<br/>Wave 10<br/>19+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Mystery]] and [[Mystery Boss]].</ref>\n|-\n|[[File:Shadow2.png|center|150px|link=Shadow]]\n|[[File:Mystery6.png|center|150px|link=Mystery]]\n|[[File:DarkNecromancer0.png|center|150px|link=Dark Necromancer]]\n|[[File:Fallen.png|center|150px|link=Fallen]]\n|-\n|[[Shadow]]<br/>Wave 13<br/>42+ Total<ref name=\"mysterynecromancer\"/>\n|[[Mystery]]<br/>Wave 16<br/>140+ Total<ref name=\"summoner\">Number is based on natural spawns. Number can be exceeded if spawned by the [[Summoner Boss]].</ref>\n|[[Dark Necromancer]]<br/>Wave 19<br/>8+ Total<ref name=\"mystery\">Number is based on natural spawns. Number can be exceeded if spawned by the [[Mystery]].</ref>\n|[[Fallen]]<br/>Wave 20<br/>100+ Total<ref>Number is based on"
     },
     {
-      "title": "Cowboy Plush",
+      "title": "Awakened Fallen King",
       "score": 3,
-      "pageid": 42359,
-      "latest_revid": 468346,
-      "latest_timestamp": "2026-06-05T07:53:16Z",
-      "wikitext_excerpt": "{{MerchShopWarning}}\n{{Toy\n|image1 = PlushCowboy.png\n|release_date = Mid November 2024\n|virtual_item = {{Color|Other|Plushie}} [[Cowboy]] skin\n|toy_type = Plushie\n}}\n__TOC__\n==Description==\nThe '''Cowboy Plush''' is an upcoming official Paradoxum Games toy which is currently available to be pre-ordered. It was made by Juniper Creates. The plushie offers the Level 4 [[Cowboy]]. Anybody who bought the toy from the in-game Merch Store will receive the {{Color|Other|Umbra}} skin for the {{Color|Other|Plushie}} skin for the [[Cowboy]]. If bought on the [https://shop.paradoxum.games/ Paradoxum Games store], it will not come with any rewards.\n\nThe revolvers of the '''Cowboy Plush''' are detachable. It is made out of plush fabric and polypropylene cotton, its size measures 13 inches (33.02 cm) tall, 10.6 inches (26.924 cm) wide and 11.8 inches (29.972 cm) long. A tree is planted for every order of the plush.\n\n==Official Description==\n*'''Online (Third)'''\n*:Howdy partner, the fan favorite Cowboy tower is here as a plush and he is packing some heat with his removable revolvers. This plush does not include an in-game reward. \n*'''Online (Second)'''\n*:Howdy partner, the fan favorite Cowboy tower is here as a plush and he is packing some heat with his removable revolvers. The in-game reward is only included with purchases made in Roblox. Items purchased from shop.paradoxum.games do not include an in-game reward.\n*'''Online (First)'''\n*:Howdy partner, the fan favorite Cowboy tower is here as a plush and he's packing some heat with his removable revolvers.\n\n==Prices & Stores==\nPrices vary by country due to shipping costs and local currency. The '''Cowboy Plush''' can be purchased on the official [https://shop.paradoxum.games/ Paradoxum Games online store] for $34.99. If bought as part of the Cowboy Bundle, which also includes the [[Cowboy]] pin, it costs $43.18.\n\nBefore April 2025, the '''Cowboy Plush''' could be purchased for $29.99, while the bundle could be purchased for $35.98. During the Black Friday 2024 Sale, it could be bought for $22.49, while the bundle had a cost of $26.98. During the Black Friday 2025 Sale, it had a cost of $28.99, while the bundle could be bought for $36.78.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Showcase}}\n<gallery>\nCowboyPlushShowcase1.png\nCowboyPlushShowcase2.png\nCowboyPlushShowcase3.png\nCowboyPlushShowcase4.png\nCowboyPlushShowcase5.png\nCowboyPlushShowcase6.png\nCowboyPlushShowcase7.png\nCowboyPlushShowcase8.png\nCowboyPlushShowcase9.png\nCowboyPlushShowcase10.png\nCowboyPlushShowcase11.png\nCowboyPlushShowcase12.png\nCowboyPlushShowcase13.png\nCowboyPlushShowcase14.png\n</gallery>\n}}\n\n\n\n{{ToyNavBox}}\n[[Category:Plushies]]"
+      "pageid": 41584,
+      "latest_revid": 618383,
+      "latest_timestamp": "2026-08-18T11:35:08Z",
+      "wikitext_excerpt": "{{For|other uses of [[Fallen (Disambiguation)|Fallen]] or [[King (Disambiguation)|King]]}}\n{{Zombie\n|title1 = {{Color|F4A8FF|Awakened Fallen King|text-shadow: 0 0 6px #B738C9, 0 0 6px #B738C9, 0 0 6px #B738C9, 0 0 6px #B738C9, 0 0 6px #B738C9;}}\n|image1 = <tabber>\n|-|Regular = [[File:AwakenedFallenKing.png]]\n|-|Complete Awakening = [[File:AFKCompleteAwakening.png]]\n</tabber>\n|mode_appearance = [[Fallen Mode|{{Color|FallenMode}}]]\n|first_wave_appearance = [[Hidden Wave|???]]\n|base_hp = [[File:HealthIcon.png|20px|Health]]1,000,000\n|defense = {{Defense}}60%\n|speed = [[File:SpeedIcon.png|20px|Speed]]Very Slow (1.3)<br/>[[File:SpeedIcon.png|20px|Speed]]Slightly Slow (2.3, Complete Awakening)\n|cash = {{Money|25,000}} every 10% health\n|hidden = No\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Freeze}}<br/>{{Attr|Stun}}<br/>{{BossList|Default}}\n|ability1 = '''{{WikiAb|Dramatic Entrance}}''' - When spawning, the '''Awakened Fallen King''' appears slightly in front of the entrance, glitching all the players' screens and smashing the ground, followed by a loud screech and a massive shockwave with purple lightning that stuns towers for 5 seconds and deals 200 damage to units.\n|ability2 = '''Fallen Comet''' - The '''Awakened Fallen King''' slams its sword into the ground, lifts its right arm up then moves it back down slowly and then pulls out the sword, making a large number of purple spikes fall down from the sky, stunning towers for 5 seconds and dealing 50 damage to units with no range limit for the ability.\n|ability2_cooldown = 45\n|ability3 = '''Sword Swing''' - The '''Awakened Fallen King''' slashes its sword three times, with the arc increasing until a full circle area on the last slash. Each slash will stun towers for 6 seconds and damages units in its area by 100.\n|ability3_cooldown = 25\n|ability4 = '''Summon''' - The '''Awakened Fallen King''' will raise its sword in the air, summoning forty [[Fallen Giant]]s (40% chance), [[Fallen Shield]]s (20% chance) and [[Fallen Hero]]es (40% chance). As this can only be used once and the [[Fallen King]] using the ability counts as an '''Awakened Fallen King''' usage, this ability ends up unused in most normal matches.\n|ability4_cooldown = 15\n|ability5 = '''Undead Charge''' - The '''Awakened Fallen King''' will raise its sword forward, summoning five [[Necrotic Skeleton]]s with a 0.25 delay between each spawn.\n|ability5_cooldown = 50\n|ability6 = {{WikiAb|{{Color|PhaseTwo|Complete Awakening}}}} - After reaching 500,000 health, the '''Awakened Fallen King''' throws away its shield and then does a large stomp, stunning towers for 4 seconds. Speed is increased after this ability.\n|music-1 = [[File:(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|thumb|center|250px]]\n|music-ingame-1 = [[File:Tower Defense Simulator OST - Equinox In-Game Version|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|AWAKEN.|[[???]] dialogue on Wave [[Hidden Wave|???]]}}\n}}\n__TOC__\n==Description==\nThe '''Awakened Fallen King''' is a boss that appears in the [[Hidden Wave]]. It is the second and later third phase of the [[Fallen King]], it boasts significantly higher health than its first form and possesses more abilities.\n\nThe '''Awakened Fallen King''' has six abilities:\n\n#Its first ability, ''Dramatic Entrance'', only happens when the '''Awakened Fallen King''' first spawns. It will appear slightly in front of the entrance, dropping from the sky. This creates a shockwave upon landing, stunning any tower hit for 5 seconds and deals 200 damage to units.\n#The second, ''Fallen Comet'', makes it slam its sword into the ground, which creates multiple purple spikes that fall down from the sky, stunning towers for 5 seconds and dealing 50 damage to units.\n#The third is ''Sword Swing'', which makes it slash its sword three times, with the arc increasing until a full circle area on the last slash. Each slash will stun towers in its area for 6 seconds and deals 100 damage to units.\n#The four"
     },
     {
-      "title": "Cowboy/Gallery",
+      "title": "Casual Mode",
       "score": 3,
-      "pageid": 11331,
-      "latest_revid": 646933,
-      "latest_timestamp": "2026-09-08T16:07:12Z",
-      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|<big><center>'''Regular'''</center></big>\n{{UpgradeIcons\n|[[File:NewCowboyLevel2.png|150px]]\n|[[File:Cowboy Upgrade 3 New.png|150px]]\n|[[File:Cowboy Upgrade 1 New.png|150px]]\n|[[File:Cowboy Upgrade 4 New.png|150px]]\n|[[File:Cowboy Upgrade 5 New.png|150px]]\n}}\n<big><center>'''Golden Perk'''</center></big>\n{{UpgradeIcons\n|[[File:Cowboy Upgrade 1 New.png|150px]]\n|[[File:NewCowboyLevel2.png|150px]]\n|[[File:Cowboy Upgrade 3 New.png|150px]]\n|[[File:Cowboy Upgrade 4 New.png|150px]]\n|[[File:Cowboy Upgrade 5 New.png|150px]]\n}}\n|29 October 2020 – 7 April 2023\n|{{UpgradeIcons\n|[[File:Cowboy Upgrade 1 New.png|150px]]\n|[[File:NewCowboyLevel2.png|150px]]\n|[[File:Cowboy Upgrade 3 New.png|150px]]\n|[[File:Cowboy Upgrade 4 New.png|150px]]\n|[[File:Cowboy Upgrade 5 New.png|150px]]\n}}\n|13 October 2019 – 29 October 2020\n|{{UpgradeIcons\n|[[File:Cowboy1.png|150px]]\n|[[File:Cowboy2.png|150px]]\n|[[File:Cowboy3.png|150px]]\n|[[File:Cowboy4.png|150px]]\n|[[File:Cowboy5.png|150px]]\n|Ability = [[File:Wildest of the West.png|150px]]\n}}\n|29 June 2019 – 13 October 2019\n|{{UpgradeIcons\n|[[File:Cowboy1.png|150px]]\n|[[File:Cowboy2.png|150px]]\n|[[File:Cowboy3.png|150px]]\n|[[File:Cowboy4.png|150px]]\n|[[File:Cowboy5.png|150px]]\n|Ability = [[File:Gold Rush.png|150px]]\n}}}}\n\n==Skin Upgrades==\nThe '''Cowboy''' has twenty six skins in total. This includes:\n#The Default skin.\n#Thirteen skins that can be unlocked from [[Skincrates]].\n#Four skins that can be unlocked from [[Passes|Passes.]]\n#One skin that can be unlocked from a [[Badges|Badge]].\n#Three skins that can be unlocked from  [[Skincrates]] and [[Passes]].\n#One skin that can be unlocked through [[Mission Quests]].\n#Two skins that can be unlocked from the Merch Shop.\n#One skin that can only be unlocked from the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultCowboyIconIGAug26.png|128px]]\n|[[File:Cowboy_LVL_0New.png|200px]]\n|Tan skin, beige shirt and sleeves, brown pants and dark grey shoes. \nBlack belt and bandolier with bullets attached to them. Brown wide brimmed cowboy hat with grey stripe.\n\nWields a Colt Single Action Army revolver to attack enemies.\n|[[File:Cowboy_LVL_1New.png|200px]]\n|Black gloves.\n|[[File:Cowboy_LVL_2New.png|200px]]\n|Grey opaque/translucent sunglasses and maroon armbands on right arm.\n|[[File:Cowboy_LVL_3New.png|200px]]\n|Bullets across its hat.\n\nNow wields a Colt Python revolver.\n|[[File:Cowboy_LVL_4New.png|200px]]\n|Maroon shawl around its neck.\n\nNow wields dual Colt Python revolvers.\n|[[File:Cowboy_LVL_5New.png|200px]]\n|Light grey futuristic chestplate with red highlights and light grey mask with an opaque/translucent visor.\n\nLeft arm is now a synthetic black arm with red highlights\n\nNow wields dual laser revolvers.\n}}\n|Pumpkin\n|The {{Color|Halloween2019|Pumpkin}} skin is obtained from the [[Halloween 2019 Crate|{{Color|Halloween2019|Halloween 2019 Crate}}]], the [[Pumpkin Crate|{{Color|Pumpkin|Pumpkin Crate}}]], and the [[Halloween Crate|{{Color|Halloween|Halloween Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Halloween2019|Pumpkin}}\n|Icon1 = [[File:PumpkinCowboyIconIGAug26.png|128px]]\n|[[File:WDPumpkinCowboy0.png|200px]]\n|White skin, dark brown buttoned shirt and pants, wine coat, dark brown belt and bullet bandolier.\n\nOrange pumpkin head and a leaning dark brown cowboy hat.\n\nWields a Colt Single Action Army revolver to attack enemies.\n|[[File:WDPumpkinCowboy1.png|200px]]\n|Dark brown gloves.\n|[[File:WDPumpkinCowboy1.png|200px]]\n|White bandages wrapped around its right arm.\n|[[File:WDPumpkinCowboy3.png|200px]]\n|Three bullets wrapped around its hat.\n\nNow wields a Colt Python revolver.\n|[[File:WDPumpkinCowboy4.png|200px]]\n|Dark brown shawl around its neck and left shoulder.\n\nNow wields dual Colt Python revolvers.\n|[[File:WDPumpkinCowboy5.png|200px]]\n|Dark grey futuristic chestplate with cyan highlights.\n\nCoat and pants are now midnight blue. Pumpkin glow is now cyan."
+      "pageid": 44518,
+      "latest_revid": 582405,
+      "latest_timestamp": "2026-07-30T14:08:06Z",
+      "wikitext_excerpt": "{{ModeTabs|Story = No}}\n{{ModeInfobox\n|title1 = {{Color|CasualMode}}\n|image1 = GraveDiggerEasyIcon.png\n|waves = 25\n|level_requirement = None\n|starting_cash = {{Money|500}}<br/>{{Money|600}} (Group Bonus)\n|time = 10:00\n|rewards = {{Coins|450}}, {{Exp|90}} & {{TowerExp|50}}\n}}\n{{QuoteContainer|\n{{QuoteBox|For players who are looking for a casual experience.|Description in Elevators}}\n}}\n==Description==\n'''Casual''' mode is one of the six main survival modes. The mode has 25 waves, and the final boss is [[Grave Digger]]. \n\nCash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.\n\n==Rewards==\nThe game calculates how many {{Coins|Coins}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. Some maps like [[Mason Arch]] can also increase all rewards by a specific amount. Regular {{Exp|}} boosts are multiplicative with other modifiers.\n\nAny rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.\n\nRewards are calculated as:\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|400}} ÷ (1 + [(25 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Bonus)\n|{{Exp|75}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{Exp|15}} (Triumph Bonus)\n|{{TowerExp|20}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{TowerExp|30}} (Triumph Bonus)\n|}\nTriumphing '''Casual''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[AirStrike]]\n**[[Ducky Squad]]\n\n===Badges/Achievements===\nThere are [[badges]] and achievements that you can or could obtain when playing this mode, which may have additional rewards alongside them. These are:\n{{Badge\n|title = Defeat Grave Digger\n|description = Get ready to have your grave dug!\n|image = D11EasyBadge.png\n|obtainable = Yes\n}}\n{{Badge\n|title = Average Joe\n|description = Triumph in Casual mode\n|image = Achievement\n|obtainable = Yes\n|rewards = {{Coins|150}}\n}}\n\n===Seasons===\nDuring some [[Passes]], the '''Casual''' mode could give currency rewards which you used to progress through a season. Rewards for all the seasons were calculated as:\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Season\n!Rewards\n|-\n|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Battle Pass]]\n|{{Bell|8}}<ref>Before 18th of December 2024, the rewards were {{Bell|7}} per wave.</ref> per wave\n|-\n|[[Ducky Reven"
     },
     {
-      "title": "Cowboy/History",
+      "title": "Casual Mode/Rewards",
       "score": 3,
-      "pageid": 28739,
-      "latest_revid": 618582,
-      "latest_timestamp": "2026-08-18T21:36:54Z",
-      "wikitext_excerpt": "{{Tabs|History|Regular = Cowboy/History|Perk = Golden Cowboy/History}}\n\n<div class=\"tower-tabber tabber-stretch\">{{Tabber\n|Regular\n|<div class{{=}}\"mw-collapsible mw-collapsed\">\n<div class{{=}}\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class{{=}}\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:WDDefaultCowboyIcon.png|100px]]\n|Unlock Cost = {{Coins|4,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|550}}\n|Footprint = 1.25\n|Sell Price = {{Money|183}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|Hidden = [[File:HiddenDetection.png|20px|Hidden Detection]]Level 3+\n|Range = [[File:Range Icon.png|20px|Range]]13\n|Lead = N/A\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|Fly = N/A\n|Title1 = Income\n|Stat1 = {{Money|20}}\n|Title2 = Cash Shot\n|Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|Title3 = Spin Time\n|Stat3 = 1.5\n|PVP Cost = {{Money|550}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|183}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]4\n|PVP Damage Type = Single\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|PVP Hidden = [[File:HiddenDetection.png|20px|Hidden Detection]]Level 3+\n|PVP Range = [[File:Range Icon.png|20px|Range]]14\n|PVP Lead = N/A\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]10\n|PVP Fly = N/A\n|PVP Title1 = Income\n|PVP Stat1 = {{Money|50}}\n|PVP Title2 = Cash Shot\n|PVP Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|PVP Title3 = Spin Time\n|PVP Stat3 = 1.25\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Steady Hand|Cost = {{Money|200}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = 1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|2500}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lucky Shot|Cost = {{Money|600}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|30}} > {{Money|50}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|450}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,000}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|916}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Double Tap|Cost = {{Money|3,000}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|50}} > {{Money|125}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|1,916}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Outlawed|Cost = {{Money|7,777}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|125}} > {{Money|185}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|4,509}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Steady Hand|Cost = {{Money|200}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|250}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lucky Shot|Cost = {{Money|500}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2 Damage [[File:Damage Icon.png"
+      "pageid": 46123,
+      "latest_revid": 582406,
+      "latest_timestamp": "2026-07-30T14:08:17Z",
+      "wikitext_excerpt": "{{ModeTabs|Rewards|Story = No}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''2 July 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|400}} ÷ (1 + [(25 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Bonus)\n|{{Exp|75}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{Exp|15}} (Triumph Bonus)\n|{{TowerExp|20}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{TowerExp|30}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Casual''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[AirStrike]]\n**[[Ducky Squad]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''5 June 2026 – 2 July 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|400}} ÷ (1 + [(30 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Bonus)\n|{{Exp|75}} ÷ (1 + [(30 ÷ Current Wave) - 1]) + {{Exp|15}} (Triumph Bonus)\n|{{TowerExp|20}} ÷ (1 + [(30 ÷ Current Wave) - 1]) + {{TowerExp|30}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Casual''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[AirStrike]]\n**[[Ducky Squad]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''3 April 2026 – 5 June 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|350}} ÷ (1 + [(30 ÷ Current Wave) - 1]^1.3) + {{Coins|100}} (Triumph Bonus)\n|{{Exp|75}} ÷ (1 + [(30 ÷ Current Wave) - 1]) + {{Exp|15}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Casual''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[AirStrike]]\n**[[Ducky Squad]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''28 January 2026 – 3 April 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|350}} ÷ (1 + [(30 ÷ Current Wave) - 1]^1.3) + {{Coins|100}} (Triumph Bonus)\n|Waves Completed × {{Exp|2.5}} + {{Exp|15}} (Triumph Only)\n|}\n\n==Triumph Rewards==\nTriumphing '''Casual''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Present Cluster Bomb]] (1-2)\n**[[Fruit Cake]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[AirStrike]]\n**[[Santa's Air Strike]] (1-2)\n**[[Festive Tree]] (1-2)\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''20 December 2025 – 28 January 2026'''</div>\n<div class=\"ContainerColumn mw"
     },
     {
-      "title": "Golden Body Guard",
+      "title": "Casual Mode/Waves",
       "score": 3,
-      "pageid": 30804,
-      "latest_revid": 414874,
-      "latest_timestamp": "2026-05-05T13:50:03Z",
-      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guards 1]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guard]]}}\n{{UnitInfobox\n|title1 = Golden Body Guard\n|image1 = GBodyGuard.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]50s (Level 1)<br/>[[File:VehicleSpawn.png|20px|Spawnrate]]40s (Level 2)\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.625\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guard''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 1 or Level 2. In the game, the '''Golden Body Guard''' was referred to as just '''Body Guard''', though it has been referenced here as '''Golden Body Guard''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moves towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guard''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guard''' had a spawnrate of 50 seconds, 40 seconds if the [[Golden Crook Boss]] was Level 2.\n\nThere was a limit of one unit per [[Golden Crook Boss]] at Levels 1 and 2, limiting the amount of '''Golden Body Guards''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guard''' had pale skin. It had black legs, and wore brown cotton gloves, a black buttoned tuxedo with short yellow sleeves that had dark brown outlines and grey shoes. It also wore a black necktie and was faceless. It also had a yellow briefcase on its back. The '''Golden Body Guard''' wielded a [[wp:Luger pistol|Luger P08]] in its right hand.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guard''' because of its slow spawnrate.\n*You will need to wait 50 seconds for a '''Golden Body Guard''' to spawn if you place down a [[Golden Crook Boss]] and immediately upgrade it to Level 1.\n*The '''Golden Body Guard''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]]. However, this is not recommended due to the low health of the '''Golden Body Guard'''.\n**Do note that the '''Golden Body Guard's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guard''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guard''' collides with them. However, this is likely unfavorable as the '''Golden Body Guard's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guard''' hidden detection.\n**The '''Golden Body Guard''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guard''' will spawn per Level 1 or 2 [[Golden Crook Boss]].\n**Like other units, the '''Golden Body Guard''' will go down a random path.\n*The '''Golden Body Guard''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guard''' without taking much damage from its ranged attack.\n*The '''Golden Body Guard''' is not affected by any buff or debuff as it is a unit.\n*The '''Golden Body Guard''' will struggle against any enemy with abilities that damage units due to its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guard''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*The '''Golden Body Guard''' was duplicated for the Level 3 [[Golden Crook Boss]] [[Units|unit]], the [[Golden Body Guards 1]], though there are minor differences in appearan"
+      "pageid": 46927,
+      "latest_revid": 582407,
+      "latest_timestamp": "2026-07-30T14:08:53Z",
+      "wikitext_excerpt": "<noinclude>{{ModeTabs|Waves|Story = No}}</noinclude>\nThese are the current and former wave layouts for '''Casual''' mode on standard maps.\n'''Bolded''' names indicates an enemy type's debut.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''2 July 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n{| class=\"wikitable pad-10\" style=\"width:100%; text-align: center;\"\n!Wave\n! colspan=\"2\" |[[Commander (Narrator)|Commander]] Dialogue\n!Enemy Type & Amount\n|-\n|1\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|Alright, Recruit. It'll be just like the debrief. We need to clear out the enemy horde and find the one leading them.<br/>[[File:CasualWave1.ogg|300px]]\n|4x '''[[Normal]]'''\n|-\n|2\n| colspan=\"2\" | -\n|4x [[Normal]] , 4x '''[[Speedy]]'''\n|-\n|3\n| colspan=\"2\" | -\n|3x [[Speedy]], 5x [[Normal]]\n|-\n|4\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|So far, so good. Keep it up.<br/>[[File:CasualWave4.ogg|300px]]\n|5x '''[[Slow]]'''\n|-\n|5\n| colspan=\"2\" | -\n|4x [[Slow]], 3x [[Speedy]], 6x [[Normal]]\n|-\n|-\n| rowspan=\"2\" |6\n| style=\"width:75px;\" |[[File:ProfessorVNeutral.gif|thumb|center|75px]]\n|Commander, we have a visual of a mutated zombie heading towards you.<br/>[[File:CasualWave6-1.ogg|300px]]\n| rowspan=\"2\" |1x [[Normal]], 2x [[Speedy]], 3x [[Slow]], 4x [[Normal]], 5x [[Speedy]], 6x [[Slow]]\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|We're on it now. Thanks, V.<br/>[[File:CasualWave6-2.ogg|300px]]\n|-\n|7\n| colspan=\"2\" | -\n|4x [[Normal]], 6x [[Slow]], 1x '''[[Normal Boss]]''' ([[Boss]]), 5x [[Speedy]], 4x [[Normal]]\n|-\n| rowspan=\"2\" |8\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Even after all these years, I'm still surprised by how many mutations there are. Some of them are almost completely invisible. They'll be showing up soon.<br/>[[File:CasualWave8-1.ogg|300px]]\n| rowspan=\"2\" |8x [[Slow]], 4x [[Normal]] ([[Bloated]]), 3x [[Speedy]] ([[Bloated]])\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|That's how a lot of our cities were destroyed. Make sure nothing can get by us.<br/>[[File:CasualWave8-2.ogg|300px]]\n|-\n|9\n| style=\"width:75px;\" |[[File:REWCommanderScared.gif|thumb|center|75px]]\n|I can't see anything!<br/>[[File:CasualWave9.ogg|300px]]\n|12x '''[[Hidden]]'''\n|-\n|10\n| colspan=\"2\" | -\n|4x [[Normal]] ([[Bloated]]), 3x [[Speedy]] ([[Nimble]]), 5x [[Slow]] ([[Bloated]]), 4x [[Hidden]], 8x [[Normal]], 4x [[Normal]] ([[Bloated]]), 3x [[Speedy]] ([[Nimble]]), 5x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]]\n|-\n|11\n| colspan=\"2\" | -\n|7x [[Slow]], 5x [[Speedy]] ([[Bloated]]), 3x '''[[Breaker2]]''', 8x [[Speedy]], 6x [[Normal]], 7x [[Slow]], 5x [[Speedy]] ([[Bloated]]), 3x [[Breaker2]]\n|-\n| rowspan=\"2\" |12\n| style=\"width:75px;\" |[[File:ProfessorVNeutral.gif|thumb|center|75px]]\n|The hordes nearby finally found you. They're starting to surround the area.<br/>[[File:CasualWave12-1.ogg|300px]]\n| rowspan=\"2\" |6x [[Breaker2]], 2x [[Normal Boss]] ([[Hidden (Attribute)|Hidden]]), 6x [[Slow]], 4x [[Speedy]], 8x [[Normal]], 3x [[Speedy]], 2x [[Breaker2]], 3x [[Hidden]], 2x [[Normal Boss]] ([[Hidden (Attribute)|Hidden]]), 9x [[Speedy]]\n|-\n| style=\"width:75px;\" |[[File:REWCommanderAggressive.gif|thumb|center|75px]]\n|Tighten up the defenses!<br/>[[File:CasualWave12-2.ogg|300px]]\n|-\n|13\n| colspan=\"2\" | -\n|8x [[Slow]] ([[Bloated]]), 7x [[Normal]], 3x [[Breaker2]], 6x '''[[Armored]]''', 8x [[Slow]] ([[Bloated]]), 7x [[Normal]], 3x [[Breaker2]], 2x [[Normal Boss]], 2x [[Normal Boss]] ([[Nimble]]), 7x [[Speedy]], 6x [[Armored]], 3x [[Breaker2]]\n|-\n| rowspan=\"2\" |14\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Necromancer spotted! Take it out before it can summon more skeletons!<br/>[[File:CasualWave14-1.ogg|300px]]\n| rowspan=\"2\" |4x [[Armored]], 3x [[Normal Boss]], 4x [[Breaker2]], 2x [[Normal Boss]], 8x [[Speedy]] ([[Nimble]])"
     },
     {
-      "title": "Golden Body Guards 1",
+      "title": "Corrupted Fallen",
       "score": 3,
-      "pageid": 30805,
-      "latest_revid": 414873,
-      "latest_timestamp": "2026-05-05T13:49:39Z",
-      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guards 1]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GBodyGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoids\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]40s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]3\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guards 1''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 3. In the game, the '''Golden Body Guards 1''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 1''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 1''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 1''' had a spawnrate of 40 seconds.\n\nThere was a limit of two units per [[Golden Crook Boss]] at Level 3, limiting the amount of '''Golden Body Guards 1s''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guards 1''' were made up of two humanoids that were nearly identical to each other. They had pale skin, black pants, brown cotton gloves, a black buttoned tuxedo with a golden shirt underneath and grey shoes. One of them also wore a blue necktie, while the other a red necktie, and were faceless. One of them also had a yellow briefcase on its back. The '''Golden Body Guards 1''' wield a [[wp:Luger pistol|Luger P08]] in their right hands.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 1''' because of its slow spawnrate.\n*You will need to wait 40 seconds for a '''Golden Body Guards 1''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 3.\n*The '''Golden Body Guards 1''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 1's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 1''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 1''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 1's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 1''' hidden detection.\n**The '''Golden Body Guards 1''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 1''' will spawn per Level 3 [[Golden Crook Boss]].\n**The '''Golden Body Guards 1''' will go down a random path.\n*The '''Golden Body Guards 1''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''GoldenBody Guard 2''' without taking much damage.\n*The '''Golden Body Guards 1''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 1''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 1''' is caught in the attack, it is instantly killed.\n\n==Update History==\n{{scroll|text =\n*'''13 May 2022''' - [[v1.2.2]]\n**'''GoldenGuard2''' added.\n**{{Bug}} '''GoldenGuard2's''' range can be increased by the [[DJ Booth]].\n**{{Bug}} '''GoldenGuard2''' uses an incorrect name in-game.\n**{{Bug}} You can collide with the '''GoldenGuard2's''' briefcase.\n*'''21 May 2022'"
+      "pageid": 41542,
+      "latest_revid": 623563,
+      "latest_timestamp": "2026-08-23T14:16:25Z",
+      "wikitext_excerpt": "{{EnemyTabs}}\n{{For|other uses of [[Fallen (Disambiguation)|Fallen]]|other uses of [[Corrupted (Disambiguation)|Corrupted]]}}\n{{Zombie\n|image1 = <tabber>\n|-|Animation 1 = [[File:CorruptedFallenAnim2.png]]\n|-|Animation 2 = [[File:CorruptedFallen.png]]\n</tabber>\n|mode_appearance = [[Fallen Mode|{{Color|FallenMode}}]]<br/>{{InfoboxContainer|Challenges|*[[Juggernaut (Challenge)|Juggernaut]]\n*[[Jailed Towers (Challenge)|Jailed Towers]]\n*[[Back to Basics (Challenge)|Back to Basics]]\n*[[Legion (Challenge)|Legion]]\n*[[Vanguard (Challenge)|Vanguard]]}}{{InfoboxContainer|Events|*[[Sk8 P4rk|The Takeover (Extreme)]]}}\n----\nOriginally:<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = 21\n----\nOriginally:<br>21 (High Rank PVP Test)<br>15 (The Takeover Extreme)\n|base_hp = [[File:HealthIcon.png|20px|Health]]1,200 (Fallen)<br/>[[File:HealthIcon.png|20px|Health]]800 (Sandbox)\n|scale_hp = Duo - [[File:HealthIcon.png|20px|Health]]1,400<br/>Trio - [[File:HealthIcon.png|20px|Health]]1,500<br/>Quad - [[File:HealthIcon.png|20px|Health]]1,700\n|speed = [[File:SpeedIcon.png|20px|Speed]]Fast (7.5)\n|cash = {{Money|1,200}} on death (Fallen)<br/>{{Money|5}} on death (Default)\n|spawned_by = [[Fallen King]]\n|hidden = {{Attr|Hidden|Variable}}\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Health Regen}}<br/>{{Attr|Bloated}} (Variable)<br/>{{Attr|Nimble}} (Variable)\n}}\n==Description==\nThe '''Corrupted Fallen''' is a quick enemy that appears in [[Fallen Mode|Fallen]] mode. It also appears in [[The Takeover Event]]. It is a stronger version of the [[Fallen]]. It has a decent amount of health and a rather fast speed. The '''Corrupted Fallen''' also has the [[Health Regen]] attribute, meaning it regenerates 2% of its max health every two seconds.\n\nThe '''Corrupted Fallen''' can be spawned by the [[Fallen King]] with its ''Summon'' ability. The [[Awakened Fallen King]] was previously able to summon it using its ''Army of Chaos'' ability.\n\n==Logbook Description==\n\"''Corrupted Fallen were both the King's and Queen's personal servants. They stood up closest to her during the sacrifice and witnessed her final moments. The corruption crawls across their bodies, slowly consuming them as time moves on. It doesn't seem that they are bothered by this, but regular Fallen tend to stay away from them.''\"\n\n==Appearance==\nThe '''Corrupted Fallen''' is a corrupted version of the [[Fallen]]. It has black skin. It wears a white blindfold and appears to be crying behind it. It has multiple blue spikes on its on its body. It has two arm-bands with chains attached to it.\n\n==Strategy==\n*The '''Corrupted Fallen''' is quite a step-up compared to its non-corrupted counterpart, the [[Fallen]]. While not having much of a step-up in HP, it spawns with the [[Health Regen]] attribute. This means that it should not be left on low health. Instead, it should be dealt with as soon as possible. \n**Applying high DPS towers, like the [[Minigunner]], [[Engineer]], [[Accelerator]] and [[Turret]] can take it out with ease, as well as clearing out hordes of '''Corrupted Fallens'''.\n**The [[Commander]], [[DJ Booth]] and [[Mercenary Base]] can also be useful at boosting your towers.\n*Area of effect towers, like the [[Mortar]], [[Electroshocker]] or [[Rocketeer]] can be useful at clearing out the hordes of '''Corrupted Fallens''' that appear later on.\n*Because of its high speed, slowing towers such as the [[Cryomancer]], [[Tesla]] and [[Freezer]] can be used to negate their speed. Though since the '''Corrupted Fallen''' does not have any immunities, any tower can be used to slow it down.\n*If any '''Corrupted Fallens''' leak, the [[Military Base]] can be used to catch any off-guard. Though long-ranged towers such as the [[Ranger]] can also be utilized.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Animations}}\n<gallery>\nCorruptedFallenRun.gif|Running animation (2 August 2024 – Present)\nCorruptedFallenRun2.gif|Running animation (2 August 2024 – Present)\nCorruptedFallenStun.gif|Stun animation (2 Au"
     },
     {
-      "title": "Golden Body Guards 2",
+      "title": "Easy Mode",
       "score": 3,
-      "pageid": 30806,
-      "latest_revid": 414872,
-      "latest_timestamp": "2026-05-05T13:49:28Z",
-      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 1]]|its normal counterpart, the [[Body Guards 2]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]50\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]35s\n|damage_type = Single<br/>Collision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]4\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.175\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Body Guards 2''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 4. In the game, the '''Golden Body Guards 2''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 2''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 2''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 2''' had a spawnrate of 35 seconds.\n\nThere was a limit of three units per [[Golden Crook Boss]] at Level 4, limiting the amount of '''Golden Body Guards 2s''' it could spawn.\n\n==Appearance==\n<tabber>\n|-|First Body Guard =\nThe body guard to the left of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a red necktie, grey shades, black fedora with a red stripe, grey shoes and brown cotton gloves. It was faceless. The body guard wielded an [[wp:Thompson submachine gun|M1A1 Thompson]].\n|-|Second Body Guard =\nThe body guard to the right of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a blue necktie, grey shades, and grey shoes. It has a brown beard. It is also faceless. The body guard wields an [[wp:Thompson submachine gun|M1A1 Thompson]].\n</tabber>\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 2''' because of its slow spawnrate.\n*You will need to wait 35 seconds for a '''Golden Body Guards 2''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 4.\n*The '''Golden Body Guards 2''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 2's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 2''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 2''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 2's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 2''' hidden detection.\n**The '''Golden Body Guards 2''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 2''' will spawn per Level 4 [[Golden Crook Boss]].\n**The '''Golden Body Guards 2''' will go down a random path.\n*The '''Golden Body Guards 2''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guards 2''' without taking much damage.\n*The '''Golden Body Guards 2''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 2''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 2''' is caught in the attack, it is instantly killed.\n\n==U"
+      "pageid": 34107,
+      "latest_revid": 584237,
+      "latest_timestamp": "2026-07-31T11:31:23Z",
+      "wikitext_excerpt": "{{ModeTabs|Story = No}}\n{{ModeInfobox\n|title1 = {{Color|EasyMode|Easy}}\n|image1 = EasyReworkIcon.png\n|waves = 20\n|level_requirement = None\n|starting_cash = {{Money|500}}<br/>{{Money|600}} (Group Bonus)\n|time = 7:00\n|rewards = {{Coins|300}}, {{Exp|50}} & {{TowerExp|25}}\n}}\n{{QuoteContainer|\n{{QuoteBox|For players who are new to the game or want a more relaxed experience.|Description in Elevators}}\n}}\n__TOC__\n==Description==\n'''Easy''' mode, formerly '''Normal''' and '''Beginner's''' mode, is one of the six main Survival modes. '''Easy''' mode has 20 waves. It is not named after its final boss, the [[Brute]].\n\nCash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.\n\n==Rewards==\n''For former rewards, see this mode's [[Easy Mode/Rewards|Rewards]] page.''\n\nThe game calculates how many {{Coins|Coins}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. Some maps like [[Mason Arch]] can also increase all rewards by a specific amount. Regular {{Exp|}} boosts are multiplicative with other modifiers.\n\nAny rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.\n\nCurrently, rewards are calculated as:\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|250}} ÷ (1 + [(20 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Only)\n|{{Exp|50}} ÷ (1 + [(20 ÷ Current Wave) - 1])\n|{{TowerExp|10}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{TowerExp|15}} (Triumph Bonus)\n|}\n\nTriumphing '''Easy''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[Ducky Squad]]\n\n===Badges/Achievements===\nThere are [[badges]] and achievements that you can or could obtain when playing this mode, which may have additional rewards alongside them. These are:\n\n{{Badge\n|title = Defeated the Brute\n|description = Defeat the Brute in Easy mode.\n|image = Aug25EasyBadge.png\n|obtainable = Yes\n}}\n{{Badge\n|title = Recruit\n|description = Triumph in Easy mode\n|image = Achievement\n|obtainable = Yes\n|rewards = {{Coins|100}}\n}}\n{{Badge\n|title = Defeat Grave Digger\n|description = Get ready to have your grave dug!\n|image = D11EasyBadge.png\n|obtainable = No\n}}\n\n===Seasons===\nDuring some [[Passes]], the '''Normal''' mode could give currency rewards that you used to progress through a season. Rewards for all the seasons were calculated as:\n\n{| class=\"tds-table pad-10\" style=\""
     },
     {
-      "title": "Golden Crate",
+      "title": "Easy Mode/Rewards",
       "score": 3,
-      "pageid": 2968,
-      "latest_revid": 627849,
-      "latest_timestamp": "2026-08-26T15:26:19Z",
-      "wikitext_excerpt": "{{For|[[Platinum Crate]]|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{CrateInfobox\n|title1 = {{Color|Golden|Golden Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:GoldenSkincrateIcon.png]]\n|-|In-Game = [[File:GoldenCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost = 50,000\n|sale = Yes\n|contains = 7\n|rarity = {{Color|Golden}}\n|rarities = {{Color|Golden}}\n|music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier, Demoman|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|A crate for the most prestigious players.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Golden Crate''' is a futuristic crate with a sleek design and multiple neon yellow lights on it. On the front, it has a small card reader and a number pad. The top of the crate opens up in a futuristic fashion, with the left and right side respectively sliding to the left and right, revealing a pile of coins inside.\n|Second\n|The crate was larger than the [[Basic Crate]]. It was more smooth and sleek, and appeared to open up like a futuristic crate. There was a card reader attached to it.\n|First\n|The crate looked exactly like the [[Platinum Crate]], except that it was yellow in color.\n}}\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:GoldenScout3.png|175px]]\n|[[File:NewGoldenCrookBoss.png|175px]]\n|[[File:DHGoldenPyroIcon.png|175px]]\n|[[File:Goldenminigunner.png|175px]]\n|-\n!Golden Perk\n|[[Golden Scout]]\n|[[Golden Crook Boss]]\n|[[Golden Pyromancer]]\n|[[Golden Minigunner]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|55,000}}\n|{{Coins|55,000}}\n|{{Coins|65,000}}\n|{{Coins|75,000}}\n|-\n!Tower\n|[[Scout]]\n|[[Crook Boss]]\n|[[Pyromancer]]\n|[[Minigunner]]\n|-\n!\n|[[File:WDGoldenCowboyIcon.png|175px]]\n|[[File:KR Golden Soldier Icon.png|175px]]\n|[[File:GoldenDemoman0.png|175px]]\n|-\n!Golden Perk\n|[[Golden Cowboy]]\n|[[Golden Soldier]]\n|[[Golden Demoman]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|70,000}}\n|{{Coins|50,000}}\n|{{Coins|55,000}}\n|-\n!Tower\n|[[Cowboy]]\n|[[Soldier]]\n|[[Demoman]]\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Appearance}}\n<gallery>\nGoldenCrateInGame.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Crate Icons}}\n<gallery>\nGold Crate.png|First version (13 October 2019 – 29 October 2020)\nGoldenSkincrateOld.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Thumbnails}}\n<gallery>\nGoldenCrateThumbnail.png|Second version on the game thumbnail.\n</gallery>\n}}\n\n==Trivia==\n*The current design of the '''Golden Crate''' is likely based on the [[w:c:saszombieassault:Strongbox#8|Nantonium Strongbox]] from ''SAS: Zombie Assault 4''.\n*The '''Golden Crate''' is currently the only item in the game that gives a buff to a tower outside"
+      "pageid": 41174,
+      "latest_revid": 582400,
+      "latest_timestamp": "2026-07-30T14:06:22Z",
+      "wikitext_excerpt": "{{ModeTabs|Rewards|Story = No}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''5 June 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n!Coins Reward\n!EXP Reward\n!Tower EXP Reward\n|-\n|{{Coins|250}} ÷ (1 + [(20 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Only)\n|{{Exp|50}} ÷ (1 + [(20 ÷ Current Wave) - 1])\n|{{TowerExp|10}} ÷ (1 + [(25 ÷ Current Wave) - 1]) + {{TowerExp|15}} (Triumph Bonus)\n|}\n\n==Triumph Rewards==\nTriumphing '''Easy''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[Ducky Squad]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''3 April 2026 – 5 June 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n|-\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|200}} ÷ (1 + [(20 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Only)\n|{{Exp|50}} ÷ (1 + [(20 ÷ Current Wave) - 1])\n|}\n\n==Triumph Rewards==\nTriumphing '''Easy''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Easter Egg]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[Ducky Squad]]\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''20 December 2025 – 3 April 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n|-\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|200}} ÷ (1 + [(20 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Only)\n|{{Exp|50}} ÷ (1 + [(20 ÷ Current Wave) - 1])\n|}\n\n==Triumph Rewards==\nTriumphing '''Easy''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Present Cluster Bomb]] (1-2)\n**[[Fruit Cake]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[Santa's Air Strike]] (1-2)\n**[[Festive Tree]] (1-2)\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''20 December 2025 – 28 January 2026'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n|-\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|250}} ÷ (1 + [(25 ÷ Current Wave) - 1]^1.3) + {{Coins|50}} (Triumph Only)\n|{{Exp|50}} ÷ (1 + [(25 ÷ Current Wave) - 1])\n|}\n\n==Triumph Rewards==\nTriumphing '''Easy''' mode can give out an additional reward:\n*{{Color|Common}} (50%)\n**[[Grenade]] (1-2)\n**[[Flash Bang]] (1-2)\n**[[Molotov]] (1-2)\n**[[Present Cluster Bomb]] (1-2)\n**[[Fruit Cake]] (1-2)\n*{{Color|Uncommon}} (30%)\n**{{TimeScaleTicket|Time Scale Ticket}}\n**{{ReviveTicket|Revive Ticket}}\n*{{Color|Rare}} (20%)\n**[[Low Grade Crate]]\n**{{SpinTicket|Spin Ticket}}\n**[[Barricade]]\n**[[Supply Drop]]\n**[[Santa's Air Strike]] (1-2)\n**[[Festive Tree]] (1-2)\n</div>\n</div>\n----\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''18 October 2025 – 20 December 2025'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n==Rewards==\n{| class=\"tds-table pad-10\" style=\"text-align: center; margin:1em auto\"\n|-\n!Coins Reward\n!EXP Reward\n|-\n|{{Coins|250}} ÷ (1 + [(25 ÷ Current Wave) - 1]^1.3)"
     },
     {
-      "title": "Golden Crook",
+      "title": "Easy Mode/Waves",
       "score": 3,
-      "pageid": 9752,
-      "latest_revid": 467750,
-      "latest_timestamp": "2026-06-05T07:32:21Z",
-      "wikitext_excerpt": "{{Removed|date=13th of May 2022}}\n{{for|its default variants, [[Body Guard]], [[Body Guards 1]], [[Golden Body Guard]], [[Golden Body Guards 1]], other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{UnitInfobox\n|title1 = Golden Crook\n|image1 = <tabber>\n|-|Version 2 = [[File:NewGoldenCrook.png]]\n|-|Version 1 = [[File:GoldenCrook.png]]\n</tabber>\n|source = [[Crook Boss|{{Color|Golden}} Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]25\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]60s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Crook''' was a [[Units|unit]] spawned by the [[Crook Boss|{{Color|Golden}} Crook Boss]] at Levels 2-3. The '''Golden Crook''' was essentially a re-skin of the [[Crook]], as it had similar appearance and stats, but had very little in common with the [[Body Guard]] and [[Body Guards 1]]. Like other [[units]], it started from the end of the map path and moved towards the entrance of the map. The '''Golden Crook''' had a spawnrate of 60 seconds.\n\nWhenever there was an enemy in its range, the '''Golden Crook''' would stop moving to shoot at the enemy. It would continue walking when there were no enemies left in its range.\n\nThere was a limit of 3 units per [[Crook Boss|{{Color|Golden}} Crook Boss]], limiting the amount of '''Golden Crooks''' it could spawn.\n\n==Appearance==\n{{Tabber\n|Version 2\n|The '''Golden Crook''' had tan skin, black pants, dark grey shoes, yellow torso with black and yellow stripes, and yellow sleeves. It had a smile face. It wore a yellow beanie. It carried a golden [[wp:Uzi|UZI]] in its right hand to shoot at enemies. Yellow sparkles came out from its UZI.\n|Version 1\n|The original '''Golden Crook''' had yellow skin, black legs, yellow torso with black and yellow stripes, yellow sleeves, and a mischievous face. It wore a yellow and black striped headband. Yellow sparkles came out from its headband and a golden aura came out of its torso. It carried a golden [[wp:Uzi|UZI]] to shoot at enemies.\n}}\n\n==Strategy==\n*You should not rely too much on '''Golden Crooks''' because of their slow spawnrate.\n*The '''Golden Crook''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Crook''' collides with them. However, this is likely unfavorable as the '''Crook's''' main source of damage is ranged.\n**The [[Ace Pilot]] cannot give the '''Golden Crook''' hidden detection.\n*On two-pathed maps, only one '''Golden Crook''' will spawn per Level 2 [[Crook Boss|{{Color|Golden}} Crook Boss]]. It will go down a random path.\n*The '''Golden Crook''' cannot collide with ghost enemies, like the [[Soul]].\n*The '''Golden Crook''' will struggle against fast enemies like the [[Error]] or [[Glitch]], as they can run into '''Golden Crooks''' without taking much damage.\n*The range of the '''Golden Crook''' can be increased by the [[DJ Booth]], as long as the [[Crook Boss|{{Color|Golden}} Crook Boss]] that spawned it is in range of the [[DJ Booth]].\n**The '''Golden Crook''' cannot be affected by any other buffs or debuffs, such as [[Commander]]'s [[Firerate Buff]] or [[Ace Pilot]]'s ability to grant hidden detection.\n*The '''Golden Crook''' will struggle against any enemy with abilities that damage units, as their health is lower than any amount of damage that these enemies deal.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Crook''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*Only the [[Crook Boss|{{Color|Golden}} Crook Boss]] spawned '''Golden Crooks''' instead of [[Body Guard]]/[[Body Gu"
+      "pageid": 1676,
+      "latest_revid": 582384,
+      "latest_timestamp": "2026-07-30T14:02:34Z",
+      "wikitext_excerpt": "<noinclude>{{ModeTabs|Waves|Story = No}}\n[[File:BeginnersHardcoreIcon.png|75px|thumb]]\n</noinclude>\nThese are the current and former wave layouts for '''Easy''' mode on standard maps.\n\n'''Bolded''' names indicates an enemy type's debut.\n<div style=\"clear:both\"></div>\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''28 January 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n{| class=\"wikitable pad-10\" style=\"width:100%; text-align: center;\"\n!Wave \n! colspan=\"2\" |[[Commander (Narrator)|Commander]] Dialogue\n!Enemy Type & Amount\n|-\n| rowspan=\"2\" |1\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Zombies are on their way. Prepare to defend!\n| rowspan=\"2\" |4x '''[[Normal]]'''\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|Make sure to place down some units near the path and upgrade them. Together, we've got this.\n|-\n| rowspan=\"2\" |2\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Alright! There are some Speedy enemies coming. They're fast, but weak.\n| rowspan=\"2\" |4x [[Normal]], 2x '''[[Speedy]]'''\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|You might need some more units to help defend if one slips by, so make sure your towers have enough path coverage to deal with them.\n|-\n|3\n| colspan=\"2\" | -\n|4x [[Speedy]], 10x [[Normal]]\n|-\n| rowspan=\"2\" |4\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Up ahead are some Large Zombies. They're slow but have a lot of health.\n| rowspan=\"2\" |4x [[Speedy]], 6x [[Normal]], 3x '''[[Slow]]'''\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|You can command some of your towers to prioritize stronger targets, but make sure to keep a few focused on the weaker ones otherwise they might get by.\n|-\n|5\n| colspan=\"2\" | -\n|5x [[Normal]], 6x [[Slow]]\n|-\n| rowspan=\"3\" |6\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Heads up! You have a Boss Zombie coming! They can have special attributes that make them resistant to certain attacks.\n| rowspan=\"3\" |4x [[Slow]], 8x [[Speedy]], 1x '''[[Normal Boss]]''' ([[Boss]])\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|Professor V has given us the technology that lets us see their stats and modifiers if you select them.\n|-\n| style=\"width:75px;\" |[[File:REWCommanderTeaching.gif|thumb|center|75px]]\n|Also, we might have some Hidden enemies soon. Only some units can see them, so be sure to upgrade the ones that do.\n|-\n|7\n| colspan=\"2\" | -\n|3x [[Slow]], 8x [[Speedy]] ([[Bloated]]), 3x [[Slow]], 1x [[Normal Boss]]\n|-\n|8\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|There they are! Man, Hidden zombies are tough to see.\n|10x [[Normal]], 8x [[Slow]], 5x '''[[Hidden]]'''\n|-\n|9\n| colspan=\"2\" | -\n|1x [[Normal Boss]], 7x [[Hidden]], 5x [[Speedy]] ([[Bloated]]), 1x [[Normal Boss]]\n|-\n|10\n| style=\"width:75px;\" |[[File:REWCommanderScared.gif|thumb|center|75px]]\n|Here comes some Breakers! They can spawn additional weaker enemies. Too many at once could overwhelm your units if you're not careful.\n|6x [[Slow]] ([[Bloated]]), 7x [[Speedy]] ([[Bloated]]), 5x '''[[Breaker2]]'''\n|-\n|11\n| colspan=\"2\" | -\n|5x [[Breaker2]], 5x [[Hidden]], 1x [[Normal Boss]], 5x [[Hidden]], 5x [[Breaker2]]\n|-\n| rowspan=\"2\" |12\n| style=\"width:75px;\" |[[File:REWCommanderObservant.gif|thumb|center|75px]]\n|Seems like the corpses attracted a Necromancer. They will raise the dead to make them... uh... less dead?\n| rowspan=\"2\" |5x [[Slow]], 10x [[Breaker2]], 7x [[Hidden]] ([[Bloated]]), 3x [[Breaker2]], 1x '''[[Necromancer (Modern Enemy)|Necromancer]]''' ([[Boss]])\n|-\n| style=\"width:75px;\" |[[File:REWCommanderAggressive.gif|thumb|center|75px]]\n|You might want to try prioritizing them here.\n|-\n|13\n| colspan=\"2\" | -\n|4x [[Breaker2]], 6x '''[[Armored]]''', 4x [[Breaker2]]\n|-\n|14\n| style=\"width:75px;\" |["
     },
     {
-      "title": "Golden Crook Boss",
+      "title": "Fallen",
       "score": 3,
-      "pageid": 30803,
-      "latest_revid": 643940,
-      "latest_timestamp": "2026-09-06T13:20:57Z",
-      "wikitext_excerpt": "{{Tabs|Regular = Crook Boss|Perk = Golden Crook Boss|Evolved=Kingpin}}\n{{for|other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Crook Boss}}\n|image-static = NewGoldenCrookBoss.png\n|image-dynamic = GoldenCrookBossDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)\n|towercost = {{Level|30}} or {{Robux|300}} ([[Crook Boss]])\n|basecost = {{Money|2,400}}\n|basesellingprice = {{Money|800}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5\n|basedamage = [[File:Damage Icon.png|20px|Damage]]12\n|damagetype = Single<br/>Collision\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8\n|baserange = [[File:Range Icon.png|20px|Range]]16.5\n|basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]45s\n|hidden_detection = {{Attr|Hidden|Level 2+}} (Tower & Tommy Goons)\n|lead_detection = {{Attr|Lead|Level 0+}} (Collision only)\n|flying_detection = {{Attr|Fly|Level 1+}}\n|immune = Debuff (Units only)\n|footprint = 1.5\n|evolves_into = [[Kingpin]]\n|evolution_levels = 20\n|base_exp = 50\n|growth_rate = 1.09\n|skip_cost = 599\n|tooltip-1 = A well rounded tower with good detection coverage, reliable damage, and the ability to spawn friendly units.\n|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.\n}}\n{{QuoteContainer|\n{{QuoteBox|Command henchmen to fight for you while looking cool!|Store Description}}\n}}\n__TOC__\n==Description==\nThe '''Golden Crook Boss''' is an upgraded version of the [[Crook Boss]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if the player owns the [[Crook Boss]]. It can also be bought in the Daily Store for {{Coins|55,000}}. The normal counterpart, the [[Crook Boss]], can be claimed by reaching {{Level|30}} or alternatively purchasing it for {{Robux|300}}.\n\nInitially, the '''Golden Crook Boss''' has high damage, though it has rather low range. However, with later upgrades, the firerate decreases and its damage increases significantly. The range also increases and becomes comparable to towers like the [[Minigunner]]. The '''Golden Crook Boss''' has the ability to spawn [[Golden Pistol Goon]] from Level 0, which with later levels get double spawns. Additional, at Level 3, it spawns [[Golden Tommy Goon 1]], which gets replaced by [[Golden Tommy Goon 2]] at Level 4. Every time it summons an unit, it stops attacking for a second. All the units have flying detection but only the Tommy Goons have hidden detection.\n\nIn comparison to its normal counterpart, the [[Crook Boss]], the '''Golden Crook Boss''' has higher damage and slightly higher range, but it is more expensive at all Levels. It also spawns stronger units.\n\nThe '''Golden Crook Boss''' can be considered a mid to late-game tower, as its expensive cost for extremely high DPS makes it a great tower later on during the game and has sufficient DPS to remain strong in the extra-late game.  \n\nThere is a limit of five '''Golden Crook Bosses''' per player. Additionally, it has a limit of ten [[Golden Pistol Goon]]s per tower and a limit of three [[Golden Tommy Goon 1]]s and [[Golden Tommy Goon 2]]s per tower.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Lvl 1. Broke|Cost = {{Money|1,600}}|Image = [[File:Stronger_Bullets.png|100px]]|Information = 0.8 > 0.55 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,333}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lvl. 2 Normie|Cost = {{Money|3,200}}|Image = [[File:CrookBoss2.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+9 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow spawns two [[Golden Pistol Goon]]s instead of one\n\n\nSell Price changes to {{Money|2,400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Lvl 3. Gam"
+      "pageid": 1613,
+      "latest_revid": 627793,
+      "latest_timestamp": "2026-08-26T13:58:31Z",
+      "wikitext_excerpt": "{{EnemyTabs}}\n{{For|other uses of [[Fallen (Disambiguation)|Fallen]]}}\n{{ZombieLegacy\n|title1 = Fallen\n|modern_image = <tabber>\n|-|Animation 1 = [[File:FallenEnemyRework.png]]\n|-|Animation 2 = [[File:FallenAnim2.png]]\n</tabber>\n|legacy_image = Fallen.png\n|mode_appearance = [[Legacy Fallen Mode|{{Color|LegacyFallenMode}}]]<br/>[[Fallen Mode|{{Color|FallenMode}}]]<br/>[[PVP|{{Color|FallenArena}}]]<br/>{{InfoboxContainer|Challenges|*[[Juggernaut (Challenge)|Juggernaut]]\n*[[Jailed Towers (Challenge)|Jailed Towers]]\n*[[Back to Basics (Challenge)|Back to Basics]]\n*[[Legion (Challenge)|Legion]]\n*[[Vanguard (Challenge)|Vanguard]]}}{{InfoboxContainer|Events|*[[Korblox Temple|The Hunt: Mega Edition (Easy)]]\n*[[Korblox Temple|The Hunt: Mega Edition (Mega)]]\n*[[Korblox Temple|The Hunt: Mega Edition (Impossible)]]\n*[[Sk8 P4rk|The Takeover (Extreme)]]}}\n----\nOriginally:<br>[[Hardcore Mode|{{Color|HardcoreMode}}]]<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = 20 (Legacy Fallen & Challenges)<br/>14 (Fallen & Fallen Arena PVP)\n----\nOriginally:<br/>46 (Hardcore)<br/>7 (Korblox Temple)<br>14 (High Rank PVP Test)<br>8 (The Takeover Extreme)\n|base_hp = [[File:HealthIcon.png|20px|Health]]180 (Challenges)<br/>[[File:HealthIcon.png|20px|Health]]300 (Fallen & Sandbox)<br/>[[File:HealthIcon.png|20px|Health]]250 (Fallen Arena PVP)<br/>{{InfoboxContainer|Challenges|*[[File:HealthIcon.png|20px|Health]]300 ([[Juggernaut (Challenge)|Juggernaut]])}}\n|scale_hp = Duo - [[File:HealthIcon.png|20px]]350 (Fallen)<br/>Trio - [[File:HealthIcon.png|20px]]380 (Fallen)<br/>Quad - [[File:HealthIcon.png|20px]]420 (Fallen)\n|speed = [[File:SpeedIcon.png|20px|Speed]]Fast (7.5)\n|cash = {{Money|360}} on death (Fallen)<br/>{{Money|300}} on death (Fallen Arena PVP)\n|spawned_by = *[[Fallen Reaper]] (Hardcore, wave 26 onwards)\n*[[Fallen King (Legacy)|Fallen King]]\n*[[Nuclear Fallen King]] (Formerly)\n*[[Mystery]] (Legacy Fallen, wave 21 onwards)\n*[[Void Reaver (Legacy)|Void Reaver]]\n|hidden = No\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Bloated}} (Wave 15 only)<br/>{{Attr|Nimble}} (Wave 23 only)\n|legacy_base_hp = [[File:HealthIcon.png|20px|Health]]180\n|legacy_speed = [[File:SpeedIcon.png|20px|Speed]]Fast (7)\n|legacy_cash = {{Money|5}} on death\n|legacy_spawned_by = *[[Fallen Reaper]] (Hardcore, wave 26 onwards)\n*[[Fallen King (Legacy)|Fallen King]]\n*[[Nuclear Fallen King]] (Formerly)\n*[[Mystery]] (Legacy Fallen, wave 21 onwards)\n*[[Void Reaver (Legacy)|Void Reaver]]\n|legacy_hidden = No\n|legacy_fly = No\n|legacy_ghost = No\n|legacy_lead = No\n|legacy_immunity = {{Attr|Stun}}\n|versus_send_cost = {{Money|350}}\n|versus_wave_unlock = 14\n|versus_eco = {{Money|20}}\n|versus_number = 1\n|versus_timer = 2\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|I can tell these guys are getting tougher. Keep your eyes open; we're not out of the woods yet.|audio=FallenWave14-1.ogg|[[Commander (Narrator)|Commander]] dialogue on Wave 14 ([[Fallen Mode|Fallen]])}}\n{{QuoteBox|Quick and tough enemies are coming in quick!<br/>Get ready for FALLENS!|[[Commander (Narrator)|Commander]] dialogue on Wave 20 ([[Legacy Fallen Mode|Legacy Fallen]])}}\n|-|Version 2 =\n{{QuoteBox|A Fallen?! So soon?!<br/>The Fallen are acting more aggressive than usual!|[[Commander (Narrator)|Commander]] dialogue on Wave 14 (Formerly, [[Fallen Mode|Fallen]])}}\n|-|The Hunt: Mega Edition =\n{{QuoteBox|Wait a minute... are those Fallen?!<br/>When did they team up with the Korblox Empire?!|audio = KorbloxTempleWave-7.ogg|[[Commander (Narrator)|Commander]] dialogue on Wave 7 ([[Korblox Temple]])}}\n|-|April Fools 2022 =\n{{QuoteBox|Quick and tough enemies awe coming in quick! (☉ㅅ☉U)<br/>Get weady fow FAWWENS! (☉ㅅ☉U)|[[Commander (Narrator)|Commander]] dialogue on Wave 20 ([[April Fools 2022#Narration|April Fools 2022 Fallen]])}}\n|-|Version 1 =\n{{QuoteBox|...|Beginning of Wave 20 (Pre-Overhaul, [[Fallen Mode|Fallen]])}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Fallen''' is a fast [[Enemies|enemy]] that appears in ["
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",
