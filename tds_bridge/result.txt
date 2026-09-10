@@ -1,689 +1,574 @@
 {{Tabs}}
-{{For|[[Military Base]]}}
+{{for|the [[Field Medic]]|[[Null Medic]]}}
 {{TowerInfobox
-|title = Militant
-|image-static = EasterMilitant_Icon.png
-|image-dynamic = MilitantDynamic.png
-|unlockcost = {{Coins|800}}
-|role = Offense
+|title = Medic
+|image-static = DefaultMedicIconAug25.png
+|image-dynamic = MTMedicDynamicIcon.png
+|image-dynamic-start = 1
+|unlockcost = {{Coins|2,000}}
+|basecost = {{Money|400}}
+|basesellingprice = {{Money|133}}
+|role = Support
 |placement = Ground
-|basecost = {{Money|600}}
-|basesellingprice = {{Money|200}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]1
-|damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Fireate]]0.225
-|baserange = [[File:Range Icon.png|20px|Range]]14
-|hidden_detection = {{Attr|Hidden|Level 1+}}
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
+|basedamage = N/A
+|damagetype = N/A
+|basefirerate = N/A
+|baserange = [[File:Range Icon.png|20px|Range]]12
+|hidden_detection = N/A
 |lead_detection = N/A
-|flying_detection = {{Attr|Fly|Level 1+}}
-|immune = None
+|flying_detection = N/A
+|immune = {{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')
 |footprint = 1.5
-|pvp_basecost = {{Money|1,400}}
-|pvp_basesellingprice = {{Money|466}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]2
-|pvp_damagetype = Single
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Fireate]]0.2
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]15
-|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
-|pvp_lead_detection = N/A
-|pvp_flying_detection = {{Attr|Fly|Level 1+}}
-|pvp_immune = None
-|pvp_footprint = 1.5
-|tooltip-1 = A{{sic}} early-mid game tower with moderately low damage, high fire rate, and great range.
-|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.
+|tooltip-1 = A support tower that heals the base at the start of each wave and can assign its medi gun to nearby towers to give them a shield and a cooldown boost.
+|tooltip-2 = Active ability uber charge also provides a temporary damage boost to all assigned towers.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|Trained with an assault rifle, this tower deals medium damage at a fast firerate.|Store Description}}
-|-|Version 3 =
-{{QuoteBox|Trained with an assault rifle, this tower deals medium damage at a fast firerate. Keep an eye out for his ammo!|Former Store Description}}
+{{QuoteBox|Equipped with health regen and a medi gun to support and boost towers in range.|Current Store Description}}
 |-|Version 2 =
-{{QuoteBox|Equipped with a FN FAL and has a fast firerate.|Former Store Description}}
-|-|Hardcore Testing =
-{{QuoteBox|At max level, he uses his raging voice to increase the damage of ally towers. Based on the youtuber: JOHNROBLOX.|Former Store Description}}
-|-|Version 1 =
-{{QuoteBox|Subscribe to JOHN ROBLOX for very funny Roblox videos.|Former Store Description}}
+{{QuoteBox|A support tower that heals the base 5 HP per wave. At max, cleanses stunned towers.|Former Store Description}}
+|-|Version 3 =
+{{QuoteBox|MEDICCCCC!|Former Store Description}}
 </tabber>}}
+__TOC__
 ==Description==
-The '''Militant''', formerly known as '''John''', is an intermediate tower that costs {{Coins|800}} to buy from the store, but can also be obtained by purchasing the [[Starter Bundle]]. It could also be obtained by a now expired [[Codes|code]].
+The '''Medic''' is an intermediate support tower that provides various buffs to other towers and replenishes base health after it has been lost. It can be unlocked from the store for {{Coins|2,000}}.
 
-The '''Militant''' begins with low damage but it is supported by a fast firerate. It has long range, allowing it to cover large amounts of the track. Through upgrades its DPS, firerate, range increase greatly, but these upgrades are costly.
+The '''Medic''' heals base health by a specified amount each wave with ''Take your Vitamins''. The amount of health healed increases with the level of the '''Medic''' and the amount of '''Medics''' placed down. It also has the ability to overheal, increasing base health to value higher than its maximum. If there are multiple '''Medics''', the health regeneration and overheal stacks with each '''Medic'''. Similarly, these effects stack with other sources of such effects, like [[Skills]].
 
-The '''Militant''' is considered an early to mid-game tower.
+The '''Medic''' holds a medi gun, which it can use to apply a shield to towers. Whenever shielded, the tower will have a shield modifier on them. This shield provides a passive 15% [[Firerate Buff]] and an immunity to stuns. It does not grant an immunity to debuffs or freeze. If the tower is stunned, its shield will be broken instead, reappearing shortly after. At Level 0, it can only shield one tower, but this is increased up to five at Level 5. It cannot shield other '''Medics''' or any tower currently shielded by another '''Medic'''. There is a 0.5 second cooldown before another tower can be selected or deselected.
+
+At Level 3, it gets the '''Ubercharge''' ability. This provides all towers shielded by the '''Medic''' with a [[Damage Buff]], [[Stun Immunity]] and [[Freeze Immunity]] for a brief period of time. While it may look like this is tied to the shield, this is not actually the case. The [[Damage Buff]] will remain on the tower, even if its shield is gone. Unassigning a tower with '''Medic''' will however remove the buffs from it. While this ability is active, the '''Medic''' itself gains the [[Freeze Immunity]].
+
+The '''Medic''' has a placement limit of 4.
 
 ==Upgrades==
-{{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Radio Comms|Cost = {{Money|300}}|Image = [[File:John Upgrade 1 New.png|100px]]|Information = 0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-+Flying Detection {{Flying|Flying Detection}}
+{{Upgrade|Level = Level 1|Upgrade Title = Medical Precautions|Cost = {{Money|425}}|Image = [[File:MedicUpg1.png|100px]]|Information = +1 Max Targets
 
 
-Sell Price changes to {{Money|300}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Field Ops|Cost = {{Money|850}}|Image = [[File:John Upgrade 2 New.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price Changes to {{Money|275}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Prescribed Vitamins|Cost = {{Money|650}}|Image = [[File:MedicUpg2.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++1 Max Targets
+
++5 Healing [[File:HealingIcon.svg|20px|Healing]]
+
+8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
 
 
-Sell Price changes to {{Money|583}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Guerrilla Tactics|Cost = {{Money|2,750}}|Image = [[File:John Upgrade 3 New.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price Changes to {{Money|491}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = BIG BRAIN|Cost = {{Money|2,400}}|Image = [[File:MedicUpg3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
+{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]
+
+'''Medic''' gains [[Freeze Immunity]] for the duration
+
+•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
+•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
 
 
-Sell Price changes to {{Money|1,500}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Stealth Mercenary|Cost = {{Money|8,000}}|Image = [[File:John Upgrade 4 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+Sell Price Changes to {{Money|1,291}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Medical Pack|Cost = {{Money|5,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-+7 Damage [[File:Damage Icon.png|20px|Damage]]
++1 Max Targets
 
++10 Healing [[File:HealingIcon.svg|20px|Healing]]
 
-Sell Price changes to {{Money|4,166}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Radio Comms|Cost = {{Money|600}}|Image = [[File:John Upgrade 1 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
 
-0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
+{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
 
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-+Flying Detection {{Flying|Flying Detection}}
+7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
 
 
-Sell Price changes to {{Money|666}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Bigger Rifle|Cost = {{Money|2,600}}|Image = [[File:John Upgrade 2 New.png|100px]]|Information = 0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
+Sell Price Changes to {{Money|2,958}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = MD-PhD|Cost = {{Money|12,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++1 Max Targets
+
+5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}
 
 
-Sell Price changes to {{Money|1,533}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Upskill|Cost = {{Money|5,000}}|Image = [[File:John Upgrade 3 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+Sell Price Changes to {{Money|6,958}}}}
 
-+3 Damage [[File:Damage Icon.png|20px|Damage]]
-
-
-Sell Price changes to {{Money|3,200}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Stealth Mercenary|Cost = {{Money|10,000}}|Image = [[File:John Upgrade 4 New.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
-
-
-Sell Price changes to {{Money|6,533}}}}
+==Ability==
+{{Ability|Level Unlock = Level 3|Cooldown Time= 60s Cooldown|Initial Cooldown Time = 30s Initial Cooldown|Ability Title = Ubercharge|Image = [[File:Medic_Ability.png|100px]]|Information = 
+Assigned towers gain a [[Damage Buff]], [[Stun Immunity|Stun]] and [[Freeze Immunity]].
 }}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Firerate
-$CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 600; 300; 850; 2750; 8000
-$PVP-COST$ = 1400; 600; 2600; 5000; 10000
-$FSE-DETECTION$ = 1; ; 1
-$FSE-UPGRADE$ = Radio Comms; Field Ops; Guerrilla Tactics; Stealth Mercenary
-$FSE-PVP-UPGRADE$ = Radio Comms; Bigger Rifle; Upskill; Stealth Mercenary
-$FSE-UPGRADEICON$ = 5523212631; 5523215135; 5523216332; 5523217773
-$FSE-META$ = Intermediate; File:EasterMilitant_Icon.png
+$COST$ = 400; 425; 650; 2400; 5000; 12000
+$FSE-UPGRADE$ = Medical Precautions; Prescribed Vitamins; BIG BRAIN; Medical Pack; MD-PhD
+$FSE-UPGRADEICON$ = 117008581932706; 71546954858462; 130592941614779; 112504548905627; 112504548905627
+$FSE-META$ = Intermediate; File:DefaultMedicIconAug25.png
 $R$ = $FNC-RECURSION$
 </var>
-<div class="mobile-tabber"><tabber>
-|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Firerate Buff !! Damage Buff !! Range !! Healing !! Overheal Limit !! Max Targets !! Shield Recharge Speed !! Tower Selection Cooldown !! Ubercharge Duration
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 0.225 || 14 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15% || 0% || 12 || 5 || 100 || 1 || 8 || 0.5 || N/A
 |-
-| 1 || $R$ || $R$ || 1 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 15% || 0% || 12 || 5 || 100 || 2 || 8 || 0.5 || N/A
 |-
-| 2 || $R$ || $R$ || 2 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 15% || 0% || 14 || 10 || 100 || 3 || 6 || 0.5 || N/A
 |-
-| 3 || $R$ || $R$ || 5 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 15% || 20% || 15 || 10 || 100 || 3 || 6 || 0.5 || 7.5
 |-
-| 4 || $R$ || $R$ || 12 || 0.175 || 20 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 15% || 27.5% || 18 || 20 || 100 || 4 || 5 || 0.5 || 10
+|-
+| 5 || $R$ || $R$ || 15% || 35% || 20 || 20 || 100 || 5 || 4.5 || 0.5 || 10
 |}
 </div>
-|-|PVP =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || 0.2 || 15 || $DPS$ || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 2 || 0.15 || 17 || $DPS$ || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 2 || 0.1 || 17 || $DPS$ || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 5 || 0.1 || 20 || $DPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 10 || 0.1 || 20 || $DPS$ || {{Money|$CE$}}
-|}
-</div>
-</tabber></div>
 </nowiki>}}
 
-== Skins ==
+==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:ESAcePilotMilitantIcon.png|175px]]
-|[[File:ESPumpkinMilitantIcon.png|175px]]
-|[[File:NewHazmatMilitantIcon.png|175px]]
-|[[File:GMilitantIcon.png|175px]]
+|[[File:WitchMedicIconAug25.png|175px]]
+|[[File:CyberMedicIconAug25.png|175px]]
+|[[File:ValentinesMedicIconAug25.png|175px]]
+|[[File:BunnyMedicIconAug25.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Ace Pilot}}
-|{{Color|Unobtainable|Pumpkin}}
-|{{Color|Premium|Hazmat}}
-|{{Color|Spooky|Ghost}}
+|{{Color|Unobtainable|Witch}}
+|{{Color|Premium|Cyber}}
+|{{Color|Unobtainable|Valentines}}
+|{{Color|Unobtainable|Bunny}}
 |-
 !Rarity
+|{{Color|Event}}
 |{{Color|Rare}}
 |{{Color|Event}}
-|{{Color|Common}}
 |{{Color|Event}}
 |-
 !Daily Store Cost
-|{{Robux|350}}
 |N/A
-|{{Robux|85}}
+|{{Robux|120}}
+|N/A
 |N/A
 |-
 !Obtained From
-|[[Deluxe Crate]]
 |Formerly [[Halloween 2019 Crate]]
 |[[Premium Crate]]
-|[[Spooky Crate]]
+|Formerly [[Valentines Crate]]
+|Formerly [[Bunny Crate]]
 |-
 !
-|[[File:ESChocolatierMilitantIcon.png|175px]]
-|[[File:DuckyMilitantIcon.png|175px]]
-|[[File:BeachMilitantIcon.png|175px]]
-|[[File:JohnMilitantIcon.png|175px]]
+|[[File:StrandedMedicIconAug25.png|175px]]
+|[[File:MasqueradeMedicIconAug25.png|175px]]
+|[[File:FallenMedicIconAug25.png|175px]]
+|[[File:MermaidMedicIconAug25.png|175px]]
 |-
 !Skin
-|{{Color|Lovely|Chocolatier}}
-|{{Color|Ducky|Ducky}}
-|{{Color|EndOfSummer|Beach}}
-|{{Color|Other|John}}
+|{{Color|ColdFront|Stranded}}
+|{{Color|Lunar|Masquerade}}
+|{{Color|FallenMission|Fallen}}
+|{{Color|EventMission|Mermaid}}
 |-
 !Rarity
-|{{Color|Uncommon}}
 |{{Color|Uncommon}}
 |{{Color|Event}}
-|{{Color|Exclusive}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
 |-
 !Daily Store Cost
-|{{Coins|4,500}}
 |{{Coins|3,500}}
 |N/A
 |N/A
-|-
-!Obtained From
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
-|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
-|[[End of Summer Season#Hunting Season Pass|End of Summer Season]]
-|[[Codes|Code]]:<br/>JOHNRETURNS,<ref>Expired.</ref><br/>9509253943<ref>Expired.</ref>
-|-
-!
-|[[File:LumberjackMilitantIcon.png|175px]]
-|[[File:Davinchimilitant.png|175px]]
-|[[File:FallenMilitantIconIG.png|175px]]
-|[[File:StarSpartanMilitantIcon.png|175px]]
-|-
-!Skin
-|{{Color|Premium|Lumberjack}}
-|{{Color|Lunar|Davinchi}}
-|{{Color|FallenMission|Fallen}}
-|{{Color|Mission|Star Spartan}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Event|Event}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|{{Robux|105}}
-|N/A
-|N/A
 |N/A
 |-
 !Obtained From
-|[[Premium Crate]],<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
-|[[Lunar Overture Event#Lunar Overtures Season Pass|Lunar Overture Season]]
-|''Undead Solider'' [[Mission Quests|Mission Quest]]
-|''For the Commander!'' [[Mission Quests|Mission Quest]]
+|[[Cold Front Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|''Fallen Angel'' [[Mission Quests|Mission Quest]]
+|''The Little Medic'' [[Mission Quests|Mission Quest]]
 |-
 !
-|[[File:WastelandMilitantIconIG.png|175px]]
-|[[File:EasterMilitantIcon.png|175px]]
-|[[File:AcheronMilitantIcon.png|175px]]
-|[[File:UndeadMilitantIconIG.png|175px]]
+|[[File:AFPlagueMedicIcon.png|175px]]
+|[[File:AFBartenderMedicIcon.png|175px]]
+|[[File:AFToyBallerinaMedicIcon.png|175px]]
+|[[File:AFSecondChanceMedicIcon.png|175px]]
 |-
 !Skin
-|{{Color|Hexscape|Wasteland}}
-|{{Color|DuckyRevenge|Easter}}
-|{{Color|Surf|Acheron}}
-|{{Color|Null|Undead}}
+|{{Color|Null|Plague}}
+|{{Color|Showtime|Bartender}}
+|{{Color|FinalAct|Toy Ballerina}}
+|{{Color|Valentines2026|Second Chance}}
 |-
 !Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
 |{{Color|Uncommon}}
-|{{Color|Uncommon}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
-|-
-!
-|[[File:SuperFanMilitant0.png|175px]]
-|[[File:PirateMilitant0.png|175px]]
-|-
-!Skin
-|{{Color|Backyard|SuperFan}}
-|{{Color|Pirate}}
-|-
-!Rarity
-|{{Color|Exclusive}}
 |{{Color|Common}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
 |-
 !Daily Store Cost
 |N/A
-|{{Coins|3,500}}
+|N/A
+|N/A
+|N/A
 |-
 !Obtained From
-|''Do The Wave!'' [[Mission Quests|Mission Quest]]
-|[[Pirate Crate]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
+|[[Showtime Crate]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
+|[[Valentines 2026 Crate]]
+|-
+!
+|[[File:AFShamrockMedicIcon.png|175px]]
+|[[File:BeachMedicIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Shamrock}}
+|{{Color|Beach}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|6,500}}
+|-
+!Obtained From
+|[[Shamrock Crate]]
+|[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Militant's''' high DPS and low cost make it very viable to use early on during the game. It can also be very useful mid-game and in some weaker modes, late-game.
-**Early on, you can place multiple Level 1 '''Militants''', due to their high DPS, high range, flying detection and hidden detection.
-***Later on during the game, they should be upgraded to Level 3 or 4.
-**Later on during the game, the [[Commander]] can be very useful at increasing its DPS, making it quite useful late-game.
-*The '''Militant''' can be quite effective against hidden enemies like the [[Hidden Boss]] due to its cheap [[Hidden (Attribute)|Hidden]] detection and decent DPS.
-*Because the '''Militant''' gains flying detection at Level 1, it can be used in [[Hardcore Mode|Hardcore]] to kill early-game [[Balloon]]s or, if enough are placed down, deal with [[Flying]] enemies that appear in mid to late-game waves of [[Fallen Mode|Fallen]] and [[Pizza Party]] modes.
-**You will need multiple Level 3-4 '''Militants''' to deal with the late-game [[Fallen Mode|Fallen]] and [[Pizza Party]] enemies due to their high health.
+*The '''Medic''' has the ability to permanently grant a [[Firerate Buff]] and temporarily grant a [[Damage Buff]] to towers, making it very useful as a support tower.
+**However, unlike other towers like the [[Commander]], [[DJ Booth]] or even the [[Mercenary Base]], it is not able to apply it to every tower in range, it can only apply it to a few of them.
+***Because of this, players may need to either place down multiple of them to cover most or all of their towers, or only target the most important of their towers.
+***Due to its limited tower selection, towers with naturally low placement limits like the [[Turret]] or [[Gatling Gun]] are a great pick when using the '''Medic''', as their low placement limits mean few '''Medics''' are needed to boost them all.
+****With all four '''Medics''' placed down, you can still boost up to 20 towers, so towers like the [[Minigunner]] or [[Swarmer]] can still be paired with it, although you might have to leave some towers unboosted.
+*The '''Medic''' can give towers a shield, which stops them from being stunned once.
+**This does not stop either debuffs or being frozen. These towers are still affected by these effects, but they will not lose their shield from them.
+**When its shield is broken, the targeted tower not only loses its immunity to stuns, but also the [[Firerate Buff]] provided by the '''Medic'''. It does not however, lose any of its ''Ubercharge'' buffs.
+***If the shield is regenerated in the middle a stun, the stun will removed. This means the duration of towers assigned to a '''Medic''' cannot be longer than its shield regeneration cooldown.
+*The '''Medic''' can provide an additional [[Damage Buff]] to targeted towers, but only temporarily.
+**This is best used on harder waves when a tough enemy appears.
+**On top of this, it also grants the tower [[Stun Immunity]] and [[Freeze Immunity]], making the tower fully invulnerable to stun and freeze, making it rather useful against enemies with offensive capabilities.
+*The '''Medic''' can be used to heal back any lost health and overheal the base health.
+**As this effect stacks with each '''Medic''' placed down, having four '''Medics''' placed down will result in the player regenerating 80 health at the start of every wave while also adding an additional overheal of 400.
+***This does not just stack with other '''Medics''', but also other towers or mechanics like [[Skills]]. For example, if [[Skills]] are fully upgraded, having one [[Medic]] placed down will allow it to overheal the base health to 250 at Level 5, not just 50 or 200.
+*There are multiple towers that cannot be affected by its [[Damage Buff]]:
+{{DamageBuff}}
 
 ==Trivia==
-*When '''John''' was first added to the game, its upgrade stats were not displayed on its upgrade description. It was simply referred to as "swager21".
-**It was the only tower that did not include the word "sans" in its upgrade description at the time of its release.
-*This tower used to be redeemable with the now expired [[Codes|code]]: J0HNRBX.
-*The '''Militant''' (when it was originally called '''John''') had an ability called ''Gorilla Sounds'' which increased the damage of most towers within its range by 30%. This lasted 10 seconds and had a 30 second cooldown.
-**During [[Hardcore Testing BETA]], this ability was renamed to ''Enraging Shout''.
-**This ability could not increase the damage of the following towers:
-***Any projectile-based towers: the [[Mortar]], [[Rocketeer]], [[Demoman]], [[Freezer]] (splash damage only; its direct, non-explosive, damage can be increased), [[Paintballer]] and [[Archer|Holiday Archer]].
-***The [[Ace Pilot]] bombs, [[Commando]] missiles or [[Pursuit]] missiles, as they all count as projectiles.
-***The [[Slasher|Shredder]] when its ''Knife Throw'' ability was activated, as the knives it threw counted as a projectile.
-***The [[Pyromancer]]'s burn damage or the [[Swarmer]]'s bee damage.
-****The [[Pyromancer]]'s normal damage could still be increased.
-***The [[Shotgunner|Enforcer]].
-***All units.
-*This tower was originally dedicated to YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX].
-**Before the addition of this tower, the [[Paintballer]] was considered John's tower.
-**The ''Enraging Shout'' ability was based on various noises that he would make in his videos.
-*The now removed ''Enraging Shout'' ability would play various sound effects, with some skins having their own specific sound effects.
-**The regular ''Enraging Shout'' sound was voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were four lines:
-***"''Oh you think you're hard, you think you're hard ya dumb old zombies, shred em, shred em, shred em, shred!''"
-***"''Yeah! Yeah! Yeah!''" with a scream at the end.
-***Sounds resembling that of a gorilla, specifically one going "''oo-oo-oo''" repeatedly.
-***"''Yeah, get em, get em, get em, yeah, yeah, get em!''"
-**The {{Color|Unobtainable|Pumpkin}} skin for '''Militant''' had two sound effects, both of which are laughs.
-**The {{Color|Deluxe|Ace Pilot}} skin for '''Militant''' had one sound effect that was only used during [[Hardcore Testing BETA|Hardcore Testing]], prior to that it did not play anything. The one line was:
-***"''kakugo surun yo''"
-****In English, it translates to "Ya better be prepared!".
-****This is a reference to JOHN ROBLOX's video, [https://www.youtube.com/watch?v=y_NfKixI3Sk zerotwo but in roblox], although the actual sound effect comes from the anime [[w:c:macross:Macross Δ|Macross Delta]].
-*The '''Militant''' still uses '''John''' upgrade icons from [[Hardcore Testing BETA]], even though its design has been drastically changed.
-*The '''Militant''' was the only tower that used a reloading system, until the [[Cryomancer]] was released.
-**The '''Militant's''' reloading system was removed in the [[v1.1.0|Entity System Update]].
-*The '''Militant''' has the most category changes for a tower, as it has been moved from Starter to Intermediate and the other way around, as it changed a total of three times.
+*The '''Medic''' is the second tower that has the ability to restore base health, although it is currently the only one to do so.
+**The first tower able to do so was the [[Gladiator]], although it has since lost this ability.
+**It is not the only way of healing back base health, as the [[Turkey Leg]] and [[Fruit Cake]] consumables can also do that.
+*The item the '''Medic''' carries from level 0-4 resembles the [https://wiki.teamfortress.com/wiki/Medi_Gun Medi Gun] from ''[[wp:Team Fortress 2|Team Fortress 2]]''.
+**Originally, the '''Medic''' carried a syringe gun that resembled the [https://wiki.teamfortress.com/wiki/Syringe_Gun Syringe Gun] in ''[[wp:Team Fortress 2|Team Fortress 2]]''.
+**The tower also had an old description ("''MEDICCCCC!''") that was a reference to ''[[wp:Team Fortress 2|Team Fortress 2]]''.
+*At Level 2, [[w:c:r2da:Vitamins|Vitamins]] from ''R2DA'' can be seen on the '''Medic's''' belt.
+*The '''Medic's''' Level 3 upgrade name is a reference to the meme [https://knowyourmeme.com/memes/yeah-this-is-big-brain-time Yeah, This Is Big Brain Time].
+*During [[Hardcore Testing BETA]], the '''Medic''' had the same upgrade icons and upgrading prices as the [[Mecha Base]], barring the placement cost.
+*Until the [[Overhaul v1.0|Overhaul Update]], the '''Medic's''' Level 5 upgrade was misspelled as ''Goddess or Healing''.
+*The '''Medic''' was unable to heal base health in the now removed [[Versus]] mode.
+*The '''Medic''' originally had a red cross shoulder patch, which violates [[wp:Geneva Conventions|Geneva Conventions Laws]], as it is being used by the [[wp:International Committee of the Red Cross|ICRC]] and is strictly restricted to be associated with real-world medical aid.
+*The '''Medic's''' ''Ubercharge'' ability icon came from ''[https://www.roblox.com/games/183929867/Ashea-Reborn Ashea: Reborn]'', where it was used as an icon for the Heal skill.
+*From [[Null Medic]]'s logbook description, the '''Medic''' has scars on itself.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{Scroll|text=
-*'''16 June 2019''' - [[BETA v1.1|BETA v1.1.0]]
-**'''John''' added.
-*'''24 June 2019''' - [[BETA v1.2|BETA v1.2.0]]
-**Statistical changes:
-***'''Base'''
-****Range increased from 7 to 12.
-***'''Level 5'''
-****Cost increased from {{Money|12,000}} to {{Money|16,000}}.
-****''Gorilla Noises'' [[Damage Buff]] increased from 20% to 50%.
-****''Gorilla Noises'' cost increased from free to {{Money|100}}.
-*'''1 July 2019''' - [[BETA v1.3|BETA v1.3.2]]
-**Statistical changes:
-***'''Level 4'''
-****Cost decreased from {{Money|8,200}} to {{Money|6,200}}.
-***'''Level 5'''
-****Cost decreased from {{Money|16,000}} to {{Money|10,000}}.
-*'''19 July 2019''' - [[BETA v1.6|BETA v1.6.0]]
-**Code expired, unlock cost is now {{Coins|1,000}}.
 *'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**Upgrade names added.
-**Statistical changes:
-***'''Level 2'''
-****Cost decreased from {{Money|1,400}} to {{Money|1,000}}.
-***'''Level 3'''
-****Cost decreased from {{Money|3,250}} to {{Money|2,400}}.
-***'''Level 4'''
-****Cost decreased from {{Money|6,200}} to {{Money|5,000}}.
-***'''Level 5'''
-****''Gorilla Noises'' [[Damage Buff]] decreased from 50% to 30%.
-****''Gorilla Noises'' cost decreased from {{Money|100}} to free.
-****''Gorilla Noises'' cooldown decreased from 65s to 30s.
-****''Gorilla Noises'' now has rage particles that only last 5 seconds while the ability lasts 10 seconds.
-**New skin: {{Color|Premium|Ace Pilot}}
-**{{Bug}} '''John''' does not gain hidden detection on Level 2.
-*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]
-** New skin: {{Color|Halloween2019|Pumpkin}}
+**'''Medic''' added.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
+**New skin: {{Color|Halloween2019|Witch}}
 *'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage increased from +1 to +2.
-*****{{Bug}} This was not changed in the upgrade description.
-***'''Level 5'''
-****''Gorilla Noises'' now stacks with other [[Damage Buff]]s.
-**{{Bugfix}} '''John''' now gains hidden detection on Level 2.
+**{{Bug}} ''Cleansing'' ability range is not increased by [[Range Buff]]s.
+*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
+**New skin: {{Color|Premium|Cyber}}
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**'''Medic''' is now immune to stun from boss stomps.
+*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
+**New skin: {{Color|Valentine|Valentines}}
 *'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
 **Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|575}} to {{Money|550}}.
-****Range decreased from 12 to 10.
-***'''Level 1'''
-****Renamed from ''Gloves'' to ''Laser Sight''.
-****Cost decreased from {{Money|450}} to {{Money|200}}.
-***'''Level 2'''
-****Renamed from ''Laser Sight'' to ''Improved Handling''.
-****Cost decreased from {{Money|1,000}} to {{Money|600}}.
 ***'''Level 3'''
-****Renamed from ''Light Machine Gun'' to ''Master Chef''.
-****Cost decreased from {{Money|2,400}} to {{Money|1,250}}.
-***'''Level 4'''
-****Renamed from ''Master Chef'' to ''AUG A1''.
-****Cost decreased from {{Money|5,000}} to {{Money|3,500}}.
-***'''Level 5'''
-****Renamed from ''GORILLA SOUNDS'' to ''A Force to be Reckoned With''.
-****Cost decreased from {{Money|10,000}} to {{Money|8,500}}.
-****Firerate changed from 0.25 to {{Tooltip|0.25 to 0.2|-0.05}}.
-**Ability particles updated and now last for 10 seconds.
-*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
-**New skin: {{Color|Premium|Hazmat}}
+****Range increased from +1 to +3.
+*****{{Bug}} This was not changed in the upgrade description.
+****Damage decreased from +3 to +2.
+*****{{Bug}} This was not changed in the upgrade description.
+*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
+**New skin: {{Color|Bunny|Bunny}}
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Renamed from ''John'' to ''Militant''.
-**Unlock cost increased from {{Coins|1,000}} to {{Coins|2,000}}.
+**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 0.85 to 0.43.
-****Range increased from 10 to 12.
-****Cost increased from {{Money|550}} to {{Money|1,200}}.
-***'''Level 1'''
-****Renamed from ''Laser Sight'' to ''Percise Aiming''.
+****Firerate decreased from 1.05 to 1.03.
 ***'''Level 2'''
-****Damage decreased from +1 to +0.
-****Firerate changed from {{Tooltip|0.85 > 0.65|-0.2}} to 0.43.
-****Cost decreased from {{Money|600}} to {{Money|450}}.
-****Renamed from ''Improved Handling'' to ''Radio Support''.
+****Firerate changed from {{Tooltip|1.05 > 0.85|-0.2}} to {{Tooltip|1.03 > 0.83|-0.2}}.
 ***'''Level 3'''
 ****Damage decreased from +2 to +0.
-****Range decreased from +2 to +0.
-****Firerate changed from 0.65 to {{Tooltip|0.43 > 0.23|-0.2}}.
-****Cost decreased from {{Money|1,250}} to {{Money|1,200}}.
-****Renamed from ''Master Chef'' to ''Automatic''.
+****Firerate changed from {{Tooltip|0.85 > 0.55|-0.3}} to 0.83.
 ***'''Level 4'''
-****Range decreased from +3 to +0.
-****Firerate changed from {{Tooltip|0.65 > 0.25|-0.4}} to 0.23.
-****Damage increased from +0 to +2.
-****Renamed from ''AUG A1'' to ''Intense Training''.
+****Firerate changed from 0.55 to {{Tooltip|0.83 > 0.68|-0.15}}.
 ***'''Level 5'''
-****Range decreased from +3 to +2.
-****Firerate changed from {{Tooltip|0.25 > 0.2|-0.05}} to {{Tooltip|0.23 > 0.18|-0.05}}.
-****''Gorilla Noises'' ability removed.
-****Renamed from ''A Force to be Reckoned With'' to ''Special Forces''.
-*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
-**New skin: {{Color|Spooky|Ghost}}
+****Firerate changed from {{Tooltip|0.55 > 0.35|-0.2}} to {{Tooltip|0.68 > 0.33|-0.35}}.
+**{{Bug}} Level 3 upgrade description says that the '''Medic's''' damage is increased from 6 to 6.
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**''Militant'' now has ammo, when it runs out of ammo or does not detect any enemies for a while it will start reloading.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|1,200}} to {{Money|750}}.
-****Damage decreased from 2 to 1.
-****Firerate decreased from 0.43 to 0.23.
-****Range decreased from 12 to 10.
-****Now has 18 ammo.
-***'''Level 3'''
-****Name changed from ''Automatic'' to ''Sharp Shooter''.
-****Firerate changed from {{Tooltip|0.43 > 0.23|-0.2}} to {{Tooltip|0.23 > 0.155|-0.075}}.
-****Damage increased from +0 to +1.
-****Ammo increased from +0 to +12.
-****Cost increased from {{Money|1,200}} to {{Money|1,800}}.
-***'''Level 4'''
-****Range increased from +0 to +1.
-****Cost increased from {{Money|3,500}} to {{Money|4,500}}.
-***'''Level 5 removed'''
-****Statistics:
-*****Name: ''Special Forces''
-*****Cost: {{Money|7,500}}
-*****+2 Damage
-*****+2 Range
-*****Firerate: {{Tooltip|0.23 > 0.18|-0.05}}
-*'''4 December 2021''' - [[v1.0.0]]
-**Statistical changes:
-***'''Base'''
-****Ammo increased from 18 to 20.
-***'''Level 3'''
-****Ammo decreased from +12 to +10.
-****Reload Time changed from 2.5 to {{Tooltip|2.5 > 1.5|-1}}.
-**{{Bug}} When the '''Militant''' has its reload time decreased by the [[Commander]], the '''Militant''' will not play any animation after its reloading animation is finished, but it still can attack enemies.
-*'''13 February 2022''' - [[v1.0.2]]
-**New skin: {{Color|SeasonOfLove|Chocolatier}}.
+**{{Bug}} '''Medic's''' ''Cleansing'' ability does not work as it only applies to the old stun system, not the new one.
 *'''12 March 2022''' - [[v1.1.0]]
-**Reloading mechanic removed.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**'''Medic''' is now immune to all stuns.
 **Statistical changes:
 ***'''Base'''
-****Firerate increased from 0.23 to 0.275.
-****Range increased from 10 to 14.
-****Reload Time removed (was 2.5).
-****Ammo removed (was 20).
-****Cost increased from {{Money|750}} to {{Money|800}}.
-***'''Level 1'''
-****Name changed from ''Percise Aiming'' to ''Radio Comms''.
-****Range increased from +2 to +3.
-****Hidden Detection moved from Level 2 to Level 1.
-****Cost increased from {{Money|200}} to {{Money|250}}.
+****Firerate decreased from 1.03 to 1.025.
 ***'''Level 2'''
-****Name changed from ''Radio Support'' to ''Bigger Rifle''.
-****Damage increased from +0 to +1.
-****Firerate changed from 0.23 to {{Tooltip|0.275 > 0.225|-0.05}}.
-****Range decreased from +1 to +0.
-****Cost increased from {{Money|450}} to {{Money|1,500}}.
-***'''Level 3'''
-****Name changed from ''Sharp Shooter'' to ''Upskill''.
-****Firerate changed from {{Tooltip|0.23 > 0.155|-0.075}} to {{Tooltip|0.225 > 0.2|-0.025}}.
-****Damage increased from +1 to +2.
-****Range increased from +0 to +2.
-****Cost increased from {{Money|1,800}} to {{Money|3,500}}.
+****Firerate changed from {{Tooltip|1.03 > 0.83|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
 ***'''Level 4'''
-****Name changed from ''Intense Training'' to ''Stealth Mercenary''.
-****Firerate changed from 0.155 to {{Tooltip|0.2 > 0.175|-0.025}}.
-****Damage increased from +2 to +3.
-****Range increased from +1 to +2.
-****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
-*'''17 April 2022''' - [[v1.2.0]]
-**New skin: {{Color|DuckHunt|Ducky}}
-*'''5 August 2022''' - [[v1.3.1]]
-**New skin: {{Color|EndOfSummer|Beach}}
-*'''9 September 2022''' - [[v1.3.2]]a
-**New skin: {{Color|Other|John}}
-*'''30 September 2022''' - [[v1.4.0]]
-**New skin: {{Color|Philips|Lumberjack}}
+****Firerate changed from {{Tooltip|0.83 > 0.68|-0.15}} to {{Tooltip|0.825 > 0.675|-0.15}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|0.68 > 0.33|-0.2}} to {{Tooltip|0.675 > 0.325|-0.35}}.
+**{{Bugfix}} '''Medic's''' ''Cleansing'' ability now works properly.
+**{{Bugfix}} ''Cleansing'' ability range is now increased by [[Range Buff]]s.
+**{{Bug}} '''Medic''' no longer heals the base health.
+*'''12 March 2022''' - [[v1.1.0]]a
+**{{Bugfix}} '''Medic''' now heals the base health.
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-**{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
 *'''23 January 2023''' - [[v1.6.0]]j
-**{{Color|Halloween2019|Pumpkin}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
+**{{Color|Unobtainable|Valentines}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
 *'''14 February 2023''' - [[v1.6.1]]
-**{{Color|Lovely|Chocolatier}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
-*'''21 December 2023''' - [[v1.11.0]]
-**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
-*'''3 May 2024''' - [[v1.20.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|800}} to {{Money|700}}.
-***'''Level 1'''
-****Flying detection added.
-***'''Level 2'''
-****Cost decreased from {{Money|1,500}} to {{Money|1,250}}.
-****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to {{Tooltip|0.275 > 0.2|-0.075}}.
-***'''Level 3'''
-****Cost decreased from {{Money|3,500}} to {{Money|3,000}}.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to {{Tooltip|0.2 > 0.175|-0.025}}.
-***'''Level 4'''
-****Damage increased from +3 to +4.
-****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
+**New skin: {{Color|ColdFront|Stranded}}
+*'''21 March 2023''' - [[v1.6.3]]e
+**{{Bug}} '''Medic'''s base health regeneration no longer increases at Level 2 and Level 4.
+**{{Bugfix}} Level 3 upgrade description no longer says that the '''Medic's''' damage has increased from 6 to 6.
+*'''31 October 2023''' - [[v1.9.0]]g
+**New skin: {{Color|Lunar|Masquerade}}
+*'''24 February 2024''' - [[v1.14.0]]
+**{{Bug}} '''Medic''' can only heal the base health in [[Tutorial]] and [[Easy Mode]].
+*'''8 March 2024''' - [[v1.15.0]]
+**{{Bugfix}} '''Medic''' now can heal the base health in every mode.
 *'''21 June 2024''' - [[v1.25.0]]
 **{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
 *'''2 August 2024''' - [[v1.27.0]]
 **{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
-*'''9 August 2024''' - [[v1.27.5]]
+*'''21 August 2024''' - [[v1.28.0]]
 **New skin: {{Color|FallenMission|Fallen}}
-*'''11 September 2024''' - [[v1.31.0]]
-**New skin: {{Color|Mission|Star Spartan}}
-*'''23 October 2024''' - [[v1.37.0]]
-**New skin: {{Color|Hexscape|Wasteland}}
-*'''26 March 2025''' - [[v1.58.0]]
+*'''12 March 2025''' - [[v1.57.0]]
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 0.275 to 0.225.
-****Range decreased from 14 to 13.
+****Damage increased from 2 to 3.
+****Range increased from 10 to 12.
+****Cost decreased from {{Money|900}} to {{Money|450}}.
+****Lead detection added.
 ***'''Level 1'''
-****Cost decreased from {{Money|250}} to {{Money|200}}.
-****Firerate changed from 0.258 to {{Tooltip|0.225 > 0.2|-0.025}}.
+***Damage decreased from +1 to +0.
+****Firerate changed from 1.025 to {{Tooltip|1.025 > 0.775|-0.25}}.
+****Cost decreased  from {{Money|400}} to {{Money|200}}.
 ***'''Level 2'''
-****Cost decreased from {{Money|1,250}} to {{Money|900}}.
-****Firerate changed from {{Tooltip|0.275 > 0.2|-0.075}} to 0.2
+****Damage decreased from +3 to +2.
+****Firerate decreased from {{Tooltip|1.025 > 0.825|-0.2}} to 0.775.
+****Range decreased from +1 to +0.
+****Healing increased from 5 > 7 to 5 > 10.
+*****{{Bug}} Healing does not increase.
+****Hidden detection added, moved from Level 3.
+****Cost increased from {{Money|900}} to {{Money|400}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,750}}.
+****Damage increased from +0 to +3.
+****Firerate decreased from 0.825 to {{Tooltip|0.775 > 0.675|-0.1}}.
+****Hidden detection moved to Level 2.
+****Cost decreased from {{Money|2,400}} to {{Money|800}}.
 ***'''Level 4'''
-****Cost increased from {{Money|7,500}} to {{Money|9,000}}.
-****Damage increaased from +4 to +8.
-****Range increased from +2 to +3.
+****Damage increased  from +2 to +4.
+****Range decreased from +1 to +0.
+****Firerate decreased from {{Tooltip|0.825 > 0.675|-0.15}} to {{Tooltip|0.675 > 0.525|-0.15}}.
+****Healing increased from 7 > 10 to 10 > 25.
+*****{{Bug}} Healing does not increase.
+****Cost decreased from {{Money|4,500}} to {{Money|1,750}}.
+***'''Level 5'''
+****Firerate decreased from {{Tooltip|0.675 > 0.325|-0.35}} to {{Tooltip|0.525 > 0.325|-0.2}}.
+****''Cleansing'' ability cooldown decreased from 30 to 20.
+****Healing increased from 10 to 25 > 100.
+*****{{Bug}} Healing does not increase.
+****Flying detection added.
+****Cost decreased from {{Money|6,500}} to {{Money|5,000}}.
+*'''16 April 2025''' - [[v1.59.0]]
+**{{Bug}} ''Cleansing'' ability does not function properly if certain tower/skins are placed in its range. This includes the {{Color|CoinCrate|The Flea}} and {{Color|CoinCrate|The Beast}} [[Jester]] skins. In future updates, [[Biologist]], {{Color|DuckyRevenge|Spring Time}} [[Cowboy]], {{Color|DuckyRevenge|Duck}} [[Rocketeer]], {{Color|DuckyRevenge|Duck}} [[Necromancer]], {{Color|EventMission|Ducky}} [[DJ Booth]], {{Color|Other|Mecha Bunny}} [[Cowboy]] and [[Swarmer]] were added/changed which break it too.
 *'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Easter}}
+**Support role added.
+*'''28 May 2025''' - [[v1.65.0]]
+**{{Bugfix}} ''Cleansing'' no longer breaks.
 *'''25 June 2025''' - [[v1.68.0]]
-**Unlock cost reduced from {{Coins|1,500}} to {{Coins|650}}.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Acheron}}
-*'''23 July 2025''' - [[v1.71.0]]
-**Statistical changes ([[PVP]]):
+**Unlock cost decreased from {{Coins|1,500}} to {{Coins|800}}.
+*'''20 August 2025''' - [[v1.73.0]]
+**'''Medic''' is no longer capable of attacking enemies, now it only shields other towers. This provides them with buffs and an immunity to stuns.
+**''Cleansing'' ability replaced with ''Ubercharge''. Functionality changed from removing all stuns from towers to applying an additional buff to assigned towers and giving them all detections.
+**Now can overheal the base health without [[Skills]], as it has its own separate limit per '''Medic'''.
+**Updated tooltips.
+**Unlock cost increased from {{Coins|800}} to {{Coins|2,000}}.
+**Placement limit of 5 added.
+**Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|700}} to {{Money|1,600}}.
-****Damage increased from 1 to 2.
-****Range increased from 13 to 16.
+****Cost increased from {{Money|450}} to {{Money|500}}.
+****Damage removed.
+****Firerate removed.
+****Max targets of 1 added.
+****Shield recharge speed of 8 added.
+****Overheal limit of 0 added.
+****Tower selection cooldown of 0.5 added.
+****[[Firerate Buff]] of 20% added.
+****Lead detection removed.
 ***'''Level 1'''
-****Cost increased from {{Money|200}} to {{Money|700}}.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to {{Tooltip|0.225 > 0.175|-0.05}}
-****Range decreased from +3 to +2.
+****Cost increased from {{Money|200}} to {{Money|300}}.
+****Range decreased from +1 to +0.
+****Max targets increased from +0 to +1.
 ***'''Level 2'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
+****Cost increased from {{Money|400}} to {{Money|750}}.
+****Range increased from +0 to +2.
+****Max targets increased from +0 to +1.
+****Healing decreased from +5 to +0.
+****Overheal limit increased from +0 to +5.
+****Shield recharge speed changed from 0 to 8 > 6.
+****Hidden detection removed.
 ***'''Level 3'''
-****Cost increased from {{Money|2,750}} to {{Money|3,500}}.
-****Damage decreased from +2 to +1.
-****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to {{Tooltip|0.175 > 0.125|-0.05}}.
+****Cost increased from {{Money|800}} to {{Money|2,700}}.
+****Range decreased from +3 to +1.
+****Healing decreased from +0 to +5.
+****Overheal limit increased from +0 to +5.
+****Unlocks ''Ubercharge''.
+*****Replaces the former ''Cleansing'' ability.
+*****Grants a 20% [[Damage Buff]] and all detections.
+*****Lasts 7.5 seconds.
 ***'''Level 4'''
-****Cost increased from {{Money|9,000}} to {{Money|10,000}}.
-****Damage decreased from +8 to +6.
-****Range decreased from +3 to +0.
-*'''6 August 2025''' - [[v1.72.0]]
-**Cost decreased from {{Coins|650}} to {{Coins|500}}.
-**Category changed from Intermediate to Starter.
-**Statistical changes ([[PVP]]):
+****Cost increased from {{Money|1,750}} to {{Money|6,000}}.
+****Range increased from +0 to +3.
+****Max targets increased from +0 to +1.
+****Healing decreased from +15 to +10.
+****Overheal limit increased from +0 to +10.
+****Shield recharge speed changed from 0 to 6 > 4.5.
+****[[Damage Buff]] changed from 0% to 20% > 27.5%.
+****''Ubercharge'' duration changed 0 to 7.5 > 10.
+***'''Level 5'''
+****Cost increased from {{Money|5,000}} to {{Money|16,000}}.
+****Max targets increased from +0 to +1.
+****Healing decreased from +75 to +5.
+****Overheal limit increased from +0 to +30.
+****Shield recharge speed changed from 0 to 4.5 > 2.
+****[[Damage Buff]] changed from 0% to 27.5% > 40%.
+****''Ubercharge'' duration changed 0 to 10 > 15.
+****Name changed from ''Goddess Of Healing'' to ''PHD''.
+**New skin: {{Color|EventMission|Mermaid}}
+**{{Bug}} '''Medic''' can switch assigned towers while [[Time Scale]] is set to 0x.
+**{{Bug}} '''Medic''' can stack its [[Firerate Buff]].
+**{{Bug}} Despite being unable to shield towers with another player's '''Medic''', selecting another player's '''Medic''' will still prevent selecting towers.
+**{{Bug}} Having a '''Medic''' selected prevents viewing enemy statistics.
+**{{Bug}} '''Medic''' can sometimes abruptly end the match in a loss at random waves.
+**{{Bug}} '''Medic's''' ''Ubercharge'' reloads the ammo of specifically just the [[Commando]] and [[Gatling Gun]] after it ends.
+**{{Bugfix}} '''Medic's''' healing now increases with upgrades.
+*'''20 August 2025''' - [[v1.73.0|v1.73.2]]
+**{{Bugfix}} It is no longer possible to stack '''Medic''' [[Firerate Buff]]s through a specific method of switching which '''Medic''' is shielding a tower after the shield breaks.
+*'''3 September 2025''' - [[v1.74.0]]
+**{{Bugfix}} '''Medic''' no longer causes the match to abruptly end in a loss.
+*'''24 September 2025''' - [[v1.75.0]]
+**Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|1,600}} to {{Money|1,400}}.
-****Range decreased from 16 to 15.
+****[[Firerate Buff]] decreased from 20% to 15%.
 ***'''Level 1'''
-****Cost decreased from {{Money|700}} to {{Money|600}}.
-***'''Level 2'''
-****Cost increased from {{Money|1,000}} to {{Money|2,600}}.
-****Firerate changed from 0.175 to {{Tooltip|0.175 > 0.125|-0.05}}.
+****Cost increased from {{Money|300}} to {{Money|500}}.
 ***'''Level 3'''
-****Cost increased from {{Money|3,500}} to {{Money|5,000}}.
-****Damage increased from +1 to +3.
-****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to 0.125.
-****Range increased from +2 to +3.
+****''Ubercharge'' no longer gives all detections.
+*****{{Bug}} Despite what the update log says, this change did not actually happen. Detections are still applied by ''Ubercharge''.
 *'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Undead}}
+**New skin: {{Color|Null|Plague}}
+*'''12 November 2025''' - [[v1.80.0]]
+**{{Bugfix}} ''Ubercharge'' no longer gives towers hidden detection, though other detections are still applied when they should not be.
+*'''26 November 2025''' - [[v1.81.0]]
+**Statistical changes:
+***''Ubercharge'' ability now has a 15 second cooldown upon placing it down.
+*'''20 December 2025''' - [[v1.83.0]]
+**New skins: {{Color|Showtime|Bartender}}
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skins: {{Color|FinalAct|Toy Ballerina}}
+*'''23 December 2025''' - [[v1.83.0|v1.83.4]]
+**{{Bug}} All shielded towers except one once their shield is broken do not lose their [[Firerate Buff]] and never regain their shield without assigning them a shield again.
+**{{Bugfix}} It is no longer possible to stack the [[Medic]]'s [[Firerate Buff]].
 *'''28 January 2026''' - [[v1.84.0]]
-**Statistical changes (Regular):
+**Placement limit decreased from 5 to 4.
+**Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|700}} to {{Money|600}}.
+****Cost decreased from {{Money|500}} to {{Money|400}}.
 ***'''Level 1'''
-****Cost decreased from {{Money|200}} to {{Money|150}}.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.225.
-****Range increased from +3 to +4.
+****Cost decreased from {{Money|500}} to {{Money|400}}.
 ***'''Level 2'''
-****Cost increased from {{Money|900}} to {{Money|1,050}}.
-****Firerate changed from 0.2 to {{Tooltip|0.225 > 0.175|-0.05}}.
-****Name changed from ''Bigger Rifle'' to ''Field Ops''.
+****Cost decreased from {{Money|750}} to {{Money|675}}.
 ***'''Level 3'''
-****Cost increased from {{Money|2,750}} to {{Money|3,125}}.
-****Damage increased from +2 to +3.
-****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
-****Range decreased from +2 to +0.
-****Name changed from ''Upskill'' to ''Guerilla Tactics''.
+****''Ubercharge'' duration increased from 7.5 to 10.
 ***'''Level 4'''
-****Cost decreased from {{Money|9,000}} to {{Money|5,750}}.
-****Damage decreased from +8 to +5.
-****Range decreased from +3 to +2.
+****''Ubercharge'' damage buff increased from 20% > 27.5% to 20% > 30%.
+****''Ubercharge'' duration increased from 7.5 > 10 to 10 > 12.5.
+***'''Level 5'''
+****Cost decreased from {{Money|16,000}} to {{Money|15,000}}.
+****Shield Recharge Speed increased from 4.5 > 2 to 4.5 > 4.
+*'''11 February 2026''' - [[v1.85.0]]
+**New skin: {{Color|Valentines2026|Second Chance}}
 *'''11 March 2026''' - [[v1.86.0]]
-**Category changed from Starter to Intermediate.
-**Statistical changes (Regular):
-***'''Base'''
-****Range increased from 13 to 14.
-***'''Level 1'''
-****Cost increased from {{Money|150}} to {{Money|300}}.
-****Firerate changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
-****Range decreased from +4 to +3.
-***'''Level 2'''
-****Cost decreased from {{Money|1,050}} to {{Money|850}}.
-****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to 0.175.
-***'''Level 3'''
-****Cost decreased from {{Money|3,125}} to {{Money|2,750}}.
-***'''Level 4'''
-****Cost increased from {{Money|5,750}} to {{Money|8,000}}.
-****Damage increased from +5 to +7.
-****Range increased from +2 to +3.
+**New skin: {{Color|Shamrock|Shamrock}}
+**{{Bugfix}} ''Ubercharge'' no longer gives flying and lead detection.
 *'''22 May 2026''' - [[v1.91.0]]
-**New skin: {{Color|Backyard|SuperFan}}
+**{{Bugfix}} Shields now properly re-appear on towers after they were hit by a stunning ability.
 *'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
+**''Ubercharge'' now grants the [[Medic]] [[Freeze Immunity]] while it is active.
+**''Ubercharge'' now gives shielded towers both the [[Stun Immunity]] and [[Freeze Immunity]].
+**Statistical changes:
 ***'''Base'''
-****Without [[Firerate Bug]], firerate increased from 0.2 to 0.225, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.225.
+****Overheal limit increased from 0 to 100.
 ***'''Level 1'''
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.2 > 0.15|-0.05}} to {{Tooltip|0.225 > 0.175|-0.05}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Firerate decreased from 0.225 to 0.2.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.2 > 0.15|-0.05}}.
+****Cost increased from {{Money|400}} to {{Money|425}}.
 ***'''Level 2'''
-****Damage decreased from +1 to +0.
-****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}.
+****Cost decreased from {{Money|675}} to {{Money|650}}.
+****Healing increased from +0 to +5.
+****Overheal limit decreased from +5 to +0.
+***'''Level 3'''
+****Cost decreased from {{Money|2,950}} to {{Money|2,700}}.
+****Overheal limit decreased from +5 to -90.
+****Healing decreased from +5 to +0.
 ***'''Level 4'''
-****Damage decreased from +6 to +5.
+****Overheal limit increased from +10 to +90.
+****Shield recharge speed changed from 6 > 4.5 to 6 > 5.
+****''Ubercharge'' damage buff changed from 20% > 30% to 20% > 27.5%.
+***'''Level 5'''
+****Cost decreased from {{Money|15,000}} to {{Money|14,000}}.
+****Overheal limit decreased from +30 to +0.
+****Healing decreased from +5 to +0.
+****Shield recharge speed changed from 4.5 > 4 to 5 > 4.5.
+****''Ubercharge'' damage buff changed from 30% > 40% to 27.5% > 35%.
+****Name changed from '''PHD''' to '''MD-PhD'''.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Beach}}
 *'''17 July 2026''' - [[v2.3.0]]
-**New skin: {{Color|Pirate|Pirate}}
+**Statistical changes:
+***'''Level 3'''
+****Overheal limit increased from -90 to +90.
+***'''Level 4'''
+****Overheal limit decreased from +90 to +0.
+*'''14 August 2026''' - [[v2.6.0]]
+**Statistical changes:
+***'''Level 3'''
+****Cost decreased from {{Money|2,950}} to {{Money|2,400}}.
+****''Ubercharge'' duration decreased from 10 to 7.5.
+***'''Level 4'''
+****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
+****''Ubercharge'' duration changed from 10 > 12.5 to 7.5 > 10.
+***'''Level 5'''
+****Cost decreased from {{Money|14,000}} to {{Money|12,000}}.
+****''Ubercharge'' duration changed from 12.5 > 15 to 10.
 }}
 
 ==Notes==
@@ -693,3 +578,5 @@ $R$ = $FNC-RECURSION$
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
+[[Category:Support]]
