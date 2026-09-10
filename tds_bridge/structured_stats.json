@@ -7,52 +7,1020 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.",
+  "description": "The '''Accelerator''' is a hardcore tower that attacks in delayed bursts. It has a charge-up that happens before the burst and a cooldown that happens after the burst. During the burst, it can deal massive amounts of damage in a short period of time, but does no damage in between bursts. It can be purchased from the store for {{Gem|2,500}} and has a level requirement of {{Level|50}}.\n\nThe '''Accelerator''' must charge-up its plasma gun before it can attack enemies. During its attack, it will fire in quick, high-damaging bursts, remaining focused on one enemy until it is killed, leaves the '''Accelerator's''' range, or the overcharge ends. The '''Accelerator''' will deal a set amount of damage before cooling down with its left hand, indicating that the plasma gun has overcharged. After this, there will be a cooldown lasting a couple of seconds, after which it charges up again. The amount of damage needed for the '''Accelerator''' to overcharge can be seen above its tower icon in the upgrade box or when you hover your cursor over it. Damage can still go above this threshold, though the '''Accelerator''' will stop attacking immediately once it does so. For example, if the '''Accelerator''' deals 8,999 damage out of 9,000 and has 10 damage, it will deal 9,009 damage total in that burst, assuming the enemy it attacks has at least 10 health. The '''Accelerator''' can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 1.\n\nThe '''Accelerator''' is considered a mid to late-game tower because of its high damage capabilities, but extremely high cost. \n\nThe '''Accelerator''' has a placement limit of five per player. This is increased to eight in [[PVP]] mode.",
   "upgrade_modes": {
-    "regular": [],
-    "pvp": []
+    "regular": [
+      {
+        "mode": "regular",
+        "level": 1,
+        "title": "Extra Juice",
+        "cost": "{{Money|2,000}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "set",
+            "from": "9,000",
+            "to": "11,250",
+            "stat": "Overcharge",
+            "text": "9,000 > 11,250 Overcharge"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Extra Juice",
+          "Cost": "{{Money|2,000}}",
+          "Image": "[[File:AccelLevel1Icon.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 2,
+        "title": "Second Energy Canister",
+        "cost": "{{Money|6,000}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "11,250",
+            "to": "18,750",
+            "stat": "Overcharge",
+            "text": "11,250 > 18,750 Overcharge"
+          },
+          {
+            "kind": "set",
+            "from": "6.5",
+            "to": "5.5",
+            "stat": "Charge-Up Time",
+            "text": "6.5 > 5.5 Charge-Up Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Second Energy Canister",
+          "Cost": "{{Money|6,000}}",
+          "Image": "[[File:AccelLevel2Icon.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Powerhouse Armor",
+        "cost": "{{Money|9,999}}",
+        "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+15",
+            "stat": "Damage",
+            "text": "+15 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "18,750",
+            "to": "30,000",
+            "stat": "Overcharge",
+            "text": "18,750 > 30,000 Overcharge"
+          },
+          {
+            "kind": "set",
+            "from": "5.5",
+            "to": "4",
+            "stat": "Charge-Up Time",
+            "text": "5.5 > 4 Charge-Up Time"
+          },
+          {
+            "kind": "set",
+            "from": "0.25",
+            "to": "0.1",
+            "stat": "Cooldown",
+            "text": "0.25 > 0.1 Cooldown"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Powerhouse Armor",
+          "Cost": "{{Money|9,999}}",
+          "Image": "[[File:AccelLevel3Icon.png|100px]]",
+          "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Supercharger",
+        "cost": "{{Money|27,500}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.25",
+            "to": "0.175",
+            "stat": "Tick",
+            "text": "0.25 > 0.175 Tick"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "30,000",
+            "to": "50,000",
+            "stat": "Overcharge",
+            "text": "30,000 > 50,000 Overcharge"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "2.5",
+            "stat": "Charge-Up Time",
+            "text": "4 > 2.5 Charge-Up Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Supercharger",
+          "Cost": "{{Money|27,500}}",
+          "Image": "[[File:AccelLevel4Icon.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 5,
+        "title": "Vessel Of Infinite Destruction",
+        "cost": "{{Money|50,000}}",
+        "information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.175",
+            "to": "0.125",
+            "stat": "Tick",
+            "text": "0.175 > 0.125 Tick"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "50,000",
+            "to": "100,000",
+            "stat": "Overcharge",
+            "text": "50,000 > 100,000 Overcharge"
+          },
+          {
+            "kind": "set",
+            "from": "2.5",
+            "to": "1.5",
+            "stat": "Charge-Up Time",
+            "text": "2.5 > 1.5 Charge-Up Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Vessel Of Infinite Destruction",
+          "Cost": "{{Money|50,000}}",
+          "Image": "[[File:AccelLevel5Icon.png|100px]]",
+          "Information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}"
+        }
+      }
+    ],
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Extra Juice",
+        "cost": "{{Money|750}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Extra Juice",
+          "Cost": "{{Money|750}}",
+          "Image": "[[File:AccelLevel1Icon.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Second Energy Canister",
+        "cost": "{{Money|2,000}}",
+        "information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "300",
+            "to": "600",
+            "stat": "Overcharge",
+            "text": "300 > 600 Overcharge"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Second Energy Canister",
+          "Cost": "{{Money|2,000}}",
+          "Image": "[[File:AccelLevel2Icon.png|100px]]",
+          "Information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Powerhouse Armor",
+        "cost": "{{Money|4,500}}",
+        "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+17",
+            "stat": "Damage",
+            "text": "+17 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.2",
+            "to": "0.15",
+            "stat": "Tick",
+            "text": "0.2 > 0.15 Tick"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Powerhouse Armor",
+          "Cost": "{{Money|4,500}}",
+          "Image": "[[File:AccelLevel3Icon.png|100px]]",
+          "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Supercharger",
+        "cost": "{{Money|12,000}}",
+        "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "-2",
+            "stat": "Damage",
+            "text": "-2 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.15",
+            "to": "0.1",
+            "stat": "Tick",
+            "text": "0.15 > 0.1 Tick"
+          },
+          {
+            "kind": "set",
+            "from": "600",
+            "to": "1,280",
+            "stat": "Overcharge",
+            "text": "600 > 1,280 Overcharge"
+          },
+          {
+            "kind": "set",
+            "from": "2.5",
+            "to": "1.5",
+            "stat": "Charge-Up Time",
+            "text": "2.5 > 1.5 Charge-Up Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Supercharger",
+          "Cost": "{{Money|12,000}}",
+          "Image": "[[File:AccelLevel4Icon.png|100px]]",
+          "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 5,
+        "title": "Vessel Of Infinite Destruction",
+        "cost": "{{Money|28,500}}",
+        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+44",
+            "stat": "Damage",
+            "text": "+44 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1,280",
+            "to": "2,400",
+            "stat": "Overcharge",
+            "text": "1,280 > 2,400 Overcharge"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Vessel Of Infinite Destruction",
+          "Cost": "{{Money|28,500}}",
+          "Image": "[[File:AccelLevel5Icon.png|100px]]",
+          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}"
+        }
+      }
+    ]
   },
-  "upgrade_templates": [],
+  "upgrade_templates": [
+    {
+      "mode": "regular",
+      "level": 1,
+      "title": "Extra Juice",
+      "cost": "{{Money|2,000}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Damage",
+          "text": "+3 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
+        {
+          "kind": "set",
+          "from": "9,000",
+          "to": "11,250",
+          "stat": "Overcharge",
+          "text": "9,000 > 11,250 Overcharge"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Extra Juice",
+        "Cost": "{{Money|2,000}}",
+        "Image": "[[File:AccelLevel1Icon.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n9,000 > 11,250 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|3,166}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 2,
+      "title": "Second Energy Canister",
+      "cost": "{{Money|6,000}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "11,250",
+          "to": "18,750",
+          "stat": "Overcharge",
+          "text": "11,250 > 18,750 Overcharge"
+        },
+        {
+          "kind": "set",
+          "from": "6.5",
+          "to": "5.5",
+          "stat": "Charge-Up Time",
+          "text": "6.5 > 5.5 Charge-Up Time"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Second Energy Canister",
+        "Cost": "{{Money|6,000}}",
+        "Image": "[[File:AccelLevel2Icon.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n11,250 > 18,750 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n6.5 > 5.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|5,166}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "title": "Powerhouse Armor",
+      "cost": "{{Money|9,999}}",
+      "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+15",
+          "stat": "Damage",
+          "text": "+15 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "18,750",
+          "to": "30,000",
+          "stat": "Overcharge",
+          "text": "18,750 > 30,000 Overcharge"
+        },
+        {
+          "kind": "set",
+          "from": "5.5",
+          "to": "4",
+          "stat": "Charge-Up Time",
+          "text": "5.5 > 4 Charge-Up Time"
+        },
+        {
+          "kind": "set",
+          "from": "0.25",
+          "to": "0.1",
+          "stat": "Cooldown",
+          "text": "0.25 > 0.1 Cooldown"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Powerhouse Armor",
+        "Cost": "{{Money|9,999}}",
+        "Image": "[[File:AccelLevel3Icon.png|100px]]",
+        "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n18,750 > 30,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n5.5 > 4 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n0.25 > 0.1 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]\n\n\nSell Price changes to {{Money|8,499}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Supercharger",
+      "cost": "{{Money|27,500}}",
+      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.25",
+          "to": "0.175",
+          "stat": "Tick",
+          "text": "0.25 > 0.175 Tick"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "30,000",
+          "to": "50,000",
+          "stat": "Overcharge",
+          "text": "30,000 > 50,000 Overcharge"
+        },
+        {
+          "kind": "set",
+          "from": "4",
+          "to": "2.5",
+          "stat": "Charge-Up Time",
+          "text": "4 > 2.5 Charge-Up Time"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Supercharger",
+        "Cost": "{{Money|27,500}}",
+        "Image": "[[File:AccelLevel4Icon.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.25 > 0.175 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n30,000 > 50,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n4 > 2.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|17,666}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "title": "Vessel Of Infinite Destruction",
+      "cost": "{{Money|50,000}}",
+      "information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "0.175",
+          "to": "0.125",
+          "stat": "Tick",
+          "text": "0.175 > 0.125 Tick"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "50,000",
+          "to": "100,000",
+          "stat": "Overcharge",
+          "text": "50,000 > 100,000 Overcharge"
+        },
+        {
+          "kind": "set",
+          "from": "2.5",
+          "to": "1.5",
+          "stat": "Charge-Up Time",
+          "text": "2.5 > 1.5 Charge-Up Time"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Vessel Of Infinite Destruction",
+        "Cost": "{{Money|50,000}}",
+        "Image": "[[File:AccelLevel5Icon.png|100px]]",
+        "Information": "0.175 > 0.125 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n50,000 > 100,000 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|34,333}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Extra Juice",
+      "cost": "{{Money|750}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Damage",
+          "text": "+3 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Extra Juice",
+        "Cost": "{{Money|750}}",
+        "Image": "[[File:AccelLevel1Icon.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Second Energy Canister",
+      "cost": "{{Money|2,000}}",
+      "information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "300",
+          "to": "600",
+          "stat": "Overcharge",
+          "text": "300 > 600 Overcharge"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Second Energy Canister",
+        "Cost": "{{Money|2,000}}",
+        "Image": "[[File:AccelLevel2Icon.png|100px]]",
+        "Information": "300 > 600 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|2,333}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "title": "Powerhouse Armor",
+      "cost": "{{Money|4,500}}",
+      "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+17",
+          "stat": "Damage",
+          "text": "+17 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.2",
+          "to": "0.15",
+          "stat": "Tick",
+          "text": "0.2 > 0.15 Tick"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Powerhouse Armor",
+        "Cost": "{{Money|4,500}}",
+        "Image": "[[File:AccelLevel3Icon.png|100px]]",
+        "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.2 > 0.15 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\nSell Price changes to {{Money|3,833}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Supercharger",
+      "cost": "{{Money|12,000}}",
+      "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "-2",
+          "stat": "Damage",
+          "text": "-2 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.15",
+          "to": "0.1",
+          "stat": "Tick",
+          "text": "0.15 > 0.1 Tick"
+        },
+        {
+          "kind": "set",
+          "from": "600",
+          "to": "1,280",
+          "stat": "Overcharge",
+          "text": "600 > 1,280 Overcharge"
+        },
+        {
+          "kind": "set",
+          "from": "2.5",
+          "to": "1.5",
+          "stat": "Charge-Up Time",
+          "text": "2.5 > 1.5 Charge-Up Time"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Supercharger",
+        "Cost": "{{Money|12,000}}",
+        "Image": "[[File:AccelLevel4Icon.png|100px]]",
+        "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n600 > 1,280 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n2.5 > 1.5 Charge-Up Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n\nSell Price changes to {{Money|7,833}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "title": "Vessel Of Infinite Destruction",
+      "cost": "{{Money|28,500}}",
+      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+44",
+          "stat": "Damage",
+          "text": "+44 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "1,280",
+          "to": "2,400",
+          "stat": "Overcharge",
+          "text": "1,280 > 2,400 Overcharge"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Vessel Of Infinite Destruction",
+        "Cost": "{{Money|28,500}}",
+        "Image": "[[File:AccelLevel5Icon.png|100px]]",
+        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+44 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1,280 > 2,400 Overcharge [[File:Cooldown Buff.png|20px|Overcharge]]\n\n\nSell Price changes to {{Money|17,333}}"
+      }
+    }
+  ],
   "statistics_tables": {
-    "regular": [],
-    "pvp": []
+    "regular": [
+      {
+        "level": 0,
+        "cost": 7500.0,
+        "total_cost": 7500.0,
+        "damage": 12.0,
+        "tick": 0.25,
+        "charge_up": 6.5,
+        "cooldown": 2.5,
+        "overcharge": 9000.0,
+        "range": 19.0,
+        "dps": 45.802
+      },
+      {
+        "level": 1,
+        "cost": 2000.0,
+        "total_cost": 9500.0,
+        "damage": 15.0,
+        "tick": 0.25,
+        "charge_up": 6.5,
+        "cooldown": 2.5,
+        "overcharge": 11250.0,
+        "range": 19.0,
+        "dps": 57.252
+      },
+      {
+        "level": 2,
+        "cost": 6000.0,
+        "total_cost": 15500.0,
+        "damage": 25.0,
+        "tick": 0.25,
+        "charge_up": 5.5,
+        "cooldown": 2.5,
+        "overcharge": 18750.0,
+        "range": 21.0,
+        "dps": 95.908
+      },
+      {
+        "level": 3,
+        "cost": 9999.0,
+        "total_cost": 25499.0,
+        "damage": 40.0,
+        "tick": 0.25,
+        "charge_up": 4.0,
+        "cooldown": 1.0,
+        "overcharge": 30000.0,
+        "range": 21.0,
+        "dps": 155.844
+      },
+      {
+        "level": 4,
+        "cost": 27500.0,
+        "total_cost": 52999.0,
+        "damage": 50.0,
+        "tick": 0.175,
+        "charge_up": 2.5,
+        "cooldown": 1.0,
+        "overcharge": 50000.0,
+        "range": 22.5,
+        "dps": 280.112
+      },
+      {
+        "level": 5,
+        "cost": 50000.0,
+        "total_cost": 102999.0,
+        "damage": 60.0,
+        "tick": 0.125,
+        "charge_up": 1.5,
+        "cooldown": 1.0,
+        "overcharge": 100000.0,
+        "range": 24.0,
+        "dps": 474.308
+      }
+    ],
+    "pvp": [
+      {
+        "level": 0,
+        "cost": 4250.0,
+        "total_cost": 4250.0,
+        "damage": 10.0,
+        "tick": 0.2,
+        "charge_up": 2.5,
+        "cooldown": 2.0,
+        "overcharge": 300.0,
+        "range": 18.0,
+        "dps": 28.571
+      },
+      {
+        "level": 1,
+        "cost": 750.0,
+        "total_cost": 5000.0,
+        "damage": 13.0,
+        "tick": 0.2,
+        "charge_up": 2.5,
+        "cooldown": 2.0,
+        "overcharge": 300.0,
+        "range": 18.0,
+        "dps": 32.911
+      },
+      {
+        "level": 2,
+        "cost": 2000.0,
+        "total_cost": 7000.0,
+        "damage": 13.0,
+        "tick": 0.2,
+        "charge_up": 2.5,
+        "cooldown": 2.0,
+        "overcharge": 600.0,
+        "range": 18.0,
+        "dps": 43.697
+      },
+      {
+        "level": 3,
+        "cost": 4500.0,
+        "total_cost": 11500.0,
+        "damage": 30.0,
+        "tick": 0.15,
+        "charge_up": 2.5,
+        "cooldown": 2.0,
+        "overcharge": 600.0,
+        "range": 20.0,
+        "dps": 80.0
+      },
+      {
+        "level": 4,
+        "cost": 12000.0,
+        "total_cost": 23500.0,
+        "damage": 28.0,
+        "tick": 0.1,
+        "charge_up": 1.5,
+        "cooldown": 2.0,
+        "overcharge": 1280.0,
+        "range": 20.0,
+        "dps": 158.584
+      },
+      {
+        "level": 5,
+        "cost": 28500.0,
+        "total_cost": 52000.0,
+        "damage": 72.0,
+        "tick": 0.1,
+        "charge_up": 1.5,
+        "cooldown": 2.0,
+        "overcharge": 2400.0,
+        "range": 23.0,
+        "dps": 351.22
+      }
+    ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": null,
-      "lead": null,
-      "flying": null,
-      "immune": null,
-      "placement_limit": null
+      "hidden": "{{Attr|Hidden|Level 1+}}",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "N/A",
+      "immune": "None",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5"
     },
     "pvp": {
-      "hidden": null,
-      "lead": null,
-      "flying": null,
-      "immune": null
+      "hidden": "{{Attr|Hidden|Level 1+}}",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "N/A",
+      "immune": "None",
+      "placement_limit": "eight"
     }
   },
   "infoboxes": [
     {
-      "name": "BuffInfobox",
+      "name": "TowerInfobox",
       "params": {
-        "name": "Firerate Buff",
-        "image": "Cooldown Buff.png",
-        "type": "Buff",
-        "display": "Tower"
+        "title": "Accelerator",
+        "image-static": "DefaultAcceleratorIcon2.png",
+        "image-dynamic": "AcceleratorDynamic.png",
+        "image-dynamic-start": "22",
+        "unlockcost": "{{Gem|2,500}}",
+        "levelrequirement": "{{Level|50}}",
+        "role": "Offense",
+        "placement": "Ground",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
+        "basecost": "{{Money|7,500}}",
+        "basesellingprice": "{{Money|2,500}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]12",
+        "damagetype": "Burst",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.25",
+        "baserange": "[[File:Range Icon.png|20px|Range]]19",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "N/A",
+        "immune": "None",
+        "footprint": "1.75",
+        "pvp_basecost": "{{Money|4,250}}",
+        "pvp_basesellingprice": "{{Money|1,416}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+        "pvp_damagetype": "Burst",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.2",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]18",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "N/A",
+        "pvp_immune": "None",
+        "pvp_footprint": "1.5",
+        "tooltip-1": "An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     }
   ],
   "likely_infobox": {
-    "name": "BuffInfobox",
+    "name": "TowerInfobox",
     "params": {
-      "name": "Firerate Buff",
-      "image": "Cooldown Buff.png",
-      "type": "Buff",
-      "display": "Tower"
+      "title": "Accelerator",
+      "image-static": "DefaultAcceleratorIcon2.png",
+      "image-dynamic": "AcceleratorDynamic.png",
+      "image-dynamic-start": "22",
+      "unlockcost": "{{Gem|2,500}}",
+      "levelrequirement": "{{Level|50}}",
+      "role": "Offense",
+      "placement": "Ground",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]5",
+      "basecost": "{{Money|7,500}}",
+      "basesellingprice": "{{Money|2,500}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]12",
+      "damagetype": "Burst",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.25",
+      "baserange": "[[File:Range Icon.png|20px|Range]]19",
+      "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "lead_detection": "{{Attr|Lead|Level 0+}}",
+      "flying_detection": "N/A",
+      "immune": "None",
+      "footprint": "1.75",
+      "pvp_basecost": "{{Money|4,250}}",
+      "pvp_basesellingprice": "{{Money|1,416}}",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+      "pvp_damagetype": "Burst",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]0.2",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]18",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+      "pvp_flying_detection": "N/A",
+      "pvp_immune": "None",
+      "pvp_footprint": "1.5",
+      "tooltip-1": "An expensive late game tower that deal{{sic}} great single target damage. Needs a second to charge up and cooldown when over-heated, but makes up for it with great range and DPS.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 7
+  "template_count": 318
 }
