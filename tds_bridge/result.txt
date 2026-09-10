@@ -1,531 +1,695 @@
-{{Tabs|Regular=Crook Boss|Perk=Golden Crook Boss|Evolved=Kingpin}}
-{{For|other uses of [[King (Disambiguation)|King]]}}
+{{Tabs}}
+{{For|[[Military Base]]}}
 {{TowerInfobox
-|image-static = DefaultKingpin0.png
-|image-dynamic1 = DefaultKingpin0.png
-|pseudoxd = 1
-|towercost = {{Coins|15,000}} & {{Gem|5,500}}
-|placement = Ground
+|title = Militant
+|image-static = EasterMilitant_Icon.png
+|image-dynamic = MilitantDynamic.png
+|unlockcost = {{Coins|800}}
 |role = Offense
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
-|basecost = {{Money|3,600}}
-|basesellingprice = {{Money|1,200}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]24
+|placement = Ground
+|basecost = {{Money|600}}
+|basesellingprice = {{Money|200}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]1
 |damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.1
-|baserange = [[File:Range Icon.png|20px|Range]]17.5
-|hidden_detection = {{Attr|Hidden|Level 0+}} (Units only)
-|lead_detection = {{Attr|Lead|Level 4A+}} (Top Path)<br/>{{Attr|Lead|Level 6B}} (Bottom Path)<br/>{{Attr|Lead|Level 4B+}} ([[Bouncer]] & [[Contractor]])
-|flying_detection = {{Attr|Flying|Level 3+}} (Tower & [[Contractor]] only)
+|basefirerate = [[File:Cooldown Icon.png|20px|Fireate]]0.225
+|baserange = [[File:Range Icon.png|20px|Range]]14
+|hidden_detection = {{Attr|Hidden|Level 1+}}
+|lead_detection = N/A
+|flying_detection = {{Attr|Fly|Level 1+}}
 |immune = None
 |footprint = 1.5
-|evolved_from = [[Crook Boss]]
-|evolution_levels = 20
-|base_exp = 75
-|growth_rate = 1.075
-|skip_cost = 1,199
+|pvp_basecost = {{Money|1,400}}
+|pvp_basesellingprice = {{Money|466}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]2
+|pvp_damagetype = Single
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Fireate]]0.2
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]15
+|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
+|pvp_lead_detection = N/A
+|pvp_flying_detection = {{Attr|Fly|Level 1+}}
+|pvp_immune = None
+|pvp_footprint = 1.5
+|tooltip-1 = A{{sic}} early-mid game tower with moderately low damage, high fire rate, and great range.
+|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.
 }}
-{{QuoteContainer|
-{{QuoteBox|Looks like they'll be... sleepin' with the fishes! A master of the criminal underworld, Kingpin can call in hit orders and deploy a variety of henchmen to do his bidding.|Store Description}}
-}}
-__TOC__
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Trained with an assault rifle, this tower deals medium damage at a fast firerate.|Store Description}}
+|-|Version 3 =
+{{QuoteBox|Trained with an assault rifle, this tower deals medium damage at a fast firerate. Keep an eye out for his ammo!|Former Store Description}}
+|-|Version 2 =
+{{QuoteBox|Equipped with a FN FAL and has a fast firerate.|Former Store Description}}
+|-|Hardcore Testing =
+{{QuoteBox|At max level, he uses his raging voice to increase the damage of ally towers. Based on the youtuber: JOHNROBLOX.|Former Store Description}}
+|-|Version 1 =
+{{QuoteBox|Subscribe to JOHN ROBLOX for very funny Roblox videos.|Former Store Description}}
+</tabber>}}
 ==Description==
-The '''Kingpin''', internally referred to as '''EvolvedKingpin''', is the [[Tower Evolution|evolved]] version of the [[Crook Boss]], unlocked by reaching Level 20 on the [[Crook Boss]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|5,500}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.
+The '''Militant''', formerly known as '''John''', is an intermediate tower that costs {{Coins|800}} to buy from the store, but can also be obtained by purchasing the [[Starter Bundle]]. It could also be obtained by a now expired [[Codes|code]].
 
-The '''Kingpin''' itself is a single target tower with no major gimmicks in the beginning, even lacking the [[Crook Boss]]' summon animation for each unit. It does however have up to three unit queues, all of which summon in can summon a different unit. There are four available options:
-*[[Lackey]], a simple single target unit with with decent health and DPS. The unit has hidden detection. It is unlocked from Level 0.
-*[[Money Runner]], the only unit that cannot be used offensively outside of collision damage that upon death generates a set amount of cash. It is unlocked from Level 0.
-*[[Bouncer]] is a high health melee unit that attacks enemies with a bat. The unit has both hidden and lead detections. It is unlocked from Level 4B.
-*[[Contractor]] is a high range unit that deals a lot of damage at a slow speed. It has all three detections. It is unlocked from Level 6B.
+The '''Militant''' begins with low damage but it is supported by a fast firerate. It has long range, allowing it to cover large amounts of the track. Through upgrades its DPS, firerate, range increase greatly, but these upgrades are costly.
 
-While the bottom path has two units unique to itself, the top path instead gains the ''Bounty'' ability which lets the '''Kingpin''' mark an enemy in its range. While doing so, it will stop attacking enemies for 2 seconds. This marked enemy will generate a specific percentage of the enemy's total cash reward once the enemy has been killed, though the reward cannot exceed a specific value. Both the reward percentage and the reward cap increase with upgrades.
-
-The '''Kingpin''' is primarily a mid to late-game tower, with top path focusing on income while bottom path focuses on DPS. It has a placement limit of 4.
+The '''Militant''' is considered an early to mid-game tower.
 
 ==Upgrades==
-{{Upgrade
-|Level = Level 1
-|Evolution Level = 0
-|Upgrade Title = Hat Trick
-|Cost = {{Money|1,400}}
-|Image = [[File:Kingpin1.png|100px]]
-|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Radio Comms|Cost = {{Money|300}}|Image = [[File:John Upgrade 1 New.png|100px]]|Information = 0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
 
-1.1 > 0.85 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++3 Range [[File:Range Icon.png|20px|Range]]
 
++Hidden Detection {{Hidden|Hidden Detection}}
 
-Sell Price changes to {{Money|1,666}}
-}}
-{{Upgrade
-|Level = Level 2
-|Evolution Level = 0
-|Upgrade Title = Mafia Expansion
-|Cost = {{Money|4,000}}
-|Image = [[File:Kingpin2.png|100px]]
-|Information = 0.85 > 0.14 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++Flying Detection {{Flying|Flying Detection}}
 
--17 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+1 Unit Queue
+Sell Price changes to {{Money|300}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Field Ops|Cost = {{Money|850}}|Image = [[File:John Upgrade 2 New.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|3,000}}
-}}
-{{Upgrade
-|Level = Level 3
-|Evolution Level = 0
-|Upgrade Title = High Roller
-|Cost = {{Money|6,000}}
-|Image = [[File:Kingpin3.png|100px]]
-|Information = +Flying Detection {{Flying|Flying Detection}}
+Sell Price changes to {{Money|583}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Guerrilla Tactics|Cost = {{Money|2,750}}|Image = [[File:John Upgrade 3 New.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = 37.5 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
+Sell Price changes to {{Money|1,500}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Stealth Mercenary|Cost = {{Money|8,000}}|Image = [[File:John Upgrade 4 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = 40 > 30 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
++7 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|5,000}}
-}}
-{{PathTabber
-|{{Upgrade
-|Level = Level 4
-|Evolution Level = 0
-|Upgrade Title = LV. 10 Bounty Hunter
-|Cost = {{Money|7,250}}
-|Image = [[File:Kingpin4A.png|100px]]
-|Information = +Lead Detection {{Lead|Lead Detection}}
+Sell Price changes to {{Money|4,166}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Radio Comms|Cost = {{Money|600}}|Image = [[File:John Upgrade 1 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-0.14 > 1.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+0.2 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
 
-+148 Damage [[File:Damage Icon.png|20px|Damage]]
++Hidden Detection {{Hidden|Hidden Detection}}
 
-{{CollapsibleUpgrade|Title = Unlocks Bounty|Description = •Marks an enemy for a cash reward when it dies.
++Flying Detection {{Flying|Flying Detection}}
 
-•60% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
 
-•{{Money|10,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]
+Sell Price changes to {{Money|666}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bigger Rifle|Cost = {{Money|2,600}}|Image = [[File:John Upgrade 2 New.png|100px]]|Information = 0.15 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Fireate]]
 
-•120 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
 
-•40 Initial Cooldown [[File:Cooldown Icon.png|20px|Initial Cooldown]]}}
+Sell Price changes to {{Money|1,533}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Upskill|Cost = {{Money|5,000}}|Image = [[File:John Upgrade 3 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +35 Health [[File:HealthIcon.png|20px|Health]]
++3 Damage [[File:Damage Icon.png|20px|Damage]]
 
-{{Money|200}} > {{Money|450}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]}}
 
+Sell Price changes to {{Money|3,200}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Stealth Mercenary|Cost = {{Money|10,000}}|Image = [[File:John Upgrade 4 New.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-Sell Price changes to {{Money|7,416}}}}
-{{Upgrade
-|Level = Level 5
-|Evolution Level = 5
-|Upgrade Title = LV. 50 Flashy Business
-|Cost = {{Money|16,500}}
-|Image = [[File:Kingpin5A.png|100px]]
-|Information = +135 Damage [[File:Damage Icon.png|20px|Damage]]
 
-{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 60% > 80% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
-
-{{Money|10,000}} > {{Money|25,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}
-
-{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]
-
-+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-+4 Range [[File:Range_Icon.png|20px|Range]]
-
-0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
-
-{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = {{Money|450}} > {{Money|600}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]
-
-30 > 27.5 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
-
-
-Sell Price changes to {{Money|12,916}}}}
-{{Upgrade
-|Level = Level 6
-|Evolution Level = 15
-|Upgrade Title = LV. 999 BOSS
-|Cost = {{Money|38,500}}
-|Image = [[File:Kingpin6A.png|100px]]
-|Information = 1.65 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
--70 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{CollapsibleUpgrade|Title = Upgraded Bounty|Description = 80% > 100% Reward Percentage [[File:Cash Icon.png|20px|Reward Percentage]]
-
-{{Money|25,000}} > {{Money|50,000}} Reward Cap [[File:Cash Icon.png|20px|Reward Cap]]}}
-
-{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]
-
-+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-+1.5 Range [[File:Range_Icon.png|20px|Range]]
-
-0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
-
-30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
-
-{{CollapsibleUpgrade|Title = Upgraded Money Runner|Description = +25 Health [[File:HealthIcon.png|20px|Health]]
-
-{{Money|600}} > {{Money|850}} Cash on Death [[File:Cash Icon.png|20px|Cash on Death]]
-
-27.5 > 25 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
-
-
-Sell Price changes to {{Money|25,750}}}}
-|{{Upgrade
-|Level = Level 4
-|Evolution Level = 0
-|Upgrade Title = Underworld Backup
-|Cost = {{Money|14,000}}
-|Image = [[File:Kingpin4B.png|100px]]
-|Information = 0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-+5 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Unit Queue
-
-{{CollapsibleUpgrade|Title = Unlocks Bouncer|Description = •500 Health [[File:HealthIcon.png|20px|Health]]
-
-•25 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•8 Range [[File:Range_Icon.png|20px|Range]]
-
-•0.5 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
-
-•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•45 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}
-
-•Lead Detection {{Lead|Lead Detection}}}}
-
-{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +30 Health [[File:HealthIcon.png|20px|Health]]
-
-+3 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-+4 Range [[File:Range_Icon.png|20px|Range]]
-
-0.22 > 0.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
-
-
-Sell Price changes to {{Money|9,666}}}}
-{{Upgrade
-|Level = Level 5
-|Evolution Level = 10
-|Upgrade Title = B.P. Operations
-|Cost = {{Money|32,500}}
-|Image = [[File:Kingpin5B.png|100px]]
-|Information = +1 Range [[File:Range Icon.png|20px|Range]]
-
-+17 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +125 Health [[File:HealthIcon.png|20px|Health]]
-
-+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-+1.5 Range [[File:Range_Icon.png|20px|Range]]
-
-0.2 > 0.16 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
-
-30 > 25 Spawn Time [[File:VehicleSpawn.png|20px|Spawn Time]]}}
-
-{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]
-
-+10 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-0% > 10% Defense {{Defense}}
-
-45 > 40 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]}}
-
-
-Sell Price changes to {{Money|20,500}}}}
-{{Upgrade
-|Level = Level 6
-|Evolution Level = 20
-|Upgrade Title = Golden Syndicate
-|Cost = {{Money|64,000}}
-|Image = [[File:Kingpin6B.png|100px]]
-|Information = +Lead Detection {{Lead|Lead Detection}}
-
-0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+12 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{CollapsibleUpgrade|Title = Unlocks Contractor|Description = •400 Health [[File:HealthIcon.png|20px|Health]]
-
-•170 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•35 Range [[File:Range_Icon.png|20px|Range]]
-
-•2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]
-
-•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
-
-•60 Spawn Time [[File:Vehicle Spawn.png|20px|Spawn Time]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}
-
-•Flying Detection {{Flying|Flying Detection}}
-
-•Lead Detection {{Lead|Lead Detection}}}}
-
-{{CollapsibleUpgrade|Title = Upgraded Lackey|Description = +100 Health [[File:HealthIcon.png|20px|Health]]
-
-+1 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-+0.5 Range [[File:Range_Icon.png|20px|Range]]
-
-0.16 > 0.12 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]}}
-
-{{CollapsibleUpgrade|Title = Upgraded Bouncer|Description = +250 Health [[File:HealthIcon.png|20px|Health]]
-
-+5 Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-+0.5 Range [[File:Range_Icon.png|20px|Range]]
-
-10% > 15% Defense {{Defense}}}}
-
-
-Sell Price changes to {{Money|41,833}}
-}}
-}}
-
-==Ability==
-{{Ability|Level Unlock = Level 4A|Cooldown Time= 120s Cooldown|Initial Cooldown Time = 40s Initial cooldown|Ability Title = Bounty|Image = [[File:KingpinBounty.png|100px]]|Information = Places a hit order on an enemy in range, making '''Kingpin''' stop attacking enemies for 2 seconds. When that enemy is killed, a bonus reward is given which is a specific percentage of the enemy's total cash reward. The reward from this ability cannot go above a specific limit.
+Sell Price changes to {{Money|6,533}}}}
 }}
 
 ==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 {{neow|<nowiki>
 <var>
 $DPS$ = Damage / Firerate
-$RDPS$ = Health / Spawn Time
-$RDPS2$ = Health * (Defense * 0.01 + 1) / Spawn Time
-$IPS$ = Cash on Death / Spawn Time
 $CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$TE$ = $FNC-TOTAL-EXP$
-$EXP$ = {{#expr:floor(75 * 1.075^(Level - 1) * (Level > 0))}}
-$FNC-SCHEMA$ = N; N; N; N; A; A; A; B; B; B;
-$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
-$COST$ = 3600; 1400; 4000; 6000; 7250; 16500; 38500; 14000; 32500; 64000
-$FSE-DETECTION$ = ; 3; ; ; 3; 4; ; 3; 6;
-$FSE-UPGRADE$ = Hat Trick; Mafia Expansion; High Roller; LV. 10 Bounty Hunter; LV. 50 Flashy Business; LV. 999 BOSS; Underworld Backup; B.P. Operations; Golden Syndicate
-$FSE-UPGRADEICON$ = 115111916696325; 128115489998324; 72861050225989; 114668237754966; 132421103594393; 104949216258591; 95999047723463; 105993154736785; 119447258450364
-$FSE-META$ = Evolved; File:DefaultKingpin0.png
-$RC$ = $FNC-RECURSION$
+$COST$ = 600; 300; 850; 2750; 8000
+$PVP-COST$ = 1400; 600; 2600; 5000; 10000
+$FSE-DETECTION$ = 1; ; 1
+$FSE-UPGRADE$ = Radio Comms; Field Ops; Guerrilla Tactics; Stealth Mercenary
+$FSE-PVP-UPGRADE$ = Radio Comms; Bigger Rifle; Upskill; Stealth Mercenary
+$FSE-UPGRADEICON$ = 5523212631; 5523215135; 5523216332; 5523217773
+$FSE-META$ = Intermediate; File:EasterMilitant_Icon.png
+$R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="9" |Neutral Stats
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
 |-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! DPS !! Cost Efficiency
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 0.225 || 14 || $DPS$ || {{Money|$CE$}}
 |-
-| 0 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 24 || 1.1 || 17.5 || 1 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 1 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $RC$ || $RC$ || 24 || 0.85 || 20 || 1 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $RC$ || $RC$ || 7 || 0.14 || 20 || 2 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 5 || 0.175 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $RC$ || $RC$ || 12 || 0.14 || 20 || 2 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 12 || 0.175 || 20 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
-
+|-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="11" |Top Path Stats
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
 |-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! Reward Percentage !! Reward Cap !! DPS !! Cost Efficiency
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || 0.2 || 15 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 160 || 1.65 || 20 || 2 || 60% || {{Money|10,000}} || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 2 || 0.15 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 5 || $RC$ || $RC$ || 295 || 1.65 || 20 || 2 || 80% || {{Money|25,000}} || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 0.1 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 6 || $RC$ || $RC$ || 225 || 0.8 || 21.5 || 2 || 100% || {{Money|50,000}} || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 5 || 0.1 || 20 || $DPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 10 || 0.1 || 20 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="9" |Bottom Path Stats
-|-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Unit Queue !! DPS !! Cost Efficiency
-|-
-| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 17 || 0.12 || 22 || 3 || $DPS$ || {{Money|$CE$}}
-|-
-| 5 || $RC$ || $RC$ || 34 || 0.12 || 23 || 3 || $DPS$ || {{Money|$CE$}}
-|-
-| 6 || $RC$ || $RC$ || 46 || 0.1 || 23 || 3 || $DPS$ || {{Money|$CE$}}
-|}
-</div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="10" |[[Lackey]] Stats
-|-
-! Level !! Health !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
-|-
-| 0–2 || 45 || 2 || 37.5 || 0.22 || 75 || 19 || Hidden || $DPS$ || $RDPS$
-|-
-| 3-4A || 45 || 2 || 30 || 0.22 || 75 || 19 || Hidden || $DPS$ || $RDPS$
-|-
-| 5A/4B || 75 || 5 || 30 || 0.2 || 75 || 23 || Hidden || $DPS$ || $RDPS$
-|-
-| 6A/5B || 200 || 6 || 25 || 0.16 || 75 || 24.5 || Hidden || $DPS$ || $RDPS$
-|-
-| 6B || 300 || 7 || 25 || 0.12 || 75 || 25 || Hidden || $DPS$ || $RDPS$
-|}
-</div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="6" |[[Money Runner]] Stats
-|-
-! Level !! Health !! Cash on Death !! Spawn Time !! Income per Second !! Ram DPS
-|-
-| 0–2 || 40 || {{Money|200}} || 40 || {{Money|$IPS$}} || $RDPS$
-|-
-| 3-6B || 40 || {{Money|200}} || 30 || {{Money|$IPS$}} || $RDPS$
-|-
-| 4A || 75 || {{Money|450}} || 30 || {{Money|$IPS$}} || $RDPS$
-|-
-| 5A || 75 || {{Money|600}} || 27.5 || {{Money|$IPS$}} || $RDPS$
-|-
-| 6A || 100 || {{Money|850}} || 25 || {{Money|$IPS$}} || $RDPS$
-|}
-</div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="11" |[[Bouncer]] Stats
-|-
-! Level !! Health !! Defense !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
-|-
-| 4B || 500 || N/A || 25 || 45 || 0.5 || 75 || 8 || Hidden, Lead || $DPS$ || $RDPS2$
-|-
-| 5B || 750 || 10% || 35 || 40 || 0.5 || 75 || 8 || Hidden, Lead || $DPS$ || $RDPS2$
-|-
-| 6B || 1,000 || 15% || 40 || 40 || 0.5 || 75 || 8.5 || Hidden, Lead || $DPS$ || $RDPS2$
-|}
-</div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="10" |[[Contractor]] Stats
-|-
-! Level !! Health !! Damage !! Spawn Time !! Firerate !! Lifespan !! Range !! Detections !! DPS !! Ram DPS
-|-
-| 6B || 400 || 170 || 60 || 2 || 75 || 35 || Hidden, Flying, Lead || $DPS$ || $RDPS$
-|}
-</div>
-<!-- @se-ignore -->
-|-|Levels =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="12" |Levels
-|-
-! Level !! Exp !! Total Exp
-|-
-| 0 || {{Exp|0}} || {{Exp|$TE$}}$RC$
-|-
-| 1 || {{Exp|$EXP$}}$RC$ || $RC$
-|-
-| 2 || $RC$ || $RC$
-|-
-| 3 || $RC$ || $RC$
-|-
-| 4 || $RC$ || $RC$
-|-
-| 5 || $RC$ || $RC$
-|-
-| 6 || $RC$ || $RC$
-|-
-| 7 || $RC$ || $RC$
-|-
-| 8 || $RC$ || $RC$
-|-
-| 9 || $RC$ || $RC$
-|-
-| 10 || $RC$ || $RC$
-|-
-| 11 || $RC$ || $RC$
-|-
-| 12 || $RC$ || $RC$
-|-
-| 13 || $RC$ || $RC$
-|-
-| 14 || $RC$ || $RC$
-|-
-| 15 || $RC$ || $RC$
-|-
-| 16 || $RC$ || $RC$
-|-
-| 17 || $RC$ || $RC$
-|-
-| 18 || $RC$ || $RC$
-|-
-| 19 || $RC$ || $RC$
-|-
-| 20 || $RC$ || $RC$
-|}
-</div>
-<!-- @/se-ignore -->
 </tabber></div>
 </nowiki>}}
 
+== Skins ==
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:ESAcePilotMilitantIcon.png|175px]]
+|[[File:ESPumpkinMilitantIcon.png|175px]]
+|[[File:NewHazmatMilitantIcon.png|175px]]
+|[[File:GMilitantIcon.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Ace Pilot}}
+|{{Color|Unobtainable|Pumpkin}}
+|{{Color|Premium|Hazmat}}
+|{{Color|Spooky|Ghost}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Common}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|{{Robux|350}}
+|N/A
+|{{Robux|85}}
+|N/A
+|-
+!Obtained From
+|[[Deluxe Crate]]
+|Formerly [[Halloween 2019 Crate]]
+|[[Premium Crate]]
+|[[Spooky Crate]]
+|-
+!
+|[[File:ESChocolatierMilitantIcon.png|175px]]
+|[[File:DuckyMilitantIcon.png|175px]]
+|[[File:BeachMilitantIcon.png|175px]]
+|[[File:JohnMilitantIcon.png|175px]]
+|-
+!Skin
+|{{Color|Lovely|Chocolatier}}
+|{{Color|Ducky|Ducky}}
+|{{Color|EndOfSummer|Beach}}
+|{{Color|Other|John}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
+|{{Color|Exclusive}}
+|-
+!Daily Store Cost
+|{{Coins|4,500}}
+|{{Coins|3,500}}
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
+|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|[[End of Summer Season#Hunting Season Pass|End of Summer Season]]
+|[[Codes|Code]]:<br/>JOHNRETURNS,<ref>Expired.</ref><br/>9509253943<ref>Expired.</ref>
+|-
+!
+|[[File:LumberjackMilitantIcon.png|175px]]
+|[[File:Davinchimilitant.png|175px]]
+|[[File:FallenMilitantIconIG.png|175px]]
+|[[File:StarSpartanMilitantIcon.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Lumberjack}}
+|{{Color|Lunar|Davinchi}}
+|{{Color|FallenMission|Fallen}}
+|{{Color|Mission|Star Spartan}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Event|Event}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|{{Robux|105}}
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Premium Crate]],<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
+|[[Lunar Overture Event#Lunar Overtures Season Pass|Lunar Overture Season]]
+|''Undead Solider'' [[Mission Quests|Mission Quest]]
+|''For the Commander!'' [[Mission Quests|Mission Quest]]
+|-
+!
+|[[File:WastelandMilitantIconIG.png|175px]]
+|[[File:EasterMilitantIcon.png|175px]]
+|[[File:AcheronMilitantIcon.png|175px]]
+|[[File:UndeadMilitantIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Hexscape|Wasteland}}
+|{{Color|DuckyRevenge|Easter}}
+|{{Color|Surf|Acheron}}
+|{{Color|Null|Undead}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
+|-
+!
+|[[File:SuperFanMilitant0.png|175px]]
+|[[File:PirateMilitant0.png|175px]]
+|-
+!Skin
+|{{Color|Backyard|SuperFan}}
+|{{Color|Pirate}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|3,500}}
+|-
+!Obtained From
+|''Do The Wave!'' [[Mission Quests|Mission Quest]]
+|[[Pirate Crate]]
+|}
+
 ==Strategy==
-*The '''Kingpin''' is best used as a mid-to-late game tower. 
-*At Level 3, the '''Kingpin''' gains two paths.
-**The top path is focused on giving the player [[cash]] through its ''Bounty'' ability and upgrading the [[Money Runner]]s it spawns.
-***The top path can be used as a secondary income source which may help at affording certain expensive towers like the [[Juggernaut]].
-***It is advised to use the ''Bounty'' ability on enemies that have a high cash reward, which usually is enemies with high health.
-***Notably it also gains lead detection earlier than its bottom path counterpart.
-**The bottom path is more focused on DPS and spawning units, this path unlocks the [[Bouncer]] and the [[Contractor]].
-***This path focuses on increasing the efficiency in which the units deal damage, whether it be by increasing their DPS, or shortening their spawnrate.
-***Setting the bottom path ''Kingpin'' to spawn either [[Lackey]]s or [[Contractor]]s can be extremely effective on certain maps where they can stack up in a single spot and attack simultaneously.
+*The '''Militant's''' high DPS and low cost make it very viable to use early on during the game. It can also be very useful mid-game and in some weaker modes, late-game.
+**Early on, you can place multiple Level 1 '''Militants''', due to their high DPS, high range, flying detection and hidden detection.
+***Later on during the game, they should be upgraded to Level 3 or 4.
+**Later on during the game, the [[Commander]] can be very useful at increasing its DPS, making it quite useful late-game.
+*The '''Militant''' can be quite effective against hidden enemies like the [[Hidden Boss]] due to its cheap [[Hidden (Attribute)|Hidden]] detection and decent DPS.
+*Because the '''Militant''' gains flying detection at Level 1, it can be used in [[Hardcore Mode|Hardcore]] to kill early-game [[Balloon]]s or, if enough are placed down, deal with [[Flying]] enemies that appear in mid to late-game waves of [[Fallen Mode|Fallen]] and [[Pizza Party]] modes.
+**You will need multiple Level 3-4 '''Militants''' to deal with the late-game [[Fallen Mode|Fallen]] and [[Pizza Party]] enemies due to their high health.
 
 ==Trivia==
-*The '''Kingpin''' is one of the first three evolved towers revealed in 2020 prior to the release of the [[Overhaul v1.0|Overhaul Update]].
-*The '''Kingpin's''' top path upgrade names are likely referencing those of the [[Golden Crook Boss]].
-*The '''Kingpin's''' voice actor is [https://x.com/mitchmarcmedia Mitch Kaye].
-*Kingpins are usually drug lords, in real life.
+*When '''John''' was first added to the game, its upgrade stats were not displayed on its upgrade description. It was simply referred to as "swager21".
+**It was the only tower that did not include the word "sans" in its upgrade description at the time of its release.
+*This tower used to be redeemable with the now expired [[Codes|code]]: J0HNRBX.
+*The '''Militant''' (when it was originally called '''John''') had an ability called ''Gorilla Sounds'' which increased the damage of most towers within its range by 30%. This lasted 10 seconds and had a 30 second cooldown.
+**During [[Hardcore Testing BETA]], this ability was renamed to ''Enraging Shout''.
+**This ability could not increase the damage of the following towers:
+***Any projectile-based towers: the [[Mortar]], [[Rocketeer]], [[Demoman]], [[Freezer]] (splash damage only; its direct, non-explosive, damage can be increased), [[Paintballer]] and [[Archer|Holiday Archer]].
+***The [[Ace Pilot]] bombs, [[Commando]] missiles or [[Pursuit]] missiles, as they all count as projectiles.
+***The [[Slasher|Shredder]] when its ''Knife Throw'' ability was activated, as the knives it threw counted as a projectile.
+***The [[Pyromancer]]'s burn damage or the [[Swarmer]]'s bee damage.
+****The [[Pyromancer]]'s normal damage could still be increased.
+***The [[Shotgunner|Enforcer]].
+***All units.
+*This tower was originally dedicated to YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX].
+**Before the addition of this tower, the [[Paintballer]] was considered John's tower.
+**The ''Enraging Shout'' ability was based on various noises that he would make in his videos.
+*The now removed ''Enraging Shout'' ability would play various sound effects, with some skins having their own specific sound effects.
+**The regular ''Enraging Shout'' sound was voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were four lines:
+***"''Oh you think you're hard, you think you're hard ya dumb old zombies, shred em, shred em, shred em, shred!''"
+***"''Yeah! Yeah! Yeah!''" with a scream at the end.
+***Sounds resembling that of a gorilla, specifically one going "''oo-oo-oo''" repeatedly.
+***"''Yeah, get em, get em, get em, yeah, yeah, get em!''"
+**The {{Color|Unobtainable|Pumpkin}} skin for '''Militant''' had two sound effects, both of which are laughs.
+**The {{Color|Deluxe|Ace Pilot}} skin for '''Militant''' had one sound effect that was only used during [[Hardcore Testing BETA|Hardcore Testing]], prior to that it did not play anything. The one line was:
+***"''kakugo surun yo''"
+****In English, it translates to "Ya better be prepared!".
+****This is a reference to JOHN ROBLOX's video, [https://www.youtube.com/watch?v=y_NfKixI3Sk zerotwo but in roblox], although the actual sound effect comes from the anime [[w:c:macross:Macross Δ|Macross Delta]].
+*The '''Militant''' still uses '''John''' upgrade icons from [[Hardcore Testing BETA]], even though its design has been drastically changed.
+*The '''Militant''' was the only tower that used a reloading system, until the [[Cryomancer]] was released.
+**The '''Militant's''' reloading system was removed in the [[v1.1.0|Entity System Update]].
+*The '''Militant''' has the most category changes for a tower, as it has been moved from Starter to Intermediate and the other way around, as it changed a total of three times.
 
-==Update Log==
-*'''17 July 2026''' - [[v2.3.0]]
-**'''Kingpin''' added.
-*'''14 August 2026''' - [[v2.6.0]]
+==Update History==
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{Scroll|text=
+*'''16 June 2019''' - [[BETA v1.1|BETA v1.1.0]]
+**'''John''' added.
+*'''24 June 2019''' - [[BETA v1.2|BETA v1.2.0]]
 **Statistical changes:
-***'''Level 4A'''
-****Reward percentage increased from 50% to 60%.
-****''Bounty'' cooldown decreased from 150 to 120.
-****''Bounty'' initial cooldown of 40 added.
-***'''Level 5A'''
-****Reward percentage increased from 50% > 70% to 60% > 80%.
-***'''Level 6A'''
-****Reward percentage increased from 70% > 100% to 80% > 100%.
-****Reward cap changed from {{Money|25,000}} > {{Money|60,000}} to {{Money|25,000}} > {{Money|50,000}}.
-***'''Level 4B'''
-****[[Bouncer]] health decreased from 550 to 500.
-***'''Level 5B'''
-****[[Bouncer]] health increased from +200 to +250.
-***'''Level 6B'''
-****[[Contractor]] changed.
-****Health increased from 200 to 400.
-****Damage increased from 165 to 170.
-****Lifespan increased from 70 to 75.
-***[[Lackey]] changed.
+***'''Base'''
+****Range increased from 7 to 12.
+***'''Level 5'''
+****Cost increased from {{Money|12,000}} to {{Money|16,000}}.
+****''Gorilla Noises'' [[Damage Buff]] increased from 20% to 50%.
+****''Gorilla Noises'' cost increased from free to {{Money|100}}.
+*'''1 July 2019''' - [[BETA v1.3|BETA v1.3.2]]
+**Statistical changes:
+***'''Level 4'''
+****Cost decreased from {{Money|8,200}} to {{Money|6,200}}.
+***'''Level 5'''
+****Cost decreased from {{Money|16,000}} to {{Money|10,000}}.
+*'''19 July 2019''' - [[BETA v1.6|BETA v1.6.0]]
+**Code expired, unlock cost is now {{Coins|1,000}}.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Upgrade names added.
+**Statistical changes:
+***'''Level 2'''
+****Cost decreased from {{Money|1,400}} to {{Money|1,000}}.
+***'''Level 3'''
+****Cost decreased from {{Money|3,250}} to {{Money|2,400}}.
+***'''Level 4'''
+****Cost decreased from {{Money|6,200}} to {{Money|5,000}}.
+***'''Level 5'''
+****''Gorilla Noises'' [[Damage Buff]] decreased from 50% to 30%.
+****''Gorilla Noises'' cost decreased from {{Money|100}} to free.
+****''Gorilla Noises'' cooldown decreased from 65s to 30s.
+****''Gorilla Noises'' now has rage particles that only last 5 seconds while the ability lasts 10 seconds.
+**New skin: {{Color|Premium|Ace Pilot}}
+**{{Bug}} '''John''' does not gain hidden detection on Level 2.
+*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]
+** New skin: {{Color|Halloween2019|Pumpkin}}
+*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
+**Statistical changes:
+***'''Level 3'''
+****Damage increased from +1 to +2.
+*****{{Bug}} This was not changed in the upgrade description.
+***'''Level 5'''
+****''Gorilla Noises'' now stacks with other [[Damage Buff]]s.
+**{{Bugfix}} '''John''' now gains hidden detection on Level 2.
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|575}} to {{Money|550}}.
+****Range decreased from 12 to 10.
+***'''Level 1'''
+****Renamed from ''Gloves'' to ''Laser Sight''.
+****Cost decreased from {{Money|450}} to {{Money|200}}.
+***'''Level 2'''
+****Renamed from ''Laser Sight'' to ''Improved Handling''.
+****Cost decreased from {{Money|1,000}} to {{Money|600}}.
+***'''Level 3'''
+****Renamed from ''Light Machine Gun'' to ''Master Chef''.
+****Cost decreased from {{Money|2,400}} to {{Money|1,250}}.
+***'''Level 4'''
+****Renamed from ''Master Chef'' to ''AUG A1''.
+****Cost decreased from {{Money|5,000}} to {{Money|3,500}}.
+***'''Level 5'''
+****Renamed from ''GORILLA SOUNDS'' to ''A Force to be Reckoned With''.
+****Cost decreased from {{Money|10,000}} to {{Money|8,500}}.
+****Firerate changed from 0.25 to {{Tooltip|0.25 to 0.2|-0.05}}.
+**Ability particles updated and now last for 10 seconds.
+*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
+**New skin: {{Color|Premium|Hazmat}}
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Renamed from ''John'' to ''Militant''.
+**Unlock cost increased from {{Coins|1,000}} to {{Coins|2,000}}.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.85 to 0.43.
+****Range increased from 10 to 12.
+****Cost increased from {{Money|550}} to {{Money|1,200}}.
+***'''Level 1'''
+****Renamed from ''Laser Sight'' to ''Percise Aiming''.
+***'''Level 2'''
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|0.85 > 0.65|-0.2}} to 0.43.
+****Cost decreased from {{Money|600}} to {{Money|450}}.
+****Renamed from ''Improved Handling'' to ''Radio Support''.
+***'''Level 3'''
+****Damage decreased from +2 to +0.
+****Range decreased from +2 to +0.
+****Firerate changed from 0.65 to {{Tooltip|0.43 > 0.23|-0.2}}.
+****Cost decreased from {{Money|1,250}} to {{Money|1,200}}.
+****Renamed from ''Master Chef'' to ''Automatic''.
+***'''Level 4'''
+****Range decreased from +3 to +0.
+****Firerate changed from {{Tooltip|0.65 > 0.25|-0.4}} to 0.23.
+****Damage increased from +0 to +2.
+****Renamed from ''AUG A1'' to ''Intense Training''.
+***'''Level 5'''
+****Range decreased from +3 to +2.
+****Firerate changed from {{Tooltip|0.25 > 0.2|-0.05}} to {{Tooltip|0.23 > 0.18|-0.05}}.
+****''Gorilla Noises'' ability removed.
+****Renamed from ''A Force to be Reckoned With'' to ''Special Forces''.
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
+**New skin: {{Color|Spooky|Ghost}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**''Militant'' now has ammo, when it runs out of ammo or does not detect any enemies for a while it will start reloading.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|1,200}} to {{Money|750}}.
+****Damage decreased from 2 to 1.
+****Firerate decreased from 0.43 to 0.23.
+****Range decreased from 12 to 10.
+****Now has 18 ammo.
+***'''Level 3'''
+****Name changed from ''Automatic'' to ''Sharp Shooter''.
+****Firerate changed from {{Tooltip|0.43 > 0.23|-0.2}} to {{Tooltip|0.23 > 0.155|-0.075}}.
+****Damage increased from +0 to +1.
+****Ammo increased from +0 to +12.
+****Cost increased from {{Money|1,200}} to {{Money|1,800}}.
+***'''Level 4'''
+****Range increased from +0 to +1.
+****Cost increased from {{Money|3,500}} to {{Money|4,500}}.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Special Forces''
+*****Cost: {{Money|7,500}}
+*****+2 Damage
+*****+2 Range
+*****Firerate: {{Tooltip|0.23 > 0.18|-0.05}}
+*'''4 December 2021''' - [[v1.0.0]]
+**Statistical changes:
+***'''Base'''
+****Ammo increased from 18 to 20.
+***'''Level 3'''
+****Ammo decreased from +12 to +10.
+****Reload Time changed from 2.5 to {{Tooltip|2.5 > 1.5|-1}}.
+**{{Bug}} When the '''Militant''' has its reload time decreased by the [[Commander]], the '''Militant''' will not play any animation after its reloading animation is finished, but it still can attack enemies.
+*'''13 February 2022''' - [[v1.0.2]]
+**New skin: {{Color|SeasonOfLove|Chocolatier}}.
+*'''12 March 2022''' - [[v1.1.0]]
+**Reloading mechanic removed.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate increased from 0.23 to 0.275.
+****Range increased from 10 to 14.
+****Reload Time removed (was 2.5).
+****Ammo removed (was 20).
+****Cost increased from {{Money|750}} to {{Money|800}}.
+***'''Level 1'''
+****Name changed from ''Percise Aiming'' to ''Radio Comms''.
+****Range increased from +2 to +3.
+****Hidden Detection moved from Level 2 to Level 1.
+****Cost increased from {{Money|200}} to {{Money|250}}.
+***'''Level 2'''
+****Name changed from ''Radio Support'' to ''Bigger Rifle''.
+****Damage increased from +0 to +1.
+****Firerate changed from 0.23 to {{Tooltip|0.275 > 0.225|-0.05}}.
+****Range decreased from +1 to +0.
+****Cost increased from {{Money|450}} to {{Money|1,500}}.
+***'''Level 3'''
+****Name changed from ''Sharp Shooter'' to ''Upskill''.
+****Firerate changed from {{Tooltip|0.23 > 0.155|-0.075}} to {{Tooltip|0.225 > 0.2|-0.025}}.
+****Damage increased from +1 to +2.
+****Range increased from +0 to +2.
+****Cost increased from {{Money|1,800}} to {{Money|3,500}}.
+***'''Level 4'''
+****Name changed from ''Intense Training'' to ''Stealth Mercenary''.
+****Firerate changed from 0.155 to {{Tooltip|0.2 > 0.175|-0.025}}.
+****Damage increased from +2 to +3.
+****Range increased from +1 to +2.
+****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
+*'''17 April 2022''' - [[v1.2.0]]
+**New skin: {{Color|DuckHunt|Ducky}}
+*'''5 August 2022''' - [[v1.3.1]]
+**New skin: {{Color|EndOfSummer|Beach}}
+*'''9 September 2022''' - [[v1.3.2]]a
+**New skin: {{Color|Other|John}}
+*'''30 September 2022''' - [[v1.4.0]]
+**New skin: {{Color|Philips|Lumberjack}}
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to all skins.
+**{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
+*'''23 January 2023''' - [[v1.6.0]]j
+**{{Color|Halloween2019|Pumpkin}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
+*'''14 February 2023''' - [[v1.6.1]]
+**{{Color|Lovely|Chocolatier}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Uncommon}}.
+*'''21 December 2023''' - [[v1.11.0]]
+**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
+*'''3 May 2024''' - [[v1.20.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|800}} to {{Money|700}}.
+***'''Level 1'''
+****Flying detection added.
+***'''Level 2'''
+****Cost decreased from {{Money|1,500}} to {{Money|1,250}}.
+****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to {{Tooltip|0.275 > 0.2|-0.075}}.
+***'''Level 3'''
+****Cost decreased from {{Money|3,500}} to {{Money|3,000}}.
+****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to {{Tooltip|0.2 > 0.175|-0.025}}.
+***'''Level 4'''
+****Damage increased from +3 to +4.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''9 August 2024''' - [[v1.27.5]]
+**New skin: {{Color|FallenMission|Fallen}}
+*'''11 September 2024''' - [[v1.31.0]]
+**New skin: {{Color|Mission|Star Spartan}}
+*'''23 October 2024''' - [[v1.37.0]]
+**New skin: {{Color|Hexscape|Wasteland}}
+*'''26 March 2025''' - [[v1.58.0]]
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.275 to 0.225.
+****Range decreased from 14 to 13.
+***'''Level 1'''
+****Cost decreased from {{Money|250}} to {{Money|200}}.
+****Firerate changed from 0.258 to {{Tooltip|0.225 > 0.2|-0.025}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,250}} to {{Money|900}}.
+****Firerate changed from {{Tooltip|0.275 > 0.2|-0.075}} to 0.2
+***'''Level 3'''
+****Cost decreased from {{Money|3,000}} to {{Money|2,750}}.
+***'''Level 4'''
+****Cost increased from {{Money|7,500}} to {{Money|9,000}}.
+****Damage increaased from +4 to +8.
+****Range increased from +2 to +3.
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Easter}}
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost reduced from {{Coins|1,500}} to {{Coins|650}}.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Acheron}}
+*'''23 July 2025''' - [[v1.71.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost increased from {{Money|700}} to {{Money|1,600}}.
+****Damage increased from 1 to 2.
+****Range increased from 13 to 16.
+***'''Level 1'''
+****Cost increased from {{Money|200}} to {{Money|700}}.
+****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to {{Tooltip|0.225 > 0.175|-0.05}}
+****Range decreased from +3 to +2.
+***'''Level 2'''
+****Cost increased from {{Money|900}} to {{Money|1,000}}.
+***'''Level 3'''
+****Cost increased from {{Money|2,750}} to {{Money|3,500}}.
 ****Damage decreased from +2 to +1.
-****Range decreased from +2.5 to +0.5.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to {{Tooltip|0.175 > 0.125|-0.05}}.
+***'''Level 4'''
+****Cost increased from {{Money|9,000}} to {{Money|10,000}}.
+****Damage decreased from +8 to +6.
+****Range decreased from +3 to +0.
+*'''6 August 2025''' - [[v1.72.0]]
+**Cost decreased from {{Coins|650}} to {{Coins|500}}.
+**Category changed from Intermediate to Starter.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|1,600}} to {{Money|1,400}}.
+****Range decreased from 16 to 15.
+***'''Level 1'''
+****Cost decreased from {{Money|700}} to {{Money|600}}.
+***'''Level 2'''
+****Cost increased from {{Money|1,000}} to {{Money|2,600}}.
+****Firerate changed from 0.175 to {{Tooltip|0.175 > 0.125|-0.05}}.
+***'''Level 3'''
+****Cost increased from {{Money|3,500}} to {{Money|5,000}}.
+****Damage increased from +1 to +3.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to 0.125.
+****Range increased from +2 to +3.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Undead}}
+*'''28 January 2026''' - [[v1.84.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****Cost decreased from {{Money|700}} to {{Money|600}}.
+***'''Level 1'''
+****Cost decreased from {{Money|200}} to {{Money|150}}.
+****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.225.
+****Range increased from +3 to +4.
+***'''Level 2'''
+****Cost increased from {{Money|900}} to {{Money|1,050}}.
+****Firerate changed from 0.2 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Name changed from ''Bigger Rifle'' to ''Field Ops''.
+***'''Level 3'''
+****Cost increased from {{Money|2,750}} to {{Money|3,125}}.
+****Damage increased from +2 to +3.
+****Firerate changed from {{Tooltip|0.2 > 0.175|-0.025}} to 0.175.
+****Range decreased from +2 to +0.
+****Name changed from ''Upskill'' to ''Guerilla Tactics''.
+***'''Level 4'''
+****Cost decreased from {{Money|9,000}} to {{Money|5,750}}.
+****Damage decreased from +8 to +5.
+****Range decreased from +3 to +2.
+*'''11 March 2026''' - [[v1.86.0]]
+**Category changed from Starter to Intermediate.
+**Statistical changes (Regular):
+***'''Base'''
+****Range increased from 13 to 14.
+***'''Level 1'''
+****Cost increased from {{Money|150}} to {{Money|300}}.
+****Firerate changed from 0.225 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Range decreased from +4 to +3.
+***'''Level 2'''
+****Cost decreased from {{Money|1,050}} to {{Money|850}}.
+****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to 0.175.
+***'''Level 3'''
+****Cost decreased from {{Money|3,125}} to {{Money|2,750}}.
+***'''Level 4'''
+****Cost increased from {{Money|5,750}} to {{Money|8,000}}.
+****Damage increased from +5 to +7.
+****Range increased from +2 to +3.
+*'''22 May 2026''' - [[v1.91.0]]
+**New skin: {{Color|Backyard|SuperFan}}
+*'''5 June 2026''' - [[v2.0.0]]
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes (Regular):
+***'''Base'''
+****Without [[Firerate Bug]], firerate increased from 0.2 to 0.225, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.225.
+***'''Level 1'''
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.2 > 0.15|-0.05}} to {{Tooltip|0.225 > 0.175|-0.05}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Firerate decreased from 0.225 to 0.2.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to {{Tooltip|0.2 > 0.15|-0.05}}.
+***'''Level 2'''
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.15 > 0.1|-0.05}}.
+***'''Level 4'''
+****Damage decreased from +6 to +5.
+*'''17 July 2026''' - [[v2.3.0]]
+**New skin: {{Color|Pirate|Pirate}}
+}}
+
+==Notes==
+<references/>
 
 
 
 {{TowerNavBox}}
+[[Category:Ground]]
