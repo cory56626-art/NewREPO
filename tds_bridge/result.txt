@@ -1,745 +1,92 @@
-{{Tabs}}
-{{TowerInfobox
-|title = DJ Booth
-|image-static = DefaultDJBoothIconAug2024.png
-|image-dynamic = DJBoothDynamic.png
-|unlockcost = {{Coins|5,000}}
-|basecost = {{Money|850}}
-|basesellingprice = {{Money|283}}
-|role = Support
-|placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]1
-|basedamage = N/A
-|damagetype = N/A
-|basefirerate = [[File:Cooldown_Icon.png|20px|Firerate]]1
-|baserange = [[File:Range Icon.png|20px|Range]]12
-|hidden_detection = N/A<ref>At Level 3, its pulses can indirectly hit hidden enemies if they are in its range, though the actual tower cannot detect them.</ref>
-|lead_detection = {{Attr|Lead|Level 3+}}
-|flying_detection = N/A<ref>At Level 3, its pulses can indirectly hit flying enemies if they are in its range, though the actual tower cannot detect them.</ref>
-|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|EventMission|Ducky}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|EventMission|Ducky}} only)
-|footprint = 2.5
-|tooltip-1 = A support tower that can switch tracks to provide either a range, discount, or damage buff to nearby towers.
-|tooltip-2 = Later levels comes{{sic}} with an active skill that will change depending on what track is active.
+{{BuffInfobox
+|name = Firerate Buff
+|image = Cooldown Buff.png
+|type = Buff
+|display = Tower
 }}
-{{QuoteContainer|<tabber>
-|-|Current =
-{{QuoteBox|Who said you couldn't rave during the apocalypse? Pick between 3 different tracks to support your allies in unique ways.|Store Description}}
-|-|Version 2 =
-{{QuoteBox|Who said you couldn't rave during the apocalypse? Buffs ally troop ranges and lowers upgrade prices.|Former Store Description}}
-|-|Version 1 =
-{{QuoteBox|Who said you couldn't rave during the apocalypse?|Former Store Description}}
-</tabber>}}
-__TOC__
+
 ==Description==
-The '''DJ Booth''' is an advanced [[Towers|tower]] that is primarily a support tower with some economic and offensive capabilities through its ''Drop the Beat'' ability unlocked at Level 3. It can be bought from the store for {{Coins|5,000}}.
+The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.
 
-The '''DJ Booth''' provides boosts to towers in range through different tracks, which also changes the behavior of its ''Drop the Beat'' ability. 
+==Mechanics==
+Currently, the '''Firerate Buff''' is calculated as:
+::<big>'''Original Firerate ÷ (1 + Firerate Buff)'''</big>
+:::where '''Firerate Buff''' is the buff supplied is in decimal form (for example, 10% is 0.1).
 
-The Purple track is unlocked on Level 0 and is active by default. It grants a 12.5% [[Range Buff]] to towers, which with Levels increases to up to 25%. When the ''Drop the Beat'' ability is used, it will create three (four at Level 5) pulses which knockback and slow down enemies. These can hit any enemy, regardless of immunities. The knockback is the regular knockback, meaning any immunity that prevents enemies from being knocked back, such as [[Stun Immunity]], will prevent the enemy from being knocked back. How far back the enemy is knocked back depends on its size. Bigger enemies will get pushed back a smaller distance than an average-sized enemy. However, only [[boss]] enemies are immune to the slowdown. The slowdown effectiveness is based on the number of towers in the '''DJ Booth's''' range, starting from 10% and increasing by 1% to up to 25%. At Level 5, base slowdown is increased to 10% and max slowness is increased to 35%. It applies a 10% [[Range Buff]] at Level 5 if the Purple track is not selected.
+While it may look like the firerate of a tower with the '''Firerate Buff''' is rounded up or down to the third decimal, this is only visual. 
 
-The Green track is unlocked on Level 0. It grants a 5% [[Discount Buff]] to towers, which with Levels increases to 15%. When the ''Drop the Beat'' ability is used, it will generate cash. There is a base amount of cash given, which is {{Money|250}}, which is increased by {{Money|35}} for every tower in range of the '''DJ Booth''', up to a total of {{Money|600}}. All three statistics are able increase to up to {{Money|750}} base cash, {{Money|75}} increase per tower and {{Money|2,250}}. It applies a 5% [[Discount Buff]] at Level 5 if the Green track is not selected.
+Prior to the [[v2.0.0]] update, the firerate of a tower with the [[Firerate Bug]] was calculated as:
+::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) ÷ (1 + Firerate Buff) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
+:::where ''Bugged Firerate'' was the firerate with the [[Firerate Bug]].
 
-The Red track is unlocked at Level 2. It grants a 10% [[Damage Buff]] to towers, which with Levels increases to 20%. When the ''Drop the Beat'' ability is used, it will create three (four at Level 5) pulses that deal 25 damage to enemies. It can damage hidden, lead and flying enemies. This damage increases to 50 at Level 5. The pulses also drops the defense of enemies. The base defense drop is 2%, which increases by 0.25% for every tower in the '''DJ Booth's''' range up to 10%. The pulses only drops defense once, as it cannot drop more defense than what its defense drop is. For example, if the Level 5 '''DJ Booth''' has 40 towers in its range, it will only drop 15% defense from a [[Fallen Hazmat]], making it have 45% defense. It applies a 7.5% [[Damage Buff]] at Level 5 if the Red track is not selected.
+Prior to the [[V1.1.0|Entity System Update]], the '''Firerate Buff''' was calculated as:
 
-There is a limit of one '''DJ Booth''' per player.
+::Without the [[Firerate Bug]]:
+:::<big>'''Original Firerate × (1-Firerate Buff)'''</big>
+::With the [[Firerate Bug]]:
+:::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 - Firerate Buff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
 
-==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Laptop Studio|Cost = {{Money|300}}|Image = [[File:DJBoothLevel1.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+The following towers are either partially or fully not affected by the '''Firerate Buff''':
+*All [[units]].
+*Ability cooldowns.
+*Units spawnrates.
+*The [[Commander]]; the [[Commander]] cannot boost the firerate of other [[Commander]]s.
+*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.
+**Their main firerate can still be decreased.
+*Tick of the [[Pyromancer]], [[Toxic Gunner]], [[Cryomancer]], [[Slasher]] and [[Swarmer]].
+**The tick of the [[Accelerator]] can still be decreased.
+*The rev-up of the [[Minigunner]].
+*Charge-up and cooldown of the [[Accelerator]].
+**The cooldown of burst towers like the [[Soldier]] or [[Toxic Gunner]] also cannot be decreased.
+*The [[Executioner]]; the firerate will not be decreased if the axe takes too long to return.
+*The [[Archer]]; the '''Firerate Buff''' can decrease the time it takes for it to reload its bow, but it cannot decrease the time it takes it to aim at enemies.
 
+The pump time for the [[Enforcer]] is also affected by this buff.
 
-Sell Price changes to {{Money|383}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Party Mode|Cost = {{Money|1,250}}|Image = [[File:DJBoothLevel2.png|100px]]|Information = {{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 12.5% > 15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+==Applied By==
+The following towers have the '''Firerate Buff''':
+
+*[[Gladiator]] (''Warrior's Call'' ability)
+
+The following towers or consumables can apply the '''Firerate Buff''' to other towers:
+
+*[[Commander]] (Passive and ''Call to Arms'' ability)
+*[[Medic]] (Passive to assigned towers)
+*[[War Machine]] (Passive)
+*[[Cooldown Flag]] (Passive)
+*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)
+*[[Easter Egg]] (Passive for 20 seconds)
+The following event enemies can apply the '''Firerate Buff''' to towers:
+
+* [[Null Guardian]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
+* [[Null Guardian Clone]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
+The following event features can apply the '''Firerate Buff''' to towers:
+
+* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])
+
+==Gallery==
+{{Gallery|
+{{GalleryHeader|Attribute Icon}}
+<gallery>
+Faster Firerate.png|First Icon (14 June 2019 – 29 October 2020)
+</gallery>
 }}
-
-{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 5% > 7.5% [[Discount Buff]] [[File:Discount Buff.png|20px|[[Discount Buff]]]]
-}}
-
-{{CollapsibleUpgrade|Style = DJRed|Title = Unlocks Red Track|Description = Provides a 10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-}}
-
-
-Sell Price changes to {{Money|800}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Thrifty Music|Cost = {{Money|3,000}}|Image = [[File:DJBoothLevel3.png|100px]]|Information = {{CollapsibleUpgrade|Title = Drop the Beat Ability|Description = Performs different abilities based on the current track
-
-•Purple: Creates pulses that knockback enemies and apply slowness to them, with slowness increasing for each tower in its range
-
-•Green: Generates {{Money|Cash}} when used, with the amount increasing for each tower in its range
-
-•Red: Creates pulses that damage and reduce defense of enemies, with each tower in its range boosting how much defense is reduced
-
-•30s Cooldown
-}}
-
-{{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 15% > 17.5% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
-
-+3 Pulses
-
-•1.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-•20 Knockback Force {{Knockback}}
-
-•6 Max Hits
-
-0 > 5 Slowness Time [[File:Slowness.png|20px|Slowness Time]]
-
-0% > 10% Base Slowness [[File:Slowness.png|20px|Base Slowness]]
-
-0% > 1% Slowness per Tower [[File:Slowness.png|20px|Slowness per Tower]]
-
-0% > 25% Max Slowness [[File:Slowness.png|20px|Max Slowness]]
-}}
-
-{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 7.5% > 10% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
-
-{{Money|0}} > {{Money|250}} Base Cash [[File:Cash Icon.png|20px|Base Cash]]
-
-{{Money|0}} > {{Money|35}} Cash per Tower [[File:Cash Icon.png|20px|Cash per Tower]]
-
-{{Money|0}} > {{Money|600}} Max Cash [[File:Cash Icon.png|20px|Max Cash]]
-}}
-
-{{CollapsibleUpgrade|Style = DJRed|Title = Red Track|Description = 10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-
-+25 Damage [[File:Damage_Icon.png|20px|Damage]]
-
-+3 Pulses
-
-•1.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
-
-+Lead Detection {{Lead|Lead Detection}}
-
-0% > 2% Base Defense Drop {{Defense|Base Defense Drop}}
-
-0% > 0.25% Defense Drop per Tower {{Defense|Defense Drop per Tower}}
-
-0% > 10% Max Defense Drop {{Defense|Max Defense Drop}}
-}}
-
-
-Sell Price changes to {{Money|1,800}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Audio Visualizer|Cost = {{Money|8,000}}|Image = [[File:DJBoothLevel4.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 17.5% > 22.5% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
-
-5 > 8 Slowness Time [[File:Slowness.png|20px|Slowness Time]]
-
-25% > 30% Max Slowness [[File:Slowness.png|20px|Max Slowness]]
-}}
-
-{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 10% > 12.5% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
-
-{{Money|250}} > {{Money|500}} Base Cash [[File:Cash Icon.png|20px|Base Cash]]
-
-{{Money|35}} > {{Money|50}} Cash per Tower [[File:Cash Icon.png|20px|Cash per Tower]]
-
-{{Money|600}} > {{Money|1,250}} Max Cash [[File:Cash Icon.png|20px|Max Cash]]
-}}
-
-{{CollapsibleUpgrade|Style = DJRed|Title = Red Track|Description = 12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-
-+25 Damage [[File:Damage_Icon.png|20px|Damage]]
-
-2% > 3% Base Defense Drop {{Defense}}
-
-10% > 12% Max Defense Drop {{Defense|Max Defense Drop}}
-}}
-
-
-Sell Price changes to {{Money|4,466}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Apocalypse Rave|Cost = {{Money|20,000}}|Image = [[File:DJBoothLevel5.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Title = Trinity Buff|Description = Applies all buffs at all times, but at reduced power if its track is not active
-
-•10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
-
-•5% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
-
-•7.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-}}
-
-{{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 22.5% > 25% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
-
-+1 Pulses
-
-+2 Max Hits
-
-8 > 10 Slowness Time [[File:Slowness.png|20px|Slowness Time]]
-
-30% > 35% Max Slowness [[File:Slowness.png|20px|Max Slowness]]
-}}
-
-{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 12.5% > 15% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
-
-{{Money|500}} > {{Money|750}} Base Cash [[File:Cash Icon.png|20px|Base Cash]]
-
-{{Money|50}} > {{Money|75}} Cash per Tower [[File:Cash Icon.png|20px|Cash per Tower]]
-
-{{Money|1,250}} > {{Money|2,250}} Max Cash [[File:Cash Icon.png|20px|Max Cash]]
-}}
-
-{{CollapsibleUpgrade|Style = DJRed|Title = Red Track|Description = 15% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-
-+25 Damage [[File:Damage_Icon.png|20px|Damage]]
-
-+1 Pulses
-
-3% > 5% Base Defense Drop {{Defense}}
-
-12% > 15% Max Defense Drop {{Defense|Max Defense Drop}}
-}}
-
-
-Sell Price changes to {{Money|11,133}}}}
-
-==Ability==
-{{Ability|Level Unlock = Level 3+|Cooldown Time= 30s Cooldown|Initial Cooldown Time = 10s Initial Cooldown|Ability Title = Drop the Beat|Image = [[File:DroptheBeatAbility.png|100px]]|Information = 
-Performs an ability based on the track.
-
-•Purple: Creates pulses that knockback enemies and apply slowness to enemies, with slowness increasing for each tower in its range.
-
-•Green: Generates {{Money|Cash}} when used, with the amount increasing for each tower in its range.
-
-•Red: Creates pulses that damage and reduce defense of enemies, with each tower in its range boosting how much defense is reduced.
-}}
-
-==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
-
-{{neow|<nowiki>
-<var>
-$TP$ = $FNC-TOTAL-COST$
-$COST$ = 850; 300; 1250; 3000; 8000; 20000
-$FSE-DETECTION$ = ; 3;
-$FSE-UPGRADE$ = Laptop Studio; Party Mode; Thrifty Music; Audio Visualizer; Apocalypse Rave
-$FSE-UPGRADEICON$ = 95144637961093; 113548130163293; 101877307760287; 123117801948681; 113854542319656
-$FSE-META$ = Advanced; File:DefaultDJBoothIconAug2024.png
-$R$ = $FNC-RECURSION$
-</var>
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="4" | DJ Booth Stats
-|-
-! Level !! Cost !! Total Cost !! Range
-|-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 12
-|-
-| 1 || $R$ || $R$ || 15
-|-
-| 2 || $R$ || $R$ || 15
-|-
-| 3 || $R$ || $R$ || 15
-|-
-| 4 || $R$ || $R$ || 16.5
-|-
-| 5 || $R$ || $R$ || 18
-|}
-
-{| class="wikitable stats-table"
-! colspan="11" | Purple Track
-|-
-! Level !! Active Range Buff !! Inactive Range Buff !! Pulses !! Cooldown !! Max Hits !! Knockback Force !! Slowness Time !! Base Slowness !! Slowness Per Tower !! Max Slowness
-|-
-| 0 || 12.5% || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A
-|-
-| 1 || 12.5% || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A
-|-
-| 2 || 15% || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A
-|-
-| 3 || 17.5% || N/A || 3 || 1.5 || 6 || 20 || 6 || 10% || 1% || 25%
-|-
-| 4 || 22.5% || N/A || 3 || 1.5 || 6 || 20 || 8 || 10% || 1% || 30%
-|-
-| 5 || 25% || 10% || 4 || 1.5 || 8 || 20 || 10 || 10% || 1% || 35%
-|}
-
-{| class="wikitable stats-table"
-! colspan="6" | Green Track
-|-
-! Level !! Active Discount Buff !! Inactive Discount Buff !! Base Cash !! Cash Per Tower !! Max Cash
-|-
-| 0 || 5% || N/A || N/A || N/A || N/A
-|-
-| 1 || 5% || N/A || N/A || N/A || N/A
-|-
-| 2 || 7.5% || N/A || N/A || N/A || N/A
-|-
-| 3 || 10% || N/A || {{Money|250}} || {{Money|35}} || {{Money|600}}
-|-
-| 4 || 12.5% || N/A || {{Money|500}} || {{Money|50}} || {{Money|1250}}
-|-
-| 5 || 15% || 5% || {{Money|750}} || {{Money|75}} || {{Money|2250}}
-|}
-
-{| class="wikitable stats-table"
-! colspan="9" | Red Track
-|-
-! Level !! Active Damage Buff !! Inactive Damage Buff !! Damage !! Pulses !! Cooldown !! Base Defense Drop !! Defense Drop Per Tower || Max Defense Drop
-|-
-| 2 || 10% || N/A || N/A || N/A || N/A || N/A || N/A || N/A
-|-
-| 3 || 12.5% || N/A || 25 || 3 || 1.5 || 2% || 0.25% || 10%
-|-
-| 4 || 15% || N/A || 50 || 3 || 1.5 || 3% || 0.25% || 12%
-|-
-| 5 || 12.5% || 7.5% || 75 || 4 || 1.5 || 5% || 0.25% || 15%
-|}
-</div>
-</nowiki>}}
-
-==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
-!
-|[[File:NeonRaveDJBoothIconAug2024.png|175px]]
-|[[File:NekoDJBoothIconAug2024.png|175px]]
-|[[File:GhostDJBoothIconIGAug2024.png|175px]]
-|[[File:PlushieDJ.png|175px]]
-|-
-!Skin
-|{{Color|Deluxe|Neon Rave}}
-|{{Color|Deluxe|Neko}}
-|{{Color|Spooky|Ghost}}
-|{{Color|Other|Plushie}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|-
-!Daily Store Cost
-|{{Robux|360}}
-|{{Robux|560}}
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Deluxe Crate]]
-|[[Deluxe Crate]]
-|[[Spooky Crate]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[DJ Booth Plush]] or [[Mini DJ Booth Plush]].</ref>
-|-
-!
-|[[File:Feb5MasqueradeDJBoothIcon.png|175px]]
-|[[File:MakoDJBoothIcon.png|175px]]
-|[[File:GarageBandDJBoothIconIG.png|175px]]
-|[[File:DuckyDJIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Lunar|Masquerade}}
-|{{Color|Other|Mako}}
-|{{Color|Hexscape|Garage Band}}
-|{{Color|EventMission|Ducky}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Ultimate}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|{{Robux|749}}
-|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Premium Battle Pass]]
-|''The Ducky went down to Georgia'' [[Mission Quests|Mission Quest]]
-|-
-!
-|[[File:SealDJIconIG.png|175px]]
-|[[File:GingerbreadDJBoothIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Surf|Seal}}
-|{{Color|FinalAct|Gingerbread}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
-|}
-
-==Strategy==
-*The '''DJ Booth's''' buffs are calculated as
-*:[[Range Buff]]:<br/><math>
-\text{Original Range} \times (1 + \text{[[Range Buff]]}) 
-</math>
-*:[[Discount Buff]]:<br/><math>
-\text{Original Price} \times (1 - \text{Discount Buff}) 
-</math>
-*:[[Damage Buff]]:<br/><math>
-\text{Original Damage} \times (1 + \text{[[Damage Buff]]}) 
-</math>
-*: where ''Range'' and ''[[Discount Buff]]s'' are the buffs supplied by the '''DJ Booth''' in decimal form (for example, 10% is 0.1). Additionally, damage is rounded down.
-**For example, a Level 5 '''DJ Booth''' set on the Green Track (15% [[Discount Buff]], 10% [[Range Buff]], 7.5% [[Damage Buff]]) will decrease the cost of a Level 4 [[Ranger]] from {{Money|25,000}} to {{Money|21,250}}, increase its range from 70 to 77, and increase its damage from 875 to 940.
-**However, the [[Range Buff]] cannot increase the range of the following towers:
-***The [[Shotgunner]], as its bullets do not extend into the gained range.
-***The '''DJ Booth'''.
-****The '''DJ Booth''' also cannot decrease the upgrade prices of another '''DJ Booth'''.
-***The circling range of the [[Ace Pilot]].
-****The radius in which towers gain hidden detection from the [[Ace Pilot]] also cannot be increased.
-****These towers' attack ranges will still be increased.
-***The chain range of the [[Electroshocker]] and [[Tesla]].
-****The attack range can still be increased.
-***The deadzone ranges of towers like the [[Biologist]] and [[Engineer]].
-***The sentry building range of the [[Engineer]].
-***The explosion radius from [[Splash Damage|Splash Damage towers]] cannot be increased.
-**The [[Discount Buff]] cannot decrease a tower's placement cost. It also does not affect the [[Farm]].
-**There are multiple towers that cannot be affected by its [[Damage Buff]]:
-{{DamageBuff}}
-*Only one '''DJ Booth''' can be placed per player, so choose the spot wisely.
-**The '''DJ Booth''' has a larger placement footprint than other towers, so be aware of the space that it takes up.
-*This is very efficient with towers with high upgrade costs and long range, such as the [[Ranger]] and [[Turret]].
-**In addition, towers with short range, such as the [[Ace Pilot]], [[Crook Boss]] and [[Pyromancer]], will also greatly benefit from the range increase.
-*The '''DJ Booth''' can drop defense of enemies, though the way it is done in is unique. Instead of reducing it by 25% of the enemy's defense, it is a flat reduction based on the number of towers in its range, with the highest being 18%.
-**For example, an enemy with 50% defense and the '''DJ Booth''' has 20 towers in its range, it will have its defense reduced to 32%.
-**This means that in comparison to other defense dropping towers, like the [[Pyromancer]], it is more effective on enemies with low defense, such as the [[Molten Golem]], while the [[Pyromancer]] is more effective on enemies with higher defense, like the [[Reaver]].
-*The Purple track knocks back and slows down enemies when the ''Drop the Beat'' ability is used, making it useful at stalling hordes or singular enemies.
-**Its knockback cannot affect any enemy immune to it, such as stun immune enemies. Additionally, bigger enemies will get pushed back a smaller distance.
-**The only enemies immune to its slowdown are bosses. This makes it a great choice for slowing down enemies.
-***If you have enough money, you can keep selling and replacing the '''DJ Booth''' and use its purple track ability to constantly slow down enemies.
-*The Green track generates cash when the ''Drop the Beat'' ability is used, allowing you to gain back some cash that was spent on the '''DJ Booth'''.
-**You can stall waves of a match to give the ability more time to go off cooldown, allowing for more usages and generating you more cash.
-*The Red track deals damage to enemies when the ''Drop the Beat'' ability is used, making it useful against hordes of enemies.
-**Additionally, it can hit enemies regardless of what immunities they have, making it useful against lead, flying and hidden enemies.
-*The '''DJ Booth''' can be extremely useful in increasing the [[Commander]] and [[Mercenary Base]]'s range so that more towers receive the buffs from these towers.
-**It can also be useful at reducing their ability costs.
-*The '''DJ Booth''' can increase the [[Medic]]'s range, allowing it to shield towers that are further away.
-*While the '''DJ Booth's''' range cannot be buffed by another '''DJ Booth''', the [[Ranger]]'s [[Range Buff]] is able to buff the '''DJ Booth's''' range.
-*If you want to sell your towers, do be aware that towers within the range of the '''DJ Booth''' get less cash back in comparison to those outside the range of the '''DJ Booth'''.
-**If you would like to relocate your towers, it is not recommended to sell your '''DJ Booth''' as well because sell prices are permanently affected if a tower is upgraded with a Level 3 or higher '''DJ Booth''' nearby.
-*Due to the fact that the '''DJ Booth''' can only give the buffs from one track before Level 5 (and even then, it does not give as much passively for other tracks), it may be a good idea to change the tracks regularly to cope with the kinds of threats that may be faced.
-**If the wave is fairly easy, then it is recommended to use the Green track most of the time, with the discounts allowing you and other players to save money and build up defenses easier.
-**If there are multiple tough enemies, using the Red track is recommended to increase other towers' damage, deal extra damage via the ''Drop the Beat'' ability, and for the enemies defenses to be reduced via the ability.
-**If there are multiple fast enemies that can easily escape the range of your towers, using the Purple track's ability is great at pushing them back and slow them down. The increased range for affected towers will also ensure they can hit more enemies in their range.
-
-==Trivia==
-*The '''DJ Booth''' is loosely based on the [[w:c:roblox-tower-battles:DJ|DJ]] from ''Tower Battles''.
-*The '''DJ Booth''' plays a certain [https://www.youtube.com/watch?v=mjrrGFxOygo music track] when placed down.
-**Some of the Default skin song vocals are from [https://www.youtube.com/watch?v=yydNF8tuVmU Harder, Better, Faster, Stronger] by Daft Punk.
-**The {{Color|Deluxe|Neon Rave}} skin song vocals are from [https://www.youtube.com/watch?v=tPeCHvAJCEQ Limb By Limb], but slightly edited.
-**The {{Color|Deluxe|Neko}} skin song vocals are from [https://www.youtube.com/watch?v=74FEilJdENs Never Regret], but slightly edited.
-**On 29th of December 2021, the {{Color|Spooky|Ghost}} skin briefly used an edited version of [https://www.youtube.com/watch?v=kpnW68Q8ltc The Only Thing They Fear Is You] from ''DOOM Eternal'' due to a bug.
-***This track was likely used during the development and was added to the game by accident, as on [https://twitter.com/paradoxum_games/status/1325273900499030016 leaks] of the {{Color|Spooky|Ghost}} skin, the same track could be heard.
-**The {{Color|Lunar|Masquerade}} plays the [[Halloween 2020 Event]] lobby theme, though without the intro.
-**The '''DJ Booth''' has a [[Gamepasses|gamepass]] that allows you to play your own custom music with it for {{Robux|85}}.
-*During [[Hardcore Testing BETA]], the {{Color|Deluxe|Neko}} skin could decrease the '''DJ Booth's''' placement footprint.
-*Before the [[Overhaul v1.0|Overhaul Update]], the '''DJ Booth's''' final upgrade's cost {{Money|9,001}} as a reference to the "IT'S OVER 9000" meme.
 
 ==Update History==
-''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-
-{{Scroll|text=
-*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**'''DJ Booth''' added.
-**{{Bug}} Displayed range is not affected by upgrades.
-**{{Bug}} The '''DJ Booth's''' buffs can be overwritten by a weaker '''DJ Booth''' buffs.
-**{{Bug}} The '''DJ Booth's''' buffs will be removed from all towers in its range when sold, even if they are in range of another '''DJ Booth'''.
-**{{Bug}} Towers do not receive the buffs in the gained range when the '''DJ Booth''' is upgraded.
-**{{Bug}} If the '''DJ Booth's''' range is increased through temporary [[Range Buff]]s, towers in its gained range will keep their buffs even after the [[Range Buff]] has ended. Similarly, debuffs will make it so that towers placed in its base range will not receive its buffs, as a debuff has made them be at the time out of range.
-**Skin: {{Color|Premium|Neon Rave}}
-*'''12 November 2019''' - [[Release v1.2|Release v1.2.0a]]
-**{{Bugfix}} Displayed range is now affected by upgrades. However, the '''DJ Booth's''' bonus range cannot be visually seen.
-*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
-**Statistical changes:
-****[[Range Buff]] changed from {{Tooltip|10% > 20%|+10%}} to {{Tooltip|10% > 15%|+5%}}.
-***'''Level 4'''
-****[[Range Buff]] changed from {{Tooltip|20% > 35%|+15%}} to {{Tooltip|15% > 25%|+10%}}.
-***'''Level 5'''
-****[[Range Buff]] changed from {{Tooltip|35% > 50%|+15%}} to {{Tooltip|25% > 35%|+10%}}.
-**{{Color|Premium|Neon Rave}} skin default music changed.
-*'''29 November 2019''' - [[Release v1.4|Release v1.4.0]]
-**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|100}}.
-*'''30 November 2019''' - [[Release v1.4|Release v1.4.0a]]
-**Custom Music gamepass price increased from {{Robux|100}} to {{Robux|150}}.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|100}}.
-*'''28 December 2019''' - [[Release v1.5|Release v1.5.0c]]
-**Custom Music gamepass price increased from {{Robux|100}} to {{Robux|150}}.
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**{{Bug}} Placement limit is higher than intended by 1.
-*'''13 January 2020''' - [[Release v1.6|Release v1.6.0a]]
-**{{Bugfix}} Placement limit is now the correct value.
-*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
-**{{Bugfix}} Displayed range is now affected by upgrades.
-*'''12 April 2020''' - [[Release v1.9|Release v1.9.0d]]
-**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|100}}.
-*'''17 April 2020''' - [[Release v1.9|Release v1.9.0e]]
-**Custom Music gamepass price increased from {{Robux|100}} to {{Robux|150}}.
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**New skin: {{Color|Deluxe|Neko}}
-**Placement footprint size decreased.
-**Statistical changes:
-***'''Level 2'''
-****Range decreased from +2 to +0.
-***'''Level 3'''
-****Range decreased from +2 to +1.
-****Renamed from ''Neon DJ Booth'' to ''Thrifty Music''.
-***'''Level 4'''
-****Renamed from ''Epic Speakers'' to ''Audio Visualizer''.
-***'''Level 5'''
-****Cost decreased from {{Money|9,001}} to {{Money|9,000}}.
-****Renamed from ''Neon Rave'' to ''Apocalypse Rave''.
-**{{Bug}} Level 4 upgrade description mentions that the '''DJ Booth's''' range is increased from 18 to 18.
-*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
-**New Skin: {{Color|Spooky|Ghost}}
-*'''26 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1b]]
-**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|75}}.
-*'''28 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1c]]
-**Custom Music gamepass price increased from {{Robux|75}} to {{Robux|150}}.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**The '''DJ Booth''' no longer reduces the sell price of upgrades if they were bought before getting the [[Discount Buff]].
-*'''29 December 2021''' - [[v1.0.0|v1.0.0l]]
-**{{Bug}} {{Color|Spooky|Ghost}} skin plays a wrong music track.
-***This was later fixed the same day.
+*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
+**'''Firerate Buff''' added.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
+**Icon changed.
+**Now displayed on the tower rather than in the upgrade menu.
 *'''12 March 2022''' - [[v1.1.0]]
-**{{Bugfix}} The '''DJ Booth's''' buffs is no longer be overwritten by a weaker '''DJ Booth''' buffs.
-**{{Bugfix}} The '''DJ Booth's''' buffs no longer being removed from all towers in its range when sold, even if they are in range of another '''DJ Booth'''.
-**{{Bugfix}} Towers now receive the buffs in the gained range when the '''DJ Booth''' is upgraded.
-**{{Bug}} Custom music does not work.
-*'''13 March 2022''' - [[v1.1.0|v1.1.0b]]
-**{{Bugfix}} Custom music now works.
-*'''22 March 2022''' - [[v1.1.0|v1.1.0e]]
-**{{Color|Deluxe|Neon Rave}} skin default music removed.
-*'''25 March 2022''' - [[v1.1.0|v1.1.0g]]
-**{{Color|Deluxe|Neon Rave}} skin default music re-added.
-*'''17 April 2022''' - [[v1.2.0]]
-**{{Bug}} '''DJ Booth''' can buff the range of units.
-*'''5 August 2022''' - [[v1.3.1]]
-**{{Bugfix}} '''DJ Booth''' can no longer buff the range of units.
-*'''16 November 2022''' - [[v1.4.2|v1.4.2g]]
-**New skin: {{Color|Other|Plushie}}
-*'''21 December 2022''' - [[v1.6.0]]
-**Skin rarity added to all skins.
-*'''21 March 2023''' - [[v1.6.3|v1.6.3e]]
-**{{Bug}} '''DJ Booth's''' range is slightly bigger at Level 5 than it looks, allowing it to buff towers outside of its visible range.
-**{{Bugfix}} Level 4 upgrade description no longer mentions that the '''DJ Booth's''' range is increased from 18 to 18.
-*'''7 April 2023''' - [[v1.7.0]]
-**New range visuals.
-**{{Bug}} '''DJ Booth''' has a firerate of 0.02. 
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Bugfix}} '''DJ Booth''' no longer has a firerate of 0.02.
-*'''23 May 2023''' - [[v1.7.3|v1.7.3a]]
-**{{Bugfix}} Level 5 range is no longer slightly bigger than it looks.
-*'''31 October 2023''' - [[v1.9.0|v1.9.0g]]
-**New skin: {{Color|Lunar|Masquerade}}
-*'''21 December 2023''' - [[v1.11.0]]
-**Unlock cost increased from {{Coins|4,000}} to {{Coins|5,000}}.
-*'''19 April 2024''' - [[v1.19.0]]
-**[[Discount Buff]] now reduces the usage cost for abilities.
-*'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Can still provide buffs when jailed.
-*'''28 August 2024''' - [[v1.29.0]]
-**Now has a selection of tracks, which provide different buffs to towers.
-***Tracks have a 15 second cooldown.
-**Changing music now makes the new music start at the time mark the previous ended on.
-**Now mutes all other music when player's camera is close to it.
-**Updated range visuals.
-**Placement footprint size increased from 1.5 to 2.5.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|600}} to {{Money|1,200}}.
-****Range decreased from 15 to 12.
-****[[Range Buff]] increased from 10% to 12.5%, but is now only active if the purple track is selected.
-****[[Discount Buff]] increased from 0% to 5%, but is now only active if the green track is selected.
-***'''Level 1'''
-****Range increased from +2 to +3.
-***'''Level 2'''
-****Cost increased from {{Money|850}} to {{Money|1,250}}.
-****[[Range Buff]] changed from {{Tooltip|10% > 15%|+5%}} to {{Tooltip|12.5% > 15%|+2.5%}}.
-****[[Discount Buff]] changed from 0% to {{Tooltip|5% > 7.5%|+2.5%}}.
-****Unlocks a red track which provides a 10% [[Damage Buff]].
-***'''Level 3'''
-****Cost increased from {{Money|2,500}} to {{Money|3,000}}.
-****[[Range Buff]] changed from 15% to {{Tooltip|15% > 17.5%|+2.5%}}.
-****[[Discount Buff]] changed from {{Tooltip|0% > 10%|+10%}} to {{Tooltip|7.5% > 10%|+2.5%}}.
-****[[Damage Buff]] increase of {{Tooltip|10% > 12.5%|+2.5%}} added.
-****''Drop the Beat'' ability added, with a 30s cooldown.
-****Purple track ''Drop the Beat'' ability added:
-*****Three pulses added.
-*****1.5 cooldown for pulses added.
-*****Applies knockback and slowdown to enemies.
-*****Knockback force of 20 added.
-*****Base slowness of 20% added.
-*****Slowness per tower of 1% added.
-*****Max slowness of 40% added.
-****Green track ''Drop the Beat'' ability added:
-*****Base cash of {{Money|250}} added.
-*****Cash per tower of {{Money|35}} added.
-*****Max cash of {{Money|600}} added.
-****Red track ''Drop the Beat'' ability added:
-*****Three pulses added.
-*****1.5 cooldown for pulses added.
-*****Damage increased from +0 to +15.
-*****Lead detection added.
-*****Base defense drop of 5% added.
-*****Defense drop per tower of 1% added.
-*****Max defense drop of 25% added.
-***'''Level 4'''
-****Cost increased from {{Money|4,000}} to {{Money|8,000}}.
-****Range increased from +0 to +1.5.
-****[[Range Buff]] changed from {{Tooltip|15% > 25%|+10%}} to {{Tooltip|17.5% > 22.5%|+5%}}.
-****Knockback force increase of +2.5 added.
-****Max hits increase of +1 added.
-****Slowness time change of 6 > 8 added.
-****[[Discount Buff]] changed from 10% to {{Tooltip|10% > 12.5%|+2.5%}}.
-****Base cash increase of {{Money|250}} > {{Money|500}} added.
-****Cash per tower increase of {{Money|35}} > {{Money|50}} added.
-****Max cash increase of {{Money|600}} > {{Money|1,250}} added.
-****[[Damage Buff]] increase of {{Tooltip|12.5% > 15%|+2.5%}} added.
-****Damage increased from +0 to +10.
-*****Base defense drop change of 5% > 7% added.
-***'''Level 5'''
-****Cost increased from {{Money|9,000}} to {{Money|20,000}}.
-****Now applies all buffs even if the track is not active, but it does not have the full buff power.
-*****Purple track [[Range Buff]] when inactive is 12.5%.
-*****Green track [[Discount Buff]] when inactive is 7.5%.
-*****Red track [[Damage Buff]] when inactive is 10%.
-****[[Range Buff]] changed from {{Tooltip|25% > 35%|+10%}} to {{Tooltip|22.5% > 25%|+2.5%}}.
-****Knockback force decrease of -2.5 added.
-****Max hits increase of +1 added.
-****Slowness time change of 8 > 10 added.
-****Base slowness increase of 20% > 30% added.
-****Max slowness increase of 40% > 50% added.
-****Pulses increased from +0 to +1.
-****[[Discount Buff]] changed from {{Tooltip|10% > 20%|+10%}} to {{Tooltip|12.5% > 15%|+2.5%}}.
-****Base cash increase of {{Money|500}} > {{Money|750}} added.
-****Cash per tower increase of {{Money|50}} > {{Money|75}} added.
-****Max cash increase of {{Money|1,250}} > {{Money|2,250}} added.
-****[[Damage Buff]] increase of {{Tooltip|15% > 20%|+5%}} added.
-****Damage increased from +0 to +25.
-*****Base defense drop change of 7% > 10% added.
-**{{Bug}} Towers sold in the range of the '''DJ Booth''' still boost the ''Drop the Beat'' ability statistics.
-**{{Bug}} '''DJ Booth''' can slowdown bosses.
-**{{Bug}} Cooldown does not work correctly when changing tracks.
-**{{Bug}} '''DJ Booth''' checks if towers should be buffed even after they were sold.
-*'''31 August 2024''' - [[v1.29.0|v1.29.7]]
-**{{Bugfix}} '''DJ Booth''' can no longer slow down bosses.
-**{{Bugfix}} Towers sold in the range of the '''DJ Booth''' no longer boost the ''Drop the Beat'' ability statistics.
-*'''4 September 2024''' - [[v1.30.0]]
-**New skin: {{Color|Other|Mako}}
-**{{Bug}} {{Color|Other|Mako}} skin can be bought even if the player does not own the '''DJ Booth'''.
-**{{Bug}} {{Color|Other|Mako}} skin cannot be bought on mobile.
-**{{Bugfix}} Cooldown now works correctly when changing tracks.
-*'''4 September 2024''' - [[v1.30.0|v1.30.1]]
-**{{Bugfix}} {{Color|Other|Mako}} skin can now be bought on mobile.
-*'''18 September 2024''' - [[v1.32.0]]
-**{{Bugfix}} {{Color|Other|Mako}} skin can no longer be bought if the player does not own the '''DJ Booth'''.
-*'''9 October 2024''' - [[v1.35.0]]
-**{{Bugfix}} '''DJ Booth''' no longer checks if sold towers should be buffed.
-*'''23 October 2024''' - [[v1.37.0]]
-**New skin: {{Color|Hexscape|Garage Band}}
-*'''19 November 2024''' - [[v1.41.0|v1.41.6a]]
-**{{Color|Other|Mako}} skin cost decreased from {{Robux|749}} to {{Robux|562}}.
-*'''27 November 2024''' - [[v1.43.0]]
-**{{Color|Other|Mako}} skin cost increased from {{Robux|562}} to {{Robux|749}}.
-*'''1 April 2025''' - [[v1.59.0]]
-**{{Bug}} '''DJ Booth''' cannot buff towers or play music.
-*'''1 April 2025''' - [[v1.59.0|v1.59.3]]
-**{{Bugfix}} '''DJ Booth''' now buffs towers and plays music.
-*'''9 April 2025''' - [[v1.60.0]]
-**Support role added.
-*'''23 April 2025''' - [[v1.62.0]]
-**New skin: {{Color|EventMission|Ducky}}
-**{{Bug}} {{Color|EventMission|Ducky}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|EventMission|Ducky}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-**{{Bug}} When in range of a [[Medic]], it will be able to affect less towers with its ''Cleansing'' ability. Stacks with each {{Color|EventMission|Ducky}} skin or other similarly bugged tower/skin in range.
-*'''28 May 2025''' - [[v1.65.0]]
-**{{Bugfix}} {{Color|EventMission|Ducky}} skin no longer breaks the [[Medic]]'s ''Cleansing'' ability.
-*'''11 June 2025''' - [[v1.67.0]]
-**{{Bug}} Cloned towers from the [[Hacker]] will still boost '''DJ Booth's''' ''Drop The Beat'' ability power, even after they disappear from the map.
-*'''18 June 2025''' - [[v1.67.0|v1.67.6]]
-**{{Bugfix}} Cloned towers from the [[Hacker]] no longer boost the ''Drop The Beat'' ability power after they have disappeared.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Seal}}
-**{{Bug}} {{Color|Surf|Seal}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Seal}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''26 November 2025''' - [[v1.81.0]]
-**Custom Music gamepass cost decreased from {{Robux|110}} to {{Robux|82}}.
-***'''Drop the Beat''' ability now has a 10 second cooldown upon placing it down.
-*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Custom Music gamepass cost increased from {{Robux|82}} to {{Robux|110}}.
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Gingerbread}}
-*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Custom Music gamepass cost decreased from {{Robux|110}} to {{Robux|82}}.
-*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Custom Music gamepass cost increased from {{Robux|82}} to {{Robux|110}}.
-*'''28 January 2026''' - [[v1.84.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|1,200}} to {{Money|850}}.
-***'''Level 3'''
-****Max hits decreased from 8 to 6.
-***'''Level 4'''
-****Knockback force decreased from +2.5 to +0.
-****Base defense drop decreased from 5% to 3%.
-****Max defense drop decreased from 25% to 12%.
-***'''Level 4'''
-****Base defense drop changed from 5% > 7% to 3% > 5%
-****Max defense drop changed from 25% to 12% > 15%.
-***'''Level 5'''
-****Range decreased from +2 to +1.5.
-****Inactive [[Range Buff]] decreased from 12.5% to 10%.
-****Inactive [[Discount Buff]] decreased from 7.5% to 5%.
-****Inactive [[Damage Buff]] decreased from 10% to 7.5%.
-****Knockback force increased from -2.5 to +0.
-****Base defense drop changed from 7% > 10% to 5% > 6%
-****Max defense drop changed from 25% to 15% > 18%.
-*'''22 April 2026''' - [[v1.89.0]]
-**Statistical changes:
-***'''Level 3'''
-****Slowness time changed from 6 to 5.
-****Base slowness decreased from 20% to 10%.
-****Max slowness decreased from 40% to 25%.
-****Damage increased from +15 to +20.
-****Base defense drop decreased from 3% to 2%.
-****Defense drop per tower decreased from 1% to 0.25%.
-****Max defense drop decreased from 12% to 10%.
-***'''Level 4'''
-****Slowness time changed from 6 > 8 to 5 > 8.
-****Max slowness changed from 40% to 25% > 30%.
-****Max hits decreased from +1 to +0.
-****Damage increased from +10 to +30.
-****Base defense drop changed from 3% > 5% to 2% > 3%.
-****Max defense drop changed from 12% > 15% to 10% > 12%.
-***'''Level 5'''
-****Base slowness changed from 20% > 30% to 10%.
-****Max slowness changed from 40% > 50% to 30% > 35%.
-****Max hits increased from +1 to +2.
-****Base defense drop changed from 5% > 6% to 3% > 5%.
-****Max defense drop changed from 15% > 18% to 12% > 15%.
-*'''22 May 2026''' - [[v1.91.0]]
-**Custom Music gamepass price decreased from {{Robux|110}} to {{Robux|82}}.
-*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Custom Music gamepass price increased from {{Robux|82}} to {{Robux|110}}.
-*'''5 June 2026''' - [[v2.0.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage increased from +20 to +25.
-***'''Level 4'''
-****Damage decreased from +30 to +25.
-*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
-**Gamepass price decreased from {{Robux|110}} to {{Robux|85}}.
-}}
-
-==Notes==
-<references/>
+**'''Firerate Buff''' calculation updated. 
+*'''29 March 2024''' - [[v1.17.0]]
+**{{Bug}} Firerate buff indicators are sunk into the ground.
+*'''10 May 2024''' - [[v1.19.2]]
+**{{Bugfix}} Firerate buff indicators are no longer sunk into the ground.
+*'''12 November 2025''' - [[v1.80.0]]
+**{{Bug}} Firerate buff indicator stays active forever after a tower sold.
 
 
 
-{{TowerNavBox}}
-[[Category:Ground]]
-[[Category:Support]]
-[[Category:Ability]]
+{{BuffsNavBox}}
