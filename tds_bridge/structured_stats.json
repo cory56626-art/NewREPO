@@ -7,326 +7,22 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Golden Demoman''' is a splash damage tower that is an upgraded version of the [[Demoman]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Demoman]]. It can also appear in the Daily Skin Store for {{Coins|55,000}}.\n\nThe '''Golden Demoman''' throws explosive golden grenades at enemies which deal medium damage within an explosion radius. To compensate, it has a rather fast firerate compared to other [[Splash Damage]] towers. It has no damage drop-off, so it deals full damage to all enemies within explosion radius.  At Levels 0-2, the '''Golden Demoman''' takes one second to aim at an enemy before throwing its grenade. This only affects the damage for the first throw, as it means the '''Golden Demoman''' has to wait 0.8 seconds before throwing it. While it is aiming, it will lock onto one enemy until it throws the grenade, after which it can target a different one. Even after the targeted enemy dies, the '''Golden Demoman''' will continue targeting it, though its grenade will land slightly ahead of where the enemy dies, in order to hit the enemy should it be still alive and moving forward. The '''Golden Demoman''' will also continue to aim at a target enemy even if it leaves its range, allowing it to attack outside of its range. \n\nThe '''Golden Demoman''' is excellent for clearing huge crowds, except for those immune to splash damage.  It is relatively weak against major bosses, though it can be useful for clearing the enemies that spawn from some major bosses. The '''Golden Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for AOE damage when multiple are placed down.\n\nThe '''Golden Demoman''' can damage [[Lead (Attribute)|Lead]] and [[Hidden (Attribute)|Hidden]] enemies, and has no placement limit.",
+  "description": "The '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}",
   "upgrade_modes": {
-    "regular": [
-      {
-        "mode": "unknown",
-        "level": 1,
-        "title": "Faster Pitch",
-        "cost": "{{Money|250}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "1.95",
-            "to": "1.8",
-            "stat": "Firerate",
-            "text": "1.95 > 1.8 Firerate"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Faster Pitch",
-          "Cost": "{{Money|250}}",
-          "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Golden Handshake",
-        "cost": "{{Money|1,150}}",
-        "information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+8",
-            "stat": "Damage",
-            "text": "+8 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "4.5",
-            "to": "5",
-            "stat": "Explosion Range",
-            "text": "4.5 > 5 Explosion Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Golden Handshake",
-          "Cost": "{{Money|1,150}}",
-          "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
-          "Information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "Loose Cannon",
-        "cost": "{{Money|2,650}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "1.8",
-            "to": "1.1",
-            "stat": "Firerate",
-            "text": "1.8 > 1.1 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+7",
-            "stat": "Damage",
-            "text": "+7 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.8",
-            "to": "0",
-            "stat": "Aim Time",
-            "text": "0.8 > 0 Aim Time"
-          },
-          {
-            "kind": "set",
-            "from": "5",
-            "to": "5.5",
-            "stat": "Explosion Range",
-            "text": "5 > 5.5 Explosion Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Faster Projectile",
-            "text": "+Faster Projectile"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Loose Cannon",
-          "Cost": "{{Money|2,650}}",
-          "Image": "[[File:Demoman Upgrade 2 New.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "A Thousand Exploding Suns",
-        "cost": "{{Money|7,750}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "set",
-            "from": "1.1",
-            "to": "0.45",
-            "stat": "Firerate",
-            "text": "1.1 > 0.45 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Stun Immunity",
-            "text": "+Stun Immunity"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "A Thousand Exploding Suns",
-          "Cost": "{{Money|7,750}}",
-          "Image": "[[File:NewDemomanLevel3.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}"
-        }
-      }
-    ],
+    "regular": [],
     "pvp": []
   },
-  "upgrade_templates": [
-    {
-      "mode": "unknown",
-      "level": 1,
-      "title": "Faster Pitch",
-      "cost": "{{Money|250}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "1.95",
-          "to": "1.8",
-          "stat": "Firerate",
-          "text": "1.95 > 1.8 Firerate"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Faster Pitch",
-        "Cost": "{{Money|250}}",
-        "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 2,
-      "title": "Golden Handshake",
-      "cost": "{{Money|1,150}}",
-      "information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+8",
-          "stat": "Damage",
-          "text": "+8 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "4.5",
-          "to": "5",
-          "stat": "Explosion Range",
-          "text": "4.5 > 5 Explosion Range"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Golden Handshake",
-        "Cost": "{{Money|1,150}}",
-        "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
-        "Information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 3,
-      "title": "Loose Cannon",
-      "cost": "{{Money|2,650}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "1.8",
-          "to": "1.1",
-          "stat": "Firerate",
-          "text": "1.8 > 1.1 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+7",
-          "stat": "Damage",
-          "text": "+7 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.8",
-          "to": "0",
-          "stat": "Aim Time",
-          "text": "0.8 > 0 Aim Time"
-        },
-        {
-          "kind": "set",
-          "from": "5",
-          "to": "5.5",
-          "stat": "Explosion Range",
-          "text": "5 > 5.5 Explosion Range"
-        },
-        {
-          "kind": "grant",
-          "stat": "Faster Projectile",
-          "text": "+Faster Projectile"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Loose Cannon",
-        "Cost": "{{Money|2,650}}",
-        "Image": "[[File:Demoman Upgrade 2 New.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "A Thousand Exploding Suns",
-      "cost": "{{Money|7,750}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "set",
-          "from": "1.1",
-          "to": "0.45",
-          "stat": "Firerate",
-          "text": "1.1 > 0.45 Firerate"
-        },
-        {
-          "kind": "grant",
-          "stat": "Stun Immunity",
-          "text": "+Stun Immunity"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "A Thousand Exploding Suns",
-        "Cost": "{{Money|7,750}}",
-        "Image": "[[File:NewDemomanLevel3.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}"
-      }
-    }
-  ],
+  "upgrade_templates": [],
   "statistics_tables": {
     "regular": [],
     "pvp": []
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 2+}}",
-      "lead": "{{Attr|Lead|Level 0+}}",
-      "flying": "N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>",
-      "immune": "{{Attr|Stun}} (Level 4)",
+      "hidden": null,
+      "lead": null,
+      "flying": null,
+      "immune": null,
       "placement_limit": null
     },
     "pvp": {
@@ -338,55 +34,45 @@
   },
   "infoboxes": [
     {
-      "name": "TowerInfobox",
+      "name": "CrateInfobox",
       "params": {
-        "title": "Golden Demoman",
-        "image-static": "GoldenDemoman0.png",
-        "image-dynamic1": "GoldenDemomanDynamic.png",
-        "pseudoxd": "1",
-        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)",
-        "towercost": "{{Coins|200}}",
-        "role": "Offense",
-        "placement": "Ground",
-        "basecost": "{{Money|875}}",
-        "basesellingprice": "{{Money|291}}",
-        "basedamage": "[[File:SplashDamage.png|20px|Damage]]10",
-        "damagetype": "[[Splash Damage|Splash]]",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.95",
-        "baserange": "[[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "lead_detection": "{{Attr|Lead|Level 0+}}",
-        "flying_detection": "N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>",
-        "immune": "{{Attr|Stun}} (Level 4)",
-        "footprint": "1.5"
+        "title1": "{{Color|Golden|Golden Crate}}",
+        "image1": "<tabber>",
+        "Icon": "[[File:GoldenSkincrateIcon.png]]",
+        "In-Game": "[[File:GoldenCrateInGame2026.png]]\n</tabber>",
+        "type": "Skincrate",
+        "cost": "50,000",
+        "sale": "Yes",
+        "contains": "7",
+        "rarity": "{{Color|Golden}}",
+        "rarities": "{{Color|Golden}}",
+        "music-1": "[[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]"
       },
-      "positional": []
+      "positional": [
+        "-",
+        "-"
+      ]
     }
   ],
   "likely_infobox": {
-    "name": "TowerInfobox",
+    "name": "CrateInfobox",
     "params": {
-      "title": "Golden Demoman",
-      "image-static": "GoldenDemoman0.png",
-      "image-dynamic1": "GoldenDemomanDynamic.png",
-      "pseudoxd": "1",
-      "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)",
-      "towercost": "{{Coins|200}}",
-      "role": "Offense",
-      "placement": "Ground",
-      "basecost": "{{Money|875}}",
-      "basesellingprice": "{{Money|291}}",
-      "basedamage": "[[File:SplashDamage.png|20px|Damage]]10",
-      "damagetype": "[[Splash Damage|Splash]]",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.95",
-      "baserange": "[[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)",
-      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-      "lead_detection": "{{Attr|Lead|Level 0+}}",
-      "flying_detection": "N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>",
-      "immune": "{{Attr|Stun}} (Level 4)",
-      "footprint": "1.5"
+      "title1": "{{Color|Golden|Golden Crate}}",
+      "image1": "<tabber>",
+      "Icon": "[[File:GoldenSkincrateIcon.png]]",
+      "In-Game": "[[File:GoldenCrateInGame2026.png]]\n</tabber>",
+      "type": "Skincrate",
+      "cost": "50,000",
+      "sale": "Yes",
+      "contains": "7",
+      "rarity": "{{Color|Golden}}",
+      "rarities": "{{Color|Golden}}",
+      "music-1": "[[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]"
     },
-    "positional": []
+    "positional": [
+      "-",
+      "-"
+    ]
   },
-  "template_count": 75
+  "template_count": 70
 }

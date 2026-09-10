@@ -1,262 +1,187 @@
-{{Tabs|Regular = Demoman|Perk = Golden Demoman|History = No}}
-{{For|other uses of [[Gold (Disambiguation)|Gold]]}}
-{{TowerInfobox
-|title = Golden Demoman
-|image-static = GoldenDemoman0.png
-|image-dynamic1 = GoldenDemomanDynamic.png
-|pseudoxd = 1
-|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)
-|towercost = {{Coins|200}}
-|role = Offense
-|placement = Ground
-|basecost = {{Money|875}}
-|basesellingprice = {{Money|291}}
-|basedamage = [[File:SplashDamage.png|20px|Damage]]10
-|damagetype = [[Splash Damage|Splash]]
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.95
-|baserange = [[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)
-|hidden_detection = {{Attr|Hidden|Level 2+}}
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>
-|immune = {{Attr|Stun}} (Level 4)
-|footprint = 1.5
+{{For|[[Platinum Crate]]|other uses of [[Gold (Disambiguation)|Gold]]}}
+{{CrateInfobox
+|title1 = {{Color|Golden|Golden Crate}}
+|image1 = <tabber>
+|-|Icon = [[File:GoldenSkincrateIcon.png]]
+|-|In-Game = [[File:GoldenCrateInGame2026.png]]
+</tabber>
+|type = Skincrate
+|cost = 50,000
+|sale = Yes
+|contains = 7
+|rarity = {{Color|Golden}}
+|rarities = {{Color|Golden}}
+|music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]
 }}
-{{QuoteContainer|
-{{QuoteBox|Ka-boooom! A great early game splash tower.|Store Description}}
-}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier, Demoman|Inventory Description}}
+|-|Version 2 =
+{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier.|Former Inventory Description}}
+|-|Version 1 =
+{{QuoteBox|A crate for the most prestigious players.|Former Inventory Description}}
+</tabber>}}
 __TOC__
 ==Description==
-The '''Golden Demoman''' is a splash damage tower that is an upgraded version of the [[Demoman]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Demoman]]. It can also appear in the Daily Skin Store for {{Coins|55,000}}.
+The '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.
 
-The '''Golden Demoman''' throws explosive golden grenades at enemies which deal medium damage within an explosion radius. To compensate, it has a rather fast firerate compared to other [[Splash Damage]] towers. It has no damage drop-off, so it deals full damage to all enemies within explosion radius.  At Levels 0-2, the '''Golden Demoman''' takes one second to aim at an enemy before throwing its grenade. This only affects the damage for the first throw, as it means the '''Golden Demoman''' has to wait 0.8 seconds before throwing it. While it is aiming, it will lock onto one enemy until it throws the grenade, after which it can target a different one. Even after the targeted enemy dies, the '''Golden Demoman''' will continue targeting it, though its grenade will land slightly ahead of where the enemy dies, in order to hit the enemy should it be still alive and moving forward. The '''Golden Demoman''' will also continue to aim at a target enemy even if it leaves its range, allowing it to attack outside of its range. 
+Each skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}
 
-The '''Golden Demoman''' is excellent for clearing huge crowds, except for those immune to splash damage.  It is relatively weak against major bosses, though it can be useful for clearing the enemies that spawn from some major bosses. The '''Golden Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for AOE damage when multiple are placed down.
-
-The '''Golden Demoman''' can damage [[Lead (Attribute)|Lead]] and [[Hidden (Attribute)|Hidden]] enemies, and has no placement limit.
-
-==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Faster Pitch|Cost = {{Money|250}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
-
-1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-
-Sell Price changes to {{Money|358}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Golden Handshake|Cost = {{Money|1,150}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +8 Damage [[File:SplashDamage.png|20px|Damage]]
-
-4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-
-Sell Price changes to {{Money|741}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Loose Cannon|Cost = {{Money|2,650}}|Image = [[File:Demoman Upgrade 2 New.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
-
-1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+7 Damage [[File:SplashDamage.png|20px|Damage]]
-
-0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
-
-5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-+Faster Projectile
-
-
-Sell Price changes to {{Money|1,625}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = A Thousand Exploding Suns|Cost = {{Money|7,750}}|Image = [[File:NewDemomanLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+Stun Immunity {{Stun|Stun Immunity}}
-
-
-Sell Price changes to {{Money|4,208}}}}
-
-==Statistics==
-{{neow|<nowiki>
-<var>
-$DPS$ = Splash Damage / Firerate
-$CE$ = Total Cost / DPS
-$TP$ = $FNC-TOTAL-COST$
-$COST$ = 875; 200; 1150; 2650; 7750
-$FSE-DETECTION$ = 2; 0;
-$FSE-UPGRADE$ = Pitch Throwing; Golden Handskade; Loose Cannon; A Thousand Exploding Suns
-$FSE-UPGRADEICON$ = 5523227714; 5523227714; 5523228733; 5523229364
-$FSE-META$ = Golden Perks; File:GoldenDemoman0.png
-$AREF$ = <ref name=aim>Aim Time happens before the '''Demoman''' throws a grenade. This does not affect its firerate.</ref>
-$DREF$ = <ref name=dps>DPS does not consider projectile travel time.<br/>DPS assumes that only one enemy is hit and it receives full splash damage.</ref>
-$R$ = $FNC-RECURSION$
-</var>
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]] !! Firerate !! Aim Time$AREF$ !! Range !! Explosion Range !! DPS$DREF$ !! Cost Efficiency
-|-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 1.95 || 0.8 || 12 || 4.5 || $DPS$ || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 10 || 1.8 || 0.8 || 13.5 || 4.5 || $DPS$ || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 18 || 1.8 || 0.8 || 13.5 || 5 || $DPS$ || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 25 || 1.1 || 0 || 15 || 5.5 || $DPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 25 || 0.45 || 0 || 17 || 5.5 || $DPS$ || {{Money|$CE$}}
-|}
-</div>
-</nowiki>}}
+==Appearance==
+{{Tabber
+|Current
+|The '''Golden Crate''' is a futuristic crate with a sleek design and multiple neon yellow lights on it. On the front, it has a small card reader and a number pad. The top of the crate opens up in a futuristic fashion, with the left and right side respectively sliding to the left and right, revealing a pile of coins inside.
+|Second
+|The crate was larger than the [[Basic Crate]]. It was more smooth and sleek, and appeared to open up like a futuristic crate. There was a card reader attached to it.
+|First
+|The crate looked exactly like the [[Platinum Crate]], except that it was yellow in color.
+}}
 
 ==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+{| class="light-table align-center pad-5" style="width:300px; margin:0 auto"
 !
-|[[File:DefaultDemomanIcon2.png|175px]]
-|[[File:ImprovedAngleDemoG0.png|175px]]
-|[[File:M23BlueDemoman0.png|175px]]
-|[[File:M23MilitaryDemoman0.png|175px]]
+|[[File:GoldenScout3.png|175px]]
+|[[File:NewGoldenCrookBoss.png|175px]]
+|[[File:DHGoldenPyroIcon.png|175px]]
+|[[File:Goldenminigunner.png|175px]]
 |-
-!Skin
-|Default
-|{{Color|Basic|Green}}
-|{{Color|Basic|Blue}}
-|{{Color|Basic|Military}}
+!Golden Perk
+|[[Golden Scout]]
+|[[Golden Crook Boss]]
+|[[Golden Pyromancer]]
+|[[Golden Minigunner]]
 |-
 !Rarity
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Uncommon}}
+|{{Color|Golden}}
+|{{Color|Golden}}
+|{{Color|Golden}}
+|{{Color|Golden}}
 |-
-!Daily Store Cost
-|N/A
-|{{Coins|1,250}}
-|{{Coins|1,250}}
-|{{Coins|1,500}}
+!Cost
+|{{Coins|55,000}}
+|{{Coins|55,000}}
+|{{Coins|65,000}}
+|{{Coins|75,000}}
 |-
-!Obtained From
-|Owning [[Demoman]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|-
-!
-|[[File:NewRedDemoman0.png|175px]]
-|[[File:YellowDemoman0.png|175px]]
-|[[File:FortressDemoman0.png|175px]]
-|[[File:PirateDemoman0.png|175px]]
-|-
-!Skin
-|{{Color|Basic|Red}}
-|{{Color|Basic|Yellow}}
-|{{Color|Premium|Fortress}}
-|{{Color|Premium|Pirate}}
-|-
-!Rarity
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Uncommon}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|{{Coins|1,250}}
-|{{Coins|1,250}}
-|{{Robux|105}}
-|{{Coins|3,500}}
-|-
-!Obtained From
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Premium Crate]]
-|[[Pirate Crate]]
+!Tower
+|[[Scout]]
+|[[Crook Boss]]
+|[[Pyromancer]]
+|[[Minigunner]]
 |-
 !
-|[[File:PumpkinDemoman0Fixed.png|175px]]
-|[[File:DuckyDemoman0.png|175px]]
-|[[File:GhostDemoman0.png|175px]]
-|[[File:EggDemoman0.png|175px]]
+|[[File:WDGoldenCowboyIcon.png|175px]]
+|[[File:KR Golden Soldier Icon.png|175px]]
+|[[File:GoldenDemoman0.png|175px]]
 |-
-!Skin
-|{{Color|Halloween|Pumpkin}}
-|{{Color|DuckyRevenge|Ducky}}
-|{{Color|Null|Ghost}}
-|{{Color|SpringFrenzy|Egg}}
+!Golden Perk
+|[[Golden Cowboy]]
+|[[Golden Soldier]]
+|[[Golden Demoman]]
 |-
 !Rarity
-|{{Color|Exclusive}}
-|{{Color|Uncommon}}
-|{{Color|Uncommon}}
-|{{Color|Uncommon}}
+|{{Color|Golden}}
+|{{Color|Golden}}
+|{{Color|Golden}}
 |-
-!Daily Store Cost
-|{{Coins|5,000}}
-|N/A
-|N/A
-|N/A
+!Cost
+|{{Coins|70,000}}
+|{{Coins|50,000}}
+|{{Coins|55,000}}
 |-
-!Obtained From
-|[[Halloween Crate]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Regular Battle Pass]]
-|[[Spring Frenzy Battle Pass]]
-|-
-!
-|[[File:CrewDemoman0.png|175px]]
-|[[File:BeachDemoman0.png|175px]]
-|-
-!Skin
-|{{Color|Backyard|Crew}}
-|{{Color|Beach}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Uncommon}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|5,250}}
-|-
-!Obtained From
-|Triumph all [[Backyard Legends Event]] maps on Easy difficulty
-|[[Beach Crate]]
+!Tower
+|[[Cowboy]]
+|[[Soldier]]
+|[[Demoman]]
 |}
 
-==Strategy==
-*The '''Golden Demoman''' is considered an early to mid-game tower, allowing it to clear early waves quickly with its splash damage that is able to hit an unlimited number of enemies.
-** '''Golden Demoman''' can completely bypass [[Defense]] through its explosives, allowing it to quickly clear larger hordes of high-defense enemies like [[Heavy]] or [[Armored]].
-*** This also makes it very useful against enemies that received the [[Blessed]] attribute from [[Trickster Elf]] or [[Fallen Jester]] as it can completely bypass the extremely high defense of these types of enemies.
-*The '''Golden Demoman''' is excellent as starting defense in solo [[Hardcore Mode|Hardcore]] mode, similarly to [[Golden Pyromancer]]. Its optimal usage is to place one down at the front of the map and upgrade it to Level 3 before getting something else.
-**Keep in mind that the earlier levels of '''Golden Demoman''', like Level 0 and Level 1, can leak faster enemies like [[Swift]], though this is not a huge issue since the earlier enemies have relatively low hp, and past Level 2 it can handle these enemy types much better.
-**Afterwards it is advantageous to invest in a few more '''Golden Demoman'''s as they can clear larger hordes much better this way.
-*The '''Golden Demoman''' is best used when set to target ''Random'', especially due to its faster firerate which allows for maximum area coverage.
-**Alternatively the '''Golden Demoman''' can be set to target first as summoner enemies like [[Necromancer (Modern Enemy)|Necromancer]] and [[Frost Necromancer]], or major bosses like [[Frost Spirit]] and [[Molten Warlord]] summon enemies in front of themselves, allowing '''Golden Demoman''' to quickly eliminate these weaker enemies and let the other towers focus on the target enemy. 
-*The '''Golden Demoman''' is a good cost-effective option for early-mid game as it can easily clear earlier waves, though it struggles in late game by itself.
-**Pairing '''Golden Demoman''' with high single-target damage towers like [[Golden Minigunner]] and [[Crook Boss]], or stall towers like [[Slime Trooper]] and [[Tesla]] allows for maximum efficiency as a crowd clearer.
-**Placing multiple '''Golden Demoman'''s also allow it to take down stronger swarms much more easily, although this can cause some lag if particles are turned on.
-*The '''Golden Demoman''' can be paired with [[DJ Booth]] to increase its range and damage, or [[Commander]] to decrease its firerate, allowing it to handle late game more effectively
-**Pairing '''Golden Demoman''' with [[Golden Pyromancer]] can further increase its swarm clearing when paired with [[Golden Pyromancer]]'s practically infinite burn.
-**Pairing '''Golden Demoman''' with [[Firework Technician]] will allow it to attack [[Flying]] enemies, though this is not recommended since '''Golden Demoman''' cannot generate fireworks at any level.
-*The '''Golden Demoman''' can accidentally hit [[Flying]] enemies if other detectable enemies are within range, but this is not recommended as it is rather unreliable and cannot directly target [[Flying]] enemies.
-*The '''Golden Demoman''' is stun immune at Level 4, so it cannot be stopped by most enemy attacks, making it a consistent and reliable splash damage tower.
-**In some cases, '''Golden Demoman''' can be used as enemy bait to protect other more vulnerable towers like [[Accelerator]] or [[Juggernaut]] by taking hits for them, and since it is stun immune, it is not affected, though do note certain enemies will not target towers with the [[Stun Immunity]].
-*The '''Golden Demoman''' has no placement limit, so in solo matches it can be spammed to the point of dealing absurd amounts of collective DPS in the form of AOE damage.
-**This is not recommended due to the low single-target DPS and that the space a large number of them occupies is better used for other high damage towers like [[Golden Minigunner]].
+==Gallery==
+{{Gallery|
+{{GalleryHeader|Previous Appearance}}
+<gallery>
+GoldenCrateInGame.png|Second version (29 October 2020 – 22 April 2026)
+</gallery>
+
+{{GalleryHeader|Crate Icons}}
+<gallery>
+Gold Crate.png|First version (13 October 2019 – 29 October 2020)
+GoldenSkincrateOld.png|Second version (29 October 2020 – 22 April 2026)
+</gallery>
+
+{{GalleryHeader|Thumbnails}}
+<gallery>
+GoldenCrateThumbnail.png|Second version on the game thumbnail.
+</gallery>
+}}
 
 ==Trivia==
-*The '''Golden Demoman''' is the first mainstream golden tower in 6 years to be added to the game since the [[Golden Soldier]] in 2020.
-**This is true if not including the [[Golden Snowballer]], which is exclusive to developers and [[Sandbox Mode]].
-**It is also the first golden tower since the [[Golden Soldier]] to be added to the [[Golden Crate]].
-*The '''Golden Demoman's''' Level 3 upgrade name, ''Loose Cannon'', may be a reference to the ''Team Fortress 2'' weapon of the same name.
-*The '''Golden Demoman's''' Level 4 upgrade name, ''A Thousand Exploding Suns'', may be a reference to the [[w:c:Robert Reynolds (Earth-616)|Sentry]] from ''Marvel'', who is described as having the power of a thousand exploding suns.
+*The current design of the '''Golden Crate''' is likely based on the [[w:c:saszombieassault:Strongbox#8|Nantonium Strongbox]] from ''SAS: Zombie Assault 4''.
+*The '''Golden Crate''' is currently the only item in the game that gives a buff to a tower outside of [[Consumables]] and support [[Towers]].
+**The only other item to do this was the [[Platinum Crate]], which was the same thing as the '''Golden Crate''', but easier to get.
+*The '''Golden Crate''' uniquely shortens the name of the [[Pyromancer]] to ''Pyro'' in its inventory description.
+*All towers from this crate have a unique sound when placed. Other unique placement sounds of skins override this sound however.
 
 ==Update History==
-''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{Scroll|text=
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**'''Golden Crate''' added.
+** Original skins: [[Crook Boss]], [[Pyromancer]], [[Minigunner]]
+*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]
+**{{Color|Golden}} [[Crook Boss]] +10% [[Damage Buff]] added.
+**{{Color|Golden}} [[Minigunner]] +25% [[Damage Buff]] added.
+**{{Color|Golden}} [[Pyromancer]] +25% [[Range Buff]] added.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
+**{{Color|Golden}} [[Scout]] added.
+**{{Color|Golden}} [[Crook Boss]] [[Damage Buff]] increased from +10% to +25%.
+**{{Color|Golden}} [[Pyromancer]] [[Range Buff]] increased from +25% to +50%.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]a
+**{{Color|Golden}} [[Scout]] [[Damage Buff]] decreased from +300% to +200% at Level 5.
+*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
+**{{Color|Golden}} [[Scout]] upgrade costs increased to +50%.
+***This was not correctly shown until 24 December 2019.
+**All {{Color|Golden}} buffs can now stack with other additional buffs.
+*'''8 December 2019''' - [[Release v1.4|Release v1.4.1]]
+**{{Color|Golden}} [[Crook Boss]] [[Damage Buff]] increased from +25% to +40%.
+**{{Color|Golden}} [[Minigunner]] [[Damage Buff]] increased from +25% to +35%.
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**{{Color|Golden}} [[Scout]] upgrade costs increased to +100%.
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**{{Color|Golden}} [[Cowboy]] added.
+**{{Color|Golden}} [[Minigunner]] [[Damage Buff]] increased from +35% to +50%.
+**{{Color|Golden}} [[Crook Boss]] minions are now golden and now get boosted damage.
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**{{Color|Golden}} [[Pyromancer]] +25% [[Damage Buff]] added.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Appearance changed.
+**Crate opening music added.
+**{{Color|Golden}} [[Soldier]] added.
+**{{Color|Golden}} [[Cowboy]] -1 cash shot added.
+**{{Color|Golden}} [[Crook Boss]] minions now get a speed buff.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**{{Color|Golden}} [[Minigunner]], [[Pyromancer]] and [[Scout]] placement SFX changed.
+*'''13 February 2022''' - [[v1.0.2]]
+**{{Color|Golden}} [[Soldier]] burst increase decreased on Level 3 from +4 to +2, and Level 4 from +10 to +4.
+*'''12 March 2022''' - [[v1.1.0]]
+**{{Color|Golden}} [[Soldier]] burst increase decreased on Level 4 from +4 to +3.
+*'''13 May 2022''' - [[v1.2.2]]
+**All skins no longer grant the tower they are equipped on statistical differences.
+**'''Golden Crate''' now grants Golden Perks, which replaces the normal tower with the Golden version of the same tower.
+***This can be enabled or disabled in the inventory.
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added.
+**Skins can now appear in the daily skin store.
+**{{Bug}} Crate opening music no longer plays.
+*'''28 October 2023''' - [[v1.9.0]]
+**{{Bugfix}} Crate opening music now plays.
+*'''22 April 2026''' - [[v1.89.0]]
+**Appearance changed.
+**Icon changed.
 *'''17 July 2026''' - [[v2.3.0]]
-**'''Golden Demoman''' added.
-*'''4 September 2026''' - [[v2.9.0]]
-**New skin: {{Color|Beach}}
-
-==Notes==
-<references/>
+**{{Color|Golden}} [[Demoman]] added.
+*'''21 August 2026''' - [[v2.7.0]]
+**{{Color|Golden}} rarity added.
+}}
 
 
 
-{{TowerNavBox}}
-[[Category:Ground]]
+{{CrateNavBox}}
