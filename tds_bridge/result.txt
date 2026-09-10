@@ -1,103 +1,96 @@
 {{Tabs}}
-{{for|the [[Field Medic]]|[[Null Medic]]}}
+{{SameName|Commander|Tower • [[Commander (Pizza Party)|Enemy]] • [[Commander (Narrator)|Narrator]]}}
+{{For|the [[Commando]], [[Mission Quests|For the Commander!]], a [[Mission Quests|Mission Quest]]|[[Null Commander]]}}
 {{TowerInfobox
-|title = Medic
-|image-static = DefaultMedicIconAug25.png
-|image-dynamic = MTMedicDynamicIcon.png
-|image-dynamic-start = 1
-|unlockcost = {{Coins|2,000}}
-|basecost = {{Money|400}}
-|basesellingprice = {{Money|133}}
+|title = Commander
+|image-static = Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->
+|image-dynamic = CommanderDynamic.png
+|unlockcost = {{Coins|4,000}}
+|basecost = {{Money|650}}
+|basesellingprice = {{Money|216}}
 |role = Support
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4
-|basedamage = N/A
-|damagetype = N/A
-|basefirerate = N/A
-|baserange = [[File:Range Icon.png|20px|Range]]12
-|hidden_detection = N/A
-|lead_detection = N/A
-|flying_detection = N/A
-|immune = {{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6
+|basedamage = [[File:Damage Icon.png|20px|Damage]]0
+|damagetype = Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0
+|baserange = [[File:Range Icon.png|20px|Range]]10
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)
+|flying_detection = {{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])
+|immune = None
 |footprint = 1.5
-|tooltip-1 = A support tower that heals the base at the start of each wave and can assign its medi gun to nearby towers to give them a shield and a cooldown boost.
-|tooltip-2 = Active ability uber charge also provides a temporary damage boost to all assigned towers.
+|tooltip-1 = A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.
+|tooltip-2 = At final level also unlocks the ability to summon a caravan of friendly APC units.
 }}
-{{QuoteContainer|<tabber>
-|-|Current =
-{{QuoteBox|Equipped with health regen and a medi gun to support and boost towers in range.|Current Store Description}}
-|-|Version 2 =
-{{QuoteBox|A support tower that heals the base 5 HP per wave. At max, cleanses stunned towers.|Former Store Description}}
-|-|Version 3 =
-{{QuoteBox|MEDICCCCC!|Former Store Description}}
-</tabber>}}
+{{QuoteContainer|
+{{QuoteBox|A support tower that boosts the firerate of towers within its range.|Store Description}}
+}}
 __TOC__
 ==Description==
-The '''Medic''' is an intermediate support tower that provides various buffs to other towers and replenishes base health after it has been lost. It can be unlocked from the store for {{Coins|2,000}}.
+The '''Commander''' is an advanced support [[Towers|tower]] that decreases the firerate of towers within its range, increasing their damage output. It can be purchased in the store for {{Coins|4,000}}.
 
-The '''Medic''' heals base health by a specified amount each wave with ''Take your Vitamins''. The amount of health healed increases with the level of the '''Medic''' and the amount of '''Medics''' placed down. It also has the ability to overheal, increasing base health to value higher than its maximum. If there are multiple '''Medics''', the health regeneration and overheal stacks with each '''Medic'''. Similarly, these effects stack with other sources of such effects, like [[Skills]].
+The '''Commander''' provides a 10% firerate boost to towers in its range, making them attack enemies faster. This buff can be boosted further at Level 2+ through the ''Call to Arms'' ability, which increases it by 10% for ten seconds. Both buffs get higher with levels, with the passive buff getting increased to 20% and the ''Call to Arms'' ability buff getting increased to 20%. It also has a second ability, ''Support Caravan'', which costs {{Money|2,000}} to use. This will summon two [[Gunner APC]]s and one [[Missile APC]] on the map. When any ability used, it will enter fury mode, allowing it to attack any enemy in its range for ten seconds. The attack time from using an ability stacks if multiple are used at once or when an ability is used while it is attacking. When an ability is used while fury mode is active, the timer for it will stop until the ability animation is finished.
 
-The '''Medic''' holds a medi gun, which it can use to apply a shield to towers. Whenever shielded, the tower will have a shield modifier on them. This shield provides a passive 15% [[Firerate Buff]] and an immunity to stuns. It does not grant an immunity to debuffs or freeze. If the tower is stunned, its shield will be broken instead, reappearing shortly after. At Level 0, it can only shield one tower, but this is increased up to five at Level 5. It cannot shield other '''Medics''' or any tower currently shielded by another '''Medic'''. There is a 0.5 second cooldown before another tower can be selected or deselected.
+The '''Commander''' is the primary [[Narrators|narrator]] in most matches. Text dialogue appears beside the image or the model with an idle animation of the '''Commander''', corresponding to the appearance of certain [[waves]]. This dialogue appears regardless of whether a '''Commander''' tower is present on the map, and the image or model of the '''Commander''' next to the dialogue will display different emotions.
 
-At Level 3, it gets the '''Ubercharge''' ability. This provides all towers shielded by the '''Medic''' with a [[Damage Buff]], [[Stun Immunity]] and [[Freeze Immunity]] for a brief period of time. While it may look like this is tied to the shield, this is not actually the case. The [[Damage Buff]] will remain on the tower, even if its shield is gone. Unassigning a tower with '''Medic''' will however remove the buffs from it. While this ability is active, the '''Medic''' itself gains the [[Freeze Immunity]].
-
-The '''Medic''' has a placement limit of 4.
+The '''Commander''' has a placement limit of six per player.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Medical Precautions|Cost = {{Money|425}}|Image = [[File:MedicUpg1.png|100px]]|Information = +1 Max Targets
+{{Upgrade|Level = Level 1|Upgrade Title = Leadership|Cost = {{Money|400}}|Image = [[File:Commander Upgrade 1  New.png|100px]]|Information = 
+10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
+
+Sell Price changes to {{Money|350}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Call to Arms|Cost = {{Money|2,450}}|Image = [[File:Commander_Upgrade_3.png|100px]]|Information = +Lead Detection {{Lead|Lead Detection}}
+
++Flying Detection {{Flying|Flying Detection}}
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
++3 Range [[File:Range Icon.png|20px|Range]]
+
++15 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++Call to Arms Ability 
+
+•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
 
-Sell Price Changes to {{Money|275}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Prescribed Vitamins|Cost = {{Money|650}}|Image = [[File:MedicUpg2.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|1,166}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Intense Training|Cost = {{Money|4,500}}|Image = [[File:Commander Upgrade 4 New.png|100px]]|Information = 
 
-+1 Max Targets
++2 Range [[File:Range Icon.png|20px|Range]]
 
-+5 Healing [[File:HealingIcon.svg|20px|Healing]]
++15 Damage [[File:Damage Icon.png|20px|Damage]]
 
-8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
+15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
-
-Sell Price Changes to {{Money|491}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = BIG BRAIN|Cost = {{Money|2,400}}|Image = [[File:MedicUpg3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]
-
-'''Medic''' gains [[Freeze Immunity]] for the duration
-
-•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
-
-•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
+10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
 
-Sell Price Changes to {{Money|1,291}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Medical Pack|Cost = {{Money|5,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|2,666}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Strength in Numbers|Cost = {{Money|14,000}}|Image = [[File:SupportCaravanIcon.png|100px]]|Information = 
 
-+1 Max Targets
++2 Range [[File:Range Icon.png|20px|Range]]
 
-+10 Healing [[File:HealingIcon.svg|20px|Healing]]
++20 Damage [[File:Damage Icon.png|20px|Damage]]
 
-6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
+17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
-{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
 
-7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}
-
-
-Sell Price Changes to {{Money|2,958}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = MD-PhD|Cost = {{Money|12,000}}|Image = [[File:MedicUpg4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-+1 Max Targets
-
-5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]
-
-{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}
++Support Caravan Ability
 
 
-Sell Price Changes to {{Money|6,958}}}}
+Sell Price changes to {{Money|7,333}}}}
 
-==Ability==
-{{Ability|Level Unlock = Level 3|Cooldown Time= 60s Cooldown|Initial Cooldown Time = 30s Initial Cooldown|Ability Title = Ubercharge|Image = [[File:Medic_Ability.png|100px]]|Information = 
-Assigned towers gain a [[Damage Buff]], [[Stun Immunity|Stun]] and [[Freeze Immunity]].
+==Abilities==
+{{Ability|Level Unlock = Level 2+|Cooldown Time= 30s Cooldown|Ability Title = Call to Arms|Image = [[File:Commander_Upgrade_3.png|100px]]|Information = 
+Boosts all towers' firerate in its range by a variable amount for 10 seconds. Additionally, the '''Commander''' will be able to attack enemies with its own weapon for 10 seconds.
+}}
+{{Ability|Level Unlock = Level 4|Cooldown Time= 60s Cooldown|Ability Title = Support Caravan<ref>This ability is disabled in [[Victory Field]].</ref>|Cost = {{Money|2,000}}|Image = [[File:SupportCaravanIcon.png|100px]]|Information = Summons two [[Gunner APC]]s and one [[Missile APC]]. Additionally, the '''Commander''' will be able to attack enemies with its own weapon for 10 seconds.
 }}
 
 ==Statistics==
@@ -105,28 +98,46 @@ Assigned towers gain a [[Damage Buff]], [[Stun Immunity|Stun]] and [[Freeze Immu
 
 {{neow|<nowiki>
 <var>
+$DPS$ = Damage / Firerate
+$TDPS$ = Damage * Missile Count / Firerate 
+$CDPS$ = ((Damage / Firerate) * 10) / 30
+$SDPS$ = ((Damage / Firerate) * 10) / 60
+$CE$ = Total Cost / Call to Arms DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 400; 425; 650; 2400; 5000; 12000
-$FSE-UPGRADE$ = Medical Precautions; Prescribed Vitamins; BIG BRAIN; Medical Pack; MD-PhD
-$FSE-UPGRADEICON$ = 117008581932706; 71546954858462; 130592941614779; 112504548905627; 112504548905627
-$FSE-META$ = Intermediate; File:DefaultMedicIconAug25.png
+$COST$ = 650; 400; 2450; 4500; 14000
+$FSE-DETECTION$ = 2; 2; 2
+$FSE-UPGRADE$ = Leadership; Call to Arms; Intense Training; Strength in Numbers
+$FSE-UPGRADEICON$ = 5525000768; 4594880289; 5525002879; 17512145719
+$FSE-META$ = Advanced; File:Commandernew.png
+$DREF$ = <ref>DPS is calculated as ((Damage ÷ Firerate) × Attack Time) ÷ Ability Cooldown<br>'''Attack Time''' is the time in which the Commander can attack during its abilities while '''Ability Cooldown''' is the minimum time between ability activations.<br>DPS does not include any Firerate Buffs.</ref>
+$SREF$ = <ref>If both abilites are used, DPS is the same as Call to Arms DPS.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Firerate Buff !! Damage Buff !! Range !! Healing !! Overheal Limit !! Max Targets !! Shield Recharge Speed !! Tower Selection Cooldown !! Ubercharge Duration
+! colspan="11" | Commander Stats
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15% || 0% || 12 || 5 || 100 || 1 || 8 || 0.5 || N/A
+! Level !! Cost !! Total Cost !! Firerate Buff !! Call to Arms Buff !! Damage !! Firerate !! Range !! Call to Arms DPS$DREF$ !! Support Caravan DPS$DREF$ !! Cost Efficiency
 |-
-| 1 || $R$ || $R$ || 15% || 0% || 12 || 5 || 100 || 2 || 8 || 0.5 || N/A
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10% || N/A || N/A || N/A || 10 || N/A || N/A || N/A
 |-
-| 2 || $R$ || $R$ || 15% || 0% || 14 || 10 || 100 || 3 || 6 || 0.5 || N/A
+| 1 || $R$ || $R$ || 15% || N/A || N/A || N/A || 10 || N/A || N/A || N/A
 |-
-| 3 || $R$ || $R$ || 15% || 20% || 15 || 10 || 100 || 3 || 6 || 0.5 || 7.5
+| 2 || $R$ || $R$ || 15% || 10% || 15 || 0.6 || 13 || $CDPS$ || N/A || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 15% || 27.5% || 18 || 20 || 100 || 4 || 5 || 0.5 || 10
+| 3 || $R$ || $R$ || 17.5% || 15% || 30 || 0.6 || 15 || $CDPS$ || N/A || {{Money|$CE$}}
 |-
-| 5 || $R$ || $R$ || 15% || 35% || 20 || 20 || 100 || 5 || 4.5 || 0.5 || 10
+| 4 || $R$ || $R$ || 20% || 20% || 50 || 0.6 || 17 || $CDPS$$SREF$ || $SDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="8" | Support Caravan Units Stats
+|-
+! Unit !! Health !! Damage !! Missile Count !! Firerate !! Range !! Explosion Range !! DPS
+|-
+| [[Gunner APC]] || 200 || 7 || N/A || 0.2 || 30 || N/A || $DPS$
+|-
+| [[Missile APC]] || 300 || 40 || 4 || 2 || 25 || 5 || $TDPS$
 |}
 </div>
 </nowiki>}}
@@ -135,81 +146,261 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:WitchMedicIconAug25.png|175px]]
-|[[File:CyberMedicIconAug25.png|175px]]
-|[[File:ValentinesMedicIconAug25.png|175px]]
-|[[File:BunnyMedicIconAug25.png|175px]]
+|[[File:May17GargoyleCommander.png|175px]]
+|[[File:Newredcommander.png|175px]]
+|[[File:Newgreencommander.png|175px]]
+|[[File:May17VictorianCommander.png|175px]]
 |-
 !Skin
-|{{Color|Unobtainable|Witch}}
-|{{Color|Premium|Cyber}}
-|{{Color|Unobtainable|Valentines}}
-|{{Color|Unobtainable|Bunny}}
+|{{Color|Halloween2019|Gargoyle}}
+|{{Color|Basic|Red}}
+|{{Color|Basic|Green}}
+|{{Color|Premium|Victorian}}
 |-
 !Rarity
 |{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Event}}
+|{{Color|Common}}
+|{{Color|Common}}
+|{{Color|Common}}
 |-
 !Daily Store Cost
 |N/A
-|{{Robux|120}}
-|N/A
-|N/A
+|{{Coins|500}}
+|{{Coins|500}}
+|{{Robux|85}}
 |-
 !Obtained From
-|Formerly [[Halloween 2019 Crate]]
+|[[Halloween 2019 Crate]]
+|[[Basic Crate]]
+|[[Basic Crate]]
 |[[Premium Crate]]
-|Formerly [[Valentines Crate]]
-|Formerly [[Bunny Crate]]
 |-
 !
-|[[File:StrandedMedicIconAug25.png|175px]]
-|[[File:MasqueradeMedicIconAug25.png|175px]]
-|[[File:FallenMedicIconAug25.png|175px]]
-|[[File:MermaidMedicIconAug25.png|175px]]
+|[[File:May17GalacticCommander.png|175px]]
+|[[File:May17GeneralCommander.png|175px]]
+|[[File:WarLordCommanderDH0.png|175px]]
+|[[File:May17BunnyCommander.png|175px]]
 |-
 !Skin
-|{{Color|ColdFront|Stranded}}
-|{{Color|Lunar|Masquerade}}
-|{{Color|FallenMission|Fallen}}
-|{{Color|EventMission|Mermaid}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|3,500}}
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Cold Front Crate]]
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|''Fallen Angel'' [[Mission Quests|Mission Quest]]
-|''The Little Medic'' [[Mission Quests|Mission Quest]]
-|-
-!
-|[[File:AFPlagueMedicIcon.png|175px]]
-|[[File:AFBartenderMedicIcon.png|175px]]
-|[[File:AFToyBallerinaMedicIcon.png|175px]]
-|[[File:AFSecondChanceMedicIcon.png|175px]]
-|-
-!Skin
-|{{Color|Null|Plague}}
-|{{Color|Showtime|Bartender}}
-|{{Color|FinalAct|Toy Ballerina}}
-|{{Color|Valentines2026|Second Chance}}
+|{{Color|Premium|Galactic}}
+|{{Color|Premium|General}}
+|{{Color|Other|War Lord}}
+|{{Color|Bunny|Bunny}}
 |-
 !Rarity
 |{{Color|Uncommon}}
 |{{Color|Common}}
+|{{Color|Exclusive}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|{{Robux|105}}
+|{{Robux|85}}
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Premium Crate]]
+|[[Premium Crate]]
+|Exclusive
+|[[Bunny Crate]]
+|-
+!
+|[[File:16MaySpringTimeCommanderIcon.png|175px]]
+|[[File:Newmaidcommander.png|175px]]
+|[[File:Newnekocommander.png|175px]]
+|[[File:May17GhostCommander.png|175px]]
+|-
+!Skin
+|{{Color|Shamrock|Spring Time}}
+|{{Color|Deluxe|Maid}}
+|{{Color|Deluxe|Neko}}
+|{{Color|Spooky|Ghost}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Legendary}}
 |{{Color|Rare}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|N/A
+|{{Robux|560}}
+|{{Robux|360}}
+|N/A
+|-
+!Obtained From
+|[[Shamrock Crate]]<br/>[[Codes|Code]]:<br/>HAPPY3AST3R!<ref name="expired">Expired</ref>
+|[[Deluxe Crate]]
+|[[Deluxe Crate]]
+|[[Spooky Crate]]
+|-
+!
+|[[File:May17FrostCommander.png|175px]]
+|[[File:BloxyCommanderIcon.png|175px]]
+|[[File:eclipsecomm.png|175px]]
+|[[File:Newduckycommander.png|175px]]
+|-
+!Skin
+|{{Color|Frost|Frost}}
+|{{Color|Other|Bloxy}}
+|{{Color|Eclipse|Eclipse}}
+|{{Color|Ducky|Ducky}}
+|-
+!Rarity
+|{{Color|Event}}
+|{{Color|Exclusive}}
+|{{Color|Event}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|{{Coins|4,000}}
+|-
+!Obtained From
+|[[Frost Crate]]
+|[[Codes|Code]]:<br/>BLOXY21<ref name="expired"/>
+|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
+|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|-
+!
+|[[File:PlCommanderIcon.png|175px]]
+|[[File:May17LifeguardCommander.png|175px]]
+|[[File:May17ElfCommander.png|175px]]
+|[[File:Newbriskcommander.png|175px]]
+|-
+!Skin
+|{{Color|Other|Plushie}}
+|{{Color|EndOfSummer|Lifeguard}}
+|{{Color|Jolly|Holiday}}
+|{{Color|ColdFront|Brisk}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Event}}
+|{{Color|Event}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|{{Coins|5,000}}
+|{{Coins|4,250}}
+|-
+!Obtained From
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing the [[Commander Plush (Level 4)]], [[Commander Plush (Level 1)]]  or [[Mini Commander Plush]].</ref>
+|[[End of Summer Season#Season Pass|End of Summer Season]]
+|[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Cold Front Crate]]
+|-
+!
+|[[File:May17ValentinesCommander.png|175px]]
+|[[File:PirateCommanderIcon.png|175px]]
+|[[File:UmbraCommanderIcon.png|175px]]
+|[[File:PhantomCommanderSkin.png|175px]]
+|-
+!Skin
+|{{Color|Lovely|Valentines}}
+|{{Color|Pirate|Pirate}}
+|{{Color|Other|Umbra}} 
+|{{Color|Phantom|Phantom}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|5,500}}
+|{{Coins|5,000}}
+|N/A
+|{{Robux|499}}
+|-
+!Obtained From
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]]
+|[[Pirate Crate]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Umbra Mini Plush]].</ref>
+|[[Phantom Crate]],<br/>''Tech Tactician'' [[Mission Quests|Mission Quest]]
+|-
+!
+|[[File:May17EggryptedCommander.png|175px]]
+|[[File:PatternCommanderIcon.png|175px]]
+|[[File:VigilanteCommanderIcon.png|175px]]
+|[[File:PatriotCommanderIcon2.png|175px]]
+|-
+!Skin
+|{{Color|ContentCreator|Eggrypted}}
+|{{Color|Premium|Pattern}}
+|{{Color|Vigilante|Vigilante}}
+|{{Color|Deluxe|Patriotic}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|3,000}}
+|{{Robux|105}}
+|{{Coins|5,000}}
+|{{Robux|560}} ([[Deluxe Crate]]])<br/>{{Coins|10,000}} ([[Patriotic Crate]])
+|-
+!Obtained From
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|[[Premium Crate]]
+|[[Vigilante Crate]]
+|[[Deluxe Crate]]<br/>[[Patriotic Crate]]
+|-
+!
+|[[File:FallenCommanderIconIG.png|175px]]
+|[[File:WastelandCommanderIconIG.png|175px]]
+|[[File:SantaCommanderIconIG.png|175px]]
+|[[File:AquaCommanderIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FallenMission|Fallen}}
+|{{Color|Hexscape|Wasteland}}
+|{{Color|OperationICE|Santa}}
+|{{Color|Surf|Aqua}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|''A Cold Tyrant'' [[Mission Quests|Mission Quest]]
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Regular Battle Pass]]
+|-
+!
+|[[File:WerewolfCommanderIconIG.png|175px]]
+|[[File:CandyCaneCommanderIconIG.png|175px]]
+|[[File:DirectorCommanderIconIG.png|175px]]
+|[[File:WonderlandCommanderIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Null|Werewolf}}
+|{{Color|Christmas2025|Candy Cane}}
+|{{Color|Showtime|Director}}
+|{{Color|FinalAct|Wonderland}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
 |{{Color|Legendary}}
 |-
 !Daily Store Cost
@@ -219,361 +410,370 @@ $R$ = $FNC-RECURSION$
 |N/A
 |-
 !Obtained From
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
+|[[Christmas 2025 Crate]]
 |[[Showtime Crate]]
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
-|[[Valentines 2026 Crate]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
 |-
 !
-|[[File:AFShamrockMedicIcon.png|175px]]
-|[[File:BeachMedicIconIG.png|175px]]
+|[[File:RefereeCommanderIconIG.png|175px]]
+|[[File:SealCommanderIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Shamrock}}
-|{{Color|Beach}}
+|{{Color|Backyard|Referee}}
+|{{Color|Beach|Seal}}
 |-
 !Rarity
-|{{Color|Uncommon}}
-|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Common}}
 |-
 !Daily Store Cost
 |N/A
-|{{Coins|6,500}}
+|{{Coins|4,500}}
 |-
 !Obtained From
-|[[Shamrock Crate]]
+|Triumph all [[Backyard Legends Event]] maps on Hard
 |[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Medic''' has the ability to permanently grant a [[Firerate Buff]] and temporarily grant a [[Damage Buff]] to towers, making it very useful as a support tower.
-**However, unlike other towers like the [[Commander]], [[DJ Booth]] or even the [[Mercenary Base]], it is not able to apply it to every tower in range, it can only apply it to a few of them.
-***Because of this, players may need to either place down multiple of them to cover most or all of their towers, or only target the most important of their towers.
-***Due to its limited tower selection, towers with naturally low placement limits like the [[Turret]] or [[Gatling Gun]] are a great pick when using the '''Medic''', as their low placement limits mean few '''Medics''' are needed to boost them all.
-****With all four '''Medics''' placed down, you can still boost up to 20 towers, so towers like the [[Minigunner]] or [[Swarmer]] can still be paired with it, although you might have to leave some towers unboosted.
-*The '''Medic''' can give towers a shield, which stops them from being stunned once.
-**This does not stop either debuffs or being frozen. These towers are still affected by these effects, but they will not lose their shield from them.
-**When its shield is broken, the targeted tower not only loses its immunity to stuns, but also the [[Firerate Buff]] provided by the '''Medic'''. It does not however, lose any of its ''Ubercharge'' buffs.
-***If the shield is regenerated in the middle a stun, the stun will removed. This means the duration of towers assigned to a '''Medic''' cannot be longer than its shield regeneration cooldown.
-*The '''Medic''' can provide an additional [[Damage Buff]] to targeted towers, but only temporarily.
-**This is best used on harder waves when a tough enemy appears.
-**On top of this, it also grants the tower [[Stun Immunity]] and [[Freeze Immunity]], making the tower fully invulnerable to stun and freeze, making it rather useful against enemies with offensive capabilities.
-*The '''Medic''' can be used to heal back any lost health and overheal the base health.
-**As this effect stacks with each '''Medic''' placed down, having four '''Medics''' placed down will result in the player regenerating 80 health at the start of every wave while also adding an additional overheal of 400.
-***This does not just stack with other '''Medics''', but also other towers or mechanics like [[Skills]]. For example, if [[Skills]] are fully upgraded, having one [[Medic]] placed down will allow it to overheal the base health to 250 at Level 5, not just 50 or 200.
-*There are multiple towers that cannot be affected by its [[Damage Buff]]:
-{{DamageBuff}}
+*Firerate boost is calculated as
+*:<big>'''Original Firerate ÷ (1+Firerate Boost)'''</big>
+*:where ''Original Firerate'' is the base firerate of the tower,
+*:''Firerate Boost'' is the boost supplied by the '''Commander''' in decimal form (for example, 10% is 0.1).
+**For example, a Level 4 '''Commander''' (20%) will decrease the firerate of a [[Towers|tower]] firing from 1 second to 0.833 seconds.
+***While in the game it may look like the firerate is rounded down to the second decimal, this is only visual. The firerate is longer than that and is not rounded up.
+**The '''Commander''' can boost the pump time of the [[Enforcer]], meaning it is fully effective on it if units are not included.
+**The '''Commander''' cannot decrease the cooldown of burst towers.
+**The '''Commander''' also cannot boost the [[Executioner]] due to the axe not returning in time to take advantage.
+*When placing a '''Commander''', try to place it near as many towers as possible, as this will allow for a high number of towers to be boosted.
+**This is also true in reverse; it is recommended that you place your towers close to a '''Commander''' (if there is one) for the [[Firerate Buff]].
+**This also includes cliff-based towers. The [[Ace Pilot]] and [[Pursuit]] can also be boosted, though their towers (runway and helipad, respectively) must be within range of the '''Commander'''.
+*Slow firing towers, such as the [[Rocketeer]] or [[Ranger]], will benefit massively from the [[Firerate Buff]] that the '''Commander''' supplies.
+*Placing three Level 2+ '''Commanders''' and activating their ''Call to Arms'' ability one at a time every 10 seconds is one of the most effective ways to utilize the '''Commander''', as ''Call to Arms'' will be permanently active if this is done correctly, providing the 20% buff permanently.
+**You can also place two Level 2+ '''Commanders''' and constantly sell and replace one to renew its ''Call to Arms'' ability to save a placement for another tower, or four if you want to be safer with keeping the ''Call to Arms'' ability active at all times while not having to worry about selling and replacing '''Commanders''', as having three '''Commanders''' require you to be quite precise to keep the 20% buff at all times, and you may get distracted from using its ability while upgrading other towers.
+**There are a few ways to tell when to use another ability, which include waiting until the [[Firerate Buff]] icon and visuals disappears, waiting until the ability timer gets reduced by 10 (which without [[Skills]], is it reaching 20) or waiting until the attack timer reaches 2.
+*You can increase the range in which the '''Commander''' can affect towers and the ''Call to Arms'' range by using the [[DJ Booth]].
+**The [[DJ Booth]] can also be useful at reducing the usage cost of the ''Support Caravan'' ability.
+*It is best to use the '''Commander's''' ''Call to Arms'' ability on a boss with high health (such as a major boss, like the [[Fallen King]]).
+**Be aware that some bosses have blocking abilities, meaning that a wrongly timed ''Call to Arms'' ability will be useless.
+**Additionally, you cannot activate the ''Call to Arms'' ability if the '''Commander''' is stunned.
+***To overcome this, the [[Medic]] can be used to protect the '''Commander''' from stuns, though this is generally not recommended as the shield also provides boosts best used on other towers.
+***Alternatively, you can sell and replace the '''Commander'''. Do note that this will remove the passive [[Firerate Buff]] for a short while if there are no other '''Commanders''' placed down.
+*Be aware that you cannot stack the ''Call to Arms'' ability.
+**If a ''Call to Arms'' ability is still active for towers, then activating another ''Call to Arms'' will not grant any additional buff. However, it resets the duration of the ability.
+**However, the ''Call to Arms'' ability can stack with boosts from other towers, like the [[Gladiator]]'s ''Warrior's Call''.
+*The '''Commander''' cannot boost the firerate of the [[Ace Pilot]]'s bombs, [[Pursuit]]'s missiles, [[Commando]]'s missiles or any [[units]] like the [[Railgun Tank]] from the [[Military Base]] or the [[Tommy Goon 2]] from the [[Crook Boss]], even if their associated tower is in the range of a '''Commander'''.
+*If the ''Call to Arms'' ability is active, and a new tower is placed in the range of the '''Commander''', that tower will not be boosted by the ability until it is activated again.
+*While the '''Commander''' has flying, lead and hidden detection, it can only attack enemies with these attributes periodically with its two abilities. Given how costly it is to get its abilities and that they both have lengthy cooldowns, relying solely on the '''Commander''' to fight against enemies with these attributes is unwise.
+**Other towers like the [[Ace Pilot]], [[Electroshocker]] and [[Militant]] are more effective and reliable against them, with the '''Commander''' buffing them.
+*When Call of Arms is used, the fireate buff is applied instantly, however, the displayed timer only appears once the animation is done, which is roughly 2 seconds. Therefore, to be more optimized with chaining the buff, wait until the timer hits 2, then activate the next ability.
 
 ==Trivia==
-*The '''Medic''' is the second tower that has the ability to restore base health, although it is currently the only one to do so.
-**The first tower able to do so was the [[Gladiator]], although it has since lost this ability.
-**It is not the only way of healing back base health, as the [[Turkey Leg]] and [[Fruit Cake]] consumables can also do that.
-*The item the '''Medic''' carries from level 0-4 resembles the [https://wiki.teamfortress.com/wiki/Medi_Gun Medi Gun] from ''[[wp:Team Fortress 2|Team Fortress 2]]''.
-**Originally, the '''Medic''' carried a syringe gun that resembled the [https://wiki.teamfortress.com/wiki/Syringe_Gun Syringe Gun] in ''[[wp:Team Fortress 2|Team Fortress 2]]''.
-**The tower also had an old description ("''MEDICCCCC!''") that was a reference to ''[[wp:Team Fortress 2|Team Fortress 2]]''.
-*At Level 2, [[w:c:r2da:Vitamins|Vitamins]] from ''R2DA'' can be seen on the '''Medic's''' belt.
-*The '''Medic's''' Level 3 upgrade name is a reference to the meme [https://knowyourmeme.com/memes/yeah-this-is-big-brain-time Yeah, This Is Big Brain Time].
-*During [[Hardcore Testing BETA]], the '''Medic''' had the same upgrade icons and upgrading prices as the [[Mecha Base]], barring the placement cost.
-*Until the [[Overhaul v1.0|Overhaul Update]], the '''Medic's''' Level 5 upgrade was misspelled as ''Goddess or Healing''.
-*The '''Medic''' was unable to heal base health in the now removed [[Versus]] mode.
-*The '''Medic''' originally had a red cross shoulder patch, which violates [[wp:Geneva Conventions|Geneva Conventions Laws]], as it is being used by the [[wp:International Committee of the Red Cross|ICRC]] and is strictly restricted to be associated with real-world medical aid.
-*The '''Medic's''' ''Ubercharge'' ability icon came from ''[https://www.roblox.com/games/183929867/Ashea-Reborn Ashea: Reborn]'', where it was used as an icon for the Heal skill.
-*From [[Null Medic]]'s logbook description, the '''Medic''' has scars on itself.
+*When the game was in Alpha, the '''Commander's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "sans support sans support".
+*The '''Commander''' is heavily inspired by the ''Tower Battles'' tower of the [[w:c:roblox-tower-battles:Commander|same name]].
+*Before the [[Overhaul v1.0|Overhaul Update]], the spawnrate of the [[Military Base]] could be boosted by a '''Commander''' (so that the spawn time between units is reduced), but it was through an unconventional method. The stated buff was subtracted from the spawnrate (an example is a 25% buff on a Level 5 [[Military Base]]; the spawnrate would decrease from 45 to 44.75).
+**As 44.75 seconds rounded up to 45 seconds, there was no noticeable decrease in spawn time.
+**However, this did not apply to the spawnrates of [[units]] from the [[Crook Boss]].
+***Interestingly, the ''Call to Arms'' reduced the spawnrate of units from the [[Military Base]] further, but even this buff could not produce a noticeable decrease in spawnrate.
+*The original ''Call to Arms'' sound was just a short shout from ''Call of Duty: Modern Warfare 2''. This is the same sound used for the [[Gladiator]]'s ''Warrior's Call'' ability.
+**The second version of the ''Call to Arms'' sounds were voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were three lines voiced by him.
+***There were multiple other voice lines that were recorded by JOHN ROBLOX, however they were never added to the game. All of those lines, along with variations of current lines that were not added, can be heard [https://www.youtube.com/watch?v=eIH8aGkA6p8 here].
+***This version was replaced by [https://youtube.com/@enthrallist_?si=mjsg6lUOnuGaMRk4 Enthrallist], a developer for the game, on the 16th of May 2024 to match the quality of other voice lines at the time as well as to have a professional voice act the lines.
+**The {{Color|Deluxe|Maid}} (and formerly the {{Color|Eclipse|Eclipse}}) skin voice lines are voiced by [https://www.roblox.com/users/74363346/profile nekoriru].
+**The {{Color|Eclipse|Eclipse}} skin voice lines are voiced by [https://www.roblox.com/users/959606619/profile AerelisVA].
+**The {{Color|Other|Umbra}} skin voice lines are voiced [https://www.roblox.com/users/959606619/profile AerelisVA].
+**The {{Color|ContentCreator|Eggrypted}} skin voice lines were voiced by [https://www.youtube.com/@eggrypted Eggrypted].
+*The [[Commander]] has a cat named Claudette, which can be seen in certain [[Story Mode|Story]] mode cutscenes, like [[Welcome Recruit]]. It was added to the game as a tribute to BelowNatural's and Maddy's first cat, which has passed away in early 2026.<ref>[[File:ClaudetteProof.png|280px]]<br/>https://x.com/GlagglezRBLX/status/2088343563230724469</ref>
+*Originally, when the '''Commander''' was first added to the game, you could stand on the wooden stool before placing the '''Commander''' down.
+*Prior to the [[v1.8.0|Community Maps Update]], the '''Commander''' used to appear alongside the [[Pyromancer]], [[Scout]], [[Sniper]] and [[Minigunner]] on the "Triumph" screen. This was changed to your towers' loadout. 
+**Before the [[Overhaul v1.0|Overhaul Update]], it appeared alongside the [[Commando]].
+**During [[Hardcore Testing BETA]], it appeared alongside the [[Minigunner]]. 
+***The "Triumph" screen used the {{Color|Premium|Galactic}} skin instead of the Default skin.
+**Before the [[v1.0.0|Solar Eclipse Update]], it appeared alongside the [[Soldier]].
+*Before the [[Release v1.0|MEGA Update]], multiple ''Call to Arms'' abilities could be stacked. This could reduce the firerate of towers that ordinarily had high, like the [[Ranger|Outlaw]], to low firerates. Due to most slow firing towers dealing a lot of damage in a single shot, this could easily kill major bosses, like the [[Gold Titan]].
+*There was a [https://twitter.com/belownatural/status/1214209129587367940 poll] made on BelowNatural's Twitter that held contestants for the next {{Color|Golden}} skin. One of the options, which was the most chosen, was a {{Color|Golden}} '''Commander''' skin.
+**Instead of a {{Color|Golden}} '''Commander''' skin being made, there was instead a {{Color|Golden}} [[Cowboy]] skin. It is unknown why this change was made.
+*The [[Commander (Pizza Party)|Commander]] enemy from [[Pizza Party]] is based on the '''Commander''' tower.
+*From [[Null Missile APC]]'s logbook description, the APC was his first vehicle he ever commanded, since he was promoted.
+*Commander is a [[w:c:alter-ego:Commander|playable character]] in [[Paradoxum Games]]' second game, ''ALTER EGO''.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+
 {{Scroll|text=
+*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
+** '''Commander''' added.
+**{{Bug}} The '''Commander's''' [[Firerate Buff]] can be overwritten by a weaker '''Commander''' [[Firerate Buff]].
+**{{Bug}} The '''Commander's''' [[Firerate Buff]] will be removed from all towers in its range when sold, even if they are in range of another '''Commander'''.
+**{{Bug}} Towers do not receive the [[Firerate Buff]] in the gained range when the '''Commander''' is upgraded.
+**{{Bug}} The '''Commander's''' ''Call to Arms'' ability can stack infinitely.
 *'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**'''Medic''' added.
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
-**New skin: {{Color|Halloween2019|Witch}}
-*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**{{Bug}} ''Cleansing'' ability range is not increased by [[Range Buff]]s.
-*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
-**New skin: {{Color|Premium|Cyber}}
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**'''Medic''' is now immune to stun from boss stomps.
-*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
-**New skin: {{Color|Valentine|Valentines}}
-*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Upgrade names added.
+**''Call to Arms'' ability now affects the activated '''Commander'''.
 **Statistical changes:
-***'''Level 3'''
-****Range increased from +1 to +3.
-*****{{Bug}} This was not changed in the upgrade description.
-****Damage decreased from +3 to +2.
-*****{{Bug}} This was not changed in the upgrade description.
+***'''Base'''
+****Range increased from 8 to 14.
+***'''Level 2'''
+****Hidden detection removed.
+****''Call to Arms'' [[Firerate Buff]] increased from +10% to +30%.
+****''Call to Arms'' cooldown decreased from 70s to 30s.
+****''Call to Arms'' ability attack time increased from 8 seconds to 25-30 seconds.
+**New ''Call to Arms'' sound effects and particles.
+**{{Bug}} The '''Commander''' always provides a fixed +10% [[Firerate Buff]] regardless of upgrades.
+**{{Bugfix}} ''Call to Arms'' ability no longer stacks.
+*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
+**New skin: {{Color|Halloween2019|Gargoyle}}
+*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
+**{{Bug}} [[Range Buff]]s do not increase the range of the ''Call to Arms'' ability.
+**{{Bugfix}} The '''Commander''' now properly provides [[Firerate Buff]]s according to upgrades.
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**New skins: {{Color|Basic|Red}}, {{Color|Basic|Green}}, {{Color|Premium|Victorian}}, {{Color|Premium|Galactic}}, {{Color|Premium|General}}, {{Color|Other|War Lord}}
+**''Call to Arms'' sound effects changed.
+**Level 2 renamed from ''Dog Tags'' to ''Intimidation''.
+**Level 3 renamed from ''G.I. Joe'' to ''Call to Arms''.
+**Level 5 renamed from ''Space Force Leader'' to ''Commander Of The World''.
 *'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
+**New skins: {{Color|Bunny|Bunny}}, {{Color|Other|Spring Time}}
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**{{Bug}} Level 0 and 1 '''Commander''' no longer supply a 10% [[Firerate Buff]].
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Unlock cost decreased from {{Coins|2,000}} to {{Coins|1,500}}.
+**Unlock cost increased from {{Coins|1,500}} to {{Coins|3,500}}.
+**{{Level|5}} requirement added. 
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 1.05 to 1.03.
+****Damage decreased from 6 to 4.
+****Firerate decreased from 1.05 to 0.53.
+****Range decreased from 14 to 12.
+***'''Level 1'''
+****Cost increased from {{Money|300}} to {{Money|850}}.
+****Range increased from +1 to +2.
+****[[Firerate Buff]] changed from 10% to 10% > 15%.
+****Renamed from ''Gloves'' to ''Leadership''.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|1.05 > 0.85|-0.2}} to {{Tooltip|1.03 > 0.83|-0.2}}.
+****Cost increased from {{Money|850}} to {{Money|1,800}}.
+****Range decreased from +1 to 0.
+****''Call to Arms'' ability unlocked, moved from Level 3.
+***** ''Call to Arms'' ability attack time decreased from 25-30 seconds to 10 seconds.
+****Renamed from ''Intimidation'' to ''Call to Arms''.
 ***'''Level 3'''
-****Damage decreased from +2 to +0.
-****Firerate changed from {{Tooltip|0.85 > 0.55|-0.3}} to 0.83.
+****Cost increased from {{Money|2,000}} to {{Money|5,500}}.
+****Range increased from +1 to +2.
+****Damage increased from +0 to +2.
+****[[Firerate Buff]] changed from 15% to 15% > 20%.
+****Renamed from ''Call to Arms'' to ''Intense Training''.
 ***'''Level 4'''
-****Firerate changed from 0.55 to {{Tooltip|0.83 > 0.68|-0.15}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|0.55 > 0.35|-0.2}} to {{Tooltip|0.68 > 0.33|-0.35}}.
-**{{Bug}} Level 3 upgrade description says that the '''Medic's''' damage is increased from 6 to 6.
+****Cost increased from {{Money|5,500}} to {{Money|9,000}}.
+****Range increased from +1 to +4.
+****Damage increased from +2 to +4.
+****[[Firerate Buff]] changed from 15% > 20% to 20% > 25%.
+****Firerate changed from {{Tooltip|1.05 > 0.8|-0.25}} to 0.53.
+****Renamed from ''Boot Camp Training'' to ''World Leader''.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Commander of The World''
+*****Cost: {{Money|10,000}}
+*****+2 Range
+*****+2 Damage
+*****20% > 25% [[Firerate Buff]]
+*****0.8 > 0.55 Firerate
+**New skins: {{Color|Deluxe|Maid}}, {{Color|Deluxe|Neko}}
+**''Call to Arms'' ability no longer affects the activated '''Commander'''.
+*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
+**New skin: {{Color|Spooky|Ghost}}
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**{{Bug}} '''Medic's''' ''Cleansing'' ability does not work as it only applies to the old stun system, not the new one.
+**New skin: {{Color|Frost|Frost}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0a]]
+**New skin: {{Color|Other|Bloxy}}
+*'''4 December 2021''' - [[v1.0.0]]
+**New skin: {{Color|Eclipse|Eclipse}}
+**{{Bug}} {{Color|Eclipse|Eclipse}} skin uses incorrect voicelines.
+*'''11 December 2021''' - [[v1.0.0]]f
+**{{Bugfix}} {{Color|Eclipse|Eclipse}} skin now uses correct voicelines.
+*'''17 February 2022'''
+**{{Bug}} The '''Commander's''' firerate boost decreases the firerate to a number with a very long decimal.
 *'''12 March 2022''' - [[v1.1.0]]
+**[[Firerate Buff]] equation changed.
+**''Call to Arms'' effect changed.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**'''Medic''' is now immune to all stuns.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 1.03 to 1.025.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|1.03 > 0.83|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|0.83 > 0.68|-0.15}} to {{Tooltip|0.825 > 0.675|-0.15}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|0.68 > 0.33|-0.2}} to {{Tooltip|0.675 > 0.325|-0.35}}.
-**{{Bugfix}} '''Medic's''' ''Cleansing'' ability now works properly.
-**{{Bugfix}} ''Cleansing'' ability range is now increased by [[Range Buff]]s.
-**{{Bug}} '''Medic''' no longer heals the base health.
-*'''12 March 2022''' - [[v1.1.0]]a
-**{{Bugfix}} '''Medic''' now heals the base health.
+****Firerate decreased from 0.53 to 0.525.
+**{{Bug}} Towers in the gained range from the [[Range Buff]]s do not receive the passive [[Firerate Buff]] until the '''Commander''' is upgraded.
+**{{Bugfix}} The '''Commander's''' firerate boost no longer decreases the firerate to a number with a very long decimal.
+**{{Bugfix}} The '''Commander's''' [[Firerate Buff]] is no longer be overwritten by a weaker '''Commander''' [[Firerate Buff]].
+**{{Bugfix}} The '''Commander's''' [[Firerate Buff]] is no longer be removed from all towers in its range when sold, even if they are in range of another '''Commander'''.
+**{{Bugfix}} Towers now receive the [[Firerate Buff]] in the gained range when the '''Commander''' is upgraded.
+**{{Bugfix}} [[Range Buff]] now increases the range of the ''Call to Arms'' ability.
+*'''16 March 2022''' - [[v1.1.0]]d
+**{{Bugfix}} Towers in the gained range from the [[Range Buff]]s do now receive the passive [[Firerate Buff]] without the '''Commander''' being upgraded.
+*'''17 April 2022''' - [[v1.2.0]]
+**New skin: {{Color|DuckHunt|Ducky}}
+*'''23 April 2022''' - [[v1.2.1]]
+**New skin: {{Color|Other|Plushie}}
+*'''5 August 2022''' - [[v1.3.1]]
+**The '''Commander''' now returns to its original rotation after the ''Call to Arms'' ability ends.
+**New skin: {{Color|EndOfSummer|Lifeguard}}
 *'''21 December 2022''' - [[v1.6.0]]
+**Level requirement removed.
 **Skin rarity added to all skins.
-*'''23 January 2023''' - [[v1.6.0]]j
-**{{Color|Unobtainable|Valentines}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
-*'''14 February 2023''' - [[v1.6.1]]
-**New skin: {{Color|ColdFront|Stranded}}
-*'''21 March 2023''' - [[v1.6.3]]e
-**{{Bug}} '''Medic'''s base health regeneration no longer increases at Level 2 and Level 4.
-**{{Bugfix}} Level 3 upgrade description no longer says that the '''Medic's''' damage has increased from 6 to 6.
-*'''31 October 2023''' - [[v1.9.0]]g
-**New skin: {{Color|Lunar|Masquerade}}
-*'''24 February 2024''' - [[v1.14.0]]
-**{{Bug}} '''Medic''' can only heal the base health in [[Tutorial]] and [[Easy Mode]].
-*'''8 March 2024''' - [[v1.15.0]]
-**{{Bugfix}} '''Medic''' now can heal the base health in every mode.
+**{{Color|Premium|Galactic}} skin rarity changed from {{Color|Rare}} to {{Color|Uncommon}}.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''14 February 2023''' - [[v1.6.2]]
+**New skins: {{Color|ColdFront|Brisk}}, {{Color|Lovely|Valentines}}
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
+*'''5 August 2023''' - [[v1.8.4]]
+**New skin: {{Color|Pirate|Pirate}}
+*'''28 October 2023''' - [[v1.9.0]]
+**New skin: {{Color|Other|Umbra}}
+*'''21 December 2023''' - [[v1.11.0]]
+**Unlock cost increased from {{Coins|3,500}} to {{Coins|4,000}}.
+**New skin: {{Color|Phantom|Phantom}}
+*'''28 January 2024''' - [[v1.12.0]]
+**New skin: {{Color|ContentCreator|Eggrypted}}
+*'''19 April 2024''' - [[v1.19.0]]
+**{{Bug}} ''Call to Arms'' costs {{Money|300}} to use.
+*'''19 April 2024''' - [[v1.19.0|v1.19.1]]
+**{{Bugfix}} ''Call to Arms'' is free again.
+*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
+**Placement limit of 3 '''Commanders''' per player added.
+**'''Commander''' now attacks enemies when any ability is activated, not just the ''Call to Arms'' ability.
+***Attack time stacks if multiple ability are used in a short period of time.
+**New ''Call to Arms'' ability effects.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|650}} to {{Money|850}}.
+****Range decreased from 12 to 9.
+****Damage decreased from 4 to 0.
+****Firerate decreased from 0.525 to 0.
+****Hidden detection added.
+****Flying detection added.
+****[[Firerate Buff]] increased from 10% to 12.5%.
+***'''Level 1'''
+****Cost decreased from {{Money|850}} to {{Money|300}}.
+****Range decreased from +2 to +0.
+****[[Firerate Buff]] changed from 10% > 15% to 12.5% > 15%.
+***'''Level 2'''
+****Cost increased from {{Money|1,800}} to {{Money|2,500}}.
+****Lead detection added.
+****Range increased from +0 to +2.
+****Damage increased from +0 to +10.
+****Firerate changed from 0.525 to {{Tooltip|0 > 0.625|+0.625}}.
+****''Call to Arms''' ability buff reduced from 30% to 15%.
+***'''Level 3'''
+****Range decreased from +2 to +1.5.
+****Damage increased from +2 to +5.
+****[[Firerate Buff]] decreased from 15% > 20% to 15% > 17.5%.
+****''Call to Arms''' ability buff changed from 30% to 15% > 22.5%.
+***'''Level 4'''
+****Cost increased from {{Money|9,000}} to {{Money|15,000}}.
+****Range decreased from +4 to +1.5.
+****Damage increased from +4 to +10.
+****[[Firerate Buff]] decreased from 20% > 25% to 17.5% > 20%.
+****''Call to Arms''' ability buff changed from 30% to 22.5% > 30%.
+****''Support Caravan'' ability added.
+****Name changed from ''World Leader'' to ''Strength in Numbers''.
+**{{Bug}} {{Color|ContentCreator|Eggrypted}}, {{Color|Other|Umbra}}, {{Color|Phantom|Phantom}} and {{Color|Other|Spring Time}} skins do not have models and cannot be placed down.
+**{{Bug}} Attack bar will occasionally list a ridiculously long attack time due to it containing long decimals.
+**{{Bug}} Attack bar does not appear until the tower is reselected.
+**{{Bug}} If two ''Call to Arms'' abilities are active at once, once the first ends the visual indicators for the buff will disappear when they should still remain.
+*'''16 May 2024''' - [[v1.21.0|v1.21.9a]]
+**{{Bugfix}} {{Color|ContentCreator|Eggrypted}}, {{Color|Other|Umbra}} and {{Color|Phantom|Phantom}} skins now have models, allowing for them to be placed down.
+*'''18 May 2024''' - [[v1.22.0]]
+**'''New skins''': {{Color|Vigilante|Vigilante}}, {{Color|Premium|Pattern}}
+**Placement limit increased from 3 to 4.
+**Statistical changes:
+***'''Level 2'''
+****''Call to Arms'' cooldown decreased from 40 to 30.
+***'''Level 4'''
+****''Support Caravan'' cost decreased from {{Money|3,000}} to {{Money|2,000}}.
+**{{Bugfix}} {{Color|Other|Spring Time}} now has models and can be placed down.
 *'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s.
+**{{Bug}} [[Missile APC]] damage is boosted by [[Damage Buff]]s.
+*'''4 July 2024''' - [[v1.25.0|v1.25.4]]
+**New skin: {{Color|Deluxe|Patriotic}}
 *'''2 August 2024''' - [[v1.27.0]]
-**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
 *'''21 August 2024''' - [[v1.28.0]]
 **New skin: {{Color|FallenMission|Fallen}}
-*'''12 March 2025''' - [[v1.57.0]]
-**Statistical changes:
-***'''Base'''
-****Damage increased from 2 to 3.
-****Range increased from 10 to 12.
-****Cost decreased from {{Money|900}} to {{Money|450}}.
-****Lead detection added.
-***'''Level 1'''
-***Damage decreased from +1 to +0.
-****Firerate changed from 1.025 to {{Tooltip|1.025 > 0.775|-0.25}}.
-****Cost decreased  from {{Money|400}} to {{Money|200}}.
-***'''Level 2'''
-****Damage decreased from +3 to +2.
-****Firerate decreased from {{Tooltip|1.025 > 0.825|-0.2}} to 0.775.
-****Range decreased from +1 to +0.
-****Healing increased from 5 > 7 to 5 > 10.
-*****{{Bug}} Healing does not increase.
-****Hidden detection added, moved from Level 3.
-****Cost increased from {{Money|900}} to {{Money|400}}.
-***'''Level 3'''
-****Damage increased from +0 to +3.
-****Firerate decreased from 0.825 to {{Tooltip|0.775 > 0.675|-0.1}}.
-****Hidden detection moved to Level 2.
-****Cost decreased from {{Money|2,400}} to {{Money|800}}.
-***'''Level 4'''
-****Damage increased  from +2 to +4.
-****Range decreased from +1 to +0.
-****Firerate decreased from {{Tooltip|0.825 > 0.675|-0.15}} to {{Tooltip|0.675 > 0.525|-0.15}}.
-****Healing increased from 7 > 10 to 10 > 25.
-*****{{Bug}} Healing does not increase.
-****Cost decreased from {{Money|4,500}} to {{Money|1,750}}.
-***'''Level 5'''
-****Firerate decreased from {{Tooltip|0.675 > 0.325|-0.35}} to {{Tooltip|0.525 > 0.325|-0.2}}.
-****''Cleansing'' ability cooldown decreased from 30 to 20.
-****Healing increased from 10 to 25 > 100.
-*****{{Bug}} Healing does not increase.
-****Flying detection added.
-****Cost decreased from {{Money|6,500}} to {{Money|5,000}}.
-*'''16 April 2025''' - [[v1.59.0]]
-**{{Bug}} ''Cleansing'' ability does not function properly if certain tower/skins are placed in its range. This includes the {{Color|CoinCrate|The Flea}} and {{Color|CoinCrate|The Beast}} [[Jester]] skins. In future updates, [[Biologist]], {{Color|DuckyRevenge|Spring Time}} [[Cowboy]], {{Color|DuckyRevenge|Duck}} [[Rocketeer]], {{Color|DuckyRevenge|Duck}} [[Necromancer]], {{Color|EventMission|Ducky}} [[DJ Booth]], {{Color|Other|Mecha Bunny}} [[Cowboy]] and [[Swarmer]] were added/changed which break it too.
+*'''23 October 2024''' - [[v1.37.0]]
+**New skin: {{Color|Hexscape|Wasteland}}
 *'''9 April 2025''' - [[v1.60.0]]
 **Support role added.
-*'''28 May 2025''' - [[v1.65.0]]
-**{{Bugfix}} ''Cleansing'' no longer breaks.
-*'''25 June 2025''' - [[v1.68.0]]
-**Unlock cost decreased from {{Coins|1,500}} to {{Coins|800}}.
-*'''20 August 2025''' - [[v1.73.0]]
-**'''Medic''' is no longer capable of attacking enemies, now it only shields other towers. This provides them with buffs and an immunity to stuns.
-**''Cleansing'' ability replaced with ''Ubercharge''. Functionality changed from removing all stuns from towers to applying an additional buff to assigned towers and giving them all detections.
-**Now can overheal the base health without [[Skills]], as it has its own separate limit per '''Medic'''.
-**Updated tooltips.
-**Unlock cost increased from {{Coins|800}} to {{Coins|2,000}}.
-**Placement limit of 5 added.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|450}} to {{Money|500}}.
-****Damage removed.
-****Firerate removed.
-****Max targets of 1 added.
-****Shield recharge speed of 8 added.
-****Overheal limit of 0 added.
-****Tower selection cooldown of 0.5 added.
-****[[Firerate Buff]] of 20% added.
-****Lead detection removed.
-***'''Level 1'''
-****Cost increased from {{Money|200}} to {{Money|300}}.
-****Range decreased from +1 to +0.
-****Max targets increased from +0 to +1.
-***'''Level 2'''
-****Cost increased from {{Money|400}} to {{Money|750}}.
-****Range increased from +0 to +2.
-****Max targets increased from +0 to +1.
-****Healing decreased from +5 to +0.
-****Overheal limit increased from +0 to +5.
-****Shield recharge speed changed from 0 to 8 > 6.
-****Hidden detection removed.
-***'''Level 3'''
-****Cost increased from {{Money|800}} to {{Money|2,700}}.
-****Range decreased from +3 to +1.
-****Healing decreased from +0 to +5.
-****Overheal limit increased from +0 to +5.
-****Unlocks ''Ubercharge''.
-*****Replaces the former ''Cleansing'' ability.
-*****Grants a 20% [[Damage Buff]] and all detections.
-*****Lasts 7.5 seconds.
-***'''Level 4'''
-****Cost increased from {{Money|1,750}} to {{Money|6,000}}.
-****Range increased from +0 to +3.
-****Max targets increased from +0 to +1.
-****Healing decreased from +15 to +10.
-****Overheal limit increased from +0 to +10.
-****Shield recharge speed changed from 0 to 6 > 4.5.
-****[[Damage Buff]] changed from 0% to 20% > 27.5%.
-****''Ubercharge'' duration changed 0 to 7.5 > 10.
-***'''Level 5'''
-****Cost increased from {{Money|5,000}} to {{Money|16,000}}.
-****Max targets increased from +0 to +1.
-****Healing decreased from +75 to +5.
-****Overheal limit increased from +0 to +30.
-****Shield recharge speed changed from 0 to 4.5 > 2.
-****[[Damage Buff]] changed from 0% to 27.5% > 40%.
-****''Ubercharge'' duration changed 0 to 10 > 15.
-****Name changed from ''Goddess Of Healing'' to ''PHD''.
-**New skin: {{Color|EventMission|Mermaid}}
-**{{Bug}} '''Medic''' can switch assigned towers while [[Time Scale]] is set to 0x.
-**{{Bug}} '''Medic''' can stack its [[Firerate Buff]].
-**{{Bug}} Despite being unable to shield towers with another player's '''Medic''', selecting another player's '''Medic''' will still prevent selecting towers.
-**{{Bug}} Having a '''Medic''' selected prevents viewing enemy statistics.
-**{{Bug}} '''Medic''' can sometimes abruptly end the match in a loss at random waves.
-**{{Bug}} '''Medic's''' ''Ubercharge'' reloads the ammo of specifically just the [[Commando]] and [[Gatling Gun]] after it ends.
-**{{Bugfix}} '''Medic's''' healing now increases with upgrades.
-*'''20 August 2025''' - [[v1.73.0|v1.73.2]]
-**{{Bugfix}} It is no longer possible to stack '''Medic''' [[Firerate Buff]]s through a specific method of switching which '''Medic''' is shielding a tower after the shield breaks.
-*'''3 September 2025''' - [[v1.74.0]]
-**{{Bugfix}} '''Medic''' no longer causes the match to abruptly end in a loss.
-*'''24 September 2025''' - [[v1.75.0]]
-**Statistical changes:
-***'''Base'''
-****[[Firerate Buff]] decreased from 20% to 15%.
-***'''Level 1'''
-****Cost increased from {{Money|300}} to {{Money|500}}.
-***'''Level 3'''
-****''Ubercharge'' no longer gives all detections.
-*****{{Bug}} Despite what the update log says, this change did not actually happen. Detections are still applied by ''Ubercharge''.
+*'''16 April 2025''' - [[v1.61.0]]
+**Attack bar now goes down by 0.1 seconds instead of 1 second.
+**{{Bugfix}} Attack time bar no longer lists ridiculously long time remaining due to the decimals present on it.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Aqua}}
+**{{Bug}} {{Color|Surf|Aqua}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Aqua}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
 *'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Plague}}
-*'''12 November 2025''' - [[v1.80.0]]
-**{{Bugfix}} ''Ubercharge'' no longer gives towers hidden detection, though other detections are still applied when they should not be.
-*'''26 November 2025''' - [[v1.81.0]]
-**Statistical changes:
-***''Ubercharge'' ability now has a 15 second cooldown upon placing it down.
+**New skin: {{Color|Null|Werewolf}}
+*'''12 November 2025''' - [[V1.80.0]]
+**{{Bug}} ''Call to Arms'' particle effect stays indefinitely on towers sold during it.
 *'''20 December 2025''' - [[v1.83.0]]
-**New skins: {{Color|Showtime|Bartender}}
+**''Call to Arms'' internal name changed from ''Call Of Arms'' to ''Call to Arms''.
+**New skins: {{Color|Christmas2025|Candy Cane}}, {{Color|Showtime|Director}}
 *'''20 December 2025''' - [[v1.83.0]]a
-**New skins: {{Color|FinalAct|Toy Ballerina}}
-*'''23 December 2025''' - [[v1.83.0|v1.83.4]]
-**{{Bug}} All shielded towers except one once their shield is broken do not lose their [[Firerate Buff]] and never regain their shield without assigning them a shield again.
-**{{Bugfix}} It is no longer possible to stack the [[Medic]]'s [[Firerate Buff]].
+**New skins: {{Color|FinalAct|Wonderland}}
+*'''29 December 2025''' - [[v1.83.0|v1.83.7]]
+**''Call to Arms'' internal name changed from ''Call to Arms'' to ''Call Of Arms''.
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 5 to 4.
+**Placement limit increased from 4 to 6.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|500}} to {{Money|400}}.
+****Cost decreased from {{Money|850}} to {{Money|650}}.
+****Range increased from 9 to 10.
+****[[Firerate Buff]] decreased from 12.5% to 10%.
+****Hidden detection removed, moved to Level 2.
+****Flying detection removed, moved to Level 2.
 ***'''Level 1'''
-****Cost decreased from {{Money|500}} to {{Money|400}}.
+****Cost increased from {{Money|300}} to {{Money|400}}.
+****[[Firerate Buff]] changed from 12.5% > 15% to 10% > 15%.
 ***'''Level 2'''
-****Cost decreased from {{Money|750}} to {{Money|675}}.
+****Cost decreased from {{Money|2,500}} to {{Money|2,450}}.
+****Damage increased from +10 to +15.
+****Range increased from +2 to +3.
+****''Call to Arms'' [[Firerate Buff]] decreased from 15% to 10%.
 ***'''Level 3'''
-****''Ubercharge'' duration increased from 7.5 to 10.
+****Cost decreased from {{Money|5,500}} to {{Money|4,500}}.
+****Damage increased from +5 to +15.
+****Range increased from +1.5 to +2.
+****''Call to Arms'' [[Firerate Buff]] changed from 15% > 22.5% to 10% > 15%.
 ***'''Level 4'''
-****''Ubercharge'' damage buff increased from 20% > 27.5% to 20% > 30%.
-****''Ubercharge'' duration increased from 7.5 > 10 to 10 > 12.5.
-***'''Level 5'''
-****Cost decreased from {{Money|16,000}} to {{Money|15,000}}.
-****Shield Recharge Speed increased from 4.5 > 2 to 4.5 > 4.
-*'''11 February 2026''' - [[v1.85.0]]
-**New skin: {{Color|Valentines2026|Second Chance}}
-*'''11 March 2026''' - [[v1.86.0]]
-**New skin: {{Color|Shamrock|Shamrock}}
-**{{Bugfix}} ''Ubercharge'' no longer gives flying and lead detection.
-*'''22 May 2026''' - [[v1.91.0]]
-**{{Bugfix}} Shields now properly re-appear on towers after they were hit by a stunning ability.
-*'''5 June 2026''' - [[v2.0.0]]
-**''Ubercharge'' now grants the [[Medic]] [[Freeze Immunity]] while it is active.
-**''Ubercharge'' now gives shielded towers both the [[Stun Immunity]] and [[Freeze Immunity]].
-**Statistical changes:
-***'''Base'''
-****Overheal limit increased from 0 to 100.
-***'''Level 1'''
-****Cost increased from {{Money|400}} to {{Money|425}}.
-***'''Level 2'''
-****Cost decreased from {{Money|675}} to {{Money|650}}.
-****Healing increased from +0 to +5.
-****Overheal limit decreased from +5 to +0.
-***'''Level 3'''
-****Cost decreased from {{Money|2,950}} to {{Money|2,700}}.
-****Overheal limit decreased from +5 to -90.
-****Healing decreased from +5 to +0.
-***'''Level 4'''
-****Overheal limit increased from +10 to +90.
-****Shield recharge speed changed from 6 > 4.5 to 6 > 5.
-****''Ubercharge'' damage buff changed from 20% > 30% to 20% > 27.5%.
-***'''Level 5'''
 ****Cost decreased from {{Money|15,000}} to {{Money|14,000}}.
-****Overheal limit decreased from +30 to +0.
-****Healing decreased from +5 to +0.
-****Shield recharge speed changed from 4.5 > 4 to 5 > 4.5.
-****''Ubercharge'' damage buff changed from 30% > 40% to 27.5% > 35%.
-****Name changed from '''PHD''' to '''MD-PhD'''.
+****Damage increased from +10 to +20.
+****Range increased from +1.5 to +2.
+****''Call to Arms'' [[Firerate Buff]] changed from 22.5% > 30% to 15% > 20%.
+****[[Gunner APC]] health decreased from 250 to 200.
+****[[Gunner APC]] damage decreased from 10 to 8.
+****[[Missile APC]] health decreased from 400 to 300.
+****[[Missile APC]] damage decreased from 50 to 40.
+****[[Missile APC]] flying detection removed.
+*'''22 May 2026''' - [[v1.91.0]]
+**''Call to Arms'' now has its display name set to that, correcting some issues with it being displayed as its internal ''Call Of Arms'' name.
+**New skin: {{Color|Backyard|Referee}}
+*'''5 June 2026''' - [[v2.0.0]]
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes (Regular):
+***'''Level 2'''
+****Firerate changed from {{Tooltip|0 > 0.625|+0.625}} to {{Tooltip|0 > 0.6|+0.6}}.
+***'''Level 4'''
+****[[Gunner APC]] damage decreased from 8 to 7.
+****[[Gunner APC]] firerate decreased from 0.225 to 0.2.
+****[[Missile APC]] firerate decreased from 2.025 to 4.
 *'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Beach}}
+**New skin: {{Color|Beach|Seal}}
 *'''17 July 2026''' - [[v2.3.0]]
-**Statistical changes:
-***'''Level 3'''
-****Overheal limit increased from -90 to +90.
-***'''Level 4'''
-****Overheal limit decreased from +90 to +0.
-*'''14 August 2026''' - [[v2.6.0]]
-**Statistical changes:
-***'''Level 3'''
-****Cost decreased from {{Money|2,950}} to {{Money|2,400}}.
-****''Ubercharge'' duration decreased from 10 to 7.5.
-***'''Level 4'''
-****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
-****''Ubercharge'' duration changed from 10 > 12.5 to 7.5 > 10.
-***'''Level 5'''
-****Cost decreased from {{Money|14,000}} to {{Money|12,000}}.
-****''Ubercharge'' duration changed from 12.5 > 15 to 10.
+**Updated tower information to refer to the buffs it provides as a cooldown buff.
 }}
 
 ==Notes==
 <references/>
-
 
 
 {{TowerNavBox}}

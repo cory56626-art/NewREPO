@@ -7,117 +7,51 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Medic''' is an intermediate support tower that provides various buffs to other towers and replenishes base health after it has been lost. It can be unlocked from the store for {{Coins|2,000}}.\n\nThe '''Medic''' heals base health by a specified amount each wave with ''Take your Vitamins''. The amount of health healed increases with the level of the '''Medic''' and the amount of '''Medics''' placed down. It also has the ability to overheal, increasing base health to value higher than its maximum. If there are multiple '''Medics''', the health regeneration and overheal stacks with each '''Medic'''. Similarly, these effects stack with other sources of such effects, like [[Skills]].\n\nThe '''Medic''' holds a medi gun, which it can use to apply a shield to towers. Whenever shielded, the tower will have a shield modifier on them. This shield provides a passive 15% [[Firerate Buff]] and an immunity to stuns. It does not grant an immunity to debuffs or freeze. If the tower is stunned, its shield will be broken instead, reappearing shortly after. At Level 0, it can only shield one tower, but this is increased up to five at Level 5. It cannot shield other '''Medics''' or any tower currently shielded by another '''Medic'''. There is a 0.5 second cooldown before another tower can be selected or deselected.\n\nAt Level 3, it gets the '''Ubercharge''' ability. This provides all towers shielded by the '''Medic''' with a [[Damage Buff]], [[Stun Immunity]] and [[Freeze Immunity]] for a brief period of time. While it may look like this is tied to the shield, this is not actually the case. The [[Damage Buff]] will remain on the tower, even if its shield is gone. Unassigning a tower with '''Medic''' will however remove the buffs from it. While this ability is active, the '''Medic''' itself gains the [[Freeze Immunity]].\n\nThe '''Medic''' has a placement limit of 4.",
+  "description": "The '''Commander''' is an advanced support [[Towers|tower]] that decreases the firerate of towers within its range, increasing their damage output. It can be purchased in the store for {{Coins|4,000}}.\n\nThe '''Commander''' provides a 10% firerate boost to towers in its range, making them attack enemies faster. This buff can be boosted further at Level 2+ through the ''Call to Arms'' ability, which increases it by 10% for ten seconds. Both buffs get higher with levels, with the passive buff getting increased to 20% and the ''Call to Arms'' ability buff getting increased to 20%. It also has a second ability, ''Support Caravan'', which costs {{Money|2,000}} to use. This will summon two [[Gunner APC]]s and one [[Missile APC]] on the map. When any ability used, it will enter fury mode, allowing it to attack any enemy in its range for ten seconds. The attack time from using an ability stacks if multiple are used at once or when an ability is used while it is attacking. When an ability is used while fury mode is active, the timer for it will stop until the ability animation is finished.\n\nThe '''Commander''' is the primary [[Narrators|narrator]] in most matches. Text dialogue appears beside the image or the model with an idle animation of the '''Commander''', corresponding to the appearance of certain [[waves]]. This dialogue appears regardless of whether a '''Commander''' tower is present on the map, and the image or model of the '''Commander''' next to the dialogue will display different emotions.\n\nThe '''Commander''' has a placement limit of six per player.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "unknown",
         "level": 1,
-        "title": "Medical Precautions",
-        "cost": "{{Money|425}}",
-        "information": "+1 Max Targets\n\n\nSell Price Changes to {{Money|275}}",
+        "title": "Leadership",
+        "cost": "{{Money|400}}",
+        "information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}",
         "claims": [
           {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Targets",
-            "text": "+1 Max Targets"
+            "kind": "note",
+            "text": "10% > 15% Buff"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Medical Precautions",
-          "Cost": "{{Money|425}}",
-          "Image": "[[File:MedicUpg1.png|100px]]",
-          "Information": "+1 Max Targets\n\n\nSell Price Changes to {{Money|275}}"
+          "Upgrade Title": "Leadership",
+          "Cost": "{{Money|400}}",
+          "Image": "[[File:Commander Upgrade 1  New.png|100px]]",
+          "Information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}"
         }
       },
       {
         "mode": "unknown",
         "level": 2,
-        "title": "Prescribed Vitamins",
-        "cost": "{{Money|650}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+5 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n\nSell Price Changes to {{Money|491}}",
+        "title": "Call to Arms",
+        "cost": "{{Money|2,450}}",
+        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}",
         "claims": [
           {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
           },
           {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Targets",
-            "text": "+1 Max Targets"
+            "kind": "grant",
+            "stat": "Flying Detection",
+            "text": "+Flying Detection"
           },
           {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Healing",
-            "text": "+5 Healing"
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
           },
-          {
-            "kind": "set",
-            "from": "8",
-            "to": "6",
-            "stat": "Shield Recharge Speed",
-            "text": "8 > 6 Shield Recharge Speed"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Prescribed Vitamins",
-          "Cost": "{{Money|650}}",
-          "Image": "[[File:MedicUpg2.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+5 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n\nSell Price Changes to {{Money|491}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "BIG BRAIN",
-        "cost": "{{Money|2,400}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]\n\n'''Medic''' gains [[Freeze Immunity]] for the duration\n\n•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|1,291}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them Stun Immunity and Freeze Immunity"
-          },
-          {
-            "kind": "note",
-            "text": "'''Medic''' gains Freeze Immunity for the duration"
-          },
-          {
-            "kind": "note",
-            "text": "20% Damage Buff"
-          },
-          {
-            "kind": "note",
-            "text": "7.5 Duration }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "BIG BRAIN",
-          "Cost": "{{Money|2,400}}",
-          "Image": "[[File:MedicUpg3.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]\n\n'''Medic''' gains [[Freeze Immunity]] for the duration\n\n•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|1,291}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Medical Pack",
-        "cost": "{{Money|5,000}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+10 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|2,958}}",
-        "claims": [
           {
             "kind": "delta",
             "delta": "+3",
@@ -126,49 +60,41 @@
           },
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Targets",
-            "text": "+1 Max Targets"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Healing",
-            "text": "+10 Healing"
+            "delta": "+15",
+            "stat": "Damage",
+            "text": "+15 Damage"
           },
           {
             "kind": "set",
-            "from": "6",
-            "to": "5",
-            "stat": "Shield Recharge Speed",
-            "text": "6 > 5 Shield Recharge Speed"
+            "from": "0",
+            "to": "0.6",
+            "stat": "Firerate",
+            "text": "0 > 0.6 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Call to Arms Ability",
+            "text": "+Call to Arms Ability"
           },
           {
             "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% Damage Buff"
-          },
-          {
-            "kind": "set",
-            "from": "7.5",
-            "to": "10",
-            "stat": "Duration }}",
-            "text": "7.5 > 10 Duration }}"
+            "text": "10% Firerate Buff"
           }
         ],
         "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Medical Pack",
-          "Cost": "{{Money|5,000}}",
-          "Image": "[[File:MedicUpg4.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+10 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|2,958}}"
+          "Level": "Level 2",
+          "Upgrade Title": "Call to Arms",
+          "Cost": "{{Money|2,450}}",
+          "Image": "[[File:Commander_Upgrade_3.png|100px]]",
+          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}"
         }
       },
       {
         "mode": "unknown",
-        "level": 5,
-        "title": "MD-PhD",
-        "cost": "{{Money|12,000}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price Changes to {{Money|6,958}}",
+        "level": 3,
+        "title": "Intense Training",
+        "cost": "{{Money|4,500}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}",
         "claims": [
           {
             "kind": "delta",
@@ -178,24 +104,66 @@
           },
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Targets",
-            "text": "+1 Max Targets"
+            "delta": "+15",
+            "stat": "Damage",
+            "text": "+15 Damage"
           },
           {
-            "kind": "set",
-            "from": "5",
-            "to": "4.5",
-            "stat": "Shield Recharge Speed",
-            "text": "5 > 4.5 Shield Recharge Speed"
+            "kind": "note",
+            "text": "15% > 17.5% Buff"
+          },
+          {
+            "kind": "note",
+            "text": "10% > 15% Call To Arms Buff"
           }
         ],
         "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "MD-PhD",
-          "Cost": "{{Money|12,000}}",
-          "Image": "[[File:MedicUpg4.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price Changes to {{Money|6,958}}"
+          "Level": "Level 3",
+          "Upgrade Title": "Intense Training",
+          "Cost": "{{Money|4,500}}",
+          "Image": "[[File:Commander Upgrade 4 New.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Strength in Numbers",
+        "cost": "{{Money|14,000}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+20",
+            "stat": "Damage",
+            "text": "+20 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "17.5% > 20% Buff"
+          },
+          {
+            "kind": "note",
+            "text": "15% > 20% Call To Arms Buff"
+          },
+          {
+            "kind": "grant",
+            "stat": "Support Caravan Ability",
+            "text": "+Support Caravan Ability"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Strength in Numbers",
+          "Cost": "{{Money|14,000}}",
+          "Image": "[[File:SupportCaravanIcon.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}"
         }
       }
     ],
@@ -205,111 +173,45 @@
     {
       "mode": "unknown",
       "level": 1,
-      "title": "Medical Precautions",
-      "cost": "{{Money|425}}",
-      "information": "+1 Max Targets\n\n\nSell Price Changes to {{Money|275}}",
+      "title": "Leadership",
+      "cost": "{{Money|400}}",
+      "information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}",
       "claims": [
         {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Targets",
-          "text": "+1 Max Targets"
+          "kind": "note",
+          "text": "10% > 15% Buff"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Medical Precautions",
-        "Cost": "{{Money|425}}",
-        "Image": "[[File:MedicUpg1.png|100px]]",
-        "Information": "+1 Max Targets\n\n\nSell Price Changes to {{Money|275}}"
+        "Upgrade Title": "Leadership",
+        "Cost": "{{Money|400}}",
+        "Image": "[[File:Commander Upgrade 1  New.png|100px]]",
+        "Information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}"
       }
     },
     {
       "mode": "unknown",
       "level": 2,
-      "title": "Prescribed Vitamins",
-      "cost": "{{Money|650}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+5 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n\nSell Price Changes to {{Money|491}}",
+      "title": "Call to Arms",
+      "cost": "{{Money|2,450}}",
+      "information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}",
       "claims": [
         {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
         },
         {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Targets",
-          "text": "+1 Max Targets"
+          "kind": "grant",
+          "stat": "Flying Detection",
+          "text": "+Flying Detection"
         },
         {
-          "kind": "delta",
-          "delta": "+5",
-          "stat": "Healing",
-          "text": "+5 Healing"
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
         },
-        {
-          "kind": "set",
-          "from": "8",
-          "to": "6",
-          "stat": "Shield Recharge Speed",
-          "text": "8 > 6 Shield Recharge Speed"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Prescribed Vitamins",
-        "Cost": "{{Money|650}}",
-        "Image": "[[File:MedicUpg2.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+5 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n8 > 6 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n\nSell Price Changes to {{Money|491}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 3,
-      "title": "BIG BRAIN",
-      "cost": "{{Money|2,400}}",
-      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]\n\n'''Medic''' gains [[Freeze Immunity]] for the duration\n\n•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|1,291}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Range",
-          "text": "+1 Range"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them Stun Immunity and Freeze Immunity"
-        },
-        {
-          "kind": "note",
-          "text": "'''Medic''' gains Freeze Immunity for the duration"
-        },
-        {
-          "kind": "note",
-          "text": "20% Damage Buff"
-        },
-        {
-          "kind": "note",
-          "text": "7.5 Duration }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "BIG BRAIN",
-        "Cost": "{{Money|2,400}}",
-        "Image": "[[File:MedicUpg3.png|100px]]",
-        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Ubercharge|Description = Boosts the damage of shielded towers, grants them [[Stun Immunity]] and [[Freeze Immunity]]\n\n'''Medic''' gains [[Freeze Immunity]] for the duration\n\n•20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n•7.5 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|1,291}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "Medical Pack",
-      "cost": "{{Money|5,000}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+10 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|2,958}}",
-      "claims": [
         {
           "kind": "delta",
           "delta": "+3",
@@ -318,49 +220,41 @@
         },
         {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Targets",
-          "text": "+1 Max Targets"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Healing",
-          "text": "+10 Healing"
+          "delta": "+15",
+          "stat": "Damage",
+          "text": "+15 Damage"
         },
         {
           "kind": "set",
-          "from": "6",
-          "to": "5",
-          "stat": "Shield Recharge Speed",
-          "text": "6 > 5 Shield Recharge Speed"
+          "from": "0",
+          "to": "0.6",
+          "stat": "Firerate",
+          "text": "0 > 0.6 Firerate"
+        },
+        {
+          "kind": "grant",
+          "stat": "Call to Arms Ability",
+          "text": "+Call to Arms Ability"
         },
         {
           "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% Damage Buff"
-        },
-        {
-          "kind": "set",
-          "from": "7.5",
-          "to": "10",
-          "stat": "Duration }}",
-          "text": "7.5 > 10 Duration }}"
+          "text": "10% Firerate Buff"
         }
       ],
       "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Medical Pack",
-        "Cost": "{{Money|5,000}}",
-        "Image": "[[File:MedicUpg4.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n+10 Healing [[File:HealingIcon.svg|20px|Healing]]\n\n6 > 5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 20% > 27.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n7.5 > 10 Duration [[File:Cooldown Icon.png|20px|Duration]]}}\n\n\nSell Price Changes to {{Money|2,958}}"
+        "Level": "Level 2",
+        "Upgrade Title": "Call to Arms",
+        "Cost": "{{Money|2,450}}",
+        "Image": "[[File:Commander_Upgrade_3.png|100px]]",
+        "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}"
       }
     },
     {
       "mode": "unknown",
-      "level": 5,
-      "title": "MD-PhD",
-      "cost": "{{Money|12,000}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price Changes to {{Money|6,958}}",
+      "level": 3,
+      "title": "Intense Training",
+      "cost": "{{Money|4,500}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}",
       "claims": [
         {
           "kind": "delta",
@@ -370,24 +264,66 @@
         },
         {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Targets",
-          "text": "+1 Max Targets"
+          "delta": "+15",
+          "stat": "Damage",
+          "text": "+15 Damage"
         },
         {
-          "kind": "set",
-          "from": "5",
-          "to": "4.5",
-          "stat": "Shield Recharge Speed",
-          "text": "5 > 4.5 Shield Recharge Speed"
+          "kind": "note",
+          "text": "15% > 17.5% Buff"
+        },
+        {
+          "kind": "note",
+          "text": "10% > 15% Call To Arms Buff"
         }
       ],
       "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "MD-PhD",
-        "Cost": "{{Money|12,000}}",
-        "Image": "[[File:MedicUpg4.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Targets\n\n5 > 4.5 Shield Recharge Speed [[File:Cooldown Icon.png|20px|Shield Recharge Speed]]\n\n{{CollapsibleUpgrade|Title = Upgraded Ubercharge|Description = 27.5% > 35% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price Changes to {{Money|6,958}}"
+        "Level": "Level 3",
+        "Upgrade Title": "Intense Training",
+        "Cost": "{{Money|4,500}}",
+        "Image": "[[File:Commander Upgrade 4 New.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Strength in Numbers",
+      "cost": "{{Money|14,000}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+20",
+          "stat": "Damage",
+          "text": "+20 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "17.5% > 20% Buff"
+        },
+        {
+          "kind": "note",
+          "text": "15% > 20% Call To Arms Buff"
+        },
+        {
+          "kind": "grant",
+          "stat": "Support Caravan Ability",
+          "text": "+Support Caravan Ability"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Strength in Numbers",
+        "Cost": "{{Money|14,000}}",
+        "Image": "[[File:SupportCaravanIcon.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}"
       }
     }
   ],
@@ -397,11 +333,11 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "N/A",
-      "lead": "N/A",
-      "flying": "N/A",
-      "immune": "{{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4"
+      "hidden": "{{Attr|Hidden|Level 2+}}",
+      "lead": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
+      "flying": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
+      "immune": "None",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6"
     },
     "pvp": {
       "hidden": null,
@@ -414,27 +350,26 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Medic",
-        "image-static": "DefaultMedicIconAug25.png",
-        "image-dynamic": "MTMedicDynamicIcon.png",
-        "image-dynamic-start": "1",
-        "unlockcost": "{{Coins|2,000}}",
-        "basecost": "{{Money|400}}",
-        "basesellingprice": "{{Money|133}}",
+        "title": "Commander",
+        "image-static": "Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->",
+        "image-dynamic": "CommanderDynamic.png",
+        "unlockcost": "{{Coins|4,000}}",
+        "basecost": "{{Money|650}}",
+        "basesellingprice": "{{Money|216}}",
         "role": "Support",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4",
-        "basedamage": "N/A",
-        "damagetype": "N/A",
-        "basefirerate": "N/A",
-        "baserange": "[[File:Range Icon.png|20px|Range]]12",
-        "hidden_detection": "N/A",
-        "lead_detection": "N/A",
-        "flying_detection": "N/A",
-        "immune": "{{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
+        "damagetype": "Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0",
+        "baserange": "[[File:Range Icon.png|20px|Range]]10",
+        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+        "lead_detection": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
+        "flying_detection": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
+        "immune": "None",
         "footprint": "1.5",
-        "tooltip-1": "A support tower that heals the base at the start of each wave and can assign its medi gun to nearby towers to give them a shield and a cooldown boost.",
-        "tooltip-2": "Active ability uber charge also provides a temporary damage boost to all assigned towers."
+        "tooltip-1": "A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.",
+        "tooltip-2": "At final level also unlocks the ability to summon a caravan of friendly APC units."
       },
       "positional": []
     }
@@ -442,29 +377,28 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Medic",
-      "image-static": "DefaultMedicIconAug25.png",
-      "image-dynamic": "MTMedicDynamicIcon.png",
-      "image-dynamic-start": "1",
-      "unlockcost": "{{Coins|2,000}}",
-      "basecost": "{{Money|400}}",
-      "basesellingprice": "{{Money|133}}",
+      "title": "Commander",
+      "image-static": "Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->",
+      "image-dynamic": "CommanderDynamic.png",
+      "unlockcost": "{{Coins|4,000}}",
+      "basecost": "{{Money|650}}",
+      "basesellingprice": "{{Money|216}}",
       "role": "Support",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4",
-      "basedamage": "N/A",
-      "damagetype": "N/A",
-      "basefirerate": "N/A",
-      "baserange": "[[File:Range Icon.png|20px|Range]]12",
-      "hidden_detection": "N/A",
-      "lead_detection": "N/A",
-      "flying_detection": "N/A",
-      "immune": "{{Attr|Stun}}<br/>{{Attr|Freeze}} (''Ubercharge'')",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
+      "damagetype": "Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0",
+      "baserange": "[[File:Range Icon.png|20px|Range]]10",
+      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+      "lead_detection": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
+      "flying_detection": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
+      "immune": "None",
       "footprint": "1.5",
-      "tooltip-1": "A support tower that heals the base at the start of each wave and can assign its medi gun to nearby towers to give them a shield and a cooldown boost.",
-      "tooltip-2": "Active ability uber charge also provides a temporary damage boost to all assigned towers."
+      "tooltip-1": "A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.",
+      "tooltip-2": "At final level also unlocks the ability to summon a caravan of friendly APC units."
     },
     "positional": []
   },
-  "template_count": 201
+  "template_count": 274
 }
