@@ -1,96 +1,205 @@
 {{Tabs}}
-{{SameName|Commander|Tower • [[Commander (Pizza Party)|Enemy]] • [[Commander (Narrator)|Narrator]]}}
-{{For|the [[Commando]], [[Mission Quests|For the Commander!]], a [[Mission Quests|Mission Quest]]|[[Null Commander]]}}
 {{TowerInfobox
-|title = Commander
-|image-static = Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->
-|image-dynamic = CommanderDynamic.png
-|unlockcost = {{Coins|4,000}}
-|basecost = {{Money|650}}
-|basesellingprice = {{Money|216}}
+|title = DJ Booth
+|image-static = DefaultDJBoothIconAug2024.png
+|image-dynamic = DJBoothDynamic.png
+|unlockcost = {{Coins|5,000}}
+|basecost = {{Money|850}}
+|basesellingprice = {{Money|283}}
 |role = Support
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6
-|basedamage = [[File:Damage Icon.png|20px|Damage]]0
-|damagetype = Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0
-|baserange = [[File:Range Icon.png|20px|Range]]10
-|hidden_detection = {{Attr|Hidden|Level 2+}}
-|lead_detection = {{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)
-|flying_detection = {{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])
-|immune = None
-|footprint = 1.5
-|tooltip-1 = A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.
-|tooltip-2 = At final level also unlocks the ability to summon a caravan of friendly APC units.
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]1
+|basedamage = N/A
+|damagetype = N/A
+|basefirerate = [[File:Cooldown_Icon.png|20px|Firerate]]1
+|baserange = [[File:Range Icon.png|20px|Range]]12
+|hidden_detection = N/A<ref>At Level 3, its pulses can indirectly hit hidden enemies if they are in its range, though the actual tower cannot detect them.</ref>
+|lead_detection = {{Attr|Lead|Level 3+}}
+|flying_detection = N/A<ref>At Level 3, its pulses can indirectly hit flying enemies if they are in its range, though the actual tower cannot detect them.</ref>
+|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|EventMission|Ducky}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|EventMission|Ducky}} only)
+|footprint = 2.5
+|tooltip-1 = A support tower that can switch tracks to provide either a range, discount, or damage buff to nearby towers.
+|tooltip-2 = Later levels comes{{sic}} with an active skill that will change depending on what track is active.
 }}
-{{QuoteContainer|
-{{QuoteBox|A support tower that boosts the firerate of towers within its range.|Store Description}}
-}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Who said you couldn't rave during the apocalypse? Pick between 3 different tracks to support your allies in unique ways.|Store Description}}
+|-|Version 2 =
+{{QuoteBox|Who said you couldn't rave during the apocalypse? Buffs ally troop ranges and lowers upgrade prices.|Former Store Description}}
+|-|Version 1 =
+{{QuoteBox|Who said you couldn't rave during the apocalypse?|Former Store Description}}
+</tabber>}}
 __TOC__
 ==Description==
-The '''Commander''' is an advanced support [[Towers|tower]] that decreases the firerate of towers within its range, increasing their damage output. It can be purchased in the store for {{Coins|4,000}}.
+The '''DJ Booth''' is an advanced [[Towers|tower]] that is primarily a support tower with some economic and offensive capabilities through its ''Drop the Beat'' ability unlocked at Level 3. It can be bought from the store for {{Coins|5,000}}.
 
-The '''Commander''' provides a 10% firerate boost to towers in its range, making them attack enemies faster. This buff can be boosted further at Level 2+ through the ''Call to Arms'' ability, which increases it by 10% for ten seconds. Both buffs get higher with levels, with the passive buff getting increased to 20% and the ''Call to Arms'' ability buff getting increased to 20%. It also has a second ability, ''Support Caravan'', which costs {{Money|2,000}} to use. This will summon two [[Gunner APC]]s and one [[Missile APC]] on the map. When any ability used, it will enter fury mode, allowing it to attack any enemy in its range for ten seconds. The attack time from using an ability stacks if multiple are used at once or when an ability is used while it is attacking. When an ability is used while fury mode is active, the timer for it will stop until the ability animation is finished.
+The '''DJ Booth''' provides boosts to towers in range through different tracks, which also changes the behavior of its ''Drop the Beat'' ability. 
 
-The '''Commander''' is the primary [[Narrators|narrator]] in most matches. Text dialogue appears beside the image or the model with an idle animation of the '''Commander''', corresponding to the appearance of certain [[waves]]. This dialogue appears regardless of whether a '''Commander''' tower is present on the map, and the image or model of the '''Commander''' next to the dialogue will display different emotions.
+The Purple track is unlocked on Level 0 and is active by default. It grants a 12.5% [[Range Buff]] to towers, which with Levels increases to up to 25%. When the ''Drop the Beat'' ability is used, it will create three (four at Level 5) pulses which knockback and slow down enemies. These can hit any enemy, regardless of immunities. The knockback is the regular knockback, meaning any immunity that prevents enemies from being knocked back, such as [[Stun Immunity]], will prevent the enemy from being knocked back. How far back the enemy is knocked back depends on its size. Bigger enemies will get pushed back a smaller distance than an average-sized enemy. However, only [[boss]] enemies are immune to the slowdown. The slowdown effectiveness is based on the number of towers in the '''DJ Booth's''' range, starting from 10% and increasing by 1% to up to 25%. At Level 5, base slowdown is increased to 10% and max slowness is increased to 35%. It applies a 10% [[Range Buff]] at Level 5 if the Purple track is not selected.
 
-The '''Commander''' has a placement limit of six per player.
+The Green track is unlocked on Level 0. It grants a 5% [[Discount Buff]] to towers, which with Levels increases to 15%. When the ''Drop the Beat'' ability is used, it will generate cash. There is a base amount of cash given, which is {{Money|250}}, which is increased by {{Money|35}} for every tower in range of the '''DJ Booth''', up to a total of {{Money|600}}. All three statistics are able increase to up to {{Money|750}} base cash, {{Money|75}} increase per tower and {{Money|2,250}}. It applies a 5% [[Discount Buff]] at Level 5 if the Green track is not selected.
+
+The Red track is unlocked at Level 2. It grants a 10% [[Damage Buff]] to towers, which with Levels increases to 20%. When the ''Drop the Beat'' ability is used, it will create three (four at Level 5) pulses that deal 25 damage to enemies. It can damage hidden, lead and flying enemies. This damage increases to 50 at Level 5. The pulses also drops the defense of enemies. The base defense drop is 2%, which increases by 0.25% for every tower in the '''DJ Booth's''' range up to 10%. The pulses only drops defense once, as it cannot drop more defense than what its defense drop is. For example, if the Level 5 '''DJ Booth''' has 40 towers in its range, it will only drop 15% defense from a [[Fallen Hazmat]], making it have 45% defense. It applies a 7.5% [[Damage Buff]] at Level 5 if the Red track is not selected.
+
+There is a limit of one '''DJ Booth''' per player.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Leadership|Cost = {{Money|400}}|Image = [[File:Commander Upgrade 1  New.png|100px]]|Information = 
-10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
-
-Sell Price changes to {{Money|350}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Call to Arms|Cost = {{Money|2,450}}|Image = [[File:Commander_Upgrade_3.png|100px]]|Information = +Lead Detection {{Lead|Lead Detection}}
-
-+Flying Detection {{Flying|Flying Detection}}
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-+15 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+Call to Arms Ability 
-
-•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]
+{{Upgrade|Level = Level 1|Upgrade Title = Laptop Studio|Cost = {{Money|300}}|Image = [[File:DJBoothLevel1.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
 
-Sell Price changes to {{Money|1,166}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Intense Training|Cost = {{Money|4,500}}|Image = [[File:Commander Upgrade 4 New.png|100px]]|Information = 
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-+15 Damage [[File:Damage Icon.png|20px|Damage]]
-
-15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
-
-10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
-
-
-Sell Price changes to {{Money|2,666}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Strength in Numbers|Cost = {{Money|14,000}}|Image = [[File:SupportCaravanIcon.png|100px]]|Information = 
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-+20 Damage [[File:Damage Icon.png|20px|Damage]]
-
-17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
-
-15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]
-
-+Support Caravan Ability
-
-
-Sell Price changes to {{Money|7,333}}}}
-
-==Abilities==
-{{Ability|Level Unlock = Level 2+|Cooldown Time= 30s Cooldown|Ability Title = Call to Arms|Image = [[File:Commander_Upgrade_3.png|100px]]|Information = 
-Boosts all towers' firerate in its range by a variable amount for 10 seconds. Additionally, the '''Commander''' will be able to attack enemies with its own weapon for 10 seconds.
+Sell Price changes to {{Money|383}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Party Mode|Cost = {{Money|1,250}}|Image = [[File:DJBoothLevel2.png|100px]]|Information = {{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 12.5% > 15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
 }}
-{{Ability|Level Unlock = Level 4|Cooldown Time= 60s Cooldown|Ability Title = Support Caravan<ref>This ability is disabled in [[Victory Field]].</ref>|Cost = {{Money|2,000}}|Image = [[File:SupportCaravanIcon.png|100px]]|Information = Summons two [[Gunner APC]]s and one [[Missile APC]]. Additionally, the '''Commander''' will be able to attack enemies with its own weapon for 10 seconds.
+
+{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 5% > 7.5% [[Discount Buff]] [[File:Discount Buff.png|20px|[[Discount Buff]]]]
+}}
+
+{{CollapsibleUpgrade|Style = DJRed|Title = Unlocks Red Track|Description = Provides a 10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+}}
+
+
+Sell Price changes to {{Money|800}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Thrifty Music|Cost = {{Money|3,000}}|Image = [[File:DJBoothLevel3.png|100px]]|Information = {{CollapsibleUpgrade|Title = Drop the Beat Ability|Description = Performs different abilities based on the current track
+
+•Purple: Creates pulses that knockback enemies and apply slowness to them, with slowness increasing for each tower in its range
+
+•Green: Generates {{Money|Cash}} when used, with the amount increasing for each tower in its range
+
+•Red: Creates pulses that damage and reduce defense of enemies, with each tower in its range boosting how much defense is reduced
+
+•30s Cooldown
+}}
+
+{{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 15% > 17.5% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+
++3 Pulses
+
+•1.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+•20 Knockback Force {{Knockback}}
+
+•6 Max Hits
+
+0 > 5 Slowness Time [[File:Slowness.png|20px|Slowness Time]]
+
+0% > 10% Base Slowness [[File:Slowness.png|20px|Base Slowness]]
+
+0% > 1% Slowness per Tower [[File:Slowness.png|20px|Slowness per Tower]]
+
+0% > 25% Max Slowness [[File:Slowness.png|20px|Max Slowness]]
+}}
+
+{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 7.5% > 10% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
+
+{{Money|0}} > {{Money|250}} Base Cash [[File:Cash Icon.png|20px|Base Cash]]
+
+{{Money|0}} > {{Money|35}} Cash per Tower [[File:Cash Icon.png|20px|Cash per Tower]]
+
+{{Money|0}} > {{Money|600}} Max Cash [[File:Cash Icon.png|20px|Max Cash]]
+}}
+
+{{CollapsibleUpgrade|Style = DJRed|Title = Red Track|Description = 10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
++25 Damage [[File:Damage_Icon.png|20px|Damage]]
+
++3 Pulses
+
+•1.5 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
++Lead Detection {{Lead|Lead Detection}}
+
+0% > 2% Base Defense Drop {{Defense|Base Defense Drop}}
+
+0% > 0.25% Defense Drop per Tower {{Defense|Defense Drop per Tower}}
+
+0% > 10% Max Defense Drop {{Defense|Max Defense Drop}}
+}}
+
+
+Sell Price changes to {{Money|1,800}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Audio Visualizer|Cost = {{Money|8,000}}|Image = [[File:DJBoothLevel4.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+
+{{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 17.5% > 22.5% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+
+5 > 8 Slowness Time [[File:Slowness.png|20px|Slowness Time]]
+
+25% > 30% Max Slowness [[File:Slowness.png|20px|Max Slowness]]
+}}
+
+{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 10% > 12.5% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
+
+{{Money|250}} > {{Money|500}} Base Cash [[File:Cash Icon.png|20px|Base Cash]]
+
+{{Money|35}} > {{Money|50}} Cash per Tower [[File:Cash Icon.png|20px|Cash per Tower]]
+
+{{Money|600}} > {{Money|1,250}} Max Cash [[File:Cash Icon.png|20px|Max Cash]]
+}}
+
+{{CollapsibleUpgrade|Style = DJRed|Title = Red Track|Description = 12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
++25 Damage [[File:Damage_Icon.png|20px|Damage]]
+
+2% > 3% Base Defense Drop {{Defense}}
+
+10% > 12% Max Defense Drop {{Defense|Max Defense Drop}}
+}}
+
+
+Sell Price changes to {{Money|4,466}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Apocalypse Rave|Cost = {{Money|20,000}}|Image = [[File:DJBoothLevel5.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+
+{{CollapsibleUpgrade|Title = Trinity Buff|Description = Applies all buffs at all times, but at reduced power if its track is not active
+
+•10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+
+•5% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
+
+•7.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+}}
+
+{{CollapsibleUpgrade|Style = DJPurple|Title = Purple Track|Description = 22.5% > 25% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+
++1 Pulses
+
++2 Max Hits
+
+8 > 10 Slowness Time [[File:Slowness.png|20px|Slowness Time]]
+
+30% > 35% Max Slowness [[File:Slowness.png|20px|Max Slowness]]
+}}
+
+{{CollapsibleUpgrade|Style = DJGreen|Title = Green Track|Description = 12.5% > 15% [[Discount Buff]] [[File:Discount Buff.png|20px|Discount Buff]]
+
+{{Money|500}} > {{Money|750}} Base Cash [[File:Cash Icon.png|20px|Base Cash]]
+
+{{Money|50}} > {{Money|75}} Cash per Tower [[File:Cash Icon.png|20px|Cash per Tower]]
+
+{{Money|1,250}} > {{Money|2,250}} Max Cash [[File:Cash Icon.png|20px|Max Cash]]
+}}
+
+{{CollapsibleUpgrade|Style = DJRed|Title = Red Track|Description = 15% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]
+
++25 Damage [[File:Damage_Icon.png|20px|Damage]]
+
++1 Pulses
+
+3% > 5% Base Defense Drop {{Defense}}
+
+12% > 15% Max Defense Drop {{Defense|Max Defense Drop}}
+}}
+
+
+Sell Price changes to {{Money|11,133}}}}
+
+==Ability==
+{{Ability|Level Unlock = Level 3+|Cooldown Time= 30s Cooldown|Initial Cooldown Time = 10s Initial Cooldown|Ability Title = Drop the Beat|Image = [[File:DroptheBeatAbility.png|100px]]|Information = 
+Performs an ability based on the track.
+
+•Purple: Creates pulses that knockback enemies and apply slowness to enemies, with slowness increasing for each tower in its range.
+
+•Green: Generates {{Money|Cash}} when used, with the amount increasing for each tower in its range.
+
+•Red: Creates pulses that damage and reduce defense of enemies, with each tower in its range boosting how much defense is reduced.
 }}
 
 ==Statistics==
@@ -98,46 +207,81 @@ Boosts all towers' firerate in its range by a variable amount for 10 seconds. Ad
 
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Firerate
-$TDPS$ = Damage * Missile Count / Firerate 
-$CDPS$ = ((Damage / Firerate) * 10) / 30
-$SDPS$ = ((Damage / Firerate) * 10) / 60
-$CE$ = Total Cost / Call to Arms DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 650; 400; 2450; 4500; 14000
-$FSE-DETECTION$ = 2; 2; 2
-$FSE-UPGRADE$ = Leadership; Call to Arms; Intense Training; Strength in Numbers
-$FSE-UPGRADEICON$ = 5525000768; 4594880289; 5525002879; 17512145719
-$FSE-META$ = Advanced; File:Commandernew.png
-$DREF$ = <ref>DPS is calculated as ((Damage ÷ Firerate) × Attack Time) ÷ Ability Cooldown<br>'''Attack Time''' is the time in which the Commander can attack during its abilities while '''Ability Cooldown''' is the minimum time between ability activations.<br>DPS does not include any Firerate Buffs.</ref>
-$SREF$ = <ref>If both abilites are used, DPS is the same as Call to Arms DPS.</ref>
+$COST$ = 850; 300; 1250; 3000; 8000; 20000
+$FSE-DETECTION$ = ; 3;
+$FSE-UPGRADE$ = Laptop Studio; Party Mode; Thrifty Music; Audio Visualizer; Apocalypse Rave
+$FSE-UPGRADEICON$ = 95144637961093; 113548130163293; 101877307760287; 123117801948681; 113854542319656
+$FSE-META$ = Advanced; File:DefaultDJBoothIconAug2024.png
 $R$ = $FNC-RECURSION$
 </var>
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="11" | Commander Stats
+! colspan="4" | DJ Booth Stats
 |-
-! Level !! Cost !! Total Cost !! Firerate Buff !! Call to Arms Buff !! Damage !! Firerate !! Range !! Call to Arms DPS$DREF$ !! Support Caravan DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Range
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10% || N/A || N/A || N/A || 10 || N/A || N/A || N/A
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 12
 |-
-| 1 || $R$ || $R$ || 15% || N/A || N/A || N/A || 10 || N/A || N/A || N/A
+| 1 || $R$ || $R$ || 15
 |-
-| 2 || $R$ || $R$ || 15% || 10% || 15 || 0.6 || 13 || $CDPS$ || N/A || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 15
 |-
-| 3 || $R$ || $R$ || 17.5% || 15% || 30 || 0.6 || 15 || $CDPS$ || N/A || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 15
 |-
-| 4 || $R$ || $R$ || 20% || 20% || 50 || 0.6 || 17 || $CDPS$$SREF$ || $SDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 16.5
+|-
+| 5 || $R$ || $R$ || 18
 |}
 
 {| class="wikitable stats-table"
-! colspan="8" | Support Caravan Units Stats
+! colspan="11" | Purple Track
 |-
-! Unit !! Health !! Damage !! Missile Count !! Firerate !! Range !! Explosion Range !! DPS
+! Level !! Active Range Buff !! Inactive Range Buff !! Pulses !! Cooldown !! Max Hits !! Knockback Force !! Slowness Time !! Base Slowness !! Slowness Per Tower !! Max Slowness
 |-
-| [[Gunner APC]] || 200 || 7 || N/A || 0.2 || 30 || N/A || $DPS$
+| 0 || 12.5% || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A
 |-
-| [[Missile APC]] || 300 || 40 || 4 || 2 || 25 || 5 || $TDPS$
+| 1 || 12.5% || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A
+|-
+| 2 || 15% || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A || N/A
+|-
+| 3 || 17.5% || N/A || 3 || 1.5 || 6 || 20 || 6 || 10% || 1% || 25%
+|-
+| 4 || 22.5% || N/A || 3 || 1.5 || 6 || 20 || 8 || 10% || 1% || 30%
+|-
+| 5 || 25% || 10% || 4 || 1.5 || 8 || 20 || 10 || 10% || 1% || 35%
+|}
+
+{| class="wikitable stats-table"
+! colspan="6" | Green Track
+|-
+! Level !! Active Discount Buff !! Inactive Discount Buff !! Base Cash !! Cash Per Tower !! Max Cash
+|-
+| 0 || 5% || N/A || N/A || N/A || N/A
+|-
+| 1 || 5% || N/A || N/A || N/A || N/A
+|-
+| 2 || 7.5% || N/A || N/A || N/A || N/A
+|-
+| 3 || 10% || N/A || {{Money|250}} || {{Money|35}} || {{Money|600}}
+|-
+| 4 || 12.5% || N/A || {{Money|500}} || {{Money|50}} || {{Money|1250}}
+|-
+| 5 || 15% || 5% || {{Money|750}} || {{Money|75}} || {{Money|2250}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="9" | Red Track
+|-
+! Level !! Active Damage Buff !! Inactive Damage Buff !! Damage !! Pulses !! Cooldown !! Base Defense Drop !! Defense Drop Per Tower || Max Defense Drop
+|-
+| 2 || 10% || N/A || N/A || N/A || N/A || N/A || N/A || N/A
+|-
+| 3 || 12.5% || N/A || 25 || 3 || 1.5 || 2% || 0.25% || 10%
+|-
+| 4 || 15% || N/A || 50 || 3 || 1.5 || 3% || 0.25% || 12%
+|-
+| 5 || 12.5% || 7.5% || 75 || 4 || 1.5 || 5% || 0.25% || 15%
 |}
 </div>
 </nowiki>}}
@@ -146,232 +290,52 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:May17GargoyleCommander.png|175px]]
-|[[File:Newredcommander.png|175px]]
-|[[File:Newgreencommander.png|175px]]
-|[[File:May17VictorianCommander.png|175px]]
+|[[File:NeonRaveDJBoothIconAug2024.png|175px]]
+|[[File:NekoDJBoothIconAug2024.png|175px]]
+|[[File:GhostDJBoothIconIGAug2024.png|175px]]
+|[[File:PlushieDJ.png|175px]]
 |-
 !Skin
-|{{Color|Halloween2019|Gargoyle}}
-|{{Color|Basic|Red}}
-|{{Color|Basic|Green}}
-|{{Color|Premium|Victorian}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|500}}
-|{{Coins|500}}
-|{{Robux|85}}
-|-
-!Obtained From
-|[[Halloween 2019 Crate]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Premium Crate]]
-|-
-!
-|[[File:May17GalacticCommander.png|175px]]
-|[[File:May17GeneralCommander.png|175px]]
-|[[File:WarLordCommanderDH0.png|175px]]
-|[[File:May17BunnyCommander.png|175px]]
-|-
-!Skin
-|{{Color|Premium|Galactic}}
-|{{Color|Premium|General}}
-|{{Color|Other|War Lord}}
-|{{Color|Bunny|Bunny}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Common}}
-|{{Color|Exclusive}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|{{Robux|105}}
-|{{Robux|85}}
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Premium Crate]]
-|[[Premium Crate]]
-|Exclusive
-|[[Bunny Crate]]
-|-
-!
-|[[File:16MaySpringTimeCommanderIcon.png|175px]]
-|[[File:Newmaidcommander.png|175px]]
-|[[File:Newnekocommander.png|175px]]
-|[[File:May17GhostCommander.png|175px]]
-|-
-!Skin
-|{{Color|Shamrock|Spring Time}}
-|{{Color|Deluxe|Maid}}
+|{{Color|Deluxe|Neon Rave}}
 |{{Color|Deluxe|Neko}}
 |{{Color|Spooky|Ghost}}
+|{{Color|Other|Plushie}}
 |-
 !Rarity
-|{{Color|Exclusive}}
-|{{Color|Legendary}}
 |{{Color|Rare}}
+|{{Color|Legendary}}
 |{{Color|Event}}
+|{{Color|Exclusive}}
 |-
 !Daily Store Cost
-|N/A
-|{{Robux|560}}
 |{{Robux|360}}
+|{{Robux|560}}
+|N/A
 |N/A
 |-
 !Obtained From
-|[[Shamrock Crate]]<br/>[[Codes|Code]]:<br/>HAPPY3AST3R!<ref name="expired">Expired</ref>
 |[[Deluxe Crate]]
 |[[Deluxe Crate]]
 |[[Spooky Crate]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[DJ Booth Plush]] or [[Mini DJ Booth Plush]].</ref>
 |-
 !
-|[[File:May17FrostCommander.png|175px]]
-|[[File:BloxyCommanderIcon.png|175px]]
-|[[File:eclipsecomm.png|175px]]
-|[[File:Newduckycommander.png|175px]]
+|[[File:Feb5MasqueradeDJBoothIcon.png|175px]]
+|[[File:MakoDJBoothIcon.png|175px]]
+|[[File:GarageBandDJBoothIconIG.png|175px]]
+|[[File:DuckyDJIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Frost|Frost}}
-|{{Color|Other|Bloxy}}
-|{{Color|Eclipse|Eclipse}}
-|{{Color|Ducky|Ducky}}
+|{{Color|Lunar|Masquerade}}
+|{{Color|Other|Mako}}
+|{{Color|Hexscape|Garage Band}}
+|{{Color|EventMission|Ducky}}
 |-
 !Rarity
 |{{Color|Event}}
-|{{Color|Exclusive}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|{{Coins|4,000}}
-|-
-!Obtained From
-|[[Frost Crate]]
-|[[Codes|Code]]:<br/>BLOXY21<ref name="expired"/>
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
-|-
-!
-|[[File:PlCommanderIcon.png|175px]]
-|[[File:May17LifeguardCommander.png|175px]]
-|[[File:May17ElfCommander.png|175px]]
-|[[File:Newbriskcommander.png|175px]]
-|-
-!Skin
-|{{Color|Other|Plushie}}
-|{{Color|EndOfSummer|Lifeguard}}
-|{{Color|Jolly|Holiday}}
-|{{Color|ColdFront|Brisk}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Event}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Coins|5,000}}
-|{{Coins|4,250}}
-|-
-!Obtained From
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing the [[Commander Plush (Level 4)]], [[Commander Plush (Level 1)]]  or [[Mini Commander Plush]].</ref>
-|[[End of Summer Season#Season Pass|End of Summer Season]]
-|[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
-|[[Cold Front Crate]]
-|-
-!
-|[[File:May17ValentinesCommander.png|175px]]
-|[[File:PirateCommanderIcon.png|175px]]
-|[[File:UmbraCommanderIcon.png|175px]]
-|[[File:PhantomCommanderSkin.png|175px]]
-|-
-!Skin
-|{{Color|Lovely|Valentines}}
-|{{Color|Pirate|Pirate}}
-|{{Color|Other|Umbra}} 
-|{{Color|Phantom|Phantom}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|5,500}}
-|{{Coins|5,000}}
-|N/A
-|{{Robux|499}}
-|-
-!Obtained From
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]]
-|[[Pirate Crate]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Umbra Mini Plush]].</ref>
-|[[Phantom Crate]],<br/>''Tech Tactician'' [[Mission Quests|Mission Quest]]
-|-
-!
-|[[File:May17EggryptedCommander.png|175px]]
-|[[File:PatternCommanderIcon.png|175px]]
-|[[File:VigilanteCommanderIcon.png|175px]]
-|[[File:PatriotCommanderIcon2.png|175px]]
-|-
-!Skin
-|{{Color|ContentCreator|Eggrypted}}
-|{{Color|Premium|Pattern}}
-|{{Color|Vigilante|Vigilante}}
-|{{Color|Deluxe|Patriotic}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Uncommon}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|3,000}}
-|{{Robux|105}}
-|{{Coins|5,000}}
-|{{Robux|560}} ([[Deluxe Crate]]])<br/>{{Coins|10,000}} ([[Patriotic Crate]])
-|-
-!Obtained From
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|[[Premium Crate]]
-|[[Vigilante Crate]]
-|[[Deluxe Crate]]<br/>[[Patriotic Crate]]
-|-
-!
-|[[File:FallenCommanderIconIG.png|175px]]
-|[[File:WastelandCommanderIconIG.png|175px]]
-|[[File:SantaCommanderIconIG.png|175px]]
-|[[File:AquaCommanderIconIG.png|175px]]
-|-
-!Skin
-|{{Color|FallenMission|Fallen}}
-|{{Color|Hexscape|Wasteland}}
-|{{Color|OperationICE|Santa}}
-|{{Color|Surf|Aqua}}
-|-
-!Rarity
-|{{Color|Rare}}
+|{{Color|Ultimate}}
 |{{Color|Legendary}}
 |{{Color|Rare}}
-|{{Color|Rare}}
 |-
 !Daily Store Cost
 |N/A
@@ -380,403 +344,402 @@ $R$ = $FNC-RECURSION$
 |N/A
 |-
 !Obtained From
-|''A Cold Tyrant'' [[Mission Quests|Mission Quest]]
-|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Regular Battle Pass]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|{{Robux|749}}
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Premium Battle Pass]]
+|''The Ducky went down to Georgia'' [[Mission Quests|Mission Quest]]
 |-
 !
-|[[File:WerewolfCommanderIconIG.png|175px]]
-|[[File:CandyCaneCommanderIconIG.png|175px]]
-|[[File:DirectorCommanderIconIG.png|175px]]
-|[[File:WonderlandCommanderIconIG.png|175px]]
+|[[File:SealDJIconIG.png|175px]]
+|[[File:GingerbreadDJBoothIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Null|Werewolf}}
-|{{Color|Christmas2025|Candy Cane}}
-|{{Color|Showtime|Director}}
-|{{Color|FinalAct|Wonderland}}
+|{{Color|Surf|Seal}}
+|{{Color|FinalAct|Gingerbread}}
 |-
 !Rarity
 |{{Color|Legendary}}
-|{{Color|Uncommon}}
-|{{Color|Uncommon}}
-|{{Color|Legendary}}
+|{{Color|Rare}}
 |-
 !Daily Store Cost
 |N/A
 |N/A
-|N/A
-|N/A
 |-
 !Obtained From
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
-|[[Christmas 2025 Crate]]
-|[[Showtime Crate]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
 |[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
-|-
-!
-|[[File:RefereeCommanderIconIG.png|175px]]
-|[[File:SealCommanderIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Backyard|Referee}}
-|{{Color|Beach|Seal}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|4,500}}
-|-
-!Obtained From
-|Triumph all [[Backyard Legends Event]] maps on Hard
-|[[Beach Crate]]
 |}
 
 ==Strategy==
-*Firerate boost is calculated as
-*:<big>'''Original Firerate ÷ (1+Firerate Boost)'''</big>
-*:where ''Original Firerate'' is the base firerate of the tower,
-*:''Firerate Boost'' is the boost supplied by the '''Commander''' in decimal form (for example, 10% is 0.1).
-**For example, a Level 4 '''Commander''' (20%) will decrease the firerate of a [[Towers|tower]] firing from 1 second to 0.833 seconds.
-***While in the game it may look like the firerate is rounded down to the second decimal, this is only visual. The firerate is longer than that and is not rounded up.
-**The '''Commander''' can boost the pump time of the [[Enforcer]], meaning it is fully effective on it if units are not included.
-**The '''Commander''' cannot decrease the cooldown of burst towers.
-**The '''Commander''' also cannot boost the [[Executioner]] due to the axe not returning in time to take advantage.
-*When placing a '''Commander''', try to place it near as many towers as possible, as this will allow for a high number of towers to be boosted.
-**This is also true in reverse; it is recommended that you place your towers close to a '''Commander''' (if there is one) for the [[Firerate Buff]].
-**This also includes cliff-based towers. The [[Ace Pilot]] and [[Pursuit]] can also be boosted, though their towers (runway and helipad, respectively) must be within range of the '''Commander'''.
-*Slow firing towers, such as the [[Rocketeer]] or [[Ranger]], will benefit massively from the [[Firerate Buff]] that the '''Commander''' supplies.
-*Placing three Level 2+ '''Commanders''' and activating their ''Call to Arms'' ability one at a time every 10 seconds is one of the most effective ways to utilize the '''Commander''', as ''Call to Arms'' will be permanently active if this is done correctly, providing the 20% buff permanently.
-**You can also place two Level 2+ '''Commanders''' and constantly sell and replace one to renew its ''Call to Arms'' ability to save a placement for another tower, or four if you want to be safer with keeping the ''Call to Arms'' ability active at all times while not having to worry about selling and replacing '''Commanders''', as having three '''Commanders''' require you to be quite precise to keep the 20% buff at all times, and you may get distracted from using its ability while upgrading other towers.
-**There are a few ways to tell when to use another ability, which include waiting until the [[Firerate Buff]] icon and visuals disappears, waiting until the ability timer gets reduced by 10 (which without [[Skills]], is it reaching 20) or waiting until the attack timer reaches 2.
-*You can increase the range in which the '''Commander''' can affect towers and the ''Call to Arms'' range by using the [[DJ Booth]].
-**The [[DJ Booth]] can also be useful at reducing the usage cost of the ''Support Caravan'' ability.
-*It is best to use the '''Commander's''' ''Call to Arms'' ability on a boss with high health (such as a major boss, like the [[Fallen King]]).
-**Be aware that some bosses have blocking abilities, meaning that a wrongly timed ''Call to Arms'' ability will be useless.
-**Additionally, you cannot activate the ''Call to Arms'' ability if the '''Commander''' is stunned.
-***To overcome this, the [[Medic]] can be used to protect the '''Commander''' from stuns, though this is generally not recommended as the shield also provides boosts best used on other towers.
-***Alternatively, you can sell and replace the '''Commander'''. Do note that this will remove the passive [[Firerate Buff]] for a short while if there are no other '''Commanders''' placed down.
-*Be aware that you cannot stack the ''Call to Arms'' ability.
-**If a ''Call to Arms'' ability is still active for towers, then activating another ''Call to Arms'' will not grant any additional buff. However, it resets the duration of the ability.
-**However, the ''Call to Arms'' ability can stack with boosts from other towers, like the [[Gladiator]]'s ''Warrior's Call''.
-*The '''Commander''' cannot boost the firerate of the [[Ace Pilot]]'s bombs, [[Pursuit]]'s missiles, [[Commando]]'s missiles or any [[units]] like the [[Railgun Tank]] from the [[Military Base]] or the [[Tommy Goon 2]] from the [[Crook Boss]], even if their associated tower is in the range of a '''Commander'''.
-*If the ''Call to Arms'' ability is active, and a new tower is placed in the range of the '''Commander''', that tower will not be boosted by the ability until it is activated again.
-*While the '''Commander''' has flying, lead and hidden detection, it can only attack enemies with these attributes periodically with its two abilities. Given how costly it is to get its abilities and that they both have lengthy cooldowns, relying solely on the '''Commander''' to fight against enemies with these attributes is unwise.
-**Other towers like the [[Ace Pilot]], [[Electroshocker]] and [[Militant]] are more effective and reliable against them, with the '''Commander''' buffing them.
-*When Call of Arms is used, the fireate buff is applied instantly, however, the displayed timer only appears once the animation is done, which is roughly 2 seconds. Therefore, to be more optimized with chaining the buff, wait until the timer hits 2, then activate the next ability.
+*The '''DJ Booth's''' buffs are calculated as
+*:[[Range Buff]]:<br/><math>
+\text{Original Range} \times (1 + \text{[[Range Buff]]}) 
+</math>
+*:[[Discount Buff]]:<br/><math>
+\text{Original Price} \times (1 - \text{Discount Buff}) 
+</math>
+*:[[Damage Buff]]:<br/><math>
+\text{Original Damage} \times (1 + \text{[[Damage Buff]]}) 
+</math>
+*: where ''Range'' and ''[[Discount Buff]]s'' are the buffs supplied by the '''DJ Booth''' in decimal form (for example, 10% is 0.1). Additionally, damage is rounded down.
+**For example, a Level 5 '''DJ Booth''' set on the Green Track (15% [[Discount Buff]], 10% [[Range Buff]], 7.5% [[Damage Buff]]) will decrease the cost of a Level 4 [[Ranger]] from {{Money|25,000}} to {{Money|21,250}}, increase its range from 70 to 77, and increase its damage from 875 to 940.
+**However, the [[Range Buff]] cannot increase the range of the following towers:
+***The [[Shotgunner]], as its bullets do not extend into the gained range.
+***The '''DJ Booth'''.
+****The '''DJ Booth''' also cannot decrease the upgrade prices of another '''DJ Booth'''.
+***The circling range of the [[Ace Pilot]].
+****The radius in which towers gain hidden detection from the [[Ace Pilot]] also cannot be increased.
+****These towers' attack ranges will still be increased.
+***The chain range of the [[Electroshocker]] and [[Tesla]].
+****The attack range can still be increased.
+***The deadzone ranges of towers like the [[Biologist]] and [[Engineer]].
+***The sentry building range of the [[Engineer]].
+***The explosion radius from [[Splash Damage|Splash Damage towers]] cannot be increased.
+**The [[Discount Buff]] cannot decrease a tower's placement cost. It also does not affect the [[Farm]].
+**There are multiple towers that cannot be affected by its [[Damage Buff]]:
+{{DamageBuff}}
+*Only one '''DJ Booth''' can be placed per player, so choose the spot wisely.
+**The '''DJ Booth''' has a larger placement footprint than other towers, so be aware of the space that it takes up.
+*This is very efficient with towers with high upgrade costs and long range, such as the [[Ranger]] and [[Turret]].
+**In addition, towers with short range, such as the [[Ace Pilot]], [[Crook Boss]] and [[Pyromancer]], will also greatly benefit from the range increase.
+*The '''DJ Booth''' can drop defense of enemies, though the way it is done in is unique. Instead of reducing it by 25% of the enemy's defense, it is a flat reduction based on the number of towers in its range, with the highest being 18%.
+**For example, an enemy with 50% defense and the '''DJ Booth''' has 20 towers in its range, it will have its defense reduced to 32%.
+**This means that in comparison to other defense dropping towers, like the [[Pyromancer]], it is more effective on enemies with low defense, such as the [[Molten Golem]], while the [[Pyromancer]] is more effective on enemies with higher defense, like the [[Reaver]].
+*The Purple track knocks back and slows down enemies when the ''Drop the Beat'' ability is used, making it useful at stalling hordes or singular enemies.
+**Its knockback cannot affect any enemy immune to it, such as stun immune enemies. Additionally, bigger enemies will get pushed back a smaller distance.
+**The only enemies immune to its slowdown are bosses. This makes it a great choice for slowing down enemies.
+***If you have enough money, you can keep selling and replacing the '''DJ Booth''' and use its purple track ability to constantly slow down enemies.
+*The Green track generates cash when the ''Drop the Beat'' ability is used, allowing you to gain back some cash that was spent on the '''DJ Booth'''.
+**You can stall waves of a match to give the ability more time to go off cooldown, allowing for more usages and generating you more cash.
+*The Red track deals damage to enemies when the ''Drop the Beat'' ability is used, making it useful against hordes of enemies.
+**Additionally, it can hit enemies regardless of what immunities they have, making it useful against lead, flying and hidden enemies.
+*The '''DJ Booth''' can be extremely useful in increasing the [[Commander]] and [[Mercenary Base]]'s range so that more towers receive the buffs from these towers.
+**It can also be useful at reducing their ability costs.
+*The '''DJ Booth''' can increase the [[Medic]]'s range, allowing it to shield towers that are further away.
+*While the '''DJ Booth's''' range cannot be buffed by another '''DJ Booth''', the [[Ranger]]'s [[Range Buff]] is able to buff the '''DJ Booth's''' range.
+*If you want to sell your towers, do be aware that towers within the range of the '''DJ Booth''' get less cash back in comparison to those outside the range of the '''DJ Booth'''.
+**If you would like to relocate your towers, it is not recommended to sell your '''DJ Booth''' as well because sell prices are permanently affected if a tower is upgraded with a Level 3 or higher '''DJ Booth''' nearby.
+*Due to the fact that the '''DJ Booth''' can only give the buffs from one track before Level 5 (and even then, it does not give as much passively for other tracks), it may be a good idea to change the tracks regularly to cope with the kinds of threats that may be faced.
+**If the wave is fairly easy, then it is recommended to use the Green track most of the time, with the discounts allowing you and other players to save money and build up defenses easier.
+**If there are multiple tough enemies, using the Red track is recommended to increase other towers' damage, deal extra damage via the ''Drop the Beat'' ability, and for the enemies defenses to be reduced via the ability.
+**If there are multiple fast enemies that can easily escape the range of your towers, using the Purple track's ability is great at pushing them back and slow them down. The increased range for affected towers will also ensure they can hit more enemies in their range.
 
 ==Trivia==
-*When the game was in Alpha, the '''Commander's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "sans support sans support".
-*The '''Commander''' is heavily inspired by the ''Tower Battles'' tower of the [[w:c:roblox-tower-battles:Commander|same name]].
-*Before the [[Overhaul v1.0|Overhaul Update]], the spawnrate of the [[Military Base]] could be boosted by a '''Commander''' (so that the spawn time between units is reduced), but it was through an unconventional method. The stated buff was subtracted from the spawnrate (an example is a 25% buff on a Level 5 [[Military Base]]; the spawnrate would decrease from 45 to 44.75).
-**As 44.75 seconds rounded up to 45 seconds, there was no noticeable decrease in spawn time.
-**However, this did not apply to the spawnrates of [[units]] from the [[Crook Boss]].
-***Interestingly, the ''Call to Arms'' reduced the spawnrate of units from the [[Military Base]] further, but even this buff could not produce a noticeable decrease in spawnrate.
-*The original ''Call to Arms'' sound was just a short shout from ''Call of Duty: Modern Warfare 2''. This is the same sound used for the [[Gladiator]]'s ''Warrior's Call'' ability.
-**The second version of the ''Call to Arms'' sounds were voiced by YouTuber [https://www.youtube.com/channel/UCojsj6T5tNPGPZSx7wn4coQ JOHN ROBLOX]. There were three lines voiced by him.
-***There were multiple other voice lines that were recorded by JOHN ROBLOX, however they were never added to the game. All of those lines, along with variations of current lines that were not added, can be heard [https://www.youtube.com/watch?v=eIH8aGkA6p8 here].
-***This version was replaced by [https://youtube.com/@enthrallist_?si=mjsg6lUOnuGaMRk4 Enthrallist], a developer for the game, on the 16th of May 2024 to match the quality of other voice lines at the time as well as to have a professional voice act the lines.
-**The {{Color|Deluxe|Maid}} (and formerly the {{Color|Eclipse|Eclipse}}) skin voice lines are voiced by [https://www.roblox.com/users/74363346/profile nekoriru].
-**The {{Color|Eclipse|Eclipse}} skin voice lines are voiced by [https://www.roblox.com/users/959606619/profile AerelisVA].
-**The {{Color|Other|Umbra}} skin voice lines are voiced [https://www.roblox.com/users/959606619/profile AerelisVA].
-**The {{Color|ContentCreator|Eggrypted}} skin voice lines were voiced by [https://www.youtube.com/@eggrypted Eggrypted].
-*The [[Commander]] has a cat named Claudette, which can be seen in certain [[Story Mode|Story]] mode cutscenes, like [[Welcome Recruit]]. It was added to the game as a tribute to BelowNatural's and Maddy's first cat, which has passed away in early 2026.<ref>[[File:ClaudetteProof.png|280px]]<br/>https://x.com/GlagglezRBLX/status/2088343563230724469</ref>
-*Originally, when the '''Commander''' was first added to the game, you could stand on the wooden stool before placing the '''Commander''' down.
-*Prior to the [[v1.8.0|Community Maps Update]], the '''Commander''' used to appear alongside the [[Pyromancer]], [[Scout]], [[Sniper]] and [[Minigunner]] on the "Triumph" screen. This was changed to your towers' loadout. 
-**Before the [[Overhaul v1.0|Overhaul Update]], it appeared alongside the [[Commando]].
-**During [[Hardcore Testing BETA]], it appeared alongside the [[Minigunner]]. 
-***The "Triumph" screen used the {{Color|Premium|Galactic}} skin instead of the Default skin.
-**Before the [[v1.0.0|Solar Eclipse Update]], it appeared alongside the [[Soldier]].
-*Before the [[Release v1.0|MEGA Update]], multiple ''Call to Arms'' abilities could be stacked. This could reduce the firerate of towers that ordinarily had high, like the [[Ranger|Outlaw]], to low firerates. Due to most slow firing towers dealing a lot of damage in a single shot, this could easily kill major bosses, like the [[Gold Titan]].
-*There was a [https://twitter.com/belownatural/status/1214209129587367940 poll] made on BelowNatural's Twitter that held contestants for the next {{Color|Golden}} skin. One of the options, which was the most chosen, was a {{Color|Golden}} '''Commander''' skin.
-**Instead of a {{Color|Golden}} '''Commander''' skin being made, there was instead a {{Color|Golden}} [[Cowboy]] skin. It is unknown why this change was made.
-*The [[Commander (Pizza Party)|Commander]] enemy from [[Pizza Party]] is based on the '''Commander''' tower.
-*From [[Null Missile APC]]'s logbook description, the APC was his first vehicle he ever commanded, since he was promoted.
-*Commander is a [[w:c:alter-ego:Commander|playable character]] in [[Paradoxum Games]]' second game, ''ALTER EGO''.
+*The '''DJ Booth''' is loosely based on the [[w:c:roblox-tower-battles:DJ|DJ]] from ''Tower Battles''.
+*The '''DJ Booth''' plays a certain [https://www.youtube.com/watch?v=mjrrGFxOygo music track] when placed down.
+**Some of the Default skin song vocals are from [https://www.youtube.com/watch?v=yydNF8tuVmU Harder, Better, Faster, Stronger] by Daft Punk.
+**The {{Color|Deluxe|Neon Rave}} skin song vocals are from [https://www.youtube.com/watch?v=tPeCHvAJCEQ Limb By Limb], but slightly edited.
+**The {{Color|Deluxe|Neko}} skin song vocals are from [https://www.youtube.com/watch?v=74FEilJdENs Never Regret], but slightly edited.
+**On 29th of December 2021, the {{Color|Spooky|Ghost}} skin briefly used an edited version of [https://www.youtube.com/watch?v=kpnW68Q8ltc The Only Thing They Fear Is You] from ''DOOM Eternal'' due to a bug.
+***This track was likely used during the development and was added to the game by accident, as on [https://twitter.com/paradoxum_games/status/1325273900499030016 leaks] of the {{Color|Spooky|Ghost}} skin, the same track could be heard.
+**The {{Color|Lunar|Masquerade}} plays the [[Halloween 2020 Event]] lobby theme, though without the intro.
+**The '''DJ Booth''' has a [[Gamepasses|gamepass]] that allows you to play your own custom music with it for {{Robux|85}}.
+*During [[Hardcore Testing BETA]], the {{Color|Deluxe|Neko}} skin could decrease the '''DJ Booth's''' placement footprint.
+*Before the [[Overhaul v1.0|Overhaul Update]], the '''DJ Booth's''' final upgrade's cost {{Money|9,001}} as a reference to the "IT'S OVER 9000" meme.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 
 {{Scroll|text=
-*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
-** '''Commander''' added.
-**{{Bug}} The '''Commander's''' [[Firerate Buff]] can be overwritten by a weaker '''Commander''' [[Firerate Buff]].
-**{{Bug}} The '''Commander's''' [[Firerate Buff]] will be removed from all towers in its range when sold, even if they are in range of another '''Commander'''.
-**{{Bug}} Towers do not receive the [[Firerate Buff]] in the gained range when the '''Commander''' is upgraded.
-**{{Bug}} The '''Commander's''' ''Call to Arms'' ability can stack infinitely.
-*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**Upgrade names added.
-**''Call to Arms'' ability now affects the activated '''Commander'''.
-**Statistical changes:
-***'''Base'''
-****Range increased from 8 to 14.
-***'''Level 2'''
-****Hidden detection removed.
-****''Call to Arms'' [[Firerate Buff]] increased from +10% to +30%.
-****''Call to Arms'' cooldown decreased from 70s to 30s.
-****''Call to Arms'' ability attack time increased from 8 seconds to 25-30 seconds.
-**New ''Call to Arms'' sound effects and particles.
-**{{Bug}} The '''Commander''' always provides a fixed +10% [[Firerate Buff]] regardless of upgrades.
-**{{Bugfix}} ''Call to Arms'' ability no longer stacks.
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
-**New skin: {{Color|Halloween2019|Gargoyle}}
 *'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**{{Bug}} [[Range Buff]]s do not increase the range of the ''Call to Arms'' ability.
-**{{Bugfix}} The '''Commander''' now properly provides [[Firerate Buff]]s according to upgrades.
+**'''DJ Booth''' added.
+**{{Bug}} Displayed range is not affected by upgrades.
+**{{Bug}} The '''DJ Booth's''' buffs can be overwritten by a weaker '''DJ Booth''' buffs.
+**{{Bug}} The '''DJ Booth's''' buffs will be removed from all towers in its range when sold, even if they are in range of another '''DJ Booth'''.
+**{{Bug}} Towers do not receive the buffs in the gained range when the '''DJ Booth''' is upgraded.
+**{{Bug}} If the '''DJ Booth's''' range is increased through temporary [[Range Buff]]s, towers in its gained range will keep their buffs even after the [[Range Buff]] has ended. Similarly, debuffs will make it so that towers placed in its base range will not receive its buffs, as a debuff has made them be at the time out of range.
+**Skin: {{Color|Premium|Neon Rave}}
+*'''12 November 2019''' - [[Release v1.2|Release v1.2.0a]]
+**{{Bugfix}} Displayed range is now affected by upgrades. However, the '''DJ Booth's''' bonus range cannot be visually seen.
+*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
+**Statistical changes:
+****[[Range Buff]] changed from {{Tooltip|10% > 20%|+10%}} to {{Tooltip|10% > 15%|+5%}}.
+***'''Level 4'''
+****[[Range Buff]] changed from {{Tooltip|20% > 35%|+15%}} to {{Tooltip|15% > 25%|+10%}}.
+***'''Level 5'''
+****[[Range Buff]] changed from {{Tooltip|35% > 50%|+15%}} to {{Tooltip|25% > 35%|+10%}}.
+**{{Color|Premium|Neon Rave}} skin default music changed.
+*'''29 November 2019''' - [[Release v1.4|Release v1.4.0]]
+**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|100}}.
+*'''30 November 2019''' - [[Release v1.4|Release v1.4.0a]]
+**Custom Music gamepass price increased from {{Robux|100}} to {{Robux|150}}.
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|100}}.
+*'''28 December 2019''' - [[Release v1.5|Release v1.5.0c]]
+**Custom Music gamepass price increased from {{Robux|100}} to {{Robux|150}}.
 *'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**New skins: {{Color|Basic|Red}}, {{Color|Basic|Green}}, {{Color|Premium|Victorian}}, {{Color|Premium|Galactic}}, {{Color|Premium|General}}, {{Color|Other|War Lord}}
-**''Call to Arms'' sound effects changed.
-**Level 2 renamed from ''Dog Tags'' to ''Intimidation''.
-**Level 3 renamed from ''G.I. Joe'' to ''Call to Arms''.
-**Level 5 renamed from ''Space Force Leader'' to ''Commander Of The World''.
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skins: {{Color|Bunny|Bunny}}, {{Color|Other|Spring Time}}
-*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**{{Bug}} Level 0 and 1 '''Commander''' no longer supply a 10% [[Firerate Buff]].
+**{{Bug}} Placement limit is higher than intended by 1.
+*'''13 January 2020''' - [[Release v1.6|Release v1.6.0a]]
+**{{Bugfix}} Placement limit is now the correct value.
+*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
+**{{Bugfix}} Displayed range is now affected by upgrades.
+*'''12 April 2020''' - [[Release v1.9|Release v1.9.0d]]
+**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|100}}.
+*'''17 April 2020''' - [[Release v1.9|Release v1.9.0e]]
+**Custom Music gamepass price increased from {{Robux|100}} to {{Robux|150}}.
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Unlock cost increased from {{Coins|1,500}} to {{Coins|3,500}}.
-**{{Level|5}} requirement added. 
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**New skin: {{Color|Deluxe|Neko}}
+**Placement footprint size decreased.
 **Statistical changes:
-***'''Base'''
-****Damage decreased from 6 to 4.
-****Firerate decreased from 1.05 to 0.53.
-****Range decreased from 14 to 12.
-***'''Level 1'''
-****Cost increased from {{Money|300}} to {{Money|850}}.
-****Range increased from +1 to +2.
-****[[Firerate Buff]] changed from 10% to 10% > 15%.
-****Renamed from ''Gloves'' to ''Leadership''.
 ***'''Level 2'''
-****Cost increased from {{Money|850}} to {{Money|1,800}}.
-****Range decreased from +1 to 0.
-****''Call to Arms'' ability unlocked, moved from Level 3.
-***** ''Call to Arms'' ability attack time decreased from 25-30 seconds to 10 seconds.
-****Renamed from ''Intimidation'' to ''Call to Arms''.
-***'''Level 3'''
-****Cost increased from {{Money|2,000}} to {{Money|5,500}}.
-****Range increased from +1 to +2.
-****Damage increased from +0 to +2.
-****[[Firerate Buff]] changed from 15% to 15% > 20%.
-****Renamed from ''Call to Arms'' to ''Intense Training''.
-***'''Level 4'''
-****Cost increased from {{Money|5,500}} to {{Money|9,000}}.
-****Range increased from +1 to +4.
-****Damage increased from +2 to +4.
-****[[Firerate Buff]] changed from 15% > 20% to 20% > 25%.
-****Firerate changed from {{Tooltip|1.05 > 0.8|-0.25}} to 0.53.
-****Renamed from ''Boot Camp Training'' to ''World Leader''.
-***'''Level 5 removed'''
-****Statistics:
-*****Name: ''Commander of The World''
-*****Cost: {{Money|10,000}}
-*****+2 Range
-*****+2 Damage
-*****20% > 25% [[Firerate Buff]]
-*****0.8 > 0.55 Firerate
-**New skins: {{Color|Deluxe|Maid}}, {{Color|Deluxe|Neko}}
-**''Call to Arms'' ability no longer affects the activated '''Commander'''.
-*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
-**New skin: {{Color|Spooky|Ghost}}
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**New skin: {{Color|Frost|Frost}}
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0a]]
-**New skin: {{Color|Other|Bloxy}}
-*'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-**{{Bug}} {{Color|Eclipse|Eclipse}} skin uses incorrect voicelines.
-*'''11 December 2021''' - [[v1.0.0]]f
-**{{Bugfix}} {{Color|Eclipse|Eclipse}} skin now uses correct voicelines.
-*'''17 February 2022'''
-**{{Bug}} The '''Commander's''' firerate boost decreases the firerate to a number with a very long decimal.
-*'''12 March 2022''' - [[v1.1.0]]
-**[[Firerate Buff]] equation changed.
-**''Call to Arms'' effect changed.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 0.53 to 0.525.
-**{{Bug}} Towers in the gained range from the [[Range Buff]]s do not receive the passive [[Firerate Buff]] until the '''Commander''' is upgraded.
-**{{Bugfix}} The '''Commander's''' firerate boost no longer decreases the firerate to a number with a very long decimal.
-**{{Bugfix}} The '''Commander's''' [[Firerate Buff]] is no longer be overwritten by a weaker '''Commander''' [[Firerate Buff]].
-**{{Bugfix}} The '''Commander's''' [[Firerate Buff]] is no longer be removed from all towers in its range when sold, even if they are in range of another '''Commander'''.
-**{{Bugfix}} Towers now receive the [[Firerate Buff]] in the gained range when the '''Commander''' is upgraded.
-**{{Bugfix}} [[Range Buff]] now increases the range of the ''Call to Arms'' ability.
-*'''16 March 2022''' - [[v1.1.0]]d
-**{{Bugfix}} Towers in the gained range from the [[Range Buff]]s do now receive the passive [[Firerate Buff]] without the '''Commander''' being upgraded.
-*'''17 April 2022''' - [[v1.2.0]]
-**New skin: {{Color|DuckHunt|Ducky}}
-*'''23 April 2022''' - [[v1.2.1]]
-**New skin: {{Color|Other|Plushie}}
-*'''5 August 2022''' - [[v1.3.1]]
-**The '''Commander''' now returns to its original rotation after the ''Call to Arms'' ability ends.
-**New skin: {{Color|EndOfSummer|Lifeguard}}
-*'''21 December 2022''' - [[v1.6.0]]
-**Level requirement removed.
-**Skin rarity added to all skins.
-**{{Color|Premium|Galactic}} skin rarity changed from {{Color|Rare}} to {{Color|Uncommon}}.
-**New skin: {{Color|ViolentNight|Holiday}}
-*'''14 February 2023''' - [[v1.6.2]]
-**New skins: {{Color|ColdFront|Brisk}}, {{Color|Lovely|Valentines}}
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
-*'''5 August 2023''' - [[v1.8.4]]
-**New skin: {{Color|Pirate|Pirate}}
-*'''28 October 2023''' - [[v1.9.0]]
-**New skin: {{Color|Other|Umbra}}
-*'''21 December 2023''' - [[v1.11.0]]
-**Unlock cost increased from {{Coins|3,500}} to {{Coins|4,000}}.
-**New skin: {{Color|Phantom|Phantom}}
-*'''28 January 2024''' - [[v1.12.0]]
-**New skin: {{Color|ContentCreator|Eggrypted}}
-*'''19 April 2024''' - [[v1.19.0]]
-**{{Bug}} ''Call to Arms'' costs {{Money|300}} to use.
-*'''19 April 2024''' - [[v1.19.0|v1.19.1]]
-**{{Bugfix}} ''Call to Arms'' is free again.
-*'''16 May 2024''' - [[v1.21.0|v1.21.9]]
-**Placement limit of 3 '''Commanders''' per player added.
-**'''Commander''' now attacks enemies when any ability is activated, not just the ''Call to Arms'' ability.
-***Attack time stacks if multiple ability are used in a short period of time.
-**New ''Call to Arms'' ability effects.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|650}} to {{Money|850}}.
-****Range decreased from 12 to 9.
-****Damage decreased from 4 to 0.
-****Firerate decreased from 0.525 to 0.
-****Hidden detection added.
-****Flying detection added.
-****[[Firerate Buff]] increased from 10% to 12.5%.
-***'''Level 1'''
-****Cost decreased from {{Money|850}} to {{Money|300}}.
 ****Range decreased from +2 to +0.
-****[[Firerate Buff]] changed from 10% > 15% to 12.5% > 15%.
-***'''Level 2'''
-****Cost increased from {{Money|1,800}} to {{Money|2,500}}.
-****Lead detection added.
-****Range increased from +0 to +2.
-****Damage increased from +0 to +10.
-****Firerate changed from 0.525 to {{Tooltip|0 > 0.625|+0.625}}.
-****''Call to Arms''' ability buff reduced from 30% to 15%.
 ***'''Level 3'''
-****Range decreased from +2 to +1.5.
-****Damage increased from +2 to +5.
-****[[Firerate Buff]] decreased from 15% > 20% to 15% > 17.5%.
-****''Call to Arms''' ability buff changed from 30% to 15% > 22.5%.
+****Range decreased from +2 to +1.
+****Renamed from ''Neon DJ Booth'' to ''Thrifty Music''.
 ***'''Level 4'''
-****Cost increased from {{Money|9,000}} to {{Money|15,000}}.
-****Range decreased from +4 to +1.5.
-****Damage increased from +4 to +10.
-****[[Firerate Buff]] decreased from 20% > 25% to 17.5% > 20%.
-****''Call to Arms''' ability buff changed from 30% to 22.5% > 30%.
-****''Support Caravan'' ability added.
-****Name changed from ''World Leader'' to ''Strength in Numbers''.
-**{{Bug}} {{Color|ContentCreator|Eggrypted}}, {{Color|Other|Umbra}}, {{Color|Phantom|Phantom}} and {{Color|Other|Spring Time}} skins do not have models and cannot be placed down.
-**{{Bug}} Attack bar will occasionally list a ridiculously long attack time due to it containing long decimals.
-**{{Bug}} Attack bar does not appear until the tower is reselected.
-**{{Bug}} If two ''Call to Arms'' abilities are active at once, once the first ends the visual indicators for the buff will disappear when they should still remain.
-*'''16 May 2024''' - [[v1.21.0|v1.21.9a]]
-**{{Bugfix}} {{Color|ContentCreator|Eggrypted}}, {{Color|Other|Umbra}} and {{Color|Phantom|Phantom}} skins now have models, allowing for them to be placed down.
-*'''18 May 2024''' - [[v1.22.0]]
-**'''New skins''': {{Color|Vigilante|Vigilante}}, {{Color|Premium|Pattern}}
-**Placement limit increased from 3 to 4.
-**Statistical changes:
-***'''Level 2'''
-****''Call to Arms'' cooldown decreased from 40 to 30.
-***'''Level 4'''
-****''Support Caravan'' cost decreased from {{Money|3,000}} to {{Money|2,000}}.
-**{{Bugfix}} {{Color|Other|Spring Time}} now has models and can be placed down.
+****Renamed from ''Epic Speakers'' to ''Audio Visualizer''.
+***'''Level 5'''
+****Cost decreased from {{Money|9,001}} to {{Money|9,000}}.
+****Renamed from ''Neon Rave'' to ''Apocalypse Rave''.
+**{{Bug}} Level 4 upgrade description mentions that the '''DJ Booth's''' range is increased from 18 to 18.
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
+**New Skin: {{Color|Spooky|Ghost}}
+*'''26 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1b]]
+**Custom Music gamepass price decreased from {{Robux|150}} to {{Robux|75}}.
+*'''28 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1c]]
+**Custom Music gamepass price increased from {{Robux|75}} to {{Robux|150}}.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**The '''DJ Booth''' no longer reduces the sell price of upgrades if they were bought before getting the [[Discount Buff]].
+*'''29 December 2021''' - [[v1.0.0|v1.0.0l]]
+**{{Bug}} {{Color|Spooky|Ghost}} skin plays a wrong music track.
+***This was later fixed the same day.
+*'''12 March 2022''' - [[v1.1.0]]
+**{{Bugfix}} The '''DJ Booth's''' buffs is no longer be overwritten by a weaker '''DJ Booth''' buffs.
+**{{Bugfix}} The '''DJ Booth's''' buffs no longer being removed from all towers in its range when sold, even if they are in range of another '''DJ Booth'''.
+**{{Bugfix}} Towers now receive the buffs in the gained range when the '''DJ Booth''' is upgraded.
+**{{Bug}} Custom music does not work.
+*'''13 March 2022''' - [[v1.1.0|v1.1.0b]]
+**{{Bugfix}} Custom music now works.
+*'''22 March 2022''' - [[v1.1.0|v1.1.0e]]
+**{{Color|Deluxe|Neon Rave}} skin default music removed.
+*'''25 March 2022''' - [[v1.1.0|v1.1.0g]]
+**{{Color|Deluxe|Neon Rave}} skin default music re-added.
+*'''17 April 2022''' - [[v1.2.0]]
+**{{Bug}} '''DJ Booth''' can buff the range of units.
+*'''5 August 2022''' - [[v1.3.1]]
+**{{Bugfix}} '''DJ Booth''' can no longer buff the range of units.
+*'''16 November 2022''' - [[v1.4.2|v1.4.2g]]
+**New skin: {{Color|Other|Plushie}}
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to all skins.
+*'''21 March 2023''' - [[v1.6.3|v1.6.3e]]
+**{{Bug}} '''DJ Booth's''' range is slightly bigger at Level 5 than it looks, allowing it to buff towers outside of its visible range.
+**{{Bugfix}} Level 4 upgrade description no longer mentions that the '''DJ Booth's''' range is increased from 18 to 18.
+*'''7 April 2023''' - [[v1.7.0]]
+**New range visuals.
+**{{Bug}} '''DJ Booth''' has a firerate of 0.02. 
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Bugfix}} '''DJ Booth''' no longer has a firerate of 0.02.
+*'''23 May 2023''' - [[v1.7.3|v1.7.3a]]
+**{{Bugfix}} Level 5 range is no longer slightly bigger than it looks.
+*'''31 October 2023''' - [[v1.9.0|v1.9.0g]]
+**New skin: {{Color|Lunar|Masquerade}}
+*'''21 December 2023''' - [[v1.11.0]]
+**Unlock cost increased from {{Coins|4,000}} to {{Coins|5,000}}.
+*'''19 April 2024''' - [[v1.19.0]]
+**[[Discount Buff]] now reduces the usage cost for abilities.
 *'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s.
-**{{Bug}} [[Missile APC]] damage is boosted by [[Damage Buff]]s.
-*'''4 July 2024''' - [[v1.25.0|v1.25.4]]
-**New skin: {{Color|Deluxe|Patriotic}}
-*'''2 August 2024''' - [[v1.27.0]]
-**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
-*'''21 August 2024''' - [[v1.28.0]]
-**New skin: {{Color|FallenMission|Fallen}}
+**{{Bug}} Can still provide buffs when jailed.
+*'''28 August 2024''' - [[v1.29.0]]
+**Now has a selection of tracks, which provide different buffs to towers.
+***Tracks have a 15 second cooldown.
+**Changing music now makes the new music start at the time mark the previous ended on.
+**Now mutes all other music when player's camera is close to it.
+**Updated range visuals.
+**Placement footprint size increased from 1.5 to 2.5.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|600}} to {{Money|1,200}}.
+****Range decreased from 15 to 12.
+****[[Range Buff]] increased from 10% to 12.5%, but is now only active if the purple track is selected.
+****[[Discount Buff]] increased from 0% to 5%, but is now only active if the green track is selected.
+***'''Level 1'''
+****Range increased from +2 to +3.
+***'''Level 2'''
+****Cost increased from {{Money|850}} to {{Money|1,250}}.
+****[[Range Buff]] changed from {{Tooltip|10% > 15%|+5%}} to {{Tooltip|12.5% > 15%|+2.5%}}.
+****[[Discount Buff]] changed from 0% to {{Tooltip|5% > 7.5%|+2.5%}}.
+****Unlocks a red track which provides a 10% [[Damage Buff]].
+***'''Level 3'''
+****Cost increased from {{Money|2,500}} to {{Money|3,000}}.
+****[[Range Buff]] changed from 15% to {{Tooltip|15% > 17.5%|+2.5%}}.
+****[[Discount Buff]] changed from {{Tooltip|0% > 10%|+10%}} to {{Tooltip|7.5% > 10%|+2.5%}}.
+****[[Damage Buff]] increase of {{Tooltip|10% > 12.5%|+2.5%}} added.
+****''Drop the Beat'' ability added, with a 30s cooldown.
+****Purple track ''Drop the Beat'' ability added:
+*****Three pulses added.
+*****1.5 cooldown for pulses added.
+*****Applies knockback and slowdown to enemies.
+*****Knockback force of 20 added.
+*****Base slowness of 20% added.
+*****Slowness per tower of 1% added.
+*****Max slowness of 40% added.
+****Green track ''Drop the Beat'' ability added:
+*****Base cash of {{Money|250}} added.
+*****Cash per tower of {{Money|35}} added.
+*****Max cash of {{Money|600}} added.
+****Red track ''Drop the Beat'' ability added:
+*****Three pulses added.
+*****1.5 cooldown for pulses added.
+*****Damage increased from +0 to +15.
+*****Lead detection added.
+*****Base defense drop of 5% added.
+*****Defense drop per tower of 1% added.
+*****Max defense drop of 25% added.
+***'''Level 4'''
+****Cost increased from {{Money|4,000}} to {{Money|8,000}}.
+****Range increased from +0 to +1.5.
+****[[Range Buff]] changed from {{Tooltip|15% > 25%|+10%}} to {{Tooltip|17.5% > 22.5%|+5%}}.
+****Knockback force increase of +2.5 added.
+****Max hits increase of +1 added.
+****Slowness time change of 6 > 8 added.
+****[[Discount Buff]] changed from 10% to {{Tooltip|10% > 12.5%|+2.5%}}.
+****Base cash increase of {{Money|250}} > {{Money|500}} added.
+****Cash per tower increase of {{Money|35}} > {{Money|50}} added.
+****Max cash increase of {{Money|600}} > {{Money|1,250}} added.
+****[[Damage Buff]] increase of {{Tooltip|12.5% > 15%|+2.5%}} added.
+****Damage increased from +0 to +10.
+*****Base defense drop change of 5% > 7% added.
+***'''Level 5'''
+****Cost increased from {{Money|9,000}} to {{Money|20,000}}.
+****Now applies all buffs even if the track is not active, but it does not have the full buff power.
+*****Purple track [[Range Buff]] when inactive is 12.5%.
+*****Green track [[Discount Buff]] when inactive is 7.5%.
+*****Red track [[Damage Buff]] when inactive is 10%.
+****[[Range Buff]] changed from {{Tooltip|25% > 35%|+10%}} to {{Tooltip|22.5% > 25%|+2.5%}}.
+****Knockback force decrease of -2.5 added.
+****Max hits increase of +1 added.
+****Slowness time change of 8 > 10 added.
+****Base slowness increase of 20% > 30% added.
+****Max slowness increase of 40% > 50% added.
+****Pulses increased from +0 to +1.
+****[[Discount Buff]] changed from {{Tooltip|10% > 20%|+10%}} to {{Tooltip|12.5% > 15%|+2.5%}}.
+****Base cash increase of {{Money|500}} > {{Money|750}} added.
+****Cash per tower increase of {{Money|50}} > {{Money|75}} added.
+****Max cash increase of {{Money|1,250}} > {{Money|2,250}} added.
+****[[Damage Buff]] increase of {{Tooltip|15% > 20%|+5%}} added.
+****Damage increased from +0 to +25.
+*****Base defense drop change of 7% > 10% added.
+**{{Bug}} Towers sold in the range of the '''DJ Booth''' still boost the ''Drop the Beat'' ability statistics.
+**{{Bug}} '''DJ Booth''' can slowdown bosses.
+**{{Bug}} Cooldown does not work correctly when changing tracks.
+**{{Bug}} '''DJ Booth''' checks if towers should be buffed even after they were sold.
+*'''31 August 2024''' - [[v1.29.0|v1.29.7]]
+**{{Bugfix}} '''DJ Booth''' can no longer slow down bosses.
+**{{Bugfix}} Towers sold in the range of the '''DJ Booth''' no longer boost the ''Drop the Beat'' ability statistics.
+*'''4 September 2024''' - [[v1.30.0]]
+**New skin: {{Color|Other|Mako}}
+**{{Bug}} {{Color|Other|Mako}} skin can be bought even if the player does not own the '''DJ Booth'''.
+**{{Bug}} {{Color|Other|Mako}} skin cannot be bought on mobile.
+**{{Bugfix}} Cooldown now works correctly when changing tracks.
+*'''4 September 2024''' - [[v1.30.0|v1.30.1]]
+**{{Bugfix}} {{Color|Other|Mako}} skin can now be bought on mobile.
+*'''18 September 2024''' - [[v1.32.0]]
+**{{Bugfix}} {{Color|Other|Mako}} skin can no longer be bought if the player does not own the '''DJ Booth'''.
+*'''9 October 2024''' - [[v1.35.0]]
+**{{Bugfix}} '''DJ Booth''' no longer checks if sold towers should be buffed.
 *'''23 October 2024''' - [[v1.37.0]]
-**New skin: {{Color|Hexscape|Wasteland}}
+**New skin: {{Color|Hexscape|Garage Band}}
+*'''19 November 2024''' - [[v1.41.0|v1.41.6a]]
+**{{Color|Other|Mako}} skin cost decreased from {{Robux|749}} to {{Robux|562}}.
+*'''27 November 2024''' - [[v1.43.0]]
+**{{Color|Other|Mako}} skin cost increased from {{Robux|562}} to {{Robux|749}}.
+*'''1 April 2025''' - [[v1.59.0]]
+**{{Bug}} '''DJ Booth''' cannot buff towers or play music.
+*'''1 April 2025''' - [[v1.59.0|v1.59.3]]
+**{{Bugfix}} '''DJ Booth''' now buffs towers and plays music.
 *'''9 April 2025''' - [[v1.60.0]]
 **Support role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**Attack bar now goes down by 0.1 seconds instead of 1 second.
-**{{Bugfix}} Attack time bar no longer lists ridiculously long time remaining due to the decimals present on it.
+*'''23 April 2025''' - [[v1.62.0]]
+**New skin: {{Color|EventMission|Ducky}}
+**{{Bug}} {{Color|EventMission|Ducky}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|EventMission|Ducky}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
+**{{Bug}} When in range of a [[Medic]], it will be able to affect less towers with its ''Cleansing'' ability. Stacks with each {{Color|EventMission|Ducky}} skin or other similarly bugged tower/skin in range.
+*'''28 May 2025''' - [[v1.65.0]]
+**{{Bugfix}} {{Color|EventMission|Ducky}} skin no longer breaks the [[Medic]]'s ''Cleansing'' ability.
+*'''11 June 2025''' - [[v1.67.0]]
+**{{Bug}} Cloned towers from the [[Hacker]] will still boost '''DJ Booth's''' ''Drop The Beat'' ability power, even after they disappear from the map.
+*'''18 June 2025''' - [[v1.67.0|v1.67.6]]
+**{{Bugfix}} Cloned towers from the [[Hacker]] no longer boost the ''Drop The Beat'' ability power after they have disappeared.
 *'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Aqua}}
-**{{Bug}} {{Color|Surf|Aqua}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Aqua}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Werewolf}}
-*'''12 November 2025''' - [[V1.80.0]]
-**{{Bug}} ''Call to Arms'' particle effect stays indefinitely on towers sold during it.
-*'''20 December 2025''' - [[v1.83.0]]
-**''Call to Arms'' internal name changed from ''Call Of Arms'' to ''Call to Arms''.
-**New skins: {{Color|Christmas2025|Candy Cane}}, {{Color|Showtime|Director}}
+**New skin: {{Color|Surf|Seal}}
+**{{Bug}} {{Color|Surf|Seal}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Seal}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
+*'''26 November 2025''' - [[v1.81.0]]
+**Custom Music gamepass cost decreased from {{Robux|110}} to {{Robux|82}}.
+***'''Drop the Beat''' ability now has a 10 second cooldown upon placing it down.
+*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
+**Custom Music gamepass cost increased from {{Robux|82}} to {{Robux|110}}.
 *'''20 December 2025''' - [[v1.83.0]]a
-**New skins: {{Color|FinalAct|Wonderland}}
-*'''29 December 2025''' - [[v1.83.0|v1.83.7]]
-**''Call to Arms'' internal name changed from ''Call to Arms'' to ''Call Of Arms''.
+**New skin: {{Color|FinalAct|Gingerbread}}
+*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
+**Custom Music gamepass cost decreased from {{Robux|110}} to {{Robux|82}}.
+*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
+**Custom Music gamepass cost increased from {{Robux|82}} to {{Robux|110}}.
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit increased from 4 to 6.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|850}} to {{Money|650}}.
-****Range increased from 9 to 10.
-****[[Firerate Buff]] decreased from 12.5% to 10%.
-****Hidden detection removed, moved to Level 2.
-****Flying detection removed, moved to Level 2.
-***'''Level 1'''
-****Cost increased from {{Money|300}} to {{Money|400}}.
-****[[Firerate Buff]] changed from 12.5% > 15% to 10% > 15%.
-***'''Level 2'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,450}}.
-****Damage increased from +10 to +15.
-****Range increased from +2 to +3.
-****''Call to Arms'' [[Firerate Buff]] decreased from 15% to 10%.
+****Cost decreased from {{Money|1,200}} to {{Money|850}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|5,500}} to {{Money|4,500}}.
-****Damage increased from +5 to +15.
-****Range increased from +1.5 to +2.
-****''Call to Arms'' [[Firerate Buff]] changed from 15% > 22.5% to 10% > 15%.
+****Max hits decreased from 8 to 6.
 ***'''Level 4'''
-****Cost decreased from {{Money|15,000}} to {{Money|14,000}}.
-****Damage increased from +10 to +20.
-****Range increased from +1.5 to +2.
-****''Call to Arms'' [[Firerate Buff]] changed from 22.5% > 30% to 15% > 20%.
-****[[Gunner APC]] health decreased from 250 to 200.
-****[[Gunner APC]] damage decreased from 10 to 8.
-****[[Missile APC]] health decreased from 400 to 300.
-****[[Missile APC]] damage decreased from 50 to 40.
-****[[Missile APC]] flying detection removed.
+****Knockback force decreased from +2.5 to +0.
+****Base defense drop decreased from 5% to 3%.
+****Max defense drop decreased from 25% to 12%.
+***'''Level 4'''
+****Base defense drop changed from 5% > 7% to 3% > 5%
+****Max defense drop changed from 25% to 12% > 15%.
+***'''Level 5'''
+****Range decreased from +2 to +1.5.
+****Inactive [[Range Buff]] decreased from 12.5% to 10%.
+****Inactive [[Discount Buff]] decreased from 7.5% to 5%.
+****Inactive [[Damage Buff]] decreased from 10% to 7.5%.
+****Knockback force increased from -2.5 to +0.
+****Base defense drop changed from 7% > 10% to 5% > 6%
+****Max defense drop changed from 25% to 15% > 18%.
+*'''22 April 2026''' - [[v1.89.0]]
+**Statistical changes:
+***'''Level 3'''
+****Slowness time changed from 6 to 5.
+****Base slowness decreased from 20% to 10%.
+****Max slowness decreased from 40% to 25%.
+****Damage increased from +15 to +20.
+****Base defense drop decreased from 3% to 2%.
+****Defense drop per tower decreased from 1% to 0.25%.
+****Max defense drop decreased from 12% to 10%.
+***'''Level 4'''
+****Slowness time changed from 6 > 8 to 5 > 8.
+****Max slowness changed from 40% to 25% > 30%.
+****Max hits decreased from +1 to +0.
+****Damage increased from +10 to +30.
+****Base defense drop changed from 3% > 5% to 2% > 3%.
+****Max defense drop changed from 12% > 15% to 10% > 12%.
+***'''Level 5'''
+****Base slowness changed from 20% > 30% to 10%.
+****Max slowness changed from 40% > 50% to 30% > 35%.
+****Max hits increased from +1 to +2.
+****Base defense drop changed from 5% > 6% to 3% > 5%.
+****Max defense drop changed from 15% > 18% to 12% > 15%.
 *'''22 May 2026''' - [[v1.91.0]]
-**''Call to Arms'' now has its display name set to that, correcting some issues with it being displayed as its internal ''Call Of Arms'' name.
-**New skin: {{Color|Backyard|Referee}}
+**Custom Music gamepass price decreased from {{Robux|110}} to {{Robux|82}}.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Custom Music gamepass price increased from {{Robux|82}} to {{Robux|110}}.
 *'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
-***'''Level 2'''
-****Firerate changed from {{Tooltip|0 > 0.625|+0.625}} to {{Tooltip|0 > 0.6|+0.6}}.
+**Statistical changes:
+***'''Level 3'''
+****Damage increased from +20 to +25.
 ***'''Level 4'''
-****[[Gunner APC]] damage decreased from 8 to 7.
-****[[Gunner APC]] firerate decreased from 0.225 to 0.2.
-****[[Missile APC]] firerate decreased from 2.025 to 4.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Beach|Seal}}
-*'''17 July 2026''' - [[v2.3.0]]
-**Updated tower information to refer to the buffs it provides as a cooldown buff.
+****Damage decreased from +30 to +25.
+*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
+**Gamepass price decreased from {{Robux|110}} to {{Robux|85}}.
 }}
 
 ==Notes==
 <references/>
 
 
+
 {{TowerNavBox}}
 [[Category:Ground]]
-[[Category:Ability]]
 [[Category:Support]]
+[[Category:Ability]]
