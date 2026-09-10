@@ -7,87 +7,107 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Mercenary Base''' is an advanced tower unlocked at {{Level|150}}. It can also be bought for {{Robux|945}}. It can spawn various units on the path within its range, which can deal damage to enemies or support other units. These units have varying strengths, spawnrates and purposes.\n\nAt Level 0, it spawns the [[Rifleman]], which is a basic burst unit that attacks similar to the [[Soldier]]. It gains hidden and flying detections at Level 3+.\n\nAt Level 1, it gains the ability to spawn the [[Grenadier]], which deals splash damage, which works like most other splash damage towers. The explosion is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere is decreased linearly. Additionally, its explosions bypass defense. At Level 6, the [[Grenadier]] gains defense, letting it take less damage from collisions and enemy abilities.\n\nAt Level 4, it spawns the [[Riot Guard]], which has a very high amount of health and high defense but rather low melee damage — its main form of damage is collision damage. It can hit multiple enemies with its attack, though as it requires them to be very close to each other, this does not happen often. When walking, the [[Riot Guard]] will slowly build up speed until it is running. While in this state, colliding with an enemy will damage and knock back the enemy. Bigger enemies will be pushed back a smaller distance than average-sized enemies. After colliding with or when near an enemy, the [[Riot Guard]] will remain in place to soak up more damage.\n\nAt Level 5, it can spawn the [[Field Medic]], which does no damage to enemies, but can support multiple humanoid units within its range, healing them and giving them a shield. Healing works similar to damage, as it heals units by 15 (20 at Level 6) every 0.2 seconds.\n\nAt Level 3, the '''Mercenary Base''' grants towers in its range a 10% [[Damage Buff]], which gets increased to 12.5% at Level 5 and 15% at Level 6. This [[Damage Buff]] does not affect all sources of damage. Additionally, while the in-game stat box suggests it allows towers to deal decimal damage, damage is rounded down instead.\n\nAt Level 5, it also gains the ''Air-Drop'' ability for {{Money|2,500}}, which spawns in the units from each of the three queues on the tower itself. This ability completely ignores the regular unit spawnrates and instead has its own cooldown. The units can be air-dropped anywhere on the path, making the tower more flexible.\n\nThe '''Mercenary Base''' has a placement limit of three per player. In [[PVP]] mode only, there is also a limit of 10 [[Rifleman|Riflemen]] per tower, 7 [[Grenadier]]s per tower, 4 [[Riot Guard]]s per tower and 3 [[Field Medic]]s per tower. This limit, however, does not work for the [[Field Medic]] and only [[Field Medic]]. For other units, if the limit is reached, no units will spawn when the spawnrate ends.\n\nThe '''Mercenary Base''' is considered a hybrid offensive-support tower that can be used in many ways. The [[Rifleman]] and [[Grenadier]] units provide solid damage throughout the game, while the [[Damage Buff]] the tower grants from Level 3 and onwards helps it support other high-DPS towers in the late-game. Additionally, the [[Riot Guard]] can be used as backup, and the [[Field Medic]] can support all units to give them extra survivability.",
+  "description": "The '''Golden Minigunner''' is a golden perk for the [[Minigunner]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if you own the [[Minigunner]]. It can also be bought in the [[Daily Store]] for {{Coins|75,000}}.\n\nBefore the '''Golden Minigunner''' starts firing, it needs to rev up its minigun. If there are no enemies in its range while revved-up, it will wait for around a second for an enemy to enter its range. If no enemy enters its range in that time, it begins to deactivate the gun and will need to rev the gun up again when an enemy enters its range. It fires bullets at enemies at a fast firerate. The '''Golden Minigunner''' has high DPS and a relatively cheap cost compared to other high DPS towers, like the [[Accelerator]] or [[Engineer]]. \n\nThe '''Golden Minigunner''' has more damage and costs more than its normal counterpart, the [[Minigunner]], making it a direct upgrade in many ways. It is mostly considered a mid-game to late-game tower, although it can be used in early game if you have enough base health and focus solely on using the [[Farm]] for some time.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 1,
-        "title": "Explosive Experts",
-        "cost": "{{Money|1,350}}",
-        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.4 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,366}}",
+        "title": "Improved Handling",
+        "cost": "{{Money|1,000}}",
+        "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
         "claims": [
           {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
+            "kind": "set",
+            "from": "0.16",
+            "to": "0.12",
+            "stat": "Firerate",
+            "text": "0.16 > 0.12 Firerate"
           },
           {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health"
-          },
-          {
-            "kind": "note",
-            "text": "20 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "19 Range"
-          },
-          {
-            "kind": "note",
-            "text": "1.4 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "4.5 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "25s Spawnrate }}"
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Explosive Experts",
-          "Cost": "{{Money|1,350}}",
-          "Image": "[[File:Mercenary Base Level 2 Icon.png|100px]]",
-          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.4 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,366}}"
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|1,000}}",
+          "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
+          "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
         }
       },
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 2,
-        "title": "Upgraded Barracks",
-        "cost": "{{Money|2,750}}",
-        "information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|2,283}}",
+        "title": "Thermal Vision",
+        "cost": "{{Money|4,800}}",
+        "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Unit Queue",
-            "text": "+1 Unit Queue"
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Upgraded Barracks",
-          "Cost": "{{Money|2,750}}",
-          "Image": "[[File:Mercenary Base Level 1 Icon.png|100px]]",
-          "Information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|2,283}}"
+          "Upgrade Title": "Thermal Vision",
+          "Cost": "{{Money|4,800}}",
+          "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
+          "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
         }
       },
       {
-        "mode": "regular",
+        "mode": "unknown",
         "level": 3,
-        "title": "Improved Training",
-        "cost": "{{Money|9,650}}",
-        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.3 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|5,500}}",
+        "title": "High Tech Armory",
+        "cost": "{{Money|13,500}}",
+        "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+6",
+            "stat": "Damage",
+            "text": "+6 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.12",
+            "to": "0.1",
+            "stat": "Firerate",
+            "text": "0.12 > 0.1 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.8",
+            "to": "0.6",
+            "stat": "Rev-Up Time",
+            "text": "0.8 > 0.6 Rev-Up Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "High Tech Armory",
+          "Cost": "{{Money|13,500}}",
+          "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
+          "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "24 Karat Gatling Gun",
+        "cost": "{{Money|27,500}}",
+        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
         "claims": [
           {
             "kind": "delta",
@@ -96,1310 +116,122 @@
             "text": "+2 Range"
           },
           {
-            "kind": "note",
-            "text": "10% Damage Buff"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health"
-          },
-          {
-            "kind": "note",
-            "text": "8 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "8 Burst"
-          },
-          {
-            "kind": "note",
-            "text": "1 Burst Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "0.35 Aim Time"
-          },
-          {
-            "kind": "note",
-            "text": "24 Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "30s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health"
-          },
-          {
-            "kind": "note",
-            "text": "30 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "1.3 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "20 Range"
-          },
-          {
-            "kind": "note",
-            "text": "5 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "25s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Improved Training",
-          "Cost": "{{Money|9,650}}",
-          "Image": "[[File:Mercenary Base Level 3 Icon.png|100px]]",
-          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.3 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|5,500}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Riot Control",
-        "cost": "{{Money|10,000}}",
-        "information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|8,833}}",
-        "claims": [
-          {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Unit Queue",
-            "text": "+1 Unit Queue"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health"
-          },
-          {
-            "kind": "note",
-            "text": "10% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "50 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "15 Knockback Force"
-          },
-          {
-            "kind": "note",
-            "text": "1.5 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "4 Range"
-          },
-          {
-            "kind": "note",
-            "text": "10 Max Hits"
-          },
-          {
-            "kind": "note",
-            "text": "4 Charge Time"
-          },
-          {
-            "kind": "note",
-            "text": "75 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "40s Spawnrate"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Riot Control",
-          "Cost": "{{Money|10,000}}",
-          "Image": "[[File:Defense.png|100px]]",
-          "Information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|8,833}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "Air Transport",
-        "cost": "{{Money|12,500}}",
-        "information": "+''Air-Drop''\n\n10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|13,000}}.",
-        "claims": [
-          {
-            "kind": "grant",
-            "stat": "''Air-Drop''",
-            "text": "+''Air-Drop''"
-          },
-          {
-            "kind": "note",
-            "text": "10% > 12.5% Damage Buff"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health"
-          },
-          {
-            "kind": "note",
-            "text": "15 Heal"
-          },
-          {
-            "kind": "note",
-            "text": "0.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "35 Range"
-          },
-          {
-            "kind": "note",
-            "text": "8 Max Targets"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "15 Shield Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "30s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Air Transport",
-          "Cost": "{{Money|12,500}}",
-          "Image": "[[File:Mercenary Base Level 5 Icon.png|100px]]",
-          "Information": "+''Air-Drop''\n\n10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|13,000}}."
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 6,
-        "title": "Enhanced Equipment",
-        "cost": "{{Money|45,000}}",
-        "information": "12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•40 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•21.5 Range [[File:Range_Icon.png|20px|Range]]\n\n•6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|28,000}}",
-        "claims": [
-          {
-            "kind": "note",
-            "text": "12.5% > 15% Damage Buff"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health"
-          },
-          {
-            "kind": "note",
-            "text": "17 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "8 Burst"
-          },
-          {
-            "kind": "note",
-            "text": "1 Burst Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "0.35 Aim Time"
-          },
-          {
-            "kind": "note",
-            "text": "30 Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "30s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health"
-          },
-          {
-            "kind": "note",
-            "text": "10% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "40 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "1.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "21.5 Range"
-          },
-          {
-            "kind": "note",
-            "text": "6 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "25s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health"
-          },
-          {
-            "kind": "note",
-            "text": "20 Heal"
-          },
-          {
-            "kind": "note",
-            "text": "0.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "35 Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "10 Max Targets"
-          },
-          {
-            "kind": "note",
-            "text": "15 Shield Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "30s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "15% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "50 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "25 Knockback Force"
-          },
-          {
-            "kind": "note",
-            "text": "1 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "4 Range"
-          },
-          {
-            "kind": "note",
-            "text": "75 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "10 Max Hits"
-          },
-          {
-            "kind": "note",
-            "text": "3 Charge Time"
-          },
-          {
-            "kind": "note",
-            "text": "40s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Upgrade Title": "Enhanced Equipment",
-          "Cost": "{{Money|45,000}}",
-          "Image": "[[File:Mercenary Base Level 6 Icon.png|100px]]",
-          "Information": "12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•40 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•21.5 Range [[File:Range_Icon.png|20px|Range]]\n\n•6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|28,000}}"
+          "Upgrade Title": "24 Karat Gatling Gun",
+          "Cost": "{{Money|27,500}}",
+          "Image": "[[File:MiniLevel4.png|100px]]",
+          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
         }
       }
     ],
-    "pvp": [
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Explosive Experts",
-        "cost": "{{Money|1,800}}",
-        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•28 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•18 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.75 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,266}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health"
-          },
-          {
-            "kind": "note",
-            "text": "28 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "18 Range"
-          },
-          {
-            "kind": "note",
-            "text": "1.75 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "3 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "240 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "45s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Explosive Experts",
-          "Cost": "{{Money|1,800}}",
-          "Image": "[[File:Mercenary Base Level 2 Icon.png|100px]]",
-          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•28 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•18 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.75 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,266}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Upgraded Barracks",
-        "cost": "{{Money|2,000}}",
-        "information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|1,933}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Unit Queue",
-            "text": "+1 Unit Queue"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Upgraded Barracks",
-          "Cost": "{{Money|2,000}}",
-          "Image": "[[File:Mercenary Base Level 1 Icon.png|100px]]",
-          "Information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|1,933}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 3,
-        "title": "Improved Training",
-        "cost": "{{Money|7,000}}",
-        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health [[File:HealthIcon.png|20px|Health]]\n\n•50 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.525 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|4,266}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "note",
-            "text": "10% Damage Buff"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health"
-          },
-          {
-            "kind": "note",
-            "text": "8 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "8 Burst"
-          },
-          {
-            "kind": "note",
-            "text": "1 Burst Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "0.35 Aim Time"
-          },
-          {
-            "kind": "note",
-            "text": "24 Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "40s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health"
-          },
-          {
-            "kind": "note",
-            "text": "50 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "1.525 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "19 Range"
-          },
-          {
-            "kind": "note",
-            "text": "4.5 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "240 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "40s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Improved Training",
-          "Cost": "{{Money|7,000}}",
-          "Image": "[[File:Mercenary Base Level 3 Icon.png|100px]]",
-          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health [[File:HealthIcon.png|20px|Health]]\n\n•50 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.525 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|4,266}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "title": "Riot Control",
-        "cost": "{{Money|10,000}}",
-        "information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|7,600}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Unit Queue",
-            "text": "+1 Unit Queue"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health"
-          },
-          {
-            "kind": "note",
-            "text": "10% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "50 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "15 Knockback Force"
-          },
-          {
-            "kind": "note",
-            "text": "1.5 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "4 Range"
-          },
-          {
-            "kind": "note",
-            "text": "10 Max Hits"
-          },
-          {
-            "kind": "note",
-            "text": "4 Charge Time"
-          },
-          {
-            "kind": "note",
-            "text": "75 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "50s Spawnrate"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Riot Control",
-          "Cost": "{{Money|10,000}}",
-          "Image": "[[File:Defense.png|100px]]",
-          "Information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|7,600}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "title": "Air Transport",
-        "cost": "{{Money|15,000}}",
-        "information": "+''Air-Drop''\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|12,600}}.",
-        "claims": [
-          {
-            "kind": "grant",
-            "stat": "''Air-Drop''",
-            "text": "+''Air-Drop''"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health"
-          },
-          {
-            "kind": "note",
-            "text": "15 Heal"
-          },
-          {
-            "kind": "note",
-            "text": "0.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "35 Range"
-          },
-          {
-            "kind": "note",
-            "text": "8 Max Targets"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "15 Shield Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "35s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Air Transport",
-          "Cost": "{{Money|15,000}}",
-          "Image": "[[File:Mercenary Base Level 5 Icon.png|100px]]",
-          "Information": "+''Air-Drop''\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|12,600}}."
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 6,
-        "title": "Enhanced Equipment",
-        "cost": "{{Money|35,000}}",
-        "information": "10% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•80 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.25 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|24,266}}",
-        "claims": [
-          {
-            "kind": "note",
-            "text": "10% > 20% Damage Buff"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health"
-          },
-          {
-            "kind": "note",
-            "text": "18 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.15 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "8 Burst"
-          },
-          {
-            "kind": "note",
-            "text": "1 Burst Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "0.35 Aim Time"
-          },
-          {
-            "kind": "note",
-            "text": "30 Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "35s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health"
-          },
-          {
-            "kind": "note",
-            "text": "10% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "80 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "1.25 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "20 Range"
-          },
-          {
-            "kind": "note",
-            "text": "4.5 Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "240 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "40s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health"
-          },
-          {
-            "kind": "note",
-            "text": "20 Heal"
-          },
-          {
-            "kind": "note",
-            "text": "0.2 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "35 Range"
-          },
-          {
-            "kind": "note",
-            "text": "150 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "10 Max Targets"
-          },
-          {
-            "kind": "note",
-            "text": "15 Shield Cooldown"
-          },
-          {
-            "kind": "note",
-            "text": "30s Spawnrate }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "15% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "50 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "25 Knockback Force"
-          },
-          {
-            "kind": "note",
-            "text": "1 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "4 Range"
-          },
-          {
-            "kind": "note",
-            "text": "75 Lifespan"
-          },
-          {
-            "kind": "note",
-            "text": "10 Max Hits"
-          },
-          {
-            "kind": "note",
-            "text": "3 Charge Time"
-          },
-          {
-            "kind": "note",
-            "text": "50s Spawnrate }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 6",
-          "Upgrade Title": "Enhanced Equipment",
-          "Cost": "{{Money|35,000}}",
-          "Image": "[[File:Mercenary Base Level 6 Icon.png|100px]]",
-          "Information": "10% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•80 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.25 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|24,266}}"
-        }
-      }
-    ]
+    "pvp": []
   },
   "upgrade_templates": [
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 1,
-      "title": "Explosive Experts",
-      "cost": "{{Money|1,350}}",
-      "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.4 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,366}}",
+      "title": "Improved Handling",
+      "cost": "{{Money|1,000}}",
+      "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
       "claims": [
         {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
+          "kind": "set",
+          "from": "0.16",
+          "to": "0.12",
+          "stat": "Firerate",
+          "text": "0.16 > 0.12 Firerate"
         },
         {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health"
-        },
-        {
-          "kind": "note",
-          "text": "20 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "19 Range"
-        },
-        {
-          "kind": "note",
-          "text": "1.4 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "4.5 Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "25s Spawnrate }}"
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Explosive Experts",
-        "Cost": "{{Money|1,350}}",
-        "Image": "[[File:Mercenary Base Level 2 Icon.png|100px]]",
-        "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.4 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,366}}"
+        "Upgrade Title": "Improved Handling",
+        "Cost": "{{Money|1,000}}",
+        "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
+        "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
       }
     },
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 2,
-      "title": "Upgraded Barracks",
-      "cost": "{{Money|2,750}}",
-      "information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|2,283}}",
+      "title": "Thermal Vision",
+      "cost": "{{Money|4,800}}",
+      "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Unit Queue",
-          "text": "+1 Unit Queue"
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Range",
+          "text": "+4 Range"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Upgraded Barracks",
-        "Cost": "{{Money|2,750}}",
-        "Image": "[[File:Mercenary Base Level 1 Icon.png|100px]]",
-        "Information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|2,283}}"
+        "Upgrade Title": "Thermal Vision",
+        "Cost": "{{Money|4,800}}",
+        "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
+        "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
       }
     },
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 3,
-      "title": "Improved Training",
-      "cost": "{{Money|9,650}}",
-      "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.3 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|5,500}}",
+      "title": "High Tech Armory",
+      "cost": "{{Money|13,500}}",
+      "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
+          "delta": "+6",
+          "stat": "Damage",
+          "text": "+6 Damage"
         },
         {
-          "kind": "note",
-          "text": "10% Damage Buff"
+          "kind": "set",
+          "from": "0.12",
+          "to": "0.1",
+          "stat": "Firerate",
+          "text": "0.12 > 0.1 Firerate"
         },
         {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health"
-        },
-        {
-          "kind": "note",
-          "text": "8 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.15 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "8 Burst"
-        },
-        {
-          "kind": "note",
-          "text": "1 Burst Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "0.35 Aim Time"
-        },
-        {
-          "kind": "note",
-          "text": "24 Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "30s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health"
-        },
-        {
-          "kind": "note",
-          "text": "30 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "1.3 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "20 Range"
-        },
-        {
-          "kind": "note",
-          "text": "5 Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "25s Spawnrate }}"
+          "kind": "set",
+          "from": "0.8",
+          "to": "0.6",
+          "stat": "Rev-Up Time",
+          "text": "0.8 > 0.6 Rev-Up Time"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Improved Training",
-        "Cost": "{{Money|9,650}}",
-        "Image": "[[File:Mercenary Base Level 3 Icon.png|100px]]",
-        "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •135 Health [[File:HealthIcon.png|20px|Health]]\n\n•30 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.3 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|5,500}}"
+        "Upgrade Title": "High Tech Armory",
+        "Cost": "{{Money|13,500}}",
+        "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
+        "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
       }
     },
     {
-      "mode": "regular",
+      "mode": "unknown",
       "level": 4,
-      "title": "Riot Control",
-      "cost": "{{Money|10,000}}",
-      "information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|8,833}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Unit Queue",
-          "text": "+1 Unit Queue"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health"
-        },
-        {
-          "kind": "note",
-          "text": "10% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "50 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "15 Knockback Force"
-        },
-        {
-          "kind": "note",
-          "text": "1.5 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "4 Range"
-        },
-        {
-          "kind": "note",
-          "text": "10 Max Hits"
-        },
-        {
-          "kind": "note",
-          "text": "4 Charge Time"
-        },
-        {
-          "kind": "note",
-          "text": "75 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "40s Spawnrate"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Riot Control",
-        "Cost": "{{Money|10,000}}",
-        "Image": "[[File:Defense.png|100px]]",
-        "Information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|8,833}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 5,
-      "title": "Air Transport",
-      "cost": "{{Money|12,500}}",
-      "information": "+''Air-Drop''\n\n10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|13,000}}.",
-      "claims": [
-        {
-          "kind": "grant",
-          "stat": "''Air-Drop''",
-          "text": "+''Air-Drop''"
-        },
-        {
-          "kind": "note",
-          "text": "10% > 12.5% Damage Buff"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health"
-        },
-        {
-          "kind": "note",
-          "text": "15 Heal"
-        },
-        {
-          "kind": "note",
-          "text": "0.2 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "35 Range"
-        },
-        {
-          "kind": "note",
-          "text": "8 Max Targets"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "15 Shield Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "30s Spawnrate }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "Air Transport",
-        "Cost": "{{Money|12,500}}",
-        "Image": "[[File:Mercenary Base Level 5 Icon.png|100px]]",
-        "Information": "+''Air-Drop''\n\n10% > 12.5% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|13,000}}."
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 6,
-      "title": "Enhanced Equipment",
-      "cost": "{{Money|45,000}}",
-      "information": "12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•40 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•21.5 Range [[File:Range_Icon.png|20px|Range]]\n\n•6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|28,000}}",
-      "claims": [
-        {
-          "kind": "note",
-          "text": "12.5% > 15% Damage Buff"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health"
-        },
-        {
-          "kind": "note",
-          "text": "17 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.15 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "8 Burst"
-        },
-        {
-          "kind": "note",
-          "text": "1 Burst Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "0.35 Aim Time"
-        },
-        {
-          "kind": "note",
-          "text": "30 Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "30s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health"
-        },
-        {
-          "kind": "note",
-          "text": "10% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "40 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "1.2 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "21.5 Range"
-        },
-        {
-          "kind": "note",
-          "text": "6 Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "25s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health"
-        },
-        {
-          "kind": "note",
-          "text": "20 Heal"
-        },
-        {
-          "kind": "note",
-          "text": "0.2 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "35 Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "10 Max Targets"
-        },
-        {
-          "kind": "note",
-          "text": "15 Shield Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "30s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health"
-        },
-        {
-          "kind": "note",
-          "text": "15% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "50 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "25 Knockback Force"
-        },
-        {
-          "kind": "note",
-          "text": "1 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "4 Range"
-        },
-        {
-          "kind": "note",
-          "text": "75 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "10 Max Hits"
-        },
-        {
-          "kind": "note",
-          "text": "3 Charge Time"
-        },
-        {
-          "kind": "note",
-          "text": "40s Spawnrate }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 6",
-        "Upgrade Title": "Enhanced Equipment",
-        "Cost": "{{Money|45,000}}",
-        "Image": "[[File:Mercenary Base Level 6 Icon.png|100px]]",
-        "Information": "12.5% > 15% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •325 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•40 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.2 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•21.5 Range [[File:Range_Icon.png|20px|Range]]\n\n•6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•25s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|28,000}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Explosive Experts",
-      "cost": "{{Money|1,800}}",
-      "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•28 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•18 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.75 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,266}}",
+      "title": "24 Karat Gatling Gun",
+      "cost": "{{Money|27,500}}",
+      "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
       "claims": [
         {
           "kind": "delta",
@@ -1408,627 +240,69 @@
           "text": "+2 Range"
         },
         {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health"
-        },
-        {
-          "kind": "note",
-          "text": "28 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "18 Range"
-        },
-        {
-          "kind": "note",
-          "text": "1.75 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "3 Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "240 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "45s Spawnrate }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Explosive Experts",
-        "Cost": "{{Money|1,800}}",
-        "Image": "[[File:Mercenary Base Level 2 Icon.png|100px]]",
-        "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Spawns Grenadier|Description = •50 Health [[File:HealthIcon.png|20px|Health]]\n\n•28 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•18 Range [[File:Range_Icon.png|20px|Range]]\n\n•1.75 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•45s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|1,266}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 2,
-      "title": "Upgraded Barracks",
-      "cost": "{{Money|2,000}}",
-      "information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|1,933}}",
-      "claims": [
-        {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Unit Queue",
-          "text": "+1 Unit Queue"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Upgraded Barracks",
-        "Cost": "{{Money|2,000}}",
-        "Image": "[[File:Mercenary Base Level 1 Icon.png|100px]]",
-        "Information": "+1 Unit Queue\n\n\nSell Price changes to {{Money|1,933}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 3,
-      "title": "Improved Training",
-      "cost": "{{Money|7,000}}",
-      "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health [[File:HealthIcon.png|20px|Health]]\n\n•50 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.525 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|4,266}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "note",
-          "text": "10% Damage Buff"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health"
-        },
-        {
-          "kind": "note",
-          "text": "8 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.15 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "8 Burst"
-        },
-        {
-          "kind": "note",
-          "text": "1 Burst Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "0.35 Aim Time"
-        },
-        {
-          "kind": "note",
-          "text": "24 Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "40s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health"
-        },
-        {
-          "kind": "note",
-          "text": "50 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "1.525 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "19 Range"
-        },
-        {
-          "kind": "note",
-          "text": "4.5 Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "240 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "40s Spawnrate }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Improved Training",
-        "Cost": "{{Money|7,000}}",
-        "Image": "[[File:Mercenary Base Level 3 Icon.png|100px]]",
-        "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n10% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •80 Health [[File:HealthIcon.png|20px|Health]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•24 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •125 Health [[File:HealthIcon.png|20px|Health]]\n\n•50 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.525 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•19 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|4,266}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 4,
-      "title": "Riot Control",
-      "cost": "{{Money|10,000}}",
-      "information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|7,600}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Unit Queue",
-          "text": "+1 Unit Queue"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health"
-        },
-        {
-          "kind": "note",
-          "text": "10% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "50 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "15 Knockback Force"
-        },
-        {
-          "kind": "note",
-          "text": "1.5 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "4 Range"
-        },
-        {
-          "kind": "note",
-          "text": "10 Max Hits"
-        },
-        {
-          "kind": "note",
-          "text": "4 Charge Time"
-        },
-        {
-          "kind": "note",
-          "text": "75 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "50s Spawnrate"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
+          "delta": "+7",
+          "stat": "Damage",
+          "text": "+7 Damage"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Riot Control",
-        "Cost": "{{Money|10,000}}",
-        "Image": "[[File:Defense.png|100px]]",
-        "Information": "+1 Unit Queue\n\n{{CollapsibleUpgrade|Title = Spawns Riot Guard|Description = •800 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•15 Knockback Force {{Knockback|Knockback Force}}\n\n•1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•10 Max Hits\n\n•4 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|7,600}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 5,
-      "title": "Air Transport",
-      "cost": "{{Money|15,000}}",
-      "information": "+''Air-Drop''\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|12,600}}.",
-      "claims": [
-        {
-          "kind": "grant",
-          "stat": "''Air-Drop''",
-          "text": "+''Air-Drop''"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health"
-        },
-        {
-          "kind": "note",
-          "text": "15 Heal"
-        },
-        {
-          "kind": "note",
-          "text": "0.2 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "35 Range"
-        },
-        {
-          "kind": "note",
-          "text": "8 Max Targets"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "15 Shield Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "35s Spawnrate }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 5",
-        "Upgrade Title": "Air Transport",
-        "Cost": "{{Money|15,000}}",
-        "Image": "[[File:Mercenary Base Level 5 Icon.png|100px]]",
-        "Information": "+''Air-Drop''\n\n{{CollapsibleUpgrade|Title = Spawns Field Medic|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•15 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•8 Max Targets\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•15 Shield Cooldown\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|12,600}}."
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 6,
-      "title": "Enhanced Equipment",
-      "cost": "{{Money|35,000}}",
-      "information": "10% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•80 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.25 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|24,266}}",
-      "claims": [
-        {
-          "kind": "note",
-          "text": "10% > 20% Damage Buff"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health"
-        },
-        {
-          "kind": "note",
-          "text": "18 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.15 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "8 Burst"
-        },
-        {
-          "kind": "note",
-          "text": "1 Burst Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "0.35 Aim Time"
-        },
-        {
-          "kind": "note",
-          "text": "30 Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "35s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health"
-        },
-        {
-          "kind": "note",
-          "text": "10% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "80 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "1.25 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "20 Range"
-        },
-        {
-          "kind": "note",
-          "text": "4.5 Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "240 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "40s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health"
-        },
-        {
-          "kind": "note",
-          "text": "20 Heal"
-        },
-        {
-          "kind": "note",
-          "text": "0.2 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "35 Range"
-        },
-        {
-          "kind": "note",
-          "text": "150 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "10 Max Targets"
-        },
-        {
-          "kind": "note",
-          "text": "15 Shield Cooldown"
-        },
-        {
-          "kind": "note",
-          "text": "30s Spawnrate }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health"
-        },
-        {
-          "kind": "note",
-          "text": "15% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "50 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "25 Knockback Force"
-        },
-        {
-          "kind": "note",
-          "text": "1 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "4 Range"
-        },
-        {
-          "kind": "note",
-          "text": "75 Lifespan"
-        },
-        {
-          "kind": "note",
-          "text": "10 Max Hits"
-        },
-        {
-          "kind": "note",
-          "text": "3 Charge Time"
-        },
-        {
-          "kind": "note",
-          "text": "50s Spawnrate }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 6",
-        "Upgrade Title": "Enhanced Equipment",
-        "Cost": "{{Money|35,000}}",
-        "Image": "[[File:Mercenary Base Level 6 Icon.png|100px]]",
-        "Information": "10% > 20% [[Damage Buff]] [[File:Damage Buff.png|20px|Damage Buff]]\n\n{{CollapsibleUpgrade|Title = Upgraded Rifleman|Description = •275 Health [[File:HealthIcon.png|20px|Health]]\n\n•18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.15 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n•1 Burst Cooldown [[File:Cooldown Icon.png|20px|Burst Cooldown]]\n\n•0.35 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n•30 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•35s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Grenadier|Description = •300 Health [[File:HealthIcon.png|20px|Health]]\n\n•10% Defense {{Defense}}\n\n•80 Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•1.25 Firerate [[File:Cooldown_Icon.png|20px|Firerate]]\n\n•20 Range [[File:Range_Icon.png|20px|Range]]\n\n•4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•240 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•40s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Field Medic|Description = •600 Health [[File:HealthIcon.png|20px|Health]]\n\n•20 Heal [[File:HealingIcon.svg|20px|Heal]]\n\n•0.2 Firerate[[File:Cooldown Icon.png|20px|Firerate]]\n\n•35 Range [[File:Range_Icon.png|20px|Range]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Targets\n\n•15 Shield Cooldown\n\n•30s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n{{CollapsibleUpgrade|Title = Upgraded Riot Guard|Description = •2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•50 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•25 Knockback Force {{Knockback|Knockback Force}}\n\n•1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•4 Range [[File:Range_Icon.png|20px|Range]]\n\n•75 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•10 Max Hits\n\n•3 Charge Time [[File:Cooldown Icon.png|20px|Charge Time]]\n\n•50s Spawnrate [[File:Vehicle Spawn.png|20px|Spawnrate]]}}\n\n\nSell Price changes to {{Money|24,266}}"
+        "Upgrade Title": "24 Karat Gatling Gun",
+        "Cost": "{{Money|27,500}}",
+        "Image": "[[File:MiniLevel4.png|100px]]",
+        "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [
-      {
-        "level": 6,
-        "cost": 45000.0,
-        "total_cost": 45000.0,
-        "damage": 8.0,
-        "tick": 30.0,
-        "charge_up": 0.15,
-        "cooldown": 1.0,
-        "overcharge": 0.35,
-        "range": 150.0,
-        "dps": 0.142
-      },
-      {
-        "level": 6,
-        "cost": 45000.0,
-        "total_cost": 90000.0,
-        "damage": 25.0,
-        "tick": 1.2,
-        "charge_up": 10.0,
-        "cooldown": 150.0,
-        "overcharge": 21.5,
-        "range": 6.0,
-        "dps": 0.134
-      },
-      {
-        "level": 6,
-        "cost": 45000.0,
-        "total_cost": 135000.0,
-        "damage": 40.0,
-        "tick": 15.0,
-        "charge_up": 1.0,
-        "cooldown": 75.0,
-        "overcharge": 4.0,
-        "range": 25.0,
-        "dps": 0.052
-      },
-      {
-        "level": 5,
-        "cost": 12500.0,
-        "total_cost": 147500.0,
-        "damage": 15.0,
-        "tick": 8.0,
-        "charge_up": 0.2,
-        "cooldown": 150.0,
-        "overcharge": 35.0,
-        "range": 15.0,
-        "dps": 0.207
-      },
-      {
-        "level": 6,
-        "cost": 45000.0,
-        "total_cost": 192500.0,
-        "damage": 20.0,
-        "tick": 10.0,
-        "charge_up": 0.2,
-        "cooldown": 150.0,
-        "overcharge": 35.0,
-        "range": 15.0,
-        "dps": 0.209
-      }
-    ],
-    "pvp": [
-      {
-        "level": 6,
-        "cost": 35000.0,
-        "total_cost": 35000.0,
-        "damage": 8.0,
-        "tick": 35.0,
-        "charge_up": 0.15,
-        "cooldown": 1.0,
-        "overcharge": 0.35,
-        "range": 150.0,
-        "dps": 0.131
-      },
-      {
-        "level": 6,
-        "cost": 35000.0,
-        "total_cost": 70000.0,
-        "damage": 40.0,
-        "tick": 1.25,
-        "charge_up": 10.0,
-        "cooldown": 240.0,
-        "overcharge": 7.0,
-        "range": 20.0,
-        "dps": 0.028
-      },
-      {
-        "level": 6,
-        "cost": 35000.0,
-        "total_cost": 105000.0,
-        "damage": 50.0,
-        "tick": 15.0,
-        "charge_up": 1.0,
-        "cooldown": 75.0,
-        "overcharge": 4.0,
-        "range": 4.0,
-        "dps": 0.052
-      },
-      {
-        "level": 5,
-        "cost": 15000.0,
-        "total_cost": 120000.0,
-        "damage": 15.0,
-        "tick": 8.0,
-        "charge_up": 0.2,
-        "cooldown": 150.0,
-        "overcharge": 3.0,
-        "range": 35.0,
-        "dps": 0.02
-      },
-      {
-        "level": 6,
-        "cost": 35000.0,
-        "total_cost": 155000.0,
-        "damage": 20.0,
-        "tick": 10.0,
-        "charge_up": 0.2,
-        "cooldown": 150.0,
-        "overcharge": 3.0,
-        "range": 35.0,
-        "dps": 0.02
-      }
-    ]
+    "regular": [],
+    "pvp": []
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name=\"hidden\">Through splash and collision damage, hidden enemies may be hit indirectly.</ref>",
-      "lead": "{{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)",
-      "flying": "{{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name=\"flying\">Through the [[Grenadier]]'s splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but the [[Grenadier]] itself is unable to detect flying enemies.</ref>",
-      "immune": "Stun<br/>Partial Debuff",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3"
+      "hidden": "{{Attr|Hidden|Level 1+}}",
+      "lead": "N/A",
+      "flying": "N/A",
+      "immune": "None",
+      "placement_limit": null
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name=\"hidden\"/>",
-      "lead": "{{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)",
-      "flying": "{{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name=\"flying\"/>",
-      "immune": "Stun<br/>Partial Debuff"
+      "hidden": null,
+      "lead": null,
+      "flying": null,
+      "immune": null
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Mercenary Base",
-        "image-static": "DefaultMercenaryBaseIcon.png",
-        "image-dynamic": "MercenaryBaseDynamic.png",
-        "towercost": "{{Level|150}} or {{Robux|945}}",
-        "role": "Defense",
+        "title": "{{Color|Golden|Golden Minigunner}}",
+        "image-static": "Goldenminigunner.png",
+        "image-dynamic": "GoldenMinigunnerDynamic.png",
+        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
+        "towercost": "{{Coins|8,000}} ([[Minigunner]])",
+        "basecost": "{{Money|2,400}}",
+        "basesellingprice": "{{Money|800}}",
+        "role": "Offense",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3",
-        "basecost": "{{Money|2,750}}",
-        "basesellingprice": "{{Money|916}}",
-        "damagetype": "Single<br/>Collision<br/>[[Splash Damage|Splash]] (Level 1+)<br/>Pierce (Level 4+)",
-        "basefirerate": "N/A",
-        "baserange": "[[File:Range Icon.png|20px|Range]]6",
-        "basespawnrate": "[[File:VehicleSpawn.png|20px|Spawnrate]]30s",
-        "hidden_detection": "{{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name=\"hidden\">Through splash and collision damage, hidden enemies may be hit indirectly.</ref>",
-        "lead_detection": "{{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)",
-        "flying_detection": "{{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name=\"flying\">Through the [[Grenadier]]'s splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but the [[Grenadier]] itself is unable to detect flying enemies.</ref>",
-        "immune": "Stun<br/>Partial Debuff",
-        "footprint": "2.25",
-        "pvp_basecost": "{{Money|2,000}}",
-        "pvp_basesellingprice": "{{Money|666}}",
-        "pvp_damagetype": "Single<br/>Collision<br/>[[Splash Damage|Splash]] (Level 1+)<br/>Pierce (Level 4+)",
-        "pvp_basefirerate": "N/A",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]6",
-        "pvp_basespawnrate": "[[File:VehicleSpawn.png|20px|Spawnrate]]40s",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name=\"hidden\"/>",
-        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)",
-        "pvp_flying_detection": "{{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name=\"flying\"/>",
-        "pvp_immune": "Stun<br/>Partial Debuff",
-        "pvp_footprint": "2.25",
-        "tooltip-1": "A unit summoning tower that releases an endless stream of mercenary units.",
-        "tooltip-2": "Player can choose between a [[Rifleman|riflemen]]{{sic}}, [[grenadier]], a [[Riot Guard|riot guard]], or the [[Field Medic|medic]]; each unit having their own strengths and weaknesses.",
-        "tooltip-3": "Units can detect [[Hidden (Attribute)|hidden]], [[flying]], and [[Lead (Attribute)|lead]] enemies."
+        "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
+        "damagetype": "Single",
+        "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
+        "baserange": "[[File:Range_Icon.png|20px|Range]]16",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "lead_detection": "N/A",
+        "flying_detection": "N/A",
+        "immune": "None",
+        "footprint": "1.5",
+        "evolves_into": "[[Juggernaut]]",
+        "evolution_levels": "20",
+        "base_exp": "50",
+        "growth_rate": "1.09",
+        "skip_cost": "599",
+        "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
       },
       "positional": []
     }
@@ -2036,40 +310,33 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Mercenary Base",
-      "image-static": "DefaultMercenaryBaseIcon.png",
-      "image-dynamic": "MercenaryBaseDynamic.png",
-      "towercost": "{{Level|150}} or {{Robux|945}}",
-      "role": "Defense",
+      "title": "{{Color|Golden|Golden Minigunner}}",
+      "image-static": "Goldenminigunner.png",
+      "image-dynamic": "GoldenMinigunnerDynamic.png",
+      "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
+      "towercost": "{{Coins|8,000}} ([[Minigunner]])",
+      "basecost": "{{Money|2,400}}",
+      "basesellingprice": "{{Money|800}}",
+      "role": "Offense",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3",
-      "basecost": "{{Money|2,750}}",
-      "basesellingprice": "{{Money|916}}",
-      "damagetype": "Single<br/>Collision<br/>[[Splash Damage|Splash]] (Level 1+)<br/>Pierce (Level 4+)",
-      "basefirerate": "N/A",
-      "baserange": "[[File:Range Icon.png|20px|Range]]6",
-      "basespawnrate": "[[File:VehicleSpawn.png|20px|Spawnrate]]30s",
-      "hidden_detection": "{{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name=\"hidden\">Through splash and collision damage, hidden enemies may be hit indirectly.</ref>",
-      "lead_detection": "{{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)",
-      "flying_detection": "{{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name=\"flying\">Through the [[Grenadier]]'s splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but the [[Grenadier]] itself is unable to detect flying enemies.</ref>",
-      "immune": "Stun<br/>Partial Debuff",
-      "footprint": "2.25",
-      "pvp_basecost": "{{Money|2,000}}",
-      "pvp_basesellingprice": "{{Money|666}}",
-      "pvp_damagetype": "Single<br/>Collision<br/>[[Splash Damage|Splash]] (Level 1+)<br/>Pierce (Level 4+)",
-      "pvp_basefirerate": "N/A",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]6",
-      "pvp_basespawnrate": "[[File:VehicleSpawn.png|20px|Spawnrate]]40s",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 3+}} ([[Rifleman]] & [[Riot Guard]] only)<ref name=\"hidden\"/>",
-      "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision & [[Splash Damage|Splash]] only)",
-      "pvp_flying_detection": "{{Attr|Fly|Level 3+}} ([[Rifleman]] only)<ref name=\"flying\"/>",
-      "pvp_immune": "Stun<br/>Partial Debuff",
-      "pvp_footprint": "2.25",
-      "tooltip-1": "A unit summoning tower that releases an endless stream of mercenary units.",
-      "tooltip-2": "Player can choose between a [[Rifleman|riflemen]]{{sic}}, [[grenadier]], a [[Riot Guard|riot guard]], or the [[Field Medic|medic]]; each unit having their own strengths and weaknesses.",
-      "tooltip-3": "Units can detect [[Hidden (Attribute)|hidden]], [[flying]], and [[Lead (Attribute)|lead]] enemies."
+      "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
+      "damagetype": "Single",
+      "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
+      "baserange": "[[File:Range_Icon.png|20px|Range]]16",
+      "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "lead_detection": "N/A",
+      "flying_detection": "N/A",
+      "immune": "None",
+      "footprint": "1.5",
+      "evolves_into": "[[Juggernaut]]",
+      "evolution_levels": "20",
+      "base_exp": "50",
+      "growth_rate": "1.09",
+      "skip_cost": "599",
+      "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
     },
     "positional": []
   },
-  "template_count": 236
+  "template_count": 228
 }

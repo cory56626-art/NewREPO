@@ -1,5 +1,21 @@
 {
   "mode": "verify",
-  "status": "needs_selection",
-  "requested": "Golden Minigunner daily shop price"
+  "requested": "Golden Minigunner",
+  "title": "Golden Minigunner",
+  "pageid": 30794,
+  "latest_revid": 618771,
+  "latest_timestamp": "2026-08-20T00:13:53Z",
+  "source_url": "https://tds.fandom.com/wiki/Golden_Minigunner",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

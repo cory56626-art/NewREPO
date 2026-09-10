@@ -1,78 +1,955 @@
 {
-  "mode": "verify",
-  "requested": "Golden Minigunner daily shop price",
+  "meta": {
+    "mode": "verify",
+    "requested": "Golden Minigunner",
+    "title": "Golden Minigunner",
+    "pageid": 30794,
+    "latest_revid": 618771,
+    "latest_timestamp": "2026-08-20T00:13:53Z",
+    "source_url": "https://tds.fandom.com/wiki/Golden_Minigunner",
+    "classification": {
+      "is_tower_page": true,
+      "reason": "template/category heuristic"
+    },
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    }
+  },
   "resolution": {
-    "status": "needs_selection",
-    "input": "Golden Minigunner daily shop price",
-    "alias_used": null,
-    "target": "Golden Minigunner daily shop price",
-    "candidates": [
+    "status": "resolved",
+    "input": "Golden Minigunner",
+    "alias_used": "Golden Minigunner",
+    "target": "Golden Minigunner",
+    "canonical_title": "Golden Minigunner",
+    "pageid": 30794,
+    "redirects": [],
+    "selection_method": "known_alias"
+  },
+  "revision_history": [
+    {
+      "revid": 618771,
+      "parentid": 618763,
+      "timestamp": "2026-08-20T00:13:53Z",
+      "user": "Gabonnie",
+      "comment": "[IPE-NEXT] Quick edit",
+      "size": 21547,
+      "sha1": "d7d37dae717eace492567310babf2ff2ce658753"
+    },
+    {
+      "revid": 618763,
+      "parentid": 618526,
+      "timestamp": "2026-08-19T23:35:48Z",
+      "user": "Gabonnie",
+      "comment": "[IPE-NEXT] Quick edit",
+      "size": 21573,
+      "sha1": "3f0e4c80cb22b5eef53ddf271a32438b66c20eaf"
+    },
+    {
+      "revid": 618526,
+      "parentid": 610156,
+      "timestamp": "2026-08-18T21:25:43Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 21574,
+      "sha1": "14844eb02bef69ee57c5acecd8168a5971953f00"
+    },
+    {
+      "revid": 610156,
+      "parentid": 540051,
+      "timestamp": "2026-08-12T20:05:06Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 21557,
+      "sha1": "b64d0fd4549ed9c7c1044f2fb98cd06e6b99b045"
+    },
+    {
+      "revid": 540051,
+      "parentid": 539801,
+      "timestamp": "2026-07-07T22:42:55Z",
+      "user": "Gabonnie",
+      "comment": "[IPE-NEXT] Quick edit",
+      "size": 21534,
+      "sha1": "65e0574f208d395bbb2872f0f820a63b1e71b166"
+    },
+    {
+      "revid": 539801,
+      "parentid": 537067,
+      "timestamp": "2026-07-07T22:03:27Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Statistics */ migrate fnc to fse, replaced: $FNC-UPGRADEICON → $FSE-UPGRADEICON, $FNC-UPGRADE → $FSE-UPGRADE, $FNC-DETECTION → $FSE-DETECTION",
+      "size": 21504,
+      "sha1": "ac37d12435487eb8ec3cef7051e93bb8740b686e"
+    },
+    {
+      "revid": 537067,
+      "parentid": 525735,
+      "timestamp": "2026-07-06T17:14:25Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Statistics */ rename, replaced: Stats Table → Statistics",
+      "size": 21504,
+      "sha1": "36f93634166c1ebb055bcfd59f738d89182b333c"
+    },
+    {
+      "revid": 525735,
+      "parentid": 519991,
+      "timestamp": "2026-07-01T11:09:50Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Update History */ convert raw abbr tags to template, replaced: <abbr title=\"-0.042\">0.167 > 0.125</abbr> → {{Tooltip|0.167 > 0.125|-0.042}} (23)",
+      "size": 21505,
+      "sha1": "d6f2f47044801cacd6bde13700c1545f52b2f1d9"
+    },
+    {
+      "revid": 519991,
+      "parentid": 519990,
+      "timestamp": "2026-06-28T14:20:14Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21712,
+      "sha1": "20f3a3c69a5ce2c4138a8f2d80404ba28197d354"
+    },
+    {
+      "revid": 519990,
+      "parentid": 502919,
+      "timestamp": "2026-06-28T14:16:17Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21743,
+      "sha1": "220c8b39d4f5c07606f0ae573b66c0ddf658e13e"
+    }
+  ],
+  "revision_diff": {
+    "fromrevid": 618763,
+    "torevid": 618771,
+    "fromtitle": "Golden Minigunner",
+    "totitle": "Golden Minigunner",
+    "fromuser": "Gabonnie",
+    "touser": "Gabonnie",
+    "fromcomment": "[IPE-NEXT] Quick edit",
+    "tocomment": "[IPE-NEXT] Quick edit",
+    "diff_text": "Line 85: Line 85: <div class=\"overflow-box\"> <div class=\"overflow-box\"> {|class=\"wikitable stats-table\" {|class=\"wikitable stats-table\" ! Level !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency ! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency |- |- | 0 || {{Money|$TP$}} || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}} | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}} $R$ || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}} $R$ |- |- | 1 || {{Money |$ TP $ }} || 3 || 0.12 || 0.8 || 16 || $DPS$ || {{Money| $ CE $ }} | 1 || $R$ | | $ R $ || 3 || 0.12 || 0.8 || 16 || $DPS $$R $ || $ R $ |- |- | 2 || {{Money |$ TP $ }} || 7 || 0.12 || 0.8 || 20 || $ DPS $ || {{Money| $ CE $ }} | 2 || $R$ | | $ R $ || 7 || 0.12 || 0.8 || 20 || $ R $ || $ R $ |- |- | 3 || {{Money |$ TP $ }} || 13 || 0.1 || 0.6 || 20 || $ DPS $ || {{Money| $ CE $ }} | 3 || $R$ | | $ R $ || 13 || 0.1 || 0.6 || 20 || $ R $ || $ R $ |- |- | 4 || {{Money |$ TP $ }} || 20 || 0.1 || 0.6 || 22 || $ DPS $ || {{Money| $ CE $ }} | 4 || $R$ | | $ R $ || 20 || 0.1 || 0.6 || 22 || $ R $ || $ R $ |} |} </div> </div>"
+  },
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "structured_stats": {
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "description": "The '''Golden Minigunner''' is a golden perk for the [[Minigunner]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if you own the [[Minigunner]]. It can also be bought in the [[Daily Store]] for {{Coins|75,000}}.\n\nBefore the '''Golden Minigunner''' starts firing, it needs to rev up its minigun. If there are no enemies in its range while revved-up, it will wait for around a second for an enemy to enter its range. If no enemy enters its range in that time, it begins to deactivate the gun and will need to rev the gun up again when an enemy enters its range. It fires bullets at enemies at a fast firerate. The '''Golden Minigunner''' has high DPS and a relatively cheap cost compared to other high DPS towers, like the [[Accelerator]] or [[Engineer]]. \n\nThe '''Golden Minigunner''' has more damage and costs more than its normal counterpart, the [[Minigunner]], making it a direct upgrade in many ways. It is mostly considered a mid-game to late-game tower, although it can be used in early game if you have enough base health and focus solely on using the [[Farm]] for some time.",
+    "upgrade_modes": {
+      "regular": [
+        {
+          "mode": "unknown",
+          "level": 1,
+          "title": "Improved Handling",
+          "cost": "{{Money|1,000}}",
+          "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
+          "claims": [
+            {
+              "kind": "set",
+              "from": "0.16",
+              "to": "0.12",
+              "stat": "Firerate",
+              "text": "0.16 > 0.12 Firerate"
+            },
+            {
+              "kind": "grant",
+              "stat": "Hidden Detection",
+              "text": "+Hidden Detection"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Upgrade Title": "Improved Handling",
+            "Cost": "{{Money|1,000}}",
+            "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
+            "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 2,
+          "title": "Thermal Vision",
+          "cost": "{{Money|4,800}}",
+          "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+4",
+              "stat": "Damage",
+              "text": "+4 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+4",
+              "stat": "Range",
+              "text": "+4 Range"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Upgrade Title": "Thermal Vision",
+            "Cost": "{{Money|4,800}}",
+            "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
+            "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 3,
+          "title": "High Tech Armory",
+          "cost": "{{Money|13,500}}",
+          "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+6",
+              "stat": "Damage",
+              "text": "+6 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "0.12",
+              "to": "0.1",
+              "stat": "Firerate",
+              "text": "0.12 > 0.1 Firerate"
+            },
+            {
+              "kind": "set",
+              "from": "0.8",
+              "to": "0.6",
+              "stat": "Rev-Up Time",
+              "text": "0.8 > 0.6 Rev-Up Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "High Tech Armory",
+            "Cost": "{{Money|13,500}}",
+            "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
+            "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 4,
+          "title": "24 Karat Gatling Gun",
+          "cost": "{{Money|27,500}}",
+          "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
+            },
+            {
+              "kind": "delta",
+              "delta": "+7",
+              "stat": "Damage",
+              "text": "+7 Damage"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "24 Karat Gatling Gun",
+            "Cost": "{{Money|27,500}}",
+            "Image": "[[File:MiniLevel4.png|100px]]",
+            "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
+          }
+        }
+      ],
+      "pvp": []
+    },
+    "upgrade_templates": [
       {
-        "title": "Golden Minigunner",
-        "pageid": 30794,
-        "snippet": "",
-        "size": 21547,
-        "wordcount": 2752,
-        "timestamp": "2026-08-20T00:13:53Z"
+        "mode": "unknown",
+        "level": 1,
+        "title": "Improved Handling",
+        "cost": "{{Money|1,000}}",
+        "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.16",
+            "to": "0.12",
+            "stat": "Firerate",
+            "text": "0.16 > 0.12 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|1,000}}",
+          "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
+          "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
+        }
       },
       {
-        "title": "Minigunner",
-        "pageid": 162,
-        "snippet": "",
-        "size": 34425,
-        "wordcount": 4314,
-        "timestamp": "2026-08-26T12:11:56Z"
+        "mode": "unknown",
+        "level": 2,
+        "title": "Thermal Vision",
+        "cost": "{{Money|4,800}}",
+        "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Thermal Vision",
+          "Cost": "{{Money|4,800}}",
+          "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
+          "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
+        }
       },
       {
-        "title": "Golden Minigunner Plush",
-        "pageid": 41083,
-        "snippet": "",
-        "size": 2856,
-        "wordcount": 363,
-        "timestamp": "2026-06-05T07:52:09Z"
+        "mode": "unknown",
+        "level": 3,
+        "title": "High Tech Armory",
+        "cost": "{{Money|13,500}}",
+        "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+6",
+            "stat": "Damage",
+            "text": "+6 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.12",
+            "to": "0.1",
+            "stat": "Firerate",
+            "text": "0.12 > 0.1 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "0.8",
+            "to": "0.6",
+            "stat": "Rev-Up Time",
+            "text": "0.8 > 0.6 Rev-Up Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "High Tech Armory",
+          "Cost": "{{Money|13,500}}",
+          "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
+          "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
+        }
       },
       {
-        "title": "Golden Minigunner/History",
-        "pageid": 36235,
-        "snippet": "",
-        "size": 18974,
-        "wordcount": 2101,
-        "timestamp": "2026-08-20T00:20:57Z"
-      },
-      {
-        "title": "Golden Cowboy",
-        "pageid": 30799,
-        "snippet": "",
-        "size": 29622,
-        "wordcount": 3657,
-        "timestamp": "2026-08-18T21:25:37Z"
-      },
-      {
-        "title": "Golden Crook Boss",
-        "pageid": 30803,
-        "snippet": "",
-        "size": 35207,
-        "wordcount": 4465,
-        "timestamp": "2026-09-06T13:20:57Z"
-      },
-      {
-        "title": "Golden Scout",
-        "pageid": 30802,
-        "snippet": "",
-        "size": 19072,
-        "wordcount": 2431,
-        "timestamp": "2026-08-18T21:25:47Z"
-      },
-      {
-        "title": "Minigunner/History",
-        "pageid": 28709,
-        "snippet": "",
-        "size": 82465,
-        "wordcount": 9195,
-        "timestamp": "2026-08-18T21:38:56Z"
+        "mode": "unknown",
+        "level": 4,
+        "title": "24 Karat Gatling Gun",
+        "cost": "{{Money|27,500}}",
+        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "24 Karat Gatling Gun",
+          "Cost": "{{Money|27,500}}",
+          "Image": "[[File:MiniLevel4.png|100px]]",
+          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
+        }
       }
     ],
-    "message": "No exact/redirect match. Fuzzy candidates returned; NONE chosen automatically."
+    "statistics_tables": {
+      "regular": [],
+      "pvp": []
+    },
+    "detections_and_limits": {
+      "regular": {
+        "hidden": "{{Attr|Hidden|Level 1+}}",
+        "lead": "N/A",
+        "flying": "N/A",
+        "immune": "None",
+        "placement_limit": null
+      },
+      "pvp": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null
+      }
+    },
+    "infoboxes": [
+      {
+        "name": "TowerInfobox",
+        "params": {
+          "title": "{{Color|Golden|Golden Minigunner}}",
+          "image-static": "Goldenminigunner.png",
+          "image-dynamic": "GoldenMinigunnerDynamic.png",
+          "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
+          "towercost": "{{Coins|8,000}} ([[Minigunner]])",
+          "basecost": "{{Money|2,400}}",
+          "basesellingprice": "{{Money|800}}",
+          "role": "Offense",
+          "placement": "Ground",
+          "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
+          "damagetype": "Single",
+          "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
+          "baserange": "[[File:Range_Icon.png|20px|Range]]16",
+          "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+          "lead_detection": "N/A",
+          "flying_detection": "N/A",
+          "immune": "None",
+          "footprint": "1.5",
+          "evolves_into": "[[Juggernaut]]",
+          "evolution_levels": "20",
+          "base_exp": "50",
+          "growth_rate": "1.09",
+          "skip_cost": "599",
+          "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
+          "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        },
+        "positional": []
+      }
+    ],
+    "likely_infobox": {
+      "name": "TowerInfobox",
+      "params": {
+        "title": "{{Color|Golden|Golden Minigunner}}",
+        "image-static": "Goldenminigunner.png",
+        "image-dynamic": "GoldenMinigunnerDynamic.png",
+        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
+        "towercost": "{{Coins|8,000}} ([[Minigunner]])",
+        "basecost": "{{Money|2,400}}",
+        "basesellingprice": "{{Money|800}}",
+        "role": "Offense",
+        "placement": "Ground",
+        "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
+        "damagetype": "Single",
+        "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
+        "baserange": "[[File:Range_Icon.png|20px|Range]]16",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "lead_detection": "N/A",
+        "flying_detection": "N/A",
+        "immune": "None",
+        "footprint": "1.5",
+        "evolves_into": "[[Juggernaut]]",
+        "evolution_levels": "20",
+        "base_exp": "50",
+        "growth_rate": "1.09",
+        "skip_cost": "599",
+        "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+      },
+      "positional": []
+    },
+    "template_count": 228
   },
-  "warning": "No fuzzy result auto-selected."
+  "conflicts": {
+    "priority_rule": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "potential_conflicts": [],
+    "notes": [
+      "Different upgrade levels can legitimately differ.",
+      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+    ]
+  },
+  "categories": [
+    {
+      "ns": 14,
+      "title": "Category:Ground"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Offense"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Towers"
+    }
+  ],
+  "backlinks": [
+    {
+      "title": "Towers",
+      "pageid": 122
+    },
+    {
+      "title": "Scout",
+      "pageid": 123
+    },
+    {
+      "title": "Soldier",
+      "pageid": 124
+    },
+    {
+      "title": "Sniper",
+      "pageid": 125
+    },
+    {
+      "title": "Minigunner",
+      "pageid": 162
+    },
+    {
+      "title": "Freezer",
+      "pageid": 185
+    },
+    {
+      "title": "Ranger",
+      "pageid": 193
+    },
+    {
+      "title": "Pyromancer",
+      "pageid": 195
+    },
+    {
+      "title": "Military Base",
+      "pageid": 197
+    },
+    {
+      "title": "Farm",
+      "pageid": 198
+    },
+    {
+      "title": "Commander",
+      "pageid": 199
+    },
+    {
+      "title": "Militant",
+      "pageid": 200
+    },
+    {
+      "title": "Paintballer",
+      "pageid": 202
+    },
+    {
+      "title": "Crook Boss",
+      "pageid": 226
+    },
+    {
+      "title": "Demoman",
+      "pageid": 239
+    },
+    {
+      "title": "Shotgunner",
+      "pageid": 275
+    },
+    {
+      "title": "Grave Digger (Legacy)",
+      "pageid": 294
+    },
+    {
+      "title": "Gladiator",
+      "pageid": 302
+    },
+    {
+      "title": "Rocketeer",
+      "pageid": 307
+    },
+    {
+      "title": "Sentry",
+      "pageid": 392
+    },
+    {
+      "title": "Turret",
+      "pageid": 454
+    },
+    {
+      "title": "Normal Boss",
+      "pageid": 486
+    },
+    {
+      "title": "Commando",
+      "pageid": 599
+    },
+    {
+      "title": "Medic",
+      "pageid": 1545
+    },
+    {
+      "title": "Hunter",
+      "pageid": 1546
+    },
+    {
+      "title": "Fallen Guardian (Legacy)",
+      "pageid": 1614
+    },
+    {
+      "title": "Error",
+      "pageid": 1616
+    },
+    {
+      "title": "Abnormal Boss",
+      "pageid": 1618
+    },
+    {
+      "title": "Glitch",
+      "pageid": 1619
+    },
+    {
+      "title": "Heavy",
+      "pageid": 1635
+    },
+    {
+      "title": "Shadow Boss",
+      "pageid": 1638
+    },
+    {
+      "title": "Slasher",
+      "pageid": 1752
+    },
+    {
+      "title": "DJ Booth",
+      "pageid": 2235
+    },
+    {
+      "title": "Ace Pilot",
+      "pageid": 2469
+    },
+    {
+      "title": "Hidden Wave",
+      "pageid": 2531
+    },
+    {
+      "title": "Mortar",
+      "pageid": 2730
+    },
+    {
+      "title": "Frost Blaster",
+      "pageid": 2732
+    },
+    {
+      "title": "Archer",
+      "pageid": 2747
+    },
+    {
+      "title": "Premium Crate",
+      "pageid": 2967
+    },
+    {
+      "title": "Golden Crate",
+      "pageid": 2968
+    },
+    {
+      "title": "Electroshocker",
+      "pageid": 3751
+    },
+    {
+      "title": "Swarmer",
+      "pageid": 4581
+    },
+    {
+      "title": "Pursuit",
+      "pageid": 6735
+    },
+    {
+      "title": "Mecha Base",
+      "pageid": 7179
+    },
+    {
+      "title": "War Machine",
+      "pageid": 7181
+    },
+    {
+      "title": "Cowboy",
+      "pageid": 7565
+    },
+    {
+      "title": "Humvee",
+      "pageid": 9668
+    },
+    {
+      "title": "Humvee 2",
+      "pageid": 9670
+    },
+    {
+      "title": "Humvee 3",
+      "pageid": 9671
+    },
+    {
+      "title": "Tank (Unit)",
+      "pageid": 9672
+    }
+  ],
+  "templates": [
+    {
+      "ns": 10,
+      "title": "Template:Tabs",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Icon",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:For",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerInfobox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Coins",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Money",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Attr",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:AttrTag",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:AttrTag/styles.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Robux",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteContainer",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Upgrade",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Hidden",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Neow",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Scroll",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bug",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Tooltip",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bugfix",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerNavBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerNavBox/labels.css",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Money",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:NumName",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Randomizer",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:StripNaked",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Neowbunto",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Tipgen",
+      "exists": true
+    }
+  ],
+  "related_pages": [
+    {
+      "title": "Golden Minigunner/Gallery",
+      "score": 6,
+      "pageid": 30795,
+      "latest_revid": 140235,
+      "latest_timestamp": "2023-02-17T12:30:57Z",
+      "wikitext_excerpt": "#REDIRECT [[Minigunner/Gallery]]"
+    },
+    {
+      "title": "Golden Minigunner/History",
+      "score": 6,
+      "pageid": 36235,
+      "latest_revid": 618772,
+      "latest_timestamp": "2026-08-20T00:20:57Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Minigunner/History|Perk = Golden Minigunner/History|Evolved=Juggernaut/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Minigunner/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore Rework Update (5 June 2026) - Current'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:Goldenminigunner.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|2,400}}\n|Footprint = 1.5\n|Sell Price = {{Money|800}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.16\n|Hidden = {{Hidden|Hidden Detection}}Level 1+\n|Range = [[File:Range Icon.png|20px|Range]]16\n|Lead = N/A\n|Placement = N/A\n|Fly = N/A\n|Title1 = Rev-Up Time\n|Stat1 = [[File:Cooldown Icon.png|20px|Rev-Up Time]]0.8\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|1,000}}|Image = [[File:MinigunnerUpgradeLevel1.png|100px]]|Information = 0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Thermal Vision|Cost = {{Money|4,800}}|Image = [[File:MinigunnerUpgradeLevel2.png|100px]]|Information = +4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = High Tech Armory|Cost = {{Money|13,500}}|Image = [[File:MinigunnerUpgradeLevel3.png|100px]]|Information = +6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = 24 Karat Gatling Gun|Cost = {{Money|27,500}}|Image = [[File:MiniLevel4.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = Damage / Firerate\n$CE$ = Total Cost / DPS\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 2400; 1000; 4800; 13500; 27500\n$FSE-DETECTION$ = 2; ;\n$FSE-UPGRADE$ = Improved Handling; Thermal Vision; High Tech Armory; 24 Karat Gatling Gun\n$FSE-UPGRADEICON$ = 15184753790; 15184753514; 15184753289; 15184752970\n$FSE-META$ = Golden Perks; File:Goldenminigunner.png\n$DREF$ = <ref name=dps>DPS does not consider rev-up time.</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{|class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency\n|-\n| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}}$R$\n|-\n| 1  || $R$ || $R$ || 3 || 0.12 || 0.8 || 16 || $DPS$$R$ || $R$\n|-\n| 2 || $R$ || $R$ || 7 || 0.12 || 0.8 || 20 || $R$ || $R$\n|-\n| 3 || $R$ || $R$ || 13 || 0.1 || 0.6 || 20 || $R$ || $R$\n|-\n| 4 || $R$ || $R$ || 20 || 0.1 || 0.6 || 22 || $R$ || $R$\n|}\n</div>\n</nowiki>}}\n</center>\n</div>\n</div>\n----\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Shock and Awe Update (28 January 2026) – Hardcore Rework Update (5 June 2026)'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n\n==Base Statistics==\n{{BaseStat\n|Image = [[File:Goldenminigunner.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|2,000}}\n|Footprint = 1.5\n|Sell Price = {{Money|666}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]2\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15\n|Hidden = {{Hidden|Hidden Detection}}Level 2+\n|Range = [[File:Range Icon.png|20px|Range]]16\n|Lead = N/A\n|Placement = N/A\n|Fly = N/A"
+    },
+    {
+      "title": "Golden Body Guard",
+      "score": 3,
+      "pageid": 30804,
+      "latest_revid": 414874,
+      "latest_timestamp": "2026-05-05T13:50:03Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guards 1]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guard]]}}\n{{UnitInfobox\n|title1 = Golden Body Guard\n|image1 = GBodyGuard.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]50s (Level 1)<br/>[[File:VehicleSpawn.png|20px|Spawnrate]]40s (Level 2)\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.625\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guard''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 1 or Level 2. In the game, the '''Golden Body Guard''' was referred to as just '''Body Guard''', though it has been referenced here as '''Golden Body Guard''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moves towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guard''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guard''' had a spawnrate of 50 seconds, 40 seconds if the [[Golden Crook Boss]] was Level 2.\n\nThere was a limit of one unit per [[Golden Crook Boss]] at Levels 1 and 2, limiting the amount of '''Golden Body Guards''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guard''' had pale skin. It had black legs, and wore brown cotton gloves, a black buttoned tuxedo with short yellow sleeves that had dark brown outlines and grey shoes. It also wore a black necktie and was faceless. It also had a yellow briefcase on its back. The '''Golden Body Guard''' wielded a [[wp:Luger pistol|Luger P08]] in its right hand.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guard''' because of its slow spawnrate.\n*You will need to wait 50 seconds for a '''Golden Body Guard''' to spawn if you place down a [[Golden Crook Boss]] and immediately upgrade it to Level 1.\n*The '''Golden Body Guard''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]]. However, this is not recommended due to the low health of the '''Golden Body Guard'''.\n**Do note that the '''Golden Body Guard's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guard''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guard''' collides with them. However, this is likely unfavorable as the '''Golden Body Guard's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guard''' hidden detection.\n**The '''Golden Body Guard''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guard''' will spawn per Level 1 or 2 [[Golden Crook Boss]].\n**Like other units, the '''Golden Body Guard''' will go down a random path.\n*The '''Golden Body Guard''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guard''' without taking much damage from its ranged attack.\n*The '''Golden Body Guard''' is not affected by any buff or debuff as it is a unit.\n*The '''Golden Body Guard''' will struggle against any enemy with abilities that damage units due to its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guard''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*The '''Golden Body Guard''' was duplicated for the Level 3 [[Golden Crook Boss]] [[Units|unit]], the [[Golden Body Guards 1]], though there are minor differences in appearan"
+    },
+    {
+      "title": "Golden Body Guards 1",
+      "score": 3,
+      "pageid": 30805,
+      "latest_revid": 414873,
+      "latest_timestamp": "2026-05-05T13:49:39Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guards 1]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GBodyGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoids\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]40s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]3\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guards 1''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 3. In the game, the '''Golden Body Guards 1''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 1''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 1''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 1''' had a spawnrate of 40 seconds.\n\nThere was a limit of two units per [[Golden Crook Boss]] at Level 3, limiting the amount of '''Golden Body Guards 1s''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guards 1''' were made up of two humanoids that were nearly identical to each other. They had pale skin, black pants, brown cotton gloves, a black buttoned tuxedo with a golden shirt underneath and grey shoes. One of them also wore a blue necktie, while the other a red necktie, and were faceless. One of them also had a yellow briefcase on its back. The '''Golden Body Guards 1''' wield a [[wp:Luger pistol|Luger P08]] in their right hands.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 1''' because of its slow spawnrate.\n*You will need to wait 40 seconds for a '''Golden Body Guards 1''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 3.\n*The '''Golden Body Guards 1''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 1's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 1''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 1''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 1's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 1''' hidden detection.\n**The '''Golden Body Guards 1''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 1''' will spawn per Level 3 [[Golden Crook Boss]].\n**The '''Golden Body Guards 1''' will go down a random path.\n*The '''Golden Body Guards 1''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''GoldenBody Guard 2''' without taking much damage.\n*The '''Golden Body Guards 1''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 1''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 1''' is caught in the attack, it is instantly killed.\n\n==Update History==\n{{scroll|text =\n*'''13 May 2022''' - [[v1.2.2]]\n**'''GoldenGuard2''' added.\n**{{Bug}} '''GoldenGuard2's''' range can be increased by the [[DJ Booth]].\n**{{Bug}} '''GoldenGuard2''' uses an incorrect name in-game.\n**{{Bug}} You can collide with the '''GoldenGuard2's''' briefcase.\n*'''21 May 2022'"
+    },
+    {
+      "title": "Golden Body Guards 2",
+      "score": 3,
+      "pageid": 30806,
+      "latest_revid": 414872,
+      "latest_timestamp": "2026-05-05T13:49:28Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 1]]|its normal counterpart, the [[Body Guards 2]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]50\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]35s\n|damage_type = Single<br/>Collision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]4\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.175\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Body Guards 2''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 4. In the game, the '''Golden Body Guards 2''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 2''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 2''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 2''' had a spawnrate of 35 seconds.\n\nThere was a limit of three units per [[Golden Crook Boss]] at Level 4, limiting the amount of '''Golden Body Guards 2s''' it could spawn.\n\n==Appearance==\n<tabber>\n|-|First Body Guard =\nThe body guard to the left of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a red necktie, grey shades, black fedora with a red stripe, grey shoes and brown cotton gloves. It was faceless. The body guard wielded an [[wp:Thompson submachine gun|M1A1 Thompson]].\n|-|Second Body Guard =\nThe body guard to the right of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a blue necktie, grey shades, and grey shoes. It has a brown beard. It is also faceless. The body guard wields an [[wp:Thompson submachine gun|M1A1 Thompson]].\n</tabber>\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 2''' because of its slow spawnrate.\n*You will need to wait 35 seconds for a '''Golden Body Guards 2''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 4.\n*The '''Golden Body Guards 2''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 2's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 2''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 2''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 2's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 2''' hidden detection.\n**The '''Golden Body Guards 2''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 2''' will spawn per Level 4 [[Golden Crook Boss]].\n**The '''Golden Body Guards 2''' will go down a random path.\n*The '''Golden Body Guards 2''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guards 2''' without taking much damage.\n*The '''Golden Body Guards 2''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 2''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 2''' is caught in the attack, it is instantly killed.\n\n==U"
+    },
+    {
+      "title": "Golden Cowboy",
+      "score": 3,
+      "pageid": 30799,
+      "latest_revid": 618523,
+      "latest_timestamp": "2026-08-18T21:25:37Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}\n{{For|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Cowboy}}\n|image-static = WDGoldenCowboyIcon.png\n|image-dynamic = GoldenCowboyDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)\n|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])\n|basecost = {{Money|600}}\n|basesellingprice = {{Money|200}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|basedamage = [[File:Damage Icon.png|20px|Damage]]3\n|damagetype = Single\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|baserange = [[File:Range Icon.png|20px|Range]]13\n|baseincome = {{Money|35}}\n|hidden_detection = {{Attr|Hidden|Level 3+}}\n|lead_detection = N/A\n|flying_detection = N/A\n|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|footprint = 1.25\n|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.\n\nWhile initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. \n\nThe '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.\n\nIn comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.\n\nThe '''Golden Cowboy''' has a placement limit of twelve per player.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1"
+    },
+    {
+      "title": "Golden Cowboy/History",
+      "score": 3,
+      "pageid": 32596,
+      "latest_revid": 618597,
+      "latest_timestamp": "2026-08-18T21:37:52Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Cowboy/History|Perk = Golden Cowboy/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Cowboy/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore Rework Update (5 June 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:WDGoldenCowboyIcon.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|600}}\n|Footprint = 1.25\n|Sell Price = {{Money|200}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|Hidden = {{Hidden|Hidden Detection}}Level 3+\n|Range = [[File:Range Icon.png|20px|Range]]13\n|Lead = N/A\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|Fly = N/A\n|Title1 = Income\n|Stat1 = {{Money|35}}\n|Title2 = Cash Shot\n|Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|Title3 = Spin Time\n|Stat3 = [[File:Cooldown Icon.png|20px|Spin Time]]2\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))\n$CE$ = Total Cost / DPS\n$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))\n$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 600; 200; 650; 2400; 4250; 9750\n$FSE-DETECTION$ = 3; ;\n$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West\n$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990\n$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{| class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Damage !! Firer"
+    },
+    {
+      "title": "Golden Crate",
+      "score": 3,
+      "pageid": 2968,
+      "latest_revid": 627849,
+      "latest_timestamp": "2026-08-26T15:26:19Z",
+      "wikitext_excerpt": "{{For|[[Platinum Crate]]|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{CrateInfobox\n|title1 = {{Color|Golden|Golden Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:GoldenSkincrateIcon.png]]\n|-|In-Game = [[File:GoldenCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost = 50,000\n|sale = Yes\n|contains = 7\n|rarity = {{Color|Golden}}\n|rarities = {{Color|Golden}}\n|music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier, Demoman|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|A crate for the most prestigious players.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Golden Crate''' is a futuristic crate with a sleek design and multiple neon yellow lights on it. On the front, it has a small card reader and a number pad. The top of the crate opens up in a futuristic fashion, with the left and right side respectively sliding to the left and right, revealing a pile of coins inside.\n|Second\n|The crate was larger than the [[Basic Crate]]. It was more smooth and sleek, and appeared to open up like a futuristic crate. There was a card reader attached to it.\n|First\n|The crate looked exactly like the [[Platinum Crate]], except that it was yellow in color.\n}}\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:GoldenScout3.png|175px]]\n|[[File:NewGoldenCrookBoss.png|175px]]\n|[[File:DHGoldenPyroIcon.png|175px]]\n|[[File:Goldenminigunner.png|175px]]\n|-\n!Golden Perk\n|[[Golden Scout]]\n|[[Golden Crook Boss]]\n|[[Golden Pyromancer]]\n|[[Golden Minigunner]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|55,000}}\n|{{Coins|55,000}}\n|{{Coins|65,000}}\n|{{Coins|75,000}}\n|-\n!Tower\n|[[Scout]]\n|[[Crook Boss]]\n|[[Pyromancer]]\n|[[Minigunner]]\n|-\n!\n|[[File:WDGoldenCowboyIcon.png|175px]]\n|[[File:KR Golden Soldier Icon.png|175px]]\n|[[File:GoldenDemoman0.png|175px]]\n|-\n!Golden Perk\n|[[Golden Cowboy]]\n|[[Golden Soldier]]\n|[[Golden Demoman]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|70,000}}\n|{{Coins|50,000}}\n|{{Coins|55,000}}\n|-\n!Tower\n|[[Cowboy]]\n|[[Soldier]]\n|[[Demoman]]\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Appearance}}\n<gallery>\nGoldenCrateInGame.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Crate Icons}}\n<gallery>\nGold Crate.png|First version (13 October 2019 – 29 October 2020)\nGoldenSkincrateOld.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Thumbnails}}\n<gallery>\nGoldenCrateThumbnail.png|Second version on the game thumbnail.\n</gallery>\n}}\n\n==Trivia==\n*The current design of the '''Golden Crate''' is likely based on the [[w:c:saszombieassault:Strongbox#8|Nantonium Strongbox]] from ''SAS: Zombie Assault 4''.\n*The '''Golden Crate''' is currently the only item in the game that gives a buff to a tower outside"
+    },
+    {
+      "title": "Golden Crook",
+      "score": 3,
+      "pageid": 9752,
+      "latest_revid": 467750,
+      "latest_timestamp": "2026-06-05T07:32:21Z",
+      "wikitext_excerpt": "{{Removed|date=13th of May 2022}}\n{{for|its default variants, [[Body Guard]], [[Body Guards 1]], [[Golden Body Guard]], [[Golden Body Guards 1]], other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{UnitInfobox\n|title1 = Golden Crook\n|image1 = <tabber>\n|-|Version 2 = [[File:NewGoldenCrook.png]]\n|-|Version 1 = [[File:GoldenCrook.png]]\n</tabber>\n|source = [[Crook Boss|{{Color|Golden}} Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]25\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]60s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Crook''' was a [[Units|unit]] spawned by the [[Crook Boss|{{Color|Golden}} Crook Boss]] at Levels 2-3. The '''Golden Crook''' was essentially a re-skin of the [[Crook]], as it had similar appearance and stats, but had very little in common with the [[Body Guard]] and [[Body Guards 1]]. Like other [[units]], it started from the end of the map path and moved towards the entrance of the map. The '''Golden Crook''' had a spawnrate of 60 seconds.\n\nWhenever there was an enemy in its range, the '''Golden Crook''' would stop moving to shoot at the enemy. It would continue walking when there were no enemies left in its range.\n\nThere was a limit of 3 units per [[Crook Boss|{{Color|Golden}} Crook Boss]], limiting the amount of '''Golden Crooks''' it could spawn.\n\n==Appearance==\n{{Tabber\n|Version 2\n|The '''Golden Crook''' had tan skin, black pants, dark grey shoes, yellow torso with black and yellow stripes, and yellow sleeves. It had a smile face. It wore a yellow beanie. It carried a golden [[wp:Uzi|UZI]] in its right hand to shoot at enemies. Yellow sparkles came out from its UZI.\n|Version 1\n|The original '''Golden Crook''' had yellow skin, black legs, yellow torso with black and yellow stripes, yellow sleeves, and a mischievous face. It wore a yellow and black striped headband. Yellow sparkles came out from its headband and a golden aura came out of its torso. It carried a golden [[wp:Uzi|UZI]] to shoot at enemies.\n}}\n\n==Strategy==\n*You should not rely too much on '''Golden Crooks''' because of their slow spawnrate.\n*The '''Golden Crook''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Crook''' collides with them. However, this is likely unfavorable as the '''Crook's''' main source of damage is ranged.\n**The [[Ace Pilot]] cannot give the '''Golden Crook''' hidden detection.\n*On two-pathed maps, only one '''Golden Crook''' will spawn per Level 2 [[Crook Boss|{{Color|Golden}} Crook Boss]]. It will go down a random path.\n*The '''Golden Crook''' cannot collide with ghost enemies, like the [[Soul]].\n*The '''Golden Crook''' will struggle against fast enemies like the [[Error]] or [[Glitch]], as they can run into '''Golden Crooks''' without taking much damage.\n*The range of the '''Golden Crook''' can be increased by the [[DJ Booth]], as long as the [[Crook Boss|{{Color|Golden}} Crook Boss]] that spawned it is in range of the [[DJ Booth]].\n**The '''Golden Crook''' cannot be affected by any other buffs or debuffs, such as [[Commander]]'s [[Firerate Buff]] or [[Ace Pilot]]'s ability to grant hidden detection.\n*The '''Golden Crook''' will struggle against any enemy with abilities that damage units, as their health is lower than any amount of damage that these enemies deal.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Crook''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*Only the [[Crook Boss|{{Color|Golden}} Crook Boss]] spawned '''Golden Crooks''' instead of [[Body Guard]]/[[Body Gu"
+    },
+    {
+      "title": "Golden Crook Boss",
+      "score": 3,
+      "pageid": 30803,
+      "latest_revid": 643940,
+      "latest_timestamp": "2026-09-06T13:20:57Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Crook Boss|Perk = Golden Crook Boss|Evolved=Kingpin}}\n{{for|other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Crook Boss}}\n|image-static = NewGoldenCrookBoss.png\n|image-dynamic = GoldenCrookBossDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)\n|towercost = {{Level|30}} or {{Robux|300}} ([[Crook Boss]])\n|basecost = {{Money|2,400}}\n|basesellingprice = {{Money|800}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5\n|basedamage = [[File:Damage Icon.png|20px|Damage]]12\n|damagetype = Single<br/>Collision\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8\n|baserange = [[File:Range Icon.png|20px|Range]]16.5\n|basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]45s\n|hidden_detection = {{Attr|Hidden|Level 2+}} (Tower & Tommy Goons)\n|lead_detection = {{Attr|Lead|Level 0+}} (Collision only)\n|flying_detection = {{Attr|Fly|Level 1+}}\n|immune = Debuff (Units only)\n|footprint = 1.5\n|evolves_into = [[Kingpin]]\n|evolution_levels = 20\n|base_exp = 50\n|growth_rate = 1.09\n|skip_cost = 599\n|tooltip-1 = A well rounded tower with good detection coverage, reliable damage, and the ability to spawn friendly units.\n|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.\n}}\n{{QuoteContainer|\n{{QuoteBox|Command henchmen to fight for you while looking cool!|Store Description}}\n}}\n__TOC__\n==Description==\nThe '''Golden Crook Boss''' is an upgraded version of the [[Crook Boss]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if the player owns the [[Crook Boss]]. It can also be bought in the Daily Store for {{Coins|55,000}}. The normal counterpart, the [[Crook Boss]], can be claimed by reaching {{Level|30}} or alternatively purchasing it for {{Robux|300}}.\n\nInitially, the '''Golden Crook Boss''' has high damage, though it has rather low range. However, with later upgrades, the firerate decreases and its damage increases significantly. The range also increases and becomes comparable to towers like the [[Minigunner]]. The '''Golden Crook Boss''' has the ability to spawn [[Golden Pistol Goon]] from Level 0, which with later levels get double spawns. Additional, at Level 3, it spawns [[Golden Tommy Goon 1]], which gets replaced by [[Golden Tommy Goon 2]] at Level 4. Every time it summons an unit, it stops attacking for a second. All the units have flying detection but only the Tommy Goons have hidden detection.\n\nIn comparison to its normal counterpart, the [[Crook Boss]], the '''Golden Crook Boss''' has higher damage and slightly higher range, but it is more expensive at all Levels. It also spawns stronger units.\n\nThe '''Golden Crook Boss''' can be considered a mid to late-game tower, as its expensive cost for extremely high DPS makes it a great tower later on during the game and has sufficient DPS to remain strong in the extra-late game.  \n\nThere is a limit of five '''Golden Crook Bosses''' per player. Additionally, it has a limit of ten [[Golden Pistol Goon]]s per tower and a limit of three [[Golden Tommy Goon 1]]s and [[Golden Tommy Goon 2]]s per tower.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Lvl 1. Broke|Cost = {{Money|1,600}}|Image = [[File:Stronger_Bullets.png|100px]]|Information = 0.8 > 0.55 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,333}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lvl. 2 Normie|Cost = {{Money|3,200}}|Image = [[File:CrookBoss2.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+9 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow spawns two [[Golden Pistol Goon]]s instead of one\n\n\nSell Price changes to {{Money|2,400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Lvl 3. Gam"
+    },
+    {
+      "title": "Golden Crook Boss/History",
+      "score": 3,
+      "pageid": 33953,
+      "latest_revid": 618798,
+      "latest_timestamp": "2026-08-20T10:53:02Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Crook Boss/History|Perk = Golden Crook Boss/History}}\n''To see the statistics of this tower without the [[Firerate Bug]], visit the [[Firerate Bug/Golden Crook Boss|Firerate Bug]] page.''\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:GCBoss.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Intermediate\n|Role = Offense\n|Cost = {{Money|2,400}}\n|Footprint = 1.5\n|Sell Price = {{Money|800}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]12\n|Damage Type = Single<br/>Collision\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8\n|Hidden = {{Hidden|Hidden Detection}}Level 2+ (Tower & Tommy Goons)\n|Range = [[File:Range Icon.png|20px|Range]]16.5\n|Lead = {{Lead|Lead Detection}}Level 0+ (Collision only)\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]5\n|Fly = {{Flying|Flying Detection}}Level 0+\n|Title1 = Spawnrate\n|Stat1 = [[File:VehicleSpawn.png|20px|Spawnrate]]45s\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Lvl 1. Broke|Cost = {{Money|1,600}}|Image = [[File:Stronger_Bullets.png|100px]]|Information = 0.8 > 0.55 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,333}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lvl. 2 Normie|Cost = {{Money|3,200}}|Image = [[File:CrookBoss2.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+9 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow spawns two [[Golden Pistol Goon]]s instead of one\n\n\nSell Price changes to {{Money|2,400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Lvl 3. Gamer|Cost = {{Money|16,500}}|Image = [[File:Crook_Boss_3_New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]\n\n0.55 > 0.18 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Golden Tommy Goon 1|Description = •31s Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]]\n\n•5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.18 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•22.5 Range [[File:Range Icon.png|20px|Range]]\n\n•175 Health [[File:HealthIcon.png|20px|Health]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}}}\n\n\nSell Price changes to {{Money|7,900}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Lvl. 4 GOD|Cost = {{Money|50,000}}|Image = [[File:CrookBoss5.png|100px]]|Information = +17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.18 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n{{CollapsibleUpgrade|Title = Spawns Golden Tommy Goon 2|Description = Replaces [[Golden Tommy Goon 1]]\n\n•31 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]]\n\n•8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•24 Range [[File:Range Icon.png|20px|Range]]\n\n•300 Health [[File:HealthIcon.png|20px|Health]]\n\n•150 Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}}}\n\n\nSell Price changes to {{Money|24,566}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = Damage / Firerate\n$RDPS$ = Health / Spawnrate\n$TDPS$ = Gun DPS + Ram DPS\n$CE$ = Total Cost / DPS\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 2400; 1600; 3200; 16500; 50000\n$TE$ = $FNC-TOTAL-EXP$\n$EXP$ = {{#expr:floor(50 * 1.09^(Level - 1) * (Level > 0))}}\n$FSE-DETECTION$ = 2; ; 1\n$FSE-UPGRADE$ = Lvl 1. Broke; Lvl. 2 Normie; Lvl 3. Gamer; Lvl. 4 GOD\n$FSE-UPGRADEICON$ = 3032133716; 3444643559; 3838914605; 3444644903\n$CREF$ = <ref>Does not account for unit DPS.</ref>\n$GREF$ = <ref>Goons are not affected by any buffs or debuffs.</ref>\n$R$ = $FNC-RECURSION$\n<"
+    },
+    {
+      "title": "Golden Demoman",
+      "score": 3,
+      "pageid": 62930,
+      "latest_revid": 644942,
+      "latest_timestamp": "2026-09-07T06:02:55Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Demoman|Perk = Golden Demoman|History = No}}\n{{For|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{TowerInfobox\n|title = Golden Demoman\n|image-static = GoldenDemoman0.png\n|image-dynamic1 = GoldenDemomanDynamic.png\n|pseudoxd = 1\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)\n|towercost = {{Coins|200}}\n|role = Offense\n|placement = Ground\n|basecost = {{Money|875}}\n|basesellingprice = {{Money|291}}\n|basedamage = [[File:SplashDamage.png|20px|Damage]]10\n|damagetype = [[Splash Damage|Splash]]\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.95\n|baserange = [[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>\n|immune = {{Attr|Stun}} (Level 4)\n|footprint = 1.5\n}}\n{{QuoteContainer|\n{{QuoteBox|Ka-boooom! A great early game splash tower.|Store Description}}\n}}\n__TOC__\n==Description==\nThe '''Golden Demoman''' is a splash damage tower that is an upgraded version of the [[Demoman]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Demoman]]. It can also appear in the Daily Skin Store for {{Coins|55,000}}.\n\nThe '''Golden Demoman''' throws explosive golden grenades at enemies which deal medium damage within an explosion radius. To compensate, it has a rather fast firerate compared to other [[Splash Damage]] towers. It has no damage drop-off, so it deals full damage to all enemies within explosion radius.  At Levels 0-2, the '''Golden Demoman''' takes one second to aim at an enemy before throwing its grenade. This only affects the damage for the first throw, as it means the '''Golden Demoman''' has to wait 0.8 seconds before throwing it. While it is aiming, it will lock onto one enemy until it throws the grenade, after which it can target a different one. Even after the targeted enemy dies, the '''Golden Demoman''' will continue targeting it, though its grenade will land slightly ahead of where the enemy dies, in order to hit the enemy should it be still alive and moving forward. The '''Golden Demoman''' will also continue to aim at a target enemy even if it leaves its range, allowing it to attack outside of its range. \n\nThe '''Golden Demoman''' is excellent for clearing huge crowds, except for those immune to splash damage.  It is relatively weak against major bosses, though it can be useful for clearing the enemies that spawn from some major bosses. The '''Golden Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for AOE damage when multiple are placed down.\n\nThe '''Golden Demoman''' can damage [[Lead (Attribute)|Lead]] and [[Hidden (Attribute)|Hidden]] enemies, and has no placement limit.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Faster Pitch|Cost = {{Money|250}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Golden Handshake|Cost = {{Money|1,150}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Loose Cannon|Cost = {{Money|2,650}}|Image = [[File:Demoman Upgrade 2 New.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Ai"
+    }
+  ],
+  "raw_wikitext_file": "tds_bridge/result.txt",
+  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
 }
