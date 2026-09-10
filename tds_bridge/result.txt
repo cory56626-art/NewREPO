@@ -1,91 +1,79 @@
 {{BuffInfobox
-|name = Firerate Buff
-|image = Cooldown Buff.png
+|name = Damage Buff
+|image = Damage Buff.png
 |type = Buff
 |display = Tower
 }}
 
 ==Description==
-The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.
+The '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.
 
 ==Mechanics==
-Currently, the '''Firerate Buff''' is calculated as:
-::<big>'''Original Firerate ÷ (1 + Firerate Buff)'''</big>
-:::where '''Firerate Buff''' is the buff supplied is in decimal form (for example, 10% is 0.1).
+'''Damage Buff''' range reduction is calculated as:
+::<big>'''Damage × (1 + Damage Buff)'''</big>
+:::where '''Damage Buff''' is the debuff supplied in decimal form (for example, 10% is 0.1).
 
-While it may look like the firerate of a tower with the '''Firerate Buff''' is rounded up or down to the third decimal, this is only visual. 
+The damage increased by the '''Damage Buff''' will always round down to the nearest integer. For example, a tower that deals 5 damage with a 50% '''Damage Buff''' will deal 7 damage, instead of 7.5.
 
-Prior to the [[v2.0.0]] update, the firerate of a tower with the [[Firerate Bug]] was calculated as:
-::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) ÷ (1 + Firerate Buff) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
-:::where ''Bugged Firerate'' was the firerate with the [[Firerate Bug]].
-
-Prior to the [[V1.1.0|Entity System Update]], the '''Firerate Buff''' was calculated as:
-
-::Without the [[Firerate Bug]]:
-:::<big>'''Original Firerate × (1-Firerate Buff)'''</big>
-::With the [[Firerate Bug]]:
-:::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 - Firerate Buff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
-
-The following towers are either partially or fully not affected by the '''Firerate Buff''':
-*All [[units]].
-*Ability cooldowns.
-*Units spawnrates.
-*The [[Commander]]; the [[Commander]] cannot boost the firerate of other [[Commander]]s.
-*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.
-**Their main firerate can still be decreased.
-*Tick of the [[Pyromancer]], [[Toxic Gunner]], [[Cryomancer]], [[Slasher]] and [[Swarmer]].
-**The tick of the [[Accelerator]] can still be decreased.
-*The rev-up of the [[Minigunner]].
-*Charge-up and cooldown of the [[Accelerator]].
-**The cooldown of burst towers like the [[Soldier]] or [[Toxic Gunner]] also cannot be decreased.
-*The [[Executioner]]; the firerate will not be decreased if the axe takes too long to return.
-*The [[Archer]]; the '''Firerate Buff''' can decrease the time it takes for it to reload its bow, but it cannot decrease the time it takes it to aim at enemies.
-
-The pump time for the [[Enforcer]] is also affected by this buff.
+Multiple towers are not fully affected by the buff. A full list of towers affected fully, partially or that are unaffected can be found below.
+{{DamageBuff}}
 
 ==Applied By==
-The following towers have the '''Firerate Buff''':
-
-*[[Gladiator]] (''Warrior's Call'' ability)
-
-The following towers or consumables can apply the '''Firerate Buff''' to other towers:
-
-*[[Commander]] (Passive and ''Call to Arms'' ability)
-*[[Medic]] (Passive to assigned towers)
+The following towers or consumables can apply the '''Damage Buff''' to other towers or itself:
+*[[DJ Booth]] (Passive)
+*[[Mercenary Base]] (Passive)
+*[[Damage Flag]] (Passive)
 *[[War Machine]] (Passive)
-*[[Cooldown Flag]] (Passive)
-*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)
-*[[Easter Egg]] (Passive for 20 seconds)
-The following event enemies can apply the '''Firerate Buff''' to towers:
+*[[Medic]] (''Ubercharge'' ability)
+*[[Warden]] (When parrying)
 
-* [[Null Guardian]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
-* [[Null Guardian Clone]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
-The following event features can apply the '''Firerate Buff''' to towers:
+The following event features can apply the '''Damage Buff''' to towers:
 
+* [[Justice]] (Passive, [[Null & Void Event|Null & Void]])
 * [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])
+
+The following towers used to have the '''Damage Buff''':
+*{{Color|Golden}} [[Crook Boss]] (Passive)
+*{{Color|Golden}} [[Minigunner]] (Passive)
+*{{Color|Golden}} [[Pyromancer]] (Passive)
+*{{Color|Golden}} [[Scout]] (Passive)
+*{{Color|Golden}} [[Cowboy]] (Passive)
+*[[Militant|John]] (''Enraging Shout'' ability)
+*[[Slasher|Shredder]] (''Knife Throw'' ability)
+*[[Cowboy]] (''Wildest of the West and Gold Rush'' abilities'')''
+*[[Gladiator]] (''Sharp Edge'' ability'')''
+
+The following tower used to apply the '''Damage Buff''' to other towers:
+*[[Militant|John]] (''Enraging Shout'' ability)
+
+The following removed towers had the '''Damage Buff''':
+*{{Color|Platinum}} [[Crook Boss]] (Passive)
+*{{Color|Platinum}} [[Minigunner]] (Passive)
 
 ==Gallery==
 {{Gallery|
-{{GalleryHeader|Attribute Icon}}
+{{GalleryHeader|Buff icon}}
 <gallery>
-Faster Firerate.png|First Icon (14 June 2019 – 29 October 2020)
+Stronger_Bullets.png|First icon (14 June 2019 – 29 October 2020)
 </gallery>
 }}
 
 ==Update History==
-*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
-**'''Firerate Buff''' added.
+*'''14 June 2019''' - [[BETA v1.1|BETA v1.1.0]]
+**'''Damage Buff''' added.
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
+**'''Damage Buff''' updated, now it can affect far more than just the base damage of the tower.
 **Icon changed.
 **Now displayed on the tower rather than in the upgrade menu.
 *'''12 March 2022''' - [[v1.1.0]]
-**'''Firerate Buff''' calculation updated. 
+**Particles now appear when activated.
 *'''29 March 2024''' - [[v1.17.0]]
-**{{Bug}} Firerate buff indicators are sunk into the ground.
+**{{Bug}} Damage buff indicators are sunk into the ground.
 *'''10 May 2024''' - [[v1.19.2]]
-**{{Bugfix}} Firerate buff indicators are no longer sunk into the ground.
-*'''12 November 2025''' - [[v1.80.0]]
-**{{Bug}} Firerate buff indicator stays active forever after a tower sold.
+**{{Bugfix}} Damage buff indicators are no longer sunk into the ground.
+
+==Notes==
+<references/>
 
 
 

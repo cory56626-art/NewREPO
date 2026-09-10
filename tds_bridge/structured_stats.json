@@ -7,7 +7,7 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.",
+  "description": "The '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.",
   "upgrade_modes": {
     "regular": [],
     "pvp": []
@@ -36,8 +36,8 @@
     {
       "name": "BuffInfobox",
       "params": {
-        "name": "Firerate Buff",
-        "image": "Cooldown Buff.png",
+        "name": "Damage Buff",
+        "image": "Damage Buff.png",
         "type": "Buff",
         "display": "Tower"
       },
@@ -47,12 +47,12 @@
   "likely_infobox": {
     "name": "BuffInfobox",
     "params": {
-      "name": "Firerate Buff",
-      "image": "Cooldown Buff.png",
+      "name": "Damage Buff",
+      "image": "Damage Buff.png",
       "type": "Buff",
       "display": "Tower"
     },
     "positional": []
   },
-  "template_count": 7
+  "template_count": 14
 }

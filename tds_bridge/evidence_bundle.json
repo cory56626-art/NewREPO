@@ -1,12 +1,12 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Firerate Buff",
-    "title": "Firerate Buff",
-    "pageid": 49630,
-    "latest_revid": 623683,
-    "latest_timestamp": "2026-08-23T15:58:43Z",
-    "source_url": "https://tds.fandom.com/wiki/Firerate_Buff",
+    "requested": "Damage Buff",
+    "title": "Damage Buff",
+    "pageid": 49629,
+    "latest_revid": 513226,
+    "latest_timestamp": "2026-06-25T11:52:27Z",
+    "source_url": "https://tds.fandom.com/wiki/Damage_Buff",
     "classification": {
       "is_tower_page": false,
       "reason": "template/category heuristic"
@@ -22,116 +22,116 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Firerate Buff",
+    "input": "Damage Buff",
     "alias_used": null,
-    "target": "Firerate Buff",
-    "canonical_title": "Firerate Buff",
-    "pageid": 49630,
+    "target": "Damage Buff",
+    "canonical_title": "Damage Buff",
+    "pageid": 49629,
     "redirects": [],
     "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 623683,
-      "parentid": 616990,
-      "timestamp": "2026-08-23T15:58:43Z",
-      "user": "IFeelSoSubjective!",
-      "comment": "",
-      "size": 3922,
-      "sha1": "ab4fb5840d657737ce3609823e35e0a4fd1c6da3"
-    },
-    {
-      "revid": 616990,
-      "parentid": 580247,
-      "timestamp": "2026-08-17T11:16:17Z",
+      "revid": 513226,
+      "parentid": 513167,
+      "timestamp": "2026-06-25T11:52:27Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 3895,
-      "sha1": "1d2c6280be6d45e2845d9c495ea5c6489588f0e9"
+      "size": 2837,
+      "sha1": "ec6a7388ab7411fc006fbba953d7e1cbbceac0e2"
     },
     {
-      "revid": 580247,
-      "parentid": 330698,
-      "timestamp": "2026-07-29T12:07:06Z",
-      "user": "WikiaColors",
-      "comment": "",
-      "size": 3828,
-      "sha1": "9e4f17c84d92696a23149781e539bac05f3e8e5f"
+      "revid": 513167,
+      "parentid": 468598,
+      "timestamp": "2026-06-25T10:52:59Z",
+      "user": "Vessel Of Infinite Destruction",
+      "comment": "/* Applied By */",
+      "size": 2847,
+      "sha1": "274d089d4a23eda508da9cce3750d2966a1d37e4"
     },
     {
-      "revid": 330698,
-      "parentid": 301065,
-      "timestamp": "2025-12-30T18:02:05Z",
+      "revid": 468598,
+      "parentid": 451376,
+      "timestamp": "2026-06-05T08:00:35Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Applied By */ auto, replaced: {{Colour| → {{Color| (7)",
+      "size": 2799,
+      "sha1": "efc0b69b4463af2dc7cfcaf47608381b3adf1296"
+    },
+    {
+      "revid": 451376,
+      "parentid": 299342,
+      "timestamp": "2026-05-27T19:11:22Z",
+      "user": "TinyGhostGamer87",
+      "comment": "fixed a minor grammatical error (a arm -> an arm)",
+      "size": 2806,
+      "sha1": "7c2a46154c5ddca7415917204e5c38efcf7366f7"
+    },
+    {
+      "revid": 299342,
+      "parentid": 299341,
+      "timestamp": "2025-11-09T17:44:44Z",
       "user": "PenguinRules550",
       "comment": "/* Applied By */",
-      "size": 3794,
-      "sha1": "007f3b1482c680b660719be11fb0dc80e316b859"
+      "size": 2805,
+      "sha1": "24b7f840b9ac5e0525e7ac47d7d2aa2382c60638"
     },
     {
-      "revid": 301065,
-      "parentid": 301064,
-      "timestamp": "2025-11-13T02:45:22Z",
+      "revid": 299341,
+      "parentid": 297339,
+      "timestamp": "2025-11-09T17:44:00Z",
+      "user": "PenguinRules550",
+      "comment": "curses",
+      "size": 2787,
+      "sha1": "cd30d70c62508b280f677cbbcca78cbf031c9bd1"
+    },
+    {
+      "revid": 297339,
+      "parentid": 288115,
+      "timestamp": "2025-11-02T13:04:27Z",
       "user": "Sofiasean560",
-      "comment": "/* Update History */",
-      "size": 3724,
-      "sha1": "8b669f98d904cc04fa9543cc80f45e0021723012"
+      "comment": "Note the template requires <references/> to avoid unintentionally adding over the layers without section",
+      "size": 2609,
+      "sha1": "a9628a2de74daaeacc6ab6ed6eeb3fefb3577e53"
     },
     {
-      "revid": 301064,
-      "parentid": 301062,
-      "timestamp": "2025-11-13T02:42:39Z",
-      "user": "Sofiasean560",
-      "comment": "/* Update History */",
-      "size": 3724,
-      "sha1": "8a5c2cf85bf6a572c4164c9f999a0e5b8a3f6781"
+      "revid": 288115,
+      "parentid": 286070,
+      "timestamp": "2025-09-24T13:55:12Z",
+      "user": "Mentin123",
+      "comment": "/* Mechanics */",
+      "size": 6236,
+      "sha1": "a61ea1c8780fe724fee4135ad7f324d5a5babd31"
     },
     {
-      "revid": 301062,
-      "parentid": 299347,
-      "timestamp": "2025-11-13T02:42:11Z",
-      "user": "Sofiasean560",
-      "comment": "/* Update History */",
-      "size": 3721,
-      "sha1": "8780750d285f06a482cc1d2fad39c1451f8e5f97"
+      "revid": 286070,
+      "parentid": 282640,
+      "timestamp": "2025-09-08T12:40:08Z",
+      "user": "Mentin123",
+      "comment": "/* Mechanics */",
+      "size": 6411,
+      "sha1": "6a41ce9e594683c6e9b4e11133ce8bfd1586c3eb"
     },
     {
-      "revid": 299347,
-      "parentid": 299252,
-      "timestamp": "2025-11-09T17:48:20Z",
-      "user": "PenguinRules550",
+      "revid": 282640,
+      "parentid": 282361,
+      "timestamp": "2025-08-20T23:51:40Z",
+      "user": "TDSEpikMan",
       "comment": "/* Applied By */",
-      "size": 3611,
-      "sha1": "ed2d6ec6ea115daa41a198fda3bd038a7d851808"
-    },
-    {
-      "revid": 299252,
-      "parentid": 299251,
-      "timestamp": "2025-11-09T15:14:35Z",
-      "user": "PenguinRules550",
-      "comment": "/* Applied By */",
-      "size": 3473,
-      "sha1": "016011656fc334c5f9f1a4b06d13fb68ed650a99"
-    },
-    {
-      "revid": 299251,
-      "parentid": 285381,
-      "timestamp": "2025-11-09T15:13:39Z",
-      "user": "PenguinRules550",
-      "comment": "/* Applied By */",
-      "size": 3423,
-      "sha1": "4664686193a4489b4407970e44f5a3895bf156d5"
+      "size": 6411,
+      "sha1": "d029107a32cd3ddd4f0f699b6b2a7118ab64a79c"
     }
   ],
   "revision_diff": {
-    "fromrevid": 616990,
-    "torevid": 623683,
-    "fromtitle": "Firerate Buff",
-    "totitle": "Firerate Buff",
-    "fromuser": "Mentin123",
-    "touser": "IFeelSoSubjective!",
-    "fromcomment": "",
+    "fromrevid": 513167,
+    "torevid": 513226,
+    "fromtitle": "Damage Buff",
+    "totitle": "Damage Buff",
+    "fromuser": "Vessel Of Infinite Destruction",
+    "touser": "Mentin123",
+    "fromcomment": "/* Applied By */",
     "tocomment": "",
-    "diff_text": "Line 53: Line 53: *[[Commander]] (Passive and ''Call to Arms'' ability) *[[Commander]] (Passive and ''Call to Arms'' ability) *[[Medic]] (Passive to assigned towers) *[[Medic]] (Passive to assigned towers) *[[War Machine]] (Passive) *[[Cooldown Flag]] (Passive) *[[Cooldown Flag]] (Passive) *[[Sugar Rush (Consumable)|Sugar Rush]] (Passive) *[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)"
+    "diff_text": "Line 26: Line 26: *[[War Machine]] (Passive) *[[War Machine]] (Passive) *[[Medic]] (''Ubercharge'' ability) *[[Medic]] (''Ubercharge'' ability) *[[Warden]] ( ''Riot Shield'' ability ) *[[Warden]] ( When parrying ) The following event features can apply the '''Damage Buff''' to towers: The following event features can apply the '''Damage Buff''' to towers:"
   },
   "classification": {
     "is_tower_page": false,
@@ -146,7 +146,7 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.",
+    "description": "The '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.",
     "upgrade_modes": {
       "regular": [],
       "pvp": []
@@ -175,8 +175,8 @@
       {
         "name": "BuffInfobox",
         "params": {
-          "name": "Firerate Buff",
-          "image": "Cooldown Buff.png",
+          "name": "Damage Buff",
+          "image": "Damage Buff.png",
           "type": "Buff",
           "display": "Tower"
         },
@@ -186,14 +186,14 @@
     "likely_infobox": {
       "name": "BuffInfobox",
       "params": {
-        "name": "Firerate Buff",
-        "image": "Cooldown Buff.png",
+        "name": "Damage Buff",
+        "image": "Damage Buff.png",
         "type": "Buff",
         "display": "Tower"
       },
       "positional": []
     },
-    "template_count": 7
+    "template_count": 14
   },
   "conflicts": {
     "priority_rule": {
@@ -218,52 +218,112 @@
   ],
   "backlinks": [
     {
+      "title": "Scout",
+      "pageid": 123
+    },
+    {
       "title": "Soldier",
       "pageid": 124
+    },
+    {
+      "title": "Sniper",
+      "pageid": 125
     },
     {
       "title": "Minigunner",
       "pageid": 162
     },
     {
+      "title": "Freezer",
+      "pageid": 185
+    },
+    {
       "title": "Ranger",
       "pageid": 193
+    },
+    {
+      "title": "Pyromancer",
+      "pageid": 195
+    },
+    {
+      "title": "Military Base",
+      "pageid": 197
     },
     {
       "title": "Commander",
       "pageid": 199
     },
     {
+      "title": "Militant",
+      "pageid": 200
+    },
+    {
+      "title": "Paintballer",
+      "pageid": 202
+    },
+    {
+      "title": "Crook Boss",
+      "pageid": 226
+    },
+    {
+      "title": "Shotgunner",
+      "pageid": 275
+    },
+    {
       "title": "Gladiator",
       "pageid": 302
     },
     {
-      "title": "Sentry",
-      "pageid": 392
+      "title": "Turret",
+      "pageid": 454
     },
     {
-      "title": "Boomer",
-      "pageid": 505
-    },
-    {
-      "title": "Deep Freeze (Pre-MEGA)",
-      "pageid": 893
+      "title": "Commando",
+      "pageid": 599
     },
     {
       "title": "Medic",
       "pageid": 1545
     },
     {
+      "title": "Hunter",
+      "pageid": 1546
+    },
+    {
+      "title": "Slasher",
+      "pageid": 1752
+    },
+    {
+      "title": "DJ Booth",
+      "pageid": 2235
+    },
+    {
       "title": "Ace Pilot",
       "pageid": 2469
+    },
+    {
+      "title": "Frost Blaster",
+      "pageid": 2732
     },
     {
       "title": "Archer",
       "pageid": 2747
     },
     {
-      "title": "Bug",
-      "pageid": 3172
+      "title": "Golden Crate",
+      "pageid": 2968
+    },
+    {
+      "title": "Platinum Crate",
+      "pageid": 2969
+    },
+    {
+      "title": "Electroshocker",
+      "pageid": 3751
+    },
+    {
+      "title": "Swarmer",
+      "pageid": 4581
     },
     {
       "title": "Pursuit",
@@ -278,44 +338,76 @@
       "pageid": 7565
     },
     {
-      "title": "Golden Crook",
-      "pageid": 9752
+      "title": "Tank (Unit)",
+      "pageid": 9672
     },
     {
-      "title": "Golden Mafia",
-      "pageid": 9754
+      "title": "Railgun Tank",
+      "pageid": 9673
     },
     {
-      "title": "Gladiator/Gallery",
-      "pageid": 9959
+      "title": "Accelerator",
+      "pageid": 16493
     },
     {
-      "title": "Commander/History",
-      "pageid": 28753
+      "title": "Sledger",
+      "pageid": 24096
+    },
+    {
+      "title": "Toxic Gunner",
+      "pageid": 24098
+    },
+    {
+      "title": "Executioner",
+      "pageid": 27630
+    },
+    {
+      "title": "DJ Booth/History",
+      "pageid": 28733
     },
     {
       "title": "Medic/History",
       "pageid": 28764
     },
     {
-      "title": "Gladiator/History",
-      "pageid": 28779
-    },
-    {
-      "title": "Firerate Bug",
-      "pageid": 29369
-    },
-    {
       "title": "Buffs",
       "pageid": 29880
+    },
+    {
+      "title": "Engineer",
+      "pageid": 30057
+    },
+    {
+      "title": "War Machine Sentry",
+      "pageid": 30179
+    },
+    {
+      "title": "Golden Minigunner",
+      "pageid": 30794
+    },
+    {
+      "title": "Golden Pyromancer",
+      "pageid": 30796
     },
     {
       "title": "Golden Cowboy",
       "pageid": 30799
     },
     {
-      "title": "BETA v1.0",
-      "pageid": 31151
+      "title": "Golden Soldier",
+      "pageid": 30801
+    },
+    {
+      "title": "Golden Scout",
+      "pageid": 30802
+    },
+    {
+      "title": "Golden Crook Boss",
+      "pageid": 30803
+    },
+    {
+      "title": "BETA v1.2",
+      "pageid": 31154
     },
     {
       "title": "Hardcore Testing BETA",
@@ -324,104 +416,22 @@
     {
       "title": "Release v1.0",
       "pageid": 31193
-    },
-    {
-      "title": "Release v1.2",
-      "pageid": 31208
-    },
-    {
-      "title": "Overhaul v1.0",
-      "pageid": 31371
-    },
-    {
-      "title": "V1.1.0",
-      "pageid": 31653
-    },
-    {
-      "title": "V1.7.2",
-      "pageid": 34646
-    },
-    {
-      "title": "War Machine/History",
-      "pageid": 35490
-    },
-    {
-      "title": "Trapper",
-      "pageid": 38565
-    },
-    {
-      "title": "V1.20.0",
-      "pageid": 39559
-    },
-    {
-      "title": "V1.21.0",
-      "pageid": 39768
-    },
-    {
-      "title": "Cooldown Flag",
-      "pageid": 39815
-    },
-    {
-      "title": "Gatling Gun",
-      "pageid": 42699
-    },
-    {
-      "title": "V1.36.0",
-      "pageid": 43228
-    },
-    {
-      "title": "Sugar Rush (Consumable)",
-      "pageid": 43354
-    },
-    {
-      "title": "V1.43.0",
-      "pageid": 44370
-    },
-    {
-      "title": "V1.44.0",
-      "pageid": 44470
-    },
-    {
-      "title": "Tanker",
-      "pageid": 44528
-    },
-    {
-      "title": "Biologist",
-      "pageid": 48604
-    },
-    {
-      "title": "Easter Egg",
-      "pageid": 48629
-    },
-    {
-      "title": "Fatigue Debuff",
-      "pageid": 49626
-    },
-    {
-      "title": "Damage Buff",
-      "pageid": 49629
-    },
-    {
-      "title": "Range Buff",
-      "pageid": 49631
-    },
-    {
-      "title": "Discount Buff",
-      "pageid": 49632
-    },
-    {
-      "title": "Firework Buff",
-      "pageid": 49634
-    },
-    {
-      "title": "Hidden Detection Buff",
-      "pageid": 49635
     }
   ],
   "templates": [
     {
       "ns": 10,
       "title": "Template:BuffInfobox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:DamageBuff",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
       "exists": true
     },
     {
@@ -452,20 +462,20 @@
   ],
   "related_pages": [
     {
-      "title": "Firerate Debuff",
-      "score": 9,
-      "pageid": 49644,
-      "latest_revid": 450192,
-      "latest_timestamp": "2026-05-27T05:14:29Z",
-      "wikitext_excerpt": "{{BuffInfobox\n|name = Firerate Debuff\n|image = Transparent.png\n|type = Debuff\n|display = N/A\n}}\n\n==Description==\nThe '''Firerate Debuff''' is a debuff applied by enemies that increases a tower's firerate. This debuff does not appear anywhere on the tower.\n\n==Mechanics==\nThe '''Firerate Debuff''' effectively is just a negative [[Firerate Buff]], best seen if a tower affected by it has a [[Firerate Buff]]. For example, if a tower with a 20% [[Firerate Buff]] receives a 15% '''Firerate Debuff''', the [[Firerate Buff]] will get reduced to 5%. Similarly, if a tower receives a '''Firerate Debuff''' higher than its current [[Firerate Buff]], the icon for it will be removed entirely. For example, if a tower with a 50% [[Firerate Buff]] will receive a 60% '''Firerate Debuff''', the icon for the buff will disappear and the tower will end up with a 10% '''Firerate Debuff'''.\n\nThe firerate affected by the '''Firerate Debuff''' is calculated as:\n::<big>'''Original Firerate ÷ (1 + <nowiki>[</nowiki>[[Firerate Buff]] - Firerate Debuff])'''</big>\n:::where '''Firerate Debuff''' and [[Firerate Buff]] is the debuff supplied by the enemy in decimal form (for example, 10% is 0.1). If the tower has no [[Firerate Buff]] on itself, the number for it should be set to 0.\n\nThe following towers are either partially or fully not affected by the '''Firerate Debuff''':\n*All [[units]].\n*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.\n**Their main firerate can still be increased.\n*Tick of effects applied to enemies.\n**The tick of the [[Accelerator]] can still be increased.\n*The rev-up times of various towers, like the [[Minigunner]] or [[Pursuit]].\n*Charge-up and cooldown of various burst or burst adjacent attacks, such as the [[Soldier]], [[Freezer]] and [[Accelerator]].\n*Ability cooldowns.\n\n==Applied By==\nThe following enemies can apply the '''Firerate Debuff''' to towers:\n*[[Patient Zero]] (''Toxic'' ability)\n*[[Necrotic Skeleton]] (''Gooey Demise'' ability)\n\nThe following event enemies can apply the '''Firerate Debuff''' to towers:\n*[[Titus]] (''Void Stream'' ability)\n*[[Corrupted Titus]] (''Void Stream'' ability)\n*[[Null Pyromancer]] (''Foul Breath'' ability)\n*[[Null Sentry]] (''Firerate Drain'' ability)\n*[[Rift Walker]] (''Dimensional Discharge'' ability)\n*[[Referee]] (''Red Card'' ability)\n\nThe following event features can apply the '''Firerate Debuff''' to towers:\n*[[The Star]] (Passive, [[Null & Void Event|Null & Void]])\n*[[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\nThe following enemies used to apply the '''Firerate Debuff''' to towers:\n*[[Boomer]] (''Weakening Bile'' ability, formerly)\n\n==Update Log==\n*'''3 May 2024''' - [[v1.20.0]]\n**'''Firerate Debuff''' added.\n**{{Bug}} If the '''Firerate Debuff''' is stacked and the value exceeds 100%, the tower will have its firerate reduced to the lowest value possible (0.02) until the '''Firerate Debuff''' in total is less than 100%.\n\n\n\n{{BuffsNavBox}}"
-    },
-    {
       "title": "Damage Debuff",
-      "score": 6,
+      "score": 9,
       "pageid": 54195,
       "latest_revid": 470892,
       "latest_timestamp": "2026-06-06T02:08:35Z",
       "wikitext_excerpt": "{{BuffInfobox\n|name = Damage Debuff\n|image = Transparent.png\n|type = Debuff\n|display = N/A\n}}\n\n==Description==\nThe '''Damage Debuff''' is a debuff applied by enemies that decreases a tower's damage. This debuff does not appear anywhere on the tower, though it does reduce the percentage of the tower's [[Damage Buff]].\n\n==Mechanics==\nThe '''Damage Debuff''' effectively is just a negative [[Damage Buff]], best seen if a tower affected by it has a [[Damage Buff]]. For example, if a tower with a 20% [[Damage Buff]] receives a 15% '''Damage Debuff''', the [[Damage Buff]] will get reduced to 5%. Similarly, if a tower receives a '''Damage Debuff''' higher than its current [[Damage Buff]], the icon for it will be removed entirely. For example, if a tower with a 50% [[Damage Buff]] will receive a 60% '''Damage Debuff''', the icon for the buff will disappear and the tower will end up with a 10% '''Damage Debuff'''.\n\nThe damage affected by the '''Damage Debuff''' is calculated as:\n::<big>'''Damage × (1 - (Damage Debuff - [[Damage Buff]]))'''</big>\n:::where '''Damage Debuff''' and [[Damage Buff]] is the debuff supplied by the enemy in decimal form (for example, 10% is 0.1). If the tower has no [[Damage Buff]] on itself, the number for it should be set to 0.\n\nThe damage of a tower affected by the '''Damage Debuff''' cannot be in decimal form, instead of being rounded down or rounded up to the nearest integer. For example, a tower that deals 5 damage with a 50% '''Damage Debuff''' will deal 2 damage, instead of 2.5. The damage also cannot be lower than 1. For example, a tower with a 25% debuff will have its damage displayed as 0.75, but it will actually deal 1 damage, though some towers like the [[Shotgunner]] will break and actually deal nan damage.\n\n==Applied By==\nThe following event enemies can apply the '''Damage Debuff''' to towers:\n*[[Null Missile APC]] (''Null Missile Barrage'' ability, [[Null & Void Event|Null & Void]])\n*[[Null Pursuit]] (''Missile Attack'' ability, [[Null & Void Event|Null & Void]])\n*[[Rift Walker]] (''Dimensional Discharge'' ability, [[Null & Void Event|Null & Void]])\n*[[Missile Ducky]] (''Widespread Terrorism'' ability, [[Ducky Revenge Event|Ducky Revenge]])\n\n==Update History==\n*'''31 October 2025''' - [[v1.79.0]]\n**'''Damage Debuff''' added.\n\n\n\n{{BuffsNavBox}}"
+    },
+    {
+      "title": "Firerate Debuff",
+      "score": 6,
+      "pageid": 49644,
+      "latest_revid": 450192,
+      "latest_timestamp": "2026-05-27T05:14:29Z",
+      "wikitext_excerpt": "{{BuffInfobox\n|name = Firerate Debuff\n|image = Transparent.png\n|type = Debuff\n|display = N/A\n}}\n\n==Description==\nThe '''Firerate Debuff''' is a debuff applied by enemies that increases a tower's firerate. This debuff does not appear anywhere on the tower.\n\n==Mechanics==\nThe '''Firerate Debuff''' effectively is just a negative [[Firerate Buff]], best seen if a tower affected by it has a [[Firerate Buff]]. For example, if a tower with a 20% [[Firerate Buff]] receives a 15% '''Firerate Debuff''', the [[Firerate Buff]] will get reduced to 5%. Similarly, if a tower receives a '''Firerate Debuff''' higher than its current [[Firerate Buff]], the icon for it will be removed entirely. For example, if a tower with a 50% [[Firerate Buff]] will receive a 60% '''Firerate Debuff''', the icon for the buff will disappear and the tower will end up with a 10% '''Firerate Debuff'''.\n\nThe firerate affected by the '''Firerate Debuff''' is calculated as:\n::<big>'''Original Firerate ÷ (1 + <nowiki>[</nowiki>[[Firerate Buff]] - Firerate Debuff])'''</big>\n:::where '''Firerate Debuff''' and [[Firerate Buff]] is the debuff supplied by the enemy in decimal form (for example, 10% is 0.1). If the tower has no [[Firerate Buff]] on itself, the number for it should be set to 0.\n\nThe following towers are either partially or fully not affected by the '''Firerate Debuff''':\n*All [[units]].\n*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.\n**Their main firerate can still be increased.\n*Tick of effects applied to enemies.\n**The tick of the [[Accelerator]] can still be increased.\n*The rev-up times of various towers, like the [[Minigunner]] or [[Pursuit]].\n*Charge-up and cooldown of various burst or burst adjacent attacks, such as the [[Soldier]], [[Freezer]] and [[Accelerator]].\n*Ability cooldowns.\n\n==Applied By==\nThe following enemies can apply the '''Firerate Debuff''' to towers:\n*[[Patient Zero]] (''Toxic'' ability)\n*[[Necrotic Skeleton]] (''Gooey Demise'' ability)\n\nThe following event enemies can apply the '''Firerate Debuff''' to towers:\n*[[Titus]] (''Void Stream'' ability)\n*[[Corrupted Titus]] (''Void Stream'' ability)\n*[[Null Pyromancer]] (''Foul Breath'' ability)\n*[[Null Sentry]] (''Firerate Drain'' ability)\n*[[Rift Walker]] (''Dimensional Discharge'' ability)\n*[[Referee]] (''Red Card'' ability)\n\nThe following event features can apply the '''Firerate Debuff''' to towers:\n*[[The Star]] (Passive, [[Null & Void Event|Null & Void]])\n*[[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\nThe following enemies used to apply the '''Firerate Debuff''' to towers:\n*[[Boomer]] (''Weakening Bile'' ability, formerly)\n\n==Update Log==\n*'''3 May 2024''' - [[v1.20.0]]\n**'''Firerate Debuff''' added.\n**{{Bug}} If the '''Firerate Debuff''' is stacked and the value exceeds 100%, the tower will have its firerate reduced to the lowest value possible (0.02) until the '''Firerate Debuff''' in total is less than 100%.\n\n\n\n{{BuffsNavBox}}"
     },
     {
       "title": "Flying Detection Buff",
@@ -508,20 +518,20 @@
       "wikitext_excerpt": "{{BuffInfobox\n|name = Cost Debuff\n|image = Transparent.png\n|type = Debuff\n|display = N/A\n}}\n\n==Description==\nThe '''Cost Debuff''' is a debuff that increases a tower's placement and upgrade costs, but not ability costs. What is affected depends what it is applied by, as in some cases the '''Cost Debuff''' only affects the upgrade cost. This debuff is not displayed anywhere on the tower, the only way to tell it has been applied is by seeing the costs get boosted.\n\n==Mechanics==\nWhen applied, any affected cost is increased using this equation:\n::<big>'''Cost × (1 + Cost Debuff)'''</big>\n:::where '''Cost Debuff''' is the buff supplied in decimal form (for example, 10% is 0.1).\n\nThe placement and upgrade costs are rounded down to the nearest integer.\n\nCertain '''Cost Debuffs''' affect both tower placement and upgrade costs, and others only affect upgrade costs. Neither of them have shown to be able to affect ability usage costs. Towers that were placed down or upgraded while being affected the '''Cost Debuff''' will give you more cash back when sold, in comparison to those that were not affected by it.\n\n==Applied By==\nThe following gamemodes used to apply the '''Cost Debuff''' to towers:\n*[[MEGA Servers]] (Placement and upgrade cost)\n\nThe following modifiers apply the '''Cost Debuff''' to towers:\n*[[Inflation]] (Placement, ability and upgrade cost)\n\nThe following towers used to have the '''Cost Debuff''':\n*{{Color|Golden}} [[Scout]] (Upgrade cost only)\n*{{Color|Golden}} [[Cowboy]] (Upgrade cost only)\n\nThe following removed gamemodes could apply the '''Cost Debuff''' to towers:\n*[[Halloween 2020 Event]] (Upgrade cost only)\n\n==Update Log==\n*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]\n**'''Cost Debuff''' added.\n*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]\n**'''Cost Debuff''' variant which affects placement costs added.\n\n\n\n{{BuffsNavBox}}"
     },
     {
-      "title": "Damage Buff",
-      "score": 5,
-      "pageid": 49629,
-      "latest_revid": 513226,
-      "latest_timestamp": "2026-06-25T11:52:27Z",
-      "wikitext_excerpt": "{{BuffInfobox\n|name = Damage Buff\n|image = Damage Buff.png\n|type = Buff\n|display = Tower\n}}\n\n==Description==\nThe '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.\n\n==Mechanics==\n'''Damage Buff''' range reduction is calculated as:\n::<big>'''Damage × (1 + Damage Buff)'''</big>\n:::where '''Damage Buff''' is the debuff supplied in decimal form (for example, 10% is 0.1).\n\nThe damage increased by the '''Damage Buff''' will always round down to the nearest integer. For example, a tower that deals 5 damage with a 50% '''Damage Buff''' will deal 7 damage, instead of 7.5.\n\nMultiple towers are not fully affected by the buff. A full list of towers affected fully, partially or that are unaffected can be found below.\n{{DamageBuff}}\n\n==Applied By==\nThe following towers or consumables can apply the '''Damage Buff''' to other towers or itself:\n*[[DJ Booth]] (Passive)\n*[[Mercenary Base]] (Passive)\n*[[Damage Flag]] (Passive)\n*[[War Machine]] (Passive)\n*[[Medic]] (''Ubercharge'' ability)\n*[[Warden]] (When parrying)\n\nThe following event features can apply the '''Damage Buff''' to towers:\n\n* [[Justice]] (Passive, [[Null & Void Event|Null & Void]])\n* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\nThe following towers used to have the '''Damage Buff''':\n*{{Color|Golden}} [[Crook Boss]] (Passive)\n*{{Color|Golden}} [[Minigunner]] (Passive)\n*{{Color|Golden}} [[Pyromancer]] (Passive)\n*{{Color|Golden}} [[Scout]] (Passive)\n*{{Color|Golden}} [[Cowboy]] (Passive)\n*[[Militant|John]] (''Enraging Shout'' ability)\n*[[Slasher|Shredder]] (''Knife Throw'' ability)\n*[[Cowboy]] (''Wildest of the West and Gold Rush'' abilities'')''\n*[[Gladiator]] (''Sharp Edge'' ability'')''\n\nThe following tower used to apply the '''Damage Buff''' to other towers:\n*[[Militant|John]] (''Enraging Shout'' ability)\n\nThe following removed towers had the '''Damage Buff''':\n*{{Color|Platinum}} [[Crook Boss]] (Passive)\n*{{Color|Platinum}} [[Minigunner]] (Passive)\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Buff icon}}\n<gallery>\nStronger_Bullets.png|First icon (14 June 2019 – 29 October 2020)\n</gallery>\n}}\n\n==Update History==\n*'''14 June 2019''' - [[BETA v1.1|BETA v1.1.0]]\n**'''Damage Buff''' added.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]\n**'''Damage Buff''' updated, now it can affect far more than just the base damage of the tower.\n**Icon changed.\n**Now displayed on the tower rather than in the upgrade menu.\n*'''12 March 2022''' - [[v1.1.0]]\n**Particles now appear when activated.\n*'''29 March 2024''' - [[v1.17.0]]\n**{{Bug}} Damage buff indicators are sunk into the ground.\n*'''10 May 2024''' - [[v1.19.2]]\n**{{Bugfix}} Damage buff indicators are no longer sunk into the ground.\n\n==Notes==\n<references/>\n\n\n\n{{BuffsNavBox}}"
-    },
-    {
       "title": "Fatigue Debuff",
       "score": 5,
       "pageid": 49626,
       "latest_revid": 630982,
       "latest_timestamp": "2026-08-28T17:08:39Z",
       "wikitext_excerpt": "{{BuffInfobox\n|name = Fatigue Debuff\n|image = Slowness.png\n|type = Debuff\n|display = Tower\n}}\n\n==Description==\nThe '''Fatigue Debuff''' is a debuff that increases a tower's firerate, making them fire slower. It is displayed on the tower itself with the icon of a ball and chain.\n\n==Mechanics==\nCurrently, the '''Fatigue Debuff''' is calculated as:\n\n::<big>'''Original Firerate + Original Firerate × (Fatigue Debuff ÷ (1 + Fatigue Debuff))'''</big>\n::: where '''Fatigue Debuff''' is the debuff supplied by the enemy in decimal form (for example, 10% is 0.1).\n\nWhile it may look like the firerate of a tower with the '''Firerate Debuff''' is rounded up or down to the second decimal, this is only visual. The number can be far longer than what is displayed.\n\nThe firerate of a tower with the [[Firerate Bug]] is calculated as:\n\n::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) + (Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 + Fatigue Debuff ÷ (1 + Fatigue Debuff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n:::where ''Bugged Firerate'' is the firerate with the [[Firerate Bug]].\n\nPrior to the [[v1.1.0|Entity System Update]], '''Fatigue Debuff''' was calculated as:\n\n::<big>'''Original Firerate × (1 + Firerate Debuff)'''</big>\n\nThe firerate of a tower with the [[Firerate Bug]] was calculated as:\n\n::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 + Fatigue Debuff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n\nThe following towers are either partially or fully not affected by the '''Fatigue Debuff''':\n*All towers that are not humanoids are immune to any debuff applied by enemies prior to the 28th of October 2023.\n**The {{Color|Premium|XR500}} is still affected, as the skin has a humanoid.\n**Multiple skins added starting from the 1st of April 2025 also have this immunity due to bugs.\n*All [[units]].\n*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.\n**Their main firerate can still be increased.\n*Tick of effects applied to enemies.\n**The tick of the [[Accelerator]] can still be increased.\n*The rev-up times of various towers, like the [[Minigunner]] or [[Pursuit]]\n*Charge-up and cooldown of various burst or burst adjacent attacks, such as the [[Soldier]], [[Freezer]] and [[Accelerator]].\n*Ability cooldowns.\n\n==Applied By==\nThe following consumables can apply the '''Fatigue Debuff''' to towers:\n*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)\n\nThe following enemies can apply the '''Fatigue Debuff''' to towers:\n*[[Boomer]] (''Weakening Bile'' ability)\n*[[Clown]] (''Bombastic Performance'' ability)\n*[[Tanker]] (''Toxic Fumes'' ability)\n*[[Elite Boomer]] (''Weakening Bile'' ability)\n*[[Molten Warlord]] (''Fireball'' ability)\n*[[Fallen Soul (Legacy)|Fallen Soul]] (Legacy version, ''Slash'' ability)\n*[[Unknown Small]] (''Unknown Fatigue'' ability)\n*[[Unknown Boss]] (''Second Chance'' ability)\n*[[Crystalian]] (''Heartfelt Ray'' ability)\n*[[Soul Stealer (Legacy)|Soul Stealer]] (''Soul Steal'' ability)\n*[[Snow Minion]] (''Snowball Throw'' ability)\n\nThe following event enemies could apply the '''Fatigue Debuff''' to towers:\n*[[Frost Spirit (Frost Invasion)|Frost Spirit]] (''Nausea Stomp'' ability, [[Frost Invasion Event|Frost Invasion]])\n*[[Clown (Lunar Overture)|Clown]] (''Bombastic Performance'' ability, [[Lunar Overture Event|Lunar Overture]])\n*[[Krampus (Krampus Frosthold)|Krampus]] (All stunning abilities, [[Krampus' Revenge Event|Krampus' Revenge]])\n*[[Blight Walker]] (''Spit Burst'' ability, [[Hexscape Event|Hexscape]])\n*[[Primordial Drakobloxxer]] (''Nightmare Storm'' ability, [[Hexscape Event|Hexscape]])\n*[[Ducky D00M III]] (''Rocket Barrage'' ability, [[Ducky Revenge Event|Ducky Revenge]])\n*[[Nerd Ducky]] (''Ducky Blast'' ability, [[Ducky Revenge Event|Ducky Revenge]])\n*[[Producer]] (''Spotlight'' ability, [[The Final Act Event|The Final Act]])\n*[[Narrator (Enemy)|Narrator]] (''Hand Laser'' ability, [[The Final Act Event|The Final Act]])\n*[[Decoy]] (''Soccer Bo"
+    },
+    {
+      "title": "Firerate Buff",
+      "score": 5,
+      "pageid": 49630,
+      "latest_revid": 623683,
+      "latest_timestamp": "2026-08-23T15:58:43Z",
+      "wikitext_excerpt": "{{BuffInfobox\n|name = Firerate Buff\n|image = Cooldown Buff.png\n|type = Buff\n|display = Tower\n}}\n\n==Description==\nThe '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.\n\n==Mechanics==\nCurrently, the '''Firerate Buff''' is calculated as:\n::<big>'''Original Firerate ÷ (1 + Firerate Buff)'''</big>\n:::where '''Firerate Buff''' is the buff supplied is in decimal form (for example, 10% is 0.1).\n\nWhile it may look like the firerate of a tower with the '''Firerate Buff''' is rounded up or down to the third decimal, this is only visual. \n\nPrior to the [[v2.0.0]] update, the firerate of a tower with the [[Firerate Bug]] was calculated as:\n::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) ÷ (1 + Firerate Buff) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n:::where ''Bugged Firerate'' was the firerate with the [[Firerate Bug]].\n\nPrior to the [[V1.1.0|Entity System Update]], the '''Firerate Buff''' was calculated as:\n\n::Without the [[Firerate Bug]]:\n:::<big>'''Original Firerate × (1-Firerate Buff)'''</big>\n::With the [[Firerate Bug]]:\n:::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 - Firerate Buff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n\nThe following towers are either partially or fully not affected by the '''Firerate Buff''':\n*All [[units]].\n*Ability cooldowns.\n*Units spawnrates.\n*The [[Commander]]; the [[Commander]] cannot boost the firerate of other [[Commander]]s.\n*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.\n**Their main firerate can still be decreased.\n*Tick of the [[Pyromancer]], [[Toxic Gunner]], [[Cryomancer]], [[Slasher]] and [[Swarmer]].\n**The tick of the [[Accelerator]] can still be decreased.\n*The rev-up of the [[Minigunner]].\n*Charge-up and cooldown of the [[Accelerator]].\n**The cooldown of burst towers like the [[Soldier]] or [[Toxic Gunner]] also cannot be decreased.\n*The [[Executioner]]; the firerate will not be decreased if the axe takes too long to return.\n*The [[Archer]]; the '''Firerate Buff''' can decrease the time it takes for it to reload its bow, but it cannot decrease the time it takes it to aim at enemies.\n\nThe pump time for the [[Enforcer]] is also affected by this buff.\n\n==Applied By==\nThe following towers have the '''Firerate Buff''':\n\n*[[Gladiator]] (''Warrior's Call'' ability)\n\nThe following towers or consumables can apply the '''Firerate Buff''' to other towers:\n\n*[[Commander]] (Passive and ''Call to Arms'' ability)\n*[[Medic]] (Passive to assigned towers)\n*[[War Machine]] (Passive)\n*[[Cooldown Flag]] (Passive)\n*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)\n*[[Easter Egg]] (Passive for 20 seconds)\nThe following event enemies can apply the '''Firerate Buff''' to towers:\n\n* [[Null Guardian]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])\n* [[Null Guardian Clone]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])\nThe following event features can apply the '''Firerate Buff''' to towers:\n\n* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Attribute Icon}}\n<gallery>\nFaster Firerate.png|First Icon (14 June 2019 – 29 October 2020)\n</gallery>\n}}\n\n==Update History==\n*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]\n**'''Firerate Buff''' added.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]\n**Icon changed.\n**Now displayed on the tower rather than in the upgrade menu.\n*'''12 March 2022''' - [[v1.1.0]]\n**'''Firerate Buff''' calculation updated. \n*'''29 March 2024''' - [[v1.17.0]]\n**{{Bug}} Firerate buff indicators are sunk into the ground.\n*'''10 May 2024''' - [[v1.19.2]]\n**{{Bugfix}} Firerate buff indicators are no longer sunk into the ground.\n*'''12 November 2025''' - [[v1.80.0]]\n**{{Bug}} Firerate buff indicator stays active forever after a tower sold.\n\n\n\n{{BuffsNavBox}}"
     },
     {
       "title": "Range Buff",
