@@ -1,897 +1,976 @@
-{{ModeTabs|Story = No}}
-{{Improve|Unfinished subpages and missing triumph rewards}}
-{{ModeInfobox
-|title1 = {{Color|HardcoreMode}}
-|image1 = Hardcore2026Icon.png
-|waves = 45
-|level_requirement = {{Level|50}}
-|starting_cash = Solo:
-*{{Money|900}}
-*{{Money|1,000}} (Group Bonus)
-Duo:
-*{{Money|750}}
-*{{Money|850}} (Group Bonus)
-Trio:
-*{{Money|600}}
-*{{Money|700}} (Group Bonus)
-|rewards = {{Gem|400}}, {{Exp|400}} & {{TowerExp|350}}
-|time = 40:00
+{{Tabs}}
+{{For|[[Null Pursuit]]}}
+{{TowerInfobox
+|title = Pursuit
+|image-static = PursuitNewIcon.png
+|image-dynamic = PursuitDynamic.png
+|unlockcost = {{Coins|15,000}} or {{Robux|1,500}}
+|role = Offense
+|placement = Ground (Air-based)
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])
+|levelrequirement = {{Level|100}}
+|basecost = {{Money|5,000}}
+|basesellingprice = {{Money|1,666}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]7
+|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 3+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.225
+|baserange = [[File:Range Icon.png|20px|Range]]7
+|hidden_detection = {{Attr|Hidden|Level 4B+}}<ref name=hidden>From Level 3, its missiles can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4B.</ref>
+|lead_detection = {{Attr|Lead|Level 3+}} (Splash only)
+|flying_detection = {{Attr|Flying|Level 0+}}
+|immune = Stun<br/>Partial Debuff
+|footprint = 1.5
+|pvp_basecost = {{Money|2,500}}
+|pvp_basesellingprice = {{Money|833}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]6
+|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 3+)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.25
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]7
+|pvp_hidden_detection = {{Attr|Hidden|Level 4B+}}<ref name=hidden/>
+|pvp_lead_detection = {{Attr|Lead|Level 1+}}
+|pvp_flying_detection = {{Attr|Flying|Level 0+}}
+|pvp_immune = Stun<br/>Partial Debuff
+|pvp_footprint = 1.5
+|tooltip-1 = An expensive and high damage dealing tower that occasionally fires AOE rockets. Can be ordered to patrol specific areas of the map to provide universal coverage.
+|tooltip-2 = Capable of targeting [[flying]] and [[Lead (Attribute)|lead]] enemies.
 }}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Roger that! Pursues enemies in a designated patrol zone and splits into two upgrade paths!|Store Description}}
+|-|Version 2 =
+{{QuoteBox|Roger that! A vehicle that follows a path and enemies.|Former Store Description}}
+|-|Hardcore Testing =
+{{QuoteBox|Roger that! A vehicle that follows a path and enemies. Unlockable at Lv. 100|Former Store Description}}
+|-|Original =
+{{QuoteBox|Rain fire from the air! A vehicle that follows a path and follows enemies.|Former Store Description}}
+</tabber>}}
 __TOC__
 ==Description==
-'''Hardcore''' mode is one of the regular modes, being one of the hardest modes in the game. It can only be played by using the left or right [[Elevators|Hardcore Elevators]] or the hardcore [[Matchmaking]] button in the [[Matchmaking]] menu. This mode rewards {{Gem|Gems}} instead of {{Coins|Coins}}, unlike the other modes. You need to be at least {{Level|50}} to play this mode. Beating this mode will unlock [[Voidcore Mode|Voidcore]] mode.
+The '''Pursuit''' is an advanced tower that can be bought for {{Coins|15,000}} after reaching {{Level|100}} or bought via a gamepass for {{Robux|1,500}}. The '''Pursuit''' patrols a specified area, attacking any enemy that enters it that it can also see in its own range. The area it patrols can be changed with its ''Patrol'' ability. It also has two upgrade paths.
 
-Cash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo and 33% If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.
+Once an enemy enters its range, it fires upon the enemy that fits its targeting, hovering in the air while it fires at the targeted enemy. It only stops firing when all enemies are killed, or all enemies have left its attacking area. It then resumes patrolling its range. It has a limited amount of ammo which, when it runs out, makes it reload.
 
-Consumables are disabled in this mode. [[Shrines]] also appears in this mode starting from Wave 11, re-appearing every 10 waves.
+At Level 3, the '''Pursuit''' gains the ability to fire missiles at enemies, which deal splash damage. The explosion is separated into two spheres. Enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. Additionally, the '''Pursuit's''' missiles can damage [[Lead (Attribute)|Lead]] enemies. The '''Pursuit's''' can also detect [[Flying]] enemies because it is an air-based tower. If upgraded to the bottom Level 4, it also can detect [[Hidden (Attribute)|Hidden]] enemies.
 
-==Maps==
-To see the maps for '''Hardcore''' mode, go to the ''[[:Category:Hardcore Maps|Hardcore Maps Category page]].''
+The '''Pursuit''' is considered to be a mid to late-game tower due to its high DPS and splash damage capabilities, as well as its high cost. 
 
-==Rewards==
-''For former rewards, see this mode's [[Hardcore Mode/Rewards|Rewards]] page.''
+The '''Pursuit''' has a placement limit of six per player. This is decreased to five in [[PVP]] mode.
 
-The game calculates how many {{Gem|Gems}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. These {{Exp|}} bonuses multiply {{Exp|}} after it has been multiplied by modifiers.
+==Upgrades==
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = AP Rounds|Cost = {{Money|1,750}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
 
-Any rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.
 
-Currently, rewards are calculated as:
-{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
-!Gems Reward
-!EXP Reward
-!Tower EXP Reward
+Sell Price changes to {{Money|2,250}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Radar|Cost = {{Money|3,000}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
+0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +25 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+3.5 > 3 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+
+Sell Price changes to {{Money|3,250}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Air to Ground Missiles|Cost = {{Money|4,750}}|Image = [[File:PursuitLevel3.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Unlocks Missiles|Description = •30 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•4 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
+•2 Missiles
+
+•0.5 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+
+•20 Missile Speed
+}}
+
+
+Sell Price changes to {{Money|4,833}}}}
+{{PathTabber
+|{{Upgrade|Level = Level 4|Upgrade Title = Sky Shredder|Cost = {{Money|15,000}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +6 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.175 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++3 Range [[File:Range Icon.png|20px|Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +125 Ammo [[File:Damage Icon.png|20px|Ammo]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +5 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
++2 Missiles
+}}
+
+
+Sell Price changes to {{Money|9,833}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Leviathan|Cost = {{Money|47,500}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +28 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+
+Sell Price changes to {{Money|25,666}}}}
+|{{Upgrade|Level = Level 4|Upgrade Title = Modified Payload|Cost = {{Money|9,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++4 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +5 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+4 > 7.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
++4 Missiles
+
+0.5 > 0.25 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|8,000}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Demolition Gunship|Cost = {{Money|13,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +25 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+7.5 > 8.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
++2 Missiles
+
+0.25 > 0.15 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|12,500}}}}
+}}
+|{{Upgrade|Level = Level 1|Upgrade Title = .50 Caliber|Cost = {{Money|750}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+25 > 16 Speed [[File:SpeedIcon.png|20px|Speed]]
+
++Lead Detection {{Lead|Lead Detection}}
+
+
+Sell Price changes to {{Money|1,083}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Radar|Cost = {{Money|1,500}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+
++3 Damage [[File:Damage Icon.png|20px|Damage]]
+
+16 > 25 Speed [[File:SpeedIcon.png|20px|Speed]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+
+Sell Price changes to {{Money|1,583}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Air to Ground Missiles|Cost = {{Money|3,500}}|Image = [[File:PursuitLevel3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
+0.25 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +40 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+4 > 3.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Unlocks Missiles|Description = •32 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•7 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
+•2 Missiles
+
+•0.5 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+
+•20 Missile Speed
+}}
+
+
+Sell Price changes to {{Money|2,750}}}}
+{{PathTabber
+|{{Upgrade|Level = Level 4|Upgrade Title = Tri-Barrel Minigun|Cost = {{Money|12,500}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+
++2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.2 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2.5 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +75 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+3.5 > 3 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+
+•1.5 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +3 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+7 > 6 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
++2 Missiles
+}}
+
+
+Sell Price changes to {{Money|9,016}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Sky Shredder|Cost = {{Money|30,000}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++14 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.1 > 0.085 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2.5 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +50 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+3 > 2.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = 3 > 4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+0.5 > 0.25 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|16,916}}}}
+|{{Upgrade|Level = Level 4|Upgrade Title = Upgraded Payload|Cost = {{Money|7,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+
++1.5 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = -7 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+3 > 6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+7 > 3 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
++4 Missiles
+
+0.5 > 0.25 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|5,250}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Demolition Gunship|Cost = {{Money|22,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = 3.5 > 2.25 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +35 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
++2 Missiles
+
+0.25 > 0.15 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|12,750}}}}
+}}
+}}
+
+==Ability==
+{{Ability|Level Unlock = Level 0+|Cooldown Time= 20s Cooldown|Ability Title = Patrol|Image = [[File:PatrolAbility.png|100px]]|Information = Changes the position of its patrol range to the one selected by the player.}}
+
+==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page, while for the statistics without the [[Firerate Bug]], visit the [[Firerate Bug/Pursuit|Firerate Bug]] page.''
+
+{{neow|<nowiki>
+<var>
+$DPS2$ = (Damage * Ammo) / (Reload Time + Rev Time + (Firerate * Ammo))
+$DPS$ = (Damage * Ammo) / (Reload Time + (Firerate * Ammo))
+$MDPS$ = (Splash Damage * Missile Count) / (Missile Cooldown + (Burst Time * Missile Count))
+$TDPS$ = Gun DPS + Missile DPS
+$CE$ = Total Cost / Total DPS
+$TP$ = $FNC-TOTAL-COST$
+$FNC-SCHEMA$ = N; N; N; N; A; A; B; B;
+$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
+$COST$ = 5000; 1750; 3000; 4750; 15000; 47500; 9500; 13500;
+$PVP-COST$ = 2500; 750; 1500; 3500; 12500; 30000; 7500; 22500;
+$FSE-DETECTION$ = ; 3; ; ; 3; ; 4; 3;
+$FSE-PVP-DETECTION$ = ; 1; ; ; 1; ; 4; 1;
+$FSE-UPGRADE$ = AP Rounds; Enhanced Radar; Air to Ground Missiles; Sky Shredder; Leviathan; Modified Payload; Demolition Gunship
+$FSE-PVP-UPGRADE$ = .50 Caliber; Enhanced Radar; Air to Ground Missiles; Sky Shredder; Leviathan; Modified Payload; Demolition Gunship
+$FSE-UPGRADEICON$ = 117186100008439; 117186100008439; 98101516586169; File:PursuitLevelT4.png; File:PursuitLevelT4.png; File:PursuitLevelB4.png; File:PursuitLevelB4.png
+$FSE-META$ = Advanced; File:PursuitNewIcon.png
+$DREF$ = <ref name=dps>Calculated as:<br><math>\frac{\left(\text{Damage}\ \times\ Ammo\right)}{\left(\text{Reload Time}+\left(Firerate\times Ammo\right)\right)}</math></ref>
+$DREF2$ = <ref name=dps2>Calculated as:<br><math>\frac{\left(\text{Damage}\ \times\ Ammo\right)}{\left(\text{Reload Time}+\text{Rev Time}+\left(Firerate\times Ammo\right)\right)}</math></ref>
+$MREF$ = <ref name=missile>Calculated as:<br><math>\frac{\left(\text{Splash Damage} \times\ \text{Missile Count}\right)}{\left(\text{Missile Cooldown}+\left(\text{Burst Time}\times \text{Missile Count}\right)\right)}</math><br>Assumes missiles only hit one enemy.</ref>
+$R$ = $FNC-RECURSION$
+</var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="20" | Neutral Stats
 |-
-|{{Gem|150}} ÷ (1 + [(45 ÷ Current Wave) - 1]^3.5) + {{Gem|250}} (Triumph Bonus)
-|{{Exp|200}} ÷ (1 + [(45 ÷ Current Wave) - 1]) + {{Exp|200}} (Triumph Bonus)
-|{{TowerExp|160}} ÷ (1 + [(45 ÷ Current Wave) - 1]) + {{TowerExp|190}} (Triumph Bonus)
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 7 || N/A || N/A || 50 || 0.225 || N/A || N/A || 3.5 || 7 || 14 || N/A || 45 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 10 || N/A || N/A || 50 || 0.225 || N/A || N/A || 3.5 || 7 || 14 || N/A || 45 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 10 || N/A || N/A || 75 || 0.175 || N/A || N/A || 3 || 8 || 16 || N/A || 45 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 12 || 30 || 2 || 75 || 0.175 || 4 || 0.5 || 3 || 8 || 16 || 4 || 45 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
 |}
 
-Triumphing '''Hardcore''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. Additionally, items are sometimes not given out. These items are:
-TBA
-
-===Badges===
-There are also three [[badges]] which you can obtain when playing this mode, which may have additional rewards alongside the [[Badges|badge]]. These are:
-
-{{Badge
-|title = Knight
-|description = Defeat the Void Brute (Hardcore Mode)
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|225}}, 1x [[Mid Grade Crate]], 1x {{TimeScaleTicket|Time Scale Ticket}}
-}}
-{{Badge
-|title = Zealot
-|description = Defeat the Void Keeper (Hardcore Mode)
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|225}}, 1x [[Mid Grade Crate]], 1x {{TimeScaleTicket|Time Scale Ticket}}
-}}
-{{Badge
-|title = Ronin
-|description = Defeat the Void Swordmaster (Hardcore Mode)
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|625}}, 2x [[Mid Grade Crate]], 1x {{TimeScaleTicket|Time Scale Ticket}}
-}}
-{{Badge
-|title = Triumph Hardcore
-|description = You triumphed over the strongest- wait a minute... do it again in Voidcore.
-|image = TriumphHardcoreBadge.png
-|obtainable = Yes
-}}
-{{Badge
-|title = Paragon
-|description = Defeat the Void Reaver (Hardcore Mode)
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|750}}, 1x [[High Grade Crate]], 2x {{TimeScaleTicket|Time Scale Ticket}}, {{Gem|100}}
-}}
-{{Badge
-|title = Void Splitter
-|description = Complete one solo match of Hardcore Mode
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|1,000}}, 5x {{SpinTicket|Spin Ticket}}, 5x {{TimeScaleTicket|Time Scale Ticket}}, {{Gem|250}}, 1x [[Molten Monster (Consumable)|Molten Monster]]
-}}
-{{Badge
-|title = Triumph Hardcore
-|ID = Triumph Hardcore Old
-|description = You triumphed over the strongest of armies. Congratulations you are truly, strong..
-|image = HardcoreBadge2.png
-|obtainable = No
-}}
-{{Badge
-|title = Beat Hardcore Beta
-|description = Thanks for testing the hardcore beta and beating it!
-|image = HardcoreBadge.png
-|rewards = 1 [[Premium Crate|{{Color|Premium|Premium Crate}}]]
-|obtainable = No
-}}
-
-===Seasons===
-During some [[Passes]], the '''Hardcore''' mode could give currency rewards which you used to progress through a season. Rewards for all the seasons were calculated as:
-
-{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
-!Season
-!Rewards
+{| class="wikitable stats-table"
+! colspan="20" | Top Path Stats
 |-
-|[[Season of Love]]
-|{{LoveLetter|100}}<ref>Originally was {{LoveLetter|50}}</ref> × (Waves/30)^1.75
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
 |-
-|[[Solar Eclipse Event#Solar Eclipse Season|Solar Eclipse Season]]
-|{{SolarShard|50}} × (Waves/30)^1.75
+| 4 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 18 || 35 || 4 || 200 || 0.15 || 4 || 0.5 || 3 || 11 || 20 || 3 || 60 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
 |-
-|[[Frost Invasion Event#Frost Invasion Season|Frost Invasion Season]]
-|{{Shards|50}} × (Waves/30)^1.75
-|-
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Battle Pass]]
-|{{Bell|16}}<ref>Before 18th of December 2024, the rewards were {{Bell|20}} per wave.</ref> per wave<ref name=":0">Does not drop due to bugs.</ref>
-|-
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Event]]
-|{{DuckyEggs|16}} per wave<ref name=":0" />
-|-
-|[[Surf & Turf Battle Pass]]
-|{{BeachBalls|16}} per wave<ref name=":0" />
-|-
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Battle Pass]]
-|{{GumDrops|16}} per wave<ref name=":0" />
-|-
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Event]]
-|{{PlushieSnowman|16}} per wave<ref name=":0" />
-|-
-|[[Spring Frenzy Battle Pass]]
-|{{Bunz|17}} per wave<ref>Did not drop due to bugs prior to the rework.</ref>
+| 5 || $R$ || $R$ || 46 || 35 || 4 || 200 || 0.15 || 4 || 0.5 || 3 || 11 || 22 || 4 || 60 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
 |}
 
-==Enemies==
-{| class="empty-table pad-5 align-center" style="width:80%; margin:1em auto"
-|[[File:Odd1.png|center|150x150px|link=Odd]]
-|[[File:Swift1.png|center|150px|link=Swift]]
-|[[File:VoidHefty1.png|center|150px|link=Hefty]]
-|[[File:Mandrake.png|center|150px|link=Mandrake]]
+{| class="wikitable stats-table"
+! colspan="20" | Bottom Path Stats
 |-
-|[[Odd]]<br/>Wave 1<br/>29+ Total<ref name="mandrake">Number is natural spawns. Number can be exceeded if spawned by the [[Mandrake]].</ref>
-|[[Swift]]<br/>Wave 1<br/>22+ Total<ref name="mandrake" />
-|[[Hefty]]<br/>Wave 4<br/>37+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Mandrake]] and [[Mystery]].</ref>
-|[[Mandrake]]<br/>Wave 8<br/>17+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Void Keeper]] and [[Nightshade]].</ref>
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
 |-
-|[[File:Phantom.png|center|150px|link=Phantom]]
-|[[File:VoidBalloonFloat.png|center|150px|link=Balloon]]
-|[[File:VoidLeadCover1.png|center|150px|link=Lead]]
-|[[File:EliteLead1.png|center|150px|link=Elite Lead]]
+| 4 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 35 || 6 || 75 || 0.175 || 4 || 0.25 || 3 || 10 || 20 || 7.5 || 45 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
 |-
-|[[Phantom]]<br/>Wave 10<br/>44+ Total<ref name="mystery">Number is natural spawns. Number can be exceeded if spawned by the [[Mystery]].</ref>
-|[[Balloon]]<br/>Wave 12<br/>35+ Total<ref name="mystery"/>
-|[[Lead]]<br/>Wave 14<br/>41 Total
-|[[Elite Lead]]<br/>Wave 16<br/>23+ Total<ref name="voidkeeper">Number is natural spawns. Number can be exceeded if spawned by the [[Void Keeper]].</ref>
-|-
-|[[File:VoidMystery1.png|center|150px|link=Mystery]]
-|[[File:VoidBlighted.png|center|150px|link=Blighted]]
-|[[File:VoidCursedSkeleton.png|center|150px|link=Cursed Skeleton]]
-|[[File:Voidling.png|center|150px|link=Voidling]]
-|-
-|[[Mystery]]<br/>Wave 17<br/>27+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Void Reaper]].</ref>
-|[[Blighted]]<br/>Wave 19<br/>18 Total
-|[[Cursed Skeleton]]<br/>Wave 20<br/>45 Total
-|[[Voidling]]<br/>Wave 21<br/>16+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Elite Mystery]], [[Void Keeper]] and [[Void Portal]].</ref>
-|-
-|[[File:VoidReaper.png|center|150px|link=Void Reaper]]
-|[[File:ElitePhantom.png|center|150px|link=Elite Phantom]]
-|[[File:Mandragora.png|center|150px|link=Mandragora]]
-|[[File:VoidRusher1.png|center|150px|link=Void Rusher]]
-|-
-|[[Void Reaper]]<br/>Wave 22<br/>8+ Total<ref name="elitemystery">Number is natural spawns. Number can be exceeded if spawned by the [[Elite Mystery]].</ref>
-|[[Elite Phantom]]<br/>Wave 23<br/>14+ Total<ref name="elitemystery"/>
-|[[Mandragora]]<br/>Wave 26<br/>9 Total
-|[[Void Rusher]]<br/>Wave 27<br/>39+ Total<ref name="voidkeeper"/>
-|-
-|[[File:VoidPike.png|center|150x150px|link=Void Pike]]
-|[[File:VoidTitan.png|center|150px|link=Void Titan]]
-|[[File:VoidFloater1.png|center|150x150px|link=Void Floater]]
-|[[File:EliteMystery.png|center|150px|link=Elite Mystery]]
-|-
-|[[Void Pike]]<br/>Wave 28<br/>33 Total
-|[[Void Titan]]<br/>Wave 30<br/>13 Total
-|[[Void Floater]]<br/>Wave 31<br/>32+ Total<ref name="elitemystery"/>
-|[[Elite Mystery]]<br/>Wave 32<br/>35+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Nightshade]].</ref>
-|-
-|[[File:VoidBrute.png|center|150px|link=Void Brute]]
-|[[File:UnknownHexscape.png|center|150px|link=Unknown Small]]
-|[[File:EliteVoidRusher1.png|center|150px|link=Elite Void Rusher]]
-|[[File:Nightshade.png|center|150px|link=Nightshade]]
-|-
-|[[Void Brute]]<br/>Wave 33<br/>1 Total
-|[[Unknown Small]]<br/>Wave 34<br/>23+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Unknown Boss]].</ref>
-|[[Elite Void Rusher]]<br/>Wave 34<br/>38 Total
-|[[Nightshade]]<br/>Wave 35<br/>19 Total
-|-
-|[[File:VoidKeeper.png|center|150px|link=Void Keeper]]
-|[[File:VoidSoul.png|center|150px|link=Soul]]
-|[[File:VoidSlowKing2.png|center|150px|link=Slow King]]
-|[[File:VoidCultist.png|center|150px|link=Void Cultist]]
-|-
-|[[Void Keeper]]<br/>Wave 36<br/>1 Total
-|[[Soul]]<br/>Wave 37<br/>39+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Void Reaver]].</ref>
-|[[Slow King]]<br/>Wave 37<br/>36 Total
-|[[Void Cultist]]<br/>Wave 38<br/>4 Total
-|-
-|[[File:HealingBeacon.png|center|150px|link=Healing Beacon]]
-|[[File:VoidSpeedyKing.png|center|150x150px|link=Speedy King]]
-|[[File:Vindicator.png|center|150px|link=Vindicator]]
-|[[File:EliteSoul.png|center|150px|link=Elite Soul]]
-|-
-|[[Healing Beacon]]<br/>N/A<br/>N/A Total
-|[[Speedy King]]<br/>Wave 39<br/>23+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Void Trickster]].</ref>
-|[[Vindicator]]<br/>Wave 40<br/>3 Total
-|[[Elite Soul]]<br/>Wave 41<br/>17 Total
-|-
-|[[File:UnknownBoss.png|center|150px|link=Unknown Boss]]
-|[[File:HeavyVoidling.png|center|150px|link=Heavy Voidling]]
-|[[File:VoidKnight.png|center|150px|link=Void Knight]]
-|[[File:VoidTrickster.png|center|150px|link=Void Trickster]]
-|-
-|[[Unknown Boss]]<br/>Wave 41<br/>11 Total
-|[[Heavy Voidling]]<br/>Wave 41<br/>5 Total
-|[[Void Knight]]<br/>Wave 42<br/>6 Total
-|[[Void Trickster]]<br/>Wave 42<br/>3 Total
-|-
-|[[File:VoidPortalIconIG.png|center|150px|link=Void Portal]]
-|[[File:VoidSwordmaster.png|center|150px|link=Void Swordmaster]]
-|[[File:VoidGuardian.png|center|150px|link=Void Guardian]]
-|[[File:VoidReaver.png|center|150px|link=Void Reaver]]
-|-
-|[[Void Portal]]<br/>N/A<br/>N/A Total
-|[[Void Swordmaster]]<br/>Wave 43<br/>1 Total
-|[[Void Guardian]]<br/>Wave 44<br/>2 Total
-|[[Void Reaver]]<br/>Wave 45<br/>1 Total
-|-
-|[[File:VoidEye.png|center|150x150px|link=Void Eye]]
-|-
-|[[Void Eye]]<br/>N/A<br/>N/A Total
-|}
-
-==Wave Structure==
-In '''Hardcore''' mode, the formula for calculating wave bonus on each wave in is:
-:<big>({{Money|325}} + ({{Money|50}} ×  Waves Completed)) ÷ Players</big>
-
-Depending on player count, the wave bonus is reduced using multipliers. These multipliers are:
-{| class="wikitable pad-10 align-center" style="width:50%; margin:1em auto"
-!Players
-!Reduction per Player
-!Total Reduction
-|-
-|Solo
-|0%
-|0%
-|-
-|Duo
-|24%
-|48%
-|-
-|Trio
-|15%
-|45%
-|}
-
-The wave clear bonus does not appear in this mode.
-
-The waves in '''Hardcore''' mode follow these timings:
-{| class="wikitable pad-10 align-center" style="width:50%; margin:1em auto"
-!Waves
-!Wave Timer
-!Skip Time<ref>How long you have to wait before you can skip.</ref>
-|-
-|1-3
-|0:15
-|0:05<ref>Skip at 0:10.</ref>
-|-
-|4-6
-|0:20
-|0:06<ref name="t20">Skip at 0:14.</ref>
-|-
-|7-9
-|0:25
-|0:08<ref name="t25">Skip at 0:17.</ref>
-|-
-|10-13
-|0:20
-|0:06<ref name="t20"/>
-|-
-|14-15
-|0:25
-|0:08<ref name="t25"/>
-|-
-|16-17
-|0:50
-|0:16<ref name="t50">Skip at 0:34.</ref>
-|-
-|18
-|0:35
-|0:11<ref name="t35">Skip at 0:24.</ref>
-|-
-|19
-|1:30
-|0:30<ref name="t90">Skip at 1:00.</ref>
-|-
-|20-21
-|0:35
-|0:11<ref name="t35">Skip at 0:24.</ref>
-|-
-|22-25
-|0:45
-|0:15<ref name="t45">Skip at 0:30.</ref>
-|-
-|26
-|0:20
-|0:06<ref name="t20"/>
-|-
-|27
-|0:25
-|0:08<ref name="t25"/>
-|-
-|28
-|0:30
-|0:10<ref name="t30">Skip at 0:20.</ref>
-|-
-|29
-|0:50
-|0:16<ref name="t50"/>
-|-
-|30
-|2:30
-|0:50<ref name="t150">Skip at 1:40.</ref>
-|-
-|31-32
-|1:00
-|0:20<ref name="t60">Skip at 0:40.</ref>
-|-
-|33
-|4:00
-|1:20<ref name="t240">Skip at 2:40.</ref>
-|-
-|34
-|0:50
-|0:16<ref name="t50"/>
-|-
-|35
-|1:00
-|0:20<ref name="t60"/>
-|-
-|36
-|3:00
-|1:00<ref name="t180">Skip at 2:00.</ref>
-|-
-|37
-|1:00
-|0:20<ref name="t60"/>
-|-
-|38
-|1:30
-|0:30<ref name="t90"/>
-|-
-|39
-|1:00
-|0:20<ref name="t60"/>
-|-
-|40
-|4:00
-|1:20<ref name="t240"/>
-|-
-|41
-|1:30
-|0:30<ref name="t90"/>
-|-
-|42
-|2:00
-|0:40<ref name="t120">Skip at 1:20.</ref>
-|-
-|43
-|∞
-|N/A
-|-
-|44
-|3:00
-|1:00<ref name="t180"/>
-|-
-|45
-|∞
-|N/A
-|}
-
-'''Bolded''' names indicates an enemy type's debut.
-
-The total of enemies in '''Hardcore''' mode excluding uncountable summoned enemies is 1,042 enemies.
-
-For former wave structures of '''Hardcore''' mode, visit the [[Hardcore Mode/Waves|Waves]] page.
-
-<div class="mw-collapsible mw-collapsed">
-<div class="sectionheader">'''Wave Structure'''</div>
-<div class="ContainerColumn mw-collapsible-content">
-{| class="wikitable pad-10" style="width:100%; text-align: center;"
-!Wave
-! colspan="2" |Dialogue
-!Enemy Type & Amount
-|-
-| rowspan="2" |1
-| style="width:75px;" |[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Not good. NOT good. V, watch The Gate! We've just been spotted by some enemies!<br/>[[File:HardcoreWave1-1.ogg|300px]]
-| rowspan="2" |3x '''[[Odd]]''', 3x '''[[Swift]]'''
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|Enemies? There's no way. You're so far down inside the Nil Zone's depths that nothing could survive in there. Hold on, we're setting up a portal.<br/>[[File:HardcoreWave1-2.ogg|300px]]
-|-
-|2
-| colspan="2" | -
-|7x [[Odd]]
-|-
-| rowspan="2" |3
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Come on, V! Get us an exit, NOW! If we're surrounded, there won't be a chance to run.<br/>[[File:HardcoreWave3-1.ogg|300px]]
-| rowspan="2" |5x [[Swift]]
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|We're doing everything we can!<br/>[[File:HardcoreWave3-2.ogg|300px]]
-|-
-|4
-| colspan="2" | -
-|4x '''[[Hefty]]''', 5x [[Odd]]
-|-
-| rowspan="2" |5
-|[[File:CommanderHardcoreThinking.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|It's too late to backtrack. They've already cut off where The Void's entrance is. Have Hacker send in the recon drones and figure out where we are.<br/>[[File:HardcoreWave5-1.ogg|300px]]
-| rowspan="2" |2x [[Hefty]] ([[Bloated]]), 4x [[Swift]] ([[Bloated]])
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|Already on it.<br/>[[File:HardcoreWave5-2.ogg|300px]]
-|-
-|6
-| colspan="2" | -
-|3x [[Odd]] ([[Bloated]]), 6x [[Hefty]]
-|-
-|7
-|[[File:EngineerTeach.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|Commander, Narrator told us that this place is hidden deep within the Nil Zone. The rifts act differently at these depths.<br/>[[File:HardcoreWave7-1.ogg|300px]]
-|3x [[Hefty]] ([[Health Regen]]), 6x [[Odd]], 4x [[Swift]] ([[Bloated]])
-|-
-|8
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|That's why we need to study the Void Rifts. If we can figure out how they're formed, then maybe we can also figure out how to prevent them.<br/>[[File:HardcoreWave8-1.ogg|300px]]
-|1x '''[[Mandrake]]''', 4x [[Hefty]], 5x [[Odd]] ([[Bloated]])
-|-
-|9
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|There are some insane-looking enemies up ahead. Some of them we can barely see, but — Ugh! Come on! Whatever they are, some keep flying up and destroying all the drones!<br/>[[File:HardcoreWave9-1.ogg|300px]]
-|12x [[Hefty]]
-|-
-|10
-| colspan="2" | -
-|7x '''[[Phantom]]'''
-|-
-|11
-| colspan="2" | -
-|6x [[Hefty]] ([[Nimble]]), 1x [[Mandrake]], 6x [[Swift]] ([[Nimble]])
-|-
-| rowspan="3" |12
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|I want them out of the sky! Shoot them down!<br/>[[File:HardcoreWave12-1.ogg|300px]]
-| rowspan="3" |6x '''[[Balloon]]'''
-|-
-|[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|The gate that's keeping The Void open is recording a downward spike in density. V, are you seeing this?<br/>[[File:HardcoreWave12-2.ogg|300px]]
-|-
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|I see it! If it continues on a downward trajectory, it could end up ripping a massive hole in our realm. There's no way this is natural. There has to be something affecting The Void itself<br/>[[File:HardcoreWave12-3.ogg|300px]]
-|-
-|13
-| colspan="2" | -
-|4x [[Phantom]], 1x [[Mandrake]] ([[Aggro]]), 4x [[Phantom]], 1x [[Mandrake]] ([[Aggro]]), 2x [[Phantom]]
-|-
-|14
-| colspan="2" | -
-|8x '''[[Lead]]'''
-|-
-| rowspan="2" |15
-|[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|I found one of Hacker's drones! A chunk of what looks to be glass pierced right through the thing. Whatever it is, it's eating through the metal and starting to grow and—...wait. Listen.<br/>[[File:HardcoreWave15-1.ogg|300px]]
-| rowspan="2" |6x [[Phantom]], 1x [[Mandrake]] ([[Nimble]]), 7x [[Balloon]], 1x [[Mandrake]] ([[Nimble]]), 6x [[Lead]]
-|-
-|[[File:EngineerTeach.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|I'll analyze it in a moment and send you the data, V. Whatever these things are that are attacking, they're starting to organize now.<br/>[[File:HardcoreWave15-2.ogg|300px]]
-|-
-|16
-| colspan="2" | -
-|3x [[Mandrake]] ([[Bloated]]), 6x [[Lead]], 2x [[Lead]] ([[Bloated]]), 1x '''[[Elite Lead]]'''
-|-
-| rowspan="2" |17
-|[[File:CommanderHardcoreThinking.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Some of the enemies we've faced have crystals growing out of them. There are even plants sticking out of their bodies. What do you think it is?—<br/>[[File:HardcoreWave17-1.ogg|300px]]
-| rowspan="2" |2x [[Mandrake]], 4x '''[[Mystery]]''', 2x [[Mandrake]], 4x [[Mystery]]
-|-
-|[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|WATCH OUT! *Crash!* — Stupid machine! Ugh! The drone powered on and flew right at me! Whatever it is — it has to be controlling them somehow.<br/>[[File:HardcoreWave17-2.ogg|300px]]
-|-
-|18
-| colspan="2" | -
-|5x [[Mystery]], 3x [[Mandrake]] ([[Nimble]]), 1x [[Elite Lead]], 5x [[Lead]], 5x [[Balloon]], 1x [[Elite Lead]], 5x [[Balloon]]
-|-
-| rowspan="4" |19
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Get down! There's something big heading this way! When is the portal going to be ready, V? We won't be able to hold out much longer!<br/>[[File:HardcoreWave19-1.ogg|300px]]
-| rowspan="4" |1x [[Mandrake]] ([[Bloated]], [[Nimble]]), 3x [[Lead]] ([[Bloated]]), 8x [[Phantom]], 3x [[Lead]] ([[Bloated]]), 2x [[Elite Lead]], 1x '''[[Blighted]]''' ([[Boss]])
-|-
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|It keeps failing to trigger! As the density in the area grows, it's crushing the power output of the interconnected portal energizer, which decouples the equilibrium—<br/>[[File:HardcoreWave19-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|In ENGLISH!<br/>[[File:HardcoreWave19-3.ogg|300px]]
-|-
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|The machine's busted!<br/>[[File:HardcoreWave19-4.ogg|300px]]
-|-
-|20
-| colspan="2" | -
-|2x [[Elite Lead]], 1x [[Elite Lead]] ([[Bloated]]), 5x '''[[Cursed Skeleton]]'''
-|-
-| rowspan="2" |21
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Engineer, watch the backline!<br/>[[File:HardcoreWave21-1.ogg|300px]]
-| rowspan="2" |6x [[Mystery]], 6x [[Balloon]] ([[Nimble]]), 1x '''[[Voidling]]''', 4x [[Cursed Skeleton]]
-|-
-|[[File:EngineerDisappointed.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|{{QuoteDiff|[Spanish] I knew I should have stayed at the base.|(Spanish: Agh... sabía que debía quedarme en la base.)}}<br/>[[File:HardcoreWave21-2.ogg|300px]]
-|-
-|22
-| colspan="2" | -
-|4x [[Lead]] ([[Bloated]]), 7x [[Phantom]] ([[Blessed]], [[Bloated]]), 4x [[Lead]] ([[Bloated]]), 1x '''[[Void Reaper]]''', 5x [[Cursed Skeleton]], 8x [[Mystery]]
-|-
-| rowspan="2" |23
-|[[File:CommanderHardcoreScared.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Do you feel that? It feels like I'm being pulled, but I'm not seeing anything!<br/>[[File:HardcoreWave23-1.ogg|300px]]
-| rowspan="2" |5x [[Cursed Skeleton]] ([[Hidden (Attribute)|Hidden]]), 3x [[Elite Lead]], 1x '''[[Elite Phantom]]''', 6x [[Phantom]] ([[Bloated]], [[Nimble]])
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|You can't see them, but your team can. These Phantoms are drawing in whatever's around them. They're like their own miniature black hole. Don't get too close.<br/>[[File:HardcoreWave23-2.ogg|300px]]
-|-
-|24
-| colspan="2" | -
-|1x [[Voidling]], 9x [[Cursed Skeleton]], 2x [[Blighted]], 1x [[Void Reaper]]
-|-
-| rowspan="2" |25
-|[[File:ProfessorVHardcoreNeutral.gif|center|thumb|75x75px|[[Professor V]]]]
-|Yeah...—uh. Those Phantoms from before? ... There are now three of them.<br/>[[File:HardcoreWave25-1.ogg|300px]]
-| rowspan="2" |2x [[Elite Lead]] 1x [[Elite Phantom]] ([[Stun Immunity|Stun Immune]]), 2x [[Elite Lead]] ([[Bloated]]), 1x [[Elite Phantom]] ([[Stun Immunity|Stun Immune]]), 2x [[Elite Lead]] ([[Blessed]]), 1x [[Elite Phantom]] ([[Stun Immunity|Stun Immune]])
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|THERE'S THREE OF THEM?!<br/>[[File:HardcoreWave25-2.ogg|300px]]
-|-
-|26
-| colspan="2" | -
-|2x [[Blighted]], 1x '''[[Mandragora]]''' ([[Boss]]), 2x [[Cursed Skeleton]], 1x [[Cursed Skeleton]] ([[Bloated]]), 2x [[Cursed Skeleton]], 1x [[Cursed Skeleton]] ([[Bloated]])
-|-
-|27
-| colspan="2" | -
-|7x '''[[Void Rusher]]'''
-|-
-| rowspan="2" |28
-|[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|We're barely holding on here. Is there any chance for backup?<br/>[[File:HardcoreWave28-1.ogg|300px]]
-| rowspan="2" |6x [[Elite Lead]] ([[Bloated]]), 7x [[Cursed Skeleton]], 3x '''[[Void Pike]]'''
-|-
-|[[File:CommanderHardcoreThinking.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|We can't risk it. These enemies might head straight for the gate. And if it closes, the rescue could end up trapped with us.<br/>[[File:HardcoreWave28-2.ogg|300px]]
-|-
-|29
-| colspan="2" | -
-|1x [[Mandragora]], 2x [[Void Reaper]], 3x [[Elite Phantom]], 9x [[Void Rusher]]
-|-
-| rowspan="3" |30
-|[[File:CommanderHardcoreSneaky.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Do you see that? I don't think these are just random monsters!<br/>[[File:HardcoreWave30-1.ogg|300px]]
-| rowspan="3" |3x [[Blighted]] ([[Freeze Immunity|Freeze Immune]]), 1x [[Mandragora]], 1x '''[[Void Titan]]''' ([[Boss]]), 6x [[Void Rusher]], 4x [[Cursed Skeleton]] ([[Bloated]]), 3x [[Balloon]] ([[Nimble]]), 1x [[Void Reaper]], 3x [[Balloon]] ([[Nimble]]), 2x [[Voidling]]
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|Wait a second... That armor. I'll be right back, I—. I have to check something.<br/>[[File:HardcoreWave30-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Don't let that Titan get close! Keep your head down!<br/>[[File:HardcoreWave30-3.ogg|300px]]
-|-
-| rowspan="3" |31
-|[[File:EngineerDisappointed.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|I don't think we're going to make it out of here...<br/>[[File:HardcoreWave31-1.ogg|300px]]
-| rowspan="3" |3x [[Blighted]], 4x [[Voidling]], 4x [[Elite Phantom]], 6x '''[[Void Floater]]'''
-|-
-|[[File:CommanderHardcoreNeutral.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Everything will be alright. Just follow my lead in shooting down those flying enemies. We're getting out one way or another.<br/>[[File:HardcoreWave31-2.ogg|300px]]
-|-
-|[[File:EngineerDisappointed.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|Hah. It can be cruel to give someone hope, Commander.<br/>[[File:HardcoreWave31-3.ogg|300px]]
-|-
-|32
-| colspan="2" | -
-|4x [[Void Pike]], 2x [[Elite Phantom]] ([[Nimble]]), 7x '''[[Elite Mystery]]''', 1x [[Elite Phantom]] ([[Nimble]], [[Bloated]])
-|-
-| rowspan="3" |33
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|A massive enemy is coming in! Focus everything we have on it before—!<br/>[[File:HardcoreWave33-1.ogg|300px]]
-| rowspan="3" |4x [[Void Pike]] ([[Nimble]]), 2x [[Voidling]], 4x [[Voidling]] ([[Bloated]]), 2x [[Voidling]], 8x [[Elite Mystery]], 4x [[Blighted]], 1x [[Mandragora]], 1x '''[[Void Brute]]''' ([[Boss]]), 1x [[Void Titan]], 9x [[Void Rusher]], 5x [[Void Floater]]
-|-
-|[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|AGH! It got me with a boulder!<br/>[[File:HardcoreWave33-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Engineer! That's it, COME HERE! AHH!!!<br/>[[File:HardcoreWave33-3.ogg|300px]]
-|-
-|34
-| colspan="2" | -
-|1x [[Void Floater]] ([[Bloated]], [[Nimble]]), 1x [[Void Floater]] ([[Nimble]]), 1x [[Void Floater]] ([[Bloated]], [[Nimble]]), 1x [[Void Floater]] ([[Nimble]]), 1x [[Void Floater]] ([[Bloated]], [[Nimble]]), 1x [[Void Floater]] ([[Nimble]]), 1x [[Mandragora]] ([[Nimble]]), 4x '''[[Unknown Small]]''', 1x [[Mandragora]] ([[Nimble]]), 5x '''[[Elite Void Rusher]]'''
-|-
-| rowspan="4" |35
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|Come here! *Struggling* Get OVER HERE! Ugh! I hate that stupid clown!<br/>[[File:HardcoreWave35-1.ogg|300px]]
-| rowspan="4 |1x [[Mandragora]] ([[Bloated]]), 2x '''[[Nightshade]]''', 1x [[Elite Void Rusher]], 3x [[Void Pike]] ([[Nimble]]), 5x [[Elite Mystery]] ([[Bloated]]), 1x [[Elite Void Rusher]], 3x [[Void Pike]] ([[Nimble]])
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|You were right. Those aren't random monsters. They just might be what's left of Exo's army, according to Narrator. If that's the case, we have an even bigger problem now.<br/>[[File:HardcoreWave35-2.ogg|300px]]
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|I can't get you out of there. I'm sorry.<br/>[[File:HardcoreWave35-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreDisappointed.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Great...<br/>[[File:HardcoreWave35-3.ogg|300px]]
-|-
-| rowspan="3" |36
-|[[File:EngineerScared.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|Are you seeing what I'm seeing?<br/>[[File:HardcoreWave36-1.ogg|300px]]
-| rowspan="3" |1x [[Nightshade]], 1x [[Elite Void Rusher]] ([[Bloated]]), 4x [[Elite Mystery]], 1x [[Elite Void Rusher]] ([[Bloated]]), 3x [[Blighted]] ([[Bloated]]), 2x [[Mandragora]] ([[Bloated]]), 1x '''[[Void Keeper]]''', 3x [[Void Reaper]] ([[Health Regen]]), 1x [[Elite Void Rusher]], 4x [[Void Rusher]] ([[Bloated]]), 1x [[Elite Void Rusher]], 4x [[Void Rusher]] ([[Bloated]]), 1x [[Elite Void Rusher]], 4x [[Unknown Small]], 5x [[Void Floater]]
-|-
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|Be careful! We're not sure how much it can do, but it's half the reason why so many enemies are heading in your direction!<br/>[[File:HardcoreWave36-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Hold our defenses!<br/>[[File:HardcoreWave36-3.ogg|300px]]
-|-
-|37
-| colspan="2" | -
-|5x '''[[Soul]]''' ([[Bloated]]), 3x '''[[Slow King]]''', 6x [[Void Pike]] ([[Bloated]], [[Nimble]]), 1x [[Void Titan]] ([[Nimble]]), 5x [[Soul]] ([[Bloated]]), 4x [[Unknown Small]]
-|-
-| rowspan="2" |38
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|You guys need to come back to where you entered The Void. If it closes, I know for certain there's no way for me to pinpoint exactly where you are. And I'll be honest, you're running out of time.<br/>[[File:HardcoreWave38-1.ogg|300px]]
-| rowspan="2" |2x [[Slow King]], 3x [[Void Titan]] ([[Freeze Immunity|Freeze Immune]], [[Bloated]]), 1x '''[[Void Cultist]]''', 3x [[Elite Mystery]] ([[Aggro]]), 5x [[Void Floater]] ([[Nimble]]), 3x [[Elite Mystery]] ([[Aggro]]), 5x [[Void Floater]] ([[Nimble]]),
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|I think there's something around you that's causing The Gate to fail. You either need to run now, or hope you can kill whatever comes next.<br/>[[File:HardcoreWave38-2.ogg|300px]]
-|-
-|39
-| colspan="2" | -
-|8x [[Soul]] ([[Bloated]]), 4x [[Slow King]], 3x '''[[Speedy King]]''', 4x [[Nightshade]], 5x [[Unknown Small]]
-|-
-| rowspan="4" |40
-|[[File:EngineerDisappointed.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|I think I broke something. Ugh... Medic is going to be mad.<br/>[[File:HardcoreWave40-1.ogg|300px]]
-| rowspan="4" |7x [[Soul]] ([[Bloated]]), 5x [[Nightshade]], 4x [[Slow King]], 1x '''[[Vindicator]]''' ([[Boss]]), 5x [[Elite Mystery]] ([[Aggro]]), 6x [[Unknown Small]], 4x [[Elite Void Rusher]], 5x [[Void Pike]], 4x [[Elite Void Rusher]], 5x [[Void Pike]], 3x [[Speedy King]]
-|-
-|[[File:ProfessorVHardcoreAggressive.gif|center|thumb|75x75px|[[Professor V]]]]
-|The drones are picking up more and more enemies heading your way. You need to—<br/>[[File:HardcoreWave40-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|It's too late to run, V. Once we take down this shield guy, we won't stop until we kill whatever's leading them. We're barely hurting them, but we ARE hurting them.<br/>[[File:HardcoreWave40-3.ogg|300px]]
-|-
-|[[File:EngineerDespair.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|Commander...<br/>[[File:HardcoreWav40-4.ogg|300px]]
-|-
-|41
-| colspan="2" | -
-|6x [[Soul]] ([[Bloated]]), 4x '''[[Elite Soul]]''', 1x [[Void Titan]] ([[Nimble]]) 3x '''[[Unknown Boss]]''', 3x [[Speedy King]], 1x [[Void Cultist]], 1x '''[[Heavy Voidling]]'''
-|-
-|42
-| colspan="2" | -
-|6x [[Slow King]] ([[Bloated]]), 2x [[Void Titan]], 1x '''[[Void Knight]]''', 1x '''[[Void Trickster]]''', 4x [[Speedy King]], 8x [[Soul]] ([[Bloated]], [[Blessed]])
-|-
-| rowspan="3" |43
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|I— I don't know how to tell you this, but I found what's disrupting The Gate. It's almost on you now.<br/>[[File:HardcoreWave43-1.ogg|300px]]
-| rowspan="3" |1x [[Heavy Voidling]], 3x [[Elite Soul]], 4x [[Slow King]], 2x [[Void Knight]], 1x [[Vindicator]], 1x '''[[Void Swordmaster]]''', 6x [[Elite Void Rusher]], 2x [[Void Cultist]]
-|-
-|[[File:EngineerNeutral.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|Ugh—...you know what, I'm fine with this. The whole 'last stand' thing. Maybe if I beat this guy I could earn enough brownie points to get the funding for a new build I've been working on.<br/>[[File:HardcoreWave43-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreAggressive.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|Follow my lead. Look out for those sword attacks!<br/>[[File:HardcoreWave43-3.ogg|300px]]
-|-
-| rowspan="5" |44
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|Those crystals we examined are emitting the same energy frequency as what's approaching you now. It's as if The Void's energy was concentrated and solidified over thousands of years,<br/>[[File:HardcoreWave44-1.ogg|300px]]
-| rowspan="5" |3x [[Slow King]] ([[Bloated]], [[Blessed]]), 1x [[Void Knight]], 1x '''[[Void Guardian]]''', 6x [[Elite Void Rusher]], 5x [[Elite Soul]], 6x [[Elite Void Rusher]], 1x [[Void Trickster]], 2x [[Unknown Boss]], 1x [[Void Trickster]], 2x [[Unknown Boss]]
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|making whatever it touches rip apart.<br/>[[File:HardcoreWave44-1.ogg|300px]]
-|-
-|[[File:ProfessorVHardcoreResearch.gif|center|thumb|75x75px|[[Professor V]]]]
-|The research they provide could be revolutionary, but not at the cost of my friends. When everyone gets back, promise we'll celebrate. Alright, Commander?<br/>[[File:HardcoreWave44-2.ogg|300px]]
-|-
-|[[File:CommanderHardcoreNeutral.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|. . .
-|-
-|[[File:EngineerNeutral.gif|center|thumb|75x75px|[[Engineer (Narrator)|Engineer]]]]
-|We promise.<br/>[[File:HardcoreWave44-3.ogg|300px]]
-|-
-| rowspan="2" |45
-|[[File:CommanderHardcoreNeutral.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|V, this might be my last message. It's either we're making it out of here, or we don't. Whatever the outcome might be, just know we're making them earn it.<br/>[[File:HardcoreWave45-1.ogg|300px]]
-| rowspan="2" |1x [[Heavy Voidling]] ([[Bloated]]), 5x [[Elite Soul]], 10x [[Slow King]], 1x [[Vindicator]], 5x [[Speedy King]], 6x [[Nightshade]] ([[Nimble]]), 2x [[Heavy Voidling]], 4x [[Unknown Boss]], 5x [[Speedy King]], 4x [[Void Titan]], 3x [[Void Knight]], 1x [[Void Guardian]], 1x '''[[Void Reaver]]''',
-|-
-|[[File:CommanderHardcoreScared.gif|center|thumb|75x75px|[[Commander (Narrator)|Commander]]]]
-|I — Uh. Wait. WHAT IS THAT?<br/>[[File:HardcoreWave45-2.ogg|300px]]
-|-
-! colspan="4" |Lose Dialogue
-|-
-| colspan="2" |[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
-| colspan="2" |One icon and dialogue is randomly chosen upon defeat:
-•We're toast!<br />•OOF!<br />•Mission Failed, we'll get em' next time.<br />•Not enough numbers!<br />•Mistakes are just part of the journey..<br />•We're overrun chief!<br />•We'll get them next time!<br />•Don't give up!<br />•We need back up sergeant!<br />•We just had our grave dug..<br />•We have to fall back soldier!<br />•Oops! Try again!<br />•The enemies got to the base!<br />•Strategy is key!
+| 5 || $R$ || $R$ || 10 || 60 || 8 || 75 || 0.175 || 4 || 0.15 || 3 || 12 || 22 || 8.5 || 45 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
 |}
 </div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="21" | Neutral Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Rev Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF2$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 6 || N/A || N/A || 35 || 0.25 || N/A || N/A || 4 || N/A || 7 || 14 || N/A || 30 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 7 || N/A || N/A || 35 || 0.25 || N/A || N/A || 4 || N/A || 8 || 14 || N/A || 16 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 10 || N/A || N/A || 35 || 0.25 || N/A || N/A || 4 || N/A || 9.5 || 16 || N/A || 25 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 10 || 32 || 2 || 75 || 0.2 || 7 || 0.5 || 3.5 || N/A || 10.5 || 16 || 3 || 25 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="21" | Top Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Rev Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF2$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 4 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || 35 || 4 || 150 || 0.1 || 6 || 0.5 || 3 || 1.5 || 11 || 18.5 || 3 || 25 || 20 || $DPS2$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 26 || 35 || 4 || 200 || 0.085 || 6 || 0.25 || 2.5 || 1.5 || 12 || 21 || 4 || 25 || 20 || $DPS2$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="21" | Bottom Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Rev Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF2$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 4 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 25 || 6 || 75 || 0.2 || 3 || 0.25 || 3.5 || N/A || 11 || 17.5 || 6 || 25 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 12 || 60 || 8 || 75 || 0.2 || 3 || 0.15 || 2.25 || N/A || 12 || 19.5 || 6 || 25 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
 </div>
+</tabber></div>
+</nowiki>}}
 
-== Soundtracks ==
-{{Soundtrack|
-{{GalleryHeader|Wave 1-9, Wave 10-18, & Wave 19-25}}<br/>These soundtracks can be randomly chosen to play between these waves.
-<gallery>
-(Official) Tower Defense Simulator OST - Mystery Unveiled
-(Official) Tower Defense Simulator OST - Crying Obsidian
-(Official) Tower Defense Simulator OST - Hardcore Lobby
-</gallery>
+==Skins==
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:EggyPursuitIconIG.png|175px]]
+|[[File:DragonPursuitIconIG.png|175px]]
+|[[File:MercenaryPursuitIconIG.png|175px]]
+|[[File:PatrioticPursuitIconIG.png|175px]]
+|-
+!Skin
+|{{Color|DuckyRevenge|Easter}}
+|{{Color|Null|Dragon}}
+|{{Color|Other|Mercenary}}
+|{{Color|Patriotic}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|{{Coins|6,250}}
+|-
+!Obtained From
+|[[Ducky Revenge Event|Ducky Revenge Premium Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
+|[[Codes|Code]]:<br/>2MILLION
+|[[Patriotic Crate]]
+|}
 
-{{GalleryHeader|Wave 26-32 & Wave 33-39}}<br/>These soundtracks can be randomly chosen to play between these waves.
-<gallery>
-(Official) Tower Defense Simulator OST - Ancient Dream
-(Official) Tower Defense Simulator OST - Broken Bastion
-</gallery>
-
-{{GalleryHeader|Wave 40-42 & Wave 43-44}}<br/>These soundtracks can be randomly chosen to play between these waves.
-<gallery>
-(Official) Tower Defense Simulator OST - Fate Sealed Shut
-(Official) Tower Defense Simulator OST - Mauve Genocide
-</gallery>
-
-{{GalleryHeader|Final Wave}}
-<gallery>
-Tower Defense Simulator OST - Raze The Void|YouTube Upload
-Tower Defense Simulator OST - Raze The Void In-Game|In-Game Version
-</gallery>
-
-{{GalleryHeader|Wave 45-50}}<br/>Used to play on Waves 45-50 until the [[Void Reaver (Legacy)|Void Reaver]] spawns.
-<gallery>
-Tower Defense Simulator OST - Hardcore Wave 45
-</gallery>
-}}
+==Strategy==
+*As the '''Pursuit''' is an air-based tower, it is immune to all stuns. This makes it useful against enemies that can stun towers, like [[Molten Executioner]]s, [[Fallen Honor Guard]]s, [[Unstable Ice]]s and bosses.
+**As it is also not a humanoid tower, it is also immune to any debuffs from enemies prior to [[Lunar Overture Event]], that being enemies like the [[Nuclear Monster]] or [[Soul Stealer (Legacy)|Soul Stealer]].
+*At Level 3, the '''Pursuit''' gains missiles. These can be quite powerful, as they allow it to deal damage to multiple enemies at once.
+**If you want to use the '''Pursuit's''' missiles for their area of effect capabilities, the bottom path upgrade is recommended as it focuses on missiles.
+**Due to being explosives, they can bypass the defense of enemies such as [[Frost Hunter]]s or [[Fallen Shield]]s, and many other enemies with defense.
+**While the top path's missiles are somewhat inconsistent due to their explosion size, the bottom path's explosion radius is far larger, rendering potential misses extremely unlikely.
+*The better buffs to apply to the '''Pursuit''' depend on the upgrade path you want to use the most.
+**If you are going to use the top upgrade path, [[Firerate Buff]]s from towers like the [[Commander]] are recommended, as its main DPS comes from its guns.
+**If you are going to use the bottom upgrade path, [[Damage Buff]]s from towers like the [[DJ Booth]] or [[Mercenary Base]] are recommended. As its main DPS comes from its missiles, which are not affected by [[Firerate Buff]]s, [[Damage Buff]]s are better here, as they can affect both the guns and the missiles.
+**Regardless, both are still beneficial and, preferably, both should be applied.
+*The missiles of the '''Pursuit''' can damage [[Lead (Attribute)|Lead]] enemies and both its guns and missiles detect [[Flying]] enemies. This, combined with its high DPS, makes it very useful against these enemies later on during the game.
+**However, the '''Pursuit''' cannot directly attack [[Hidden (Attribute)|Hidden]] enemies unless it is upgraded to Level 4 of the bottom upgrade path. It can only damage them indirectly if they are caught in its missile explosions otherwise.
+**Due to the price of this upgrade, and the price of the '''Pursuit''' as a whole, it is not advised to rely on this for hidden detection early on.
+*Do keep in mind that the '''Pursuit''' has an ammo system, which means it will need to reload after it has depleted its ammo bar.
+*The '''Pursuit's''' ''Patrol'' ability is very useful, as it gives the '''Pursuit''' effectively full map range and allows it to keep up with enemies that may escape from its range.
+**Do note that, compared to the '''Pursuit's''' range, the cooldown on this ability is less than favorable for the top path, so using ''Patrol'' carefully is advised.
+**This ability is even more effective in maps with lots of loops like [[Polluted Wasteland II]] and [[Honey Valley]] as the '''Pursuit''' will not need to be constantly moved.
+**The '''Pursuit's''' patrol range is slightly bigger than it looks, as it extends to any area that the '''Pursuit''' can reach with its attack range. When using the ''Patrol'' ability, keeping this in mind can increase the amount of enemies '''Pursuit''' can cover.
 
 ==Trivia==
-*'''Hardcore''' mode is one of two only game modes to have a maximum player count of three.
-*Triumphing '''Hardcore''' mode gives out the Narrator Noli skin in ''Forsaken'', similar to how triumphing [[The Narratorium]] on the Hard difficulty also gave it.
-*The [[Void Reaver|Void Reaver's]] theme - [https://www.youtube.com/watch?v=94YtB3VD9Z8 Raze The Void] uses the [[Tower Defense Simulator]] lobby's theme as a leitmotif.
+*The '''Pursuit''' was teased on the 15th of May 2020 by BelowNatural in [https://twitter.com/BelowNatural/status/1261492298514300929 this tweet].
+*The '''Pursuit''' seems to be based on the [[w:c:bloons:Heli Pilot|Heli Pilot]] from the ''Bloons Tower Defense'' series.
+*Before its rework on the 27th of November 2024, the placement sound was taken from the {{RLinkC|88885539|Airstrike}} gear from the Roblox catalog.
+*Weirdly, the [[Gamepasses|gamepass]] for the '''Pursuit''' used to be called ''Helicopter'' instead of ''Pursuit'' before 15th of April 2023.
+*The '''Pursuit''' is the first tower to have two upgrade paths, with previous towers having only one upgrade path.
+**However, the [[Hacker]] was the first tower to originally come with two upgrade paths, as the '''Pursuit''' was an older tower with only one upgrade path prior to its rework in [[v1.43.0]].
+*The '''Pursuit''' is the second tower to change the position in other maps without being sold, with the first being [[Brawler]].
+**However, unlike [[Brawler]] which can free space for other towers after being moved, the Pursuit's originally placed helipads still have a fixed position and cannot free up space until it is sold.
+*The '''Pursuit''' was originally free to be claimed once the player reached {{Level|100}}, but due to the '''Pursuit''' rework in [[v1.43.0]], the '''Pursuit''' needs to be bought from the shop for {{Coins|15,000}} once the player is at {{Level|100+}}.
 
 ==Update History==
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{scroll|text =
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**'''Hardcore''' mode added.
-**{{Bug}} Tower placement cost is not increased.
-**{{Bug}} Summons give cash upon death.
-**{{Bug}} Sell cost is not increased.
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**'''Pursuit''' added.
+**{{Bug}} '''Pursuit''' has a stacking issue.
+*'''31 May 2020''' - [[Release v1.11|Release v1.11.1]]
+**{{Bugfix}} Stacking issue fixed.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
+**Placement limit decreased from 10 to 6.
+**Splash damage equation reworked.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|800}} to {{Money|1,000}}.
+****Firerate decreased from 0.35 to 0.33.
+****Flying detection added.
+***'''Level 1'''
+****Cost increased from {{Money|250}} to {{Money|500}}.
+***'''Level 2'''
+****Cost increased from {{Money|500}} to {{Money|650}}.
+****Missile damage decreased from 8x2 to 3x2.
+****Missiles now deal damage to lead enemies.
+***'''Level 3'''
+****Cost decreased from {{Money|2,500}} to {{Money|1,500}}.
+****Firerate changed from {{Tooltip|0.35 > 0.2|-0.15}} to {{Tooltip|0.33 > 0.18|-0.15}}.
+****Damage decreased from +1 to +0.
+****Missile damage increased from 8x2 to 30x2.
+***'''Level 4'''
+****Cost increased from {{Money|4,000}} to {{Money|6,000}}.
+****Missile damage increased from 8x4 to 30x4.
+***'''Level 5'''
+****Cost increased from {{Money|9,000}} to {{Money|9,500}}.
+****Firerate changed from {{Tooltip|0.2 > 0.1|-0.1}} to {{Tooltip|0.18 > 0.13|-0.05}}.
+****Missile damage increased from 8x6 to 30x6.
+**{{Bug}} '''Pursuit''' attack range and circling direction is not shown properly.
+**{{Bug}} '''Pursuit''' missiles only deal damage to one enemy.
+**{{Bug}} '''Pursuit''' uses its old model from before the [[Overhaul v1.0|Overhaul Update]] in the lobby.
 *'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
-**Placement and upgrade cost increase changed from 50% to 30%.
-**{{Bug}} Final wave music cuts out after the intro.
+**Placement limit increased from 6 to 10.
 *'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
-**Placement and upgrade cost increase changed from 30% to 50%.
+**{{Bugfix}} '''Pursuit''' attack range is now shown properly.
+*'''26 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1b]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+*'''28 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1c]]
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
+*'''25 December 2020''' - [[Overhaul v1.1|Overhaul v1.1.1d]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+*'''4 January 2021''' - [[Overhaul v1.1|Overhaul v1.1.1e]]
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**{{Bugfix}} Fixed placement cost not being increased.
-*'''26 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.1a]]
-**Final wave music changed to [https://www.youtube.com/watch?v=94YtB3VD9Z8 Raze The Void].
-**{{Bugfix}} Fixed final wave music not playing
+**{{Bugfix}} '''Pursuit''' missiles now deal damage to multiple enemies.
+**{{Bug}} '''Pursuit''' is no longer immune to stuns.
+**'''Pursuit's''' missiles now ignore [[defense]].
+**Splash damage reworked. Now the explosion is separated into two spheres. Inner sphere deals 100% of the stated damage while the damage in the outer sphere decreases linearly.
+*'''31 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.1c]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''2 June 2021''' - [[Overhaul v1.3|Overhaul v1.3.1d]]
+**Gamepass price increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''26 November 2021''' - [[Overhaul v1.4|Overhaul v1.4.1c]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''28 November 2021''' - [[Overhaul v1.4|Overhaul v1.4.1c]]
+**Gamepass price increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''4 December 2021''' - [[v1.0.0]]
+**{{Bugfix}} '''Pursuit''' is now immune to stuns.
+*'''11 December 2021''' - [[v1.0.0]]f
+**Statistical changes:
+***'''Level 3'''
+****Missile damage decreased from 30x2 to 5x2.
+***'''Level 4'''
+****Missile damage decreased from 30x4 to 5x4.
+***'''Level 5'''
+****Missile damage decreased from 30x6 to 5x6.
 *'''12 March 2022''' - [[v1.1.0]]
-**Wave 47-50 timer changed from 200:00 to N/A.
+**'''Pursuit''' is now immune to all debuffs.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.33 to 0.325.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.33 > 0.18|-0.15}} to {{Tooltip|0.325 > 0.175|-0.15}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|0.18 > 0.13|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
+**{{Bug}} Level 4 '''Pursuit''' missiles do not appear.
+**{{Bug}} '''Pursuit''' can be targeted by enemies.
+*'''12 March 2022''' - [[v1.1.0]]a
+**{{Bugfix}} Level 4 '''Pursuit''' missiles now appear.
 *'''17 April 2022''' - [[v1.2.0]]
-**Corrected "''approaching''" being spelt as "''approacing''" on Wave 1.
-*'''23 April 2022''' - [[v1.2.1]]
-**Wave structure changed.
-**Triumph bonus increased from {{Gem|50}} to {{Gem|150}}.
-**Corrected ''making'' being misspelt as ''makining'' on Wave 27.
-*'''4 July 2022''' - [[v1.2.5]]
-**[[HP Locked]] modifier added.
-**'''Hardcore''' mode is now referred to as ''Hardcore'' instead of ''Survival'' on the Triumph and You Lost! screens.
-*'''28 October 2023''' - [[v1.9.0]]
-**{{Bug}} Starting cash is no longer given before Wave 1 starts.
-*'''31 October 2023''' - [[v1.9.0]]g
-**{{Bugfix}} Starting cash is now given before Wave 1 starts.
-*'''22 March 2024''' - [[v1.16.0]]e
-**Added [[Infernal Abyss]], [[Black Spot Exchange]], [[Night Station]] and [[Cyber City]] to the map pool.
-*'''18 May 2024''' - [[v1.22.0]]
-**Triumphing now has a chance to give one of these rewards:
-***[[Low Grade Crate]] with a 50% chance.
-***[[Mid Grade Crate]] with a 25% chance.
-***[[Currencies#Time Scale Tickets|Time Scale Tickets]] with a 25% chance.
+**{{Bugfix}} '''Pursuit''' can no longer be targeted by enemies.
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to the Default skin.
+*'''21 March 2023''' - [[v1.6.3]]e
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|1,000}} to {{Money|3,000}}.
+****Damage increased from 1 to 2.
+****Range decreased from 9 to 8.
+****Firerate decreased from 0.325 to 0.125.
+***'''Level 1'''
+****Lead detection added to its gun.
+****Cost increased from {{Money|500}} to {{Money|900}}.
+***'''Level 2'''
+****Range increased from +0 to +1.5.
+****Missile damage increased from 3x2 to 30x2.
+****Missile reload time increased from 5 to 6.
+****Explosion range decreased from 5 to 4.
+****Cost increased from {{Money|650}} to {{Money|1,650}}.
+***'''Level 3'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|0.325 > 0.175|-0.15}} to {{Tooltip|0.125 > 0.117|-0.008}}.
+****Missile damage changed from 3x2 > 5x2 to 30x2.
+****Explosion range changed from 5 to 4 > 5.
+****Hidden detection added (moved from Level 5).
+****Cost increased from {{Money|1,500}} to {{Money|4,500}}.
+***'''Level 4'''
+****Damage increased from +2 to +3.
+****Missile damage changed from 5x2 > 5x4 to 30x2 > 30x4.
+****Cost increased from {{Money|6,000}} to {{Money|10,000}}.
+***'''Level 5'''
+****Damage increased from +4 to +5.
+****Range decreased from +2 to +1.5.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to 0.117.
+****Missile damage changed from 5x4 > 5x6 to 30x4 > 30x6.
+****Cost increased from {{Money|9,500}} to {{Money|25,000}}.
+****Renamed from ''Laser Apache'' to ''Space Defense''.
+*'''31 March 2023''' - [[v1.6.4]]
+**Statistical changes:
+***'''Base'''
+****Damage increased from 2 to 5.
+****Firerate increased from 0.125 to 0.275.
+***'''Level 1'''
+****Damage increased from +1 to +3.
+***'''Level 3'''
+****Damage decreased from +1 to -3.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.275 > 0.117|-0.158}}.
+****Hidden detection removed.
+***'''Level 5'''
+****Renamed from ''Space Defense'' to ''Space Raider''.
+*'''7 April 2023''' - [[v1.7.0]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+**{{Bugfix}} Circling range is now displayed properly.
+*'''15 April 2023''' - [[v1.7.1]]a
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Bugfix}} '''Pursuit''' now uses its current model in the regular lobby.
+**{{Bug}} Placement footprint does not show up when the '''Pursuit''' is selected.
+*'''4 July 2023''' - [[v1.8.2]]d
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+*'''6 July 2023''' - [[v1.8.2]]e
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
+*'''24 November 2023''' - [[v1.9.4]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|900}}.
+*'''29 November 2023''' - [[v1.9.4]]a
+**Gamepass price increased from {{Robux|900}} to {{Robux|1,500}}.
+*'''10 May 2024''' - [[v1.21.0]]
+**{{Bug}} '''Pursuit''' does not stop moving while attacking.
+*'''14 May 2024''' - [[v1.21.0|v1.21.6]]
+**{{Bugfix}} '''Pursuit''' now stops moving while attacking.
 *'''23 May 2024''' - [[v1.23.0]]
-**Disabled the consumables hotbar.
-**{{Bug}} Rewards are sometimes not given upon triumphing.
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,200}}.
 *'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**{{Bugfix}} Summons no longer give cash upon death.
-*'''7 June 2024''' - [[v1.24.0]]
-**{{Bugfix}} Rewards are now always given upon triumphing.
+**Splash damage no longer bypasses defense.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s, but explosion damage still is.
 *'''19 July 2024''' - [[v1.26.0]]
-**Bonus rewards for triumphing changed.
-***Now has a 40% to give one of these {{Color|Common}} items:
-****{{TimeScaleTicket|Time Scale Ticket}} (1-2)
-****[[Grenade]] (1-3)
-****[[Flash Bang]] (1-3)
-****[[Molotov]] (1-3)
-***Now has a 30% chance to give one of these {{Color|Uncommon}} items:
-****[[Low Grade Crate]]
-****{{SpinTicket|Spin Ticket}}
-****[[Barricade]] (1-2)
-****[[Supply Drop]] (1-2)
-****[[AirStrike]] (1-2)
-***Now has a 20% chance to give one of these {{Color|Rare}} items:
-****[[Mid Grade Crate]]
-****[[Napalm Strike]]
-****[[Blizzard Bomb]]
-****[[UAV]]
-***Now has a 10% chance to give one of these {{Color|Legendary}} items:
-****[[High Grade Crate]]
-****[[Nuke]]
-**{{Bug}} Triumph rewards are not always given out despite being shown on the triumph screen.
-**{{Bug}} Triumph rewards sometimes are not given out or shown in the triumph screen.
+**{{Bug}} Flight path is not displayed correctly.
 *'''2 August 2024''' - [[v1.27.0]]
-**Wave structure changed.
-*'''25 September 2024''' - [[v1.33.0]]
-**{{Exp|}} equation changed.
-*'''23 October 2024''' - [[v1.37.0]]
-**{{Bug}} Timers for Wave 47-50 are no longer infinite timers.
+**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
+*'''27 November 2024''' - [[v1.43.0]]
+**Now has to be bought for {{Coins|15,000}} after reaching {{Level|100}}.
+**'''Pursuit''' now splits into two paths after being upgraded to Level 3.
+**'''Pursuit''' no longer flies in a circular path, now it patrols a selected area on the map, which by default is placed at its helipad.
+***''Patrol'' allows '''Pursuit''' to patrol a specific section of the map.
+**'''Pursuit''' now has to reload after running out of ammo.
+**Placement limit decreased from 10 to 5.
+**Gamepass price decreased from {{Robux|1,200}} to {{Robux|900}}.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 5 to 6.
+****Flight Speed is now 25.
+****Ammo of 35 added.
+****Reload Time of 3 added.
+***'''Level 1'''
+****Damage decreased from +3 to +2.
+****Flight Speed change of 25 > 16 added.
+****Cost increased from {{Money|900}} to {{Money|1,200}}.
+****Name changed from ''Armor Penetration'' to ''0.50 Caliber''.
+***'''Level 2'''
+****Damage increased from +0 to +2.
+****Patrol range increase of +2 added.
+****Flight Speed chane of 16 > 25 added.
+****No longer unlocks missiles.
+****Cost increased from {{Money|1,650}} to {{Money|1,850}}.
+****Name changed from ''Missiles'' to ''Enhanced Radar''.
+***'''Level 3'''
+****Damage increased from -3 to +0.
+****Firerate changed from {{Tooltip|0.275 > 0.117|-0.165}} to {{Tooltip|0.275 > 0.225|-0.05}}.
+****Ammo increase of +40 added.
+****Reload Time change of 3 > 2.5 added.
+****Patrol Range increase of +1.5 added.
+****Now unlocks missiles.
+*****Missile damage increased from 30 to 35.
+*****Explosion range decreased from 5 to 3.
+*****Missile Cooldown increased from 6 to 7.
+*****Missile Speed of 20 added.
+****Cost increased from {{Money|4,500}} to {{Money|4,750}}.
+****Name changed from ''Tri-Barrel Minigun'' to ''Air to Ground Missiles''.
+***'''Level 4A'''
+****Damage decreased from +3 to +0.
+****Firerate changed from 0.117 to {{Tooltip|0.225 > 0.125|-0.1}}.
+****Patrol Range increase of +2.5 added.
+****Ammo increase of +75 added.
+****Reload Time change of 2.5 > 2.25 added.
+****Rev Time of 1.5 added.
+****Missile Cooldown changed from 6 to 7 > 6.
+****Burst Time changed from 0.5 > 0.35 to 0.5.
+****Cost increased from {{Money|10,000}} to {{Money|17,500}}.
+****Name changed from ''Huey'' to ''Tri-Barrel Minigun''.
+***'''Level 5A'''
+****Damage increased from +5 to +18.
+****Firerate changed from 0.093 to {{Tooltip|0.108 > 0.093|-0.015}}.
+****Patrol Range increased from +0 to +2.5.
+****Ammo increase of +50 added.
+****Reload time change of 2.25 > 1.75 added.
+****Missiles decreased from +2 to +0.
+****Burst Time changed from 0.35 > 0.2 to 0.5 > 0.25.
+****Hidden detection added.
+****Cost increased from {{Money|25,000}} to {{Money|35,000}}.
+*****{{Bug}} Intended cost is {{Money|45,000}}.
+****Name changed from ''Space Raider'' to ''Sky Shredder''.
+***'''Level 4B Added'''
+****Statistics:
+*****Upgrade Name: ''Upgraded Payload''
+*****Cost: {{Money|13,500}}
+*****+1.5 Patrol Range
+*****2.5 > 2.25 Reload Time
+*****+10 Missile Damage
+*****3 > 5 Explosion Range
+*****7 > 5 Missile Cooldown
+*****+4 Missiles
+*****0.5 > 0.25 Burst Time
+***'''Level 5B Added'''
+****Statistics:
+*****Upgrade Name: ''Demolition Gunship''
+*****Cost: {{Money|40,000}}
+*****+10 Damage
+*****+2 Patrol Range
+*****+15 Missile Damage
+*****5 > 6 Explosion Range
+*****5 > 3.5 Missile Cooldown
+*****+2 Missiles
+*****0.25 > 0.15 Burst Time
+**{{Bug}} '''Pursuit''' can still be claimed in the [[Rewards]] tab after reaching {{Level|100}}.
+**{{Bug}} Bottom path missiles fire significantly slower than intended.
+**{{Bug}} Using the Sticker/Emote wheel will prevent the player from being able to change the patrol point.
+**{{Bug}} Missiles do not target [[Flying]] enemies correctly.
+**{{Bug}} Using ''Reposition'' too quickly can cause the '''Pursuit''' to move back to a different spot than the selected position.
+*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
+**Gamepass price increased from {{Robux|900}} to {{Robux|1,200}}.
+*'''4 December 2024''' - [[v1.44.0]]
+**{{Bugfix}} Corrected incorrect statistics:
+***'''Level 5A'''
+****Cost increased from {{Money|35,000}} to {{Money|45,000}}.
+*'''7 December 2024''' - [[v1.44.0]]a
+**Gamepass cost increased from {{Robux|1,200}} to {{Robux|1,500}}.
+*'''16 December 2024''' - [[v1.45.0]]
+**{{Bug}} '''Pursuit''' will begin to move uncontrollably at higher [[Time Scale]] values in [[Sandbox Mode|Sandbox]] mode, with certain values causing it to break completely.
+*'''16 December 2024''' - [[v1.45.0|v1.45.1a]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,200}}.
+*'''16 December 2024''' - [[v1.45.0|v1.45.1b]]
+**Gamepass cost increased from {{Robux|1,200}} to {{Robux|1,500}}.
 *'''16 December 2024''' - [[v1.46.0]]
-**{{Bug}} Tower hotbar does not have the increased placement costs listed when starting a match in [[Matchmaking]], as it shows the incorrect base prices instead.
-**{{Bug}} [[HP Locked]] icon is no longer displayed.
-**{{Bug}} Does not drop currency for battle passes, even when there are values set for the mode.
+**The '''Pursuit''' is now freeze immune.
+**{{Bugfix}} '''Pursuit''' can no longer be claimed in the [[Rewards]] tab after reaching {{Level|100}}, as it has been removed.
+**{{Bugfix}} Bottom path '''Pursuit''' missiles are now fired at the correct speed.
+**{{Bug}} The '''Pursuit''' can still be frozen, though it cannot be targeted.
+*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
+**Gamepass cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''8 January 2025''' - [[v1.48.0]]
+**{{Bugfix}} Missiles target [[Flying]] enemies correctly.
 *'''15 January 2025''' - [[v1.49.0]]
-**{{Bugfix}} Tower hotbar now displays increased placement costs correctly in [[Matchmaking]].
-**{{Bugfix}} [[HP Locked]] icon is now displayed.
+**Missiles now bypass defense.
+**Statistical changes:
+***'''Base'''
+****Reload time increased from 3 to 4.
+***'''Level 3'''
+****Reload time changed from {{Tooltip|3 > 2.5|-0.5}} to {{Tooltip|4 > 3.5|-0.5}}.
+***'''Level 4A'''
+****Damage increased from +0 to +2.
+****Reload time changed from {{Tooltip|2.5 > 2.25|-0.25}} to {{Tooltip|3.5 > 3|-0.5}}.
+***'''Level 5A'''
+****Damage decreased from +18 to +16.
+****Reload time changed from {{Tooltip|2.25 > 1.75|-0.5}} to {{Tooltip|3 > 2.5|-0.5}}.
+*'''26 March 2025''' - [[v1.58.0]]
+**Statistical changes:
+***'''Level 3'''
+****Cost increased from {{Money|4,750}} to {{Money|5,000}}.
+***'''Level 4A'''
+****Cost decreased from {{Money|17,500}} to {{Money|16,000}}.
+****Range increased from +0 to +0.5.
+***'''Level 5A'''
+****Cost decreased from {{Money|45,000}} to {{Money|42,500}}.
+****Damage decreased from +16 to +14.
+****Range decreased from +1.5 to +1.
+****Hidden detection removed.
+***'''Level 4B'''
+****Cost decreased from {{Money|13,500}} to {{Money|10,000}}.
+****Range increased from +0 to +0.5.
+****Reload time changed from 2.5 > 2.25 to 3.5.
+****Missile damage decreased from +10 to -10.
+****Explosion range changed from 3 > 5 to 3 > 6.
+****Missile cooldown changed from 7 > 5 to 7 > 3.
+****Hidden detection added.
+***'''Level 5B'''
+****Cost decreased from {{Money|40,000}} to {{Money|28,500}}.
+****Damage decreased from +10 to +2.
+****Range increased from +0 to +1.
+****Reload time changed from 2.25 to 3.5 > 2.25.
+****Missile damage increased from +15 to +35.
+****Explosion range changed from 5 > 6 to 6.
+****Missile cooldown changed from 5 > 3.5 to 3.
+**{{Bug}} Level 4A will list it getting hidden detection, even though it does not actually get hidden detection.
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+**{{Bug}} When first upgraded to either 4A or 4B, both paths will remain open as if the player could change paths, however, upgrading using either button would end up upgrading it on the current path. Fixes itself when reselecting the tower.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Eggy}}
+*'''26 May 2025''' - [[v1.64.0]]
+**Robux cost decreased from {{Robux|1,500}} to {{Robux|1,050}}.
 *'''28 May 2025''' - [[v1.65.0]]
-**Wave bonus now appears instantly after a wave ends rather than being delayed by a few seconds.
-*'''11 June 2025''' - [[v1.67.0]]
-**[[Skills]] disabled.
-**{{Bug}} Towers' range visually look larger than the actual range.
-*'''18 June 2025''' - [[v1.67.3|v1.67.6]]
-**{{Bugfix}} Towers' range now is no longer doubled visually.
-*'''25 September 2025''' - [[v1.75.0|v1.75.5]]
-**Toggleable modifiers disabled.
+**Robux cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''23 July 2025''' - [[v1.71.0]]
+**'''Pursuit''' now can detect enemies both outside its patrol range and attack range if the enemy is in an area the '''Pursuit's''' attack range can reach.
+**'''Pursuit''' now always revs-up after it reloads. Previously, it would only rev-up when enemies first enter its range.
+**Statistical changes:
+***'''Base'''
+****Range decreased from 8 to 7.
+****Speed increased from 25 to 30.
+****Repulsion radius increased from 3 to 6.
+***'''Level 1'''
+****Range increased from +0 to +1.
+****Speed changed from 25 > 16 to 30 > 16.
+***'''Level 3'''
+****Missile targeting time of 3 added.
+**{{Bug}} '''Pursuit''' struggles to target enemies at the edge of its range.
+*'''6 August 2025''' - [[v1.72.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+***'''Level 1'''
+****Cost decreased from {{Money|1,200}} to {{Money|750}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,850}} to {{Money|1,500}}.
+***'''Level 3'''
+****Cost decreased from {{Money|5,000}} to {{Money|3,500}}.
+***'''Level 4A'''
+****Cost decreased from {{Money|16,000}} to {{Money|12,500}}.
+***'''Level 5A'''
+****Cost decreased from {{Money|42,500}} to {{Money|30,000}}.
+***'''Level 4B'''
+****Cost decreased from {{Money|10,000}} to {{Money|7,500}}.
+***'''Level 5B'''
+****Cost decreased from {{Money|28,500}} to {{Money|22,500}}.
 *'''18 October 2025''' - [[v1.77.0]]
-**{{Bug}} Wave bonuses removed.
-*'''20 October 2025''' - [[v1.77.0|v1.77.4]]
-**{{Bugfix}} Wave bonuses re-added.
-*'''5 June 2026''' - [[v2.0.0|v2.0.0]]
-**Wave structure changed.
-**Wave bonus changed.
-**Cash inflation of 1.5x removed.
-**Changed rewards equations.
-**Now gives tower experience with a base value of {{TowerExp|160}} and a triumph bonus of {{TowerExp|190}}.
-**Number of currency dropped increased from 16 to 17.
-**[[Shrines]] added.
-**Dialogue changed.
-***Now uses the animated dialogue.
-**Placement and upgrade cost increase removed.
-**Ambience music changed.
-***Wave 1-9, wave 10-18 and wave 19-25 now play ''Mystery Unveiled'', ''Crying Obsidian'' or ''Hardcore Lobby''.
-***Wave 26-32 and wave 33-39 now play ''Ancient Dream'' or ''Broken Bastion''.
-***Wave 40-42 and wave 43-44 now play ''Fate Sealed Shut'' or ''Mauve Genocide''.
-**[[HP Locked]] removed.
-**[[Skills]] enabled.
-**[[Revive]] enabled.
-**Toggeable [[Modifiers]] enabled.
-**Bonus triumph rewards changed.
-**{{Bugfix}} Now drops currency for battle passes.
-**{{Bugfix}} Waves with infinite wave timers have it actually be set to infinite now.
-*'''17 July 2026''' - [[v2.3.0]]
-**Updated reward equations.
-***Triumph bonus increased from {{Gem|150}} to {{Gem|250}}.
-***Gem exponential value increased from 1.3 to 3.5.
+**New skin: {{Color|Null|Dragon}}
+*'''31 October 2025''' - [[v1.79.0]]
+**'''Pursuit''' is no longer immune to freeze.
+*'''26 November 2025''' - [[v1.81.0]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
+**Gamepass cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
+**Gamepass cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit increased from 5 to 6 in regular modes.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost increased from {{Money|3,000}} to {{Money|5,000}}.
+****Damage increased from 6 to 7.
+****Firerate decreased from 0.275 to 0.225.
+****Range decreased from 7 to 6.
+****Ammo increased from 35 to 50.
+****Reload time decreased from 4 to 3.5.
+****Speed increased from 30 to 35.
+****''Patrol'' cooldown decreased from 20 to 10.
+***'''Level 1'''
+****Cost increased from {{Money|1,200}} to {{Money|1,750}}.
+****Damage increased from +2 to +3.
+****Range decreased from +1 to +0
+****Speed changed from 30 > 16 to 35.
+****Name changed from ''.50 Caliber'' to ''AP Rounds''.
+***'''Level 2'''
+****Cost increased from {{Money|1,850}} to {{Money|3,000}}.
+****Range decreased from +1.5 to +1.
+****Firerate changed from 0.275 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Ammo increased from +0 to +15.
+****Reload time decreased from 4 to 3.5 > 3.
+****Speed changed from 16 > 25 to 35.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to 0.175.
+****Range decreased from +1 to +0.
+****Ammo decreased from +40 to +0.
+****Reload time decreased from 4 > 3.5 to 3.
+****Missile damage increased from 35 to 45
+****Explosion range increased from 3 to 4.
+****Missile cooldown decreased from 7 to 4.
+***'''Level 4A'''
+****Cost increased from {{Money|16,000}} to {{Money|18,000}}.
+****Damage increased from +2 to +14.
+****Firerate changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.175 > 0.15|-0.025}}.
+****Range decreased from +0.5 to +0.
+****Patrol range decreased from +2.5 to -6.
+****Ammo decreased from +75 to +10.
+****Reload time changed from 3.5 > 3 to 3.
+****Rev-up time decreased from 1.5 to 0.
+****Missile cooldown changed from 7 > 6 to 4 > 8.
+****Name changed from ''Tri-Barrel Minigun'' to ''Sky Shredder''.
+***'''Level 5A'''
+****Cost increased from {{Money|42,500}} to {{Money|45,000}}.
+****Damage increased from +14 to +26.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.15 > 0.117|-0.033}}.
+****Range decreased from +1 to +0.
+****Patrol range decreased from +2.5 to +0.
+****Ammo decreased from +50 to +0.
+****Reload time changed from 3 > 2.5 to 3.
+****Explosion damage increased from 35 to 45.
+****Burst time changed from 0.5 > 0.25 to 0.5.
+****Explosion range changed from 3 > 4 to 4.
+****Missile cooldown increased from 6 to 8.
+****Name change from ''Sky Shredder'' to ''Leviathan''.
+***'''Level 4B'''
+****Cost decreased from {{Money|10,000}} to {{Money|8,500}}.
+****Range increased from +0.5 to +3.
+****Patrol range increased from +1.5 to +2.
+****Speed changed from 25 to 35 > 45.
+****Ammo decreased from 75 to 65.
+****Missile damage increased from -10 to +0.
+****Explosion radius increased from 3 > 6 to 4 > 7.5.
+****Missile cooldown increased from 7 > 3 to 4.
+****Name changed from ''Upgraded Payload'' to ''Modified Payload''.
+***'''Level 5B'''
+****Cost decreased from {{Money|28,500}} to {{Money|15,000}}.
+****Damage decreased from +2 to +0.
+****Range increased from +1 to +2.
+****Reload time increased from 3.5 > 2.25 to 3.
+****Missile damage decreased from +35 to +15.
+****Explosion radius increased from 6 to 7.5.
+*'''11 March 2026''' - [[v1.86.0]]
+**Statistical changes (Regular):
+***'''Level 1'''
+****Lead detection removed.
+*'''22 May 2026''' - [[v1.91.0]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,125}}.
+***{{Bug}} Gifting was not discounted.
+**{{Bugfix}} '''Pursuit''' now repositions correctly.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Gamepass price increased from {{Robux|1,125}} to {{Robux|1,500}}.
+*'''5 June 2026''' - [[v2.0.0]]
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes (Regular):
+***'''Base'''
+****Without [[Firerate Bug]], firerate increased from 0.2 to 0.225, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.225.
+****Range increased from 6 to 7.
+****Speed increased from 35 to 45.
+****''Patrol'' ability cooldown decreased from 20 to 10.
+***'''Level 2'''
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.2 > 0.15|-0.05}} to {{Tooltip|0.225 > 0.175|-0.05}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+****Ammo increased from +15 to +25.
+***'''Level 3'''
+****Cost decreased from {{Money|5,000}} to {{Money|4,750}}.
+****Damage increased from +0 to +2.
+****Missile damage decreased from 45 to 30.
+***'''Level 4A'''
+****Cost decreased from {{Money|18,000}} to {{Money|15,000}}.
+****Damage decreased from +14 to +6.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to {{Tooltip|0.175 > 0.15|-0.025}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+****Range decreased from +3 to +0.
+****Patrol range increased from -6 to +0.
+****Ammo increased from +10 to +125.
+****Missile damage increased from +0 to +5.
+****Missile cooldown changed from 4 > 8 to 4.
+***'''Level 5A'''
+****Cost increased from {{Money|45,000}} to {{Money|47,500}}.
+****Damage decreased from +26 to +28.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to 0.15.
+****Patrol range increased from +0 to +2.
+***'''Level 4B'''
+****Cost increased from {{Money|8,500}} to {{Money|9,500}}.
+****Range decreased from +3 to +2.
+****Patrol range increased from +2 to +4.
+****Speed changed from 35 > 45 to 45.
+****Missile damage increased from +0 to +5.
+***'''Level 5B'''
+****Cost decreased from {{Money|15,000}} to {{Money|13,500}}.
+****Missile damage increased from +15 to +25.
+****Explosion range changed from 7.5 to 7.5 > 8.5.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Firerate decreased from 0.275 to 0.25.
+***'''Level 1'''
+****Damage decreased from +2 to +1.
+***'''Level 2'''
+****Damage increased from +2 to +3.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to {{Tooltip|0.25 > 0.2|-0.05}}.
+****Missile damage decreased from 35 to 32.
+***'''Level 4A'''
+****Firerate changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.2 > 0.1|-0.1}}.
+****Missile damage increased from +0 to +3.
+***'''Level 5A'''
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.1 > 0.085|-0.015}}.
+***'''Level 4B'''
+****Missile damage increased from -10 to -7.
+**{{Bug}} '''Pursuit''' fires slower than intended.
+*'''8 June 2026''' - [[v2.0.0|v2.0.6a]]
+**New skin: {{Color|Other|Mercenary}}.
+*'''9 June 2026''' - [[v2.0.0|v2.0.7a]]
+**{{Color|Other|Mercenary}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Patriotic}}
+*'''3 July 2026''' - [[v2.2.0]]
+**{{Bugfix}} '''Pursuit''' now fires at the intended speed.
 }}
 
 ==Notes==
@@ -899,4 +978,6 @@ Tower Defense Simulator OST - Hardcore Wave 45
 
 
 
-{{ModeNavBox}}
+{{TowerNavBox}}
+[[Category:Ground]]
+[[Category:Ability]]
