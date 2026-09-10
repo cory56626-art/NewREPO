@@ -1,1 +1,101 @@
-[expandtemplates failed: HTTP 414: ]
+<infobox>
+	<title source="name"/>
+	<image source="image"><caption source="imagecaption"/></image>
+	<data source="type"><label>Type</label></data>
+	<data source="display"><label>Display Method</label></data>
+</infobox>[[Category:Buffs]]
+
+==Description==
+The '''Firerate Buff''' is a buff that decreases a tower's firerate, making them fire faster. It is displayed on the towers using an icon of a lightning bolt.
+
+==Mechanics==
+Currently, the '''Firerate Buff''' is calculated as:
+::<big>'''Original Firerate ÷ (1 + Firerate Buff)'''</big>
+:::where '''Firerate Buff''' is the buff supplied is in decimal form (for example, 10% is 0.1).
+
+While it may look like the firerate of a tower with the '''Firerate Buff''' is rounded up or down to the third decimal, this is only visual. 
+
+Prior to the [[v2.0.0]] update, the firerate of a tower with the [[Firerate Bug]] was calculated as:
+::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) ÷ (1 + Firerate Buff) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
+:::where ''Bugged Firerate'' was the firerate with the [[Firerate Bug]].
+
+Prior to the [[V1.1.0|Entity System Update]], the '''Firerate Buff''' was calculated as:
+
+::Without the [[Firerate Bug]]:
+:::<big>'''Original Firerate × (1-Firerate Buff)'''</big>
+::With the [[Firerate Bug]]:
+:::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 - Firerate Buff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>
+
+The following towers are either partially or fully not affected by the '''Firerate Buff''':
+*All [[units]].
+*Ability cooldowns.
+*Units spawnrates.
+*The [[Commander]]; the [[Commander]] cannot boost the firerate of other [[Commander]]s.
+*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.
+**Their main firerate can still be decreased.
+*Tick of the [[Pyromancer]], [[Toxic Gunner]], [[Cryomancer]], [[Slasher]] and [[Swarmer]].
+**The tick of the [[Accelerator]] can still be decreased.
+*The rev-up of the [[Minigunner]].
+*Charge-up and cooldown of the [[Accelerator]].
+**The cooldown of burst towers like the [[Soldier]] or [[Toxic Gunner]] also cannot be decreased.
+*The [[Executioner]]; the firerate will not be decreased if the axe takes too long to return.
+*The [[Archer]]; the '''Firerate Buff''' can decrease the time it takes for it to reload its bow, but it cannot decrease the time it takes it to aim at enemies.
+
+The pump time for the [[Enforcer]] is also affected by this buff.
+
+==Applied By==
+The following towers have the '''Firerate Buff''':
+
+*[[Gladiator]] (''Warrior's Call'' ability)
+
+The following towers or consumables can apply the '''Firerate Buff''' to other towers:
+
+*[[Commander]] (Passive and ''Call to Arms'' ability)
+*[[Medic]] (Passive to assigned towers)
+*[[War Machine]] (Passive)
+*[[Cooldown Flag]] (Passive)
+*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)
+*[[Easter Egg]] (Passive for 20 seconds)
+The following event enemies can apply the '''Firerate Buff''' to towers:
+
+* [[Null Guardian]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
+* [[Null Guardian Clone]] (''Null Aura'' ability, [[Null & Void Event|Null & Void]])
+The following event features can apply the '''Firerate Buff''' to towers:
+
+* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])
+
+==Gallery==
+<div class="mw-collapsible mw-collapsed slanted-toggle" data-expandtext="&#9660; Open Gallery &#9660;" data-collapsetext="&#9650; Close Gallery &#9650;">
+
+<span class="galleryheader">'''Attribute Icon'''</span>
+<gallery>
+Faster Firerate.png|First Icon (14 June 2019 – 29 October 2020)
+</gallery>
+</div>
+
+==Update History==
+*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
+**'''Firerate Buff''' added.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
+**Icon changed.
+**Now displayed on the tower rather than in the upgrade menu.
+*'''12 March 2022''' - [[v1.1.0]]
+**'''Firerate Buff''' calculation updated. 
+*'''29 March 2024''' - [[v1.17.0]]
+**'''<span class="no-text">Bug</span>''': Firerate buff indicators are sunk into the ground.
+*'''10 May 2024''' - [[v1.19.2]]
+**'''<span class="yes-text">Bugfix</span>''': Firerate buff indicators are no longer sunk into the ground.
+*'''12 November 2025''' - [[v1.80.0]]
+**'''<span class="no-text">Bug</span>''': Firerate buff indicator stays active forever after a tower sold.
+
+
+
+{| class="hover-expand tds-navbox"
+! colspan="3" class="anglednavbox" |[[File:Damage Buff.png|150px|center|link=Buffs]]
+|-
+! class="navbox-label-wide" |Buffs
+| colspan="2" class="navbox-data" |[[Damage Buff]] • [[Firerate Buff]] • [[Range Buff]] • [[Discount Buff]] • [[Firework Buff]] • [[Hidden Detection Buff]] • [[Flying Detection Buff]] • [[Lead Detection Buff]] • [[Burst Buff]] • [[Cash Shot Buff]] • [[Coordination]] • [[Shared Optics]]
+|-
+! class="navbox-label-wide" |Debuffs
+| colspan="2" class="navbox-data" |[[Fatigue Debuff]] • [[Firerate Debuff]] • [[Cost Debuff]] • [[Range Debuff]] • [[Scared Debuff]] • [[Damage Debuff]]
+|}
