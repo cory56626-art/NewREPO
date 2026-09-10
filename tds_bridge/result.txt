@@ -1,100 +1,105 @@
-{{Tabs|Regular = Minigunner|Perk = Golden Minigunner|Evolved = Juggernaut}}
-{{for|other uses of [[Gold (Disambiguation)|Gold]]| other uses of [[Mini (Disambiguation)|Mini]]}}
+{{Tabs|Regular = Demoman|Perk = Golden Demoman|History = No}}
+{{For|other uses of [[Gold (Disambiguation)|Gold]]}}
 {{TowerInfobox
-|title = {{Color|Golden|Golden Minigunner}}
-|image-static = Goldenminigunner.png
-|image-dynamic = GoldenMinigunnerDynamic.png
-|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)
-|towercost = {{Coins|8,000}} ([[Minigunner]])
-|basecost = {{Money|2,400}}
-|basesellingprice = {{Money|800}}
+|title = Golden Demoman
+|image-static = GoldenDemoman0.png
+|image-dynamic1 = GoldenDemomanDynamic.png
+|pseudoxd = 1
+|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)
+|towercost = {{Coins|200}}
 |role = Offense
 |placement = Ground
-|basedamage = [[File:Damage_Icon.png|20px|Damage]]3
-|damagetype = Single
-|basefirerate = [[File:Cooldown_Icon.png|20px|Firerate]]0.16
-|baserange = [[File:Range_Icon.png|20px|Range]]16
-|hidden_detection = {{Attr|Hidden|Level 1+}}
-|lead_detection = N/A
-|flying_detection = N/A
-|immune = None
+|basecost = {{Money|875}}
+|basesellingprice = {{Money|291}}
+|basedamage = [[File:SplashDamage.png|20px|Damage]]10
+|damagetype = [[Splash Damage|Splash]]
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.95
+|baserange = [[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 0+}}
+|flying_detection = N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>
+|immune = {{Attr|Stun}} (Level 4)
 |footprint = 1.5
-|evolves_into = [[Juggernaut]]
-|evolution_levels = 20
-|base_exp = 50
-|growth_rate = 1.09
-|skip_cost = 599
-|tooltip-1 = A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
 {{QuoteContainer|
-{{QuoteBox|Absolute spray and pray! A fast-firerate tower that carries a heavy minigun and mows down enemies.|Store Description}}
-{{QuoteBox|A high-firerate tower that carries a M61 Vulcan Gatling Gun|Former Store Description}}
+{{QuoteBox|Ka-boooom! A great early game splash tower.|Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Golden Minigunner''' is a golden perk for the [[Minigunner]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if you own the [[Minigunner]]. It can also be bought in the [[Daily Store]] for {{Coins|75,000}}.
+The '''Golden Demoman''' is a splash damage tower that is an upgraded version of the [[Demoman]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Demoman]]. It can also appear in the Daily Skin Store for {{Coins|55,000}}.
 
-Before the '''Golden Minigunner''' starts firing, it needs to rev up its minigun. If there are no enemies in its range while revved-up, it will wait for around a second for an enemy to enter its range. If no enemy enters its range in that time, it begins to deactivate the gun and will need to rev the gun up again when an enemy enters its range. It fires bullets at enemies at a fast firerate. The '''Golden Minigunner''' has high DPS and a relatively cheap cost compared to other high DPS towers, like the [[Accelerator]] or [[Engineer]]. 
+The '''Golden Demoman''' throws explosive golden grenades at enemies which deal medium damage within an explosion radius. To compensate, it has a rather fast firerate compared to other [[Splash Damage]] towers. It has no damage drop-off, so it deals full damage to all enemies within explosion radius.  At Levels 0-2, the '''Golden Demoman''' takes one second to aim at an enemy before throwing its grenade. This only affects the damage for the first throw, as it means the '''Golden Demoman''' has to wait 0.8 seconds before throwing it. While it is aiming, it will lock onto one enemy until it throws the grenade, after which it can target a different one. Even after the targeted enemy dies, the '''Golden Demoman''' will continue targeting it, though its grenade will land slightly ahead of where the enemy dies, in order to hit the enemy should it be still alive and moving forward. The '''Golden Demoman''' will also continue to aim at a target enemy even if it leaves its range, allowing it to attack outside of its range. 
 
-The '''Golden Minigunner''' has more damage and costs more than its normal counterpart, the [[Minigunner]], making it a direct upgrade in many ways. It is mostly considered a mid-game to late-game tower, although it can be used in early game if you have enough base health and focus solely on using the [[Farm]] for some time.
+The '''Golden Demoman''' is excellent for clearing huge crowds, except for those immune to splash damage.  It is relatively weak against major bosses, though it can be useful for clearing the enemies that spawn from some major bosses. The '''Golden Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for AOE damage when multiple are placed down.
+
+The '''Golden Demoman''' can damage [[Lead (Attribute)|Lead]] and [[Hidden (Attribute)|Hidden]] enemies, and has no placement limit.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|1,000}}|Image = [[File:MinigunnerUpgradeLevel1.png|100px]]|Information = 0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]
+{{Upgrade|Level = Level 1|Upgrade Title = Faster Pitch|Cost = {{Money|250}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+
+1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|358}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Golden Handshake|Cost = {{Money|1,150}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +8 Damage [[File:SplashDamage.png|20px|Damage]]
+
+4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
 
-Sell Price changes to {{Money|1,133}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Thermal Vision|Cost = {{Money|4,800}}|Image = [[File:MinigunnerUpgradeLevel2.png|100px]]|Information = +4 Damage [[File:Damage_Icon.png|20px|Damage]]
+Sell Price changes to {{Money|741}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Loose Cannon|Cost = {{Money|2,650}}|Image = [[File:Demoman Upgrade 2 New.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-+4 Range [[File:Range_Icon.png|20px|Range]]
+1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
++7 Damage [[File:SplashDamage.png|20px|Damage]]
 
-Sell Price changes to {{Money|2,733}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = High Tech Armory|Cost = {{Money|13,500}}|Image = [[File:MinigunnerUpgradeLevel3.png|100px]]|Information = +6 Damage [[File:Damage_Icon.png|20px|Damage]]
+0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
 
-0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]
+5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
 
-0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]
-
-
-Sell Price changes to {{Money|7,233}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = 24 Karat Gatling Gun|Cost = {{Money|27,500}}|Image = [[File:MiniLevel4.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]
-
-+7 Damage [[File:Damage_Icon.png|20px|Damage]]
++Faster Projectile
 
 
-Sell Price changes to {{Money|16,400}}}}
+Sell Price changes to {{Money|1,625}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = A Thousand Exploding Suns|Cost = {{Money|7,750}}|Image = [[File:NewDemomanLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
+1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++Stun Immunity {{Stun|Stun Immunity}}
+
+
+Sell Price changes to {{Money|4,208}}}}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Firerate
+$DPS$ = Splash Damage / Firerate
 $CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 2400; 1000; 4800; 13500; 27500
-$FSE-DETECTION$ = 2; ;
-$FSE-UPGRADE$ = Improved Handling; Thermal Vision; High Tech Armory; 24 Karat Gatling Gun
-$FSE-UPGRADEICON$ = 15184753790; 15184753514; 15184753289; 15184752970
-$FSE-META$ = Golden Perks; File:Goldenminigunner.png
-$DREF$ = <ref name=dps>DPS does not consider rev-up time.</ref>
+$COST$ = 875; 200; 1150; 2650; 7750
+$FSE-DETECTION$ = 2; 0;
+$FSE-UPGRADE$ = Pitch Throwing; Golden Handskade; Loose Cannon; A Thousand Exploding Suns
+$FSE-UPGRADEICON$ = 5523227714; 5523227714; 5523228733; 5523229364
+$FSE-META$ = Golden Perks; File:GoldenDemoman0.png
+$AREF$ = <ref name=aim>Aim Time happens before the '''Demoman''' throws a grenade. This does not affect its firerate.</ref>
+$DREF$ = <ref name=dps>DPS does not consider projectile travel time.<br/>DPS assumes that only one enemy is hit and it receives full splash damage.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="overflow-box">
-{|class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! [[Splash Damage]] !! Firerate !! Aim Time$AREF$ !! Range !! Explosion Range !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}}$R$
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 1.95 || 0.8 || 12 || 4.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 1  || $R$ || $R$ || 3 || 0.12 || 0.8 || 16 || $DPS$$R$ || $R$
+| 1 || $R$ || $R$ || 10 || 1.8 || 0.8 || 13.5 || 4.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 7 || 0.12 || 0.8 || 20 || $R$ || $R$
+| 2 || $R$ || $R$ || 18 || 1.8 || 0.8 || 13.5 || 5 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 13 || 0.1 || 0.6 || 20 || $R$ || $R$
+| 3 || $R$ || $R$ || 25 || 1.1 || 0 || 15 || 5.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 20 || 0.1 || 0.6 || 22 || $R$ || $R$
+| 4 || $R$ || $R$ || 25 || 0.45 || 0 || 17 || 5.5 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 </nowiki>}}
@@ -103,473 +108,150 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:NewMinigunner.png|175px]]
-|[[File:BlueMinigunner.png|175px]]
-|[[File:GreenMinigunner.png|175px]]
-|[[File:BlackOpsMinigunner.png|175px]]
+|[[File:DefaultDemomanIcon2.png|175px]]
+|[[File:ImprovedAngleDemoG0.png|175px]]
+|[[File:M23BlueDemoman0.png|175px]]
+|[[File:M23MilitaryDemoman0.png|175px]]
 |-
 !Skin
 |Default
-|{{Color|Basic|Blue}}
 |{{Color|Basic|Green}}
-|{{Color|Premium|Black Ops}}
+|{{Color|Basic|Blue}}
+|{{Color|Basic|Military}}
 |-
 !Rarity
 |{{Color|Common}}
 |{{Color|Common}}
 |{{Color|Common}}
-|{{Color|Common}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |{{Coins|1,250}}
 |{{Coins|1,250}}
-|{{Robux|85}}
+|{{Coins|1,500}}
 |-
 !Obtained From
-|Owning [[Minigunner]]
+|Owning [[Demoman]]
 |[[Basic Crate]]
 |[[Basic Crate]]
-|[[Premium Crate]]
+|[[Basic Crate]]
 |-
 !
-|[[File:H23PumpkinMinigunnerIcon.png|175px]]
-|[[File:HeavyMinigunner.png|175px]]
-|[[File:WraithMinigunner.png|175px]]
-|[[File:Xmasminigunner2019rework.png|175px]]
+|[[File:NewRedDemoman0.png|175px]]
+|[[File:YellowDemoman0.png|175px]]
+|[[File:FortressDemoman0.png|175px]]
+|[[File:PirateDemoman0.png|175px]]
 |-
 !Skin
-|{{Color|Halloween2019|Pumpkin}}
-|{{Color|Premium|Heavy}}
-|{{Color|Premium|Wraith}}
-|{{Color|Christmas2019|Xmas}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Common}}
-|{{Color|Rare}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|{{Coins|5,000}}
-|{{Robux|85}}
-|{{Robux|120}}
-|N/A
-|-
-!Obtained From
-|[[Halloween 2019 Crate]]<br/>[[Pumpkin Crate]]<br/>[[Halloween Crate]]
-|[[Premium Crate]]
-|[[Premium Crate]]
-|[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br/>[[Xmas 2019 Crate]]
-|-
-!
-|[[File:Partyminigunnerrework.png|175px]]
-|[[File:MiniTwitter.png|175px]]
-|[[File:Toyminigunnerrework.png|175px]]
-|[[File:Bunnyminigunnernew.png|175px]]
-|-
-!Skin
-|{{Color|Party|Party}}
-|{{Color|Other|Twitter}}
-|{{Color|Toy|Toy}}
-|{{Color|Bunny|Bunny}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|{{Color|Uncommon}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Coins|1,000}}
-|N/A
-|-
-!Obtained From
-|[[Party Crate]]
-|[[Codes|Code]]:<br/>5KMILESTONE<ref name="Expired">Expired</ref>
-|[[Toy Crate]]
-|[[Bunny Crate]]
-|-
-!
-|[[File:HazmatMinigunner.png|175px]]
-|[[File:Ghostminigunnernew.png|175px]]
-|[[File:Frostminigunnerrework.png|175px]]
-|[[File:Communityminigunnerrework.png|175px]]
-|-
-!Skin
-|{{Color|Premium|Hazmat}}
-|{{Color|Spooky|Ghost}}
-|{{Color|Frost|Frost}}
-|{{Color|Other|Community}}
+|{{Color|Basic|Red}}
+|{{Color|Basic|Yellow}}
+|{{Color|Premium|Fortress}}
+|{{Color|Premium|Pirate}}
 |-
 !Rarity
 |{{Color|Common}}
-|{{Color|Event}}
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|-
-!Daily Store Cost
-|{{Robux|85}}
-|{{Coins|5,000}}
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Premium Crate]]
-|[[Spooky Crate]]<br/>[[Halloween Crate]]
-|[[Frost Crate]]
-|[[Codes|Code]]:<br/>COMMUNITY20<ref name="Expired"/>
-|-
-!
-|[[File:Crusaderminigunnerrework.png|175px]]
-|[[File:Duckyminigunnerrework.png|175px]]
-|[[File:Beachminigunnernew.png|175px]]
-|[[File:PlushieMinigunnerSkin.png|175px]]
-|-
-!Skin
-|{{Color|Halloween|Crusader}}
-|{{Color|Ducky|Ducky}}
-|{{Color|EndOfSummer|Beach}}
-|{{Color|Other|Plushie}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|-
-!Daily Store Cost 
-|{{Coins|5,000}}
-|{{Coins|4,000}}
-|N/A
-|N/A
-|-
-!Obtained From 
-|[[Halloween Crate]]<br/>[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Ducky Crate]]<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
-|[[End of Summer Season#Season Pass|End of Summer Season]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Minigunner Plush]].</ref>
-|-
-!
-|[[File:HolidayMinigunner.png|175px]]
-|[[File:SpaceEliteMinigunner.png|175px]]
-|[[File:PhantomMinigunnerSkin.png|175px]]
-|[[File:WarlordMinigunnerSkin.PNG|175px]]
-|-
-!Skin
-|{{Color|Jolly|Holiday}}
-|{{Color|Premium|Space Elite}}
-|{{Color|Phantom|Phantom}}
-|{{Color|Krampus|Warlord}}
-|-
-!Rarity
-|{{Color|Event}}
+|{{Color|Common}}
 |{{Color|Uncommon}}
-|{{Color|Rare}}
-|{{Color|Event}}
+|{{Color|Common}}
 |-
 !Daily Store Cost
-|{{Coins|5,000}}
+|{{Coins|1,250}}
+|{{Coins|1,250}}
 |{{Robux|105}}
-|N/A
-|N/A
+|{{Coins|3,500}}
 |-
 !Obtained From
-|[[Jolly Crate]]<br/>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Basic Crate]]
+|[[Basic Crate]]
 |[[Premium Crate]]
-|[[Phantom Crate]]<br/>''Suppressing Fire'' [[Mission Quests|Mission Quest]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
+|[[Pirate Crate]]
 |-
 !
-|[[File:SweakingMinigunnerIcon.png|175px]]
-|[[File:VroomVroomMinigunner.png|175px]]
-|[[File:ChadMinigunner.png|175px]]
-|[[File:GoldenPlushieMinigunnerIconIG.png|175px]]
+|[[File:PumpkinDemoman0Fixed.png|175px]]
+|[[File:DuckyDemoman0.png|175px]]
+|[[File:GhostDemoman0.png|175px]]
+|[[File:EggDemoman0.png|175px]]
 |-
 !Skin
-|{{Color|ContentCreator|Sweaking}}
-|{{Color|Deluxe|Trucker}}
-|{{Color|Premium|Chad}}
-|{{Color|Other|Golden Plushie}}
+|{{Color|Halloween|Pumpkin}}
+|{{Color|DuckyRevenge|Ducky}}
+|{{Color|Null|Ghost}}
+|{{Color|SpringFrenzy|Egg}}
 |-
 !Rarity
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
 |{{Color|Exclusive}}
-|-
-!Daily Store Cost
-|{{Coins|3,000}}
-|{{Robux|560}}
-|{{Robux|190}}
-|N/A
-|-
-!Obtained From
-|[[Daily Store#Daily Skin Store|Daily Skin Store]]
-|[[Deluxe Crate]]
-|[[Premium Crate]] (Formerly)<ref>Was a limited time skin obtainable between the 1st of April 2024 and 7th of April 2024.</ref>
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Minigunner Plush]].</ref>
-|-
-!
-|[[File:FallenMinigunnerIcon.png|175px]]
-|[[File:RoadRageMinigunnerIconIG.png|175px]]
-|[[File:NutcrackerMinigunnerIconIG.png|175px]]
-|[[File:GardenerMinigunnerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|FallenMission|Fallen}}
-|{{Color|Hexscape|Road Rage}}
-|{{Color|OperationICE|Nutcracker}}
-|{{Color|DuckyRevenge|Gardener}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
-|{{Color|Uncommon}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|''Unyielding Shooter'' [[Mission Quest]]
-|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Premium Battle Pass]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
-|-
-!
-|[[File:CursedMinigunnerIconIG.png|175px]]
-|[[File:ChocolatierMinigunnerIconIG.png|175px]]
-|[[File:OxMinigunnerIconIG.png|175px]]
-|[[File:EasterMinigunner0.png|175px]]
-|-
-!Skin
-|{{Color|Null|Cursed}}
-|{{Color|Valentines2026|Chocolatier}}
-|{{Color|LunarYear|Ox}}
-|{{Color|SpringFrenzy|Easter}}
-|-
-!Rarity
-|{{Color|Rare}}
 |{{Color|Uncommon}}
 |{{Color|Uncommon}}
-|{{Color|Common}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
-|N/A
-|N/A
 |{{Coins|5,000}}
 |N/A
+|N/A
+|N/A
 |-
 !Obtained From
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
-|[[Valentines 2026 Crate]]
-|[[Lunar Crate]]
+|[[Halloween Crate]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Regular Battle Pass]]
 |[[Spring Frenzy Battle Pass]]
+|-
+!
+|[[File:CrewDemoman0.png|175px]]
+|[[File:BeachDemoman0.png|175px]]
+|-
+!Skin
+|{{Color|Backyard|Crew}}
+|{{Color|Beach}}
+|-
+!Rarity
+|{{Color|Exclusive}}
+|{{Color|Uncommon}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|5,250}}
+|-
+!Obtained From
+|Triumph all [[Backyard Legends Event]] maps on Easy difficulty
+|[[Beach Crate]]
 |}
 
 ==Strategy==
-*It is highly recommend to get 2 Level 3 '''Golden Minigunners''' as both of them could deal 260 total DPS while being more cost efficient compared to a single Level 4.
-*The '''Golden Minigunner''' should be one of the towers that are placed down the most. If possible, place them in a large group near the front of the track, or place them in an area that covers a lot of path (for example, inside corners).
-**Having a [[Commander]] or [[DJ Booth]] nearby helps a lot.
-*Midway through the game, several Level 1-2 '''Golden Minigunners''' are effective in wiping out hordes of enemies for an effective price.
-*While this is a cost-effective way to triumph maps, this is not the best tower in terms of DPS.
-**In terms of DPS and range, the [[Engineer]], [[Ranger]] and [[Accelerator]] are far more effective. However, they are more expensive and have their own limitations, like placement limits.
-***While it does have a quite higher DPS than the normal [[Minigunner]], it also costs more to upgrade.
-*This tower is not affected much by the defense from enemies like the [[Giant Boss]] and [[Warden (Modern Enemy)|Warden]] due to its low damage at lower levels. In most cases, the '''Golden Minigunner''' can still deal most of its damage to such enemies, or even its full damage.
-**Do note that the Level 3 has 13 damage and Level 4 has 20 damage, which is high enough for most enemies to be able to decrease its damage.
-**Even still, defense dropping towers like the [[Pyromancer]] are recommended to increase the damage of '''Golden Minigunners''' against certain enemies with very high defense.
-*The '''Golden Minigunner''' can be effective at killing high health hidden enemies that appear in mid game or late game, such as the [[Possessed Armor]] or [[Soul]].
-*While the '''Golden Minigunner''' does not have incredibly low range, it is still lower than most other DPS towers, such as the [[Ranger]], [[Engineer]], [[Accelerator]] or [[Turret]].
-*If you are planning to use the '''Golden Minigunner''' for early game, you need to have a high amount of base health and farm correctly to afford it. However, this is generally not recommended as it is risky.
-**Alternatively, you should have teammates with cheap towers to help deal with the early game while you farm.
-***You can also use the [[Supply Drop]] to help you farm more efficiently if you really want to get the '''Golden Minigunner''' down early.
+*The '''Golden Demoman''' is considered an early to mid-game tower, allowing it to clear early waves quickly with its splash damage that is able to hit an unlimited number of enemies.
+** '''Golden Demoman''' can completely bypass [[Defense]] through its explosives, allowing it to quickly clear larger hordes of high-defense enemies like [[Heavy]] or [[Armored]].
+*** This also makes it very useful against enemies that received the [[Blessed]] attribute from [[Trickster Elf]] or [[Fallen Jester]] as it can completely bypass the extremely high defense of these types of enemies.
+*The '''Golden Demoman''' is excellent as starting defense in solo [[Hardcore Mode|Hardcore]] mode, similarly to [[Golden Pyromancer]]. Its optimal usage is to place one down at the front of the map and upgrade it to Level 3 before getting something else.
+**Keep in mind that the earlier levels of '''Golden Demoman''', like Level 0 and Level 1, can leak faster enemies like [[Swift]], though this is not a huge issue since the earlier enemies have relatively low hp, and past Level 2 it can handle these enemy types much better.
+**Afterwards it is advantageous to invest in a few more '''Golden Demoman'''s as they can clear larger hordes much better this way.
+*The '''Golden Demoman''' is best used when set to target ''Random'', especially due to its faster firerate which allows for maximum area coverage.
+**Alternatively the '''Golden Demoman''' can be set to target first as summoner enemies like [[Necromancer (Modern Enemy)|Necromancer]] and [[Frost Necromancer]], or major bosses like [[Frost Spirit]] and [[Molten Warlord]] summon enemies in front of themselves, allowing '''Golden Demoman''' to quickly eliminate these weaker enemies and let the other towers focus on the target enemy. 
+*The '''Golden Demoman''' is a good cost-effective option for early-mid game as it can easily clear earlier waves, though it struggles in late game by itself.
+**Pairing '''Golden Demoman''' with high single-target damage towers like [[Golden Minigunner]] and [[Crook Boss]], or stall towers like [[Slime Trooper]] and [[Tesla]] allows for maximum efficiency as a crowd clearer.
+**Placing multiple '''Golden Demoman'''s also allow it to take down stronger swarms much more easily, although this can cause some lag if particles are turned on.
+*The '''Golden Demoman''' can be paired with [[DJ Booth]] to increase its range and damage, or [[Commander]] to decrease its firerate, allowing it to handle late game more effectively
+**Pairing '''Golden Demoman''' with [[Golden Pyromancer]] can further increase its swarm clearing when paired with [[Golden Pyromancer]]'s practically infinite burn.
+**Pairing '''Golden Demoman''' with [[Firework Technician]] will allow it to attack [[Flying]] enemies, though this is not recommended since '''Golden Demoman''' cannot generate fireworks at any level.
+*The '''Golden Demoman''' can accidentally hit [[Flying]] enemies if other detectable enemies are within range, but this is not recommended as it is rather unreliable and cannot directly target [[Flying]] enemies.
+*The '''Golden Demoman''' is stun immune at Level 4, so it cannot be stopped by most enemy attacks, making it a consistent and reliable splash damage tower.
+**In some cases, '''Golden Demoman''' can be used as enemy bait to protect other more vulnerable towers like [[Accelerator]] or [[Juggernaut]] by taking hits for them, and since it is stun immune, it is not affected, though do note certain enemies will not target towers with the [[Stun Immunity]].
+*The '''Golden Demoman''' has no placement limit, so in solo matches it can be spammed to the point of dealing absurd amounts of collective DPS in the form of AOE damage.
+**This is not recommended due to the low single-target DPS and that the space a large number of them occupies is better used for other high damage towers like [[Golden Minigunner]].
 
 ==Trivia==
-*The '''Golden Minigunner''', alongside its normal counterpart, the [[Minigunner]], currently has the most skins out of any tower in the game.
-*The '''Golden Minigunner''' used to be the most expensive skin in the game, until the [[Coin Crate]]'s addition in [[V1.59.0]], which possesses skin that cost {{Coins|1,346,914,794}}.
+*The '''Golden Demoman''' is the first mainstream golden tower in 6 years to be added to the game since the [[Golden Soldier]] in 2020.
+**This is true if not including the [[Golden Snowballer]], which is exclusive to developers and [[Sandbox Mode]].
+**It is also the first golden tower since the [[Golden Soldier]] to be added to the [[Golden Crate]].
+*The '''Golden Demoman's''' Level 3 upgrade name, ''Loose Cannon'', may be a reference to the ''Team Fortress 2'' weapon of the same name.
+*The '''Golden Demoman's''' Level 4 upgrade name, ''A Thousand Exploding Suns'', may be a reference to the [[w:c:Robert Reynolds (Earth-616)|Sentry]] from ''Marvel'', who is described as having the power of a thousand exploding suns.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text = 
-*'''13 May 2022''' - [[v1.2.2]]
-**'''Golden Minigunner''' added, replacing the {{Color|Golden}} [[Minigunner]] skin buffs.
-**{{Bug}} '''Golden Minigunner''' viewport uses its attack animation instead of the idle animation in places like the inventory or tower hotbar.
-*'''5 August 2022'''- [[v1.3.1]]
-**New skin: {{Color|EndOfSummer|Beach}}
-*'''2 September 2022''' - [[v1.3.2]]
-**New skin: {{Color|Other|Plushie}}
-*'''21 December 2022''' - [[v1.6.0]]
-**Level requirement removed.
-**Skin rarity added to all skins.
-**{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
-**New skin: {{Color|ViolentNight|Holiday}} 
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
-*'''28 October 2023''' - [[v1.9.0]]
-**Added ''Fires 24K cartridges at 10,000 RPM.'' and ''Really cool armor!'' to the Level 4 description.
-**Statistical changes:
-***'''Base'''
-****Damage increased from 2 to 3.
-****Firerate increased from 0.148 to 0.158.
-****Range decreased from 16 to 15.
-****Rev-up time increased from 1.4 to 2.
-****Cost increased from {{Money|3,000}} to {{Money|3,750}}.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|0.167 > 0.125|-0.042}} to {{Tooltip|0.175 > 0.15|-0.025}}.
-****Range decreased from +2 to +0.
-****Rev-up time changed from 1.4 to {{Tooltip|2 > 1.4|-0.6}}.
-****Cost decreased from {{Money|750}} to {{Money|650}}.
-***'''Level 2'''
-****Range increased from +1 to +2.
-****Name changed from ''Heat Vision Goggles'' to ''Thermal Vision''.
-***'''Level 3'''
-****Damage increased from +1 to +4.
-****Firerate changed from {{Tooltip|0.125 > 0.075|-0.05}} to {{Tooltip|0.15 > 0.125|-0.025}}.
-****Lead detection added.
-****Cost increased from {{Money|7,500}} to {{Money|8,750}}.
-****Name changed from ''Geared Up'' to ''High Tech Armory''.
-***'''Level 4'''
-****Damage increased from +2 to +6.
-****Cost increased from {{Money|10,000}} to {{Money|12,500}}.
-****Name changed from ''Futuristic Armory'' to ''24 Karat Gatling Gun''.
-**New skin: {{Color|Premium|Space Elite}}
-*'''21 December 2023''' - [[v1.11.0]]
-**New skins: {{Color|Phantom|Phantom}}, {{Color|Krampus|Warlord}}
-*'''28 January 2024''' - [[v1.12.0]]
-**New skin: {{Color|ContentCreator|Sweaking}}
-*'''29 March 2024''' - [[v1.17.0]]
-**New skin: {{Color|Deluxe|Trucker}}
-*'''1 April 2024''' - [[v1.17.0]]b
-**New skin: {{Color|Premium|Chad}}
-**{{Bug}} {{Color|Premium|Chad}} skin cannot be equipped in the intermission lobby.
-**{{Bug}} {{Color|Premium|Chad}} skin breaks the tower icon and stats in the tower hotbar.
-*'''1 April 2024''' - [[v1.17.2]]
-**{{Bugfix}} {{Color|Premium|Chad}} skin can now be equipped in the intermission lobby.
-**{{Bugfix}} {{Color|Premium|Chad}} skin no longer breaks the tower icon and stats in the tower hotbar.
-*'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|Other|Golden Plushie}}
-*'''2 August 2024''' - [[v1.27.0]]
-**New skin: {{Color|FallenMission|Fallen}}
-**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
-*'''21 August 2024''' - [[v1.28.0]]
-**Placement limit of 15 added.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|3,750}} to {{Money|3,000}}.
-****Firerate decreased from 0.175 to 0.15.
-****Range decreased from 15 to 13.
-****Rev-up time decreased from 1.6 to 1.5
-***'''Level 1'''
-****Cost increased from {{Money|650}} to {{Money|800}}.
-****Damage increased from +0 to +1.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to 0.15.
-****Rev-up time changed from {{Tooltip|1.6 > 1.4|-0.2}} to {{Tooltip|1.25 > 0.75|-0.5}}.
-***'''Level 2'''
-****Cost increased from {{Money|2,000}} to {{Money|2,400}}.
-****Damage increased from +1 to +2.
-****Range decreased from +2 to +1.
-***'''Level 3'''
-****Cost decreased from {{Money|8,750}} to {{Money|7,750}}.
-****Range increased from +0 to +2.
-****Lead detection removed.
-***'''Level 4'''
-****Cost increased from {{Money|12,500}} to {{Money|24,000}}.
-****Damage increased from +6 to +14.
-****Rev-up time changed from 1.4 to {{Tooltip|0.75 > 2.25|+1.5}}.
-*'''23 October 2024''' - [[v1.37.0]]
-**New skin: {{Color|Hexscape|Road Rage}}
-*'''16 December 2024''' - [[v1.46.0]]
-**New skin: {{Color|OperationICE|Nutcracker}}
-*'''12 March 2025''' - [[v1.57.0]]
-**Placement limit reduced from 15 to 12.
-**Statistical changes:
-***'''Base'''
-****Rev-up time increased from 1.25 to 1.4.
-****Range increased from 13 to 15.
-***'''Level 1'''
-****Cost increased from {{Money|800}} to {{Money|900}}
-****Rev-up time changed from {{Tooltip|1.25 > 0.75|-0.5}} to {{Tooltip|1.4 > 1.2|-0.2}}.
-***'''Level 2'''
-****Cost decreased from {{Money|2,400}} to {{Money|2,000}}.
-****Damage decreased from +2 to +1.
-****Range increased from +1 to +3.
-***'''Level 3'''
-****Cost increased from {{Money|7,750}} to {{Money|8,500}}.
-****Damage increased from +4 to +5
-****Rev-up time changed from 0.75 to {{Tooltip|1.2 > 1|-0.2}}.
-****Range decreased from +2 to +0.
-***'''Level 4'''
-****Cost increased from {{Money|24,000}} to {{Money|30,000}}.
-****Damage increased from +14 to +18.
-****Rev-up time changed from {{Tooltip|0.75 > 2.25|+1.5}} to 1.
-*'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Gardener}}
-*'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Cursed}}
-*'''28 January 2026''' - [[v1.84.0]]
-**Placement limit removed.
-**Statistical changes:
-***'''Base'''
-****Placement cost decreased from {{Money|3,000}} to {{Money|2,000}}.
-****Damage decreased from 3 to 2.
-****Range increased from 15 to 16.
-****Rev-up time changed from 1.4 to 0.8.
-***'''Level 1'''
-****Cost decreased from {{Money|900}} to {{Money|250}}
-****Damage decreased from +1 to +0
-****Rev-up time changed from {{Tooltip|1.4 > 1.2|-0.2}} to 0.8.
-****Firerate decreased from 0.15 to {{Tooltip|0.15 > 0.125|-0.025}}.
-***'''Level 2'''
-****Cost decreased from {{Money|2,000}} to {{Money|1,500}}
-***'''Level 3'''
-****Cost increased from {{Money|8,500}} to {{Money|9,001}}
-****Damage increased from +5 to +7
-****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.125.
-****Rev-up time changed from {{Tooltip|1.2 > 1|-0.2}} to {{Tooltip|0.8 > 0.6|-0.2}}.
-***'''Level 4'''
-****Cost decreased from {{Money|30,000}} to {{Money|18,624}}
-****Damage decreased from +18 to +7.
-****Firerate decreased from 0.125 to {{Tooltip|0.125 > 0.117|-0.08}}.
-*'''11 February 2026''' - [[v1.85.0]]
-**New skin: {{Color|Valentines2026|Chocolatier}}
-*'''16 February 2026''' - [[v1.85.0|v1.85.3]]
-**New skin: {{Color|LunarYear|Ox}}
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Easter}}
-*'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|2,000}} to {{Money|2,400}}.
-****Damage increased from 2 to 3.
-****Firerate increased from 0.15 to 0.16.
-***'''Level 1'''
-****Cost increased from {{Money|250}} to {{Money|1,000}}
-****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to {{Tooltip|0.16 > 0.12|-0.04}}.
-****Hidden detection added, moved from Level 2.
-***'''Level 2'''
-****Cost increased from {{Money|1,500}} to {{Money|4,800}}.
-****Damage increased from +1 to +4.
-****Range increased from +3 to +4.
-****Hidden detection moved to Level 1.
-***'''Level 3'''
-****Cost increased from {{Money|9,001}} to {{Money|13,500}}.
-****Damage decreased from +7 to +6.
-****Firerate changed from 0.125 to {{Tooltip|0.12 > 0.1|-0.02}}
-***'''Level 4'''
-****Cost increased from {{Money|18,624}} to {{Money|27,500}}.
-****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to 0.1.
-}}
+*'''17 July 2026''' - [[v2.3.0]]
+**'''Golden Demoman''' added.
+*'''4 September 2026''' - [[v2.9.0]]
+**New skin: {{Color|Beach}}
 
 ==Notes==
 <references/>
