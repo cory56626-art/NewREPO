@@ -7,7 +7,7 @@
       "infobox_or_summary"
     ]
   },
-  "description": "'''Fallen''' mode, formerly called '''Insane''' mode, is one of the six main survival modes. '''Fallen''' mode has 40 waves. When the [[Hidden Wave]] is activated it has 42 waves. The mode is named after the Fallen enemies that appear throughout it.\n\nCash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.\n\nThe health of enemies in this mode scales with the player count, starting at two players. The increase is 15% in duo, 25% in trio and 40% in quad. It is applied after attributes, like [[Bloated]], meaning they can affect the health of an enemy. The increase is not always the stated amount.\n\nYou can activate the [[Hidden Wave]] by following these certain steps:\n*Every player has to disable [[Skills]] before starting the match.\n*After voting '''Fallen''' mode, sending separate messages that contain these numbers in the chat: \"''120''\", \"''1''\" and \"''1009''\". On the last number, the screen will flash and a noise will play.\n*The base health should be set to one before reaching to Wave 40.\n*Defeat the [[Fallen King]] under 60 seconds without using consumables on Wave 40. If done successfully instead of dropping its sword and vanishing in a beam of light, it will survive, but smashing the ground enraged and retreating with its sword.\n*After completing [[Hidden Wave]], the icon of '''Fallen''' mode on the difficulty select screen will change to the [[Awakened Fallen King]].",
+  "description": "The '''Fallen Soul''' is an enemy that appears in [[Fallen Mode|Fallen]] and Fallen Arena [[PVP]] modes. It has a decent amount of health with above average speed. As it is a [[Hidden (Attribute)|Hidden]] enemy, only towers with hidden detection can target it.",
   "upgrade_modes": {
     "regular": [],
     "pvp": []
@@ -32,47 +32,7 @@
       "immune": null
     }
   },
-  "infoboxes": [
-    {
-      "name": "ModeInfobox",
-      "params": {
-        "title1": "{{Color|FallenMode}}",
-        "image1": "<tabber>",
-        "Regular": "[[File:FallenReworkIcon.png]]",
-        "After Hidden Wave": "[[File:AwakenedFallenKingIcon.png|thumb]]\n</tabber>",
-        "waves": "40<br/>42 ([[Hidden Wave]])",
-        "level_requirement": "{{Level|30}} (Vote Only)",
-        "starting_cash": "{{Money|500}}<br/>{{Money|600}} (Group Bonus)",
-        "max_health": "200",
-        "health_scale": "15% (Duo)<br/>25% (Trio)<br/>40% (Quad)",
-        "time": "18:00",
-        "rewards": "{{Coins|1,350}}, {{Exp|250}} & {{TowerExp|185}}"
-      },
-      "positional": [
-        "-",
-        "-"
-      ]
-    }
-  ],
-  "likely_infobox": {
-    "name": "ModeInfobox",
-    "params": {
-      "title1": "{{Color|FallenMode}}",
-      "image1": "<tabber>",
-      "Regular": "[[File:FallenReworkIcon.png]]",
-      "After Hidden Wave": "[[File:AwakenedFallenKingIcon.png|thumb]]\n</tabber>",
-      "waves": "40<br/>42 ([[Hidden Wave]])",
-      "level_requirement": "{{Level|30}} (Vote Only)",
-      "starting_cash": "{{Money|500}}<br/>{{Money|600}} (Group Bonus)",
-      "max_health": "200",
-      "health_scale": "15% (Duo)<br/>25% (Trio)<br/>40% (Quad)",
-      "time": "18:00",
-      "rewards": "{{Coins|1,350}}, {{Exp|250}} & {{TowerExp|185}}"
-    },
-    "positional": [
-      "-",
-      "-"
-    ]
-  },
-  "template_count": 227
+  "infoboxes": [],
+  "likely_infobox": null,
+  "template_count": 37
 }

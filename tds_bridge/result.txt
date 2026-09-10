@@ -1,960 +1,136 @@
-{{ModeTabs|Story = No}}
-{{For|other uses of [[Fallen (Disambiguation)|Fallen]]}}
-{{ModeInfobox
-|title1 = {{Color|FallenMode}}
-|image1 = <tabber>
-|-|Regular = [[File:FallenReworkIcon.png]]
-|-|After Hidden Wave = [[File:AwakenedFallenKingIcon.png|thumb]]
-</tabber>
-|waves = 40<br/>42 ([[Hidden Wave]]) 
-|level_requirement = {{Level|30}} (Vote Only)
-|starting_cash = {{Money|500}}<br/>{{Money|600}} (Group Bonus)
-|max_health = 200
-|health_scale = 15% (Duo)<br/>25% (Trio)<br/>40% (Quad)
-|time = 18:00
-|rewards = {{Coins|1,350}}, {{Exp|250}} & {{TowerExp|185}}
+{{EnemyTabs}}
+{{SameName|Fallen Soul|[[Fallen Soul (Legacy)|Legacy]] • [[Fallen Soul|Modern]]}}
+{{For|other uses of [[Fallen (Disambiguation)|Fallen]]|other uses of [[Soul (Disambiguation)|Soul]]}}
+{{Zombie
+|title1 = Fallen Soul
+|image1 = FallenSoulRework.png
+|mode_appearance = [[Fallen Mode|{{Color|FallenMode}}]]<br/>[[PVP|{{Color|FallenArena}}]]
+----
+Originally:<br>[[PVP Test|{{Color|PVP|PVP Test}}]]
+|first_wave_appearance = 9 (Fallen Arena PVP)<br/>12 (Fallen)
+----
+Originally:<br>9 (High Rank PVP Test)
+|base_hp = [[File:HealthIcon.png|20px|Health]]150 (Fallen)<br/>[[File:HealthIcon.png|20px|Health]]60 (Fallen Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]75 (Sandbox)
+|scale_hp = Duo - [[File:HealthIcon.png|20px]]170 (Fallen)<br/>Trio - [[File:HealthIcon.png|20px]]190 (Fallen)<br/>Quad - [[File:HealthIcon.png|20px]]210 (Fallen)
+|defense = {{Defense}}20%
+|speed =[[File:SpeedIcon.png|20px|Health]]Above Average (4)
+|cash = {{Money|180}} on death (Fallen)<br/>{{Money|100}} on death (Fallen Arena PVP)
+|hidden = {{Attr|Hidden|Yes}}
+|fly = No
+|ghost = No
+|lead = No
+|immunity = {{Attr|Bloated}} (Variable)
+|versus_send_cost = {{Money|150}}
+|versus_wave_unlock = 9
+|versus_eco = {{Money|10}}
+|versus_number = 1
+|versus_timer = 1.5
 }}
-{{QuoteContainer|
-{{QuoteBox|For players who are experts at the game and want to test their limits.|Description in Elevators}}
-}}
-__TOC__
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Man, I'm shivering! When did it get so cold?|audio=FallenWave12-1.ogg|[[Commander (Narrator)|Commander]] dialogue on Wave 12 ([[Fallen Mode|Fallen]])}}
+|-|Original =
+{{QuoteBox|Make sure you have some hidden detection prepared.<br/>Got a feeling some stealth units are coming soon.|[[Commander (Narrator)|Commander]] dialogue on Wave 11 (Formerly, [[Fallen Mode|Fallen]])}}
+</tabber>}}
 ==Description==
-'''Fallen''' mode, formerly called '''Insane''' mode, is one of the six main survival modes. '''Fallen''' mode has 40 waves. When the [[Hidden Wave]] is activated it has 42 waves. The mode is named after the Fallen enemies that appear throughout it.
+The '''Fallen Soul''' is an enemy that appears in [[Fallen Mode|Fallen]] and Fallen Arena [[PVP]] modes. It has a decent amount of health with above average speed. As it is a [[Hidden (Attribute)|Hidden]] enemy, only towers with hidden detection can target it.
 
-Cash is only gained if an enemy is killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down.
+==Logbook Description==
+"''Fallen Souls were the spirits of those who died before the curse took hold. The Queen's sacrifice broke down the wall between life and death, pulling these souls back into the now-corrupted realm. They drift through battlefields, unable to rest or return to the kingdom they once knew. They are nearly invisible — most people only feel a cold breeze as they pass by.''"
 
-The health of enemies in this mode scales with the player count, starting at two players. The increase is 15% in duo, 25% in trio and 40% in quad. It is applied after attributes, like [[Bloated]], meaning they can affect the health of an enemy. The increase is not always the stated amount.
+==Appearance==
+The '''Fallen Soul''' has dark blue skin. It does not have a head, torso or legs, though it does have a brown skull and rib cage. It wears a grey helmet with blue spikes, grey cloth around its waist and has chains wrapped around its arms. It also had multiple blue spikes on its shoulders and grey gloves.
 
-You can activate the [[Hidden Wave]] by following these certain steps:
-*Every player has to disable [[Skills]] before starting the match.
-*After voting '''Fallen''' mode, sending separate messages that contain these numbers in the chat: "''120''", "''1''" and "''1009''". On the last number, the screen will flash and a noise will play.
-*The base health should be set to one before reaching to Wave 40.
-*Defeat the [[Fallen King]] under 60 seconds without using consumables on Wave 40. If done successfully instead of dropping its sword and vanishing in a beam of light, it will survive, but smashing the ground enraged and retreating with its sword.
-*After completing [[Hidden Wave]], the icon of '''Fallen''' mode on the difficulty select screen will change to the [[Awakened Fallen King]].
-
-==Rewards==
-''For former rewards, see this mode's [[Fallen Mode/Rewards|Rewards]] page.''
-
-The game calculates how many {{Coins|Coins}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. Some maps like [[Mason Arch]] can also increase all rewards by a specific amount. Regular {{Exp|}} boosts are multiplicative with other modifiers.
-
-Any rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.
-
-Rewards are calculated as:
-{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
-!Coins Reward
-!EXP Reward
-!Tower EXP Reward
-|-
-|{{Coins|700}} ÷ (1 + [(40 ÷ Current Wave) - 1]^2.4) + {{Coins|650}} (Triumph Bonus)
-|{{Exp|200}} ÷ (1 + [(40 ÷ Current Wave) - 1]^2) + {{Exp|50}} (Triumph Bonus)
-|{{TowerExp|85}} ÷ (1 + [(40 ÷ Current Wave) - 1]) + {{TowerExp|100}} (Triumph Bonus)
-|}
-
-Triumphing '''Fallen''' mode can give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. [[Beach Crate]], [[Scuba Ops Crate]] and [[Patriotic Crate]] are also part of this, though it is not known which rarity they are in. These items are:
-*{{Color|Common}} (47.39%)
-**{{TimeScaleTicket|Time Scale Ticket}} (2-4)
-**{{ReviveTicket|Revive Ticket}} (2-3)
-**{{SpinTicket|Spin Ticket}} (2-3)
-**[[Low Grade Crate]]
-**[[Barricade]] (2-4)
-**[[Supply Drop]] (2-4)
-**[[Easter Egg]] (2-4)
-*{{Color|Uncommon}} (28.44%)
-**[[Cooldown Flag]] (2-4)
-**[[Range Flag]] (2-4)
-**[[Damage Flag]] (2-4)
-**[[Mid Grade Crate]]
-**[[Ducky Squad]] (2-4)
-*{{Color|Rare}} (18.96%)
-**[[High Grade Crate]]
-**[[Napalm Strike]] (2-3)
-**[[Blizzard Bomb]] (2-3)
-*{{Color|Legendary}} (4.74%)
-**[[Nuke]]
-*{{Color|Common|Custom}} (0.47%)
-**[[Molten Monster (Consumable)|Molten Monster]]
-
-===Badges/Achievements===
-There are [[badges]] and achievements that you can or could obtain when playing this mode, which may have additional rewards alongside them. These are:
-
-{{Badge
-|title = Defeat the Fallen King
-|description = The leader of the army.
-|image = ErrorBusterNew.png
-|obtainable = Yes
-}}
-{{Badge
-|title = ???
-|image = HiddenBadge3.png
-|obtainable = Yes
-}}
-{{Badge
-|title = Usurper
-|description = Triumph in Fallen mode
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|500}}
-}}
-{{Badge
-|title = Sentinel
-|description = Complete a match of Fallen Mode on a Hard map(Solo)
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|1,000}} & 1x {{SpinTicket|Spin Ticket}}
-}}
-{{Badge
-|title = Ascended
-|description = Complete a match of Fallen Mode on a{{sic}} Insane map(Solo)
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|1,250}} & 2x {{SpinTicket|Spin Ticket}}
-}}
-{{Badge
-|title = Awakened (tH3 GL1tcH)
-|description = Complete the Fallen Hidden wave
-|image = Achievement
-|obtainable = Yes
-|rewards = {{Coins|2,000}}, {{Gem|150}} & 1x [[High Grade Crate]]
-}}
-{{Badge
-|title = Defeat Legacy Fallen King
-|description = The leader of the army.
-|rewards = {{Exp|250}}
-|image = FKBadge.png
-|obtainable = No
-}}
-{{Badge
-|title = Suspicious...
-|description = When the imposter is SUS! You have 1 minute...
-|rewards = {{Exp|150}}
-|image = AprilFoolsBadgeSus.png
-|obtainable = No
-}}
-{{Badge
-|title = Defeat Nuclear Fallen King
-|description = You took on the challenge and emerged victorious over the wastelands.
-|rewards = 1 [[Premium Crate|{{Color|Premium|Premium Crate}}]]
-|image = NFKBadge.png
-|obtainable = No
-}}
-{{Badge
-|title = Hidden Badge
-|description = ???
-|rewards = [[Glitchy Nametag]]
-|image = HiddenBadge2.png
-|obtainable = No
-}}
-{{Badge
-|title = Western Action
-|description = This town ain't big enough for the two of us pardner.. Triumph Badlands on Insane mode!
-|rewards = [[Cowboy]]
-|image = CBadge.png
-|obtainable = No
-}}
-
-===Seasons===
-During some [[Passes]], the '''Fallen''' mode could give currency rewards that you used to progress through a season. Rewards for all the seasons were calculated as:
-
-{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
-!Season
-!Rewards
-|-
-|[[End of Summer Season]]
-|{{Shells|250}} × (Waves/30)^1.75
-|-
-|[[Season of Love]]
-| {{LoveLetter|80}}<ref>Originally was {{LoveLetter|25}}</ref> × (Waves/30)^1.75
-|-
-|[[Solar Eclipse Event#Solar Eclipse Season|Solar Eclipse Season]]
-|{{SolarShard|35}} × (Waves/30)^1.75 
-|-
-|[[Frost Invasion Event#Frost Invasion Season|Frost Invasion Season]]
-|{{Shards|35}}<ref>Before 16th of May 2021, it was {{Shards|50}}.</ref> × (Waves/30)^1.75
-|-
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Battle Pass]]
-|{{Bell|14}}<ref>Before 18th of December 2024, the rewards were {{Bell|15}} per wave.</ref> per wave
-|-
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Battle Pass]]
-|{{DuckyEggs|13}} per wave
-|-
-|[[Surf & Turf Battle Pass]]
-|{{BeachBalls|13}} per wave
-|-
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Battle Pass]]
-|{{GumDrops|13}} per wave
-|-
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Battle Pass]]
-|{{PlushieSnowman|13}} per wave
-|-
-|[[Spring Frenzy Battle Pass]]
-|{{Bunz|13}} per wave
-|}
-
-==Enemies==
-{| class="empty-table pad-5 align-center" style="width:80%; margin:1em auto"
-|[[File:{{#choose:AbnormalFallen.png|AbnormalFallenAnim2.png}}|center|150px|link=Abnormal]]
-|[[File:QuickFallen.png|center|150px|link=Quick]]
-|[[File:FallenSkeletonEnemy.png|center|150px|link=Fallen Skeleton]]
-|[[File:FallenDreg.png|center|150px|link=Fallen Dreg]]
-|-
-|[[Abnormal]]<br/>Wave 1<br/>47 Total
-|[[Quick]]<br/>Wave 3<br/>20 Total
-|[[Fallen Skeleton]]<br/>Wave 5<br/>10+ Total<ref>Number is natural spawns. Number can be exceeded if spawned by the [[Fallen Necromancer]].</ref>
-|[[Fallen Dreg]]<br/>Wave 7<br/>28 Total
-|-
-|[[File:CorpseEnemy.png|center|150px|link=Corpse (Enemy)]]
-|[[File:{{#choose:FallenSquire.png|FallenSquireAnim2.png|FallenSquireAnim3.png}}|center|150px|link=Fallen_Squire]]
-|[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
-|[[File:BreakerFallen.png|center|150px|link=Breaker]]
-|-
-|[[Corpse (Enemy)|Corpse]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by killing enemies with the [[Corpse (Attribute)|Corpse]] attribute.</ref><br/>28 Total
-|[[Fallen Squire]]<br/>Wave 9<br/>22 Total
-|[[Breaker2]]<br/>Wave 10<br/>137 Total
-|[[Breaker]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by the [[Breaker2]].</ref><br/>137 Total
-|-
-|[[File:FallenSoulRework.png|center|150px|link=Fallen Soul]]
-|[[File:{{#choose:FallenEnemyRework.png|FallenAnim2.png}}|center|150px|link=Fallen]]
-|[[File:Fallen giant.png|center|150px|link=Fallen Giant]]
-|[[File:{{#choose:Fallen hazmat.png|FallenHazmatAnim2.png|FallenHazmatAnim3.png}}|center|150px|link=Fallen Hazmat]]
-|-
-|[[Fallen Soul]]<br/>Wave 12<br/>44 Total
-|[[Fallen]]<br/>Wave 14<br/>15 Total
-|[[Fallen Giant]]<br/>Wave 16<br/>37+ Total<ref name="fksummon">Number is natural spawns. Number can be exceeded if spawned by the [[Fallen King]].</ref>
-|[[Fallen Hazmat]]<br/>Wave 17<br/>48 Total
-|-
-|[[File:Possesed armor.png|center|150px|link=Possessed Armor]]
-|[[File:FallenNecromancer.png|center|150px|link=Fallen Necromancer]]
-|[[File:{{#choose:CorruptedFallenAnim2.png|CorruptedFallen.png}}|center|150px|link=Corrupted Fallen]]
-|[[File:FallenSeraph.png|center|150px|link=Fallen Seraph]]
-|-
-|[[Possessed Armor]]<br/>Wave 19<br/>48+ Total<ref name="fssummon">Number is natural spawns. Number can be exceeded if spawned by the [[Fallen King]] or [[Fallen Summoner]].</ref>
-|[[Fallen Necromancer]]<br/>Wave 20<br/>15 Total
-|[[Corrupted Fallen]]<br/>Wave 21<br/>48+ Total<ref name="fksummon"/>
-|[[Fallen Seraph]]<br/>Wave 22<br/>36 Total
-|-
-|[[File:FallenJester.png|center|150px|link=Fallen Jester]]
-|[[File:NecroticSkeleton.png|center|150px|link=Necrotic Skeleton]]
-|[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
-|[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
-|-
-|[[Fallen Jester]]<br/>Wave 25<br/>6 Total
-|[[Necrotic Skeleton]]<br/>Wave 26<br/>19+ Total<ref name="fssummon"/>
-|[[Breaker4]]<br/>Wave 26<br/>39 Total
-|[[Breaker3]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by the [[Breaker4]].</ref><br/>117 Total
-|-
-|[[File:Fallen rusher.png|center|150px|link=Fallen Rusher]]
-|[[File:FallenHeroRework.png|center|150px|link=Fallen Hero]]
-|[[File:FallenShield.png|center|150px|link=Fallen Shield]]
-|[[File:FallenSummoner.png|center|150px|link=Fallen Summoner]]
-|-
-|[[Fallen Rusher]]<br/>Wave 28<br/>43 Total
-|[[Fallen Hero]]<br/>Wave 29<br/>64+ Total<ref name="fksummon"/>
-|[[Fallen Shield]]<br/>Wave 30<br/>6 Total
-|[[Fallen Summoner]]<br/>Wave 30<br/>8 Total
-|-
-|[[File:FallenAngel.png|center|150px|link=Fallen Angel]]
-|[[File:FallenHonorGuard.png|center|150px|link=Fallen Honor Guard]]
-|[[File:FallenTank.png|center|150px|link=Fallen Tank]]
-|[[File:ModernFallenGuardian.png|center|150px|link=Fallen Guardian]]
-|-
-|[[Fallen Angel]]<br/>Wave 33<br/>12 Total
-|[[Fallen Honor Guard]]<br/>Wave 35<br/>1 Total
-|[[Fallen Tank]]<br/>Wave 36<br/>4 Total
-|[[Fallen Guardian]]<br/>Wave 38<br/>4 Total
-|-
-|[[File:FallenKingRework.png|center|150px|link=Fallen King]]
-|-
-|[[Fallen King]]<br/>Wave 40<br/>1 Total
-|}
-
-==Wave Structure==
-Currently, '''Fallen Mode''' has two wave bonuses, based on the current wave. Between waves 1 to 30, the wave bonus is calculated as:
-:<big>{{Money|300}} + ([Waves Completed - 1] × {{Money|60}})^1.03</big>
-Between waves 31 and 40, it is calculated as:
-:<big>{{Money|300}} + ([Waves Completed - 1] × {{Money|60}})^1.07</big>
-Depending on player count, the wave bonus is reduced using multipliers. These multipliers are:
-{| class="wikitable pad-10 align-center" style="width:50%; margin:1em auto"
-!Players
-!Reduction per Player
-!Total Reduction
-|-
-|Solo
-|0%
-|0%
-|-
-|Duo
-|16%
-|32%
-|-
-|Trio
-|13%
-|39%
-|-
-|Quad
-|10%
-|40%
-|}
-For example, on Wave 2, the wave bonus is {{Money|367.84155407}}, rounded down to {{Money|367}}. The full number is used in the equation. In duo, it is {{Money|250}} ({{Money|367.84155407}} × 0.68), in trio, it is {{Money|224}} ({{Money|367.84155407}} × 0.61), while in quad it is {{Money|220}} ({{Money|367.84155407}} × 0.6). The wave clear bonus appears when every enemy from that wave was killed and no damage was dealt to the base health. It is 40% of the wave bonus in solo, while for duo, trio and quad it is 20%.
-
-Before 2nd of August 2024, the formula for calculating wave bonus on each wave was:
-:<big>({{Money|205}} + (Waves Completed - 1) × {{Money|50}}) × (1 - 0.1 × Players)</big>
-The wave clear bonus appears when every enemy from that wave was killed. It is 35% of the wave bonus in solo, while for duo, trio and quad it is 20%.
-
-Before 23rd of May 2024, the formula for calculating wave bonus on each wave is:   
-:<big>({{Money|180}} + ({{Money|50}} ×  Waves Completed)) ÷ Players</big>
-Before the [[Overhaul v1.0|Overhaul Update]], it was calculated as:
-:<big>({{Money|40}} - 4 × (Players - 1)) × Waves Completed</big>
-
-The waves in '''Fallen''' mode follow these timings:
-{| class="wikitable pad-10 align-center" style="width:50%; margin:1em auto"
-!Waves
-!Wave Timer
-!Skip Time<ref>How long you have to wait before you can skip.</ref>
-|-
-|1-15
-|1:00
-|0:20<ref name="t40">Skip at 0:40.</ref>
-|-
-|16
-|1:20
-|0:26<ref name="t54">Skip at 0:54.</ref>
-|-
-|17
-|1:00
-|0:20<ref name="t40"/>
-|-
-|18-19
-|1:15
-|0:25<ref name="t50">Skip at 0:50.</ref>
-|-
-|20-22
-|1:00
-|0:20<ref name="t40"/>
-|-
-|23
-|1:15
-|0:25<ref name="t50"/>
-|-
-|24
-|1:00
-|0:20<ref name="t40"/>
-|-
-|25
-|1:10
-|0:23<ref>Skip at 0:47.</ref>
-|-
-|26
-|1:15
-|0:25<ref name="t50"/>
-|-
-|27-29
-|1:00
-|0:20<ref name="t40"/>
-|-
-|30-34
-|1:20
-|0:26<ref>Skip at 0:54.</ref>
-|-
-|35
-|0:20
-|0:06<ref>Skip at 0:14.</ref>
-|-
-|36
-|0:35
-|0:11<ref>Skip at 0:24.</ref>
-|-
-|37
-|0:40
-|0:13<ref>Skip at 0:27.</ref>
-|-
-|38
-|3:00
-|1:00<ref>Skip at 2:00.</ref>
-|-
-|39
-|2:00
-|0:40<ref>Skip at 1:20.</ref>
-|-
-|40
-|∞
-|N/A
-|}
-
-'''Bolded''' names indicates an enemy type's debut.
-
-The total of enemies in '''Fallen''' Mode excluding summoned enemies is 854 enemies.
-
-For former wave structures of '''Fallen''' mode, visit the [[Fallen Mode/Waves|Waves]] page.
-
-<div class="mw-collapsible mw-collapsed">
-<div class="sectionheader">'''Wave Structure'''</div>
-<div class="ContainerColumn mw-collapsible-content">
-{| class="wikitable pad-10" style="width:100%; text-align: center;"
-!Wave
-! colspan="2" |[[Commander (Narrator)|Commander]] Dialogue
-!Enemy Type & Amount
-|-
-| rowspan="2" |1
-| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
-|Commander, enemies have been detected in this area. Intel reports mention something called "The Fallen." I need you to secure the perimeter and report back what you find.<br/>[[File:FallenWave1-1.ogg|300px]]
-| rowspan="2" |5x '''[[Abnormal]]'''
-|-
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Yes Ma'am!<br/>[[File:FallenWave1-2.ogg|300px]]
-|-
-|2
-| colspan="2" | -
-|8x [[Abnormal]]
-|-
-| rowspan="2" |3
-| style="width:75px;" |[[File:REWCommanderScared.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Dispatcher, these aren't your normal enemies. It' like they're wearing some kind of ancient armor!!<br/>[[File:FallenWave3-1.ogg|300px]]
-| rowspan="2" |1x '''[[Quick]]''', 2x [[Abnormal]], 1x [[Quick]], 2x [[Abnormal]], 1x [[Quick]], 2x [[Abnormal]], 1x [[Quick]]
-|-
-| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
-|From what little we know, the Fallen are highly organized. Treat them as hostile and keep your distance until we know more.<br/>[[File:FallenWave3-2.ogg|300px]]
-|-
-|4
-| colspan="2" | -
-|8x [[Quick]], 8x [[Abnormal]]
-|-
-|5
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Look at that rust! I can only imagine how old these guys might be.<br/>[[File:FallenWave5-1.ogg|300px]]
-|3x '''[[Fallen Skeleton]]''', 5x [[Abnormal]], 5x [[Quick]]
-|-
-|6
-| colspan="2" | -
-|5x [[Fallen Skeleton]]
-|-
-| rowspan="2" |7
-| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
-|Watch out, Commander, those Dregs will leave a corpse behind if their flames go out.<br/>[[File:FallenWave7-1.ogg|300px]]
-| rowspan="2" |1x '''[[Fallen Dreg]]''', 9x [[Abnormal]] ([[Bloated]]), 3x [[Quick]] ([[Nimble]])
-|-
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Got it!<br/>[[File:FallenWave7-2.ogg|300px]]
-|-
-|8
-| colspan="2" | -
-|1x [[Fallen Dreg]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]]
-|-
-|9
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Agh! That Squire has aggro and is pulling our attention! We can't target anything else!<br/>[[File:FallenWave9-1.ogg|300px]]
-|1x '''[[Fallen Squire]]''' ([[Boss]], [[Aggro]]), 3x [[Abnormal]], 3x [[Abnormal]] ([[Bloated]]), 2x [[Fallen Skeleton]], 2x [[Fallen Skeleton]] ([[Bloated]])
-|-
-|10
-| colspan="2" | -
-|1x [[Fallen Dreg]], 1x '''[[Breaker2]]''', 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]], 1x [[Breaker2]], 2x [[Fallen Skeleton]], 1x [[Fallen Dreg]]
-|-
-| rowspan="2" |11
-|[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]
-|There's a lot of Hidden enemies ahead of you. Make sure none slip by.<br/>[[File:FallenWave11-1.ogg|300px]]
-| rowspan="2" |1x [[Fallen Squire]] ([[Aggro]]), 3x [[Fallen Dreg]], 3x [[Fallen Skeleton]], 3x [[Breaker2]]
-|-
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Already on it!<br/>[[File:FallenWave11-2.ogg|300px]]
-|-
-|12
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Man, I'm shivering! When did it get so cold?<br/>[[File:FallenWave12-1.ogg|300px]]
-|11x '''[[Fallen Soul]]'''
-|-
-|13
-| colspan="2" | -
-|5x [[Fallen Skeleton]], 2x [[Fallen Dreg]], 1x [[Fallen Dreg]] ([[Bloated]]), 1x [[Fallen Squire]] ([[Nimble]])
-|-
-|14
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|I can tell these guys are getting tougher. Keep your eyes open; we're not out of the woods yet.<br/>[[File:FallenWave14-1.ogg|300px]]
-|6x [[Breaker2]], 6x [[Fallen Soul]], 3x '''[[Fallen]]'''
-|-
-|15
-| colspan="2" | -
-|8x [[Fallen Skeleton]], 1x [[Fallen Squire]] ([[Aggro]]), 4x [[Breaker2]], 1x [[Fallen]], 1x [[Fallen Squire]] ([[Aggro]])
-|-
-| rowspan="3" |16
-| style="width:75px;" |[[File:REWCommanderScared.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|The ground is starting to shake! Tell me what's going on!<br/>[[File:FallenWave16-1.ogg|300px]]
-| rowspan="2" |5x [[Fallen Dreg]], 4x [[Fallen Soul]], 3x [[Fallen]], 2x [[Fallen Squire]], 1x '''[[Fallen Giant]]''' ([[Boss]])
-|-
-| style="width:75px;" |[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]
-|There's a Fallen Giant up ahead! They're sending in more units too!<br/>[[File:FallenWave16-2.ogg|300px]]
-|-
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Everyone hold your ground!<br/>[[File:FallenWave16-3.ogg|300px]]
-|-
-|17
-| colspan="2" | -
-|3x '''[[Fallen Hazmat]]''', 1x [[Fallen]], 3x [[Fallen Hazmat]], 1x [[Fallen]]
-|-
-|18
-| colspan="2" | -
-|1x [[Fallen Giant]], 7x [[Fallen Hazmat]]
-|-
-|19
-| colspan="2" | -
-|3x [[Fallen Squire]] ([[Nimble]]), 10x [[Fallen Dreg]], 4x [[Fallen]], 8x [[Fallen Soul]] ([[Bloated]]), 1x '''[[Possessed Armor]]'''
-|-
-| rowspan="2" |20
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|I'm seeing more Fallen Squires!<br/>[[File:FallenWave20-1.ogg|300px]]
-| rowspan="2" |6x [[Fallen]], 5x [[Fallen Hazmat]], 8x [[Fallen Skeleton]], 3x [[Fallen Squire]] ([[Aggro]]), 1x '''[[Fallen Necromancer]]''' ([[Freeze Immunity|Freeze Immune]], [[Nimble]])
-|-
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|This is looking too coordinated for a random attack.<br/>[[File:FallenWave20-2.ogg|300px]]
-|-
-|21
-| colspan="2" | -
-|1x '''[[Corrupted Fallen]]''', 5x [[Breaker2]], 3x [[Fallen Squire]], 8x [[Fallen Soul]], 2x [[Possessed Armor]], 1x [[Corrupted Fallen]]
-|-
-|22
-| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
-|Look up, Commander. There's Fallen Seraphs above you scouting out your position!<br/>[[File:FallenWave22-1.ogg|300px]]
-|3x [[Corrupted Fallen]], 2x [[Fallen Squire]] ([[Nimble]]), 1x [[Fallen Squire]] ([[Bloated]], [[Nimble]]), 5x '''[[Fallen Seraph]]'''
-|-
-|23
-| colspan="2" | -
-|1x [[Fallen Squire]] ([[Bloated]], [[Aggro]]), 5x [[Fallen Seraph]], 1x [[Fallen Squire]] ([[Bloated]], [[Aggro]]), 1x [[Fallen Necromancer]] ([[Nimble]]), 1x [[Fallen Squire]] ([[Bloated]], [[Aggro]]), 5x [[Fallen Hazmat]] ([[Nimble]])
-|-
-|24
-| colspan="2" | -
-|7x [[Fallen Soul]] ([[Bloated]]), 1x [[Possessed Armor]], 4x [[Fallen Hazmat]], 1x [[Possessed Armor]], 2x [[Corrupted Fallen]] ([[Hidden (Attribute)|Hidden]]), 1x [[Possessed Armor]]
-|-
-| rowspan="2" |25
-| style="width:75px;" |[[File:DispatcherThinking.gif|thumb|center|75px|[[Dispatcher]]]]
-|Commander, those Jesters aren't throwing normal presents. Each one strengthens the enemies around it!<br/>[[File:FallenWave25-1.ogg|300px]]
-| rowspan="2" |1x [[Possessed Armor]] ([[Aggro]]), 6x [[Fallen Hazmat]] ([[Nimble]]), 3x [[Corrupted Fallen]], 3x [[Fallen Giant]], 1x '''[[Fallen Jester]]''' ([[Boss]])
-|-
-|[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Take him out before you're overwhelmed!<br/>[[File:FallenWave25-2.ogg|300px]]<ref>This dialogue incorrectly used Commander appearance</ref>
-|-
-|26
-| colspan="2" | -
-|1x '''[[Necrotic Skeleton]]''' ([[Bloated]]), 2x [[Fallen Giant]], 1x [[Fallen Giant]] ([[Bloated]]), 8x '''[[Breaker4]]'''
-|-
-|27
-| colspan="2" | -
-|1x [[Fallen Giant]] ([[Bloated]]), 3x [[Necrotic Skeleton]], 3x [[Possessed Armor]], 8x [[Fallen Seraph]] ([[Bloated]]), 1x [[Fallen Necromancer]] ([[Bloated]], [[Nimble]])
-|-
-| rowspan="2" |28
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Get out of the way! They're running right at us!<br/>[[File:FallenWave28-1.ogg|300px]]
-| rowspan="2" |7x '''[[Fallen Rusher]]'''
-|-
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Maybe we can stop their charge if we break the shields!<br/>[[File:FallenWave28-2.ogg|300px]]
-|-
-|29
-| colspan="2" | -
-|1x [[Fallen Rusher]], 4x [[Corrupted Fallen]], 10x [[Breaker4]], 8x [[Fallen Hazmat]], 1x '''[[Fallen Hero]]''' ([[Bloated]]), 9x [[Fallen Seraph]]
-|-
-|30
-| style="width:75px;" |[[File:DispatcherSneaky.gif|thumb|center|75px|[[Dispatcher]]]]
-|Woah… I didn't think the Fallen could use war tactics. They have a Shield in front protecting a Summoner behind it. Just who are these guys?<br/>[[File:FallenWave30-1.ogg|300px]]
-|3x [[Fallen Rusher]], 5x [[Corrupted Fallen]], 4x [[Fallen Giant]], 1x [[Fallen Necromancer]] ([[Bloated]]), 1x '''[[Fallen Shield]]''' ([[Boss]]), 5x [[Necrotic Skeleton]], 1x '''[[Fallen Summoner]]'''
-|-
-|31
-| colspan="2" | -
-|2x [[Fallen Hero]], 1x [[Fallen Giant]] ([[Bloated]]), 2x [[Fallen Hero]], 1x [[Fallen Giant]] ([[Bloated]]), 2x [[Fallen Hero]], 1x [[Fallen Giant]] ([[Bloated]]), 7x [[Fallen Hazmat]] ([[Bloated]], [[Nimble]]), 3x [[Possessed Armor]], 4x [[Corrupted Fallen]], 2x [[Fallen Necromancer]] ([[Nimble]]), 1x [[Fallen Summoner]] ([[Nimble]])
-|-
-|32
-| colspan="2"  | -
-|1x [[Fallen Shield]] ([[Nimble]]), 5x [[Fallen Rusher]], 6x [[Breaker4]], 2x [[Fallen Jester]], 4x [[Fallen Hero]]
-|-
-| rowspan="2" |33
-| style="width:75px;" |[[File:REWCommanderObservant.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|What… are those? It looks like they're healing themselves.<br/>[[File:FallenWave33-1.ogg|300px]]
-| rowspan="2" |1x [[Necrotic Skeleton]] ([[Nimble]]), 7x [[Corrupted Fallen]], 3x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 3x [[Fallen Necromancer]] 9x [[Fallen Seraph]] ([[Nimble]]), 9x [[Fallen Seraph]] ([[Bloated]]), 1x '''[[Fallen Angel]]''' ([[Boss]], [[Bloated]])
-|-
-| style="width:75px;" |[[File:DispatcherThinking2.gif|thumb|center|75px|[[Dispatcher]]]]
-|Fallen Angels. They really make you wonder what else might be out there, huh?<br/>[[File:FallenWave33-2.ogg|300px]]
-|-
-|34
-| colspan="2" | -
-|1x [[Fallen Shield]] ([[Bloated]]), 1x [[Necrotic Skeleton]], 2x [[Fallen Hero]], 1x [[Fallen Hero]] ([[Bloated]]), 3x [[Fallen Rusher]], 1x [[Necrotic Skeleton]], 2x [[Fallen Hero]], 1x [[Fallen Hero]] ([[Bloated]]), 3x [[Fallen Rusher]], 1x [[Fallen Summoner]] ([[Bloated]], [[Nimble]])
-|-
-| rowspan="2" |35
-| style="width:75px;" |[[File:REWCommanderScared.gif|center|thumb|75px|[[Commander (Narrator)|Commander]]]]
-|Oh man, what is that thing?! It's even got reinforcements!<br/>[[File:FallenWave35-1.ogg|300px]]
-| rowspan="2" |1x [[Necrotic Skeleton]] ([[Bloated]], [[Nimble]]), 9x [[Breaker4]] ([[Bloated]], [[Nimble]]), 5x [[Fallen Hero]] ([[Bloated]]), 3x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 2x [[Fallen Necromancer]] ([[Nimble]]), 1x [[Fallen Necromancer]] ([[Nimble]], [[Bloated]]), 1x '''[[Fallen Honor Guard]]''' ([[Boss]])
-|-
-| style="width:75px;" |[[File:DispatcherSneaky.gif|center|thumb|75px|[[Dispatcher]]]]
-|According to V's notes, that's the Fallen's most honored. They leave a trail of magic behind them that speeds up any enemy that steps on it!<br/>[[File:FallenWave35-2.ogg|300px]]
-|-
-|36
-| colspan="2" | -
-|4x [[Fallen Giant]] ([[Aggro]]), 8x [[Corrupted Fallen]], 10x [[Fallen Hero]], 1x '''[[Fallen Tank]]'''
-|-
-|37
-| colspan="2" | -
-|10x [[Corrupted Fallen]] ([[Bloated]]), 4x [[Fallen Hero]], 1x [[Fallen Necromancer]] ([[Nimble]], [[Health Regen]]), 5x [[Possessed Armor]], 4x [[Fallen Hero]], 1x [[Fallen Necromancer]] ([[Nimble]], [[Health Regen]]), 5x [[Possessed Armor]], 4x [[Fallen Hero]], 1x [[Fallen Necromancer]] ([[Nimble]], [[Health Regen]]), 5x [[Possessed Armor]], 3x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 2x [[Fallen Angel]], 1x [[Fallen Angel]] ([[Bloated]]), 2x [[Fallen Summoner]] ([[Bloated]], [[Nimble]])
-|-
-| rowspan="2" |38
-|[[File:DispatcherAggressive.gif|center|thumb|75px|[[Dispatcher]]]]
-|If that Fallen Guardian is here, that could only mean the King is nearby. Commander, please be careful.<br/>[[File:FallenWave38-1.ogg|300px]]
-| rowspan="2" |1x [[Fallen Shield]] ([[Nimble]]), 3x [[Necrotic Skeleton]] ([[Nimble]]), 2x [[Possessed Armor]] ([[Bloated]]), 4x [[Possessed Armor]], 2x [[Possessed Armor]] ([[Bloated]]), 4x [[Possessed Armor]], 2x [[Possessed Armor]] ([[Bloated]]), 7x [[Fallen Rusher]], 5x [[Fallen Hero]], 3x [[Fallen Hero]] ([[Bloated]]), 5x [[Fallen Angel]], 1x '''[[Fallen Guardian]]''' ([[Nimble]]), 1x [[Fallen Tank]]
-|-
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|Don't worry. We don't plan on going down that easily.<br/>[[File:FallenWave38-2.ogg|300px]]
-|-
-|39
-| colspan="2" | -
-|1x [[Fallen Tank]], 6x [[Fallen Rusher]], 6x [[Breaker4]] ([[Nimble]]), 1x [[Fallen Shield]] ([[Bloated]]), 7x [[Fallen Hero]], 5x [[Fallen Giant]] ([[Bloated]], [[Nimble]]), 3x [[Fallen Jester]], 1x [[Fallen Guardian]], 1x [[Fallen Summoner]] ([[Nimble]])
-|-
-| rowspan="3" |40
-| style="width:75px;" |[[File:DispatcherAggressive.gif|thumb|center|75px|[[Dispatcher]]]]
-|There's the Fallen King!<br/>[[File:FallenWave40-1.ogg|300px]]
-| rowspan="3" |1x [[Fallen Shield]] ([[Bloated]], [[Nimble]]), 4x [[Fallen Rusher]], 3x [[Necrotic Skeleton]] ([[Bloated]], [[Nimble]]), 4x [[Fallen Rusher]], 1x [[Fallen Tank]], 6x [[Possessed Armor]], 5x [[Fallen Hero]], 3x [[Fallen Giant]] ([[Bloated]]), 3x [[Fallen Angel]], 1x [[Fallen Summoner]] ([[Bloated]], [[Nimble]]), 2x [[Fallen Guardian]], 1x '''[[Fallen King]]''', 1x [[Fallen Summoner]]
-|-
-|[[File:DispatcherAggressive.gif|center|thumb|75px|[[Dispatcher]]]]
-|He'll be calling in reinforcements! Watch yourself out there, Commander!<br/>[[File:FallenWave40-2.ogg|300px]]
-|-
-| style="width:75px;" |[[File:REWCommanderAggressive.gif|thumb|center|75px|[[Commander (Narrator)|Commander]]]]
-|This is our last stand! Lets give it everything we got!<br/>[[File:FallenWave40-3.ogg|300px]]
-|-
-! colspan="4" |Lose Dialogue
-|-
-| colspan="2" |[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
-| colspan="2" |One icon and dialogue is randomly chosen upon defeat:
-•We're toast!<br />•OOF!<br />•Mission Failed, we'll get em' next time.<br />•Not enough numbers!<br />•Mistakes are just part of the journey..<br />•We're overrun chief!<br />•We'll get them next time!<br />•Don't give up!<br />•We need back up sergeant!<br />•We just had our grave dug..<br />•We have to fall back soldier!<br />•Oops! Try again!<br />•The enemies got to the base!<br />•Strategy is key!
-|}
-</div>
-</div>
-
-==Soundtracks==
-{{Soundtrack|
-{{GalleryHeader|Wave 1-9, Wave 10-15 & Wave 16-22}}<br/>These soundtracks can be randomly chosen to play between these waves. Used to play between Waves 1-7, Waves 8-11 and Waves 12-15.
-<gallery>
-(Official) Tower Defense Simulator OST - Into The Void
-(Official) Tower Defense Simulator OST - Melancholy Hill
-(Official) Tower Defense Simulator OST - Rebelution
-(Official) Tower Defense Simulator OST - Rain Dance
-(Official) Tower Defense Simulator OST - The Horde
-</gallery>
-
-{{GalleryHeader|Wave 23-29}}<br/>These soundtracks can be randomly chosen to play between these waves. Used to play between Waves 16-23 and Waves 24-31.
-<gallery>
-(Official) Tower Defense Simulator OST - Shellshock|YouTube Upload
-Tower Defense Simulator OST - Shellshock In-Game|In-Game Version
-(Official) Tower Defense Simulator OST - Neuro Raze
-(Official) Tower Defense Simulator OST - Art Of War
-(Official) Tower Defense Simulator OST - Fill Them With Lead
-</gallery>
-
-{{GalleryHeader|Wave 30-34 & 35-39}}<br/>These soundtracks can be randomly chosen to play between these waves. Used to play between Waves 32-39.
-<gallery>
-(Official) Tower Defense Simulator OST - Catharsis
-(Official) Tower Defense Simulator OST - Desolate Dystopia
-(Official) Tower Defense Simulator OST - Portal To Hell
-</gallery>
-
-{{GalleryHeader|Final Wave}}<br/>These soundtracks are or were played on the final wave.
-<gallery>
-(Official) Tower Defense Simulator OST - Void Steps (Fallen King Theme)|Current (29 July 2022 – Present)
-(Official) Tower Defense Simulator OST - Fallen Boss|First version (13 October 2019 – 29 July 2022)
-</gallery>
-
-{{GalleryHeader|Wave 41}}<br/>This soundtrack plays on this wave.
-<gallery>
-(Official) Tower Defense Simulator OST - Eye Of The Swarm
-</gallery>
-
-{{GalleryHeader|Hidden Wave}}<br/>These soundtracks are or were played during the [[Hidden Wave]].
-<gallery>
-(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|Current, YouTube Upload (2 August 2024 – Present)
-Tower Defense Simulator OST - Equinox In-Game Version|Current, In-Game Version (2 August 2024 – Present)
-(Official) Tower Defense Simulator OST - Hidden Wave|First Version (25 November 2019 – 4 December 2021)
-Tower Defense Simulator OST - Hidden Wave Intro|First Version's Intro (25 November 2019 – 4 December 2021)
-</gallery>
-}}
+==Strategy==
+*Most early game towers gain hidden detection. Such towers are recommended to deal with early '''Fallen Souls'''.
+**Single target towers, like the [[Militant]], [[Golden Soldier]], [[Ace Pilot]] or [[Assassin]], can also clear out groups of '''Fallen Souls''', although they will require more cash to successfully eliminate them.
+**As '''Fallen Souls''' spawn in hordes, the [[Golden Pyromancer]] is particularly useful, being able to damage multiple enemies at once and having hidden detection by default.
+***The [[Pyromancer]] can also be useful against '''Fallen Souls''', although it costs more and does not have hidden detection at base level.
+**Though the [[Trapper]] cannot detect hidden enemies, its traps will still work against them. In particular, its landmines can be used to eliminate groups of '''Fallen Souls''' due to its high splash damage.
+*For splash damage towers that cannot target '''Fallen Souls''', such as the [[Mortar]], if a '''Fallen Soul''' is caught up in an explosion, they will take damage from the explosion range.
+**This means that another detectable enemy must be near the '''Fallen Soul''' for a splash damage tower to hit the '''Fallen Soul'''.
+**Similarly, the [[Tesla]] cannot target the '''Fallen Soul''', however, it can hit it if there are other detectable enemies nearby.
 
 ==Gallery==
-{{Gallery|Open = Yes|
-{{GalleryHeader|Icons}}
+{{Gallery|
+{{GalleryHeader|Animations}}
 <gallery>
-FallenHiddenWaveIcon.png|Current '''Fallen''' Mode Icon ([[Hidden Wave]])
-FallenModeIconRework.png|Current '''Fallen''' Mode Icon
-FallenModeIcon2.png|Version 5 '''Fallen''' Mode Icon
-FallenModeIcon.png|Version 4 '''Fallen''' Mode Icon
-NewFallenMode.png|Version 3 '''Fallen''' Mode Icon
-FallenMode.png|Version 2 '''Fallen''' Mode Icon
-04FE63A0-A40D-432A-A5B5-ACD0E51664FD.jpeg|Version 1 '''Insane''' Mode Icon
+FallenSoulFloat.gif|Floating animation (2 August 2024 – Present)
 </gallery>
 
-{{GalleryHeader|Medals}}
+{{GalleryHeader|Converted Variants}}
 <gallery>
-FallenHardcoreIcon.png|Current '''Fallen''' Mode Icon
-FallenMedal.png|Version 2 '''Fallen''' Mode Icon
-Platinum-Medal.png|Version 1 '''Insane''' Mode Icon
+DefHacker1FallenSoul.png|Green variant, current version (11 June 2025 – Present)
+</gallery>
+
+{{GalleryHeader|Corpse Variants}}
+<gallery>
+CorpseFallenSoul.png|Second [[Corpse (Enemy)|Corpse]] variant, current version (12 March 2025 – Present)
+</gallery>
+
+{{GalleryHeader|Promotional Videos}}
+<gallery>
+Gatling Gun Tower - Tower Defense Simulator|'''Fallen Soul''' on a promotional video.
+Swarmer Rework - Tower Defense Simulator|'''Fallen Soul''' on a promotional video.
+Tower Defense Simulator - "Prepare Your Defenses" Trailer|'''Fallen Soul''' on a promotional video.
+</gallery>
+
+{{GalleryHeader|Trailers}}
+<gallery>
+Valentines Skins - Tower Defense Simulator|'''Fallen Soul''' in the game trailer.
+Player VS Player Trailer - Tower Defense Simulator|'''Fallen Soul''' in the game trailer.
+PVP Trailer Gamespot - Tower Defense Simulator|'''Fallen Soul''' in the game trailer.
+</gallery>
+
+{{GalleryHeader|Miscellaneous}}
+<gallery>
+IndexFallenSoul.png|'''Fallen Soul''' on its [[Index]] icon.
 </gallery>
 }}
 
 ==Trivia==
-*The [[Hidden Wave (Legacy)|Legacy Hidden Wave]] could have been activated in '''Fallen''' mode by beating the game in 1,009 seconds (16:49) or under.
-*Originally, another theme was supposed to play in the late game waves of this mode,<ref>https://discord.com/channels/587355301083349002/892156782347161690/1340572588975460383 (Tower Defense Simulator Server)</ref> that being '''Duality'''. However, the loop audio was not accepted by Roblox as it was deemed too "''high pitched''".<ref>https://discord.com/channels/587355301083349002/587355301674614854/1277699028523548734 (Tower Defense Simulator Server)</ref> Only the intro got accepted.<ref>https://create.roblox.com/store/asset/18741907954</ref>
-**The only time the track was played was in the trailer for '''Fallen''' mode.
+*The model used by the '''Fallen Soul''' is a slightly modified model of the [[Korblox Soul (The Hunt)|Korblox Soul]].
 
 ==Update History==
 {{scroll|text =
-*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**'''Insane''' mode added.
-*'''14 October 2019''' - [[Release v1.0|Release v1.0.1]]
-**Shared cash of 50% added.
-*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
-**[[Hidden Wave (Legacy)|Hidden Wave]] added.
-**Wave structure changed.
-*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
-**Name changed from '''Insane''' mode to '''Fallen''' mode.
-**New icons.
-*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
-**Wave structure changed.
-**Shared cash decreased from 50% to 25%.
-*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
-**New medal icon.
-*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
-**Wave structure changed.
-*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**Wave structure changed.
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Wave structure changed.
-**Dialogue added.
-**Wave bonus formula changed.
-**{{Coins|Coins}} and {{Exp|}} rewards formula changed.
-**New medal icon.
-**New mode icon.
-**Final wave music now plays when the first [[Fallen Guardian (Legacy)|Fallen Guardian]] spawns instead of it playing at the beginning of the wave.
-*'''1 April 2021''' - [[Overhaul v1.2|Overhaul v1.2.0]]
-**Wave structure changed.
-*'''2 April 2021''' - [[Overhaul v1.2|Overhaul v1.2.0b]]
-**Wave structure changed.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**Wave structure changed.
-*'''4 December 2021''' - [[v1.0.0]]
-**[[Hidden Wave (Legacy)|Hidden Wave]] removed.
-*'''22 March 2022''' - [[v1.1.0]]e
-**{{Bug}} Final wave music no longer plays.
-*'''11 April 2022''' - [[v1.1.0]]k
-**{{Bugfix}} Final wave music now plays again.
-*'''17 April 2022''' - [[v1.2.0]]
-**Corrected "''approaching''" being spelt as "''approacing''" on Wave 1.
-*'''23 April 2022''' - [[v1.2.1]]
-**Corrected ''a'' being misspelt as ''an'' on Wave 13.
-*'''29 July 2022''' - [[v1.3.0]]
-**Final wave music changed from Fallen Boss to Void Steps.
-**Final wave music now plays at the beginning of the wave instead of it playing when the first [[Fallen Guardian (Legacy)|Fallen Guardian]] spawns.
-*'''9 June 2023''' - [[v1.8.0]]
-**In community maps, rewards now depend on difficulty. Easier maps have reduced rewards and harder maps have increased rewards. {{Color|Normal}} difficulty rewards are not changed.
-*'''28 October 2023''' - [[v1.9.0]]
-**{{Bug}} Shared cash does not work.
-*'''3 November 2023''' - [[v1.9.0]]j
-**{{Bugfix}} Shared cash now works.
-*'''18 May 2024''' - [[v1.22.0]]
-**Triumphing now has a chance to give one of these rewards:
-***[[Low Grade Crate]] with a 30% chance.
-***[[Mid Grade Crate]] with a 15% chance.
-***[[Currencies#Time Scale Tickets|Time Scale Tickets]] with a 15% chance.
-*'''23 May 2024''' - [[v1.23.0]]
-**Wave structure changed.
-**Starting cash changed.
-***Solo starting cash remains at {{Money|500}}.
-***Decreased from {{Money|500}} to {{Money|400}} in duo.
-***Decreased from {{Money|500}} to {{Money|350}} in trio.
-***Decreased from {{Money|500}} to {{Money|300}} in quad.
-**{{Coins|Coins}} and {{Exp|}} rewards formula changed.
-**Wave bonus formula changed.
-**Updated to the new mode system.
-**{{Bug}} Economy does not work.
-**{{Bug}} '''Fallen''' mode is prone to issues.
-**{{Bug}} Rewards are much lower than intended.
-**{{Bug}} [[Commander (Narrator)|Commander]]'s dialogue for Wave 13 does not appear.
-**{{Bug}} Rewards are unaffected by the difficulty based rewards on community maps.
-**{{Bug}} Consumable crate and {{TimeScaleTicket|Time Scale Ticket}} rewards can no longer be gotten.
-*'''23 May 2024''' - [[v1.23.0]]a
-**{{Bugfix}} Economy now works.
-*'''23 May 2024''' - [[v1.23.0|v1.23.1]]
-**{{Bugfix}} '''Fallen''' mode is no longer prone to errors.
-*'''27 May 2024''' - [[v1.23.0|v1.23.2]]
-**Starting cash increased.
-***Increased from {{Money|500}} to {{Money|600}} in solo.
-***Increased from {{Money|400}} to {{Money|500}} in duo.
-***Increased from {{Money|350}} to {{Money|450}} in trio.
-***Increased from {{Money|300}} to {{Money|400}} in quad.
-**{{Bugfix}} Rewards are now the intended amount.
-*'''27 May 2024''' - [[v1.23.0|v1.23.2a]]
-**Rewards now use the old equations.
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**Starting cash is now {{Money|500}} regardless of player count.
-*'''19 July 2024''' - [[v1.26.0]]
-**Triumph bonus reduced from {{Coins|100}} to {{Coins|50}}.
-**Bonus rewards for triumphing changed.
-***Now has a 50% to give one of these {{Color|Common}} items:
-****{{TimeScaleTicket|Time Scale Ticket}} (1-2)
-****{{ReviveTicket|Revive Ticket}} (1-2)
-****[[Grenade]] (1-3)
-****[[Flash Bang]] (1-3)
-****[[Molotov]] (1-3)
-***Now has a 30% chance to give one of these {{Color|Uncommon}} items:
-****[[Low Grade Crate]]
-****{{SpinTicket|Spin Ticket}}
-****[[Barricade]] (1-2)
-****[[Supply Drop]] (1-2)
-****[[AirStrike]] (1-2)
-***Now has a 15% chance to give one of these {{Color|Rare}} items:
-****[[Mid Grade Crate]]
-****[[Napalm Strike]]
-****[[Blizzard Bomb]]
-****[[UAV]]
-***Now has a 5% chance to give one of these {{Color|Legendary}} items:
-****[[High Grade Crate]]
-****[[Nuke]]
-**{{Bug}} {{SpinTicket|Spin Ticket}} and {{ReviveTicket|Revive Ticket}} triumph rewards are not always given out despite being shown on the triumph screen.
-**{{Bug}} Triumph rewards sometimes are not given out or shown in the triumph screen.
-**{{Bugfix}} Triumph rewards now work again.
 *'''2 August 2024''' - [[v1.27.0]]
-**Wave structure changed.
-**{{Coins|Coins}} and {{Exp|}} rewards formulas changed.
-**Wave bonus formula changed.
-**Triumph bonus increased from {{Coins|50}} to {{Coins|150}}.
-**Changed triumph rewards.
-***Rarity odds changed.
-****{{Color|Common}} chance reduced from 50% to 47.62%.
-****{{Color|Uncommon}} chance reduced from 30% to 28.57%.
-****{{Color|Rare}} chance increased from 15% to 19.05%.
-****{{Color|Legendary}} chance reduced from 5% to 4.76%.
-***[[Grenade]], [[Flash Bang]], [[Molotov]] and [[UAV]] removed from reward pool.
-***{{TimeScaleTicket|Time Scale Tickets}} increased from 1-2 to 2-4.
-***{{SpinTicket|Spin Tickets}} increased from 1-2 to 2-3.
-***{{SpinTicket|Spin Tickets}} are now {{Color|Common}} instead of {{Color|Uncommon}}.
-***{{ReviveTicket|Revive Tickets}} increased from 1-2 to 2-3.
-***[[Low Grade Crate]] is now {{Color|Common}} instead of {{Color|Uncommon}}.
-***[[Barricade]] increased from 1-2 to 2-4.
-***[[Barricade]] is now {{Color|Common}} instead of {{Color|Uncommon}}.
-***[[Supply Drop]] increased from 1-2 to 2-4.
-***[[Supply Drop]] is now {{Color|Common}} instead of {{Color|Uncommon}}.
-***[[Range Flag]], [[Cooldown Flag]] and [[Damage Flag]] added as a {{Color|Uncommon}} reward. Given out 2-4 times.
-***[[Mid Grade Crate]] is now {{Color|Uncommon}} instead of {{Color|Rare}}.
-***[[Napalm Strike]] increased from 1 to 2-3.
-***[[Blizzard Bomb]] increased from 1 to 2-3.
-***[[High Grade Crate]] is now {{Color|Rare}} instead of {{Color|Legendary}}.
-**Now uses the new income system.
-**Updated mode icon.
-**Ambient music added.
-**Added new mode icon that appears after triumphing [[Hidden Wave]].
-**[[Hidden Wave]] re-added.
-**Level requirement increased from {{Level|10}} to {{Level|30}}.
-**{{Bug}} Level requirement lock still only appears for players below {{Level|10}} in the [[Elevators]] mode vote, but players between {{Level|11}} and {{Level|29}} cannot vote on it, despite there being no lock.
-*'''6 August 2024''' - [[v1.27.0|v1.27.2]]
-**{{Bugfix}} {{SpinTicket|Spin Ticket}} and {{ReviveTicket|Revive Ticket}} triumph rewards are now given out.
-*'''9 August 2024''' - [[v1.27.5]]
-**Wave structure changed.
-**Wave bonus formula changed, increasing rewards by {{Coins|100}}.
-**Triumph bonus decreased from {{Coins|150}} to {{Coins|100}}.
-**Updated soundtracks to play on different waves.
-***First set of tracks now plays on Waves 1-9, 10-15 and 16-22.
-***Second set of tracks now plays on Waves 23-29.
-***Third set of tracks now plays on Waves 30-34 and 35-39.
-**Corrected ''business'' being misspelled as ''buisness'' on Wave 1, updated wording on Wave 1, changed wording on Wave 35, and corrected ''soldier'' being misspelled as ''solider'' alongside a few punctuation corrections on Wave 40.
-**Updated Wave 35 dialogue slightly.
-*'''21 August 2024''' - [[v1.28.0]]
-**{{Bug}} Triumph bonus is always granted, even when losing.
-*'''27 August 2024''' - [[v1.28.0|v1.28.7]]
-**{{Bugfix}} Triumph bonus is now only granted upon triumphing.
-*'''18 September 2024''' - [[v1.32.0]]
-**Moved Wave 16 dialogue to Wave 14 and Wave 33 dialogue to Wave 30 to match the wave debuts of enemies mentioned in these dialogues.
-*'''25 September 2024''' - [[v1.33.0]]
-**{{Coins|Coins}} and {{Exp|}} rewards increased.
-**{{Coins|Coins}} triumph bonus increased from {{Coins|100}} to {{Coins|150}}.
-**{{Exp|}} triumph bonus increased from {{Exp|25}} to {{Exp|50}}.
-*'''23 October 2024''' - [[v1.37.0]]
-**Updated bonus triumph rewards.
-***{{Color|Uncommon}} rewards now also include the [[Turkey Leg]] (1-3) and [[Pumpkin Bomb]] (1-2).
-***{{Color|Rare}} rewards now also include the [[Sugar Rush (Consumable)|Sugar Rush]] (1-2).
-*'''11 December 2024''' - [[v1.45.0]]
-**Wave structure updated.
-*'''16 December 2024''' - [[v1.46.0]]
-**{{Bug}} Icon no longer changes after [[Hidden Wave]] has been beaten.
-*'''26 December 2024''' - [[v1.47.0|v1.46.5]]
-**{{Bugfix}} Icon now changes after [[Hidden Wave]] has been beaten.
-*'''15 January 2025''' - [[v1.49.0]]
-**Updated bonus triumph rewards.
-***[[Turkey Leg]], [[Pumpkin Bomb]] and [[Sugar Rush (Consumable)|Sugar Rush]] removed from the reward pool.
-***{{Color|Common}} rewards now also include the [[Fruit Cake]] (2-4).
-***{{Color|Uncommon}} rewards now also include the [[Present Cluster Bomb]] (1-3).
-***{{Color|Rare}} rewards now also include the [[Festive Tree]] (1-3) and [[Santa's Air Strike]] (1-3).
-***{{Color|Common|Custom}} rarity added, which only gives a single [[Molten Monster (Consumable)|Molten Monster]] with a 0.47% chance, also making other rarities less common:
-****{{Color|Common}} chance reduced from 47.62% to 47.39%.
-****{{Color|Uncommon}} chance reduced from 28.57% to 28.44%.
-****{{Color|Rare}} chance reduced from 19.05% to 18.96%.
-****{{Color|Legendary}} chance reduced from 4.76% to 4.74%.
-*'''5 February 2025''' - [[v1.52.0]]
-**Increased health scaling.
-***5% in duo, previously none.
-***Increased from 10% to 20% in trio.
-***Increased from 20% to 30% in quad.
-*'''5 February 2025''' - [[v1.53.0]]
-**Reverted health scaling changes from the previous update.
-***Duo health scaling removed.
-***Decreased from 20% to 10% in trio.
-***Decreased from 30% to 20% in quad.
-*'''5 March 2025''' - [[v1.56.0]]
-**Removed all [[Operation I.C.E Event]] consumables except [[Molten Monster (Consumable)|Molten Monster]] from the reward pool.
-*'''12 March 2025''' - [[v1.57.0]]
-**Enemies now always give the same amount of cash on death or after receiving enough damage, regardless of how much damage the player deals, but the amount is split between players, meaning in solo, an enemy gives 100% of its cash, 50% in duo, 33% in trio and 25% in quad.
+**'''Fallen Soul''' added.
+*'''9 April 2025''' - [[v1.60.0]]
+**Now appears in High Rank [[PVP Test]].
+***Unlocked on Wave 9.
+***Can be sent out for {{Money|150}} in groups of 1-5.
+***Adds {{Money|12}} to economy.
+***Has a spawn timer of 0.8.
+*'''23 April 2025''' - [[v1.62.0]]
+**No longer appears in the [[PVP Test]] as it has been removed.
 *'''11 June 2025''' - [[v1.67.0]]
-**Wave structure updated.
+**First wave appearance changed from Wave 10 to Wave 13.
+**Health increased from 40 to 60 in [[Fallen Mode|Fallen]] mode.
+**Health increased from 40 to 75 in [[Sandbox Mode|Sandbox]] mode.
+**Cash given increased from {{Money|35}} to {{Money|100}} on death.
 *'''25 June 2025''' - [[v1.68.0]]
-**Wave structure updated.
-**Dialogue updated.
-*'''9 July 2025''' - [[v1.70.0]]
-**Updated bonus triumph rewards.
-***{{Color|Uncommon}} rewards now also include the [[Sandcastle (Consumable)|Sandcastle]] (1-3).
-***{{Color|Rare}} rewards now also include the [[Heatwave]] (2-3).
-*'''18 October 2025''' - [[v1.77.0]]
-**Updated bonus triumph rewards.
-***[[Sandcastle (Consumable)|Sandcastle]] and [[Heatwave]] removed from the reward pool.
-***{{Color|Common}} rewards now also include the [[Turkey Leg]] (2-4) and [[Pumpkin Bomb]] (2-4).
-***{{Color|Uncommon}} rewards now also include the [[Sugar Rush (Consumable)|Sugar Rush]] (2-3).
-***{{Color|Rare}} rewards now also include the [[Unholy Storm]] (2-3) and [[Necromancer's Tome (Consumable)|Necromancer's Tome]] (2-3).
-*'''20 December 2025''' - [[v1.83.0]]
-**Updated bonus triumph rewards.
-***[[Pumpkin Bomb]], [[Turkey Leg]], [[Sugar Rush (Consumable)|Sugar Rush]], [[Unholy Storm]] and [[Necromancer's Tome (Consumable)|Necromancer's Tome]] removed from the reward pool.
-***{{Color|Common}} rewards now also include the [[Present Cluster Bomb]] (2-4) and [[Fruit Cake]] (2-4).
-***{{Color|Uncommon}} rewards now also include the [[Santa's Air Strike]] (2-2) and [[Festive Tree]] (2-4).
+**Health increased from 60 to 80 in [[Fallen Mode|Fallen]] mode.
+*'''23 July 2025''' - [[v1.71.0]]
+**Now appears in Fallen Arena [[PVP]], carrying over most of its [[PVP Test]] statistics.
+***Health increased from 40 to 60.
+***Number sent decreased from 1-5 to 1.
+***Economy bonus decreased from {{Money|12}} to {{Money|10}}.
+***Spawn timer increased from 0.8 to 1.5.
 *'''28 January 2026''' - [[v1.84.0]]
-**Wave structure updated.
-**Health scaling changed.
-***Duo now has 15% health scaling.
-***Trio health scaling increased from 10% to 25%.
-***Quad health scaling increased from 20% to 40%.
-**Dialogue changed.
+**First wave appearance changed from 13 to 12 in [[Fallen Mode|Fallen]] mode.
+**Health increased from 80 to 150 in [[Fallen Mode|Fallen]] mode.
+**Defense of 20% added.
+**Cash given increased from {{Money|100}} to {{Money|180}} on death in [[Fallen Mode|Fallen]] mode.
 *'''11 February 2026''' - [[v1.85.0]]
-**Dialogue changed.
-*'''3 April 2026''' - [[v1.88.0]]
-**Updated bonus triumph rewards.
-***[[Present Cluster Bomb]], [[Fruit Cake]], [[Festive Tree]] and [[Santa's Air Strike]] removed from the reward pool.
-***{{Color|Common}} rewards now also include the [[Easter Egg]] (2-4).
-***{{Color|Uncommon}} rewards now also include the [[Ducky Squad]] (2-4).
-*'''5 June 2026''' - [[v2.0.0]]
-**Now gives tower experience, with a {{TowerExp|85}} base reward and an {{TowerExp|100}} triumph bonus.
-**All skip timers are now one third of the wave duration.
-**Voiceline dialogues added.
-***{{Bug}} Audio does not play in-game.
-**{{Bug}} Wave 25 second dialogue incorrectly uses [[Commander (Narrator)|Commander]] instead of [[Dispatcher]].
-*'''8 June 2026''' - [[v2.0.0|v2.0.6a]]
-**{{Bugfix}} Voiceline dialogues now play correctly.
-*'''17 July 2026''' - [[v2.3.0]]
-**Estimated match time increased from 18:00 to 25:00.
-**Updated reward equations.
-***Base coins reward decreased from {{Coins|850}} to {{Coins|700}}.
-***Triumph bonus increased from {{Coins|150}} to {{Coins|650}}.
-***Coins exponential value increased from 1.3 to 2.4.
-***Exp exponential value increased from 1 to 2.
+**[[Logbooks|Logbook]] description added.
 }}
 
-==Notes==
-<references/>
+
+{{Fallen|[[Breaker2]]|Wave 10|Fallen Soul|Wave 12|[[Fallen]]|Wave 14}}
+{{HighRank|[[Fallen Squire]]|Wave 7|Fallen Soul|Wave 9|[[Fallen Hazmat]]|Wave 11}}
 
 
-{{ModeNavBox}}
+
+{{ZombieNavBox}}
+{{DISPLAYTITLE:Fallen Soul}}
+[[Category:Early-Game]]
