@@ -1,116 +1,664 @@
-{{EnemyTabs}}
-{{For|[[Lead Balloon]] or [[Balloon Kid]]}}
-{{ZombieLegacy
-|modern_image = <tabber>
-|-|With Balloon = [[File:VoidBalloonFloat.png]]
-|-|Without Balloon = [[File:VoidBalloonWalk.png]]
-</tabber>
-|legacy_image = <tabber>
-|-|With Balloon = [[File:Balloon0.png]]
-|-|Without Balloon = [[File:BalloonwithoutBalloon.png]]
-</tabber>
-|mode_appearance = [[Hardcore Mode|{{Color|HardcoreMode}}]]<br/>[[Voidcore Mode|{{Color|VoidcoreMode|Voidcore}}]]
-|first_wave_appearance = 12 (Hardcore)<br/>11 (Voidcore)
-|base_hp = [[File:HealthIcon.png|20px|Health]]40 (Hardcore)<br/>[[File:HealthIcon.png|20px|Health]]50 (Voidcore & Sandbox)
-|shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]40 (Hardcore)<br/>[[File:ShieldHealth.png|20px|Shield Health]]50 (Voidcore & Sandbox)
-|speed = [[File:SpeedIcon.png|20px|Speed]]Fast (6, With Balloon)<br/>[[File:SpeedIcon.png|20px|Speed]]Above Average (4, Without Balloon)
-|cash = {{Money|30}} on death (Hardcore)<br/>{{Money|25}} on death (Voidcore)
-|spawned_by = [[Mystery]]
-|hidden = No
-|fly = {{Attr|Fly|Yes}} (With Balloon)<br/>No (Without Balloon)
-|ghost = No
-|lead = No
-|immunity = {{Attr|Blessed}} (Variable)<br/>{{Attr|Nimble}} (Variable)
-|legacy_base_hp = [[File:HealthIcon.png|20px|Health]]15
-|legacy_shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]10
-|legacy_speed = [[File:SpeedIcon.png|20px|Speed]]Slightly Fast (5, With Balloon)<br/>[[File:SpeedIcon.png|20px|Speed]]Average (3.25, Without Balloon)
-|legacy_hidden = No
-|legacy_fly = {{Attr|Fly|Yes}} (With Balloon)<br/>No (Without Balloon)
-|legacy_ghost = No
-|legacy_lead = No
-|legacy_immunity = None
+{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}
+{{For|other uses of [[Gold (Disambiguation)|Gold]]}}
+{{TowerInfobox
+|title = {{Color|Golden|Golden Cowboy}}
+|image-static = WDGoldenCowboyIcon.png
+|image-dynamic = GoldenCowboyDynamic.png
+|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)
+|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])
+|basecost = {{Money|600}}
+|basesellingprice = {{Money|200}}
+|role = Offense
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12
+|basedamage = [[File:Damage Icon.png|20px|Damage]]3
+|damagetype = Single
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9
+|baserange = [[File:Range Icon.png|20px|Range]]13
+|baseincome = {{Money|35}}
+|hidden_detection = {{Attr|Hidden|Level 3+}}
+|lead_detection = N/A
+|flying_detection = N/A
+|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)
+|footprint = 1.25
+|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|I want them out of the sky! Shoot them down!|audio = HardcoreWave12-1.ogg|[[Commander (Narrator)|Commander]] dialogue on Wave 12 ([[Hardcore Mode|Hardcore]])}}
+{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}
+|-|Version 2 =
+{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}
 |-|Version 1 =
-{{QuoteBox|They're floating now?!?<br/>Cliff units, attack!!!|[[Commander (Narrator)|Commander]] dialogue on Wave 12 (Formerly, [[Hardcore Mode|Hardcore]])}}
-|-|April Fools 2022 =
-{{QuoteBox|They'we fwoating now?!?<br/>Cwiff units, attack!!! (☉ㅅ☉U)|[[Commander (Narrator)|Commander]] dialogue on Wave 12 ([[April Fools 2022#Narration|April Fools 2022 Hardcore]])}}
+{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}
 </tabber>}}
 __TOC__
 ==Description==
-The '''Balloon''' is an [[Enemies|enemy]] which only appears in [[Hardcore Mode|Hardcore]] and [[Voidcore Mode|Voidcore]] modes. It has a balloon tied to its back which makes it fly, making it immune to collision damage, as well as making it undetectable by some towers and units. The balloon on its back pops when the '''Balloon''' loses all of its [[Shield Health]], making the enemy vulnerable to collisions and ground towers. Its speed is also reduced by diving its speed by 1.5.
+The '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.
 
-The '''Balloon''' can be spawned by the [[Grave Digger (Legacy)|Grave Digger]] in [[Hardcore Mode|Hardcore]] mode. The '''Balloon''' can also be spawned from the [[Mystery]] upon its death in [[Hardcore Mode|Hardcore]] mode.
+While initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. 
 
-==Logbook Description==
-"''It’s not entirely clear why they are tied to the balloon. Perhaps it was a cruel joke by the Mandrakes, but the Balloon is left stranded regardless. The Void army is organized for what its needs are and, as it turns out, the Balloons are incredibly useful in battle. At first the Void Caster simply stared at the hundreds bumping against one another in the Vault, but then praised the little bush Mandrakes for their ingenuity.''"
+The '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.
 
-==Appearance==
-{{Tabber
-|Modern
-|The '''Balloon''' has grey with a purple torso and legs. On its arms and head, it has purple veins. It flies in the air thanks to a balloon that is strapped to its back with rope. Once it loses all of its [[Shield Health]], the balloon pops and it will drop down to the ground.
-|Legacy
-|The legacy '''Balloon''' has light red skin, a brown torso and legs, and is faceless. It has one red balloon tied to its back. When it loses its shield health, the balloon pops and the '''Balloon''' walks along the path like any other regular [[Enemies|enemy]].
-}}
+In comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.
+
+The '''Golden Cowboy''' has a placement limit of twelve per player.
+
+==Upgrades==
+{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
+
+
+Sell Price changes to {{Money|266}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]
+
+
+Sell Price changes to {{Money|483}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
+
++7 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
+1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
+
+
+Sell Price changes to {{Money|1,283}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2.5 Range [[File:Range Icon.png|20px|Range]]
+
+{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]
+
+6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]
+
+
+Sell Price changes to {{Money|2,700}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]
+
+1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
+
+
+Sell Price changes to {{Money|5,950}}}}
+
+==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+{{neow|<nowiki>
+<var>
+$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))
+$CE$ = Total Cost / DPS
+$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))
+$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)
+$TP$ = $FNC-TOTAL-COST$
+$COST$ = 600; 200; 650; 2400; 4250; 9750
+$FSE-DETECTION$ = 3; ;
+$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West
+$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990
+$FSE-META$ = Golden Perks; File:WDGoldenCowboyIcon.png
+$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
+$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
+$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>
+$R$ = $FNC-RECURSION$
+</var>
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$
+|-
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|-
+| 1 || $R$ || $R$ || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|-
+| 2 || $R$ || $R$ || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|-
+| 3 || $R$ || $R$ || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|-
+| 4 || $R$ || $R$ || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|-
+| 5 || $R$ || $R$ || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|}
+</div>
+</nowiki>}}
+
+==Skins==
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:WDDefaultCowboyIcon.png|175px]]
+|[[File:WDPumpkinCowboyIcon.png|175px]]
+|[[File:WDRedemptionCowboyIcon.png|175px]]
+|[[File:WDBanditCowboyIcon.png|175px]]
+|-
+!Skin
+|Default
+|{{Color|Halloween2019|Pumpkin}}
+|{{Color|Premium|Redemption}}
+|{{Color|Premium|Bandit}}
+|-
+!Rarity
+|{{Color|Common}}
+|{{Color|Event}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|5,000}}
+|{{Robux|120}}
+|{{Robux|120}}
+|-
+!Obtained From
+|Owning [[Cowboy]]
+|[[Halloween Crate]]<br/>[[Pumpkin Crate]]<br/>[[Halloween 2019 Crate]]
+|[[Premium Crate]]
+|[[Premium Crate]]
+|-
+!
+|[[File:NewKasodusCowboyIcon.png|175px]]
+|[[File:WDValentinesCowboyIcon.png|175px]]
+|[[File:CopCowboyIcon.png|175px]]
+|[[File:NoirCowboyIcon.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Kasodus}}
+|{{Color|Lovely|Valentines}}
+|{{Color|Premium|Cop}}
+|{{Color|Deluxe|Noir}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|{{Robux|360}}
+|{{Robux|105}}
+|{{Coins|5,500}}
+|{{Robux|85}}
+|-
+!Obtained From
+|[[Premium Crate]]<br/>[[Codes|Code]]:<br/>DOUBLEBLOXIES<ref>Expired</ref>
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
+|[[Premium Crate]]
+|[[Deluxe Crate]]
+|-
+!
+|[[File:CyberpunkCowboy.png|175px]]
+|[[File:RetiredCowboyIcon.png|175px]]
+|[[File:BadlandsCowboyIcon.png|175px]]
+|[[File:AgentCowboyIcon.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Cyberpunk}}
+|{{Color|Deluxe|Retired}}
+|{{Color|Other|Badlands}}
+|{{Color|Premium|Agent}}
+|-
+!Rarity 
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Exclusive}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Robux|560}}
+|{{Robux|560}}
+|N/A 
+|{{Robux|190}}
+|-
+! Obtained From
+|[[Deluxe Crate]]
+|[[Deluxe Crate]]
+|[[Badges|Quickdraw! Badge]]<ref>Triumph [[Badlands II]] in under 16 minutes.</ref>
+|[[Premium Crate]]<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
+|-
+!
+|[[File:HolidayCowboyIcon.png|175px]]
+|[[File:DuckyCowboyIcon.png|175px]]
+|[[File:BountyHunterCowboyIcon.png|175px]]
+|[[File:MasqCowboyIcon.png|175px]]
+|-
+!Skin
+|{{Color|Jolly|Holiday}}
+|{{Color|Ducky|Ducky}}
+|{{Color|Deluxe|Bounty Hunter}}
+|{{Color|Lunar|Masquerade}}
+|-
+!Rarity
+|{{Color|Event}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|{{Coins|5,000}}
+|{{Coins|4,000}}
+|{{Robux|560}}
+|N/A
+|-
+! Obtained From
+|[[Jolly Crate]]<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Ducky Crate]]
+|[[Deluxe Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|-
+!
+|[[File:FallenCowboyIconIG.png|175px]]
+|[[File:PlushieCowboyIconIG.png|175px]]
+|[[File:MegalodonCowboy.png|175px]]
+|[[File:DarkFrostCowboyIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FallenMission|Fallen}}
+|{{Color|Other|Plushie}}
+|{{Color|ContentCreator|MegaBit}}
+|{{Color|OperationICE|Dark Frost}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|{{Coins|3,000}}
+|N/A
+|-
+!Obtained From
+|''Condemned Vigilante'' [[Mission Quests|Mission Quest]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Cowboy Plush]].</ref>
+|[[Daily Store]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
+|-
+!
+|[[File:SpringTimeCowboyIconIG.png|175px]]
+|[[File:MechaBunnyCowboyIconIG.png|175px]]
+|[[File:VampireHunterCowboyIconIG.png|175px]]
+|[[File:ShamrockCowboyIconIG.png|175px]]
+|-
+!Skin
+|{{Color|DuckyRevenge|Spring Time}}
+|{{Color|Other|Mecha Bunny}}
+|{{Color|Null|Vampire Hunter}}
+|{{Color|Shamrock|Shamrock}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Code obtained by purchasing a [[Mecha Bunny + Nerd Ducky Mini Plush]].</ref>
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
+|[[Shamrock Crate]]
+|-
+!
+|[[File:PatrioticCowboyIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Patriotic}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|-
+!Obtained From
+|[[Patriotic Crate]]
+|}
 
 ==Strategy==
-*Cheap towers with flying detection like the [[Engineer]], [[Crook Boss]] or [[Ace Pilot]] can be used to take the '''Balloon''' down with relative ease. However, it is still recommended to continue investing in flying detection due to the denser quantities of '''Balloons''' that spawn later on.
-*Once it loses its [[Shield Health]], the '''Balloon''' can be dealt with extremely easily, as it no longer has the [[Flying]] attribute.
+*The '''Golden Cowboy''' is a great all-round tower, being able to handle earlier waves and later waves on most gamemodes.
+**Early on during the game, you may want to place down multiple Level 0 '''Golden Cowboys''' because of their low price.
+***Due to its low placement limit of 12, it is unable to deal with the later waves on its own in terms of DPS, though its money generation can still be effective in the later waves.
+*The '''Golden Cowboy''' generates a specified amount of money every sixth shot from Levels 0-3 and every twelfth shot at Levels 4-5.
+**Later on during the game, higher level '''Golden Cowboys''' will be able to earn lots of money from enemies, being on par with the [[Farm]], and even outperforming it.
+**If you want to use this tower for farming early on, multiple Level 2 '''Golden Cowboys''' can be quite effective at generating money.
+***The amount of cash earned can be increased even further with the [[Commander]] and [[Cooldown Flag]] [[Firerate Buff]].
+***Enemies summoned by other enemies or sent by players do not count for cash shot.
+****Any enemy that the game does not consider a summoned enemy can still be generated cash from. This includes actually summoned enemies that the game does not consider summoned, like the [[Slime]] from the [[Slime (Attribute)|Slime]], or enemies converted in a way that makes them look like a summoned enemy, such as [[Corpse (Attribute)|Corpses]].
+***Additionally, you can increase the money earned by the '''Golden Cowboy''' by placing it near the start of the path, ensuring that no other towers can damage enemies before the '''Golden Cowboy'''.
+***While the '''Golden Cowboy''' cannot damage lead enemies, like the [[Lead]], shots towards these enemies will contribute to the '''Golden Cowboy's''' cash shot.
+*The [[DJ Booth]] can be very useful at decreasing the '''Golden Cowboy's''' high upgrade costs.
+**It can also be useful for further increasing its high range.
 
-==Gallery==
-{{Gallery|
-{{GalleryHeader|Corpse Variants}}
-<gallery>
-CorpseBalloon.png|[[Corpse (Enemy)|Corpse]] variant, current version (12 March 2025 – Present)
-</gallery>
-
-{{GalleryHeader|Concept Art}}
-<gallery>
-BalloonCA.png|'''Balloon''' on its concept art.
-</gallery>
-
-{{GalleryHeader|Miscellaneous}}
-<gallery>
-ModernBalloonIconIG.png|'''Balloon''' on its [[Index]] icon.
-IndexBalloon.png|Legacy '''Balloon''' on its [[Index]] icon.
-</gallery>
-}}
-
-==Trivia==
-*The '''Balloon''' could be based on the [[w:c:plantsvszombies:Balloon Zombie|Balloon Zombie]] from ''Plants vs. Zombies''.
-**The '''Balloon''' could also be based on the [[w:c:Bloons:Bloon|Bloons]] from the ''Bloons Tower Defense'' series.
-*The modern '''Balloon''' is unaffected by enemy appearance [[modifiers]], such as [[Talk Like a Pirate Day]].
+== Trivia==
+*The two former descriptions for the '''Golden Cowboy''' are incorrect, as the '''Golden Cowboy''' generates money every sixth or twelfth shot, instead of fifth or eighth.
+**This is because the description is referring to previous versions of the normal [[Cowboy]], though these are outdated even for it.
+*The Level 5 upgrade name, ''Wildest Of The West'', is a reference to the [[Cowboy]]'s old ability, ''Wildest of The West'' which it gained at Level 5 before the [[Overhaul v1.0|Overhaul Update]].
+*The '''Golden Cowboy''' is the first golden perk to give a tower a placement limit.
 
 ==Update History==
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**'''Balloon''' added.
-*'''10 May 2024''' - [[v1.21.0]]
-**{{Bug}} '''Balloon''' no longer falls to the ground upon losing its balloons.
-**{{Bug}} '''Balloon's''' balloons no longer pop when all of its shield health is lost.
-*'''18 May 2024''' - [[v1.22.0]]
-**{{Bugfix}} '''Balloon''' now falls to the ground upon losing its balloons.
-**{{Bugfix}} '''Balloon's''' balloons now pop when all of its shield health is lost.
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{scroll|text =
+*'''13 May 2022''' - [[v1.2.2]]
+**'''Golden Cowboy''' added, replacing the {{Color|Golden}} [[Cowboy]] skin buffs.
+*'''30 September 2022''' - [[v1.4.0]]
+**No longer gives a random amount of cash, now gives a set amount of cash.
+**Amount of cash generated no longer increases with each wave, now increases with Levels.
+**Now shows the amount of shots needed for it to generate cash.
+**Now spins its guns when generating cash, which prevents it from attacking.
+**{{Color|Other|Kasodus}} skin now has rarity.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 4 to 3.
+****Range decreased from 14 to 13.
+****Firerate decreased from 1.525 to 1.025.
+****Spin Time of 1.7 added.
+****Now generates {{Money|35}} cash instead of a random amount which increases with each wave.
+***'''Level 1'''
+****Cost increased from {{Money|250}} to {{Money|300}}.
+****Firerate changed from {{Tooltip|1.525 > 1.325|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
+****Renamed from ''Quick Shot'' to ''Steady Hand''.
+***'''Level 2'''
+****Cost increased from {{Money|300}} to {{Money|400}}.
+****Damage increased from +0 to +2.
+****Range increased from +0 to +3.
+****Cash shot changed from 6 > 4 to 6.
+****Income now changes from {{Money|35}} > {{Money|65}}.
+****Renamed from ''Gold Shot'' to ''Lucky Shot''.
+***'''Level 3'''
+****Damage increased from +4 to +7.
+****Range increased from +2 to +4.
+****Firerate changed from {{Tooltip|1.325 > 1.025|-0.3}} to {{Tooltip|0.825 > 0.625|-0.2}}.
+****Spin Time now changes from 1.7 > 1.3.
+****Renamed from ''Dualling Instincts'' to ''Faster Instincts''.
+***'''Level 4'''
+****Damage decreased from +7 to +3.
+****Firerate changed from {{Tooltip|1.025 > 0.575|-0.45}} to {{Tooltip|0.625 > 0.375|-0.25}}.
+****Income now changes from {{Money|65}} > {{Money|90}}.
+***'''Level 5'''
+****Cost increased from {{Money|11,500}} to {{Money|12,000}}.
+****Damage increased from +10 to +15.
+****Firerate changed from {{Tooltip|0.575 > 0.425|-0.15}} to 0.375.
+****Income now changes from {{Money|90}} > {{Money|120}}.
+****Spin Time now changes from 1.3 > 1.
+****Renamed from ''Gunslinger of Death'' to ''Outlawed''.
+**New skins: {{Color|Premium|Cop}}, {{Color|Philips|Agent}}, {{Color|Deluxe|Noir}}, {{Color|Deluxe|Cyberpunk}}, {{Color|Deluxe|Retired}}, {{Color|Other|Badlands}}
+*'''4 October 2022''' - [[v1.4.0]]b
+**Statistical changes:
+***'''Level 3'''
+****Cost increased from {{Money|1,750}} to {{Money|2,150}}.
+*'''31 October 2022''' - [[v1.4.2]]
+**Statistical changes:
+***'''Level 2'''
+****Cost increased from {{Money|400}} to {{Money|450}}.
+***'''Level 3'''
+****Cost increased from {{Money|2,150}} to {{Money|2,250}}.
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to all skins.
+**{{Color|Premium|Bandit}} skin rarity changed from {{Color|Uncommon}} to {{Color|Rare}}.
+**{{Color|Premium|Redemption}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
+**{{Color|Premium|Kasodus}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''14 February 2023''' - [[v1.6.2]]
+**{{Color|Lovely|Valentines}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
+*'''7 April 2023''' - [[v1.7.0]]
+**You can now see '''Golden Cowboy's''' cash shot when you hover your cursor over it.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 3 to 2.
+****Firerate decreased from 1.025 to 0.725.
+****Range decreased from 13 to 12.
+****Income decreased from {{Money|35}} to {{Money|25}}.
+***'''Level 1'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to 0.725.
+****Cost decreased from {{Money|300}} to {{Money|250}}.
+***'''Level 2'''
+****Range decreased from +3 to +2.
+****Firerate changed from 0.825 to {{Tooltip|0.725 > 0.625|-0.1}}.
+****Damage decreased from +2 to +1.
+****Income changed from {{Money|35}} > {{Money|65}} to {{Money|25}} > {{Money|40}}.
+****Cost increased from {{Money|450}} to {{Money|500}}.
+***'''Level 3'''
+****Damage decreased from +7 to +6.
+****Firerate changed from {{Tooltip|0.825 > 0.625|-0.2}} to {{Tooltip|0.625 > 0.525|-0.1}}.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|0.625 > 0.375|-0.25}} to {{Tooltip|0.525 > 0.3|-0.225}}.
+****Damage decreased from +3 to +2.
+****Cash shot changed from 6 to 6 > 12.
+****Income changed from {{Money|65}} > {{Money|90}} to {{Money|40}} > {{Money|65}}.
+****Cost increased from {{Money|5,500}} to {{Money|6,650}}.
+***'''Level 5'''
+****Damage decreased from +15 to +8.
+****Income changed from {{Money|90}} > {{Money|120}} to {{Money|65}} > {{Money|100}}.
+****Renamed from ''Outlawed'' to ''Gold Rush''.
+*'''12 May 2023''' - [[v1.7.3]]
+**New skin: {{Color|Ducky|Ducky}}
+*'''5 August 2023''' - [[v1.8.4]]
+**Statistical changes:
+***'''Level 1'''
+****Name changed from ''Steady Hand'' to ''Headshot Practice''.
+***'''Level 2'''
+****Income changed from {{Money|25}} > {{Money|40}} to {{Money|25}} > {{Money|45}}.
+****Name changed from ''Lucky Shot'' to ''Gold Shot''.
+***'''Level 4'''
+****Income changed from {{Money|40}} > {{Money|65}} to {{Money|45}} > {{Money|115}}.
+***'''Level 5'''
+****Income changed from {{Money|65}} > {{Money|100}} to {{Money|115}} > {{Money|160}}.
+****Name changed from ''Gold Rush'' to ''Wildest Of The West''.
+*'''28 October 2023''' - [[v1.9.0]]
+**New skins: {{Color|Deluxe|Bounty Hunter}}, {{Color|Lunar|Masquerade}}
+*'''5 April 2024''' - [[v1.18.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|700}} to {{Money|600}}.
+****Damage increased from 2 to 3.
+****Firerate increased from 0.725 to 1.025.
+****Spin Time increased from 1.7 to 1.75.
+****Range increased from 12 to 14.
+****Income increased from {{Money|25}} to {{Money|30}}.
+****Placement limit of 12 added.
+***'''Level 1'''
+****Cost decreased from {{Money|250}} to {{Money|225}}.
+****Damage decreased from +1 to +0.
+****Firerate changed from 0.708 to {{Tooltip|1.025 > 0.725|-0.3}}
+****Spin Time changed from 1.7 to 1.75 > 1.35.
+***'''Level 2'''
+****Firerate changed from {{Tooltip|0.725 > 0.625|-0.1}} to 0.725.
+****Range decreased from +2 to +0.
+****Income changed from {{Money|25}} > {{Money|45}} to {{Money|30}} > {{Money|50}}.
+***'''Level 3'''
+****Cost decreased from {{Money|2,250}} to {{Money|2,000}}.
+****Damage increased from +6 to +8.
+****Firerate changed from {{Tooltip|0.625 > 0.525|-0.1}} to 0.725.
+****Spin time changed from 1.7 > 1.3 to 1.35 > 1.
+***'''Level 4'''
+****Cost decreased from {{Money|6,650}} to {{Money|5,850}}.
+****Damage decreased from +2 to +0.
+****Income changed from {{Money|45}} > {{Money|115}} to {{Money|50}} > {{Money|150}}.
+****Firerate changed from {{Tooltip|0.525 > 0.3|-0.225}} to {{Tooltip|0.725 > 0.325|-0.4}}.
+****Renamed from ''Double Tap'' to ''Double Tap II''.
+***'''Level 5'''
+****Cost increased from {{Money|12,000}} to {{Money|17,500}}.
+****Damage increased from +8 to +12.
+****Range increased from +0 to +2.
+****Firerate changed from 0.3 to {{Tooltip|0.325 > 0.225|-0.1}}.
+****Income changed from {{Money|115}} > {{Money|160}} to {{Money|150}} > {{Money|250}}.
+****Spin time changed from 1.3 > 1 to 1 > 0.75.
+*'''23 May 2024''' - [[v1.23.0]]
+**Damage dealt to summoned enemies no longer counts for cash shot.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''9 August 2024''' - [[v1.27.5]]
+**New skin: {{Color|FallenMission|Fallen}}
+*'''4 September 2024''' - [[v1.30.0]]
+**New skin: {{Color|Other|Plushie}}
+*'''11 September 2024''' - [[v1.31.0]]
+**New skin: {{Color|ContentCreator|Megalodon}}
 *'''16 December 2024''' - [[v1.46.0]]
-**{{Bug}} Uses the animation without the balloon in the [[Index]] while also still wearing its balloon.
+**New skin: {{Color|OperationICE|Dark Frost}}
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Spring Time}}
+**{{Bug}} {{Color|DuckyRevenge|Spring Time}} at Level 5 will break if placed in range of a [[Firework Technician]] after it generates a firework, it will stop dealing damage and once the targeted enemies get out of its range, it will stop attacking enemies entirely.
+*'''18 April 2025''' - [[v1.61.0|v1.61.6a]]
+**New skin: {{Color|Other|Mecha Bunny}}
+*'''11 June 2025''' - [[v1.67.0]]
+**Placement limit decreased from 12 to 10.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 3 to 4.
+****Spin time decreased from 1.75 to 1.5.
+****Income increased from {{Money|30}} to {{Money|35}}
+***'''Level 1'''
+****Cost decreased from {{Money|225}} to {{Money|150}}.
+****Firerate changed from {{Tooltip|1.025 > 0.725|-0.3}} to {{Tooltip|1.025 > 0.775|-0.25}}
+****Range decreased from +2 to +0.
+****Spin time changed from 1.75 > 1.35 to 1.5 > 1.25.
+***'''Level 2'''
+****Cost increased from {{Money|500}} to {{Money|600}}.
+****Damage increased from +1 to +2.
+****Range increased from +0 to +2.
+****Income changed from {{Money|30}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
+***'''Level 3'''
+****Cost decreased from {{Money|2,000}} to {{Money|1,750}}.
+****Damage decreased from +8 to +4.
+****Firerate changed from 0.725 to {{Tooltip|0.775 > 0.525|-0.25}}.
+****Spin time changed from 1.35 > 1 to 1.25 > 1.
+***'''Level 4'''
+****Cost decreased from {{Money|5,850}} to {{Money|4,750}}.
+****Firerate changed from {{Tooltip|0.725 > 0.325|-0.4}} to {{Tooltip|0.525 > 0.275|-0.25}}.
+****Range increased from +0 to +2.
+****Income changed from {{Money|50}} > {{Money|150}} to {{Money|60}} > {{Money|150}}.
+***'''Level 5'''
+****Cost decreased from {{Money|17,500}} to {{Money|9,500}}.
+****Damage increased from +12 to +14.
+****Range decreased from +2 to +0.
+****Firerate changed from {{Tooltip|0.325 > 0.225|-0.1}} to 0.275.
+****Income changed from {{Money|150}} > {{Money|250}} to {{Money|150}} > {{Money|225}}.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Vampire Hunter}}
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit decreased from 10 to 6.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 4 to 2.
+****Firerate decreased from 1.025 to 0.375.
+****Range increased from 14 to 15.
+****Income decreased from {{Money|35}} to {{Money|20}}.
+****Spin time increasaed from 1.5 to 1.75.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|0.375 > 0.325|-0.05}}.
+****Range increased from +0 to +2.
+****Spin time changed from 1.5 > 1.25 to 1.75 > 1.25.
+***'''Level 2'''
+****Cost increased from {{Money|600}} to {{Money|1,000}}.
+****Range decreased from +2 to +0.
+****Hidden detection added, moved from Level 3.
+****Income changed from {{Money|35}} > {{Money|60}} to {{Money|20}} > {{Money|40}}.
+***'''Level 3'''
+****Cost increased from {{Money|1,750}} to {{Money|4,500}}.
+****Damage increased from +4 to +11.
+****Firerate changed from {{Tooltip|0.775 > 0.525|-0.25}} to {{Tooltip|0.325 > 0.425|+0.1}}.
+****Income changed from {{Money|60}} to {{Money|40}} > {{Money|75}}.
+***'''Level 4'''
+****Cost increased from {{Money|4,750}} to {{Money|7,500}}.
+****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.425 > 0.225|-0.2}}.
+****Range decreased from +2 to +0.
+****Income changed from {{Money|60}} > {{Money|150}} to {{Money|75}} > {{Money|150}}.
+***'''Level 5'''
+****Cost increased from {{Money|9,500}} to {{Money|15,000}}
+****Damage increased from +14 to +15.
+****Range increased from +0 to +2.
+**{{Color|ContentCreator|Megalodon}} renamed to {{Color|ContentCreator|MegaBit}}.
+***{{Bug}} Still uses the previous name on mobile.
+*'''11 February 2026''' - [[v1.85.0]]
+**Placement footprint decreased from 1.5 to 1.25.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|600}} to {{Money|550}}.
+****Income increased from {{Money|20}} to {{Money|25}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,000}} to {{Money|900}}.
+****Income changed from {{Money|20}} > {{Money|40}} to {{Money|25}} > {{Money|50}}.
+***'''Level 3'''
+****Cost decreased from {{Money|4,500}} to {{Money|3,500}}.
+****Firerate changed from {{Tooltip|0.325 > 0.425|+0.1}} to {{Tooltip|0.325 > 0.525|+0.2}}.
+****Income changed from {{Money|40}} > {{Money|75}} to {{Money|50}} > {{Money|85}}.
+***'''Level 4'''
+****Cost decreased from {{Money|7,500}} to {{Money|5,500}}.
+****Firerate changed from {{Tooltip|0.425 > 0.225|-0.2}} to {{Tooltip|0.525 > 0.275|-0.25}}.
+****Range increased from +0 to +2.
+****Income changed from {{Money|75}} > {{Money|150}} to {{Money|85}} > {{Money|175}}.
+***'''Level 5'''
+****Cost increased from {{Money|15,000}} to {{Money|17,000}}
+****Damage increased from +15 to +20.
+****Range decreased from +2 to +0.
+****Income changed from {{Money|150}} > {{Money|225}} to {{Money|175}} > {{Money|325}}.
+*'''11 March 2026''' - [[v1.86.0]]
+**New skin: {{Color|Shamrock|Shamrock}}
 *'''5 June 2026''' - [[v2.0.0]]
-**Modern version added.
-***Appearance changed.
-***Has 40 health in [[Hardcore Mode|Hardcore]] mode.
-***Has 50 health in [[Voidcore Mode|Voidcore]] mode.
-***Has 40 [[Shield Health]] in [[Hardcore Mode|Hardcore]] mode.
-***Has 50 [[Shield Health]] in [[Voidcore Mode|Voidcore]] mode.
-***Has a speed of 6.
-***Now gives {{Money|30}} on death in [[Hardcore Mode|Hardcore]] mode.
-***Now gives {{Money|25}} on death in [[Voidcore Mode|Voidcore]] mode.
-**[[Logbooks|Logbook]] description added.
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Placement limit increased from 6 to 12.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|550}} to {{Money|600}}.
+****Damage increased from 2 to 3.
+****Firerate increased for 0.375 to 0.9.
+****Range decreased from 15 to 13.
+****Income increased from {{Money|25}} to {{Money|35}}.
+****Spin time increased from 1.75 to 2.
+***'''Level 1'''
+****Cost decreased from {{Money|225}} to {{Money|200}}.
+****Firerate increased for {{Tooltip|0.375 > 0.325|-0.05}} to {{Tooltip|0.9 > 0.75|-0.15}}.
+****Spin time changed from 1.75 > 1.25 to 2 > 1.5.
+***'''Level 2'''
+****Cost decreased from {{Money|900}} to {{Money|650}}.
+****Income changed from {{Money|25}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
+****Hidden detection removed, moved to Level 3.
+***'''Level 3'''
+****Cost decreased from {{Money|3,500}} to {{Money|2,400}}.
+****Damage decreased from +11 to +7.
+****Firerate changed from {{Tooltip|0.325 > 0.525|+0.2}} to {{Tooltip|0.75 > 0.6|-0.15}}.
+****Range increased from +2 to +2.5.
+****Income changed from {{Money|50}} > {{Money|85}} to {{Money|60}}.
+****Spin time changed from 1.25 > 1 to 1.5 > 1.25.
+****Hidden detection added.
+****Name changed from ''Faster Instincts'' to ''Deadly Precision''.
+***'''Level 4'''
+****Cost increased from {{Money|5,500}} to {{Money|4,250}}.
+****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.6 > 0.3|-0.3}}.
+****Range increased from +2 to +2.5.
+****Income changed from {{Money|85}} > {{Money|175}} to {{Money|60}} > {{Money|150}}.
+***'''Level 5'''
+****Cost decreased from {{Money|17,000}} to {{Money|9,750}}.
+****Damage decreased from +20 to +14.
+****Income changed from {{Money|175}} > {{Money|325}} to {{Money|150}} > {{Money|225}}.
+****Spin time changed from 1 to 1.25 > 1.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Patriotic}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Corrected incorrect spin time values at Level 5 in the upgrade descriptions.
+}}
+
+==Notes==
+<references />
 
 
-{{Hardcore|[[Phantom]]|Wave 10|Balloon|Wave 12|[[Lead]]|Wave 14}}
-{{Voidcore|[[Phantom]]|Wave 10|Balloon|Wave 11|[[Lead]]|Wave 13}}
-
-
-
-{{ZombieNavBox}}
-[[Category:Early-Game]]
+{{TowerNavBox}}
+[[Category:Ground]]

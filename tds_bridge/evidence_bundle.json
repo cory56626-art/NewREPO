@@ -1,14 +1,14 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Balloon",
-    "title": "Balloon",
-    "pageid": 16348,
-    "latest_revid": 614825,
-    "latest_timestamp": "2026-08-15T21:49:35Z",
-    "source_url": "https://tds.fandom.com/wiki/Balloon",
+    "requested": "Golden Cowboy",
+    "title": "Golden Cowboy",
+    "pageid": 30799,
+    "latest_revid": 618523,
+    "latest_timestamp": "2026-08-18T21:25:37Z",
+    "source_url": "https://tds.fandom.com/wiki/Golden_Cowboy",
     "classification": {
-      "is_tower_page": false,
+      "is_tower_page": true,
       "reason": "template/category heuristic"
     },
     "source_priority": {
@@ -22,119 +22,119 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Balloon",
-    "alias_used": null,
-    "target": "Balloon",
-    "canonical_title": "Balloon",
-    "pageid": 16348,
+    "input": "Golden Cowboy",
+    "alias_used": "Golden Cowboy",
+    "target": "Golden Cowboy",
+    "canonical_title": "Golden Cowboy",
+    "pageid": 30799,
     "redirects": [],
-    "selection_method": "exact_or_redirect"
+    "selection_method": "known_alias"
   },
   "revision_history": [
     {
-      "revid": 614825,
-      "parentid": 614197,
-      "timestamp": "2026-08-15T21:49:35Z",
-      "user": "VisibleKnot",
+      "revid": 618523,
+      "parentid": 610153,
+      "timestamp": "2026-08-18T21:25:37Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 29622,
+      "sha1": "3971630157446f59e0a626f2940c0ddecd3ead69"
+    },
+    {
+      "revid": 610153,
+      "parentid": 579509,
+      "timestamp": "2026-08-12T20:04:53Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 29593,
+      "sha1": "01293d0a75057433a6fee1fc2d047bd6d83e01ff"
+    },
+    {
+      "revid": 579509,
+      "parentid": 578623,
+      "timestamp": "2026-07-29T03:09:55Z",
+      "user": "IFeelSoSubjective!",
       "comment": "",
-      "size": 6606,
-      "sha1": "c05d8dc86ce86a87eeb8123c2e6a9dc732433030"
+      "size": 29568,
+      "sha1": "f8a4dcba007b1f319e01f759b3b46f1a8bbb2a30"
     },
     {
-      "revid": 614197,
-      "parentid": 582620,
-      "timestamp": "2026-08-15T14:27:03Z",
-      "user": "Frost Catgang",
-      "comment": "/* Trivia */",
-      "size": 6711,
-      "sha1": "d629b9ae166374a587d93b3879c643e2005b79da"
-    },
-    {
-      "revid": 582620,
-      "parentid": 574071,
-      "timestamp": "2026-07-30T16:08:02Z",
-      "user": "Breathix",
-      "comment": "",
-      "size": 6595,
-      "sha1": "55186f0d30a219aee93d126d19b0ed9f471b1fd5"
-    },
-    {
-      "revid": 574071,
-      "parentid": 573167,
-      "timestamp": "2026-07-26T11:45:35Z",
+      "revid": 578623,
+      "parentid": 551788,
+      "timestamp": "2026-07-28T17:01:56Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 6581,
-      "sha1": "b2746c4d4fa8c57ce11d318c261b7b657efb81eb"
+      "size": 29568,
+      "sha1": "a82947633891f206057939ba7379cac59595df77"
     },
     {
-      "revid": 573167,
-      "parentid": 518221,
-      "timestamp": "2026-07-26T00:27:42Z",
-      "user": "FurnitureEnthusiastAstral",
-      "comment": "please, detail your strategy sections.",
-      "size": 6577,
-      "sha1": "712ad03d913826694b5fc9a483048377165805aa"
+      "revid": 551788,
+      "parentid": 545354,
+      "timestamp": "2026-07-13T16:49:16Z",
+      "user": "Fiprandom",
+      "comment": "lvl 2's range stays at 15, it's not 17.5",
+      "size": 29456,
+      "sha1": "0b06bff61ef83886aaa3c9ccb0e9568f60f7f542"
     },
     {
-      "revid": 518221,
-      "parentid": 515714,
-      "timestamp": "2026-06-27T17:24:41Z",
-      "user": "Goderator",
+      "revid": 545354,
+      "parentid": 545353,
+      "timestamp": "2026-07-10T13:19:19Z",
+      "user": "Mentin123",
       "comment": "",
-      "size": 6173,
-      "sha1": "84d31cb1c411f4a1277978a3b23af62fe1e9a5aa"
+      "size": 29458,
+      "sha1": "8555cd0e9715fce0abd531aa63dffc683a3ebccd"
     },
     {
-      "revid": 515714,
-      "parentid": 515626,
-      "timestamp": "2026-06-26T13:49:39Z",
-      "user": "Breathix",
+      "revid": 545353,
+      "parentid": 540057,
+      "timestamp": "2026-07-10T13:17:19Z",
+      "user": "Mentin123",
       "comment": "",
-      "size": 5953,
-      "sha1": "c91c81d8016b73336df472968b2083cad1eb0183"
+      "size": 29387,
+      "sha1": "0b20b6bcb4f8958732bc2dbecd4ff72189e65022"
     },
     {
-      "revid": 515626,
-      "parentid": 515625,
-      "timestamp": "2026-06-26T13:32:54Z",
-      "user": "Breathix",
+      "revid": 540057,
+      "parentid": 539799,
+      "timestamp": "2026-07-07T22:44:59Z",
+      "user": "Gabonnie",
       "comment": "[IPE-NEXT] Quick edit",
-      "size": 5949,
-      "sha1": "cd8768d7a78caee8ce9cb18a2d3a9a31d62e4c77"
+      "size": 29213,
+      "sha1": "ed5634b7d5f76268b11679b801d335f715a25c85"
     },
     {
-      "revid": 515625,
-      "parentid": 515624,
-      "timestamp": "2026-06-26T13:32:13Z",
-      "user": "Breathix",
-      "comment": "[IPE-NEXT] Quick edit",
-      "size": 5948,
-      "sha1": "c109d841c4eded45cd23037f0c91cc86e9a2df0a"
+      "revid": 539799,
+      "parentid": 537065,
+      "timestamp": "2026-07-07T22:03:21Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Statistics */ migrate fnc to fse, replaced: $FNC-UPGRADEICON → $FSE-UPGRADEICON, $FNC-UPGRADE → $FSE-UPGRADE, $FNC-DETECTION → $FSE-DETECTION",
+      "size": 29183,
+      "sha1": "8c6a627778acaa3b7e91d4d99c3c93b4a95cf7b7"
     },
     {
-      "revid": 515624,
-      "parentid": 514160,
-      "timestamp": "2026-06-26T13:31:59Z",
-      "user": "Breathix",
-      "comment": "[IPE-NEXT] Quick edit",
-      "size": 5952,
-      "sha1": "610f9324dea4038109e96949cccc23715be9ce16"
+      "revid": 537065,
+      "parentid": 533760,
+      "timestamp": "2026-07-06T17:14:21Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Statistics */ rename, replaced: Stats Table → Statistics",
+      "size": 29183,
+      "sha1": "cbb92dbe48f199bcc98c2b6f69481bd47e1efdb9"
     }
   ],
   "revision_diff": {
-    "fromrevid": 614197,
-    "torevid": 614825,
-    "fromtitle": "Balloon",
-    "totitle": "Balloon",
-    "fromuser": "Frost Catgang",
-    "touser": "VisibleKnot",
-    "fromcomment": "/* Trivia */",
-    "tocomment": "",
-    "diff_text": "Line 57: Line 57: ==Strategy== ==Strategy== * Affordable towers with flying detection like the [[Engineer]], [[Crook Boss]] or [[Ace Pilot]] can be used to take them down with relative ease. Although, after their debut wave , it is still best to continue investing in flying detection for a fair bit due to the denser quantities of them that spawn in later waves . * Cheap towers with flying detection like the [[Engineer]], [[Crook Boss]] or [[Ace Pilot]] can be used to take the '''Balloon''' down with relative ease. However , it is still recommended to continue investing in flying detection due to the denser quantities of '''Balloons''' that spawn later on . *Once they lose their [[Shield Health]], ''' Balloons ''' are practically already dead, and can even serve as a boon for explosive towers without flying detection, particularly the [[ Golden Demoman ]] and [[Rocketeer]] . *Once it loses its [[Shield Health]], the ''' Balloon ''' can be dealt with extremely easily, as it no longer has the [[ Flying ]] attribute . ==Gallery== ==Gallery== Line 79: Line 79: }} }} == Trivia == ==Trivia== ⚫ *The '''Balloon''' could be based on the [[w:c:plantsvszombies:Balloon Zombie|Balloon Zombie]] from ''Plants vs. Zombies''. ⚫ * The modern '''Balloon''' is unaffected by enemy appearance [[modifiers]], such as [[Talk Like a Pirate Day]]. ⚫ * The '''Balloon''' could be based on the [[w:c:plantsvszombies:Balloon Zombie|Balloon Zombie]] from ''Plants vs. Zombies''. **The '''Balloon''' could also be based on the [[w:c:Bloons:Bloon|Bloons]] from the ''Bloons Tower Defense'' series. **The '''Balloon''' could also be based on the [[w:c:Bloons:Bloon|Bloons]] from the ''Bloons Tower Defense'' series. ⚫ *The modern '''Balloon''' is unaffected by enemy appearance [[modifiers]], such as [[Talk Like a Pirate Day]]. ==Update History== ==Update History=="
+    "fromrevid": 610153,
+    "torevid": 618523,
+    "fromtitle": "Golden Cowboy",
+    "totitle": "Golden Cowboy",
+    "fromuser": "DarkGabonnie",
+    "touser": "DarkGabonnie",
+    "fromcomment": "Approved by t7ru (380694434980954114) via /job",
+    "tocomment": "Approved by t7ru (380694434980954114) via /job",
+    "diff_text": "Line 96: Line 96: <var> <var> $DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--))) $DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--))) $CE$ = Total Price / DPS $CE$ = Total Cost / DPS $IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--))) $IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--))) $IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage) $IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage) $TP$ = $FNC- TOTALPRICE $ $TP$ = $FNC- TOTAL-COST $ $ FNC- COST$ = 600; 200; 650; 2400; 4250; 9750 $COST$ = 600; 200; 650; 2400; 4250; 9750 $FSE-DETECTION$ = 3; ; $FSE-DETECTION$ = 3; ; $FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West $FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West Line 108: Line 108: $IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref> $IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref> $IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref> $IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref> $R$ = $FNC-RECURSION$ </var> </var> <div class=\"overflow-box\"> <div class=\"overflow-box\"> {| class=\"wikitable stats-table\" {| class=\"wikitable stats-table\" ! Level !! Total Price !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$ ! Level !! Cost !! Total Cost !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$ |- |- | 0 || {{Money|$TP$}} || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}} $R$ || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 1 || {{Money |$ TP $ }} || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 1 || $R$ | | $ R $ || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 2 || {{Money |$ TP $ }} || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 2 || $R$ | | $ R $ || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 3 || {{Money |$ TP $ }} || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 3 || $R$ | | $ R $ || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 4 || {{Money |$ TP $ }} || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 4 || $R$ | | $ R $ || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |- |- | 5 || {{Money| $ TP $ }} || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} | 5 || $ R $ || $R$ || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}} |} |} </div> </div>"
   },
   "classification": {
-    "is_tower_page": false,
+    "is_tower_page": true,
     "reason": "template/category heuristic"
   },
   "structured_stats": {
@@ -146,23 +146,389 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Balloon''' is an [[Enemies|enemy]] which only appears in [[Hardcore Mode|Hardcore]] and [[Voidcore Mode|Voidcore]] modes. It has a balloon tied to its back which makes it fly, making it immune to collision damage, as well as making it undetectable by some towers and units. The balloon on its back pops when the '''Balloon''' loses all of its [[Shield Health]], making the enemy vulnerable to collisions and ground towers. Its speed is also reduced by diving its speed by 1.5.\n\nThe '''Balloon''' can be spawned by the [[Grave Digger (Legacy)|Grave Digger]] in [[Hardcore Mode|Hardcore]] mode. The '''Balloon''' can also be spawned from the [[Mystery]] upon its death in [[Hardcore Mode|Hardcore]] mode.",
+    "description": "The '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.\n\nWhile initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. \n\nThe '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.\n\nIn comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.\n\nThe '''Golden Cowboy''' has a placement limit of twelve per player.",
     "upgrade_modes": {
-      "regular": [],
+      "regular": [
+        {
+          "mode": "unknown",
+          "level": 1,
+          "title": "Headshot Practice",
+          "cost": "{{Money|200}}",
+          "information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}",
+          "claims": [
+            {
+              "kind": "set",
+              "from": "0.9",
+              "to": "0.75",
+              "stat": "Firerate",
+              "text": "0.9 > 0.75 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
+            },
+            {
+              "kind": "set",
+              "from": "2",
+              "to": "1.5",
+              "stat": "Spin Time",
+              "text": "2 > 1.5 Spin Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Upgrade Title": "Headshot Practice",
+            "Cost": "{{Money|200}}",
+            "Image": "[[File:Cowboy Upgrade 1 New.png|100px]]",
+            "Information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 2,
+          "title": "Gold Shot",
+          "cost": "{{Money|650}}",
+          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Damage",
+              "text": "+2 Damage"
+            },
+            {
+              "kind": "note",
+              "text": "> Income"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Upgrade Title": "Gold Shot",
+            "Cost": "{{Money|650}}",
+            "Image": "[[File:NewCowboyLevel2.png|100px]]",
+            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 3,
+          "title": "Deadly Precision",
+          "cost": "{{Money|2,400}}",
+          "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2.5",
+              "stat": "Range",
+              "text": "+2.5 Range"
+            },
+            {
+              "kind": "delta",
+              "delta": "+7",
+              "stat": "Damage",
+              "text": "+7 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "0.75",
+              "to": "0.6",
+              "stat": "Firerate",
+              "text": "0.75 > 0.6 Firerate"
+            },
+            {
+              "kind": "grant",
+              "stat": "Hidden Detection",
+              "text": "+Hidden Detection"
+            },
+            {
+              "kind": "set",
+              "from": "1.5",
+              "to": "1.25",
+              "stat": "Spin Time",
+              "text": "1.5 > 1.25 Spin Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Deadly Precision",
+            "Cost": "{{Money|2,400}}",
+            "Image": "[[File:Cowboy Upgrade 3 New.png|100px]]",
+            "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 4,
+          "title": "Double Tap II",
+          "cost": "{{Money|4,250}}",
+          "information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}",
+          "claims": [
+            {
+              "kind": "set",
+              "from": "0.6",
+              "to": "0.3",
+              "stat": "Firerate",
+              "text": "0.6 > 0.3 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2.5",
+              "stat": "Range",
+              "text": "+2.5 Range"
+            },
+            {
+              "kind": "note",
+              "text": "> Income"
+            },
+            {
+              "kind": "set",
+              "from": "6",
+              "to": "12",
+              "stat": "Cash Shot",
+              "text": "6 > 12 Cash Shot"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "Double Tap II",
+            "Cost": "{{Money|4,250}}",
+            "Image": "[[File:Cowboy Upgrade 4 New.png|100px]]",
+            "Information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 5,
+          "title": "Wildest Of The West",
+          "cost": "{{Money|9,750}}",
+          "information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+14",
+              "stat": "Damage",
+              "text": "+14 Damage"
+            },
+            {
+              "kind": "note",
+              "text": "> Income"
+            },
+            {
+              "kind": "set",
+              "from": "1.25",
+              "to": "1",
+              "stat": "Spin Time",
+              "text": "1.25 > 1 Spin Time"
+            }
+          ],
+          "params": {
+            "Level": "Level 5",
+            "Upgrade Title": "Wildest Of The West",
+            "Cost": "{{Money|9,750}}",
+            "Image": "[[File:Cowboy Upgrade 5 New.png|100px]]",
+            "Information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}"
+          }
+        }
+      ],
       "pvp": []
     },
-    "upgrade_templates": [],
+    "upgrade_templates": [
+      {
+        "mode": "unknown",
+        "level": 1,
+        "title": "Headshot Practice",
+        "cost": "{{Money|200}}",
+        "information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.9",
+            "to": "0.75",
+            "stat": "Firerate",
+            "text": "0.9 > 0.75 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "1.5",
+            "stat": "Spin Time",
+            "text": "2 > 1.5 Spin Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Headshot Practice",
+          "Cost": "{{Money|200}}",
+          "Image": "[[File:Cowboy Upgrade 1 New.png|100px]]",
+          "Information": "0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Gold Shot",
+        "cost": "{{Money|650}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "> Income"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Gold Shot",
+          "Cost": "{{Money|650}}",
+          "Image": "[[File:NewCowboyLevel2.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Deadly Precision",
+        "cost": "{{Money|2,400}}",
+        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.75",
+            "to": "0.6",
+            "stat": "Firerate",
+            "text": "0.75 > 0.6 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "set",
+            "from": "1.5",
+            "to": "1.25",
+            "stat": "Spin Time",
+            "text": "1.5 > 1.25 Spin Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Deadly Precision",
+          "Cost": "{{Money|2,400}}",
+          "Image": "[[File:Cowboy Upgrade 3 New.png|100px]]",
+          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Double Tap II",
+        "cost": "{{Money|4,250}}",
+        "information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.3",
+            "stat": "Firerate",
+            "text": "0.6 > 0.3 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "note",
+            "text": "> Income"
+          },
+          {
+            "kind": "set",
+            "from": "6",
+            "to": "12",
+            "stat": "Cash Shot",
+            "text": "6 > 12 Cash Shot"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Double Tap II",
+          "Cost": "{{Money|4,250}}",
+          "Image": "[[File:Cowboy Upgrade 4 New.png|100px]]",
+          "Information": "0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "Wildest Of The West",
+        "cost": "{{Money|9,750}}",
+        "information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+14",
+            "stat": "Damage",
+            "text": "+14 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "> Income"
+          },
+          {
+            "kind": "set",
+            "from": "1.25",
+            "to": "1",
+            "stat": "Spin Time",
+            "text": "1.25 > 1 Spin Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Wildest Of The West",
+          "Cost": "{{Money|9,750}}",
+          "Image": "[[File:Cowboy Upgrade 5 New.png|100px]]",
+          "Information": "+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}"
+        }
+      }
+    ],
     "statistics_tables": {
       "regular": [],
       "pvp": []
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": null,
-        "lead": null,
-        "flying": null,
-        "immune": null,
-        "placement_limit": null
+        "hidden": "{{Attr|Hidden|Level 3+}}",
+        "lead": "N/A",
+        "flying": "N/A",
+        "immune": "Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12"
       },
       "pvp": {
         "hidden": null,
@@ -171,9 +537,65 @@
         "immune": null
       }
     },
-    "infoboxes": [],
-    "likely_infobox": null,
-    "template_count": 30
+    "infoboxes": [
+      {
+        "name": "TowerInfobox",
+        "params": {
+          "title": "{{Color|Golden|Golden Cowboy}}",
+          "image-static": "WDGoldenCowboyIcon.png",
+          "image-dynamic": "GoldenCowboyDynamic.png",
+          "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)",
+          "towercost": "Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])",
+          "basecost": "{{Money|600}}",
+          "basesellingprice": "{{Money|200}}",
+          "role": "Offense",
+          "placement": "Ground",
+          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12",
+          "basedamage": "[[File:Damage Icon.png|20px|Damage]]3",
+          "damagetype": "Single",
+          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.9",
+          "baserange": "[[File:Range Icon.png|20px|Range]]13",
+          "baseincome": "{{Money|35}}",
+          "hidden_detection": "{{Attr|Hidden|Level 3+}}",
+          "lead_detection": "N/A",
+          "flying_detection": "N/A",
+          "immune": "Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)",
+          "footprint": "1.25",
+          "tooltip-1": "A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.",
+          "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        },
+        "positional": []
+      }
+    ],
+    "likely_infobox": {
+      "name": "TowerInfobox",
+      "params": {
+        "title": "{{Color|Golden|Golden Cowboy}}",
+        "image-static": "WDGoldenCowboyIcon.png",
+        "image-dynamic": "GoldenCowboyDynamic.png",
+        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)",
+        "towercost": "Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])",
+        "basecost": "{{Money|600}}",
+        "basesellingprice": "{{Money|200}}",
+        "role": "Offense",
+        "placement": "Ground",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]12",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]3",
+        "damagetype": "Single",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.9",
+        "baserange": "[[File:Range Icon.png|20px|Range]]13",
+        "baseincome": "{{Money|35}}",
+        "hidden_detection": "{{Attr|Hidden|Level 3+}}",
+        "lead_detection": "N/A",
+        "flying_detection": "N/A",
+        "immune": "Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)",
+        "footprint": "1.25",
+        "tooltip-1": "A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+      },
+      "positional": []
+    },
+    "template_count": 394
   },
   "conflicts": {
     "priority_rule": {
@@ -193,227 +615,223 @@
   "categories": [
     {
       "ns": 14,
-      "title": "Category:Early-Game"
+      "title": "Category:Ground"
     },
     {
       "ns": 14,
-      "title": "Category:Enemies"
+      "title": "Category:Offense"
     },
     {
       "ns": 14,
-      "title": "Category:Hardcore"
-    },
-    {
-      "ns": 14,
-      "title": "Category:Voidcore"
+      "title": "Category:Towers"
     }
   ],
   "backlinks": [
     {
-      "title": "Waves",
-      "pageid": 104
+      "title": "Towers",
+      "pageid": 122
+    },
+    {
+      "title": "Scout",
+      "pageid": 123
+    },
+    {
+      "title": "Soldier",
+      "pageid": 124
+    },
+    {
+      "title": "Sniper",
+      "pageid": 125
+    },
+    {
+      "title": "Minigunner",
+      "pageid": 162
+    },
+    {
+      "title": "Freezer",
+      "pageid": 185
+    },
+    {
+      "title": "Ranger",
+      "pageid": 193
+    },
+    {
+      "title": "Pyromancer",
+      "pageid": 195
+    },
+    {
+      "title": "Military Base",
+      "pageid": 197
+    },
+    {
+      "title": "Farm",
+      "pageid": 198
+    },
+    {
+      "title": "Commander",
+      "pageid": 199
     },
     {
       "title": "Militant",
       "pageid": 200
     },
     {
-      "title": "Molten Boss",
-      "pageid": 284
+      "title": "Paintballer",
+      "pageid": 202
     },
     {
-      "title": "Molten",
-      "pageid": 286
+      "title": "Crook Boss",
+      "pageid": 226
     },
     {
-      "title": "Tank 2",
-      "pageid": 287
+      "title": "Demoman",
+      "pageid": 239
     },
     {
-      "title": "Grave Digger (Legacy)",
-      "pageid": 294
+      "title": "Shotgunner",
+      "pageid": 275
     },
     {
-      "title": "Normal",
-      "pageid": 348
+      "title": "Gladiator",
+      "pageid": 302
     },
     {
-      "title": "Strong",
-      "pageid": 397
+      "title": "Rocketeer",
+      "pageid": 307
     },
     {
-      "title": "Speedy",
-      "pageid": 480
+      "title": "Sentry",
+      "pageid": 392
     },
     {
-      "title": "Slow",
-      "pageid": 481
-    },
-    {
-      "title": "Hidden",
-      "pageid": 484
-    },
-    {
-      "title": "Normal Boss",
-      "pageid": 486
-    },
-    {
-      "title": "Mystery",
-      "pageid": 488
+      "title": "Turret",
+      "pageid": 454
     },
     {
       "title": "Necromancer (Legacy Enemy)",
       "pageid": 490
     },
     {
-      "title": "Slow Boss",
-      "pageid": 491
+      "title": "Infernal Abyss",
+      "pageid": 515
     },
     {
-      "title": "Hidden Boss",
-      "pageid": 492
+      "title": "Commando",
+      "pageid": 599
     },
     {
-      "title": "Shock",
-      "pageid": 493
+      "title": "Medic",
+      "pageid": 1545
     },
     {
-      "title": "Speedy Boss",
-      "pageid": 494
+      "title": "Hunter",
+      "pageid": 1546
     },
     {
-      "title": "Super Mystery",
-      "pageid": 496
+      "title": "Fallen",
+      "pageid": 1613
     },
     {
-      "title": "Mystery Summoner",
-      "pageid": 504
+      "title": "Abnormal",
+      "pageid": 1617
     },
     {
-      "title": "Boomer",
-      "pageid": 505
+      "title": "Quick",
+      "pageid": 1625
     },
     {
-      "title": "Necromancer 2",
-      "pageid": 506
+      "title": "Slasher",
+      "pageid": 1752
     },
     {
-      "title": "Blighted (Legacy)",
-      "pageid": 507
+      "title": "DJ Booth",
+      "pageid": 2235
     },
     {
-      "title": "Tank",
-      "pageid": 508
+      "title": "Ace Pilot",
+      "pageid": 2469
     },
     {
-      "title": "Boomer 2",
-      "pageid": 509
+      "title": "Mortar",
+      "pageid": 2730
     },
     {
-      "title": "Carrier",
-      "pageid": 510
+      "title": "Frost Blaster",
+      "pageid": 2732
     },
     {
-      "title": "Controlled",
-      "pageid": 511
+      "title": "Archer",
+      "pageid": 2747
     },
     {
-      "title": "Chained Boss",
-      "pageid": 512
+      "title": "Winter Stronghold",
+      "pageid": 2952
     },
     {
-      "title": "Witch Doctor",
-      "pageid": 513
+      "title": "Premium Crate",
+      "pageid": 2967
     },
     {
-      "title": "Gold Titan",
-      "pageid": 526
+      "title": "Golden Crate",
+      "pageid": 2968
     },
     {
-      "title": "Shrike Crystal",
-      "pageid": 527
+      "title": "Electroshocker",
+      "pageid": 3751
     },
     {
-      "title": "Tombstone",
-      "pageid": 528
+      "title": "Swarmer",
+      "pageid": 4581
     },
     {
-      "title": "Golden",
-      "pageid": 529
+      "title": "Pursuit",
+      "pageid": 6735
     },
     {
-      "title": "Knight (The Heights)",
-      "pageid": 530
+      "title": "Mecha Base",
+      "pageid": 7179
     },
     {
-      "title": "Stone Viking",
-      "pageid": 531
+      "title": "War Machine",
+      "pageid": 7181
     },
     {
-      "title": "Crystalite",
-      "pageid": 532
+      "title": "Cowboy",
+      "pageid": 7565
     },
     {
-      "title": "Brute (The Heights)",
-      "pageid": 533
+      "title": "Humvee",
+      "pageid": 9668
     },
     {
-      "title": "Fallen Hero (Legacy)",
-      "pageid": 534
+      "title": "Humvee 2",
+      "pageid": 9670
     },
     {
-      "title": "Swordmaster",
-      "pageid": 535
+      "title": "Humvee 3",
+      "pageid": 9671
     },
     {
-      "title": "Swarm",
-      "pageid": 576
+      "title": "Tank (Unit)",
+      "pageid": 9672
     },
     {
-      "title": "Raider Boss",
-      "pageid": 592
+      "title": "Railgun Tank",
+      "pageid": 9673
     },
     {
-      "title": "Alien (Area 51)",
-      "pageid": 606
+      "title": "SWAT Van",
+      "pageid": 9681
     },
     {
-      "title": "Strong Alien",
-      "pageid": 607
-    },
-    {
-      "title": "Zoomer",
-      "pageid": 608
-    },
-    {
-      "title": "Lawnmower",
-      "pageid": 609
-    },
-    {
-      "title": "Hidden Zoomer",
-      "pageid": 610
-    },
-    {
-      "title": "UFO (Area 51)",
-      "pageid": 611
-    },
-    {
-      "title": "Raider 1",
-      "pageid": 612
-    },
-    {
-      "title": "Raider 2",
-      "pageid": 613
-    },
-    {
-      "title": "Rusted",
-      "pageid": 890
+      "title": "Crook",
+      "pageid": 9688
     }
   ],
   "templates": [
     {
       "ns": 10,
-      "title": "Template:EnemyTabs",
+      "title": "Template:Tabs",
       "exists": true
     },
     {
@@ -428,12 +846,22 @@
     },
     {
       "ns": 10,
-      "title": "Template:ZombieLegacy",
+      "title": "Template:TowerInfobox",
       "exists": true
     },
     {
       "ns": 10,
       "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Coins",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Robux",
       "exists": true
     },
     {
@@ -468,17 +896,27 @@
     },
     {
       "ns": 10,
-      "title": "Template:Tabber",
+      "title": "Template:Upgrade",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Gallery",
+      "title": "Template:Hidden",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:GalleryHeader",
+      "title": "Template:Neow",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Scroll",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Tooltip",
       "exists": true
     },
     {
@@ -493,22 +931,12 @@
     },
     {
       "ns": 10,
-      "title": "Template:Hardcore",
+      "title": "Template:TowerNavBox",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Hardcore/border.css",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Voidcore",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:ZombieNavBox",
+      "title": "Template:TowerNavBox/labels.css",
       "exists": true
     },
     {
@@ -518,106 +946,126 @@
     },
     {
       "ns": 828,
-      "title": "Module:Tabber",
+      "title": "Module:NumName",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Randomizer",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:StripNaked",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Neowbunto",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Tipgen",
       "exists": true
     }
   ],
   "related_pages": [
     {
-      "title": "Lead Balloon",
-      "score": 4,
-      "pageid": 16716,
-      "latest_revid": 610589,
-      "latest_timestamp": "2026-08-13T01:34:42Z",
-      "wikitext_excerpt": "{{RemovedSandboxOnly|date=5th of June 2026}}\n{{For|the [[Lead (Attribute)|Lead]] attribute|[[Lead]] enemy, [[Lead Boss]], [[Balloon]], [[Balloon Kid]]|[[SUPER MEGA LEAD BALLOON]]}}\n{{Zombie\n|image1 = <tabber>\n|-|Three Balloons = [[File:LeadBalloon.png]]\n|-|Two Balloons = [[File:LeadBalloonDuo.png]]\n|-|One Balloon = [[File:LeadBalloonUno.png]]\n|-|Walk = [[File:LeadBalloonNoBalloon.png]]\n</tabber>\n|mode_appearance = [[Sandbox Mode|Sandbox]]\n----\nOriginally:<br/>[[Hardcore Mode|{{Color|HardcoreMode}}]]\n|first_wave_appearance = 39 (Hardcore)\n|base_hp = [[File:HealthIcon.png|20px|Health]]250\n|shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]600\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4.25, With Balloons)<br/>[[File:SpeedIcon.png|20px|Speed]]Fast (Estimated 6.25, Without Balloons)\n|spawned_by = [[Mystery]] (Hardcore, wave 40 onwards)\n|hidden = No\n|fly = {{Attr|Fly|Yes}} (With Balloons)<br/>No (Without Balloons)\n|ghost = No\n|lead = {{Attr|Lead|Yes}}\n|immunity = None\n}}\n__TOC__\n==Description==\nThe '''Lead Balloon''' was an [[Enemies|enemy]] which only appeared on [[Hardcore Mode|Hardcore]] mode. Currently, it can only be spawned in [[Sandbox Mode|Sandbox]] mode if the player has the Sandbox Plus+ [[Gamepasses|gamepass]]. While it has low health for its debut, it is quite fast. While the '''Lead Balloon''' is in the air, it cannot collide with [[units]], or be detected by most ground towers and units.\n\nIt is also a [[Lead (Attribute)|Lead]] enemy, meaning it cannot be damaged by towers without lead detection. This severely reduces the amount of towers that can harm the '''Lead Balloon'''. With its balloons popped, it is no longer a [[Flying]] enemy. However, despite having no visible metal coverings, it is still a [[Lead (Attribute)|Lead]] enemy.\n\nThe '''Lead Balloon''' can be spawned from the [[Mystery]] upon its death in [[Hardcore Mode|Hardcore]] mode, wave 40 onwards.\n\n==Appearance==\nThe '''Lead Balloon''' is a faceless humanoid with reflective dark green skin, and a reflective dark grey torso and legs. It has three lead balloons tied to its back, which, after taking enough damage, pop into yellow particles and drops it lower to the ground. When it loses all shield health, all the balloons would have popped and the '''Lead Balloon''' would become grounded, removing its flying attribute and making it walk along the path.\n\n==Strategy==\nThis strategy refers to the state of the game while the '''Lead Balloon''' still appeared in the [[Hardcore Mode|Hardcore]] mode.\n*While the '''Lead Balloon''' is floating, the '''Lead Balloon''' is a lead and flying enemy. This limits the towers that can both detect and damage the '''Lead Balloon'''.\n*Multiple Level 3+ [[Ranger]]s are the best option to deal with the '''Lead Balloon''', with or without its balloons.\n**A Level 2+ [[Tesla]] is equally good for this, especially because of its [[Splash Damage|area damage]], allowing it to take down multiple '''Lead Balloon'''s at once, while also stunning them.\n**Level 4 [[Sniper]]s can also be used to kill the '''Lead Balloon''' despite their mediocre DPS, but you need a large amount of them.\n**A few level 3+ [[Toxic Gunner]]s are also a great option to eliminate the '''Lead Balloon''', with and without its balloons. However, [[Toxic Gunner]] is an event tower that is currently unobtainable outside of special offers.\n*The [[Ace Pilot]], [[Mortar]] and [[Pursuit]] can detect and damage the '''Lead Balloon''' with its splash damage. \n**However, the [[Ace Pilot]]'s projectiles explode on the ground, limiting the damage dealt to the '''Lead Balloon'''. It will also have a hard time hitting '''Lead Balloons''' when they are grounded due to the enemy's fast speed.\n*The [[Engineer]] can be used to deal with this, but do note that only the tower itself can detect and damage them. None of the [[Engineer]]'s sentries can detect it, with only [[War Machine Sentry]] being able to damage it.\n*The [[Firework Technician]] can be used to give you"
+      "title": "Golden Cowboy/Gallery",
+      "score": 6,
+      "pageid": 30854,
+      "latest_revid": 140039,
+      "latest_timestamp": "2023-02-15T10:13:40Z",
+      "wikitext_excerpt": "#REDIRECT [[Cowboy/Gallery]]"
     },
     {
-      "title": "Balloon Kid",
+      "title": "Golden Cowboy/History",
+      "score": 6,
+      "pageid": 32596,
+      "latest_revid": 618597,
+      "latest_timestamp": "2026-08-18T21:37:52Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Cowboy/History|Perk = Golden Cowboy/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Cowboy/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore Rework Update (5 June 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:WDGoldenCowboyIcon.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|600}}\n|Footprint = 1.25\n|Sell Price = {{Money|200}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|Hidden = {{Hidden|Hidden Detection}}Level 3+\n|Range = [[File:Range Icon.png|20px|Range]]13\n|Lead = N/A\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|Fly = N/A\n|Title1 = Income\n|Stat1 = {{Money|35}}\n|Title2 = Cash Shot\n|Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|Title3 = Spin Time\n|Stat3 = [[File:Cooldown Icon.png|20px|Spin Time]]2\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))\n$CE$ = Total Cost / DPS\n$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))\n$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 600; 200; 650; 2400; 4250; 9750\n$FSE-DETECTION$ = 3; ;\n$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West\n$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990\n$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{| class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Damage !! Firer"
+    },
+    {
+      "title": "Cowboy",
       "score": 3,
-      "pageid": 33046,
-      "latest_revid": 481998,
-      "latest_timestamp": "2026-06-10T16:17:41Z",
-      "wikitext_excerpt": "{{For|[[Balloon]] or [[Lead Balloon]]}}\n{{Zombie\n|image1 = fnaf2balloonboy.png\n|mode_appearance = [[Pizza Party|{{Color|PizzeriaMode}}]]\n|first_wave_appearance = 28\n|base_hp = [[File:HealthIcon.png|20px|Health]]500\n|shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]750\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|cash = {{Money|1,500}} on death\n|hidden = No\n|fly = {{Attr|Fly|Yes}}\n|ghost = No\n|lead = No\n|immunity = {{Attr|Freeze}}\n}}\n{{QuoteContainer|\n{{QuoteBox|Hazardous enemies incoming!<br/>Fast and tanky with Giant bosses in the back.|[[Commander (Narrator)|Commander]] dialogue on Wave 28 ([[Pizza Party|Pizzeria]] before the mini rework)}}\n}}\n__TOC__\n==Description==\nThe '''Balloon Kid''' is an enemy only found in [[Pizza Party]]. It has a mediocre amount of health and an above average speed. However, it holds a balloon which it uses to float in the air, making it a [[Flying]] enemy. This also means that it cannot collide with units, as well as being undetectable by the majority of towers and units.\n\n==Appearance==\nThe '''Balloon Kid''' is a robot that resembles a child. It has tan skin, grey pants, black shoes, a striped red and blue torso, sleeves, propeller hat and a balloon that it holds, which it uses to float in the air. It has a red nose and the left side of its face is torn open. It also has two red buttons on its torso. Its propeller hat's propeller spins as the '''Balloon Kid''' flies.\n\nIt makes a popping sound on death.\n\n==Mutation==\n{| class=\"tds-table align-center mw-collapsible mw-collapsed\" style=\"width: 300px; margin: 0 auto;\"\n! colspan=\"2\" |Mutation\n|-\n!Percentage\n!Increase\n|-\n|6%\n|30\n|-\n!Wave\n!Health\n|-\n|29\n|1,280\n|-\n|30\n|1,310\n|-\n|31\n|1,340\n|-\n|32\n|1,370\n|-\n|33\n|1,400\n|-\n|34\n|1,430\n|-\n|35\n|1,460\n|-\n|36\n|1,490\n|-\n|37\n|1,520\n|-\n|38\n|1,550\n|-\n|39\n|1,580\n|-\n|40\n|1,610\n|}\n\n==Strategy==\n*Towers with flying detection are the best way to deal with the '''Balloon Kid'''.\n**The [[Ranger]] and [[Golden Soldier]] are very strong options.\n***The [[Militant]] is another option, but may be unreliable due to its lower DPS.\n**As these spawn in hordes, the [[Executioner]] and [[Mortar]] can be quite effective at clearing them out.\n**The [[Ace Pilot]] and [[Pursuit]] can deal with '''Balloon Kids''' fairly effectively, but be mindful of their circling and targeting mechanics, which could let some '''Balloon Kids''' past.\n**Alternatively, if you do not have any towers with flying detection, you can use a [[UAV]] to make other towers target '''Balloon Kids'''.\n***Do note that the [[UAV]] only lasts 30 seconds and can only be used four times, so you cannot completely rely on it for flying detection, though it can allow you to survive a few waves without it.\n**You can also use the [[Commander]]'s ''Support Caravan'' ability to spawn in [[Gunner APC]]s and [[Missile APC]]s if your main DPS does not have flying detection.\n*There are many towers that do not have flying detection but can damage '''Balloon Kids''' in other ways. Most of these methods are not viable ways to deal with the '''Balloon Kids'''. Another detectable enemy must be nearby for these to happen.\n**Explosions from towers can damage the '''Balloon Kid''' indirectly.\n***Only the [[Mortar]], [[Ace Pilot]] and [[Pursuit]] can directly target '''Balloon Kids''' with splash damage. Others require a nearby detectable enemy.\n**Some ground towers, like the [[Gladiator]], can hit the '''Balloon Kid''' while it is in the air, if they are on a high platform or leverage, though this is extremely unlikely to occur.\n**The [[Brawler]] tower is able to hit the '''Balloon Kid''' using its ''Reposition'' ability.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Corpse Variants}}\n<gallery>\nCorpseBalloonKid.png|Second [[Corpse (Enemy)|Corpse]] variant, current version (12 March 2025 – Present)\n</gallery>\n\n{{GalleryHeader|Promotional Images}}\n<gallery>\nHalloweenPI4.jpg|'''Balloon Kid''' on a promotional image.\n</gallery>\n\n{{GalleryHeader|Trailers}}\n<gallery>\nTower Defense"
+      "pageid": 7565,
+      "latest_revid": 626397,
+      "latest_timestamp": "2026-08-25T14:52:09Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}\n{{SameName|Cowboy|[[Cowboy|Tower]] • [[Cowboy (Modifier)|Modifier]]}}\n{{TowerInfobox\n|title = Cowboy\n|image-static = WDDefaultCowboyIcon.png\n|image-dynamic = CowboyDynamic.png\n|unlockcost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]10 ([[PVP]])\n|basecost = {{Money|550}}\n|basesellingprice = {{Money|183}}\n|basedamage = [[File:Damage Icon.png|20px|Damage]]3\n|damagetype = Single\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|baserange = [[File:Range Icon.png|20px|Range]]13\n|baseincome = {{Money|30}}\n|hidden_detection = {{Attr|Hidden|Level 3+}}\n|lead_detection = N/A\n|flying_detection = N/A\n|immune = Partial Debuff<ref name=\"pd\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|footprint = 1.25\n|pvp_basecost = {{Money|550}}\n|pvp_basesellingprice = {{Money|183}}\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4\n|pvp_damagetype = Single\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]14\n|pvp_baseincome = {{Money|50}}\n|pvp_hidden_detection = {{Attr|Hidden|Level 3+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = Partial Debuff<ref name=\"pd\"/> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref name=\"stun\"/> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|pvp_footprint = 1.5\n|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}\n{{QuoteBox|[[File:BadlandsIIIcon.png|20px|Badlands II]] Beat \"Badlands II\" to buy this tower.|Shop Description}}\n|-|Version 4 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}\n{{QuoteBox|[[File:BadlandsIIIcon.png|20px|Badlands II]] Beat \"Badlands II\" to buy this tower.|Former Shop Description}}\n|-|Version 3 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 5th shot.|Former Inventory Description}}\n{{QuoteBox|[[File:BadlandsIIIcon.png|20px|Badlands II]] Beat \"Badlands II\" to buy this tower.|Former Shop Description}}\n|-|Version 2 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|Won from beating a Badlands.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Cowboy''' is an advanced ground [[Towers|tower]] which generates income every few shots. It can be purchased from the store for {{Coins|4,000}} only after triumphing [[Badlands II]]. Due to a bug, the tower does not need to be purchased, instead appearing in the [[Gift Box]]. Alternatively, its [[Gamepasses|gamepass]] can be purchased for {{Robux|3"
     },
     {
-      "title": "Balloon/Advanced Stats",
+      "title": "Cowboy Plush",
       "score": 3,
-      "pageid": 63299,
-      "latest_revid": 619204,
-      "latest_timestamp": "2026-08-20T17:43:23Z",
-      "wikitext_excerpt": "{{EnemyTabs|Stats}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Stats==\n{{BaseStatEnemy\n|Image = [[File:VoidBalloonFloat.png|100px]]\n|Health = [[File:HealthIcon.png|20px|Health]]40<br/>[[File:ShieldHealth.png|20px|Shield Health]]40 ([[Shield Health|Shield]])\n|Hidden = No\n|Speed = [[File:SpeedIcon.png|20px|Speed]]Fast (6, With Balloon)<br/>[[File:SpeedIcon.png|20px|Speed]]Above Average (4, Without Balloon)\n|Lead = No\n|Defense = None\n|Flying = {{Attr|Fly|Yes}} (With Balloon)<br/>No (Without Balloon)\n|Cash = {{Money|30}} on death\n|Ghost = No\n|Ability = None\n|Boss = No\n}}\n\n==Wave Changes==\n{| class=\"tds-table\" style=\"width: 80%; text-align: center;\"\n!Affects\n!Changes\n|-\n! colspan=\"2\" |Wave 21\n|-\n|All\n|Added [[Nimble]]\n|-\n! colspan=\"2\" |Wave 30\n|-\n|All\n|Added [[Nimble]]\n|-\n|}\n</center>\n</div>\n</div>\n----\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Voidcore'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n\n==Base Stats==\n{{BaseStatEnemy\n|Image = [[File:VoidBalloonFloat.png|100px]]\n|Health = [[File:HealthIcon.png|20px|Health]]50<br/>[[File:ShieldHealth.png|20px|Shield Health]]50 ([[Shield Health|Shield]])\n|Hidden = No\n|Speed = [[File:SpeedIcon.png|20px|Speed]]Fast (6, With Balloon)<br/>[[File:SpeedIcon.png|20px|Speed]]Above Average (4, Without Balloon)\n|Lead = No\n|Defense = None\n|Flying = {{Attr|Fly|Yes}} (With Balloon)<br/>No (Without Balloon)\n|Cash = {{Money|25}} on death\n|Ghost = No\n|Ability = None\n|Boss = No\n}}\n\n==Wave Changes==\n{| class=\"tds-table\" style=\"width: 80%; text-align: center;\"\n!Affects\n!Changes\n|-\n! colspan=\"2\" |Wave 20\n|-\n|All\n|Added [[Nimble]]\n|-\n! colspan=\"2\" |Wave 25\n|-\n|All\n|Added [[Blessed]] & [[Nimble]] \n|}\n</center>\n</div>\n</div>\n\n\n\n{{ZombieNavBox}}\n__NOTOC__"
+      "pageid": 42359,
+      "latest_revid": 468346,
+      "latest_timestamp": "2026-06-05T07:53:16Z",
+      "wikitext_excerpt": "{{MerchShopWarning}}\n{{Toy\n|image1 = PlushCowboy.png\n|release_date = Mid November 2024\n|virtual_item = {{Color|Other|Plushie}} [[Cowboy]] skin\n|toy_type = Plushie\n}}\n__TOC__\n==Description==\nThe '''Cowboy Plush''' is an upcoming official Paradoxum Games toy which is currently available to be pre-ordered. It was made by Juniper Creates. The plushie offers the Level 4 [[Cowboy]]. Anybody who bought the toy from the in-game Merch Store will receive the {{Color|Other|Umbra}} skin for the {{Color|Other|Plushie}} skin for the [[Cowboy]]. If bought on the [https://shop.paradoxum.games/ Paradoxum Games store], it will not come with any rewards.\n\nThe revolvers of the '''Cowboy Plush''' are detachable. It is made out of plush fabric and polypropylene cotton, its size measures 13 inches (33.02 cm) tall, 10.6 inches (26.924 cm) wide and 11.8 inches (29.972 cm) long. A tree is planted for every order of the plush.\n\n==Official Description==\n*'''Online (Third)'''\n*:Howdy partner, the fan favorite Cowboy tower is here as a plush and he is packing some heat with his removable revolvers. This plush does not include an in-game reward. \n*'''Online (Second)'''\n*:Howdy partner, the fan favorite Cowboy tower is here as a plush and he is packing some heat with his removable revolvers. The in-game reward is only included with purchases made in Roblox. Items purchased from shop.paradoxum.games do not include an in-game reward.\n*'''Online (First)'''\n*:Howdy partner, the fan favorite Cowboy tower is here as a plush and he's packing some heat with his removable revolvers.\n\n==Prices & Stores==\nPrices vary by country due to shipping costs and local currency. The '''Cowboy Plush''' can be purchased on the official [https://shop.paradoxum.games/ Paradoxum Games online store] for $34.99. If bought as part of the Cowboy Bundle, which also includes the [[Cowboy]] pin, it costs $43.18.\n\nBefore April 2025, the '''Cowboy Plush''' could be purchased for $29.99, while the bundle could be purchased for $35.98. During the Black Friday 2024 Sale, it could be bought for $22.49, while the bundle had a cost of $26.98. During the Black Friday 2025 Sale, it had a cost of $28.99, while the bundle could be bought for $36.78.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Showcase}}\n<gallery>\nCowboyPlushShowcase1.png\nCowboyPlushShowcase2.png\nCowboyPlushShowcase3.png\nCowboyPlushShowcase4.png\nCowboyPlushShowcase5.png\nCowboyPlushShowcase6.png\nCowboyPlushShowcase7.png\nCowboyPlushShowcase8.png\nCowboyPlushShowcase9.png\nCowboyPlushShowcase10.png\nCowboyPlushShowcase11.png\nCowboyPlushShowcase12.png\nCowboyPlushShowcase13.png\nCowboyPlushShowcase14.png\n</gallery>\n}}\n\n\n\n{{ToyNavBox}}\n[[Category:Plushies]]"
     },
     {
-      "title": "Lead (Legacy Enemy)",
-      "score": 2,
-      "pageid": 16446,
-      "latest_revid": 511707,
-      "latest_timestamp": "2026-06-24T17:48:38Z",
-      "wikitext_excerpt": "{{SameName|Lead|[[Lead (Attribute)|Attribute]] • [[Lead (Legacy Enemy)|Legacy Enemy]] • [[Lead|Modern Enemy]]}}\n{{RemovedSandboxOnly|date = 5th of June 2026}}\n{{For|the [[Lead Boss]]|[[Lead Balloon]]}}\n{{Zombie\n|title1 = Lead\n|image1 = Lead.png\n|mode_appearance = [[Sandbox Mode|Sandbox]]\n----\nOriginally:<br/>[[Hardcore Mode|{{Color|HardcoreMode}}]]\n|first_wave_appearance = 14 (Hardcore)\n|base_hp = [[File:HealthIcon.png|20px|Health]]30\n|speed = [[File:SpeedIcon.png|20px|Speed]]Average (3)\n|hidden = No\n|fly = No\n|ghost = No\n|lead = {{Attr|Lead|Yes}}\n|immunity = None\n|spawned_by = *[[Grave Digger (Legacy)|Grave Digger]] (Legacy version, Hardcore only)\n*[[Mystery]] (Hardcore)\n}}\n{{QuoteContainer|\n{{QuoteBox|It looks like these enemies are covered in lead.<br/>Only explosions, fire, and electricity can damage them!|[[Commander (Narrator)|Commander]] dialogue on Wave 14 (Formerly, [[Hardcore Mode|Hardcore]])}}\n{{QuoteBox|It wooks wike these enemies awe covewed in wead. (･ω･ `)...........<br/>Onwy expwosions, fiwe, and ewectwicity can damage them! (☉ㅅ☉U)|[[Commander (Narrator)|Commander]] dialogue on Wave 14 ([[April Fools 2022#Narration|April Fools 2022 Hardcore]])}}\n}}\n__TOC__\n==Description==\nThe '''Lead''' was an [[Enemies|enemy]] which only appeared on [[Hardcore Mode|Hardcore]] mode. Currently, it can only be spawned in [[Sandbox Mode|Sandbox]] mode if the player has the Sandbox Plus+ [[Gamepasses|gamepass]]. It has somewhat high health for its debut, but luckily it is quite slow. As it is a [[Lead (Attribute)|Lead]] enemy, it cannot be damaged by towers without lead detection.\n\nThe '''Lead''' could be spawned by the [[Grave Digger (Legacy)|Grave Digger]] in [[Hardcore Mode|Hardcore]] mode. The [[Mystery]] could also spawn the '''Lead''' upon its death in [[Hardcore Mode|Hardcore]] mode.\n\n==Appearance==\nThe '''Lead''' is completely metal-plated from its head to its legs. It is faceless. It is about the same size as the [[Abnormal]]. Its head is slightly tilted downwards.\n\n==Strategy==\nThis strategy refers to the state of the game while the '''Invisible''' still appeared in the [[Hardcore Mode|Hardcore]] mode.\n*Any tower with splash, fire, electric, poison and collision damage will damage the '''Lead'''.\n**The [[Golden Pyromancer]] and [[Electroshocker]] are perhaps the most effective towers against the '''Lead''' due to their DPS and ability to damage multiple '''Leads'''.\n**The [[Freezer]] can slow down the '''Lead''', but is unable to damage it.\n***The [[Cryomancer]] and [[Frost Blaster]] can both damage the '''Lead''' as well as slow it down, making it a great option against it.\n**Units can also deal with the '''Lead''' well, as most of them have a pretty decent amount of health.\n***Similarly, the [[Trapper]]'s spikes are also very effective against '''Leads'''\n**Bombs from the [[Ace Pilot]] can damage the '''Lead''', but its bullets cannot.\n**The [[Swarmer]] cannot damage the '''Lead''' without its ability.\n*A Level 3+ [[Sniper]], [[Warden]] or [[Ranger]] can damage the '''Lead''' directly, but these are relatively expensive options.\n**Likewise, the [[Accelerator]] and Level 1+ [[Pursuit]] can easily defeat the '''Lead'''.\n*A Level 3 [[Golden Scout]] is a relatively cheap option to deal with multiple [[Lead]]s.\n**Multiple Level 0 [[Brawler]]s or a Level 2 [[Brawler]] can also work pretty well.\n*Low level [[Engineer]]s might struggle with multiple '''Leads''' due to it having to take time to build sentries, which cannot damage them.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Corpse Variants}}\n<gallery>\nCorpseLead.png|Second [[Corpse (Enemy)|Corpse]] variant, current version (12 March 2025 – Present)\n</gallery>\n\n{{GalleryHeader|Miscellaneous}}\n<gallery>\nIndexLead.png|'''Lead''' on its [[Index]] icon.\n</gallery>\n}}\n\n==Trivia==\n*This enemy was based on the [[w:c:bloons:Lead Bloon|Lead Bloon]] from the ''Bloons Tower Defense'' series.\n*'''Lead''', alongside the [[Lead Boss]] and [[Lead Balloon]] have unique spark particles when they"
+      "title": "Cowboy/Gallery",
+      "score": 3,
+      "pageid": 11331,
+      "latest_revid": 646933,
+      "latest_timestamp": "2026-09-08T16:07:12Z",
+      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|<big><center>'''Regular'''</center></big>\n{{UpgradeIcons\n|[[File:NewCowboyLevel2.png|150px]]\n|[[File:Cowboy Upgrade 3 New.png|150px]]\n|[[File:Cowboy Upgrade 1 New.png|150px]]\n|[[File:Cowboy Upgrade 4 New.png|150px]]\n|[[File:Cowboy Upgrade 5 New.png|150px]]\n}}\n<big><center>'''Golden Perk'''</center></big>\n{{UpgradeIcons\n|[[File:Cowboy Upgrade 1 New.png|150px]]\n|[[File:NewCowboyLevel2.png|150px]]\n|[[File:Cowboy Upgrade 3 New.png|150px]]\n|[[File:Cowboy Upgrade 4 New.png|150px]]\n|[[File:Cowboy Upgrade 5 New.png|150px]]\n}}\n|29 October 2020 – 7 April 2023\n|{{UpgradeIcons\n|[[File:Cowboy Upgrade 1 New.png|150px]]\n|[[File:NewCowboyLevel2.png|150px]]\n|[[File:Cowboy Upgrade 3 New.png|150px]]\n|[[File:Cowboy Upgrade 4 New.png|150px]]\n|[[File:Cowboy Upgrade 5 New.png|150px]]\n}}\n|13 October 2019 – 29 October 2020\n|{{UpgradeIcons\n|[[File:Cowboy1.png|150px]]\n|[[File:Cowboy2.png|150px]]\n|[[File:Cowboy3.png|150px]]\n|[[File:Cowboy4.png|150px]]\n|[[File:Cowboy5.png|150px]]\n|Ability = [[File:Wildest of the West.png|150px]]\n}}\n|29 June 2019 – 13 October 2019\n|{{UpgradeIcons\n|[[File:Cowboy1.png|150px]]\n|[[File:Cowboy2.png|150px]]\n|[[File:Cowboy3.png|150px]]\n|[[File:Cowboy4.png|150px]]\n|[[File:Cowboy5.png|150px]]\n|Ability = [[File:Gold Rush.png|150px]]\n}}}}\n\n==Skin Upgrades==\nThe '''Cowboy''' has twenty six skins in total. This includes:\n#The Default skin.\n#Thirteen skins that can be unlocked from [[Skincrates]].\n#Four skins that can be unlocked from [[Passes|Passes.]]\n#One skin that can be unlocked from a [[Badges|Badge]].\n#Three skins that can be unlocked from  [[Skincrates]] and [[Passes]].\n#One skin that can be unlocked through [[Mission Quests]].\n#Two skins that can be unlocked from the Merch Shop.\n#One skin that can only be unlocked from the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultCowboyIconIGAug26.png|128px]]\n|[[File:Cowboy_LVL_0New.png|200px]]\n|Tan skin, beige shirt and sleeves, brown pants and dark grey shoes. \nBlack belt and bandolier with bullets attached to them. Brown wide brimmed cowboy hat with grey stripe.\n\nWields a Colt Single Action Army revolver to attack enemies.\n|[[File:Cowboy_LVL_1New.png|200px]]\n|Black gloves.\n|[[File:Cowboy_LVL_2New.png|200px]]\n|Grey opaque/translucent sunglasses and maroon armbands on right arm.\n|[[File:Cowboy_LVL_3New.png|200px]]\n|Bullets across its hat.\n\nNow wields a Colt Python revolver.\n|[[File:Cowboy_LVL_4New.png|200px]]\n|Maroon shawl around its neck.\n\nNow wields dual Colt Python revolvers.\n|[[File:Cowboy_LVL_5New.png|200px]]\n|Light grey futuristic chestplate with red highlights and light grey mask with an opaque/translucent visor.\n\nLeft arm is now a synthetic black arm with red highlights\n\nNow wields dual laser revolvers.\n}}\n|Pumpkin\n|The {{Color|Halloween2019|Pumpkin}} skin is obtained from the [[Halloween 2019 Crate|{{Color|Halloween2019|Halloween 2019 Crate}}]], the [[Pumpkin Crate|{{Color|Pumpkin|Pumpkin Crate}}]], and the [[Halloween Crate|{{Color|Halloween|Halloween Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Halloween2019|Pumpkin}}\n|Icon1 = [[File:PumpkinCowboyIconIGAug26.png|128px]]\n|[[File:WDPumpkinCowboy0.png|200px]]\n|White skin, dark brown buttoned shirt and pants, wine coat, dark brown belt and bullet bandolier.\n\nOrange pumpkin head and a leaning dark brown cowboy hat.\n\nWields a Colt Single Action Army revolver to attack enemies.\n|[[File:WDPumpkinCowboy1.png|200px]]\n|Dark brown gloves.\n|[[File:WDPumpkinCowboy1.png|200px]]\n|White bandages wrapped around its right arm.\n|[[File:WDPumpkinCowboy3.png|200px]]\n|Three bullets wrapped around its hat.\n\nNow wields a Colt Python revolver.\n|[[File:WDPumpkinCowboy4.png|200px]]\n|Dark brown shawl around its neck and left shoulder.\n\nNow wields dual Colt Python revolvers.\n|[[File:WDPumpkinCowboy5.png|200px]]\n|Dark grey futuristic chestplate with cyan highlights.\n\nCoat and pants are now midnight blue. Pumpkin glow is now cyan."
     },
     {
-      "title": "Corpse (Enemy)",
-      "score": 1,
-      "pageid": 44543,
-      "latest_revid": 556312,
-      "latest_timestamp": "2026-07-17T20:59:49Z",
-      "wikitext_excerpt": "{{SameName|Corpse|[[Corpse (Enemy)|Enemy]] • [[Corpse (Attribute)|Attribute]]}}\n{{For|[[Hex Corpse]]}}\n{{Zombie\n|title1 = Corpse\n|image1 = CorpseEnemy.png\n|mode_appearance = [[Molten Mode|{{Color|MoltenMode}}]]<br/>[[Fallen Mode|{{Color|FallenMode}}]]<br/>[[Badlands II|{{Color|WesternMode}}]]<br/>[[Pizza Party|{{Color|PizzeriaMode}}]]<br/>[[PVP|{{Color|MoltenArena}}]]<br/>[[Polluted Wasteland II|{{Color|NuclearMode}}]]{{InfoboxContainer|Events|*[[Korblox Temple|The Hunt: Mega Edition (Easy)]]\n*[[Korblox Temple|The Hunt: Mega Edition (Mega)]]\n*[[Korblox Temple|The Hunt: Mega Edition (Impossible)]]\n*[[Bathroom Approach|Ducky Revenge (Hard)]]\n*[[Sk8 P4rk|The Takeover (Master)]]\n*[[Sk8 P4rk|The Takeover (Extreme)]]\n*[[Nil Zone|Halloween 2025 Live Event]]\n*[[Backyard Beginnings|Backyard Legends Mission 1 (Hard)]]\n*[[Competition Court|Backyard Legends Mission 2 (Hard)]]\n*[[Victory Field|Backyard Legends Mission 3 (Hard)]]}}\n----\nOriginally:<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = N/A\n|base_hp = [[File:HealthIcon.png|20px|Health]]75% of spawner enemy\n|defense = {{Defense}}100%\n|speed = [[File:SpeedIcon.png|20px|Speed]]Immobile (0)\n|spawned_by = Any enemy with [[Corpse (Attribute)|Corpse]]\n|hidden = No\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Corpse}}<br/>{{Attr|Stun}}<br/>{{Attr|Burn}}<br/>Some inherited from spawner enemy\n}}\n==Description==\nThe '''Corpse''' is an enemy that only appears when spawned through the [[Corpse (Attribute)|Corpse]] attribute. Uniquely, its statistics are actually heavily based on the enemy that summoned it, instead of having its own statistics, though it does have some statistics that do not change. This is because the '''Corpse''' is not its own enemy, it is actually the enemy it spawned from with a changed display name and altered statistics.\n\nMost notably, it has 100% defense, and it has the [[Corpse (Attribute)|Corpse]], [[Stun Immunity]] and [[Burn Immunity]] attributes. Its health is 75% of the enemy that it spawned from. Additionally, some of the attributes the enemy it spawned from are also inherited. The only exception to this is [[Hidden (Attribute)|Hidden]], which is removed upon the enemy's death.\n\n==Appearance==\nThe '''Corpse''' does not have a consistent appearance, as the model it uses is based on the enemy it spawned from, though it does have certain characteristics which are consistent between them all. The '''Corpse''' is the body of the enemy it spawned from made entirely out of black molten rocks. Any images present on the enemy, such as faces, will remain on them even as a '''Corpse'''.\n\n==Strategy==\n*The '''Corpse''' is not a threatening enemy, as it cannot move to the entrance, meaning losing to it is impossible. Its main purpose is to act as a shield for enemies behind it.\n**However, it can be relatively annoying with its 100% defense and tendency to distract towers from attacking actual enemies.\n**Towers like the [[Electroshocker]] or [[Toxic Gunner]] can be used to drop its defense, as it is very high. The [[Pyromancer]] cannot be used since it has [[Burn Immunity]].\n**Towers like the [[Ranger]] or [[Mortar]] can be used to take care of any corpses that are too far away from your main defenses with their high range.\n*The '''Corpse''' is required to be killed before a match can end.\n**Waves can be skipped while only '''Corpses''' are on the path, as that still grants the wave clear bonus. Additionally, infinite waves cannot be skipped at all.\n***If you have the [[DJ Booth]], you can exploit this by repeatedly using its ''Drop The Beat'' ability on Green track to make as much cash as you want.\n*As the '''Corpse''' is technically not a unique, summoned enemy, but instead the slightly altered version of the enemy it spawned from, the [[Cowboy]] is able to generate cash from it.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Variants}}\n<gallery>\nMoltenCorpseMolten.png|First version (11 December 2024 – 12 March 2025)\n</gallery>\n\n{{GalleryHeader|Promot"
+      "title": "Cowboy/History",
+      "score": 3,
+      "pageid": 28739,
+      "latest_revid": 618582,
+      "latest_timestamp": "2026-08-18T21:36:54Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Cowboy/History|Perk = Golden Cowboy/History}}\n\n<div class=\"tower-tabber tabber-stretch\">{{Tabber\n|Regular\n|<div class{{=}}\"mw-collapsible mw-collapsed\">\n<div class{{=}}\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class{{=}}\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:WDDefaultCowboyIcon.png|100px]]\n|Unlock Cost = {{Coins|4,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|550}}\n|Footprint = 1.25\n|Sell Price = {{Money|183}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|Hidden = [[File:HiddenDetection.png|20px|Hidden Detection]]Level 3+\n|Range = [[File:Range Icon.png|20px|Range]]13\n|Lead = N/A\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|Fly = N/A\n|Title1 = Income\n|Stat1 = {{Money|20}}\n|Title2 = Cash Shot\n|Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|Title3 = Spin Time\n|Stat3 = 1.5\n|PVP Cost = {{Money|550}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|183}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]4\n|PVP Damage Type = Single\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1\n|PVP Hidden = [[File:HiddenDetection.png|20px|Hidden Detection]]Level 3+\n|PVP Range = [[File:Range Icon.png|20px|Range]]14\n|PVP Lead = N/A\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]10\n|PVP Fly = N/A\n|PVP Title1 = Income\n|PVP Stat1 = {{Money|50}}\n|PVP Title2 = Cash Shot\n|PVP Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|PVP Title3 = Spin Time\n|PVP Stat3 = 1.25\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Steady Hand|Cost = {{Money|200}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = 1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|2500}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lucky Shot|Cost = {{Money|600}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|30}} > {{Money|50}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|450}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,000}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.9 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|916}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Double Tap|Cost = {{Money|3,000}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|50}} > {{Money|125}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|1,916}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Outlawed|Cost = {{Money|7,777}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|125}} > {{Money|185}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|4,509}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Steady Hand|Cost = {{Money|200}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|250}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lucky Shot|Cost = {{Money|500}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2 Damage [[File:Damage Icon.png"
     },
     {
-      "title": "Deep Freeze",
-      "score": 1,
-      "pageid": 44728,
-      "latest_revid": 648732,
-      "latest_timestamp": "2026-09-09T22:21:09Z",
-      "wikitext_excerpt": "{{EnemyTabs}}\n{{SameName|Deep Freeze|[[Deep Freeze (Pre-MEGA)|Pre-MEGA]] • [[Deep Freeze (Village of Despair)|Village of Despair]] • [[Deep Freeze (Frost Invasion)|Frost Invasion]] • [[Deep Freeze|Modern]]}}\n{{For|the [[Freezer/Gallery|{{Color|Premium|Deep Freeze}} Freezer]] skin}}\n{{Zombie\n|title1 = Deep Freeze\n|image1 = NewDeepFreezeIcon.png\n|mode_appearance = [[Frost Mode|{{Color|FrostMode}}]]{{InfoboxContainer|Events|*[[Operation I.C.E Event|Operation I.C.E (Easy)]]\n*[[Operation I.C.E Event|Operation I.C.E (Hard)]]}}\n|first_wave_appearance = 30 (Frost)<br/>13 (Operation I.C.E Easy)<br/>17 (Operation I.C.E Hard)\n|base_hp = [[File:HealthIcon.png|20px|Health]]7,500 (Frost)<br/>[[File:HealthIcon.png|20px|Health]]6,000 (Sandbox)\n|speed = 3.4\n|cash = {{Money|900}} every 20% health\n|hidden = No \n|fly = No\n|ghost = No \n|lead = {{Attr|Lead|Yes}}\n|immunity = {{Attr|Stun}}<br/>{{Attr|Freeze}}<br/>{{Attr|Bloated}} (Variable)\n|event_base_hp = [[File:HealthIcon.png|20px|Health]]800 (Easy)<br/>[[File:HealthIcon.png|20px|Health]]2,500 (Hard)\n|event_speed = [[File:SpeedIcon.png|20px|Speed]]Average (3)\n|event_cash = {{Money|500}} every 50% health (Easy)<br/>{{Money|1,250}} every 50% health (Hard)\n|event_hidden = No\n|event_fly = No\n|event_ghost = No\n|event_lead = No\n|event_immunity = {{Attr|Freeze}}<br/>{{Attr|Bloated}} (Variable)<br/>{{Attr|Nimble}} (Variable)\n\n}}\n{{QuoteContainer|\n{{QuoteBox|They look like they're built to be front liners! I bet their job is to make an opening so they can kill us! How cool!|audio = FrostWave36-2.ogg|'''Professor V''' on Wave 30 ([[Frost Mode|Frost]])}}\n}}\n\n__TOC__\n==Description==\nThe '''Deep Freeze''' is a [[Lead (Attribute)|Lead]] enemy that appears in the [[Frost Mode|Frost]] mode. Like most of that mode's enemies, it first appeared in the [[Operation I.C.E Event]]. It has a decent amount of health and average speed. As it is a [[Lead (Attribute)|Lead]] enemy, only towers with lead detection can damage it. Additionally, it also has the [[Stun Immunity]], making it harder to stall.\n\n==Logbook Description==\n\"''The Deep Freeze is a formidable addition to the Frost Army. These slow but sturdy creatures clear paths for smaller units. Protected by reinforced armor as they travel the battlefield, Deep Freezes are natural frontline leaders in combat.''\"\n\n==Appearance==\nThe '''Deep Freeze''' is a creature protected with pieces of reinforced armor, covering up its entire body. This armor is grey and dark grey with a few blue spikes coming out of it on its shoulders and the helmet. It also has visible fingers on its armor. Upon its death, it will fall to the ground and its helmet will fall of, revealing its black head and blue horns.\n\n==Strategy==\n*As the '''Deep Freeze''' spawns with [[Lead (Attribute)|Lead]], towers with lead detection like the [[Accelerator]], [[Ranger]], [[Turret]] and [[Pursuit]] are required here.\n**Unit collisions has lead detection by default. This means towers which normally do not have lead detection, like the [[Necromancer]] or most [[Mercenary Base]] units, can damage it through collisions.\n*The [[Firework Technician]] can be used to give towers which cannot damage it lead detection.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Animations}}\n<gallery>\nDeepFreezeWalk.gif|Walking animation (16 December 2024 – Present)\nDeepFreezeDeath.gif|Death animation (3 December 2025 – Present)\n</gallery>\n\n{{GalleryHeader|Corpse Variants}}\n<gallery>\nCorpseDeepFreeze.png|Second [[Corpse (Enemy)|Corpse]] variant, current version (3 December 2025 – Present)\n</gallery>\n\n{{GalleryHeader|Thumbnails}}\n<gallery>\nFrostModeReworkBanner.png|'''Deep Freeze''' on the game thumbnail.\n</gallery>\n\n{{GalleryHeader|Promotional Videos}}\n<gallery>\nPulse Trooper Trailer - Tower Defense Simulator|'''Deep Freeze''' on a promotional video.\n</gallery>\n\n{{GalleryHeader|Miscellaneous}}\n<gallery>\nDeepFreezeIconIG.png|'''Deep Freeze''' on its [[Index]] icon.\n</gallery>\n}}\n\n==Trivia==\n*The '''Deep Freeze's''' death animation was original"
+      "title": "Golden Body Guard",
+      "score": 3,
+      "pageid": 30804,
+      "latest_revid": 414874,
+      "latest_timestamp": "2026-05-05T13:50:03Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guards 1]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guard]]}}\n{{UnitInfobox\n|title1 = Golden Body Guard\n|image1 = GBodyGuard.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]50s (Level 1)<br/>[[File:VehicleSpawn.png|20px|Spawnrate]]40s (Level 2)\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.625\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guard''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 1 or Level 2. In the game, the '''Golden Body Guard''' was referred to as just '''Body Guard''', though it has been referenced here as '''Golden Body Guard''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moves towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guard''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guard''' had a spawnrate of 50 seconds, 40 seconds if the [[Golden Crook Boss]] was Level 2.\n\nThere was a limit of one unit per [[Golden Crook Boss]] at Levels 1 and 2, limiting the amount of '''Golden Body Guards''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guard''' had pale skin. It had black legs, and wore brown cotton gloves, a black buttoned tuxedo with short yellow sleeves that had dark brown outlines and grey shoes. It also wore a black necktie and was faceless. It also had a yellow briefcase on its back. The '''Golden Body Guard''' wielded a [[wp:Luger pistol|Luger P08]] in its right hand.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guard''' because of its slow spawnrate.\n*You will need to wait 50 seconds for a '''Golden Body Guard''' to spawn if you place down a [[Golden Crook Boss]] and immediately upgrade it to Level 1.\n*The '''Golden Body Guard''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]]. However, this is not recommended due to the low health of the '''Golden Body Guard'''.\n**Do note that the '''Golden Body Guard's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guard''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guard''' collides with them. However, this is likely unfavorable as the '''Golden Body Guard's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guard''' hidden detection.\n**The '''Golden Body Guard''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guard''' will spawn per Level 1 or 2 [[Golden Crook Boss]].\n**Like other units, the '''Golden Body Guard''' will go down a random path.\n*The '''Golden Body Guard''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guard''' without taking much damage from its ranged attack.\n*The '''Golden Body Guard''' is not affected by any buff or debuff as it is a unit.\n*The '''Golden Body Guard''' will struggle against any enemy with abilities that damage units due to its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guard''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*The '''Golden Body Guard''' was duplicated for the Level 3 [[Golden Crook Boss]] [[Units|unit]], the [[Golden Body Guards 1]], though there are minor differences in appearan"
     },
     {
-      "title": "Deep Freeze (Frost Invasion)",
-      "score": 1,
-      "pageid": 24194,
-      "latest_revid": 539201,
-      "latest_timestamp": "2026-07-07T15:34:32Z",
-      "wikitext_excerpt": "{{SameName|Deep Freeze|[[Deep Freeze (Pre-MEGA)|Pre-MEGA]] • [[Deep Freeze (Village of Despair)|Village of Despair]] • [[Deep Freeze (Frost Invasion)|Frost Invasion]] • [[Deep Freeze|Modern]]}}\n{{EventSandboxOnly|date=the 4th of December 2021|event=[[Frost Invasion Event]]}}\n{{For|the [[Freezer/Gallery|{{Color|Premium|Deep Freeze}} Freezer]] skin}}\n{{Zombie\n|title1 = Deep Freeze\n|image1 = Deepfreezeoutpost.png\n|mode_appearance = [[Sandbox Mode|Sandbox]] via [[Logbooks]]\n----\nOriginally:<br/>[[Frost Invasion Event|Frost Invasion]]\n|first_wave_appearance = 12 (Originally)\n|base_hp = [[File:HealthIcon.png|20px|Health]]5,000\n|speed = [[File:SpeedIcon.png|20px|Speed]]Slightly Slow (2)\n|defense = {{Defense}}50%\n|hidden = No\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Freeze}}\n}}\n__TOC__\n\n==Description==\nThe '''Deep Freeze''' was an enemy that appeared exclusively in [[Outpost 32 (Frost Invasion)|Outpost 32]] as part of the [[Frost Invasion Event]]. It can now only appear in [[Sandbox Mode|Sandbox]] mode. It had a high amount of health, but walked slowly. It also had 50% [[defense]] which reduced most forms of damage. The '''Deep Freeze''' could not be frozen as it had [[Freeze Immunity]].\n\n==Appearance==\nThe '''Deep Freeze''' has baby blue skin, and white snow textured torso and legs. A tumor can be seen on its head. White spikes can be seen coming out of its shoulders. White ice chunks can be seen sticking out of its arms and legs. Its head is slightly tilted downwards and had a twisted left leg.\n\n==Event Strategy==\nAs this enemy only appears through [[Sandbox Mode|Sandbox]] mode, no strategy section is made for its current version. Instead, a strategy section for the one that appeared without [[Sandbox Mode|Sandbox]] mode in [[Outpost 32 (Frost Invasion)|Outpost 32]] is listed instead.\n*You should use high DPS towers, like the [[Accelerator]], [[Ranger]], [[Minigunner]] or [[Turret]], to defeat the '''Deep Freeze'''.\n**However, be aware that due to the 50% [[defense]], it will take longer than normal to defeat the '''Deep Freeze'''.\n**You may want to use the [[Commander]]'s ''Call to Arms'' ability to boost the firerate of these towers.\n*[[Defense]] is ignored by splash damage, meaning that towers and [[units]] that deal splash damage will do 100% damage if the '''Deep Freeze''' is caught in the epicenter.\n**This makes towers like the [[Rocketeer]] and [[Mortar]] very useful against the '''Deep Freeze'''.\n**Upon collision, [[units]], like the [[Railgun Tank]], will ignore [[defense]] and deal full collision damage towards the '''Deep Freeze'''.\n*As the '''Deep Freeze''' has quite high defense, you can use a Level 2 [[Pyromancer]] to lower its defense, allowing your towers to deal more damage to it.\n**Additionally, as with all enemies in the [[Frost Invasion Event]], the [[Pyromancer]] deals double fire damage to the '''Deep Freeze''' (though normal damage is not doubled).\n**You can also use other defense dropping towers, like the [[Electroshocker]] or [[Freezer]]. However, these are more expensive and less effective as they only drop 20% defense.\n*The '''Deep Freeze''' cannot be frozen by the [[Freezer]], [[Frost Blaster]] or [[Sledger]].\n**If you want to slow the '''Deep Freeze''' down, then you must use the [[Electroshocker]] or [[Toxic Gunner]].\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Corpse Variants}}\n<gallery>\nCorpseLegacyDeepFreeze.png|Second [[Corpse (Enemy)|Corpse]] variant, current version (12 March 2025 – Present)\n</gallery>\n\n{{GalleryHeader|Trailers}}\n<gallery>\nTower Defense Simulator Frost Invasion Trailer|'''Deep Freeze''' in the game trailer.\n</gallery>\n\n{{GalleryHeader|Miscellaneous}}\n<gallery>\nFrostInvasionDeepFreezeIconIG.png|'''Deep Freeze''' on its [[Index]] icon.\n</gallery>\n}}\n\n==Trivia==\n*This version of the '''Deep Freeze''' was quite similar to the [[Deep Freeze (Village of Despair)|Deep Freeze]] from [[Village of Despair]] in appearance.\n**Another version of the [[Deep Freeze (Pre-MEGA)|Deep Freeze]"
+      "title": "Golden Body Guards 1",
+      "score": 3,
+      "pageid": 30805,
+      "latest_revid": 414873,
+      "latest_timestamp": "2026-05-05T13:49:39Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guards 1]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GBodyGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoids\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]40s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]3\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guards 1''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 3. In the game, the '''Golden Body Guards 1''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 1''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 1''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 1''' had a spawnrate of 40 seconds.\n\nThere was a limit of two units per [[Golden Crook Boss]] at Level 3, limiting the amount of '''Golden Body Guards 1s''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guards 1''' were made up of two humanoids that were nearly identical to each other. They had pale skin, black pants, brown cotton gloves, a black buttoned tuxedo with a golden shirt underneath and grey shoes. One of them also wore a blue necktie, while the other a red necktie, and were faceless. One of them also had a yellow briefcase on its back. The '''Golden Body Guards 1''' wield a [[wp:Luger pistol|Luger P08]] in their right hands.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 1''' because of its slow spawnrate.\n*You will need to wait 40 seconds for a '''Golden Body Guards 1''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 3.\n*The '''Golden Body Guards 1''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 1's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 1''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 1''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 1's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 1''' hidden detection.\n**The '''Golden Body Guards 1''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 1''' will spawn per Level 3 [[Golden Crook Boss]].\n**The '''Golden Body Guards 1''' will go down a random path.\n*The '''Golden Body Guards 1''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''GoldenBody Guard 2''' without taking much damage.\n*The '''Golden Body Guards 1''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 1''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 1''' is caught in the attack, it is instantly killed.\n\n==Update History==\n{{scroll|text =\n*'''13 May 2022''' - [[v1.2.2]]\n**'''GoldenGuard2''' added.\n**{{Bug}} '''GoldenGuard2's''' range can be increased by the [[DJ Booth]].\n**{{Bug}} '''GoldenGuard2''' uses an incorrect name in-game.\n**{{Bug}} You can collide with the '''GoldenGuard2's''' briefcase.\n*'''21 May 2022'"
     },
     {
-      "title": "Deep Freeze (Pre-MEGA)",
-      "score": 1,
-      "pageid": 893,
-      "latest_revid": 539203,
-      "latest_timestamp": "2026-07-07T15:38:28Z",
-      "wikitext_excerpt": "{{SameName|Deep Freeze|[[Deep Freeze (Pre-MEGA)|Pre-MEGA]] • [[Deep Freeze (Village of Despair)|Village of Despair]] • [[Deep Freeze (Frost Invasion)|Frost Invasion]] • [[Deep Freeze|Modern]]}}\n{{Removed|date = 13th of October 2019}}\n{{For|the [[Freezer/Gallery|{{Color|Premium|Deep Freeze}} Freezer]] skin}}\n{{Zombie\n|title1 = Deep Freeze\n|image1 = DeepFreeze1.png\n|first_wave_appearance = 63\n|base_hp = [[File:HealthIcon.png|20px|Health]]3,500\n|speed = [[File:SpeedIcon.png|20px|Speed]]Below Average\n|hidden = No\n|immunity = {{Attr|Basic Freeze}}\n}}\n__TOC__\n==Description==\nThe '''Deep Freeze''' was an ice elemental [[Enemies|enemy]]. Compared to the [[Frozen (Pre-MEGA)|Frozen]], the '''Deep Freeze''' was slightly slower, but it had more health. The '''Deep Freeze''' was immune to the [[Freezer]]'s basic freeze, but not its ''Ice Drop''.\n\n==Appearance==\n{{Tabber\n|Version 2\n|The second version of the '''Deep Freeze''' had sky blue skin and was faceless. Its torso and legs were marble blue. It also had rusty blue armbands. A tumor could be seen on the '''Deep Freeze's''' head.\n|Version 1\n|This version of the '''Deep Freeze''' had blue skin and was faceless. Its torso and legs were black ice. It also had rusty blue armbands. A tumor could be seen on the '''Deep Freeze's''' head.\n}}\n\n==Strategy==\n*[[Rocketeer|Rocketers]] and [[Demoman|Demomen]] can easily wipe out hordes of '''Deep Freezes'''.\n**The [[Ranger|Outlaw]], with the [[Commander]]'s [[Firerate Buff]], can also be helpful in defeating this.\n*The [[Pyromancer]] can be used to slow the '''Deep Freeze''' down to allow your towers more time to kill it.\n*Despite being an ice elemental enemy, this can be frozen by the [[Freezer]]'s ''Ice Drop'' ability.\n**However, the [[Freezer]] cannot freeze the '''Deep Freeze''' with its normal attack.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Variants}}\n<gallery>\nDeepFreeze-0.png|First version (15 August 2019)\n</gallery>\n\n{{GalleryHeader|Development Images}}\n<gallery>\nOldEnemiesLeak.png|'''Deep Freeze''' on a development image.\nFrostEnemiesEarlyDI.png|'''Deep Freeze''' on a development image.\n</gallery>\n}}\n\n==Trivia==\n*While enemies that used the same name as the '''Deep Freeze''' appeared in [[Village of Despair]] and [[Outpost 32 (Frost Invasion)|Outpost 32]], they had very little in common with this variant of the '''Deep Freeze'''.\n*The '''Deep Freeze''' had the quickest appearance change in the entire game, with its appearance being changed later the same day it was added.\n\n==Update History==\n*'''15 August 2019''' - [[BETA v1.10|BETA v1.10.0]]\n**'''Deep Freeze''' added.\n**{{Bug}} '''Deep Freeze''' does not have [[Freeze Immunity|Basic Freeze Immunity]].\n*'''15 August 2019''' - [[BETA v1.10|BETA v1.10.0a]]\n**Appearance changed.\n**{{Bugfix}} Now has the [[Freeze Immunity|Basic Freeze Immunity]].\n*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]\n**'''Deep Freeze''' removed.\n\n\n{{Insane|[[Frozen (Pre-MEGA)|Frozen]]|Wave 61|Deep Freeze|Wave 63|[[Frost Hero (Pre-MEGA)|Frost Hero]]|Wave 66}}\n\n\n\n{{ZombieNavBox}}\n{{DISPLAYTITLE:Deep Freeze}}"
+      "title": "Golden Body Guards 2",
+      "score": 3,
+      "pageid": 30806,
+      "latest_revid": 414872,
+      "latest_timestamp": "2026-05-05T13:49:28Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 1]]|its normal counterpart, the [[Body Guards 2]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]50\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]35s\n|damage_type = Single<br/>Collision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]4\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.175\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Body Guards 2''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 4. In the game, the '''Golden Body Guards 2''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 2''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 2''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 2''' had a spawnrate of 35 seconds.\n\nThere was a limit of three units per [[Golden Crook Boss]] at Level 4, limiting the amount of '''Golden Body Guards 2s''' it could spawn.\n\n==Appearance==\n<tabber>\n|-|First Body Guard =\nThe body guard to the left of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a red necktie, grey shades, black fedora with a red stripe, grey shoes and brown cotton gloves. It was faceless. The body guard wielded an [[wp:Thompson submachine gun|M1A1 Thompson]].\n|-|Second Body Guard =\nThe body guard to the right of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a blue necktie, grey shades, and grey shoes. It has a brown beard. It is also faceless. The body guard wields an [[wp:Thompson submachine gun|M1A1 Thompson]].\n</tabber>\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 2''' because of its slow spawnrate.\n*You will need to wait 35 seconds for a '''Golden Body Guards 2''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 4.\n*The '''Golden Body Guards 2''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 2's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 2''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 2''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 2's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 2''' hidden detection.\n**The '''Golden Body Guards 2''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 2''' will spawn per Level 4 [[Golden Crook Boss]].\n**The '''Golden Body Guards 2''' will go down a random path.\n*The '''Golden Body Guards 2''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guards 2''' without taking much damage.\n*The '''Golden Body Guards 2''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 2''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 2''' is caught in the attack, it is instantly killed.\n\n==U"
     },
     {
-      "title": "Deep Freeze (Village of Despair)",
-      "score": 1,
-      "pageid": 22915,
-      "latest_revid": 539202,
-      "latest_timestamp": "2026-07-07T15:38:14Z",
-      "wikitext_excerpt": "{{SameName|Deep Freeze|[[Deep Freeze (Pre-MEGA)|Pre-MEGA]] • [[Deep Freeze (Village of Despair)|Village of Despair]] • [[Deep Freeze (Frost Invasion)|Frost Invasion]] • [[Deep Freeze|Modern]]}}\n{{EventEnded|date=26th of January 2020|event=[[Christmas 2019 Event]]}}\n{{For|the [[Freezer/Gallery|{{Color|Premium|Deep Freeze}} Freezer]] skin}}\n{{Zombie\n|title1 = Deep Freeze\n|image1 = DeepFreeze0.png\n|first_wave_appearance = 9\n|mode_appearance = [[Christmas 2019 Event|Christmas 2019]]\n|base_hp = [[File:HealthIcon.png|20px|Health]]2,000\n|speed = [[File:SpeedIcon.png|20px|Speed]]Slow\n|spawned_by = [[Krampus (Village of Despair)|Krampus]]\n|hidden = No\n|immunity = {{Attr|Freeze}}\n}}\n{{QuoteContainer|{{QuoteBox|Something huge lurks in the distance...|Beginning of Wave 9 ([[Village of Despair]])}}}}\n__TOC__\n==Description==\nThe '''Deep Freeze''' was an ice elemental enemy. It appeared in [[Village of Despair]] as part of the [[Christmas 2019 Event]].\n\nFor its debut, the '''Deep Freeze''' had a high amount of health, higher than the [[Frozen (Village of Despair)|Frozen]]. However, it walked quite slowly. The '''Deep Freeze''' could not be frozen by the [[Freezer]] and [[Frost Blaster]] as it had [[Freeze Immunity]].\n\nThe '''Deep Freeze''' could also have been spawned by [[Krampus (Village of Despair)|Krampus]].\n\n==Appearance==\nThe '''Deep Freeze''' was larger than the [[Frozen (Village of Despair)|Frozen]]. It had blue skin, and its torso and legs were white marble. The '''Deep Freeze'''  also had a spiky neckguard, while its back was also spiky. White ice chunks could be seen sticking out of the '''Deep Freeze's''' arms and legs. On the side of its head, a tumor could be seen.\n\n==Strategy==\n*The '''Deep Freeze''' is the first high health enemy you encounter in [[Village of Despair]]. Make sure you have enough [[Minigunner]]s and [[Ranger|Outlaws]] to deal with this.\n**A [[Commander]] may also be required when you first encounter this.\n*The '''Deep Freeze''' is slower than the [[Snowman (Village of Despair)|Snowman]] and [[Burnt Gingerbread]], meaning that those enemies can pass the '''Deep Freeze''' and act as a shield.\n**In this case, it is best to have a [[Rocketeer]] on hand to defeat the weaker enemies.\n*The '''Deep Freeze''' is completely immune to the [[Freezer]] and [[Frost Blaster]], including the [[Freezer]]'s ''Ice Age''.\n**If you want to slow it down, then you can use the [[Pyromancer]].\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Thumbnails}}\n<gallery>\nChristmas2019Thumb.jpg|'''Deep Freeze''' on the game thumbnail.\n</gallery>\n}}\n\n==Trivia==\n*While an enemy existed before the [[Release v1.0|MEGA Update]] that was also called [[Deep Freeze (Pre-MEGA)|Deep Freeze]], it had very little in common with this variant of the '''Deep Freeze'''.\n**The [[Deep Freeze (Frost Invasion)|Deep Freeze]] that appeared in [[Outpost 32 (Frost Invasion)|Outpost 32]] had a very similar appearance to this version of the '''Deep Freeze'''.\n\n==Update History==\n*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]\n**'''Deep Freeze''' added.\n*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]\n**'''Deep Freeze''' removed.\n\n\n{{VillageOfDespair|[[Burnt Gingerbread]]|Wave 7|Deep Freeze|Wave 9|[[Papa Bread (Village of Despair)|Papa Bread]]|Wave 10}}\n\n\n\n{{ZombieNavBox}}\n{{DISPLAYTITLE:Deep Freeze}}"
+      "title": "Golden Crate",
+      "score": 3,
+      "pageid": 2968,
+      "latest_revid": 627849,
+      "latest_timestamp": "2026-08-26T15:26:19Z",
+      "wikitext_excerpt": "{{For|[[Platinum Crate]]|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{CrateInfobox\n|title1 = {{Color|Golden|Golden Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:GoldenSkincrateIcon.png]]\n|-|In-Game = [[File:GoldenCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost = 50,000\n|sale = Yes\n|contains = 7\n|rarity = {{Color|Golden}}\n|rarities = {{Color|Golden}}\n|music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier, Demoman|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|A crate for the most prestigious players.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Golden Crate''' is a futuristic crate with a sleek design and multiple neon yellow lights on it. On the front, it has a small card reader and a number pad. The top of the crate opens up in a futuristic fashion, with the left and right side respectively sliding to the left and right, revealing a pile of coins inside.\n|Second\n|The crate was larger than the [[Basic Crate]]. It was more smooth and sleek, and appeared to open up like a futuristic crate. There was a card reader attached to it.\n|First\n|The crate looked exactly like the [[Platinum Crate]], except that it was yellow in color.\n}}\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:GoldenScout3.png|175px]]\n|[[File:NewGoldenCrookBoss.png|175px]]\n|[[File:DHGoldenPyroIcon.png|175px]]\n|[[File:Goldenminigunner.png|175px]]\n|-\n!Golden Perk\n|[[Golden Scout]]\n|[[Golden Crook Boss]]\n|[[Golden Pyromancer]]\n|[[Golden Minigunner]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|55,000}}\n|{{Coins|55,000}}\n|{{Coins|65,000}}\n|{{Coins|75,000}}\n|-\n!Tower\n|[[Scout]]\n|[[Crook Boss]]\n|[[Pyromancer]]\n|[[Minigunner]]\n|-\n!\n|[[File:WDGoldenCowboyIcon.png|175px]]\n|[[File:KR Golden Soldier Icon.png|175px]]\n|[[File:GoldenDemoman0.png|175px]]\n|-\n!Golden Perk\n|[[Golden Cowboy]]\n|[[Golden Soldier]]\n|[[Golden Demoman]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|70,000}}\n|{{Coins|50,000}}\n|{{Coins|55,000}}\n|-\n!Tower\n|[[Cowboy]]\n|[[Soldier]]\n|[[Demoman]]\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Appearance}}\n<gallery>\nGoldenCrateInGame.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Crate Icons}}\n<gallery>\nGold Crate.png|First version (13 October 2019 – 29 October 2020)\nGoldenSkincrateOld.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Thumbnails}}\n<gallery>\nGoldenCrateThumbnail.png|Second version on the game thumbnail.\n</gallery>\n}}\n\n==Trivia==\n*The current design of the '''Golden Crate''' is likely based on the [[w:c:saszombieassault:Strongbox#8|Nantonium Strongbox]] from ''SAS: Zombie Assault 4''.\n*The '''Golden Crate''' is currently the only item in the game that gives a buff to a tower outside"
     },
     {
-      "title": "Defense",
-      "score": 1,
-      "pageid": 21503,
-      "latest_revid": 495331,
-      "latest_timestamp": "2026-06-17T01:52:27Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Defense.png\n|type = Damage Reduction\n}}\n\n==Description==\n'''Defense''' is a status value given to certain enemies and units. Enemies may spawn with this naturally, or be granted this through a litany of means.\n\n==Mechanics==\nThere are two types of defense statistic. The main defense statistic is ''Percentage Defense'' which is used to calculate ''Effective Damage''.\n\n''Percentage Defense'' is the actual defense percentage you see on an enemy or unit. However, this does not mean that if an enemy has 50% defense damage dealt towards it will be decreased 50%. In reality, the number listed is far closer to the percentage of additional health that '''Defense''' gives it.\n\n''Effective Damage'' is the actual damage dealt towards an enemy by a tower once ''Percentage Defense'' is applied. ''Effective Damage'' is calculated by calculating\n\n::<big>'''Original Damage ÷ (1 + Percentage Defense)'''</big>\n\nwhere ''Percentage Defense'' is changed from a percentage into its equivalent decimal number (for instance, 50% would be 0.5 in decimal form). For example, a tower that deals 100 damage attacking an enemy with 50% defense would deal 67 damage as 100 ÷ (1 + 0.5) = 66.67 to two decimal places. Due to ''Effective Damage'' always being rounded up to the nearest integer, 66.67 rounds up to 67. Prior to the [[v1.1.0|Entity System Update]], ''Effective Damage'' was always rounded down to the nearest integer.\n\nUnit defense works identically to enemy defense, reducing damage from enemy abilities and collision.\n\nA list of certain ''Percentage Defense'' values and how much damage they actually reduce has been provided below. This is not a comprehensive list and the values may not be fully accurate due to how the game rounds up the damage, making the values occasionally lower.\n{| class=\"wikitable pad-5\" style=\"text-align: center; margin: 1em auto;\"\n!Percentage Defense\n!Damage Reduced\n|-\n|10%\n|9.09%\n|-\n|15%\n|13.04%\n|-\n|20%\n|16.67%\n|-\n|25%\n|20%\n|-\n|35%\n|25.93%\n|-\n|40%\n|28.57%\n|-\n|50%\n|33.33%\n|-\n|60%\n|37.5%\n|-\n|80%\n|44.44%\n|-\n|100%\n|50%\n|-\n|150%\n|60%\n|-\n|200%\n|66.67%\n|-\n|300%\n|75%\n|}\n\n===Countering Defense===\n'''Defense''' can reduce the damage output of most towers significantly.\n\nThere are a couple of towers and consumables that can melt the ''Percentage Defense'' value of enemies, allowing your towers to deal more damage. A few certain towers can also ignore defense. There are two types of defense melting towers. The first has them decrease ''Total Defense'' by a certain percentage. However, if the [[Pyromancer]], which melts defense by 50%, is decreasing defense of [[Fallen Hero]], which has 50% defense, this does not mean its defense will be lowered to 0%. Instead, it is decreased by 25% defense, as which is 50% of 50% defense. The defense removal can stack, so the [[Pyromancer]] and [[Electroshocker]] can together remove 70% ''Percentage Defense'', but two [[Pyromancer]]s cannot remove 100% ''Percentage Defense''. Instead, only 50% ''Percentage Defense'' can be melted. Additionally, defense melting from burn cannot stack with other burn towers, freeze defense melting cannot stack with other freeze towers and poison defense melting cannot stack with other poison towers.\n\nThe second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%.\n\nBoth forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%.\n\nMost "
+      "title": "Golden Crook",
+      "score": 3,
+      "pageid": 9752,
+      "latest_revid": 467750,
+      "latest_timestamp": "2026-06-05T07:32:21Z",
+      "wikitext_excerpt": "{{Removed|date=13th of May 2022}}\n{{for|its default variants, [[Body Guard]], [[Body Guards 1]], [[Golden Body Guard]], [[Golden Body Guards 1]], other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{UnitInfobox\n|title1 = Golden Crook\n|image1 = <tabber>\n|-|Version 2 = [[File:NewGoldenCrook.png]]\n|-|Version 1 = [[File:GoldenCrook.png]]\n</tabber>\n|source = [[Crook Boss|{{Color|Golden}} Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]25\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]60s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Crook''' was a [[Units|unit]] spawned by the [[Crook Boss|{{Color|Golden}} Crook Boss]] at Levels 2-3. The '''Golden Crook''' was essentially a re-skin of the [[Crook]], as it had similar appearance and stats, but had very little in common with the [[Body Guard]] and [[Body Guards 1]]. Like other [[units]], it started from the end of the map path and moved towards the entrance of the map. The '''Golden Crook''' had a spawnrate of 60 seconds.\n\nWhenever there was an enemy in its range, the '''Golden Crook''' would stop moving to shoot at the enemy. It would continue walking when there were no enemies left in its range.\n\nThere was a limit of 3 units per [[Crook Boss|{{Color|Golden}} Crook Boss]], limiting the amount of '''Golden Crooks''' it could spawn.\n\n==Appearance==\n{{Tabber\n|Version 2\n|The '''Golden Crook''' had tan skin, black pants, dark grey shoes, yellow torso with black and yellow stripes, and yellow sleeves. It had a smile face. It wore a yellow beanie. It carried a golden [[wp:Uzi|UZI]] in its right hand to shoot at enemies. Yellow sparkles came out from its UZI.\n|Version 1\n|The original '''Golden Crook''' had yellow skin, black legs, yellow torso with black and yellow stripes, yellow sleeves, and a mischievous face. It wore a yellow and black striped headband. Yellow sparkles came out from its headband and a golden aura came out of its torso. It carried a golden [[wp:Uzi|UZI]] to shoot at enemies.\n}}\n\n==Strategy==\n*You should not rely too much on '''Golden Crooks''' because of their slow spawnrate.\n*The '''Golden Crook''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Crook''' collides with them. However, this is likely unfavorable as the '''Crook's''' main source of damage is ranged.\n**The [[Ace Pilot]] cannot give the '''Golden Crook''' hidden detection.\n*On two-pathed maps, only one '''Golden Crook''' will spawn per Level 2 [[Crook Boss|{{Color|Golden}} Crook Boss]]. It will go down a random path.\n*The '''Golden Crook''' cannot collide with ghost enemies, like the [[Soul]].\n*The '''Golden Crook''' will struggle against fast enemies like the [[Error]] or [[Glitch]], as they can run into '''Golden Crooks''' without taking much damage.\n*The range of the '''Golden Crook''' can be increased by the [[DJ Booth]], as long as the [[Crook Boss|{{Color|Golden}} Crook Boss]] that spawned it is in range of the [[DJ Booth]].\n**The '''Golden Crook''' cannot be affected by any other buffs or debuffs, such as [[Commander]]'s [[Firerate Buff]] or [[Ace Pilot]]'s ability to grant hidden detection.\n*The '''Golden Crook''' will struggle against any enemy with abilities that damage units, as their health is lower than any amount of damage that these enemies deal.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Crook''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*Only the [[Crook Boss|{{Color|Golden}} Crook Boss]] spawned '''Golden Crooks''' instead of [[Body Guard]]/[[Body Gu"
     },
     {
-      "title": "Elite Lead",
-      "score": 1,
-      "pageid": 61544,
-      "latest_revid": 614783,
-      "latest_timestamp": "2026-08-15T21:31:57Z",
-      "wikitext_excerpt": "{{EnemyTabs}}\n{{Improve|Missing strategy}}\n{{For|other uses of [[Elite (Disambiguation)|Elite]], [[Lead Boss]], the [[Lead (Attribute)|Lead]] attribute or the [[Lead]] enemy}}\n{{Zombie\n|title1 = Elite Lead\n|image1 = <tabber>\n|-|With Covering = [[File:EliteLead1.png]]\n|-|Without Covering = [[File:EliteLead2.png]]\n</tabber>\n|mode_appearance = [[Hardcore Mode|{{Color|HardcoreMode}}]]<br/>[[Voidcore Mode|{{Color|VoidcoreMode|Voidcore}}]]\n|first_wave_appearance = 16 (Hardcore)<br/>17 (Voidcore)\n|base_hp = [[File:HealthIcon.png|20px|Health]]400 (Hardcore)<br/>[[File:HealthIcon.png|20px|Health]]650 (Voidcore)<br/>[[File:HealthIcon.png|20px|Health]]600 (Sandbox)\n|shield_hp = [[File:ShieldHealth.png|20px|Shield Health]]150\n|speed = [[File:SpeedIcon.png|20px|Speed]]Average (3, with coverings)<br/>[[File:SpeedIcon.png|20px|Speed]]Slightly Fast (5, without coverings)\n|cash = {{Money|200}} on death\n|spawned_by = [[Void Keeper]]\n|hidden = No\n|fly = No\n|ghost = No\n|lead = {{Attr|Lead|Yes}} (With covering)\n|immunity = {{Attr|Stun}} (With covering)<br/>{{Attr|Blessed}} (Variable)<br/>{{Attr|Bloated}} (Variable)\n}}\n\n==Description==\nThe '''Elite Lead''' is a tanky [[Lead (Attribute)|Lead]] enemy that appears in [[Hardcore Mode|Hardcore]] and [[Voidcore Mode|Voidcore]] modes. It has high health and average speed. It initially spawns with [[Lead (Attribute)|Lead]], meaning only towers with lead detection can damage it, and with the [[Stun Immunity]], meaning stuns are less effective on it while knockback does not affect it. However, once it loses all of its [[Shield Health]], it will lose its covering and also the [[Lead (Attribute)|Lead]] and [[Stun Immunity]] attributes it has by default. To compensate however, it will increase its speed to 5 once all of its coverings are lost.\n\n==Logbook Description==\n\"''Taking the same concept as the Lead, the Elite Lead are Swifts who have fallen victim to the same process as the Odds. Though, more careful consideration was taken for their armor due to mobility reasons.''\"\n\n==Appearance==\nThe '''Elite Lead''' is a humanoid entirely covered with grey metal armor. Upon losing all of its [[Shield Health]], it will lose its metal coverings, revealing that it is an entity with grey skin, purple substance on its hands and purple veins. In its torso, it has a giant hole with a purple crystal.\n\n==Strategy==\n*The '''Elite Lead''' has the [[Lead (Attribute)|Lead]] attribute until its shield health is depleted.\n**Towers with lead detection like the [[Engineer]] and [[Accelerator]] are required for dealing with the '''Elite Lead'''.\n\n==Gallery==\n{{Gallery|{{GalleryHeader|Trailers}}\n<gallery>\nHardcore Rework Trailer - Tower Defense Simulator|'''Elite Lead''' in the game trailer.\n</gallery>\n\n{{GalleryHeader|Concept Art}}\n<gallery>\nEliteLeadCA.png|'''Elite Lead''' on its concept art.\n</gallery>\n\n{{GalleryHeader|Miscellaneous}}\n<gallery>\nModernEliteLeadIconIG.png|'''Elite Lead''' on its [[Index]] icon.\n</gallery>\n}}\n\n==Trivia==\n*The '''Elite Lead''' is unaffected by enemy appearance [[modifiers]], such as [[Talk Like a Pirate Day]].\n\n==Update History==\n*'''5 June 2026''' - [[v2.0.0]]\n**'''Elite Lead''' added, replacing the [[Lead Boss]].\n\n\n{{Hardcore|[[Lead]]|Wave 14|Elite Lead|Wave 16|[[Mystery]]|Wave 17}}\n{{Voidcore|[[Lead]]|Wave 13|Elite Lead|Wave 15|[[Mystery]]|Wave 16}}\n\n\n\n{{ZombieNavBox}}\n[[Category:Early-Game]]"
-    },
-    {
-      "title": "Flying",
-      "score": 1,
-      "pageid": 42529,
-      "latest_revid": 639555,
-      "latest_timestamp": "2026-09-03T13:25:42Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Fly.png\n|type = Enemy Type\n|detection = Flying Detection\n|immunities = [[File:VehicleSpawn.png|20px|Collision Damage]]Collision Damage<br/>[[File:TrapperLevel1.png|20px|Road Hazards|link=]]Road Hazards<br/>{{Knockback}}Knockback\n|sandbox = Yes\n|tag = {{AttrTag|Second|Fly.png|Flying}}\n}}\n==Description==\n'''Flying''' is an enemy type that makes the enemy fly above the path, making them avoid being damaged by most things on the path. Towers need flying detection to target these enemies.\n\n==Mechanics==\n'''Flying''' enemies fly above the path, which grants them multiple perks. The main immunity that it grants is requiring flying detection to target them, making it difficult for towers without said detection to damage a '''Flying''' enemy.\n\n'''Flying''' enemies have various other unique immunities that are applied, outside of flying detection:\n\n# They are completely immune to being damaged by unit collision damage, even if they would normally collide with each other.\n#*This includes the [[Gift Bomber]], which cannot collide with '''Flying''' enemies, despite visually passing through '''Flying''' enemies.\n#*Some units, like the [[Rifleman]] or [[Missile APC]], can detect flying enemies, even if they cannot collide with them.\n#They are able to fly over road hazards, namely the [[Trapper]]'s traps and the [[Harvester]]'s thorns (and by extension the [[Farm]]'s).\n#*The [[Commando]]'s missiles, can still affect them.\n#*The [[Barricade]] can collide with '''Flying''' enemies, but they deal unit collision damage. Therefore, '''Flying''' enemies are also immune to this.\n#They are immune to being knocked back by towers. This does not mean they are immune to other effects from attacks that knock back enemies.\n#*For example, the [[DJ Booth]] can still slow down '''Flying''' enemies, even if the purple track cannot knock them back.\n\n'''Flying''' enemies may be indirectly damaged by towers, even if they do not have flying detection. For example, the [[Brawler]]'s ''Reposition'' ability deals damage to '''Flying''' enemies, though due to their knockback immunity it does not knock them back.\n\nIf an enemy is applied the '''Flying''' attribute through [[Sandbox Mode|Sandbox]] mode, and they do not typically have the attribute, all of the said immunities apply to the enemy, even if they visually remain on the ground.\n\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Flying Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\">From Level 0+, its splash damage can indirectly damage '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Demoman]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 4\n|-\n|[[Soldier]] \n| class=\"yes-table\" |Full\n|Level 4<br/>Level 0+ ([[PVP]])\n|-\n| rowspan=\"2\" |[[Shotgunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n| class=\"no-table\" |None\n|N/A ([[PVP]])\n|-\n|[[Freezer]]\n| class=\"no-table\" |None<ref>Its ''Frost Grenade'' ability can indirectly hit '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Pyromancer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"no-table\" |None<ref>Through chaining, it can indirectly hit '''Flying''' enemies, but it can never target them.</ref>\n|N/A\n|-\n|[[Rocketeer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Trapper]]\n"
+      "title": "Golden Crook Boss",
+      "score": 3,
+      "pageid": 30803,
+      "latest_revid": 643940,
+      "latest_timestamp": "2026-09-06T13:20:57Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Crook Boss|Perk = Golden Crook Boss|Evolved=Kingpin}}\n{{for|other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Crook Boss}}\n|image-static = NewGoldenCrookBoss.png\n|image-dynamic = GoldenCrookBossDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)\n|towercost = {{Level|30}} or {{Robux|300}} ([[Crook Boss]])\n|basecost = {{Money|2,400}}\n|basesellingprice = {{Money|800}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5\n|basedamage = [[File:Damage Icon.png|20px|Damage]]12\n|damagetype = Single<br/>Collision\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8\n|baserange = [[File:Range Icon.png|20px|Range]]16.5\n|basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]45s\n|hidden_detection = {{Attr|Hidden|Level 2+}} (Tower & Tommy Goons)\n|lead_detection = {{Attr|Lead|Level 0+}} (Collision only)\n|flying_detection = {{Attr|Fly|Level 1+}}\n|immune = Debuff (Units only)\n|footprint = 1.5\n|evolves_into = [[Kingpin]]\n|evolution_levels = 20\n|base_exp = 50\n|growth_rate = 1.09\n|skip_cost = 599\n|tooltip-1 = A well rounded tower with good detection coverage, reliable damage, and the ability to spawn friendly units.\n|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.\n}}\n{{QuoteContainer|\n{{QuoteBox|Command henchmen to fight for you while looking cool!|Store Description}}\n}}\n__TOC__\n==Description==\nThe '''Golden Crook Boss''' is an upgraded version of the [[Crook Boss]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if the player owns the [[Crook Boss]]. It can also be bought in the Daily Store for {{Coins|55,000}}. The normal counterpart, the [[Crook Boss]], can be claimed by reaching {{Level|30}} or alternatively purchasing it for {{Robux|300}}.\n\nInitially, the '''Golden Crook Boss''' has high damage, though it has rather low range. However, with later upgrades, the firerate decreases and its damage increases significantly. The range also increases and becomes comparable to towers like the [[Minigunner]]. The '''Golden Crook Boss''' has the ability to spawn [[Golden Pistol Goon]] from Level 0, which with later levels get double spawns. Additional, at Level 3, it spawns [[Golden Tommy Goon 1]], which gets replaced by [[Golden Tommy Goon 2]] at Level 4. Every time it summons an unit, it stops attacking for a second. All the units have flying detection but only the Tommy Goons have hidden detection.\n\nIn comparison to its normal counterpart, the [[Crook Boss]], the '''Golden Crook Boss''' has higher damage and slightly higher range, but it is more expensive at all Levels. It also spawns stronger units.\n\nThe '''Golden Crook Boss''' can be considered a mid to late-game tower, as its expensive cost for extremely high DPS makes it a great tower later on during the game and has sufficient DPS to remain strong in the extra-late game.  \n\nThere is a limit of five '''Golden Crook Bosses''' per player. Additionally, it has a limit of ten [[Golden Pistol Goon]]s per tower and a limit of three [[Golden Tommy Goon 1]]s and [[Golden Tommy Goon 2]]s per tower.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Lvl 1. Broke|Cost = {{Money|1,600}}|Image = [[File:Stronger_Bullets.png|100px]]|Information = 0.8 > 0.55 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,333}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lvl. 2 Normie|Cost = {{Money|3,200}}|Image = [[File:CrookBoss2.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+9 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow spawns two [[Golden Pistol Goon]]s instead of one\n\n\nSell Price changes to {{Money|2,400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Lvl 3. Gam"
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",
