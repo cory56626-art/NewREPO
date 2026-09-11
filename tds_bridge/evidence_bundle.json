@@ -1,631 +1,78 @@
 {
-  "meta": {
-    "mode": "verify",
-    "requested": "Golden Crate",
-    "title": "Golden Crate",
-    "pageid": 2968,
-    "latest_revid": 627849,
-    "latest_timestamp": "2026-08-26T15:26:19Z",
-    "source_url": "https://tds.fandom.com/wiki/Golden_Crate",
-    "classification": {
-      "is_tower_page": false,
-      "reason": "template/category heuristic"
-    },
-    "source_priority": {
-      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-      "priority": [
-        "upgrade_templates",
-        "description",
-        "infobox_or_summary"
-      ]
-    }
-  },
+  "mode": "verify",
+  "requested": "Golden Crook Boss loadout discussions",
   "resolution": {
-    "status": "resolved",
-    "input": "Golden Crate",
+    "status": "needs_selection",
+    "input": "Golden Crook Boss loadout discussions",
     "alias_used": null,
-    "target": "Golden Crate",
-    "canonical_title": "Golden Crate",
-    "pageid": 2968,
-    "redirects": [],
-    "selection_method": "exact_or_redirect"
-  },
-  "revision_history": [
-    {
-      "revid": 627849,
-      "parentid": 620878,
-      "timestamp": "2026-08-26T15:26:19Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 7629,
-      "sha1": "d6fc92b88b1fa07159c8bee5a4b5a9ba75d7f08f"
-    },
-    {
-      "revid": 620878,
-      "parentid": 593965,
-      "timestamp": "2026-08-21T20:22:08Z",
-      "user": "WikiaColors",
-      "comment": "",
-      "size": 7534,
-      "sha1": "c0eae1378c307f861ed5a38e3a77e0a263415556"
-    },
-    {
-      "revid": 593965,
-      "parentid": 575356,
-      "timestamp": "2026-08-05T00:53:54Z",
-      "user": "DarkGabonnie",
-      "comment": "Approved by t7ru (380694434980954114) via /job",
-      "size": 7947,
-      "sha1": "d10465b78252297705b65dddb524f8ed787be6a6"
-    },
-    {
-      "revid": 575356,
-      "parentid": 575220,
-      "timestamp": "2026-07-27T02:30:03Z",
-      "user": "VisibleKnot",
-      "comment": "",
-      "size": 7943,
-      "sha1": "72a095d1fb701e7d220faf68dd20537c1135f5c2"
-    },
-    {
-      "revid": 575220,
-      "parentid": 568448,
-      "timestamp": "2026-07-27T00:49:25Z",
-      "user": "TDS Fanat",
-      "comment": "",
-      "size": 7941,
-      "sha1": "1bbd96976401381e4acd7de00944c83cdb05752f"
-    },
-    {
-      "revid": 568448,
-      "parentid": 561213,
-      "timestamp": "2026-07-23T17:56:20Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 7912,
-      "sha1": "74ec30d79028cce37e60e1585c05910682f6647a"
-    },
-    {
-      "revid": 561213,
-      "parentid": 558700,
-      "timestamp": "2026-07-20T04:20:13Z",
-      "user": "VisibleKnot",
-      "comment": "",
-      "size": 7830,
-      "sha1": "43b6e03fd234e0be50921e644c2b83b2cbe25ecf"
-    },
-    {
-      "revid": 558700,
-      "parentid": 556248,
-      "timestamp": "2026-07-18T23:13:56Z",
-      "user": "Sofiasean560",
-      "comment": "",
-      "size": 7835,
-      "sha1": "be805696222372e8f828bfdcc06cb9a2ad36ff60"
-    },
-    {
-      "revid": 556248,
-      "parentid": 556233,
-      "timestamp": "2026-07-17T20:11:16Z",
-      "user": "Goderator",
-      "comment": "/* Update History */",
-      "size": 7839,
-      "sha1": "ce23df5e1ef5aabe1d9a364373a7aec9fc986d36"
-    },
-    {
-      "revid": 556233,
-      "parentid": 556156,
-      "timestamp": "2026-07-17T19:35:10Z",
-      "user": "Redjacko6",
-      "comment": "Updated desc and added \"contains 7 skins\"",
-      "size": 7768,
-      "sha1": "2eb0c399d1c472920a4ee6b3540b0f51856f4b55"
-    }
-  ],
-  "revision_diff": {
-    "fromrevid": 620878,
-    "torevid": 627849,
-    "fromtitle": "Golden Crate",
-    "totitle": "Golden Crate",
-    "fromuser": "WikiaColors",
-    "touser": "Mentin123",
-    "fromcomment": "",
-    "tocomment": "",
-    "diff_text": "Line 10: Line 10: |sale = Yes |sale = Yes |contains = 7 |contains = 7 |rarity = {{Color|Golden}} |rarities = {{Color|Golden}} |rarities = {{Color|Golden}} |music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]] |music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]] Line 178: Line 179: *'''17 July 2026''' - [[v2.3.0]] *'''17 July 2026''' - [[v2.3.0]] **{{Color|Golden}} [[Demoman]] added. **{{Color|Golden}} [[Demoman]] added. *'''21 August 2026''' - [[v2.7.0]] **{{Color|Golden}} rarity added. }} }}"
-  },
-  "classification": {
-    "is_tower_page": false,
-    "reason": "template/category heuristic"
-  },
-  "structured_stats": {
-    "source_priority": {
-      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-      "priority": [
-        "upgrade_templates",
-        "description",
-        "infobox_or_summary"
-      ]
-    },
-    "description": "The '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}",
-    "upgrade_modes": {
-      "regular": [],
-      "pvp": []
-    },
-    "upgrade_templates": [],
-    "statistics_tables": {
-      "regular": [],
-      "pvp": []
-    },
-    "detections_and_limits": {
-      "regular": {
-        "hidden": null,
-        "lead": null,
-        "flying": null,
-        "immune": null,
-        "placement_limit": null
-      },
-      "pvp": {
-        "hidden": null,
-        "lead": null,
-        "flying": null,
-        "immune": null
-      }
-    },
-    "infoboxes": [
+    "target": "Golden Crook Boss loadout discussions",
+    "candidates": [
       {
-        "name": "CrateInfobox",
-        "params": {
-          "title1": "{{Color|Golden|Golden Crate}}",
-          "image1": "<tabber>",
-          "Icon": "[[File:GoldenSkincrateIcon.png]]",
-          "In-Game": "[[File:GoldenCrateInGame2026.png]]\n</tabber>",
-          "type": "Skincrate",
-          "cost": "50,000",
-          "sale": "Yes",
-          "contains": "7",
-          "rarity": "{{Color|Golden}}",
-          "rarities": "{{Color|Golden}}",
-          "music-1": "[[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]"
-        },
-        "positional": [
-          "-",
-          "-"
-        ]
+        "title": "Golden Crook Boss",
+        "pageid": 30803,
+        "snippet": "",
+        "size": 35207,
+        "wordcount": 4465,
+        "timestamp": "2026-09-06T13:20:57Z"
+      },
+      {
+        "title": "Firerate Bug/Golden Crook Boss",
+        "pageid": 32958,
+        "snippet": "",
+        "size": 31180,
+        "wordcount": 2914,
+        "timestamp": "2026-08-04T05:59:06Z"
+      },
+      {
+        "title": "Golden Crook Boss/History",
+        "pageid": 33953,
+        "snippet": "",
+        "size": 117888,
+        "wordcount": 13282,
+        "timestamp": "2026-08-20T10:53:02Z"
+      },
+      {
+        "title": "Crook Boss",
+        "pageid": 226,
+        "snippet": "",
+        "size": 53726,
+        "wordcount": 6638,
+        "timestamp": "2026-09-07T16:09:32Z"
+      },
+      {
+        "title": "Crook Boss/Gallery",
+        "pageid": 11729,
+        "snippet": "",
+        "size": 176518,
+        "wordcount": 22436,
+        "timestamp": "2026-09-09T21:42:27Z"
+      },
+      {
+        "title": "Firerate Bug/Crook Boss",
+        "pageid": 29429,
+        "snippet": "",
+        "size": 101820,
+        "wordcount": 8514,
+        "timestamp": "2026-03-26T19:07:01Z"
+      },
+      {
+        "title": "Golden Pistol Goon",
+        "pageid": 38335,
+        "snippet": "",
+        "size": 8863,
+        "wordcount": 1270,
+        "timestamp": "2026-09-06T14:32:54Z"
+      },
+      {
+        "title": "Crook Boss/History",
+        "pageid": 28802,
+        "snippet": "",
+        "size": 187385,
+        "wordcount": 20989,
+        "timestamp": "2026-08-18T21:37:00Z"
       }
     ],
-    "likely_infobox": {
-      "name": "CrateInfobox",
-      "params": {
-        "title1": "{{Color|Golden|Golden Crate}}",
-        "image1": "<tabber>",
-        "Icon": "[[File:GoldenSkincrateIcon.png]]",
-        "In-Game": "[[File:GoldenCrateInGame2026.png]]\n</tabber>",
-        "type": "Skincrate",
-        "cost": "50,000",
-        "sale": "Yes",
-        "contains": "7",
-        "rarity": "{{Color|Golden}}",
-        "rarities": "{{Color|Golden}}",
-        "music-1": "[[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]"
-      },
-      "positional": [
-        "-",
-        "-"
-      ]
-    },
-    "template_count": 70
+    "message": "No exact/redirect match. Fuzzy candidates returned; NONE chosen automatically."
   },
-  "conflicts": {
-    "priority_rule": {
-      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-      "priority": [
-        "upgrade_templates",
-        "description",
-        "infobox_or_summary"
-      ]
-    },
-    "potential_conflicts": [],
-    "notes": [
-      "Different upgrade levels can legitimately differ.",
-      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
-    ]
-  },
-  "categories": [
-    {
-      "ns": 14,
-      "title": "Category:Cosmetics"
-    },
-    {
-      "ns": 14,
-      "title": "Category:Crates"
-    },
-    {
-      "ns": 14,
-      "title": "Category:Skincrates"
-    }
-  ],
-  "backlinks": [
-    {
-      "title": "Scout",
-      "pageid": 123
-    },
-    {
-      "title": "Soldier",
-      "pageid": 124
-    },
-    {
-      "title": "Minigunner",
-      "pageid": 162
-    },
-    {
-      "title": "Pyromancer",
-      "pageid": 195
-    },
-    {
-      "title": "Crook Boss",
-      "pageid": 226
-    },
-    {
-      "title": "Demoman",
-      "pageid": 239
-    },
-    {
-      "title": "Crates",
-      "pageid": 1174
-    },
-    {
-      "title": "Basic Crate",
-      "pageid": 2966
-    },
-    {
-      "title": "Premium Crate",
-      "pageid": 2967
-    },
-    {
-      "title": "Platinum Crate",
-      "pageid": 2969
-    },
-    {
-      "title": "Halloween 2019 Crate",
-      "pageid": 2970
-    },
-    {
-      "title": "Xmas 2019 Crate",
-      "pageid": 2971
-    },
-    {
-      "title": "Party Crate",
-      "pageid": 2972
-    },
-    {
-      "title": "Valentines Crate",
-      "pageid": 3861
-    },
-    {
-      "title": "Toy Crate",
-      "pageid": 4322
-    },
-    {
-      "title": "Bunny Crate",
-      "pageid": 4613
-    },
-    {
-      "title": "Soundtrack",
-      "pageid": 6663
-    },
-    {
-      "title": "Cowboy",
-      "pageid": 7565
-    },
-    {
-      "title": "Minigunner/Gallery",
-      "pageid": 10617
-    },
-    {
-      "title": "Scout/Gallery",
-      "pageid": 10817
-    },
-    {
-      "title": "Demoman/Gallery",
-      "pageid": 10996
-    },
-    {
-      "title": "Soldier/Gallery",
-      "pageid": 11045
-    },
-    {
-      "title": "Cowboy/Gallery",
-      "pageid": 11331
-    },
-    {
-      "title": "Pyromancer/Gallery",
-      "pageid": 11521
-    },
-    {
-      "title": "Farm/Gallery",
-      "pageid": 11640
-    },
-    {
-      "title": "Crook Boss/Gallery",
-      "pageid": 11729
-    },
-    {
-      "title": "Deluxe Crate",
-      "pageid": 21449
-    },
-    {
-      "title": "Pumpkin Crate",
-      "pageid": 21543
-    },
-    {
-      "title": "Spooky Crate",
-      "pageid": 21544
-    },
-    {
-      "title": "Trailers",
-      "pageid": 23296
-    },
-    {
-      "title": "Frost Crate",
-      "pageid": 24177
-    },
-    {
-      "title": "Gold (Disambiguation)",
-      "pageid": 30039
-    },
-    {
-      "title": "Golden Minigunner",
-      "pageid": 30794
-    },
-    {
-      "title": "Golden Pyromancer",
-      "pageid": 30796
-    },
-    {
-      "title": "Golden Cowboy",
-      "pageid": 30799
-    },
-    {
-      "title": "Golden Soldier",
-      "pageid": 30801
-    },
-    {
-      "title": "Golden Scout",
-      "pageid": 30802
-    },
-    {
-      "title": "Golden Crook Boss",
-      "pageid": 30803
-    },
-    {
-      "title": "Hardcore Testing BETA",
-      "pageid": 31172
-    },
-    {
-      "title": "Release v1.0",
-      "pageid": 31193
-    },
-    {
-      "title": "Release v1.1",
-      "pageid": 31201
-    },
-    {
-      "title": "Release v1.6",
-      "pageid": 31260
-    },
-    {
-      "title": "Overhaul v1.0",
-      "pageid": 31371
-    },
-    {
-      "title": "V1.6.0",
-      "pageid": 33689
-    },
-    {
-      "title": "Daily Store",
-      "pageid": 34013
-    },
-    {
-      "title": "Cold Front Crate",
-      "pageid": 34172
-    },
-    {
-      "title": "Lovely Crate",
-      "pageid": 34179
-    },
-    {
-      "title": "Ducky Crate",
-      "pageid": 34849
-    },
-    {
-      "title": "Vigilante Crate",
-      "pageid": 35334
-    },
-    {
-      "title": "Pirate Crate",
-      "pageid": 35794
-    }
-  ],
-  "templates": [
-    {
-      "ns": 10,
-      "title": "Template:For",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:CrateInfobox",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Color",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Coins",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Outline",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:QuoteContainer",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:QuoteBox",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Tabber",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Gallery",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:GalleryHeader",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Scroll",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Bug",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Bugfix",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:CrateNavBox",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:CrateNavBox/labels.css",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Tabber",
-      "exists": true
-    }
-  ],
-  "related_pages": [
-    {
-      "title": "Banned Crate",
-      "score": 3,
-      "pageid": 52907,
-      "latest_revid": 553457,
-      "latest_timestamp": "2026-07-16T03:05:23Z",
-      "wikitext_excerpt": "{{For|[[Gatling Gun Banned]]|[[Farm Banned]]}}\n{{CrateInfobox\n|title1 = {{Color|Banned|Banned Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:BannedCrateIcon.png]]\n|-|In-Game = [[File:BannedSkincrate.png]]\n</tabber>\n|type = Skincrate\n|obtain = Triumph [[Nil Zone]]<ref>Only one gotten per live event.</ref><br/>[[Index#Null & Void|Null & Void Achievements]]\n|sale = No\n|rarities = {{Color|Exclusive}}\n|contains = 4\n|music-1 = [[File:(Official) Tower Defense Simulator OST - ADMIN ABUSE!!! (2025 Live Event Theme)|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|Banned!|Inventory Description}}\n}}\n__TOC__\n==Description==\nThe '''Banned Crate''' is a crate given out to players for triumphing [[Nil Zone]] as part of the [[Halloween 2025 Live Events]] and through [[Null & Void Event]] [[Index#Null & Void|Achievements]]. It was only given out on the first triumph of each live event run and once per specific [[Index#Null & Void|Achievements]].\n\nCurrently, it only has four skins.\n\n==Appearance==\nThe '''Banned Crate''' is a metal purple crate with a keypad, which is used to open it.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:BannedBrawlerIconIG.png|175px]]\n|[[File:BannedScoutIconIG.png|175px]]\n|[[File:BannedElectroshockerIconIG.png|175px]]\n|[[File:BannedTrapperIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Banned|Banned}}\n|{{Color|Banned|Banned}}\n|{{Color|Banned|Banned}}\n|{{Color|Banned|Banned}}\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Brawler]]\n|[[Scout]]\n|[[Electroshocker]]\n|[[Trapper]]\n|}\n\n==Sounds==\n{{Sounds|{{pe|\n{| class{{=}}\"article-table align-center\" style{{=}}\"width:750px; margin:0 auto;\"\n|-\n! style{{=}}\"width:30%;\" | Sound\n! style{{=}}\"width:70%;\" | Description\n|-\n|[[File:BannedSkincrateOpen.ogg]]\n|Opening sound effect\n|}}}\n}}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Crate Icons}}\n<gallery>\nBannedSkincrateIcon.png|First Version (4 October 2025 – 22 April 2026)\n</gallery>\n}}\n\n==Trivia==\n*It was stated there would be five skins total through the global chat messages during the [[Halloween 2025 Live Events]]<ref>[[File:BannedSkincrate5Skins.png|280px]]</ref>, though this appears to have been either scrapped or a typo.\n*The appearance of the '''Banned Crate''' is a retextured version of the [[Cold Front Crate]].\n*The crate is opened by entering the code \"''1337''\" into the keypad, which is a reference to [[wp:Leet|leetspeak]].\n\n==Update History==\n*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]\n**'''Banned Crate''' added.\n*'''22 April 2026''' - [[v1.89.0]]\n**Icon changed.\n**Crate opening music added.\n\n==Notes==\n<references/>\n\n\n\n{{CrateNavBox}}"
-    },
-    {
-      "title": "Basic Crate",
-      "score": 3,
-      "pageid": 2966,
-      "latest_revid": 627801,
-      "latest_timestamp": "2026-08-26T14:31:03Z",
-      "wikitext_excerpt": "{{CrateInfobox\n|title1 = {{Color|Basic|Basic Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:BasicSkincrateIcon.png]]\n|-|In-Game = [[File:BasicCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost = 500\n|sale = Yes\n|contains = 33\n|rarity = {{Color|Common}}\n|rarities = {{Color|Common}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}\n|music-1 = '''Scrapped Music'''\n[[File:Tower Defense Simulator OST - Scrapped Basic Skincrate Opening|thumb|center|250px]]\n|music-2 = '''Current Music'''\n[[File:Tower Defense Simulator OST - Main Skincrate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|A common skincrate used to unbox very basic skins.|Inventory Description}}\n{{QuoteBox|A common skin crate used to unbox very basic skins.|Former Inventory Description}}\n}}\n__TOC__\n==Description==\nThe '''Basic Crate''' is the simplest [[Crates|Crate]] in the game. This yields the most basic skins in the game, which, aside from a few exceptions, vary only in color. You are able to get duplicate skins from this crate, once you have unboxed all the available skins to you. Skins from this [[Crates|Crate]] can appear in the [[Daily Store]].\n\nEach skin that can be gotten from the '''Basic Crate''' has a rarity which affects how likely you are to unlock the skin and the price when it appears in the daily skin store. In the daily skin store, {{Color|Common}} skins cost {{Coins|500}} coins, {{Color|Uncommon}} cost {{Coins|750}} coins and {{Color|Rare}} skins cost {{Coins|1,000}}. While no such skins currently exist, {{Color|Legendary}} skins would also cost {{Coins|99,999}}.\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Basic Crate''' resembles the look of a wooden box which was sealed shut. It contains gold on the inside. On its top is the standard shipping symbol indicating which side is up. It was opened with a crowbar.\n|Version 1\n|The '''Basic Crate''' resembled the look of a cardboard box with tape to seal it shut. On its side was the standard shipping symbol indicating which side is up.\n}}\n\n==Methods of Obtaining==\n#Purchasable in the store for {{Coins|500}}.\n#4.756% chance from the [[Spin Wheel]].\n#Redeeming the [[Badges#Event Badges|AJ Striker - Week 4 badge]] in [[Rewards]].\n#Rank 1 of the [[Frost Invasion Event#Frost Invasion Season Pass|Frost Invasion Season]].\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:DHRedScout0.png|175px]]\n|[[File:DHGreenScout0.png|175px]]\n|[[File:DHBlueScout0.png|175px]]\n|[[File:DHSurvivorScout0.png|175px]]\n|-\n!Skin\n|{{Color|Basic|Red}}\n|{{Color|Basic|Green}}\n|{{Color|Basic|Blue}}\n|{{Color|Basic|Survivor}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|500}}\n|{{Coins|500}}\n|{{Coins|500}}\n|{{Coins|1,000}}\n|-\n!Tower\n|[[Scout]]\n|[[Scout]]\n|[[Scout]]\n|[[Scout]]\n|-\n!\n|[[File:KR Red Soldier 0.png|175px]]\n|[[File:LO Blue Soldier 0.png|175px]]\n|[[File:BlueMinigunner.png|175px]]\n|[[File:GreenMinigunner.png|175px]]\n|-\n!Skin\n|{{Color|Basic|Red}}\n|{{Color|Basic|Blue}}\n|{{Color|Basic|Blue}}\n|{{Color|Basic|Green}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|-\n!Cost\n|{{Coins|500}}\n|{{Coins|500}}\n|{{Coins|500}}\n|{{Coins|500}}\n|-\n!Tower\n|[[Soldier]]\n|[[Soldier]]\n|[[Minigunner]]\n|[[Minigunner]]\n|-\n!\n|[[File:RedAcePilotIconIGJ24.png|175px]]\n|[[File:GreenAcePilotIconIGJ24.png|175px]]\n|[[File:YellowAcePilotIconIGJ24.png|175px]]\n|[[File:DHRedSniper0.png|175px]]\n|-\n!Skin\n|{{Color|Basic|Red}}\n|{{Color|Basic|Green}}\n|{{Color|Basic|Yellow}}\n|{{Color|Basic|Red}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|-\n!Cost\n|{{Coins|500}}\n|{{Coins|500}}\n|{{Coins|500}}\n|{{Coins|500}}\n|-\n!Tower\n|[[Ace Pilot]]\n|[[Ace Pilot]]\n|[[Ace Pilot]]\n|[[Sniper]]\n|-\n!\n|[[File:DHBlueSniper0.png|175px]]\n|[[File:DHGhillieSniper0.png|175px]]\n|[[File:M23BlueDemoman0.png|175px]]\n|[[File:ImprovedAngleDemoG0.png|175px]]\n|-\n!Skin\n|{{Color|Basic|Blue}}\n|{{Color|Basic|Ghillie}}\n|{{Color|Basic|Blue}}\n|{{Col"
-    },
-    {
-      "title": "Beach Crate",
-      "score": 3,
-      "pageid": 62508,
-      "latest_revid": 644236,
-      "latest_timestamp": "2026-09-06T17:53:07Z",
-      "wikitext_excerpt": "{{CrateInfobox\n|title1 = {{Color|Beach|Beach Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:BeachCrateIcon.png]]\n|-|In-Game = [[File:BeachCrateInGame.png]]\n</tabber>\n|type = Skincrate\n|cost = 4,500\n|cost_robux = 199\n|sale = Yes\n|rarity = {{Color|Ultimate|Event}}\n|rarities = {{Color|Common}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}<br/>{{Color|Legendary}}\n|contains = 21\n}}\n{{QuoteContainer|\n{{QuoteBox|I don't like the sand...|Shop Description}}\n}}\n==Description==\nThe '''Beach Crate''' is a seasonal skincrate that was released for the Summer of 2026. This crate yields 16 beach-themed skins. It can be purchased for {{Coins|4,500}} in the store, or for {{Robux|199}}.\n\nEach skin that can be obtained from the '''Beach Crate''' has a rarity which affects how likely you are to unlock the skin and the price when it appears in the Daily Skin Store. In the Daily Skin Store, {{Color|Common}} skins cost {{Coins|4,500}}, {{Color|Uncommon}} skins cost {{Coins|5,250}}, {{Color|Rare}} skins cost {{Coins|6,500}} and {{Color|Legendary}} skins cost {{Coins|10,000}}.\n\n==Appearance==\nThe '''Beach Crate''' is a blue and white colored crate designed to resemble a cooler. It has multiple stickers on it in addition to the Paradoxum Games logo on top of it.\n\n==Methods of Obtaining==\n#Purchasable in the store for {{Coins|4,500}} or {{Robux|199}}.\n#Has a chance of TBC% to obtain in triumphing [[Fallen Mode|Fallen]] mode.\n#Has a chance of TBC% to obtain in triumphing [[Frost Mode|Frost]] mode.\n#Has a chance of TBC% to obtain in triumphing [[Hardcore Mode|Hardcore]] mode.\n#Has a chance of TBC% to obtain in triumphing [[Voidcore Mode|Voidcore]] mode.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:PopsicleVendorFarmIconIG.png|175px]]\n|[[File:IceCreamMilitaryBaseIconIG.png|175px]]\n|[[File:SealCommanderIconIG.png|175px]]\n|[[File:BeachRangerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Beach|Popsicle Vendor}}\n|{{Color|Beach|Ice Cream}}\n|{{Color|Beach|Seal}}\n|{{Color|Beach|Beach}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|-\n!Cost\n|{{Coins|4,500}}\n|{{Coins|4,500}}\n|{{Coins|4,500}}\n|{{Coins|4,500}}\n|-\n!Tower\n|[[Farm]]\n|[[Military Base]]\n|[[Commander]]\n|[[Ranger]]\n|-\n!\n|[[File:AnemoneSlimeTrooperIconIG.png|175px]]\n|[[File:CoconutLoverTrapperIconIG.png|175px]]\n|[[File:CoralPrincessSaboteurIconIG.png|175px]]\n|[[File:BeachElectroshockerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Beach|Anemone}}\n|{{Color|Beach|Coconut Lover}}\n|{{Color|Beach|Coral Princess}}\n|{{Color|Beach|Beach}}\n|-\n!Rarity\n|{{Color|Uncommon}}\n|{{Color|Uncommon}}\n|{{Color|Uncommon}}\n|{{Color|Uncommon}}\n|-\n!Cost\n|{{Coins|5,250}}\n|{{Coins|5,250}}\n|{{Coins|5,250}}\n|{{Coins|5,250}}\n|-\n!Tower\n|[[Slime Trooper]]\n|[[Trapper]]\n|[[Saboteur]]\n|[[Electroshocker]]\n|-\n!\n|[[File:BeachAcceleratorIconIG.png|175px]]\n|[[File:AxolotlRangerIconIG.png|175px]]\n|[[File:BeachMedicIconIG.png|175px]]\n|[[File:AquaticRangerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Beach|Beach}}\n|{{Color|Beach|Axolotl}}\n|{{Color|Beach|Beach}}\n|{{Color|Beach|Aquatic}}\n|-\n!Rarity\n|{{Color|Uncommon}}\n|{{Color|Uncommon}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|5,250}}\n|{{Coins|5,250}}\n|{{Coins|6,500}}\n|{{Coins|6,500}}\n|-\n!Tower\n|[[Accelerator]]\n|[[Ranger]]\n|[[Medic]]\n|[[Ranger]]\n|-\n!\n|[[File:BeachBrawlerIconIG.png|175px]]\n|[[File:BeachRocketeerIconIG.png|175px]]\n|[[File:BeachSoldierIconIG.png|175px]]\n|[[File:PoolDayHackerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Beach|Beach}}\n|{{Color|Beach|Beach}}\n|{{Color|Beach|Beach}}\n|{{Color|Beach|Pool Day}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|6,500}}\n|{{Coins|6,500}}\n|{{Coins|6,500}}\n|{{Coins|10,000}}\n|-\n!Tower\n|[[Brawler]]\n|[[Rocketeer]]\n|[[Soldier]]\n|[[Hacker]]\n|-\n!\n|[[File:SurfsUpWarlock0.png|175x175px]]\n|[[File:BeachMortar0.png|center|175x175px]]\n|[[File:BeachDemoman0.png|center|175x175px]]\n|[[File:PoolDayCrookBoss0.png|180x180px]]\n|-\n!Skin\n|{{Color|Beach|Surfs Up}}\n|{{Color"
-    },
-    {
-      "title": "Bunny Crate",
-      "score": 3,
-      "pageid": 4613,
-      "latest_revid": 627988,
-      "latest_timestamp": "2026-08-26T17:36:03Z",
-      "wikitext_excerpt": "{{EventObtain|date = 29th of October 2020|event = [[Spring 2020 Event]]}}\n{{for|other uses of [[Bunny (Disambiguation)|Bunny]]}}\n{{CrateInfobox\n|title1 = {{Color|Bunny|Bunny Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:BunnySkincrateIcon.png]]\n|-|In-Game = [[File:BunnyCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost_tickets = 1,000\n|bundle_cost = {{Robux|800}} (for 10 crates)\n|sale = No\n|rarities = {{Color|Event}}\n|contains = 9\n|music-1 = [[File:Tower Defense Simulator OST - Main Skincrate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|Happy Easter 2020!|Inventory Description}}\n}}\n__TOC__\n==Description==\nThe '''Bunny Crate''' is an exclusive [[Crates|crate]] that was only obtainable during the [[Spring 2020 Event]] (though it was only taken offsale after the Overhaul Update). You could get one '''Bunny Crate''' for {{Tickets|1,000}} in the [[Event Store]], or ten '''Bunny Crates''' for {{Robux|800}} via the [[Gamepasses|gamepass]].\n\nThe '''Bunny Crate''' yields bunny-themed skins that cannot be gotten from any other crate.\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Bunny Crate''' resembles the look of a pink and grey wooden box which was sealed shut. It contains gold on the inside. On its top is the standard shipping symbol indicating which side is up while on the front it had a rainbow Easter egg. It was opened with a crowbar.\n|Version 1\n|The '''Bunny Crate''' resembled the look of a pink cardboard box with tape to seal it shut, similar to the [[Basic Crate]]. It featured a multi-colored Easter egg on the front of the box.\n}}\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:BunnyElectroshockerIcon2.png|175px]]\n|[[File:May17BunnyCommander.png|175px]]\n|[[File:DHBunnyMortarIcon.png|175px]]\n|[[File:Bunnyminigunnernew.png|175px]]\n|-\n!Skin\n|{{Color|Bunny|Bunny}}\n|{{Color|Bunny|Bunny}}\n|{{Color|Bunny|Bunny}}\n|{{Color|Bunny|Bunny}}\n|-\n!Rarity\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|-\n!Tower\n|[[Electroshocker]]\n|[[Commander]]\n|[[Mortar]]\n|[[Minigunner]]\n|-\n!\n|[[File:DHBunnyScout0.png|175px]]\n|[[File:DHBunnyPaintballer0.png|175px]]\n|[[File:DHBunnySniper0.png|175px]]\n|[[File:Bunnyrangernew.png|175px]]\n|-\n!Skin\n|{{Color|Bunny|Bunny}}\n|{{Color|Bunny|Bunny}}\n|{{Color|Bunny|Bunny}}\n|{{Color|Bunny|Bunny}}\n|-\n!Rarity\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|-\n!Tower\n|[[Scout]]\n|[[Paintballer]]\n|[[Sniper]]\n|[[Ranger]]\n|-\n!\n|[[File:DHBunnyPyroIcon.png|175px]]\n|-\n!Skin\n|{{Color|Bunny|Bunny}}\n|-\n!Rarity\n|{{Color|Event}}\n|-\n!Tower\n|[[Pyromancer]]<br/>[[Golden Pyromancer]]\n|}\n\n==Former Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:BunnyMedicIconAug25.png|175px]]\n|-\n!Skin\n|{{Color|Unobtainable|Bunny}}\n|-\n!Tower\n|[[Medic]]\n|-\n!Moved to\n|Nothing\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Appearance}}\n<gallery>\nBunnyCrateInGame.png|Second version (6 April 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Crate Icons}}\n<gallery>\nBunny Crate.png|First version (6 April 2020 – 22 April 2026)\n</gallery>\n}}\n\n==Trivia==\n*While the [[Spring 2020 Event]] ended on the 26th of May 2020, the '''Bunny Crate''' was still available to those who still had leftover {{Tickets|}} until the Overhaul Update.\n**However, the gamepass went offsale at the end of the [[Spring 2020 Event]] and you could not earn any additional {{Tickets|}} from [[Eggy Island]].\n\n==Update History==\n*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]\n**'''Bunny Crate''' added.\n*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]\n**'''Bunny Crate''' gamepass went offsale.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]\n**'''Bunny Crate''' made unobtainable.\n*'''4 December 2021''' - [[v1.0.0]]\n**{{Bug}} {{Color|Unobtainable|Bunny}} [[Medic]] is no longer obtainable.\n*'''21 December 2022''' - [[v1.6.0]]\n**Skin rarity added.\n**{{Bug}} Crate opening music no longer plays.\n*'''28 October 2023''' - [[v1.9.0]]\n"
-    },
-    {
-      "title": "Christmas 2025 Crate",
-      "score": 3,
-      "pageid": 55695,
-      "latest_revid": 628035,
-      "latest_timestamp": "2026-08-26T17:42:39Z",
-      "wikitext_excerpt": "{{Unobtainable|date=11th of February 2026}}\n{{CrateInfobox\n|title1 = {{Color|Christmas2025|Christmas 2025 Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:Christmas2025SkincrateIcon.png]]\n|-|In-Game = [[File:Christmas2025Skincrate.png]]\n</tabber>\n|type = Skincrate\n|robux_cost = 199\n|sale = No\n|contains = 13\n|rarities = {{Color|Common}}<br>{{Color|Uncommon}}<br/>{{Color|Rare}}<br>{{Color|Event}}\n|music-1 = [[File:(Official) Tower Defense Simulator OST - Winter Lobby|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|Merry Christmas 2025!|Inventory Description}}\n}}\n__TOC__\n==Description==\nThe '''Christmas 2025 Crate''' is a crate that can be bought for {{Robux|199}}, depending on region, as part of [[The Final Act Event]]. This crate yields Christmas-themed skins.\n\nThe '''Christmas 2025 Crate''' is a red and gold chest with various Christmas decorations around it.\n\n==Methods of Obtaining==\n#Purchasable in the store for {{Robux|199}}.\n#*Due to underage gambling laws, you are unable to use this method if you are in the Netherlands, Australia or Belgium. Additionally, players who cannot verify their age to be over 18 in the United Kingdom cannot also use this method.\n#*This can be repeated multiple times.\n#Has a chance of 6.695% to obtain in triumphing [[Frost Mode|Frost]] mode.\n#Has a chance of 10% to obtain in triumphing Hard mode in [[The Narratorium]].\n#Redeeming the [[Codes|code]] \"''CHRISTMAS2025''\".\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:IceSoulArcherIconIG.png|175px]]\n|[[File:ElfArcherIconIG.png|175px]]\n|[[File:JollyTreeTrapperIconIG.png|175px]]\n|[[File:CandyCaneCommanderIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Christmas2025|Ice Soul}}\n|{{Color|Christmas2025|Elf}}\n|{{Color|Christmas2025|Jolly Tree}}\n|{{Color|Christmas2025|Candy Cane}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Uncommon}}\n|-\n!Tower\n|[[Archer]]\n|[[Archer]]\n|[[Trapper]]\n|[[Commander]]\n|-\n!\n|[[File:FestiveMortarIconIG.png|175px]]\n|[[File:ClassicElfCampIconIG.png|175px]]\n|[[File:XmasCBIconFeb10.png|175px]]\n|[[File:May17ElfCommander.png|175px]]\n|-\n!Skin\n|{{Color|Christmas2025|Festive}}\n|{{Color|Christmas2025|Classic}}\n|{{Color|Christmas2025|Xmas}}\n|{{Color|Christmas2025|Holiday}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|-\n!Tower\n|[[Mortar]]\n|[[Elf Camp]]\n|[[Crook Boss]]\n|[[Commander]]\n|-\n!\n|[[File:HolidayEngineerIcon.png|175px]]\n|[[File:XmasFarmIcon.png|175px]]\n|[[File:Xmasminigunner2019rework.png|175px]]\n|[[File:HolidayShotgunner0.png|175px]]\n|-\n!Skin\n|{{Color|Christmas2025|Holiday}}\n|{{Color|Christmas2025|Xmas}}\n|{{Color|Christmas2025|Xmas}}\n|{{Color|Christmas2025|Holiday}}\n|-\n!Rarity\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|-\n!Tower\n|[[Engineer]]\n|[[Farm]]\n|[[Minigunner]]\n|[[Shotgunner]]\n|-\n!\n|[[File:XmasRocketeerIconIGJan25.png|175px]]\n|-\n!Skin\n|{{Color|Christmas2025|Xmas}}\n|-\n!Rarity\n|{{Color|Event}}\n|-\n!Tower\n|[[Rocketeer]]\n|}\n\n==Sounds==\n{{Sounds|{{pe|\n{| class{{=}}\"article-table align-center\" style{{=}}\"width:750px; margin:0 auto;\"\n|-\n! style{{=}}\"width:30%;\" | Sound\n! style{{=}}\"width:70%;\" | Description\n|-\n|[[File:Christmas2025kincrateOpen.ogg]]\n|Opening sound effect\n|}}}\n}}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Crate Icons}}\n<gallery>\nBannedSkincrateIcon.png|First version (20 December 2025 – 22 April 2026)\n</gallery>\n}}\n\n==Update History==\n*'''20 December 2025''' - [[v1.83.0]]\n**'''Christmas 2025 Crate''' added.\n**{{Bug}} Reuses [[Banned Crate]] icons that appear in [[Index#Achievements|Achievement]]s.\n**{{Bug}} Icon does not load on the reward screen.\n*'''12 January 2026''' - [[v1.83.0|v1.83.11]]\n**{{Bugfix}} Icon now loads on the reward screen.\n*'''11 February 2026''' - [[v1.85.0]]\n**'''Christmas 2025 Crate''' taken offsale.\n*'''22 April 2026''' - [[v1.89.0]]\n**Crate opening music added.\n**{{Bugfix}} No longer reuses [[Banned Crate]] icons.\n*'''2 July 2026''' - [[v2.1.0|v2.1.6a]]\n**{{Bug}} '''Christmas"
-    },
-    {
-      "title": "Coin Crate",
-      "score": 3,
-      "pageid": 48076,
-      "latest_revid": 536893,
-      "latest_timestamp": "2026-07-06T16:03:54Z",
-      "wikitext_excerpt": "{{EventObtain|date = 18th of June 2025|event = [[April Fools 2025 Event]]}}\n{{CrateInfobox\n|title1 = {{Color|CoinCrate|Coin Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:CoinCrateIcon.png]]\n|-|In-Game = [[File:CoinCrate.png]]\n</tabber>\n|cost_robux = 101\n|type = Skincrate\n|sale = No\n|contains = 3\n|rarities = {{Color|Rare}}<br/>{{Color|Legendary}}\n}}\n{{QuoteContainer|\n{{QuoteBox|description goes here|Shop Description}}\n}}\n__TOC__\n==Description==\nThe '''Coin Crate''' is an event [[Crates|skincrate]]. It has three skins in total. It was first released for [[April Fools 2025 Event]].\n\nDespite its name, it was not available to purchase for {{Coins|Coins}}, it was instead a {{Robux|Robux}} crate. However, its skin could be bought in the [[Daily Store]] using that currency. While it has costs for all four base rarities, only two could be seen. {{Color|Common}} skins had a cost of {{Coins|1,346,914,696}}, {{Color|Uncommon}} skins had a cost of {{Coins|1,346,914,737}}, {{Color|Rare}} skins had a cost of {{Coins|1,346,914,768}} and {{Color|Legendary}} skins had a cost of {{Coins|1,346,914,794}}.\n\n==Methods of Obtaining==\n#Purchasable in the store for {{Robux|101}}.\n#Redeem certain [[Codes]].\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:AlienFocusCrookBossIconIG.png|175px]]\n|[[File:TheBeastJesterIconIG.png|175px]]\n|[[File:TheFleaJesterIconIG.png|175px]]\n|-\n!Skin\n|{{Color|CoinCrate|Alien Focus}}\n|{{Color|CoinCrate|The Beast}}\n|{{Color|CoinCrate|The Flea}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|1,346,914,768}}\n|{{Coins|1,346,914,794}}\n|{{Coins|1,346,914,794}}\n|-\n!Tower\n|[[Crook Boss]]\n|[[Jester]]\n|[[Jester]]\n|}\n\n==Sounds==\n{{Sounds|\n{{{!}} class{{=}}\"article-table align-center\" style{{=}}\"width:750px; margin:0 auto;\"\n{{!}}-\n! style{{=}}\"width:30%;\" {{!}}Sound\n! style{{=}}\"width:70%;\" {{!}}Description\n{{!}}-\n{{!}}[[File:CoinCrateOpen.ogg]]\n{{!}}Opening sound effect\n{{!}}}\n}}\n\n==Trivia==\n*The skins from this skincrate are the three most expensive items in the game.\n**These prices were directly copied from the [[Deluxe Crate]]. However, for the [[Deluxe Crate]], these are used to create {{Robux|Robux}} purchases for the skins. For the '''Coin Crate''', it was changed to {{Coins|Coins}}, resulting in extremely high prices.\n\n==Update History==\n*'''1 April 2025''' - [[v1.59.0]]\n**'''Coin Crate''' added.\n*'''18 June 2025''' - [[v1.67.0|v1.67.5]]\n**'''Coin Crate''' taken offsale.\n*'''22 April 2026''' - [[v1.89.0]]\n**Icon added.\n*'''2 July 2026''' - [[v2.1.0|v2.1.6a]]\n**{{Bug}} '''Coin Crate''' went onsale.\n*'''2 July 2026''' - [[v2.1.0|v2.1.6b]]\n**{{Bugfix}} '''Coin Crates''' no longer has a price.\n**{{Bug}} Selecting the '''Coin Crate''' in the inventory breaks the inventory UI.\n*'''2 July 2026''' - [[v2.1.0|v2.1.6c]]\n**{{Bugfix}} Inventory UI no longer breaks when selected.\n**{{Bugfix}} '''Coin Crate''' is now offsale.\n\n\n\n{{CrateNavBox}}"
-    },
-    {
-      "title": "Cold Front Crate",
-      "score": 3,
-      "pageid": 34172,
-      "latest_revid": 627846,
-      "latest_timestamp": "2026-08-26T15:05:12Z",
-      "wikitext_excerpt": "{{CrateInfobox\n|title1 = {{Color|ColdFront|Cold Front Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:ColdFrontSkincrateIcon.png]]\n|-|In-Game = [[File:ColdFrontSkincrate.png]]\n</tabber>\n|type = Skincrate\n|cost = 3,000\n|sale = Yes\n|rarity = {{Color|Rare}}\n|rarities = {{Color|Common}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}<br/>{{Color|Legendary}}\n|contains = 6\n|music-1 = [[File:Tower Defense Simulator OST - Frost Crate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|Special delivery from the Arctic! (Skins by MidnightKrystal)|Inventory Description}}\n}}\n==Description==\nThe '''Cold Front Crate''' is a crate purchasable for {{Coins|3,000}}. This crate yields six Arctic-themed skins. Skins from this crate can appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n\nEach skin that can be gotten from the '''Cold Front Crate''' has a rarity which affects how likely you are to unlock the skin and the price when it appears in the Daily Skin Store. In the Daily Skin Store, {{Color|Common}} skins cost {{Coins|3,000}}, {{Color|Uncommon}} skins cost {{Coins|3,500}}, {{Color|Rare}} skins cost {{Coins|4,250}} and {{Color|Legendary}} skins cost {{Coins|6,000}}.\n\nThe '''Cold Front Crate''' is a metal camo crate with a keypad, which is used to open it.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:NewSilentSniper0.png|175px]]\n|[[File:Newbriskcommander.png|175px]]\n|[[File:OICEBraveSoulSledgerIcon.png|175px]]\n|[[File:IceWitchAcceleratorIcon2.png|175px]]\n|-\n!Skin\n|{{Color|ColdFront|Silent}}\n|{{Color|ColdFront|Brisk}}\n|{{Color|ColdFront|Brave Soul}}\n|{{Color|ColdFront|Ice Witch}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|3,000}}\n|{{Coins|4,250}}\n|{{Coins|6,000}}\n|{{Coins|6,000}}\n|-\n!Tower\n|[[Sniper]]\n|[[Commander]]\n|[[Sledger]]\n|[[Accelerator]]\n|-\n!\n|[[File:StrandedMedicIconAug25.png|175px]]\n|[[File:NewFrostHunterScout0.png|175px]]\n|-\n!Skin\n|{{Color|ColdFront|Stranded}}\n|{{Color|ColdFront|Frost Hunter}}\n|-\n!Rarity\n|{{Color|Uncommon}}\n|{{Color|Common}}\n|-\n!Cost\n|{{Coins|3,500}}\n|{{Coins|3,000}}\n|-\n!Tower\n|[[Medic]]\n|[[Scout]]\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Thumbnails}}\n<gallery>\nColdFrontThumbnail.png|'''Cold Front Crate''' on the game thumbnail.\n</gallery>\n}}\n\n==Trivia==\n*When first released, this crate was stated to be a seasonal crate, meaning that it would be taken offsale at some point. Despite this, the crate never went offsale, even after winter ended.\n*The crate is opened by entering the code \"''1337''\" into the keypad, which is a reference to [[wp:Leet|leetspeak]].\n*All the skins in this crate were made by [https://www.roblox.com/users/47939131/profile MidnightKrystal].\n\n==Update History==\n{{scroll|text=\n*'''14 February 2023''' - [[v1.6.2]]\n**'''Cold Front Crate''' added.\n*'''1 March 2023''' - [[v1.6.3]]b\n**'''Cold Front Crate''' is no longer guaranteed to appear in the [[Daily Store#Daily Crate Store|Daily Crate Store]].\n*'''14 March 2023''' - [[v1.6.3]]d\n**{{Bug}} '''Cold Front Crate''' skins have a very high chance to appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]] on all days except the days between 14th and 21st of each month.\n*'''9 June 2023''' - [[v1.8.0]]\n**{{Bugfix}} '''Cold Front Crate''' skins having a very high chance to appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]] have been partially fixed. They now only have an increased chance to appear there between the 14th and 21st of each month.\n*'''5 August 2023''' - [[v1.8.4]]\n**Cost decreased from {{Coins|4,000}} to {{Coins|3,000}}.\n**{{Color|Common}} skin cost decreased from {{Coins|4,000}} to {{Coins|3,000}}.\n**{{Color|Uncommon}} skin cost decreased from {{Coins|4,500}} to {{Coins|3,500}}.\n**{{Color|Rare}} skin cost decreased from {{Coins|5,500}} to {{Coins|4,000}}.\n**{{Color|Legendary}} skin cost decreased from {{Coins|7,000}} to {{Coins|4,500}}.\n*'''21 December 2023''' - [[v1.11.0]]\n**{{Bugfix}} '''Cold "
-    },
-    {
-      "title": "Crates",
-      "score": 3,
-      "pageid": 1174,
-      "latest_revid": 627798,
-      "latest_timestamp": "2026-08-26T14:19:12Z",
-      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''Crates'''</span>\n----\n\n'''Crates''' in Tower Defense Simulator are items used to for the most part unlock '''Skins''' for [[towers]] and [[consumables]]. '''Crates''' can be bought with {{Coins|Coins}}, {{Robux|Robux}} or event [[currencies]], like {{Shards|Shards}}. Some '''Skincrates''' are event-exclusive, such as the [[Bunny Crate]] and the [[Spooky Crate]]. This means they cannot be bought after the event has ended. Some '''Skincrates''' can be obtained through [[Login Rewards]], [[Index]] or [[Passes]]. The [[Golden Crate]] also unlocks a Golden Perk along the {{Color|Golden|Golden}} skin, which affect multiple parts of the tower, mainly being its stats.\n\nEach '''Skincrate''' has specific skins that generally only they can unlock, with some exceptions. One '''Skincrate''' unlocks one skin and each '''Skincrate''' has a limited amount of skins to unlock. You can buy excess '''Skincrates''', though they cannot be opened.\n\nFor '''Consumable Crates''', all of them share all or a portion of their consumables, though it is more likely to get consumables with higher rarity in higher tier crates.\n\nTo open a '''Skincrate''', you must go into the ''Crates'' section of your inventory while in the lobby and open the crate in question. Using a '''Skincrate''' will randomly assign a skin that can be obtained from that crate to you. A specific skin for a specific tower cannot be chosen beforehand. You cannot get a skin for a tower that you do not own.\n\nIf a player is from the Netherlands, Australia and Belgium, or if a player is in the United Kingdom and Brazil that cannot verify their age to be over 18, you will be able to see the order in which you unlock skins (or items you will get in the next crate) to comply with gambling laws.\n\n<div class=\"align-center\"><span class=\"mainheader\">'''Skins'''</span>\n----\n\n'''Skins''' are just cosmetic overhauls of the [[Towers|tower]] in question, with no added bonus. Not all '''Skins''' can be found in '''Skincrates''' as some can only be obtained through different means, like a [[Codes|code]], such as the {{Color|Other|Spring Time}} [[Commander]] or from [[Passes]], such as the [[Duck Hunt Event#Skins|{{Color|Ducky|Ducky}}]] skins. To equip a skin, you must go into the ''Towers'' section of your inventory while in the lobby and select the specific tower you want to equip a skin for.\n\nEvery skin has a rarity. For the skincrates that appear in the store, there are four rarities that they can have which determine how likely you are to unlock it. These rarities are {{Color|Common|Common}}, {{Color|Uncommon|Uncommon}}, {{Color|Rare|Rare}} and {{Color|Legendary|Legendary}}. For the [[Golden Crate]], they all use the {{Color|Golden|Golden}} rarity instead, making them all equal. Skins obtained directly from events and some seasons use the {{Color|Event|Event}} rarity, making them all equal. Skins obtained directly via Robux or from [[PVP]] rewards use the {{Color|Ultimate|Ultimate}} rarity. Other skins, such as code skins use the {{Color|Exclusive|Exclusive}} rarity. Skins that are in legacy crates from before 2023 also use the {{Color|Event|Event}} and the {{Color|Exclusive|Exclusive}} rarity. There are a few exceptions where a skin should have a {{Color|Event|Event}} or {{Color|Exclusive|Exclusive}} rarity, but it uses a different rarity instead.\n----\n\n<span class=\"mainheader\">{{Color|Common|Default}}</span>\n\n{| class=\"light-table pad-5 align-center\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:BasicSkincrateIcon.png|175px|link=Basic Crate]]\n|[[File:GoldenSkincrateIcon.png|175px|link=Golden Crate]]\n|[[File:ToySkincrateIcon.png|175px|link=Toy Crate]]\n|[[File:LovelySkincrateIcon.png|175px|link=Lovely Crate]]\n|-\n!Crate\n|[[Basic Crate]]\n|[[Golden Crate]]\n|[[Toy Crate]]\n|[[Lovely Crate]]\n|-\n!Cost\n|{{Coins|500}}\n|{{Coins|50,000}}\n|{{Coins|850}}\n|{{Coins|4,000}}\n|-\n!On Sale?\n|{{Color|Yes}}\n|{{Color|Yes}}\n|{{Color|Yes}}\n|{{Color|No}}\n|-\n!\n|[[File:ColdFront"
-    },
-    {
-      "title": "Deluxe Crate",
-      "score": 3,
-      "pageid": 21449,
-      "latest_revid": 627848,
-      "latest_timestamp": "2026-08-26T15:21:50Z",
-      "wikitext_excerpt": "{{CrateInfobox\n|title1 = {{Color|Deluxe|Deluxe Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:DeluxeSkincrateIcon.png]]\n|-|In-Game = [[File:DeluxeCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost_robux = 200\n|sale = Yes\n|contains = 31\n|rarity = {{Color|Legendary}}\n|rarities = {{Color|Common}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}<br/>{{Color|Legendary}}\n|music-1 = '''Original'''<br/>[[File:Tower Defense Simulator OST - Main Skincrate Opening|thumb|center|250px]]\n|music-2 = '''Current'''<br/>[[File: Tower Defense Simulator OST - Scrapped Deluxe Crate Opening |thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|A deluxe skincrate used to unbox the highest quality skins|Shop Description}}\n}}\n__TOC__\n==Description==\nThe '''Deluxe Crate''' is a very prestigious crate. Like the [[Premium Crate]], it yields more advanced and aesthetically pleasing skins than the [[Basic Crate]]. You are unable to get duplicate skins from this crate, once you have unboxed all the available skins to you. Skins from this crate can appear in the daily shop.\n\nEach skin that can be gotten from the '''Deluxe Crate''' has a rarity which affects how likely you are to unlock the skin and the price when it appears in the daily skin store. In the daily skin store, {{Color|Common}} skins cost {{Robux|255}}, {{Color|Uncommon}} skins {{Robux|360}}, {{Color|Rare}} skins cost {{Robux|360}} and {{Color|Legendary}} skins cost {{Robux|560}}.\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Deluxe Crate''' is a large futuristic black crate with yellow finishing and a golden chevron on the front. It is locked by a card reader. It contains multiple gold coins inside.\n|Version 1\n|The '''Deluxe Crate''' was a large black crate with yellow finishing and a golden chevron on the front. It was locked by two straps.\n}}\n\n==Methods of Obtaining==\n===Current Methods===\n#Purchasable in the store for {{Robux|200}}.\n#Day 28 of [[Login Rewards]].\n#0.145% chance from the [[Spin Wheel]].\n#Purchasing the [[VIP+]] subscription for the first time and every month after that.\n\n===Former Methods===\n#Rank 9 of the [[Frost Invasion Event#Frost Invasion Season Pass|Frost Invasion Season]].\n#Rank 7 of the [[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]].\n#Redeeming the [[Codes|code]] \"1BILLION\" (expired).\n#Redeeming the [[Codes|code]] \"MERRYXMAS2023\" (expired).\n#Completing [[Quests#After The Hunt|After The Hunt]] quest after the {{RLinkC|16736381810|Scout Egg Accessory}} ran out of stock.\n#Redeeming the [[Badges#Achievement Badges|Triumph Hardcore badge]] in [[Rewards]] while it still existed.\n#Purchase the [[Merchandise#School Essentials|Tower Defense T-Shirt]] or [[Merchandise#School Essentials|Tower Defense Backpack]] while it gave out codes.\n#*This can be repeated multiple times.\n#Chance to appear as the reward for [[Quests#Damage Dealer|Damage Dealer]] weekly quests with a 4,000,000 damage requirement.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:NeonRaveDJBoothIconAug2024.png|175px]]\n|[[File:NekoDJBoothIconAug2024.png|175px]]\n|[[File:Newmaidcommander.png|175px]]\n|[[File:Newnekocommander.png|175px]]\n|-\n!Skin\n|{{Color|Deluxe|Neon Rave}}\n|{{Color|Deluxe|Neko}}\n|{{Color|Deluxe|Maid}}\n|{{Color|Deluxe|Neko}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Robux|360}}\n|{{Robux|560}}\n|{{Robux|560}}\n|{{Robux|360}}\n|-\n!Tower\n|[[DJ Booth]]\n|[[DJ Booth]]\n|[[Commander]]\n|[[Commander]]\n|-\n!\n|[[File:KR Gun Gale Ranger Icon.png|175px]]\n|[[File:HuntsmanArcherIcon2025.png|175px]]\n|[[File:ESAcePilotMilitantIcon.png|175px]]\n|[[File:SovietCrookBossM24Icon.png|175px]]\n|-\n!Skin\n|{{Color|Deluxe|Gun Gale}}\n|{{Color|Deluxe|Huntsman}}\n|{{Color|Deluxe|Ace Pilot}}\n|{{Color|Deluxe|Soviet}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Common}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Robux|560}}\n|{{Robux|255}}\n|{{Robux|360}}\n|{{Robux|560}}\n|-\n!Tower\n|[[Ranger]]\n|[[Archer]]\n|[[Militant]]\n|[[Crook "
-    },
-    {
-      "title": "Ducky Crate",
-      "score": 3,
-      "pageid": 34849,
-      "latest_revid": 553216,
-      "latest_timestamp": "2026-07-14T14:11:11Z",
-      "wikitext_excerpt": "{{For|other uses of [[Duck (Disambiguation)|Duck]]}}\n{{CrateInfobox\n|title1 = {{Color|Ducky|Ducky Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:DuckySkincrateIcon.png]]\n|-|In-Game = [[File:DuckySkincrate.png]]\n</tabber>\n|type = Skincrate\n|cost = 3,000\n|sale = No\n|rarities = {{Color|Common}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}<br/>{{Color|Legendary}}\n|contains = 15\n}}\n{{QuoteContainer|\n{{QuoteBox|Quack! Duck skins introduced in the 2022 \"Duck Hunting\" season.|Inventory Description}}\n}}\n==Description==\nThe '''Ducky Crate''' is a crate that could have been purchased for {{Coins|3,000}} in the store. This crate yields fifteen duck-themed skins, containing nine returning skins from the [[Duck Hunt Event#Hunting Season Pass|Hunting Season]] and six new skins. Skins from this crate can appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n\nEach skin that can be obtained from the '''Ducky Crate''' has a rarity which affects how likely you are to unlock the skin and the price when it appears in the Daily Skin Store. In the Daily Skin Store, {{Color|Common}} skins cost {{Coins|3,000}}, {{Color|Uncommon}} skins cost {{Coins|3,500}}, {{Color|Rare}} skins cost {{Coins|4,000}} and {{Color|Legendary}} skins cost {{Coins|4,500}}.\n\nThe '''Ducky Crate''' is a wooden crate with a yellow duck head on top. The crate will go up into the air and do a spin, which opens it. Multiple quack sounds can also be heard while it is being opened.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:DuckySniper0.png|175px]]\n|[[File:KRDuckySoldier0.png|175px]]\n|[[File:DuckyHunterIconn.png|175px]]\n|[[File:DuckyMilitantIcon.png|175px]]\n|-\n!Skin\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|-\n!Rarity\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Common}}\n|{{Color|Uncommon}}\n|-\n!Cost\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|3,500}}\n|-\n!Tower\n|[[Sniper]]\n|[[Soldier]]\n|[[Hunter]]\n|[[Militant]]\n|-\n!\n|[[File:DuckyShotgunner0.png|175px]]\n|[[File:Duckyminigunnerrework.png|175px]]\n|[[File:Newduckycommander.png|175px]]\n|[[File:DuckyFarm0.png|175px]]\n|-\n!Skin\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|-\n!Rarity\n|{{Color|Uncommon}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|3,500}}\n|{{Coins|4,000}}\n|{{Coins|4,000}}\n|{{Coins|4,500}}\n|-\n!Tower\n|[[Shotgunner]]\n|[[Minigunner]]\n|[[Commander]]\n|[[Farm]]\n|-\n!\n|[[File:DuckyEngineerIcon.png|175px]]\n|[[File:DuckyAcceleratorIcon.png|175px]]\n|[[File:DuckyCowboyIcon.png|175px]]\n|[[File:DuckyElectroshockerIcon.png|175px]]\n|-\n!Skin\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|4,500}}\n|{{Coins|4,500}}\n|{{Coins|4,000}}\n|{{Coins|4,000}}\n|-\n!Tower\n|[[Engineer]]\n|[[Accelerator]]\n|[[Cowboy]]\n|[[Electroshocker]]\n|-\n!\n|[[File:DuckyMortarIcon.png|175px]]\n|[[File:DuckyScout0.png|175px]]\n|[[File:DuckyWardenIcon.png|175px]]\n|-\n!Skin\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|{{Color|Ducky|Ducky}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Common}}\n|{{Color|Uncommon}}\n|-\n!Cost\n|{{Coins|4,000}}\n|{{Coins|3,000}}\n|{{Coins|3,500}}\n|-\n!Tower\n|[[Mortar]]\n|[[Scout]]\n|[[Warden]]\n|}\n\n==Trivia==\n*Despite this crate being stated to be on sale for a limited time only, it took over 2 years for it to go offsale on the 18th of June 2025.\n**Despite being taken offsale, it and its skins can still appear in [[Quests]] and the [[Daily Store]].\n\n==Update History==\n*'''12 May 2023''' - [[v1.7.3]]\n**'''Ducky Crate''' added.\n*'''5 August 2023''' - [[v1.8.4]]\n**Cost decreased from {{Coins|4,000}} to {{Coins|3,000}}.\n**{{Color|Common}} skin cost decreased from {{Coins|4,000}} to {{Coins|3,000}}.\n**{{Color|Uncommon}} skin cost decreased from {{Coins|4,500}} to {{Coins|3,500}}.\n**{{Color|Rare}} skin cost decreased from {{Coins|5,500}} "
-    },
-    {
-      "title": "Frost Crate",
-      "score": 3,
-      "pageid": 24177,
-      "latest_revid": 627991,
-      "latest_timestamp": "2026-08-26T17:40:28Z",
-      "wikitext_excerpt": "{{EventObtain|date=4th of December 2021|event=[[Frost Invasion Event]]}}\n{{For|other uses of [[Frost_(Disambiguation)|Frost]]}}\n{{CrateInfobox\n|title1 = {{Color|Frost|Frost Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:FrostCrateIcon.png]]\n|-|In-Game = [[File:FrostCrateInGame.png]]\n</tabber>\n|obtain = [[Frost Invasion Event#Frost Invasion Season Pass|Frost Invasion Season]]\n|type = Skincrate\n|sale = No\n|rarities = {{Color|Legendary}}<br>{{Color|Event}}\n|contains = 5\n|music-1 = [[File:Tower Defense Simulator OST - Frost Crate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|A chilling wind creeps into the room.|Inventory Description}}\n}}\n__TOC__\n==Description==\nThe '''Frost Crate''' is an exclusive crate that was obtainable during the [[Frost Invasion Event]] from the [[Frost Invasion Event#Frost Invasion Season Pass|Frost Invasion Season]] at Rank 2, 5, 8 and 10. Ranks 2 and 5 would give you one '''Frost Crate''', while Ranks 8 and 10 would give you two.\n\nThis crate provides special frost-themed skins that cannot be earned from any other crate.\n\nThe appearance of the '''Frost Crate''' is a grey and blue chest. It has a light blue keyhole with white wings. It is opened with a metallic grey key.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:DHFrostPyroIcon.png|175px]]\n|[[File:Frostminigunnerrework.png|175px]]\n|[[File:Frostrangernew.png|175px]]\n|[[File:May17FrostCommander.png|175px]]\n|-\n!Skin\n|{{Color|Frost|Frost}}\n|{{Color|Frost|Frost}}\n|{{Color|Frost|Frost}}\n|{{Color|Frost|Frost}}\n|-\n!Rarity\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|{{Color|Event}}\n|-\n!Tower\n|[[Pyromancer]]\n|[[Minigunner]]\n|[[Ranger]]\n|[[Commander]]\n|-\n!\n|[[File:FrostMortarIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Frost|Frost}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|-\n!Tower\n|[[Mortar]]\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Crate Icons}}\n<gallery>\nFrostCrate.png|First version (28 May 2021 – 22 April 2026)\n</gallery>\n}}\n\n==Trivia==\n*The {{Color|Frost|Frost}} [[Mortar]] skin was teased to be a part of this crate, with it also being included in the trailer for the [[Frost Invasion Event]]. However, this skin was not added in the actual event.\n**It was then released three years after the [[Frost Invasion Event]] ended in the [[v1.46.0|Operation I.C.E Update]].\n*Oddly, you could get six '''Frost Crates''', but you can only unlock five skins.\n**At various points after the [[Frost Invasion Event]]'s release, you could only get up to four crates or up to five crates.\n\n==Update History==\n*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]\n**'''Frost Crate''' added.\n*'''4 December 2021''' - [[v1.0.0]]\n**'''Frost Crate''' is no longer obtainable.\n*'''21 December 2022''' - [[v1.6.0]]\n**Skin rarity added.\n**{{Bug}} Crate opening music no longer plays.\n*'''28 October 2023''' - [[v1.9.0]]\n**{{Bugfix}} Crate opening music now plays.\n*'''16 December 2024''' - [[v1.46.0]]\n**1 skin added.\n***[[Mortar]]: {{Color|Frost|Frost}}\n*'''22 April 2026''' - [[v1.89.0]]\n**Icon changed.\n*'''21 August 2026''' - [[v2.7.0]]\n**Category changed from {{Color|Event}} to {{Color|Common|Default}}.\n\n\n\n{{CrateNavBox}}"
-    },
-    {
-      "title": "Golden Cowboy",
-      "score": 3,
-      "pageid": 30799,
-      "latest_revid": 618523,
-      "latest_timestamp": "2026-08-18T21:25:37Z",
-      "wikitext_excerpt": "{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}\n{{For|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Cowboy}}\n|image-static = WDGoldenCowboyIcon.png\n|image-dynamic = GoldenCowboyDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)\n|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])\n|basecost = {{Money|600}}\n|basesellingprice = {{Money|200}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|basedamage = [[File:Damage Icon.png|20px|Damage]]3\n|damagetype = Single\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|baserange = [[File:Range Icon.png|20px|Range]]13\n|baseincome = {{Money|35}}\n|hidden_detection = {{Attr|Hidden|Level 3+}}\n|lead_detection = N/A\n|flying_detection = N/A\n|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|footprint = 1.25\n|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.\n\nWhile initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. \n\nThe '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.\n\nIn comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.\n\nThe '''Golden Cowboy''' has a placement limit of twelve per player.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1"
-    }
-  ],
-  "raw_wikitext_file": "tds_bridge/result.txt",
-  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
+  "warning": "No fuzzy result auto-selected."
 }
