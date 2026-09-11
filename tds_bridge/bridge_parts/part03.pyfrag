@@ -121,8 +121,6 @@ def discussion_deep_search(req):
         scanned+=len(roots)
         page_summaries.append({'page':page,'objects':len(roots)})
         if not roots:
-            empty_pages += 1
-            if empty_pages >= 3: break
             continue
         empty_pages = 0
         for o in roots:
@@ -142,6 +140,8 @@ def discussion_deep_search(req):
             score+=sum(3 for x in prefer if norm(x) in low)
             title_low=norm(o.get('title'))
             score+=sum(20 for x in prefer if norm(x) in title_low)
+            if any(x in title_low for x in ('loadout','strategy','strat','solo','duo')): score += 60
+            if any(x in title_low for x in ('tier list','tierlist','ranking','rating')): score -= 50
             if include_media and media['has_images']: score+=1
             tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
             key=str(tid)+'|'+str(o.get('title'))
