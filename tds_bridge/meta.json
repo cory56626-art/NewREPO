@@ -1,6 +1,21 @@
 {
-  "mode": "search",
-  "requested": "Skills Skill Tree reset refund 30000",
-  "known_alias_target": null,
-  "selection_policy": "No fuzzy candidate is ever auto-selected."
+  "mode": "verify",
+  "requested": "Skills",
+  "title": "Skills",
+  "pageid": 49821,
+  "latest_revid": 646843,
+  "latest_timestamp": "2026-09-08T14:57:47Z",
+  "source_url": "https://tds.fandom.com/wiki/Skills",
+  "classification": {
+    "is_tower_page": false,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

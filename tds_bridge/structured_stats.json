@@ -7,7 +7,7 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}",
+  "description": "",
   "upgrade_modes": {
     "regular": [],
     "pvp": []
@@ -32,47 +32,7 @@
       "immune": null
     }
   },
-  "infoboxes": [
-    {
-      "name": "CrateInfobox",
-      "params": {
-        "title1": "{{Color|Golden|Golden Crate}}",
-        "image1": "<tabber>",
-        "Icon": "[[File:GoldenSkincrateIcon.png]]",
-        "In-Game": "[[File:GoldenCrateInGame2026.png]]\n</tabber>",
-        "type": "Skincrate",
-        "cost": "50,000",
-        "sale": "Yes",
-        "contains": "7",
-        "rarity": "{{Color|Golden}}",
-        "rarities": "{{Color|Golden}}",
-        "music-1": "[[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]"
-      },
-      "positional": [
-        "-",
-        "-"
-      ]
-    }
-  ],
-  "likely_infobox": {
-    "name": "CrateInfobox",
-    "params": {
-      "title1": "{{Color|Golden|Golden Crate}}",
-      "image1": "<tabber>",
-      "Icon": "[[File:GoldenSkincrateIcon.png]]",
-      "In-Game": "[[File:GoldenCrateInGame2026.png]]\n</tabber>",
-      "type": "Skincrate",
-      "cost": "50,000",
-      "sale": "Yes",
-      "contains": "7",
-      "rarity": "{{Color|Golden}}",
-      "rarities": "{{Color|Golden}}",
-      "music-1": "[[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]"
-    },
-    "positional": [
-      "-",
-      "-"
-    ]
-  },
-  "template_count": 70
+  "infoboxes": [],
+  "likely_infobox": null,
+  "template_count": 1626
 }

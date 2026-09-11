@@ -1,151 +1,573 @@
 {
-  "mode": "search",
-  "requested": "Skills Skill Tree reset refund 30000",
-  "known_alias_target": null,
-  "candidates": [
-    {
-      "title": "Skills",
-      "pageid": 49821,
-      "snippet": "",
-      "size": 73235,
-      "wordcount": 7277,
-      "timestamp": "2026-09-08T14:57:47Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+  "meta": {
+    "mode": "verify",
+    "requested": "Skills",
+    "title": "Skills",
+    "pageid": 49821,
+    "latest_revid": 646843,
+    "latest_timestamp": "2026-09-08T14:57:47Z",
+    "source_url": "https://tds.fandom.com/wiki/Skills",
+    "classification": {
+      "is_tower_page": false,
+      "reason": "template/category heuristic"
     },
-    {
-      "title": "Skill Credit",
-      "pageid": 57130,
-      "snippet": "",
-      "size": 606,
-      "wordcount": 85,
-      "timestamp": "2026-01-28T19:40:18Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.67.3",
-      "pageid": 50054,
-      "snippet": "",
-      "size": 8487,
-      "wordcount": 1079,
-      "timestamp": "2026-06-05T08:01:03Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.65.0",
-      "pageid": 49796,
-      "snippet": "",
-      "size": 13085,
-      "wordcount": 1517,
-      "timestamp": "2026-07-10T18:27:47Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Refund Center",
-      "pageid": 39484,
-      "snippet": "",
-      "size": 3018,
-      "wordcount": 461,
-      "timestamp": "2026-06-05T07:50:38Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.64.0",
-      "pageid": 49583,
-      "snippet": "",
-      "size": 10244,
-      "wordcount": 1149,
-      "timestamp": "2026-07-01T11:29:49Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Release v1.9",
-      "pageid": 31323,
-      "snippet": "",
-      "size": 4750,
-      "wordcount": 630,
-      "timestamp": "2026-06-05T07:42:53Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.1.0",
-      "pageid": 31653,
-      "snippet": "",
-      "size": 26969,
-      "wordcount": 3341,
-      "timestamp": "2026-07-01T11:28:21Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Settings",
-      "pageid": 34590,
-      "snippet": "",
-      "size": 26355,
-      "wordcount": 3960,
-      "timestamp": "2026-07-19T15:34:44Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.76.0",
-      "pageid": 52790,
-      "snippet": "",
-      "size": 9431,
-      "wordcount": 1186,
-      "timestamp": "2026-06-10T12:01:07Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.78.0",
-      "pageid": 53881,
-      "snippet": "",
-      "size": 8461,
-      "wordcount": 1047,
-      "timestamp": "2026-06-05T08:03:35Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.40.0",
-      "pageid": 43845,
-      "snippet": "",
-      "size": 4489,
-      "wordcount": 587,
-      "timestamp": "2026-06-05T07:55:02Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
     }
-  ]
+  },
+  "resolution": {
+    "status": "resolved",
+    "input": "Skills",
+    "alias_used": null,
+    "target": "Skills",
+    "canonical_title": "Skills",
+    "pageid": 49821,
+    "redirects": [],
+    "selection_method": "exact_or_redirect"
+  },
+  "revision_history": [
+    {
+      "revid": 646843,
+      "parentid": 626404,
+      "timestamp": "2026-09-08T14:57:47Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 73235,
+      "sha1": "eb2f81e3d69413b2665abbca9de907545c56d437"
+    },
+    {
+      "revid": 626404,
+      "parentid": 623629,
+      "timestamp": "2026-08-25T15:11:05Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 73124,
+      "sha1": "3e792d2d2428a76637ab114b3e3e34fd476aea5c"
+    },
+    {
+      "revid": 623629,
+      "parentid": 505847,
+      "timestamp": "2026-08-23T15:15:32Z",
+      "user": "ARCrow0614",
+      "comment": "/* Mechanics */",
+      "size": 73269,
+      "sha1": "cd2d7b37fd5dbdf11bbb928050233e81e512be15"
+    },
+    {
+      "revid": 505847,
+      "parentid": 505212,
+      "timestamp": "2026-06-22T00:00:01Z",
+      "user": "SlingingDart612",
+      "comment": "/* Mechanics */",
+      "size": 73105,
+      "sha1": "8587c778f97efd16c44f0f4db642f45d285ed79e"
+    },
+    {
+      "revid": 505212,
+      "parentid": 505211,
+      "timestamp": "2026-06-21T16:08:12Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 73056,
+      "sha1": "f5fd2800fd9851dd3f250484f3f671cc7665ec5a"
+    },
+    {
+      "revid": 505211,
+      "parentid": 475314,
+      "timestamp": "2026-06-21T16:07:06Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 72929,
+      "sha1": "795e3227ff8b1467ac841ceebaa81107d69dcd4f"
+    },
+    {
+      "revid": 475314,
+      "parentid": 468605,
+      "timestamp": "2026-06-07T21:57:02Z",
+      "user": "SwankiestKouprey985",
+      "comment": "",
+      "size": 73181,
+      "sha1": "ac9691316bb5f4db98711415993877d1f18be566"
+    },
+    {
+      "revid": 468605,
+      "parentid": 466602,
+      "timestamp": "2026-06-05T08:00:44Z",
+      "user": "DarkGabonnie",
+      "comment": "auto, replaced: {{Colour| → {{Color| (17)",
+      "size": 73181,
+      "sha1": "982bbbf215d384424b50b00b7cd46f354ba6eaaa"
+    },
+    {
+      "revid": 466602,
+      "parentid": 454710,
+      "timestamp": "2026-06-04T19:47:07Z",
+      "user": "Frost Catgang",
+      "comment": "",
+      "size": 73198,
+      "sha1": "1349420160967a60afe70b9c0dc55d4deae0d807"
+    },
+    {
+      "revid": 454710,
+      "parentid": 400679,
+      "timestamp": "2026-05-29T14:21:57Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 73192,
+      "sha1": "a519758a12f21c1dfcfb862c5c6cd90c48f6c541"
+    }
+  ],
+  "revision_diff": {
+    "fromrevid": 626404,
+    "torevid": 646843,
+    "fromtitle": "Skills",
+    "totitle": "Skills",
+    "fromuser": "Mentin123",
+    "touser": "Mentin123",
+    "fromcomment": "",
+    "tocomment": "",
+    "diff_text": "Line 1,123: Line 1,123: *'''19 June 2026''' - [[v2.1.0]] *'''19 June 2026''' - [[v2.1.0]] **{{Bugfix}} '''Enhanced Optics''' range boost is now properly displayed in the upgrade menu. **{{Bugfix}} '''Enhanced Optics''' range boost is now properly displayed in the upgrade menu. *'''21 August 2026''' - [[v2.7.0]] **Corrected receive being misspelled as \"''recieve''\" in the refund pop-up. }} }}"
+  },
+  "classification": {
+    "is_tower_page": false,
+    "reason": "template/category heuristic"
+  },
+  "structured_stats": {
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "description": "",
+    "upgrade_modes": {
+      "regular": [],
+      "pvp": []
+    },
+    "upgrade_templates": [],
+    "statistics_tables": {
+      "regular": [],
+      "pvp": []
+    },
+    "detections_and_limits": {
+      "regular": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null,
+        "placement_limit": null
+      },
+      "pvp": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null
+      }
+    },
+    "infoboxes": [],
+    "likely_infobox": null,
+    "template_count": 1626
+  },
+  "conflicts": {
+    "priority_rule": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "potential_conflicts": [],
+    "notes": [
+      "Different upgrade levels can legitimately differ.",
+      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+    ]
+  },
+  "categories": [
+    {
+      "ns": 14,
+      "title": "Category:Features"
+    }
+  ],
+  "backlinks": [
+    {
+      "title": "Waves",
+      "pageid": 104
+    },
+    {
+      "title": "Maps",
+      "pageid": 111
+    },
+    {
+      "title": "How to Play",
+      "pageid": 119
+    },
+    {
+      "title": "Towers",
+      "pageid": 122
+    },
+    {
+      "title": "Commander",
+      "pageid": 199
+    },
+    {
+      "title": "Events",
+      "pageid": 246
+    },
+    {
+      "title": "Emotes",
+      "pageid": 656
+    },
+    {
+      "title": "Codes",
+      "pageid": 657
+    },
+    {
+      "title": "Update Log",
+      "pageid": 850
+    },
+    {
+      "title": "Miscellaneous",
+      "pageid": 857
+    },
+    {
+      "title": "Splash Damage",
+      "pageid": 1007
+    },
+    {
+      "title": "Crates",
+      "pageid": 1174
+    },
+    {
+      "title": "Medic",
+      "pageid": 1545
+    },
+    {
+      "title": "Login Rewards",
+      "pageid": 1728
+    },
+    {
+      "title": "Slasher",
+      "pageid": 1752
+    },
+    {
+      "title": "Hidden Wave",
+      "pageid": 2531
+    },
+    {
+      "title": "Event Store",
+      "pageid": 2758
+    },
+    {
+      "title": "Badges",
+      "pageid": 3559
+    },
+    {
+      "title": "MEGA Servers",
+      "pageid": 6552
+    },
+    {
+      "title": "Attributes",
+      "pageid": 6568
+    },
+    {
+      "title": "Soundtrack",
+      "pageid": 6663
+    },
+    {
+      "title": "Discord Art Contest Winners",
+      "pageid": 7168
+    },
+    {
+      "title": "Units",
+      "pageid": 9458
+    },
+    {
+      "title": "Enemies",
+      "pageid": 9999
+    },
+    {
+      "title": "Gamemodes",
+      "pageid": 12274
+    },
+    {
+      "title": "Thumbnails",
+      "pageid": 13497
+    },
+    {
+      "title": "Features",
+      "pageid": 15039
+    },
+    {
+      "title": "Gamepasses",
+      "pageid": 21660
+    },
+    {
+      "title": "Rewards",
+      "pageid": 22620
+    },
+    {
+      "title": "Gears",
+      "pageid": 22710
+    },
+    {
+      "title": "Trailers",
+      "pageid": 23296
+    },
+    {
+      "title": "Robux Shop",
+      "pageid": 23448
+    },
+    {
+      "title": "Tower Defense Simulator Toys",
+      "pageid": 23695
+    },
+    {
+      "title": "Currencies",
+      "pageid": 25398
+    },
+    {
+      "title": "Merchandise",
+      "pageid": 26062
+    },
+    {
+      "title": "Narrators",
+      "pageid": 27914
+    },
+    {
+      "title": "Star Cannon",
+      "pageid": 28008
+    },
+    {
+      "title": "Passes",
+      "pageid": 29201
+    },
+    {
+      "title": "Firerate Bug",
+      "pageid": 29369
+    },
+    {
+      "title": "Buffs",
+      "pageid": 29880
+    },
+    {
+      "title": "Modifiers",
+      "pageid": 31275
+    },
+    {
+      "title": "Polluted Wasteland II",
+      "pageid": 31438
+    },
+    {
+      "title": "Badlands II",
+      "pageid": 32510
+    },
+    {
+      "title": "Gift Box",
+      "pageid": 32834
+    },
+    {
+      "title": "Pizza Party",
+      "pageid": 33036
+    },
+    {
+      "title": "Daily Store",
+      "pageid": 34013
+    },
+    {
+      "title": "Nametags",
+      "pageid": 34031
+    },
+    {
+      "title": "Fallen Mode",
+      "pageid": 34091
+    },
+    {
+      "title": "Hardcore Mode",
+      "pageid": 34099
+    },
+    {
+      "title": "Levels",
+      "pageid": 34344
+    }
+  ],
+  "templates": [
+    {
+      "ns": 10,
+      "title": "Template:Level",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Coins",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:SkillCredit",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Skill",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Skill/borders.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Tabber",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Clear",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Scroll",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bug",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bugfix",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:BrowseNavBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:BrowseNavBox/cat",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Tabber",
+      "exists": true
+    }
+  ],
+  "related_pages": [
+    {
+      "title": "Range Buff",
+      "score": 2,
+      "pageid": 49631,
+      "latest_revid": 468599,
+      "latest_timestamp": "2026-06-05T08:00:36Z",
+      "wikitext_excerpt": "{{BuffInfobox\n|name = Range buff\n|image = Range Buff.png\n|type = Buff\n|display = Tower\n}}\n\n==Description==\nThe '''Range Buff''' is a buff that increases a tower's range. It is shown on the tower with a blue icon of multiple waves.\n\n==Mechanics==\n'''Range Buff''' range reduction is calculated as:\n::<big>'''Range × (1 + Range Buff)'''</big>\n:::where '''Range Buff''' is the buff supplied in decimal form (for example, 10% is 0.1).\n\nThe range of a tower affected by the '''Range Buff''' can be in decimal form, instead of being rounded down or rounded up to the nearest interger. For example, a tower with 5 range with a 50% '''Range Buff''' will have a range of 7.5.\n\nThe following towers are either partially or fully not affected by the '''Range Buff''':\n*All [[units]].\n*The [[Shotgunner]], as its bullets do not extend into the increased range.\n*The [[DJ Booth]] cannot have its range boosted by another [[DJ Booth]].\n**Other range buff sources, like the [[Ranger]], can still apply it.\n*Circling range of the [[Pursuit]] and [[Ace Pilot]].\n**The radius in which towers gain hidden detection from the [[Ace Pilot]] also cannot be increased.\n**These towers' attack range can still be increased.\n*The sentry building range of the [[Engineer]].\n*The deadzone ranges of towers like the [[Biologist]] and [[Engineer]].\n**The attack range for these towers can still be increased.\n*Secondary orange range of towers like the range buff range for the [[Ranger]] or the gravestone range for the [[Necromancer]].\n**The main range of these towers can still be increased.\n*The chain range of the [[Electroshocker]].\n**The attack range can still be increased.\n*The explosion radius from [[Splash Damage|Splash Damage towers]] cannot be increased.\n\n==Applied By==\nThe following towers or consumables can apply the '''Range Buff''' to other towers:\n*[[DJ Booth]] (Passive)\n*[[Ranger]] (Passive for 20 seconds at the beginning of each wave)\n*[[Range Flag]] (Passive)\n*[[UAV]] (Passive)\n*[[Easter Egg]] (Passive for 20 seconds)\nThe following event features can apply the '''Range Buff''' to towers:\n\n* [[The Moon]] (Passive, [[Null & Void Event|Null & Void]])\n\nThe following towers used to have the '''Range Buff''':\n*{{Color|Golden}} [[Pyromancer]] (Passive)\n*{{Color|Golden}} [[Cowboy]] (Passive)\n*[[Slasher]] (Old ''Knife Throw'' ability)\n\nThe following removed towers had the '''Range Buff''':\n*{{Color|Platinum}} [[Pyromancer]] (Passive)\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Attribute icon}}\n<gallery>\nWider Range.png|First Icon (18 October 2019 - 29 October 2020)\n</gallery>\n}}\n\n==Update History==\n*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]\n**'''Range Buff''' added.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]\n**Icon changed.\n**Now displayed on the tower rather than in the upgrade menu.\n*'''29 March 2024''' - [[v1.17.0]]\n**{{Bug}} Range buff indicators are sunk into the ground.\n*'''10 May 2024''' - [[v1.19.2]]\n**{{Bugfix}} Range buff indicators are no longer sunk into the ground.\n\n\n\n{{BuffsNavBox}}"
+    },
+    {
+      "title": "Buffs",
+      "score": 1,
+      "pageid": 29880,
+      "latest_revid": 467873,
+      "latest_timestamp": "2026-06-05T07:38:02Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader align-center\">'''Buffs'''</span>\n----\n\n'''Buffs''' are special abilities applied to towers, which make them stronger. Some towers can apply a certain '''Buff''' to all towers in its range, while some can only apply it to themselves, either passively or with an ability. There are also '''Debuffs''', which make the towers weaker.\n</div>\n\n<div class=\"mainheader align-center\" style=\"margin:0 auto;\">{{Color|FFF|Buffs}}</div>\n{| class=\"empty-table pad-5 align-center image-shadow-light\" style=\"width:600px; margin:0 auto\"\n| style=\"width: 20%;\" |[[File:Damage Buff.png|32px|link=Damage Buff]]\n| style=\"width: 20%;\" |[[File:Cooldown Buff.png|32px|link=Firerate Buff]]\n| style=\"width: 20%;\" |[[File:Range Buff.png|32px|link=Range Buff]]\n| style=\"width: 20%;\" |[[File:Discount Buff.png|32px|link=Discount Buff]]\n| style=\"width: 20%;\" |[[File:FireworkBuffIcon.png|32px|link=Firework Buff]]\n|-\n| style=\"width: 20%;\" |[[Damage Buff]]\n| style=\"width: 20%;\" |[[Firerate Buff]]\n| style=\"width: 20%;\" |[[Range Buff]]\n| style=\"width: 20%;\" |[[Discount Buff]]\n| style=\"width: 20%;\" |[[Firework Buff]]\n|-\n| style=\"width: 20%;\" |[[File:HiddenDetectionOld.png|32px|link=Hidden Detection Buff]]\n| style=\"width: 20%;\" |[[File:Fly.png|32px|link=Flying Detection Buff]]\n| style=\"width: 20%;\" |[[File:LeadIcon.png|32px|link=Lead_Detection_Buff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Burst Buff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Cash Shot Buff]]\n|-\n| style=\"width: 20%;\" |[[Hidden Detection Buff]]\n| style=\"width: 20%;\" |[[Flying Detection Buff]]\n| style=\"width: 20%;\" |[[Lead Detection Buff]]\n| style=\"width: 20%;\" |[[Burst Buff]]\n| style=\"width: 20%;\" |[[Cash Shot Buff]]\n|}\n\n\n<div class=\"mainheader align-center\">{{Color|FFF|Debuffs}}</div>\n{| class=\"empty-table pad-5 align-center\" style=\"width:600px; margin:0 auto\"\n| style=\"width: 20%;\" |[[File:Slowness.png|32px|link=Fatigue Debuff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Firerate Debuff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Cost Debuff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Range Debuff]]\n| style=\"width: 20%;\" |[[File:DebuffRangeIcon.png|32px|link=Scared Debuff]]\n|-\n| style=\"width: 20%;\" |[[Fatigue Debuff]]\n| style=\"width: 20%;\" |[[Firerate Debuff]]\n| style=\"width: 20%;\" |[[Cost Debuff]]\n| style=\"width: 20%;\" |[[Range Debuff]]\n| style=\"width: 20%;\" |[[Scared Debuff]]\n|-\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Damage Debuff]]\n|-\n| style=\"width: 20%;\" |[[Damage Debuff]]\n|}\n\n\n\n{{BrowseNavBox}}\n[[Category:Browse]]"
+    },
+    {
+      "title": "Damage Indicators",
+      "score": 1,
+      "pageid": 41292,
+      "latest_revid": 511703,
+      "latest_timestamp": "2026-06-24T17:42:09Z",
+      "wikitext_excerpt": "==Description==\n'''Damage Indicators''' are numbers that pop up on enemies when a tower is selected. These numbers are how much damage was dealt to the enemy. The colors used by them mainly varies based on the damage type of the tower or unit. As not all damage types are registered by the game, not all sources of damage will have them appear.\n__TOC__\n\n==Regular Indicators==\n[[File:RegularIndicator.png|100px|thumb]]\nRegular indicators are the basic indicator that appears on most towers. These indicators are colored red. If a tower does not fall into any of the categories below, it uses these indicators.\n{{Clear}}\n\n==Explosion Indicators==\n[[File:ExplosionIndicator.png|100px|thumb]]\nExplosion indicators appear when a tower or unit deals explosion damage. They are also appear when a tower deals burn damage. These indicators are colored orange. Additionally, damage under this type will bypass defense. These following towers and units deal this type of damage:\n*[[Demoman]]\n*[[Ace Pilot]]\n*[[Military Base]]\n*[[Tank]]\n*[[Railgun Tank]]\n*[[Rocketeer]]\n*[[Trapper]]\n*[[Pyromancer]]\n*[[Tesla]]\n*[[Necromancer]]\n*[[Archer]]\n*[[Commando]]\n*[[Firework Technician]]\n*[[Jester]]\n*[[Snowballer]]\n*[[Swarmer]]\n*[[Missile APC]]\n*[[Grenadier]]\n*[[War Machine Sentry]]\n*[[Bomber Elf (Unit)|Bomber Elf]]\n*[[Gift Bomber]]\n*[[Ripped Elf (Unit)|Ripped Elf]]\n\nHowever, despite this, not every single explosive actually uses these indicators. The following towers do not use explosive indicators, meaning they do not bypass defense:\n*[[Paintballer]]\n**Uses Regular indicators.\n*[[Slime Trooper]]\n**Uses Regular indicators.\n*[[Hallow Punk]]\n**Uses Regular indicators.\n*[[Ivy]]\n**Uses Energy indicators.\n\nAdditionally, the [[Elementalist]] uses similarly colored damage indicators for its burn related attacks, though it shares no other traits with explosion indicators, such as defense bypass.\n\n==Collision Indicators==\n[[File:CollisionIndicator.png|100px|thumb]]\nCollision indicators appear when a tower or unit deals unit collision damage. This means it has a few traits, such as bypassing defense, damaging [[Lead (Attribute)|Lead]] enemies, bypassing [[Tank (Attribute)|Tank]]  and dealing no damage to [[Ghost (Attribute)|Ghost]] enemies. These indicators are colored yellow. This means it will mainly appear when a unit collides with another enemy. There is one exception to this, as the [[Trapper]]'s spike and bear traps deal unit collision damage, making them use these indicators.\n\n==Melee Indicators==\n[[File:MeleeIndicators.png|100px|thumb]]\nMelee indicators appear when a tower or unit deals melee damage. These indicators are yellow. These indicators are quite inconsistent, as multiple towers that would be considered melee are not registered as ones. These following towers and units deal this type of damage:\n*[[Gladiator]]\n*[[Warden]]\n*[[Sledger]]\n*[[Executioner]]\n*[[Riot Guard]]\n*[[Slasher]]\n**With its main attack.\n*[[Assassin]]\n*[[Warlock]]\n**With its melee attack.\n*[[Brawler]]\nThese towers, despite looking like they would deal such damage, do not have melee indicators:\n*[[Sword Skeleton]] and [[Skeleton Knight]].\n**Both use regular indicators.\n*[[Executioner Skeleton]].\n**Despite [[Executioner]] having melee indicators, [[Executioner Skeleton]] does not. It has regular indicators.\n*[[Guardian Elf]]\n**Uses regular indicators.\n\n==Poison Indicators==\n[[File:PoisonIndicator.png|100px|thumb]]\nPoison indicators appear when a tower deals poison damage. These indicators are colored green. These following towers and units deal this type of damage:\n*[[Toxic Gunner]]\n*[[Saboteur]]\n*[[Ivy]]\n*[[Jester]]\n\nThe [[Swarmer]]'s sting damage used to have its damage create such indicators, though this is not longer the case starting from [[v1.63.0]].\n\n==Chillness Indicators==\n[[File:ChillnessIndicator.png|100px|thumb]]\nChillness indicators appear when a tower deals damage through chillness. These indicators are colored blue. While all freezing tower apply chillness, only the [[Cryomancer]"
+    },
+    {
+      "title": "Firerate Bug",
+      "score": 1,
+      "pageid": 29369,
+      "latest_revid": 629054,
+      "latest_timestamp": "2026-08-27T12:17:15Z",
+      "wikitext_excerpt": "{{Removed|date = 6th of June 2026}}\n{{Improve|this page and majority of tower/unit pages require updating}}\nThe '''Firerate Bug''', also known as the '''RoF (Rate of Fire) Bug''', was a bug that slightly increased the firerate of all towers and units. This increase was not displayed on the statistics in the game. This bug significantly affected the statistics of fast-firing towers, such as the [[Minigunner]] and [[Ace Pilot]], by significantly decreasing their DPS, whereas slow-firing towers like the [[Ranger]] or [[Sniper]] were hardly affected.\n\nThis has been fixed as of the 6th of June 2026, and all firerate statistics in the game are considered to be accurate unless affected by a different unrelated bug.\n\n{{RightTOC}}\n\n==Prior to 5th of June 2026==\nThe '''Firerate Bug''' affects all towers and units that can directly attack enemies, meaning the only towers that are not affected are the [[Farm]], [[Medic]] and the [[Firework Technician]] and the only units that are not affected are the [[Humvee]], [[Humvee 2]], [[Elf]], [[Bomber Elf (Unit)|Bomber Elf]], [[Skeleton (Unit)|Skeleton]], [[Giant Skeleton (Unit)|Giant Skeleton]] and [[Hallow Guard (Unit)|Hallow Guard]]. The '''Firerate Bug''' does not affect the firerate of some secondary attacks towers or units may perform, some damage-over-time effects applied by towers (like burn from the [[Pyromancer]]) or certain other cooldowns.\n\nThe '''Firerate Bug''' increases the firerate of a tower/unit depending on its firerate, which can vary anywhere between 0.017 and 0.032 seconds. The firerate increase affects fast firing towers the most; for example, the [[Minigunner]] at Level 4 should have a firerate of 0.09, but because of the '''Firerate Bug''', it has a firerate of about 0.117, decreasing its DPS from 166.67 to 128.20, which is a decrease of 38.47 DPS, or a loss of about 23.08 DPS. Meanwhile, slow firing towers are barely affected by it; for example, the [[Ranger]] at Level 4 should have a firerate of 8, but because of the '''Firerate Bug''', it has a firerate of about 8.025, decreasing its DPS from 156.26 to 155.76, which is a decrease of 0.30 DPS, or a loss of 0.2% DPS.\n\nThe [[Firerate Buff]] is also affected by the '''Firerate Bug''', making it less effective. For example, the Level 4 [[Minigunner]] without the '''Firerate Bug''' with a 50% firerate boost should have a firerate of 0.06, but with the '''Firerate Bug''' it has a firerate of 0.083. This means that its DPS with a 50% firerate boost is decreased from 250 to 180.72, which is a decrease of 69.28 DPS, or a loss of 27.71% DPS.\n\nOn this Wiki, the firerate statistic of all towers and units is increased by specific values based on the firerate. While technically possible to calculate by hand, due to the effort it would take, it is overall recommended to either use [[Help:Neowtext#ROFBUG|Neowtext]] or [https://fiheron.github.io/dps-calc/ an online calculator].\n\n==Prior to the 9th of January 2023==\nPrior to the 9th of January 2023, the firerate increase caused by the '''Firerate Bug''' for units was higher than it currently is. The firerate increase was generally around 0.03 seconds. For towers, the firerate increase remained at around 0.008 seconds.\n\nOn this Wiki, the firerate statistic of all towers and units after the [[V1.6.0|Violent Night Update]] and before the 9th of January 2023 is increased by 0.008 and 0.03 respectively, unless stated otherwise. This does not, however, mean the actual value is this; it can vary between towers and even between matches.\n\n==Prior to the Violent Night Update==\nPrior to the [[V1.6.0|Violent Night Update]], the firerate increase caused by the '''Firerate Bug''' for units was lower than it was before the [[V1.6.0|Violent Night Update]]. The firerate increases could be anywhere between 0.008 and 0.017 seconds, but the increase was generally around 0.008 seconds. This is the same as the current situation.\n\nOn this Wiki, the firerate statistic of all units after the [[V1.1.0|Entity Syst"
+    },
+    {
+      "title": "Hidden Wave",
+      "score": 1,
+      "pageid": 2531,
+      "latest_revid": 579442,
+      "latest_timestamp": "2026-07-29T02:38:55Z",
+      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{HiddenWaveInfobox\n|image1 = HiddenBadge3.png\n|rewards = {{Gem|50}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|VeryEasy}})<br/>{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Easy}})<br/>{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}  ({{Color|Normal}})<br/>{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Hard}})<br/>{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Insane}})<br/>{{Gem|+100}} (First Triumph)\n|music-1 = '''Wave 41''' [[File:(Official) Tower Defense Simulator OST - Eye Of The Swarm|thumb|center|250px]]\n|music-2 = '''[[???]] Speech & Wave ???''' [[File:(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|thumb|center|250px]]\n|music-ingame-2 = '''[[???]] Speech & Wave ???''' [[File:Tower Defense Simulator OST - Equinox In-Game Version|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<br/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|[[???]] dialogue at Wave 41}}\n}}\n__TOC__\n==Description==\nThe '''Hidden Wave''' is a secret wave that can only be accessed in [[Fallen Mode|Fallen]] mode.\n\nPlayers need to disable \"Skills Enabled\" from the Gameplay [[Settings]] first to enable Hidden Wave.\n\nAfter voting for [[Fallen Mode|Fallen]] mode, one player must type \"120\", \"1\" and \"1009\" in the game chat. A shriek and screen darkening will accompany each message. After the last number is typed out, the map will become permanently discolored. The base health needs to be reduced to 1, and on Wave 40, the [[Fallen King]] must be defeated in under 60 seconds, which will cause a quicker death animation to play, with the [[Fallen King]] smashing the ground and fleeing with its sword. Using [[Consumables]] on Wave 40 will cause the '''Hidden Wave''' not to be activated.\n\nAfter defeating the [[Fallen King]] under 60 seconds, the next wave will appear as Wave 41. After the Wave 41 timer ends, the players will begin floating in mid-air, and the screen will become a strong purple static background. An unknown narrator simply known in the game as [[???]] will address the player. After the [[Commander (Narrator)|Commander]]'s dialogue, the game abruptly pauses and displays a false disconnect message with defeating the [[Fallen King]] as the reason on a pitch-black background. As the fake error message glitches, it flashes back to the game. The [[Awakened Fallen King]] will spawn in, and the Wave ??? begins, giving all players {{Money|50,000}}.\n\nDuring the course of the wave, purple fog and dark purple particles will cover the entire map, with bright trails flying around. The wave text becomes glitched in a similar fashion to the [[Glitchy Nametag]].\n\n==Rewards==\nTriumph rewards are based on the difficulty of the map. First time triumph also have their rewards increased by {{Gem|100}}. The rewards for each difficulty are:\n\n{| class=\"tds-table align-center\" style=\"width:600px; margin:1em auto;\"\n! rowspan=\"2\" |Difficulty\n! colspan=\"2\" |Rewards\n|-\n!Regular\n!First Triumph\n|-\n|{{Color|VeryEasy}}\n|{{Gem|50}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Easy}}\n|{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|175}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Normal}}\n|{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|200}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Hard}}\n|{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|225}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Insane}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|250}}, {{Exp|250}} & {{TowerExp|185}}\n|}\n\nThe reward for the first 50 players who beat '''Hidden Wave''' was the {{Color|Other|Triumphant}} [[Hacker]] skin.\n\nTriumphing '''Hidden Wave''' will give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. These items are:\n*{{Color|Common}} (47.39%"
+    },
+    {
+      "title": "Hidden Wave (Legacy)",
+      "score": 1,
+      "pageid": 41598,
+      "latest_revid": 582188,
+      "latest_timestamp": "2026-07-30T11:55:18Z",
+      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{Removed|date=4th of December 2021}}\n{{HiddenWaveInfobox\n|title1 = Hidden Wave\n|image1 = <tabber>\n|-|Icon 3 = [[File:HiddenBadge2.png]]\n|-|Icon 2 = [[File:HiddenBadge.png]]\n|-|Icon 1 = [[File:Rocketeer4.png]]\n</tabber>\n|rewards = {{Coins|700}}, {{Exp|100}} & [[Glitchy Nametag]]<ref>After the 9th of June 2023, any player who beat the legacy  '''Hidden Wave''' prior to its removal receives this nametag. Prior to that date, there were no other rewards for triumphing '''Hidden Wave'''.</ref>\n|music-1 = [[File:Tower Defense Simulator OST - Hidden Wave Intro|thumb|center|250px]]\n|music-2 = [[File:(Official) Tower Defense Simulator OST - Hidden Wave|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<BR/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|Activating the Hidden Wave}}\n{{QuoteBox|LET'S PUT IT TO THE TEST<br/>HIDDEN WAVE|Right before the Hidden Wave}}\n{{QuoteBox|ARE YOU READY?<br/>SEE IF YOU CAN BEAT THIS!|Beginning of the Hidden Wave}}\n}}\n__TOC__\n==Description==\nThe legacy version of the '''Hidden Wave''' was a secret wave that could have been accessed by defeating wave 40 on [[Fallen Mode|Fallen]] mode in 1,009 seconds (16 minutes and 49 seconds) or less.\n\nThis wave was extremely difficult and spawned unique and powerful enemies. {{Coins|Coins}} and {{Exp|}} earned remained the same for [[Fallen Mode|Fallen]] mode regardless if the '''Hidden Wave''' was triggered, but losing on the '''Hidden Wave''' only rewarded you with the rewards when losing on wave 40 [[Fallen Mode|Fallen]] mode. Triumphing the '''Hidden Wave''' awarded a special {{RLinkB|2124477833|badge}}. Originally, there was no other reward, though after the 9th of June 2023 anyone with the badge is able to claim the [[Glitchy Nametag]] through the [[Gift Box]].\n\nAccessing the wave was quite difficult as you needed to speedrun through [[Fallen Mode|Fallen]] mode. This meant that you needed three or more other players to trigger the '''Hidden Wave'''. The '''Hidden Wave''' could not have been triggered on [[MEGA Servers]] through the time requirement (interestingly, the '''Hidden Wave''' could have been triggered on a [[MEGA Servers|MEGA Server]] if the player count was 4 or lower before wave 40 on [[Fallen Mode|Fallen]] mode). Certain maps were favored over others due to cliff space, space near the path entrance, etc.\n\nAfter the [[Overhaul v1.0|Overhaul Update]], the wave intro broke. You could still activate it, but the text box did not appear and the game did not acknowledge that the '''Hidden Wave''' had been activated. Additionally, the lighting filter did not change to a red hue with text glitching. The wave would change to 1, while the timer would change to 111111111111111120:00. The only way to know if you have triggered the '''Hidden Wave''' was if the triumph screen did not show after the final wave countdown after you defeated the [[Fallen King (Legacy)|Fallen King]].\n\nThe '''Hidden Wave''' has since been replaced with a [[Hidden Wave|modern version]].\n\n==Rewards==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchyTag.gif|200px|link=Glitchy Nametag]]\n|-\n|[[Glitchy Nametag]]\n|}\n\n==Enemies==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchedGiant-0.png|125px|link=Glitched Giant]]\n|[[File:Bruh-0.png|125px|link=Bruh]]\n|[[File:Bug-0.png|125px|link=Bug]]\n|[[File:FrostHero2020.png|125px|link=Frost Hero (Frost Invasion)]]\n|[[File:Jaxe.png|125px|link=Jaxe (Nightmare Carnival)]]\n|[[File:MechanicalRot-0.png|125px|link=Mechanical Rot (Legacy)]]\n|-\n|[[Glitched Giant]]<br/>30+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bruh]]<br/>33+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bug]]<br/>41 Total\n|[[Frost H"
+    },
+    {
+      "title": "Leaderboard",
+      "score": 1,
+      "pageid": 49439,
+      "latest_revid": 638439,
+      "latest_timestamp": "2026-09-02T19:25:04Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''Leaderboard'''</span >\n----\n'''Leaderboard''' is a feature that displays current global rankings of various statistics in the game lobbies.\n</div>\n\n==Lobby Leaderboards==\n[[File:LobbyLeaderboard.png|300px|thumb]]\nIn the [[Main Lobby]], two boards can be found on the sides of the [[Elevators]] are, which are the '''Leaderboards''' for this part of the game. These display the current month's total statistics for up to 50 players. Their avatar icon, username, level and total statistic are displayed next to their spot on the '''Leaderboard'''. Top three players are displayed on podiums next to the '''Leaderboards'''.\n\nThe first '''Leaderboard''' is total triumphs. This displays the total triumphs in [[Frost Mode|Frost]] or [[Fallen Mode|Fallen]] for players this month.\n\nThe second '''Leaderboard''' is total {{Exp|}}. This display total {{Exp|}} for players this month.\n\nAny players in the top three of either two '''Leaderboards''' obtain the [[Champion Nametag]] through their [[Gift Box]], which they will get to keep even after the month ends.\n\n==Intermission Lobby Leaderboards==\n[[File:IntermissionLobbyLeaderboard.png|300px|thumb]]\nIn both the [[Survival Intermission Lobby|Survival]] and [[Hardcore Intermission Lobby|Hardcore Intermission Lobbies]], two large signs can be found displaying the '''Leaderboards'''. These show the top triumphs for the current month and day, respective to the mode of the lobby:\n*'''Survival Lobby''': Tracks triumphs in [[Easy Mode|Easy]], [[Casual Mode|Casual]], [[Intermediate Mode|Intermediate]], [[Molten Mode|Molten]], [[Fallen Mode|Fallen]] and [[Frost Mode|Frost]] modes.\n*'''Hardcore Lobby''': Tracks triumphs exclusively in [[Hardcore Mode|Hardcore]].\n\nUnlike other '''Leaderboards''', however, no additional rewards are granted for placing in the top three or achieving first place.\n\n==Trivia==\n*[[Tutorial]] triumphs used to count for the '''Top Triumphs''' leaderboard.\n\n\n\n{{BrowseNavBox}}"
+    },
+    {
+      "title": "Splash Damage",
+      "score": 1,
+      "pageid": 1007,
+      "latest_revid": 579939,
+      "latest_timestamp": "2026-07-29T08:20:02Z",
+      "wikitext_excerpt": "'''Splash Damage''' is a mechanic applied to certain towers, units and consumables, allowing the tower to deal damage to enemies within the explosion radius. While some towers can inflict damage on multiple enemies, such as the [[Gladiator]] or the [[Assassin]], they are not considered ''Splash Damage Towers'' as they do not create an explosion. Prior to the [[Release v1.0|MEGA Update]] and [[Overhaul v1.3|Frost Invasion Update]], there were two entirely different systems of explosion damage. This is elaborated on detail below.\n__TOC__\n==Present==\nCurrently, these towers use the '''Splash Damage''' mechanic:\n{| class=\"empty-table pad-5\" style=\"min-width:750px; width: 75%; text-align:center; margin:0 auto\" \n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Common|Starter}}\n|-\n| class=\"align-center\" |[[File:NewPaintballerIcon.png|150px|link=Paintballer]]<br/>[[Paintballer]]\n|Projectile-based, from Level 0+<br/>Damage is linked to the stated statistic.<br/>Does not bypass defense and has no damage drop off.\n|-\n| class=\"align-center\" |[[File:DefaultDemomanIcon2.png|150px|link=Demoman]]<br/>[[Demoman]]\n|Projectile-based, from Level 0+<br/>Damage is linked to the stated statistic.<br/>Has no damage drop off.\n|-\n| class=\"align-center\" |[[File:SlimeTrooperIcon.png|150px|link=Slime Trooper]]<br/>[[Slime Trooper]]\n|Projectile-based, from Level 4<br/>Damage is linked to the stated statistic.<br/>Does not bypass defense and has no damage drop off. \n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Uncommon|Intermediate}}\n|-\n| class=\"align-center\" |[[File:RocketeerIcon2025.png|150px|link=Rocketeer]]<br/>[[Rocketeer]]\n|Projectile-based, from Level 0+<br/>Damage is linked to the stated statistic.<br/>Has no damage drop off.\n|-\n| class=\"align-center\" |[[File:TrapperIcon.png|150px|link=Trapper]]<br/>[[Trapper]]\n|Projectile-based, from Level 2+<br/>Damage is not linked to tower statistic.\n|-\n| class=\"align-center\" |[[File:AcePilotNewIcon.png|150px|link=Ace Pilot]]<br/>[[Ace Pilot]]\n|Non-projectile-based, from Level 2+<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:DefaultMilitaryBaseIconM29.png|150px|link=Military Base]]<br/>[[Military Base]]\n|Projectile-based, cannon, from Level 4+<br/>All forms of damage are independent from one another.\n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Rare|Advanced}}\n|-\n| class=\"align-center\" |[[File:Newranger.png|150px|link=Ranger]]<br/>[[Ranger]]\n|Non-projectile-based, from Level 4<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:MortarIcon.png|150px|link=Mortar]]<br/>[[Mortar]]\n|Projectile-based, from Level 0+<br/>Projectile-based, cluster bombs, from Level 4+<br/>Regular damage is linked to the stated statistic; cluster bomb damage is not linked to the stated statistic.\n|-\n| class=\"align-center\" |[[File:PursuitNewIcon.png|150px|link=Pursuit]]<br/>[[Pursuit]]\n|Projectile-based, from Level 3+<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:DefaultMercenaryBaseIcon.png|150px|link=Mercenary Base]]<br/>[[Mercenary Base]]\n|Projectile-based, from Level 1+<br/>All forms of damage are independent from one another.\n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|HardcoreMode|Hardcore}}\n|-\n| class=\"align-center\" |[[File:NecromancerTowerIcon.png|150px|link=Necromancer]]<br/>[[Necromancer]]\n|Non-projectile-based, from Level 4<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:EngineerIcon.png|150px|link=Engineer]]<br/>[[Engineer]]\n|Projectile-based, from Level 6<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Golden|Golden Perks}}\n|-\n| class=\"align-center\" |[[File:GoldenDemoman0.png|150px|link=Golden Demoman]]<br/>[[Golde"
+    },
+    {
+      "title": "Tower Defense Simulator",
+      "score": 1,
+      "pageid": 52016,
+      "latest_revid": 468670,
+      "latest_timestamp": "2026-06-05T08:02:42Z",
+      "wikitext_excerpt": "{{GameInfobox\n|title1 = {{RLinkG|3260590327|Tower Defense Simulator}}\n|image1 = V1.35.0UpdateIcon.png\n|creator = [[Paradoxum Games]]\n|playing = {{formatnum:{{#invoke:roapid|games|1176784616|data|1|playing}}}}\n|favorites = {{formatnum:{{#invoke:roapid|favorites|1176784616|favoritesCount}}}}\n|visits = {{formatnum:{{#invoke:roapid|games|1176784616|data|1|visits}}}}\n|date = 5 June 2019, 04:21:45 UTC\n|genre = Strategy\n|subgenre = Tower Defense\n}}\n==Description==\n'''Tower Defense Simulator''' ('''TDS'''), is a game created by [[Paradoxum Games]] on the 5th of June 2019, though it was not officially released until the 14th of June 2019. It is a tower defense game where players are tasked with defending the exit from hordes of enemies using towers. It is playable on PC, mobile and consoles.\n\n'''Tower Defense Simulator''' was [[Tower Defense Simulator Award Nominations|nominated for awards]] multiple times in the Bloxies and the Innovation Awards, though it only won the 8th Annual Bloxy Awards in the ''Best Game Trailer'' category.\n\n'''Tower Defense Simulator''' has various social media accounts, including an [https://x.com/paradoxum_games X account], a [https://discord.gg/tds Discord server], [https://www.youtube.com/@ParadoxumGames YouTube channel] and [https://www.reddit.com/r/TDS_Roblox/ Reddit subreddit]. Other accounts also exist, though they are tied to [[Paradoxum Games]] rather than '''Tower Defense Simulator''' specifically, meaning content from [[Paradoxum Games]]' other games also appear there.\n\n==Gameplay==\nThe main gameplay loop of '''Tower Defense Simulator''' revolves around the players using their [[towers]] and [[consumables]] to defend a map they have chosen from [[enemies]]. Players can pick a limited number of towers and consumables into their loadout. These have varying abilities making them excel in different areas, like some towers being better suited for the early waves or certain towers being used to provide buffs to other towers.\n\nPlayers can pick a [[Maps|map]] of their choosing in either the main lobby or the intermission lobby. The main lobby allows for picking maps via [[Elevators]], while intermission lobby allows for players to vote on which map they want to play on. In certain modes, like the special maps or [[Challenge Trials]], there is a set map which cannot be changed.\n\nThe mode can also be chosen by players. If a map is accessed through the main lobby, there is a vote between the survival modes, while for [[Hardcore Mode|Hardcore]] mode, no such vote is held due to it only having one. If a map is chosen in the intermission lobby, there is no mode vote as it was already chosen through the [[Matchmaking]] menu by the player.\n\nWhen a match starts, hordes of enemies will be sent out. Initially, these enemies do not possess any abilities and they will simply walk towards the exit. However, as the match goes on, these enemies will receive various abilities or attributes, such as immunities, abilities to support other enemies and attacks which stun or debuff towers. On the final wave, a major boss will spawn, which the player needs to defeat to triumph the match.\n\n'''Tower Defense Simulator''' also offers [[PVP]], where instead of surviving all the waves, the players are tasked with defeating another player by surviving for longer. [[PVP]] has its own unique mechanics, unique statistics of towers for the mode and consumables that are only usable in [[PVP]] mode.\n\nAfter beating a match, players are rewarded with various currency, such as {{Coins|Coins}}, {{Exp|}} and {{Gem|Gems}}. These are mainly used to progress through the game, as they allow the player to unlock new areas of the game, purchase items and obtain [[cosmetics]].\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Wordmarks}}\n<gallery>\nTDSLogoEarly1.png|First version (June 2019 – July 2019)\nTDSLogoEarly2.png|Second version (July 2019)\nTDSLogo.png|Third version (July 2019 – 29 October 2020)\nSecondTDSLogo.png|Fourth version (29 October 2020 – 4 December"
+    },
+    {
+      "title": "Tower Defense Simulator Award Nominations",
+      "score": 1,
+      "pageid": 40925,
+      "latest_revid": 582558,
+      "latest_timestamp": "2026-07-30T15:14:54Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''Tower Defense Simulator Award Nominations'''</span>\n----\n\nEvery year, Roblox hosts the Innovation Awards event (formerly the Bloxys). Tower Defense Simulator has been nominated by Roblox in the Bloxys and Innovation Awards five times, all in different categories, winning only one of them.\n</div>\n\n__TOC__\n==Roblox Innovation Awards 2026 <span class=\"neutral-text\">(Voting ongoing)</span>==\nIn the [[w:c:Roblox:Roblox Innovation Awards 2026|Roblox Innovation Awards 2026]], Tower Defense Simulator was nominated for ''Best Strategy Experience''. The reward was originally listed by BelowNatural as a Bloxy skin of community's choice, though it was quickly changed to just a special celebration. A KJ [[Brawler]] skin was also shown off by a developer at one point, though its lack of acknowledgement points towards it being a joke and not an actual reward.\n\n===Nominees===\n{| class=\"article-table pad-5 align-center\" style=\"width:350px;\"\n!Game\n!Result\n|-\n|{{RLinkG|131346454575416|Mini War}}\n| class=\"neutral-table\" |Nominated\n|-\n|{{RLinkG|9503261072|Tower Defense X}}\n| class=\"neutral-table\" |Nominated\n|-\n|{{RLinkG|3260590327|Tower Defense Simulator}}\n| class=\"neutral-table\" |Nominated\n|-\n|{{RLinkG|2569453732|Rise of Nations}}\n| class=\"neutral-table\" |Nominated\n|}\n\n===Gallery===\n{{Gallery|Open = Yes|\n<gallery>\nInnovationAwards2026Icon.png|Icon for the Innovation Awards.\nInnovationAwards2026.png|Promotional image for the Innovation Awards.\nInnovationAwards2026Message.png|Message asking the player to vote for Tower Defense Simulator added in [[v2.3.0|v2.3.4]].\nInnovationAwards2026MessageFixed.png|Message asking the player to vote for Tower Defense Simulator after a minor correction in [[v2.3.0|v2.3.5]].\nFree KJ Brawler - Tower Defense Simulator|Video posted by a developer on X. Lack of acknowledgement past this point suggest this was just a joke.<ref>https://x.com/Vylithh/status/2074282329300779429</ref>\n</gallery>\n}}\n\n==Roblox Innovation Awards 2024 <span class=\"no-text\">(Nominated)</span>==\nIn the [[w:c:Roblox:Roblox Innovation Awards 2024|Roblox Innovation Awards 2024]], Tower Defense Simulator was nominated for ''Best Strategy Game''. If Tower Defense Simulator had won the category, a special skin themed around the Event would have been made, similar to the {{Color|Other|Bloxy}} [[Commander]].\n\n===Nominees===\n{| class=\"article-table pad-5 align-center\" style=\"width:350px;\"\n!Game\n!Result\n|-\n|{{RLinkG|17017769292|Anime Defenders}}\n| class=\"no-table\" |4th Place\n|-\n|{{RLinkG|16389395869|a dusty trip}}\n| class=\"no-table\" |3rd Place\n|-\n|{{RLinkG|3260590327|Tower Defense Simulator}}\n| class=\"no-table\" |2nd Place\n|-\n|{{RLinkG|10449761463|The Strongest Battlegrounds}}\n| class=\"yes-table\" |1st Place\n|}\n\n===Gallery===\n{{Gallery|Open = Yes|\n<gallery>\nTDSInnovationAwardsThumbnail.png|Thumbnail for the Innovation Awards.\n</gallery>\n}}\n\n==Roblox Innovation Awards 2022 <span class=\"no-text\">(Nominated)</span>==\nIn the [[w:c:Roblox:Roblox Innovation Awards 2022|Roblox Innovation Awards 2022]], Tower Defense Simulator was nominated for ''Best Content Update'', specifically the [[v1.0.0|Solar Eclipse Update]]. If Tower Defense Simulator had won the category, a bigger gift than the {{Color|Other|Bloxy}} [[Commander]] skin would have been made, alongside [[The Umbra]] returning.\n\n===Nominees===\n{| class=\"article-table pad-5 align-center\" style=\"width:350px;\"\n!Game\n!Result\n|-\n|{{RLinkG|4623386862|Piggy}}\n| class=\"yes-table\" |Won\n|-\n|{{RLinkG|3260590327|Tower Defense Simulator}}\n| class=\"no-table\" |Nominated\n|-\n|{{RLinkG|606849621|Jailbreak}}\n| class=\"no-table\" |Nominated\n|-\n|{{RLinkG|306964494|Loomian Legacy}}\n| class=\"no-table\" |Nominated\n|}\n\n===Gallery===\n{{Gallery|Open = Yes|\n<gallery>\nBloxy2022PI.jpg|Promotional image for the Innovation Awards.\nVOTE for the UMBRA at the Roblox Innovation Awards NOW! - Tower Defense Simulator|Promotional video for the Innovation Awards.\nBloxyLobby.png|Lobby during the Inno"
+    },
+    {
+      "title": "Tower Defense Simulator Toys",
+      "score": 1,
+      "pageid": 23695,
+      "latest_revid": 467829,
+      "latest_timestamp": "2026-06-05T07:36:06Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''Toys'''</span>\n----\n<span class=\"link-preview-hide\">''For information about Merchandise, click [[Merchandise|here]].''</span>\n\nThere are various Tower Defense Simulator-themed Toys, generally sold by Paradoxum Games though also occasionally sold by others, which can be mini-figures or plushies. They are based on multiple things that appear in the game, such as towers, enemies or units. Toys sold by Paradoxum Games can be found at the [https://shop.paradoxum.games/ Paradoxum Games website] or through their Merch Shop.\n\nToys sold by Paradoxum Games come with additional in-game rewards, usually skins. These can '''only be gotten through the in-game Merch Shop'''. Purchases on the [https://shop.paradoxum.games/ Paradoxum Games website] will not come with any rewards. Only players eligible for the in-game Merch Shop can access it, which are players in the United States of America who are above the age of 13 (18 in Texas).\n\n<span class=\"mainheader\">{{Color|FFF|Juniper Creates}}</span>\n\n{| class=\"light-table pad-5 align-center\" style=\"width:800px; text-align:center; margin:0 auto\"\n!\n|[[File:PlushieCommander.png|125px|link=Commander Plush (Level 1)]]\n|[[File:PlushMiniMask.png|125px|link=Minigunner Plush]]\n|[[File:PlushieDJBooth.png|125px|link=DJ Booth Plush]]\n|[[File:PlushieCommander2.png|125px|link=Commander Plush (Level 4)]]\n|[[File:PlushieScout.png|125px|link=Scout Plush]]\n|-\n!Name\n|[[Commander Plush (Level 1)|Commander Plush]]<br/>(Level 1)\n|[[Minigunner Plush]]\n|[[DJ Booth Plush]]\n|[[Commander Plush (Level 4)|Commander Plush]]<br/>(Level 4)\n|[[Scout Plush]]\n|-\n!\n|[[File:GraveDiggerPlush.png|125px|link=Grave Digger Mini Plush]]\n|[[File:MoltenBossPlush.png|125px|link=Molten Boss Mini Plush]]\n|[[File:FallenBossPlush.png|125px|link=Fallen King Mini Plush]]\n|[[File:NuclearMonsterPlush.png|125px|link=Nuclear Monster Mini Plush]]\n|[[File:GunslingerPlush.png|125px|link=Gunslinger Mini Plush]]\n|-\n!Name\n|[[Grave Digger Mini Plush]]\n|[[Molten Boss Mini Plush]]\n|[[Fallen King Mini Plush]]\n|[[Nuclear Monster Mini Plush]]\n|[[Gunslinger Mini Plush]]\n|-\n!\n|[[File:PlushieAccelerator.png|125px|link=Accelerator Plush]]\n|[[File:UmbraPlush.png|125px|link=Umbra Mini Plush]]\n|[[File:EngineerPlush.png|125px|link=Engineer Plush]]\n|[[File:TrapperPlush.png|125px|link=Trapper Plush]]\n|[[File:GoldenMinigunnerPlush.png|125px|link=Golden Minigunner Plush]]\n|-\n!Name\n|[[Accelerator Plush]]\n|[[Umbra Mini Plush]]\n|[[Engineer Plush]]\n|[[Trapper Plush]]\n|[[Golden Minigunner Plush]]\n|-\n!\n|[[File:PlushCowboy.png|125px|link=Cowboy Plush]]\n|[[File:PatientZeroPlush.png|125px|link=Patient Zero Mini Plush]]\n|[[File:PyromancerPlush.png|125px|link=Pyromancer Plush]]\n|[[File:DJBoothFigurine.png|125px|link=DJ Booth Figurine]]\n|[[File:MechaBunnyandNerdDuckyMiniPlushIcon.png|125px|link=Mecha Bunny + Nerd Ducky Mini Plush]]\n|-\n!Name\n|[[Cowboy Plush]]\n|[[Patient Zero Mini Plush]]\n|[[Pyromancer Plush]]\n|[[DJ Booth Figurine]]\n|[[Mecha Bunny + Nerd Ducky Mini Plush]]\n|-\n!\n|[[File:MiniCommanderPlush.png|125px|link=Mini Commander Plush]]\n|[[File:MiniDJBoothPlush.png|125px|link=Mini DJ Booth Plush]]\n|[[File:MiniAcceleratorPlush.png|125px|link=Mini Accelerator Plush]]\n|[[File:NarratorMiniPlush.png|125px|link=Narrator Plush]]\n|-\n!Name\n|[[Mini Commander Plush]]\n|[[Mini DJ Booth Plush]]\n|[[Mini Accelerator Plush]]\n|[[Narrator Plush]]\n|}\n\n<span class=\"mainheader\">{{Color|FFF|Jazwares}}</span>\n\n{| class=\"light-table pad-5 align-center\" style=\"width:800px; text-align:center; margin:0 auto\"\n!\n|[[File:CorePackSoldierToy.png|125px|link=Roblox Core Pack - Tower Defense Simulator]]\n|[[File:MedicToy.png|125px|link=Roblox Mystery Figure - Cyber Medic]]\n|[[File:MinigunnerToy.png|125px|link=Roblox Mystery Figure - Minigunner]]\n|[[File:TemplarToy.png|125px|link=Roblox Mystery Figure - Templar]]\n|[[File:NecromancerBossToy.png|125px|link=Roblox Mystery Figure - Necromancer Boss]]\n|-\n!Name\n|[[Roblox Core Pack - Tower Defense Simulator|Core Pack (Soldier"
+    },
+    {
+      "title": "Tower Defense Simulator UGC",
+      "score": 1,
+      "pageid": 40942,
+      "latest_revid": 468310,
+      "latest_timestamp": "2026-06-05T07:52:06Z",
+      "wikitext_excerpt": "<div class=\"align-center\">\n<span class=\"mainheader\">'''Tower Defense Simulator UGC'''</span>\n----\n\nTower Defense Simulator has '''user-generated content (UGC)''' made themed around it that can be bought in the Roblox marketplace. These are generally made by the Paradoxum Games group, though there were some made by the clothing designers from the Tower Defense Simulator Discord that can be worn alongside the shirt and pants. BelowNatural has also uploaded a few accessories on his account.\n\nThis page does not include any accessories made by Roblox, regardless of whether they were obtainable in Tower Defense Simulator or are themed around it.\n</div>\n\n__TOC__\n==Paradoxum Games==\nThe [[Paradoxum Games]] group released multiple UGC themed items around Tower Defense Simulator as part of updates. While they were mostly items with limited stock, some were made purchasable permanently.\n\n===General===\nThese were released without any in-game event tied to them.\n{| class=\"empty-table pad-5 align-center\" style=\"width:300px; margin:0 auto\"\n|[[File:BaseballMortarCapOfficial.png|175px]]\n|[[File:BaseballMortarBackpackOfficial.png|175px]]\n|[[File:FallenEngineerWingsBelow.png|175px]]\n|[[File:FallenEngineerHairBelow.png|175px]]\n|-\n|{{RLinkC|133999213531013|Baseball Mortar's Cap (OFFICIAL)}}\n|{{RLinkC|117936505339965|Baseball Mortar's Backpack (OFFICIAL)}}\n|{{RLinkC|82979124228483|Fallen Engineer's Wings}}\n|{{RLinkC|74037952317708|Fallen Engineer's Hair}}\n|-\n|[[File:FrostBlasterBackpackOfficial.png|175px]]\n|[[File:FrostBlasterHelmetOfficial.png|175px]]\n|[[File:ScoutVestBelow.png|175px]]\n|[[File:ScoutHeadwearBelow.png|175px]]\n|-\n|{{RLinkC|122870584870737|Frost Blaster's Backpack (OFFICIAL)}}\n|{{RLinkC|78223623799015|Frost Blaster's Helmet (OFFICIAL)}}\n|{{RLinkC|116099329550896|Scout Vest (OFFICIAL)}}\n|{{RLinkC|86590017904678|Scout Headwear (OFFICIAL)}}\n|}\n\n===The Hunt Event===\nAs part of [[The Hunt Event]], an accessory was released which could have been obtained from the [[Quests#After The Hunt|After The Hunt]] quest. It had a stock of 200,000. It can now be purchased with {{Robux|Robux}} if it is being re-sold by people who obtained it, with the prices varying based on who is selling it.\n{| class=\"empty-table pad-5 align-center\" style=\"width:300px; margin:0 auto\"\n|[[File:ScoutEggHat.png|175px]]\n|-\n|{{RLinkC|16736381810|Scout Egg}}\n|}\n\n===Krampus' Revenge Event===\n{| class=\"empty-table pad-5 align-center\" style=\"width:300px; margin:0 auto\"\n|[[File:KrampusHelmetUGC.png|200px]]\n|[[File:CryomancerMaskUGC.png|200px]]\n|[[File:CryingAngelWingsUGC.png|200px]]\n|-\n|{{RLinkC|15689733926|Krampus' Helmet}}\n|{{RLinkC|15697011608|Cryomancer's Mask}}\n|{{RLinkC|15696220879|Crying Angel Wings}}\n|-\n|[[File:MonsterSkullUGC.png|200px]]\n|[[File:AwakenedDragonUGC.png|200px]]\n|[[File:CryptidHoodUGC.png|200px]]\n|-\n|{{RLinkC|15696976709|Monster's Skull}}\n|{{RLinkC|15689719000|Awakened Dragon}}\n|{{RLinkC|15688153148|Cryptid Hood}}\n|}\n\n===Lunar Overture Event===\nAccessories were originally obtained by triumphing acts, while the {{RLinkC|15169629932|God Cube Fragments}} accessory was obtained by finishing an obby in the lobby. Accessories from the three acts can be purchased with {{Robux|Robux}} if they are being re-sold by people who obtained them, with the prices varying based on who is selling them.\n\n<div class=\"mainheader align-center\">{{Color|FF12FB|Act I}}</div>\n{| class=\"empty-table pad-5 align-center\" style=\"width:800px; margin:0 auto\"\n|[[File:PumpkinShoulderPal.png|175px]]\n|[[File:ExecutionerHelmet.png|175px]]\n|[[File:ExecutionerAxe.png|175px]]\n|-\n|{{RLinkC|15169225890|Pumpkid Shoulder Pal}}\n|{{RLinkC|15169242735|Executioner's Helmet}}\n|{{RLinkC|15172282904|Executioner's Axe}}\n|-\n|Chance to get upon Act I triumph\n|Chance to get upon Act I triumph\n|Chance to get upon Act I triumph\n|-\n|25,000\n|10,000\n|2,500\n|}\n\n<div class=\"mainheader align-center\">{{Color|F7952D|Act II}}</div>\n{| class=\"empty-table pad-5 align-center\" style=\"width:800px; margin:0 auto\"\n|[[File:JackoBot"
+    }
+  ],
+  "raw_wikitext_file": "tds_bridge/result.txt",
+  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
 }

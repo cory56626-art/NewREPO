@@ -1,187 +1,1135 @@
-{{For|[[Platinum Crate]]|other uses of [[Gold (Disambiguation)|Gold]]}}
-{{CrateInfobox
-|title1 = {{Color|Golden|Golden Crate}}
-|image1 = <tabber>
-|-|Icon = [[File:GoldenSkincrateIcon.png]]
-|-|In-Game = [[File:GoldenCrateInGame2026.png]]
-</tabber>
-|type = Skincrate
-|cost = 50,000
-|sale = Yes
-|contains = 7
-|rarity = {{Color|Golden}}
-|rarities = {{Color|Golden}}
-|music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]
-}}
-{{QuoteContainer|<tabber>
-|-|Current =
-{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier, Demoman|Inventory Description}}
-|-|Version 2 =
-{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier.|Former Inventory Description}}
-|-|Version 1 =
-{{QuoteBox|A crate for the most prestigious players.|Former Inventory Description}}
-</tabber>}}
-__TOC__
-==Description==
-The '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.
+<div class="align-center"><span class="mainheader">'''Skills'''</span>
+----
+'''Skills''' are special attributes applied to matches that can affect gameplay. There are four types of '''Skills''': Offensive, Economy, Strategy and Defense. They are unlocked at {{Level|15}}.
+</div>
 
-Each skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}
+==Mechanics==
+<gallery type="slideshow" widths="200" position="right">
+UnlockedSkillTree.png|All '''Skills''' unlocked
+Maxxedskilltree.png|Fully upgraded '''Skills'''
+<!--Place.png|No upgrades-->
+</gallery>
+'''Skills''' will apply buffs to the player's towers and units. These start off small and linearly become slightly higher. Each '''Skill''' has its own level cap, some being as low as 10 and others having up to 40 levels. In the majority of cases, they only apply to the player who has the '''Skill''' and not every single player in the match. However, if the thing that the '''Skill''' affects is shared by the players, it will function in various ways, like including '''Skill''' boosts from every player or only picking the one with the highest Level.
 
-==Appearance==
-{{Tabber
+Each '''Skill''' will start out very cheap, but it will quickly become far more expensive as the equation for the cost is exponential. It is calculated as:<br/>
+<math>\text{(Base Cost} \times \text{Level)}^\text{Exponential Value}</math><br/>
+The result is first rounded down then rounded to the nearest multiple of 5.
+
+The total cost to fully upgrade every '''Skill''' is {{Coins|824,070}}. To have every single '''Skill''' available to upgrade, the player has to purchase every single '''Skill''' except Precision, Scavenger, Scholar, Re-enforcements and Beefed Up Minions, and level them up to Level 10, which would have a total cost of {{Coins|48,195}}. The lowest amount of currency required to have every '''Skill''' for a specific path unlocked will be listed separately in each '''Skill''' section.
+
+After the player unlocks a '''Skill''' from a specific path, a modifier for that path will appear, applying the effects for the player. The description of the modifier will list every single '''Skill''' owned and how much it boosts specific statistics.
+
+In the [[Settings]], it is possible to disable '''Skills''' with the [[Settings#Skills Enabled|Skills Enabled]] setting.
+
+[[Hidden Wave]] cannot be activated with skills enabled. Certain modes, like [[Voidcore Mode|Voidcore]] or [[PVP]], also disable '''Skills'''.
+
+===Resetting Skills===
+If the player is unsatisfied with what '''Skills''' they spent their currency on, they have the option to reset their '''Skills'''. While this will not bring back their {{Coins|Coins}}, it will give them back in the form of {{SkillCredit|}}. These are a unique currency only usable for '''Skills'''. The player is only given back 95% of what they spent, and they have to pay {{Coins|200}} to reset '''Skills'''. Each reset will become more expensive by {{Coins|200}}.
+
+After resetting, '''Skills''' are unable to be upgraded using {{Coins|Coins}}, they are restricted to only {{SkillCredit|}}. Once the player has run out of possible upgrades, the method of upgrading '''Skills''' is {{Coins|Coins}} again.
+
+==Skills==
+===[[File:OffensiveModifier.png|40px|link=]] Offensive===
+Offensive-oriented '''Skills''' that allow towers to deal more damage.
+*The lowest cost needed to be able to upgrade any of the '''Skills''' is {{Coins|12,730}}, which is the cost for upgrading all '''Skills''' except Precision to Level 10.
+*The total cost for unlocking every Level is {{Coins|190,835}}.
+{{Skill
+|type = Offensive
+|name = Enhanced Optics
+|levels = 20
+|icon = EnhancedOpticsSkill.png
+|info = Tower range is increased by {{Color|Golden|X%}}.
+|description = Boosts tower range by 0.5% for each purchase. Has a base cost of 6 with an exponential value of 1.73.
+|cost = {{Tabber
 |Current
-|The '''Golden Crate''' is a futuristic crate with a sleek design and multiple neon yellow lights on it. On the front, it has a small card reader and a number pad. The top of the crate opens up in a futuristic fashion, with the left and right side respectively sliding to the left and right, revealing a pile of coins inside.
-|Second
-|The crate was larger than the [[Basic Crate]]. It was more smooth and sleek, and appeared to open up like a futuristic crate. There was a card reader attached to it.
-|First
-|The crate looked exactly like the [[Platinum Crate]], except that it was yellow in color.
+|#{{Coins|20}} • 0.5% total increase
+#{{Coins|75}} • {{Coins|95}} total cost • 1% total increase
+#{{Coins|150}} • {{Coins|245}} total cost • 1.5% total increase
+#{{Coins|245}} • {{Coins|490}} total cost • 2% total increase
+#{{Coins|360}} • {{Coins|850}} total cost • 2.5% total increase
+#{{Coins|490}} • {{Coins|1,340}} total cost • 3% total increase
+#{{Coins|645}} • {{Coins|1,985}} total cost • 3.5% total increase
+#{{Coins|810}} • {{Coins|2,795}} total cost • 4% total increase
+#{{Coins|995}} • {{Coins|3,790}} total cost • 4.5% total increase
+#{{Coins|1,190}} • {{Coins|4,980}} total cost • 5% total increase
+#{{Coins|1,405}} • {{Coins|6,385}} total cost • 5.5% total increase
+#{{Coins|1,635}} • {{Coins|8,020}} total cost • 6% total increase
+#{{Coins|1,875}} • {{Coins|9,895}} total cost • 6.5% total increase
+#{{Coins|2,135}} • {{Coins|12,030}} total cost • 7% total increase
+#{{Coins|2,405}} • {{Coins|14,435}} total cost • 7.5% total increase
+#{{Coins|2,685}} • {{Coins|17,120}} total cost • 8% total increase
+#{{Coins|2,985}} • {{Coins|20,105}} total cost • 8.5% total increase
+#{{Coins|3,295}} • {{Coins|23,400}} total cost • 9% total increase
+#{{Coins|3,615}} • {{Coins|27,015}} total cost • 9.5% total increase
+#{{Coins|3,955}} • {{Coins|30,970}} total cost • 10% total increase
+|Version 1
+|#{{Coins|50}} • 0.5% total increase
+#{{Coins|170}} • {{Coins|220}} total cost • 1% total increase
+#{{Coins|355}} • {{Coins|575}} total cost • 1.5% total increase
+#{{Coins|590}} • {{Coins|1,165}} total cost • 2% total increase
+#{{Coins|875}} • {{Coins|2,040}} total cost • 2.5% total increase
+#{{Coins|1,210}} • {{Coins|3,250}} total cost • 3% total increase
+#{{Coins|1,595}} • {{Coins|4,845}} total cost • 3.5% total increase
+#{{Coins|2,025}} • {{Coins|6,870}} total cost • 4% total increase
+#{{Coins|2,495}} • {{Coins|9,365}} total cost • 4.5% total increase
+#{{Coins|3,010}} • {{Coins|12,375}} total cost • 5% total increase
+#{{Coins|3,565}} • {{Coins|15,940}} total cost • 5.5% total increase
+#{{Coins|4,165}} • {{Coins|20,105}} total cost • 6% total increase
+#{{Coins|4,800}} • {{Coins|24,905}} total cost • 6.5% total increase
+#{{Coins|5,480}} • {{Coins|30,385}} total cost • 7% total increase
+#{{Coins|6,195}} • {{Coins|36,580}} total cost • 7.5% total increase
+#{{Coins|6,950}} • {{Coins|43,530}} total cost • 8% total increase
+#{{Coins|7,740}} • {{Coins|51,270}} total cost • 8.5% total increase
+#{{Coins|8,570}} • {{Coins|59,840}} total cost • 9% total increase
+#{{Coins|9,435}} • {{Coins|69,275}} total cost • 9.5% total increase
+#{{Coins|10,335}} • {{Coins|79,610}} total cost • 10% total increase
+}}
+}}
+{{Skill
+|type = Offensive
+|name = Improved Gunpowder
+|levels = 25
+|icon = ImprovedGunpowderSkill.png
+|info = AOE explosion radius is increased by {{Color|Golden|X%}}.
+|description = AOE explosion radius of towers is increased by 0.5% for each purchase. There is a requirement of reaching Level 10 in Enhanced Optics before it is unlocked. Has a base cost of 5 with an exponential value of 1.725.
+|cost = {{Tabber
+|Current
+|#{{Coins|15}} • 0.5% total increase
+#{{Coins|55}} • {{Coins|70}} total cost • 1% total increase
+#{{Coins|105}} • {{Coins|175}} total cost • 1.5% total increase
+#{{Coins|175}} • {{Coins|350}} total cost • 2% total increase
+#{{Coins|255}} • {{Coins|605}} total cost • 2.5% total increase
+#{{Coins|355}} • {{Coins|960}} total cost • 3% total increase
+#{{Coins|460}} • {{Coins|1,420}} total cost • 3.5% total increase
+#{{Coins|580}} • {{Coins|2,000}} total cost • 4% total increase
+#{{Coins|710}} • {{Coins|2,710}} total cost • 4.5% total increase
+#{{Coins|850}} • {{Coins|3,560}} total cost • 5% total increase
+#{{Coins|1,005}} • {{Coins|4,565}} total cost • 5.5% total increase
+#{{Coins|1,165}} • {{Coins|5,730}} total cost • 6% total increase
+#{{Coins|1,340}} • {{Coins|7,070}} total cost • 6.5% total increase
+#{{Coins|1,525}} • {{Coins|8,595}} total cost • 7% total increase
+#{{Coins|1,715}} • {{Coins|10,310}} total cost • 7.5% total increase
+#{{Coins|1,915}} • {{Coins|12,225}} total cost • 8% total increase
+#{{Coins|2,130}} • {{Coins|14,355}} total cost • 8.5% total increase
+#{{Coins|2,350}} • {{Coins|16,705}} total cost • 9% total increase
+#{{Coins|2,580}} • {{Coins|19,285}} total cost • 9.5% total increase
+#{{Coins|2,820}} • {{Coins|22,105}} total cost • 10% total increase
+#{{Coins|3,065}} • {{Coins|25,170}} total cost • 10.5% total increase
+#{{Coins|3,320}} • {{Coins|28,490}} total cost • 11% total increase
+#{{Coins|3,585}} • {{Coins|32,075}} total cost • 11.5% total increase
+#{{Coins|3,860}} • {{Coins|35,935}} total cost • 12% total increase
+#{{Coins|4,140}} • {{Coins|40,075}} total cost • 12.5% total increase
+|Version 1
+|#{{Coins|30}} • 0.8% total increase
+#{{Coins|110}} • {{Coins|140}} total cost • 1.6% total increase
+#{{Coins|225}} • {{Coins|365}} total cost • 2.4% total increase
+#{{Coins|375}} • {{Coins|740}} total cost • 3.2% total increase
+#{{Coins|560}} • {{Coins|1,300}} total cost • 4% total increase
+#{{Coins|775}} • {{Coins|2,075}} total cost • 4.8% total increase
+#{{Coins|1,020}} • {{Coins|3,095}} total cost • 5.6% total increase
+#{{Coins|1,295}} • {{Coins|4,390}} total cost • 6.4% total increase
+#{{Coins|1,595}} • {{Coins|5,985}} total cost • 7.2% total increase
+#{{Coins|1,925}} • {{Coins|7,910}} total cost • 8% total increase
+#{{Coins|2,280}} • {{Coins|10,190}} total cost • 8.8% total increase
+#{{Coins|2,660}} • {{Coins|12,850}} total cost • 9.6% total increase
+#{{Coins|3,070}} • {{Coins|15,920}} total cost • 10.4% total increase
+#{{Coins|3,500}} • {{Coins|19,420}} total cost • 11.2% total increase
+#{{Coins|3,960}} • {{Coins|23,380}} total cost • 12% total increase
+#{{Coins|4,440}} • {{Coins|27,820}} total cost • 12.8% total increase
+#{{Coins|4,950}} • {{Coins|32,770}} total cost • 13.6% total increase
+#{{Coins|5,480}} • {{Coins|38,250}} total cost • 14.4% total increase
+#{{Coins|6,030}} • {{Coins|44,280}} total cost • 15.2% total increase
+#{{Coins|6,610}} • {{Coins|50,890}} total cost • 16% total increase
+#{{Coins|7,210}} • {{Coins|58,100}} total cost • 16.8% total increase
+#{{Coins|7,830}} • {{Coins|65,930}} total cost • 17.6% total increase
+#{{Coins|8,475}} • {{Coins|74,405}} total cost • 18.4% total increase
+#{{Coins|9,140}} • {{Coins|83,545}} total cost • 19.2% total increase
+#{{Coins|9,830}} • {{Coins|93,375}} total cost • 20% total increase
+}}
+}}
+{{Skill
+|type = Offensive
+|name = Fight Dirty
+|levels = 25
+|icon = FightDirtySkill.png
+|info =  Debuff durations applied to enemies are increased by {{Color|Golden|X%}}.
+|description = Tower debuffs, such as stun, shock, freeze, burn, poison, confusion or chill are longer by 1% for each purchase. There is a requirement of reaching Level 10 in Improved Gunpowder before it is unlocked. Has a base cost of 5 with an exponential value of 1.77.
+|cost = {{Tabber
+|Current
+|#{{Coins|15}} • 1% total increase
+#{{Coins|60}} • {{Coins|75}} total cost • 2% total increase
+#{{Coins|120}} • {{Coins|195}} total cost • 3% total increase
+#{{Coins|200}} • {{Coins|395}} total cost • 4% total increase
+#{{Coins|300}} • {{Coins|695}} total cost • 5% total increase
+#{{Coins|410}} • {{Coins|1,105}} total cost • 6% total increase
+#{{Coins|540}} • {{Coins|1,645}} total cost • 7% total increase
+#{{Coins|685}} • {{Coins|2,330}} total cost • 8% total increase
+#{{Coins|845}} • {{Coins|3,175}} total cost • 9% total increase
+#{{Coins|1,015}} • {{Coins|4,190}} total cost • 10% total increase
+#{{Coins|1,205}} • {{Coins|5,395}} total cost • 11% total increase
+#{{Coins|1,405}} • {{Coins|6,800}} total cost • 12% total increase
+#{{Coins|1,615}} • {{Coins|8,415}} total cost • 13% total increase
+#{{Coins|1,845}} • {{Coins|10,260}} total cost • 14% total increase
+#{{Coins|2,085}} • {{Coins|12,345}} total cost • 15% total increase
+#{{Coins|2,335}} • {{Coins|14,680}} total cost • 16% total increase
+#{{Coins|2,600}} • {{Coins|17,280}} total cost • 17% total increase
+#{{Coins|2,875}} • {{Coins|20,155}} total cost • 18% total increase
+#{{Coins|3,165}} • {{Coins|23,320}} total cost • 19% total increase
+#{{Coins|3,465}} • {{Coins|26,785}} total cost • 20% total increase
+#{{Coins|3,780}} • {{Coins|30,565}} total cost • 21% total increase
+#{{Coins|4,105}} • {{Coins|34,670}} total cost • 22% total increase
+#{{Coins|4,440}} • {{Coins|39,110}} total cost • 23% total increase
+#{{Coins|4,785}} • {{Coins|43,895}} total cost • 24% total increase
+#{{Coins|5,145}} • {{Coins|49,040}} total cost • 25% total increase
+|Version 1
+|#{{Coins|40}} • 1% total increase
+#{{Coins|140}} • {{Coins|180}} total cost • 2% total increase
+#{{Coins|285}} • {{Coins|465}} total cost • 3% total increase
+#{{Coins|475}} • {{Coins|940}} total cost • 4% total increase
+#{{Coins|710}} • {{Coins|1,650}} total cost • 5% total increase
+#{{Coins|985}} • {{Coins|2,635}} total cost • 6% total increase
+#{{Coins|1,295}} • {{Coins|3,930}} total cost • 7% total increase
+#{{Coins|1,640}} • {{Coins|5,570}} total cost • 8% total increase
+#{{Coins|2,025}} • {{Coins|7,595}} total cost • 9% total increase
+#{{Coins|2,440}} • {{Coins|10,035}} total cost • 10% total increase
+#{{Coins|2,890}} • {{Coins|12,925}} total cost • 11% total increase
+#{{Coins|3,375}} • {{Coins|16,300}} total cost • 12% total increase
+#{{Coins|3,895}} • {{Coins|20,195}} total cost • 13% total increase
+#{{Coins|4,440}} • {{Coins|24,635}} total cost • 14% total increase
+#{{Coins|5,020}} • {{Coins|29,655}} total cost • 15% total increase
+#{{Coins|5,635}} • {{Coins|35,290}} total cost • 16% total increase
+#{{Coins|6,275}} • {{Coins|41,565}} total cost • 17% total increase
+#{{Coins|6,950}} • {{Coins|48,515}} total cost • 18% total increase
+#{{Coins|7,650}} • {{Coins|56,165}} total cost • 19% total increase
+#{{Coins|8,380}} • {{Coins|64,545}} total cost • 20% total increase
+#{{Coins|9,140}} • {{Coins|73,685}} total cost • 21% total increase
+#{{Coins|9,930}} • {{Coins|83,615}} total cost • 22% total increase
+#{{Coins|10,750}} • {{Coins|94,365}} total cost • 23% total increase
+#{{Coins|11,595}} • {{Coins|105,960}} total cost • 24% total increase
+#{{Coins|12,470}} • {{Coins|118,430}} total cost • 25% total increase
+}}
+}}
+{{Skill
+|type = Offensive
+|name = Precision
+|levels = 15
+|icon = PrecisionSkill.png
+|info =  Every {{Color|Golden|X Enemies}} shots, a tower deals a critical hit (1.25x damage). Cannot stack with other critical hit towers.
+|description = Every 29th tower shot will be a critical hit that deals 1.25x damage, with the number of shots decreasing by 1 with each upgrade. There is a requirement of reaching Level 10 in Fight Dirty before it is unlocked. Has a base cost of 7 with an exponential value of 2.035.
+
+Each enemy hit by a tower counts as a shot. For example, each enemy hit by the [[Electroshocker]]'s lightning increases the hit counter. Does not stack with critical hits from the [[Brawler]] or [[Warden]], but does stack with [[Slasher]]'s crits. Some splash towers, these being the [[Paintballer]], [[Demoman]], [[Rocketeer]], [[Mortar]] and [[Snowballer]] cannot crit either, but other towers like the [[Firework Technician]] can crit. Secondary attacks like [[Pursuit]]'s missiles do not work, with the exception of the [[Swarmer]]'s ''Bee Swarm Grenade'', [[Elementalist]]'s ''Heatwave'' and [[Archer]]'s explosion. Damage over time does not crit. Units are unable to deal crits. The [[Accelerator]], [[Trapper]] and [[DJ Booth]] are also unable to crit.
+|cost = {{Tabber
+|Current
+|#{{Coins|50}} • 29 shots required
+#{{Coins|215}} • {{Coins|265}} total cost • 28 shots required
+#{{Coins|490}} • {{Coins|755}} total cost • 27 shots required
+#{{Coins|880}} • {{Coins|1,635}} total cost • 26 shots required
+#{{Coins|1,385}} • {{Coins|3,020}} total cost • 25 shots required
+#{{Coins|2,010}} • {{Coins|5,030}} total cost • 24 shots required
+#{{Coins|2,750}} • {{Coins|7,780}} total cost • 23 shots required
+#{{Coins|3,610}} • {{Coins|11,390}} total cost • 22 shots required
+#{{Coins|4,590}} • {{Coins|15,980}} total cost • 21 shots required
+#{{Coins|5,685}} • {{Coins|21,665}} total cost • 20 shots required
+#{{Coins|6,900}} • {{Coins|28,565}} total cost • 19 shots required
+#{{Coins|8,240}} • {{Coins|36,805}} total cost • 18 shots required
+#{{Coins|9,695}} • {{Coins|46,500}} total cost • 17 shots required
+#{{Coins|11,275}} • {{Coins|57,775}} total cost • 16 shots required
+#{{Coins|12,975}} • {{Coins|70,750}} total cost • 15 shots required
+|Version 1
+|#{{Coins|115}} • 39 shots required
+#{{Coins|455}} • {{Coins|570}} total cost • 38 shots required
+#{{Coins|1,015}} • {{Coins|1,585}} total cost • 37 shots required
+#{{Coins|1,795}} • {{Coins|3,380}} total cost • 36 shots required
+#{{Coins|2,790}} • {{Coins|6,170}} total cost • 35 shots required
+#{{Coins|4,005}} • {{Coins|10,175}} total cost • 34 shots required
+#{{Coins|5,435}} • {{Coins|15,610}} total cost • 33 shots required
+#{{Coins|7,080}} • {{Coins|22,690}} total cost • 32 shots required
+#{{Coins|8,940}} • {{Coins|31,630}} total cost • 31 shots required
+#{{Coins|11,015}} • {{Coins|42,645}} total cost • 30 shots required
+#{{Coins|13,300}} • {{Coins|55,945}} total cost • 29 shots required
+#{{Coins|15,800}} • {{Coins|71,745}} total cost • 28 shots required
+#{{Coins|18,515}} • {{Coins|90,260}} total cost • 27 shots required
+#{{Coins|21,445}} • {{Coins|111,705}} total cost • 26 shots required
+#{{Coins|24,580}} • {{Coins|136,285}} total cost • 25 shots required
+}}
 }}
 
-==Skins==
-{| class="light-table align-center pad-5" style="width:300px; margin:0 auto"
-!
-|[[File:GoldenScout3.png|175px]]
-|[[File:NewGoldenCrookBoss.png|175px]]
-|[[File:DHGoldenPyroIcon.png|175px]]
-|[[File:Goldenminigunner.png|175px]]
-|-
-!Golden Perk
-|[[Golden Scout]]
-|[[Golden Crook Boss]]
-|[[Golden Pyromancer]]
-|[[Golden Minigunner]]
-|-
-!Rarity
-|{{Color|Golden}}
-|{{Color|Golden}}
-|{{Color|Golden}}
-|{{Color|Golden}}
-|-
-!Cost
-|{{Coins|55,000}}
-|{{Coins|55,000}}
-|{{Coins|65,000}}
-|{{Coins|75,000}}
-|-
-!Tower
-|[[Scout]]
-|[[Crook Boss]]
-|[[Pyromancer]]
-|[[Minigunner]]
-|-
-!
-|[[File:WDGoldenCowboyIcon.png|175px]]
-|[[File:KR Golden Soldier Icon.png|175px]]
-|[[File:GoldenDemoman0.png|175px]]
-|-
-!Golden Perk
-|[[Golden Cowboy]]
-|[[Golden Soldier]]
-|[[Golden Demoman]]
-|-
-!Rarity
-|{{Color|Golden}}
-|{{Color|Golden}}
-|{{Color|Golden}}
-|-
-!Cost
-|{{Coins|70,000}}
-|{{Coins|50,000}}
-|{{Coins|55,000}}
-|-
-!Tower
-|[[Cowboy]]
-|[[Soldier]]
-|[[Demoman]]
-|}
+===[[File:EconomyModifier.png|40px|link=]] Economy===
+Economy-oriented '''Skills''' that allow the player to earn more cash.
+*Lowest cost needed to be able to upgrade any of the '''Skills''' is {{Coins|13,895}}, which is the cost for upgrading all '''Skills''' except Scavenger to Level 10.
+*Total cost for unlocking every Level is {{Coins|197,450}}.
+{{Skill
+|type = Economy
+|name = Resourcefulness
+|levels = 25
+|icon = ResourcefulnessSkill.png
+|info =  Selling towers returns {{Color|Golden|x%}} more money.
+|description = Tower sell cost returns 1.2% more money every purchase. With the base sell cost, it is ~34.53% sell cost at Level 1. Has a base cost of 4 with an exponential value of 1.75.
+|cost = {{Tabber
+|Current
+|#{{Coins|10}} • ~34.53% total sell cost
+#{{Coins|40}} • {{Coins|50}} total cost • ~35.73% total sell cost
+#{{Coins|75}} • {{Coins|125}} total cost • ~36.93% total sell cost
+#{{Coins|130}} • {{Coins|255}} total cost • ~38.13% total sell cost
+#{{Coins|190}} • {{Coins|445}} total cost • ~39.33% total sell cost
+#{{Coins|260}} • {{Coins|705}} total cost • ~40.53% total sell cost
+#{{Coins|340}} • {{Coins|1,045}} total cost • ~41.73% total sell cost
+#{{Coins|430}} • {{Coins|1,475}} total cost • ~42.93% total sell cost
+#{{Coins|530}} • {{Coins|2,005}} total cost • ~44.13% total sell cost
+#{{Coins|635}} • {{Coins|2,640}} total cost • ~45.33% total sell cost
+#{{Coins|750}} • {{Coins|3,390}} total cost • ~46.53% total sell cost
+#{{Coins|875}} • {{Coins|4,265}} total cost • ~47.73% total sell cost
+#{{Coins|1,005}} • {{Coins|5,270}} total cost • ~48.93% total sell cost
+#{{Coins|1,145}} • {{Coins|6,415}} total cost • ~50.13% total sell cost
+#{{Coins|1,295}} • {{Coins|7,710}} total cost • ~51.33% total sell cost
+#{{Coins|1,450}} • {{Coins|9,160}} total cost • ~52.53% total sell cost
+#{{Coins|1,610}} • {{Coins|10,770}} total cost • ~53.73% total sell cost
+#{{Coins|1,780}} • {{Coins|12,550}} total cost • ~54.93% total sell cost
+#{{Coins|1,955}} • {{Coins|14,505}} total cost • ~56.13% total sell cost
+#{{Coins|2,140}} • {{Coins|16,645}} total cost • ~57.33% total sell cost
+#{{Coins|2,330}} • {{Coins|18,975}} total cost • ~58.53% total sell cost
+#{{Coins|2,530}} • {{Coins|21,505}} total cost • ~59.73% total sell cost
+#{{Coins|2,730}} • {{Coins|24,235}} total cost • ~60.93% total sell cost
+#{{Coins|2,945}} • {{Coins|27,180}} total cost • ~62.13% total sell cost
+#{{Coins|3,160}} • {{Coins|30,340}} total cost • ~63.33% total sell cost
+|Version 1
+|#{{Coins|30}} • ~34.53% total sell cost
+#{{Coins|100}} • {{Coins|125}} total cost • ~35.73% total sell cost
+#{{Coins|200}} • {{Coins|325}} total cost • ~36.93% total sell cost
+#{{Coins|330}} • {{Coins|655}} total cost • ~38.13% total sell cost
+#{{Coins|485}} • {{Coins|1,140}} total cost • ~39.33% total sell cost
+#{{Coins|665}} • {{Coins|1,810}} total cost • ~40.53% total sell cost
+#{{Coins|870}} • {{Coins|2,680}} total cost • ~41.73% total sell cost
+#{{Coins|1,100}} • {{Coins|3,780}} total cost • ~42.93% total sell cost
+#{{Coins|1,350}} • {{Coins|5,130}} total cost • ~44.13% total sell cost
+#{{Coins|1,625}} • {{Coins|6,755}} total cost • ~45.33% total sell cost
+#{{Coins|1,915}} • {{Coins|8,670}} total cost • ~46.53% total sell cost
+#{{Coins|2,230}} • {{Coins|10,900}} total cost • ~47.73% total sell cost
+#{{Coins|2,560}} • {{Coins|13,460}} total cost • ~48.93% total sell cost
+#{{Coins|2,915}} • {{Coins|16,375}} total cost • ~50.13% total sell cost
+#{{Coins|3,285}} • {{Coins|19,665}} total cost • ~51.33% total sell cost
+#{{Coins|3,680}} • {{Coins|23,340}} total cost • ~52.53% total sell cost
+#{{Coins|4,085}} • {{Coins|27,430}} total cost • ~53.73% total sell cost
+#{{Coins|4,515}} • {{Coins|31,945}} total cost • ~54.93% total sell cost
+#{{Coins|4,960}} • {{Coins|36,905}} total cost • ~56.13% total sell cost
+#{{Coins|5,425}} • {{Coins|42,325}} total cost • ~57.33% total sell cost
+#{{Coins|5,905}} • {{Coins|48,230}} total cost • ~58.53% total sell cost
+#{{Coins|6,400}} • {{Coins|54,630}} total cost • ~59.73% total sell cost
+#{{Coins|6,915}} • {{Coins|61,545}} total cost • ~60.93% total sell cost
+#{{Coins|7,445}} • {{Coins|68,990}} total cost • ~62.13% total sell cost
+#{{Coins|7,995}} • {{Coins|76,985}} total cost • ~63.33% total sell cost
+}}
+}}
+{{Skill
+|type = Economy
+|name = Bigger Budget
+|levels = 25
+|icon = BiggerBudgetSkill.png
+|info =  Starting cash is increased by {{Color|Golden|X%}}.
+|description = Starting cash is increased by 1% for each purchase. There is a requirement of reaching Level 10 in Resourcefulness before it is unlocked. Has a base cost of 4 with an exponential value of 1.82.
+|cost = {{Tabber
+|Current
+|#{{Coins|10}} • 1% total increase
+#{{Coins|45}} • {{Coins|55}} total cost • 2% total increase
+#{{Coins|90}} • {{Coins|145}} total cost • 3% total increase
+#{{Coins|155}} • {{Coins|300}} total cost • 4% total increase
+#{{Coins|235}} • {{Coins|535}} total cost • 5% total increase
+#{{Coins|325}} • {{Coins|860}} total cost • 6% total increase
+#{{Coins|430}} • {{Coins|1,290}} total cost • 7% total increase
+#{{Coins|550}} • {{Coins|1,840}} total cost • 8% total increase
+#{{Coins|680}} • {{Coins|2,520}} total cost • 9% total increase
+#{{Coins|825}} • {{Coins|3,345}} total cost • 10% total increase
+#{{Coins|980}} • {{Coins|4,325}} total cost • 11% total increase
+#{{Coins|1,145}} • {{Coins|5,470}} total cost • 12% total increase
+#{{Coins|1,325}} • {{Coins|6,795}} total cost • 13% total increase
+#{{Coins|1,520}} • {{Coins|8,315}} total cost • 14% total increase
+#{{Coins|1,720}} • {{Coins|10,035}} total cost • 15% total increase
+#{{Coins|1,935}} • {{Coins|11,970}} total cost • 16% total increase
+#{{Coins|2,165}} • {{Coins|14,135}} total cost • 17% total increase
+#{{Coins|2,400}} • {{Coins|16,535}} total cost • 18% total increase
+#{{Coins|2,650}} • {{Coins|19,185}} total cost • 19% total increase
+#{{Coins|2,910}} • {{Coins|22,095}} total cost • 20% total increase
+#{{Coins|3,180}} • {{Coins|25,275}} total cost • 21% total increase
+#{{Coins|3,460}} • {{Coins|28,735}} total cost • 22% total increase
+#{{Coins|3,750}} • {{Coins|32,485}} total cost • 23% total increase
+#{{Coins|4,050}} • {{Coins|36,535}} total cost • 24% total increase
+#{{Coins|4,365}} • {{Coins|40,900}} total cost • 25% total increase
+|Version 1
+|#{{Coins|30}} • 1% total increase
+#{{Coins|110}} • {{Coins|140}} total cost • 2% total increase
+#{{Coins|220}} • {{Coins|360}} total cost • 3% total increase
+#{{Coins|370}} • {{Coins|730}} total cost • 4% total increase
+#{{Coins|550}} • {{Coins|1,280}} total cost • 5% total increase
+#{{Coins|760}} • {{Coins|2,040}} total cost • 6% total increase
+#{{Coins|1,000}} • {{Coins|3,040}} total cost • 7% total increase
+#{{Coins|1,265}} • {{Coins|4,305}} total cost • 8% total increase
+#{{Coins|1,560}} • {{Coins|5,865}} total cost • 9% total increase
+#{{Coins|1,885}} • {{Coins|7,750}} total cost • 10% total increase
+#{{Coins|2,230}} • {{Coins|9,980}} total cost • 11% total increase
+#{{Coins|2,605}} • {{Coins|12,585}} total cost • 12% total increase
+#{{Coins|3,000}} • {{Coins|15,585}} total cost • 13% total increase
+#{{Coins|3,425}} • {{Coins|19,010}} total cost • 14% total increase
+#{{Coins|3,870}} • {{Coins|22,880}} total cost • 15% total increase
+#{{Coins|4,340}} • {{Coins|27,220}} total cost • 16% total increase
+#{{Coins|4,830}} • {{Coins|32,050}} total cost • 17% total increase
+#{{Coins|5,345}} • {{Coins|37,395}} total cost • 18% total increase
+#{{Coins|5,885}} • {{Coins|43,280}} total cost • 19% total increase
+#{{Coins|6,445}} • {{Coins|49,725}} total cost • 20% total increase
+#{{Coins|7,030}} • {{Coins|56,755}} total cost • 21% total increase
+#{{Coins|7,635}} • {{Coins|64,390}} total cost • 22% total increase
+#{{Coins|8,260}} • {{Coins|72,650}} total cost • 23% total increase
+#{{Coins|8,910}} • {{Coins|81,560}} total cost • 24% total increase
+#{{Coins|9,580}} • {{Coins|91,140}} total cost • 25% total increase
+}}
+}}
+{{Skill
+|type = Economy
+|name = Stonks
+|levels = 20
+|icon = StonksSkill.png
+|info =  Wave rewards are increased by {{Color|Golden|X%}}.
+|description = Wave bonus is higher by 0.5% for each purchase by adding it to the match wave bonus multiplier. Wave clear bonus is also affected, as it is a percentage of the wave bonus. There is a requirement of reaching Level 10 in Bigger Budget before it is unlocked. Has a base cost of 7 with an exponential value of 1.78.
+|cost = {{Tabber
+|Current
+|#{{Coins|30}} • 0.5% total increase
+#{{Coins|110}} • {{Coins|140}} total cost • 1% total increase
+#{{Coins|225}} • {{Coins|365}} total cost • 1.5% total increase
+#{{Coins|375}} • {{Coins|740}} total cost • 2% total increase
+#{{Coins|560}} • {{Coins|1,300}} total cost • 2.5% total increase
+#{{Coins|775}} • {{Coins|2,075}} total cost • 3% total increase
+#{{Coins|1,020}} • {{Coins|3,095}} total cost • 3.5% total increase
+#{{Coins|1,295}} • {{Coins|4,390}} total cost • 4% total increase
+#{{Coins|1,595}} • {{Coins|5,985}} total cost • 4.5% total increase
+#{{Coins|1,925}} • {{Coins|7,910}} total cost • 5% total increase
+#{{Coins|2,280}} • {{Coins|10,190}} total cost • 5.5% total increase
+#{{Coins|2,660}} • {{Coins|12,850}} total cost • 6% total increase
+#{{Coins|3,070}} • {{Coins|15,920}} total cost • 6.5% total increase
+#{{Coins|3,500}} • {{Coins|19,420}} total cost • 7% total increase
+#{{Coins|3,960}} • {{Coins|23,380}} total cost • 7.5% total increase
+#{{Coins|4,440}} • {{Coins|27,820}} total cost • 8% total increase
+#{{Coins|4,950}} • {{Coins|32,770}} total cost • 8.5% total increase
+#{{Coins|5,480}} • {{Coins|38,250}} total cost • 9% total increase
+#{{Coins|6,030}} • {{Coins|44,280}} total cost • 9.5% total increase
+#{{Coins|6,610}} • {{Coins|50,890}} total cost • 10% total increase
+|Version 1
+|#{{Coins|65}} • 0.5% total increase
+#{{Coins|220}} • {{Coins|285}} total cost • 1% total increase
+#{{Coins|455}} • {{Coins|740}} total cost • 1.5% total increase
+#{{Coins|765}} • {{Coins|1,505}} total cost • 2% total increase
+#{{Coins|1,145}} • {{Coins|2,650}} total cost • 2.5% total increase
+#{{Coins|1,585}} • {{Coins|4,235}} total cost • 3% total increase
+#{{Coins|2,095}} • {{Coins|6,330}} total cost • 3.5% total increase
+#{{Coins|2,665}} • {{Coins|8,995}} total cost • 4% total increase
+#{{Coins|3,295}} • {{Coins|12,290}} total cost • 4.5% total increase
+#{{Coins|3,980}} • {{Coins|16,270}} total cost • 5% total increase
+#{{Coins|4,725}} • {{Coins|20,995}} total cost • 5.5% total increase
+#{{Coins|5,525}} • {{Coins|26,520}} total cost • 6% total increase
+#{{Coins|6,385}} • {{Coins|32,905}} total cost • 6.5% total increase
+#{{Coins|7,295}} • {{Coins|40,200}} total cost • 7% total increase
+#{{Coins|8,260}} • {{Coins|48,460}} total cost • 7.5% total increase
+#{{Coins|9,275}} • {{Coins|57,735}} total cost • 8% total increase
+#{{Coins|10,345}} • {{Coins|68,080}} total cost • 8.5% total increase
+#{{Coins|11,470}} • {{Coins|79,550}} total cost • 9% total increase
+#{{Coins|12,640}} • {{Coins|92,190}} total cost • 9.5% total increase
+#{{Coins|13,860}} • {{Coins|106,050}} total cost • 10% total increase
+}}
+}}
+{{Skill
+|type = Economy
+|name = Scavenger
+|levels = 20
+|icon = ScavengerSkill.png
+|info =  Every {{Color|Golden|X Enemies}} kills grant 1.5x rewards from enemies.
+|description = Reward from killing enemies is boosted by 1.5x every 29th kill. Decreases by 1 with each upgrade. There is a requirement of reaching Level 10 in Stonks before it is unlocked. Has a base cost of 7 with an exponential value of 1.865.
+|cost = {{Tabber
+|Current
+|#{{Coins|35}} • 29 kills required
+#{{Coins|135}} • {{Coins|170}} total cost • 28 kills required
+#{{Coins|290}} • {{Coins|460}} total cost • 27 kills required
+#{{Coins|500}} • {{Coins|960}} total cost • 26 kills required
+#{{Coins|760}} • {{Coins|1,720}} total cost • 25 kills required
+#{{Coins|1,065}} • {{Coins|2,785}} total cost • 24 kills required
+#{{Coins|1,420}} • {{Coins|4,205}} total cost • 23 kills required
+#{{Coins|1,820}} • {{Coins|6,025}} total cost • 22 kills required
+#{{Coins|2,270}} • {{Coins|8,295}} total cost • 21 kills required
+#{{Coins|2,760}} • {{Coins|11,055}} total cost • 20 kills required
+#{{Coins|3,300}} • {{Coins|14,355}} total cost • 19 kills required
+#{{Coins|3,880}} • {{Coins|18,235}} total cost • 18 kills required
+#{{Coins|4,505}} • {{Coins|22,740}} total cost • 17 kills required
+#{{Coins|5,170}} • {{Coins|27,910}} total cost • 16 kills required
+#{{Coins|5,880}} • {{Coins|33,790}} total cost • 15 kills required
+#{{Coins|6,635}} • {{Coins|40,425}} total cost • 14 kills required
+#{{Coins|7,430}} • {{Coins|47,855}} total cost • 13 kills required
+#{{Coins|8,265}} • {{Coins|56,120}} total cost • 12 kills required
+#{{Coins|9,140}} • {{Coins|65,260}} total cost • 11 kills required
+#{{Coins|10,060}} • {{Coins|75,320}} total cost • 10 kills required
+|Version 1
+|#{{Coins|70}} • 29 kills required
+#{{Coins|255}} • {{Coins|325}} total cost • 28 kills required
+#{{Coins|540}} • {{Coins|865}} total cost • 27 kills required
+#{{Coins|920}} • {{Coins|1,785}} total cost • 26 kills required
+#{{Coins|1,390}} • {{Coins|3,175}} total cost • 25 kills required
+#{{Coins|1,945}} • {{Coins|5,120}} total cost • 24 kills required
+#{{Coins|2,590}} • {{Coins|7,710}} total cost • 23 kills required
+#{{Coins|3,315}} • {{Coins|11,025}} total cost • 22 kills required
+#{{Coins|4,125}} • {{Coins|15,150}} total cost • 21 kills required
+#{{Coins|5,010}} • {{Coins|20,160}} total cost • 20 kills required
+#{{Coins|5,980}} • {{Coins|26,140}} total cost • 19 kills required
+#{{Coins|7,020}} • {{Coins|33,160}} total cost • 18 kills required
+#{{Coins|8,145}} • {{Coins|41,305}} total cost • 17 kills required
+#{{Coins|9,340}} • {{Coins|50,645}} total cost • 16 kills required
+#{{Coins|10,610}} • {{Coins|61,255}} total cost • 15 kills required
+#{{Coins|11,955}} • {{Coins|73,210}} total cost • 14 kills required
+#{{Coins|13,375}} • {{Coins|86,585}} total cost • 13 kills required
+#{{Coins|14,870}} • {{Coins|101,455}} total cost • 12 kills required
+#{{Coins|16,430}} • {{Coins|117,885}} total cost • 11 kills required
+#{{Coins|18,065}} • {{Coins|135,950}} total cost • 10 kills required}}
+}}
 
-==Gallery==
-{{Gallery|
-{{GalleryHeader|Previous Appearance}}
-<gallery>
-GoldenCrateInGame.png|Second version (29 October 2020 – 22 April 2026)
-</gallery>
+===[[File:StrategyModifier.png|40px|link=]] Strategy===
+Strategy-oriented '''Skills''' that boost placement limits, tower ability cooldowns, [[Logbooks|Logbook]] odds and unit spawnrate.
+*The lowest cost needed to be able to upgrade any of the '''Skills''' is {{Coins|10,965}}, which is the cost for upgrading all '''Skills''' except Scholar and Re-enforcements to Level 10.
+*The total cost for unlocking every Level is {{Coins|265,570}}.
+{{Skill
+|type = Strategy
+|name = Accelerator
+|levels = 25
+|icon = AcceleratorSkill.png
+|info =  Reduces cooldowns of active abilities by {{Color|Golden|X%}}.
+|description = Reduces tower ability cooldowns by 0.5% for each purchase. Does not affect initial cooldowns of towers. Has a base cost of 4 with an exponential value of 1.77.
+|cost = {{Tabber
+|Current
+|#{{Coins|10}} • 0.5% total decrease
+#{{Coins|40}} • {{Coins|50}} total cost • 1% total decrease
+#{{Coins|80}} • {{Coins|130}} total cost • 1.5% total decrease
+#{{Coins|135}} • {{Coins|265}} total cost • 2% total decrease
+#{{Coins|200}} • {{Coins|465}} total cost • 2.5% total decrease
+#{{Coins|275}} • {{Coins|740}} total cost • 3% total decrease
+#{{Coins|365}} • {{Coins|1,105}} total cost • 3.5% total decrease
+#{{Coins|460}} • {{Coins|1,565}} total cost • 4% total decrease
+#{{Coins|570}} • {{Coins|2,135}} total cost • 4.5% total decrease
+#{{Coins|685}} • {{Coins|2,820}} total cost • 5% total decrease
+#{{Coins|810}} • {{Coins|3,630}} total cost • 5.5% total decrease
+#{{Coins|945}} • {{Coins|4,575}} total cost • 6% total decrease
+#{{Coins|1,090}} • {{Coins|5,665}} total cost • 6.5% total decrease
+#{{Coins|1,240}} • {{Coins|6,905}} total cost • 7% total decrease
+#{{Coins|1,405}} • {{Coins|8,310}} total cost • 7.5% total decrease
+#{{Coins|1,575}} • {{Coins|9,885}} total cost • 8% total decrease
+#{{Coins|1,750}} • {{Coins|11,635}} total cost • 8.5% total decrease
+#{{Coins|1,940}} • {{Coins|13,575}} total cost • 9% total decrease
+#{{Coins|2,135}} • {{Coins|15,710}} total cost • 9.5% total decrease
+#{{Coins|2,335}} • {{Coins|18,045}} total cost • 10% total decrease
+#{{Coins|2,545}} • {{Coins|20,590}} total cost • 10.5% total decrease
+#{{Coins|2,765}} • {{Coins|23,355}} total cost • 11% total decrease
+#{{Coins|2,990}} • {{Coins|26,345}} total cost • 11.5% total decrease
+#{{Coins|3,225}} • {{Coins|29,570}} total cost • 12% total decrease
+#{{Coins|3,465}} • {{Coins|33,035}} total cost • 12.5% total decrease
+|Version 1
+|#{{Coins|25}} • 0.5% total decrease
+#{{Coins|85}} • {{Coins|110}} total cost • 1% total decrease
+#{{Coins|180}} • {{Coins|290}} total cost • 1.5% total decrease
+#{{Coins|305}} • {{Coins|595}} total cost • 2% total decrease
+#{{Coins|455}} • {{Coins|1,050}} total cost • 2.5% total decrease
+#{{Coins|630}} • {{Coins|1,680}} total cost • 3% total decrease
+#{{Coins|835}} • {{Coins|2,515}} total cost • 3.5% total decrease
+#{{Coins|1,060}} • {{Coins|3,575}} total cost • 4% total decrease
+#{{Coins|1,315}} • {{Coins|4,890}} total cost • 4.5% total decrease
+#{{Coins|1,585}} • {{Coins|6,475}} total cost • 5% total decrease
+#{{Coins|1,885}} • {{Coins|8,360}} total cost • 5.5% total decrease
+#{{Coins|2,205}} • {{Coins|10,565}} total cost • 6% total decrease
+#{{Coins|2,545}} • {{Coins|13,110}} total cost • 6.5% total decrease
+#{{Coins|2,910}} • {{Coins|16,020}} total cost • 7% total decrease
+#{{Coins|3,295}} • {{Coins|19,315}} total cost • 7.5% total decrease
+#{{Coins|3,700}} • {{Coins|23,015}} total cost • 8% total decrease
+#{{Coins|4,125}} • {{Coins|27,140}} total cost • 8.5% total decrease
+#{{Coins|4,570}} • {{Coins|31,710}} total cost • 9% total decrease
+#{{Coins|5,040}} • {{Coins|36,750}} total cost • 9.5% total decrease
+#{{Coins|5,525}} • {{Coins|42,275}} total cost • 10% total decrease
+#{{Coins|6,035}} • {{Coins|48,310}} total cost • 10.5% total decrease
+#{{Coins|6,560}} • {{Coins|54,870}} total cost • 11% total decrease
+#{{Coins|7,110}} • {{Coins|61,980}} total cost • 11.5% total decrease
+#{{Coins|7,675}} • {{Coins|69,655}} total cost • 12% total decrease
+#{{Coins|8,260}} • {{Coins|77,915}} total cost • 12.5% total decrease
+}}
+}}
+{{Skill
+|type = Strategy
+|name = Scholar
+|levels = 20
+|icon = ScholarSkill.png
+|info =  Logbook drop rate increases by {{Color|Golden|X}}.
+|description = Multiplies the chance to drop [[Logbooks]] by 1.01, increasing by 0.01 for each purchase. There is a requirement of reaching Level 10 in Accelerator before it is unlocked. Has a base cost of 5 with an exponential value of 1.83.
+|cost = {{Tabber
+|Current
+|#{{Coins|20}} • 1.01 total multiplier
+#{{Coins|65}} • {{Coins|85}} total cost • 1.02 total multiplier
+#{{Coins|140}} • {{Coins|225}} total cost • 1.03 total multiplier
+#{{Coins|240}} • {{Coins|465}} total cost • 1.04 total multiplier
+#{{Coins|360}} • {{Coins|825}} total cost • 1.05 total multiplier
+#{{Coins|505}} • {{Coins|1,330}} total cost • 1.06 total multiplier
+#{{Coins|670}} • {{Coins|2,000}} total cost • 1.07 total multiplier
+#{{Coins|855}} • {{Coins|2,855}} total cost • 1.08 total multiplier
+#{{Coins|1,060}} • {{Coins|3,915}} total cost • 1.09 total multiplier
+#{{Coins|1,285}} • {{Coins|5,200}} total cost • 1.1 total multiplier
+#{{Coins|1,530}} • {{Coins|6,730}} total cost • 1.11 total multiplier
+#{{Coins|1,795}} • {{Coins|8,525}} total cost • 1.12 total multiplier
+#{{Coins|2,075}} • {{Coins|10,600}} total cost • 1.13 total multiplier
+#{{Coins|2,380}} • {{Coins|12,980}} total cost • 1.14 total multiplier
+#{{Coins|2,700}} • {{Coins|15,680}} total cost • 1.15 total multiplier
+#{{Coins|3,040}} • {{Coins|18,720}} total cost • 1.16 total multiplier
+#{{Coins|3,395}} • {{Coins|22,115}} total cost • 1.17 total multiplier
+#{{Coins|3,770}} • {{Coins|25,885}} total cost • 1.18 total multiplier
+#{{Coins|4,160}} • {{Coins|30,045}} total cost • 1.19 total multiplier
+#{{Coins|4,570}} • {{Coins|34,615}} total cost • 1.2 total multiplier
+|Version 1
+|#{{Coins|60}} • 1.01 total increase
+#{{Coins|210}} • {{Coins|270}} total cost • 1.02 total multiplier
+#{{Coins|445}} • {{Coins|715}} total cost • 1.03 total multiplier
+#{{Coins|755}} • {{Coins|1,470}} total cost • 1.04 total multiplier
+#{{Coins|1,145}} • {{Coins|2,615}} total cost • 1.05 total multiplier
+#{{Coins|1,600}} • {{Coins|4,215}} total cost • 1.06 total multiplier
+#{{Coins|2,130}} • {{Coins|6,345}} total cost • 1.07 total multiplier
+#{{Coins|2,730}} • {{Coins|9,075}} total cost • 1.08 total multiplier
+#{{Coins|3,395}} • {{Coins|12,470}} total cost • 1.09 total multiplier
+#{{Coins|4,125}} • {{Coins|16,595}} total cost • 1.10 total multiplier
+#{{Coins|4,920}} • {{Coins|21,515}} total cost • 1.11 total multiplier
+#{{Coins|5,780}} • {{Coins|27,295}} total cost • 1.12 total multiplier
+#{{Coins|6,700}} • {{Coins|33,995}} total cost • 1.13 total multiplier
+#{{Coins|7,685}} • {{Coins|41,680}} total cost • 1.14 total multiplier
+#{{Coins|8,730}} • {{Coins|50,410}} total cost • 1.15 total multiplier
+#{{Coins|9,840}} • {{Coins|60,250}} total cost • 1.16 total multiplier
+#{{Coins|11,005}} • {{Coins|71,255}} total cost • 1.17 total multiplier
+#{{Coins|12,235}} • {{Coins|83,490}} total cost • 1.18 total multiplier
+#{{Coins|13,520}} • {{Coins|97,010}} total cost • 1.19 total multiplier
+#{{Coins|14,870}} • {{Coins|111,880}} total cost • 1.20 total multiplier
+}}
+}}
+{{Skill
+|type = Strategy
+|name = Expanded Barracks
+|levels = 20
+|icon = ExpandedBarracksSkill.png
+|info =  Cooldown for spawning units is reduced by {{Color|Golden|X%}}.
+|description = Reduces tower's spawnrate by 0.75% for each purchase. There is a requirement of reaching Level 10 in Accelerator before it is unlocked. Has a base cost of 6 with an exponential value of 1.86.
+|cost = {{Tabber
+|Current
+|#{{Coins|30}} • 0.75% total decrease
+#{{Coins|100}} • {{Coins|130}} total cost • 1.5% total decrease
+#{{Coins|215}} • {{Coins|345}} total cost • 2.25% total decrease
+#{{Coins|370}} • {{Coins|715}} total cost • 3% total decrease
+#{{Coins|560}} • {{Coins|1,275}} total cost • 3.75% total decrease
+#{{Coins|785}} • {{Coins|2,060}} total cost • 4.5% total decrease
+#{{Coins|1,045}} • {{Coins|3,105}} total cost • 5.25% total decrease
+#{{Coins|1,340}} • {{Coins|4,445}} total cost • 6% total decrease
+#{{Coins|1,670}} • {{Coins|6,115}} total cost • 6.75% total decrease
+#{{Coins|2,030}} • {{Coins|8,145}} total cost • 7.5% total decrease
+#{{Coins|2,420}} • {{Coins|10,565}} total cost • 8.25% total decrease
+#{{Coins|2,850}} • {{Coins|13,415}} total cost • 9% total decrease
+#{{Coins|3,305}} • {{Coins|16,720}} total cost • 9.75% total decrease
+#{{Coins|3,795}} • {{Coins|20,515}} total cost • 10.5% total decrease
+#{{Coins|4,315}} • {{Coins|24,830}} total cost • 11.25% total decrease
+#{{Coins|4,865}} • {{Coins|29,695}} total cost • 12% total decrease
+#{{Coins|5,445}} • {{Coins|35,140}} total cost • 12.75% total decrease
+#{{Coins|6,055}} • {{Coins|41,195}} total cost • 13.5% total decrease
+#{{Coins|6,695}} • {{Coins|47,890}} total cost • 14.25% total decrease
+#{{Coins|7,365}} • {{Coins|55,255}} total cost • 15% total decrease
+|Version 1
+|#{{Coins|60}} • 1% total decrease
+#{{Coins|210}} • {{Coins|270}} total cost • 2% total decrease
+#{{Coins|445}} • {{Coins|715}} total cost • 3% total decrease
+#{{Coins|755}} • {{Coins|1,470}} total cost • 4% total decrease
+#{{Coins|1,145}} • {{Coins|2,615}} total cost • 5% total decrease
+#{{Coins|1,600}} • {{Coins|4,215}} total cost • 6% total decrease
+#{{Coins|2,130}} • {{Coins|6,345}} total cost • 7% total decrease
+#{{Coins|2,730}} • {{Coins|9,075}} total cost • 8% total decrease
+#{{Coins|3,395}} • {{Coins|12,470}} total cost • 9% total decrease
+#{{Coins|4,125}} • {{Coins|16,595}} total cost • 10% total decrease
+#{{Coins|4,920}} • {{Coins|21,515}} total cost • 11% total decrease
+#{{Coins|5,780}} • {{Coins|27,295}} total cost • 12% total decrease
+#{{Coins|6,700}} • {{Coins|33,995}} total cost • 13% total decrease
+#{{Coins|7,685}} • {{Coins|41,680}} total cost • 14% total decrease
+#{{Coins|8,730}} • {{Coins|50,410}} total cost • 15% total decrease
+#{{Coins|9,840}} • {{Coins|60,250}} total cost • 16% total decrease
+#{{Coins|11,005}} • {{Coins|71,255}} total cost • 17% total decrease
+#{{Coins|12,235}} • {{Coins|83,490}} total cost • 18% total decrease
+#{{Coins|13,520}} • {{Coins|97,010}} total cost • 19% total decrease
+#{{Coins|14,870}} • {{Coins|111,880}} total cost • 20% total decrease
+}}
+}}
+{{Skill
+|type = Strategy
+|name = Re-enforcements
+|icon = Re-enforcementsSkill.png
+|levels = 10
+|info =  Increases the tower placement limit by {{Color|Golden|X}}. (Scales with number of players).
+|description = Increases placement limit for the player by 1 for each purchase. In matches with more players, the limit will scale. In duo, it is 0.8 rather than 1 per purchase, while in trio and higher it is 0.5 per purchase. There is a requirement of reaching Level 10 in Expanded Barracks before it is unlocked. Has a base cost of 100 with an exponential value of 1.5.
+|cost = #{{Coins|1,000}} • 1 total increase
+#{{Coins|2,830}} • {{Coins|3,830}} total cost • 2 total increase
+#{{Coins|5,195}} • {{Coins|9,025}} total cost • 3 total increase
+#{{Coins|8,000}} • {{Coins|17,025}} total cost • 4 total increase
+#{{Coins|11,180}} • {{Coins|28,205}} total cost • 5 total increase
+#{{Coins|14,695}} • {{Coins|42,900}} total cost • 6 total increase
+#{{Coins|18,520}} • {{Coins|61,420}} total cost • 7 total increase
+#{{Coins|22,625}} • {{Coins|84,045}} total cost • 8 total increase
+#{{Coins|27,000}} • {{Coins|111,045}} total cost • 9 total increase
+#{{Coins|31,620}} • {{Coins|142,665}} total cost • 10 total increase
+}}
 
-{{GalleryHeader|Crate Icons}}
-<gallery>
-Gold Crate.png|First version (13 October 2019 – 29 October 2020)
-GoldenSkincrateOld.png|Second version (29 October 2020 – 22 April 2026)
-</gallery>
+===[[File:DefenseModifier.png|40px|link=]] Defense===
+Defense-oriented '''Skills''' that boost base health, reduce negative effect cooldowns and buff unit health.
+*The lowest cost needed to be able to upgrade any of the '''Skills''' is {{Coins|10,605}}, which is the cost for upgrading all '''Skills''' except Beefed Up Minions to Level 10.
+*The total cost for unlocking every Level is {{Coins|170,215}}.
+{{Skill
+|type = Defense
+|name = Fortify
+|levels = 40
+|icon = FortifySkill.png
+|info = Increases the player's health pool by {{Color|Golden|X}}. (In groups, the highest HP is used.)
+|description = Increases the maximum base health by 5 for each purchase. In duo+, the highest base health is chosen. Has a base cost of 3 with an exponential value of 1.4.
+|cost = {{Tabber
+|Current
+|#{{Coins|5}} • 5 total increase
+#{{Coins|10}} • {{Coins|15}} total cost • 10 total increase
+#{{Coins|20}} • {{Coins|35}} total cost • 15 total increase
+#{{Coins|30}} • {{Coins|65}} total cost • 20 total increase
+#{{Coins|45}} • {{Coins|110}} total cost • 25 total increase
+#{{Coins|55}} • {{Coins|165}} total cost • 30 total increase
+#{{Coins|70}} • {{Coins|235}} total cost • 35 total increase
+#{{Coins|85}} • {{Coins|320}} total cost • 40 total increase
+#{{Coins|100}} • {{Coins|420}} total cost • 45 total increase
+#{{Coins|115}} • {{Coins|535}} total cost • 50 total increase
+#{{Coins|135}} • {{Coins|670}} total cost • 55 total increase
+#{{Coins|150}} • {{Coins|820}} total cost • 60 total increase
+#{{Coins|170}} • {{Coins|990}} total cost • 65 total increase
+#{{Coins|185}} • {{Coins|1,175}} total cost • 70 total increase
+#{{Coins|205}} • {{Coins|1,380}} total cost • 75 total increase
+#{{Coins|225}} • {{Coins|1,605}} total cost • 80 total increase
+#{{Coins|245}} • {{Coins|1,850}} total cost • 85 total increase
+#{{Coins|265}} • {{Coins|2,115}} total cost • 90 total increase
+#{{Coins|285}} • {{Coins|2,400}} total cost • 95 total increase
+#{{Coins|310}} • {{Coins|2,710}} total cost • 100 total increase
+#{{Coins|330}} • {{Coins|3,040}} total cost • 105 total increase
+#{{Coins|350}} • {{Coins|3,390}} total cost • 110 total increase
+#{{Coins|375}} • {{Coins|3,765}} total cost • 115 total increase
+#{{Coins|400}} • {{Coins|4,165}} total cost • 120 total increase
+#{{Coins|420}} • {{Coins|4,585}} total cost • 125 total increase
+#{{Coins|445}} • {{Coins|5,030}} total cost • 130 total increase
+#{{Coins|470}} • {{Coins|5,500}} total cost • 135 total increase
+#{{Coins|495}} • {{Coins|5,995}} total cost • 140 total increase
+#{{Coins|520}} • {{Coins|6,515}} total cost • 145 total increase
+#{{Coins|545}} • {{Coins|7,060}} total cost • 150 total increase
+#{{Coins|570}} • {{Coins|7,630}} total cost • 155 total increase
+#{{Coins|595}} • {{Coins|8,225}} total cost • 160 total increase
+#{{Coins|620}} • {{Coins|8,845}} total cost • 165 total increase
+#{{Coins|650}} • {{Coins|9,495}} total cost • 170 total increase
+#{{Coins|675}} • {{Coins|10,170}} total cost • 175 total increase
+#{{Coins|700}} • {{Coins|10,870}} total cost • 180 total increase
+#{{Coins|730}} • {{Coins|11,600}} total cost • 185 total increase
+#{{Coins|755}} • {{Coins|12,355}} total cost • 190 total increase
+#{{Coins|785}} • {{Coins|13,140}} total cost • 195 total increase
+#{{Coins|815}} • {{Coins|13,955}} total cost • 200 total increase
+|Version 1
+|#{{Coins|10}} • 6 total increase
+#{{Coins|25}} • {{Coins|35}} total cost • 12 total increase
+#{{Coins|45}} • {{Coins|80}} total cost • 18 total increase
+#{{Coins|70}} • {{Coins|150}} total cost • 24 total increase
+#{{Coins|100}} • {{Coins|250}} total cost • 30 total increase
+#{{Coins|125}} • {{Coins|375}} total cost • 36 total increase
+#{{Coins|160}} • {{Coins|535}} total cost • 42 total increase
+#{{Coins|190}} • {{Coins|725}} total cost • 48 total increase
+#{{Coins|225}} • {{Coins|950}} total cost • 54 total increase
+#{{Coins|265}} • {{Coins|1,215}} total cost • 60 total increase
+#{{Coins|300}} • {{Coins|1,515}} total cost • 66 total increase
+#{{Coins|340}} • {{Coins|1,855}} total cost • 72 total increase
+#{{Coins|385}} • {{Coins|2,240}} total cost • 78 total increase
+#{{Coins|425}} • {{Coins|2,665}} total cost • 84 total increase
+#{{Coins|470}} • {{Coins|3,135}} total cost • 90 total increase
+#{{Coins|515}} • {{Coins|3,650}} total cost • 96 total increase
+#{{Coins|560}} • {{Coins|4,210}} total cost • 102 total increase
+#{{Coins|610}} • {{Coins|4,820}} total cost • 108 total increase
+#{{Coins|660}} • {{Coins|5,480}} total cost • 114 total increase
+#{{Coins|705}} • {{Coins|6,185}} total cost • 120 total increase
+#{{Coins|760}} • {{Coins|6,945}} total cost • 126 total increase
+#{{Coins|810}} • {{Coins|7,755}} total cost • 132 total increase
+#{{Coins|865}} • {{Coins|8,620}} total cost • 138 total increase
+#{{Coins|915}} • {{Coins|9,535}} total cost • 144 total increase
+#{{Coins|970}} • {{Coins|10,505}} total cost • 150 total increase
+#{{Coins|1,030}} • {{Coins|11,535}} total cost • 156 total increase
+#{{Coins|1,085}} • {{Coins|12,620}} total cost • 162 total increase
+#{{Coins|1,145}} • {{Coins|13,765}} total cost • 168 total increase
+#{{Coins|1,200}} • {{Coins|14,965}} total cost • 174 total increase
+#{{Coins|1,260}} • {{Coins|16,225}} total cost • 180 total increase
+#{{Coins|1,320}} • {{Coins|17,545}} total cost • 186 total increase
+#{{Coins|1,385}} • {{Coins|18,930}} total cost • 192 total increase
+#{{Coins|1,445}} • {{Coins|20,375}} total cost • 198 total increase
+#{{Coins|1,505}} • {{Coins|21,880}} total cost • 204 total increase
+#{{Coins|1,570}} • {{Coins|23,450}} total cost • 210 total increase
+#{{Coins|1,635}} • {{Coins|25,085}} total cost • 216 total increase
+#{{Coins|1,700}} • {{Coins|26,785}} total cost • 222 total increase
+#{{Coins|1,765}} • {{Coins|28,550}} total cost • 228 total increase
+#{{Coins|1,835}} • {{Coins|30,385}} total cost • 234 total increase
+#{{Coins|1,900}} • {{Coins|32,285}} total cost • 240 total increase
+#{{Coins|1,970}} • {{Coins|34,255}} total cost • 246 total increase
+#{{Coins|2,035}} • {{Coins|36,290}} total cost • 252 total increase
+#{{Coins|2,105}} • {{Coins|38,395}} total cost • 258 total increase
+#{{Coins|2,175}} • {{Coins|40,570}} total cost • 264 total increase
+#{{Coins|2,250}} • {{Coins|42,820}} total cost • 270 total increase
+#{{Coins|2,320}} • {{Coins|45,140}} total cost • 276 total increase
+#{{Coins|2,390}} • {{Coins|47,530}} total cost • 282 total increase
+#{{Coins|2,465}} • {{Coins|49,995}} total cost • 288 total increase
+#{{Coins|2,540}} • {{Coins|52,535}} total cost • 294 total increase
+#{{Coins|2,610}} • {{Coins|55,145}} total cost • 300 total increase
+}}
+}}
+{{Skill
+|type = Defense
+|name = Over-Heal
+|levels = 25
+|icon = Over-HealSkill.png
+|info =  Increases how much extra HP can be kept from over-healing by {{Color|Golden|X}}.
+|description = Increases amount of health kept per player from over-healing by 8 for every purchase. There is a requirement of reaching Level 10 in Fortify before it is unlocked. Has a base cost of 5 with an exponential value of 1.7.
+|cost = {{Tabber
+|Current
+|#{{Coins|15}} • 8 total increase
+#{{Coins|50}} • {{Coins|65}} total cost • 16 total increase
+#{{Coins|100}} • {{Coins|165}} total cost • 24 total increase
+#{{Coins|160}} • {{Coins|325}} total cost • 32 total increase
+#{{Coins|235}} • {{Coins|560}} total cost • 40 total increase
+#{{Coins|325}} • {{Coins|885}} total cost • 48 total increase
+#{{Coins|420}} • {{Coins|1,305}} total cost • 56 total increase
+#{{Coins|530}} • {{Coins|1,835}} total cost • 64 total increase
+#{{Coins|645}} • {{Coins|2,480}} total cost • 72 total increase
+#{{Coins|775}} • {{Coins|3,255}} total cost • 80 total increase
+#{{Coins|910}} • {{Coins|4,165}} total cost • 88 total increase
+#{{Coins|1,055}} • {{Coins|5,220}} total cost • 96 total increase
+#{{Coins|1,205}} • {{Coins|6,425}} total cost • 104 total increase
+#{{Coins|1,370}} • {{Coins|7,795}} total cost • 112 total increase
+#{{Coins|1,540}} • {{Coins|9,335}} total cost • 120 total increase
+#{{Coins|1,720}} • {{Coins|11,055}} total cost • 128 total increase
+#{{Coins|1,905}} • {{Coins|12,960}} total cost • 136 total increase
+#{{Coins|2,100}} • {{Coins|15,060}} total cost • 144 total increase
+#{{Coins|2,300}} • {{Coins|17,360}} total cost • 152 total increase
+#{{Coins|2,510}} • {{Coins|19,870}} total cost • 160 total increase
+#{{Coins|2,730}} • {{Coins|22,600}} total cost • 168 total increase
+#{{Coins|2,955}} • {{Coins|25,555}} total cost • 176 total increase
+#{{Coins|3,185}} • {{Coins|28,740}} total cost • 184 total increase
+#{{Coins|3,425}} • {{Coins|32,165}} total cost • 192 total increase
+#{{Coins|3,670}} • {{Coins|35,835}} total cost • 200 total increase
+|Version 1
+|#{{Coins|30}} • 4 total increase
+#{{Coins|95}} • {{Coins|125}} total cost • 8 total increase
+#{{Coins|190}} • {{Coins|315}} total cost • 12 total increase
+#{{Coins|305}} • {{Coins|620}} total cost • 16 total increase
+#{{Coins|440}} • {{Coins|1,060}} total cost • 20 total increase
+#{{Coins|595}} • {{Coins|1,655}} total cost • 24 total increase
+#{{Coins|765}} • {{Coins|2,420}} total cost • 28 total increase
+#{{Coins|955}} • {{Coins|3,375}} total cost • 32 total increase
+#{{Coins|1,160}} • {{Coins|4,535}} total cost • 36 total increase
+#{{Coins|1,380}} • {{Coins|5,915}} total cost • 40 total increase
+#{{Coins|1,615}} • {{Coins|7,530}} total cost • 44 total increase
+#{{Coins|1,865}} • {{Coins|9,395}} total cost • 48 total increase
+#{{Coins|2,130}} • {{Coins|11,525}} total cost • 52 total increase
+#{{Coins|2,405}} • {{Coins|13,930}} total cost • 56 total increase
+#{{Coins|2,695}} • {{Coins|16,625}} total cost • 60 total increase
+#{{Coins|3,000}} • {{Coins|19,625}} total cost • 64 total increase
+#{{Coins|3,315}} • {{Coins|22,940}} total cost • 68 total increase
+#{{Coins|3,640}} • {{Coins|26,580}} total cost • 72 total increase
+#{{Coins|3,980}} • {{Coins|30,560}} total cost • 76 total increase
+#{{Coins|4,335}} • {{Coins|34,895}} total cost • 80 total increase
+#{{Coins|4,695}} • {{Coins|39,590}} total cost • 84 total increase
+#{{Coins|5,070}} • {{Coins|44,660}} total cost • 88 total increase
+#{{Coins|5,455}} • {{Coins|50,115}} total cost • 92 total increase
+#{{Coins|5,855}} • {{Coins|55,970}} total cost • 96 total increase
+#{{Coins|6,260}} • {{Coins|62,230}} total cost • 100 total increase
+}}
+}}
+{{Skill
+|type = Defense
+|name = Bandages
+|levels = 25
+|icon = BandagesSkill.png
+|info =  Regenerates {{Color|Golden|X}} health at the start of every wave.
+|description = Heals the base health per player by 1 for each purchase. There is a requirement of reaching Level 10 in Over-Heal before it is unlocked. Has a base cost of 5 with an exponential value of 1.7.
+|cost = {{Tabber
+|Current
+|#{{Coins|15}} • 1 total increase
+#{{Coins|50}} • {{Coins|65}} total cost • 2 total increase
+#{{Coins|100}} • {{Coins|165}} total cost • 3 total increase
+#{{Coins|160}} • {{Coins|325}} total cost • 4 total increase
+#{{Coins|235}} • {{Coins|560}} total cost • 5 total increase
+#{{Coins|325}} • {{Coins|885}} total cost • 6 total increase
+#{{Coins|420}} • {{Coins|1,305}} total cost • 7 total increase
+#{{Coins|530}} • {{Coins|1,835}} total cost • 8 total increase
+#{{Coins|645}} • {{Coins|2,480}} total cost • 9 total increase
+#{{Coins|775}} • {{Coins|3,255}} total cost • 10 total increase
+#{{Coins|910}} • {{Coins|4,165}} total cost • 11 total increase
+#{{Coins|1,055}} • {{Coins|5,220}} total cost • 12 total increase
+#{{Coins|1,205}} • {{Coins|6,425}} total cost • 13 total increase
+#{{Coins|1,370}} • {{Coins|7,795}} total cost • 14 total increase
+#{{Coins|1,540}} • {{Coins|9,335}} total cost • 15 total increase
+#{{Coins|1,720}} • {{Coins|11,055}} total cost • 16 total increase
+#{{Coins|1,905}} • {{Coins|12,960}} total cost • 17 total increase
+#{{Coins|2,100}} • {{Coins|15,060}} total cost • 18 total increase
+#{{Coins|2,300}} • {{Coins|17,360}} total cost • 19 total increase
+#{{Coins|2,510}} • {{Coins|19,870}} total cost • 20 total increase
+#{{Coins|2,730}} • {{Coins|22,600}} total cost • 21 total increase
+#{{Coins|2,955}} • {{Coins|25,555}} total cost • 22 total increase
+#{{Coins|3,185}} • {{Coins|28,740}} total cost • 23 total increase
+#{{Coins|3,425}} • {{Coins|32,165}} total cost • 24 total increase
+#{{Coins|3,670}} • {{Coins|35,835}} total cost • 25 total increase
+|Version 1
+|#{{Coins|35}} • 1 total increase
+#{{Coins|105}} • {{Coins|140}} total cost • 2 total increase
+#{{Coins|210}} • {{Coins|350}} total cost • 3 total increase
+#{{Coins|345}} • {{Coins|695}} total cost • 4 total increase
+#{{Coins|500}} • {{Coins|1,195}} total cost • 5 total increase
+#{{Coins|680}} • {{Coins|1,875}} total cost • 6 total increase
+#{{Coins|880}} • {{Coins|2,755}} total cost • 7 total increase
+#{{Coins|1,105}} • {{Coins|3,860}} total cost • 8 total increase
+#{{Coins|1,345}} • {{Coins|5,205}} total cost • 9 total increase
+#{{Coins|1,610}} • {{Coins|6,815}} total cost • 10 total increase
+#{{Coins|1,890}} • {{Coins|8,705}} total cost • 11 total increase
+#{{Coins|2,190}} • {{Coins|10,895}} total cost • 12 total increase
+#{{Coins|2,505}} • {{Coins|13,400}} total cost • 13 total increase
+#{{Coins|2,835}} • {{Coins|16,235}} total cost • 14 total increase
+#{{Coins|3,185}} • {{Coins|19,420}} total cost • 15 total increase
+#{{Coins|3,555}} • {{Coins|22,975}} total cost • 16 total increase
+#{{Coins|3,935}} • {{Coins|26,910}} total cost • 17 total increase
+#{{Coins|4,335}} • {{Coins|31,245}} total cost • 18 total increase
+#{{Coins|4,745}} • {{Coins|35,990}} total cost • 19 total increase
+#{{Coins|5,175}} • {{Coins|41,165}} total cost • 20 total increase
+#{{Coins|5,620}} • {{Coins|46,785}} total cost • 21 total increase
+#{{Coins|6,075}} • {{Coins|52,860}} total cost • 22 total increase
+#{{Coins|6,550}} • {{Coins|59,410}} total cost • 23 total increase
+#{{Coins|7,035}} • {{Coins|66,445}} total cost • 24 total increase
+#{{Coins|7,535}} • {{Coins|73,980}} total cost • 25 total increase
+}}
+}}
+{{Skill
+|type = Defense
+|name = Extreme Conditioning
+|levels = 25
+|icon = ExtremeConditioningSkill.png
+|info =  Reduces stun and debuff durations from enemies by {{Color|Golden|X%}}.
+|description = Reduces tower stun and debuff durations from enemies by 0.8% for each purchase. There is a requirement of reaching Level 10 in Bandages before it is unlocked. Has a base cost of 5 with an exponential value of 1.725.
+|cost = {{Tabber
+|Current
+|#{{Coins|15}} • 0.8% total decrease
+#{{Coins|55}} • {{Coins|70}} total cost • 1.6% total decrease
+#{{Coins|105}} • {{Coins|175}} total cost • 2.4% total decrease
+#{{Coins|175}} • {{Coins|350}} total cost • 3.2% total decrease
+#{{Coins|255}} • {{Coins|605}} total cost • 4% total decrease
+#{{Coins|355}} • {{Coins|960}} total cost • 4.8% total decrease
+#{{Coins|460}} • {{Coins|1,420}} total cost • 5.6% total decrease
+#{{Coins|580}} • {{Coins|2,000}} total cost • 6.4% total decrease
+#{{Coins|710}} • {{Coins|2,710}} total cost • 7.2% total decrease
+#{{Coins|850}} • {{Coins|3,560}} total cost • 8% total decrease
+#{{Coins|1,005}} • {{Coins|4,565}} total cost • 8.8% total decrease
+#{{Coins|1,165}} • {{Coins|5,730}} total cost • 9.6% total decrease
+#{{Coins|1,340}} • {{Coins|7,070}} total cost • 10.4% total decrease
+#{{Coins|1,525}} • {{Coins|8,595}} total cost • 11.2% total decrease
+#{{Coins|1,715}} • {{Coins|10,310}} total cost • 12% total decrease
+#{{Coins|1,915}} • {{Coins|12,225}} total cost • 12.8% total decrease
+#{{Coins|2,130}} • {{Coins|14,355}} total cost • 13.6% total decrease
+#{{Coins|2,350}} • {{Coins|16,705}} total cost • 14.4% total decrease
+#{{Coins|2,580}} • {{Coins|19,285}} total cost • 15.2% total decrease
+#{{Coins|2,820}} • {{Coins|22,105}} total cost • 16% total decrease
+#{{Coins|3,065}} • {{Coins|25,170}} total cost • 16.8% total decrease
+#{{Coins|3,320}} • {{Coins|28,490}} total cost • 17.6% total decrease
+#{{Coins|3,585}} • {{Coins|32,075}} total cost • 18.4% total decrease
+#{{Coins|3,860}} • {{Coins|35,935}} total cost • 19.2% total decrease
+#{{Coins|4,140}} • {{Coins|40,075}} total cost • 20% total decrease
+|Version 1
+|#{{Coins|35}} • 0.8% total decrease
+#{{Coins|110}} • {{Coins|145}} total cost • 1.6% total decrease
+#{{Coins|220}} • {{Coins|365}} total cost • 2.4% total decrease
+#{{Coins|360}} • {{Coins|725}} total cost • 3.2% total decrease
+#{{Coins|530}} • {{Coins|1,255}} total cost • 4% total decrease
+#{{Coins|720}} • {{Coins|1,975}} total cost • 4.8% total decrease
+#{{Coins|935}} • {{Coins|2,910}} total cost • 5.6% total decrease
+#{{Coins|1,175}} • {{Coins|4,085}} total cost • 6.4% total decrease
+#{{Coins|1,435}} • {{Coins|5,520}} total cost • 7.2% total decrease
+#{{Coins|1,720}} • {{Coins|7,240}} total cost • 8% total decrease
+#{{Coins|2,020}} • {{Coins|9,260}} total cost • 8.8% total decrease
+#{{Coins|2,345}} • {{Coins|11,605}} total cost • 9.6% total decrease
+#{{Coins|2,685}} • {{Coins|14,290}} total cost • 10.4% total decrease
+#{{Coins|3,045}} • {{Coins|17,335}} total cost • 11.2% total decrease
+#{{Coins|3,425}} • {{Coins|20,760}} total cost • 12% total decrease
+#{{Coins|3,820}} • {{Coins|24,580}} total cost • 12.8% total decrease
+#{{Coins|4,235}} • {{Coins|28,815}} total cost • 13.6% total decrease
+#{{Coins|4,670}} • {{Coins|33,485}} total cost • 14.4% total decrease
+#{{Coins|5,120}} • {{Coins|38,605}} total cost • 15.2% total decrease
+#{{Coins|5,585}} • {{Coins|44,190}} total cost • 16% total decrease
+#{{Coins|6,065}} • {{Coins|50,255}} total cost • 16.8% total decrease
+#{{Coins|6,565}} • {{Coins|56,820}} total cost • 17.6% total decrease
+#{{Coins|7,080}} • {{Coins|63,900}} total cost • 18.4% total decrease
+#{{Coins|7,615}} • {{Coins|71,515}} total cost • 19.2% total decrease
+#{{Coins|8,160}} • {{Coins|79,675}} total cost • 20% total decrease
+}}
+}}
+{{Skill
+|type = Defense
+|name = Beefed Up Minions
+|levels = 25
+|icon =  BeefedUpMinionsSkill.png
+|info =  Health of summoned units is increased by {{Color|Golden|X%}}.
+|description = Increases unit's health by 0.6% for each purchase. Only applies to units summoned by towers, units summoned through other sources, like consumables, are not affected. There is a requirement of reaching Level 10 in Extreme Conditioning before it is unlocked. Has a base cost of 6 with an exponential value of 1.68.
 
-{{GalleryHeader|Thumbnails}}
-<gallery>
-GoldenCrateThumbnail.png|Second version on the game thumbnail.
-</gallery>
+Things which deal unit collision damage or function very similarly to units but are not classified as units, like the [[Barricade]], [[Sandcastle (Consumable)|Sandcastle]], [[Hacker]]'s converted enemies and [[Trapper]] traps are not affected.
+|cost = {{Tabber
+|Current
+|#{{Coins|20}} • 0.6% total increase
+#{{Coins|65}} • {{Coins|85}} total cost • 1.2% total increase
+#{{Coins|130}} • {{Coins|215}} total cost • 1.8% total increase
+#{{Coins|210}} • {{Coins|425}} total cost • 2.4% total increase
+#{{Coins|305}} • {{Coins|730}} total cost • 3% total increase
+#{{Coins|410}} • {{Coins|1,140}} total cost • 3.6% total increase
+#{{Coins|535}} • {{Coins|1,675}} total cost • 4.2% total increase
+#{{Coins|665}} • {{Coins|2,340}} total cost • 4.8% total increase
+#{{Coins|815}} • {{Coins|3,155}} total cost • 5.4% total increase
+#{{Coins|970}} • {{Coins|4,125}} total cost • 6% total increase
+#{{Coins|1,140}} • {{Coins|5,265}} total cost • 6.6% total increase
+#{{Coins|1,320}} • {{Coins|6,585}} total cost • 7.2% total increase
+#{{Coins|1,510}} • {{Coins|8,095}} total cost • 7.8% total increase
+#{{Coins|1,710}} • {{Coins|9,805}} total cost • 8.4% total increase
+#{{Coins|1,920}} • {{Coins|11,725}} total cost • 9% total increase
+#{{Coins|2,140}} • {{Coins|13,865}} total cost • 9.6% total increase
+#{{Coins|2,370}} • {{Coins|16,235}} total cost • 10.2% total increase
+#{{Coins|2,605}} • {{Coins|18,840}} total cost • 10.8% total increase
+#{{Coins|2,855}} • {{Coins|21,695}} total cost • 11.4% total increase
+#{{Coins|3,110}} • {{Coins|24,805}} total cost • 12% total increase
+#{{Coins|3,375}} • {{Coins|28,180}} total cost • 12.6% total increase
+#{{Coins|3,650}} • {{Coins|31,830}} total cost • 13.2% total increase
+#{{Coins|3,935}} • {{Coins|35,765}} total cost • 13.8% total increase
+#{{Coins|4,225}} • {{Coins|39,990}} total cost • 14.4% total increase
+#{{Coins|4,525}} • {{Coins|44,515}} total cost • 15% total increase
+|Version 1
+|#{{Coins|40}} • 0.75% total increase
+#{{Coins|135}} • {{Coins|175}} total cost • 1.5% total increase
+#{{Coins|270}} • {{Coins|445}} total cost • 2.25% total increase
+#{{Coins|440}} • {{Coins|885}} total cost • 3% total increase
+#{{Coins|645}} • {{Coins|1,530}} total cost • 3.75% total increase
+#{{Coins|880}} • {{Coins|2,410}} total cost • 4.5% total increase
+#{{Coins|1,145}} • {{Coins|3,555}} total cost • 5.25% total increase
+#{{Coins|1,435}} • {{Coins|4,990}} total cost • 6% total increase
+#{{Coins|1,755}} • {{Coins|6,745}} total cost • 6.75% total increase
+#{{Coins|2,100}} • {{Coins|8,845}} total cost • 7.5% total increase
+#{{Coins|2,470}} • {{Coins|11,315}} total cost • 8.25% total increase
+#{{Coins|2,860}} • {{Coins|14,175}} total cost • 9% total increase
+#{{Coins|3,280}} • {{Coins|17,455}} total cost • 9.75% total increase
+#{{Coins|3,720}} • {{Coins|21,175}} total cost • 10.5% total increase
+#{{Coins|4,185}} • {{Coins|25,360}} total cost • 11.25% total increase
+#{{Coins|4,670}} • {{Coins|30,030}} total cost • 12% total increase
+#{{Coins|5,175}} • {{Coins|35,205}} total cost • 12.75% total increase
+#{{Coins|5,705}} • {{Coins|40,910}} total cost • 13.5% total increase
+#{{Coins|6,255}} • {{Coins|47,165}} total cost • 14.25% total increase
+#{{Coins|6,820}} • {{Coins|53,985}} total cost • 15% total increase
+#{{Coins|7,410}} • {{Coins|61,395}} total cost • 15.75% total increase
+#{{Coins|8,020}} • {{Coins|69,415}} total cost • 16.5% total increase
+#{{Coins|8,650}} • {{Coins|78,065}} total cost • 17.25% total increase
+#{{Coins|9,300}} • {{Coins|87,365}} total cost • 18% total increase
+#{{Coins|9,970}} • {{Coins|97,335}} total cost • 18.75% total increase
+}}
 }}
 
 ==Trivia==
-*The current design of the '''Golden Crate''' is likely based on the [[w:c:saszombieassault:Strongbox#8|Nantonium Strongbox]] from ''SAS: Zombie Assault 4''.
-*The '''Golden Crate''' is currently the only item in the game that gives a buff to a tower outside of [[Consumables]] and support [[Towers]].
-**The only other item to do this was the [[Platinum Crate]], which was the same thing as the '''Golden Crate''', but easier to get.
-*The '''Golden Crate''' uniquely shortens the name of the [[Pyromancer]] to ''Pyro'' in its inventory description.
-*All towers from this crate have a unique sound when placed. Other unique placement sounds of skins override this sound however.
+*'''Skills''' are as expensive as they are for the purpose of acting as a coin sink; players are not actually expected to fully upgrade every single '''Skill'''.<ref>https://x.com/BelowNatural/status/1927893175789560177</ref>
 
 ==Update History==
-{{Scroll|text=
-*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**'''Golden Crate''' added.
-** Original skins: [[Crook Boss]], [[Pyromancer]], [[Minigunner]]
-*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]
-**{{Color|Golden}} [[Crook Boss]] +10% [[Damage Buff]] added.
-**{{Color|Golden}} [[Minigunner]] +25% [[Damage Buff]] added.
-**{{Color|Golden}} [[Pyromancer]] +25% [[Range Buff]] added.
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
-**{{Color|Golden}} [[Scout]] added.
-**{{Color|Golden}} [[Crook Boss]] [[Damage Buff]] increased from +10% to +25%.
-**{{Color|Golden}} [[Pyromancer]] [[Range Buff]] increased from +25% to +50%.
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]a
-**{{Color|Golden}} [[Scout]] [[Damage Buff]] decreased from +300% to +200% at Level 5.
-*'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**{{Color|Golden}} [[Scout]] upgrade costs increased to +50%.
-***This was not correctly shown until 24 December 2019.
-**All {{Color|Golden}} buffs can now stack with other additional buffs.
-*'''8 December 2019''' - [[Release v1.4|Release v1.4.1]]
-**{{Color|Golden}} [[Crook Boss]] [[Damage Buff]] increased from +25% to +40%.
-**{{Color|Golden}} [[Minigunner]] [[Damage Buff]] increased from +25% to +35%.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**{{Color|Golden}} [[Scout]] upgrade costs increased to +100%.
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**{{Color|Golden}} [[Cowboy]] added.
-**{{Color|Golden}} [[Minigunner]] [[Damage Buff]] increased from +35% to +50%.
-**{{Color|Golden}} [[Crook Boss]] minions are now golden and now get boosted damage.
-*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**{{Color|Golden}} [[Pyromancer]] +25% [[Damage Buff]] added.
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Appearance changed.
-**Crate opening music added.
-**{{Color|Golden}} [[Soldier]] added.
-**{{Color|Golden}} [[Cowboy]] -1 cash shot added.
-**{{Color|Golden}} [[Crook Boss]] minions now get a speed buff.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**{{Color|Golden}} [[Minigunner]], [[Pyromancer]] and [[Scout]] placement SFX changed.
-*'''13 February 2022''' - [[v1.0.2]]
-**{{Color|Golden}} [[Soldier]] burst increase decreased on Level 3 from +4 to +2, and Level 4 from +10 to +4.
-*'''12 March 2022''' - [[v1.1.0]]
-**{{Color|Golden}} [[Soldier]] burst increase decreased on Level 4 from +4 to +3.
-*'''13 May 2022''' - [[v1.2.2]]
-**All skins no longer grant the tower they are equipped on statistical differences.
-**'''Golden Crate''' now grants Golden Perks, which replaces the normal tower with the Golden version of the same tower.
-***This can be enabled or disabled in the inventory.
-*'''21 December 2022''' - [[v1.6.0]]
-**Skin rarity added.
-**Skins can now appear in the daily skin store.
-**{{Bug}} Crate opening music no longer plays.
-*'''28 October 2023''' - [[v1.9.0]]
-**{{Bugfix}} Crate opening music now plays.
-*'''22 April 2026''' - [[v1.89.0]]
-**Appearance changed.
-**Icon changed.
-*'''17 July 2026''' - [[v2.3.0]]
-**{{Color|Golden}} [[Demoman]] added.
+{{scroll|text =
+*'''28 May 2025''' - [[v1.65.0]]
+**'''Skills''' added.
+**{{Bug}} Units will have decimal health when affected by '''Beefed Up Minions'''.
+**{{Bug}} '''Enhanced Optics''' will cause the range statistic of towers to show inaccurate range, making it look like the range is boosted by '''Expanded Barracks''' instead. The range visuals and the actual area towers attack enemies in are, however, not boosted by the '''Expanded Barracks''', they are correctly boosted based on what '''Enhanced Optics''' is upgraded to.
+**{{Bug}} '''Enhanced Optics''' [[Range Buff]] will be visually the same for every player as you, even though in reality every player has their own '''Enhanced Optics''' [[Range Buff]] applied.
+**{{Bug}} '''Precision''' is always active, even when '''Skills''' are disabled or when the player does not even have it unlocked.
+**{{Bug}} '''Scavenger''' is always active, even when '''Skills''' are disabled or when the player does not even have it unlocked.
+**{{Bug}} '''Bigger Budget''' sometimes will not apply its starting cash boost.
+**{{Bug}} '''Fortify''' can bypass mode base health limits.
+**{{Bug}} '''Fortify''', '''Over-Heal''' and '''Bandages''' do not pick the '''Skill''' of the player which has it upgraded to the highest Level, but instead the latest player.
+**{{Bug}} '''Skills''' will randomly be shown as not unlocked even though they are actually unlocked.
+*'''13 June 2025''' - [[v1.67.3]]
+**Refunds were given out to players, all upgrades which were discounted will now give back the difference between the older more expensive price and the new cheaper price.
+***For '''Fortify''', the last 10 Levels are not refunded as they were removed. Because of this, the maximum refund possible is {{Coins|803,600}} instead of the expected {{Coins|826,460}}.
+**Restarting '''Skills''' added. 95% of the currency spent is converted into {{SkillCredit|}}. Restarting costs {{Coins|200}}, with the cost increasing by {{Coins|200}} each restart.
+**Adjustments:
+***As a result of these adjustments, total unlock cost has been reduced from {{Coins|1,650,530}} to {{Coins|824,070}}.
+***'''Enhanced Optics'''
+****Base cost decreased from 9 to 6.
+****Exponential value decreased from 1.78 to 1.73.
+***'''Improved Gunpowder'''
+****Base cost decreased from 7 to 5.
+****Exponential value decreased from 1.78 to 1.725.
+****Explosion radius increase decreased from 0.8% to 0.5%.
+***'''Fight Dirty''' 
+****Base cost decreased from 8 to 5.
+****Exponential value decreased from 1.78 to 1.77.
+***'''Precision''' 
+****Base cost decreased from 11 to 7.
+****Exponential value increased from 1.98 to 2.035.
+****Starting shots decreased from 39 to 29.
+****Visual effects added.
+***'''Resourcefulness''' 
+****Base cost decreased from 7 to 4.
+****Exponential value increased from 1.74 to 1.75.
+***'''Bigger Budget''' 
+****Base cost decreased from 7 to 4.
+****Exponential value increased from 1.75 to 1.82.
+***'''Stonks''' 
+****Base cost decreased from 10 to 7.
+****Exponential value decreased from 1.8 to 1.78.
+***'''Scavenger'''
+****Base cost decreased from 10 to 7.
+****Exponential value increased from 1.85 to 1.865.
+****Visual effects added.
+***'''Accelerator''' 
+****Base cost decreased from 6 to 4.
+****Exponential value decreased from 1.8 to 1.77.
+***'''Scholar''' 
+****Base cost decreased from 9 to 5.
+****Exponential value decreased from 1.85 to 1.83.
+***'''Expanded Barracks''' 
+****Base cost decreased from 9 to 6.
+****Exponential value increased from 1.85 to 1.86.
+****Spawnrate reduction decreased from 1% to 0.75%.
+***'''Fortify''' 
+****Base cost decreased from 5 to 3.
+****Exponential value decreased from 1.425 to 1.4.
+****Levels reduced from 50 to 40.
+****Base health increase decreased from 6 to 5.
+***'''Over-Heal''' 
+****Base cost decreased from 8 to 5.
+****Exponential value increased from 1.65 to 1.7.
+****Over-heal boost increased from 4 to 8.
+***'''Bandages''' 
+****Base cost decreased from 8 to 5.
+****Exponential value increased from 1.685 to 1.7.
+***'''Extreme Conditioning''' 
+****Base cost decreased from 8 to 5.
+****Exponential value increased from 1.7 to 1.725.
+***'''Beefed Up Minions''' 
+****Base cost decreased from 9 to 6.
+****Exponential value decreased from 1.7 to 1.68.
+****Unit health boost decreased from 0.75% to 0.6%.
+**{{Bug}} After '''Skill''' cost prices have been refunded, some players received decimal currency.
+**{{Bug}} After the '''Skill''' tree refund, it will visually appear as fully incomplete until the player rejoins or upgrades a '''Skill'''.
+**{{Bug}} If the player does not have enough {{Coins|Coins}} but has enough {{SkillCredit|}} to purchase an upgrade, the button will be visually red despite the player actually being able to purchase it.
+**{{Bug}} If the player attempts to upgrade a '''Skill''' after restarting while its cost is higher than both their current {{Coins|Coins}} and {{SkillCredit|}} amounts, the '''Skill''' will not be purchased and all the {{SkillCredit|}} will disappear.
+*'''18 June 2025''' - [[v1.67.0|v1.67.6]]
+**{{Bugfix}} '''Skills''' can no longer refund decimal {{Coins|Coins}}.
+*'''25 June 2025''' - [[v1.68.0]]
+**Requirement of {{Level|15}} added.
+**Updated music.
+*'''19 June 2026''' - [[v2.1.0]]
+**{{Bugfix}} '''Enhanced Optics''' range boost is now properly displayed in the upgrade menu.
 *'''21 August 2026''' - [[v2.7.0]]
-**{{Color|Golden}} rarity added.
+**Corrected receive being misspelled as "''recieve''" in the refund pop-up.
 }}
 
+==Notes==
+<references/>
 
 
-{{CrateNavBox}}
+
+{{BrowseNavBox}}
+[[Category:Features]]
