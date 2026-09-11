@@ -157,6 +157,14 @@ def discussion_deep_search(req):
                 **media
             })
     results.sort(key=lambda x:(-x['score'],str(x.get('title') or '')))
+    # Keep explicit, human-readable pagination accounting. The API is zero-based,
+    # while the report also exposes one-based page numbers for users.
+    scanned_page_numbers=[int(s.get('page',0))+1 for s in page_summaries if 'page' in s]
+    populated_page_numbers=[int(s.get('page',0))+1 for s in page_summaries if s.get('objects',0)>0]
+    empty_page_numbers=[int(s.get('page',0))+1 for s in page_summaries if s.get('objects',0)==0 and 'error' not in s]
+    error_pages=[int(s.get('page',0))+1 for s in page_summaries if 'error' in s]
+    pages_attempted=len(page_summaries)
+    pages_completed=pages_attempted-len(error_pages)
     # Verify the strongest candidates by fetching their full threads/replies.
     verified=[]
     for item in results[:100]:
@@ -182,6 +190,17 @@ def discussion_deep_search(req):
     r={
         'query':q,
         'scope':f'up to {pages*per_page} Fandom discussion threads ({pages} pages x {per_page})',
+        'page_indexing':{'api_zero_based':True,'report_one_based':True},
+        'pages_requested':pages,
+        'pages_attempted':pages_attempted,
+        'pages_completed':pages_completed,
+        'pages_with_threads':len(populated_page_numbers),
+        'pages_empty':len(empty_page_numbers),
+        'pages_with_errors':len(error_pages),
+        'scanned_page_numbers':scanned_page_numbers,
+        'populated_page_numbers':populated_page_numbers,
+        'empty_page_numbers':empty_page_numbers,
+        'error_page_numbers':error_pages,
         'threads_scanned':scanned,
         'required_groups':must,
         'preferred_terms':prefer,
@@ -193,7 +212,7 @@ def discussion_deep_search(req):
         'selection_note':('Strict mode requires every group in text.' if strict_must else 'Soft mode keeps partial text matches; image-bearing posts may also be included because loadouts can exist only in screenshots.')+' Top candidates are then checked using the full thread and replies.'
     }
     wjson('discussion_deep_search.json',r)
-    wjson('meta.json',{'mode':'discussion_deep_search','requested':q,'threads_scanned':scanned,'match_count':len(results)})
+    wjson('meta.json',{'mode':'discussion_deep_search','requested':q,'threads_scanned':scanned,'match_count':len(results),'pages_requested':pages,'pages_attempted':pages_attempted,'pages_completed':pages_completed,'pages_with_threads':len(populated_page_numbers),'pages_empty':len(empty_page_numbers),'pages_with_errors':len(error_pages),'scanned_page_numbers':scanned_page_numbers})
     wjson('evidence_bundle.json',{'mode':'discussion_deep_search',**r})
     return 0
 
