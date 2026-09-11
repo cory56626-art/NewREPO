@@ -1,10 +1,10 @@
 {
   "mode": "discussion_deep_search",
-  "query": "Golden Crook Boss loadout tower lineup",
+  "query": "Golden Crook Boss loadout setup lineup",
   "pages": 2000,
   "per_page": 1000,
-  "must_include": ["Golden Crook Boss"],
-  "prefer_include": ["loadout", "tower", "solo", "duo"],
+  "must_include": [["Golden Crook Boss"], ["loadout", "setup", "lineup", "tower lineup"]],
+  "prefer_include": ["solo", "duo", "fallen", "hardcore", "crook", "kingpin", "accelerator", "golden cowboy"],
   "strict_must_include": true,
   "include_media_candidates": true
 }
