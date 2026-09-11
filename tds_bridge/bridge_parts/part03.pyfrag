@@ -99,7 +99,7 @@ def discussion_deep_search(req):
     prefer=req.get('prefer_include') or []
     strict_must=bool(req.get('strict_must_include',True))
     include_media=bool(req.get('include_media_candidates',False))
-    results=[]; seen=set(); scanned=0; page_summaries=[]
+    results=[]; seen=set(); scanned=0; page_summaries=[]; empty_pages=0
     for page in range(pages):
         try:
             d=get_json(WIKIA,{
@@ -120,7 +120,11 @@ def discussion_deep_search(req):
             local_seen.add(key); roots.append(o)
         scanned+=len(roots)
         page_summaries.append({'page':page,'objects':len(roots)})
-        if not roots: break
+        if not roots:
+            empty_pages += 1
+            if empty_pages >= 3: break
+            continue
+        empty_pages = 0
         for o in roots:
             blob=_deep_blob(o); low=norm(blob); media=_media_info(o)
             matched=[g for g in must if _group_hit(low,g)]
@@ -136,6 +140,8 @@ def discussion_deep_search(req):
             score=sum(low.count(t) for t in toks)
             score+=sum(8 for g in matched)
             score+=sum(3 for x in prefer if norm(x) in low)
+            title_low=norm(o.get('title'))
+            score+=sum(20 for x in prefer if norm(x) in title_low)
             if include_media and media['has_images']: score+=1
             tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
             key=str(tid)+'|'+str(o.get('title'))
@@ -150,11 +156,10 @@ def discussion_deep_search(req):
                 'all_required_groups_in_text':all_required,
                 **media
             })
-        if len(roots)<per_page: break
     results.sort(key=lambda x:(-x['score'],str(x.get('title') or '')))
     # Verify the strongest candidates by fetching their full threads/replies.
     verified=[]
-    for item in results[:25]:
+    for item in results[:100]:
         tid=item.get('thread_id')
         if not str(tid).isdigit(): continue
         try:
