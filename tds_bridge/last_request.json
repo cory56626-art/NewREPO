@@ -1,4 +1,31 @@
 {
-  "mode": "discussion",
-  "thread_url": "https://tds.fandom.com/f/p/4400000000000209369"
+  "mode": "discussion_deep_search",
+  "query": "TDS coin grinding strat placement order wave upgrade timing Pizza Party Molten Fallen Quickdraw",
+  "pages": 2000,
+  "per_page": 1000,
+  "must_include": [
+    "coin"
+  ],
+  "prefer_include": [
+    "coin grind",
+    "coin grinding",
+    "coins per hour",
+    "Pizza Party",
+    "Molten",
+    "Fallen",
+    "Quickdraw",
+    "placement",
+    "wave",
+    "upgrade",
+    "loadout",
+    "strategy",
+    "speedrun",
+    "Farm",
+    "Commander",
+    "DJ",
+    "Accelerator",
+    "Golden Crook Boss"
+  ],
+  "strict_must_include": false,
+  "include_media_candidates": true
 }
