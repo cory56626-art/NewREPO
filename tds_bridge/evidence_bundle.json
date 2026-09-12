@@ -1,151 +1,2059 @@
 {
-  "mode": "search",
-  "requested": "Saboteur",
-  "known_alias_target": "Saboteur",
-  "candidates": [
+  "meta": {
+    "mode": "verify",
+    "requested": "Saboteur",
+    "title": "Saboteur",
+    "pageid": 59450,
+    "latest_revid": 627689,
+    "latest_timestamp": "2026-08-26T12:39:16Z",
+    "source_url": "https://tds.fandom.com/wiki/Saboteur",
+    "classification": {
+      "is_tower_page": true,
+      "reason": "template/category heuristic"
+    },
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    }
+  },
+  "resolution": {
+    "status": "resolved",
+    "input": "Saboteur",
+    "alias_used": "Saboteur",
+    "target": "Saboteur",
+    "canonical_title": "Saboteur",
+    "pageid": 59450,
+    "redirects": [],
+    "selection_method": "known_alias"
+  },
+  "revision_history": [
     {
-      "title": "Saboteur",
-      "pageid": 59450,
-      "snippet": "",
-      "size": 21851,
-      "wordcount": 2782,
+      "revid": 627689,
+      "parentid": 618552,
       "timestamp": "2026-08-26T12:39:16Z",
-      "classification": {
-        "is_tower_page": true,
-        "reason": "template/category heuristic"
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21851,
+      "sha1": "68a182d307a8878875a58a8917b0086952739f33"
+    },
+    {
+      "revid": 618552,
+      "parentid": 610179,
+      "timestamp": "2026-08-18T21:26:41Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 21839,
+      "sha1": "dbc564f4a10fff3a35786469ab92ecbf8e746e7b"
+    },
+    {
+      "revid": 610179,
+      "parentid": 595163,
+      "timestamp": "2026-08-12T20:07:59Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 21787,
+      "sha1": "751c84059584088674118fcf26ac13cf667d61ae"
+    },
+    {
+      "revid": 595163,
+      "parentid": 595072,
+      "timestamp": "2026-08-05T14:27:18Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21768,
+      "sha1": "dd9834e30db98a445a042f45371d34544073b7ac"
+    },
+    {
+      "revid": 595072,
+      "parentid": 558240,
+      "timestamp": "2026-08-05T13:37:38Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21768,
+      "sha1": "77a0c0d410884bf14216b1991409ed854ae034ec"
+    },
+    {
+      "revid": 558240,
+      "parentid": 558239,
+      "timestamp": "2026-07-18T17:41:29Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21623,
+      "sha1": "64049abc41ced554102364e24028818ec82e9eba"
+    },
+    {
+      "revid": 558239,
+      "parentid": 558186,
+      "timestamp": "2026-07-18T17:41:00Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 21623,
+      "sha1": "fb899a8a0381532d62bea87106dacc73b3a9b517"
+    },
+    {
+      "revid": 558186,
+      "parentid": 558185,
+      "timestamp": "2026-07-18T17:14:47Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 20497,
+      "sha1": "d07dbdb87817aea7d29871da4be1ffd93dad7d90"
+    },
+    {
+      "revid": 558185,
+      "parentid": 558184,
+      "timestamp": "2026-07-18T17:12:46Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 20491,
+      "sha1": "a61e6ad1db068dc44a2c7e762b7ae4000a5ae021"
+    },
+    {
+      "revid": 558184,
+      "parentid": 541846,
+      "timestamp": "2026-07-18T17:11:40Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 20493,
+      "sha1": "fd1fb47e61523b3e12c3849013be1a083c388641"
+    }
+  ],
+  "revision_diff": {
+    "fromrevid": 618552,
+    "torevid": 627689,
+    "fromtitle": "Saboteur",
+    "totitle": "Saboteur",
+    "fromuser": "DarkGabonnie",
+    "touser": "Mentin123",
+    "fromcomment": "Approved by t7ru (380694434980954114) via /job",
+    "tocomment": "",
+    "diff_text": "Line 277: Line 277: |- |- !Daily Store Cost !Daily Store Cost |{{Coins|5,250}} |N/A |- |- !Obtained From !Obtained From"
+  },
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "structured_stats": {
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "description": "The '''Saboteur''' is a poison-based tower bought for {{Coins|7,500}} after triumphing [[Polluted Wasteland II]] or bought for {{Robux|449}}.\n\nIt fires in a manner similar to the [[Shotgunner]]. With each shot, multiple bullets come out of its spread gun. These shots are spread out and not guaranteed to all hit the same enemy. Additionally, it has a max hits stats which is used in its ''Scattershot''. With it, the damage dealt by a pellet is done as many times as what the max hits is. For example, at Level 4, the max hits is 3, meaning each pellet deals damage three times to the enemy it hits. The max hits being 3 does not however mean it will only hit three enemies, as each of the 6 pellets can, even if this happens rarely, all hit a different enemy\n\nWith each shot, the '''Saboteur''' applies poison, which deals damage over time while also slowing enemies down. Unlike the [[Toxic Gunner]] however, it cannot melt [[Defense]].\n\nStarting from Level 3, it gains the ''Aggressive Toxins'' ability. When used, a cursor will appear allowing the '''Saboteur''' to throw a grenade anywhere in its range. This will apply the [[Neuralyzed]] attribute to the enemy, making towers target them while also increasing how much damage they receive. Enemies with [[Neuralyzed]] take priority over enemies with [[Aggro]]. This ability costs {{Money|500}} to use.\n\nThe '''Saboteur''' has a placement limit of 8.",
+    "upgrade_modes": {
+      "regular": [
+        {
+          "mode": "regular",
+          "level": 1,
+          "title": "Scam Artist",
+          "cost": "{{Money|375}}",
+          "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|383}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Damage",
+              "text": "+1 Damage"
+            },
+            {
+              "kind": "grant",
+              "stat": "Hidden Detection",
+              "text": "+Hidden Detection"
+            },
+            {
+              "kind": "set",
+              "from": "0.9",
+              "to": "0.6",
+              "stat": "Tick",
+              "text": "0.9 > 0.6 Tick"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Upgrade Title": "Scam Artist",
+            "Cost": "{{Money|375}}",
+            "Image": "[[File:SaboteurUpgrade1.png|200px]]",
+            "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|383}}"
+          }
+        },
+        {
+          "mode": "regular",
+          "level": 2,
+          "title": "Brand New Rig",
+          "cost": "{{Money|1,850}}",
+          "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.35 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 6 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|1,000}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Damage",
+              "text": "+1 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "1.35",
+              "to": "1",
+              "stat": "Firerate",
+              "text": "1.35 > 1 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Range",
+              "text": "+1 Range"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Poison Damage",
+              "text": "+1 Poison Damage"
+            },
+            {
+              "kind": "set",
+              "from": "5",
+              "to": "6",
+              "stat": "Poison Time",
+              "text": "5 > 6 Poison Time"
+            },
+            {
+              "kind": "set",
+              "from": "3",
+              "to": "3.5",
+              "stat": "Base Spread",
+              "text": "3 > 3.5 Base Spread"
+            },
+            {
+              "kind": "set",
+              "from": "2",
+              "to": "1.5",
+              "stat": "Spread",
+              "text": "2 > 1.5 Spread"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Max Hits",
+              "text": "+1 Max Hits"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Upgrade Title": "Brand New Rig",
+            "Cost": "{{Money|1,850}}",
+            "Image": "[[File:SaboteurUpgrade2.png|200px]]",
+            "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.35 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 6 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|1,000}}"
+          }
+        },
+        {
+          "mode": "regular",
+          "level": 3,
+          "title": "Black Market Tech",
+          "cost": "{{Money|5,950}}",
+          "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n3 > 4 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•10% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,983}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Damage",
+              "text": "+3 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "1",
+              "to": "0.8",
+              "stat": "Firerate",
+              "text": "1 > 0.8 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Range",
+              "text": "+1 Range"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Poison Damage",
+              "text": "+2 Poison Damage"
+            },
+            {
+              "kind": "set",
+              "from": "3",
+              "to": "4",
+              "stat": "Bullet Count",
+              "text": "3 > 4 Bullet Count"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a Neuralyzed debuff to enemies that amplifies damage taken and forces towers to target them."
+            },
+            {
+              "kind": "note",
+              "text": "Ability Cost"
+            },
+            {
+              "kind": "note",
+              "text": "5 Neuralyze Duration"
+            },
+            {
+              "kind": "note",
+              "text": "3.5 Neuralyze Grenade Radius"
+            },
+            {
+              "kind": "note",
+              "text": "10% Damage Taken Bonus }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Black Market Tech",
+            "Cost": "{{Money|5,950}}",
+            "Image": "[[File:SaboteurUpgrade3.png|200px]]",
+            "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n3 > 4 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•10% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,983}}"
+          }
+        },
+        {
+          "mode": "regular",
+          "level": 4,
+          "title": "Neural-Runner",
+          "cost": "{{Money|15,115}}",
+          "information": "0.8 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n6 > 8 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n7.5% > 10% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n4 > 6 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 7.5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n10% > 15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|8,021}}",
+          "claims": [
+            {
+              "kind": "set",
+              "from": "0.8",
+              "to": "0.65",
+              "stat": "Firerate",
+              "text": "0.8 > 0.65 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Max Hits",
+              "text": "+1 Max Hits"
+            },
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Poison Damage",
+              "text": "+3 Poison Damage"
+            },
+            {
+              "kind": "set",
+              "from": "6",
+              "to": "8",
+              "stat": "Poison Time",
+              "text": "6 > 8 Poison Time"
+            },
+            {
+              "kind": "set",
+              "from": "0.6",
+              "to": "0.4",
+              "stat": "Tick",
+              "text": "0.6 > 0.4 Tick"
+            },
+            {
+              "kind": "note",
+              "text": "7.5% > 10% Slowdown"
+            },
+            {
+              "kind": "set",
+              "from": "4",
+              "to": "6",
+              "stat": "Bullet Count",
+              "text": "4 > 6 Bullet Count"
+            },
+            {
+              "kind": "set",
+              "from": "3.5",
+              "to": "4",
+              "stat": "Base Spread",
+              "text": "3.5 > 4 Base Spread"
+            },
+            {
+              "kind": "set",
+              "from": "1.5",
+              "to": "1",
+              "stat": "Spread",
+              "text": "1.5 > 1 Spread"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 7.5 Neuralyze Duration"
+            },
+            {
+              "kind": "note",
+              "text": "10% > 15% Damage Taken Bonus }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "Neural-Runner",
+            "Cost": "{{Money|15,115}}",
+            "Image": "[[File:SaboteurUpgrade4.png|200px]]",
+            "Information": "0.8 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n6 > 8 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n7.5% > 10% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n4 > 6 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 7.5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n10% > 15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|8,021}}"
+          }
+        }
+      ],
+      "pvp": [
+        {
+          "mode": "pvp",
+          "level": 1,
+          "title": "Scam Artist",
+          "cost": "{{Money|450}}",
+          "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|341}}",
+          "claims": [
+            {
+              "kind": "grant",
+              "stat": "Hidden Detection",
+              "text": "+Hidden Detection"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Max Hits",
+              "text": "+1 Max Hits"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Upgrade Title": "Scam Artist",
+            "Cost": "{{Money|450}}",
+            "Image": "[[File:SaboteurUpgrade1.png|200px]]",
+            "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|341}}"
+          }
+        },
+        {
+          "mode": "pvp",
+          "level": 2,
+          "title": "Brand New Rig",
+          "cost": "{{Money|1,475}}",
+          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n4 > 5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n\nSell Price changes to {{Money|833}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Damage",
+              "text": "+2 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Range",
+              "text": "+3 Range"
+            },
+            {
+              "kind": "grant",
+              "stat": "Lead Detection",
+              "text": "+Lead Detection"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Poison Damage",
+              "text": "+1 Poison Damage"
+            },
+            {
+              "kind": "set",
+              "from": "4",
+              "to": "5",
+              "stat": "Poison Time",
+              "text": "4 > 5 Poison Time"
+            },
+            {
+              "kind": "set",
+              "from": "3",
+              "to": "3.5",
+              "stat": "Base Spread",
+              "text": "3 > 3.5 Base Spread"
+            },
+            {
+              "kind": "set",
+              "from": "2",
+              "to": "1.5",
+              "stat": "Spread",
+              "text": "2 > 1.5 Spread"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Upgrade Title": "Brand New Rig",
+            "Cost": "{{Money|1,475}}",
+            "Image": "[[File:SaboteurUpgrade2.png|200px]]",
+            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n4 > 5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n\nSell Price changes to {{Money|833}}"
+          }
+        },
+        {
+          "mode": "pvp",
+          "level": 3,
+          "title": "Black Market Tech",
+          "cost": "{{Money|5,150}}",
+          "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 5.5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,550}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Damage",
+              "text": "+3 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "1.1",
+              "to": "0.9",
+              "stat": "Firerate",
+              "text": "1.1 > 0.9 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Poison Damage",
+              "text": "+2 Poison Damage"
+            },
+            {
+              "kind": "set",
+              "from": "5",
+              "to": "5.5",
+              "stat": "Poison Time",
+              "text": "5 > 5.5 Poison Time"
+            },
+            {
+              "kind": "set",
+              "from": "0.9",
+              "to": "0.6",
+              "stat": "Tick",
+              "text": "0.9 > 0.6 Tick"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a Neuralyzed debuff to enemies that amplifies damage taken and forces towers to target them."
+            },
+            {
+              "kind": "note",
+              "text": "Ability Cost"
+            },
+            {
+              "kind": "note",
+              "text": "5 Neuralyze Duration"
+            },
+            {
+              "kind": "note",
+              "text": "3.5 Neuralyze Grenade Radius"
+            },
+            {
+              "kind": "note",
+              "text": "15% Damage Taken Bonus }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Black Market Tech",
+            "Cost": "{{Money|5,150}}",
+            "Image": "[[File:SaboteurUpgrade3.png|200px]]",
+            "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 5.5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,550}}"
+          }
+        },
+        {
+          "mode": "pvp",
+          "level": 4,
+          "title": "Neural-Runner",
+          "cost": "{{Money|15,115}}",
+          "information": "0.9 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5.5 > 7 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n10% > 15% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n3 > 5 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 9 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n15% > 25% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|7,588}}",
+          "claims": [
+            {
+              "kind": "set",
+              "from": "0.9",
+              "to": "0.65",
+              "stat": "Firerate",
+              "text": "0.9 > 0.65 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1",
+              "stat": "Max Hits",
+              "text": "+1 Max Hits"
+            },
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Poison Damage",
+              "text": "+3 Poison Damage"
+            },
+            {
+              "kind": "set",
+              "from": "5.5",
+              "to": "7",
+              "stat": "Poison Time",
+              "text": "5.5 > 7 Poison Time"
+            },
+            {
+              "kind": "set",
+              "from": "0.6",
+              "to": "0.4",
+              "stat": "Tick",
+              "text": "0.6 > 0.4 Tick"
+            },
+            {
+              "kind": "note",
+              "text": "10% > 15% Slowdown"
+            },
+            {
+              "kind": "set",
+              "from": "3",
+              "to": "5",
+              "stat": "Bullet Count",
+              "text": "3 > 5 Bullet Count"
+            },
+            {
+              "kind": "set",
+              "from": "3.5",
+              "to": "4",
+              "stat": "Base Spread",
+              "text": "3.5 > 4 Base Spread"
+            },
+            {
+              "kind": "set",
+              "from": "1.5",
+              "to": "1",
+              "stat": "Spread",
+              "text": "1.5 > 1 Spread"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 9 Neuralyze Duration"
+            },
+            {
+              "kind": "note",
+              "text": "15% > 25% Damage Taken Bonus }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "Neural-Runner",
+            "Cost": "{{Money|15,115}}",
+            "Image": "[[File:SaboteurUpgrade4.png|200px]]",
+            "Information": "0.9 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5.5 > 7 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n10% > 15% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n3 > 5 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 9 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n15% > 25% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|7,588}}"
+          }
+        }
+      ]
+    },
+    "upgrade_templates": [
+      {
+        "mode": "regular",
+        "level": 1,
+        "title": "Scam Artist",
+        "cost": "{{Money|375}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|383}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "set",
+            "from": "0.9",
+            "to": "0.6",
+            "stat": "Tick",
+            "text": "0.9 > 0.6 Tick"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Scam Artist",
+          "Cost": "{{Money|375}}",
+          "Image": "[[File:SaboteurUpgrade1.png|200px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|383}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 2,
+        "title": "Brand New Rig",
+        "cost": "{{Money|1,850}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.35 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 6 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|1,000}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.35",
+            "to": "1",
+            "stat": "Firerate",
+            "text": "1.35 > 1 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Poison Damage",
+            "text": "+1 Poison Damage"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "6",
+            "stat": "Poison Time",
+            "text": "5 > 6 Poison Time"
+          },
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "3.5",
+            "stat": "Base Spread",
+            "text": "3 > 3.5 Base Spread"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "1.5",
+            "stat": "Spread",
+            "text": "2 > 1.5 Spread"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Brand New Rig",
+          "Cost": "{{Money|1,850}}",
+          "Image": "[[File:SaboteurUpgrade2.png|200px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.35 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 6 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|1,000}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Black Market Tech",
+        "cost": "{{Money|5,950}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n3 > 4 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•10% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,983}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1",
+            "to": "0.8",
+            "stat": "Firerate",
+            "text": "1 > 0.8 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Poison Damage",
+            "text": "+2 Poison Damage"
+          },
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "4",
+            "stat": "Bullet Count",
+            "text": "3 > 4 Bullet Count"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a Neuralyzed debuff to enemies that amplifies damage taken and forces towers to target them."
+          },
+          {
+            "kind": "note",
+            "text": "Ability Cost"
+          },
+          {
+            "kind": "note",
+            "text": "5 Neuralyze Duration"
+          },
+          {
+            "kind": "note",
+            "text": "3.5 Neuralyze Grenade Radius"
+          },
+          {
+            "kind": "note",
+            "text": "10% Damage Taken Bonus }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Black Market Tech",
+          "Cost": "{{Money|5,950}}",
+          "Image": "[[File:SaboteurUpgrade3.png|200px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n3 > 4 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•10% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,983}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Neural-Runner",
+        "cost": "{{Money|15,115}}",
+        "information": "0.8 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n6 > 8 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n7.5% > 10% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n4 > 6 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 7.5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n10% > 15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|8,021}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.8",
+            "to": "0.65",
+            "stat": "Firerate",
+            "text": "0.8 > 0.65 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Poison Damage",
+            "text": "+3 Poison Damage"
+          },
+          {
+            "kind": "set",
+            "from": "6",
+            "to": "8",
+            "stat": "Poison Time",
+            "text": "6 > 8 Poison Time"
+          },
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.4",
+            "stat": "Tick",
+            "text": "0.6 > 0.4 Tick"
+          },
+          {
+            "kind": "note",
+            "text": "7.5% > 10% Slowdown"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "6",
+            "stat": "Bullet Count",
+            "text": "4 > 6 Bullet Count"
+          },
+          {
+            "kind": "set",
+            "from": "3.5",
+            "to": "4",
+            "stat": "Base Spread",
+            "text": "3.5 > 4 Base Spread"
+          },
+          {
+            "kind": "set",
+            "from": "1.5",
+            "to": "1",
+            "stat": "Spread",
+            "text": "1.5 > 1 Spread"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 7.5 Neuralyze Duration"
+          },
+          {
+            "kind": "note",
+            "text": "10% > 15% Damage Taken Bonus }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Neural-Runner",
+          "Cost": "{{Money|15,115}}",
+          "Image": "[[File:SaboteurUpgrade4.png|200px]]",
+          "Information": "0.8 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n6 > 8 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n7.5% > 10% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n4 > 6 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 7.5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n10% > 15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|8,021}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Scam Artist",
+        "cost": "{{Money|450}}",
+        "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|341}}",
+        "claims": [
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Scam Artist",
+          "Cost": "{{Money|450}}",
+          "Image": "[[File:SaboteurUpgrade1.png|200px]]",
+          "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|341}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Brand New Rig",
+        "cost": "{{Money|1,475}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n4 > 5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n\nSell Price changes to {{Money|833}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          },
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Poison Damage",
+            "text": "+1 Poison Damage"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "5",
+            "stat": "Poison Time",
+            "text": "4 > 5 Poison Time"
+          },
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "3.5",
+            "stat": "Base Spread",
+            "text": "3 > 3.5 Base Spread"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "1.5",
+            "stat": "Spread",
+            "text": "2 > 1.5 Spread"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Brand New Rig",
+          "Cost": "{{Money|1,475}}",
+          "Image": "[[File:SaboteurUpgrade2.png|200px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n4 > 5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n\nSell Price changes to {{Money|833}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Black Market Tech",
+        "cost": "{{Money|5,150}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 5.5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,550}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.1",
+            "to": "0.9",
+            "stat": "Firerate",
+            "text": "1.1 > 0.9 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Poison Damage",
+            "text": "+2 Poison Damage"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "5.5",
+            "stat": "Poison Time",
+            "text": "5 > 5.5 Poison Time"
+          },
+          {
+            "kind": "set",
+            "from": "0.9",
+            "to": "0.6",
+            "stat": "Tick",
+            "text": "0.9 > 0.6 Tick"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a Neuralyzed debuff to enemies that amplifies damage taken and forces towers to target them."
+          },
+          {
+            "kind": "note",
+            "text": "Ability Cost"
+          },
+          {
+            "kind": "note",
+            "text": "5 Neuralyze Duration"
+          },
+          {
+            "kind": "note",
+            "text": "3.5 Neuralyze Grenade Radius"
+          },
+          {
+            "kind": "note",
+            "text": "15% Damage Taken Bonus }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Black Market Tech",
+          "Cost": "{{Money|5,150}}",
+          "Image": "[[File:SaboteurUpgrade3.png|200px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 5.5 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•15% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,550}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Neural-Runner",
+        "cost": "{{Money|15,115}}",
+        "information": "0.9 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5.5 > 7 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n10% > 15% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n3 > 5 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 9 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n15% > 25% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|7,588}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.9",
+            "to": "0.65",
+            "stat": "Firerate",
+            "text": "0.9 > 0.65 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Poison Damage",
+            "text": "+3 Poison Damage"
+          },
+          {
+            "kind": "set",
+            "from": "5.5",
+            "to": "7",
+            "stat": "Poison Time",
+            "text": "5.5 > 7 Poison Time"
+          },
+          {
+            "kind": "set",
+            "from": "0.6",
+            "to": "0.4",
+            "stat": "Tick",
+            "text": "0.6 > 0.4 Tick"
+          },
+          {
+            "kind": "note",
+            "text": "10% > 15% Slowdown"
+          },
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "5",
+            "stat": "Bullet Count",
+            "text": "3 > 5 Bullet Count"
+          },
+          {
+            "kind": "set",
+            "from": "3.5",
+            "to": "4",
+            "stat": "Base Spread",
+            "text": "3.5 > 4 Base Spread"
+          },
+          {
+            "kind": "set",
+            "from": "1.5",
+            "to": "1",
+            "stat": "Spread",
+            "text": "1.5 > 1 Spread"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 9 Neuralyze Duration"
+          },
+          {
+            "kind": "note",
+            "text": "15% > 25% Damage Taken Bonus }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Neural-Runner",
+          "Cost": "{{Money|15,115}}",
+          "Image": "[[File:SaboteurUpgrade4.png|200px]]",
+          "Information": "0.9 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5.5 > 7 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n0.6 > 0.4 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n10% > 15% Slowdown [[File:Slowness.png|20px|Slowdown]]\n\n3 > 5 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n3.5 > 4 Base Spread\n\n1.5 > 1 Spread\n\n{{CollapsibleUpgrade|Title = Upgraded Aggressive Toxins|Description = 5 > 9 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n15% > 25% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|7,588}}"
+        }
       }
+    ],
+    "statistics_tables": {
+      "regular": [
+        {
+          "level": 0,
+          "cost": 775.0,
+          "total_cost": 775.0,
+          "damage": 2.0,
+          "tick": 3.0,
+          "charge_up": 1.0,
+          "cooldown": 1.35,
+          "overcharge": 0.9,
+          "range": 5.0,
+          "dps": 0.243
+        },
+        {
+          "level": 1,
+          "cost": 375.0,
+          "total_cost": 1150.0,
+          "damage": 3.0,
+          "tick": 3.0,
+          "charge_up": 1.0,
+          "cooldown": 1.35,
+          "overcharge": 0.6,
+          "range": 5.0,
+          "dps": 0.203
+        },
+        {
+          "level": 2,
+          "cost": 1850.0,
+          "total_cost": 3000.0,
+          "damage": 4.0,
+          "tick": 3.0,
+          "charge_up": 2.0,
+          "cooldown": 1.0,
+          "overcharge": 0.6,
+          "range": 6.0,
+          "dps": 0.174
+        },
+        {
+          "level": 3,
+          "cost": 5950.0,
+          "total_cost": 8950.0,
+          "damage": 7.0,
+          "tick": 4.0,
+          "charge_up": 4.0,
+          "cooldown": 0.8,
+          "overcharge": 0.6,
+          "range": 6.0,
+          "dps": 0.117
+        },
+        {
+          "level": 4,
+          "cost": 15115.0,
+          "total_cost": 24065.0,
+          "damage": 7.0,
+          "tick": 6.0,
+          "charge_up": 7.0,
+          "cooldown": 0.65,
+          "overcharge": 0.4,
+          "range": 8.0,
+          "dps": 0.05
+        }
+      ],
+      "pvp": [
+        {
+          "level": 0,
+          "cost": 575.0,
+          "total_cost": 575.0,
+          "damage": 2.0,
+          "tick": 3.0,
+          "charge_up": 1.0,
+          "cooldown": 1.1,
+          "overcharge": 0.9,
+          "range": 4.0,
+          "dps": 0.261
+        },
+        {
+          "level": 1,
+          "cost": 450.0,
+          "total_cost": 1025.0,
+          "damage": 2.0,
+          "tick": 3.0,
+          "charge_up": 1.0,
+          "cooldown": 1.1,
+          "overcharge": 0.9,
+          "range": 4.0,
+          "dps": 0.261
+        },
+        {
+          "level": 2,
+          "cost": 1475.0,
+          "total_cost": 2500.0,
+          "damage": 4.0,
+          "tick": 3.0,
+          "charge_up": 2.0,
+          "cooldown": 1.1,
+          "overcharge": 0.9,
+          "range": 5.0,
+          "dps": 0.238
+        },
+        {
+          "level": 3,
+          "cost": 5150.0,
+          "total_cost": 7650.0,
+          "damage": 7.0,
+          "tick": 3.0,
+          "charge_up": 4.0,
+          "cooldown": 0.9,
+          "overcharge": 0.6,
+          "range": 5.5,
+          "dps": 0.116
+        },
+        {
+          "level": 4,
+          "cost": 15115.0,
+          "total_cost": 22765.0,
+          "damage": 7.0,
+          "tick": 5.0,
+          "charge_up": 7.0,
+          "cooldown": 0.65,
+          "overcharge": 0.4,
+          "range": 7.0,
+          "dps": 0.05
+        }
+      ]
+    },
+    "detections_and_limits": {
+      "regular": {
+        "hidden": "{{Attr|Hidden|Level 1+}}",
+        "lead": "{{Attr|Lead|Level 0}}",
+        "flying": "N/A",
+        "immune": "None",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8"
+      },
+      "pvp": {
+        "hidden": "{{Attr|Hidden|Level 1+}}",
+        "lead": "{{Attr|Lead|Level 0+}} (Poison)<br/>{{Attr|Lead|Level 2+}}",
+        "flying": "N/A",
+        "immune": "None"
+      }
+    },
+    "infoboxes": [
+      {
+        "name": "TowerInfobox",
+        "params": {
+          "title": "Saboteur",
+          "image-static": "SaboteurIcon.png",
+          "image-dynamic": "SaboteurDynamic.png",
+          "image-dynamic-start": "23",
+          "unlockcost": "Triumph [[Polluted Wasteland II]] & {{Coins|7,500}} or {{Robux|449}}",
+          "role": "Offense",
+          "placement": "Ground",
+          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
+          "basecost": "{{Money|775}}",
+          "basesellingprice": "{{Money|258}}",
+          "basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
+          "damagetype": "Pierce<br/>Spread<br/>Poison",
+          "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]1.35",
+          "baserange": "[[File:Range Icon.png|20px|Range]]12.5",
+          "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+          "lead_detection": "{{Attr|Lead|Level 0}}",
+          "flying_detection": "N/A",
+          "immune": "None",
+          "footprint": "1.5",
+          "pvp_basecost": "{{Money|575}}",
+          "pvp_basesellingprice": "{{Money|191}}",
+          "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
+          "pvp_damagetype": "Pierce<br/>Spread<br/>Poison",
+          "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]1.15",
+          "pvp_baserange": "[[File:Range Icon.png|20px|Range]]11.5",
+          "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+          "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Poison)<br/>{{Attr|Lead|Level 2+}}",
+          "pvp_flying_detection": "N/A",
+          "pvp_immune": "None",
+          "pvp_footprint": "1.5"
+        },
+        "positional": []
+      }
+    ],
+    "likely_infobox": {
+      "name": "TowerInfobox",
+      "params": {
+        "title": "Saboteur",
+        "image-static": "SaboteurIcon.png",
+        "image-dynamic": "SaboteurDynamic.png",
+        "image-dynamic-start": "23",
+        "unlockcost": "Triumph [[Polluted Wasteland II]] & {{Coins|7,500}} or {{Robux|449}}",
+        "role": "Offense",
+        "placement": "Ground",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
+        "basecost": "{{Money|775}}",
+        "basesellingprice": "{{Money|258}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
+        "damagetype": "Pierce<br/>Spread<br/>Poison",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]1.35",
+        "baserange": "[[File:Range Icon.png|20px|Range]]12.5",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "lead_detection": "{{Attr|Lead|Level 0}}",
+        "flying_detection": "N/A",
+        "immune": "None",
+        "footprint": "1.5",
+        "pvp_basecost": "{{Money|575}}",
+        "pvp_basesellingprice": "{{Money|191}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]2",
+        "pvp_damagetype": "Pierce<br/>Spread<br/>Poison",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Tick]]1.15",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]11.5",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Poison)<br/>{{Attr|Lead|Level 2+}}",
+        "pvp_flying_detection": "N/A",
+        "pvp_immune": "None",
+        "pvp_footprint": "1.5"
+      },
+      "positional": []
+    },
+    "template_count": 124
+  },
+  "conflicts": {
+    "priority_rule": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "potential_conflicts": [
+      {
+        "mode": "regular",
+        "level": 1,
+        "field": "tick",
+        "upgrade_claim": 0.6,
+        "statistics_table_claim": 3.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "0.9 > 0.6 Tick"
+      },
+      {
+        "mode": "regular",
+        "level": 2,
+        "field": "tick",
+        "upgrade_claim": 1.0,
+        "statistics_table_claim": 3.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "1.35 > 1 Firerate"
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "field": "tick",
+        "upgrade_claim": 0.8,
+        "statistics_table_claim": 4.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "1 > 0.8 Firerate"
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "field": "range",
+        "upgrade_implied": 7.0,
+        "statistics_table_claim": 6.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+1 Range"
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "field": "damage",
+        "upgrade_implied": 6.0,
+        "statistics_table_claim": 7.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+2 Poison Damage"
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "field": "tick",
+        "upgrade_claim": 0.65,
+        "statistics_table_claim": 6.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "0.8 > 0.65 Firerate"
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "field": "damage",
+        "upgrade_implied": 10.0,
+        "statistics_table_claim": 7.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+3 Poison Damage"
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "field": "tick",
+        "upgrade_claim": 0.4,
+        "statistics_table_claim": 6.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "0.6 > 0.4 Tick"
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "field": "range",
+        "upgrade_implied": 7.0,
+        "statistics_table_claim": 5.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+3 Range"
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "field": "damage",
+        "upgrade_implied": 3.0,
+        "statistics_table_claim": 4.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+1 Poison Damage"
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "field": "tick",
+        "upgrade_claim": 0.9,
+        "statistics_table_claim": 3.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "1.1 > 0.9 Firerate"
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "field": "damage",
+        "upgrade_implied": 6.0,
+        "statistics_table_claim": 7.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+2 Poison Damage"
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "field": "tick",
+        "upgrade_claim": 0.6,
+        "statistics_table_claim": 3.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "0.9 > 0.6 Tick"
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "field": "tick",
+        "upgrade_claim": 0.65,
+        "statistics_table_claim": 5.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "0.9 > 0.65 Firerate"
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "field": "damage",
+        "upgrade_implied": 10.0,
+        "statistics_table_claim": 7.0,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+3 Poison Damage"
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "field": "tick",
+        "upgrade_claim": 0.4,
+        "statistics_table_claim": 5.0,
+        "preferred_source": "upgrade_template",
+        "type": "set_mismatch",
+        "claim_text": "0.6 > 0.4 Tick"
+      },
+      {
+        "mode": "regular",
+        "level": 0,
+        "field": "tick",
+        "infobox_claim": 1.35,
+        "statistics_table_claim": 3.0,
+        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+        "type": "base_summary_mismatch"
+      },
+      {
+        "mode": "regular",
+        "level": 0,
+        "field": "range",
+        "infobox_claim": 12.5,
+        "statistics_table_claim": 5.0,
+        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+        "type": "base_summary_mismatch"
+      },
+      {
+        "mode": "pvp",
+        "level": 0,
+        "field": "tick",
+        "infobox_claim": 1.15,
+        "statistics_table_claim": 3.0,
+        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+        "type": "base_summary_mismatch"
+      },
+      {
+        "mode": "pvp",
+        "level": 0,
+        "field": "range",
+        "infobox_claim": 11.5,
+        "statistics_table_claim": 4.0,
+        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+        "type": "base_summary_mismatch"
+      }
+    ],
+    "notes": [
+      "Different upgrade levels can legitimately differ.",
+      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+    ]
+  },
+  "categories": [
+    {
+      "ns": 14,
+      "title": "Category:Ground"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Offense"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Towers"
+    }
+  ],
+  "backlinks": [
+    {
+      "title": "Towers",
+      "pageid": 122
+    },
+    {
+      "title": "Scout",
+      "pageid": 123
+    },
+    {
+      "title": "Soldier",
+      "pageid": 124
+    },
+    {
+      "title": "Sniper",
+      "pageid": 125
+    },
+    {
+      "title": "Minigunner",
+      "pageid": 162
+    },
+    {
+      "title": "Freezer",
+      "pageid": 185
+    },
+    {
+      "title": "Ranger",
+      "pageid": 193
+    },
+    {
+      "title": "Pyromancer",
+      "pageid": 195
+    },
+    {
+      "title": "Military Base",
+      "pageid": 197
+    },
+    {
+      "title": "Farm",
+      "pageid": 198
+    },
+    {
+      "title": "Commander",
+      "pageid": 199
+    },
+    {
+      "title": "Militant",
+      "pageid": 200
+    },
+    {
+      "title": "Paintballer",
+      "pageid": 202
+    },
+    {
+      "title": "Crook Boss",
+      "pageid": 226
+    },
+    {
+      "title": "Demoman",
+      "pageid": 239
+    },
+    {
+      "title": "Shotgunner",
+      "pageid": 275
+    },
+    {
+      "title": "Gladiator",
+      "pageid": 302
+    },
+    {
+      "title": "Rocketeer",
+      "pageid": 307
+    },
+    {
+      "title": "Sentry",
+      "pageid": 392
+    },
+    {
+      "title": "Turret",
+      "pageid": 454
+    },
+    {
+      "title": "Mystery",
+      "pageid": 488
+    },
+    {
+      "title": "Commando",
+      "pageid": 599
+    },
+    {
+      "title": "Medic",
+      "pageid": 1545
+    },
+    {
+      "title": "Hunter",
+      "pageid": 1546
+    },
+    {
+      "title": "Slasher",
+      "pageid": 1752
+    },
+    {
+      "title": "DJ Booth",
+      "pageid": 2235
+    },
+    {
+      "title": "Ace Pilot",
+      "pageid": 2469
+    },
+    {
+      "title": "Hidden Wave",
+      "pageid": 2531
+    },
+    {
+      "title": "Mortar",
+      "pageid": 2730
+    },
+    {
+      "title": "Frost Blaster",
+      "pageid": 2732
+    },
+    {
+      "title": "Archer",
+      "pageid": 2747
+    },
+    {
+      "title": "Electroshocker",
+      "pageid": 3751
+    },
+    {
+      "title": "Warden (Modern Enemy)",
+      "pageid": 4117
+    },
+    {
+      "title": "Swarmer",
+      "pageid": 4581
+    },
+    {
+      "title": "Pursuit",
+      "pageid": 6735
+    },
+    {
+      "title": "Mecha Base",
+      "pageid": 7179
+    },
+    {
+      "title": "War Machine",
+      "pageid": 7181
+    },
+    {
+      "title": "Cowboy",
+      "pageid": 7565
+    },
+    {
+      "title": "Humvee",
+      "pageid": 9668
+    },
+    {
+      "title": "Humvee 2",
+      "pageid": 9670
+    },
+    {
+      "title": "Humvee 3",
+      "pageid": 9671
+    },
+    {
+      "title": "Tank (Unit)",
+      "pageid": 9672
+    },
+    {
+      "title": "Railgun Tank",
+      "pageid": 9673
+    },
+    {
+      "title": "SWAT Van",
+      "pageid": 9681
+    },
+    {
+      "title": "Crook",
+      "pageid": 9688
+    },
+    {
+      "title": "Mafia",
+      "pageid": 9690
+    },
+    {
+      "title": "Golden Crook",
+      "pageid": 9752
+    },
+    {
+      "title": "Golden Mafia",
+      "pageid": 9754
+    },
+    {
+      "title": "Commando/Gallery",
+      "pageid": 9764
+    },
+    {
+      "title": "Sentry/Gallery",
+      "pageid": 9800
+    }
+  ],
+  "templates": [
+    {
+      "ns": 10,
+      "title": "Template:Tabs",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Icon",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerInfobox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Coins",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Robux",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Money",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Attr",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:AttrTag",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:AttrTag/styles.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteContainer",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:PVPTabber",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:PathTabber/style.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Tabber",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Upgrade",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Hidden",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:CollapsibleUpgrade",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Lead",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Ability",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Neow",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Scroll",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bug",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bugfix",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Tooltip",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerNavBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerNavBox/labels.css",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Money",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:NumName",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Tabber",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Randomizer",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:StripNaked",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Neowbunto",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Tipgen",
+      "exists": true
+    }
+  ],
+  "related_pages": [
+    {
+      "title": "Saboteur/Gallery",
+      "score": 3,
+      "pageid": 59606,
+      "latest_revid": 623559,
+      "latest_timestamp": "2026-08-23T14:12:41Z",
+      "wikitext_excerpt": "{{Tabs|Gallery|History = No}}\n\n==Upgrade Icons==\n{{UpgradeIcons\n|[[File:SaboteurUpgrade1.png|150px]]\n|[[File:SaboteurUpgrade2.png|150px]]\n|[[File:SaboteurUpgrade3.png|150px]]\n|[[File:SaboteurUpgrade4.png|150px]]\n|Ability = [[File:SaboteurAbility.png|150px]]\n}}\n\n==Skin Upgrades==\nThe '''Saboteur''' has two skins in total. This includes:\n#The Default skin.\n#One skin that can be obtained from [[Crates]].\n\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultSaboteurIG.png|128px]]\n|[[File:DefaultSaboteur0.png|200px]]\n|Pale skin, greenish-grey lab coat, grey gas mask, grey pouch, brown jumpsuit and maroon shoes.\n\nWields a triple-barrel toxic shotgun to attack enemies.\n|[[File:DefaultSaboteur1.png|200px]]\n|Brown gloves with claws and a pocket knife.\n|[[File:DefaultSaboteur2.png|200px]]\n|Black shoulder-pads, brown pouches and glowing green tubes on belt and lab coat now has two belts.\n\nGas mask now has two cartridges.\n|[[File:DefaultSaboteur3.png|200px]]\n|Grey backpack with toxic canister strapped on it.\n\nNow can throw a glowstick grenade.\n|[[File:DefaultSaboteur4.png|200px]]\n|Lab coat, claws, pocket knife and backpack are now bright green.\n\nNow wields a upgraded triple-barrel toxic shotgun.\n}}\n|Coral Princess\n|The {{Color|Beach|Coral Princess}} skin can be obtained from the [[Beach Crate|{{Color|Beach|Beach Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Beach|Coral Princess}}\n|Icon1 = [[File:CoralPrincessSaboteurIconIG.png|128px]]\n|[[File:CoralPrincessSaboteur0.png|200px]]\n|Pink skin, pink hair, white and pink dress and pants.\n\nWields a coral gun to attack enemies.\n|[[File:CoralPrincessSaboteur1.png|200px]]\n|Pink mask on face.\n|[[File:CoralPrincessSaboteur2.png|200px]]\n|Pink circles on chest and arms.\n|[[File:CoralPrincessSaboteur3.png|200px]]\n|Longer dress and a second hood.\n\nSmall pink part on its back with a crack showing a pearl in darkness.\n|[[File:CoralPrincessSaboteur4.png|200px]]\n|Pearls on hoods,\n\nPearl on the back now bursts out of it and floats in the air.\n\nCoral gun is now darker.\n}}\n}}\n\n==Weapons==\n{{Tabber\n|Default\n|{{WeaponHeader|Default}}\n\n{{WeaponTable|Current\n|0-3|[[File:DefaultSaboteurShotgun1.png|thumb|center|150px|Toxic Shotgun]]\n|4|[[File:DefaultSaboteurShotgun2.png|thumb|center|150px|Toxic Shotgun]]\n|3-4|[[File:SaboteurAbility.png|thumb|center|150px|Glowstick Grenade]]\n}}\n|Coral Princess\n|{{WeaponHeader|{{Color|Beach|Coral Princess}}}}\n\n{{WeaponTable|Current\n|0-3|[[File:CoralPrincessSaboteurGun1.png|thumb|center|150px|Coral Gun]]\n|4|[[File:CoralPrincessSaboteurGun2.png|thumb|center|150px|Coral Gun]]\n|3-4|[[File:CoralPrincessSaboteurBomb.png|thumb|center|150px|Coral Grenade]]\n}}\n}}\n\n==Faces==\n<gallery captionalign=\"center\">\nCrookBossRegularFace.png|Current Default Face (22 April 2026 – Present)\nCoralPrincessSaboteurFace.png|Current {{Color|Beach|Coral Princess}} Face (2 July 2026 – Present)\n</gallery>\n\n==Sounds==\n{{Sounds|Open = Yes|\n{{WeaponHeader|All skins}}{{pe|\n\n{| class{{=}}\"article-table align-center\" style{{=}}\"width:750px; margin:0 auto;\"\n|-\n! style{{=}}\"width:30%;\" |Sound\n! style{{=}}\"width:70%;\" |Description\n|-\n|[[File:DefaultSaboteurFire.ogg]]\n|Firing sound\n|-\n|[[File:DefaultSaboteurGrenadeEquip.ogg]]\n|Grenade equip sound\n|-\n|[[File:DefaultSaboteurGrenadePinPull.ogg]]\n|Grenade pin pull sound\n|-\n|[[File:DefaultSaboteurGrenadeThrow.ogg]]\n|Grenade throw sound\n|-\n|[[File:DefaultSaboteurExplosion.ogg]]\n|Grenade Explosion Sound\n|}}}\n}}\n\n==Other==\n{{Gallery|Open = Yes|\n{{GalleryHeader|Thumbnails}}\n<gallery>\nSaboteurPI.png|Default skin on the game thumbnail.\nV1.90.0GenericThumbnail3.png|Default skin on the game thumbnail.\nV2.1.0GenericThumbnail.png|Default skin on the game thumbnail.\nV2.1.0GenericThumbnail2.png|Default skin on the game thumbnail.\nV2.1.0GenericThumbnail3.png|Default skin on the game thumbnail.\nV2.1.0GenericThumbnail4.png|Default skin on the game thumbnail.\nV2.1.0GenericThumbnail7.png|Default skin on the game thumbnail.\nV2.1.0GenericThumbnail10.png|Default skin on the game thu"
     },
     {
       "title": "Saboteur/History",
+      "score": 3,
       "pageid": 60502,
-      "snippet": "",
-      "size": 63054,
-      "wordcount": 7365,
-      "timestamp": "2026-09-01T16:22:10Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "latest_revid": 636880,
+      "latest_timestamp": "2026-09-01T16:22:10Z",
+      "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:DefaultSaboteur0.png|100px]]\n|Unlock Cost = {{Coins|6,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|775}}\n|Footprint = 1.5\n|Sell Price = {{Money|258}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]2\n|Damage Type = Pierce<br/>Spread<br/>Poison\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1.35\n|Hidden = {{Hidden|Hidden Detection}}Level 1+\n|Range = [[File:Range Icon.png|20px|Range]]12.5\n|Lead = {{Lead|Lead Detection}}Level 0+\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|Fly = N/A\n|Title1 = Bullet Count\n|Stat1 = [[File:Damage Icon.png|20px|Bullet Count]]3\n|Title2 = Max Hits\n|Stat2 = 1\n|Title3 = Base Spread\n|Stat3 = 3\n|Title4 = Spread\n|Stat4 = 2\n|PVP Cost = {{Money|575}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|191}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]2\n|PVP Damage Type = Pierce<br/>Spread<br/>Poison\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1.1\n|PVP Hidden = {{Hidden|Hidden Detection}}Level 1+\n|PVP Range = [[File:Range Icon.png|20px|Range]]11.5\n|PVP Lead = {{Lead|Lead Detection}}Level 0+ (Poison)<br/>{{Lead|Lead Detection}}Level 2+\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|PVP Fly = N/A\n|PVP Title1 = Bullet Count\n|PVP Stat1 = [[File:Damage Icon.png|20px|Bullet Count]]3\n|PVP Title2 = Max Hits\n|PVP Stat2 = 1\n|PVP Title3 = Base Spread\n|PVP Stat3 = 3\n|PVP Title4 = Spread\n|PVP Stat4 = 2\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Scam Artist|Cost = {{Money|375}}|Image = [[File:SaboteurUpgrade1.png|200px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n0.9 > 0.6 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|383}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Brand New Rig|Cost = {{Money|1,850}}|Image = [[File:SaboteurUpgrade2.png|200px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.35 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n5 > 6 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n\n3 > 3.5 Base Spread\n\n2 > 1.5 Spread\n\n+1 Max Hits\n\n{{CollapsibleUpgrade|Title = Unlocks Scattershot|Description = How many times the pellet '''Saboteur''' scales based on max hits}}\n\n\nSell Price changes to {{Money|1,000}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Black Market Tech|Cost = {{Money|5,950}}|Image = [[File:SaboteurUpgrade3.png|200px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+2 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n3 > 4 Bullet Count [[File:Damage Icon.png|20px|Bullet Count]]\n\n{{CollapsibleUpgrade|Title = Unlocks Aggressive Toxins|Description = Throws a toxic grenade that applies a [[Neuralyzed]] debuff to enemies that amplifies damage taken and forces towers to target them.\n\n•{{Money|500}} Ability Cost\n\n•5 Neuralyze Duration [[File:Cooldown Icon.png|20px|Neuralyze Duration]]\n\n•3.5 Neuralyze Grenade Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•10% Damage Taken Bonus [[File:Damage Buff.png|20px|Damage Buff]]}}\n\n\nSell Price changes to {{Money|2,983}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Neural-Runner|Cost = {{Money|15,115}}|Image = [[File:SaboteurUpgrade4.png|200px]]|Information = 0.8 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+3 Poison Damage [[File:ToxicGunnerImmune.png|20px|Poison Damage]]\n\n6 > 8 Poison Time [[File:Cooldown Icon.png|20px|Slowdown]]\n"
     },
     {
-      "title": "Saboteur/Gallery",
-      "pageid": 59606,
-      "snippet": "",
-      "size": 7402,
-      "wordcount": 985,
-      "timestamp": "2026-08-23T14:12:41Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Damage Buff",
+      "score": 2,
+      "pageid": 49629,
+      "latest_revid": 513226,
+      "latest_timestamp": "2026-06-25T11:52:27Z",
+      "wikitext_excerpt": "{{BuffInfobox\n|name = Damage Buff\n|image = Damage Buff.png\n|type = Buff\n|display = Tower\n}}\n\n==Description==\nThe '''Damage Buff''' is a buff that increases a tower's damage, making them stronger. It is displayed on the tower itself with the icon of an arm with muscle.\n\n==Mechanics==\n'''Damage Buff''' range reduction is calculated as:\n::<big>'''Damage × (1 + Damage Buff)'''</big>\n:::where '''Damage Buff''' is the debuff supplied in decimal form (for example, 10% is 0.1).\n\nThe damage increased by the '''Damage Buff''' will always round down to the nearest integer. For example, a tower that deals 5 damage with a 50% '''Damage Buff''' will deal 7 damage, instead of 7.5.\n\nMultiple towers are not fully affected by the buff. A full list of towers affected fully, partially or that are unaffected can be found below.\n{{DamageBuff}}\n\n==Applied By==\nThe following towers or consumables can apply the '''Damage Buff''' to other towers or itself:\n*[[DJ Booth]] (Passive)\n*[[Mercenary Base]] (Passive)\n*[[Damage Flag]] (Passive)\n*[[War Machine]] (Passive)\n*[[Medic]] (''Ubercharge'' ability)\n*[[Warden]] (When parrying)\n\nThe following event features can apply the '''Damage Buff''' to towers:\n\n* [[Justice]] (Passive, [[Null & Void Event|Null & Void]])\n* [[The Chariot]] (Passive, [[Null & Void Event|Null & Void]])\n\nThe following towers used to have the '''Damage Buff''':\n*{{Color|Golden}} [[Crook Boss]] (Passive)\n*{{Color|Golden}} [[Minigunner]] (Passive)\n*{{Color|Golden}} [[Pyromancer]] (Passive)\n*{{Color|Golden}} [[Scout]] (Passive)\n*{{Color|Golden}} [[Cowboy]] (Passive)\n*[[Militant|John]] (''Enraging Shout'' ability)\n*[[Slasher|Shredder]] (''Knife Throw'' ability)\n*[[Cowboy]] (''Wildest of the West and Gold Rush'' abilities'')''\n*[[Gladiator]] (''Sharp Edge'' ability'')''\n\nThe following tower used to apply the '''Damage Buff''' to other towers:\n*[[Militant|John]] (''Enraging Shout'' ability)\n\nThe following removed towers had the '''Damage Buff''':\n*{{Color|Platinum}} [[Crook Boss]] (Passive)\n*{{Color|Platinum}} [[Minigunner]] (Passive)\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Buff icon}}\n<gallery>\nStronger_Bullets.png|First icon (14 June 2019 – 29 October 2020)\n</gallery>\n}}\n\n==Update History==\n*'''14 June 2019''' - [[BETA v1.1|BETA v1.1.0]]\n**'''Damage Buff''' added.\n*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]\n**'''Damage Buff''' updated, now it can affect far more than just the base damage of the tower.\n**Icon changed.\n**Now displayed on the tower rather than in the upgrade menu.\n*'''12 March 2022''' - [[v1.1.0]]\n**Particles now appear when activated.\n*'''29 March 2024''' - [[v1.17.0]]\n**{{Bug}} Damage buff indicators are sunk into the ground.\n*'''10 May 2024''' - [[v1.19.2]]\n**{{Bugfix}} Damage buff indicators are no longer sunk into the ground.\n\n==Notes==\n<references/>\n\n\n\n{{BuffsNavBox}}"
     },
     {
-      "title": "V1.89.0",
-      "pageid": 59558,
-      "snippet": "",
-      "size": 30733,
-      "wordcount": 3681,
-      "timestamp": "2026-07-01T11:30:41Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Defense",
+      "score": 1,
+      "pageid": 21503,
+      "latest_revid": 495331,
+      "latest_timestamp": "2026-06-17T01:52:27Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Defense.png\n|type = Damage Reduction\n}}\n\n==Description==\n'''Defense''' is a status value given to certain enemies and units. Enemies may spawn with this naturally, or be granted this through a litany of means.\n\n==Mechanics==\nThere are two types of defense statistic. The main defense statistic is ''Percentage Defense'' which is used to calculate ''Effective Damage''.\n\n''Percentage Defense'' is the actual defense percentage you see on an enemy or unit. However, this does not mean that if an enemy has 50% defense damage dealt towards it will be decreased 50%. In reality, the number listed is far closer to the percentage of additional health that '''Defense''' gives it.\n\n''Effective Damage'' is the actual damage dealt towards an enemy by a tower once ''Percentage Defense'' is applied. ''Effective Damage'' is calculated by calculating\n\n::<big>'''Original Damage ÷ (1 + Percentage Defense)'''</big>\n\nwhere ''Percentage Defense'' is changed from a percentage into its equivalent decimal number (for instance, 50% would be 0.5 in decimal form). For example, a tower that deals 100 damage attacking an enemy with 50% defense would deal 67 damage as 100 ÷ (1 + 0.5) = 66.67 to two decimal places. Due to ''Effective Damage'' always being rounded up to the nearest integer, 66.67 rounds up to 67. Prior to the [[v1.1.0|Entity System Update]], ''Effective Damage'' was always rounded down to the nearest integer.\n\nUnit defense works identically to enemy defense, reducing damage from enemy abilities and collision.\n\nA list of certain ''Percentage Defense'' values and how much damage they actually reduce has been provided below. This is not a comprehensive list and the values may not be fully accurate due to how the game rounds up the damage, making the values occasionally lower.\n{| class=\"wikitable pad-5\" style=\"text-align: center; margin: 1em auto;\"\n!Percentage Defense\n!Damage Reduced\n|-\n|10%\n|9.09%\n|-\n|15%\n|13.04%\n|-\n|20%\n|16.67%\n|-\n|25%\n|20%\n|-\n|35%\n|25.93%\n|-\n|40%\n|28.57%\n|-\n|50%\n|33.33%\n|-\n|60%\n|37.5%\n|-\n|80%\n|44.44%\n|-\n|100%\n|50%\n|-\n|150%\n|60%\n|-\n|200%\n|66.67%\n|-\n|300%\n|75%\n|}\n\n===Countering Defense===\n'''Defense''' can reduce the damage output of most towers significantly.\n\nThere are a couple of towers and consumables that can melt the ''Percentage Defense'' value of enemies, allowing your towers to deal more damage. A few certain towers can also ignore defense. There are two types of defense melting towers. The first has them decrease ''Total Defense'' by a certain percentage. However, if the [[Pyromancer]], which melts defense by 50%, is decreasing defense of [[Fallen Hero]], which has 50% defense, this does not mean its defense will be lowered to 0%. Instead, it is decreased by 25% defense, as which is 50% of 50% defense. The defense removal can stack, so the [[Pyromancer]] and [[Electroshocker]] can together remove 70% ''Percentage Defense'', but two [[Pyromancer]]s cannot remove 100% ''Percentage Defense''. Instead, only 50% ''Percentage Defense'' can be melted. Additionally, defense melting from burn cannot stack with other burn towers, freeze defense melting cannot stack with other freeze towers and poison defense melting cannot stack with other poison towers.\n\nThe second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%.\n\nBoth forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%.\n\nMost "
     },
     {
-      "title": "V1.90.0",
-      "pageid": 60617,
-      "snippet": "",
-      "size": 8346,
-      "wordcount": 979,
-      "timestamp": "2026-07-01T11:30:46Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Firerate Bug",
+      "score": 1,
+      "pageid": 29369,
+      "latest_revid": 629054,
+      "latest_timestamp": "2026-08-27T12:17:15Z",
+      "wikitext_excerpt": "{{Removed|date = 6th of June 2026}}\n{{Improve|this page and majority of tower/unit pages require updating}}\nThe '''Firerate Bug''', also known as the '''RoF (Rate of Fire) Bug''', was a bug that slightly increased the firerate of all towers and units. This increase was not displayed on the statistics in the game. This bug significantly affected the statistics of fast-firing towers, such as the [[Minigunner]] and [[Ace Pilot]], by significantly decreasing their DPS, whereas slow-firing towers like the [[Ranger]] or [[Sniper]] were hardly affected.\n\nThis has been fixed as of the 6th of June 2026, and all firerate statistics in the game are considered to be accurate unless affected by a different unrelated bug.\n\n{{RightTOC}}\n\n==Prior to 5th of June 2026==\nThe '''Firerate Bug''' affects all towers and units that can directly attack enemies, meaning the only towers that are not affected are the [[Farm]], [[Medic]] and the [[Firework Technician]] and the only units that are not affected are the [[Humvee]], [[Humvee 2]], [[Elf]], [[Bomber Elf (Unit)|Bomber Elf]], [[Skeleton (Unit)|Skeleton]], [[Giant Skeleton (Unit)|Giant Skeleton]] and [[Hallow Guard (Unit)|Hallow Guard]]. The '''Firerate Bug''' does not affect the firerate of some secondary attacks towers or units may perform, some damage-over-time effects applied by towers (like burn from the [[Pyromancer]]) or certain other cooldowns.\n\nThe '''Firerate Bug''' increases the firerate of a tower/unit depending on its firerate, which can vary anywhere between 0.017 and 0.032 seconds. The firerate increase affects fast firing towers the most; for example, the [[Minigunner]] at Level 4 should have a firerate of 0.09, but because of the '''Firerate Bug''', it has a firerate of about 0.117, decreasing its DPS from 166.67 to 128.20, which is a decrease of 38.47 DPS, or a loss of about 23.08 DPS. Meanwhile, slow firing towers are barely affected by it; for example, the [[Ranger]] at Level 4 should have a firerate of 8, but because of the '''Firerate Bug''', it has a firerate of about 8.025, decreasing its DPS from 156.26 to 155.76, which is a decrease of 0.30 DPS, or a loss of 0.2% DPS.\n\nThe [[Firerate Buff]] is also affected by the '''Firerate Bug''', making it less effective. For example, the Level 4 [[Minigunner]] without the '''Firerate Bug''' with a 50% firerate boost should have a firerate of 0.06, but with the '''Firerate Bug''' it has a firerate of 0.083. This means that its DPS with a 50% firerate boost is decreased from 250 to 180.72, which is a decrease of 69.28 DPS, or a loss of 27.71% DPS.\n\nOn this Wiki, the firerate statistic of all towers and units is increased by specific values based on the firerate. While technically possible to calculate by hand, due to the effort it would take, it is overall recommended to either use [[Help:Neowtext#ROFBUG|Neowtext]] or [https://fiheron.github.io/dps-calc/ an online calculator].\n\n==Prior to the 9th of January 2023==\nPrior to the 9th of January 2023, the firerate increase caused by the '''Firerate Bug''' for units was higher than it currently is. The firerate increase was generally around 0.03 seconds. For towers, the firerate increase remained at around 0.008 seconds.\n\nOn this Wiki, the firerate statistic of all towers and units after the [[V1.6.0|Violent Night Update]] and before the 9th of January 2023 is increased by 0.008 and 0.03 respectively, unless stated otherwise. This does not, however, mean the actual value is this; it can vary between towers and even between matches.\n\n==Prior to the Violent Night Update==\nPrior to the [[V1.6.0|Violent Night Update]], the firerate increase caused by the '''Firerate Bug''' for units was lower than it was before the [[V1.6.0|Violent Night Update]]. The firerate increases could be anywhere between 0.008 and 0.017 seconds, but the increase was generally around 0.008 seconds. This is the same as the current situation.\n\nOn this Wiki, the firerate statistic of all units after the [[V1.1.0|Entity Syst"
     },
     {
-      "title": "Tesla/History",
-      "pageid": 57460,
-      "snippet": "",
-      "size": 20184,
-      "wordcount": 2346,
-      "timestamp": "2026-08-18T21:40:24Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Freezer",
+      "score": 1,
+      "pageid": 185,
+      "latest_revid": 648535,
+      "latest_timestamp": "2026-09-09T19:35:44Z",
+      "wikitext_excerpt": "{{Tabs}}\n{{For|[[Frost Blaster]]|[[Null Freezer]]}}\n{{TowerInfobox\n|title = Freezer\n|image-static = ReworkedFreezerIcon.png\n|image-dynamic = FreezerDynamic.png\n|unlockcost = {{Coins|650}}\n|basecost = {{Money|450}}\n|basesellingprice = {{Money|150}}\n|role = Defense\n|placement = Ground\n|basedamage = [[File:Damage Icon.png|20px|Damage]]2\n|damagetype = Single<br/>Burst (Level 3+)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|baserange = [[File:Range Icon.png|20px|Range]]12\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A\n|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]\n|immune = None\n|footprint = 1.5\n|pvp_basecost = {{Money|450}}\n|pvp_basesellingprice = {{Money|150}}\n|pvp_role = Defense\n|pvp_placement = Ground\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1\n|pvp_damagetype = Single<br/>Burst (Level 3+)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]12\n|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = None\n|pvp_footprint = 1.5\n|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}\n|-|Version 3 =\n{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}\n|-|Version 2 =\n{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}\n|-|Version 1 =\n{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.\n\nThe '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.\n\nAt Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.\n\nThe '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.\n\nThe '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Ma"
     },
     {
-      "title": "Time Dilator",
-      "pageid": 63640,
-      "snippet": "",
-      "size": 722,
-      "wordcount": 110,
-      "timestamp": "2026-08-12T14:00:33Z",
-      "classification": {
-        "is_tower_page": true,
-        "reason": "template/category heuristic"
-      }
+      "title": "Freezer/Gallery",
+      "score": 1,
+      "pageid": 10474,
+      "latest_revid": 648664,
+      "latest_timestamp": "2026-09-09T21:41:26Z",
+      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|{{UpgradeIcons\n|[[File:Freezer Upgrade 1.png|150px]]\n|[[File:Freezer Upgrade 2.png|150px]]\n|[[File:Freezer Upgrade 3.png|150px]]\n|[[File:Freezer Upgrade 4.png|150px]]\n|Ability = [[File:Jester Ability.png|150px]]\n}}\n|29 October 2020 – 21 December 2023\n|{{UpgradeIcons\n|[[File:Freezer1.png|150px]]\n|[[File:Freezer2.png|150px]]\n|[[File:Freezer3.png|150px]]\n|[[File:Freezer4.png|150px]]\n|[[File:Freezer5.png|150px]]\n}}\n|24 June 2019 – 29 October 2020\n|{{UpgradeIcons\n|[[File:Freezer1.png|150px]]\n|[[File:Freezer2.png|150px]]\n|[[File:Freezer3.png|150px]]\n|[[File:Freezer4.png|150px]]\n|[[File:Freezer5.png|150px]]\n|Ability = [[File:IceDrop.png|150px]]\n}}\n}}\n\n==Skin Upgrades==\nThe '''Freezer''' has ten skins in total. This includes:\n#The Default skin.\n#Two skins that can be unlocked from [[Skincrates]].\n#One skin that can be unlocked from a [[Codes|Code]].\n#One skin that could have been unlocked from a Roblox [https://www.roblox.com/redeem code].\n#Five skins that can be unlocked from [[Passes]].\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultFreezerIconIGAug26.png|128px]]\n|[[File:KRFreezer0.png|200px]]\n|Very pale skin, blue shirt and cap, black pants, shoes, gloves and belt, and black goggles with blue translucent visor.\n\nWields a cryo pistol to attack enemies.\n|[[File:KRFreezer1.png|200px]]\n|Black duffel bag.\n|[[File:KRFreezer2.png|200px]]\n|Blue scarf, light blue fur around neck, black knee-pads and blue beanie.\n|[[File:KRFreezer3.png|200px]]\n|Black vest and gloves with grey fingers and white wrist.\n\nNow wields a cryo rifle.\n|[[File:KRFreezer4.png|200px]]\n|Frost grenades on belt and black headset.\n\nPants gain pockets and gloves now have white buckles.\n\nNow wields a cryo blaster.\n}}\n|Deep Freeze\n|The {{Color|Premium|Deep Freeze}} skin is obtained from the [[Premium Crate|{{Color|Premium|Premium Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Premium|Deep Freeze}}\n|Icon1 = [[File:DeepFreezeFreezerIconIGAug26.png|128px]]\n|[[File:KRDFFreezer0.png|200px]]\n|Very pale skin, dark blue shirt, black pants with a belt, black shoes and black gloves with dark green knuckles, white and grey headset, neon light blue goggles and white cap with a black brim.\n\nWields a white camouflaged cryo pistol to attack enemies.\n|[[File:KRDFFreezer1.png|200px]]\n|Large backpack with a water bottle, machete and antenna.\n|[[File:KRDFFreezer2.png|200px]]\n|Grey scarf, dark grey shoulder and knee-pads, and grey straps with pouches.\n\nGloves' dark green knuckles replaced with grey fingers and white wrist.\n\n|[[File:KRDFFreezer3.png|200px]]\n|White fur around neck and white and black beanie.\n\nShirt is now white and camouflaged.\n\nNow wields a white camouflaged cryo rifle.\n|[[File:KRDFFreezer4.png|200px]]\n|Black and grey ski mask with neon light blue visor and frost grenades on belt.\n\nNow wields a white camouflaged cryo blaster with a black silencer.\n}}\n|Mint Choco\n|The {{Color|Premium|Mint Choco}} skin is obtained from the [[Premium Crate|{{Color|Premium|Premium Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Premium|Mint Choco}}\n|Icon1 = [[File:MintChocoFreezerIconIGAug26.png|128px]]\n|[[File:KRMCFreezer0.png|200px]]\n|Very pale skin, light green shirt with a white vest and fluff on sleeves, maroon pants with a black belt, black shoes with fluff and gloves, pink ice cream beanie with chocolate chips and a cherry, maroon and white scarf, and maroon goggles with neon blue lens.\n\nWields a light pink and maroon cryo pistol to attack enemies.\n|[[File:KRMCFreezer1.png|200px]]\n|Brown duffel bag.\n|[[File:KRMCFreezer2.png|200px]]\n|White knee-pads.\n\nGloves are now maroon with white fingers and wrist.\n|[[File:KRMCFreezer3.png|200px]]\n|Light blue shirt with chocolate chips on sleeves, hood and green fluff, and green horns on beanie.\n\nDuffel bag is now maroon with pink ice cream and chocolate chips on top. \n\nNow wields a light pink and maroon cryo rifle.\n|[[File:KRMCFreezer4.png|200px]]\n|Pink ice cream with chocolate chips an"
     },
     {
-      "title": "Developer Products/General",
-      "pageid": 52286,
-      "snippet": "",
-      "size": 9129,
-      "wordcount": 1098,
-      "timestamp": "2026-09-07T17:48:24Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Freezer/History",
+      "score": 1,
+      "pageid": 28714,
+      "latest_revid": 618593,
+      "latest_timestamp": "2026-08-18T21:37:38Z",
+      "wikitext_excerpt": "{{Tabs|History}}\n''To see the statistics of this tower without the [[Firerate Bug]], visit the [[Firerate Bug/Freezer|Firerate Bug]] page.''\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:ReworkedFreezerIcon.png|100px]]\n|Unlock Cost = {{Coins|650}}\n|Category = Intermediate\n|Role = Defense\n|Cost = {{Money|450}}\n|Footprint = 1.5\n|Sell Price = {{Money|150}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]1\n|Damage Type = Single<br/>Burst (Level 3+)\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|Hidden = {{Hidden|Hidden Detection}}Level 4\n|Range = [[File:Range Icon.png|20px|Range]]12\n|Lead = N/A\n|Placement = N/A\n|Fly = N/A\n|Title1 = Max Slowdown\n|Stat1 = [[File:Slowness.png|20px|Max Slowdown]]15%\n|Title2 = Slowdown per Hit\n|Stat2 = [[File:Slowness.png|20px|Max Slowdown]]7.5%\n|Title3 = Slowdown Time\n|Stat3 = [[File:Slowness.png|20px|Slowdown Time]]2\n|PVP Cost = {{Money|425}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|141}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]1\n|PVP Damage Type = Single<br/>Burst (Level 3+)\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|PVP Hidden = {{Hidden|Hidden Detection}}Level 4\n|PVP Range = [[File:Range Icon.png|20px|Range]]12\n|PVP Lead = N/A\n|PVP Placement = N/A\n|PVP Fly = N/A\n|PVP Title1 = Max Slowdown\n|PVP Stat1 = [[File:Slowness.png|20px|Max Slowdown]]30%\n|PVP Title2 = Slowdown per Hit\n|PVP Stat2 = [[File:Slowness.png|20px|Max Slowdown]]10%\n|PVP Title3 = Slowdown Time\n|PVP Stat3 = [[File:Slowness.png|20px|Slowdown Time]]5\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]\n\n7.5% > 10% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]\n\n\nSell Price changes to {{Money|250}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Bundled Up!|Cost = {{Money|450}}|Image = [[File:Freezer Upgrade 2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow freezes enemies upon reaching max chillness\n\n•0.5 Freeze Time [[File:Slowness.png|20px|Freeze Time]]\n\n\nSell Price changes to {{Money|400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Arctic Soldier|Cost = {{Money|1,700}}|Image = [[File:Freezer Upgrade 3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.35 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1 > 6 Burst [[File:Damage Icon.png|20px|Burst]]\n\n0 > 0.6 Burst Cooldown [[File:Cooldown Icon.png|20px|Firerate]]\n\n20% > 25% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]\n\n10% > 12.5% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]\n\n2 > 3 Slowdown Time [[File:Slowness.png|20px|Slowdown Time]]\n\nMelts 10% defense every tick {{Defense|Defense Melting}}\n\nEnemies take damage when slowed down\n\n•3 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]\n\n•1 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n\nSell Price changes to {{Money|966}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Ull's Arrow|Cost = {{Money|4,500}}|Image = [[File:Freezer Upgrade 4.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n6 > 8 Burst [[File:Damage Icon.png|20px|Burst]]\n\n0.5 > 0.75 Freeze Time [[File:Slowness.png|20px|Freeze Time]]\n\n+Frost Grenade Ability\n\n\nSell Price changes to {{Money|2,466}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|225}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = +1 Damage ["
     },
     {
-      "title": "Contractor",
-      "pageid": 62972,
-      "snippet": "",
-      "size": 2479,
-      "wordcount": 345,
-      "timestamp": "2026-08-15T15:35:25Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Ranger",
+      "score": 1,
+      "pageid": 193,
+      "latest_revid": 627636,
+      "latest_timestamp": "2026-08-26T12:07:04Z",
+      "wikitext_excerpt": "{{Tabs}}\n{{TowerInfobox\n|title = Ranger\n|image-static = Newranger.png\n|image-dynamic = RangerDynamic.png\n|unlockcost = {{Coins|12,000}}\n|role = Defense\n|placement = Cliff\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|basecost = {{Money|4,500}}\n|basesellingprice = {{Money|1,500}}\n|basedamage = [[File:Damage Icon.png|20px|Damage]]100\n|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]6\n|baserange = [[File:Range Icon.png|20px|Range]]70\n|hidden_detection = N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>\n|lead_detection = {{Attr|Lead|Level 2+}}\n|flying_detection = {{Attr|Flying|Level 0+}}\n|immune = Stun\n|footprint = 1.5\n|pvp_basecost = {{Money|2,000}}\n|pvp_basesellingprice = {{Money|666}}\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]40\n|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]3\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]50\n|pvp_hidden_detection = N/A<ref name=\"hd\"/>\n|pvp_lead_detection = {{Attr|Lead|Level 0+}}\n|pvp_flying_detection = {{Attr|Flying|Level 0+}}\n|pvp_immune = Stun\n|pvp_footprint = 1.5\n|tooltip-1 = An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.\n|tooltip-2 = Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.\n|tooltip-3 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Precision is key. Deals exceptional damage at nearly infinite range.|Current Store Description}}\n|-|Version 3 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage.|Former Store Description}}\n|-|Version 2 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage with a railgun.|Former Store Description}}\n|-|Hardcore Testing =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage with a railgun.|Former Store Description}}\n|-|Original =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage.|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Ranger''', formerly known as the '''Outlaw''', is an advanced cliff [[Towers|tower]] with long range that can be purchased in the store for {{Coins|12,000}}.\n\nThe '''Ranger''' deals high damage with very long range but has a slow firerate. As a cliff tower, it can detect [[Flying]] enemies, but cannot detect hidden enemies at any level. The '''Ranger''' can also damage lead enemies at Level 2+. Additionally, it is immune to all stuns by default. At Level 2, it gains the ability to give towers a 10% [[Range Buff]] within its inner radius at the start of every wave for 20 seconds. At Level 4, it also deals splash damage through its ''Explosive Impact''.\n\nThe '''Ranger''' deals extremely high damage at higher levels, but is expensive to upgrade to these levels. Due to these reasons, it is considered a mid-to-late game tower and is most effective for harder gamemodes.\n\nThe '''Ranger''' has a placement limit of eight per player.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Mone"
     },
     {
-      "title": "Neuralyzed",
-      "pageid": 59761,
-      "snippet": "",
-      "size": 1202,
-      "wordcount": 170,
-      "timestamp": "2026-06-21T16:53:43Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+      "title": "Ranger/Gallery",
+      "score": 1,
+      "pageid": 11725,
+      "latest_revid": 641051,
+      "latest_timestamp": "2026-09-04T13:03:05Z",
+      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|{{UpgradeIcons\n|[[File:Common1Image.png|150px]]\n|[[File:Outlaw2.png|150px]]\n|[[File:Outlaw4.png|150px]]\n|[[File:Outlaw5.png|150px]]\n}}\n|29 June 2019 – 28 October 2023\n|{{UpgradeIcons\n|[[File:Common1Image.png|150px]]\n|[[File:Outlaw2.png|150px]]\n|[[File:Outlaw3.png|150px]]\n|[[File:Outlaw4.png|150px]]\n|[[File:Outlaw5.png|150px]]\n}}\n}}\n\n==Skin Upgrades==\nThe '''Ranger''' has twenty eight skins in total. This includes:\n#The Default skin.\n#Seventeen skins that can be unlocked from [[Crates]].\n#Six skins that can be unlocked from [[Passes]].\n#Two skins that can only be purchased through the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n#Two skins that can be obtained through [[Mission Quests]].\n\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultRangerIconIGAug26.png|128px]]\n|[[File:Ranger_lvl_0.png|200px]]\n|Dark tan skin, dark grey camo jacket and pants with pockets, dark grey shoes, cap with grey logo, headset and vest, and light grey knee-pads.\n\nWields a blue and grey railgun with neon blue parts to attack enemies.\n|[[File:Ranger_lvl_1.png|200px]]\n|Dark grey gloves.\n|[[File:Ranger_lvl_2.png|200px]]\n|Dark grey backpack with an antenna, headset microphone and neon blue lens.\n|[[File:Ranger_lvl_3.png|200px]]\n|Cap replaced with grey hood and face mask.\n\nHeadset replaced with a futuristic one.\n|[[File:Ranger_lvl_4.png|200px]]\n|Backpack is now futuristic and grey wight light blue neon parts\n\nNow wields an upgraded blue and grey railgun with neon blue parts.\n}}\n|Blue\n|The {{Color|Basic|Blue}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Blue}}\n|Icon1 = [[File:BlueRangerIconIGAug26.png|128px]]\n|[[File:LO Blue Ranger 0.png|200px]]\n|Dark tan skin, dark blue camo jacket and pants with pockets, grey shoes, cap with blue logo, headset and vest, and light grey knee-pads.\n\nWields a blue and grey railgun with neon blue parts to attack enemies.\n|[[File:LO Blue Ranger 1.png|200px]]\n|Dark grey gloves.\n|[[File:LO Blue Ranger 2.png|200px]]\n|Dark grey and blue backpack with a blue antenna, headset microphone and neon blue lens.\n|[[File:LO Blue Ranger 3.png|200px]]\n|Cap replaced with blue hood and face mask.\n\nHeadset replaced with a futuristic one.\n|[[File:LO Blue Ranger 4.png|200px]]\n|Backpack is now futuristic and grey wight light blue neon parts\n\nNow wields an upgraded blue and grey railgun with neon blue parts.\n}}\n|Green\n|The {{Color|Basic|Green}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Green}}\n|Icon1 = [[File:GreenRangerIconIGAug26.png|128px]]\n|[[File:LO Green Ranger 0.png|200px]]\n|Dark tan skin, dark green camo jacket and pants with pockets, grey shoes, cap with green logo, headset and vest, and light grey knee-pads.\n\nWields a blue and grey railgun with neon blue parts to attack enemies.\n|[[File:LO Green Ranger 1.png|200px]]\n|Dark grey gloves.\n|[[File:LO Green Ranger 2.png|200px]]\n|Dark grey and green backpack with a green antenna, headset microphone and neon blue lens.\n|[[File:LO Green Ranger 3.png|200px]]\n|Cap replaced with green hood and face mask.\n\nHeadset replaced with a futuristic one.\n|[[File:LO Green Ranger 4.png|200px]]\n|Backpack is now futuristic and grey wight light blue neon parts\n\nNow wields an upgraded blue and grey railgun with neon blue parts.\n}}\n|Black Ops\n|The {{Color|Premium|Black Ops}} skin is obtained from the [[Premium Crate|{{Color|Premium|Premium Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Premium|Black Ops}}\n|Icon1 = [[File:BlackOpsRangerIconIGAug26.png|128px]]\n|[[File:OpsBlackRanger0.png|200px]]\n|Tan skin, black shirt, pants and mask, dark brown shoes, beige headset and vest with dark brown pouches, dark brown belt and brown hat with black stripe.\n\nWields a light beige and black Denel NTW-20 to attack enemies.\n|[[File:OpsBlackRanger1.png|200px]]\n|Light brown gloves.\n|[[File:OpsBlackRanger2.png|200px]]\n|Two beige"
     },
     {
-      "title": "V1.91.0",
-      "pageid": 61031,
-      "snippet": "",
-      "size": 20739,
-      "wordcount": 2297,
-      "timestamp": "2026-06-06T15:30:29Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Mine",
-      "pageid": 58310,
-      "snippet": "",
-      "size": 1371,
-      "wordcount": 201,
-      "timestamp": "2026-07-05T04:04:37Z",
-      "classification": {
-        "is_tower_page": true,
-        "reason": "template/category heuristic"
-      }
+      "title": "Ranger/History",
+      "score": 1,
+      "pageid": 28797,
+      "latest_revid": 618623,
+      "latest_timestamp": "2026-08-18T21:39:29Z",
+      "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Story Mode Update (31 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:Newranger.png|100px]]\n|Unlock Cost = {{Coins|12,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|4,500}}\n|Footprint = 1.5\n|Sell Price = {{Money|1,500}}\n|Placement Type = Cliff\n|Damage = [[File:Damage Icon.png|20px|Damage]]100\n|Damage Type = Single<br/>[[Splash_Damage|Splash]] (Level 4)\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]6\n|Hidden = N/A\n|Range = [[File:Range Icon.png|20px|Range]]70\n|Lead = {{Lead|Lead Detection}}Level 2+\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|Fly = {{Flying|Flying Detection}}Level 0+\n|PVP Cost = {{Money|2,000}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|666}}\n|PVP Placement Type = Cliff\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]40\n|PVP Damage Type = Single<br/>[[Splash_Damage|Splash]] (Level 4)\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]3\n|PVP Hidden = N/A\n|PVP Range = [[File:Range Icon.png|20px|Range]]50\n|PVP Lead = {{Lead|Lead Detection}}Level 0+\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|PVP Fly = {{Flying|Flying Detection}}Level 0+\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Money|15,750}}|Image =[[File:Outlaw4.png|100px]]|Information = +245 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|9,083}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Experimental Weapon of Destruction|Cost = {{Money|25,000}}|Image = [[File:Outlaw5.png|100px]]|Information = +445 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Explosive Impact\n\n•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Max Hits\n\n\nSell Price changes to {{Money|17,416}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|650}}|Image = [[File:Common1Image.png|100px]]|Information = 3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|883}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|2,400}}|Image = [[File:Outlaw2.png|100px]]|Information = +34 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|1,683}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Money|8,500}}|Image =[[File:Outlaw4.png|100px]]|Information = +74 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,516}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Experimental Weapon of Destruction|Cost = {{Money|17,000}}|Image = [[File:Outlaw5.png|100px]]|Information = +126 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Explosive Impact\n\n•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRang"
     }
-  ]
+  ],
+  "raw_wikitext_file": "tds_bridge/result.txt",
+  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
 }
