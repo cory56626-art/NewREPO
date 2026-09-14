@@ -1,21 +1,28 @@
 {
   "mode": "discussion_deep_search",
-  "query": "loadout strategy Fallen Hardcore",
-  "pages": 200,
+  "query": "Hardcore Fallen loadout strategy",
+  "pages": 50,
   "per_page": 100,
-  "must_include": [],
+  "must_include": [
+    [
+      "Hardcore",
+      "HC"
+    ],
+    "Fallen"
+  ],
   "prefer_include": [
     "loadout",
     "strategy",
-    "Fallen",
-    "Hardcore",
-    "Accelerator",
+    "triumph",
+    "duo",
     "Minigunner",
-    "Golden Cowboy",
-    "Golden Crook Boss",
-    "Engineer",
-    "Mercenary Base"
+    "Ranger",
+    "Electroshocker",
+    "Medic",
+    "Commander",
+    "DJ Booth",
+    "Farm"
   ],
-  "strict_must_include": false,
+  "strict_must_include": true,
   "include_media_candidates": true
 }
