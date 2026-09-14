@@ -1,19 +1,27 @@
 {
   "mode": "discussion_deep_search",
-  "query": "Hardcore Fallen loadout triumph",
-  "pages": 2000,
+  "query": "Hardcore Fallen loadout strategy",
+  "pages": 50,
   "per_page": 100,
   "must_include": [
     [
       "Hardcore",
       "HC"
-    ]
+    ],
+    "Fallen"
   ],
   "prefer_include": [
-    "Hardcore",
-    "Fallen",
     "loadout",
-    "triumph"
+    "strategy",
+    "triumph",
+    "duo",
+    "Minigunner",
+    "Ranger",
+    "Electroshocker",
+    "Medic",
+    "Commander",
+    "DJ Booth",
+    "Farm"
   ],
   "strict_must_include": true,
   "include_media_candidates": true
