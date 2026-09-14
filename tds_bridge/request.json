@@ -1,21 +1,20 @@
 {
   "mode": "discussion_deep_search",
-  "query": "loadout strategy Fallen Hardcore",
-  "pages": 200,
+  "query": "Hardcore Fallen loadout triumph",
+  "pages": 2000,
   "per_page": 100,
-  "must_include": [],
-  "prefer_include": [
-    "loadout",
-    "strategy",
-    "Fallen",
-    "Hardcore",
-    "Accelerator",
-    "Minigunner",
-    "Golden Cowboy",
-    "Golden Crook Boss",
-    "Engineer",
-    "Mercenary Base"
+  "must_include": [
+    [
+      "Hardcore",
+      "HC"
+    ]
   ],
-  "strict_must_include": false,
+  "prefer_include": [
+    "Hardcore",
+    "Fallen",
+    "loadout",
+    "triumph"
+  ],
+  "strict_must_include": true,
   "include_media_candidates": true
 }
