@@ -1,12 +1,12 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "V1.51.0",
-    "title": "V1.51.0",
-    "pageid": 46140,
-    "latest_revid": 468513,
-    "latest_timestamp": "2026-06-05T07:58:08Z",
-    "source_url": "https://tds.fandom.com/wiki/V1.51.0",
+    "requested": "V1.52.0",
+    "title": "V1.52.0",
+    "pageid": 46319,
+    "latest_revid": 468517,
+    "latest_timestamp": "2026-06-05T07:58:12Z",
+    "source_url": "https://tds.fandom.com/wiki/V1.52.0",
     "classification": {
       "is_tower_page": false,
       "reason": "template/category heuristic"
@@ -22,116 +22,116 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "V1.51.0",
+    "input": "V1.52.0",
     "alias_used": null,
-    "target": "V1.51.0",
-    "canonical_title": "V1.51.0",
-    "pageid": 46140,
+    "target": "V1.52.0",
+    "canonical_title": "V1.52.0",
+    "pageid": 46319,
     "redirects": [],
     "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 468513,
-      "parentid": 422470,
-      "timestamp": "2026-06-05T07:58:08Z",
+      "revid": 468517,
+      "parentid": 422469,
+      "timestamp": "2026-06-05T07:58:12Z",
       "user": "DarkGabonnie",
-      "comment": "auto, replaced: {{Colour| → {{Color| (8)",
-      "size": 9822,
-      "sha1": "9273eb8a0be7cbade0c858e578886ce39026816d"
+      "comment": "auto, replaced: {{Colour| → {{Color| (40)",
+      "size": 15221,
+      "sha1": "b1c120745ca4eef65f8790ad1734f30ff6c62887"
     },
     {
-      "revid": 422470,
-      "parentid": 406380,
-      "timestamp": "2026-05-12T16:10:05Z",
+      "revid": 422469,
+      "parentid": 407240,
+      "timestamp": "2026-05-12T16:08:17Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 9830,
-      "sha1": "52af7b3bec901739cf92c337e2779e03cd8bc953"
+      "size": 15261,
+      "sha1": "2211634496e975c571b1ee4902971e54b230c52c"
     },
     {
-      "revid": 406380,
-      "parentid": 406081,
-      "timestamp": "2026-04-25T15:50:03Z",
+      "revid": 407240,
+      "parentid": 406873,
+      "timestamp": "2026-04-25T17:46:43Z",
       "user": "Mentin123",
       "comment": "Updating page links (automatic)",
-      "size": 9711,
-      "sha1": "c150b510594dee35d10f401c478e366142505c56"
+      "size": 15150,
+      "sha1": "612a6c0298dc8bfc96b0afee4e91f6f84b849e15"
     },
     {
-      "revid": 406081,
-      "parentid": 345129,
-      "timestamp": "2026-04-25T15:11:48Z",
+      "revid": 406873,
+      "parentid": 406664,
+      "timestamp": "2026-04-25T17:03:10Z",
       "user": "Mentin123",
       "comment": "Updating page links (automatic)",
-      "size": 9715,
-      "sha1": "f2e832ab1128052cd9558903bb3f1c21910969ef"
+      "size": 15172,
+      "sha1": "03aebb6b60655eb1d955ca1e9a38de05c52e7b8c"
     },
     {
-      "revid": 345129,
-      "parentid": 293004,
-      "timestamp": "2026-01-23T18:51:39Z",
+      "revid": 406664,
+      "parentid": 406381,
+      "timestamp": "2026-04-25T16:34:57Z",
+      "user": "Mentin123",
+      "comment": "Updating page links (automatic)",
+      "size": 15194,
+      "sha1": "a1cfd0dac0c0f1d0a134ce978305034478a691f2"
+    },
+    {
+      "revid": 406381,
+      "parentid": 346409,
+      "timestamp": "2026-04-25T15:50:04Z",
+      "user": "Mentin123",
+      "comment": "Updating page links (automatic)",
+      "size": 15216,
+      "sha1": "c89941a83388e931856df49e95b61989ebc7dfca"
+    },
+    {
+      "revid": 346409,
+      "parentid": 345130,
+      "timestamp": "2026-01-25T18:07:55Z",
+      "user": "Breathix",
+      "comment": "/* Miscellaneous */",
+      "size": 15220,
+      "sha1": "b92de8b089919b453d331d29cc1c62b045cf4ba8"
+    },
+    {
+      "revid": 345130,
+      "parentid": 293003,
+      "timestamp": "2026-01-23T18:52:40Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 9731,
-      "sha1": "2f7e4f749eee1e1bbacef6da4558a873e7c48d14"
+      "size": 15225,
+      "sha1": "5c87cd801582f57b1f0d59d4f0513110ac2aacac"
     },
     {
-      "revid": 293004,
-      "parentid": 277382,
-      "timestamp": "2025-10-16T13:04:27Z",
+      "revid": 293003,
+      "parentid": 288045,
+      "timestamp": "2025-10-16T12:49:11Z",
       "user": "Mentin123",
       "comment": "/* Official Update Log */",
-      "size": 9733,
-      "sha1": "df7e2f6a5b1174fdd7c81556e6f26c3359226797"
+      "size": 15227,
+      "sha1": "72d3ebe94471766d3bdd8703e20d7826c48edc25"
     },
     {
-      "revid": 277382,
-      "parentid": 275333,
-      "timestamp": "2025-07-19T14:22:54Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 10855,
-      "sha1": "cff87f2816b56b638ec65c8fb85afb909a2af047"
-    },
-    {
-      "revid": 275333,
-      "parentid": 268236,
-      "timestamp": "2025-07-08T15:43:47Z",
-      "user": "Mentin123",
-      "comment": "/* Gallery */",
-      "size": 10787,
-      "sha1": "995b73b4b2ef01d8d812336d1c8eeb8bbe1c5a43"
-    },
-    {
-      "revid": 268236,
-      "parentid": 267798,
-      "timestamp": "2025-05-28T19:49:50Z",
-      "user": "BrillanceDisplayed",
-      "comment": "/* Official Update Log */",
-      "size": 10787,
-      "sha1": "7042f262756836d8b52cb857eaa3bd4c8b4de814"
-    },
-    {
-      "revid": 267798,
-      "parentid": 253555,
-      "timestamp": "2025-05-25T17:15:44Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 10773,
-      "sha1": "f0f51929b436d39f8e85630b6b58c260b473d94c"
+      "revid": 288045,
+      "parentid": 275332,
+      "timestamp": "2025-09-23T16:36:23Z",
+      "user": "Breathix",
+      "comment": "/* Enemies */",
+      "size": 15360,
+      "sha1": "225857df8c8e1bd2301346125a16f095702bcc9f"
     }
   ],
   "revision_diff": {
-    "fromrevid": 422470,
-    "torevid": 468513,
-    "fromtitle": "V1.51.0",
-    "totitle": "V1.51.0",
+    "fromrevid": 422469,
+    "torevid": 468517,
+    "fromtitle": "V1.52.0",
+    "totitle": "V1.52.0",
     "fromuser": "Mentin123",
     "touser": "DarkGabonnie",
     "fromcomment": "",
-    "tocomment": "auto, replaced: {{Colour| → {{Color| (8)",
-    "diff_text": "Line 19: Line 19: *[[Lunar Crate]] *[[Lunar Crate]] **Contains three skins: **Contains three skins: ***{{ Colour |LunarYear|Lunar}} [[Rocketeer]] ***{{ Color |LunarYear|Lunar}} [[Rocketeer]] ***{{ Colour |LunarYear|Lunar}} [[Hallow Punk]] ***{{ Color |LunarYear|Lunar}} [[Hallow Punk]] ***{{ Colour |LunarYear|Lunar}} [[Harvester]] ***{{ Color |LunarYear|Lunar}} [[Harvester]] ===Nametags=== ===Nametags=== Line 42: Line 42: ****Missile Count increased from +0 to +3. ****Missile Count increased from +0 to +3. ****Renamed from ''Artillery Cannon'' to ''Missile Maelstrom''. ****Renamed from ''Artillery Cannon'' to ''Missile Maelstrom''. *{{ Colour |Lunar|Masquerade}} [[Medic]] skin appearance changed. *{{ Color |Lunar|Masquerade}} [[Medic]] skin appearance changed. *[[Harvester]] and its {{ Colour |LunarYear|Lunar}} skin are now available through a limited time gamepass for {{Robux|799}}. *[[Harvester]] and its {{ Color |LunarYear|Lunar}} skin are now available through a limited time gamepass for {{Robux|799}}. *[[Hallow Punk]] and its {{ Colour |LunarYear|Lunar}} skin are now available through a limited time gamepass for {{Robux|399}}. *[[Hallow Punk]] and its {{ Color |LunarYear|Lunar}} skin are now available through a limited time gamepass for {{Robux|399}}. *[[Archer]] gamepass taken offsale. *[[Archer]] gamepass taken offsale. Line 112: Line 112: ===Skincrates=== ===Skincrates=== *[[Lunar Crate]] and its {{ Colour |LunarYear|Lunar}} [[Rocketeer]] skin are now guaranteed to appear in the [[Daily Store]] for a week. *[[Lunar Crate]] and its {{ Color |LunarYear|Lunar}} [[Rocketeer]] skin are now guaranteed to appear in the [[Daily Store]] for a week. *Fixed {{ Colour |Premium|Steampunk}} [[Rocketeer]] not being obtainable from the [[Premium Crate]]. *Fixed {{ Color |Premium|Steampunk}} [[Rocketeer]] not being obtainable from the [[Premium Crate]]. ==Emotes== ==Emotes=="
+    "tocomment": "auto, replaced: {{Colour| → {{Color| (40)",
+    "diff_text": "Line 10: Line 10: }} }} ==Description== ==Description== '''v1.52.0''' is the one hundred and fifth update to be released in Tower Defense Simulator, on the 5th of February 2025. The update contained the [[Badlands II]] mini-rework, as well as a new {{ Colour |Other|Game Master}} skin for the [[Crook Boss]], based on the popular show [[wp:Squid Game|Squid Game]]. '''v1.52.0''' is the one hundred and fifth update to be released in Tower Defense Simulator, on the 5th of February 2025. The update contained the [[Badlands II]] mini-rework, as well as a new {{ Color |Other|Game Master}} skin for the [[Crook Boss]], based on the popular show [[wp:Squid Game|Squid Game]]. This update contains seven updates, the main v1.51.0 (released 5 February 2025) and six minor updates, v1.51.1 (released 5 February 2025), v1.52.2 (released 5 February 2025), v1.52.3 (released 5 February 2025), v1.52.4 (released 5 February 2025), v1.52.4a (released 5 February 2025) and v1.52.4b (released 12 February 2025). This update contains seven updates, the main v1.51.0 (released 5 February 2025) and six minor updates, v1.51.1 (released 5 February 2025), v1.52.2 (released 5 February 2025), v1.52.3 (released 5 February 2025), v1.52.4 (released 5 February 2025), v1.52.4a (released 5 February 2025) and v1.52.4b (released 12 February 2025). Line 27: Line 27: ===Skins=== ===Skins=== *{{ Colour |Other|Game Master}} [[Crook Boss]] *{{ Color |Other|Game Master}} [[Crook Boss]] *New skin for the [[Premium Crate]]. *New skin for the [[Premium Crate]]. **{{ Colour |Premium|Fortress}} [[Rocketeer]] **{{ Color |Premium|Fortress}} [[Rocketeer]] ==Changes & Bugfixes== ==Changes & Bugfixes== Line 35: Line 35: *A single [[Swarmer]] is now able to stack its stinging effect on an enemy. *A single [[Swarmer]] is now able to stack its stinging effect on an enemy. *Removed damage drop-off from the [[Rocketeer]], though this does not work due to bugs. *Removed damage drop-off from the [[Rocketeer]], though this does not work due to bugs. *{{ Colour |Premium|Fortress}} [[Rocketeer]] skin is now guaranteed to appear in the [[Daily Store]] for an unknown amount of time. *{{ Color |Premium|Fortress}} [[Rocketeer]] skin is now guaranteed to appear in the [[Daily Store]] for an unknown amount of time. *{{ Colour |Other|Mako}} [[DJ Booth]] and {{ Colour |Other|Game Master}} [[Crook Boss]] can now be gifted to other players. *{{ Color |Other|Mako}} [[DJ Booth]] and {{ Color |Other|Game Master}} [[Crook Boss]] can now be gifted to other players. *[[Engineer]] can now be gifted to other players. *[[Engineer]] can now be gifted to other players. *Fixed [[Rocketeer]] missiles being able to target [[Flying]] enemies while there were other non-[[Flying]] enemies nearby while the [[Rocketeer]] had no flying detection. *Fixed [[Rocketeer]] missiles being able to target [[Flying]] enemies while there were other non-[[Flying]] enemies nearby while the [[Rocketeer]] had no flying detection. *Partially fixed [[Swarmer]] attacking enemies even when they are being stung. Now it will prioritize enemies that are not being stung, however, it will continue to attack enemies that are being stung once there are no other enemies in its range. *Partially fixed [[Swarmer]] attacking enemies even when they are being stung. Now it will prioritize enemies that are not being stung, however, it will continue to attack enemies that are being stung once there are no other enemies in its range. *{{ Colour |Toy|Toy}} [[Rocketeer]] appearance changed. *{{ Color |Toy|Toy}} [[Rocketeer]] appearance changed. *{{ Colour |Lunar|Masquerade}} [[DJ Booth]] appearance changed. *{{ Color |Lunar|Masquerade}} [[DJ Booth]] appearance changed. *Adjusted {{ Colour |LunarYear|Lunar}} [[Hallow Punk]]'s weapon grip. *Adjusted {{ Color |LunarYear|Lunar}} [[Hallow Punk]]'s weapon grip. *Adjusted {{ Colour |LunarYear|Lunar}} [[Harvester]]'s snake body to be more consistent with its animations. *Adjusted {{ Color |LunarYear|Lunar}} [[Harvester]]'s snake body to be more consistent with its animations. *Fixed {{ Colour |Christmas2019|Xmas}} [[Rocketeer]] rolled up green mat not being properly wielded onto the backpack. *Fixed {{ Color |Christmas2019|Xmas}} [[Rocketeer]] rolled up green mat not being properly wielded onto the backpack. *Fixed {{ Colour |Premium|Steampunk}} [[Rocketeer]] not having all of its hat upgrades. *Fixed {{ Color |Premium|Steampunk}} [[Rocketeer]] not having all of its hat upgrades. *Fixed {{ Colour |LunarYear|Lunar}} [[Rocketeer]] not having all of its shoulder ornaments. *Fixed {{ Color |LunarYear|Lunar}} [[Rocketeer]] not having all of its shoulder ornaments. *Fixed {{ Colour |LunarYear|Lunar}} [[Harvester]] clipping issues. *Fixed {{ Color |LunarYear|Lunar}} [[Harvester]] clipping issues. *Fixed {{ Colour |Other|Community}} [[Minigunner]] clipping issues, as previously green parts could be seen on its legs. *Fixed {{ Color |Other|Community}} [[Minigunner]] clipping issues, as previously green parts could be seen on its legs. *Fixed {{ Colour |Bunny|Bunny}} [[Minigunner]] clipping issues, as previously green parts could be seen around its torso. *Fixed {{ Color |Bunny|Bunny}} [[Minigunner]] clipping issues, as previously green parts could be seen around its torso. *Fixed {{ Colour |FallenMission|Fallen}} [[Sledger]] left glove having a broken mesh. *Fixed {{ Color |FallenMission|Fallen}} [[Sledger]] left glove having a broken mesh. *Fixed {{ Colour |FallenMission|Fallen}} [[Scout]] hood using a broken mesh. *Fixed {{ Color |FallenMission|Fallen}} [[Scout]] hood using a broken mesh. *Fixed {{ Colour |Krampus|Cryptic}} [[Freezer]] not properly upgrading at Level 4. *Fixed {{ Color |Krampus|Cryptic}} [[Freezer]] not properly upgrading at Level 4. *Fixed {{ Colour |Vigilante|Vigilante}} [[Mortar]] Level 3-5 weapons having an incorrectly positioned cannon. *Fixed {{ Color |Vigilante|Vigilante}} [[Mortar]] Level 3-5 weapons having an incorrectly positioned cannon. *Fixed ''Underworld Warden'' [[Mission Quests|Mission Quest]] not tracking [[Pizza Party]] triumphs correctly. *Fixed ''Underworld Warden'' [[Mission Quests|Mission Quest]] not tracking [[Pizza Party]] triumphs correctly. *Fixed {{ Colour |Pirate|Pirate}} [[Mortar]] appearance not changing properly at Level 5. *Fixed {{ Color |Pirate|Pirate}} [[Mortar]] appearance not changing properly at Level 5. *Fixed {{ Colour |Other|Mako}} [[DJ Booth]] speakers being incorrectly rotated at Level 5. *Fixed {{ Color |Other|Mako}} [[DJ Booth]] speakers being incorrectly rotated at Level 5. *Fixed {{ Colour |ContentCreator|Eggrypted}} [[Commander]]'s weapon slide falling into the void after being placed down. *Fixed {{ Color |ContentCreator|Eggrypted}} [[Commander]]'s weapon slide falling into the void after being placed down. *Fixed {{ Colour |OperationICE|Frost Legion}} [[Grenadier]] and {{ Colour |OperationICE|Frost Legion}} [[Field Medic]] having a large grey cube appear in front of them when seen in the inventory preview. *Fixed {{ Color |OperationICE|Frost Legion}} [[Grenadier]] and {{ Color |OperationICE|Frost Legion}} [[Field Medic]] having a large grey cube appear in front of them when seen in the inventory preview. :In '''v1.52.1''': :In '''v1.52.1''': *Level 0-4 {{ Colour |ContentCreator|Corso}} [[Crook Boss]] appearance changed, as its original weapons have been re-added. *Level 0-4 {{ Color |ContentCreator|Corso}} [[Crook Boss]] appearance changed, as its original weapons have been re-added. *Partially fixed not being able to obtain the {{ Colour |Other|Game Master}} [[Crook Boss]] skin after purchasing it, though it has been incorrectly attributed to the [[DJ Booth]] instead of the [[Crook Boss]]. *Partially fixed not being able to obtain the {{ Color |Other|Game Master}} [[Crook Boss]] skin after purchasing it, though it has been incorrectly attributed to the [[DJ Booth]] instead of the [[Crook Boss]]. *Fixed {{ Colour |Premium|Fortress}} skin animations not working correctly at Level 0-3. *Fixed {{ Color |Premium|Fortress}} skin animations not working correctly at Level 0-3. :In '''v1.52.2''': :In '''v1.52.2''': *Fixed {{ Colour |Other|Game Master}} [[Crook Boss]] skin being mapped to the [[DJ Booth]], making it obtainable. *Fixed {{ Color |Other|Game Master}} [[Crook Boss]] skin being mapped to the [[DJ Booth]], making it obtainable. :In '''v1.52.3''': :In '''v1.52.3''': *Fixed {{ Colour |Other|Game Master}} [[Crook Boss]] piggy bank not appearing. *Fixed {{ Color |Other|Game Master}} [[Crook Boss]] piggy bank not appearing. ===Enemies=== ===Enemies=== Line 133: Line 133: **Updated rewards. **Updated rewards. **Bonus triumph rewards added. **Bonus triumph rewards added. ***Now has a 47.39% chance to give out one of these {{ Colour |Common}} items: ***Now has a 47.39% chance to give out one of these {{ Color |Common}} items: ****{{TimeScaleTicket|Time Scale Ticket}} (3-6) ****{{TimeScaleTicket|Time Scale Ticket}} (3-6) ****{{ReviveTicket|Revive Ticket}} (3-5) ****{{ReviveTicket|Revive Ticket}} (3-5) Line 141: Line 141: ****[[Supply Drop]] (2-6) ****[[Supply Drop]] (2-6) ****[[Fruit Cake]] (3-6) ****[[Fruit Cake]] (3-6) ***Now has a 28.44% chance to give out one of these {{ Colour |Uncommon}} items: ***Now has a 28.44% chance to give out one of these {{ Color |Uncommon}} items: ****[[Cooldown Flag]] (2-6) ****[[Cooldown Flag]] (2-6) ****[[Range Flag]] (3-6) ****[[Range Flag]] (3-6) ****[[Damage Flag]] (3-6) ****[[Damage Flag]] (3-6) ****[[Mid Grade Crate]] ****[[Mid Grade Crate]] ***Now has a 47.39% chance to give out one of these {{ Colour |Rare}} items: ***Now has a 47.39% chance to give out one of these {{ Color |Rare}} items: ****[[High Grade Crate]] ****[[High Grade Crate]] ****[[Napalm Strike]] (3-5) ****[[Napalm Strike]] (3-5) ****[[Blizzard Bomb]] (3-5) ****[[Blizzard Bomb]] (3-5) ***Now has a 4.74% chance to give out one of these {{ Colour |Legendary}} items: ***Now has a 4.74% chance to give out one of these {{ Color |Legendary}} items: ****[[Nuke]] ****[[Nuke]] ***Now has a 0.47% chance to give out one of these {{ Colour |Common|Custom}} items: ***Now has a 0.47% chance to give out one of these {{ Color |Common|Custom}} items: ****[[Molten Monster (Consumable)|Molten Monster]] ****[[Molten Monster (Consumable)|Molten Monster]] **Now uses the new income system with slight changes. Enemies now always give the same amount of cash on death, regardless of how much damage the player deals, but the amount is split between players, meaning in solo, an enemy gives 100% of its cash, 50% in duo, 33% in trio and 25% in quad. **Now uses the new income system with slight changes. Enemies now always give the same amount of cash on death, regardless of how much damage the player deals, but the amount is split between players, meaning in solo, an enemy gives 100% of its cash, 50% in duo, 33% in trio and 25% in quad. Line 162: Line 162: **Base {{Exp|}} reward increased from {{Exp|117}} to {{Exp|147}}. **Base {{Exp|}} reward increased from {{Exp|117}} to {{Exp|147}}. **Bonus triumph rewards added. **Bonus triumph rewards added. ***Now has a 47.39% chance to give out one of these {{ Colour |Common}} items: ***Now has a 47.39% chance to give out one of these {{ Color |Common}} items: ****{{TimeScaleTicket|Time Scale Ticket}} (3-6) ****{{TimeScaleTicket|Time Scale Ticket}} (3-6) ****{{ReviveTicket|Revive Ticket}} (3-4) ****{{ReviveTicket|Revive Ticket}} (3-4) Line 170: Line 170: ****[[Supply Drop]] (3-6) ****[[Supply Drop]] (3-6) ****[[Fruit Cake]] (3-6) ****[[Fruit Cake]] (3-6) ***Now has a 28.44% chance to give out one of these {{ Colour |Uncommon}} items: ***Now has a 28.44% chance to give out one of these {{ Color |Uncommon}} items: ****[[Cooldown Flag]] (3-6) ****[[Cooldown Flag]] (3-6) ****[[Range Flag]] (3-6) ****[[Range Flag]] (3-6) ****[[Damage Flag]] (3-6) ****[[Damage Flag]] (3-6) ****[[Mid Grade Crate]] ****[[Mid Grade Crate]] ***Now has a 47.39% chance to give out one of these {{ Colour |Rare}} items: ***Now has a 47.39% chance to give out one of these {{ Color |Rare}} items: ****[[High Grade Crate]] ****[[High Grade Crate]] ****[[Napalm Strike]] (3-4) ****[[Napalm Strike]] (3-4) ****[[Blizzard Bomb]] (3-4) ****[[Blizzard Bomb]] (3-4) ***Now has a 4.74% chance to give out one of these {{ Colour |Legendary}} items: ***Now has a 4.74% chance to give out one of these {{ Color |Legendary}} items: ****[[Nuke]] ****[[Nuke]] ***Now has a 0.47% chance to give out one of these {{ Colour |Common|Custom}} items: ***Now has a 0.47% chance to give out one of these {{ Color |Common|Custom}} items: ****[[Molten Monster (Consumable)|Molten Monster]] ****[[Molten Monster (Consumable)|Molten Monster]] **''Heresy!'' now plays between waves 35 and 39. **''Heresy!'' now plays between waves 35 and 39."
   },
   "classification": {
     "is_tower_page": false,
@@ -146,7 +146,7 @@
         "infobox_or_summary"
       ]
     },
-    "description": "'''v1.51.0''' is the one hundred and fourth update to be released in Tower Defense Simulator, on the 29th of January 2025. It added both the [[Rocketeer]] rework and the [[Lunar Crate]].\n\nThis update contains four updates, the main v1.51.0 (released 29 January 2025) and three minor updates, the v1.51.0a (released 30 January 2025), v1.51.1 (released 31 January 2025) and v1.51.1a (released 1 February 2025).",
+    "description": "'''v1.52.0''' is the one hundred and fifth update to be released in Tower Defense Simulator, on the 5th of February 2025. The update contained the [[Badlands II]] mini-rework, as well as a new {{Color|Other|Game Master}} skin for the [[Crook Boss]], based on the popular show [[wp:Squid Game|Squid Game]]. \n\nThis update contains seven updates, the main v1.51.0 (released 5 February 2025) and six minor updates, v1.51.1 (released 5 February 2025), v1.52.2 (released 5 February 2025), v1.52.3 (released 5 February 2025), v1.52.4 (released 5 February 2025), v1.52.4a (released 5 February 2025) and v1.52.4b (released 12 February 2025).",
     "upgrade_modes": {
       "regular": [],
       "pvp": []
@@ -173,7 +173,7 @@
     },
     "infoboxes": [],
     "likely_infobox": null,
-    "template_count": 95
+    "template_count": 100
   },
   "conflicts": {
     "priority_rule": {
@@ -202,40 +202,108 @@
   ],
   "backlinks": [
     {
+      "title": "Crook Boss",
+      "pageid": 226
+    },
+    {
       "title": "Rocketeer",
       "pageid": 307
     },
     {
-      "title": "Infernal Abyss",
-      "pageid": 515
+      "title": "Boomer",
+      "pageid": 505
+    },
+    {
+      "title": "Tank",
+      "pageid": 508
     },
     {
       "title": "Update Log",
       "pageid": 850
     },
     {
+      "title": "Error",
+      "pageid": 1616
+    },
+    {
+      "title": "Abnormal",
+      "pageid": 1617
+    },
+    {
+      "title": "Abnormal Boss",
+      "pageid": 1618
+    },
+    {
+      "title": "Glitch",
+      "pageid": 1619
+    },
+    {
+      "title": "Giant Boss",
+      "pageid": 1621
+    },
+    {
       "title": "Quick",
       "pageid": 1625
     },
     {
-      "title": "Archer",
-      "pageid": 2747
+      "title": "Heavy",
+      "pageid": 1635
     },
     {
-      "title": "Winter Stronghold",
-      "pageid": 2952
+      "title": "Shadow Boss",
+      "pageid": 1638
     },
     {
-      "title": "Premium Crate",
-      "pageid": 2967
+      "title": "Hazard",
+      "pageid": 1653
+    },
+    {
+      "title": "Swarmer",
+      "pageid": 4581
+    },
+    {
+      "title": "Freezer/Gallery",
+      "pageid": 10474
+    },
+    {
+      "title": "Minigunner/Gallery",
+      "pageid": 10617
+    },
+    {
+      "title": "Scout/Gallery",
+      "pageid": 10817
+    },
+    {
+      "title": "Commander/Gallery",
+      "pageid": 11189
+    },
+    {
+      "title": "DJ Booth/Gallery",
+      "pageid": 11252
     },
     {
       "title": "Rocketeer/Gallery",
       "pageid": 11656
     },
     {
-      "title": "Medic/Gallery",
-      "pageid": 11727
+      "title": "Crook Boss/Gallery",
+      "pageid": 11729
+    },
+    {
+      "title": "Mortar/Gallery",
+      "pageid": 11731
+    },
+    {
+      "title": "Shadow",
+      "pageid": 21456
+    },
+    {
+      "title": "Sledger/Gallery",
+      "pageid": 24097
+    },
+    {
+      "title": "Golden Crook Boss",
+      "pageid": 30803
     },
     {
       "title": "BETA v1.0",
@@ -332,74 +400,6 @@
     {
       "title": "Release v1.10",
       "pageid": 31324
-    },
-    {
-      "title": "Release v1.11",
-      "pageid": 31333
-    },
-    {
-      "title": "V1.0.0",
-      "pageid": 31341
-    },
-    {
-      "title": "Overhaul v1.0",
-      "pageid": 31371
-    },
-    {
-      "title": "Overhaul v1.1",
-      "pageid": 31380
-    },
-    {
-      "title": "Overhaul v1.2",
-      "pageid": 31387
-    },
-    {
-      "title": "Overhaul v1.3",
-      "pageid": 31396
-    },
-    {
-      "title": "V1.3.0",
-      "pageid": 31437
-    },
-    {
-      "title": "Overhaul v1.4",
-      "pageid": 31547
-    },
-    {
-      "title": "V1.3.1",
-      "pageid": 31551
-    },
-    {
-      "title": "V1.0.1",
-      "pageid": 31611
-    },
-    {
-      "title": "V1.0.2",
-      "pageid": 31650
-    },
-    {
-      "title": "V1.1.0",
-      "pageid": 31653
-    },
-    {
-      "title": "V1.2.0",
-      "pageid": 31668
-    },
-    {
-      "title": "V1.2.1",
-      "pageid": 31690
-    },
-    {
-      "title": "V1.2.2",
-      "pageid": 31695
-    },
-    {
-      "title": "V1.2.3",
-      "pageid": 31698
-    },
-    {
-      "title": "V1.2.4",
-      "pageid": 31699
     }
   ],
   "templates": [
@@ -420,12 +420,27 @@
     },
     {
       "ns": 10,
-      "title": "Template:Robux",
+      "title": "Template:TimeScaleTicket",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Coins",
+      "title": "Template:ReviveTicket",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:SpinTicket",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Exp",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Gem",
       "exists": true
     },
     {
@@ -470,12 +485,22 @@
     },
     {
       "ns": 10,
+      "title": "Template:Robux",
+      "exists": true
+    },
+    {
+      "ns": 10,
       "title": "Template:UpdateGallery",
       "exists": true
     },
     {
       "ns": 10,
       "title": "Template:UpdateGalleryItem",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateH3",
       "exists": true
     },
     {
@@ -491,12 +516,52 @@
   ],
   "related_pages": [
     {
+      "title": "Damage Flag",
+      "score": 1,
+      "pageid": 39813,
+      "latest_revid": 468287,
+      "latest_timestamp": "2026-06-05T07:51:35Z",
+      "wikitext_excerpt": "{{ConsumableInfobox\n|image1 = DamageFlagIcon.png\n|rarity = {{Color|Rare}}\n|type = Support\n|cooldown = [[File:Cooldown Icon.png|20px|Cooldown]]60\n|initial_cooldown = [[File:Cooldown Icon.png|20px|Initial Cooldown]]45\n|use_limit = 3\n|usable_in = PVE\n}}\n{{QuoteContainer|\n{{QuoteBox|Provides an AOE that boosts tower damage by 20% for 45 seconds. (Does not stack with other damage flags)|In-Game Description}}\n{{QuoteBox|Provides an AOE that boosts tower damage by 40% for 1 minute. (Does not stack with other damage flags)|Former In-Game Description}}\n}}\n==Description==\nThe '''Damage Flag''' is one of the four rare [[Consumables|consumables]]. The '''Damage Flag''' has a 2.78% (5.41% with [[VIP+]]) chance to be gotten from a [[Low Grade Crate]], a 6.15% (9.41% with [[VIP+]]) chance to be gotten from a [[Mid Grade Crate]] and a 22.03% (21.67% with [[VIP+]]) chance to be gotten from a [[High Grade Crate]].\n\nOnly up to three '''Damage Flags''' can be used in a match by a single player. It has a 60 second cooldown, though when the match first starts the cooldown is set to 45 seconds. Its cooldown does not start until the '''Damage Flag''' disappears.\n\n==Usage==\nWhen using the '''Damage Flag''', a flag pole with a red flag will appear, which can be placed on any part of the map. When placed down, it will give a 20% [[Damage Buff]] to all towers in its 16 range for 45 seconds. This buff does not stack with other '''Damage Flag's''' [[Damage Buff]]s.\n\n==Appearance==\nThe '''Damage Flag''' is a red flag with a long grey pole. The flag has a small white circle, with two swords crossing each other in front of the circle.\n\n==Strategy==\n*There are multiple towers that cannot be affected by the '''Damage Flag's''' [[Damage Buff]]:\n{{DamageBuff}}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Props}}\n<gallery>\nConsumablePropDamageFlag.png|Damage Flag\n</gallery>\n\n{{GalleryHeader|Icons}}\n<gallery>\nCUpdateIcon1.png|'''Damage Flag''' on the game icon.\n</gallery>\n}}\n\n==Update History==\n*'''10 May 2024''' - [[v1.21.0]]\n**'''Damage Flag''' added.\n**{{Bug}} Lifespan timer does not update properly when [[Time Scale]] is at or lower than 0.99.\n*'''11 September 2024''' - [[v1.31.0]]\n**[[Damage Buff]] decreased from 40% to 20%.\n**Range decreased from 20 to 16.\n***{{Bug}} Range has not changed when placed down.\n**Buff time decreased from 60 to 45.\n**Description changed.\n\n==Notes==\n<references/>\n\n\n\n{{ConsumableNavBox}}"
+    },
+    {
+      "title": "Flying",
+      "score": 1,
+      "pageid": 42529,
+      "latest_revid": 639555,
+      "latest_timestamp": "2026-09-03T13:25:42Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Fly.png\n|type = Enemy Type\n|detection = Flying Detection\n|immunities = [[File:VehicleSpawn.png|20px|Collision Damage]]Collision Damage<br/>[[File:TrapperLevel1.png|20px|Road Hazards|link=]]Road Hazards<br/>{{Knockback}}Knockback\n|sandbox = Yes\n|tag = {{AttrTag|Second|Fly.png|Flying}}\n}}\n==Description==\n'''Flying''' is an enemy type that makes the enemy fly above the path, making them avoid being damaged by most things on the path. Towers need flying detection to target these enemies.\n\n==Mechanics==\n'''Flying''' enemies fly above the path, which grants them multiple perks. The main immunity that it grants is requiring flying detection to target them, making it difficult for towers without said detection to damage a '''Flying''' enemy.\n\n'''Flying''' enemies have various other unique immunities that are applied, outside of flying detection:\n\n# They are completely immune to being damaged by unit collision damage, even if they would normally collide with each other.\n#*This includes the [[Gift Bomber]], which cannot collide with '''Flying''' enemies, despite visually passing through '''Flying''' enemies.\n#*Some units, like the [[Rifleman]] or [[Missile APC]], can detect flying enemies, even if they cannot collide with them.\n#They are able to fly over road hazards, namely the [[Trapper]]'s traps and the [[Harvester]]'s thorns (and by extension the [[Farm]]'s).\n#*The [[Commando]]'s missiles, can still affect them.\n#*The [[Barricade]] can collide with '''Flying''' enemies, but they deal unit collision damage. Therefore, '''Flying''' enemies are also immune to this.\n#They are immune to being knocked back by towers. This does not mean they are immune to other effects from attacks that knock back enemies.\n#*For example, the [[DJ Booth]] can still slow down '''Flying''' enemies, even if the purple track cannot knock them back.\n\n'''Flying''' enemies may be indirectly damaged by towers, even if they do not have flying detection. For example, the [[Brawler]]'s ''Reposition'' ability deals damage to '''Flying''' enemies, though due to their knockback immunity it does not knock them back.\n\nIf an enemy is applied the '''Flying''' attribute through [[Sandbox Mode|Sandbox]] mode, and they do not typically have the attribute, all of the said immunities apply to the enemy, even if they visually remain on the ground.\n\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Flying Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\">From Level 0+, its splash damage can indirectly damage '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Demoman]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 4\n|-\n|[[Soldier]] \n| class=\"yes-table\" |Full\n|Level 4<br/>Level 0+ ([[PVP]])\n|-\n| rowspan=\"2\" |[[Shotgunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n| class=\"no-table\" |None\n|N/A ([[PVP]])\n|-\n|[[Freezer]]\n| class=\"no-table\" |None<ref>Its ''Frost Grenade'' ability can indirectly hit '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Pyromancer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"no-table\" |None<ref>Through chaining, it can indirectly hit '''Flying''' enemies, but it can never target them.</ref>\n|N/A\n|-\n|[[Rocketeer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Trapper]]\n"
+    },
+    {
       "title": "Freeze Immunity",
       "score": 1,
       "pageid": 42532,
       "latest_revid": 648267,
       "latest_timestamp": "2026-09-09T15:23:02Z",
       "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Freeze.png\n|type = Immunity\n|variants = Regular<br/>{{Boss}}[[Boss]]\n|immunities = Regular:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Chillness}}Chillness\n*{{Freeze|Freeze Defense Dropping}}Freeze Defense Dropping\n*[[File:SledgerLevel2.png|20px|Sledger Ice Breaker]][[Sledger]] Ice Breaker\n{{Boss}}[[Boss]]:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Partial Chillness}}Partial Chillness\nTowers & Units:\n*{{Freeze|Enemy Freeze}}Enemy Freeze\n|sandbox = No\n|tag = {{AttrTag|Second|Freeze.png|No Freeze}}\n}}\n==Description==\n'''Freeze Immunity''' (with its tag referring to it as \"''No Freeze''\")  is an immunity that prevents the enemy from being frozen and chilled. For towers and units, it prevents them from being frozen.\n\n==Mechanics==\n'''Freeze Immunity''' makes it so that the enemy cannot be frozen. Additionally, it stops the enemy from being chilled by them. Because of its chillness immunity, it also prevents the enemies from having their defense dropped by freezing towers. Additionally, as the [[Sledger]] deals double damage to frozen or chilled enemies, it cannot deal double damage to them. Larger enemies are also frozen for a shorter amount of time than average sized enemies.\n\nThe following towers/consumables become unable to apply these freeze based effects to '''Freeze Immune''' enemies:\n*[[Freezer]]\n*[[Frost Blaster]]\n*[[Sledger]]\n*[[Jester]]\n*[[Cryomancer]]\n*[[Snowballer]]\n*[[Elementalist]]\n*[[Blizzard Bomb]]\n*[[Pumpkin Bomb]]\n*[[Santa's Air Strike]]\n*[[Ducky Squad]] ([[Ice Ducky]])\n\n'''Freeze Immunity''' is given to all [[Boss]] enemies, though that immunity is different from the regular one. Both version are immune to being frozen, however, it is only partially immune to chillness. It is slowed down less by chillness, but it is not immune to it. This means that bosses can have their defense dropped and can be dealt double damage to by the [[Sledger]], as long as the enemy does not have the regular '''Freeze Immunity'''.\n\n'''Freeze Immunity''' also used to prevent enemies from being slowed down from frost mark while it was still in the game.\n\nWhile the [[Freezer]] dealt splash damage, it could not freeze any enemy with [[Splash Damage Immunity]]. However, these enemies could still be frozen by the [[Frost Blaster]] or through its ''Ice Age'' ability.\n\nBefore the [[Release v1.0|MEGA Update]], there was an additional type of '''Freeze Immunity''', referred to as '''Basic Freeze'''. These enemies could not be frozen by the [[Freezer]]'s main attack, but could be frozen through its ''Ice Drop'' ability.\n\n===Towers===\nCertain towers and units also have the '''Freeze Immunity''', which prevents them from being frozen, though it does not prevent them from being targeted. An [[Unstable Ice]] from the [[Operation I.C.E Event]] will still target a freeze immune [[Molten Monster]], even though it not only deals no damage but also does not freeze it.\n\n==Enemy List==\nThe following enemies have '''Freeze Immunity''':\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Elite Molten]]\n*[[Tanker]]\n*[[Molten Summoner]]\n*[[Giant Boss]]\n*[[Summoner Boss]]\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Hazardous]]\n*[[Amalgamation]] (Modern version)\n*[[Circuit (Polluted Wasteland II)|Circuit]] (Modern [[Polluted Wasteland II]] version)\n*[[Abomination]] (Legacy version)\n*[[Super Toxic]] (Modern version)\n*[[Necromancer King]]\n*[[Nuclear Guardian]]\n*[[Conjurer]]\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Cavalry]] (Modern version)\n*[[Patient Zero]]\n*[[Awakened Fallen King]]\n*[[Molten Hazmat]]\n*[[Blizzard Wizard]]\n*[[Frost Ravager]] (With shield)\n*[[Deep Freeze]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Void Reaper]]\n*[[Mandragora]]\n*[[Slow King]] (Modern version, with Forcefield)\n*[[Crystalian]]\n*[[Void Trickster]]\n*[[Void Portal]]\n*[[Void Cultist]]\n*[[Healing Beacon]]\n*[[Void Eye]]\n*[[Void Knight]]\n*[[Void Guardian]]\n*[[Golden Mystery]]\n\nAll [[Boss]] enemies have their own varian"
+    },
+    {
+      "title": "Freezer",
+      "score": 1,
+      "pageid": 185,
+      "latest_revid": 648535,
+      "latest_timestamp": "2026-09-09T19:35:44Z",
+      "wikitext_excerpt": "{{Tabs}}\n{{For|[[Frost Blaster]]|[[Null Freezer]]}}\n{{TowerInfobox\n|title = Freezer\n|image-static = ReworkedFreezerIcon.png\n|image-dynamic = FreezerDynamic.png\n|unlockcost = {{Coins|650}}\n|basecost = {{Money|450}}\n|basesellingprice = {{Money|150}}\n|role = Defense\n|placement = Ground\n|basedamage = [[File:Damage Icon.png|20px|Damage]]2\n|damagetype = Single<br/>Burst (Level 3+)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|baserange = [[File:Range Icon.png|20px|Range]]12\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A\n|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]\n|immune = None\n|footprint = 1.5\n|pvp_basecost = {{Money|450}}\n|pvp_basesellingprice = {{Money|150}}\n|pvp_role = Defense\n|pvp_placement = Ground\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1\n|pvp_damagetype = Single<br/>Burst (Level 3+)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]12\n|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = None\n|pvp_footprint = 1.5\n|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}\n|-|Version 3 =\n{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}\n|-|Version 2 =\n{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}\n|-|Version 1 =\n{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.\n\nThe '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.\n\nAt Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.\n\nThe '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.\n\nThe '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Ma"
+    },
+    {
+      "title": "Necromancer (Modern Enemy)",
+      "score": 1,
+      "pageid": 31485,
+      "latest_revid": 609699,
+      "latest_timestamp": "2026-08-12T15:31:56Z",
+      "wikitext_excerpt": "{{EnemyTabs}}\n{{SameName|Necromancer|[[Necromancer|Tower]] • [[Necromancer (Modern Enemy)|Modern Enemy]] • [[Necromancer (Legacy Enemy)|Legacy Enemy]]}}\n{{For|other uses of [[Necromancer (Disambiguation)|Necromancer]]}}\n{{Zombie\n|title1 = Necromancer\n|image1 = NecromancerModern.png\n|mode_appearance = [[Easy Mode|{{Color|EasyMode}}]]<br/>[[Casual Mode|{{Color|CasualMode}}]]<br/>[[Challenge Trials|{{Color|TrialMode}}]]<br/>[[Polluted Wasteland II|{{Color|NuclearMode}}]]<br/>[[Badlands II|{{Color|WesternMode}}]]<br/>[[PVP|{{Color|BasicArena}}]]<br/>[[PVP|{{Color|MoltenArena}}]]<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[Breach Protocol]]\n*[[Radio Silence]]\n*[[Off The Rails]]\n*[[Derailed]]\n*[[Rock Bottom]]\n*[[Surface Tension]]\n*[[Lights Out]]}}\n{{InfoboxContainer|Challenges|*[[Juggernaut (Challenge)|Juggernaut]]\n*[[Jailed Towers (Challenge)|Jailed Towers]]\n*[[Enemies Beta|β -]] [[Legion (Challenge)|Legion]]\n*[[Oops! All slimes!]]\n*[[Vanguard (Challenge)|Vanguard]]\n*[[Boss Rush]]}}{{InfoboxContainer|Events|*[[Classic Candy Cane Lane|The Classic Mission 1]]\n*[[Classic Winter|The Classic Mission 2]]\n*[[Classic Forest Camp|The Classic Mission 3]]\n*[[Classic Island Chaos|The Classic Mission 4]]\n*[[Classic Castle|The Classic Mission 5]]\n*[[Pls Donate|Pls Donate (Easy)]]\n*[[Pls Donate|Pls Donate (Hard)]]\n*[[Sk8 P4rk|The Takeover (Noob)]]\n*[[Sk8 P4rk|The Takeover (Pro)]]\n*[[Nil Zone|Halloween 2025 Live Event]]}}\n----\nOriginally:<br>[[Intermediate Mode|{{Color|IntermediateMode}}]]<br>[[Enemies Beta|β -]] [[Molten Mode|{{Color|LegacyMoltenMode|Molten}}]]<br>[[Enemies Beta|β -]] [[Fallen Mode|{{Color|LegacyFallenMode|Fallen}}]]<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = 13 (Basic Arena PVP)<br/>14 (Casual & Molten Area PVP)<br/>12 (Easy & Challenge Trials)<br/>16 (Western)<br/>10 (Nuclear)\n----\nOriginally:<br>19 (β-Molten & β-Fallen)<br>13 (Low Rank PVP Test)<br>14 (Intermediate & Mid Rank PVP Test)<br>7 ([[Classic Candy Cane Lane]], [[Classic Forest Camp]], [[Classic Island Chaos]], [[Classic Castle]] & [[Nil Zone]])<br/>8 ([[Classic Winter]])<br/>6 (The Takeover Noob)<br/>9 (The Takeover Pro)\n|base_hp = [[File:HealthIcon.png|20px|Health]]360 (Easy)<br/>[[File:HealthIcon.png|20px|Health]]750 (Casual)<br/>[[File:HealthIcon.png|20px|Health]]1,000 (Challenge Trials)<br/>[[File:HealthIcon.png|20px|Health]]1,350 (Western)<br/>[[File:HealthIcon.png|20px|Health]]1,500 (Nuclear)<br/>[[File:HealthIcon.png|20px|Health]]400 (Basic Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]500 (Molten Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]600 (Sandbox)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[File:HealthIcon.png|20px|Health]]150 ([[Breach Protocol]])\n*[[File:HealthIcon.png|20px|Health]]300 ([[Radio Silence]])\n*[[File:HealthIcon.png|20px|Health]]800 ([[Off The Rails]])\n*[[File:HealthIcon.png|20px|Health]]700 ([[Derailed]])\n*[[File:HealthIcon.png|20px|Health]]600 ([[Rock Bottom]])\n*[[File:HealthIcon.png|20px|Health]]1,000 ([[Surface Tension]])\n*[[File:HealthIcon.png|20px|Health]]1,800 ([[Lights Out]])}}\n{{InfoboxContainer|Challenges|*[[File:HealthIcon.png|20px|Health]]400 ([[Boss Rush]])}}\n|speed = [[File:SpeedIcon.png|20px|Speed]]Below Average (2.8)<br/>[[File:SpeedIcon.png|20px|Speed]]Average (3.25, Summoner version)\n|cash = {{Money|198}} every 33% health (Easy)<br/>{{Money|248}} every 33% health (Casual)<br/>{{Money|281}} every 33% health (Challenge Trials)<br/>{{Money|400}} every 33% health (Western)<br/>{{Money|1,155}} every 33% health (Nuclear)<br/>{{Money|2}} every 33% health (Default)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*{{Money|2}} every 33% health ([[Breach Protocol]])\n*{{Money|1,980}} every 33% health ([[Radio Silence]])\n*{{Money|248}} every 33% health ([[Off The Rails]])\n*{{Money|330}} every 33% health ([[Derailed]])\n*{{Money|396}} every 33% health ([[Rock Bottom]] & [[Surface Tension]])\n*{{Money|495}} every 33% health ([[Lights Out]])}}\n|spawned_by = *[[Nuclear Monster]]\n*["
+    },
+    {
+      "title": "Range Flag",
+      "score": 1,
+      "pageid": 39814,
+      "latest_revid": 468288,
+      "latest_timestamp": "2026-06-05T07:51:36Z",
+      "wikitext_excerpt": "{{ConsumableInfobox\n|image1 = RangeFlagIcon.png\n|rarity = {{Color|Rare}}\n|type = Support\n|cooldown = [[File:Cooldown Icon.png|20px|Cooldown]]60\n|initial_cooldown = [[File:Cooldown Icon.png|20px|Initial Cooldown]]45\n|use_limit = 3\n|usable_in = PVE\n}}\n{{QuoteContainer|\n{{QuoteBox|Provides an AOE that boosts tower range by 20% for 45 seconds. (Does not stack with other range flags)|In-Game Description}}\n}}\n{{QuoteContainer|\n{{QuoteBox|Provides an AOE that boosts tower range by 20% for 1 minute. (Does not stack with other range flags)|Former In-Game Description}}\n}}\n==Description==\nThe '''Range Flag''' is one of the four rare [[Consumables|consumables]]. The '''Range Flag''' has a 2.78% (5.41% with [[VIP+]]) chance to be gotten from a [[Low Grade Crate]], a 6.15% (9.41% with [[VIP+]]) chance to be gotten from a [[Mid Grade Crate]] and a 22.03% (21.67% with [[VIP+]]) chance to be gotten from a [[High Grade Crate]].\n\nOnly up to three '''Range Flags''' can be used in a match by a single player. It has a 60 second cooldown, though when the match first starts the cooldown is set to 45 seconds. Its cooldown does not start until the '''Range Flag''' disappears.\n\n==Usage==\nWhen using the '''Range Flag''', a flag pole with a blue flag will appear, which can be placed on any part of the map. When placed down, it will give a 20% [[Range Buff]] to all towers in its 16 range for 45 seconds. This buff does not stack with other '''Range Flag's''' [[Range Buff]]s.\n\n==Appearance==\nThe '''Range Flag''' is a blue flag with a long grey pole. The flag has a small white circle, with the range icon in front of the circle.\n\n==Strategy==\n*The [[Range Buff]] of the '''Range Flag''' cannot increase the range of the following towers:\n**The [[Shotgunner]], as its bullets do not extend into the gained range.\n**The circling range of the [[Pursuit]] and [[Ace Pilot]].\n***The radius in which towers gain hidden detection from the [[Ace Pilot]] also cannot be increased.\n***These towers' attack ranges will still be increased.\n**The [[Gladiator]]; enemies will not be damaged in the gained range if it is a number beyond 6.\n**The [[Slasher]].\n**The [[Sledger]] will hit fewer enemies in its gained range.\n**The chain range of the [[Electroshocker]].\n***The attack range can still be increased.\n**The deadzone ranges of towers like the [[Biologist]] and [[Engineer]].\n**The sentry building range of the [[Engineer]].\n**The explosion radius from [[Splash Damage|Splash Damage towers]] cannot be increased.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Props}}\n<gallery>\nConsumablePropRangeFlag.png|Range Flag\n</gallery>\n}}\n\n==Update History==\n*'''10 May 2024''' - [[v1.21.0]]\n**'''Range Flag''' added.\n**{{Bug}} Lifespan timer does not update properly when [[Time Scale]] is at or lower than 0.99.\n*'''11 September 2024''' - [[v1.31.0]]\n**Range decreased from 20 to 16.\n***{{Bug}} Range has not changed when placed down.\n*'''28 January 2026''' - [[v1.84.0]]\n**Duration decreased from 60 to 45.\n**Description changed.\n\n\n\n{{ConsumableNavBox}}"
     },
     {
       "title": "Stun Immunity",
