@@ -1,6 +1,21 @@
 {
-  "mode": "search",
-  "requested": "Ultimate Skin",
-  "known_alias_target": null,
-  "selection_policy": "No fuzzy candidate is ever auto-selected."
+  "mode": "verify",
+  "requested": "V1.30.0",
+  "title": "V1.30.0",
+  "pageid": 42419,
+  "latest_revid": 468347,
+  "latest_timestamp": "2026-06-05T07:53:17Z",
+  "source_url": "https://tds.fandom.com/wiki/V1.30.0",
+  "classification": {
+    "is_tower_page": false,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  }
 }

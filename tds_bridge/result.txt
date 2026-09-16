@@ -1,22 +1,89 @@
-<div class="align-center"><span class="mainheader">'''Skin Series'''</span>
-----
+{{Update
+|title1 = v1.30.0
+|image1 = v1.30.0Thumbnail.png
+|release_date = 4 September 2024 (v1.30.0)
+|minor_updates = v1.30.1 (4 September 2024)<br>v1.30.2 (11 September 2024)
+|feed_title = 🔵 Mako DJ 🔴
+|feed_color = Yellow
+|previous_update = [[v1.29.0]]
+|next_update = [[v1.31.0]]
+}}
+__TOC__
+==Description==
+'''v1.30.0''' is the eighty-third update to be released in Tower Defense Simulator, on the 4th of September 2024. It added two skins, the {{Color|Other|Mako}} [[DJ Booth]] and the {{Color|Other|Plushie}} [[Cowboy]].
 
-'''Skin Series''' are groups of skins obtained through a specific method, such as only being obtained from the [[Daily Store]] or through [[Codes]]. This page only lists '''Skin Series''' not tied to a crate or event.
-{| class="empty-table pad-5 align-center" style="width:300px; margin:0 auto"
-|[[File:ContentCreatorSkinsUpdate.png|300px|link=Content Creator Skins]]
-|[[File:StarWarsSkinSeries.png|300px|link=Star Wars Skins]]
-|-
-|[[Content Creator Skins]]
-|[[Star Wars Skins]]
-|-
-|[[File:PlushieCommanderPI.jpg|300px|link=Merch Shop Skins]]
-|[[File:CodeStuff.png|300px|link=Traditional Code Skins]]
-|-
-|[[Merch Shop Skins]]
-|[[Traditional Code Skins]]
-|}
-</div>
+This update encompassed three versions, the main v1.30.0 update (released 4 September 2024) and two minor updates, the v1.30.1 update (released 4 September 2024) and v1.30.2 (released 11 September 2024).
+
+==Additions==
+===Skins===
+*{{Color|Other|Mako}} [[DJ Booth]]
+
+===Miscellanous===
+*New skin rarity: {{Color|Ultimate|Ultimate}}
+**{{Color|Ultimate|Ultimate}} skins can have special interactions with towers, enemies and the environment.
+*New [[Codes|code]] obtained by purchasing a [[Cowboy Plush]]
+**Code is unique for each [[Cowboy Plush]] bought
+**Gives {{Color|Other|Plushie}} [[Cowboy]] skin
+
+==Changes & Bugfixes==
+*The [[Engineer]] {{Color|ContentCreator|Wikia}} skin has been put on sale for a day.
+*Beating Wave 5 in the [[Tutorial]] now sets the cash to {{Money|1,600}} instead of {{Money|2,200}}.
+*Fixed projectile towers dealing damage to units.
+*Fixed constantly switching between [[Time Scale]] speeds not progressing the timer, which allowed for a wave to be much longer than intended.
+*Fixed [[DJ Booth]]'s cooldown when selecting another track.
+
+:In '''v1.30.1''':
+*Fixed {{Color|Other|Mako}} skin being impossible to purchase on mobile.
+
+:In '''v1.30.2''':
+*Version number changed from ''v1.30.1'' to ''v1.30.2''.
+
+==Gallery==
+{{Gallery|Open = Yes|
+{{GalleryHeader|Thumbnails}}
+<gallery>
+V1.30.0Thumbnail.png
+DJREWORKTHUMB.png
+</gallery>
+
+{{GalleryHeader|Icons}}
+<gallery>
+MIKU!!(x2).png
+</gallery>
+
+{{GalleryHeader|Renders}}
+<gallery>
+V1.30.0Render.png
+</gallery>
+}}
+
+==Official Update Log==
+''NOTE: Not everything here will be accurate, as this is transcribed from the in-game update log. Several things may be incorrect and things that are missing.''
+
+===v1.30.0===
+{{UpdateLog|
+{{UpdateBanner|v1.30.0Render.png|🔵 Mako DJ 🔴}}
+{{UpdateH1|📜Update Log:}}
+{{UpdateH3|✨Mako [[DJ Booth|DJ]] finally makes her debut✨}}
+*The Mako [[DJ Booth|DJ]] is the first of the new <u>{{Color|Ultimate}}</u> skin rarity. Ultimate skins separate themselves from the rest of the rarities with their quality and unique interactions with towers, enemies, or their environment! As we explore with more Ultimate skin rarities, we'll find even more ways to make these skins cooler!
+*The skin will be available for purchase for {{Robux|749}} in the Inventory Menu
+{{UpdateThumbnail|1.30updatelog1.png|Mako [[DJ Booth|DJ]] Skin}}
+{{UpdateThumbnail|1.30updatelog2.png|Towers placed in Mako [[DJ Booth|DJ]]'s range will have a custom aura🎶}}
+{{UpdateH2|🤠Plushie [[Cowboy]] Skin!}}
+{{UpdateThumbnail|1.30updatelog3.png|Plushie}}
+{{UpdateH3|🐛Bug Fixes}}
+*Fixed [[DJ Booth|DJ]] not accounting for towers sold
+*Fixed [[DJ Booth|DJ]]'s slowness debuff applying to Boss enemies
+*Fixed options cooldown when reselecting the current track
+*Fixed wave timer not scaling correctly with [[Time Scale|timescale]]
+*Fixed projectile towers doing damage to units
+{{UpdateWhiteText|'''🔥Next Week🔥'''}}
+*4 new skins👀
+*...keep an eye on our socials for more info📢
+}}
 
 
 
-{{BrowseNavBox}}
+{{UpdateNavBox}}
+{{DISPLAYTITLE:v1.30.0}}
+[[Category:Modern Updates]]

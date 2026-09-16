@@ -1,151 +1,485 @@
 {
-  "mode": "search",
-  "requested": "Ultimate Skin",
-  "known_alias_target": null,
-  "candidates": [
-    {
-      "title": "V1.30.0",
-      "pageid": 42419,
-      "snippet": "",
-      "size": 3579,
-      "wordcount": 486,
-      "timestamp": "2026-06-05T07:53:17Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+  "meta": {
+    "mode": "verify",
+    "requested": "V1.30.0",
+    "title": "V1.30.0",
+    "pageid": 42419,
+    "latest_revid": 468347,
+    "latest_timestamp": "2026-06-05T07:53:17Z",
+    "source_url": "https://tds.fandom.com/wiki/V1.30.0",
+    "classification": {
+      "is_tower_page": false,
+      "reason": "template/category heuristic"
     },
-    {
-      "title": "DJ Booth Figurine",
-      "pageid": 46248,
-      "snippet": "",
-      "size": 4278,
-      "wordcount": 612,
-      "timestamp": "2026-06-05T07:58:10Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Daily Store",
-      "pageid": 34013,
-      "snippet": "",
-      "size": 5141,
-      "wordcount": 827,
-      "timestamp": "2026-08-27T13:38:08Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.52.0",
-      "pageid": 46319,
-      "snippet": "",
-      "size": 15221,
-      "wordcount": 2066,
-      "timestamp": "2026-06-05T07:58:12Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Merch Shop Skins",
-      "pageid": 45873,
-      "snippet": "",
-      "size": 5360,
-      "wordcount": 720,
-      "timestamp": "2026-08-05T15:12:54Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Crates",
-      "pageid": 1174,
-      "snippet": "",
-      "size": 9258,
-      "wordcount": 1256,
-      "timestamp": "2026-08-26T14:19:12Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Skin Series",
-      "pageid": 50559,
-      "snippet": "",
-      "size": 765,
-      "wordcount": 104,
-      "timestamp": "2026-07-03T14:13:27Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Clown",
-      "pageid": 46040,
-      "snippet": "",
-      "size": 3543,
-      "wordcount": 509,
-      "timestamp": "2026-06-08T21:12:49Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Brawler/Gallery",
-      "pageid": 40018,
-      "snippet": "",
-      "size": 36465,
-      "wordcount": 4804,
-      "timestamp": "2026-09-07T22:52:29Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "V1.51.0",
-      "pageid": 46140,
-      "snippet": "",
-      "size": 9822,
-      "wordcount": 1181,
-      "timestamp": "2026-06-05T07:58:08Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Sniper/Gallery",
-      "pageid": 11215,
-      "snippet": "",
-      "size": 54942,
-      "wordcount": 7722,
-      "timestamp": "2026-09-09T21:14:57Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Marionette",
-      "pageid": 46039,
-      "snippet": "",
-      "size": 2700,
-      "wordcount": 348,
-      "timestamp": "2026-06-05T07:57:52Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
     }
-  ]
+  },
+  "resolution": {
+    "status": "resolved",
+    "input": "V1.30.0",
+    "alias_used": null,
+    "target": "V1.30.0",
+    "canonical_title": "V1.30.0",
+    "pageid": 42419,
+    "redirects": [],
+    "selection_method": "exact_or_redirect"
+  },
+  "revision_history": [
+    {
+      "revid": 468347,
+      "parentid": 426058,
+      "timestamp": "2026-06-05T07:53:17Z",
+      "user": "DarkGabonnie",
+      "comment": "auto, replaced: {{Colour| → {{Color| (9)",
+      "size": 3579,
+      "sha1": "fa51bc914ef7cb45e75abc818aca4110d3f52b9e"
+    },
+    {
+      "revid": 426058,
+      "parentid": 306195,
+      "timestamp": "2026-05-14T14:59:11Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 3588,
+      "sha1": "628e31b80e13870e92ad9bd1f0cefcf670b601f1"
+    },
+    {
+      "revid": 306195,
+      "parentid": 306136,
+      "timestamp": "2025-11-23T16:04:31Z",
+      "user": "Timyva123",
+      "comment": "/* v1.30.0 */",
+      "size": 3482,
+      "sha1": "e331ffaac61a39ac1a67edaba80dac8b25d72646"
+    },
+    {
+      "revid": 306136,
+      "parentid": 306135,
+      "timestamp": "2025-11-23T14:31:38Z",
+      "user": "Mentin123",
+      "comment": "/* v1.30.0 */",
+      "size": 3467,
+      "sha1": "b7fa9abd3b245fae10d3d56510151ed1e16ffe45"
+    },
+    {
+      "revid": 306135,
+      "parentid": 306134,
+      "timestamp": "2025-11-23T14:30:15Z",
+      "user": "Mentin123",
+      "comment": "/* v1.30.0 */",
+      "size": 3473,
+      "sha1": "6adcf30513a0d187373b31c5089c0ffbd58d7490"
+    },
+    {
+      "revid": 306134,
+      "parentid": 306047,
+      "timestamp": "2025-11-23T14:29:58Z",
+      "user": "Mentin123",
+      "comment": "/* v1.30.0 */",
+      "size": 3472,
+      "sha1": "b48f401f7806e69d138a8c024afb363216c212c5"
+    },
+    {
+      "revid": 306047,
+      "parentid": 279192,
+      "timestamp": "2025-11-23T09:51:49Z",
+      "user": "Timyva123",
+      "comment": "/* v1.30.0 */",
+      "size": 3409,
+      "sha1": "6919bdded385ae424c92ec1225a74d7edcdd066c"
+    },
+    {
+      "revid": 279192,
+      "parentid": 277403,
+      "timestamp": "2025-07-27T20:18:27Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 3251,
+      "sha1": "34dd20d2dc17084d6be083486a9c3588ebbe324c"
+    },
+    {
+      "revid": 277403,
+      "parentid": 277236,
+      "timestamp": "2025-07-19T15:37:38Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 3251,
+      "sha1": "13e220cc238e740935b24287702fdc0b6b71ebd5"
+    },
+    {
+      "revid": 277236,
+      "parentid": 247538,
+      "timestamp": "2025-07-18T15:29:14Z",
+      "user": "Mentin123",
+      "comment": "/* Gallery */",
+      "size": 3147,
+      "sha1": "3a3c30b3802a95e5f22cd65c6a0aeb107917e869"
+    }
+  ],
+  "revision_diff": {
+    "fromrevid": 426058,
+    "torevid": 468347,
+    "fromtitle": "V1.30.0",
+    "totitle": "V1.30.0",
+    "fromuser": "Mentin123",
+    "touser": "DarkGabonnie",
+    "fromcomment": "",
+    "tocomment": "auto, replaced: {{Colour| → {{Color| (9)",
+    "diff_text": "Line 11: Line 11: __TOC__ __TOC__ ==Description== ==Description== '''v1.30.0''' is the eighty-third update to be released in Tower Defense Simulator, on the 4th of September 2024. It added two skins, the {{ Colour |Other|Mako}} [[DJ Booth]] and the {{ Colour |Other|Plushie}} [[Cowboy]]. '''v1.30.0''' is the eighty-third update to be released in Tower Defense Simulator, on the 4th of September 2024. It added two skins, the {{ Color |Other|Mako}} [[DJ Booth]] and the {{ Color |Other|Plushie}} [[Cowboy]]. This update encompassed three versions, the main v1.30.0 update (released 4 September 2024) and two minor updates, the v1.30.1 update (released 4 September 2024) and v1.30.2 (released 11 September 2024). This update encompassed three versions, the main v1.30.0 update (released 4 September 2024) and two minor updates, the v1.30.1 update (released 4 September 2024) and v1.30.2 (released 11 September 2024). Line 17: Line 17: ==Additions== ==Additions== ===Skins=== ===Skins=== *{{ Colour |Other|Mako}} [[DJ Booth]] *{{ Color |Other|Mako}} [[DJ Booth]] ===Miscellanous=== ===Miscellanous=== *New skin rarity: {{ Colour |Ultimate|Ultimate}} *New skin rarity: {{ Color |Ultimate|Ultimate}} **{{ Colour |Ultimate|Ultimate}} skins can have special interactions with towers, enemies and the environment. **{{ Color |Ultimate|Ultimate}} skins can have special interactions with towers, enemies and the environment. *New [[Codes|code]] obtained by purchasing a [[Cowboy Plush]] *New [[Codes|code]] obtained by purchasing a [[Cowboy Plush]] **Code is unique for each [[Cowboy Plush]] bought **Code is unique for each [[Cowboy Plush]] bought **Gives {{ Colour |Other|Plushie}} [[Cowboy]] skin **Gives {{ Color |Other|Plushie}} [[Cowboy]] skin ==Changes & Bugfixes== ==Changes & Bugfixes== *The [[Engineer]] {{ Colour |ContentCreator|Wikia}} skin has been put on sale for a day. *The [[Engineer]] {{ Color |ContentCreator|Wikia}} skin has been put on sale for a day. *Beating Wave 5 in the [[Tutorial]] now sets the cash to {{Money|1,600}} instead of {{Money|2,200}}. *Beating Wave 5 in the [[Tutorial]] now sets the cash to {{Money|1,600}} instead of {{Money|2,200}}. *Fixed projectile towers dealing damage to units. *Fixed projectile towers dealing damage to units. Line 34: Line 34: :In '''v1.30.1''': :In '''v1.30.1''': *Fixed {{ Colour |Other|Mako}} skin being impossible to purchase on mobile. *Fixed {{ Color |Other|Mako}} skin being impossible to purchase on mobile. :In '''v1.30.2''': :In '''v1.30.2''': Line 66: Line 66: {{UpdateH1|📜Update Log:}} {{UpdateH1|📜Update Log:}} {{UpdateH3|✨Mako [[DJ Booth|DJ]] finally makes her debut✨}} {{UpdateH3|✨Mako [[DJ Booth|DJ]] finally makes her debut✨}} *The Mako [[DJ Booth|DJ]] is the first of the new <u>{{ Colour |Ultimate}}</u> skin rarity. Ultimate skins separate themselves from the rest of the rarities with their quality and unique interactions with towers, enemies, or their environment! As we explore with more Ultimate skin rarities, we'll find even more ways to make these skins cooler! *The Mako [[DJ Booth|DJ]] is the first of the new <u>{{ Color |Ultimate}}</u> skin rarity. Ultimate skins separate themselves from the rest of the rarities with their quality and unique interactions with towers, enemies, or their environment! As we explore with more Ultimate skin rarities, we'll find even more ways to make these skins cooler! *The skin will be available for purchase for {{Robux|749}} in the Inventory Menu *The skin will be available for purchase for {{Robux|749}} in the Inventory Menu {{UpdateThumbnail|1.30updatelog1.png|Mako [[DJ Booth|DJ]] Skin}} {{UpdateThumbnail|1.30updatelog1.png|Mako [[DJ Booth|DJ]] Skin}}"
+  },
+  "classification": {
+    "is_tower_page": false,
+    "reason": "template/category heuristic"
+  },
+  "structured_stats": {
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "description": "'''v1.30.0''' is the eighty-third update to be released in Tower Defense Simulator, on the 4th of September 2024. It added two skins, the {{Color|Other|Mako}} [[DJ Booth]] and the {{Color|Other|Plushie}} [[Cowboy]].\n\nThis update encompassed three versions, the main v1.30.0 update (released 4 September 2024) and two minor updates, the v1.30.1 update (released 4 September 2024) and v1.30.2 (released 11 September 2024).",
+    "upgrade_modes": {
+      "regular": [],
+      "pvp": []
+    },
+    "upgrade_templates": [],
+    "statistics_tables": {
+      "regular": [],
+      "pvp": []
+    },
+    "detections_and_limits": {
+      "regular": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null,
+        "placement_limit": null
+      },
+      "pvp": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null
+      }
+    },
+    "infoboxes": [],
+    "likely_infobox": null,
+    "template_count": 29
+  },
+  "conflicts": {
+    "priority_rule": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "potential_conflicts": [],
+    "notes": [
+      "Different upgrade levels can legitimately differ.",
+      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+    ]
+  },
+  "categories": [
+    {
+      "ns": 14,
+      "title": "Category:Modern Updates"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Updates"
+    }
+  ],
+  "backlinks": [
+    {
+      "title": "Crook Boss",
+      "pageid": 226
+    },
+    {
+      "title": "Update Log",
+      "pageid": 850
+    },
+    {
+      "title": "DJ Booth",
+      "pageid": 2235
+    },
+    {
+      "title": "Cowboy",
+      "pageid": 7565
+    },
+    {
+      "title": "Minigunner/Gallery",
+      "pageid": 10617
+    },
+    {
+      "title": "DJ Booth/Gallery",
+      "pageid": 11252
+    },
+    {
+      "title": "Cowboy/Gallery",
+      "pageid": 11331
+    },
+    {
+      "title": "Golden Cowboy",
+      "pageid": 30799
+    },
+    {
+      "title": "BETA v1.0",
+      "pageid": 31151
+    },
+    {
+      "title": "BETA v1.1",
+      "pageid": 31153
+    },
+    {
+      "title": "BETA v1.2",
+      "pageid": 31154
+    },
+    {
+      "title": "BETA v1.3",
+      "pageid": 31157
+    },
+    {
+      "title": "BETA v1.4",
+      "pageid": 31158
+    },
+    {
+      "title": "BETA v1.5",
+      "pageid": 31159
+    },
+    {
+      "title": "BETA v1.6",
+      "pageid": 31164
+    },
+    {
+      "title": "BETA v1.7",
+      "pageid": 31171
+    },
+    {
+      "title": "Hardcore Testing BETA",
+      "pageid": 31172
+    },
+    {
+      "title": "BETA v1.8",
+      "pageid": 31176
+    },
+    {
+      "title": "BETA v1.9",
+      "pageid": 31183
+    },
+    {
+      "title": "BETA v1.10",
+      "pageid": 31192
+    },
+    {
+      "title": "Release v1.0",
+      "pageid": 31193
+    },
+    {
+      "title": "Release v1.1",
+      "pageid": 31201
+    },
+    {
+      "title": "Release v1.2",
+      "pageid": 31208
+    },
+    {
+      "title": "Release v1.3",
+      "pageid": 31214
+    },
+    {
+      "title": "Release v1.4",
+      "pageid": 31239
+    },
+    {
+      "title": "Release v1.5",
+      "pageid": 31252
+    },
+    {
+      "title": "Release v1.6",
+      "pageid": 31260
+    },
+    {
+      "title": "V1.2.5",
+      "pageid": 31273
+    },
+    {
+      "title": "Release v1.7",
+      "pageid": 31291
+    },
+    {
+      "title": "Release v1.8",
+      "pageid": 31317
+    },
+    {
+      "title": "Release v1.9",
+      "pageid": 31323
+    },
+    {
+      "title": "Release v1.10",
+      "pageid": 31324
+    },
+    {
+      "title": "Release v1.11",
+      "pageid": 31333
+    },
+    {
+      "title": "V1.0.0",
+      "pageid": 31341
+    },
+    {
+      "title": "Overhaul v1.0",
+      "pageid": 31371
+    },
+    {
+      "title": "Overhaul v1.1",
+      "pageid": 31380
+    },
+    {
+      "title": "Overhaul v1.2",
+      "pageid": 31387
+    },
+    {
+      "title": "Overhaul v1.3",
+      "pageid": 31396
+    },
+    {
+      "title": "V1.3.0",
+      "pageid": 31437
+    },
+    {
+      "title": "Overhaul v1.4",
+      "pageid": 31547
+    },
+    {
+      "title": "V1.3.1",
+      "pageid": 31551
+    },
+    {
+      "title": "V1.0.1",
+      "pageid": 31611
+    },
+    {
+      "title": "V1.0.2",
+      "pageid": 31650
+    },
+    {
+      "title": "V1.1.0",
+      "pageid": 31653
+    },
+    {
+      "title": "V1.2.0",
+      "pageid": 31668
+    },
+    {
+      "title": "V1.2.1",
+      "pageid": 31690
+    },
+    {
+      "title": "V1.2.2",
+      "pageid": 31695
+    },
+    {
+      "title": "V1.2.3",
+      "pageid": 31698
+    },
+    {
+      "title": "V1.2.4",
+      "pageid": 31699
+    },
+    {
+      "title": "V1.3.2",
+      "pageid": 32007
+    }
+  ],
+  "templates": [
+    {
+      "ns": 10,
+      "title": "Template:Update",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Money",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Gallery",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:GalleryHeader",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateLog",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateBanner",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateH1",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateH3",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Robux",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateThumbnail",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateH2",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateWhiteText",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:UpdateNavBox",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Money",
+      "exists": true
+    }
+  ],
+  "related_pages": [],
+  "raw_wikitext_file": "tds_bridge/result.txt",
+  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
 }
