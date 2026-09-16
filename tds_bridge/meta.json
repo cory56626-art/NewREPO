@@ -1,21 +1,6 @@
 {
-  "mode": "verify",
-  "requested": "Skin Series",
-  "title": "Skin Series",
-  "pageid": 50559,
-  "latest_revid": 530210,
-  "latest_timestamp": "2026-07-03T14:13:27Z",
-  "source_url": "https://tds.fandom.com/wiki/Skin_Series",
-  "classification": {
-    "is_tower_page": false,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  }
+  "mode": "search",
+  "requested": "Ultimate",
+  "known_alias_target": null,
+  "selection_policy": "No fuzzy candidate is ever auto-selected."
 }
