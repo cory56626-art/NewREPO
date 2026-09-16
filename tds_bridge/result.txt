@@ -1,89 +1,212 @@
 {{Update
-|title1 = v1.30.0
-|image1 = v1.30.0Thumbnail.png
-|release_date = 4 September 2024 (v1.30.0)
-|minor_updates = v1.30.1 (4 September 2024)<br>v1.30.2 (11 September 2024)
-|feed_title = 🔵 Mako DJ 🔴
-|feed_color = Yellow
-|previous_update = [[v1.29.0]]
-|next_update = [[v1.31.0]]
+|title1 = v1.51.0
+|image1 = RocketeerThumbnail.png
+|release_date = 29 January 2025 (v1.51.0)
+|minor_updates = v1.51.0a (30 January 2025)<br/>v1.51.1 (31 January 2025)<br/>v1.51.1a (1 February 2025)
+|feed_title = 🧨 Lunar New Year 🧨
+|feed_color = Beige
+|previous_update = [[v1.50.0]]
+|next_update = [[v1.52.0]]
 }}
-__TOC__
-==Description==
-'''v1.30.0''' is the eighty-third update to be released in Tower Defense Simulator, on the 4th of September 2024. It added two skins, the {{Color|Other|Mako}} [[DJ Booth]] and the {{Color|Other|Plushie}} [[Cowboy]].
 
-This update encompassed three versions, the main v1.30.0 update (released 4 September 2024) and two minor updates, the v1.30.1 update (released 4 September 2024) and v1.30.2 (released 11 September 2024).
+==Description==
+'''v1.51.0''' is the one hundred and fourth update to be released in Tower Defense Simulator, on the 29th of January 2025. It added both the [[Rocketeer]] rework and the [[Lunar Crate]].
+
+This update contains four updates, the main v1.51.0 (released 29 January 2025) and three minor updates, the v1.51.0a (released 30 January 2025), v1.51.1 (released 31 January 2025) and v1.51.1a (released 1 February 2025).
 
 ==Additions==
-===Skins===
-*{{Color|Other|Mako}} [[DJ Booth]]
+===Skincrates===
+*[[Lunar Crate]]
+**Contains three skins:
+***{{Color|LunarYear|Lunar}} [[Rocketeer]]
+***{{Color|LunarYear|Lunar}} [[Hallow Punk]]
+***{{Color|LunarYear|Lunar}} [[Harvester]]
 
-===Miscellanous===
-*New skin rarity: {{Color|Ultimate|Ultimate}}
-**{{Color|Ultimate|Ultimate}} skins can have special interactions with towers, enemies and the environment.
-*New [[Codes|code]] obtained by purchasing a [[Cowboy Plush]]
-**Code is unique for each [[Cowboy Plush]] bought
-**Gives {{Color|Other|Plushie}} [[Cowboy]] skin
+===Nametags===
+*[[Lunar Nametag]]
 
 ==Changes & Bugfixes==
-*The [[Engineer]] {{Color|ContentCreator|Wikia}} skin has been put on sale for a day.
-*Beating Wave 5 in the [[Tutorial]] now sets the cash to {{Money|1,600}} instead of {{Money|2,200}}.
-*Fixed projectile towers dealing damage to units.
-*Fixed constantly switching between [[Time Scale]] speeds not progressing the timer, which allowed for a wave to be much longer than intended.
-*Fixed [[DJ Booth]]'s cooldown when selecting another track.
+===Towers===
+*[[Rocketeer]] reworked.
+**Updated accuracy, now accuracy of projectiles can be altered through upgrades.
+**Now can fire out multiple rockets at once. Each rocket targets a different enemy in the spread angle of the  [[Rocketeer]], though if there is less enemies than missiles, multiple missiles will target the same enemy.
+**Damage update, now can generate fireworks.
+**Statistical Changes:
+***'''Level 2'''
+****Renamed from ''Direct Hit'' to ''Heavier Payload''.
+***'''Level 4'''
+****Cost decreased from {{Money|20,000}} to {{Money|18,500}}.
+****Damage decreased from +250 to -60.
+****Range increased from +3 to +5.
+****Explosion Range increased from 4 to 4 > 5.
+****Missile Count increased from +0 to +3.
+****Renamed from ''Artillery Cannon'' to ''Missile Maelstrom''.
+*{{Color|Lunar|Masquerade}} [[Medic]] skin appearance changed.
+*[[Harvester]] and its {{Color|LunarYear|Lunar}} skin are now available through a limited time gamepass for {{Robux|799}}.
+*[[Hallow Punk]] and its {{Color|LunarYear|Lunar}} skin are now available through a limited time gamepass for {{Robux|399}}.
+*[[Archer]] gamepass taken offsale.
 
-:In '''v1.30.1''':
-*Fixed {{Color|Other|Mako}} skin being impossible to purchase on mobile.
+:In '''v1.51.1a''':
+*[[Harvester]] gamepass taken offsale.
+*[[Hallow Punk]] gamepass taken offsale.
 
-:In '''v1.30.2''':
-*Version number changed from ''v1.30.1'' to ''v1.30.2''.
+===Enemies===
+*[[Quick]]'s cash given is now mode dependent.
+**{{Money|8}} on death in [[Molten Mode|Molten]] mode and [[Fallen Mode|Fallen]] mode.
+**{{Money|10}} on death in [[Pizza Party]].
+**{{Money|5}} on death if no value is set for the mode.
+*[[Scout (Pizza Party)|Scout]] cash given increased from {{Money|400}} to {{Money|500}} upon death.
+*[[Breaker2]] cash given is now mode dependent.
+**{{Money|25}} on death in [[Easy Mode|Easy]] mode, [[Casual Mode|Casual]] mode, [[Intermediate Mode|Intermediate]] mode, [[Molten Mode|Molten]] mode and [[Fallen Mode|Fallen]] mode.
+**{{Money|100}} on death in [[Pizza Party]].
+**{{Money|5}} on death if no value is set.
+*[[Citizen Plush]] cash given increased from {{Money|300}} to {{Money|400}} upon death.
+*[[Shotgunner (Pizza Party)|Shotgunner]] changed.
+**Health decreased from 2,500 to 2,250.
+**Cash given increased from {{Money|1,000}} to {{Money|1,500}} every 50% health lost.
+*[[Marionette]] changed.
+**Cash given increased from {{Money|250}} to {{Money|325}} on death.
+**[[Stun Immunity]] removed.
+*[[Clown]] cash given increased from {{Money|1,200}} to {{Money|1,500}} upon death.
+*[[Knight]] cash given increased from {{Money|450}} to {{Money|700}} upon death.
+*[[Monkey]] cash given increased from {{Money|800}} to {{Money|1,000}} upon death.
+*[[Cobalt Guard]] cash given increased from {{Money|1,000}} to {{Money|1,500}} every 25% health lost.
+*[[Commander (Pizza Party)|Commander]] cash given increased from {{Money|2,000}} to {{Money|3,000}} every 25% health lost.
+*[[Sock Puppet]] changed.
+**Cash given increased from {{Money|1,600}} every 180,000 health lost to {{Money|900}} every 50% health lost.
+**[[Stun Immunity]] removed.
+**[[Freeze Immunity]] removed.
+**Fixed reward threshold being set to an insanely high value.
+*[[Balloon Kid]] changed.
+**Cash given increased from {{Money|1,250}} to {{Money|1,500}} upon death.
+**[[Stun Immunity]] removed.
+*[[Minigunner (Pizza Party)|Minigunner]] changed.
+**Speed decreased from Below Average (2.5) to Slightly Slow (2.25).
+**Cash given increased from {{Money|3,000}} to {{Money|4,000}} every 10% health.
+*[[Mimic Umbra]] cash given increased from {{Money|4,000}} to {{Money|6,250}} every 25% health lost.
+*[[Voodoo Doll]] changed.
+**Cash given increased from {{Money|1,625}} to {{Money|2,000}} every 25% health lost.
+**[[Stun Immunity]] removed.
+*[[Executioner (Pizza Party)|Executioner Plush]] changed.
+**Health decreased from 45,000 to 20,000.
+**[[Shield Health]] increased from 55,000 to 65,000.
+**Speed decreased from Slightly Slow (2.25) to Slow (1.75).
+**Cash given increased from {{Money|900}} to {{Money|1,000}} every 1% health lost.
+**[[Stun Immunity]] removed.
+*[[Reaper]] changed.
+**Defense removed.
+**Cash given increased from {{Money|2,500}} every 25% health to {{Money|4,000}} every 10% health.
+*[[Wox the Fox]] changed.
+**Speed decreased from Very Slow (1) to Extremely Slow (0.9).
+**Cash given increased from {{Money|4,500}} to {{Money|7,500}} every 1% health lost.
+
+===Maps===
+*Removed [[Enemies Beta]] from [[Mason Arch]], [[Winter Stronghold]], [[Derelict Outpost]], [[Musaceae Kingdom]], [[Enchanted Forest]] and [[Infernal Abyss]].
+
+:In '''v1.51.1''':
+*Removed [[Enemies Beta]] from [[Black Spot Exchange]]
+*Fixed [[Black Spot Exchange]] map not loading in, other than the water.
+
+===Nametags===
+*[[Lunar Nametag]] is now guaranteed to appear in the [[Daily Store]] for a week.
+
+===Skincrates===
+*[[Lunar Crate]] and its {{Color|LunarYear|Lunar}} [[Rocketeer]] skin are now guaranteed to appear in the [[Daily Store]] for a week.
+*Fixed {{Color|Premium|Steampunk}} [[Rocketeer]] not being obtainable from the [[Premium Crate]].
+
+==Emotes==
+*[[Snowball]] no longer flings players.
+
+===Miscellaneous===
+*[[Pizza Party]] updated.
+**Wave structure changed.
+**Wave 39 and 40 wave bonus increased from {{Money|50,000}} to {{Money|75,000}}.
+**{{Coins|Coins}} base rewards boosted from {{Coins|600}} to {{Coins|634}}.
+**Triumph bonus increased from {{Coins|150}} to {{Coins|200}}.
+*Bans now appear in chat as system messages.
+*Added [[Dev (Map)|Dev]] as a selectable map in [[Sandbox Mode|Sandbox]] mode.
+
+:In '''v1.51.0a''':
+*Fixed the [[Operation I.C.E Event]] Battle Pass menu not appearing.
+
+==Official Update Trailer==
+[[File:Rocketeer Rework - Tower Defense Simulator|750px|thumb|center]]
 
 ==Gallery==
 {{Gallery|Open = Yes|
 {{GalleryHeader|Thumbnails}}
 <gallery>
-V1.30.0Thumbnail.png
-DJREWORKTHUMB.png
+RocketeerThumbnail.png
+FirstPersonMinigunnerThumbnail.png
+v1.49.0Thumbnail.png
+FireworkTechnicianThumbnail2.png
 </gallery>
 
 {{GalleryHeader|Icons}}
 <gallery>
-MIKU!!(x2).png
+RocketeerUpdateIcon.png
 </gallery>
 
 {{GalleryHeader|Renders}}
 <gallery>
-V1.30.0Render.png
+V1.51.0Render.png
 </gallery>
 }}
 
-==Official Update Log==
-''NOTE: Not everything here will be accurate, as this is transcribed from the in-game update log. Several things may be incorrect and things that are missing.''
+==Official Update Log== 
+''NOTE: Not everything here will be accurate, as this is transcribed from the in-game update log. Several things may be incorrect, and there may be things that are missing.''
 
-===v1.30.0===
+===v1.51.0===
 {{UpdateLog|
-{{UpdateBanner|v1.30.0Render.png|🔵 Mako DJ 🔴}}
+{{UpdateBanner|V1.51.0Render.png|🧨 Lunar New Year 🧨}}
 {{UpdateH1|📜Update Log:}}
-{{UpdateH3|✨Mako [[DJ Booth|DJ]] finally makes her debut✨}}
-*The Mako [[DJ Booth|DJ]] is the first of the new <u>{{Color|Ultimate}}</u> skin rarity. Ultimate skins separate themselves from the rest of the rarities with their quality and unique interactions with towers, enemies, or their environment! As we explore with more Ultimate skin rarities, we'll find even more ways to make these skins cooler!
-*The skin will be available for purchase for {{Robux|749}} in the Inventory Menu
-{{UpdateThumbnail|1.30updatelog1.png|Mako [[DJ Booth|DJ]] Skin}}
-{{UpdateThumbnail|1.30updatelog2.png|Towers placed in Mako [[DJ Booth|DJ]]'s range will have a custom aura🎶}}
-{{UpdateH2|🤠Plushie [[Cowboy]] Skin!}}
-{{UpdateThumbnail|1.30updatelog3.png|Plushie}}
-{{UpdateH3|🐛Bug Fixes}}
-*Fixed [[DJ Booth|DJ]] not accounting for towers sold
-*Fixed [[DJ Booth|DJ]]'s slowness debuff applying to Boss enemies
-*Fixed options cooldown when reselecting the current track
-*Fixed wave timer not scaling correctly with [[Time Scale|timescale]]
-*Fixed projectile towers doing damage to units
-{{UpdateWhiteText|'''🔥Next Week🔥'''}}
-*4 new skins👀
-*...keep an eye on our socials for more info📢
+{{UpdateH2|[[Rocketeer]] Rework}}
+{{UpdateWhiteText|Missiles will lock-on to 4 different targets if in range<br/>If not enough targets in range then remaining missiles will lock onto targets in range.}}
+{{UpdateThumbnail|V1.51.0Log1.png}}
+{{UpdateGallery|
+{{UpdateGalleryItem|DefaultRocketeerIconIGJan25.png|Rocketeer|Default}}
+{{UpdateGalleryItem|PumpkinRocketeerIconIGJan25.png|Rocketeer|Pumpkin}}
+{{UpdateGalleryItem|SteampunkRocketeerIconIGJan25.png|Rocketeer|Steampunk}}
+{{UpdateGalleryItem|ToyRocketeerIconIGJan25.png|Rocketeer|Toy}}
+{{UpdateGalleryItem|BosankaRocketeerIconIGJan25.png|Rocketeer|Bosanka}}
+{{UpdateGalleryItem|DarkMatterRocketeerIconIGJan25.png|Rocketeer|Dark Matter}}
+{{UpdateGalleryItem|XmasRocketeerIconIGJan25.png|Rocketeer|Xmas}}
+}}
+{{UpdateH2|💥Lunar New Year💥}}
+{{UpdateWhiteText|[[Lunar Crate|Lunar New Year Crate]]<br/>On sale for a week only for 5,000 coins!<br/>New [[Lunar Nametag]]<br/>[[Hallow Punk]] and [[Harvester]] has returned on sale for 72 hours!<br/>Purchasing [[Hallow Punk]] and/or [[Harvester]] will grant you a free Lunar skin for said tower!}}
+{{UpdateGallery|
+{{UpdateGalleryItem|LunarRocketeerIconIG.png|Rocketeer|Lunar}}
+{{UpdateGalleryItem|LunarHallowPunkIconIG.png|Hallow Punk|Lunar}}
+{{UpdateGalleryItem|LunarHarvesterIconIG.png|Harvester|Lunar}}
+{{UpdateGalleryItem|LunarNametagIcon.png}}
+}}
+{{UpdateH2|🔥Next Week🔥}}
+{{UpdateWhiteText|[[Badlands II|Badlands]] Mini-Rework}}
+{{UpdateThumbnail|V1.51.0Log2.png|Next Ultimate Skin}}
+{{UpdateThumbnail|V1.51.0Log3.png|Fortress [[Rocketeer]]}}
+{{UpdateWhiteText|...keep an eye on our socials for more info!📢}}
+{{UpdateH1|🔨Game Changes:}}
+{{UpdateH2|[[Pizza Party]] Changes}}
+*Increased win reward from 1125 coins to 1250 coins
+*Increase to enemy kill eco across almost all enemies
+*Tiny nerf to [[Shotgunner (Pizza Party)|Shotgunner]] Health (2500 > 2250)
+*Tiny nerf to [[Wox the Fox|Wox]] Speed (1 > 0.9)
+*Massive increase to final wave eco bonus (50,000 > 75,000 in Solos)
+*Tiny nerf to [[Minigunner (Pizza Party)|Minigunner]] speed (2.5 > 2.25)
+*Removed Stun immune from [[Marionette]]
+*Removed Stun immune from [[Minigunner (Pizza Party)|Minigunner]]
+*Tiny nerf to [[Executioner (Pizza Party)|Executioner Plush]] Speed (2 > 1.75)
+*Reduced total health for [[Executioner (Pizza Party)|Executioner Plush]] (100,000 > 85,000)
+{{UpdateH2|[[Rocketeer]]}}
+*Updated animations and visuals
+*Lvl 4 Cost (20,000 > 18,500)
+*Lvl 4 Explosion Radius (4 > 5)
+*Lvl 4 Damage (400 > 90)
+*Final level now fires 4 missiles
 }}
 
 
 
 {{UpdateNavBox}}
-{{DISPLAYTITLE:v1.30.0}}
+{{DISPLAYTITLE:v1.51.0}}
 [[Category:Modern Updates]]
