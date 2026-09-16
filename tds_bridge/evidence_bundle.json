@@ -1,78 +1,513 @@
 {
-  "mode": "verify",
-  "requested": "Ultimate Skins",
-  "resolution": {
-    "status": "needs_selection",
-    "input": "Ultimate Skins",
-    "alias_used": null,
-    "target": "Ultimate Skins",
-    "candidates": [
-      {
-        "title": "V1.30.0",
-        "pageid": 42419,
-        "snippet": "",
-        "size": 3579,
-        "wordcount": 486,
-        "timestamp": "2026-06-05T07:53:17Z"
-      },
-      {
-        "title": "Daily Store",
-        "pageid": 34013,
-        "snippet": "",
-        "size": 5141,
-        "wordcount": 827,
-        "timestamp": "2026-08-27T13:38:08Z"
-      },
-      {
-        "title": "Merch Shop Skins",
-        "pageid": 45873,
-        "snippet": "",
-        "size": 5360,
-        "wordcount": 720,
-        "timestamp": "2026-08-05T15:12:54Z"
-      },
-      {
-        "title": "Crates",
-        "pageid": 1174,
-        "snippet": "",
-        "size": 9258,
-        "wordcount": 1256,
-        "timestamp": "2026-08-26T14:19:12Z"
-      },
-      {
-        "title": "V1.52.0",
-        "pageid": 46319,
-        "snippet": "",
-        "size": 15221,
-        "wordcount": 2066,
-        "timestamp": "2026-06-05T07:58:12Z"
-      },
-      {
-        "title": "DJ Booth Figurine",
-        "pageid": 46248,
-        "snippet": "",
-        "size": 4278,
-        "wordcount": 612,
-        "timestamp": "2026-06-05T07:58:10Z"
-      },
-      {
-        "title": "Clown",
-        "pageid": 46040,
-        "snippet": "",
-        "size": 3543,
-        "wordcount": 509,
-        "timestamp": "2026-06-08T21:12:49Z"
-      },
-      {
-        "title": "Skin Series",
-        "pageid": 50559,
-        "snippet": "",
-        "size": 765,
-        "wordcount": 104,
-        "timestamp": "2026-07-03T14:13:27Z"
-      }
-    ],
-    "message": "No exact/redirect match. Fuzzy candidates returned; NONE chosen automatically."
+  "meta": {
+    "mode": "verify",
+    "requested": "Skin Series",
+    "title": "Skin Series",
+    "pageid": 50559,
+    "latest_revid": 530210,
+    "latest_timestamp": "2026-07-03T14:13:27Z",
+    "source_url": "https://tds.fandom.com/wiki/Skin_Series",
+    "classification": {
+      "is_tower_page": false,
+      "reason": "template/category heuristic"
+    },
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    }
   },
-  "warning": "No fuzzy result auto-selected."
+  "resolution": {
+    "status": "resolved",
+    "input": "Skin Series",
+    "alias_used": null,
+    "target": "Skin Series",
+    "canonical_title": "Skin Series",
+    "pageid": 50559,
+    "redirects": [],
+    "selection_method": "exact_or_redirect"
+  },
+  "revision_history": [
+    {
+      "revid": 530210,
+      "parentid": 469034,
+      "timestamp": "2026-07-03T14:13:27Z",
+      "user": "Gabonnie",
+      "comment": "[IPE-NEXT] Quick edit",
+      "size": 765,
+      "sha1": "9c47b56fec1f2929e8241485477d1d50581671cf"
+    },
+    {
+      "revid": 469034,
+      "parentid": 467568,
+      "timestamp": "2026-06-05T10:12:40Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 765,
+      "sha1": "764a1899a532134bad80c23567c31714fa772218"
+    },
+    {
+      "revid": 467568,
+      "parentid": 368348,
+      "timestamp": "2026-06-05T07:07:00Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 752,
+      "sha1": "4ee84a7f6ef7784d76c63917e395606cbadcc4f7"
+    },
+    {
+      "revid": 368348,
+      "parentid": 309517,
+      "timestamp": "2026-03-01T20:32:24Z",
+      "user": "Mentin123",
+      "comment": "Updating page links (automatic)",
+      "size": 684,
+      "sha1": "c564bb4af170d535c7a3da633df632caf328168d"
+    },
+    {
+      "revid": 309517,
+      "parentid": 283682,
+      "timestamp": "2025-11-29T15:07:15Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 674,
+      "sha1": "52d6352c6030cccb7cae6b685237b8888446f0ee"
+    },
+    {
+      "revid": 283682,
+      "parentid": 277556,
+      "timestamp": "2025-08-26T10:11:59Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 678,
+      "sha1": "d7311245a89263aaae560a651c0ea59809212e59"
+    },
+    {
+      "revid": 277556,
+      "parentid": 273731,
+      "timestamp": "2025-07-21T08:33:46Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 816,
+      "sha1": "f5a16fc31e4160f9c5568aa35e34fb8eda668f60"
+    },
+    {
+      "revid": 273731,
+      "parentid": 273730,
+      "timestamp": "2025-06-28T12:57:34Z",
+      "user": "Mentin123",
+      "comment": "Protected \"[[Skin Series]]\" ([Edit=Allow only autoconfirmed users] (indefinite) [Move=Allow only administrators] (indefinite))",
+      "size": 874,
+      "sha1": "dbf3444b18036f58b9335c52b31c4c0a146f1018"
+    },
+    {
+      "revid": 273730,
+      "parentid": 273729,
+      "timestamp": "2025-06-28T12:57:22Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 874,
+      "sha1": "dbf3444b18036f58b9335c52b31c4c0a146f1018"
+    },
+    {
+      "revid": 273729,
+      "parentid": 273728,
+      "timestamp": "2025-06-28T12:56:50Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 1017,
+      "sha1": "c4de6fff6208d7ecb0a3a8468c189f5765697ece"
+    }
+  ],
+  "revision_diff": {
+    "fromrevid": 469034,
+    "torevid": 530210,
+    "fromtitle": "Skin Series",
+    "totitle": "Skin Series",
+    "fromuser": "Mentin123",
+    "touser": "Gabonnie",
+    "fromcomment": "",
+    "tocomment": "[IPE-NEXT] Quick edit",
+    "diff_text": "Line 13: Line 13: |[[File:CodeStuff.png|300px|link=Traditional Code Skins]] |[[File:CodeStuff.png|300px|link=Traditional Code Skins]] |- |- ⚫ |[[Traditional Code Skins]] |[[Merch Shop Skins]] |[[Merch Shop Skins]] ⚫ |[[Traditional Code Skins]] |} |} </div> </div>"
+  },
+  "classification": {
+    "is_tower_page": false,
+    "reason": "template/category heuristic"
+  },
+  "structured_stats": {
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "description": "",
+    "upgrade_modes": {
+      "regular": [],
+      "pvp": []
+    },
+    "upgrade_templates": [],
+    "statistics_tables": {
+      "regular": [],
+      "pvp": []
+    },
+    "detections_and_limits": {
+      "regular": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null,
+        "placement_limit": null
+      },
+      "pvp": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null
+      }
+    },
+    "infoboxes": [],
+    "likely_infobox": null,
+    "template_count": 1
+  },
+  "conflicts": {
+    "priority_rule": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "potential_conflicts": [],
+    "notes": [
+      "Different upgrade levels can legitimately differ.",
+      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+    ]
+  },
+  "categories": [
+    {
+      "ns": 14,
+      "title": "Category:Browse"
+    }
+  ],
+  "backlinks": [
+    {
+      "title": "Waves",
+      "pageid": 104
+    },
+    {
+      "title": "Maps",
+      "pageid": 111
+    },
+    {
+      "title": "How to Play",
+      "pageid": 119
+    },
+    {
+      "title": "Towers",
+      "pageid": 122
+    },
+    {
+      "title": "Events",
+      "pageid": 246
+    },
+    {
+      "title": "Emotes",
+      "pageid": 656
+    },
+    {
+      "title": "Codes",
+      "pageid": 657
+    },
+    {
+      "title": "Update Log",
+      "pageid": 850
+    },
+    {
+      "title": "Miscellaneous",
+      "pageid": 857
+    },
+    {
+      "title": "Splash Damage",
+      "pageid": 1007
+    },
+    {
+      "title": "Crates",
+      "pageid": 1174
+    },
+    {
+      "title": "Login Rewards",
+      "pageid": 1728
+    },
+    {
+      "title": "Hidden Wave",
+      "pageid": 2531
+    },
+    {
+      "title": "Event Store",
+      "pageid": 2758
+    },
+    {
+      "title": "Badges",
+      "pageid": 3559
+    },
+    {
+      "title": "MEGA Servers",
+      "pageid": 6552
+    },
+    {
+      "title": "Attributes",
+      "pageid": 6568
+    },
+    {
+      "title": "Soundtrack",
+      "pageid": 6663
+    },
+    {
+      "title": "Discord Art Contest Winners",
+      "pageid": 7168
+    },
+    {
+      "title": "Units",
+      "pageid": 9458
+    },
+    {
+      "title": "Enemies",
+      "pageid": 9999
+    },
+    {
+      "title": "Gamemodes",
+      "pageid": 12274
+    },
+    {
+      "title": "Thumbnails",
+      "pageid": 13497
+    },
+    {
+      "title": "Features",
+      "pageid": 15039
+    },
+    {
+      "title": "Gamepasses",
+      "pageid": 21660
+    },
+    {
+      "title": "Rewards",
+      "pageid": 22620
+    },
+    {
+      "title": "Gears",
+      "pageid": 22710
+    },
+    {
+      "title": "Trailers",
+      "pageid": 23296
+    },
+    {
+      "title": "Robux Shop",
+      "pageid": 23448
+    },
+    {
+      "title": "Tower Defense Simulator Toys",
+      "pageid": 23695
+    },
+    {
+      "title": "Currencies",
+      "pageid": 25398
+    },
+    {
+      "title": "Merchandise",
+      "pageid": 26062
+    },
+    {
+      "title": "Narrators",
+      "pageid": 27914
+    },
+    {
+      "title": "Passes",
+      "pageid": 29201
+    },
+    {
+      "title": "Firerate Bug",
+      "pageid": 29369
+    },
+    {
+      "title": "Buffs",
+      "pageid": 29880
+    },
+    {
+      "title": "Modifiers",
+      "pageid": 31275
+    },
+    {
+      "title": "Gift Box",
+      "pageid": 32834
+    },
+    {
+      "title": "Daily Store",
+      "pageid": 34013
+    },
+    {
+      "title": "Nametags",
+      "pageid": 34031
+    },
+    {
+      "title": "Levels",
+      "pageid": 34344
+    },
+    {
+      "title": "Settings",
+      "pageid": 34590
+    },
+    {
+      "title": "Charms",
+      "pageid": 35133
+    },
+    {
+      "title": "Sales",
+      "pageid": 35540
+    },
+    {
+      "title": "Clothing",
+      "pageid": 35730
+    },
+    {
+      "title": "Interactables",
+      "pageid": 36978
+    },
+    {
+      "title": "Quests",
+      "pageid": 37267
+    },
+    {
+      "title": "Starter Bundle",
+      "pageid": 38959
+    },
+    {
+      "title": "Mission Quests",
+      "pageid": 39206
+    },
+    {
+      "title": "Refund Center",
+      "pageid": 39484
+    }
+  ],
+  "templates": [
+    {
+      "ns": 10,
+      "title": "Template:BrowseNavBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:BrowseNavBox/cat",
+      "exists": true
+    }
+  ],
+  "related_pages": [
+    {
+      "title": "Content Creator Skins",
+      "score": 3,
+      "pageid": 41905,
+      "latest_revid": 491689,
+      "latest_timestamp": "2026-06-15T06:25:16Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|ContentCreator|Content Creator Skins}}\n|image1 = ContentCreatorSkinsUpdate.png\n|rarities = {{Color|Rare}}<br/>{{Color|Legendary}}\n|skins = 12\n}}\n__TOC__\n==Description==\n'''Content Creator Skins''' is a skin series based on Tower Defense Simulator content creators. This skin series is unique, as it does not actually have any obtainable crate in which it is obtained from. Instead, skins will only appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n\nThe cost of the skin depends on their rarity. {{Color|Rare}} skins cost {{Coins|3,000}} while {{Color|Legendary}} skins cost {{Coins|4,500}}. There is also unused cost for {{Color|Common}} and {{Color|Uncommon}} skins, that being {{Coins|3,000}}. There is one exception to these, that being the {{Color|ContentCreator|Jordan}} [[Brawler]] skin, as it costs {{Coins|3,232}}.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:IsaacWardenIcon.png|175px]]\n|[[File:YTEngiIcon.png|175px]]\n|[[File:YTAccelIcon.png|175px]]\n|[[File:May17EggryptedCommander.png|175px]]\n|-\n!Skin\n|{{Color|ContentCreator|Isaac}}\n|{{Color|ContentCreator|Wikia}}\n|{{Color|ContentCreator|Elite}}\n|{{Color|ContentCreator|Eggrypted}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|4,500}}\n|{{Coins|3,000}}\n|{{Coins|4,500}}\n|{{Coins|3,000}}\n|-\n!Tower\n|[[Warden]]\n|[[Engineer]]\n|[[Accelerator]]\n|[[Commander]]\n|-\n!\n|[[File:PropellarsRangerIcon.png|175px]]\n|[[File:Feb25CorsoCrookBossIcon.png|175px]]\n|[[File:SweakingMinigunnerIcon.png|175px]]\n|[[File:DanksAcceleratorIconIG.png|175px]]\n|-\n!Skin\n|{{Color|ContentCreator|Propellars}}\n|{{Color|ContentCreator|Corso}}\n|{{Color|ContentCreator|Sweaking}}\n|{{Color|ContentCreator|Dank}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|4,500}}\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|4,500}}\n|-\n!Tower\n|[[Ranger]]\n|[[Crook Boss]]\n|[[Minigunner]]   \n|[[Accelerator]]\n|-\n!\n|[[File:CrazRexEngineerIcon.png|175px]]\n|[[File:5oulsRangerIconIG.png|175px]]\n|[[File:MegalodonCowboy.png|175px]]\n|[[File:JordanBrawlerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|ContentCreator|CrazRex}}\n|{{Color|ContentCreator|5ouls}}\n|{{Color|ContentCreator|MegaBit}}\n|{{Color|ContentCreator|Jordan}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|3,232}}\n|-\n!Tower\n|[[Engineer]]\n|[[Ranger]]\n|[[Cowboy]]\n|[[Brawler]]\n|}\n\n==Trivia==\n*'''Content Creator Skins''' are all based on Tower Defense Simulator content creators.\n**The {{Color|ContentCreator|Isaac}} skin is based on [https://www.roblox.com/users/63238912/profile CEOofIsaac].\n**The {{Color|ContentCreator|Wikia}} skin is based on [https://www.youtube.com/@WikiaColors WikiaColors].\n**The {{Color|ContentCreator|Elite}} skin is based on [https://www.youtube.com/@EliteElite Elite].\n**The {{Color|ContentCreator|Eggrypted}} skin is based on [https://www.youtube.com/@eggrypted Eggrypted].\n**The {{Color|ContentCreator|Propellars}} skin is based on [https://www.youtube.com/c/propellars propellars].\n**The {{Color|ContentCreator|Corso}} skin is based on [https://www.youtube.com/@CORSOBLOX CORSO].\n**The {{Color|ContentCreator|Sweaking}} skin is based on [https://www.youtube.com/@ItzSweaking ItzSweaking]. \n**The {{Color|ContentCreator|Dank}} skin is based on [https://www.youtube.com/@DanksPlatter DanksPlatter].\n***This skin was made as a reward for being one of the first people to triumph [[Infernal Abyss]] on [[Legacy Hardcore Mode]] mode, alongside [https://www.youtube.com/@CrazRex CrazRex] and [https://www.youtube.com/@5ouIs 5ouls]. All of them received a skin.\n**The {{Color|ContentCreator|CrazRex}} skin is based on [https://www.youtube.com/@CrazRex CrazRex].\n***This skin was made as a reward for being one of the first people to triumph [[Infernal Abyss]] on [[Legacy Hardcore Mode]] mode, alongsi"
+    },
+    {
+      "title": "Merch Shop Skins",
+      "score": 3,
+      "pageid": 45873,
+      "latest_revid": 595249,
+      "latest_timestamp": "2026-08-05T15:12:54Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|Other|Merch Shop Skins}}\n|image1 = PlushieCommanderPI.jpg\n|rarities = {{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}\n|skins = 14\n}}\n__TOC__\n==Description==\n'''Merch Shop Skins''', previously '''Plushie Code Skins''', is a skin series which is obtained with a purchase of a specific [[Tower Defense Simulator Toys|plushie]]. Most '''Merch Shop Skins''' have a unique aesthetic appearance and follow a similar theme, though this is not always the case.\n\nOnly players in the United States of America can access the Merch Shop. Additionally, the player has to be over the age of 13 (18 in Texas). While the plushies can be bought at the [https://shop.paradoxum.games/ Paradoxum Games store], this does not come with any skins. At a certain point, these were gotten through codes instead, though this is no longer the case.\n\nPlayers cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate.\n\nAs of [[v2.4.0]], the Merch Shop no longer appears in the [[Main Lobby]] as it has been moved out of bounds into the sky.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:PlCommanderIcon.png|175px]]\n|[[File:PlushieDJ.png|175px]]\n|[[File:PlushScout_0.png|175px]]\n|[[File:PlushieMinigunnerSkin.png|175px]]\n|-\n!Skin\n|{{Color|Other|Plushie}}\n|{{Color|Other|Plushie}}\n|{{Color|Other|Plushie}}\n|{{Color|Other|Plushie}}\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Commander]]\n|[[DJ Booth]]\n|[[Scout]]\n|[[Minigunner]]\n|-\n!\n|[[File:PlushieAccelIcon.png|175px]]\n|[[File:UmbraCommanderIcon.png|175px]]\n|[[File:Plushie Engineer Icon.png|175px]]\n|[[File:PlushieTrapperIcon.png|175px]]\n|-\n!Skin\n|{{Color|Other|Plushie}}\n|{{Color|Other|Umbra}}\n|{{Color|Other|Plushie}}\n|{{Color|Other|Plushie}}\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Event}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Accelerator]]\n|[[Commander]]\n|[[Engineer]]\n|[[Trapper]]\n|-\n!\n|[[File:GoldenPlushieMinigunnerIconIG.png|175px]]\n|[[File:PlushieCowboyIconIG.png|175px]]\n|[[File:PatientZeroAcceleratorIcon.png|175px]]\n|[[File:PlushiePyromancerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Other|Golden Plushie}}\n|{{Color|Other|Plushie}}\n|{{Color|Other|Patient Zero}}\n|{{Color|Other|Plushie}}\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Minigunner]]\n|[[Cowboy]]\n|[[Accelerator]]\n|[[Pyromancer]]\n|-\n!\n|[[File:MechaBunnyCowboyIconIG.png|175px]]\n|[[File:NarratorCrookBossIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Other|Mecha Bunny}}\n|{{Color|Other|Narrator}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Ultimate}}\n|-\n!Tower\n|[[Cowboy]]\n|[[Crook Boss]]\n|}\n\n==Trivia==\n*{{Color|Other|Plushie}} skins have a similar aesthetic and animations.\n**They have a unique placement sound and visual effect in a cloud of dust and a squeak.\n\n==Update History==\n\n{{Scroll|text=\n*'''23 April 2022'''  - [[v1.2.1]]\n**'''Plushie Code Skins''' added with one skin:\n***[[Commander]]: {{Color|Other|Plushie}}\n*'''2 September 2022''' - [[v1.3.2]]\n**One new skin added:\n***[[Minigunner]]: {{Color|Other|Plushie}}\n*'''16 November 2022''' - [[v1.4.2|v1.4.2g]]\n**One new skin added:\n***[[DJ Booth]]: {{Color|Other|Plushie}}\n*'''21 December 2022''' - [[v1.6.0]]\n**Skin rarities added.\n*'''14 April 2023''' - [[V1.7.1]]\n**One new skin added:\n***[[Scout]]: {{Color|Other|Plushie}}\n*'''22 September 2023''' - [[v1.8.5]]\n**One new skin added:\n***[[Accelerator]]: {{Color|Other|Plushie}}\n*'''24 November 2023''' - [[v1.9.4]]\n**One new skin added:\n***[[Engineer]]: {{Color|Other|Plushie}}\n*'''28 October 2023''' - [[v1.9.0]]\n**One new skin added:\n***[[Commander]]: {{Color|Other|Umbra}}\n*'''3 May 2024''' - [[v1.20.0]]\n**One new skin added:\n***[[Trapper]]: {{Color|Other|Plushie}}\n*'''19 July 2024''' - [[v1.26.0]]\n**One new skin added:\n***[[Minigunner]]: {{Color|Other|Golden Plushie}}\n*'''4 September 2024''' - "
+    },
+    {
+      "title": "Star Wars Skins",
+      "score": 3,
+      "pageid": 61470,
+      "latest_revid": 628390,
+      "latest_timestamp": "2026-08-27T00:16:54Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|StarWars|Star Wars Skins}}\n|image1 = StarWarsSkinSeries.png\n|rarities = {{Color|Rare}}<br/>{{Color|Legendary}}\n|skins = 2\n}}\n{{QuoteContainer|\n{{QuoteBox|May the 4th be with you.|Unused Crate Description}}\n}}\n__TOC__\n==Description==\n'''Star Wars Skins''' is a skin series based on ''Star Wars''. This skin series is unique, as it does not actually have any obtainable crate which it is obtained from. Instead, skins will only appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n\nThe cost of the skin depends on their rarity. {{Color|Rare}} skins cost {{Coins|3,000}} while {{Color|Legendary}} skins cost {{Coins|5,000}}.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:VanquisherExecutionerIcon.png|175px]]\n|[[File:SenatorAccelIcon.png|175px]]\n|-\n!Skin\n|{{Color|StarWars|Vanquisher}}\n|{{Color|StarWars|Senator}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|3,000}}\n|{{Coins|5,000}}\n|-\n!Tower\n|[[Executioner]]\n|[[Accelerator]]\n|}\n\n==Trivia==\n*Internally, the '''Star Wars Skins''' are actually an unobtainable ''Star Wars Crate'' which has the same model as the [[Basic Crate]].\n**The crate itself is set to be [[Daily Store]] only, which when combined with its appearance suggests it is not meant to be obtainable and should only function like the [[Content Creator Skins]], which is also a crate.\n*Both skins present as part of this skin series were made for the 4th of May 2024, which is the [[wp:Star Wars Day|Star Wars Day]].\n**The description of the crate which cannot be seen anywhere in-game references this event.\n**When the skins were made unobtainable once the 4th of May 2024 ended, it was mentioned that the developers had plans for them in the future. It is likely them appearing in the [[Daily Store]] is that plan.<ref>[[File:StarWarsSkinsPlanProof.png|280px]]<br/>https://discord.com/channels/587355301083349002/664997359071002637/1237143962075136161 (Tower Defense Simulator Server)</ref>\n*While the skin series and the crate it is internally is referred to as ''Star Wars'', it does not actually contain every ''Star Wars'' skin in the game.\n**There is a {{Color|Deluxe|Galactic}} [[Gladiator]] skin that can be obtained from the [[Deluxe Crate]]. It is meant to represent [[w:c:starwars:Sith Lord|Sith Lord]], though its design does not match any specific one.\n**The [[Warden]] has a {{Color|Deluxe|Galactic}} skin that is also obtained from the [[Deluxe Crate]]. The skin is based on the [[w:c:starwars:Stormtroopers|Stormtroopers]].\n**The {{Color|Mission|Trooper}} [[Commando]] skin is obtained from [[Mission Quests]]. It is based on [[w:c:starwars:Clone commando|Clone commandos]] from ''Star Wars''.\n\n==Update History==\n*'''22 May 2026''' - [[v1.91.0]]\n**'''Star Wars Skins''' added with two skins:\n**:[[Executioner]]: {{Color|StarWars|Vanquisher}}\n**:[[Accelerator]]: {{Color|StarWars|Senator}}\n\n==Notes==\n<references/>\n\n\n\n{{CrateNavBox}}"
+    },
+    {
+      "title": "Traditional Code Skins",
+      "score": 3,
+      "pageid": 45875,
+      "latest_revid": 621321,
+      "latest_timestamp": "2026-08-22T02:48:32Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|Other|Traditional Code Skins}}\n|image1 = CodeStuff.png\n|rarities = {{Color|Exclusive}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}\n|skins = 15\n}}\n__TOC__\n==Description==\n'''Traditional Code Skins''' is a skin series that players can redeem through [[codes]] manually created by the developers.\n\nThese codes are distributed through traditional channels such as social media or official announcements, and often feature limited-time skins. While most skins are no longer redeemable, some skins have been moved to crates.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:DHHalloweenHunterIcon.png|175px]]\n|[[File:MiniTwitter.png|175px]]\n|[[File:Communityminigunnerrework.png|175px]]\n|[[File:HW24SpringTimeSlasherIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Other|Halloween}}<ref>Can now be obtained in the [[Halloween Crate]].</ref>\n|{{Color|Other|Twitter}}\n|{{Color|Other|Community}}\n|{{Color|Other|Spring Time}}<ref name=\":0\">Can now be obtained in the [[Shamrock Crate]].</ref>\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Hunter]]\n|[[Minigunner]]\n|[[Minigunner]]\n|[[Slasher]]\n|-\n!Code\n|TRICKORTREAT\n|5KMILESTONE\n|COMMUNITY20\n|SPR1NGM1L3ST0NE\n|-\n!\n|[[File:16MaySpringTimeCommanderIcon.png|175px]]\n|[[File:BloxyCommanderIcon.png|175px]]\n|[[File:Icytea_skin_2.png|175px]]\n|[[File:NewKasodusCowboyIcon.png|175px]]\n|-\n!Skin\n|{{Color|Other|Spring Time}}<ref name=\":0\" />\n|{{Color|Other|Bloxy}}\n|{{Color|Other|IcyTea}}\n|{{Color|Other|Kasodus}}<ref>Can now be obtained in the [[Premium Crate]].</ref>\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Uncommon}}\n|{{Color|Uncommon}}\n|-\n!Tower\n|[[Commander]]\n|[[Commander]]\n|[[Freezer]]\n|[[Cowboy]]\n|-\n!Code\n|HAPPY3AST3R!\n|BLOXY21\n|ICYFREEZE\n|DOUBLEBLOXIES\n|-\n!\n|[[File:PresentFarm.png|175px]]\n|[[File:BeachGladiatorIconIGAug26.png|175px]]\n|[[File:JohnMilitantIcon.png|175px]]\n|[[File:CookieScout0.png|175px]]\n|-\n!Skin\n|{{Color|Other|Present}}\n|{{Color|Other|Beach}}\n|{{Color|Other|John}}\n|{{Color|Other|Cookie}}\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Farm]]\n|[[Gladiator]]\n|[[Militant]]\n|[[Scout]]\n|-\n!Code\n|MERRY2021\n|beachglad2022\n|JOHNRETURNS,<br/>9509253943\n|M3RRY2022TDS\n|-\n!\n|[[File:LemonadeStandFarmIconIG.png|175px]]\n|[[File:MercenaryPursuitIconIG.png|175px]]\n|[[File:CommunityShotgunnerIconIG.png|175x175px]]\n|-\n!Skin\n|{{Color|Other|Vendor}}\n|{{Color|Other|Mercenary}}\n|{{Color|Other|Community}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|-\n!Tower\n|[[Farm]]\n|[[Pursuit]]\n|[[Shotgunner]]\n|-\n!Code\n|1POINT7MIL\n|2MILLION\n|1MILCOMMUNITY\n|}\n\n==Update History==\n{{Scroll|text=\n*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]\n**'''Traditional Code Skins''' added with one skin:\n***[[Hunter]]: {{Color|Other|Halloween}}\n*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]\n**One new skin added:\n***[[Minigunner]]: {{Color|Other|Twitter}}\n*'''6 April 2020''' - [[Release v1.9|Release v1.9]]\n**Two new skins added:\n***[[Slasher]]: {{Color|Other|Spring Time}}\n***[[Commander]]: {{Color|Other|Spring Time}}\n*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]\n**Two new skins added:\n***[[Freezer]]: {{Color|Other|IcyTea}}\n***[[Cowboy]]: {{Color|Other|Kasodus}}\n*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0a]]\n**One new skin added:\n***[[Commander]]: {{Color|Other|Bloxy}}\n*'''26 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.1a]]\n**One new skin added:\n***[[Minigunner]]: {{Color|Other|Community}}\n*'''24 December 2021''' - [[v1.0.0]]j\n**One new skin added:\n***[[Farm]]: {{Color|Other|Present}}\n*'''6 August 2022''' - [[v1.3.1]]a\n**One new skin added:\n***[[Gladiator]]: {{Color|Other|Beach}}\n*'''9 September 2022''' - [[v1.3.2]]a\n**One new skin added:\n***[[Militant]]: {{Color|Other|John}}\n*'''21 December 2022''' - [[v1.6.0]]\n**Skin rarities added.\n**One new skin added:\n***[[Scout]]: {{Color|Other|Cook"
+    },
+    {
+      "title": "Buffs",
+      "score": 1,
+      "pageid": 29880,
+      "latest_revid": 467873,
+      "latest_timestamp": "2026-06-05T07:38:02Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader align-center\">'''Buffs'''</span>\n----\n\n'''Buffs''' are special abilities applied to towers, which make them stronger. Some towers can apply a certain '''Buff''' to all towers in its range, while some can only apply it to themselves, either passively or with an ability. There are also '''Debuffs''', which make the towers weaker.\n</div>\n\n<div class=\"mainheader align-center\" style=\"margin:0 auto;\">{{Color|FFF|Buffs}}</div>\n{| class=\"empty-table pad-5 align-center image-shadow-light\" style=\"width:600px; margin:0 auto\"\n| style=\"width: 20%;\" |[[File:Damage Buff.png|32px|link=Damage Buff]]\n| style=\"width: 20%;\" |[[File:Cooldown Buff.png|32px|link=Firerate Buff]]\n| style=\"width: 20%;\" |[[File:Range Buff.png|32px|link=Range Buff]]\n| style=\"width: 20%;\" |[[File:Discount Buff.png|32px|link=Discount Buff]]\n| style=\"width: 20%;\" |[[File:FireworkBuffIcon.png|32px|link=Firework Buff]]\n|-\n| style=\"width: 20%;\" |[[Damage Buff]]\n| style=\"width: 20%;\" |[[Firerate Buff]]\n| style=\"width: 20%;\" |[[Range Buff]]\n| style=\"width: 20%;\" |[[Discount Buff]]\n| style=\"width: 20%;\" |[[Firework Buff]]\n|-\n| style=\"width: 20%;\" |[[File:HiddenDetectionOld.png|32px|link=Hidden Detection Buff]]\n| style=\"width: 20%;\" |[[File:Fly.png|32px|link=Flying Detection Buff]]\n| style=\"width: 20%;\" |[[File:LeadIcon.png|32px|link=Lead_Detection_Buff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Burst Buff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Cash Shot Buff]]\n|-\n| style=\"width: 20%;\" |[[Hidden Detection Buff]]\n| style=\"width: 20%;\" |[[Flying Detection Buff]]\n| style=\"width: 20%;\" |[[Lead Detection Buff]]\n| style=\"width: 20%;\" |[[Burst Buff]]\n| style=\"width: 20%;\" |[[Cash Shot Buff]]\n|}\n\n\n<div class=\"mainheader align-center\">{{Color|FFF|Debuffs}}</div>\n{| class=\"empty-table pad-5 align-center\" style=\"width:600px; margin:0 auto\"\n| style=\"width: 20%;\" |[[File:Slowness.png|32px|link=Fatigue Debuff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Firerate Debuff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Cost Debuff]]\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Range Debuff]]\n| style=\"width: 20%;\" |[[File:DebuffRangeIcon.png|32px|link=Scared Debuff]]\n|-\n| style=\"width: 20%;\" |[[Fatigue Debuff]]\n| style=\"width: 20%;\" |[[Firerate Debuff]]\n| style=\"width: 20%;\" |[[Cost Debuff]]\n| style=\"width: 20%;\" |[[Range Debuff]]\n| style=\"width: 20%;\" |[[Scared Debuff]]\n|-\n| style=\"width: 20%;\" |[[File:Transparent.png|32px|link=Damage Debuff]]\n|-\n| style=\"width: 20%;\" |[[Damage Debuff]]\n|}\n\n\n\n{{BrowseNavBox}}\n[[Category:Browse]]"
+    },
+    {
+      "title": "Damage Indicators",
+      "score": 1,
+      "pageid": 41292,
+      "latest_revid": 511703,
+      "latest_timestamp": "2026-06-24T17:42:09Z",
+      "wikitext_excerpt": "==Description==\n'''Damage Indicators''' are numbers that pop up on enemies when a tower is selected. These numbers are how much damage was dealt to the enemy. The colors used by them mainly varies based on the damage type of the tower or unit. As not all damage types are registered by the game, not all sources of damage will have them appear.\n__TOC__\n\n==Regular Indicators==\n[[File:RegularIndicator.png|100px|thumb]]\nRegular indicators are the basic indicator that appears on most towers. These indicators are colored red. If a tower does not fall into any of the categories below, it uses these indicators.\n{{Clear}}\n\n==Explosion Indicators==\n[[File:ExplosionIndicator.png|100px|thumb]]\nExplosion indicators appear when a tower or unit deals explosion damage. They are also appear when a tower deals burn damage. These indicators are colored orange. Additionally, damage under this type will bypass defense. These following towers and units deal this type of damage:\n*[[Demoman]]\n*[[Ace Pilot]]\n*[[Military Base]]\n*[[Tank]]\n*[[Railgun Tank]]\n*[[Rocketeer]]\n*[[Trapper]]\n*[[Pyromancer]]\n*[[Tesla]]\n*[[Necromancer]]\n*[[Archer]]\n*[[Commando]]\n*[[Firework Technician]]\n*[[Jester]]\n*[[Snowballer]]\n*[[Swarmer]]\n*[[Missile APC]]\n*[[Grenadier]]\n*[[War Machine Sentry]]\n*[[Bomber Elf (Unit)|Bomber Elf]]\n*[[Gift Bomber]]\n*[[Ripped Elf (Unit)|Ripped Elf]]\n\nHowever, despite this, not every single explosive actually uses these indicators. The following towers do not use explosive indicators, meaning they do not bypass defense:\n*[[Paintballer]]\n**Uses Regular indicators.\n*[[Slime Trooper]]\n**Uses Regular indicators.\n*[[Hallow Punk]]\n**Uses Regular indicators.\n*[[Ivy]]\n**Uses Energy indicators.\n\nAdditionally, the [[Elementalist]] uses similarly colored damage indicators for its burn related attacks, though it shares no other traits with explosion indicators, such as defense bypass.\n\n==Collision Indicators==\n[[File:CollisionIndicator.png|100px|thumb]]\nCollision indicators appear when a tower or unit deals unit collision damage. This means it has a few traits, such as bypassing defense, damaging [[Lead (Attribute)|Lead]] enemies, bypassing [[Tank (Attribute)|Tank]]  and dealing no damage to [[Ghost (Attribute)|Ghost]] enemies. These indicators are colored yellow. This means it will mainly appear when a unit collides with another enemy. There is one exception to this, as the [[Trapper]]'s spike and bear traps deal unit collision damage, making them use these indicators.\n\n==Melee Indicators==\n[[File:MeleeIndicators.png|100px|thumb]]\nMelee indicators appear when a tower or unit deals melee damage. These indicators are yellow. These indicators are quite inconsistent, as multiple towers that would be considered melee are not registered as ones. These following towers and units deal this type of damage:\n*[[Gladiator]]\n*[[Warden]]\n*[[Sledger]]\n*[[Executioner]]\n*[[Riot Guard]]\n*[[Slasher]]\n**With its main attack.\n*[[Assassin]]\n*[[Warlock]]\n**With its melee attack.\n*[[Brawler]]\nThese towers, despite looking like they would deal such damage, do not have melee indicators:\n*[[Sword Skeleton]] and [[Skeleton Knight]].\n**Both use regular indicators.\n*[[Executioner Skeleton]].\n**Despite [[Executioner]] having melee indicators, [[Executioner Skeleton]] does not. It has regular indicators.\n*[[Guardian Elf]]\n**Uses regular indicators.\n\n==Poison Indicators==\n[[File:PoisonIndicator.png|100px|thumb]]\nPoison indicators appear when a tower deals poison damage. These indicators are colored green. These following towers and units deal this type of damage:\n*[[Toxic Gunner]]\n*[[Saboteur]]\n*[[Ivy]]\n*[[Jester]]\n\nThe [[Swarmer]]'s sting damage used to have its damage create such indicators, though this is not longer the case starting from [[v1.63.0]].\n\n==Chillness Indicators==\n[[File:ChillnessIndicator.png|100px|thumb]]\nChillness indicators appear when a tower deals damage through chillness. These indicators are colored blue. While all freezing tower apply chillness, only the [[Cryomancer]"
+    },
+    {
+      "title": "Firerate Bug",
+      "score": 1,
+      "pageid": 29369,
+      "latest_revid": 629054,
+      "latest_timestamp": "2026-08-27T12:17:15Z",
+      "wikitext_excerpt": "{{Removed|date = 6th of June 2026}}\n{{Improve|this page and majority of tower/unit pages require updating}}\nThe '''Firerate Bug''', also known as the '''RoF (Rate of Fire) Bug''', was a bug that slightly increased the firerate of all towers and units. This increase was not displayed on the statistics in the game. This bug significantly affected the statistics of fast-firing towers, such as the [[Minigunner]] and [[Ace Pilot]], by significantly decreasing their DPS, whereas slow-firing towers like the [[Ranger]] or [[Sniper]] were hardly affected.\n\nThis has been fixed as of the 6th of June 2026, and all firerate statistics in the game are considered to be accurate unless affected by a different unrelated bug.\n\n{{RightTOC}}\n\n==Prior to 5th of June 2026==\nThe '''Firerate Bug''' affects all towers and units that can directly attack enemies, meaning the only towers that are not affected are the [[Farm]], [[Medic]] and the [[Firework Technician]] and the only units that are not affected are the [[Humvee]], [[Humvee 2]], [[Elf]], [[Bomber Elf (Unit)|Bomber Elf]], [[Skeleton (Unit)|Skeleton]], [[Giant Skeleton (Unit)|Giant Skeleton]] and [[Hallow Guard (Unit)|Hallow Guard]]. The '''Firerate Bug''' does not affect the firerate of some secondary attacks towers or units may perform, some damage-over-time effects applied by towers (like burn from the [[Pyromancer]]) or certain other cooldowns.\n\nThe '''Firerate Bug''' increases the firerate of a tower/unit depending on its firerate, which can vary anywhere between 0.017 and 0.032 seconds. The firerate increase affects fast firing towers the most; for example, the [[Minigunner]] at Level 4 should have a firerate of 0.09, but because of the '''Firerate Bug''', it has a firerate of about 0.117, decreasing its DPS from 166.67 to 128.20, which is a decrease of 38.47 DPS, or a loss of about 23.08 DPS. Meanwhile, slow firing towers are barely affected by it; for example, the [[Ranger]] at Level 4 should have a firerate of 8, but because of the '''Firerate Bug''', it has a firerate of about 8.025, decreasing its DPS from 156.26 to 155.76, which is a decrease of 0.30 DPS, or a loss of 0.2% DPS.\n\nThe [[Firerate Buff]] is also affected by the '''Firerate Bug''', making it less effective. For example, the Level 4 [[Minigunner]] without the '''Firerate Bug''' with a 50% firerate boost should have a firerate of 0.06, but with the '''Firerate Bug''' it has a firerate of 0.083. This means that its DPS with a 50% firerate boost is decreased from 250 to 180.72, which is a decrease of 69.28 DPS, or a loss of 27.71% DPS.\n\nOn this Wiki, the firerate statistic of all towers and units is increased by specific values based on the firerate. While technically possible to calculate by hand, due to the effort it would take, it is overall recommended to either use [[Help:Neowtext#ROFBUG|Neowtext]] or [https://fiheron.github.io/dps-calc/ an online calculator].\n\n==Prior to the 9th of January 2023==\nPrior to the 9th of January 2023, the firerate increase caused by the '''Firerate Bug''' for units was higher than it currently is. The firerate increase was generally around 0.03 seconds. For towers, the firerate increase remained at around 0.008 seconds.\n\nOn this Wiki, the firerate statistic of all towers and units after the [[V1.6.0|Violent Night Update]] and before the 9th of January 2023 is increased by 0.008 and 0.03 respectively, unless stated otherwise. This does not, however, mean the actual value is this; it can vary between towers and even between matches.\n\n==Prior to the Violent Night Update==\nPrior to the [[V1.6.0|Violent Night Update]], the firerate increase caused by the '''Firerate Bug''' for units was lower than it was before the [[V1.6.0|Violent Night Update]]. The firerate increases could be anywhere between 0.008 and 0.017 seconds, but the increase was generally around 0.008 seconds. This is the same as the current situation.\n\nOn this Wiki, the firerate statistic of all units after the [[V1.1.0|Entity Syst"
+    },
+    {
+      "title": "Hidden Wave",
+      "score": 1,
+      "pageid": 2531,
+      "latest_revid": 579442,
+      "latest_timestamp": "2026-07-29T02:38:55Z",
+      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{HiddenWaveInfobox\n|image1 = HiddenBadge3.png\n|rewards = {{Gem|50}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|VeryEasy}})<br/>{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Easy}})<br/>{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}  ({{Color|Normal}})<br/>{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Hard}})<br/>{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Insane}})<br/>{{Gem|+100}} (First Triumph)\n|music-1 = '''Wave 41''' [[File:(Official) Tower Defense Simulator OST - Eye Of The Swarm|thumb|center|250px]]\n|music-2 = '''[[???]] Speech & Wave ???''' [[File:(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|thumb|center|250px]]\n|music-ingame-2 = '''[[???]] Speech & Wave ???''' [[File:Tower Defense Simulator OST - Equinox In-Game Version|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<br/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|[[???]] dialogue at Wave 41}}\n}}\n__TOC__\n==Description==\nThe '''Hidden Wave''' is a secret wave that can only be accessed in [[Fallen Mode|Fallen]] mode.\n\nPlayers need to disable \"Skills Enabled\" from the Gameplay [[Settings]] first to enable Hidden Wave.\n\nAfter voting for [[Fallen Mode|Fallen]] mode, one player must type \"120\", \"1\" and \"1009\" in the game chat. A shriek and screen darkening will accompany each message. After the last number is typed out, the map will become permanently discolored. The base health needs to be reduced to 1, and on Wave 40, the [[Fallen King]] must be defeated in under 60 seconds, which will cause a quicker death animation to play, with the [[Fallen King]] smashing the ground and fleeing with its sword. Using [[Consumables]] on Wave 40 will cause the '''Hidden Wave''' not to be activated.\n\nAfter defeating the [[Fallen King]] under 60 seconds, the next wave will appear as Wave 41. After the Wave 41 timer ends, the players will begin floating in mid-air, and the screen will become a strong purple static background. An unknown narrator simply known in the game as [[???]] will address the player. After the [[Commander (Narrator)|Commander]]'s dialogue, the game abruptly pauses and displays a false disconnect message with defeating the [[Fallen King]] as the reason on a pitch-black background. As the fake error message glitches, it flashes back to the game. The [[Awakened Fallen King]] will spawn in, and the Wave ??? begins, giving all players {{Money|50,000}}.\n\nDuring the course of the wave, purple fog and dark purple particles will cover the entire map, with bright trails flying around. The wave text becomes glitched in a similar fashion to the [[Glitchy Nametag]].\n\n==Rewards==\nTriumph rewards are based on the difficulty of the map. First time triumph also have their rewards increased by {{Gem|100}}. The rewards for each difficulty are:\n\n{| class=\"tds-table align-center\" style=\"width:600px; margin:1em auto;\"\n! rowspan=\"2\" |Difficulty\n! colspan=\"2\" |Rewards\n|-\n!Regular\n!First Triumph\n|-\n|{{Color|VeryEasy}}\n|{{Gem|50}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Easy}}\n|{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|175}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Normal}}\n|{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|200}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Hard}}\n|{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|225}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Insane}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|250}}, {{Exp|250}} & {{TowerExp|185}}\n|}\n\nThe reward for the first 50 players who beat '''Hidden Wave''' was the {{Color|Other|Triumphant}} [[Hacker]] skin.\n\nTriumphing '''Hidden Wave''' will give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. These items are:\n*{{Color|Common}} (47.39%"
+    },
+    {
+      "title": "Hidden Wave (Legacy)",
+      "score": 1,
+      "pageid": 41598,
+      "latest_revid": 582188,
+      "latest_timestamp": "2026-07-30T11:55:18Z",
+      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{Removed|date=4th of December 2021}}\n{{HiddenWaveInfobox\n|title1 = Hidden Wave\n|image1 = <tabber>\n|-|Icon 3 = [[File:HiddenBadge2.png]]\n|-|Icon 2 = [[File:HiddenBadge.png]]\n|-|Icon 1 = [[File:Rocketeer4.png]]\n</tabber>\n|rewards = {{Coins|700}}, {{Exp|100}} & [[Glitchy Nametag]]<ref>After the 9th of June 2023, any player who beat the legacy  '''Hidden Wave''' prior to its removal receives this nametag. Prior to that date, there were no other rewards for triumphing '''Hidden Wave'''.</ref>\n|music-1 = [[File:Tower Defense Simulator OST - Hidden Wave Intro|thumb|center|250px]]\n|music-2 = [[File:(Official) Tower Defense Simulator OST - Hidden Wave|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<BR/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|Activating the Hidden Wave}}\n{{QuoteBox|LET'S PUT IT TO THE TEST<br/>HIDDEN WAVE|Right before the Hidden Wave}}\n{{QuoteBox|ARE YOU READY?<br/>SEE IF YOU CAN BEAT THIS!|Beginning of the Hidden Wave}}\n}}\n__TOC__\n==Description==\nThe legacy version of the '''Hidden Wave''' was a secret wave that could have been accessed by defeating wave 40 on [[Fallen Mode|Fallen]] mode in 1,009 seconds (16 minutes and 49 seconds) or less.\n\nThis wave was extremely difficult and spawned unique and powerful enemies. {{Coins|Coins}} and {{Exp|}} earned remained the same for [[Fallen Mode|Fallen]] mode regardless if the '''Hidden Wave''' was triggered, but losing on the '''Hidden Wave''' only rewarded you with the rewards when losing on wave 40 [[Fallen Mode|Fallen]] mode. Triumphing the '''Hidden Wave''' awarded a special {{RLinkB|2124477833|badge}}. Originally, there was no other reward, though after the 9th of June 2023 anyone with the badge is able to claim the [[Glitchy Nametag]] through the [[Gift Box]].\n\nAccessing the wave was quite difficult as you needed to speedrun through [[Fallen Mode|Fallen]] mode. This meant that you needed three or more other players to trigger the '''Hidden Wave'''. The '''Hidden Wave''' could not have been triggered on [[MEGA Servers]] through the time requirement (interestingly, the '''Hidden Wave''' could have been triggered on a [[MEGA Servers|MEGA Server]] if the player count was 4 or lower before wave 40 on [[Fallen Mode|Fallen]] mode). Certain maps were favored over others due to cliff space, space near the path entrance, etc.\n\nAfter the [[Overhaul v1.0|Overhaul Update]], the wave intro broke. You could still activate it, but the text box did not appear and the game did not acknowledge that the '''Hidden Wave''' had been activated. Additionally, the lighting filter did not change to a red hue with text glitching. The wave would change to 1, while the timer would change to 111111111111111120:00. The only way to know if you have triggered the '''Hidden Wave''' was if the triumph screen did not show after the final wave countdown after you defeated the [[Fallen King (Legacy)|Fallen King]].\n\nThe '''Hidden Wave''' has since been replaced with a [[Hidden Wave|modern version]].\n\n==Rewards==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchyTag.gif|200px|link=Glitchy Nametag]]\n|-\n|[[Glitchy Nametag]]\n|}\n\n==Enemies==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchedGiant-0.png|125px|link=Glitched Giant]]\n|[[File:Bruh-0.png|125px|link=Bruh]]\n|[[File:Bug-0.png|125px|link=Bug]]\n|[[File:FrostHero2020.png|125px|link=Frost Hero (Frost Invasion)]]\n|[[File:Jaxe.png|125px|link=Jaxe (Nightmare Carnival)]]\n|[[File:MechanicalRot-0.png|125px|link=Mechanical Rot (Legacy)]]\n|-\n|[[Glitched Giant]]<br/>30+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bruh]]<br/>33+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bug]]<br/>41 Total\n|[[Frost H"
+    },
+    {
+      "title": "Leaderboard",
+      "score": 1,
+      "pageid": 49439,
+      "latest_revid": 638439,
+      "latest_timestamp": "2026-09-02T19:25:04Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''Leaderboard'''</span >\n----\n'''Leaderboard''' is a feature that displays current global rankings of various statistics in the game lobbies.\n</div>\n\n==Lobby Leaderboards==\n[[File:LobbyLeaderboard.png|300px|thumb]]\nIn the [[Main Lobby]], two boards can be found on the sides of the [[Elevators]] are, which are the '''Leaderboards''' for this part of the game. These display the current month's total statistics for up to 50 players. Their avatar icon, username, level and total statistic are displayed next to their spot on the '''Leaderboard'''. Top three players are displayed on podiums next to the '''Leaderboards'''.\n\nThe first '''Leaderboard''' is total triumphs. This displays the total triumphs in [[Frost Mode|Frost]] or [[Fallen Mode|Fallen]] for players this month.\n\nThe second '''Leaderboard''' is total {{Exp|}}. This display total {{Exp|}} for players this month.\n\nAny players in the top three of either two '''Leaderboards''' obtain the [[Champion Nametag]] through their [[Gift Box]], which they will get to keep even after the month ends.\n\n==Intermission Lobby Leaderboards==\n[[File:IntermissionLobbyLeaderboard.png|300px|thumb]]\nIn both the [[Survival Intermission Lobby|Survival]] and [[Hardcore Intermission Lobby|Hardcore Intermission Lobbies]], two large signs can be found displaying the '''Leaderboards'''. These show the top triumphs for the current month and day, respective to the mode of the lobby:\n*'''Survival Lobby''': Tracks triumphs in [[Easy Mode|Easy]], [[Casual Mode|Casual]], [[Intermediate Mode|Intermediate]], [[Molten Mode|Molten]], [[Fallen Mode|Fallen]] and [[Frost Mode|Frost]] modes.\n*'''Hardcore Lobby''': Tracks triumphs exclusively in [[Hardcore Mode|Hardcore]].\n\nUnlike other '''Leaderboards''', however, no additional rewards are granted for placing in the top three or achieving first place.\n\n==Trivia==\n*[[Tutorial]] triumphs used to count for the '''Top Triumphs''' leaderboard.\n\n\n\n{{BrowseNavBox}}"
+    },
+    {
+      "title": "Splash Damage",
+      "score": 1,
+      "pageid": 1007,
+      "latest_revid": 579939,
+      "latest_timestamp": "2026-07-29T08:20:02Z",
+      "wikitext_excerpt": "'''Splash Damage''' is a mechanic applied to certain towers, units and consumables, allowing the tower to deal damage to enemies within the explosion radius. While some towers can inflict damage on multiple enemies, such as the [[Gladiator]] or the [[Assassin]], they are not considered ''Splash Damage Towers'' as they do not create an explosion. Prior to the [[Release v1.0|MEGA Update]] and [[Overhaul v1.3|Frost Invasion Update]], there were two entirely different systems of explosion damage. This is elaborated on detail below.\n__TOC__\n==Present==\nCurrently, these towers use the '''Splash Damage''' mechanic:\n{| class=\"empty-table pad-5\" style=\"min-width:750px; width: 75%; text-align:center; margin:0 auto\" \n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Common|Starter}}\n|-\n| class=\"align-center\" |[[File:NewPaintballerIcon.png|150px|link=Paintballer]]<br/>[[Paintballer]]\n|Projectile-based, from Level 0+<br/>Damage is linked to the stated statistic.<br/>Does not bypass defense and has no damage drop off.\n|-\n| class=\"align-center\" |[[File:DefaultDemomanIcon2.png|150px|link=Demoman]]<br/>[[Demoman]]\n|Projectile-based, from Level 0+<br/>Damage is linked to the stated statistic.<br/>Has no damage drop off.\n|-\n| class=\"align-center\" |[[File:SlimeTrooperIcon.png|150px|link=Slime Trooper]]<br/>[[Slime Trooper]]\n|Projectile-based, from Level 4<br/>Damage is linked to the stated statistic.<br/>Does not bypass defense and has no damage drop off. \n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Uncommon|Intermediate}}\n|-\n| class=\"align-center\" |[[File:RocketeerIcon2025.png|150px|link=Rocketeer]]<br/>[[Rocketeer]]\n|Projectile-based, from Level 0+<br/>Damage is linked to the stated statistic.<br/>Has no damage drop off.\n|-\n| class=\"align-center\" |[[File:TrapperIcon.png|150px|link=Trapper]]<br/>[[Trapper]]\n|Projectile-based, from Level 2+<br/>Damage is not linked to tower statistic.\n|-\n| class=\"align-center\" |[[File:AcePilotNewIcon.png|150px|link=Ace Pilot]]<br/>[[Ace Pilot]]\n|Non-projectile-based, from Level 2+<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:DefaultMilitaryBaseIconM29.png|150px|link=Military Base]]<br/>[[Military Base]]\n|Projectile-based, cannon, from Level 4+<br/>All forms of damage are independent from one another.\n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Rare|Advanced}}\n|-\n| class=\"align-center\" |[[File:Newranger.png|150px|link=Ranger]]<br/>[[Ranger]]\n|Non-projectile-based, from Level 4<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:MortarIcon.png|150px|link=Mortar]]<br/>[[Mortar]]\n|Projectile-based, from Level 0+<br/>Projectile-based, cluster bombs, from Level 4+<br/>Regular damage is linked to the stated statistic; cluster bomb damage is not linked to the stated statistic.\n|-\n| class=\"align-center\" |[[File:PursuitNewIcon.png|150px|link=Pursuit]]<br/>[[Pursuit]]\n|Projectile-based, from Level 3+<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:DefaultMercenaryBaseIcon.png|150px|link=Mercenary Base]]<br/>[[Mercenary Base]]\n|Projectile-based, from Level 1+<br/>All forms of damage are independent from one another.\n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|HardcoreMode|Hardcore}}\n|-\n| class=\"align-center\" |[[File:NecromancerTowerIcon.png|150px|link=Necromancer]]<br/>[[Necromancer]]\n|Non-projectile-based, from Level 4<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n| class=\"align-center\" |[[File:EngineerIcon.png|150px|link=Engineer]]<br/>[[Engineer]]\n|Projectile-based, from Level 6<br/>Damage is not linked to the stated statistic, as splash damage is independent.\n|-\n! class=\"align-center tableheader\" colspan=\"2\" |{{Color|Golden|Golden Perks}}\n|-\n| class=\"align-center\" |[[File:GoldenDemoman0.png|150px|link=Golden Demoman]]<br/>[[Golde"
+    },
+    {
+      "title": "Tower Defense Simulator",
+      "score": 1,
+      "pageid": 52016,
+      "latest_revid": 468670,
+      "latest_timestamp": "2026-06-05T08:02:42Z",
+      "wikitext_excerpt": "{{GameInfobox\n|title1 = {{RLinkG|3260590327|Tower Defense Simulator}}\n|image1 = V1.35.0UpdateIcon.png\n|creator = [[Paradoxum Games]]\n|playing = {{formatnum:{{#invoke:roapid|games|1176784616|data|1|playing}}}}\n|favorites = {{formatnum:{{#invoke:roapid|favorites|1176784616|favoritesCount}}}}\n|visits = {{formatnum:{{#invoke:roapid|games|1176784616|data|1|visits}}}}\n|date = 5 June 2019, 04:21:45 UTC\n|genre = Strategy\n|subgenre = Tower Defense\n}}\n==Description==\n'''Tower Defense Simulator''' ('''TDS'''), is a game created by [[Paradoxum Games]] on the 5th of June 2019, though it was not officially released until the 14th of June 2019. It is a tower defense game where players are tasked with defending the exit from hordes of enemies using towers. It is playable on PC, mobile and consoles.\n\n'''Tower Defense Simulator''' was [[Tower Defense Simulator Award Nominations|nominated for awards]] multiple times in the Bloxies and the Innovation Awards, though it only won the 8th Annual Bloxy Awards in the ''Best Game Trailer'' category.\n\n'''Tower Defense Simulator''' has various social media accounts, including an [https://x.com/paradoxum_games X account], a [https://discord.gg/tds Discord server], [https://www.youtube.com/@ParadoxumGames YouTube channel] and [https://www.reddit.com/r/TDS_Roblox/ Reddit subreddit]. Other accounts also exist, though they are tied to [[Paradoxum Games]] rather than '''Tower Defense Simulator''' specifically, meaning content from [[Paradoxum Games]]' other games also appear there.\n\n==Gameplay==\nThe main gameplay loop of '''Tower Defense Simulator''' revolves around the players using their [[towers]] and [[consumables]] to defend a map they have chosen from [[enemies]]. Players can pick a limited number of towers and consumables into their loadout. These have varying abilities making them excel in different areas, like some towers being better suited for the early waves or certain towers being used to provide buffs to other towers.\n\nPlayers can pick a [[Maps|map]] of their choosing in either the main lobby or the intermission lobby. The main lobby allows for picking maps via [[Elevators]], while intermission lobby allows for players to vote on which map they want to play on. In certain modes, like the special maps or [[Challenge Trials]], there is a set map which cannot be changed.\n\nThe mode can also be chosen by players. If a map is accessed through the main lobby, there is a vote between the survival modes, while for [[Hardcore Mode|Hardcore]] mode, no such vote is held due to it only having one. If a map is chosen in the intermission lobby, there is no mode vote as it was already chosen through the [[Matchmaking]] menu by the player.\n\nWhen a match starts, hordes of enemies will be sent out. Initially, these enemies do not possess any abilities and they will simply walk towards the exit. However, as the match goes on, these enemies will receive various abilities or attributes, such as immunities, abilities to support other enemies and attacks which stun or debuff towers. On the final wave, a major boss will spawn, which the player needs to defeat to triumph the match.\n\n'''Tower Defense Simulator''' also offers [[PVP]], where instead of surviving all the waves, the players are tasked with defeating another player by surviving for longer. [[PVP]] has its own unique mechanics, unique statistics of towers for the mode and consumables that are only usable in [[PVP]] mode.\n\nAfter beating a match, players are rewarded with various currency, such as {{Coins|Coins}}, {{Exp|}} and {{Gem|Gems}}. These are mainly used to progress through the game, as they allow the player to unlock new areas of the game, purchase items and obtain [[cosmetics]].\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Wordmarks}}\n<gallery>\nTDSLogoEarly1.png|First version (June 2019 – July 2019)\nTDSLogoEarly2.png|Second version (July 2019)\nTDSLogo.png|Third version (July 2019 – 29 October 2020)\nSecondTDSLogo.png|Fourth version (29 October 2020 – 4 December"
+    }
+  ],
+  "raw_wikitext_file": "tds_bridge/result.txt",
+  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
 }
