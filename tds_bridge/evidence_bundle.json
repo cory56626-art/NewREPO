@@ -1,12 +1,12 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "PVP",
-    "title": "PVP",
-    "pageid": 33973,
-    "latest_revid": 636603,
-    "latest_timestamp": "2026-09-01T12:03:24Z",
-    "source_url": "https://tds.fandom.com/wiki/PVP",
+    "requested": "Defense",
+    "title": "Defense",
+    "pageid": 21503,
+    "latest_revid": 495331,
+    "latest_timestamp": "2026-06-17T01:52:27Z",
+    "source_url": "https://tds.fandom.com/wiki/Defense",
     "classification": {
       "is_tower_page": false,
       "reason": "template/category heuristic"
@@ -22,116 +22,116 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "PVP",
+    "input": "Defense",
     "alias_used": null,
-    "target": "PVP",
-    "canonical_title": "PVP",
-    "pageid": 33973,
+    "target": "Defense",
+    "canonical_title": "Defense",
+    "pageid": 21503,
     "redirects": [],
     "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 636603,
-      "parentid": 636050,
-      "timestamp": "2026-09-01T12:03:24Z",
+      "revid": 495331,
+      "parentid": 469304,
+      "timestamp": "2026-06-17T01:52:27Z",
+      "user": "MrMosquito",
+      "comment": "",
+      "size": 14481,
+      "sha1": "78fff60b56c15610da2eb250628ac1f9972d84cc"
+    },
+    {
+      "revid": 469304,
+      "parentid": 467817,
+      "timestamp": "2026-06-05T12:06:13Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 38747,
-      "sha1": "01a7e7241b87e0d634dde3ee81b1f7e0382d7d4a"
+      "size": 14480,
+      "sha1": "7553d164b17137dc832ed3a4251cab67c9ce497a"
     },
     {
-      "revid": 636050,
-      "parentid": 636049,
-      "timestamp": "2026-09-01T03:20:00Z",
-      "user": "Bkind000 Games",
-      "comment": "",
-      "size": 38762,
-      "sha1": "482a02abc4e68be513df56285331ab8eda714dc3"
+      "revid": 467817,
+      "parentid": 447448,
+      "timestamp": "2026-06-05T07:35:46Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Countering Defense */ auto, replaced: {{Colour| → {{Color| (4)",
+      "size": 14441,
+      "sha1": "e72c40984efcb8dc1b246075b925da9ce4adadfa"
     },
     {
-      "revid": 636049,
-      "parentid": 531443,
-      "timestamp": "2026-09-01T03:18:30Z",
-      "user": "Bkind000 Games",
-      "comment": "",
-      "size": 38724,
-      "sha1": "5af06a031d5c0f4d37ae9eff6e73181bbf9e922e"
-    },
-    {
-      "revid": 531443,
-      "parentid": 410232,
-      "timestamp": "2026-07-04T02:49:52Z",
-      "user": "Bkind000 Games",
-      "comment": "/* Trivia */",
-      "size": 38715,
-      "sha1": "5baadde11184d1143718e574be35ef097df03ed1"
-    },
-    {
-      "revid": 410232,
-      "parentid": 410230,
-      "timestamp": "2026-04-29T17:16:45Z",
+      "revid": 447448,
+      "parentid": 419012,
+      "timestamp": "2026-05-25T18:45:03Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 38717,
-      "sha1": "8ab8f398a84ab1ccfa7ad019af7adfa80fe08a18"
+      "size": 14445,
+      "sha1": "9547bdf3a8cae75a67fe884dbe110e5cc2bd0733"
     },
     {
-      "revid": 410230,
-      "parentid": 404438,
-      "timestamp": "2026-04-29T17:14:36Z",
+      "revid": 419012,
+      "parentid": 373926,
+      "timestamp": "2026-05-10T19:16:44Z",
+      "user": "TDSLover1999",
+      "comment": "bruh",
+      "size": 14496,
+      "sha1": "17ab5f59516d6048908adb1b3a259002c465f3d1"
+    },
+    {
+      "revid": 373926,
+      "parentid": 346959,
+      "timestamp": "2026-03-11T11:30:46Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 14496,
+      "sha1": "0a114eeafbbada0ea74f9abe1cf4ad81bba95861"
+    },
+    {
+      "revid": 346959,
+      "parentid": 334402,
+      "timestamp": "2026-01-26T14:48:46Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 38612,
-      "sha1": "da1f0a62e32c357f1305651581e18e19c6e09186"
+      "size": 14507,
+      "sha1": "3ac008129e45d723e607552acf70e59b24e9a81d"
     },
     {
-      "revid": 404438,
-      "parentid": 373299,
-      "timestamp": "2026-04-24T18:33:03Z",
-      "user": "Hjdesigner",
-      "comment": "/* Trivia */",
-      "size": 38411,
-      "sha1": "06fcb74b9f7917349bcf46ce798dabf61c5e9580"
+      "revid": 334402,
+      "parentid": 334391,
+      "timestamp": "2026-01-05T19:59:03Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 14459,
+      "sha1": "fd53b606a9b066524008c2f4a6147cfc642bc764"
     },
     {
-      "revid": 373299,
-      "parentid": 372266,
-      "timestamp": "2026-03-10T14:58:44Z",
-      "user": "Mentin123",
-      "comment": "Updating page links (automatic)",
-      "size": 38326,
-      "sha1": "c8849990735af32de2bf05642e53a9b4538eae0d"
+      "revid": 334391,
+      "parentid": 334374,
+      "timestamp": "2026-01-05T19:58:29Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 14455,
+      "sha1": "0af5c28692f1d413c0612564bf7ef171a89d6c6c"
     },
     {
-      "revid": 372266,
-      "parentid": 372265,
-      "timestamp": "2026-03-08T19:19:51Z",
-      "user": "Gabonnie",
-      "comment": "Reverted edit by [[Special:Contributions/Gabonnie|Gabonnie]] ([[User talk:Gabonnie|talk]]) to last revision by [[User:Breathix|Breathix]]",
-      "size": 38341,
-      "sha1": "da55df0df55cacc83c5ec8f182a9970bb0eb36c3"
-    },
-    {
-      "revid": 372265,
-      "parentid": 349205,
-      "timestamp": "2026-03-08T19:19:42Z",
-      "user": "Gabonnie",
-      "comment": "[IPE-NEXT] Quick edit",
-      "size": 38359,
-      "sha1": "0a03427ad0706d70e2a7c3726bfb819cbf83a091"
+      "revid": 334374,
+      "parentid": 329872,
+      "timestamp": "2026-01-05T19:56:36Z",
+      "user": "Redjacko6",
+      "comment": "changed out the toxic gunner icon from old to new",
+      "size": 14441,
+      "sha1": "130255d6cb29c732c6feeddde93a79a82d344f53"
     }
   ],
   "revision_diff": {
-    "fromrevid": 636050,
-    "torevid": 636603,
-    "fromtitle": "PVP",
-    "totitle": "PVP",
-    "fromuser": "Bkind000 Games",
-    "touser": "Mentin123",
+    "fromrevid": 469304,
+    "torevid": 495331,
+    "fromtitle": "Defense",
+    "totitle": "Defense",
+    "fromuser": "Mentin123",
+    "touser": "MrMosquito",
     "fromcomment": "",
     "tocomment": "",
-    "diff_text": "Line 8: Line 8: |-|Fallen Arena = [[File:FallenArena.png]] |-|Fallen Arena = [[File:FallenArena.png]] </tabber> </tabber> |waves = 30 |waves = 30 <br/>31 (Infinite Wave) 31 (when including the Infinite Wave) |level_requirement = {{Level|25}} |level_requirement = {{Level|25}} |starting_cash = {{Money|600}}<br/>{{Money|700}} (Group Bonus) |starting_cash = {{Money|600}}<br/>{{Money|700}} (Group Bonus)"
+    "diff_text": "Line 72: Line 72: The second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%. The second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%. Both forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the[[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%. Both forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%. Most splash damage will deal full damage to enemies with defense, no matter the percentage, though not all of them do. If a tower that deals explosion damage has orange indicators appear when it deals damage, that means it should be able to bypass defense. If the tower has the regular, red indicators, this is affected by defense. Most splash damage will deal full damage to enemies with defense, no matter the percentage, though not all of them do. If a tower that deals explosion damage has orange indicators appear when it deals damage, that means it should be able to bypass defense. If the tower has the regular, red indicators, this is affected by defense."
   },
   "classification": {
     "is_tower_page": false,
@@ -146,7 +146,7 @@
         "infobox_or_summary"
       ]
     },
-    "description": "'''PVP''' is a gamemode where opponents must defend each other until one team wins. The enemies in '''PVP''' are based on various modes based on player rank, though instead of the goal of surviving to the final wave, players are meant to defeat their opponent by sending enemies at them. If the final wave is beaten, it will repeat indefinitely until one team loses. The health of enemies will also get boosted over time.\n\nThis mode can be played in Casual, which has no added restrictions, and in Ranked, where players from a team could ban up to two towers. In 1v1, each player can ban up to two towers each, which is reduced to one each in 2v2. This mode has three rank based difficulties:\n#Basic Arena, based around [[Casual Mode|Casual]] mode, where players range from Private I to Private III.\n#Molten Arena, based on [[Intermediate Mode|Intermediate]] and [[Molten Mode|Molten]] modes, where players range from Sergeant I to Lieutenant III.\n#Fallen Arena, based on [[Fallen Mode|Fallen]] mode, where players range from Major I to above rank.\n\nIf players span multiple difficulties (such as a Private I teaming with a Major I), then the highest ELO score amongst all players is used to determine the difficulty. In Casual, the arena is voted for at the beginning of the match.\n\nEach difficulty ends with the [[Champion Templar]] as the final boss. A player's rank goes up and down with triumphs and loses in Ranked matches, giving them rewards through the [[PVP Season 0]].\n\n'''PVP''' applies multiple restrictions to players. The most noticeable change is the player's loadout being reduced to four towers. Additionally, all exclusive categories and golden perks are prohibited. Another large change is consumables, as this mode has its own exclusive ones. Toggleable modifiers are also completely disabled here. To compensate, various towers receive statistical changes to either make them stronger, such as starter towers becoming far more viable or small adjustments to make towers perform against enemy hordes.\n\nEvery 8 seconds, players receive cash from an economy bonus. The economy bonus can be seen under the tower placement limit. It may be increased by sending enemies to the opponent, though not all enemies sent grant an economy boost. Additionally, {{Money|20}} is added to the bonus after each wave.\n\nIn 2v2 matches, a 20% health scale effect is applied, boosting the health of enemies. This is not present in 1v1.\n\nCash is only gained if an enemy is killed or, in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down. For example, the [[Hidden Boss]] gives {{Money|600}} when killed in 1v1 and {{Money|300}} in 2v2.\n\nLeaving '''PVP''' in the middle of the match applies a penalty to the player which prevents them from playing '''PVP''' for a specified duration. This duration increases depending on the amount of prior penalties you have received. In Ranked matches, there is an additional penalty of ELO loss. These penalties can be avoided if the player rejoins the match.",
+    "description": "'''Defense''' is a status value given to certain enemies and units. Enemies may spawn with this naturally, or be granted this through a litany of means.",
     "upgrade_modes": {
       "regular": [],
       "pvp": []
@@ -173,49 +173,23 @@
     },
     "infoboxes": [
       {
-        "name": "ModeInfobox",
+        "name": "AttributeInfobox",
         "params": {
-          "title1": "<span style=\"  background: linear-gradient(to right, #2051b3 33%, white 33% 67%, red 67%); background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 0.09375em black)\">PVP</span>",
-          "image1": "<tabber>",
-          "Render": "[[File:SaboteurMatchmaking2026Render.png]]",
-          "Basic Arena": "[[File:BasicArena.png]]",
-          "Molten Arena": "[[File:MoltenArena.png]]",
-          "Fallen Arena": "[[File:FallenArena.png]]\n</tabber>",
-          "waves": "30<br/>31 (Infinite Wave)",
-          "level_requirement": "{{Level|25}}",
-          "starting_cash": "{{Money|600}}<br/>{{Money|700}} (Group Bonus)",
-          "rewards": "{{Coins|500}} & {{Exp|100}}"
+          "image1": "Defense.png",
+          "type": "Damage Reduction"
         },
-        "positional": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ]
+        "positional": []
       }
     ],
     "likely_infobox": {
-      "name": "ModeInfobox",
+      "name": "AttributeInfobox",
       "params": {
-        "title1": "<span style=\"  background: linear-gradient(to right, #2051b3 33%, white 33% 67%, red 67%); background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 0.09375em black)\">PVP</span>",
-        "image1": "<tabber>",
-        "Render": "[[File:SaboteurMatchmaking2026Render.png]]",
-        "Basic Arena": "[[File:BasicArena.png]]",
-        "Molten Arena": "[[File:MoltenArena.png]]",
-        "Fallen Arena": "[[File:FallenArena.png]]\n</tabber>",
-        "waves": "30<br/>31 (Infinite Wave)",
-        "level_requirement": "{{Level|25}}",
-        "starting_cash": "{{Money|600}}<br/>{{Money|700}} (Group Bonus)",
-        "rewards": "{{Coins|500}} & {{Exp|100}}"
+        "image1": "Defense.png",
+        "type": "Damage Reduction"
       },
-      "positional": [
-        "-",
-        "-",
-        "-",
-        "-"
-      ]
+      "positional": []
     },
-    "template_count": 629
+    "template_count": 6
   },
   "conflicts": {
     "priority_rule": {
@@ -235,46 +209,10 @@
   "categories": [
     {
       "ns": 14,
-      "title": "Category:Gamemodes"
+      "title": "Category:Attributes"
     }
   ],
   "backlinks": [
-    {
-      "title": "Waves",
-      "pageid": 104
-    },
-    {
-      "title": "How to Play",
-      "pageid": 119
-    },
-    {
-      "title": "Towers",
-      "pageid": 122
-    },
-    {
-      "title": "Scout",
-      "pageid": 123
-    },
-    {
-      "title": "Soldier",
-      "pageid": 124
-    },
-    {
-      "title": "Sniper",
-      "pageid": 125
-    },
-    {
-      "title": "Minigunner",
-      "pageid": 162
-    },
-    {
-      "title": "Freezer",
-      "pageid": 185
-    },
-    {
-      "title": "Ranger",
-      "pageid": 193
-    },
     {
       "title": "Pyromancer",
       "pageid": 195
@@ -284,28 +222,12 @@
       "pageid": 197
     },
     {
-      "title": "Farm",
-      "pageid": 198
-    },
-    {
-      "title": "Militant",
-      "pageid": 200
-    },
-    {
       "title": "Paintballer",
       "pageid": 202
     },
     {
-      "title": "Crook Boss",
-      "pageid": 226
-    },
-    {
       "title": "Demoman",
       "pageid": 239
-    },
-    {
-      "title": "Shotgunner",
-      "pageid": 275
     },
     {
       "title": "Molten Boss",
@@ -324,64 +246,16 @@
       "pageid": 294
     },
     {
+      "title": "Rocketeer",
+      "pageid": 307
+    },
+    {
       "title": "Normal",
       "pageid": 348
     },
     {
       "title": "Strong",
       "pageid": 397
-    },
-    {
-      "title": "Badlands",
-      "pageid": 403
-    },
-    {
-      "title": "End of the Line",
-      "pageid": 431
-    },
-    {
-      "title": "Rocket Arena",
-      "pageid": 441
-    },
-    {
-      "title": "Harbor",
-      "pageid": 442
-    },
-    {
-      "title": "Cyber City",
-      "pageid": 443
-    },
-    {
-      "title": "Moon Base",
-      "pageid": 444
-    },
-    {
-      "title": "Nether",
-      "pageid": 445
-    },
-    {
-      "title": "Chess Board",
-      "pageid": 446
-    },
-    {
-      "title": "The Heights",
-      "pageid": 447
-    },
-    {
-      "title": "Turret",
-      "pageid": 454
-    },
-    {
-      "title": "Forest Camp",
-      "pageid": 477
-    },
-    {
-      "title": "Iceville",
-      "pageid": 478
-    },
-    {
-      "title": "Medieval Times",
-      "pageid": 479
     },
     {
       "title": "Speedy",
@@ -392,36 +266,16 @@
       "pageid": 481
     },
     {
-      "title": "Robloxia",
-      "pageid": 482
-    },
-    {
-      "title": "Island Chaos",
-      "pageid": 483
-    },
-    {
       "title": "Hidden",
       "pageid": 484
-    },
-    {
-      "title": "Toyboard",
-      "pageid": 485
     },
     {
       "title": "Normal Boss",
       "pageid": 486
     },
     {
-      "title": "Winter",
-      "pageid": 487
-    },
-    {
       "title": "Mystery",
       "pageid": 488
-    },
-    {
-      "title": "Canyon",
-      "pageid": 489
     },
     {
       "title": "Necromancer (Legacy Enemy)",
@@ -438,213 +292,209 @@
     {
       "title": "Shock",
       "pageid": 493
+    },
+    {
+      "title": "Speedy Boss",
+      "pageid": 494
+    },
+    {
+      "title": "Super Mystery",
+      "pageid": 496
+    },
+    {
+      "title": "Mystery Summoner",
+      "pageid": 504
+    },
+    {
+      "title": "Boomer",
+      "pageid": 505
+    },
+    {
+      "title": "Necromancer 2",
+      "pageid": 506
+    },
+    {
+      "title": "Blighted (Legacy)",
+      "pageid": 507
+    },
+    {
+      "title": "Tank",
+      "pageid": 508
+    },
+    {
+      "title": "Boomer 2",
+      "pageid": 509
+    },
+    {
+      "title": "Carrier",
+      "pageid": 510
+    },
+    {
+      "title": "Controlled",
+      "pageid": 511
+    },
+    {
+      "title": "Chained Boss",
+      "pageid": 512
+    },
+    {
+      "title": "Witch Doctor",
+      "pageid": 513
+    },
+    {
+      "title": "Gold Titan",
+      "pageid": 526
+    },
+    {
+      "title": "Shrike Crystal",
+      "pageid": 527
+    },
+    {
+      "title": "Tombstone",
+      "pageid": 528
+    },
+    {
+      "title": "Golden",
+      "pageid": 529
+    },
+    {
+      "title": "Knight (The Heights)",
+      "pageid": 530
+    },
+    {
+      "title": "Stone Viking",
+      "pageid": 531
+    },
+    {
+      "title": "Crystalite",
+      "pageid": 532
+    },
+    {
+      "title": "Brute (The Heights)",
+      "pageid": 533
+    },
+    {
+      "title": "Fallen Hero (Legacy)",
+      "pageid": 534
+    },
+    {
+      "title": "Swordmaster",
+      "pageid": 535
+    },
+    {
+      "title": "Swarm",
+      "pageid": 576
+    },
+    {
+      "title": "Raider Boss",
+      "pageid": 592
+    },
+    {
+      "title": "Commando",
+      "pageid": 599
+    },
+    {
+      "title": "Alien (Area 51)",
+      "pageid": 606
+    },
+    {
+      "title": "Strong Alien",
+      "pageid": 607
+    },
+    {
+      "title": "Zoomer",
+      "pageid": 608
+    },
+    {
+      "title": "Lawnmower",
+      "pageid": 609
+    },
+    {
+      "title": "Hidden Zoomer",
+      "pageid": 610
     }
   ],
   "templates": [
     {
       "ns": 10,
-      "title": "Template:For",
+      "title": "Template:AttributeInfobox",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:ModeInfobox",
+      "title": "Template:Color",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Level",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Money",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Coins",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Exp",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Badge",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Badge/float.css",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Badge/data",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Tabber",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Soundtrack",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:GalleryHeader",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Gallery",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Scroll",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Bug",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Bugfix",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:ModeNavBox",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Money",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Roapid",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Roapid/badges-2703976016483602.json",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Roapid/badges-3808746066588894.json",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Roapid/badges-726708003932314.json",
-      "exists": true
-    },
-    {
-      "ns": 828,
-      "title": "Module:Tabber",
+      "title": "Template:AttributeNavBox",
       "exists": true
     }
   ],
   "related_pages": [
     {
-      "title": "PVP (Disambiguation)",
-      "score": 3,
-      "pageid": 41209,
-      "latest_revid": 297323,
-      "latest_timestamp": "2025-11-02T12:47:28Z",
-      "wikitext_excerpt": "{{Disambiguation|PVP}}\n\n== Gamemodes ==\n'''PVP''' may refer to these [[gamemodes]]:\n*[[PVP]], the player versus player mode\n*[[PVP Test]], a test run of the player versus player mode\n\n== Maps ==\n'''PVP''' may refer to these [[maps]]:\n*[[PVP (Map)]], a map originally used for [[PVP Test]]\n*[[PVP_1]], a map for [[PVP Test]]\n*[[PVP_2]], a map for [[PVP Test]]\n*[[PVP_3]], a map for [[PVP Test]]\n*[[PVP_4]], a map for [[PVP Test]]\n*[[PVP_5]], a map for [[PVP Test]]\n*[[PVP_6]], a map for [[PVP Test]]\n*[[PVP_7]], a map for [[PVP Test]]\n*[[PVP_8]], a map for [[PVP Test]]\n*[[PVP_9]], a map for [[PVP Test]]\n*[[PVP_10]], a map for [[PVP Test]]\n*[[PVP_11]], a map for [[PVP Test]]\n*[[2021 PVP Maps]], eight maps for a 2021 PVP mode that was never released\n\n== Other ==\n'''PVP''' may also refer to:\n*[[PVP Season 0]]\n*[[PVP Seasons]]"
-    },
-    {
-      "title": "PVP Season 0",
-      "score": 3,
-      "pageid": 51178,
-      "latest_revid": 468656,
-      "latest_timestamp": "2026-06-05T08:02:09Z",
-      "wikitext_excerpt": "{{PassEnd|date = 22nd of October 2025|gift box=No}}\n{{PVPSeasonInfobox\n|image1 = PVPReleaseThumbnail.png\n|dates = 23 July 2025 – 22 October 2025\n|next_season = TBA\n}}\n==Description==\nThe '''PVP Season 0''' was the first PVP Season to be released in Tower Defense Simulator.\n\nIt was released on the 23rd of July 2025 and ended on the 22nd of October 2025.\n\n==Season==\n[[File:PVPSeason0.png|center|450px]]\n'''PVP Season 0''' initially required 4 ranked matches to get ranked. Afterwards, players would gain [[file:ELO.png|24px|link=]]ELO which advances them through the season. [[file:ELO.png|24px|link=]]ELO was gained by winning matches and lost by losing matches. Playing against players with higher ranks would grant higher [[file:ELO.png|24px|link=]]ELO rewards than if the player was to play with others of the same or lower rank.\n\nThe player's rank was determined by their [[file:ELO.png|24px|link=]]ELO. If it was in a specific range, they would be moved to that rank. This could both boost them upwards, for example from Sergeant II to III, but also downwards, like from General III to General II.\n\n{{PVPSeason\n|Number = 0\n|Rank 1 = Private I\n|Rank Image 1 = PVPPrivate.png\n|R1 Image 1 = WoodlandNametagIcon.png\n|R1 Link 1 = Woodland Nametag\n|R1 Reward 1 = Woodland\n|R2 Image 1 = LowGradeCrate.png\n|R2 Link 1 = Low Grade Crate\n|R2 Reward 1 = 3\n|R3 Reward 1 = None\n|Rank Range 1 = 0-199\n|Rank 2 = Private II\n|Rank Image 2 = PVPPrivate.png\n|R1 Image 2 = Coin.png\n|R1 Reward 2 = 150\n|R2 Reward 2 = None\n|R3 Reward 2 = None\n|Rank Range 2 = 200-349\n|Rank 3 = Private III\n|Rank Image 3 = PVPPrivate.png\n|R1 Image 3 = Exp.png\n|R1 Reward 3 = 200\n|R2 Image 3 = GLHFSticker.png\n|R2 Link 3 = GLHF\n|R2 Reward 3 = GLHF\n|R3 Reward 3 = None\n|Rank Range 3 = 350-499\n|Rank 4 = Sergeant I\n|Rank Image 4 = PVPSergeant.png\n|R1 Image 4 = TanCamoNametagIcon.png\n|R1 Link 4 = Tan Camo Nametag\n|R1 Reward 4 = Tan Camo\n|R2 Image 4 = LowGradeCrate.png\n|R2 Link 4 = Low Grade Crate\n|R2 Reward 4 = 3\n|R3 Reward 4 = None\n|Rank Range 4 = 500-699\n|Rank 5 = Sergeant II\n|Rank Image 5 = PVPSergeant.png\n|R1 Image 5 = Coin.png\n|R1 Reward 5 = 200\n|R2 Image 5 = Exp.png\n|R2 Reward 5 = 300\n|R3 Image 5 = StayCoolSticker.png\n|R3 Link 5 = Stay Cool\n|R3 Reward 5 = Stay Cool\n|Rank Range 5 = 700-899\n|Rank 6 = Sergeant III\n|Rank Image 6 = PVPSergeant.png\n|R1 Image 6 = TrophyCharmIcon.png\n|R1 Link 6 = Trophy Charm\n|R1 Reward 6 = Trophy\n|R2 Image 6 = KudosEmote.png\n|R2 Link 6 = Kudos\n|R2 Reward 6 = Kudos\n|R3 Reward 6 = None\n|Rank Range 6 = 900-1,099\n|Rank 7 = Lieutenant I\n|Rank Image 7 = PVPLieutenant.png\n|R1 Image 7 = ArcticCamoNametagIcon.png\n|R1 Link 7 = Arctic Camo Nametag\n|R1 Reward 7 = Arctic Camo\n|R2 Image 7 = MidTierConsumableCrate.png\n|R2 Link 7 = Mid Grade Crate\n|R2 Reward 7 = 3\n|R3 Reward 7 = None\n|Rank Range 7 = 1,100-1,399\n|Rank 8 = Lieutenant II\n|Rank Image 8 = PVPLieutenant.png\n|R1 Image 8 = Coin.png\n|R1 Reward 8 = 300\n|R2 Image 8 = Exp.png\n|R2 Reward 8 = 400\n|R3 Image 8 = MoltenRageSticker.png\n|R3 Link 8 = Molten Rage\n|R3 Reward 8 = Molten Rage\n|Rank Range 8 = 1,400-1,599\n|Rank 9 = Lieutenant III\n|Rank Image 9 = PVPLieutenant.png\n|R1 Image 9 = TeamFuryNametagIcon.png\n|R1 Link 9 = Team Fury Nametag\n|R1 Reward 9 = Team Fury\n|R2 Image 9 = ChampionTemplarCharm.png\n|R2 Link 9 = Champion Templar Charm\n|R2 Reward 9 = Champion Templar\n|R3 Reward 9 = None\n|Rank Range 9 = 1,600-1,799\n|Rank 10 = Major I\n|Rank Image 10 = PVPMajor.png\n|R1 Image 10 = NavyCamoNametagIcon.png\n|R1 Link 10 = Navy Camo Nametag\n|R1 Reward 10 = Navy Camo\n|R2 Image 10 = HighGradeCrate.png\n|R2 Link 10 = High Grade Crate\n|R2 Reward 10 = 2\n|R3 Reward 10 = None\n|Rank Range 10 = 1,800-1,999\n|Rank 11 = Major II\n|Rank Image 11 = PVPMajor.png\n|R1 Image 11 = Coin.png\n|R1 Reward 11 = 400\n|R2 Image 11 = Exp.png\n|R2 Reward 11 = 500\n|R3 Image 11 = DespairSticker.png\n|R3 Link 11 = Despair\n|R3 Reward 11 = Despair\n|Rank Range 11 = 2,000-2,199\n|Rank 12 = Major III\n|Rank Image 12 = PVPMajor.png\n|R1 Image 12 = ChampionAccelCharm.png\n|R1 Link 12"
-    },
-    {
-      "title": "PVP Seasons",
-      "score": 3,
-      "pageid": 51146,
-      "latest_revid": 295114,
-      "latest_timestamp": "2025-10-22T20:52:12Z",
-      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''PVP Seasons'''</span>\n----\n\n'''PVP Seasons''' are a feature where players are rewarded for winning [[PVP]] matches. By reaching high enough ELO values, '''PVP Seasons''' will give the player various cosmetics like skins, stickers or emotes. ELO gained is based on the rank of the opponents.\n\n{| class=\"empty-table pad-5 align-center\" style=\"width:300px; margin:0 auto\"\n|[[File:PVPReleaseThumbnail.png|300px|link=PVP Season 0]]\n|-\n|[[PVP Season 0]]\n|-\n|23 July 2025 – 22 October 2025\n|}\n</div>\n\n\n\n{{BrowseNavBox}}\n[[Category:Browse]]"
-    },
-    {
-      "title": "PVP Test",
-      "score": 3,
-      "pageid": 40052,
-      "latest_revid": 582398,
-      "latest_timestamp": "2026-07-30T14:05:57Z",
-      "wikitext_excerpt": "{{ModeTabs|Rewards = No|Story = No}}\n{{Removed|date = 23rd of April 2025}}\n{{For|other uses of [[PVP (Disambiguation)|PVP]] or [[Versus]]}}\n{{ModeInfobox\n|title1 = {{Colour|PVP|PVP Test}}\n|image1 = Melee.png\n|waves = 31\n|level_requirement = None\n|starting_cash = {{Money|600}}<br/>{{Money|700}} (Group Bonus)\n|shared_cash = 12.5% (Duo)<br/>16.7% (Trio)<br/>18.75% (Quad)\n|rewards = {{Exp|0}}\n}}\n__TOC__\n==Description==\n'''PVP Test''' was a recurring test mode prior to the release of the [[PVP]] mode. The enemies in '''PVP Test''' were based on various modes based on player rank, though instead of the goal of surviving to the final wave, players were meant to defeat their opponent by sending enemies at them. If the final wave was beaten, it would repeat indefinitely until one team loses. Wins did not count as triumphs (except for [[Quests]]), but losing this mode counted as a loss.\n\nThis mode could be played in Casual, which had no added restrictions, and in Ranked, where players from a team could ban up to two towers. This mode had three rank based difficulties. The first one is Low Rank, which was based around [[Casual Mode|Casual]] mode, the second was Mid Rank, which was based on [[Intermediate Mode|Intermediate]] and [[Molten Mode|Molten]] modes and the third was High Rank, that was based on [[Fallen Mode|Fallen]] mode. Which one was started is based on the the player's rank. The player's rank goes up and down with triumphs and loses in Ranked matches.\n\n'''PVP Test''' applied multiple restrictions to players. The most noticeable change was the player loadout being reduced to four players. Additionally, all exclusive categories and golden perks were prohibited. Another large change was consumables, as this mode only allowed '''PVP Test''' exclusive ones.\n\nEvery 8 seconds, players received cash from an economy bonus. The economy bonus could be seen under the tower placement limit. It could be increased by sending enemies to the opponent. Each send increased it by its own value and {{Money|20}} was added to the bonus after each wave.\n\nCash was only obtained if an enemy was killed, or in some cases, damaged by a specific amount of health. Additionally, the amount gotten was a set amount of cash, which was not always equal to the enemy's health. In solo, the player received 100% of the cash when an enemy was killed or damaged enough. With each additional player, this decreased by 25%, which meant that in a quad, any specific player would only get up to 25% of the cash. This amount was distributed between players based on how much damage they dealt. However, if a player did not deal any damage, they would receive a percentage of the enemy's full cash upon its death or when it was damaged enough, which is 12.5% in duo, 16.7% in trio and 18.75% in quad. If it was a decimal, it got rounded up or down depending on the decimal value. If it was at least 0.5, it got rounded up. If it was less than 0.5, it got rounded down. For example, the [[Hidden Boss]] gave {{Money|600}} when killed in solo, {{Money|450}} in duo, {{Money|300}} in trio and {{Money|150}} in quad between the players that damaged it. Players that did not damage it received {{Money|75}} in duo, {{Money|100}} in trio and {{Money|113}} in quad.\n\n==Rewards==\n'''PVP Test''' did not grant any rewards or badges upon completion. Instead, the end of the match screen would show the reward as {{Exp|0}}.\n\n==Enemies==\n{{Tabber\n|Low Rank\n|{{{!}} class{{=}}\"empty-table pad-5 align-center\" style{{=}}\"width:80%; margin:0 auto\"\n{{!}}[[File:NormalAnim1.png|center|150px|link=Normal]]\n{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]\n{{!}}[[File:SpeedyAnim2.png|center|150px|link=Speedy]]\n{{!}}[[File:SlowAnim1.png|center|150px|link=Slow]]\n{{!}}-\n{{!}}[[Normal]]<br/>Wave 1\n{{!}}[[Quick]]<br/>Wave 2\n{{!}}[[Speedy]]<br/>Wave 3 Send\n{{!}}[[Slow]]<br/>Wave 4\n{{!}}-\n{{!}}[[File:EasyModeNormalBoss.png|center|150px|link=Normal Boss]]\n{{!}}[[File:HiddenV5.png|center|150px|link=Hidden]]\n{{!}}[[File:Br"
-    },
-    {
-      "title": "PVP Test/Waves",
-      "score": 3,
-      "pageid": 40303,
-      "latest_revid": 582399,
-      "latest_timestamp": "2026-07-30T14:06:08Z",
-      "wikitext_excerpt": "{{ModeTabs|Waves|Rewards = No|Story = No}}[[File:Melee.png|75px|thumb]]\n\nThese are the current and former wave layouts for '''PVP Test''' mode.\n\n'''Bolded''' names indicates an enemy type's debut.\n{{Clear}}\n<div class=\"mobile-tabber\"><tabber>\n|-|Low Rank =\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''9 April 2025 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content align-center\">\n==Sends==\n{| class=\"sortable article-table pad-td-5 align-center\" style=\"margin:0 auto 10px; width: 100%;\"\n!Enemy Group\n!Wave Unlock\n!Send Cost\n!Economy Bonus\n!Send Number\n!Spawn Timer\n!Stat Changes\n|-\n|[[Normal]]\n|2\n|{{Money|45}}\n|{{Money|3}}\n|3-9\n|1.2\n|None\n|-\n|[[Speedy]]\n|3\n|{{Money|65}}\n|{{Money|4}}\n|2-6\n|1.2\n|None\n|-\n|[[Slow]]\n|5\n|{{Money|75}}\n|{{Money|5}}\n|3-8\n|1.2\n|None\n|-\n|[[Hidden]]\n|8\n|{{Money|100}}\n|{{Money|8}}\n|2-8\n|0.8\n|None\n|-\n|[[Breaker2]]\n|10\n|{{Money|120}}\n|{{Money|10}}\n|2-7\n|1.2\n|None\n|-\n|[[Enraged]]\n|12\n|{{Money|150}}\n|{{Money|12}}\n|2-8\n|1\n|None\n|-\n|[[Hazmat]]\n|15\n|{{Money|210}}\n|{{Money|15}}\n|2-6\n|1\n|None\n|-\n|[[Necromancer (Modern Enemy)|Necromancer]]\n|18\n|{{Money|260}}\n|{{Money|0}}\n|1-2\n|1.5\n|500 Health\n|-\n|[[Hidden Boss]]\n|20\n|{{Money|480}}\n|{{Money|0}}\n|1-2\n|3\n|600 Health\n|-\n|[[Slow Boss]]\n|22\n|{{Money|660}}\n|{{Money|-50}}\n|1-2\n|3\n|2,500 Health\n|-\n|[[Speedy Boss]]\n|24\n|{{Money|1,000}}\n|{{Money|-100}}\n|1-2\n|4\n|1,800 Health\n|-\n|[[Tank]]\n|26\n|{{Money|3,000}}\n|{{Money|-200}}\n|1-2\n|5\n|4,000 Health\n|}\n<!--\n==Send Changes==\n{| class=\"article-table pad-5 align-center\" style=\"margin:0 auto; width: 100%;\"\n!Wave\n!Changes\n|-\n|3\n|+1 [[Normal]] sends\n|-\n|4\n|+1 [[Normal]] sends\n|-\n|5\n|+1 [[Normal]] sends, +1 [[Speedy]] sends\n|-\n|6\n|+1 [[Normal]] Sends\n|-\n|7\n|+1 [[Normal]] sends, +1 [[Speedy]] sends, +1 [[Slow]] sends\n|-\n|8\n|+1 [[Normal]] sends\n|-\n|9\n|+1 [[Slow]] sends\n|-\n|10\n|+1 [[Speedy]] sends, +1 [[Hidden]] sends\n|-\n|12\n|+1 [[Speedy]] sends, +1 [[Slow]] sends, +1 [[Hidden]] sends\n|-\n|14\n|+1 [[Slow]] sends, +1 [[Breaker2]] sends\n|-\n|15\n|+1 [[Hidden]] sends\n|-\n|16\n|+1 [[Slow]] sends, +1 [[Armored]] sends\n|-\n|17\n|+1 [[Hidden]] sends, +1 [[Breaker2]] sends\n|-\n|19\n|+1 [[Armored]] sends\n|-\n|20\n|+1 [[Hidden]] sends\n|-\n|21\n|+1 [[Breaker2]] sends\n|-\n|22\n|+1 [[Hidden]] sends, +1 [[Armored]] sends\n|-\n|24\n|+1 [[Breaker2]] sends\n|-\n|26\n|+1 [[Armored]] sends\n|-\n|27\n|+1 [[Breaker2]] sends\n|-\n|29\n|+1 [[Bolt]] sends, +1 [[Armored]] sends\n|}-->\n\n==Wave Structure==\n{| class=\"wikitable pad-10\" style=\"width:100%; margin: 0 auto; text-align: center;\"\n!Wave \n!Enemy Type & Amount\n|-\n|1\n|4x '''[[Normal]]'''\n|-\n|2\n|2x '''[[Quick]]''', 6x [[Normal]]\n|-\n|3\n|10x [[Normal]], 6x [[Quick]]\n|-\n|4\n|3x '''[[Slow]]''', 10x [[Normal]], 5x [[Quick]]\n|-\n|5\n|8x [[Slow]], 15x [[Normal]], 10x [[Quick]]\n|-\n|6\n|10x [[Slow]], 20x [[Normal]], 8x [[Quick]]\n|-\n|7\n|8x [[Slow]], 1x '''[[Normal Boss]]'''\n|-\n|8\n|10x [[Normal]], 10x [[Slow]], 1x [[Normal Boss]], 5x [[Quick]]\n|-\n|9\n|10x [[Normal]] ([[Bloated]]), 8x '''[[Hidden]]''', 5x [[Quick]]\n|-\n|10\n|5x [[Slow]], 2x [[Normal Boss]], 20x [[Quick]] ([[Bloated]])\n|-\n|11\n|10x '''[[Breaker2]]''' ([[Nimble]]), 10x [[Hidden]]\n|-\n|12\n|12x [[Slow]], 10x [[Breaker2]], 10x [[Quick]] ([[Bloated]])\n|-\n|13\n|4x [[Hidden]] ([[Nimble]]), 5x [[Breaker2]], 4x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]], 4x [[Quick]] ([[Bloated]]), 1x '''[[Necromancer (Modern Enemy)|Necromancer]]'''\n|-\n|14\n|10x '''[[Armored]]''', 2x [[Normal Boss]], 8x [[Breaker2]], 15x [[Speedy]] ([[Bloated]], [[Nimble]])\n|-\n|15\n|3x [[Breaker2]] ([[Nimble]]), 4x [[Hidden]] ([[Bloated]]), 3x [[Breaker2]] ([[Nimble]]), 8x [[Slow]] ([[Bloated]]), 3x [[Armored]], 4x [[Normal Boss]], 1x [[Necromancer (Modern Enemy)|Necromancer]]\n|-\n|16\n|7x [[Breaker2]] ([[Nimble]]), 8x [[Hidden]] ([[Bloated]]), 6x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]] ([[Bloated]]), 1x '''[[Slow Boss]]'''\n|-\n|17\n|15x [[Armored]] ([[Nimble]]),  10x [[Breaker2]], 1x '''[[Hidden Boss]]''', 10x [[Hidden]] ([[Bloated]])\n|-\n|18\n|10x [[Slow]] ([[Bloated]]), 12x [[Armored]], 2x [[Necromancer"
-    },
-    {
-      "title": "Corpse (Enemy)",
+      "title": "Flying",
       "score": 1,
-      "pageid": 44543,
-      "latest_revid": 654466,
-      "latest_timestamp": "2026-09-14T06:12:09Z",
-      "wikitext_excerpt": "{{SameName|Corpse|[[Corpse (Enemy)|Enemy]] • [[Corpse (Attribute)|Attribute]]}}\n{{For|[[Hex Corpse]]}}\n{{Zombie\n|title1 = Corpse\n|image1 = CorpseEnemy.png\n|mode_appearance = [[Molten Mode|{{Color|MoltenMode}}]]<br/>[[Fallen Mode|{{Color|FallenMode}}]]<br/>[[Badlands II|{{Color|WesternMode}}]]<br/>[[Pizza Party|{{Color|PizzeriaMode}}]]<br/>[[PVP|{{Color|MoltenArena}}]]<br/>[[Polluted Wasteland II|{{Color|NuclearMode}}]]{{InfoboxContainer|Events|*[[Korblox Temple|The Hunt: Mega Edition (Easy)]]\n*[[Korblox Temple|The Hunt: Mega Edition (Mega)]]\n*[[Korblox Temple|The Hunt: Mega Edition (Impossible)]]\n*[[Bathroom Approach|Ducky Revenge (Hard)]]\n*[[Sk8 P4rk|The Takeover (Master)]]\n*[[Sk8 P4rk|The Takeover (Extreme)]]\n*[[Nil Zone|Halloween 2025 Live Event]]\n*[[Backyard Beginnings|Backyard Legends Mission 1 (Hard)]]\n*[[Competition Court|Backyard Legends Mission 2 (Hard)]]\n*[[Victory Field|Backyard Legends Mission 3 (Hard)]]}}\n----\nOriginally:<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = N/A\n|base_hp = [[File:HealthIcon.png|20px|Health]]75% of spawner enemy\n|defense = {{Defense}}100%\n|speed = [[File:SpeedIcon.png|20px|Speed]]Immobile (0)\n|spawned_by = Any enemy with [[Corpse (Attribute)|Corpse]]\n|hidden = No\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Corpse}}<br/>{{Attr|Stun}}<br/>{{Attr|Burn}}<br/>Some inherited from spawner enemy\n}}\n==Description==\nThe '''Corpse''' is an enemy that only appears when spawned through the [[Corpse (Attribute)|Corpse]] attribute. Uniquely, its statistics are actually heavily based on the enemy that summoned it, instead of having its own statistics, though it does have some statistics that do not change. This is because the '''Corpse''' is not its own enemy, it is actually the enemy it spawned from with a changed display name and altered statistics.\n\nMost notably, it has 100% defense, and it has the [[Corpse (Attribute)|Corpse]], [[Stun Immunity]] and [[Burn Immunity]] attributes. Its health is 75% of the enemy that it spawned from. Additionally, some of the attributes the enemy it spawned from are also inherited. The only exception to this is [[Hidden (Attribute)|Hidden]], which is removed upon the enemy's death.\n\n==Appearance==\nThe '''Corpse''' does not have a consistent appearance, as the model it uses is based on the enemy it spawned from, though it does have certain characteristics which are consistent between them all. The '''Corpse''' is the body of the enemy it spawned from made entirely out of black molten rocks. Any images present on the enemy, such as faces, will remain on them even as a '''Corpse'''.\n\n==Strategy==\n*The '''Corpse''' is not a threatening enemy, as it cannot move to the entrance, meaning losing to it is impossible. Its main purpose is to act as a shield for enemies behind it.\n**However, it can be relatively an inconvenience with its 100% defense and tendency to distract towers from attacking actual enemies.\n**Towers like the [[Electroshocker]] or [[Toxic Gunner]] can be used to drop its defense, as it is very high. The [[Pyromancer]] cannot be used since it has [[Burn Immunity]].\n**Towers like the [[Ranger]] or [[Mortar]] can be used to take care of any corpses that are too far away from your main defenses with their high range.\n*The '''Corpse''' is required to be killed before a match can end.\n**Waves can be skipped while only '''Corpses''' are on the path, as that still grants the wave clear bonus. Additionally, infinite waves cannot be skipped at all.\n***If you have the [[DJ Booth]], you can exploit this by repeatedly using its ''Drop The Beat'' ability on Green track to make as much cash as you want.\n*As the '''Corpse''' is technically not a unique, summoned enemy, but instead the slightly altered version of the enemy it spawned from, the [[Cowboy]] is able to generate cash from it.\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Variants}}\n<gallery>\nMoltenCorpseMolten.png|First version (11 December 2024 – 12 March 2025)\n</gallery>\n\n{{GalleryHeade"
+      "pageid": 42529,
+      "latest_revid": 639555,
+      "latest_timestamp": "2026-09-03T13:25:42Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Fly.png\n|type = Enemy Type\n|detection = Flying Detection\n|immunities = [[File:VehicleSpawn.png|20px|Collision Damage]]Collision Damage<br/>[[File:TrapperLevel1.png|20px|Road Hazards|link=]]Road Hazards<br/>{{Knockback}}Knockback\n|sandbox = Yes\n|tag = {{AttrTag|Second|Fly.png|Flying}}\n}}\n==Description==\n'''Flying''' is an enemy type that makes the enemy fly above the path, making them avoid being damaged by most things on the path. Towers need flying detection to target these enemies.\n\n==Mechanics==\n'''Flying''' enemies fly above the path, which grants them multiple perks. The main immunity that it grants is requiring flying detection to target them, making it difficult for towers without said detection to damage a '''Flying''' enemy.\n\n'''Flying''' enemies have various other unique immunities that are applied, outside of flying detection:\n\n# They are completely immune to being damaged by unit collision damage, even if they would normally collide with each other.\n#*This includes the [[Gift Bomber]], which cannot collide with '''Flying''' enemies, despite visually passing through '''Flying''' enemies.\n#*Some units, like the [[Rifleman]] or [[Missile APC]], can detect flying enemies, even if they cannot collide with them.\n#They are able to fly over road hazards, namely the [[Trapper]]'s traps and the [[Harvester]]'s thorns (and by extension the [[Farm]]'s).\n#*The [[Commando]]'s missiles, can still affect them.\n#*The [[Barricade]] can collide with '''Flying''' enemies, but they deal unit collision damage. Therefore, '''Flying''' enemies are also immune to this.\n#They are immune to being knocked back by towers. This does not mean they are immune to other effects from attacks that knock back enemies.\n#*For example, the [[DJ Booth]] can still slow down '''Flying''' enemies, even if the purple track cannot knock them back.\n\n'''Flying''' enemies may be indirectly damaged by towers, even if they do not have flying detection. For example, the [[Brawler]]'s ''Reposition'' ability deals damage to '''Flying''' enemies, though due to their knockback immunity it does not knock them back.\n\nIf an enemy is applied the '''Flying''' attribute through [[Sandbox Mode|Sandbox]] mode, and they do not typically have the attribute, all of the said immunities apply to the enemy, even if they visually remain on the ground.\n\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Flying Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\">From Level 0+, its splash damage can indirectly damage '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Demoman]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 4\n|-\n|[[Soldier]] \n| class=\"yes-table\" |Full\n|Level 4<br/>Level 0+ ([[PVP]])\n|-\n| rowspan=\"2\" |[[Shotgunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n| class=\"no-table\" |None\n|N/A ([[PVP]])\n|-\n|[[Freezer]]\n| class=\"no-table\" |None<ref>Its ''Frost Grenade'' ability can indirectly hit '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Pyromancer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"no-table\" |None<ref>Through chaining, it can indirectly hit '''Flying''' enemies, but it can never target them.</ref>\n|N/A\n|-\n|[[Rocketeer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Trapper]]\n"
     },
     {
-      "title": "Hidden",
+      "title": "Freeze Immunity",
       "score": 1,
-      "pageid": 484,
-      "latest_revid": 607445,
-      "latest_timestamp": "2026-08-11T12:35:26Z",
-      "wikitext_excerpt": "{{EnemyTabs}}\n{{SameName|Hidden|[[Hidden (Attribute)|Attribute]] • [[Hidden|Enemy]]}}\n{{For|the [[Hidden Boss]]|[[Shadow]], [[Ninja]]|[[Hidden Zoomer]]}}\n{{ZombieLegacy\n|modern_image = HiddenV5.png\n|legacy_image = <tabber>\n|-|Normal = [[File:Hidden4.png]]\n|-|Enemies Beta = [[File:BetaHidden.png]]\n</tabber>\n|mode_appearance = [[Easy Mode|{{Color|EasyMode}}]]<br/>[[Casual Mode|{{Color|CasualMode}}]]<br/>[[Legacy Molten Mode|{{Color|LegacyMoltenMode}}]]<br/>[[Intermediate Mode|{{Color|IntermediateMode}}]]<br/>[[PVP|{{Color|BasicArena}}]]<br/>[[PVP|{{Color|MoltenArena}}]]<br/>[[Tutorial|{{Color|TutorialMode}}]]<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[Breach Protocol]]\n*[[Brute Force]]\n*[[Derailed]]\n*[[Rock Bottom]]\n*[[Surface Tension]]\n*[[Lights Out]]}}\n{{InfoboxContainer|Challenges|\n*[[Back to Basics (Challenge)|Back to Basics]]\n*[[Boss Rush]]}}{{InfoboxContainer|Events|*[[The Heights|SFOTH]]\n*[[Cyber City|Metaverse Champions]]\n*[[Classic Candy Cane Lane|The Classic Mission 1]]\n*[[Classic Forest Camp|The Classic Mission 3]]\n*[[Classic Castle|The Classic Mission 5]]\n*[[Nil Zone|Halloween 2025 Live Event]]}}\n----\nOriginally:<br>[[Molten Mode|{{Color|MoltenMode}}]]<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = 8 (Easy)<br/>9 (Casual, Basic Arena PVP & Molten Arena PVP Test)<br/>10 (Intermediate)<br/>3 (Tutorial)<br/>13 (Legacy Molten)\n----\nOriginally:<br>3 ([[The Heights]])<br>9 ([[Cyber City|Metaverse Champions]], Low & Mid Rank PVP Test)<br>4 ([[Classic Candy Cane Lane]] & [[Nil Zone]])<br>3 ([[Classic Forest Camp]])<br>7 ([[Classic Castle]])<br>10 (Molten)\n|base_hp = [[File:HealthIcon.png|20px|Health]]8 (Tutorial)<br/>[[File:HealthIcon.png|20px|Health]]15 (Easy & Sandbox)<br/>[[File:HealthIcon.png|20px|Health]]24 (Casual)<br/>[[File:HealthIcon.png|20px|Health]]25 (Basic Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]30 (Molten Arena PVP)<br/> [[File:HealthIcon.png|20px|Health]]35 (Intermediate)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[File:HealthIcon.png|20px|Health]]20 ([[Breach Protocol]])\n*[[File:HealthIcon.png|20px|Health]]15 ([[Brute Force]])\n*[[File:HealthIcon.png|20px|Health]]40 ([[Derailed]])\n*[[File:HealthIcon.png|20px|Health]]75 ([[Rock Bottom]] & [[Surface Tension]])\n*[[File:HealthIcon.png|20px|Health]]100 ([[Lights Out]])}}\n{{InfoboxContainer|Challenges|\n*[[File:HealthIcon.png|20px|Health]]20 ([[Back to Basics (Challenge)|Back to Basics]])\n*[[File:HealthIcon.png|20px|Health]]15 ([[Boss Rush]])}}\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|cash = {{Money|5}} on death (Default)<br/>{{Money|20}} on death (Easy & Intermediate)<br/>{{Money|24}} on death (Casual)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*{{Money|5}} on death ([[Breach Protocol]] & [[Brute Force]])\n*{{Money|50}} on death ([[Derailed]])\n*{{Money|60}} on death ([[Rock Bottom]], [[Surface Tension]] & [[Lights Out]])}}\n|spawned_by = *Legacy [[Necromancer (Legacy Enemy)|Necromancer]]\n*[[Mystery]] (Legacy Molten only)\n*[[Tombstone]] (Formerly)\n|hidden = {{Attr|Hidden|Yes}}\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Bloated}} (Variable)<br/>{{Attr|Nimble}} (Variable)\n|legacy_base_hp = [[File:HealthIcon.png|20px|Health]]10\n|legacy_speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|legacy_cash = {{Money|5}} on death\n|legacy_spawned_by = *Legacy [[Necromancer (Legacy Enemy)|Necromancer]]\n*[[Mystery]] (Legacy Molten only)\n*[[Tombstone]] (Formerly)\n|legacy_hidden = {{Attr|Hidden|Yes}}\n|legacy_fly = No\n|legacy_ghost = No\n|legacy_lead = No\n|legacy_immunity = None\n|versus_send_cost = {{Money|100}} (Basic Arena)<br/>{{Money|105}} (Molten Arena)\n|versus_wave_unlock = 8\n|versus_eco = {{Money|8}} (Basic Arena)<br/>{{Money|10}} (Molten Arena)\n|versus_number = 2-3\n|versus_timer = 0.8\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|I just spotted some Hidden zombies sneaking through!<br/>Upgrade your units to detect these tricky enemies!|[[Commander (Narrator)|Commander]] dialo"
+      "pageid": 42532,
+      "latest_revid": 648267,
+      "latest_timestamp": "2026-09-09T15:23:02Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Freeze.png\n|type = Immunity\n|variants = Regular<br/>{{Boss}}[[Boss]]\n|immunities = Regular:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Chillness}}Chillness\n*{{Freeze|Freeze Defense Dropping}}Freeze Defense Dropping\n*[[File:SledgerLevel2.png|20px|Sledger Ice Breaker]][[Sledger]] Ice Breaker\n{{Boss}}[[Boss]]:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Partial Chillness}}Partial Chillness\nTowers & Units:\n*{{Freeze|Enemy Freeze}}Enemy Freeze\n|sandbox = No\n|tag = {{AttrTag|Second|Freeze.png|No Freeze}}\n}}\n==Description==\n'''Freeze Immunity''' (with its tag referring to it as \"''No Freeze''\")  is an immunity that prevents the enemy from being frozen and chilled. For towers and units, it prevents them from being frozen.\n\n==Mechanics==\n'''Freeze Immunity''' makes it so that the enemy cannot be frozen. Additionally, it stops the enemy from being chilled by them. Because of its chillness immunity, it also prevents the enemies from having their defense dropped by freezing towers. Additionally, as the [[Sledger]] deals double damage to frozen or chilled enemies, it cannot deal double damage to them. Larger enemies are also frozen for a shorter amount of time than average sized enemies.\n\nThe following towers/consumables become unable to apply these freeze based effects to '''Freeze Immune''' enemies:\n*[[Freezer]]\n*[[Frost Blaster]]\n*[[Sledger]]\n*[[Jester]]\n*[[Cryomancer]]\n*[[Snowballer]]\n*[[Elementalist]]\n*[[Blizzard Bomb]]\n*[[Pumpkin Bomb]]\n*[[Santa's Air Strike]]\n*[[Ducky Squad]] ([[Ice Ducky]])\n\n'''Freeze Immunity''' is given to all [[Boss]] enemies, though that immunity is different from the regular one. Both version are immune to being frozen, however, it is only partially immune to chillness. It is slowed down less by chillness, but it is not immune to it. This means that bosses can have their defense dropped and can be dealt double damage to by the [[Sledger]], as long as the enemy does not have the regular '''Freeze Immunity'''.\n\n'''Freeze Immunity''' also used to prevent enemies from being slowed down from frost mark while it was still in the game.\n\nWhile the [[Freezer]] dealt splash damage, it could not freeze any enemy with [[Splash Damage Immunity]]. However, these enemies could still be frozen by the [[Frost Blaster]] or through its ''Ice Age'' ability.\n\nBefore the [[Release v1.0|MEGA Update]], there was an additional type of '''Freeze Immunity''', referred to as '''Basic Freeze'''. These enemies could not be frozen by the [[Freezer]]'s main attack, but could be frozen through its ''Ice Drop'' ability.\n\n===Towers===\nCertain towers and units also have the '''Freeze Immunity''', which prevents them from being frozen, though it does not prevent them from being targeted. An [[Unstable Ice]] from the [[Operation I.C.E Event]] will still target a freeze immune [[Molten Monster]], even though it not only deals no damage but also does not freeze it.\n\n==Enemy List==\nThe following enemies have '''Freeze Immunity''':\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Elite Molten]]\n*[[Tanker]]\n*[[Molten Summoner]]\n*[[Giant Boss]]\n*[[Summoner Boss]]\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Hazardous]]\n*[[Amalgamation]] (Modern version)\n*[[Circuit (Polluted Wasteland II)|Circuit]] (Modern [[Polluted Wasteland II]] version)\n*[[Abomination]] (Legacy version)\n*[[Super Toxic]] (Modern version)\n*[[Necromancer King]]\n*[[Nuclear Guardian]]\n*[[Conjurer]]\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Cavalry]] (Modern version)\n*[[Patient Zero]]\n*[[Awakened Fallen King]]\n*[[Molten Hazmat]]\n*[[Blizzard Wizard]]\n*[[Frost Ravager]] (With shield)\n*[[Deep Freeze]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Void Reaper]]\n*[[Mandragora]]\n*[[Slow King]] (Modern version, with Forcefield)\n*[[Crystalian]]\n*[[Void Trickster]]\n*[[Void Portal]]\n*[[Void Cultist]]\n*[[Healing Beacon]]\n*[[Void Eye]]\n*[[Void Knight]]\n*[[Void Guardian]]\n*[[Golden Mystery]]\n\nAll [[Boss]] enemies have their own varian"
     },
     {
-      "title": "Hidden Boss",
+      "title": "Freezer",
       "score": 1,
-      "pageid": 492,
-      "latest_revid": 623550,
-      "latest_timestamp": "2026-08-23T14:04:20Z",
-      "wikitext_excerpt": "{{EnemyTabs}}\n{{For|[[Hidden]]|[[Shadow Boss]]|[[Hidden Zoomer]]}}\n{{ZombieLegacy\n|modern_image = HiddenBossV5.png\n|legacy_image = <tabber>\n|-|Normal = [[File:CurrentHiddenBossImage.png]]\n|-|Enemies Beta = [[File:BetaHiddenBoss.png]]\n</tabber>\n|mode_appearance = [[Casual Mode|{{Color|CasualMode}}]]<br/>[[Legacy Molten Mode|{{Color|LegacyMoltenMode}}]]<br/>[[Intermediate Mode|{{Color|IntermediateMode}}]]<br/>[[Molten Mode|{{Color|MoltenMode}}]]<br/>[[PVP|{{Color|BasicArena}}]]<br/>[[PVP Test|{{Color|MidRank}}]]<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[Derailed]]\n*[[Surface Tension]]\n*[[Lights Out]]}}\n{{InfoboxContainer|Challenges|*[[Back to Basics (Challenge)|Back to Basics]]\n*[[Boss Rush]]}}\n{{InfoboxContainer|Events|*[[Classic Forest Camp|The Classic Mission 3]]\n*[[Classic Castle|The Classic Mission 5]]\n*[[Nil Zone|Halloween 2025 Live Event]]}}\n----\nOriginally:<br>[[Easy Mode|{{Color|EasyMode|Easy}}]]<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = 17 (Basic Arena PVP)<br/>20 (Molten Arena PVP)<br/>22 (Casual)<br/>18 (Molten)<br/>23 (Intermediate)<br/>24 (Legacy Molten)\n----\nOriginally:<br>17 (Easy & Low Rank PVP Test)<br>20 (Mid Rank PVP Test)<br>7 ([[Classic Forest Camp]])<br>6 ([[Classic Castle]])<br>10 ([[Nil Zone]])\n|base_hp = [[File:HealthIcon.png|20px|Health]]1,500 (Casual)<br/>[[File:HealthIcon.png|20px|Health]]750 (Base Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]850 (Intermediate & Molten Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]1,000 (Molten)<br/>[[File:HealthIcon.png|20px|Health]]450 (Sandbox)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[File:HealthIcon.png|20px|Health]]750 ([[Derailed]])\n*[[File:HealthIcon.png|20px|Health]]1,750 ([[Surface Tension]])\n*[[File:HealthIcon.png|20px|Health]]2,200 ([[Lights Out]])}}\n{{InfoboxContainer|Challenges|\n*[[File:HealthIcon.png|20px|Health]]750 ([[Back to Basics (Challenge)|Back to Basics]])\n*[[File:HealthIcon.png|20px|Health]]450 ([[Boss Rush]])}}\n|speed = [[File:SpeedIcon.png|20px|Speed]]Slightly Fast (5)\n|cash = {{Money|600}} upon death (Most modes)<br/>{{Money|500}} on death (Casual)<br/>{{Money|850}} on death (Intermediate)<br/>{{Money|1,400}} on death (Molten)<br/>{{Money|5}} on death (Default)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*{{Money|1,000}} on death ([[Derailed]] & [[Lights Out]])\n*{{Money|600}} on death ([[Rock Bottom]])}}\n|spawned_by = *[[Mystery Boss]] (Legacy Molten only, Wave 25 onwards)\n*[[Super Mystery]] (Formerly)\n*[[Uber Mystery]] (Formerly)\n|hidden = {{Attr|Hidden|Yes}}\n|fly = No\n|ghost = No\n|lead = No\n|immunity = {{Attr|Bloated}} (Variable)<br/>{{Attr|Health Regen}} (Variable)<br/>{{Attr|Corpse}} (Variable)<br/>{{Attr|Nimble}} (Variable)<br/>{{BossList|Default|Ref = <ref>Only the first '''Hidden Boss''' spawned in [[Easy Mode|Easy]] is a boss.</ref>}}\n|legacy_base_hp = [[File:HealthIcon.png|20px|Health]]450\n|legacy_speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|legacy_cash = {{Money|5}} upon death\n|legacy_spawned_by = *[[Mystery]] (Legacy Molten only, Wave 25 onwards)\n*[[Super Mystery]] (Formerly)\n*[[Uber Mystery]] (Formerly)\n|legacy_hidden = {{Attr|Hidden|Yes}}\n|legacy_fly = No\n|legacy_ghost = No\n|legacy_lead = No\n|legacy_immunity = None\n|versus_send_cost = {{Money|480}}\n|versus_wave_unlock = 20\n|versus_eco = {{Money|0}}\n|versus_number = 1\n|versus_timer = 3\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|A fast boss that's ALSO hidden?<br/>You GOTTA be kidding me!<br/>Please tell me you've got units to detect it by now..|[[Commander (Narrator)|Commander]] dialogue on Wave 24 ([[Legacy Molten Mode|Legacy Molten]])<br/>[[Commander (Narrator)|Commander]] dialogue on Wave 17 (Formerly, [[Easy Mode|Easy]])}}\n|-|Version 2 =\n{{QuoteBox|My sensors indicate a Hidden Boss was waiting in the shadows.<br/>It's making its move! You think you could slip by us!<br/>Hah! No chance!|[[Commander (Narrator)|Commander]] dialogue on Wave 17 (Formerly, [[Easy Mode|Easy]])}}\n{{QuoteBox|"
+      "pageid": 185,
+      "latest_revid": 648535,
+      "latest_timestamp": "2026-09-09T19:35:44Z",
+      "wikitext_excerpt": "{{Tabs}}\n{{For|[[Frost Blaster]]|[[Null Freezer]]}}\n{{TowerInfobox\n|title = Freezer\n|image-static = ReworkedFreezerIcon.png\n|image-dynamic = FreezerDynamic.png\n|unlockcost = {{Coins|650}}\n|basecost = {{Money|450}}\n|basesellingprice = {{Money|150}}\n|role = Defense\n|placement = Ground\n|basedamage = [[File:Damage Icon.png|20px|Damage]]2\n|damagetype = Single<br/>Burst (Level 3+)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|baserange = [[File:Range Icon.png|20px|Range]]12\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A\n|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]\n|immune = None\n|footprint = 1.5\n|pvp_basecost = {{Money|450}}\n|pvp_basesellingprice = {{Money|150}}\n|pvp_role = Defense\n|pvp_placement = Ground\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1\n|pvp_damagetype = Single<br/>Burst (Level 3+)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]12\n|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = None\n|pvp_footprint = 1.5\n|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}\n|-|Version 3 =\n{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}\n|-|Version 2 =\n{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}\n|-|Version 1 =\n{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.\n\nThe '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.\n\nAt Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.\n\nThe '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.\n\nThe '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Ma"
     },
     {
-      "title": "Hidden Wave",
+      "title": "Hidden (Attribute)",
       "score": 1,
-      "pageid": 2531,
-      "latest_revid": 579442,
-      "latest_timestamp": "2026-07-29T02:38:55Z",
-      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{HiddenWaveInfobox\n|image1 = HiddenBadge3.png\n|rewards = {{Gem|50}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|VeryEasy}})<br/>{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Easy}})<br/>{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}  ({{Color|Normal}})<br/>{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Hard}})<br/>{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Insane}})<br/>{{Gem|+100}} (First Triumph)\n|music-1 = '''Wave 41''' [[File:(Official) Tower Defense Simulator OST - Eye Of The Swarm|thumb|center|250px]]\n|music-2 = '''[[???]] Speech & Wave ???''' [[File:(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|thumb|center|250px]]\n|music-ingame-2 = '''[[???]] Speech & Wave ???''' [[File:Tower Defense Simulator OST - Equinox In-Game Version|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<br/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|[[???]] dialogue at Wave 41}}\n}}\n__TOC__\n==Description==\nThe '''Hidden Wave''' is a secret wave that can only be accessed in [[Fallen Mode|Fallen]] mode.\n\nPlayers need to disable \"Skills Enabled\" from the Gameplay [[Settings]] first to enable Hidden Wave.\n\nAfter voting for [[Fallen Mode|Fallen]] mode, one player must type \"120\", \"1\" and \"1009\" in the game chat. A shriek and screen darkening will accompany each message. After the last number is typed out, the map will become permanently discolored. The base health needs to be reduced to 1, and on Wave 40, the [[Fallen King]] must be defeated in under 60 seconds, which will cause a quicker death animation to play, with the [[Fallen King]] smashing the ground and fleeing with its sword. Using [[Consumables]] on Wave 40 will cause the '''Hidden Wave''' not to be activated.\n\nAfter defeating the [[Fallen King]] under 60 seconds, the next wave will appear as Wave 41. After the Wave 41 timer ends, the players will begin floating in mid-air, and the screen will become a strong purple static background. An unknown narrator simply known in the game as [[???]] will address the player. After the [[Commander (Narrator)|Commander]]'s dialogue, the game abruptly pauses and displays a false disconnect message with defeating the [[Fallen King]] as the reason on a pitch-black background. As the fake error message glitches, it flashes back to the game. The [[Awakened Fallen King]] will spawn in, and the Wave ??? begins, giving all players {{Money|50,000}}.\n\nDuring the course of the wave, purple fog and dark purple particles will cover the entire map, with bright trails flying around. The wave text becomes glitched in a similar fashion to the [[Glitchy Nametag]].\n\n==Rewards==\nTriumph rewards are based on the difficulty of the map. First time triumph also have their rewards increased by {{Gem|100}}. The rewards for each difficulty are:\n\n{| class=\"tds-table align-center\" style=\"width:600px; margin:1em auto;\"\n! rowspan=\"2\" |Difficulty\n! colspan=\"2\" |Rewards\n|-\n!Regular\n!First Triumph\n|-\n|{{Color|VeryEasy}}\n|{{Gem|50}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Easy}}\n|{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|175}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Normal}}\n|{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|200}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Hard}}\n|{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|225}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Insane}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|250}}, {{Exp|250}} & {{TowerExp|185}}\n|}\n\nThe reward for the first 50 players who beat '''Hidden Wave''' was the {{Color|Other|Triumphant}} [[Hacker]] skin.\n\nTriumphing '''Hidden Wave''' will give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. These items are:\n*{{Color|Common}} (47.39%"
+      "pageid": 42676,
+      "latest_revid": 639554,
+      "latest_timestamp": "2026-09-03T13:24:38Z",
+      "wikitext_excerpt": "{{SameName|Hidden|[[Hidden (Attribute)|Attribute]] • [[Hidden|Enemy]]}}\n{{For|the [[Hidden Boss]]|[[Hidden Zoomer]]}}\n{{AttributeInfobox\n|title1 = Hidden\n|image1 = HiddenDetection.png\n|type = Enemy Type\n|detection = Hidden Detection\n|effects = Translucent Body\n|sandbox = Yes\n|tag = {{AttrTag|Second|HiddenDetection.png|Hidden}}\n}}\n==Description==\n'''Hidden''' is an enemy type that makes the enemy require hidden detection to be targeted.\n\n==Mechanics==\nEnemies that are '''Hidden''' cannot be detected by towers that do not have hidden detection. They may be indirectly damaged by towers that do not have hidden detection by collision with [[units]] or by being caught in an explosive radius, for example. The appearance of '''Hidden''' enemies are also affected, in which they will have a transparency. These following towers have hidden detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Hidden Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Paintballer]]\n| class=\"yes-table\" |Full<ref>At Level 0, its splash damage can indirectly damage '''Hidden''' enemies.</ref>\n|Level 1+\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full<ref>From Level 0+, its splash damage can indirectly damage '''Hidden''' enemies, but this tower cannot directly target '''Hidden''' enemies until Level 3.</ref>\n|Level 3+<br/>N/A ([[PVP]])\n|-\n|[[Boomerang]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies if hit by the boomerang, but they cannot be targeted.</ref>\n|N/A\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Soldier]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Shotgunner]]\n| class=\"yes-table\" |Full<ref>Its piercing can indirectly damage '''Hidden''' enemies.</ref>\n|Level 2+\n|-\n|[[Freezer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Assassin]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 3+<br/>Level 1+ ([[PVP]])\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 4+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies with thorns generated, if a [[Harvester]] is also used in the match.</ref>\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full<ref>Its chain attack can indirectly target '''Hidden''' enemies before Level 2.</ref>\n|Level 2+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Trapper]]\n| class=\"no-table\" |None<ref>Despite not having hidden detections, its traps can deal damage to '''Hidden''' enemies.</ref>\n|N/A\n|-\n|[[Military Base]]\n| class=\"yes-table\" |Full<ref>Can deal damage to enemies with collisions for Level 0-2.</ref>\n|Level 3+\n|-\n|[[Crook Boss]]\n| class=\"yes-table\" |Full<ref>Its unit can target '''Hidden''' enemies at Level 0.</ref>\n|Level 2+ (Tower)<br/>Level 0+ (Units)\n|-\n|[[Commander]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Cowboy]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 3+ ([[PVP]])\n|-\n|[[DJ Booth]]\n| class=\"no-table\" |None<ref>At Level 3, its pulses can indirectly hit hidden enemies if they are in its range, though the actual tower cannot detect them.</ref>\n|N/A\n|-\n|[[Tesla]]\n| class=\"no-table\" |None<ref>Its lightning can damage '''Hidden''' enemies by chaining to them, but the tower itself cannot directly target them.</ref>\n|N/A\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Minigunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ranger]]\n| class=\"no-table\" |None<ref>Only its splash damage can indirectly hit hidden enemies. The tower itself can never directly target them.</ref>\n|N/A\n|-\n|[[Pursuit]]\n| class=\"yes-table\" |Full\n|Level 4B+\n|-\n|[[Gatling Gun]]\n| class=\"yes-table\" |Full<ref>When controlled by the player, the Gatling Gun"
     },
     {
-      "title": "Hidden Wave (Legacy)",
+      "title": "Lead (Attribute)",
       "score": 1,
-      "pageid": 41598,
-      "latest_revid": 582188,
-      "latest_timestamp": "2026-07-30T11:55:18Z",
-      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{Removed|date=4th of December 2021}}\n{{HiddenWaveInfobox\n|title1 = Hidden Wave\n|image1 = <tabber>\n|-|Icon 3 = [[File:HiddenBadge2.png]]\n|-|Icon 2 = [[File:HiddenBadge.png]]\n|-|Icon 1 = [[File:Rocketeer4.png]]\n</tabber>\n|rewards = {{Coins|700}}, {{Exp|100}} & [[Glitchy Nametag]]<ref>After the 9th of June 2023, any player who beat the legacy  '''Hidden Wave''' prior to its removal receives this nametag. Prior to that date, there were no other rewards for triumphing '''Hidden Wave'''.</ref>\n|music-1 = [[File:Tower Defense Simulator OST - Hidden Wave Intro|thumb|center|250px]]\n|music-2 = [[File:(Official) Tower Defense Simulator OST - Hidden Wave|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<BR/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|Activating the Hidden Wave}}\n{{QuoteBox|LET'S PUT IT TO THE TEST<br/>HIDDEN WAVE|Right before the Hidden Wave}}\n{{QuoteBox|ARE YOU READY?<br/>SEE IF YOU CAN BEAT THIS!|Beginning of the Hidden Wave}}\n}}\n__TOC__\n==Description==\nThe legacy version of the '''Hidden Wave''' was a secret wave that could have been accessed by defeating wave 40 on [[Fallen Mode|Fallen]] mode in 1,009 seconds (16 minutes and 49 seconds) or less.\n\nThis wave was extremely difficult and spawned unique and powerful enemies. {{Coins|Coins}} and {{Exp|}} earned remained the same for [[Fallen Mode|Fallen]] mode regardless if the '''Hidden Wave''' was triggered, but losing on the '''Hidden Wave''' only rewarded you with the rewards when losing on wave 40 [[Fallen Mode|Fallen]] mode. Triumphing the '''Hidden Wave''' awarded a special {{RLinkB|2124477833|badge}}. Originally, there was no other reward, though after the 9th of June 2023 anyone with the badge is able to claim the [[Glitchy Nametag]] through the [[Gift Box]].\n\nAccessing the wave was quite difficult as you needed to speedrun through [[Fallen Mode|Fallen]] mode. This meant that you needed three or more other players to trigger the '''Hidden Wave'''. The '''Hidden Wave''' could not have been triggered on [[MEGA Servers]] through the time requirement (interestingly, the '''Hidden Wave''' could have been triggered on a [[MEGA Servers|MEGA Server]] if the player count was 4 or lower before wave 40 on [[Fallen Mode|Fallen]] mode). Certain maps were favored over others due to cliff space, space near the path entrance, etc.\n\nAfter the [[Overhaul v1.0|Overhaul Update]], the wave intro broke. You could still activate it, but the text box did not appear and the game did not acknowledge that the '''Hidden Wave''' had been activated. Additionally, the lighting filter did not change to a red hue with text glitching. The wave would change to 1, while the timer would change to 111111111111111120:00. The only way to know if you have triggered the '''Hidden Wave''' was if the triumph screen did not show after the final wave countdown after you defeated the [[Fallen King (Legacy)|Fallen King]].\n\nThe '''Hidden Wave''' has since been replaced with a [[Hidden Wave|modern version]].\n\n==Rewards==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchyTag.gif|200px|link=Glitchy Nametag]]\n|-\n|[[Glitchy Nametag]]\n|}\n\n==Enemies==\n{| class=\"empty-table pad-5 align-center\" style=\"width:90%; margin:0 auto\"\n|[[File:GlitchedGiant-0.png|125px|link=Glitched Giant]]\n|[[File:Bruh-0.png|125px|link=Bruh]]\n|[[File:Bug-0.png|125px|link=Bug]]\n|[[File:FrostHero2020.png|125px|link=Frost Hero (Frost Invasion)]]\n|[[File:Jaxe.png|125px|link=Jaxe (Nightmare Carnival)]]\n|[[File:MechanicalRot-0.png|125px|link=Mechanical Rot (Legacy)]]\n|-\n|[[Glitched Giant]]<br/>30+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bruh]]<br/>33+ Total<ref>Number is based on natural spawns. Number can be exceeded if spawned by the [[Creator]].</ref>\n|[[Bug]]<br/>41 Total\n|[[Frost H"
+      "pageid": 42673,
+      "latest_revid": 639551,
+      "latest_timestamp": "2026-09-03T13:18:18Z",
+      "wikitext_excerpt": "{{SameName|Lead|[[Lead (Attribute)|Attribute]] • [[Lead (Legacy Enemy)|Legacy Enemy]] • [[Lead|Modern Enemy]]}}\n{{For|the [[Lead Boss]]|[[Lead Balloon]]}}\n{{AttributeInfobox\n|title1 = Lead\n|image1 = LeadIcon.png\n|type = Enemy Type\n|detection = Lead Detection\n|immunities = Damage\n|sandbox = Yes\n|tag = {{AttrTag|Second|LeadIcon.png|Lead}}\n}}\n==Description==\n'''Lead''' is an enemy type that prevents the enemy from being damaged by any tower that does not have lead detection.\n\n==Mechanics==\n'''Lead''' enemies cannot be damaged by any tower without lead detection, though despite what the detection name suggests, they can still be targeted by towers without it unless other attributes prevent the tower from doing so. Only towers with lead detection can damage them. By default, [[Splash Damage]] (except [[Paintballer]]), fire damage and collision damage all have lead detection. Some towers cannot damage lead enemies with all their attacks as only some of them have it, such as the [[Archer]] not being able to damage ''Lead'' enemies with its arrows, but still being able to damage them through its burn. These following towers have lead detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Lead Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Slime Trooper]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Soldier]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Shotgunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Freezer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Hunter]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Ace Pilot]]\n| class=\"neutral-table\" |Partial<ref name=\"splash\">Splash damage only.</ref>\n|Level 2+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Trapper]]\n| class=\"yes-table\" |Full<ref>While the [[Trapper]] itself does not have lead detection, all of its traps can damage lead enemies.</ref>\n|Level 0+\n|-\n|[[Military Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\">Collision and splash damage only.</ref>\n|Level 0+\n|-\n|[[Crook Boss]]\n| class=\"neutral-table\" |Partial<ref name=\"col\">Collision damage only.</ref>\n|Level 0+\n|-\n|[[Commander]]\n| class=\"neutral-table\" |Partial<ref>Tower, splash and collision damage only.</ref>\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Cowboy]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Tesla]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[DJ Booth]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Minigunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ranger]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 0+ ([[PVP]])\n|-\n|[[Pursuit]]\n| class=\"neutral-table\" |Partial<ref>Missiles only. Bullets do not damage '''Lead''' enemies.</ref>\n|Level 3+\n|-\n|[[Gatling Gun]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Turret]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Mortar]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Mercenary Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Brawler]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Necromancer]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Accelerator]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Engineer]]\n| class=\"neutral-table\" |Partial<ref>Tower and splash damage only. Sentries are also able to damage them through their main gun, but that is a bug.</ref>\n|Level 0+\n|-\n|[[Hacker]]\n| class=\"neutral-table\" |Partial<ref>Converted enemy collision only.</ref>\n|Level 0+\n|-\n|[[Opera"
     },
     {
-      "title": "Necromancer (Modern Enemy)",
+      "title": "Ranger",
       "score": 1,
-      "pageid": 31485,
-      "latest_revid": 609699,
-      "latest_timestamp": "2026-08-12T15:31:56Z",
-      "wikitext_excerpt": "{{EnemyTabs}}\n{{SameName|Necromancer|[[Necromancer|Tower]] • [[Necromancer (Modern Enemy)|Modern Enemy]] • [[Necromancer (Legacy Enemy)|Legacy Enemy]]}}\n{{For|other uses of [[Necromancer (Disambiguation)|Necromancer]]}}\n{{Zombie\n|title1 = Necromancer\n|image1 = NecromancerModern.png\n|mode_appearance = [[Easy Mode|{{Color|EasyMode}}]]<br/>[[Casual Mode|{{Color|CasualMode}}]]<br/>[[Challenge Trials|{{Color|TrialMode}}]]<br/>[[Polluted Wasteland II|{{Color|NuclearMode}}]]<br/>[[Badlands II|{{Color|WesternMode}}]]<br/>[[PVP|{{Color|BasicArena}}]]<br/>[[PVP|{{Color|MoltenArena}}]]<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[Breach Protocol]]\n*[[Radio Silence]]\n*[[Off The Rails]]\n*[[Derailed]]\n*[[Rock Bottom]]\n*[[Surface Tension]]\n*[[Lights Out]]}}\n{{InfoboxContainer|Challenges|*[[Juggernaut (Challenge)|Juggernaut]]\n*[[Jailed Towers (Challenge)|Jailed Towers]]\n*[[Enemies Beta|β -]] [[Legion (Challenge)|Legion]]\n*[[Oops! All slimes!]]\n*[[Vanguard (Challenge)|Vanguard]]\n*[[Boss Rush]]}}{{InfoboxContainer|Events|*[[Classic Candy Cane Lane|The Classic Mission 1]]\n*[[Classic Winter|The Classic Mission 2]]\n*[[Classic Forest Camp|The Classic Mission 3]]\n*[[Classic Island Chaos|The Classic Mission 4]]\n*[[Classic Castle|The Classic Mission 5]]\n*[[Pls Donate|Pls Donate (Easy)]]\n*[[Pls Donate|Pls Donate (Hard)]]\n*[[Sk8 P4rk|The Takeover (Noob)]]\n*[[Sk8 P4rk|The Takeover (Pro)]]\n*[[Nil Zone|Halloween 2025 Live Event]]}}\n----\nOriginally:<br>[[Intermediate Mode|{{Color|IntermediateMode}}]]<br>[[Enemies Beta|β -]] [[Molten Mode|{{Color|LegacyMoltenMode|Molten}}]]<br>[[Enemies Beta|β -]] [[Fallen Mode|{{Color|LegacyFallenMode|Fallen}}]]<br>[[PVP Test|{{Color|PVP|PVP Test}}]]\n|first_wave_appearance = 13 (Basic Arena PVP)<br/>14 (Casual & Molten Area PVP)<br/>12 (Easy & Challenge Trials)<br/>16 (Western)<br/>10 (Nuclear)\n----\nOriginally:<br>19 (β-Molten & β-Fallen)<br>13 (Low Rank PVP Test)<br>14 (Intermediate & Mid Rank PVP Test)<br>7 ([[Classic Candy Cane Lane]], [[Classic Forest Camp]], [[Classic Island Chaos]], [[Classic Castle]] & [[Nil Zone]])<br/>8 ([[Classic Winter]])<br/>6 (The Takeover Noob)<br/>9 (The Takeover Pro)\n|base_hp = [[File:HealthIcon.png|20px|Health]]360 (Easy)<br/>[[File:HealthIcon.png|20px|Health]]750 (Casual)<br/>[[File:HealthIcon.png|20px|Health]]1,000 (Challenge Trials)<br/>[[File:HealthIcon.png|20px|Health]]1,350 (Western)<br/>[[File:HealthIcon.png|20px|Health]]1,500 (Nuclear)<br/>[[File:HealthIcon.png|20px|Health]]400 (Basic Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]500 (Molten Arena PVP)<br/>[[File:HealthIcon.png|20px|Health]]600 (Sandbox)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*[[File:HealthIcon.png|20px|Health]]150 ([[Breach Protocol]])\n*[[File:HealthIcon.png|20px|Health]]300 ([[Radio Silence]])\n*[[File:HealthIcon.png|20px|Health]]800 ([[Off The Rails]])\n*[[File:HealthIcon.png|20px|Health]]700 ([[Derailed]])\n*[[File:HealthIcon.png|20px|Health]]600 ([[Rock Bottom]])\n*[[File:HealthIcon.png|20px|Health]]1,000 ([[Surface Tension]])\n*[[File:HealthIcon.png|20px|Health]]1,800 ([[Lights Out]])}}\n{{InfoboxContainer|Challenges|*[[File:HealthIcon.png|20px|Health]]400 ([[Boss Rush]])}}\n|speed = [[File:SpeedIcon.png|20px|Speed]]Below Average (2.8)<br/>[[File:SpeedIcon.png|20px|Speed]]Average (3.25, Summoner version)\n|cash = {{Money|198}} every 33% health (Easy)<br/>{{Money|248}} every 33% health (Casual)<br/>{{Money|281}} every 33% health (Challenge Trials)<br/>{{Money|400}} every 33% health (Western)<br/>{{Money|1,155}} every 33% health (Nuclear)<br/>{{Money|2}} every 33% health (Default)<br/>{{InfoboxContainer|[[Story Mode|Story]] Missions|*{{Money|2}} every 33% health ([[Breach Protocol]])\n*{{Money|1,980}} every 33% health ([[Radio Silence]])\n*{{Money|248}} every 33% health ([[Off The Rails]])\n*{{Money|330}} every 33% health ([[Derailed]])\n*{{Money|396}} every 33% health ([[Rock Bottom]] & [[Surface Tension]])\n*{{Money|495}} every 33% health ([[Lights Out]])}}\n|spawned_by = *[[Nuclear Monster]]\n*["
+      "pageid": 193,
+      "latest_revid": 627636,
+      "latest_timestamp": "2026-08-26T12:07:04Z",
+      "wikitext_excerpt": "{{Tabs}}\n{{TowerInfobox\n|title = Ranger\n|image-static = Newranger.png\n|image-dynamic = RangerDynamic.png\n|unlockcost = {{Coins|12,000}}\n|role = Defense\n|placement = Cliff\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|basecost = {{Money|4,500}}\n|basesellingprice = {{Money|1,500}}\n|basedamage = [[File:Damage Icon.png|20px|Damage]]100\n|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]6\n|baserange = [[File:Range Icon.png|20px|Range]]70\n|hidden_detection = N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>\n|lead_detection = {{Attr|Lead|Level 2+}}\n|flying_detection = {{Attr|Flying|Level 0+}}\n|immune = Stun\n|footprint = 1.5\n|pvp_basecost = {{Money|2,000}}\n|pvp_basesellingprice = {{Money|666}}\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]40\n|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]3\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]50\n|pvp_hidden_detection = N/A<ref name=\"hd\"/>\n|pvp_lead_detection = {{Attr|Lead|Level 0+}}\n|pvp_flying_detection = {{Attr|Flying|Level 0+}}\n|pvp_immune = Stun\n|pvp_footprint = 1.5\n|tooltip-1 = An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.\n|tooltip-2 = Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.\n|tooltip-3 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Precision is key. Deals exceptional damage at nearly infinite range.|Current Store Description}}\n|-|Version 3 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage.|Former Store Description}}\n|-|Version 2 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage with a railgun.|Former Store Description}}\n|-|Hardcore Testing =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage with a railgun.|Former Store Description}}\n|-|Original =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage.|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Ranger''', formerly known as the '''Outlaw''', is an advanced cliff [[Towers|tower]] with long range that can be purchased in the store for {{Coins|12,000}}.\n\nThe '''Ranger''' deals high damage with very long range but has a slow firerate. As a cliff tower, it can detect [[Flying]] enemies, but cannot detect hidden enemies at any level. The '''Ranger''' can also damage lead enemies at Level 2+. Additionally, it is immune to all stuns by default. At Level 2, it gains the ability to give towers a 10% [[Range Buff]] within its inner radius at the start of every wave for 20 seconds. At Level 4, it also deals splash damage through its ''Explosive Impact''.\n\nThe '''Ranger''' deals extremely high damage at higher levels, but is expensive to upgrade to these levels. Due to these reasons, it is considered a mid-to-late game tower and is most effective for harder gamemodes.\n\nThe '''Ranger''' has a placement limit of eight per player.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Mone"
+    },
+    {
+      "title": "Splash Damage Immunity",
+      "score": 1,
+      "pageid": 42674,
+      "latest_revid": 552158,
+      "latest_timestamp": "2026-07-13T21:04:28Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Explosion.png\n|type = Immunity\n|immunities = [[File:Explosion.png|20px|Splash Damage]][[Splash Damage]]\n|sandbox = No\n|tag = {{AttrTag|Second|Explosion.png|No Explosion}}\n}}\n==Description==\n'''Splash Damage Immunity''' (with its tag referring to it as \"''No Explosion''\"), also referred to as '''Explosion Immunity''', is an immunity that prevents the enemy from being damaged by most forms of [[Splash Damage]].\n\n==Mechanics==\n'''Splash Damage Immunity''' makes enemies immune to [[Splash Damage]]. However, some towers that deal such damage can also deal non-splash damage, which can harm enemies with this immunity as long as they do not have any other attributes that could prevent the tower from doing so. While most forms of [[Splash Damage]] do not deal damage to it, there are some exceptions to this, such as the [[Paintballer]], which is likely due to the game not registering it as dealing explosive damage. If the tower dealing damage has [[Stun Immunity]], explosion damage dealt to the enemy will receive explosion damage from it, but it will be converted to energy. As of currently, this immunity is not used in the game, outside of occasional events which include enemies with this immunity.\n\nPrior to the 24th of December 2019, splash damage did minimal damage to enemies with ''Splash Damage Immunity''. This was because if the enemy was directly targeted by splash damage (called direct damage), they would be damaged. However they would not be damaged if they were not directly targeted, even if they were in the explosion radius. The [[Freezer]] could still deal direct damage until the [[Overhaul v1.0|Overhaul Update]], where its [[Splash Damage]] was removed, though it could not freeze the enemies with its projectile.\n\n==Enemy List==\nThe following event enemies had '''Splash Damage Immunity''':\n*[[Raider Boss]] ([[Area 51]])\n*[[Ghost (Nightmare Carnival)|Ghost]] ([[Nightmare Carnival]])\n*[[Present (Village of Despair)|Present]] ([[Village of Despair]])\n*[[Ghost (Trick or Threat Town)|Ghost]] ([[Trick or Threat Town]])\n*[[Ghost (Solar Eclipse)|Ghost]] ([[Solar Eclipse Event|Solar Eclipse]])\n*[[Wraith]] ([[Solar Eclipse Event|Solar Eclipse]])\n*[[Ghost Knight]] ([[Solar Eclipse Event|Solar Eclipse]])\n*[[Hallow Guard (Lunar Overture)|Hallow Guard]] ([[Lunar Overture Event|Lunar Overture]])\n*[[Eclipsed (Nil Zone)|Eclipsed]] ([[Nil Zone]])\n*[[Actor2 (Nil Zone)|Actor2]] ([[Nil Zone]], [[The Final Act Event|The Final Act]])\n*[[Projector]] ([[The Final Act Event|The Final Act]])\n*[[Evil Ducky (Ducky Revenge)|Evil Ducky]] ([[Ducky Revenge Event|Ducky Revenge]])\n\nThe following event enemies can spawn with '''Splash Damage Immunity''' but do not have it by default:\n*[[Null Scout]] ([[Null & Void Event|Null & Void]])\n*[[Null Crook Boss]] ([[Null & Void Event|Null & Void]])\n*[[Null Pyromancer]] ([[Null & Void Event|Null & Void]])\n*[[Null Medic]] ([[Null & Void Event|Null & Void]])\n\nThe following [[Sandbox Mode|Sandbox]] mode exclusive enemies have '''Splash Damage Immunity''':\n*[[Golden]]\n*[[24 Karat]]\n*[[Gold Titan]]\n\nThe following enemies once had '''Splash Damage Immunity''', but now no longer have it:\n*[[Fallen]]\n*[[Fallen Hero (Legacy)|Fallen Hero]] (Legacy version)\n*[[Gold Guard]]\n\nThe following removed enemies had '''Splash Damage Immunity''':\n*[[Shrike Crystal]]\n*[[Nuclear Fallen King]]\n\n==Tower & Unit List==\nAlthough no known use on towers for this attribute exists, the following towers used to have '''Splash Damage Immunity''':\n*[[Golden Snowballer]]\n\n==Update History==\n*'''2 August 2019''' - [[BETA v1.7|BETA v1.7.0]]\n**'''Splash Damage Immunity''' added.\n**{{Bug}} '''Splash Damage Immunity''' does not interact correctly with explosion damage from sources with the [[Stun Immunity]].\n*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]\n**'''Splash Damage Immunity''' now prevents enemies from being frozen by the [[Freezer]], as it deals [[Splash Damage]].\n*'''29 October 2020'''  - [[Overhaul v1.0|Overhau"
+    },
+    {
+      "title": "Stun Immunity",
+      "score": 1,
+      "pageid": 42530,
+      "latest_revid": 648213,
+      "latest_timestamp": "2026-09-09T14:52:14Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Energy.png\n|type = Immunity\n|variants = Regular<br/>{{Attr|Boss}}\n|immunities = Regular:\n*{{Stun}}Stun\n*{{Knockback}}Knockback\n{{Boss}}[[Boss]]:\n*{{Stun}}Stun\n*{{Stun|Partial Stun Slowdown}}Partial Stun Slowdown\n*{{Knockback}}Knockback\nTowers:\n*{{Stun|Enemy Stuns}}Enemy Stuns\n*Enemy Targeting\n|sandbox = No\n|tag = {{AttrTag|second|Energy.png|No Stun}}\n}}\n==Description==\n'''Stun Immunity''' (referred to as \"''No Stun''\" on its tag) is an immunity that prevents the enemy from being stunned and knocked back. For towers, it fully or partially prevents them from being stunned and targeted by enemies.\n\n==Mechanics==\n'''Stun Immunity''' makes it so that any enemy with it cannot be stunned/shocked by towers. They will instead be slowed down by 40% for the stun duration. The '''Stun Immunity''' also grants immunity to being knocked back.\n\nThe following towers/consumables become unable to apply these effects or have them be weakened to '''Stun Immune''' enemies:\n*[[Electroshocker]] (Shock)\n*[[Trapper]] (Stun)\n*[[Warden]] (Shock)\n*[[DJ Booth]] (Knockback)\n*[[Tesla]] (Shock)\n*[[Mercenary Base]] (Knockback)\n*[[Brawler]] (Knockback)\n*[[Commando]] (Stun)\n*[[Archer]] (Shock)\n*[[Hallow Punk]] (Knockback)\n*[[Elementalist]] (Knockback)\n*[[Warlock]] (Knockback)\n*[[Flash Bang]] (Stun)\n*[[Ducky Squad]] ([[Shock Ducky]])\n\nAll [[Boss]] enemies have this immunity, as part of being a [[Boss]] enemy. The only difference between the two is that the slowdown effect is weaker on [[Boss]] enemies, as it is 20%. If a [[Boss]] enemy also has the [[Stun Immunity]], it will only be slowed down by 10% instead.\n\n===Towers===\n'''Stun Immunity''' makes towers unaffected by stuns from enemies and, in multiple cases, also prevents them from being targeted from such attacks. The immunity to being attacked also applies to some enemy attacks which normally would actually affect them, that being freeze and debuffs. For example, the [[Unstable Ice]] from the [[Operation I.C.E Event]] will not jump at any tower with '''Stun Immunity''' visible in their upgrade menu, even though it can actually freeze them. Similarly, enemies like the [[Clown]] will avoid applying debuffs to towers with '''Stun Immunity''', even if they can be debuffed. Some towers, such as cliff units, also have '''Stun Immunity''', though it is not displayed in their upgrade menu and it is far less effective at preventing them from being targeted by enemy abilities.\n\n==Enemy List==\nThe following enemies have '''Stun Immunity''':\n{{Scroll|text=\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Hazardous]]\n*[[Fallen]] ([[Hardcore Mode|Hardcore]] only)\n*[[Molten Golem]]\n*[[Giant Boss]]\n*[[Amalgamation]] ([[Polluted Wasteland II]])\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Giant Skeleton]]\n*[[Cobalt Guard]]\n*[[Failed Experiment]]\n*[[Mega Slow]]\n*[[Fallen Giant]]\n*[[Fallen Reaper]]\n*[[Fallen Necromancer]]\n*[[Fallen Soul (Legacy)|Fallen Soul]] (Legacy version)\n*[[Glitch]]\n*[[Fallen Titan]]\n*[[Fallen Shield]]\n*[[Fallen Summoner]] ([[Fallen Mode|Fallen]])\n*[[Frost Invader]] ([[Frost Mode|Frost]])\n*[[Bulwark]]\n*[[Tanker]]\n*[[Templar]] (Legacy version)\n*[[Warden (Legacy Enemy)|Warden]]\n*[[Slow King (Legacy)|Slow King]] (Legacy version)\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Summoner Boss]]\n*[[Necromancer King]]\n*[[Conjurer]]\n*[[Reaper]]\n*[[Demon]]\n*[[Error]]\n*[[Circuit (Hardcore)|Circuit]] ([[Hardcore Mode|Hardcore]])\n*[[Circuit (Polluted Wasteland II)|Circuit]] ([[Polluted Wasteland II]])\n*[[Molten Titan (Legacy)|Molten Titan]] (Legacy version)\n*[[Fallen Hero]]\n*[[Fallen Hero (Legacy)|Fallen Hero]] (Legacy version)\n*[[Super Toxic]]\n*[[Mimic Umbra]]\n*[[Abomination]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Fallen Honor Guard]]\n*[[Packed Ice]]\n*[[Snow Minion]]\n*[[Blizzard Wizard]]\n*[[Frost Hunter]]\n*[[Frostbane]]\n*[[Frost Ravager]]\n*[[Shivergeist]]\n*[[Frost Hero]]\n*[[Deep Freeze]]\n*[[Mega Frost Mystery]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Nuclear Guardia"
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",

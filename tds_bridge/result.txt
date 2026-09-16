@@ -1,1049 +1,241 @@
-{{For|other uses of [[PVP (Disambiguation)|PVP]] or [[Versus]]}}
-{{ModeInfobox
-|title1 = <span style="  background: linear-gradient(to right, #2051b3 33%, white 33% 67%, red 67%); background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 0.09375em black)">PVP</span>
-|image1 = <tabber>
-|-|Render = [[File:SaboteurMatchmaking2026Render.png]]
-|-|Basic Arena = [[File:BasicArena.png]]
-|-|Molten Arena = [[File:MoltenArena.png]]
-|-|Fallen Arena = [[File:FallenArena.png]]
-</tabber>
-|waves = 30<br/>31 (Infinite Wave)
-|level_requirement = {{Level|25}}
-|starting_cash = {{Money|600}}<br/>{{Money|700}} (Group Bonus)
-|rewards = {{Coins|500}} & {{Exp|100}}
+{{AttributeInfobox
+|image1 = Defense.png
+|type = Damage Reduction
 }}
-__TOC__
+
 ==Description==
-'''PVP''' is a gamemode where opponents must defend each other until one team wins. The enemies in '''PVP''' are based on various modes based on player rank, though instead of the goal of surviving to the final wave, players are meant to defeat their opponent by sending enemies at them. If the final wave is beaten, it will repeat indefinitely until one team loses. The health of enemies will also get boosted over time.
+'''Defense''' is a status value given to certain enemies and units. Enemies may spawn with this naturally, or be granted this through a litany of means.
 
-This mode can be played in Casual, which has no added restrictions, and in Ranked, where players from a team could ban up to two towers. In 1v1, each player can ban up to two towers each, which is reduced to one each in 2v2. This mode has three rank based difficulties:
-#Basic Arena, based around [[Casual Mode|Casual]] mode, where players range from Private I to Private III.
-#Molten Arena, based on [[Intermediate Mode|Intermediate]] and [[Molten Mode|Molten]] modes, where players range from Sergeant I to Lieutenant III.
-#Fallen Arena, based on [[Fallen Mode|Fallen]] mode, where players range from Major I to above rank.
+==Mechanics==
+There are two types of defense statistic. The main defense statistic is ''Percentage Defense'' which is used to calculate ''Effective Damage''.
 
-If players span multiple difficulties (such as a Private I teaming with a Major I), then the highest ELO score amongst all players is used to determine the difficulty. In Casual, the arena is voted for at the beginning of the match.
+''Percentage Defense'' is the actual defense percentage you see on an enemy or unit. However, this does not mean that if an enemy has 50% defense damage dealt towards it will be decreased 50%. In reality, the number listed is far closer to the percentage of additional health that '''Defense''' gives it.
 
-Each difficulty ends with the [[Champion Templar]] as the final boss. A player's rank goes up and down with triumphs and loses in Ranked matches, giving them rewards through the [[PVP Season 0]].
+''Effective Damage'' is the actual damage dealt towards an enemy by a tower once ''Percentage Defense'' is applied. ''Effective Damage'' is calculated by calculating
 
-'''PVP''' applies multiple restrictions to players. The most noticeable change is the player's loadout being reduced to four towers. Additionally, all exclusive categories and golden perks are prohibited. Another large change is consumables, as this mode has its own exclusive ones. Toggleable modifiers are also completely disabled here. To compensate, various towers receive statistical changes to either make them stronger, such as starter towers becoming far more viable or small adjustments to make towers perform against enemy hordes.
+::<big>'''Original Damage ÷ (1 + Percentage Defense)'''</big>
 
-Every 8 seconds, players receive cash from an economy bonus. The economy bonus can be seen under the tower placement limit. It may be increased by sending enemies to the opponent, though not all enemies sent grant an economy boost. Additionally, {{Money|20}} is added to the bonus after each wave.
+where ''Percentage Defense'' is changed from a percentage into its equivalent decimal number (for instance, 50% would be 0.5 in decimal form). For example, a tower that deals 100 damage attacking an enemy with 50% defense would deal 67 damage as 100 ÷ (1 + 0.5) = 66.67 to two decimal places. Due to ''Effective Damage'' always being rounded up to the nearest integer, 66.67 rounds up to 67. Prior to the [[v1.1.0|Entity System Update]], ''Effective Damage'' was always rounded down to the nearest integer.
 
-In 2v2 matches, a 20% health scale effect is applied, boosting the health of enemies. This is not present in 1v1.
+Unit defense works identically to enemy defense, reducing damage from enemy abilities and collision.
 
-Cash is only gained if an enemy is killed or, in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down. For example, the [[Hidden Boss]] gives {{Money|600}} when killed in 1v1 and {{Money|300}} in 2v2.
-
-Leaving '''PVP''' in the middle of the match applies a penalty to the player which prevents them from playing '''PVP''' for a specified duration. This duration increases depending on the amount of prior penalties you have received. In Ranked matches, there is an additional penalty of ELO loss. These penalties can be avoided if the player rejoins the match.
-
-==Rewards==
-The game calculates how many {{Coins|Coins}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. Some maps like [[Mason Arch]] can also increase all rewards by a specific amount. Regular {{Exp|}} boosts are multiplicative with other modifiers.
-
-Any rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.
-
-Currently, rewards are calculated as:
-{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
-!Coins Reward
-!EXP Reward
+A list of certain ''Percentage Defense'' values and how much damage they actually reduce has been provided below. This is not a comprehensive list and the values may not be fully accurate due to how the game rounds up the damage, making the values occasionally lower.
+{| class="wikitable pad-5" style="text-align: center; margin: 1em auto;"
+!Percentage Defense
+!Damage Reduced
 |-
-|{{Coins|350}} ÷ (1 + [(31 ÷ Current Wave) - 1]^1.3) + {{Coins|150}} (Triumph Bonus)
-|{{Exp|100}} ÷ (1 + [(31 ÷ Current Wave) - 1])
+|10%
+|9.09%
+|-
+|15%
+|13.04%
+|-
+|20%
+|16.67%
+|-
+|25%
+|20%
+|-
+|35%
+|25.93%
+|-
+|40%
+|28.57%
+|-
+|50%
+|33.33%
+|-
+|60%
+|37.5%
+|-
+|80%
+|44.44%
+|-
+|100%
+|50%
+|-
+|150%
+|60%
+|-
+|200%
+|66.67%
+|-
+|300%
+|75%
 |}
 
-Winning Ranked matches also gives players ELO points, which can be used to progress through [[PVP Seasons]]. Losing will instead remove ELO points from the player. Value gained and lost is always 50 ELO.
+===Countering Defense===
+'''Defense''' can reduce the damage output of most towers significantly.
 
-===Badges===
-There are [[badges]] that you can or could obtain when playing this mode. These are:
-{{Badge
-|title = Defeated The Champion Templar
-|image = DefeatedTheChampionTemplarBadge.png
-|obtainable = Yes
-}}
-{{Badge
-|title = First Ranked Match Win
-|image = FirstRankedMatchWinBadge.png
-|obtainable = Yes
-}}
-{{Badge
-|title = First Match Win
-|image = FirstMatchWinBadge.png
-|obtainable = Yes
-}}
+There are a couple of towers and consumables that can melt the ''Percentage Defense'' value of enemies, allowing your towers to deal more damage. A few certain towers can also ignore defense. There are two types of defense melting towers. The first has them decrease ''Total Defense'' by a certain percentage. However, if the [[Pyromancer]], which melts defense by 50%, is decreasing defense of [[Fallen Hero]], which has 50% defense, this does not mean its defense will be lowered to 0%. Instead, it is decreased by 25% defense, as which is 50% of 50% defense. The defense removal can stack, so the [[Pyromancer]] and [[Electroshocker]] can together remove 70% ''Percentage Defense'', but two [[Pyromancer]]s cannot remove 100% ''Percentage Defense''. Instead, only 50% ''Percentage Defense'' can be melted. Additionally, defense melting from burn cannot stack with other burn towers, freeze defense melting cannot stack with other freeze towers and poison defense melting cannot stack with other poison towers.
 
-==Enemies==
-{{Tabber
-|Basic Arena
-|{{{!}} class{{=}}"empty-table pad-5 align-center" style{{=}}"width:80%; margin:0 auto"
-{{!}}[[File:NormalAnim1.png|center|150px|link=Normal]]
-{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]
-{{!}}[[File:SpeedyAnim2.png|center|150px|link=Speedy]]
-{{!}}[[File:SlowAnim1.png|center|150px|link=Slow]]
-{{!}}-
-{{!}}[[Normal]]<br/>Wave 1
-{{!}}[[Quick]]<br/>Wave 2
-{{!}}[[Speedy]]<br/>Wave 3 Send
-{{!}}[[Slow]]<br/>Wave 4
-{{!}}-
-{{!}}[[File:EasyModeNormalBoss.png|center|150px|link=Normal Boss]]
-{{!}}[[File:HiddenV5.png|center|150px|link=Hidden]]
-{{!}}[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
-{{!}}[[File:BreakerFallen.png|center|150px|link=Breaker]]
-{{!}}-
-{{!}}[[Normal Boss]]<br/>Wave 7
-{{!}}[[Hidden]]<br/>Wave 9
-{{!}}[[Breaker2]]<br/>Wave 11
-{{!}}[[Breaker]]<br/>N/A<ref name="breaker2">Does not appear naturally, can only be spawned by the [[Breaker2]].</ref>
-{{!}}-
-{{!}}[[File:NecromancerModern.png|center|150px|link=Necromancer (Modern Enemy)]]
-{{!}}[[File:Skeletonlunar.png|center|150px|link=Skeleton]]
-{{!}}[[File:Armored.png|center|150px|link=Armored]]
-{{!}}[[File:HazmatAnim1.png|center|150px|link=Hazmat]]
-{{!}}-
-{{!}}[[Necromancer (Modern Enemy)|Necromancer]]<br/>Wave 13
-{{!}}[[Skeleton]]<br/>N/A<ref name="necromancer">Does not appear naturally, can only be spawned by the [[Necromancer (Modern Enemy)|Necromancer]].</ref>
-{{!}}[[Armored]]<br/>Wave 14
-{{!}}[[Hazmat]]<br/>Wave 15 Send
-{{!}}-
-{{!}}[[File:EasySlowBoss2.png|center|150px|link=Slow Boss]]
-{{!}}[[File:HiddenBossV5.png|center|150px|link=Hidden Boss]]
-{{!}}[[File:Enraged.png|center|150px|link=Enraged]]
-{{!}}[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
-{{!}}-
-{{!}}[[Slow Boss]]<br/>Wave 16
-{{!}}[[Hidden Boss]]<br/>Wave 17
-{{!}}[[Enraged]]<br/>Wave 19
-{{!}}[[Breaker4]]<br/>Wave 23
-{{!}}-
-{{!}}[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
-{{!}}[[File:SpeedyBossNew.png|center|150px|link=Speedy Boss]]
-{{!}}[[File:Dummy Boss.png|center|150px|link=Brute]]
-{{!}}[[File:{{#choose:BlueChampionTemplar.png|RedChampionTemplar.png}}|center|150px|link=Champion Templar]]
-{{!}}-
-{{!}}[[Breaker3]]<br/>N/A<ref name="breaker4">Does not appear naturally, can only be spawned by the [[Breaker4]].</ref>
-{{!}}[[Speedy Boss]]<br/>Wave 26 Send
-{{!}}[[Brute]]<br/>Wave 30 Send
-{{!}}[[Champion Templar]]<br/>Wave 30
-{{!}}}
-|Molten Arena
-|{{{!}} class{{=}}"empty-table pad-5 align-center" style{{=}}"width:80%; margin:0 auto"
-{{!}}[[File:NormalAnim1.png|center|150px|link=Normal]]
-{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]
-{{!}}[[File:SpeedyAnim2.png|center|150px|link=Speedy]]
-{{!}}[[File:SlowAnim1.png|center|150px|link=Slow]]
-{{!}}-
-{{!}}[[Normal]]<br/>Wave 1
-{{!}}[[Quick]]<br/>Wave 2
-{{!}}[[Speedy]]<br/>Wave 3 Send
-{{!}}[[Slow]]<br/>Wave 4
-{{!}}-
-{{!}}[[File:EliteAbnormal.png|center|150px|link=Elite Abnormal]]
-{{!}}[[File:HiddenV5.png|center|150px|link=Hidden]]
-{{!}}[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
-{{!}}[[File:BreakerFallen.png|center|150px|link=Breaker]]
-{{!}}-
-{{!}}[[Elite Abnormal]]<br/>Wave 7
-{{!}}[[Hidden]]<br/>Wave 9
-{{!}}[[Breaker2]]<br/>Wave 10
-{{!}}[[Breaker]]<br/>N/A<ref name="breaker2"/>
-{{!}}-
-{{!}}[[File:Enraged.png|center|150px|link=Enraged]]
-{{!}}[[File:Armored.png|center|150px|link=Armored]]
-{{!}}[[File:MoltenV4Anim1.png|center|150px|link=Molten]]
-{{!}}[[File:Reaver.png|center|150px|link=Reaver]]
-{{!}}-
-{{!}}[[Enraged]]<br/>Wave 11
-{{!}}[[Armored]]<br/>Wave 11
-{{!}}[[Molten]]<br/>Wave 12 Send
-{{!}}[[Reaver]]<br/>Wave 14
-{{!}}-
-{{!}}[[File:NecromancerModern.png|center|150px|link=Necromancer]]
-{{!}}[[File:Skeletonlunar.png|center|150px|link=Skeleton]]
-{{!}}[[File:EliteHazmatWalk1.png|center|150px|link=Molten Hazmat]]
-{{!}}[[File:LivingExperiment.png|center|150px|link=Living Experiment]]
-{{!}}-
-{{!}}[[Necromancer]]<br/>Wave 14
-{{!}}[[Skeleton]]<br/>N/A<ref name="necromancer"/>
-{{!}}[[Molten Hazmat]]<br/>Wave 15 Send
-{{!}}[[Living Experiment]]<br/>Wave 16
-{{!}}-
-{{!}}[[File:HazmatAnim1.png|center|150px|link=Hazmat]]
-{{!}}[[File:HiddenBossV5.png|center|150px|link=Hidden Boss]]
-{{!}}[[File:MoltenMech.png|center|150px|link=Molten Mech]]
-{{!}}[[File:MoltenNecromancer.png|center|150px|link=Molten Necromancer]]
-{{!}}-
-{{!}}[[Hazmat]]<br/>Wave 17
-{{!}}[[Hidden Boss]]<br/>Wave 20
-{{!}}[[Molten Mech]]<br/>Wave 20
-{{!}}[[Molten Necromancer]]<br/>Wave 20 Send
-{{!}}-
-{{!}}[[File:MoltenDemon.png|center|150px|link=Molten Demon]]
-{{!}}[[File:MoltenGolem.png|center|150px|link=Molten Golem]]
-{{!}}[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
-{{!}}[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
-{{!}}-
-{{!}}[[Molten Demon]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by the [[Molten Necromancer]].</ref>
-{{!}}[[Molten Golem]]<br/>Wave 22 Send
-{{!}}[[Breaker4]]<br/>Wave 24
-{{!}}[[Breaker3]]<br/>N/A<ref name="breaker4"/>
-{{!}}-
-{{!}}[[File:FailedExperiment.png|center|150px|link=Failed Experiment]]
-{{!}}[[File:SlimeModern.png|center|150px|link=Slime]]
-{{!}}[[File:NewMoltenTitan2.png|center|150px|link=Molten Titan]]
-{{!}}[[File:CorpseEnemy.png|center|150px|link=Corpse (Enemy)]]
-{{!}}-
-{{!}}[[Failed Experiment]]<br/>Wave 24 Send
-{{!}}[[Slime]]<br/>N/A<ref>Does not appear naturally, can only be spawned by the [[Failed Experiment]] and [[Patient Zero]].</ref>
-{{!}}[[Molten Titan]]<br/>Wave 26 Send
-{{!}}[[Corpse (Enemy)|Corpse]]<br/>N/A
-{{!}}-
-{{!}}[[File:{{#choose:BlueChampionTemplar.png|RedChampionTemplar.png}}|center|150px|link=Champion Templar]]
-{{!}}-
-{{!}}[[Champion Templar]]<br/>Wave 30
-{{!}}}
-|Fallen Arena
-|{{{!}} class{{=}}"empty-table pad-5 align-center" style{{=}}"width:80%; margin:0 auto"
-{{!}}[[File:AbnormalFallen.png|center|150px|link=Abnormal]]
-{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]
-{{!}}[[File:HeavyFallen.png|center|150px|link=Heavy]]
-{{!}}[[File:FallenSquire.png|center|150px|link=Fallen Squire]]
-{{!}}-
-{{!}}[[Abnormal]]<br/>Wave 1
-{{!}}[[Quick]]<br/>Wave 2
-{{!}}[[Heavy]]<br/>Wave 5
-{{!}}[[Fallen Squire]]<br/>Wave 7
-{{!}}-
-{{!}}[[File:FallenSoulRework.png|center|150px|link=Fallen Soul]]
-{{!}}[[File:Fallen hazmat.png|center|150px|link=Fallen Hazmat]]
-{{!}}[[File:FallenEnemyRework.png|center|150px|link=Fallen]]
-{{!}}[[File:Fallen giant.png|center|150px|link=Fallen Giant]]
-{{!}}-
-{{!}}[[Fallen Soul]]<br/>Wave 9
-{{!}}[[Fallen Hazmat]]<br/>Wave 11
-{{!}}[[Fallen]]<br/>Wave 14
-{{!}}[[Fallen Giant]]<br/>Wave 15
-{{!}}-
-{{!}}[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
-{{!}}[[File:BreakerFallen.png|center|150px|link=Breaker]]
-{{!}}[[File:FallenNecromancer.png|center|150px|link=Fallen Necromancer]]
-{{!}}[[File:FallenSkeletonEnemy.png|center|150px|link=Fallen Skeleton]]
-{{!}}-
-{{!}}[[Breaker2]]<br/>Wave 16
-{{!}}[[Breaker]]<br/>N/A<ref name="breaker2"/>
-{{!}}[[Fallen Necromancer]]<br/>Wave 17
-{{!}}[[Fallen Skeleton]]<br/>N/A<ref>Does not appear naturally, can only be summoned by the [[Fallen Necromancer]].</ref>
-{{!}}-
-{{!}}[[File:Possesed armor.png|center|150px|link=Possessed Armor]]
-{{!}}[[File:FallenHeroRework.png|center|150px|link=Fallen Hero]]
-{{!}}[[File:FallenTank.png|center|150px|link=Fallen Tank]]
-{{!}}[[File:FallenShield.png|center|150px|link=Fallen Shield]]
-{{!}}-
-{{!}}[[Possessed Armor]]<br/>Wave 18
-{{!}}[[Fallen Hero]]<br/>Wave 20
-{{!}}[[Fallen Tank]]<br/>Wave 23
-{{!}}[[Fallen Shield]]<br/>Wave 25
-{{!}}-
-{{!}}[[File:ModernFallenGuardian.png|center|150px|link=Fallen Guardian]]
-{{!}}[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
-{{!}}[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
-{{!}}[[File:{{#choose:BlueChampionTemplar.png|RedChampionTemplar.png}}|center|150px|link=Champion Templar]]
-{{!}}-
-{{!}}[[Fallen Guardian]]<br/>Wave 27
-{{!}}[[Breaker4]]<br/>Wave 30
-{{!}}[[Breaker3]]<br/>N/A<ref name="breaker4"/>
-{{!}}[[Champion Templar]]<br/>Wave 30
-{{!}}}
-}}
+The second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%.
 
-==Sends==
-Only up to ten enemy groups could be in the enemy queue.
+Both forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%.
 
-The number of enemies that were sent would be increased through the waves. The ones listed are the lowest and highest.<!-- For the changes, see the send changes table below this one.-->
-{{Tabber
-|Basic Arena
-|{{{!}} class{{=}}"sortable article-table pad-td-5 align-center" style{{=}}"margin:0 auto 10px; width: 100%;"
-!Enemy Group
-!Wave Unlock
-!Send Cost
-!Economy Bonus
-!Send Number
-!Spawn Timer
-!Stat Changes
-{{!}}-
-{{!}}[[Normal]]
-{{!}}2
-{{!}}{{Money|45}}
-{{!}}{{Money|3}}
-{{!}}3-5
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Speedy]]
-{{!}}3
-{{!}}{{Money|65}}
-{{!}}{{Money|4}}
-{{!}}2-3
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Slow]]
-{{!}}5
-{{!}}{{Money|75}}
-{{!}}{{Money|5}}
-{{!}}3-5
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Hidden]]
-{{!}}8
-{{!}}{{Money|100}}
-{{!}}{{Money|8}}
-{{!}}2-3
-{{!}}0.8
-{{!}}None
-{{!}}-
-{{!}}[[Breaker2]]
-{{!}}10
-{{!}}{{Money|120}}
-{{!}}{{Money|10}}
-{{!}}2-3
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Normal Boss]]
-{{!}}12
-{{!}}{{Money|150}}
-{{!}}{{Money|12}}
-{{!}}1
-{{!}}2
-{{!}}None
-{{!}}-
-{{!}}[[Hazmat]]
-{{!}}15
-{{!}}{{Money|210}}
-{{!}}{{Money|15}}
-{{!}}2-3
-{{!}}1
-{{!}}None
-{{!}}-
-{{!}}[[Necromancer (Modern Enemy)|Necromancer]]
-{{!}}18
-{{!}}{{Money|260}}
-{{!}}{{Money|0}}
-{{!}}1
-{{!}}1.5
-{{!}}500 Health
-{{!}}-
-{{!}}[[Hidden Boss]]
-{{!}}20
-{{!}}{{Money|480}}
-{{!}}{{Money|0}}
-{{!}}1
-{{!}}3
-{{!}}750 Health
-{{!}}-
-{{!}}[[Slow Boss]]
-{{!}}23
-{{!}}{{Money|750}}
-{{!}}{{Money|-10}}
-{{!}}1
-{{!}}2
-{{!}}2,800 Health<ref>Due to bugs, this health change is not applied. Instead, the [[Slow Boss]] will use its default health value used for natural spawns, that being 1,600 health.</ref>
-{{!}}-
-{{!}}[[Speedy Boss]]
-{{!}}26
-{{!}}{{Money|3,000}}
-{{!}}{{Money|-25}}
-{{!}}1
-{{!}}4
-{{!}}4,000 Health
-{{!}}-
-{{!}}[[Brute]]
-{{!}}30
-{{!}}{{Money|6,000}}
-{{!}}{{Money|-50}}
-{{!}}1
-{{!}}5
-{{!}}10,000 Health
-{{!}}}
-|Molten Arena
-|{{{!}} class{{=}}"sortable article-table pad-td-5 align-center" style{{=}}"margin:0 auto 10px; width: 100%;"
-!Enemy Group
-!Wave Unlock
-!Send Cost
-!Economy Bonus
-!Send Number
-!Spawn Timer
-!Stat Changes
-{{!}}-
-{{!}}[[Normal]]
-{{!}}2
-{{!}}{{Money|50}}
-{{!}}{{Money|4}}
-{{!}}3-5
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Speedy]]
-{{!}}3
-{{!}}{{Money|65}}
-{{!}}{{Money|5}}
-{{!}}2-3
-{{!}}1
-{{!}}None
-{{!}}-
-{{!}}[[Slow]]
-{{!}}5
-{{!}}{{Money|90}}
-{{!}}{{Money|8}}
-{{!}}3-5
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Hidden]]
-{{!}}8
-{{!}}{{Money|105}}
-{{!}}{{Money|10}}
-{{!}}2-3
-{{!}}0.8
-{{!}}None
-{{!}}-
-{{!}}[[Elite Abnormal]]
-{{!}}10
-{{!}}{{Money|200}}
-{{!}}{{Money|15}}
-{{!}}1
-{{!}}2
-{{!}}120 Health
-{{!}}-
-{{!}}[[Molten]]
-{{!}}12
-{{!}}{{Money|210}}
-{{!}}{{Money|12}}
-{{!}}1
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Molten Hazmat]]
-{{!}}15
-{{!}}{{Money|300}}
-{{!}}{{Money|20}}
-{{!}}1
-{{!}}1.4
-{{!}}300 Health
-{{!}}-
-{{!}}[[Reaver]]
-{{!}}18
-{{!}}{{Money|600}}
-{{!}}{{Money|0}}
-{{!}}1
-{{!}}1.75
-{{!}}1,000 Health
-{{!}}-
-{{!}}[[Molten Necromancer]]
-{{!}}20
-{{!}}{{Money|800}}
-{{!}}{{Money|0}}
-{{!}}1
-{{!}}3
-{{!}}2,000 Health
-{{!}}-
-{{!}}[[Molten Golem]]
-{{!}}22
-{{!}}{{Money|1,000}}
-{{!}}{{Money|-25}}
-{{!}}1
-{{!}}4
-{{!}}3,000 Health
-{{!}}-
-{{!}}[[Failed Experiment]]
-{{!}}24
-{{!}}{{Money|2,000}}
-{{!}}{{Money|-60}}
-{{!}}1
-{{!}}5
-{{!}}5,000 Health
-{{!}}-
-{{!}}[[Molten Titan]]
-{{!}}26
-{{!}}{{Money|4,000}}
-{{!}}{{Money|-150}}
-{{!}}1
-{{!}}7
-{{!}}6,000 Health, [[Health Regen]]
-{{!}}}
-|Fallen Arena
-|{{{!}} class{{=}}"sortable article-table pad-td-5 align-center" style{{=}}"margin:0 auto 10px; width: 100%;"
-!Enemy Group
-!Wave Unlock
-!Send Cost
-!Economy Bonus
-!Send Number
-!Spawn Timer
-!Stat Changes
-{{!}}-
-{{!}}[[Abnormal]]
-{{!}}2
-{{!}}{{Money|50}}
-{{!}}{{Money|4}}
-{{!}}3-5
-{{!}}1.2
-{{!}}None
-{{!}}-
-{{!}}[[Quick]]
-{{!}}3
-{{!}}{{Money|65}}
-{{!}}{{Money|5}}
-{{!}}2-3
-{{!}}1
-{{!}}None
-{{!}}-
-{{!}}[[Heavy]]
-{{!}}5
-{{!}}{{Money|90}}
-{{!}}{{Money|8}}
-{{!}}2-3
-{{!}}1.6
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Soul]]
-{{!}}9
-{{!}}{{Money|150}}
-{{!}}{{Money|10}}
-{{!}}1
-{{!}}1.5
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Hazmat]]
-{{!}}11
-{{!}}{{Money|250}}
-{{!}}{{Money|16}}
-{{!}}1
-{{!}}1.4
-{{!}}None
-{{!}}-
-{{!}}[[Fallen]]
-{{!}}14
-{{!}}{{Money|350}}
-{{!}}{{Money|20}}
-{{!}}1
-{{!}}2
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Necromancer]]
-{{!}}17
-{{!}}{{Money|1,650}}
-{{!}}{{Money|0}}
-{{!}}1
-{{!}}5
-{{!}}None
-{{!}}-
-{{!}}[[Possessed Armor]]
-{{!}}18
-{{!}}{{Money|1,000}}
-{{!}}{{Money|20}}
-{{!}}2-3
-{{!}}3
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Hero]]
-{{!}}20
-{{!}}{{Money|1,250}}
-{{!}}{{Money|5}}
-{{!}}1
-{{!}}3
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Tank]]
-{{!}}23
-{{!}}{{Money|1,500}}
-{{!}}{{Money|-10}}
-{{!}}1
-{{!}}5
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Shield]]
-{{!}}26
-{{!}}{{Money|5,000}}
-{{!}}{{Money|-40}}
-{{!}}1
-{{!}}7
-{{!}}None
-{{!}}-
-{{!}}[[Fallen Guardian]]
-{{!}}27
-{{!}}{{Money|5,000}}
-{{!}}{{Money|-75}}
-{{!}}1
-{{!}}7.5
-{{!}}None
-{{!}}}
-}}
+Most splash damage will deal full damage to enemies with defense, no matter the percentage, though not all of them do. If a tower that deals explosion damage has orange indicators appear when it deals damage, that means it should be able to bypass defense. If the tower has the regular, red indicators, this is affected by defense.
 
-==Wave Structure==
-The waves in '''PVP''' mode followed these timings:
-{| class="wikitable pad-10 align-center" style="width:50%; margin:0 auto"
-!Waves
-!Wave Timer
+In addition, units and the [[Trapper]] ignore defense for their collision damage. However, for their other sources of damage (like ranged damage for the [[Humvee 3]], burn damage for the [[Trapper]] or melee damage for the [[Guardian Elf]]), these damage values are affected by defense. Enemies do not ignore defense by colliding with units, damage dealt to a unit with defense from collision will be reduced.
+
+Due to a bug, poison and electric defense melting cannot melt the defense of any enemies added or updated starting from the [[v1.17.2|April Fools 2024]] update, though any of the enemies before that are still affected.
+
+The following towers and consumables affecting defense are listed below.
+
+{| class="empty-table pad-5" style="min-width:750px; width: 75%; text-align:center; margin:0 auto"
+! class="align-center tableheader" colspan="2" |[[File:BurnIcon.png|20px|Burn|link=]]{{Color|MoltenMode|Burn}}
 |-
-|1-30
-|0:40
+| class="align-center" |[[File:DefaultPyromancerIcon.png|150px|link=Pyromancer]]<br/>[[Pyromancer]]
+|With each tick, the [[Pyromancer]] melts ''Percentage Defense'' of all enemies on fire by 5% at Level 3-4, and by 10% at Level 5.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other burn defense melting sources.
 |-
-|31
-|∞
+| class="align-center" |[[File:DHGoldenPyroIcon.png|150px|link=Golden Pyromancer]]<br/>[[Golden Pyromancer]]
+|With each tick, the [[Golden Pyromancer]] melts ''Percentage Defense'' of all enemies on fire by 5% at Level 3, and by 10% at Level 4-5.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other burn defense melting sources.
+|-
+| class="align-center" |[[File:MoltenMonster.png|150px|link=Molten Monster]]<br/>[[Molten Monster]]
+|With each tick, the [[Molten Monster]] melts ''Percentage Defense'' of all enemies on fire by 15%.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other burn defense melting sources.
+|-
+| class="align-center" |[[File:MolotovIcon.png|150px|link=Molotov]]<br/>[[Molotov]]
+|With each tick, the [[Molotov]] melts ''Percentage Defense'' of all enemies on fire by 15%.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other burn defense melting sources.
+|-
+| class="align-center" |[[File:NapalmStrikeIcon.png|150px|link=Napalm Strike]]<br/>[[Napalm Strike]]
+|With each tick, the [[Napalm Strike]] melts ''Percentage Defense'' of all enemies on fire by 15%.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other burn defense melting sources.
+|-
+| class="align-center" |[[File:HeatwaveConsumable.png|150px|link=Heatwave]]<br/>[[Heatwave]]
+|With each tick, the [[Heatwave]] melts ''Percentage Defense'' of all enemies on fire by 15%.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other burn defense melting sources.
+|-
+! class="align-center tableheader" colspan="2" |{{Color|Frost|Freeze}}
+|-
+| class="align-center" |[[File:ReworkedFreezerIcon.png|150px|link=Freezer]]<br/>[[Freezer]]
+|With each tick, the [[Freezer]]'s freeze melts ''Percentage Defense'' by 10% at Level 3+.
+
+Can only melt 33% of ''Percentage Defense''. Defense melting cannot stack with other freeze defense melting sources.
+|-
+| class="align-center" |[[File:KRFrostBlasterIcon.png|150px|link=Frost Blaster]]<br/>[[Frost Blaster]]
+|With each tick, the [[Frost Blaster]]'s freeze melts ''Percentage Defense'' by 10% at Level 2+.
+
+Can only melt 33% of ''Percentage Defense''. Defense melting cannot stack with other freeze defense melting sources.
+|-
+| class="align-center" |[[File:OICECryomancerIcon.png|150px|link=Cryomancer]]<br/>[[Cryomancer]]
+|With each tick, the [[Cryomancer]]'s freeze melts ''Percentage Defense'' by 10% at Level 0-4.
+
+Can only melt 33% of ''Percentage Defense''. Defense melting cannot stack with other freeze defense melting sources.
+|-
+| class="align-center" |[[File:JesterIcon.png|150px|link=Jester]]<br/>[[Jester]]
+|With its ice bombs, its chillness can melt ''Percentage Defense'' by 1% each tick at Level 3-4.
+
+Can only melt 33% of ''Percentage Defense''. Defense melting cannot stack with other freeze defense melting sources.
+|-
+| class="align-center" |[[File:PumpkinBombConsumable.png|150px|link=Pumpkin Bomb]]<br/>[[Pumpkin Bomb]]
+|The [[Pumpkin Bomb]] has a chance to melt ''Percentage Defense'' by 20%.
+
+Can only melt 33% of ''Percentage Defense''. Defense melting cannot stack with other freeze defense melting sources.
+|-
+| class="align-center" |[[File:Santa'sAirStrikeConsumable.png|150px|link=Napalm Strike]]<br/>[[Santa's Air Strike]]
+|With each tick, the [[Santa's Air Strike]] melts ''Percentage Defense'' of all enemies on fire by 20%.
+
+Can only melt 33% of ''Percentage Defense''. Defense melting cannot stack with other freeze defense melting sources.
+|-
+! class="align-center tableheader" colspan="2" |{{Color|NuclearMode|Poison}}
+|-
+| class="align-center" |[[File:ToxicGunnerNewIcon.png|150px|link=Toxic Gunner]]<br/>[[Toxic Gunner]]
+|With each tick, its poison melts ''Percentage Defense'' by 3% at Level 3-4.
+
+Can only melt 50% of ''Percentage Defense''. Defense melting cannot stack with other poison defense melting sources.
+|-
+! class="align-center tableheader" colspan="2" |{{Color|Common|Other}}
+|-
+| class="align-center" |[[File:DefaultElectroshockerIcon2.png|150px|link=Electroshocker]]<br/>[[Electroshocker]]
+|With each attack, the [[Electroshocker]] melts ''Percentage Defense'' of all enemies in a chain reaction by 5% at Level 0-2, by 10% at Level 3 and by 15% at Level 4-5.
+
+Can only melt 20% of ''Percentage Defense''.
+|-
+| class="align-center" |[[File:DefaultDJBoothIconAug2024.png|150px|link=DJ Booth]]<br/>[[DJ Booth]]
+|The [[DJ Booth]] melts ''Percentage Defense'' by a flat amount with a red track pulse hit, with base decrease being 5%, which increases by 1% for every tower in range up to 25%.
+
+Cannot melt defense further than what its defense melt per hit is.
 |}
 
-'''Bolded''' names indicate an enemy type's debut.
+===[[File:DefenseOld.png|20px]]Prior to the Frost Invasion Update===
+There were two types of defense statistic. One was the ''Effective Defense'' and the other was ''Total Defense''.
 
-If the players reach Wave 31, it repeats infinitely until one team has lost.
+''Total Defense'' was the actual defense number you see on an enemy. However, a tower's damage was rarely reduced by this number.
 
-<div class="mw-collapsible mw-collapsed"><div class="sectionheader">'''Basic Arena Wave Structure'''</div>
-<div class="ContainerColumn mw-collapsible-content">
-{| class="wikitable pad-10" style="width:100%; margin: 0 auto; text-align: center;"
-!Wave 
-!Enemy Type & Amount
+''Effective Defense'' was the actual number that was taken away from a tower's damage towards the enemy. Each point of ''Effective Defense'' melted damage by one point, with ''Effective Defense'' varying depending on the difficulty of the match. When calculating ''Effective Defense'', if the number was a decimal, ''Effective Defense'' is rounded up. However, the damage of towers could not be lowered below half.
+
+====Match Multiplier====
+{| class="wikitable pad-10 align-center" style="margin:0 auto;"
 |-
-|1
-|4x '''[[Normal]]'''
+!Mode
+!Defense Multiplier
 |-
-|2
-|2x '''[[Quick]]''', 6x [[Normal]]
+|'''Normal'''
+|Effective Defense = (Total Defense × 0.25)
 |-
-|3
-|10x [[Normal]], 6x [[Quick]]
+|'''Molten'''
+|Effective Defense = (Total Defense × 0.35)
 |-
-|4
-|3x '''[[Slow]]''', 10x [[Normal]], 5x [[Quick]]
+|'''Fallen'''
+|Effective Defense = (Total Defense × 0.5)
 |-
-|5
-|8x [[Slow]], 15x [[Normal]], 10x [[Quick]]
+|'''Hardcore'''
+|Effective Defense = (Total Defense × 0.75)
 |-
-|6
-|10x [[Slow]], 20x [[Normal]], 8x [[Quick]]
-|-
-|7
-|8x [[Slow]], 1x '''[[Normal Boss]]'''
-|-
-|8
-|10x [[Normal]], 10x [[Slow]], 1x [[Normal Boss]], 5x [[Quick]]
-|-
-|9
-|10x [[Normal]] ([[Bloated]]), 8x '''[[Hidden]]''', 5x [[Quick]]
-|-
-|10
-|5x [[Slow]], 2x [[Normal Boss]], 20x [[Quick]] ([[Bloated]])
-|-
-|11
-|10x '''[[Breaker2]]''' ([[Nimble]]), 10x [[Hidden]]
-|-
-|12
-|12x [[Slow]], 10x [[Breaker2]], 10x [[Quick]] ([[Bloated]])
-|-
-|13
-|4x [[Hidden]] ([[Nimble]]), 5x [[Breaker2]], 4x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]], 4x [[Quick]] ([[Bloated]]), 1x '''[[Necromancer (Modern Enemy)|Necromancer]]'''
-|-
-|14
-|10x '''[[Armored]]''', 2x [[Normal Boss]], 8x [[Breaker2]], 15x [[Speedy]] ([[Bloated]], [[Nimble]])
-|-
-|15
-|3x [[Breaker2]] ([[Nimble]]), 4x [[Hidden]] ([[Bloated]]), 3x [[Breaker2]] ([[Nimble]]), 8x [[Slow]] ([[Bloated]]), 3x [[Armored]], 4x [[Normal Boss]], 1x [[Necromancer (Modern Enemy)|Necromancer]]
-|-
-|16
-|7x [[Breaker2]] ([[Nimble]]), 8x [[Hidden]] ([[Bloated]]), 6x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]] ([[Bloated]]), 1x '''[[Slow Boss]]'''
-|-
-|17
-|15x [[Armored]] ([[Nimble]]),  10x [[Breaker2]], 1x '''[[Hidden Boss]]''', 10x [[Hidden]] ([[Bloated]])
-|-
-|18
-|10x [[Slow]] ([[Bloated]]), 12x [[Armored]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 8x [[Breaker2]]
-|-
-|19
-|10x '''[[Enraged]]''', 15x [[Armored]] ([[Bloated]])
-|-
-|20
-|1x [[Hidden Boss]], 10x [[Breaker2]] ([[Nimble]]), 5x [[Enraged]], 1x [[Hidden Boss]], 2x [[Slow Boss]], 2x [[Necromancer (Modern Enemy)|Necromancer]]
-|-
-|21
-|4x [[Slow]] ([[Tank (Attribute)|Tank]]), 7x [[Armored]], 4x [[Hidden]] ([[Bloated]]), 3x [[Normal Boss]] ([[Bloated]]), 1x [[Hidden Boss]], 5x [[Enraged]], 5x [[Breaker2]] ([[Nimble]]), 1x [[Slow Boss]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
-|-
-|22
-|1x [[Slow Boss]] ([[Bloated]]), 1x [[Hidden Boss]], 10x [[Enraged]], 8x [[Armored]], 2x [[Necromancer (Modern Enemy)|Necromancer]]
-|-
-|23
-|3x [[Hidden Boss]], 10x [[Breaker2]] ([[Bloated]], [[Nimble]]), 8x [[Enraged]] ([[Bloated]]), 3x '''[[Breaker4]]'''
-|-
-|24
-|1x [[Slow Boss]], 5x [[Normal Boss]] ([[Bloated]]), 10x [[Enraged]] ([[Bloated]]), 4x [[Breaker4]], 1x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 1x [[Hidden Boss]]
-|-
-|25
-|1x [[Hidden Boss]], 10x [[Enraged]] ([[Bloated]]), 4x [[Breaker4]], 1x [[Slow Boss]] ([[Bloated]]), 6x [[Normal Boss]] ([[Bloated]], [[Nimble]]), 1x [[Hidden Boss]], 10x [[Enraged]] ([[Bloated]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
-|-
-|26
-|35x [[Armored]] ([[Bloated]]), 6x [[Normal Boss]] ([[Bloated]]), 1x [[Slow Boss]] ([[Bloated]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 12x [[Breaker2]] ([[Bloated]]), 5x [[Breaker4]]
-|-
-|27
-|2x [[Slow Boss]] ([[Bloated]]), 1x [[Hidden Boss]], 10x [[Hidden]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 5x [[Breaker2]] ([[Nimble]]), 1x [[Hidden Boss]], 10x [[Hidden]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 5x [[Breaker2]] ([[Nimble]]), 1x [[Hidden Boss]], 10x [[Hidden]] ([[Bloated]], [[Nimble]])
-|-
-|28
-|1x [[Slow Boss]] ([[Nimble]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 8x [[Enraged]] ([[Bloated]]), 4x [[Quick]] ([[Bloated]], [[Tank (Attribute)|Tank]]), 1x [[Slow Boss]] ([[Nimble]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 8x [[Enraged]] ([[Bloated]]), 4x [[Quick]] ([[Tank (Attribute)|Tank]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
-|-
-|29
-|35x [[Quick]] ([[Tank (Attribute)|Tank]], [[Bloated]]), 1x [[Slow Boss]] ([[Bloated]], [[Nimble]]), 10x [[Armored]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 10x [[Armored]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
-|-
-|30
-|35x [[Armored]] ([[Bloated]]), 6x [[Normal Boss]] ([[Bloated]], [[Nimble]]), 3x [[Slow Boss]] ([[Bloated]]), 12x [[Breaker2]] ([[Nimble]]), 3x [[Breaker4]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 1x '''[[Champion Templar]]'''
-|-
-! colspan="2" |Lose Dialogue
-|-
-|[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
-|One icon and dialogue is randomly chosen upon defeat:
-•We're toast!<br />•OOF!<br />•Mission Failed, we'll get em' next time.<br />•Not enough numbers!<br />•Mistakes are just part of the journey..<br />•We're overrun chief!<br />•We'll get them next time!<br />•Don't give up!<br />•We need back up sergeant!<br />•We just had our grave dug..<br />•We have to fall back soldier!<br />•Oops! Try again!<br />•The enemies got to the base!<br />•Strategy is key!
+|'''[[Trick or Threat Town]]'''
+|Effective Defense = (Total Defense × 0.5)
 |}
-</div>
-</div>
-----
-<div class="mw-collapsible mw-collapsed">
-<div class="sectionheader">'''Molten Arena Wave Structure'''</div>
-<div class="ContainerColumn mw-collapsible-content">
-{| class="wikitable" style="width:100%; margin: 0 auto; text-align: center;"
-!Wave 
-!Enemy Type & Amount
+
+====Countering Defense====
+'''Defense''' could reduce the damage output of certain towers significantly, such as the [[Minigunner]] or [[Militant]]. Likewise, it least affected the damage output for towers that had high damage, such as the [[Ranger]] or [[Mortar]].
+
+There were a couple of towers that could melt the ''Total Defense'' value of enemies, allowing your towers to deal more damage. Each defense melting tower could decrease ''Total Defense'' by a certain percentage. The defense removal could stack, so the [[Pyromancer]] and [[Electroshocker]] could together remove 70% ''Total Defense'', but 2 [[Pyromancer]]s could not remove 100% ''Total Defense''. Instead, only 50% ''Total Defense'' could be removed. The only towers that could not stack their defense melting was the [[Frost Blaster]] and [[Freezer]].
+
+In addition, [[units]] ignored defense for their collision damage. However, for their other sources of damage (like ranged damage for the [[Crook]] and [[Humvee 3]], or melee damage for the [[Citizen 1]]), these damage values were affected by defense.
+
+The following towers affecting defense are listed below.
+
+{| class="empty-table pad-5" style="width:750px; text-align:center; margin:0 auto"
+| class="align-center" |[[File:NewPyromancer0.png|150px|link=Pyromancer]]<br/>[[Pyromancer]]
+|With each tick, the [[Pyromancer]] melted ''Total Defense'' of all enemies on fire by 1 at Level 2-4, and by 2 at Level 5.
+
+Could only melt 50% of ''Total Defense''.
 |-
-|1
-|5x '''[[Normal]]'''
+| class="align-center" |[[File:NewFreezer0.png|150px|link=Freezer]]<br/>[[Freezer]]
+|With each attack, the [[Freezer]] melted ''Total Defense'' by 1 at Level 3-4, and by 2 at Level 5.
+
+Could only melt 20% of ''Total Defense''. Defense melting could not stack with the [[Frost Blaster]].
 |-
-|2
-|3x '''[[Quick]]''', 7x [[Normal]]
+| class="align-center" |[[File:NewElectroshocker0.png|150px|link=Electroshocker]]<br/>[[Electroshocker]]
+|With each attack, the [[Electroshocker]] melted ''Total Defense'' of all enemies in a chain reaction by 1 at Level 5.
+
+Could only melt 20% of ''Total Defense''.
 |-
-|3
-|10x [[Quick]], 8x [[Abnormal]]
-|-
-|4
-|6x '''[[Slow]]''', 8x [[Normal]], 5x [[Quick]]
-|-
-|5
-|4x [[Slow]], 15x [[Normal]] ([[Bloated]]), 4x [[Slow]]
-|-
-|6
-|10x [[Slow]], 12x [[Quick]] ([[Bloated]])
-|-
-|7
-|8x [[Normal]] ([[Bloated]]), 1x '''[[Elite Abnormal]]''', 8x [[Quick]]
-|-
-|8
-|12x [[Quick]], 5x [[Slow]] ([[Bloated]]), 1x [[Elite Abnormal]]
-|-
-|9
-|4x '''[[Hidden]]''', 10x [[Slow]], 2x [[Elite Abnormal]], 5x [[Quick]] ([[Bloated]])
-|-
-|10
-|10x [[Hidden]], 2x [[Elite Abnormal]], 2x '''[[Breaker2]]''', 8x [[Quick]] ([[Nimble]])
-|-
-|11
-|4x [[Breaker2]], 5x '''[[Enraged]]''', 5x '''[[Armored]]''', 3x [[Elite Abnormal]]
-|-
-|12
-|5x [[Breaker2]], 1x [[Elite Abnormal]] ([[Bloated]]), 8x [[Armored]], 1x [[Elite Abnormal]] ([[Bloated]]), 7x [[Enraged]]
-|-
-|13
-|6x [[Breaker2]], 8x [[Hidden]], 6x [[Armored]], 2x [[Elite Abnormal]] ([[Bloated]]), 4x [[Enraged]] ([[Nimble]])
-|-
-|14
-|2x '''[[Reaver]]''', 8x [[Breaker2]] ([[Nimble]]), 6x [[Armored]], 1x '''[[Necromancer (Modern Enemy)|Necromancer]]''', 10x [[Enraged]], 2x [[Elite Abnormal]] ([[Bloated]])
-|-
-|15
-|10x [[Enraged]], 4x [[Reaver]], 10x [[Armored]], 1x [[Necromancer (Modern Enemy)|Necromancer]], 8x [[Breaker2]] ([[Nimble]])
-|-
-|16
-|25x [[Slow]] ([[Health Regen]]), 10x [[Armored]] ([[Bloated]]), 1x '''[[Living Experiment]]'''
-|-
-|17
-|15x [[Hidden]] ([[Bloated]]), 5x [[Reaver]], 10x [[Armored]] ([[Bloated]]), 4x [[Breaker2]] ([[Nimble]]), 5x '''[[Hazmat]]''', 2x [[Necromancer (Modern Enemy)|Necromancer]]
-|-
-|18
-|15 [[Armored]] ([[Bloated]]), 6x [[Reaver]], 10x [[Enraged]] ([[Bloated]]), 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 5x [[Hazmat]]
-|-
-|19
-|10x [[Breaker2]] ([[Nimble]]), 1x [[Living Experiment]], 5x [[Hazmat]], 4x [[Reaver]] ([[Bloated]]), 10x [[Armored]] ([[Bloated]]), 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
-|-
-|20
-|10x [[Enraged]] ([[Bloated]]), 4x [[Hazmat]], 3x '''[[Hidden Boss]]''', 6x [[Hazmat]], 1x '''[[Molten Mech]]''', 4x [[Elite Abnormal]] ([[Bloated]], [[Nimble]])
-|-
-|21
-|3x [[Hidden Boss]], 20x [[Armored]] ([[Bloated]], [[Health Regen]]), 15x [[Breaker2]] ([[Nimble]]), 8x [[Hazmat]], 1x [[Living Experiment]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Health Regen]])
-|-
-|22
-|1x [[Hidden Boss]], 25x [[Armored]] ([[Bloated]]), 7x [[Elite Abnormal]] ([[Bloated]]), 2x [[Hidden Boss]], 1x [[Living Experiment]], 3x [[Reaver]] ([[Bloated]]), 1x [[Molten Mech]]
-|-
-|23
-|20x [[Hazmat]], 3x [[Hidden Boss]] ([[Bloated]]), 1x [[Molten Mech]], 1x [[Living Experiment]] ([[Bloated]]), 4x [[Reaver]] ([[Bloated]]), 10x [[Enraged]] ([[Bloated]])
-|-
-|24
-|15x [[Enraged]] ([[Nimble]], [[Bloated]]), 10x [[Reaver]] ([[Bloated]]), 5x [[Elite Abnormal]] ([[Bloated]]), 5x [[Breaker4]], 10x [[Hazmat]], 1x [[Molten Mech]]
-|-
-|25
-|2x [[Molten Mech]], 3x [[Hidden Boss]] ([[Bloated]]), 5x [[Elite Abnormal]] ([[Bloated]]), 4x [[Reaver]] ([[Bloated]]), 25x [[Armored]] ([[Bloated]]), 2x [[Living Experiment]] ([[Health Regen]])
-|-
-|26
-|2x [[Hidden Boss]] ([[Bloated]]), 3x [[Living Experiment]] ([[Health Regen]]), 1x [[Molten Mech]], 2x [[Hidden Boss]] ([[Bloated]]), 15x [[Armored]] ([[Bloated]]), 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
-|-
-|27
-|8x [[Reaver]] ([[Nimble]]), 12x [[Elite Abnormal]] ([[Bloated]]), 1x [[Living Experiment]] ([[Health Regen]]), 10x [[Breaker4]], 1x [[Living Experiment]] ([[Health Regen]]), 15x [[Breaker2]] ([[Nimble]]), 2x [[Molten Mech]]
-|-
-|28
-|6x [[Reaver]], 10x [[Elite Abnormal]] ([[Bloated]]), 3x [[Living Experiment]] ([[Health Regen]]), 6x [[Breaker4]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Health Regen]], [[Bloated]]), 4x [[Hidden Boss]] ([[Bloated]])
-|-
-|29
-|1x [[Molten Mech]], 4x [[Living Experiment]] ([[Health Regen]]), 25x [[Enraged]] ([[Bloated]]), 8x [[Breaker4]], 1x [[Molten Mech]], 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Health Regen]], [[Bloated]]), 10x [[Breaker2]] ([[Nimble]])
-|-
-|30
-|10x [[Elite Abnormal]] ([[Bloated]]), 2x [[Molten Mech]], 1x '''[[Champion Templar]]''', 2x [[Reaver]] ([[Bloated]]), 1x [[Living Experiment]], 2x [[Reaver]] ([[Bloated]]), 1x [[Living Experiment]], 2x [[Reaver]] ([[Bloated]]), 1x [[Living Experiment]]
-|-
-! colspan="2" |Lose Dialogue
-|-
-|[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
-|One icon and dialogue is randomly chosen upon defeat:
-•We're toast!<br/>•OOF!<br/>•Mission Failed, we'll get em' next time.<br/>•Not enough numbers!<br/>•Mistakes are just part of the journey..<br/>•We're overrun chief!<br/>•We'll get them next time!<br/>•Don't give up!<br/>•We need back up sergeant!<br/>•We just had our grave dug..<br/>•We have to fall back soldier!<br/>•Oops! Try again!<br/>•The enemies got to the base!<br/>•Strategy is key!
+| class="align-center" |[[File:NewFrostBlaster0.png|150px|link=Frost Blaster]]<br/>[[Frost Blaster]]
+|With each attack, the [[Frost Blaster]] melted  ''Total Defense'' by 1 at Level 3-5.
+
+Could only melt 20% of ''Total Defense''. Defense melting could not stack with [[Freezer]].
 |}
-</div>
-</div>
-----
-<div class="mw-collapsible mw-collapsed">
-<div class="sectionheader">'''Fallen Arena Wave Structure'''</div>
-<div class="ContainerColumn mw-collapsible-content">
-{| class="wikitable" style="width:100%; margin: 0 auto; text-align: center;"
-!Wave 
-!Enemy Type & Amount
-|-
-|1
-|5x '''[[Abnormal]]'''
-|-
-|2
-|2x '''[[Quick]]''', 4x [[Abnormal]]
-|-
-|3
-|6x [[Quick]]
-|-
-|4
-|4x [[Abnormal]], 5x [[Quick]]
-|-
-|5
-|3x '''[[Heavy]]''', 5x [[Abnormal]]
-|-
-|6
-|6x [[Heavy]]
-|-
-|7
-|4x [[Heavy]], 1x '''[[Fallen Squire]]''', 5x [[Quick]]
-|-
-|8
-|10x [[Heavy]]
-|-
-|9
-|1x [[Fallen Squire]], 6x '''[[Fallen Soul]]'''
-|-
-|10
-|1x [[Fallen Squire]], 6x [[Heavy]] ([[Bloated]])
-|-
-|11
-|3x '''[[Fallen Hazmat]]''', 5x [[Fallen Soul]]
-|-
-|12
-|2x [[Fallen Squire]], 2x [[Fallen Hazmat]], 1x [[Heavy]] ([[Bloated]], [[Nimble]])
-|-
-|13
-|7x [[Fallen Hazmat]], 3x [[Fallen Soul]] ([[Bloated]])
-|-
-|14
-|1x [[Fallen Squire]], 3x '''[[Fallen]]'''
-|-
-|15
-|5x [[Fallen Soul]] ([[Bloated]]), 2x [[Fallen Squire]], 1x '''[[Fallen Giant]]'''
-|-
-|16
-|3x [[Fallen]], 6x [[Fallen Hazmat]], 3x [[Fallen Squire]], 4x '''[[Breaker2]]''' ([[Bloated]])
-|-
-|17
-|8x [[Fallen Hazmat]], 2x [[Fallen Squire]], 1x '''[[Fallen Necromancer]]'''
-|-
-|18
-|6x [[Fallen]], 3x [[Heavy]] ([[Bloated]], [[Nimble]]), 1x '''[[Possessed Armor]]'''
-|-
-|19
-|3x [[Fallen]], 2x [[Fallen Squire]] ([[Bloated]]), 1x [[Fallen Necromancer]], 1x [[Fallen Giant]]
-|-
-|20
-|5x [[Fallen Hazmat]] ([[Bloated]]), 2x [[Fallen]], 1x '''[[Fallen Hero]]'''
-|-
-|21
-|3x [[Fallen]] ([[Bloated]]), 5x [[Fallen Hazmat]], 2x [[Fallen Necromancer]]
-|-
-|22
-|2x [[Possessed Armor]], 4x [[Fallen]], 1x [[Fallen Giant]], 1x [[Fallen Hero]]
-|-
-|23
-|2x [[Fallen Giant]], 1x [[Possessed Armor]], 6x [[Fallen]], 1x '''[[Fallen Tank]]'''
-|-
-|24
-|2x [[Fallen Hero]], 8x [[Fallen]], 2x [[Possessed Armor]], 4x [[Fallen Necromancer]]
-|-
-|25
-|4x [[Fallen Giant]], 3x [[Fallen]] ([[Bloated]], [[Nimble]]), 1x [[Fallen Hero]], 1x [[Fallen Shield]]
-|-
-|26
-|1x [[Fallen Tank]], 3x [[Fallen Hero]], 7x [[Fallen]] ([[Bloated]]), 4x [[Fallen Giant]]
-|-
-|27
-|1x '''[[Fallen Guardian]]''', 5x [[Possessed Armor]], 2x [[Fallen Hero]]
-|-
-|28
-|1x [[Fallen Shield]], 1x [[Fallen Tank]], 6x [[Fallen Giant]], 4x [[Fallen Hero]]
-|-
-|29
-|2x [[Fallen Shield]], 8x [[Fallen Giant]], 10x [[Fallen]], 1x [[Fallen Tank]]
-|-
-|30
-|35x [[Fallen Hazmat]], 6x [[Fallen Squire]] ([[Bloated]]), 3x [[Fallen Giant]], 12x [[Breaker2]], 3x '''[[Breaker4]]''', 2x [[Fallen Necromancer]] ([[Bloated]]), 1x '''[[Champion Templar]]''', 2x [[Fallen Necromancer]] ([[Bloated]])
-|-
-! colspan="2" |Lose Dialogue
-|-
-|[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
-|One icon and dialogue is randomly chosen upon defeat:
-•We're toast!<br/>•OOF!<br/>•Mission Failed, we'll get em' next time.<br/>•Not enough numbers!<br/>•Mistakes are just part of the journey..<br/>•We're overrun chief!<br/>•We'll get them next time!<br/>•Don't give up!<br/>•We need back up sergeant!<br/>•We just had our grave dug..<br/>•We have to fall back soldier!<br/>•Oops! Try again!<br/>•The enemies got to the base!<br/>•Strategy is key!
-|}
-</div>
-</div>
-
-==Soundtracks==
-{{Soundtrack|
-{{GalleryHeader|Wave 1-9}}<br/>These soundtracks can be randomly chosen to play between these waves.
-<gallery>
-(Official) Tower Defense Simulator OST - Into The Void
-(Official) Tower Defense Simulator OST - Melancholy Hill
-(Official) Tower Defense Simulator OST - Rebelution
-(Official) Tower Defense Simulator OST - Rain Dance
-(Official) Tower Defense Simulator OST - The Horde
-</gallery>
-
-{{GalleryHeader|Wave 10-19}}<br/>These soundtracks can be randomly chosen to play between these waves.
-<gallery>
-(Official) Tower Defense Simulator OST - Shellshock|YouTube Upload
-Tower Defense Simulator OST - Shellshock In-Game|In-Game Version
-(Official) Tower Defense Simulator OST - Neuro Raze
-(Official) Tower Defense Simulator OST - Art Of War
-(Official) Tower Defense Simulator OST - Fill Them With Lead
-</gallery>
-
-{{GalleryHeader|Wave 20-26 & 27-28}}<br/>These soundtracks can be randomly chosen to play between these waves.
-<gallery>
-(Official) Tower Defense Simulator OST - Catharsis
-(Official) Tower Defense Simulator OST - Desolate Dystopia
-(Official) Tower Defense Simulator OST - Portal To Hell
-</gallery>
-
-{{GalleryHeader|Penultimate Wave}}<br/>This soundtrack is played on the penultimate wave.
-<gallery>
-(Official) Tower Defense Simulator OST - Templar's Showdown (Champion Templar Theme)
-</gallery>
-
-{{GalleryHeader|Sudden Death}}<br/>This soundtrack plays once endless wave (Wave 31) is reached.
-<gallery>
-(Official) Tower Defense Simulator OST - Sudden Death
-</gallery>
-}}
-
-==Gallery==
-{{Gallery|Open = Yes|
-{{GalleryHeader|Miscellaneous}}
-<gallery>
-PVPPlaceholderIcon.png|Placeholder icon seen when sending the [[Brute]] and formerly the [[Tank]].
-</gallery>
-}}
-
-==Trivia==
-*Red Team has an inherent advantage against Blue Team as it has lower priority, meaning Blue always gets its base health deducted first if two enemies were to enter both bases simultaneously.
-*The tower on the '''PVP''' [[Matchmaking]] is the [[Saboteur]], a tower which was originally meant to be '''PVP''' oriented before being turned into the [[Polluted Wasteland II]] reward.
 
 ==Update History==
-{{scroll|text =
-*'''23 July 2025''' - [[v1.71.0]]
-**'''PVP''' added, replacing its predecessor [[PVP Test]].
-**{{Bug}} Unable to select ban, select towers or use consumables on console.
-**{{Bug}} After [[Matchmaking]] finds an opponent, sometimes appears as PVE loadouts instead of PVP.
-**{{Bug}} '''PVP''' triumphs and losses are not tracked correctly.
-**{{Bug}} Triumphing can sometimes decrease ELO while losing can sometimes boost ELO.
-**{{Bug}} Returning to lobby softlocks the player.
-**{{Bug}} Blue team tower ban indicators do not have an icon and instead show a cat with sunglasses.
-**{{Bug}} Does not give a triumph bonus upon winning.
-**{{Bug}} Win screen does not show the correct players in 2v2.
-**{{Bug}} Matches will sometimes not start.
-**{{Bug}} On console, it is possible to bring up towers from the survival loadout instead of the PVE loadout.
-**{{Bug}} Leaderboards always display the rank image of the player as General.
-**{{Bug}} When a tower is banned in '''PVP''', it is removed from the survival loadout of the players.
-**{{Bug}} It is possible to send enemies while the send menu is hidden.
-*'''23 July 2025''' - [[v1.71.0|v1.71.2]]
-**[[Tank]] in Low Rank replaced with the [[Brute]].
-**{{Bugfix}} Teleporting back to lobby is now functional.
-**{{Bugfix}} Blue team tower ban indicators no longer show a cat with sunglasses, but now have no icon instead.
-*'''24 July 2025''' - [[v1.71.0|v1.71.4]]
-**{{Bugfix}} Triumphs and losses are now tracked correctly.
-*'''24 July 2025''' - [[v1.71.0|v1.71.5]]
-**Updated ELO rewards to give out reasonable amounts.
-**Now can drop [[Logbooks]].
-**Current ELO now can be seen.
-**Added badges for triumphing, triumphing Ranked and beating the [[Champion Templar]].
-**End screen now shows gained or lost ELO.
-**{{Bug}} [[Logbooks]] can be dropped from sent enemies.
-**{{Bug}} ELO given out in 2v2 is incorrect.
-**{{Bug}} [[Champion Templar]] badge is given out even when the [[Champion Templar]] is not defeated.
-**{{Bug}} Molten Arena endless does not spawn in enemies correctly.
-**{{Bug}} Ranked win badge is not given out.
-**{{Bugfix}} Blue team tower ban indicators now appear.
-**{{Bugfix}} ELO can no longer get decreased when winning or increased when losing.
-**{{Bugfix}} Now gives a win bonus.
-*'''24 July 2025''' - [[v1.71.0|v1.71.5a]]
-**Disabled [[Logbooks]].
-*'''25 July 2025''' - [[v1.71.0|v1.71.6]]
-**{{Bugfix}} 2v2 now gives ELO.
-*'''26 July 2025''' - [[v1.71.0|v1.71.7]]
-**Cap of 60 ELO gained per match.
-**{{Bugfix}} Leaderboards now display correct ranks.
-**{{Bugfix}} Molten Arena endless now summons more than one enemy.
-*'''28 July 2025''' - [[v1.71.0|v1.71.8]]
-**{{Bugfix}} [[Champion Templar]] badge is now only given when it is defeated.
-**{{Bugfix}} Ranked win badge is now given out.
-*'''29 July 2025''' - [[v1.71.0|v1.71.9]]
-**Doubled ELO gain rates.
-**ELO taken on loss is now equal to the ELO gained from winning.
-**ELO cap increased to 75.
-**{{Bug}} ELO gain is displayed as half of what it actually gives.
-*'''29 July 2025''' - [[v1.71.0|v1.71.10]]
-**{{Bugfix}} ELO gained on triumph is now displayed as the right value.
-*'''30 July 2025''' - [[v1.71.0|v1.71.11]]
-**Players now get penalized for leaving during map vote.
-*'''20 August 2025''' - [[v1.73.0]]
-**ELO gain and loss is now always 50 ELO.
-**Tower loadout is now selected after map vote.
-**Tower loadouts of other players can no longer be seen.
-**Arena is now displayed in the intermission lobby.
-**Arena is now decided based on the highest ELO score between players instead of an average in Ranked.
-**Arena is now voted for in Casual.
-**No longer allows for map overriding in Ranked.
-**{{Bug}} Casual completely does not work.
-**{{Bug}} Player UI will sometimes not appear in ranked.
-*'''25 September 2025''' - [[v1.75.0|v1.75.5]]
-**Toggleable modifiers disabled.
-*'''24 September 2025''' - [[v1.75.0]]
-**{{Bug}} [[Matchmaking]] no longer works.
-*'''24 September 2025''' - [[v1.75.0|v1.75.2]]
-**{{Bugfix}} [[Matchmaking]] now works again.
-*'''1 October 2025''' - [[v1.76.0]]
-**{{Bug}} [[Matchmaking]] no longer works.
-*'''1 October 2025''' - [[v1.76.0|v1.76.1]]
-**{{Bugfix}} [[Matchmaking]] now works again.
-}}
-
-==Notes==
-<references responsive="0" />
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**'''Defense''' added.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**'''Defense''' changed, now melts damage by a percentage based on the '''Defense''' value on an enemy, instead of melting it by a specific number of damage based on mode multipliers.
+**'''Defense''' now cannot reduce damage to anything lower than 1 instead of anything lower than 50% of the tower's damage.
+*'''12 March 2022''' - [[v1.1.0]]
+**'''Defense''' on an enemy now rounds up when '''Defense''' is reduced instead of rounding down.
+**'''Defense''' now rounds up damage dealt instead of rounding down.
 
 
 
-{{ModeNavBox}}
+{{AttributeNavBox}}
