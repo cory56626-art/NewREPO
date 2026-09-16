@@ -7,7 +7,7 @@
       "infobox_or_summary"
     ]
   },
-  "description": "",
+  "description": "'''Merch Shop Skins''', previously '''Plushie Code Skins''', is a skin series which is obtained with a purchase of a specific [[Tower Defense Simulator Toys|plushie]]. Most '''Merch Shop Skins''' have a unique aesthetic appearance and follow a similar theme, though this is not always the case.\n\nOnly players in the United States of America can access the Merch Shop. Additionally, the player has to be over the age of 13 (18 in Texas). While the plushies can be bought at the [https://shop.paradoxum.games/ Paradoxum Games store], this does not come with any skins. At a certain point, these were gotten through codes instead, though this is no longer the case.\n\nPlayers cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate.\n\nAs of [[v2.4.0]], the Merch Shop no longer appears in the [[Main Lobby]] as it has been moved out of bounds into the sky.",
   "upgrade_modes": {
     "regular": [],
     "pvp": []
@@ -32,7 +32,27 @@
       "immune": null
     }
   },
-  "infoboxes": [],
-  "likely_infobox": null,
-  "template_count": 17
+  "infoboxes": [
+    {
+      "name": "SkinSeriesInfobox",
+      "params": {
+        "title1": "{{Color|Other|Merch Shop Skins}}",
+        "image1": "PlushieCommanderPI.jpg",
+        "rarities": "{{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}",
+        "skins": "14"
+      },
+      "positional": []
+    }
+  ],
+  "likely_infobox": {
+    "name": "SkinSeriesInfobox",
+    "params": {
+      "title1": "{{Color|Other|Merch Shop Skins}}",
+      "image1": "PlushieCommanderPI.jpg",
+      "rarities": "{{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}",
+      "skins": "14"
+    },
+    "positional": []
+  },
+  "template_count": 53
 }

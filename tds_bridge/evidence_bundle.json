@@ -1,151 +1,478 @@
 {
-  "mode": "search",
-  "requested": "Ultimate",
-  "known_alias_target": null,
-  "candidates": [
-    {
-      "title": "V1.30.0",
-      "pageid": 42419,
-      "snippet": "",
-      "size": 3579,
-      "wordcount": 486,
-      "timestamp": "2026-06-05T07:53:17Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+  "meta": {
+    "mode": "verify",
+    "requested": "Merch Shop Skins",
+    "title": "Merch Shop Skins",
+    "pageid": 45873,
+    "latest_revid": 595249,
+    "latest_timestamp": "2026-08-05T15:12:54Z",
+    "source_url": "https://tds.fandom.com/wiki/Merch_Shop_Skins",
+    "classification": {
+      "is_tower_page": false,
+      "reason": "template/category heuristic"
     },
-    {
-      "title": "DJ Booth Figurine",
-      "pageid": 46248,
-      "snippet": "",
-      "size": 4278,
-      "wordcount": 612,
-      "timestamp": "2026-06-05T07:58:10Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Umbra Mini Plush",
-      "pageid": 36308,
-      "snippet": "",
-      "size": 3230,
-      "wordcount": 441,
-      "timestamp": "2026-06-05T07:46:48Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Merch Shop Skins",
-      "pageid": 45873,
-      "snippet": "",
-      "size": 5360,
-      "wordcount": 720,
-      "timestamp": "2026-08-05T15:12:54Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Crates",
-      "pageid": 1174,
-      "snippet": "",
-      "size": 9258,
-      "wordcount": 1256,
-      "timestamp": "2026-08-26T14:19:12Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Daily Store",
-      "pageid": 34013,
-      "snippet": "",
-      "size": 5141,
-      "wordcount": 827,
-      "timestamp": "2026-08-27T13:38:08Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Roblox Multipack - Cyber City",
-      "pageid": 29047,
-      "snippet": "",
-      "size": 2942,
-      "wordcount": 462,
-      "timestamp": "2026-06-05T12:34:45Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Clothing/Tixlord",
-      "pageid": 52882,
-      "snippet": "",
-      "size": 26709,
-      "wordcount": 3412,
-      "timestamp": "2025-10-04T15:29:17Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Roblox Mystery Figure - Cyber Medic",
-      "pageid": 23696,
-      "snippet": "",
-      "size": 3045,
-      "wordcount": 470,
-      "timestamp": "2026-06-05T07:36:07Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Roblox Mystery Figure - Fallen King",
-      "pageid": 32628,
-      "snippet": "",
-      "size": 2616,
-      "wordcount": 400,
-      "timestamp": "2025-02-19T15:25:25Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Roblox Mystery Figure - Necromancer Boss",
-      "pageid": 28497,
-      "snippet": "",
-      "size": 2389,
-      "wordcount": 370,
-      "timestamp": "2025-02-19T15:18:14Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
-    },
-    {
-      "title": "Roblox Mystery Figure - Shotgunner",
-      "pageid": 29054,
-      "snippet": "",
-      "size": 2017,
-      "wordcount": 312,
-      "timestamp": "2025-02-19T15:21:04Z",
-      "classification": {
-        "is_tower_page": false,
-        "reason": "template/category heuristic"
-      }
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
     }
-  ]
+  },
+  "resolution": {
+    "status": "resolved",
+    "input": "Merch Shop Skins",
+    "alias_used": null,
+    "target": "Merch Shop Skins",
+    "canonical_title": "Merch Shop Skins",
+    "pageid": 45873,
+    "redirects": [],
+    "selection_method": "exact_or_redirect"
+  },
+  "revision_history": [
+    {
+      "revid": 595249,
+      "parentid": 468497,
+      "timestamp": "2026-08-05T15:12:54Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 5360,
+      "sha1": "8d465b31d5e3009c35ac17639be5918f430983ca"
+    },
+    {
+      "revid": 468497,
+      "parentid": 380302,
+      "timestamp": "2026-06-05T07:57:41Z",
+      "user": "DarkGabonnie",
+      "comment": "auto, replaced: {{Colour| → {{Color| (48)",
+      "size": 5170,
+      "sha1": "ecc6d8bdb6d7e9ce280749eeaacacce5370309c8"
+    },
+    {
+      "revid": 380302,
+      "parentid": 370031,
+      "timestamp": "2026-03-19T22:14:21Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 5218,
+      "sha1": "125c39d1fa9109499a31b5a9194a030bb23d5932"
+    },
+    {
+      "revid": 370031,
+      "parentid": 368354,
+      "timestamp": "2026-03-04T17:33:47Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 4866,
+      "sha1": "1b45775b32851448575fa035b6f2b619a4167d08"
+    },
+    {
+      "revid": 368354,
+      "parentid": 368021,
+      "timestamp": "2026-03-01T20:40:52Z",
+      "user": "Gabonnie",
+      "comment": "[IPE-NEXT] Quick edit",
+      "size": 4866,
+      "sha1": "c9aadeeabed7a20eb9406dd4a41146b6174fb7d6"
+    },
+    {
+      "revid": 368021,
+      "parentid": 347673,
+      "timestamp": "2026-03-01T12:38:57Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 4864,
+      "sha1": "084b66a5e0c9af21a3a43b12abc0fdb86384fbd6"
+    },
+    {
+      "revid": 347673,
+      "parentid": 309632,
+      "timestamp": "2026-01-27T18:13:46Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 4866,
+      "sha1": "b92e6509e2a8dcad7d864319afb62bef94545c03"
+    },
+    {
+      "revid": 309632,
+      "parentid": 309631,
+      "timestamp": "2025-11-29T20:47:18Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 4768,
+      "sha1": "045e7c43937159a456a2e6ac7776d2d2d196dfc0"
+    },
+    {
+      "revid": 309631,
+      "parentid": 309515,
+      "timestamp": "2025-11-29T20:46:32Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 4767,
+      "sha1": "5b8c2fe3efd884920ff80a2a0a916fc854579f0c"
+    },
+    {
+      "revid": 309515,
+      "parentid": 309513,
+      "timestamp": "2025-11-29T14:48:33Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 4764,
+      "sha1": "3ba019afe10cedecf710bac57d547af167c27547"
+    }
+  ],
+  "revision_diff": {
+    "fromrevid": 468497,
+    "torevid": 595249,
+    "fromtitle": "Merch Shop Skins",
+    "totitle": "Merch Shop Skins",
+    "fromuser": "DarkGabonnie",
+    "touser": "Mentin123",
+    "fromcomment": "auto, replaced: {{Colour| → {{Color| (48)",
+    "tocomment": "",
+    "diff_text": "Line 12: Line 12: Players cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate. Players cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate. As of [[v2.4.0]], the Merch Shop no longer appears in the [[Main Lobby]] as it has been moved out of bounds into the sky. ==Skins== ==Skins== Line 171: Line 173: **One new skin added: **One new skin added: ***[[Crook Boss]]: {{Color|Other|Narrator}} ***[[Crook Boss]]: {{Color|Other|Narrator}} *'''31 July 2026''' - [[v2.4.0]] **Merch Shop moved out of bounds. }} }}"
+  },
+  "classification": {
+    "is_tower_page": false,
+    "reason": "template/category heuristic"
+  },
+  "structured_stats": {
+    "source_priority": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "description": "'''Merch Shop Skins''', previously '''Plushie Code Skins''', is a skin series which is obtained with a purchase of a specific [[Tower Defense Simulator Toys|plushie]]. Most '''Merch Shop Skins''' have a unique aesthetic appearance and follow a similar theme, though this is not always the case.\n\nOnly players in the United States of America can access the Merch Shop. Additionally, the player has to be over the age of 13 (18 in Texas). While the plushies can be bought at the [https://shop.paradoxum.games/ Paradoxum Games store], this does not come with any skins. At a certain point, these were gotten through codes instead, though this is no longer the case.\n\nPlayers cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate.\n\nAs of [[v2.4.0]], the Merch Shop no longer appears in the [[Main Lobby]] as it has been moved out of bounds into the sky.",
+    "upgrade_modes": {
+      "regular": [],
+      "pvp": []
+    },
+    "upgrade_templates": [],
+    "statistics_tables": {
+      "regular": [],
+      "pvp": []
+    },
+    "detections_and_limits": {
+      "regular": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null,
+        "placement_limit": null
+      },
+      "pvp": {
+        "hidden": null,
+        "lead": null,
+        "flying": null,
+        "immune": null
+      }
+    },
+    "infoboxes": [
+      {
+        "name": "SkinSeriesInfobox",
+        "params": {
+          "title1": "{{Color|Other|Merch Shop Skins}}",
+          "image1": "PlushieCommanderPI.jpg",
+          "rarities": "{{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}",
+          "skins": "14"
+        },
+        "positional": []
+      }
+    ],
+    "likely_infobox": {
+      "name": "SkinSeriesInfobox",
+      "params": {
+        "title1": "{{Color|Other|Merch Shop Skins}}",
+        "image1": "PlushieCommanderPI.jpg",
+        "rarities": "{{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}",
+        "skins": "14"
+      },
+      "positional": []
+    },
+    "template_count": 53
+  },
+  "conflicts": {
+    "priority_rule": {
+      "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+      "priority": [
+        "upgrade_templates",
+        "description",
+        "infobox_or_summary"
+      ]
+    },
+    "potential_conflicts": [],
+    "notes": [
+      "Different upgrade levels can legitimately differ.",
+      "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+    ]
+  },
+  "categories": [
+    {
+      "ns": 14,
+      "title": "Category:Cosmetics"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Skin Series"
+    }
+  ],
+  "backlinks": [
+    {
+      "title": "Basic Crate",
+      "pageid": 2966
+    },
+    {
+      "title": "Premium Crate",
+      "pageid": 2967
+    },
+    {
+      "title": "Golden Crate",
+      "pageid": 2968
+    },
+    {
+      "title": "Platinum Crate",
+      "pageid": 2969
+    },
+    {
+      "title": "Halloween 2019 Crate",
+      "pageid": 2970
+    },
+    {
+      "title": "Xmas 2019 Crate",
+      "pageid": 2971
+    },
+    {
+      "title": "Party Crate",
+      "pageid": 2972
+    },
+    {
+      "title": "Valentines Crate",
+      "pageid": 3861
+    },
+    {
+      "title": "Toy Crate",
+      "pageid": 4322
+    },
+    {
+      "title": "Bunny Crate",
+      "pageid": 4613
+    },
+    {
+      "title": "Deluxe Crate",
+      "pageid": 21449
+    },
+    {
+      "title": "Pumpkin Crate",
+      "pageid": 21543
+    },
+    {
+      "title": "Spooky Crate",
+      "pageid": 21544
+    },
+    {
+      "title": "Frost Crate",
+      "pageid": 24177
+    },
+    {
+      "title": "Cold Front Crate",
+      "pageid": 34172
+    },
+    {
+      "title": "Lovely Crate",
+      "pageid": 34179
+    },
+    {
+      "title": "Ducky Crate",
+      "pageid": 34849
+    },
+    {
+      "title": "Vigilante Crate",
+      "pageid": 35334
+    },
+    {
+      "title": "Pirate Crate",
+      "pageid": 35794
+    },
+    {
+      "title": "Halloween Crate",
+      "pageid": 36210
+    },
+    {
+      "title": "Phantom Crate",
+      "pageid": 37333
+    },
+    {
+      "title": "Jolly Crate",
+      "pageid": 37349
+    },
+    {
+      "title": "Low Grade Crate",
+      "pageid": 39799
+    },
+    {
+      "title": "Mid Grade Crate",
+      "pageid": 39803
+    },
+    {
+      "title": "High Grade Crate",
+      "pageid": 39804
+    },
+    {
+      "title": "Content Creator Skins",
+      "pageid": 41905
+    },
+    {
+      "title": "Holiday Crate",
+      "pageid": 44851
+    },
+    {
+      "title": "Traditional Code Skins",
+      "pageid": 45875
+    },
+    {
+      "title": "Lunar Crate",
+      "pageid": 46135
+    },
+    {
+      "title": "Lovestruck Crate",
+      "pageid": 46551
+    },
+    {
+      "title": "Coin Crate",
+      "pageid": 48076
+    },
+    {
+      "title": "UglyCrate",
+      "pageid": 48077
+    },
+    {
+      "title": "Nametag Crate",
+      "pageid": 49726
+    },
+    {
+      "title": "Skin Series",
+      "pageid": 50559
+    },
+    {
+      "title": "Banned Crate",
+      "pageid": 52907
+    },
+    {
+      "title": "Plushie Code Skins",
+      "pageid": 54814
+    },
+    {
+      "title": "Showtime Crate",
+      "pageid": 55691
+    },
+    {
+      "title": "Christmas 2025 Crate",
+      "pageid": 55695
+    },
+    {
+      "title": "Valentines 2026 Crate",
+      "pageid": 57396
+    },
+    {
+      "title": "Shamrock Crate",
+      "pageid": 58142
+    },
+    {
+      "title": "Star Wars Skins",
+      "pageid": 61470
+    },
+    {
+      "title": "Void Crate",
+      "pageid": 61520
+    },
+    {
+      "title": "Beach Crate",
+      "pageid": 62508
+    },
+    {
+      "title": "Patriotic Crate",
+      "pageid": 62520
+    },
+    {
+      "title": "Scuba Ops Crate",
+      "pageid": 62521
+    }
+  ],
+  "templates": [
+    {
+      "ns": 10,
+      "title": "Template:SkinSeriesInfobox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Color",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Scroll",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bug",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Bugfix",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:CrateNavBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:CrateNavBox/labels.css",
+      "exists": true
+    }
+  ],
+  "related_pages": [
+    {
+      "title": "Content Creator Skins",
+      "score": 3,
+      "pageid": 41905,
+      "latest_revid": 491689,
+      "latest_timestamp": "2026-06-15T06:25:16Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|ContentCreator|Content Creator Skins}}\n|image1 = ContentCreatorSkinsUpdate.png\n|rarities = {{Color|Rare}}<br/>{{Color|Legendary}}\n|skins = 12\n}}\n__TOC__\n==Description==\n'''Content Creator Skins''' is a skin series based on Tower Defense Simulator content creators. This skin series is unique, as it does not actually have any obtainable crate in which it is obtained from. Instead, skins will only appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n\nThe cost of the skin depends on their rarity. {{Color|Rare}} skins cost {{Coins|3,000}} while {{Color|Legendary}} skins cost {{Coins|4,500}}. There is also unused cost for {{Color|Common}} and {{Color|Uncommon}} skins, that being {{Coins|3,000}}. There is one exception to these, that being the {{Color|ContentCreator|Jordan}} [[Brawler]] skin, as it costs {{Coins|3,232}}.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:IsaacWardenIcon.png|175px]]\n|[[File:YTEngiIcon.png|175px]]\n|[[File:YTAccelIcon.png|175px]]\n|[[File:May17EggryptedCommander.png|175px]]\n|-\n!Skin\n|{{Color|ContentCreator|Isaac}}\n|{{Color|ContentCreator|Wikia}}\n|{{Color|ContentCreator|Elite}}\n|{{Color|ContentCreator|Eggrypted}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|4,500}}\n|{{Coins|3,000}}\n|{{Coins|4,500}}\n|{{Coins|3,000}}\n|-\n!Tower\n|[[Warden]]\n|[[Engineer]]\n|[[Accelerator]]\n|[[Commander]]\n|-\n!\n|[[File:PropellarsRangerIcon.png|175px]]\n|[[File:Feb25CorsoCrookBossIcon.png|175px]]\n|[[File:SweakingMinigunnerIcon.png|175px]]\n|[[File:DanksAcceleratorIconIG.png|175px]]\n|-\n!Skin\n|{{Color|ContentCreator|Propellars}}\n|{{Color|ContentCreator|Corso}}\n|{{Color|ContentCreator|Sweaking}}\n|{{Color|ContentCreator|Dank}}\n|-\n!Rarity\n|{{Color|Legendary}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|4,500}}\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|4,500}}\n|-\n!Tower\n|[[Ranger]]\n|[[Crook Boss]]\n|[[Minigunner]]   \n|[[Accelerator]]\n|-\n!\n|[[File:CrazRexEngineerIcon.png|175px]]\n|[[File:5oulsRangerIconIG.png|175px]]\n|[[File:MegalodonCowboy.png|175px]]\n|[[File:JordanBrawlerIconIG.png|175px]]\n|-\n!Skin\n|{{Color|ContentCreator|CrazRex}}\n|{{Color|ContentCreator|5ouls}}\n|{{Color|ContentCreator|MegaBit}}\n|{{Color|ContentCreator|Jordan}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|-\n!Cost\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|3,000}}\n|{{Coins|3,232}}\n|-\n!Tower\n|[[Engineer]]\n|[[Ranger]]\n|[[Cowboy]]\n|[[Brawler]]\n|}\n\n==Trivia==\n*'''Content Creator Skins''' are all based on Tower Defense Simulator content creators.\n**The {{Color|ContentCreator|Isaac}} skin is based on [https://www.roblox.com/users/63238912/profile CEOofIsaac].\n**The {{Color|ContentCreator|Wikia}} skin is based on [https://www.youtube.com/@WikiaColors WikiaColors].\n**The {{Color|ContentCreator|Elite}} skin is based on [https://www.youtube.com/@EliteElite Elite].\n**The {{Color|ContentCreator|Eggrypted}} skin is based on [https://www.youtube.com/@eggrypted Eggrypted].\n**The {{Color|ContentCreator|Propellars}} skin is based on [https://www.youtube.com/c/propellars propellars].\n**The {{Color|ContentCreator|Corso}} skin is based on [https://www.youtube.com/@CORSOBLOX CORSO].\n**The {{Color|ContentCreator|Sweaking}} skin is based on [https://www.youtube.com/@ItzSweaking ItzSweaking]. \n**The {{Color|ContentCreator|Dank}} skin is based on [https://www.youtube.com/@DanksPlatter DanksPlatter].\n***This skin was made as a reward for being one of the first people to triumph [[Infernal Abyss]] on [[Legacy Hardcore Mode]] mode, alongside [https://www.youtube.com/@CrazRex CrazRex] and [https://www.youtube.com/@5ouIs 5ouls]. All of them received a skin.\n**The {{Color|ContentCreator|CrazRex}} skin is based on [https://www.youtube.com/@CrazRex CrazRex].\n***This skin was made as a reward for being one of the first people to triumph [[Infernal Abyss]] on [[Legacy Hardcore Mode]] mode, alongsi"
+    },
+    {
+      "title": "Star Wars Skins",
+      "score": 3,
+      "pageid": 61470,
+      "latest_revid": 628390,
+      "latest_timestamp": "2026-08-27T00:16:54Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|StarWars|Star Wars Skins}}\n|image1 = StarWarsSkinSeries.png\n|rarities = {{Color|Rare}}<br/>{{Color|Legendary}}\n|skins = 2\n}}\n{{QuoteContainer|\n{{QuoteBox|May the 4th be with you.|Unused Crate Description}}\n}}\n__TOC__\n==Description==\n'''Star Wars Skins''' is a skin series based on ''Star Wars''. This skin series is unique, as it does not actually have any obtainable crate which it is obtained from. Instead, skins will only appear in the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n\nThe cost of the skin depends on their rarity. {{Color|Rare}} skins cost {{Coins|3,000}} while {{Color|Legendary}} skins cost {{Coins|5,000}}.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:VanquisherExecutionerIcon.png|175px]]\n|[[File:SenatorAccelIcon.png|175px]]\n|-\n!Skin\n|{{Color|StarWars|Vanquisher}}\n|{{Color|StarWars|Senator}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Legendary}}\n|-\n!Cost\n|{{Coins|3,000}}\n|{{Coins|5,000}}\n|-\n!Tower\n|[[Executioner]]\n|[[Accelerator]]\n|}\n\n==Trivia==\n*Internally, the '''Star Wars Skins''' are actually an unobtainable ''Star Wars Crate'' which has the same model as the [[Basic Crate]].\n**The crate itself is set to be [[Daily Store]] only, which when combined with its appearance suggests it is not meant to be obtainable and should only function like the [[Content Creator Skins]], which is also a crate.\n*Both skins present as part of this skin series were made for the 4th of May 2024, which is the [[wp:Star Wars Day|Star Wars Day]].\n**The description of the crate which cannot be seen anywhere in-game references this event.\n**When the skins were made unobtainable once the 4th of May 2024 ended, it was mentioned that the developers had plans for them in the future. It is likely them appearing in the [[Daily Store]] is that plan.<ref>[[File:StarWarsSkinsPlanProof.png|280px]]<br/>https://discord.com/channels/587355301083349002/664997359071002637/1237143962075136161 (Tower Defense Simulator Server)</ref>\n*While the skin series and the crate it is internally is referred to as ''Star Wars'', it does not actually contain every ''Star Wars'' skin in the game.\n**There is a {{Color|Deluxe|Galactic}} [[Gladiator]] skin that can be obtained from the [[Deluxe Crate]]. It is meant to represent [[w:c:starwars:Sith Lord|Sith Lord]], though its design does not match any specific one.\n**The [[Warden]] has a {{Color|Deluxe|Galactic}} skin that is also obtained from the [[Deluxe Crate]]. The skin is based on the [[w:c:starwars:Stormtroopers|Stormtroopers]].\n**The {{Color|Mission|Trooper}} [[Commando]] skin is obtained from [[Mission Quests]]. It is based on [[w:c:starwars:Clone commando|Clone commandos]] from ''Star Wars''.\n\n==Update History==\n*'''22 May 2026''' - [[v1.91.0]]\n**'''Star Wars Skins''' added with two skins:\n**:[[Executioner]]: {{Color|StarWars|Vanquisher}}\n**:[[Accelerator]]: {{Color|StarWars|Senator}}\n\n==Notes==\n<references/>\n\n\n\n{{CrateNavBox}}"
+    },
+    {
+      "title": "Traditional Code Skins",
+      "score": 3,
+      "pageid": 45875,
+      "latest_revid": 621321,
+      "latest_timestamp": "2026-08-22T02:48:32Z",
+      "wikitext_excerpt": "{{SkinSeriesInfobox\n|title1 = {{Color|Other|Traditional Code Skins}}\n|image1 = CodeStuff.png\n|rarities = {{Color|Exclusive}}<br/>{{Color|Uncommon}}<br/>{{Color|Rare}}\n|skins = 15\n}}\n__TOC__\n==Description==\n'''Traditional Code Skins''' is a skin series that players can redeem through [[codes]] manually created by the developers.\n\nThese codes are distributed through traditional channels such as social media or official announcements, and often feature limited-time skins. While most skins are no longer redeemable, some skins have been moved to crates.\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:DHHalloweenHunterIcon.png|175px]]\n|[[File:MiniTwitter.png|175px]]\n|[[File:Communityminigunnerrework.png|175px]]\n|[[File:HW24SpringTimeSlasherIconIG.png|175px]]\n|-\n!Skin\n|{{Color|Other|Halloween}}<ref>Can now be obtained in the [[Halloween Crate]].</ref>\n|{{Color|Other|Twitter}}\n|{{Color|Other|Community}}\n|{{Color|Other|Spring Time}}<ref name=\":0\">Can now be obtained in the [[Shamrock Crate]].</ref>\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Hunter]]\n|[[Minigunner]]\n|[[Minigunner]]\n|[[Slasher]]\n|-\n!Code\n|TRICKORTREAT\n|5KMILESTONE\n|COMMUNITY20\n|SPR1NGM1L3ST0NE\n|-\n!\n|[[File:16MaySpringTimeCommanderIcon.png|175px]]\n|[[File:BloxyCommanderIcon.png|175px]]\n|[[File:Icytea_skin_2.png|175px]]\n|[[File:NewKasodusCowboyIcon.png|175px]]\n|-\n!Skin\n|{{Color|Other|Spring Time}}<ref name=\":0\" />\n|{{Color|Other|Bloxy}}\n|{{Color|Other|IcyTea}}\n|{{Color|Other|Kasodus}}<ref>Can now be obtained in the [[Premium Crate]].</ref>\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Uncommon}}\n|{{Color|Uncommon}}\n|-\n!Tower\n|[[Commander]]\n|[[Commander]]\n|[[Freezer]]\n|[[Cowboy]]\n|-\n!Code\n|HAPPY3AST3R!\n|BLOXY21\n|ICYFREEZE\n|DOUBLEBLOXIES\n|-\n!\n|[[File:PresentFarm.png|175px]]\n|[[File:BeachGladiatorIconIGAug26.png|175px]]\n|[[File:JohnMilitantIcon.png|175px]]\n|[[File:CookieScout0.png|175px]]\n|-\n!Skin\n|{{Color|Other|Present}}\n|{{Color|Other|Beach}}\n|{{Color|Other|John}}\n|{{Color|Other|Cookie}}\n|-\n!Rarity\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|{{Color|Exclusive}}\n|-\n!Tower\n|[[Farm]]\n|[[Gladiator]]\n|[[Militant]]\n|[[Scout]]\n|-\n!Code\n|MERRY2021\n|beachglad2022\n|JOHNRETURNS,<br/>9509253943\n|M3RRY2022TDS\n|-\n!\n|[[File:LemonadeStandFarmIconIG.png|175px]]\n|[[File:MercenaryPursuitIconIG.png|175px]]\n|[[File:CommunityShotgunnerIconIG.png|175x175px]]\n|-\n!Skin\n|{{Color|Other|Vendor}}\n|{{Color|Other|Mercenary}}\n|{{Color|Other|Community}}\n|-\n!Rarity\n|{{Color|Rare}}\n|{{Color|Rare}}\n|{{Color|Rare}}\n|-\n!Tower\n|[[Farm]]\n|[[Pursuit]]\n|[[Shotgunner]]\n|-\n!Code\n|1POINT7MIL\n|2MILLION\n|1MILCOMMUNITY\n|}\n\n==Update History==\n{{Scroll|text=\n*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]\n**'''Traditional Code Skins''' added with one skin:\n***[[Hunter]]: {{Color|Other|Halloween}}\n*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]\n**One new skin added:\n***[[Minigunner]]: {{Color|Other|Twitter}}\n*'''6 April 2020''' - [[Release v1.9|Release v1.9]]\n**Two new skins added:\n***[[Slasher]]: {{Color|Other|Spring Time}}\n***[[Commander]]: {{Color|Other|Spring Time}}\n*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]\n**Two new skins added:\n***[[Freezer]]: {{Color|Other|IcyTea}}\n***[[Cowboy]]: {{Color|Other|Kasodus}}\n*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0a]]\n**One new skin added:\n***[[Commander]]: {{Color|Other|Bloxy}}\n*'''26 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.1a]]\n**One new skin added:\n***[[Minigunner]]: {{Color|Other|Community}}\n*'''24 December 2021''' - [[v1.0.0]]j\n**One new skin added:\n***[[Farm]]: {{Color|Other|Present}}\n*'''6 August 2022''' - [[v1.3.1]]a\n**One new skin added:\n***[[Gladiator]]: {{Color|Other|Beach}}\n*'''9 September 2022''' - [[v1.3.2]]a\n**One new skin added:\n***[[Militant]]: {{Color|Other|John}}\n*'''21 December 2022''' - [[v1.6.0]]\n**Skin rarities added.\n**One new skin added:\n***[[Scout]]: {{Color|Other|Cook"
+    },
+    {
+      "title": "Tower Defense Simulator Toys",
+      "score": 1,
+      "pageid": 23695,
+      "latest_revid": 467829,
+      "latest_timestamp": "2026-06-05T07:36:06Z",
+      "wikitext_excerpt": "<div class=\"align-center\"><span class=\"mainheader\">'''Toys'''</span>\n----\n<span class=\"link-preview-hide\">''For information about Merchandise, click [[Merchandise|here]].''</span>\n\nThere are various Tower Defense Simulator-themed Toys, generally sold by Paradoxum Games though also occasionally sold by others, which can be mini-figures or plushies. They are based on multiple things that appear in the game, such as towers, enemies or units. Toys sold by Paradoxum Games can be found at the [https://shop.paradoxum.games/ Paradoxum Games website] or through their Merch Shop.\n\nToys sold by Paradoxum Games come with additional in-game rewards, usually skins. These can '''only be gotten through the in-game Merch Shop'''. Purchases on the [https://shop.paradoxum.games/ Paradoxum Games website] will not come with any rewards. Only players eligible for the in-game Merch Shop can access it, which are players in the United States of America who are above the age of 13 (18 in Texas).\n\n<span class=\"mainheader\">{{Color|FFF|Juniper Creates}}</span>\n\n{| class=\"light-table pad-5 align-center\" style=\"width:800px; text-align:center; margin:0 auto\"\n!\n|[[File:PlushieCommander.png|125px|link=Commander Plush (Level 1)]]\n|[[File:PlushMiniMask.png|125px|link=Minigunner Plush]]\n|[[File:PlushieDJBooth.png|125px|link=DJ Booth Plush]]\n|[[File:PlushieCommander2.png|125px|link=Commander Plush (Level 4)]]\n|[[File:PlushieScout.png|125px|link=Scout Plush]]\n|-\n!Name\n|[[Commander Plush (Level 1)|Commander Plush]]<br/>(Level 1)\n|[[Minigunner Plush]]\n|[[DJ Booth Plush]]\n|[[Commander Plush (Level 4)|Commander Plush]]<br/>(Level 4)\n|[[Scout Plush]]\n|-\n!\n|[[File:GraveDiggerPlush.png|125px|link=Grave Digger Mini Plush]]\n|[[File:MoltenBossPlush.png|125px|link=Molten Boss Mini Plush]]\n|[[File:FallenBossPlush.png|125px|link=Fallen King Mini Plush]]\n|[[File:NuclearMonsterPlush.png|125px|link=Nuclear Monster Mini Plush]]\n|[[File:GunslingerPlush.png|125px|link=Gunslinger Mini Plush]]\n|-\n!Name\n|[[Grave Digger Mini Plush]]\n|[[Molten Boss Mini Plush]]\n|[[Fallen King Mini Plush]]\n|[[Nuclear Monster Mini Plush]]\n|[[Gunslinger Mini Plush]]\n|-\n!\n|[[File:PlushieAccelerator.png|125px|link=Accelerator Plush]]\n|[[File:UmbraPlush.png|125px|link=Umbra Mini Plush]]\n|[[File:EngineerPlush.png|125px|link=Engineer Plush]]\n|[[File:TrapperPlush.png|125px|link=Trapper Plush]]\n|[[File:GoldenMinigunnerPlush.png|125px|link=Golden Minigunner Plush]]\n|-\n!Name\n|[[Accelerator Plush]]\n|[[Umbra Mini Plush]]\n|[[Engineer Plush]]\n|[[Trapper Plush]]\n|[[Golden Minigunner Plush]]\n|-\n!\n|[[File:PlushCowboy.png|125px|link=Cowboy Plush]]\n|[[File:PatientZeroPlush.png|125px|link=Patient Zero Mini Plush]]\n|[[File:PyromancerPlush.png|125px|link=Pyromancer Plush]]\n|[[File:DJBoothFigurine.png|125px|link=DJ Booth Figurine]]\n|[[File:MechaBunnyandNerdDuckyMiniPlushIcon.png|125px|link=Mecha Bunny + Nerd Ducky Mini Plush]]\n|-\n!Name\n|[[Cowboy Plush]]\n|[[Patient Zero Mini Plush]]\n|[[Pyromancer Plush]]\n|[[DJ Booth Figurine]]\n|[[Mecha Bunny + Nerd Ducky Mini Plush]]\n|-\n!\n|[[File:MiniCommanderPlush.png|125px|link=Mini Commander Plush]]\n|[[File:MiniDJBoothPlush.png|125px|link=Mini DJ Booth Plush]]\n|[[File:MiniAcceleratorPlush.png|125px|link=Mini Accelerator Plush]]\n|[[File:NarratorMiniPlush.png|125px|link=Narrator Plush]]\n|-\n!Name\n|[[Mini Commander Plush]]\n|[[Mini DJ Booth Plush]]\n|[[Mini Accelerator Plush]]\n|[[Narrator Plush]]\n|}\n\n<span class=\"mainheader\">{{Color|FFF|Jazwares}}</span>\n\n{| class=\"light-table pad-5 align-center\" style=\"width:800px; text-align:center; margin:0 auto\"\n!\n|[[File:CorePackSoldierToy.png|125px|link=Roblox Core Pack - Tower Defense Simulator]]\n|[[File:MedicToy.png|125px|link=Roblox Mystery Figure - Cyber Medic]]\n|[[File:MinigunnerToy.png|125px|link=Roblox Mystery Figure - Minigunner]]\n|[[File:TemplarToy.png|125px|link=Roblox Mystery Figure - Templar]]\n|[[File:NecromancerBossToy.png|125px|link=Roblox Mystery Figure - Necromancer Boss]]\n|-\n!Name\n|[[Roblox Core Pack - Tower Defense Simulator|Core Pack (Soldier"
+    }
+  ],
+  "raw_wikitext_file": "tds_bridge/result.txt",
+  "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt"
 }
