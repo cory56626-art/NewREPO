@@ -1,21 +1,6 @@
 {
-  "mode": "verify",
-  "requested": "Daily Store",
-  "title": "Daily Store",
-  "pageid": 34013,
-  "latest_revid": 629175,
-  "latest_timestamp": "2026-08-27T13:38:08Z",
-  "source_url": "https://tds.fandom.com/wiki/Daily_Store",
-  "classification": {
-    "is_tower_page": false,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  }
+  "mode": "search",
+  "requested": "Ultimate",
+  "known_alias_target": null,
+  "selection_policy": "No fuzzy candidate is ever auto-selected."
 }
