@@ -7,7 +7,7 @@
       "infobox_or_summary"
     ]
   },
-  "description": "'''Merch Shop Skins''', previously '''Plushie Code Skins''', is a skin series which is obtained with a purchase of a specific [[Tower Defense Simulator Toys|plushie]]. Most '''Merch Shop Skins''' have a unique aesthetic appearance and follow a similar theme, though this is not always the case.\n\nOnly players in the United States of America can access the Merch Shop. Additionally, the player has to be over the age of 13 (18 in Texas). While the plushies can be bought at the [https://shop.paradoxum.games/ Paradoxum Games store], this does not come with any skins. At a certain point, these were gotten through codes instead, though this is no longer the case.\n\nPlayers cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate.\n\nAs of [[v2.4.0]], the Merch Shop no longer appears in the [[Main Lobby]] as it has been moved out of bounds into the sky.",
+  "description": "'''PVP''' is a gamemode where opponents must defend each other until one team wins. The enemies in '''PVP''' are based on various modes based on player rank, though instead of the goal of surviving to the final wave, players are meant to defeat their opponent by sending enemies at them. If the final wave is beaten, it will repeat indefinitely until one team loses. The health of enemies will also get boosted over time.\n\nThis mode can be played in Casual, which has no added restrictions, and in Ranked, where players from a team could ban up to two towers. In 1v1, each player can ban up to two towers each, which is reduced to one each in 2v2. This mode has three rank based difficulties:\n#Basic Arena, based around [[Casual Mode|Casual]] mode, where players range from Private I to Private III.\n#Molten Arena, based on [[Intermediate Mode|Intermediate]] and [[Molten Mode|Molten]] modes, where players range from Sergeant I to Lieutenant III.\n#Fallen Arena, based on [[Fallen Mode|Fallen]] mode, where players range from Major I to above rank.\n\nIf players span multiple difficulties (such as a Private I teaming with a Major I), then the highest ELO score amongst all players is used to determine the difficulty. In Casual, the arena is voted for at the beginning of the match.\n\nEach difficulty ends with the [[Champion Templar]] as the final boss. A player's rank goes up and down with triumphs and loses in Ranked matches, giving them rewards through the [[PVP Season 0]].\n\n'''PVP''' applies multiple restrictions to players. The most noticeable change is the player's loadout being reduced to four towers. Additionally, all exclusive categories and golden perks are prohibited. Another large change is consumables, as this mode has its own exclusive ones. Toggleable modifiers are also completely disabled here. To compensate, various towers receive statistical changes to either make them stronger, such as starter towers becoming far more viable or small adjustments to make towers perform against enemy hordes.\n\nEvery 8 seconds, players receive cash from an economy bonus. The economy bonus can be seen under the tower placement limit. It may be increased by sending enemies to the opponent, though not all enemies sent grant an economy boost. Additionally, {{Money|20}} is added to the bonus after each wave.\n\nIn 2v2 matches, a 20% health scale effect is applied, boosting the health of enemies. This is not present in 1v1.\n\nCash is only gained if an enemy is killed or, in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down. For example, the [[Hidden Boss]] gives {{Money|600}} when killed in 1v1 and {{Money|300}} in 2v2.\n\nLeaving '''PVP''' in the middle of the match applies a penalty to the player which prevents them from playing '''PVP''' for a specified duration. This duration increases depending on the amount of prior penalties you have received. In Ranked matches, there is an additional penalty of ELO loss. These penalties can be avoided if the player rejoins the match.",
   "upgrade_modes": {
     "regular": [],
     "pvp": []
@@ -34,25 +34,47 @@
   },
   "infoboxes": [
     {
-      "name": "SkinSeriesInfobox",
+      "name": "ModeInfobox",
       "params": {
-        "title1": "{{Color|Other|Merch Shop Skins}}",
-        "image1": "PlushieCommanderPI.jpg",
-        "rarities": "{{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}",
-        "skins": "14"
+        "title1": "<span style=\"  background: linear-gradient(to right, #2051b3 33%, white 33% 67%, red 67%); background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 0.09375em black)\">PVP</span>",
+        "image1": "<tabber>",
+        "Render": "[[File:SaboteurMatchmaking2026Render.png]]",
+        "Basic Arena": "[[File:BasicArena.png]]",
+        "Molten Arena": "[[File:MoltenArena.png]]",
+        "Fallen Arena": "[[File:FallenArena.png]]\n</tabber>",
+        "waves": "30<br/>31 (Infinite Wave)",
+        "level_requirement": "{{Level|25}}",
+        "starting_cash": "{{Money|600}}<br/>{{Money|700}} (Group Bonus)",
+        "rewards": "{{Coins|500}} & {{Exp|100}}"
       },
-      "positional": []
+      "positional": [
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     }
   ],
   "likely_infobox": {
-    "name": "SkinSeriesInfobox",
+    "name": "ModeInfobox",
     "params": {
-      "title1": "{{Color|Other|Merch Shop Skins}}",
-      "image1": "PlushieCommanderPI.jpg",
-      "rarities": "{{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}",
-      "skins": "14"
+      "title1": "<span style=\"  background: linear-gradient(to right, #2051b3 33%, white 33% 67%, red 67%); background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 0.09375em black)\">PVP</span>",
+      "image1": "<tabber>",
+      "Render": "[[File:SaboteurMatchmaking2026Render.png]]",
+      "Basic Arena": "[[File:BasicArena.png]]",
+      "Molten Arena": "[[File:MoltenArena.png]]",
+      "Fallen Arena": "[[File:FallenArena.png]]\n</tabber>",
+      "waves": "30<br/>31 (Infinite Wave)",
+      "level_requirement": "{{Level|25}}",
+      "starting_cash": "{{Money|600}}<br/>{{Money|700}} (Group Bonus)",
+      "rewards": "{{Coins|500}} & {{Exp|100}}"
     },
-    "positional": []
+    "positional": [
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
   },
-  "template_count": 53
+  "template_count": 629
 }

@@ -1,181 +1,1049 @@
-{{SkinSeriesInfobox
-|title1 = {{Color|Other|Merch Shop Skins}}
-|image1 = PlushieCommanderPI.jpg
-|rarities = {{Color|Exclusive}}<br/>{{Color|Event}}<br/>{{Color|Legendary}}<br/>{{Color|Ultimate}}
-|skins = 14
+{{For|other uses of [[PVP (Disambiguation)|PVP]] or [[Versus]]}}
+{{ModeInfobox
+|title1 = <span style="  background: linear-gradient(to right, #2051b3 33%, white 33% 67%, red 67%); background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 0.09375em black)">PVP</span>
+|image1 = <tabber>
+|-|Render = [[File:SaboteurMatchmaking2026Render.png]]
+|-|Basic Arena = [[File:BasicArena.png]]
+|-|Molten Arena = [[File:MoltenArena.png]]
+|-|Fallen Arena = [[File:FallenArena.png]]
+</tabber>
+|waves = 30<br/>31 (Infinite Wave)
+|level_requirement = {{Level|25}}
+|starting_cash = {{Money|600}}<br/>{{Money|700}} (Group Bonus)
+|rewards = {{Coins|500}} & {{Exp|100}}
 }}
 __TOC__
 ==Description==
-'''Merch Shop Skins''', previously '''Plushie Code Skins''', is a skin series which is obtained with a purchase of a specific [[Tower Defense Simulator Toys|plushie]]. Most '''Merch Shop Skins''' have a unique aesthetic appearance and follow a similar theme, though this is not always the case.
+'''PVP''' is a gamemode where opponents must defend each other until one team wins. The enemies in '''PVP''' are based on various modes based on player rank, though instead of the goal of surviving to the final wave, players are meant to defeat their opponent by sending enemies at them. If the final wave is beaten, it will repeat indefinitely until one team loses. The health of enemies will also get boosted over time.
 
-Only players in the United States of America can access the Merch Shop. Additionally, the player has to be over the age of 13 (18 in Texas). While the plushies can be bought at the [https://shop.paradoxum.games/ Paradoxum Games store], this does not come with any skins. At a certain point, these were gotten through codes instead, though this is no longer the case.
+This mode can be played in Casual, which has no added restrictions, and in Ranked, where players from a team could ban up to two towers. In 1v1, each player can ban up to two towers each, which is reduced to one each in 2v2. This mode has three rank based difficulties:
+#Basic Arena, based around [[Casual Mode|Casual]] mode, where players range from Private I to Private III.
+#Molten Arena, based on [[Intermediate Mode|Intermediate]] and [[Molten Mode|Molten]] modes, where players range from Sergeant I to Lieutenant III.
+#Fallen Arena, based on [[Fallen Mode|Fallen]] mode, where players range from Major I to above rank.
 
-Players cannot purchase these skins with any in-game currency, nor obtain them through any Skincrate.
+If players span multiple difficulties (such as a Private I teaming with a Major I), then the highest ELO score amongst all players is used to determine the difficulty. In Casual, the arena is voted for at the beginning of the match.
 
-As of [[v2.4.0]], the Merch Shop no longer appears in the [[Main Lobby]] as it has been moved out of bounds into the sky.
+Each difficulty ends with the [[Champion Templar]] as the final boss. A player's rank goes up and down with triumphs and loses in Ranked matches, giving them rewards through the [[PVP Season 0]].
 
-==Skins==
-{| class="light-table align-center pad-5" style="width:300px; margin:0 auto"
-!
-|[[File:PlCommanderIcon.png|175px]]
-|[[File:PlushieDJ.png|175px]]
-|[[File:PlushScout_0.png|175px]]
-|[[File:PlushieMinigunnerSkin.png|175px]]
+'''PVP''' applies multiple restrictions to players. The most noticeable change is the player's loadout being reduced to four towers. Additionally, all exclusive categories and golden perks are prohibited. Another large change is consumables, as this mode has its own exclusive ones. Toggleable modifiers are also completely disabled here. To compensate, various towers receive statistical changes to either make them stronger, such as starter towers becoming far more viable or small adjustments to make towers perform against enemy hordes.
+
+Every 8 seconds, players receive cash from an economy bonus. The economy bonus can be seen under the tower placement limit. It may be increased by sending enemies to the opponent, though not all enemies sent grant an economy boost. Additionally, {{Money|20}} is added to the bonus after each wave.
+
+In 2v2 matches, a 20% health scale effect is applied, boosting the health of enemies. This is not present in 1v1.
+
+Cash is only gained if an enemy is killed or, in some cases, damaged by a specific amount of health. Additionally, the amount gained is a set amount of cash, which is not always equal to the enemy's health. It uses a slightly different method of distributing cash between players, as enemies split their cash between players, regardless of how much damage the player dealt to it. If, in a duo, one player does all the damage to an enemy, both players will receive 50% of the cash the enemy would normally give in solo. This means that in solo, you receive 100% of the cash when an enemy is killed, or it is damaged enough. With each additional player, this is reduced to 50% in duo, 33% in trio and 25% in quad. If it is a decimal, it gets rounded up or down depending on the decimal value. If it is at least 0.5, it gets rounded up. If it is less than 0.5, it gets rounded down. For example, the [[Hidden Boss]] gives {{Money|600}} when killed in 1v1 and {{Money|300}} in 2v2.
+
+Leaving '''PVP''' in the middle of the match applies a penalty to the player which prevents them from playing '''PVP''' for a specified duration. This duration increases depending on the amount of prior penalties you have received. In Ranked matches, there is an additional penalty of ELO loss. These penalties can be avoided if the player rejoins the match.
+
+==Rewards==
+The game calculates how many {{Coins|Coins}} and {{Exp|}} you receive based on how many waves you survived and if you won a match. During periods of 100% more {{Exp|}} (Friday – Sunday), any {{Exp|}} earned is multiplied by 2x through the [[XP Boost]] modifier. The VIP [[Gamepasses|gamepass]] also multiplies any {{Exp|}} earned by 1.25x through the [[VIP Boost]] modifier. These two boosts are additive. Some maps like [[Mason Arch]] can also increase all rewards by a specific amount. Regular {{Exp|}} boosts are multiplicative with other modifiers.
+
+Any rewards that end in a decimal point is rounded down, no matter the first figure of the leading decimal.
+
+Currently, rewards are calculated as:
+{| class="tds-table pad-10" style="text-align: center; margin:1em auto"
+!Coins Reward
+!EXP Reward
 |-
-!Skin
-|{{Color|Other|Plushie}}
-|{{Color|Other|Plushie}}
-|{{Color|Other|Plushie}}
-|{{Color|Other|Plushie}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|-
-!Tower
-|[[Commander]]
-|[[DJ Booth]]
-|[[Scout]]
-|[[Minigunner]]
-|-
-!
-|[[File:PlushieAccelIcon.png|175px]]
-|[[File:UmbraCommanderIcon.png|175px]]
-|[[File:Plushie Engineer Icon.png|175px]]
-|[[File:PlushieTrapperIcon.png|175px]]
-|-
-!Skin
-|{{Color|Other|Plushie}}
-|{{Color|Other|Umbra}}
-|{{Color|Other|Plushie}}
-|{{Color|Other|Plushie}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|-
-!Tower
-|[[Accelerator]]
-|[[Commander]]
-|[[Engineer]]
-|[[Trapper]]
-|-
-!
-|[[File:GoldenPlushieMinigunnerIconIG.png|175px]]
-|[[File:PlushieCowboyIconIG.png|175px]]
-|[[File:PatientZeroAcceleratorIcon.png|175px]]
-|[[File:PlushiePyromancerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Other|Golden Plushie}}
-|{{Color|Other|Plushie}}
-|{{Color|Other|Patient Zero}}
-|{{Color|Other|Plushie}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|{{Color|Exclusive}}
-|-
-!Tower
-|[[Minigunner]]
-|[[Cowboy]]
-|[[Accelerator]]
-|[[Pyromancer]]
-|-
-!
-|[[File:MechaBunnyCowboyIconIG.png|175px]]
-|[[File:NarratorCrookBossIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Other|Mecha Bunny}}
-|{{Color|Other|Narrator}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Ultimate}}
-|-
-!Tower
-|[[Cowboy]]
-|[[Crook Boss]]
+|{{Coins|350}} ÷ (1 + [(31 ÷ Current Wave) - 1]^1.3) + {{Coins|150}} (Triumph Bonus)
+|{{Exp|100}} ÷ (1 + [(31 ÷ Current Wave) - 1])
 |}
 
-==Trivia==
-*{{Color|Other|Plushie}} skins have a similar aesthetic and animations.
-**They have a unique placement sound and visual effect in a cloud of dust and a squeak.
+Winning Ranked matches also gives players ELO points, which can be used to progress through [[PVP Seasons]]. Losing will instead remove ELO points from the player. Value gained and lost is always 50 ELO.
 
-==Update History==
-
-{{Scroll|text=
-*'''23 April 2022'''  - [[v1.2.1]]
-**'''Plushie Code Skins''' added with one skin:
-***[[Commander]]: {{Color|Other|Plushie}}
-*'''2 September 2022''' - [[v1.3.2]]
-**One new skin added:
-***[[Minigunner]]: {{Color|Other|Plushie}}
-*'''16 November 2022''' - [[v1.4.2|v1.4.2g]]
-**One new skin added:
-***[[DJ Booth]]: {{Color|Other|Plushie}}
-*'''21 December 2022''' - [[v1.6.0]]
-**Skin rarities added.
-*'''14 April 2023''' - [[V1.7.1]]
-**One new skin added:
-***[[Scout]]: {{Color|Other|Plushie}}
-*'''22 September 2023''' - [[v1.8.5]]
-**One new skin added:
-***[[Accelerator]]: {{Color|Other|Plushie}}
-*'''24 November 2023''' - [[v1.9.4]]
-**One new skin added:
-***[[Engineer]]: {{Color|Other|Plushie}}
-*'''28 October 2023''' - [[v1.9.0]]
-**One new skin added:
-***[[Commander]]: {{Color|Other|Umbra}}
-*'''3 May 2024''' - [[v1.20.0]]
-**One new skin added:
-***[[Trapper]]: {{Color|Other|Plushie}}
-*'''19 July 2024''' - [[v1.26.0]]
-**One new skin added:
-***[[Minigunner]]: {{Color|Other|Golden Plushie}}
-*'''4 September 2024''' - [[v1.30.0]]
-**One new skin added:
-***[[Cowboy]]: {{Color|Other|Plushie}}
-*'''25 September 2024''' - [[v1.33.0]]
-**One new skin added:
-***[[Accelerator]]: {{Color|Other|Patient Zero}}
-*'''27 November 2024''' - [[v1.43.0]]
-**One new skin added:
-***[[Pyromancer]]: {{Color|Other|Plushie}}
-*'''18 April 2025''' - [[v1.61.0|v1.61.6a]]
-**One new skin added:
-***[[Cowboy]]: {{Color|Other|Mecha Bunny}}
-*'''18 May 2025'''
-**'''Plushie Code Skins''' are no longer obtainable.
-*'''26 November 2025''' - [[v1.81.0]]
-**'''Plushie Code Skins''' are now obtainable through the Merch Shop.
-**{{Bug}} Merch Shop UI does not work.
-*'''26 November 2025''' - [[v1.81.0|v1.81.1b]]
-**Merch Shop removed from the lobby.
-*'''28 November 2025''' - [[v1.81.0|v1.81.2]]
-**Merch Shop re-added.
-**{{Bugfix}} Merch Shop UI now works.
-*'''28 November 2025''' - [[v1.81.0|v1.81.3]]
-**A notification now appears informing players that they are not eligible for the Merch Shop if they do not meet the requirements.
-*'''29 November 2025''' - [[v1.81.0|v1.81.4]]
-**Merch Shop removed from the [[Main Lobby]].
-*'''27 January 2026''' - [[v1.81.0|v1.81.11a]]
-**Merch Shop added to the [[Main Lobby]].
-*'''19 March 2025''' - [[v1.86.0|v1.86.4]]
-**One new skin added:
-***[[Crook Boss]]: {{Color|Other|Narrator}}
-*'''31 July 2026''' - [[v2.4.0]]
-**Merch Shop moved out of bounds.
+===Badges===
+There are [[badges]] that you can or could obtain when playing this mode. These are:
+{{Badge
+|title = Defeated The Champion Templar
+|image = DefeatedTheChampionTemplarBadge.png
+|obtainable = Yes
+}}
+{{Badge
+|title = First Ranked Match Win
+|image = FirstRankedMatchWinBadge.png
+|obtainable = Yes
+}}
+{{Badge
+|title = First Match Win
+|image = FirstMatchWinBadge.png
+|obtainable = Yes
 }}
 
+==Enemies==
+{{Tabber
+|Basic Arena
+|{{{!}} class{{=}}"empty-table pad-5 align-center" style{{=}}"width:80%; margin:0 auto"
+{{!}}[[File:NormalAnim1.png|center|150px|link=Normal]]
+{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]
+{{!}}[[File:SpeedyAnim2.png|center|150px|link=Speedy]]
+{{!}}[[File:SlowAnim1.png|center|150px|link=Slow]]
+{{!}}-
+{{!}}[[Normal]]<br/>Wave 1
+{{!}}[[Quick]]<br/>Wave 2
+{{!}}[[Speedy]]<br/>Wave 3 Send
+{{!}}[[Slow]]<br/>Wave 4
+{{!}}-
+{{!}}[[File:EasyModeNormalBoss.png|center|150px|link=Normal Boss]]
+{{!}}[[File:HiddenV5.png|center|150px|link=Hidden]]
+{{!}}[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
+{{!}}[[File:BreakerFallen.png|center|150px|link=Breaker]]
+{{!}}-
+{{!}}[[Normal Boss]]<br/>Wave 7
+{{!}}[[Hidden]]<br/>Wave 9
+{{!}}[[Breaker2]]<br/>Wave 11
+{{!}}[[Breaker]]<br/>N/A<ref name="breaker2">Does not appear naturally, can only be spawned by the [[Breaker2]].</ref>
+{{!}}-
+{{!}}[[File:NecromancerModern.png|center|150px|link=Necromancer (Modern Enemy)]]
+{{!}}[[File:Skeletonlunar.png|center|150px|link=Skeleton]]
+{{!}}[[File:Armored.png|center|150px|link=Armored]]
+{{!}}[[File:HazmatAnim1.png|center|150px|link=Hazmat]]
+{{!}}-
+{{!}}[[Necromancer (Modern Enemy)|Necromancer]]<br/>Wave 13
+{{!}}[[Skeleton]]<br/>N/A<ref name="necromancer">Does not appear naturally, can only be spawned by the [[Necromancer (Modern Enemy)|Necromancer]].</ref>
+{{!}}[[Armored]]<br/>Wave 14
+{{!}}[[Hazmat]]<br/>Wave 15 Send
+{{!}}-
+{{!}}[[File:EasySlowBoss2.png|center|150px|link=Slow Boss]]
+{{!}}[[File:HiddenBossV5.png|center|150px|link=Hidden Boss]]
+{{!}}[[File:Enraged.png|center|150px|link=Enraged]]
+{{!}}[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
+{{!}}-
+{{!}}[[Slow Boss]]<br/>Wave 16
+{{!}}[[Hidden Boss]]<br/>Wave 17
+{{!}}[[Enraged]]<br/>Wave 19
+{{!}}[[Breaker4]]<br/>Wave 23
+{{!}}-
+{{!}}[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
+{{!}}[[File:SpeedyBossNew.png|center|150px|link=Speedy Boss]]
+{{!}}[[File:Dummy Boss.png|center|150px|link=Brute]]
+{{!}}[[File:{{#choose:BlueChampionTemplar.png|RedChampionTemplar.png}}|center|150px|link=Champion Templar]]
+{{!}}-
+{{!}}[[Breaker3]]<br/>N/A<ref name="breaker4">Does not appear naturally, can only be spawned by the [[Breaker4]].</ref>
+{{!}}[[Speedy Boss]]<br/>Wave 26 Send
+{{!}}[[Brute]]<br/>Wave 30 Send
+{{!}}[[Champion Templar]]<br/>Wave 30
+{{!}}}
+|Molten Arena
+|{{{!}} class{{=}}"empty-table pad-5 align-center" style{{=}}"width:80%; margin:0 auto"
+{{!}}[[File:NormalAnim1.png|center|150px|link=Normal]]
+{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]
+{{!}}[[File:SpeedyAnim2.png|center|150px|link=Speedy]]
+{{!}}[[File:SlowAnim1.png|center|150px|link=Slow]]
+{{!}}-
+{{!}}[[Normal]]<br/>Wave 1
+{{!}}[[Quick]]<br/>Wave 2
+{{!}}[[Speedy]]<br/>Wave 3 Send
+{{!}}[[Slow]]<br/>Wave 4
+{{!}}-
+{{!}}[[File:EliteAbnormal.png|center|150px|link=Elite Abnormal]]
+{{!}}[[File:HiddenV5.png|center|150px|link=Hidden]]
+{{!}}[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
+{{!}}[[File:BreakerFallen.png|center|150px|link=Breaker]]
+{{!}}-
+{{!}}[[Elite Abnormal]]<br/>Wave 7
+{{!}}[[Hidden]]<br/>Wave 9
+{{!}}[[Breaker2]]<br/>Wave 10
+{{!}}[[Breaker]]<br/>N/A<ref name="breaker2"/>
+{{!}}-
+{{!}}[[File:Enraged.png|center|150px|link=Enraged]]
+{{!}}[[File:Armored.png|center|150px|link=Armored]]
+{{!}}[[File:MoltenV4Anim1.png|center|150px|link=Molten]]
+{{!}}[[File:Reaver.png|center|150px|link=Reaver]]
+{{!}}-
+{{!}}[[Enraged]]<br/>Wave 11
+{{!}}[[Armored]]<br/>Wave 11
+{{!}}[[Molten]]<br/>Wave 12 Send
+{{!}}[[Reaver]]<br/>Wave 14
+{{!}}-
+{{!}}[[File:NecromancerModern.png|center|150px|link=Necromancer]]
+{{!}}[[File:Skeletonlunar.png|center|150px|link=Skeleton]]
+{{!}}[[File:EliteHazmatWalk1.png|center|150px|link=Molten Hazmat]]
+{{!}}[[File:LivingExperiment.png|center|150px|link=Living Experiment]]
+{{!}}-
+{{!}}[[Necromancer]]<br/>Wave 14
+{{!}}[[Skeleton]]<br/>N/A<ref name="necromancer"/>
+{{!}}[[Molten Hazmat]]<br/>Wave 15 Send
+{{!}}[[Living Experiment]]<br/>Wave 16
+{{!}}-
+{{!}}[[File:HazmatAnim1.png|center|150px|link=Hazmat]]
+{{!}}[[File:HiddenBossV5.png|center|150px|link=Hidden Boss]]
+{{!}}[[File:MoltenMech.png|center|150px|link=Molten Mech]]
+{{!}}[[File:MoltenNecromancer.png|center|150px|link=Molten Necromancer]]
+{{!}}-
+{{!}}[[Hazmat]]<br/>Wave 17
+{{!}}[[Hidden Boss]]<br/>Wave 20
+{{!}}[[Molten Mech]]<br/>Wave 20
+{{!}}[[Molten Necromancer]]<br/>Wave 20 Send
+{{!}}-
+{{!}}[[File:MoltenDemon.png|center|150px|link=Molten Demon]]
+{{!}}[[File:MoltenGolem.png|center|150px|link=Molten Golem]]
+{{!}}[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
+{{!}}[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
+{{!}}-
+{{!}}[[Molten Demon]]<br/>N/A<ref>Does not appear naturally, it can only be spawned by the [[Molten Necromancer]].</ref>
+{{!}}[[Molten Golem]]<br/>Wave 22 Send
+{{!}}[[Breaker4]]<br/>Wave 24
+{{!}}[[Breaker3]]<br/>N/A<ref name="breaker4"/>
+{{!}}-
+{{!}}[[File:FailedExperiment.png|center|150px|link=Failed Experiment]]
+{{!}}[[File:SlimeModern.png|center|150px|link=Slime]]
+{{!}}[[File:NewMoltenTitan2.png|center|150px|link=Molten Titan]]
+{{!}}[[File:CorpseEnemy.png|center|150px|link=Corpse (Enemy)]]
+{{!}}-
+{{!}}[[Failed Experiment]]<br/>Wave 24 Send
+{{!}}[[Slime]]<br/>N/A<ref>Does not appear naturally, can only be spawned by the [[Failed Experiment]] and [[Patient Zero]].</ref>
+{{!}}[[Molten Titan]]<br/>Wave 26 Send
+{{!}}[[Corpse (Enemy)|Corpse]]<br/>N/A
+{{!}}-
+{{!}}[[File:{{#choose:BlueChampionTemplar.png|RedChampionTemplar.png}}|center|150px|link=Champion Templar]]
+{{!}}-
+{{!}}[[Champion Templar]]<br/>Wave 30
+{{!}}}
+|Fallen Arena
+|{{{!}} class{{=}}"empty-table pad-5 align-center" style{{=}}"width:80%; margin:0 auto"
+{{!}}[[File:AbnormalFallen.png|center|150px|link=Abnormal]]
+{{!}}[[File:QuickFallen.png|center|150px|link=Quick]]
+{{!}}[[File:HeavyFallen.png|center|150px|link=Heavy]]
+{{!}}[[File:FallenSquire.png|center|150px|link=Fallen Squire]]
+{{!}}-
+{{!}}[[Abnormal]]<br/>Wave 1
+{{!}}[[Quick]]<br/>Wave 2
+{{!}}[[Heavy]]<br/>Wave 5
+{{!}}[[Fallen Squire]]<br/>Wave 7
+{{!}}-
+{{!}}[[File:FallenSoulRework.png|center|150px|link=Fallen Soul]]
+{{!}}[[File:Fallen hazmat.png|center|150px|link=Fallen Hazmat]]
+{{!}}[[File:FallenEnemyRework.png|center|150px|link=Fallen]]
+{{!}}[[File:Fallen giant.png|center|150px|link=Fallen Giant]]
+{{!}}-
+{{!}}[[Fallen Soul]]<br/>Wave 9
+{{!}}[[Fallen Hazmat]]<br/>Wave 11
+{{!}}[[Fallen]]<br/>Wave 14
+{{!}}[[Fallen Giant]]<br/>Wave 15
+{{!}}-
+{{!}}[[File:Breaker2Fallen.png|center|150px|link=Breaker2]]
+{{!}}[[File:BreakerFallen.png|center|150px|link=Breaker]]
+{{!}}[[File:FallenNecromancer.png|center|150px|link=Fallen Necromancer]]
+{{!}}[[File:FallenSkeletonEnemy.png|center|150px|link=Fallen Skeleton]]
+{{!}}-
+{{!}}[[Breaker2]]<br/>Wave 16
+{{!}}[[Breaker]]<br/>N/A<ref name="breaker2"/>
+{{!}}[[Fallen Necromancer]]<br/>Wave 17
+{{!}}[[Fallen Skeleton]]<br/>N/A<ref>Does not appear naturally, can only be summoned by the [[Fallen Necromancer]].</ref>
+{{!}}-
+{{!}}[[File:Possesed armor.png|center|150px|link=Possessed Armor]]
+{{!}}[[File:FallenHeroRework.png|center|150px|link=Fallen Hero]]
+{{!}}[[File:FallenTank.png|center|150px|link=Fallen Tank]]
+{{!}}[[File:FallenShield.png|center|150px|link=Fallen Shield]]
+{{!}}-
+{{!}}[[Possessed Armor]]<br/>Wave 18
+{{!}}[[Fallen Hero]]<br/>Wave 20
+{{!}}[[Fallen Tank]]<br/>Wave 23
+{{!}}[[Fallen Shield]]<br/>Wave 25
+{{!}}-
+{{!}}[[File:ModernFallenGuardian.png|center|150px|link=Fallen Guardian]]
+{{!}}[[File:Breaker4Fallen.png|center|150px|link=Breaker4]]
+{{!}}[[File:Breaker3Fallen.png|center|150px|link=Breaker3]]
+{{!}}[[File:{{#choose:BlueChampionTemplar.png|RedChampionTemplar.png}}|center|150px|link=Champion Templar]]
+{{!}}-
+{{!}}[[Fallen Guardian]]<br/>Wave 27
+{{!}}[[Breaker4]]<br/>Wave 30
+{{!}}[[Breaker3]]<br/>N/A<ref name="breaker4"/>
+{{!}}[[Champion Templar]]<br/>Wave 30
+{{!}}}
+}}
+
+==Sends==
+Only up to ten enemy groups could be in the enemy queue.
+
+The number of enemies that were sent would be increased through the waves. The ones listed are the lowest and highest.<!-- For the changes, see the send changes table below this one.-->
+{{Tabber
+|Basic Arena
+|{{{!}} class{{=}}"sortable article-table pad-td-5 align-center" style{{=}}"margin:0 auto 10px; width: 100%;"
+!Enemy Group
+!Wave Unlock
+!Send Cost
+!Economy Bonus
+!Send Number
+!Spawn Timer
+!Stat Changes
+{{!}}-
+{{!}}[[Normal]]
+{{!}}2
+{{!}}{{Money|45}}
+{{!}}{{Money|3}}
+{{!}}3-5
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Speedy]]
+{{!}}3
+{{!}}{{Money|65}}
+{{!}}{{Money|4}}
+{{!}}2-3
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Slow]]
+{{!}}5
+{{!}}{{Money|75}}
+{{!}}{{Money|5}}
+{{!}}3-5
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Hidden]]
+{{!}}8
+{{!}}{{Money|100}}
+{{!}}{{Money|8}}
+{{!}}2-3
+{{!}}0.8
+{{!}}None
+{{!}}-
+{{!}}[[Breaker2]]
+{{!}}10
+{{!}}{{Money|120}}
+{{!}}{{Money|10}}
+{{!}}2-3
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Normal Boss]]
+{{!}}12
+{{!}}{{Money|150}}
+{{!}}{{Money|12}}
+{{!}}1
+{{!}}2
+{{!}}None
+{{!}}-
+{{!}}[[Hazmat]]
+{{!}}15
+{{!}}{{Money|210}}
+{{!}}{{Money|15}}
+{{!}}2-3
+{{!}}1
+{{!}}None
+{{!}}-
+{{!}}[[Necromancer (Modern Enemy)|Necromancer]]
+{{!}}18
+{{!}}{{Money|260}}
+{{!}}{{Money|0}}
+{{!}}1
+{{!}}1.5
+{{!}}500 Health
+{{!}}-
+{{!}}[[Hidden Boss]]
+{{!}}20
+{{!}}{{Money|480}}
+{{!}}{{Money|0}}
+{{!}}1
+{{!}}3
+{{!}}750 Health
+{{!}}-
+{{!}}[[Slow Boss]]
+{{!}}23
+{{!}}{{Money|750}}
+{{!}}{{Money|-10}}
+{{!}}1
+{{!}}2
+{{!}}2,800 Health<ref>Due to bugs, this health change is not applied. Instead, the [[Slow Boss]] will use its default health value used for natural spawns, that being 1,600 health.</ref>
+{{!}}-
+{{!}}[[Speedy Boss]]
+{{!}}26
+{{!}}{{Money|3,000}}
+{{!}}{{Money|-25}}
+{{!}}1
+{{!}}4
+{{!}}4,000 Health
+{{!}}-
+{{!}}[[Brute]]
+{{!}}30
+{{!}}{{Money|6,000}}
+{{!}}{{Money|-50}}
+{{!}}1
+{{!}}5
+{{!}}10,000 Health
+{{!}}}
+|Molten Arena
+|{{{!}} class{{=}}"sortable article-table pad-td-5 align-center" style{{=}}"margin:0 auto 10px; width: 100%;"
+!Enemy Group
+!Wave Unlock
+!Send Cost
+!Economy Bonus
+!Send Number
+!Spawn Timer
+!Stat Changes
+{{!}}-
+{{!}}[[Normal]]
+{{!}}2
+{{!}}{{Money|50}}
+{{!}}{{Money|4}}
+{{!}}3-5
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Speedy]]
+{{!}}3
+{{!}}{{Money|65}}
+{{!}}{{Money|5}}
+{{!}}2-3
+{{!}}1
+{{!}}None
+{{!}}-
+{{!}}[[Slow]]
+{{!}}5
+{{!}}{{Money|90}}
+{{!}}{{Money|8}}
+{{!}}3-5
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Hidden]]
+{{!}}8
+{{!}}{{Money|105}}
+{{!}}{{Money|10}}
+{{!}}2-3
+{{!}}0.8
+{{!}}None
+{{!}}-
+{{!}}[[Elite Abnormal]]
+{{!}}10
+{{!}}{{Money|200}}
+{{!}}{{Money|15}}
+{{!}}1
+{{!}}2
+{{!}}120 Health
+{{!}}-
+{{!}}[[Molten]]
+{{!}}12
+{{!}}{{Money|210}}
+{{!}}{{Money|12}}
+{{!}}1
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Molten Hazmat]]
+{{!}}15
+{{!}}{{Money|300}}
+{{!}}{{Money|20}}
+{{!}}1
+{{!}}1.4
+{{!}}300 Health
+{{!}}-
+{{!}}[[Reaver]]
+{{!}}18
+{{!}}{{Money|600}}
+{{!}}{{Money|0}}
+{{!}}1
+{{!}}1.75
+{{!}}1,000 Health
+{{!}}-
+{{!}}[[Molten Necromancer]]
+{{!}}20
+{{!}}{{Money|800}}
+{{!}}{{Money|0}}
+{{!}}1
+{{!}}3
+{{!}}2,000 Health
+{{!}}-
+{{!}}[[Molten Golem]]
+{{!}}22
+{{!}}{{Money|1,000}}
+{{!}}{{Money|-25}}
+{{!}}1
+{{!}}4
+{{!}}3,000 Health
+{{!}}-
+{{!}}[[Failed Experiment]]
+{{!}}24
+{{!}}{{Money|2,000}}
+{{!}}{{Money|-60}}
+{{!}}1
+{{!}}5
+{{!}}5,000 Health
+{{!}}-
+{{!}}[[Molten Titan]]
+{{!}}26
+{{!}}{{Money|4,000}}
+{{!}}{{Money|-150}}
+{{!}}1
+{{!}}7
+{{!}}6,000 Health, [[Health Regen]]
+{{!}}}
+|Fallen Arena
+|{{{!}} class{{=}}"sortable article-table pad-td-5 align-center" style{{=}}"margin:0 auto 10px; width: 100%;"
+!Enemy Group
+!Wave Unlock
+!Send Cost
+!Economy Bonus
+!Send Number
+!Spawn Timer
+!Stat Changes
+{{!}}-
+{{!}}[[Abnormal]]
+{{!}}2
+{{!}}{{Money|50}}
+{{!}}{{Money|4}}
+{{!}}3-5
+{{!}}1.2
+{{!}}None
+{{!}}-
+{{!}}[[Quick]]
+{{!}}3
+{{!}}{{Money|65}}
+{{!}}{{Money|5}}
+{{!}}2-3
+{{!}}1
+{{!}}None
+{{!}}-
+{{!}}[[Heavy]]
+{{!}}5
+{{!}}{{Money|90}}
+{{!}}{{Money|8}}
+{{!}}2-3
+{{!}}1.6
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Soul]]
+{{!}}9
+{{!}}{{Money|150}}
+{{!}}{{Money|10}}
+{{!}}1
+{{!}}1.5
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Hazmat]]
+{{!}}11
+{{!}}{{Money|250}}
+{{!}}{{Money|16}}
+{{!}}1
+{{!}}1.4
+{{!}}None
+{{!}}-
+{{!}}[[Fallen]]
+{{!}}14
+{{!}}{{Money|350}}
+{{!}}{{Money|20}}
+{{!}}1
+{{!}}2
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Necromancer]]
+{{!}}17
+{{!}}{{Money|1,650}}
+{{!}}{{Money|0}}
+{{!}}1
+{{!}}5
+{{!}}None
+{{!}}-
+{{!}}[[Possessed Armor]]
+{{!}}18
+{{!}}{{Money|1,000}}
+{{!}}{{Money|20}}
+{{!}}2-3
+{{!}}3
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Hero]]
+{{!}}20
+{{!}}{{Money|1,250}}
+{{!}}{{Money|5}}
+{{!}}1
+{{!}}3
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Tank]]
+{{!}}23
+{{!}}{{Money|1,500}}
+{{!}}{{Money|-10}}
+{{!}}1
+{{!}}5
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Shield]]
+{{!}}26
+{{!}}{{Money|5,000}}
+{{!}}{{Money|-40}}
+{{!}}1
+{{!}}7
+{{!}}None
+{{!}}-
+{{!}}[[Fallen Guardian]]
+{{!}}27
+{{!}}{{Money|5,000}}
+{{!}}{{Money|-75}}
+{{!}}1
+{{!}}7.5
+{{!}}None
+{{!}}}
+}}
+
+==Wave Structure==
+The waves in '''PVP''' mode followed these timings:
+{| class="wikitable pad-10 align-center" style="width:50%; margin:0 auto"
+!Waves
+!Wave Timer
+|-
+|1-30
+|0:40
+|-
+|31
+|∞
+|}
+
+'''Bolded''' names indicate an enemy type's debut.
+
+If the players reach Wave 31, it repeats infinitely until one team has lost.
+
+<div class="mw-collapsible mw-collapsed"><div class="sectionheader">'''Basic Arena Wave Structure'''</div>
+<div class="ContainerColumn mw-collapsible-content">
+{| class="wikitable pad-10" style="width:100%; margin: 0 auto; text-align: center;"
+!Wave 
+!Enemy Type & Amount
+|-
+|1
+|4x '''[[Normal]]'''
+|-
+|2
+|2x '''[[Quick]]''', 6x [[Normal]]
+|-
+|3
+|10x [[Normal]], 6x [[Quick]]
+|-
+|4
+|3x '''[[Slow]]''', 10x [[Normal]], 5x [[Quick]]
+|-
+|5
+|8x [[Slow]], 15x [[Normal]], 10x [[Quick]]
+|-
+|6
+|10x [[Slow]], 20x [[Normal]], 8x [[Quick]]
+|-
+|7
+|8x [[Slow]], 1x '''[[Normal Boss]]'''
+|-
+|8
+|10x [[Normal]], 10x [[Slow]], 1x [[Normal Boss]], 5x [[Quick]]
+|-
+|9
+|10x [[Normal]] ([[Bloated]]), 8x '''[[Hidden]]''', 5x [[Quick]]
+|-
+|10
+|5x [[Slow]], 2x [[Normal Boss]], 20x [[Quick]] ([[Bloated]])
+|-
+|11
+|10x '''[[Breaker2]]''' ([[Nimble]]), 10x [[Hidden]]
+|-
+|12
+|12x [[Slow]], 10x [[Breaker2]], 10x [[Quick]] ([[Bloated]])
+|-
+|13
+|4x [[Hidden]] ([[Nimble]]), 5x [[Breaker2]], 4x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]], 4x [[Quick]] ([[Bloated]]), 1x '''[[Necromancer (Modern Enemy)|Necromancer]]'''
+|-
+|14
+|10x '''[[Armored]]''', 2x [[Normal Boss]], 8x [[Breaker2]], 15x [[Speedy]] ([[Bloated]], [[Nimble]])
+|-
+|15
+|3x [[Breaker2]] ([[Nimble]]), 4x [[Hidden]] ([[Bloated]]), 3x [[Breaker2]] ([[Nimble]]), 8x [[Slow]] ([[Bloated]]), 3x [[Armored]], 4x [[Normal Boss]], 1x [[Necromancer (Modern Enemy)|Necromancer]]
+|-
+|16
+|7x [[Breaker2]] ([[Nimble]]), 8x [[Hidden]] ([[Bloated]]), 6x [[Slow]] ([[Bloated]]), 2x [[Normal Boss]] ([[Bloated]]), 1x '''[[Slow Boss]]'''
+|-
+|17
+|15x [[Armored]] ([[Nimble]]),  10x [[Breaker2]], 1x '''[[Hidden Boss]]''', 10x [[Hidden]] ([[Bloated]])
+|-
+|18
+|10x [[Slow]] ([[Bloated]]), 12x [[Armored]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 8x [[Breaker2]]
+|-
+|19
+|10x '''[[Enraged]]''', 15x [[Armored]] ([[Bloated]])
+|-
+|20
+|1x [[Hidden Boss]], 10x [[Breaker2]] ([[Nimble]]), 5x [[Enraged]], 1x [[Hidden Boss]], 2x [[Slow Boss]], 2x [[Necromancer (Modern Enemy)|Necromancer]]
+|-
+|21
+|4x [[Slow]] ([[Tank (Attribute)|Tank]]), 7x [[Armored]], 4x [[Hidden]] ([[Bloated]]), 3x [[Normal Boss]] ([[Bloated]]), 1x [[Hidden Boss]], 5x [[Enraged]], 5x [[Breaker2]] ([[Nimble]]), 1x [[Slow Boss]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
+|-
+|22
+|1x [[Slow Boss]] ([[Bloated]]), 1x [[Hidden Boss]], 10x [[Enraged]], 8x [[Armored]], 2x [[Necromancer (Modern Enemy)|Necromancer]]
+|-
+|23
+|3x [[Hidden Boss]], 10x [[Breaker2]] ([[Bloated]], [[Nimble]]), 8x [[Enraged]] ([[Bloated]]), 3x '''[[Breaker4]]'''
+|-
+|24
+|1x [[Slow Boss]], 5x [[Normal Boss]] ([[Bloated]]), 10x [[Enraged]] ([[Bloated]]), 4x [[Breaker4]], 1x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 1x [[Hidden Boss]]
+|-
+|25
+|1x [[Hidden Boss]], 10x [[Enraged]] ([[Bloated]]), 4x [[Breaker4]], 1x [[Slow Boss]] ([[Bloated]]), 6x [[Normal Boss]] ([[Bloated]], [[Nimble]]), 1x [[Hidden Boss]], 10x [[Enraged]] ([[Bloated]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
+|-
+|26
+|35x [[Armored]] ([[Bloated]]), 6x [[Normal Boss]] ([[Bloated]]), 1x [[Slow Boss]] ([[Bloated]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 12x [[Breaker2]] ([[Bloated]]), 5x [[Breaker4]]
+|-
+|27
+|2x [[Slow Boss]] ([[Bloated]]), 1x [[Hidden Boss]], 10x [[Hidden]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 5x [[Breaker2]] ([[Nimble]]), 1x [[Hidden Boss]], 10x [[Hidden]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 5x [[Breaker2]] ([[Nimble]]), 1x [[Hidden Boss]], 10x [[Hidden]] ([[Bloated]], [[Nimble]])
+|-
+|28
+|1x [[Slow Boss]] ([[Nimble]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 8x [[Enraged]] ([[Bloated]]), 4x [[Quick]] ([[Bloated]], [[Tank (Attribute)|Tank]]), 1x [[Slow Boss]] ([[Nimble]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 8x [[Enraged]] ([[Bloated]]), 4x [[Quick]] ([[Tank (Attribute)|Tank]]), 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
+|-
+|29
+|35x [[Quick]] ([[Tank (Attribute)|Tank]], [[Bloated]]), 1x [[Slow Boss]] ([[Bloated]], [[Nimble]]), 10x [[Armored]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 10x [[Armored]] ([[Bloated]], [[Nimble]]), 2x [[Breaker4]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
+|-
+|30
+|35x [[Armored]] ([[Bloated]]), 6x [[Normal Boss]] ([[Bloated]], [[Nimble]]), 3x [[Slow Boss]] ([[Bloated]]), 12x [[Breaker2]] ([[Nimble]]), 3x [[Breaker4]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 1x '''[[Champion Templar]]'''
+|-
+! colspan="2" |Lose Dialogue
+|-
+|[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
+|One icon and dialogue is randomly chosen upon defeat:
+•We're toast!<br />•OOF!<br />•Mission Failed, we'll get em' next time.<br />•Not enough numbers!<br />•Mistakes are just part of the journey..<br />•We're overrun chief!<br />•We'll get them next time!<br />•Don't give up!<br />•We need back up sergeant!<br />•We just had our grave dug..<br />•We have to fall back soldier!<br />•Oops! Try again!<br />•The enemies got to the base!<br />•Strategy is key!
+|}
+</div>
+</div>
+----
+<div class="mw-collapsible mw-collapsed">
+<div class="sectionheader">'''Molten Arena Wave Structure'''</div>
+<div class="ContainerColumn mw-collapsible-content">
+{| class="wikitable" style="width:100%; margin: 0 auto; text-align: center;"
+!Wave 
+!Enemy Type & Amount
+|-
+|1
+|5x '''[[Normal]]'''
+|-
+|2
+|3x '''[[Quick]]''', 7x [[Normal]]
+|-
+|3
+|10x [[Quick]], 8x [[Abnormal]]
+|-
+|4
+|6x '''[[Slow]]''', 8x [[Normal]], 5x [[Quick]]
+|-
+|5
+|4x [[Slow]], 15x [[Normal]] ([[Bloated]]), 4x [[Slow]]
+|-
+|6
+|10x [[Slow]], 12x [[Quick]] ([[Bloated]])
+|-
+|7
+|8x [[Normal]] ([[Bloated]]), 1x '''[[Elite Abnormal]]''', 8x [[Quick]]
+|-
+|8
+|12x [[Quick]], 5x [[Slow]] ([[Bloated]]), 1x [[Elite Abnormal]]
+|-
+|9
+|4x '''[[Hidden]]''', 10x [[Slow]], 2x [[Elite Abnormal]], 5x [[Quick]] ([[Bloated]])
+|-
+|10
+|10x [[Hidden]], 2x [[Elite Abnormal]], 2x '''[[Breaker2]]''', 8x [[Quick]] ([[Nimble]])
+|-
+|11
+|4x [[Breaker2]], 5x '''[[Enraged]]''', 5x '''[[Armored]]''', 3x [[Elite Abnormal]]
+|-
+|12
+|5x [[Breaker2]], 1x [[Elite Abnormal]] ([[Bloated]]), 8x [[Armored]], 1x [[Elite Abnormal]] ([[Bloated]]), 7x [[Enraged]]
+|-
+|13
+|6x [[Breaker2]], 8x [[Hidden]], 6x [[Armored]], 2x [[Elite Abnormal]] ([[Bloated]]), 4x [[Enraged]] ([[Nimble]])
+|-
+|14
+|2x '''[[Reaver]]''', 8x [[Breaker2]] ([[Nimble]]), 6x [[Armored]], 1x '''[[Necromancer (Modern Enemy)|Necromancer]]''', 10x [[Enraged]], 2x [[Elite Abnormal]] ([[Bloated]])
+|-
+|15
+|10x [[Enraged]], 4x [[Reaver]], 10x [[Armored]], 1x [[Necromancer (Modern Enemy)|Necromancer]], 8x [[Breaker2]] ([[Nimble]])
+|-
+|16
+|25x [[Slow]] ([[Health Regen]]), 10x [[Armored]] ([[Bloated]]), 1x '''[[Living Experiment]]'''
+|-
+|17
+|15x [[Hidden]] ([[Bloated]]), 5x [[Reaver]], 10x [[Armored]] ([[Bloated]]), 4x [[Breaker2]] ([[Nimble]]), 5x '''[[Hazmat]]''', 2x [[Necromancer (Modern Enemy)|Necromancer]]
+|-
+|18
+|15 [[Armored]] ([[Bloated]]), 6x [[Reaver]], 10x [[Enraged]] ([[Bloated]]), 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]]), 5x [[Hazmat]]
+|-
+|19
+|10x [[Breaker2]] ([[Nimble]]), 1x [[Living Experiment]], 5x [[Hazmat]], 4x [[Reaver]] ([[Bloated]]), 10x [[Armored]] ([[Bloated]]), 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
+|-
+|20
+|10x [[Enraged]] ([[Bloated]]), 4x [[Hazmat]], 3x '''[[Hidden Boss]]''', 6x [[Hazmat]], 1x '''[[Molten Mech]]''', 4x [[Elite Abnormal]] ([[Bloated]], [[Nimble]])
+|-
+|21
+|3x [[Hidden Boss]], 20x [[Armored]] ([[Bloated]], [[Health Regen]]), 15x [[Breaker2]] ([[Nimble]]), 8x [[Hazmat]], 1x [[Living Experiment]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Health Regen]])
+|-
+|22
+|1x [[Hidden Boss]], 25x [[Armored]] ([[Bloated]]), 7x [[Elite Abnormal]] ([[Bloated]]), 2x [[Hidden Boss]], 1x [[Living Experiment]], 3x [[Reaver]] ([[Bloated]]), 1x [[Molten Mech]]
+|-
+|23
+|20x [[Hazmat]], 3x [[Hidden Boss]] ([[Bloated]]), 1x [[Molten Mech]], 1x [[Living Experiment]] ([[Bloated]]), 4x [[Reaver]] ([[Bloated]]), 10x [[Enraged]] ([[Bloated]])
+|-
+|24
+|15x [[Enraged]] ([[Nimble]], [[Bloated]]), 10x [[Reaver]] ([[Bloated]]), 5x [[Elite Abnormal]] ([[Bloated]]), 5x [[Breaker4]], 10x [[Hazmat]], 1x [[Molten Mech]]
+|-
+|25
+|2x [[Molten Mech]], 3x [[Hidden Boss]] ([[Bloated]]), 5x [[Elite Abnormal]] ([[Bloated]]), 4x [[Reaver]] ([[Bloated]]), 25x [[Armored]] ([[Bloated]]), 2x [[Living Experiment]] ([[Health Regen]])
+|-
+|26
+|2x [[Hidden Boss]] ([[Bloated]]), 3x [[Living Experiment]] ([[Health Regen]]), 1x [[Molten Mech]], 2x [[Hidden Boss]] ([[Bloated]]), 15x [[Armored]] ([[Bloated]]), 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Bloated]])
+|-
+|27
+|8x [[Reaver]] ([[Nimble]]), 12x [[Elite Abnormal]] ([[Bloated]]), 1x [[Living Experiment]] ([[Health Regen]]), 10x [[Breaker4]], 1x [[Living Experiment]] ([[Health Regen]]), 15x [[Breaker2]] ([[Nimble]]), 2x [[Molten Mech]]
+|-
+|28
+|6x [[Reaver]], 10x [[Elite Abnormal]] ([[Bloated]]), 3x [[Living Experiment]] ([[Health Regen]]), 6x [[Breaker4]], 2x [[Necromancer (Modern Enemy)|Necromancer]] ([[Health Regen]], [[Bloated]]), 4x [[Hidden Boss]] ([[Bloated]])
+|-
+|29
+|1x [[Molten Mech]], 4x [[Living Experiment]] ([[Health Regen]]), 25x [[Enraged]] ([[Bloated]]), 8x [[Breaker4]], 1x [[Molten Mech]], 3x [[Necromancer (Modern Enemy)|Necromancer]] ([[Health Regen]], [[Bloated]]), 10x [[Breaker2]] ([[Nimble]])
+|-
+|30
+|10x [[Elite Abnormal]] ([[Bloated]]), 2x [[Molten Mech]], 1x '''[[Champion Templar]]''', 2x [[Reaver]] ([[Bloated]]), 1x [[Living Experiment]], 2x [[Reaver]] ([[Bloated]]), 1x [[Living Experiment]], 2x [[Reaver]] ([[Bloated]]), 1x [[Living Experiment]]
+|-
+! colspan="2" |Lose Dialogue
+|-
+|[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
+|One icon and dialogue is randomly chosen upon defeat:
+•We're toast!<br/>•OOF!<br/>•Mission Failed, we'll get em' next time.<br/>•Not enough numbers!<br/>•Mistakes are just part of the journey..<br/>•We're overrun chief!<br/>•We'll get them next time!<br/>•Don't give up!<br/>•We need back up sergeant!<br/>•We just had our grave dug..<br/>•We have to fall back soldier!<br/>•Oops! Try again!<br/>•The enemies got to the base!<br/>•Strategy is key!
+|}
+</div>
+</div>
+----
+<div class="mw-collapsible mw-collapsed">
+<div class="sectionheader">'''Fallen Arena Wave Structure'''</div>
+<div class="ContainerColumn mw-collapsible-content">
+{| class="wikitable" style="width:100%; margin: 0 auto; text-align: center;"
+!Wave 
+!Enemy Type & Amount
+|-
+|1
+|5x '''[[Abnormal]]'''
+|-
+|2
+|2x '''[[Quick]]''', 4x [[Abnormal]]
+|-
+|3
+|6x [[Quick]]
+|-
+|4
+|4x [[Abnormal]], 5x [[Quick]]
+|-
+|5
+|3x '''[[Heavy]]''', 5x [[Abnormal]]
+|-
+|6
+|6x [[Heavy]]
+|-
+|7
+|4x [[Heavy]], 1x '''[[Fallen Squire]]''', 5x [[Quick]]
+|-
+|8
+|10x [[Heavy]]
+|-
+|9
+|1x [[Fallen Squire]], 6x '''[[Fallen Soul]]'''
+|-
+|10
+|1x [[Fallen Squire]], 6x [[Heavy]] ([[Bloated]])
+|-
+|11
+|3x '''[[Fallen Hazmat]]''', 5x [[Fallen Soul]]
+|-
+|12
+|2x [[Fallen Squire]], 2x [[Fallen Hazmat]], 1x [[Heavy]] ([[Bloated]], [[Nimble]])
+|-
+|13
+|7x [[Fallen Hazmat]], 3x [[Fallen Soul]] ([[Bloated]])
+|-
+|14
+|1x [[Fallen Squire]], 3x '''[[Fallen]]'''
+|-
+|15
+|5x [[Fallen Soul]] ([[Bloated]]), 2x [[Fallen Squire]], 1x '''[[Fallen Giant]]'''
+|-
+|16
+|3x [[Fallen]], 6x [[Fallen Hazmat]], 3x [[Fallen Squire]], 4x '''[[Breaker2]]''' ([[Bloated]])
+|-
+|17
+|8x [[Fallen Hazmat]], 2x [[Fallen Squire]], 1x '''[[Fallen Necromancer]]'''
+|-
+|18
+|6x [[Fallen]], 3x [[Heavy]] ([[Bloated]], [[Nimble]]), 1x '''[[Possessed Armor]]'''
+|-
+|19
+|3x [[Fallen]], 2x [[Fallen Squire]] ([[Bloated]]), 1x [[Fallen Necromancer]], 1x [[Fallen Giant]]
+|-
+|20
+|5x [[Fallen Hazmat]] ([[Bloated]]), 2x [[Fallen]], 1x '''[[Fallen Hero]]'''
+|-
+|21
+|3x [[Fallen]] ([[Bloated]]), 5x [[Fallen Hazmat]], 2x [[Fallen Necromancer]]
+|-
+|22
+|2x [[Possessed Armor]], 4x [[Fallen]], 1x [[Fallen Giant]], 1x [[Fallen Hero]]
+|-
+|23
+|2x [[Fallen Giant]], 1x [[Possessed Armor]], 6x [[Fallen]], 1x '''[[Fallen Tank]]'''
+|-
+|24
+|2x [[Fallen Hero]], 8x [[Fallen]], 2x [[Possessed Armor]], 4x [[Fallen Necromancer]]
+|-
+|25
+|4x [[Fallen Giant]], 3x [[Fallen]] ([[Bloated]], [[Nimble]]), 1x [[Fallen Hero]], 1x [[Fallen Shield]]
+|-
+|26
+|1x [[Fallen Tank]], 3x [[Fallen Hero]], 7x [[Fallen]] ([[Bloated]]), 4x [[Fallen Giant]]
+|-
+|27
+|1x '''[[Fallen Guardian]]''', 5x [[Possessed Armor]], 2x [[Fallen Hero]]
+|-
+|28
+|1x [[Fallen Shield]], 1x [[Fallen Tank]], 6x [[Fallen Giant]], 4x [[Fallen Hero]]
+|-
+|29
+|2x [[Fallen Shield]], 8x [[Fallen Giant]], 10x [[Fallen]], 1x [[Fallen Tank]]
+|-
+|30
+|35x [[Fallen Hazmat]], 6x [[Fallen Squire]] ([[Bloated]]), 3x [[Fallen Giant]], 12x [[Breaker2]], 3x '''[[Breaker4]]''', 2x [[Fallen Necromancer]] ([[Bloated]]), 1x '''[[Champion Templar]]''', 2x [[Fallen Necromancer]] ([[Bloated]])
+|-
+! colspan="2" |Lose Dialogue
+|-
+|[[File:CommaReac1.png|thumb|center|75px]][[File:CommaReac2.png|thumb|center|75px]][[File:CommaReac3.png|thumb|center|75px]]
+|One icon and dialogue is randomly chosen upon defeat:
+•We're toast!<br/>•OOF!<br/>•Mission Failed, we'll get em' next time.<br/>•Not enough numbers!<br/>•Mistakes are just part of the journey..<br/>•We're overrun chief!<br/>•We'll get them next time!<br/>•Don't give up!<br/>•We need back up sergeant!<br/>•We just had our grave dug..<br/>•We have to fall back soldier!<br/>•Oops! Try again!<br/>•The enemies got to the base!<br/>•Strategy is key!
+|}
+</div>
+</div>
+
+==Soundtracks==
+{{Soundtrack|
+{{GalleryHeader|Wave 1-9}}<br/>These soundtracks can be randomly chosen to play between these waves.
+<gallery>
+(Official) Tower Defense Simulator OST - Into The Void
+(Official) Tower Defense Simulator OST - Melancholy Hill
+(Official) Tower Defense Simulator OST - Rebelution
+(Official) Tower Defense Simulator OST - Rain Dance
+(Official) Tower Defense Simulator OST - The Horde
+</gallery>
+
+{{GalleryHeader|Wave 10-19}}<br/>These soundtracks can be randomly chosen to play between these waves.
+<gallery>
+(Official) Tower Defense Simulator OST - Shellshock|YouTube Upload
+Tower Defense Simulator OST - Shellshock In-Game|In-Game Version
+(Official) Tower Defense Simulator OST - Neuro Raze
+(Official) Tower Defense Simulator OST - Art Of War
+(Official) Tower Defense Simulator OST - Fill Them With Lead
+</gallery>
+
+{{GalleryHeader|Wave 20-26 & 27-28}}<br/>These soundtracks can be randomly chosen to play between these waves.
+<gallery>
+(Official) Tower Defense Simulator OST - Catharsis
+(Official) Tower Defense Simulator OST - Desolate Dystopia
+(Official) Tower Defense Simulator OST - Portal To Hell
+</gallery>
+
+{{GalleryHeader|Penultimate Wave}}<br/>This soundtrack is played on the penultimate wave.
+<gallery>
+(Official) Tower Defense Simulator OST - Templar's Showdown (Champion Templar Theme)
+</gallery>
+
+{{GalleryHeader|Sudden Death}}<br/>This soundtrack plays once endless wave (Wave 31) is reached.
+<gallery>
+(Official) Tower Defense Simulator OST - Sudden Death
+</gallery>
+}}
+
+==Gallery==
+{{Gallery|Open = Yes|
+{{GalleryHeader|Miscellaneous}}
+<gallery>
+PVPPlaceholderIcon.png|Placeholder icon seen when sending the [[Brute]] and formerly the [[Tank]].
+</gallery>
+}}
+
+==Trivia==
+*Red Team has an inherent advantage against Blue Team as it has lower priority, meaning Blue always gets its base health deducted first if two enemies were to enter both bases simultaneously.
+*The tower on the '''PVP''' [[Matchmaking]] is the [[Saboteur]], a tower which was originally meant to be '''PVP''' oriented before being turned into the [[Polluted Wasteland II]] reward.
+
+==Update History==
+{{scroll|text =
+*'''23 July 2025''' - [[v1.71.0]]
+**'''PVP''' added, replacing its predecessor [[PVP Test]].
+**{{Bug}} Unable to select ban, select towers or use consumables on console.
+**{{Bug}} After [[Matchmaking]] finds an opponent, sometimes appears as PVE loadouts instead of PVP.
+**{{Bug}} '''PVP''' triumphs and losses are not tracked correctly.
+**{{Bug}} Triumphing can sometimes decrease ELO while losing can sometimes boost ELO.
+**{{Bug}} Returning to lobby softlocks the player.
+**{{Bug}} Blue team tower ban indicators do not have an icon and instead show a cat with sunglasses.
+**{{Bug}} Does not give a triumph bonus upon winning.
+**{{Bug}} Win screen does not show the correct players in 2v2.
+**{{Bug}} Matches will sometimes not start.
+**{{Bug}} On console, it is possible to bring up towers from the survival loadout instead of the PVE loadout.
+**{{Bug}} Leaderboards always display the rank image of the player as General.
+**{{Bug}} When a tower is banned in '''PVP''', it is removed from the survival loadout of the players.
+**{{Bug}} It is possible to send enemies while the send menu is hidden.
+*'''23 July 2025''' - [[v1.71.0|v1.71.2]]
+**[[Tank]] in Low Rank replaced with the [[Brute]].
+**{{Bugfix}} Teleporting back to lobby is now functional.
+**{{Bugfix}} Blue team tower ban indicators no longer show a cat with sunglasses, but now have no icon instead.
+*'''24 July 2025''' - [[v1.71.0|v1.71.4]]
+**{{Bugfix}} Triumphs and losses are now tracked correctly.
+*'''24 July 2025''' - [[v1.71.0|v1.71.5]]
+**Updated ELO rewards to give out reasonable amounts.
+**Now can drop [[Logbooks]].
+**Current ELO now can be seen.
+**Added badges for triumphing, triumphing Ranked and beating the [[Champion Templar]].
+**End screen now shows gained or lost ELO.
+**{{Bug}} [[Logbooks]] can be dropped from sent enemies.
+**{{Bug}} ELO given out in 2v2 is incorrect.
+**{{Bug}} [[Champion Templar]] badge is given out even when the [[Champion Templar]] is not defeated.
+**{{Bug}} Molten Arena endless does not spawn in enemies correctly.
+**{{Bug}} Ranked win badge is not given out.
+**{{Bugfix}} Blue team tower ban indicators now appear.
+**{{Bugfix}} ELO can no longer get decreased when winning or increased when losing.
+**{{Bugfix}} Now gives a win bonus.
+*'''24 July 2025''' - [[v1.71.0|v1.71.5a]]
+**Disabled [[Logbooks]].
+*'''25 July 2025''' - [[v1.71.0|v1.71.6]]
+**{{Bugfix}} 2v2 now gives ELO.
+*'''26 July 2025''' - [[v1.71.0|v1.71.7]]
+**Cap of 60 ELO gained per match.
+**{{Bugfix}} Leaderboards now display correct ranks.
+**{{Bugfix}} Molten Arena endless now summons more than one enemy.
+*'''28 July 2025''' - [[v1.71.0|v1.71.8]]
+**{{Bugfix}} [[Champion Templar]] badge is now only given when it is defeated.
+**{{Bugfix}} Ranked win badge is now given out.
+*'''29 July 2025''' - [[v1.71.0|v1.71.9]]
+**Doubled ELO gain rates.
+**ELO taken on loss is now equal to the ELO gained from winning.
+**ELO cap increased to 75.
+**{{Bug}} ELO gain is displayed as half of what it actually gives.
+*'''29 July 2025''' - [[v1.71.0|v1.71.10]]
+**{{Bugfix}} ELO gained on triumph is now displayed as the right value.
+*'''30 July 2025''' - [[v1.71.0|v1.71.11]]
+**Players now get penalized for leaving during map vote.
+*'''20 August 2025''' - [[v1.73.0]]
+**ELO gain and loss is now always 50 ELO.
+**Tower loadout is now selected after map vote.
+**Tower loadouts of other players can no longer be seen.
+**Arena is now displayed in the intermission lobby.
+**Arena is now decided based on the highest ELO score between players instead of an average in Ranked.
+**Arena is now voted for in Casual.
+**No longer allows for map overriding in Ranked.
+**{{Bug}} Casual completely does not work.
+**{{Bug}} Player UI will sometimes not appear in ranked.
+*'''25 September 2025''' - [[v1.75.0|v1.75.5]]
+**Toggleable modifiers disabled.
+*'''24 September 2025''' - [[v1.75.0]]
+**{{Bug}} [[Matchmaking]] no longer works.
+*'''24 September 2025''' - [[v1.75.0|v1.75.2]]
+**{{Bugfix}} [[Matchmaking]] now works again.
+*'''1 October 2025''' - [[v1.76.0]]
+**{{Bug}} [[Matchmaking]] no longer works.
+*'''1 October 2025''' - [[v1.76.0|v1.76.1]]
+**{{Bugfix}} [[Matchmaking]] now works again.
+}}
+
+==Notes==
+<references responsive="0" />
 
 
-{{CrateNavBox}}
+
+{{ModeNavBox}}
