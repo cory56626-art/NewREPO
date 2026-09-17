@@ -1,14 +1,14 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Defense",
-    "title": "Defense",
-    "pageid": 21503,
-    "latest_revid": 495331,
-    "latest_timestamp": "2026-06-17T01:52:27Z",
-    "source_url": "https://tds.fandom.com/wiki/Defense",
+    "requested": "Golden Demoman",
+    "title": "Golden Demoman",
+    "pageid": 62930,
+    "latest_revid": 644942,
+    "latest_timestamp": "2026-09-07T06:02:55Z",
+    "source_url": "https://tds.fandom.com/wiki/Golden_Demoman",
     "classification": {
-      "is_tower_page": false,
+      "is_tower_page": true,
       "reason": "template/category heuristic"
     },
     "source_priority": {
@@ -22,119 +22,119 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Defense",
+    "input": "Golden Demoman",
     "alias_used": null,
-    "target": "Defense",
-    "canonical_title": "Defense",
-    "pageid": 21503,
+    "target": "Golden Demoman",
+    "canonical_title": "Golden Demoman",
+    "pageid": 62930,
     "redirects": [],
     "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 495331,
-      "parentid": 469304,
-      "timestamp": "2026-06-17T01:52:27Z",
-      "user": "MrMosquito",
+      "revid": 644942,
+      "parentid": 643937,
+      "timestamp": "2026-09-07T06:02:55Z",
+      "user": "Bkind000 Games",
       "comment": "",
-      "size": 14481,
-      "sha1": "78fff60b56c15610da2eb250628ac1f9972d84cc"
+      "size": 12922,
+      "sha1": "648caaec06e3aafb5751e3e4598173df56a2a39f"
     },
     {
-      "revid": 469304,
-      "parentid": 467817,
-      "timestamp": "2026-06-05T12:06:13Z",
+      "revid": 643937,
+      "parentid": 643936,
+      "timestamp": "2026-09-06T13:18:00Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 14480,
-      "sha1": "7553d164b17137dc832ed3a4251cab67c9ce497a"
+      "size": 12570,
+      "sha1": "bd260d3e2b33d38051f32c14f27194fc5c0e75b5"
     },
     {
-      "revid": 467817,
-      "parentid": 447448,
-      "timestamp": "2026-06-05T07:35:46Z",
+      "revid": 643936,
+      "parentid": 618782,
+      "timestamp": "2026-09-06T13:16:02Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 12505,
+      "sha1": "72f35595b5c4824a4b75f4a97aac236c29ddb5af"
+    },
+    {
+      "revid": 618782,
+      "parentid": 618525,
+      "timestamp": "2026-08-20T04:06:34Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 12400,
+      "sha1": "aac6d48c309089e5e2d0025f996b9e24d88febd6"
+    },
+    {
+      "revid": 618525,
+      "parentid": 611134,
+      "timestamp": "2026-08-18T21:25:41Z",
       "user": "DarkGabonnie",
-      "comment": "/* Countering Defense */ auto, replaced: {{Colour| → {{Color| (4)",
-      "size": 14441,
-      "sha1": "e72c40984efcb8dc1b246075b925da9ce4adadfa"
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 12400,
+      "sha1": "a994da4982c1ebf819af11f0dc9570289d46e67d"
     },
     {
-      "revid": 447448,
-      "parentid": 419012,
-      "timestamp": "2026-05-25T18:45:03Z",
+      "revid": 611134,
+      "parentid": 610155,
+      "timestamp": "2026-08-13T11:50:18Z",
+      "user": "JurassicParker32",
+      "comment": "Added info on defense bypassing from explosion damage",
+      "size": 12366,
+      "sha1": "da3a60d771847fd1431b72b2f82d49039b23a3e3"
+    },
+    {
+      "revid": 610155,
+      "parentid": 606216,
+      "timestamp": "2026-08-12T20:05:03Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 11785,
+      "sha1": "961b3aed3498589fff52e5ee3432a86efabdaee3"
+    },
+    {
+      "revid": 606216,
+      "parentid": 602507,
+      "timestamp": "2026-08-10T21:47:37Z",
+      "user": "VisibleKnot",
+      "comment": "",
+      "size": 11764,
+      "sha1": "969fe9b6d57925a916fa8784c5a2437bfb5ff82a"
+    },
+    {
+      "revid": 602507,
+      "parentid": 601198,
+      "timestamp": "2026-08-09T02:35:32Z",
+      "user": "Frogt007",
+      "comment": "disabled dynamic for now",
+      "size": 11767,
+      "sha1": "d136ab5c7ce4e011dfb1e108af201c7851812a2e"
+    },
+    {
+      "revid": 601198,
+      "parentid": 600454,
+      "timestamp": "2026-08-08T12:04:59Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 14445,
-      "sha1": "9547bdf3a8cae75a67fe884dbe110e5cc2bd0733"
-    },
-    {
-      "revid": 419012,
-      "parentid": 373926,
-      "timestamp": "2026-05-10T19:16:44Z",
-      "user": "TDSLover1999",
-      "comment": "bruh",
-      "size": 14496,
-      "sha1": "17ab5f59516d6048908adb1b3a259002c465f3d1"
-    },
-    {
-      "revid": 373926,
-      "parentid": 346959,
-      "timestamp": "2026-03-11T11:30:46Z",
-      "user": "VisibleKnot",
-      "comment": "",
-      "size": 14496,
-      "sha1": "0a114eeafbbada0ea74f9abe1cf4ad81bba95861"
-    },
-    {
-      "revid": 346959,
-      "parentid": 334402,
-      "timestamp": "2026-01-26T14:48:46Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 14507,
-      "sha1": "3ac008129e45d723e607552acf70e59b24e9a81d"
-    },
-    {
-      "revid": 334402,
-      "parentid": 334391,
-      "timestamp": "2026-01-05T19:59:03Z",
-      "user": "VisibleKnot",
-      "comment": "",
-      "size": 14459,
-      "sha1": "fd53b606a9b066524008c2f4a6147cfc642bc764"
-    },
-    {
-      "revid": 334391,
-      "parentid": 334374,
-      "timestamp": "2026-01-05T19:58:29Z",
-      "user": "VisibleKnot",
-      "comment": "",
-      "size": 14455,
-      "sha1": "0af5c28692f1d413c0612564bf7ef171a89d6c6c"
-    },
-    {
-      "revid": 334374,
-      "parentid": 329872,
-      "timestamp": "2026-01-05T19:56:36Z",
-      "user": "Redjacko6",
-      "comment": "changed out the toxic gunner icon from old to new",
-      "size": 14441,
-      "sha1": "130255d6cb29c732c6feeddde93a79a82d344f53"
+      "size": 11710,
+      "sha1": "a2238fcebde67f36710f16aeb697b2798ad1e73e"
     }
   ],
   "revision_diff": {
-    "fromrevid": 469304,
-    "torevid": 495331,
-    "fromtitle": "Defense",
-    "totitle": "Defense",
+    "fromrevid": 643937,
+    "torevid": 644942,
+    "fromtitle": "Golden Demoman",
+    "totitle": "Golden Demoman",
     "fromuser": "Mentin123",
-    "touser": "MrMosquito",
+    "touser": "Bkind000 Games",
     "fromcomment": "",
     "tocomment": "",
-    "diff_text": "Line 72: Line 72: The second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%. The second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%. Both forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the[[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%. Both forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%. Most splash damage will deal full damage to enemies with defense, no matter the percentage, though not all of them do. If a tower that deals explosion damage has orange indicators appear when it deals damage, that means it should be able to bypass defense. If the tower has the regular, red indicators, this is affected by defense. Most splash damage will deal full damage to enemies with defense, no matter the percentage, though not all of them do. If a tower that deals explosion damage has orange indicators appear when it deals damage, that means it should be able to bypass defense. If the tower has the regular, red indicators, this is affected by defense."
+    "diff_text": "Line 241: Line 241: ==Trivia== ==Trivia== *The '''Golden Demoman''' is the first mainstream golden tower in 6 years to be added to the game since the [[Golden Soldier]] in 2020. **This is true if not including the [[Golden Snowballer]], which is exclusive to developers and [[Sandbox Mode]]. **It is also the first golden tower since the [[Golden Soldier]] to be added to the [[Golden Crate]]. *The '''Golden Demoman's''' Level 3 upgrade name, ''Loose Cannon'', may be a reference to the ''Team Fortress 2'' weapon of the same name. *The '''Golden Demoman's''' Level 3 upgrade name, ''Loose Cannon'', may be a reference to the ''Team Fortress 2'' weapon of the same name. *The '''Golden Demoman's''' Level 4 upgrade name, ''A Thousand Exploding Suns'', may be a reference to the [[w:c:Robert Reynolds (Earth-616)|Sentry]] from ''Marvel'', who is described as having the power of a thousand exploding suns. *The '''Golden Demoman's''' Level 4 upgrade name, ''A Thousand Exploding Suns'', may be a reference to the [[w:c:Robert Reynolds (Earth-616)|Sentry]] from ''Marvel'', who is described as having the power of a thousand exploding suns."
   },
   "classification": {
-    "is_tower_page": false,
+    "is_tower_page": true,
     "reason": "template/category heuristic"
   },
   "structured_stats": {
@@ -146,22 +146,326 @@
         "infobox_or_summary"
       ]
     },
-    "description": "'''Defense''' is a status value given to certain enemies and units. Enemies may spawn with this naturally, or be granted this through a litany of means.",
+    "description": "The '''Golden Demoman''' is a splash damage tower that is an upgraded version of the [[Demoman]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Demoman]]. It can also appear in the Daily Skin Store for {{Coins|55,000}}.\n\nThe '''Golden Demoman''' throws explosive golden grenades at enemies which deal medium damage within an explosion radius. To compensate, it has a rather fast firerate compared to other [[Splash Damage]] towers. It has no damage drop-off, so it deals full damage to all enemies within explosion radius.  At Levels 0-2, the '''Golden Demoman''' takes one second to aim at an enemy before throwing its grenade. This only affects the damage for the first throw, as it means the '''Golden Demoman''' has to wait 0.8 seconds before throwing it. While it is aiming, it will lock onto one enemy until it throws the grenade, after which it can target a different one. Even after the targeted enemy dies, the '''Golden Demoman''' will continue targeting it, though its grenade will land slightly ahead of where the enemy dies, in order to hit the enemy should it be still alive and moving forward. The '''Golden Demoman''' will also continue to aim at a target enemy even if it leaves its range, allowing it to attack outside of its range. \n\nThe '''Golden Demoman''' is excellent for clearing huge crowds, except for those immune to splash damage.  It is relatively weak against major bosses, though it can be useful for clearing the enemies that spawn from some major bosses. The '''Golden Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for AOE damage when multiple are placed down.\n\nThe '''Golden Demoman''' can damage [[Lead (Attribute)|Lead]] and [[Hidden (Attribute)|Hidden]] enemies, and has no placement limit.",
     "upgrade_modes": {
-      "regular": [],
+      "regular": [
+        {
+          "mode": "unknown",
+          "level": 1,
+          "title": "Faster Pitch",
+          "cost": "{{Money|250}}",
+          "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+1.5",
+              "stat": "Range",
+              "text": "+1.5 Range"
+            },
+            {
+              "kind": "set",
+              "from": "1.95",
+              "to": "1.8",
+              "stat": "Firerate",
+              "text": "1.95 > 1.8 Firerate"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Upgrade Title": "Faster Pitch",
+            "Cost": "{{Money|250}}",
+            "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
+            "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 2,
+          "title": "Golden Handshake",
+          "cost": "{{Money|1,150}}",
+          "information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+8",
+              "stat": "Damage",
+              "text": "+8 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "4.5",
+              "to": "5",
+              "stat": "Explosion Range",
+              "text": "4.5 > 5 Explosion Range"
+            },
+            {
+              "kind": "grant",
+              "stat": "Hidden Detection",
+              "text": "+Hidden Detection"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Upgrade Title": "Golden Handshake",
+            "Cost": "{{Money|1,150}}",
+            "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
+            "Information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 3,
+          "title": "Loose Cannon",
+          "cost": "{{Money|2,650}}",
+          "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+1.5",
+              "stat": "Range",
+              "text": "+1.5 Range"
+            },
+            {
+              "kind": "set",
+              "from": "1.8",
+              "to": "1.1",
+              "stat": "Firerate",
+              "text": "1.8 > 1.1 Firerate"
+            },
+            {
+              "kind": "delta",
+              "delta": "+7",
+              "stat": "Damage",
+              "text": "+7 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "0.8",
+              "to": "0",
+              "stat": "Aim Time",
+              "text": "0.8 > 0 Aim Time"
+            },
+            {
+              "kind": "set",
+              "from": "5",
+              "to": "5.5",
+              "stat": "Explosion Range",
+              "text": "5 > 5.5 Explosion Range"
+            },
+            {
+              "kind": "grant",
+              "stat": "Faster Projectile",
+              "text": "+Faster Projectile"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Loose Cannon",
+            "Cost": "{{Money|2,650}}",
+            "Image": "[[File:Demoman Upgrade 2 New.png|100px]]",
+            "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 4,
+          "title": "A Thousand Exploding Suns",
+          "cost": "{{Money|7,750}}",
+          "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
+            },
+            {
+              "kind": "set",
+              "from": "1.1",
+              "to": "0.45",
+              "stat": "Firerate",
+              "text": "1.1 > 0.45 Firerate"
+            },
+            {
+              "kind": "grant",
+              "stat": "Stun Immunity",
+              "text": "+Stun Immunity"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "A Thousand Exploding Suns",
+            "Cost": "{{Money|7,750}}",
+            "Image": "[[File:NewDemomanLevel3.png|100px]]",
+            "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}"
+          }
+        }
+      ],
       "pvp": []
     },
-    "upgrade_templates": [],
+    "upgrade_templates": [
+      {
+        "mode": "unknown",
+        "level": 1,
+        "title": "Faster Pitch",
+        "cost": "{{Money|250}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "1.95",
+            "to": "1.8",
+            "stat": "Firerate",
+            "text": "1.95 > 1.8 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Faster Pitch",
+          "Cost": "{{Money|250}}",
+          "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.95 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|358}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Golden Handshake",
+        "cost": "{{Money|1,150}}",
+        "information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+8",
+            "stat": "Damage",
+            "text": "+8 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "4.5",
+            "to": "5",
+            "stat": "Explosion Range",
+            "text": "4.5 > 5 Explosion Range"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Golden Handshake",
+          "Cost": "{{Money|1,150}}",
+          "Image": "[[File:Demoman Upgrade 1 New.png|100px]]",
+          "Information": "+8 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|741}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Loose Cannon",
+        "cost": "{{Money|2,650}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "1.8",
+            "to": "1.1",
+            "stat": "Firerate",
+            "text": "1.8 > 1.1 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.8",
+            "to": "0",
+            "stat": "Aim Time",
+            "text": "0.8 > 0 Aim Time"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "5.5",
+            "stat": "Explosion Range",
+            "text": "5 > 5.5 Explosion Range"
+          },
+          {
+            "kind": "grant",
+            "stat": "Faster Projectile",
+            "text": "+Faster Projectile"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Loose Cannon",
+          "Cost": "{{Money|2,650}}",
+          "Image": "[[File:Demoman Upgrade 2 New.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n1.8 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n0.8 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,625}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "A Thousand Exploding Suns",
+        "cost": "{{Money|7,750}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "set",
+            "from": "1.1",
+            "to": "0.45",
+            "stat": "Firerate",
+            "text": "1.1 > 0.45 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Stun Immunity",
+            "text": "+Stun Immunity"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "A Thousand Exploding Suns",
+          "Cost": "{{Money|7,750}}",
+          "Image": "[[File:NewDemomanLevel3.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.45 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Stun Immunity {{Stun|Stun Immunity}}\n\n\nSell Price changes to {{Money|4,208}}"
+        }
+      }
+    ],
     "statistics_tables": {
       "regular": [],
       "pvp": []
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": null,
-        "lead": null,
-        "flying": null,
-        "immune": null,
+        "hidden": "{{Attr|Hidden|Level 2+}}",
+        "lead": "{{Attr|Lead|Level 0+}}",
+        "flying": "N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>",
+        "immune": "{{Attr|Stun}} (Level 4)",
         "placement_limit": null
       },
       "pvp": {
@@ -173,23 +477,57 @@
     },
     "infoboxes": [
       {
-        "name": "AttributeInfobox",
+        "name": "TowerInfobox",
         "params": {
-          "image1": "Defense.png",
-          "type": "Damage Reduction"
+          "title": "Golden Demoman",
+          "image-static": "GoldenDemoman0.png",
+          "image-dynamic1": "GoldenDemomanDynamic.png",
+          "pseudoxd": "1",
+          "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)",
+          "towercost": "{{Coins|200}}",
+          "role": "Offense",
+          "placement": "Ground",
+          "basecost": "{{Money|875}}",
+          "basesellingprice": "{{Money|291}}",
+          "basedamage": "[[File:SplashDamage.png|20px|Damage]]10",
+          "damagetype": "[[Splash Damage|Splash]]",
+          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.95",
+          "baserange": "[[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)",
+          "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+          "lead_detection": "{{Attr|Lead|Level 0+}}",
+          "flying_detection": "N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>",
+          "immune": "{{Attr|Stun}} (Level 4)",
+          "footprint": "1.5"
         },
         "positional": []
       }
     ],
     "likely_infobox": {
-      "name": "AttributeInfobox",
+      "name": "TowerInfobox",
       "params": {
-        "image1": "Defense.png",
-        "type": "Damage Reduction"
+        "title": "Golden Demoman",
+        "image-static": "GoldenDemoman0.png",
+        "image-dynamic1": "GoldenDemomanDynamic.png",
+        "pseudoxd": "1",
+        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)",
+        "towercost": "{{Coins|200}}",
+        "role": "Offense",
+        "placement": "Ground",
+        "basecost": "{{Money|875}}",
+        "basesellingprice": "{{Money|291}}",
+        "basedamage": "[[File:SplashDamage.png|20px|Damage]]10",
+        "damagetype": "[[Splash Damage|Splash]]",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.95",
+        "baserange": "[[File:Range Icon.png|20px|Range]]12<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)",
+        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>",
+        "immune": "{{Attr|Stun}} (Level 4)",
+        "footprint": "1.5"
       },
       "positional": []
     },
-    "template_count": 6
+    "template_count": 75
   },
   "conflicts": {
     "priority_rule": {
@@ -209,10 +547,46 @@
   "categories": [
     {
       "ns": 14,
-      "title": "Category:Attributes"
+      "title": "Category:Ground"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Offense"
+    },
+    {
+      "ns": 14,
+      "title": "Category:Towers"
     }
   ],
   "backlinks": [
+    {
+      "title": "Towers",
+      "pageid": 122
+    },
+    {
+      "title": "Scout",
+      "pageid": 123
+    },
+    {
+      "title": "Soldier",
+      "pageid": 124
+    },
+    {
+      "title": "Sniper",
+      "pageid": 125
+    },
+    {
+      "title": "Minigunner",
+      "pageid": 162
+    },
+    {
+      "title": "Freezer",
+      "pageid": 185
+    },
+    {
+      "title": "Ranger",
+      "pageid": 193
+    },
     {
       "title": "Pyromancer",
       "pageid": 195
@@ -222,202 +596,244 @@
       "pageid": 197
     },
     {
+      "title": "Farm",
+      "pageid": 198
+    },
+    {
+      "title": "Commander",
+      "pageid": 199
+    },
+    {
+      "title": "Militant",
+      "pageid": 200
+    },
+    {
       "title": "Paintballer",
       "pageid": 202
+    },
+    {
+      "title": "Crook Boss",
+      "pageid": 226
     },
     {
       "title": "Demoman",
       "pageid": 239
     },
     {
-      "title": "Molten Boss",
-      "pageid": 284
+      "title": "Shotgunner",
+      "pageid": 275
     },
     {
-      "title": "Molten",
-      "pageid": 286
-    },
-    {
-      "title": "Tank 2",
-      "pageid": 287
-    },
-    {
-      "title": "Grave Digger (Legacy)",
-      "pageid": 294
+      "title": "Gladiator",
+      "pageid": 302
     },
     {
       "title": "Rocketeer",
       "pageid": 307
     },
     {
-      "title": "Normal",
-      "pageid": 348
+      "title": "Sentry",
+      "pageid": 392
     },
     {
-      "title": "Strong",
-      "pageid": 397
-    },
-    {
-      "title": "Speedy",
-      "pageid": 480
-    },
-    {
-      "title": "Slow",
-      "pageid": 481
-    },
-    {
-      "title": "Hidden",
-      "pageid": 484
-    },
-    {
-      "title": "Normal Boss",
-      "pageid": 486
+      "title": "Turret",
+      "pageid": 454
     },
     {
       "title": "Mystery",
       "pageid": 488
     },
     {
-      "title": "Necromancer (Legacy Enemy)",
-      "pageid": 490
-    },
-    {
-      "title": "Slow Boss",
-      "pageid": 491
-    },
-    {
-      "title": "Hidden Boss",
-      "pageid": 492
-    },
-    {
-      "title": "Shock",
-      "pageid": 493
-    },
-    {
-      "title": "Speedy Boss",
-      "pageid": 494
-    },
-    {
-      "title": "Super Mystery",
-      "pageid": 496
-    },
-    {
-      "title": "Mystery Summoner",
-      "pageid": 504
-    },
-    {
-      "title": "Boomer",
-      "pageid": 505
-    },
-    {
-      "title": "Necromancer 2",
-      "pageid": 506
-    },
-    {
-      "title": "Blighted (Legacy)",
-      "pageid": 507
-    },
-    {
-      "title": "Tank",
-      "pageid": 508
-    },
-    {
-      "title": "Boomer 2",
-      "pageid": 509
-    },
-    {
-      "title": "Carrier",
-      "pageid": 510
-    },
-    {
-      "title": "Controlled",
-      "pageid": 511
-    },
-    {
-      "title": "Chained Boss",
-      "pageid": 512
-    },
-    {
-      "title": "Witch Doctor",
-      "pageid": 513
-    },
-    {
-      "title": "Gold Titan",
-      "pageid": 526
-    },
-    {
-      "title": "Shrike Crystal",
-      "pageid": 527
-    },
-    {
-      "title": "Tombstone",
-      "pageid": 528
-    },
-    {
-      "title": "Golden",
-      "pageid": 529
-    },
-    {
-      "title": "Knight (The Heights)",
-      "pageid": 530
-    },
-    {
-      "title": "Stone Viking",
-      "pageid": 531
-    },
-    {
-      "title": "Crystalite",
-      "pageid": 532
-    },
-    {
-      "title": "Brute (The Heights)",
-      "pageid": 533
-    },
-    {
-      "title": "Fallen Hero (Legacy)",
-      "pageid": 534
-    },
-    {
-      "title": "Swordmaster",
-      "pageid": 535
-    },
-    {
-      "title": "Swarm",
-      "pageid": 576
-    },
-    {
-      "title": "Raider Boss",
-      "pageid": 592
-    },
-    {
       "title": "Commando",
       "pageid": 599
     },
     {
-      "title": "Alien (Area 51)",
-      "pageid": 606
+      "title": "Splash Damage",
+      "pageid": 1007
     },
     {
-      "title": "Strong Alien",
-      "pageid": 607
+      "title": "Medic",
+      "pageid": 1545
     },
     {
-      "title": "Zoomer",
-      "pageid": 608
+      "title": "Hunter",
+      "pageid": 1546
     },
     {
-      "title": "Lawnmower",
-      "pageid": 609
+      "title": "Slasher",
+      "pageid": 1752
     },
     {
-      "title": "Hidden Zoomer",
-      "pageid": 610
+      "title": "DJ Booth",
+      "pageid": 2235
+    },
+    {
+      "title": "Ace Pilot",
+      "pageid": 2469
+    },
+    {
+      "title": "Mortar",
+      "pageid": 2730
+    },
+    {
+      "title": "Frost Blaster",
+      "pageid": 2732
+    },
+    {
+      "title": "Archer",
+      "pageid": 2747
+    },
+    {
+      "title": "Golden Crate",
+      "pageid": 2968
+    },
+    {
+      "title": "Electroshocker",
+      "pageid": 3751
+    },
+    {
+      "title": "Swarmer",
+      "pageid": 4581
+    },
+    {
+      "title": "Pursuit",
+      "pageid": 6735
+    },
+    {
+      "title": "Mecha Base",
+      "pageid": 7179
+    },
+    {
+      "title": "War Machine",
+      "pageid": 7181
+    },
+    {
+      "title": "Cowboy",
+      "pageid": 7565
+    },
+    {
+      "title": "Humvee",
+      "pageid": 9668
+    },
+    {
+      "title": "Humvee 2",
+      "pageid": 9670
+    },
+    {
+      "title": "Humvee 3",
+      "pageid": 9671
+    },
+    {
+      "title": "Tank (Unit)",
+      "pageid": 9672
+    },
+    {
+      "title": "Railgun Tank",
+      "pageid": 9673
+    },
+    {
+      "title": "SWAT Van",
+      "pageid": 9681
+    },
+    {
+      "title": "Crook",
+      "pageid": 9688
+    },
+    {
+      "title": "Mafia",
+      "pageid": 9690
+    },
+    {
+      "title": "Golden Crook",
+      "pageid": 9752
+    },
+    {
+      "title": "Golden Mafia",
+      "pageid": 9754
+    },
+    {
+      "title": "Commando/Gallery",
+      "pageid": 9764
+    },
+    {
+      "title": "Sentry/Gallery",
+      "pageid": 9800
     }
   ],
   "templates": [
     {
       "ns": 10,
-      "title": "Template:AttributeInfobox",
+      "title": "Template:Tabs",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Icon",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:For",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerInfobox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Coins",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Money",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Attr",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:AttrTag",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:AttrTag/styles.css",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteContainer",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:QuoteBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Upgrade",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Hidden",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Stun",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:Neow",
       "exists": true
     },
     {
@@ -427,74 +843,141 @@
     },
     {
       "ns": 10,
-      "title": "Template:AttributeNavBox",
+      "title": "Template:Robux",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerNavBox",
+      "exists": true
+    },
+    {
+      "ns": 10,
+      "title": "Template:TowerNavBox/labels.css",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Money",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:NumName",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Randomizer",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:StripNaked",
+      "exists": true
+    },
+    {
+      "ns": 828,
+      "title": "Module:Neowbunto",
       "exists": true
     }
   ],
   "related_pages": [
     {
-      "title": "Flying",
-      "score": 1,
-      "pageid": 42529,
-      "latest_revid": 639555,
-      "latest_timestamp": "2026-09-03T13:25:42Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Fly.png\n|type = Enemy Type\n|detection = Flying Detection\n|immunities = [[File:VehicleSpawn.png|20px|Collision Damage]]Collision Damage<br/>[[File:TrapperLevel1.png|20px|Road Hazards|link=]]Road Hazards<br/>{{Knockback}}Knockback\n|sandbox = Yes\n|tag = {{AttrTag|Second|Fly.png|Flying}}\n}}\n==Description==\n'''Flying''' is an enemy type that makes the enemy fly above the path, making them avoid being damaged by most things on the path. Towers need flying detection to target these enemies.\n\n==Mechanics==\n'''Flying''' enemies fly above the path, which grants them multiple perks. The main immunity that it grants is requiring flying detection to target them, making it difficult for towers without said detection to damage a '''Flying''' enemy.\n\n'''Flying''' enemies have various other unique immunities that are applied, outside of flying detection:\n\n# They are completely immune to being damaged by unit collision damage, even if they would normally collide with each other.\n#*This includes the [[Gift Bomber]], which cannot collide with '''Flying''' enemies, despite visually passing through '''Flying''' enemies.\n#*Some units, like the [[Rifleman]] or [[Missile APC]], can detect flying enemies, even if they cannot collide with them.\n#They are able to fly over road hazards, namely the [[Trapper]]'s traps and the [[Harvester]]'s thorns (and by extension the [[Farm]]'s).\n#*The [[Commando]]'s missiles, can still affect them.\n#*The [[Barricade]] can collide with '''Flying''' enemies, but they deal unit collision damage. Therefore, '''Flying''' enemies are also immune to this.\n#They are immune to being knocked back by towers. This does not mean they are immune to other effects from attacks that knock back enemies.\n#*For example, the [[DJ Booth]] can still slow down '''Flying''' enemies, even if the purple track cannot knock them back.\n\n'''Flying''' enemies may be indirectly damaged by towers, even if they do not have flying detection. For example, the [[Brawler]]'s ''Reposition'' ability deals damage to '''Flying''' enemies, though due to their knockback immunity it does not knock them back.\n\nIf an enemy is applied the '''Flying''' attribute through [[Sandbox Mode|Sandbox]] mode, and they do not typically have the attribute, all of the said immunities apply to the enemy, even if they visually remain on the ground.\n\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Flying Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\">From Level 0+, its splash damage can indirectly damage '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Demoman]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 4\n|-\n|[[Soldier]] \n| class=\"yes-table\" |Full\n|Level 4<br/>Level 0+ ([[PVP]])\n|-\n| rowspan=\"2\" |[[Shotgunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n| class=\"no-table\" |None\n|N/A ([[PVP]])\n|-\n|[[Freezer]]\n| class=\"no-table\" |None<ref>Its ''Frost Grenade'' ability can indirectly hit '''Flying''' enemies, but this tower cannot directly target '''Flying''' enemies.</ref>\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Pyromancer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"no-table\" |None<ref>Through chaining, it can indirectly hit '''Flying''' enemies, but it can never target them.</ref>\n|N/A\n|-\n|[[Rocketeer]]\n| class=\"no-table\" |None<ref name=\"indirectsplash0\" />\n|N/A\n|-\n|[[Trapper]]\n"
+      "title": "Golden Demoman/Gallery",
+      "score": 6,
+      "pageid": 62951,
+      "latest_revid": 555862,
+      "latest_timestamp": "2026-07-17T16:45:58Z",
+      "wikitext_excerpt": "#REDIRECT [[Demoman/Gallery]]"
     },
     {
-      "title": "Freeze Immunity",
-      "score": 1,
-      "pageid": 42532,
-      "latest_revid": 648267,
-      "latest_timestamp": "2026-09-09T15:23:02Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Freeze.png\n|type = Immunity\n|variants = Regular<br/>{{Boss}}[[Boss]]\n|immunities = Regular:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Chillness}}Chillness\n*{{Freeze|Freeze Defense Dropping}}Freeze Defense Dropping\n*[[File:SledgerLevel2.png|20px|Sledger Ice Breaker]][[Sledger]] Ice Breaker\n{{Boss}}[[Boss]]:\n*{{Freeze|Freeze}}Freeze\n*{{Freeze|Partial Chillness}}Partial Chillness\nTowers & Units:\n*{{Freeze|Enemy Freeze}}Enemy Freeze\n|sandbox = No\n|tag = {{AttrTag|Second|Freeze.png|No Freeze}}\n}}\n==Description==\n'''Freeze Immunity''' (with its tag referring to it as \"''No Freeze''\")  is an immunity that prevents the enemy from being frozen and chilled. For towers and units, it prevents them from being frozen.\n\n==Mechanics==\n'''Freeze Immunity''' makes it so that the enemy cannot be frozen. Additionally, it stops the enemy from being chilled by them. Because of its chillness immunity, it also prevents the enemies from having their defense dropped by freezing towers. Additionally, as the [[Sledger]] deals double damage to frozen or chilled enemies, it cannot deal double damage to them. Larger enemies are also frozen for a shorter amount of time than average sized enemies.\n\nThe following towers/consumables become unable to apply these freeze based effects to '''Freeze Immune''' enemies:\n*[[Freezer]]\n*[[Frost Blaster]]\n*[[Sledger]]\n*[[Jester]]\n*[[Cryomancer]]\n*[[Snowballer]]\n*[[Elementalist]]\n*[[Blizzard Bomb]]\n*[[Pumpkin Bomb]]\n*[[Santa's Air Strike]]\n*[[Ducky Squad]] ([[Ice Ducky]])\n\n'''Freeze Immunity''' is given to all [[Boss]] enemies, though that immunity is different from the regular one. Both version are immune to being frozen, however, it is only partially immune to chillness. It is slowed down less by chillness, but it is not immune to it. This means that bosses can have their defense dropped and can be dealt double damage to by the [[Sledger]], as long as the enemy does not have the regular '''Freeze Immunity'''.\n\n'''Freeze Immunity''' also used to prevent enemies from being slowed down from frost mark while it was still in the game.\n\nWhile the [[Freezer]] dealt splash damage, it could not freeze any enemy with [[Splash Damage Immunity]]. However, these enemies could still be frozen by the [[Frost Blaster]] or through its ''Ice Age'' ability.\n\nBefore the [[Release v1.0|MEGA Update]], there was an additional type of '''Freeze Immunity''', referred to as '''Basic Freeze'''. These enemies could not be frozen by the [[Freezer]]'s main attack, but could be frozen through its ''Ice Drop'' ability.\n\n===Towers===\nCertain towers and units also have the '''Freeze Immunity''', which prevents them from being frozen, though it does not prevent them from being targeted. An [[Unstable Ice]] from the [[Operation I.C.E Event]] will still target a freeze immune [[Molten Monster]], even though it not only deals no damage but also does not freeze it.\n\n==Enemy List==\nThe following enemies have '''Freeze Immunity''':\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Elite Molten]]\n*[[Tanker]]\n*[[Molten Summoner]]\n*[[Giant Boss]]\n*[[Summoner Boss]]\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Hazardous]]\n*[[Amalgamation]] (Modern version)\n*[[Circuit (Polluted Wasteland II)|Circuit]] (Modern [[Polluted Wasteland II]] version)\n*[[Abomination]] (Legacy version)\n*[[Super Toxic]] (Modern version)\n*[[Necromancer King]]\n*[[Nuclear Guardian]]\n*[[Conjurer]]\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Cavalry]] (Modern version)\n*[[Patient Zero]]\n*[[Awakened Fallen King]]\n*[[Molten Hazmat]]\n*[[Blizzard Wizard]]\n*[[Frost Ravager]] (With shield)\n*[[Deep Freeze]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Void Reaper]]\n*[[Mandragora]]\n*[[Slow King]] (Modern version, with Forcefield)\n*[[Crystalian]]\n*[[Void Trickster]]\n*[[Void Portal]]\n*[[Void Cultist]]\n*[[Healing Beacon]]\n*[[Void Eye]]\n*[[Void Knight]]\n*[[Void Guardian]]\n*[[Golden Mystery]]\n\nAll [[Boss]] enemies have their own varian"
+      "title": "Demoman",
+      "score": 3,
+      "pageid": 239,
+      "latest_revid": 642673,
+      "latest_timestamp": "2026-09-05T15:26:49Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Demoman|Perk = Golden Demoman}}\n{{SameName|Demoman|'''Tower''' • [[Demoman (Narrator)|Narrator]]}}\n{{TowerInfobox\n|title = Demoman\n|image-static = DefaultDemomanIcon2.png\n|image-dynamic = DemomanDynamic.png\n|unlockcost = {{Coins|200}}\n|role = Offense\n|placement = Ground\n|basecost = {{Money|700}}\n|basesellingprice = {{Money|233}}\n|basedamage = [[File:SplashDamage.png|20px|Damage]]8\n|damagetype = [[Splash Damage|Splash]]\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]2.6\n|baserange = [[File:Range Icon.png|20px|Range]]10<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>\n|immune = None\n|footprint = 1.5\n|pvp_basecost = {{Money|575}}\n|pvp_basesellingprice = {{Money|191}}\n|pvp_basedamage = [[File:SplashDamage.png|20px|Damage]]6\n|pvp_damagetype = [[Splash Damage|Splash]]\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.75\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]9<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)\n|pvp_hidden_detection = N/A<ref>Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies.</ref>\n|pvp_lead_detection = {{Attr|Lead|Level 0+}}\n|pvp_flying_detection = N/A<ref name=fd/>\n|pvp_immune = None\n|pvp_footprint = 1.5\n|tooltip-1 = A cheap AOE tower with a slow rate of fire and moderate damage and splash radius.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Ka-boooom! A great early game splash tower.|Store Description}}\n|-|Version 2 =\n{{QuoteBox|Ka-boooom! A great splash damage tower for beginners!|Former Store Description}}\n|-|Version 3 =\n{{QuoteBox|Ka-boooom!|Former Store Description}}\n</tabber>\n}}\n__TOC__\n==Description==\nThe '''Demoman''' is a starter splash damage tower that can be bought in the store for {{Coins|200}}. While targeting a specific enemy, it will also affect those around the target, dealing splash damage. \n\nAt Levels 0-2, the '''Demoman''' takes one second to aim at an enemy before throwing its explosive grenades. This only affects the damage for the first throw, as it means the '''Demoman''' has to wait a second before throwing it. While it is aiming, it will focus on one enemy until it throws its explosive grenade, after which it can target a different one. If the targeted enemy dies, the '''Demoman''' will continue targeting it, though its grenade will not land where it died, it will throw it further away, which is generally the area where the enemy would have travelled to if it did not die. The '''Demoman''' will also continue to aim at that enemy even if it leaves its range, allowing it to attack outside of its range. After the first throw, while the '''Demoman''' still aims, this does not affect its firerate. The explosion caused by the '''Demoman''' does not have damage drop-off. The '''Demoman''' can also damage [[Lead (Attribute)|Lead]] enemies.\n\nThe '''Demoman''' is great for large hordes of non-boss enemies, except for those immune to splash damage. It is relatively weak against major bosses, though it can be useful in tackling the enemies that spawn from some major bosses. The '''Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for swarm-clearing when multiple are placed down.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Throwing|Cost = {{Money|300}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]\n\n2.6 > 1.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price chan"
     },
     {
-      "title": "Freezer",
-      "score": 1,
-      "pageid": 185,
-      "latest_revid": 648535,
-      "latest_timestamp": "2026-09-09T19:35:44Z",
-      "wikitext_excerpt": "{{Tabs}}\n{{For|[[Frost Blaster]]|[[Null Freezer]]}}\n{{TowerInfobox\n|title = Freezer\n|image-static = ReworkedFreezerIcon.png\n|image-dynamic = FreezerDynamic.png\n|unlockcost = {{Coins|650}}\n|basecost = {{Money|450}}\n|basesellingprice = {{Money|150}}\n|role = Defense\n|placement = Ground\n|basedamage = [[File:Damage Icon.png|20px|Damage]]2\n|damagetype = Single<br/>Burst (Level 3+)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55\n|baserange = [[File:Range Icon.png|20px|Range]]12\n|hidden_detection = {{Attr|Hidden|Level 2+}}\n|lead_detection = {{Attr|Lead|Level 0+}}\n|flying_detection = N/A\n|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]\n|immune = None\n|footprint = 1.5\n|pvp_basecost = {{Money|450}}\n|pvp_basesellingprice = {{Money|150}}\n|pvp_role = Defense\n|pvp_placement = Ground\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1\n|pvp_damagetype = Single<br/>Burst (Level 3+)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]12\n|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}\n|pvp_lead_detection = N/A\n|pvp_flying_detection = N/A\n|pvp_immune = None\n|pvp_footprint = 1.5\n|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}\n|-|Version 3 =\n{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}\n|-|Version 2 =\n{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}\n|-|Version 1 =\n{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.\n\nThe '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.\n\nAt Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.\n\nThe '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.\n\nThe '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Max Slowdown [[File:Slowness.png|20px|Ma"
+      "title": "Demoman/Gallery",
+      "score": 3,
+      "pageid": 10996,
+      "latest_revid": 646937,
+      "latest_timestamp": "2026-09-08T16:28:06Z",
+      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|{{UpgradeIcons\n|[[File:Demoman Upgrade 1 New.png|150px]]\n|[[File:Demoman Upgrade 1 New.png|150px]]\n|[[File:Demoman Upgrade 2 New.png|150px]]\n|[[File:NewDemomanLevel3.png|150px]]\n}}\n|21 March 2023 – 11 March 2026\n|{{UpgradeIcons\n|[[File:Transparent.png|150px]]\n|[[File:Demoman Upgrade 1 New.png|150px]]\n|[[File:Demoman Upgrade 2 New.png|150px]]\n|[[File:NewDemomanLevel3.png|150px]]\n}}\n|21 December 2022 – 21 March 2023\n|{{UpgradeIcons\n|[[File:Demoman_Upgrade_1.png|150px]]\n|[[File:Demoman Upgrade 1 New.png|150px]]\n|[[File:Demoman Upgrade 2 New.png|150px]]\n|[[File:NewDemomanLevel3.png|150px]]\n}}\n|29 October 2020 – 21 December 2022\n|{{UpgradeIcons\n|[[File:Transparent.png|150px]]\n|[[File:Demoman Upgrade 1 New.png|150px]]\n|[[File:Demoman Upgrade 2 New.png|150px]]\n|[[File:NewDemomanLevel3.png|150px]]\n}}\n|Hardcore Testing\n|{{UpgradeIcons\n|[[File:Demoman Upgrade 1 New.png|150px]]\n|[[File:Demoman Upgrade 2 New.png|150px]]\n|[[File:NewDemomanLevel3.png|150px]]\n|[[File:Demoman Upgrade 4 New.png|150px]]\n|[[File:Demoman Upgrade 5 New.png|150px]]\n}}\n|14 June 2019 – 29 October 2020\n|{{UpgradeIcons\n|[[File:Common1Image.png|150px]]\n|[[File:Demoman2.png|150px]]\n|[[File:Demoman3.png|150px]]\n|[[File:Demoman4.png|150px]]\n|[[File:Demoman5.png|150px]]\n}}\n}}\n\n==Skin Upgrades==\nThe '''Demoman''' has fifteen skins in total. These include:\n#The Default skin.\n#Ten skins that can be unlocked from [[skincrates]].\n#Three skins that can be unlocked from [[Passes]].\n#One skin that can be unlocked from triumphing a limited-time map.\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultDemomanIconIGAug26.png|128px]]\n|[[File:M23DefaultDemoman0.png|200px]]\n|Dark skin, grey torso, sleeves and pants, dark grey vest, and black cap and shoes.\n\nWields an MK2 grenade to attack enemies.\n|[[File:M23DefaultDemoman1.png|200px]]\n|Black gloves.\n|[[File:M23DefaultDemoman2.png|200px]]\n|Now wields a steil grenade.\n|[[File:M23DefaultDemoman3.png|200px]]\n|Now wields a Chinalake grenade launcher.\n|[[File:M23DefaultDemoman4.png|200px]]\n|Black helmet with an opaque/translucent visor, black shoulder-pads and explosive shell bandoliers.\n}}\n|Green\n|The {{Color|Basic|Green}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Green}}\n|Icon1 = [[File:GreenDemomanIconIGAug26.png|128px]]\n|[[File:ImprovedAngleDemoG0.png|200px]]\n|Dark skin, green torso, sleeves and cap, grey pants, dark grey vest, and black shoes.\n\nWields an MK2 grenade to attack enemies.\n|[[File:ImprovedAngleDemoG1.png|200px]]\n|Black gloves.\n|[[File:ImrpovedAngleDemoG2.png|200px]]\n|Now wields a steil grenade.\n|[[File:ImprovedAngleDemoG3.png|200px]]\n|Now wields a Chinalake grenade launcher.\n|[[File:ImprovedAngleDemoG4.png|200px]]\n|Black helmet with an opaque/translucent visor, black shoulder-pads and explosive shell bandoliers.\n}}\n|Blue\n|The {{Color|Basic|Blue}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Blue}}\n|Icon1 = [[File:BlueDemomanIconIGAug26.png|128px]]\n|[[File:M23BlueDemoman0.png|200px]]\n|Dark skin, blue torso, cap and sleeves, grey pants, dark grey vest, and black shoes.\n\nWields an MK2 grenade to attack enemies.\n|[[File:M23BlueDemoman1.png|200px]]\n|Black gloves.\n|[[File:M23BlueDemoman2.png|200px]]\n|Now wields a steil grenade.\n|[[File:M23BlueDemoman3.png|200px]]\n|Now wields a Chinalake grenade launcher.\n|[[File:M23BlueDemoman4.png|200px]]\n|Black helmet with an opaque/translucent visor, black shoulder-pads and explosive shell bandoliers.\n}}\n|Military\n|The {{Color|Basic|Military}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Military}}\n|Icon1 = [[File:MilitaryDemomanIconIGAug26.png|128px]]\n|[[File:M23MilitaryDemoman0.png|200px]]\n|Dark skin, green tank top and cap, dark green belt and pants, dog tags and black shoes.\n\nWields an MK2 grenade to attack enemies. \n|[[File:"
     },
     {
-      "title": "Hidden (Attribute)",
-      "score": 1,
-      "pageid": 42676,
-      "latest_revid": 639554,
-      "latest_timestamp": "2026-09-03T13:24:38Z",
-      "wikitext_excerpt": "{{SameName|Hidden|[[Hidden (Attribute)|Attribute]] • [[Hidden|Enemy]]}}\n{{For|the [[Hidden Boss]]|[[Hidden Zoomer]]}}\n{{AttributeInfobox\n|title1 = Hidden\n|image1 = HiddenDetection.png\n|type = Enemy Type\n|detection = Hidden Detection\n|effects = Translucent Body\n|sandbox = Yes\n|tag = {{AttrTag|Second|HiddenDetection.png|Hidden}}\n}}\n==Description==\n'''Hidden''' is an enemy type that makes the enemy require hidden detection to be targeted.\n\n==Mechanics==\nEnemies that are '''Hidden''' cannot be detected by towers that do not have hidden detection. They may be indirectly damaged by towers that do not have hidden detection by collision with [[units]] or by being caught in an explosive radius, for example. The appearance of '''Hidden''' enemies are also affected, in which they will have a transparency. These following towers have hidden detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Hidden Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Paintballer]]\n| class=\"yes-table\" |Full<ref>At Level 0, its splash damage can indirectly damage '''Hidden''' enemies.</ref>\n|Level 1+\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full<ref>From Level 0+, its splash damage can indirectly damage '''Hidden''' enemies, but this tower cannot directly target '''Hidden''' enemies until Level 3.</ref>\n|Level 3+<br/>N/A ([[PVP]])\n|-\n|[[Boomerang]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies if hit by the boomerang, but they cannot be targeted.</ref>\n|N/A\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Soldier]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Shotgunner]]\n| class=\"yes-table\" |Full<ref>Its piercing can indirectly damage '''Hidden''' enemies.</ref>\n|Level 2+\n|-\n|[[Freezer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Assassin]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 3+<br/>Level 1+ ([[PVP]])\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 4+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies with thorns generated, if a [[Harvester]] is also used in the match.</ref>\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full<ref>Its chain attack can indirectly target '''Hidden''' enemies before Level 2.</ref>\n|Level 2+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Trapper]]\n| class=\"no-table\" |None<ref>Despite not having hidden detections, its traps can deal damage to '''Hidden''' enemies.</ref>\n|N/A\n|-\n|[[Military Base]]\n| class=\"yes-table\" |Full<ref>Can deal damage to enemies with collisions for Level 0-2.</ref>\n|Level 3+\n|-\n|[[Crook Boss]]\n| class=\"yes-table\" |Full<ref>Its unit can target '''Hidden''' enemies at Level 0.</ref>\n|Level 2+ (Tower)<br/>Level 0+ (Units)\n|-\n|[[Commander]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Cowboy]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 3+ ([[PVP]])\n|-\n|[[DJ Booth]]\n| class=\"no-table\" |None<ref>At Level 3, its pulses can indirectly hit hidden enemies if they are in its range, though the actual tower cannot detect them.</ref>\n|N/A\n|-\n|[[Tesla]]\n| class=\"no-table\" |None<ref>Its lightning can damage '''Hidden''' enemies by chaining to them, but the tower itself cannot directly target them.</ref>\n|N/A\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Minigunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ranger]]\n| class=\"no-table\" |None<ref>Only its splash damage can indirectly hit hidden enemies. The tower itself can never directly target them.</ref>\n|N/A\n|-\n|[[Pursuit]]\n| class=\"yes-table\" |Full\n|Level 4B+\n|-\n|[[Gatling Gun]]\n| class=\"yes-table\" |Full<ref>When controlled by the player, the Gatling Gun"
+      "title": "Demoman/History",
+      "score": 3,
+      "pageid": 28798,
+      "latest_revid": 618585,
+      "latest_timestamp": "2026-08-18T21:37:11Z",
+      "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Kingpin Update (17 July 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:DefaultDemomanIcon2.png|100px]]\n|Unlock Cost = {{Coins|200}}\n|Category = Starter\n|Role = Offense\n|Cost = {{Money|700}}\n|Footprint = 1.5\n|Sell Price = {{Money|233}}\n|Placement Type = Ground\n|Damage = [[File:SplashDamage.png|20px|Damage]]8\n|Damage Type = [[Splash Damage|Splash]]\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]2.6\n|Hidden = {{Hidden|Hidden Detection}}Level 2+<ref>Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower cannot directly target hidden enemies until Level 3.</ref>\n|Range = [[File:Range Icon.png|20px|Range]]10<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)\n|Lead = {{Lead|Lead Detection}}Level 0+\n|Placement = N/A\n|Fly = N/A<ref name=\"fly\">Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>\n|Title1 = Aim Time\n|Stat1 = [[File:Cooldown Icon.png|20px|Aim Time]]1\n|PVP Cost = {{Money|575}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|191}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:SplashDamage.png|20px|Damage]]6\n|PVP Damage Type = [[Splash Damage|Splash]]\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]1.75\n|PVP Hidden = N/A<ref name=\"hidden\"/>\n|PVP Range = [[File:Range Icon.png|20px|Range]]9<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)\n|PVP Lead = {{Lead|Lead Detection}}Level 0+\n|PVP Placement = N/A\n|PVP Fly = N/A<ref name=\"fly\"/>\n|PVP Title1 = Aim Time\n|PVP Stat1 = [[File:Cooldown Icon.png|20px|Aim Time]]1\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Throwing|Cost = {{Money|300}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]\n\n2.6 > 1.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|33}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Ullapool Caber|Cost = {{Money|950}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|650}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Loch-n-Load|Cost = {{Money|2,400}}|Image = [[File:Demoman Upgrade 2 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]\n\n1.9 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+7 Damage [[File:SplashDamage.png|20px|Damage]]\n\n1 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]\n\n5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n+Faster Projectile\n\n\nSell Price changes to {{Money|1,450}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Expert's Ordnance|Cost = {{Money|5,500}}|Image = [[File:NewDemomanLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]\n\n1.5 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n\nSell Price changes to {{Money|3,283}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Further{{sic}} Throwing|Cost = {{Money|150}}|Image = [[File:Transparent.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]\n\n1.75 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|241}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Steil Grenade|Cost = {{Money|500}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n4.5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n\nSell Price changes to {{Money|408}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Chinalake|Cost = {{Money|1,500}}"
     },
     {
-      "title": "Lead (Attribute)",
-      "score": 1,
-      "pageid": 42673,
-      "latest_revid": 639551,
-      "latest_timestamp": "2026-09-03T13:18:18Z",
-      "wikitext_excerpt": "{{SameName|Lead|[[Lead (Attribute)|Attribute]] • [[Lead (Legacy Enemy)|Legacy Enemy]] • [[Lead|Modern Enemy]]}}\n{{For|the [[Lead Boss]]|[[Lead Balloon]]}}\n{{AttributeInfobox\n|title1 = Lead\n|image1 = LeadIcon.png\n|type = Enemy Type\n|detection = Lead Detection\n|immunities = Damage\n|sandbox = Yes\n|tag = {{AttrTag|Second|LeadIcon.png|Lead}}\n}}\n==Description==\n'''Lead''' is an enemy type that prevents the enemy from being damaged by any tower that does not have lead detection.\n\n==Mechanics==\n'''Lead''' enemies cannot be damaged by any tower without lead detection, though despite what the detection name suggests, they can still be targeted by towers without it unless other attributes prevent the tower from doing so. Only towers with lead detection can damage them. By default, [[Splash Damage]] (except [[Paintballer]]), fire damage and collision damage all have lead detection. Some towers cannot damage lead enemies with all their attacks as only some of them have it, such as the [[Archer]] not being able to damage ''Lead'' enemies with its arrows, but still being able to damage them through its burn. These following towers have lead detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Lead Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Slime Trooper]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Soldier]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Shotgunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Freezer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Hunter]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Ace Pilot]]\n| class=\"neutral-table\" |Partial<ref name=\"splash\">Splash damage only.</ref>\n|Level 2+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Trapper]]\n| class=\"yes-table\" |Full<ref>While the [[Trapper]] itself does not have lead detection, all of its traps can damage lead enemies.</ref>\n|Level 0+\n|-\n|[[Military Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\">Collision and splash damage only.</ref>\n|Level 0+\n|-\n|[[Crook Boss]]\n| class=\"neutral-table\" |Partial<ref name=\"col\">Collision damage only.</ref>\n|Level 0+\n|-\n|[[Commander]]\n| class=\"neutral-table\" |Partial<ref>Tower, splash and collision damage only.</ref>\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Cowboy]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Tesla]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[DJ Booth]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Minigunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ranger]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 0+ ([[PVP]])\n|-\n|[[Pursuit]]\n| class=\"neutral-table\" |Partial<ref>Missiles only. Bullets do not damage '''Lead''' enemies.</ref>\n|Level 3+\n|-\n|[[Gatling Gun]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Turret]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Mortar]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Mercenary Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Brawler]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Necromancer]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Accelerator]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Engineer]]\n| class=\"neutral-table\" |Partial<ref>Tower and splash damage only. Sentries are also able to damage them through their main gun, but that is a bug.</ref>\n|Level 0+\n|-\n|[[Hacker]]\n| class=\"neutral-table\" |Partial<ref>Converted enemy collision only.</ref>\n|Level 0+\n|-\n|[[Opera"
+      "title": "Golden Body Guard",
+      "score": 3,
+      "pageid": 30804,
+      "latest_revid": 414874,
+      "latest_timestamp": "2026-05-05T13:50:03Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guards 1]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guard]]}}\n{{UnitInfobox\n|title1 = Golden Body Guard\n|image1 = GBodyGuard.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]50s (Level 1)<br/>[[File:VehicleSpawn.png|20px|Spawnrate]]40s (Level 2)\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.625\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guard''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 1 or Level 2. In the game, the '''Golden Body Guard''' was referred to as just '''Body Guard''', though it has been referenced here as '''Golden Body Guard''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moves towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guard''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guard''' had a spawnrate of 50 seconds, 40 seconds if the [[Golden Crook Boss]] was Level 2.\n\nThere was a limit of one unit per [[Golden Crook Boss]] at Levels 1 and 2, limiting the amount of '''Golden Body Guards''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guard''' had pale skin. It had black legs, and wore brown cotton gloves, a black buttoned tuxedo with short yellow sleeves that had dark brown outlines and grey shoes. It also wore a black necktie and was faceless. It also had a yellow briefcase on its back. The '''Golden Body Guard''' wielded a [[wp:Luger pistol|Luger P08]] in its right hand.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guard''' because of its slow spawnrate.\n*You will need to wait 50 seconds for a '''Golden Body Guard''' to spawn if you place down a [[Golden Crook Boss]] and immediately upgrade it to Level 1.\n*The '''Golden Body Guard''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]]. However, this is not recommended due to the low health of the '''Golden Body Guard'''.\n**Do note that the '''Golden Body Guard's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guard''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guard''' collides with them. However, this is likely unfavorable as the '''Golden Body Guard's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guard''' hidden detection.\n**The '''Golden Body Guard''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guard''' will spawn per Level 1 or 2 [[Golden Crook Boss]].\n**Like other units, the '''Golden Body Guard''' will go down a random path.\n*The '''Golden Body Guard''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guard''' without taking much damage from its ranged attack.\n*The '''Golden Body Guard''' is not affected by any buff or debuff as it is a unit.\n*The '''Golden Body Guard''' will struggle against any enemy with abilities that damage units due to its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guard''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*The '''Golden Body Guard''' was duplicated for the Level 3 [[Golden Crook Boss]] [[Units|unit]], the [[Golden Body Guards 1]], though there are minor differences in appearan"
     },
     {
-      "title": "Ranger",
-      "score": 1,
-      "pageid": 193,
-      "latest_revid": 627636,
-      "latest_timestamp": "2026-08-26T12:07:04Z",
-      "wikitext_excerpt": "{{Tabs}}\n{{TowerInfobox\n|title = Ranger\n|image-static = Newranger.png\n|image-dynamic = RangerDynamic.png\n|unlockcost = {{Coins|12,000}}\n|role = Defense\n|placement = Cliff\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|basecost = {{Money|4,500}}\n|basesellingprice = {{Money|1,500}}\n|basedamage = [[File:Damage Icon.png|20px|Damage]]100\n|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]6\n|baserange = [[File:Range Icon.png|20px|Range]]70\n|hidden_detection = N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>\n|lead_detection = {{Attr|Lead|Level 2+}}\n|flying_detection = {{Attr|Flying|Level 0+}}\n|immune = Stun\n|footprint = 1.5\n|pvp_basecost = {{Money|2,000}}\n|pvp_basesellingprice = {{Money|666}}\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]40\n|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]3\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]50\n|pvp_hidden_detection = N/A<ref name=\"hd\"/>\n|pvp_lead_detection = {{Attr|Lead|Level 0+}}\n|pvp_flying_detection = {{Attr|Flying|Level 0+}}\n|pvp_immune = Stun\n|pvp_footprint = 1.5\n|tooltip-1 = An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.\n|tooltip-2 = Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.\n|tooltip-3 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Precision is key. Deals exceptional damage at nearly infinite range.|Current Store Description}}\n|-|Version 3 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage.|Former Store Description}}\n|-|Version 2 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage with a railgun.|Former Store Description}}\n|-|Hardcore Testing =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage with a railgun.|Former Store Description}}\n|-|Original =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage.|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Ranger''', formerly known as the '''Outlaw''', is an advanced cliff [[Towers|tower]] with long range that can be purchased in the store for {{Coins|12,000}}.\n\nThe '''Ranger''' deals high damage with very long range but has a slow firerate. As a cliff tower, it can detect [[Flying]] enemies, but cannot detect hidden enemies at any level. The '''Ranger''' can also damage lead enemies at Level 2+. Additionally, it is immune to all stuns by default. At Level 2, it gains the ability to give towers a 10% [[Range Buff]] within its inner radius at the start of every wave for 20 seconds. At Level 4, it also deals splash damage through its ''Explosive Impact''.\n\nThe '''Ranger''' deals extremely high damage at higher levels, but is expensive to upgrade to these levels. Due to these reasons, it is considered a mid-to-late game tower and is most effective for harder gamemodes.\n\nThe '''Ranger''' has a placement limit of eight per player.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Mone"
+      "title": "Golden Body Guards 1",
+      "score": 3,
+      "pageid": 30805,
+      "latest_revid": 414873,
+      "latest_timestamp": "2026-05-05T13:49:39Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 2]]|its normal counterpart, the [[Body Guards 1]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GBodyGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoids\n|health = [[File:HealthIcon.png|20px|Health]]10\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]40s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]3\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]20\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n\n==Description==\nThe '''Golden Body Guards 1''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 3. In the game, the '''Golden Body Guards 1''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 1''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 1''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 1''' had a spawnrate of 40 seconds.\n\nThere was a limit of two units per [[Golden Crook Boss]] at Level 3, limiting the amount of '''Golden Body Guards 1s''' it could spawn.\n\n==Appearance==\nThe '''Golden Body Guards 1''' were made up of two humanoids that were nearly identical to each other. They had pale skin, black pants, brown cotton gloves, a black buttoned tuxedo with a golden shirt underneath and grey shoes. One of them also wore a blue necktie, while the other a red necktie, and were faceless. One of them also had a yellow briefcase on its back. The '''Golden Body Guards 1''' wield a [[wp:Luger pistol|Luger P08]] in their right hands.\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 1''' because of its slow spawnrate.\n*You will need to wait 40 seconds for a '''Golden Body Guards 1''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 3.\n*The '''Golden Body Guards 1''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 1's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 1''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 1''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 1's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 1''' hidden detection.\n**The '''Golden Body Guards 1''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 1''' will spawn per Level 3 [[Golden Crook Boss]].\n**The '''Golden Body Guards 1''' will go down a random path.\n*The '''Golden Body Guards 1''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''GoldenBody Guard 2''' without taking much damage.\n*The '''Golden Body Guards 1''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 1''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 1''' is caught in the attack, it is instantly killed.\n\n==Update History==\n{{scroll|text =\n*'''13 May 2022''' - [[v1.2.2]]\n**'''GoldenGuard2''' added.\n**{{Bug}} '''GoldenGuard2's''' range can be increased by the [[DJ Booth]].\n**{{Bug}} '''GoldenGuard2''' uses an incorrect name in-game.\n**{{Bug}} You can collide with the '''GoldenGuard2's''' briefcase.\n*'''21 May 2022'"
     },
     {
-      "title": "Splash Damage Immunity",
-      "score": 1,
-      "pageid": 42674,
-      "latest_revid": 552158,
-      "latest_timestamp": "2026-07-13T21:04:28Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Explosion.png\n|type = Immunity\n|immunities = [[File:Explosion.png|20px|Splash Damage]][[Splash Damage]]\n|sandbox = No\n|tag = {{AttrTag|Second|Explosion.png|No Explosion}}\n}}\n==Description==\n'''Splash Damage Immunity''' (with its tag referring to it as \"''No Explosion''\"), also referred to as '''Explosion Immunity''', is an immunity that prevents the enemy from being damaged by most forms of [[Splash Damage]].\n\n==Mechanics==\n'''Splash Damage Immunity''' makes enemies immune to [[Splash Damage]]. However, some towers that deal such damage can also deal non-splash damage, which can harm enemies with this immunity as long as they do not have any other attributes that could prevent the tower from doing so. While most forms of [[Splash Damage]] do not deal damage to it, there are some exceptions to this, such as the [[Paintballer]], which is likely due to the game not registering it as dealing explosive damage. If the tower dealing damage has [[Stun Immunity]], explosion damage dealt to the enemy will receive explosion damage from it, but it will be converted to energy. As of currently, this immunity is not used in the game, outside of occasional events which include enemies with this immunity.\n\nPrior to the 24th of December 2019, splash damage did minimal damage to enemies with ''Splash Damage Immunity''. This was because if the enemy was directly targeted by splash damage (called direct damage), they would be damaged. However they would not be damaged if they were not directly targeted, even if they were in the explosion radius. The [[Freezer]] could still deal direct damage until the [[Overhaul v1.0|Overhaul Update]], where its [[Splash Damage]] was removed, though it could not freeze the enemies with its projectile.\n\n==Enemy List==\nThe following event enemies had '''Splash Damage Immunity''':\n*[[Raider Boss]] ([[Area 51]])\n*[[Ghost (Nightmare Carnival)|Ghost]] ([[Nightmare Carnival]])\n*[[Present (Village of Despair)|Present]] ([[Village of Despair]])\n*[[Ghost (Trick or Threat Town)|Ghost]] ([[Trick or Threat Town]])\n*[[Ghost (Solar Eclipse)|Ghost]] ([[Solar Eclipse Event|Solar Eclipse]])\n*[[Wraith]] ([[Solar Eclipse Event|Solar Eclipse]])\n*[[Ghost Knight]] ([[Solar Eclipse Event|Solar Eclipse]])\n*[[Hallow Guard (Lunar Overture)|Hallow Guard]] ([[Lunar Overture Event|Lunar Overture]])\n*[[Eclipsed (Nil Zone)|Eclipsed]] ([[Nil Zone]])\n*[[Actor2 (Nil Zone)|Actor2]] ([[Nil Zone]], [[The Final Act Event|The Final Act]])\n*[[Projector]] ([[The Final Act Event|The Final Act]])\n*[[Evil Ducky (Ducky Revenge)|Evil Ducky]] ([[Ducky Revenge Event|Ducky Revenge]])\n\nThe following event enemies can spawn with '''Splash Damage Immunity''' but do not have it by default:\n*[[Null Scout]] ([[Null & Void Event|Null & Void]])\n*[[Null Crook Boss]] ([[Null & Void Event|Null & Void]])\n*[[Null Pyromancer]] ([[Null & Void Event|Null & Void]])\n*[[Null Medic]] ([[Null & Void Event|Null & Void]])\n\nThe following [[Sandbox Mode|Sandbox]] mode exclusive enemies have '''Splash Damage Immunity''':\n*[[Golden]]\n*[[24 Karat]]\n*[[Gold Titan]]\n\nThe following enemies once had '''Splash Damage Immunity''', but now no longer have it:\n*[[Fallen]]\n*[[Fallen Hero (Legacy)|Fallen Hero]] (Legacy version)\n*[[Gold Guard]]\n\nThe following removed enemies had '''Splash Damage Immunity''':\n*[[Shrike Crystal]]\n*[[Nuclear Fallen King]]\n\n==Tower & Unit List==\nAlthough no known use on towers for this attribute exists, the following towers used to have '''Splash Damage Immunity''':\n*[[Golden Snowballer]]\n\n==Update History==\n*'''2 August 2019''' - [[BETA v1.7|BETA v1.7.0]]\n**'''Splash Damage Immunity''' added.\n**{{Bug}} '''Splash Damage Immunity''' does not interact correctly with explosion damage from sources with the [[Stun Immunity]].\n*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]\n**'''Splash Damage Immunity''' now prevents enemies from being frozen by the [[Freezer]], as it deals [[Splash Damage]].\n*'''29 October 2020'''  - [[Overhaul v1.0|Overhau"
+      "title": "Golden Body Guards 2",
+      "score": 3,
+      "pageid": 30806,
+      "latest_revid": 414872,
+      "latest_timestamp": "2026-05-05T13:49:28Z",
+      "wikitext_excerpt": "{{Removed|date = 10th of February 2024}}\n{{For|the [[Golden Body Guard]]|[[Golden Body Guards 1]]|its normal counterpart, the [[Body Guards 2]]}}\n{{UnitInfobox\n|title1 = Golden Body Guards\n|image1 = GGuards2.png\n|source = [[Golden Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]50\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]35s\n|damage_type = Single<br/>Collision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]4\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.175\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = 4\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Body Guards 2''' was a [[Units|unit]] spawned by the [[Golden Crook Boss]] at Level 4. In the game, the '''Golden Body Guards 2''' was referred to as just '''Body Guards''', though it has been referenced here as '''Golden Body Guards 2''' to differentiate itself from other [[Crook Boss]] and [[Golden Crook Boss]] units. As with other [[units]], it started from the end of the map path and moved towards the entrance of the map.\n\nWhenever there was an enemy in its range, the '''Golden Body Guards 2''' would stop moving to shoot at the enemies. It would continue walking when there were no enemies left in its range. The '''Golden Body Guards 2''' had a spawnrate of 35 seconds.\n\nThere was a limit of three units per [[Golden Crook Boss]] at Level 4, limiting the amount of '''Golden Body Guards 2s''' it could spawn.\n\n==Appearance==\n<tabber>\n|-|First Body Guard =\nThe body guard to the left of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a red necktie, grey shades, black fedora with a red stripe, grey shoes and brown cotton gloves. It was faceless. The body guard wielded an [[wp:Thompson submachine gun|M1A1 Thompson]].\n|-|Second Body Guard =\nThe body guard to the right of the direction of movement had pale skin. It had black legs and buttoned tuxedo with a yellow undershirt and sleeves with brown outlines. It also wore a blue necktie, grey shades, and grey shoes. It has a brown beard. It is also faceless. The body guard wields an [[wp:Thompson submachine gun|M1A1 Thompson]].\n</tabber>\n\n==Strategy==\n*You should not rely too much on the '''Golden Body Guards 2''' because of its slow spawnrate.\n*You will need to wait 35 seconds for a '''Golden Body Guards 2''' to spawn if you place down a [[Crook Boss]] and immediately upgrade it to Level 4.\n*The '''Golden Body Guards 2''' can deal full collision damage to enemies with [[defense]], like the [[Giant Boss]].\n**However, the '''Golden Body Guards 2's''' ranged damage is still affected by enemies with [[defense]].\n*The '''Golden Body Guards 2''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Body Guards 2''' collides with them. However, this is likely unfavorable as the '''Golden Body Guards 2's''' damage comes primarily from firing at enemies rather than collision.\n**The [[Ace Pilot]] cannot give the '''Golden Body Guards 2''' hidden detection.\n**The '''Golden Body Guards 2''' cannot collide with ghost enemies, like the [[Soul]].\n*On maps with multiple paths, only one '''Golden Body Guards 2''' will spawn per Level 4 [[Golden Crook Boss]].\n**The '''Golden Body Guards 2''' will go down a random path.\n*The '''Golden Body Guards 2''' will struggle against fast enemies, like the [[Shock]] or [[Glitch]], as they can run into the '''Golden Body Guards 2''' without taking much damage.\n*The '''Golden Body Guards 2''' is not affected by any buff or debuff.\n*The '''Golden Body Guards 2''' will struggle against any enemy with abilities that damage units, because of its low health.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Body Guards 2''' is caught in the attack, it is instantly killed.\n\n==U"
     },
     {
-      "title": "Stun Immunity",
-      "score": 1,
-      "pageid": 42530,
-      "latest_revid": 648213,
-      "latest_timestamp": "2026-09-09T14:52:14Z",
-      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Energy.png\n|type = Immunity\n|variants = Regular<br/>{{Attr|Boss}}\n|immunities = Regular:\n*{{Stun}}Stun\n*{{Knockback}}Knockback\n{{Boss}}[[Boss]]:\n*{{Stun}}Stun\n*{{Stun|Partial Stun Slowdown}}Partial Stun Slowdown\n*{{Knockback}}Knockback\nTowers:\n*{{Stun|Enemy Stuns}}Enemy Stuns\n*Enemy Targeting\n|sandbox = No\n|tag = {{AttrTag|second|Energy.png|No Stun}}\n}}\n==Description==\n'''Stun Immunity''' (referred to as \"''No Stun''\" on its tag) is an immunity that prevents the enemy from being stunned and knocked back. For towers, it fully or partially prevents them from being stunned and targeted by enemies.\n\n==Mechanics==\n'''Stun Immunity''' makes it so that any enemy with it cannot be stunned/shocked by towers. They will instead be slowed down by 40% for the stun duration. The '''Stun Immunity''' also grants immunity to being knocked back.\n\nThe following towers/consumables become unable to apply these effects or have them be weakened to '''Stun Immune''' enemies:\n*[[Electroshocker]] (Shock)\n*[[Trapper]] (Stun)\n*[[Warden]] (Shock)\n*[[DJ Booth]] (Knockback)\n*[[Tesla]] (Shock)\n*[[Mercenary Base]] (Knockback)\n*[[Brawler]] (Knockback)\n*[[Commando]] (Stun)\n*[[Archer]] (Shock)\n*[[Hallow Punk]] (Knockback)\n*[[Elementalist]] (Knockback)\n*[[Warlock]] (Knockback)\n*[[Flash Bang]] (Stun)\n*[[Ducky Squad]] ([[Shock Ducky]])\n\nAll [[Boss]] enemies have this immunity, as part of being a [[Boss]] enemy. The only difference between the two is that the slowdown effect is weaker on [[Boss]] enemies, as it is 20%. If a [[Boss]] enemy also has the [[Stun Immunity]], it will only be slowed down by 10% instead.\n\n===Towers===\n'''Stun Immunity''' makes towers unaffected by stuns from enemies and, in multiple cases, also prevents them from being targeted from such attacks. The immunity to being attacked also applies to some enemy attacks which normally would actually affect them, that being freeze and debuffs. For example, the [[Unstable Ice]] from the [[Operation I.C.E Event]] will not jump at any tower with '''Stun Immunity''' visible in their upgrade menu, even though it can actually freeze them. Similarly, enemies like the [[Clown]] will avoid applying debuffs to towers with '''Stun Immunity''', even if they can be debuffed. Some towers, such as cliff units, also have '''Stun Immunity''', though it is not displayed in their upgrade menu and it is far less effective at preventing them from being targeted by enemy abilities.\n\n==Enemy List==\nThe following enemies have '''Stun Immunity''':\n{{Scroll|text=\n*[[Hazmat]]\n*[[Fallen Hazmat]]\n*[[Elite Hazmat]]\n*[[Hazardous]]\n*[[Fallen]] ([[Hardcore Mode|Hardcore]] only)\n*[[Molten Golem]]\n*[[Giant Boss]]\n*[[Amalgamation]] ([[Polluted Wasteland II]])\n*[[Shotgunner (Pizza Party)|Shotgunner]]\n*[[Giant Skeleton]]\n*[[Cobalt Guard]]\n*[[Failed Experiment]]\n*[[Mega Slow]]\n*[[Fallen Giant]]\n*[[Fallen Reaper]]\n*[[Fallen Necromancer]]\n*[[Fallen Soul (Legacy)|Fallen Soul]] (Legacy version)\n*[[Glitch]]\n*[[Fallen Titan]]\n*[[Fallen Shield]]\n*[[Fallen Summoner]] ([[Fallen Mode|Fallen]])\n*[[Frost Invader]] ([[Frost Mode|Frost]])\n*[[Bulwark]]\n*[[Tanker]]\n*[[Templar]] (Legacy version)\n*[[Warden (Legacy Enemy)|Warden]]\n*[[Slow King (Legacy)|Slow King]] (Legacy version)\n*[[Speedy King (Legacy)|Speedy King]] (Legacy version)\n*[[Summoner Boss]]\n*[[Necromancer King]]\n*[[Conjurer]]\n*[[Reaper]]\n*[[Demon]]\n*[[Error]]\n*[[Circuit (Hardcore)|Circuit]] ([[Hardcore Mode|Hardcore]])\n*[[Circuit (Polluted Wasteland II)|Circuit]] ([[Polluted Wasteland II]])\n*[[Molten Titan (Legacy)|Molten Titan]] (Legacy version)\n*[[Fallen Hero]]\n*[[Fallen Hero (Legacy)|Fallen Hero]] (Legacy version)\n*[[Super Toxic]]\n*[[Mimic Umbra]]\n*[[Abomination]]\n*[[Commander (Pizza Party)|Commander]]\n*[[Fallen Honor Guard]]\n*[[Packed Ice]]\n*[[Snow Minion]]\n*[[Blizzard Wizard]]\n*[[Frost Hunter]]\n*[[Frostbane]]\n*[[Frost Ravager]]\n*[[Shivergeist]]\n*[[Frost Hero]]\n*[[Deep Freeze]]\n*[[Mega Frost Mystery]]\n*[[Frost Necromancer]]\n*[[Frost Champion]]\n*[[Nuclear Guardia"
+      "title": "Golden Cowboy",
+      "score": 3,
+      "pageid": 30799,
+      "latest_revid": 618523,
+      "latest_timestamp": "2026-08-18T21:25:37Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}\n{{For|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Cowboy}}\n|image-static = WDGoldenCowboyIcon.png\n|image-dynamic = GoldenCowboyDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)\n|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])\n|basecost = {{Money|600}}\n|basesellingprice = {{Money|200}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|basedamage = [[File:Damage Icon.png|20px|Damage]]3\n|damagetype = Single\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|baserange = [[File:Range Icon.png|20px|Range]]13\n|baseincome = {{Money|35}}\n|hidden_detection = {{Attr|Hidden|Level 3+}}\n|lead_detection = N/A\n|flying_detection = N/A\n|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)\n|footprint = 1.25\n|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.\n|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.\n\nWhile initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. \n\nThe '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.\n\nIn comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.\n\nThe '''Golden Cowboy''' has a placement limit of twelve per player.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1"
+    },
+    {
+      "title": "Golden Cowboy/History",
+      "score": 3,
+      "pageid": 32596,
+      "latest_revid": 618597,
+      "latest_timestamp": "2026-08-18T21:37:52Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Cowboy/History|Perk = Golden Cowboy/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Cowboy/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore Rework Update (5 June 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:WDGoldenCowboyIcon.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|600}}\n|Footprint = 1.25\n|Sell Price = {{Money|200}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9\n|Hidden = {{Hidden|Hidden Detection}}Level 3+\n|Range = [[File:Range Icon.png|20px|Range]]13\n|Lead = N/A\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]12\n|Fly = N/A\n|Title1 = Income\n|Stat1 = {{Money|35}}\n|Title2 = Cash Shot\n|Stat2 = [[File:Cash Icon.png|20px|Cash Shot]]6\n|Title3 = Spin Time\n|Stat3 = [[File:Cooldown Icon.png|20px|Spin Time]]2\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|266}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]\n\n\nSell Price changes to {{Money|483}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|1,283}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]\n\n6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]\n\n\nSell Price changes to {{Money|2,700}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]\n\n1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]\n\n\nSell Price changes to {{Money|5,950}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))\n$CE$ = Total Cost / DPS\n$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))\n$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 600; 200; 650; 2400; 4250; 9750\n$FSE-DETECTION$ = 3; ;\n$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West\n$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990\n$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>\n$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{| class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Damage !! Firer"
+    },
+    {
+      "title": "Golden Crate",
+      "score": 3,
+      "pageid": 2968,
+      "latest_revid": 627849,
+      "latest_timestamp": "2026-08-26T15:26:19Z",
+      "wikitext_excerpt": "{{For|[[Platinum Crate]]|other uses of [[Gold (Disambiguation)|Gold]]}}\n{{CrateInfobox\n|title1 = {{Color|Golden|Golden Crate}}\n|image1 = <tabber>\n|-|Icon = [[File:GoldenSkincrateIcon.png]]\n|-|In-Game = [[File:GoldenCrateInGame2026.png]]\n</tabber>\n|type = Skincrate\n|cost = 50,000\n|sale = Yes\n|contains = 7\n|rarity = {{Color|Golden}}\n|rarities = {{Color|Golden}}\n|music-1 = [[File:Tower Defense Simulator OST - Golden Skincrate Opening|thumb|center|250px]]\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier, Demoman|Inventory Description}}\n|-|Version 2 =\n{{QuoteBox|Special skins for: Minigunner, Cowboy, Crook Boss, Pyro, Scout, Soldier.|Former Inventory Description}}\n|-|Version 1 =\n{{QuoteBox|A crate for the most prestigious players.|Former Inventory Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Golden Crate''' is a crate that grants one of seven {{Color|Golden}} skins which come with a Golden Perk. It costs a colossal {{Coins|50,000}}, the single most expensive crate and item you can buy in the game with coins. Golden Perks make towers much stronger, but usually more expensive as well.\n\nEach skin in this crate can appear in the daily skin store. Uniquely, unlike all other crates, each skin in this crate has its own cost. The {{Color|Golden}} [[Soldier]] skin costs {{Coins|50,000}}, the {{Color|Golden}} [[Scout]], {{Color|Golden}} [[Demoman]] and {{Color|Golden}} [[Crook Boss]] skins cost {{Coins|55,000}}, the {{Color|Golden}} [[Pyromancer]] costs {{Coins|65,000}}, the {{Color|Golden}} [[Cowboy]] costs {{Coins|70,000}} and the {{Color|Golden}} [[Minigunner]] costs {{Coins|75,000}}\n\n==Appearance==\n{{Tabber\n|Current\n|The '''Golden Crate''' is a futuristic crate with a sleek design and multiple neon yellow lights on it. On the front, it has a small card reader and a number pad. The top of the crate opens up in a futuristic fashion, with the left and right side respectively sliding to the left and right, revealing a pile of coins inside.\n|Second\n|The crate was larger than the [[Basic Crate]]. It was more smooth and sleek, and appeared to open up like a futuristic crate. There was a card reader attached to it.\n|First\n|The crate looked exactly like the [[Platinum Crate]], except that it was yellow in color.\n}}\n\n==Skins==\n{| class=\"light-table align-center pad-5\" style=\"width:300px; margin:0 auto\"\n!\n|[[File:GoldenScout3.png|175px]]\n|[[File:NewGoldenCrookBoss.png|175px]]\n|[[File:DHGoldenPyroIcon.png|175px]]\n|[[File:Goldenminigunner.png|175px]]\n|-\n!Golden Perk\n|[[Golden Scout]]\n|[[Golden Crook Boss]]\n|[[Golden Pyromancer]]\n|[[Golden Minigunner]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|55,000}}\n|{{Coins|55,000}}\n|{{Coins|65,000}}\n|{{Coins|75,000}}\n|-\n!Tower\n|[[Scout]]\n|[[Crook Boss]]\n|[[Pyromancer]]\n|[[Minigunner]]\n|-\n!\n|[[File:WDGoldenCowboyIcon.png|175px]]\n|[[File:KR Golden Soldier Icon.png|175px]]\n|[[File:GoldenDemoman0.png|175px]]\n|-\n!Golden Perk\n|[[Golden Cowboy]]\n|[[Golden Soldier]]\n|[[Golden Demoman]]\n|-\n!Rarity\n|{{Color|Golden}}\n|{{Color|Golden}}\n|{{Color|Golden}}\n|-\n!Cost\n|{{Coins|70,000}}\n|{{Coins|50,000}}\n|{{Coins|55,000}}\n|-\n!Tower\n|[[Cowboy]]\n|[[Soldier]]\n|[[Demoman]]\n|}\n\n==Gallery==\n{{Gallery|\n{{GalleryHeader|Previous Appearance}}\n<gallery>\nGoldenCrateInGame.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Crate Icons}}\n<gallery>\nGold Crate.png|First version (13 October 2019 – 29 October 2020)\nGoldenSkincrateOld.png|Second version (29 October 2020 – 22 April 2026)\n</gallery>\n\n{{GalleryHeader|Thumbnails}}\n<gallery>\nGoldenCrateThumbnail.png|Second version on the game thumbnail.\n</gallery>\n}}\n\n==Trivia==\n*The current design of the '''Golden Crate''' is likely based on the [[w:c:saszombieassault:Strongbox#8|Nantonium Strongbox]] from ''SAS: Zombie Assault 4''.\n*The '''Golden Crate''' is currently the only item in the game that gives a buff to a tower outside"
+    },
+    {
+      "title": "Golden Crook",
+      "score": 3,
+      "pageid": 9752,
+      "latest_revid": 467750,
+      "latest_timestamp": "2026-06-05T07:32:21Z",
+      "wikitext_excerpt": "{{Removed|date=13th of May 2022}}\n{{for|its default variants, [[Body Guard]], [[Body Guards 1]], [[Golden Body Guard]], [[Golden Body Guards 1]], other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{UnitInfobox\n|title1 = Golden Crook\n|image1 = <tabber>\n|-|Version 2 = [[File:NewGoldenCrook.png]]\n|-|Version 1 = [[File:GoldenCrook.png]]\n</tabber>\n|source = [[Crook Boss|{{Color|Golden}} Crook Boss]]\n|type = Humanoid\n|health = [[File:HealthIcon.png|20px|Health]]25\n|spawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]60s\n|damage_type = Single\nCollision\n|ranged_damage = [[File:Damage Icon.png|20px|Damage]]2\n|ranged_firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.325\n|ranged_range = [[File:Range Icon.png|20px|Range]]25\n|speed = [[File:SpeedIcon.png|20px|Speed]]Above Average (4)\n|hidden = No\n|lead = {{Attr|Lead|Yes}} (Collision only)\n|flying = No\n}}\n__TOC__\n==Description==\nThe '''Golden Crook''' was a [[Units|unit]] spawned by the [[Crook Boss|{{Color|Golden}} Crook Boss]] at Levels 2-3. The '''Golden Crook''' was essentially a re-skin of the [[Crook]], as it had similar appearance and stats, but had very little in common with the [[Body Guard]] and [[Body Guards 1]]. Like other [[units]], it started from the end of the map path and moved towards the entrance of the map. The '''Golden Crook''' had a spawnrate of 60 seconds.\n\nWhenever there was an enemy in its range, the '''Golden Crook''' would stop moving to shoot at the enemy. It would continue walking when there were no enemies left in its range.\n\nThere was a limit of 3 units per [[Crook Boss|{{Color|Golden}} Crook Boss]], limiting the amount of '''Golden Crooks''' it could spawn.\n\n==Appearance==\n{{Tabber\n|Version 2\n|The '''Golden Crook''' had tan skin, black pants, dark grey shoes, yellow torso with black and yellow stripes, and yellow sleeves. It had a smile face. It wore a yellow beanie. It carried a golden [[wp:Uzi|UZI]] in its right hand to shoot at enemies. Yellow sparkles came out from its UZI.\n|Version 1\n|The original '''Golden Crook''' had yellow skin, black legs, yellow torso with black and yellow stripes, yellow sleeves, and a mischievous face. It wore a yellow and black striped headband. Yellow sparkles came out from its headband and a golden aura came out of its torso. It carried a golden [[wp:Uzi|UZI]] to shoot at enemies.\n}}\n\n==Strategy==\n*You should not rely too much on '''Golden Crooks''' because of their slow spawnrate.\n*The '''Golden Crook''' cannot detect [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies, but they can still be damaged when the '''Golden Crook''' collides with them. However, this is likely unfavorable as the '''Crook's''' main source of damage is ranged.\n**The [[Ace Pilot]] cannot give the '''Golden Crook''' hidden detection.\n*On two-pathed maps, only one '''Golden Crook''' will spawn per Level 2 [[Crook Boss|{{Color|Golden}} Crook Boss]]. It will go down a random path.\n*The '''Golden Crook''' cannot collide with ghost enemies, like the [[Soul]].\n*The '''Golden Crook''' will struggle against fast enemies like the [[Error]] or [[Glitch]], as they can run into '''Golden Crooks''' without taking much damage.\n*The range of the '''Golden Crook''' can be increased by the [[DJ Booth]], as long as the [[Crook Boss|{{Color|Golden}} Crook Boss]] that spawned it is in range of the [[DJ Booth]].\n**The '''Golden Crook''' cannot be affected by any other buffs or debuffs, such as [[Commander]]'s [[Firerate Buff]] or [[Ace Pilot]]'s ability to grant hidden detection.\n*The '''Golden Crook''' will struggle against any enemy with abilities that damage units, as their health is lower than any amount of damage that these enemies deal.\n**For example, if the [[Fallen King (Legacy)|Fallen King]] uses its ''Stomp'' attack, and a '''Golden Crook''' is caught in the attack, it is instantly killed.\n\n==Trivia==\n*Only the [[Crook Boss|{{Color|Golden}} Crook Boss]] spawned '''Golden Crooks''' instead of [[Body Guard]]/[[Body Gu"
+    },
+    {
+      "title": "Golden Crook Boss",
+      "score": 3,
+      "pageid": 30803,
+      "latest_revid": 643940,
+      "latest_timestamp": "2026-09-06T13:20:57Z",
+      "wikitext_excerpt": "{{Tabs|Regular = Crook Boss|Perk = Golden Crook Boss|Evolved=Kingpin}}\n{{for|other uses of [[Gold (Disambiguation)|Gold]]|other uses of [[Crook (Disambiguation)|Crook]]}}\n{{TowerInfobox\n|title = {{Color|Golden|Golden Crook Boss}}\n|image-static = NewGoldenCrookBoss.png\n|image-dynamic = GoldenCrookBossDynamic.png\n|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|55,000}} (Daily Store)\n|towercost = {{Level|30}} or {{Robux|300}} ([[Crook Boss]])\n|basecost = {{Money|2,400}}\n|basesellingprice = {{Money|800}}\n|role = Offense\n|placement = Ground\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5\n|basedamage = [[File:Damage Icon.png|20px|Damage]]12\n|damagetype = Single<br/>Collision\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8\n|baserange = [[File:Range Icon.png|20px|Range]]16.5\n|basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]]45s\n|hidden_detection = {{Attr|Hidden|Level 2+}} (Tower & Tommy Goons)\n|lead_detection = {{Attr|Lead|Level 0+}} (Collision only)\n|flying_detection = {{Attr|Fly|Level 1+}}\n|immune = Debuff (Units only)\n|footprint = 1.5\n|evolves_into = [[Kingpin]]\n|evolution_levels = 20\n|base_exp = 50\n|growth_rate = 1.09\n|skip_cost = 599\n|tooltip-1 = A well rounded tower with good detection coverage, reliable damage, and the ability to spawn friendly units.\n|tooltip-2 = Capable of detection [[Hidden (Attribute)|hidden]] and [[flying]] enemies.\n}}\n{{QuoteContainer|\n{{QuoteBox|Command henchmen to fight for you while looking cool!|Store Description}}\n}}\n__TOC__\n==Description==\nThe '''Golden Crook Boss''' is an upgraded version of the [[Crook Boss]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if the player owns the [[Crook Boss]]. It can also be bought in the Daily Store for {{Coins|55,000}}. The normal counterpart, the [[Crook Boss]], can be claimed by reaching {{Level|30}} or alternatively purchasing it for {{Robux|300}}.\n\nInitially, the '''Golden Crook Boss''' has high damage, though it has rather low range. However, with later upgrades, the firerate decreases and its damage increases significantly. The range also increases and becomes comparable to towers like the [[Minigunner]]. The '''Golden Crook Boss''' has the ability to spawn [[Golden Pistol Goon]] from Level 0, which with later levels get double spawns. Additional, at Level 3, it spawns [[Golden Tommy Goon 1]], which gets replaced by [[Golden Tommy Goon 2]] at Level 4. Every time it summons an unit, it stops attacking for a second. All the units have flying detection but only the Tommy Goons have hidden detection.\n\nIn comparison to its normal counterpart, the [[Crook Boss]], the '''Golden Crook Boss''' has higher damage and slightly higher range, but it is more expensive at all Levels. It also spawns stronger units.\n\nThe '''Golden Crook Boss''' can be considered a mid to late-game tower, as its expensive cost for extremely high DPS makes it a great tower later on during the game and has sufficient DPS to remain strong in the extra-late game.  \n\nThere is a limit of five '''Golden Crook Bosses''' per player. Additionally, it has a limit of ten [[Golden Pistol Goon]]s per tower and a limit of three [[Golden Tommy Goon 1]]s and [[Golden Tommy Goon 2]]s per tower.\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Lvl 1. Broke|Cost = {{Money|1,600}}|Image = [[File:Stronger_Bullets.png|100px]]|Information = 0.8 > 0.55 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n\nSell Price changes to {{Money|1,333}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Lvl. 2 Normie|Cost = {{Money|3,200}}|Image = [[File:CrookBoss2.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n+9 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\nNow spawns two [[Golden Pistol Goon]]s instead of one\n\n\nSell Price changes to {{Money|2,400}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Lvl 3. Gam"
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",
