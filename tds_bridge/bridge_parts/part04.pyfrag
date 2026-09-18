@@ -22,22 +22,104 @@ def watcher():
     entries=sorted(entries+new,key=lambda x:x.get('timestamp',''),reverse=True)[:5000]
     wjson('changelog.json',{'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_page_count':len(tracked),'entries':entries}); wjson('changelog_state.json',{'last_run_utc':datetime.now(timezone.utc).isoformat(),'new_entries':len(new),'tracked_page_count':len(tracked)}); return 0
 
+TRANSIENT_OUTPUTS=[
+    'resolution.json','search_candidates.json','meta.json','evidence_bundle.json',
+    'result.txt','revision_history.json','revision_diff.json','categories.json',
+    'backlinks.json','templates.json','expanded_wikitext.txt','structured_stats.json',
+    'conflicts.json','related_pages.json','discussion_json.txt','discussion_text.txt',
+    'discussion_search.json','discussion_recent_raw.json','discussion_deep_search.json',
+    'recent_changes.json','bridge_progress.json','bridge_error.json','run_status.json',
+    'request_manifest.json'
+]
+
+def _request_fingerprint(req):
+    raw=json.dumps(req,ensure_ascii=False,sort_keys=True,separators=(',',':'))
+    return hashlib.sha256(raw.encode('utf-8')).hexdigest()
+
+def _augment_json(name,context):
+    p=ROOT/name
+    if not p.exists(): return
+    try:
+        data=json.loads(p.read_text(encoding='utf-8'))
+        if isinstance(data,dict):
+            data['_bridge_run']=context
+            wjson(name,data)
+    except Exception:
+        pass
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--mode'); a=ap.parse_args()
     if a.mode=='recent_changes_watch': return watcher()
-    req=json.loads((ROOT/'request.json').read_text()); wjson('last_request.json',req)
-    mode=norm(a.mode or req.get('mode') or 'verify').replace(' ','_'); q=str(req.get('query') or req.get('title') or '').strip(); url=str(req.get('thread_url') or '').strip(); limit=int(req.get('limit') or 100)
-    if mode in {'verify','tower_verifier','article'}: return verify(q)
-    if mode=='history': return history(q)
-    if mode=='search': return search_mode(q)
-    if mode=='discussion': return discussion(url)
-    if mode in {'discussion_search','discussions_search'}: return discussion_search(q,limit)
-    if mode in {'discussion_deep_search','deep_discussion_search'}: return discussion_deep_search(req)
-    if mode=='recent_changes': return recent_changes(limit)
-    if mode in {'recent_changes_watch','watch'}: return watcher()
-    raise ValueError('Unknown mode: '+mode)
+
+    req=json.loads((ROOT/'request.json').read_text(encoding='utf-8'))
+    mode=norm(a.mode or req.get('mode') or 'verify').replace(' ','_')
+    q=str(req.get('query') or req.get('title') or '').strip()
+    url=str(req.get('thread_url') or '').strip()
+    limit=int(req.get('limit') or 100)
+    fingerprint=_request_fingerprint(req)
+    started_at=datetime.now(timezone.utc).isoformat()
+    context={
+        'request_fingerprint':fingerprint,
+        'mode':mode,'query':q,'started_at':started_at,
+        'github_run_id':os.environ.get('GITHUB_RUN_ID'),
+        'source_commit':os.environ.get('GITHUB_SHA')
+    }
+
+    for name in TRANSIENT_OUTPUTS:
+        p=ROOT/name
+        if p.exists(): p.unlink()
+    wjson('last_request.json',req)
+    wjson('request_manifest.json',{'request':req,**context})
+    wjson('run_status.json',{'status':'running',**context})
+    wtext('result.txt',
+        'TDS bridge run in progress\n'
+        f'Request fingerprint: {fingerprint}\n'
+        f'Mode: {mode}\nQuery: {q}\n'
+    )
+
+    try:
+        if mode in {'verify','tower_verifier','article'}: rc=verify(q)
+        elif mode=='history': rc=history(q)
+        elif mode=='search': rc=search_mode(q)
+        elif mode=='discussion': rc=discussion(url)
+        elif mode in {'discussion_search','discussions_search'}: rc=discussion_search(q,limit)
+        elif mode in {'discussion_deep_search','deep_discussion_search'}: rc=discussion_deep_search(req)
+        elif mode=='recent_changes': rc=recent_changes(limit)
+        elif mode in {'recent_changes_watch','watch'}: rc=watcher()
+        else: raise ValueError('Unknown mode: '+mode)
+    except Exception as e:
+        finished_at=datetime.now(timezone.utc).isoformat()
+        failure={**context,'status':'failed','finished_at':finished_at,'error':str(e),'error_type':type(e).__name__}
+        wjson('bridge_error.json',failure)
+        wjson('run_status.json',failure)
+        wtext('result.txt',
+            'TDS bridge run failed\n'
+            f'Request fingerprint: {fingerprint}\n'
+            f'Mode: {mode}\nQuery: {q}\n'
+            f'Error: {type(e).__name__}: {e}\n'
+        )
+        for name in ('meta.json','evidence_bundle.json'): _augment_json(name,failure)
+        raise
+
+    finished_at=datetime.now(timezone.utc).isoformat()
+    status='needs_selection' if rc==2 else 'completed'
+    final_context={**context,'status':status,'finished_at':finished_at,'return_code':rc}
+    for name in ('meta.json','evidence_bundle.json'): _augment_json(name,final_context)
+
+    result_path=ROOT/'result.txt'
+    current=result_path.read_text(encoding='utf-8') if result_path.exists() else ''
+    if not current or current.startswith('TDS bridge run in progress'):
+        wtext('result.txt',
+            'TDS bridge run completed\n'
+            f'Request fingerprint: {fingerprint}\n'
+            f'Mode: {mode}\nQuery: {q}\n'
+            'See meta.json and evidence_bundle.json for the mode-specific result.\n'
+        )
+    result_bytes=(ROOT/'result.txt').read_bytes()
+    final_context['result_sha256']=hashlib.sha256(result_bytes).hexdigest()
+    wjson('run_status.json',final_context)
+    return rc
 
 if __name__=='__main__':
-    try: raise SystemExit(main())
-    except Exception as e:
-        wjson('bridge_error.json',{'error':str(e),'type':type(e).__name__,'time_utc':datetime.now(timezone.utc).isoformat()}); raise
+    raise SystemExit(main())
+
