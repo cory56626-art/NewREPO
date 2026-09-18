@@ -7,6 +7,10 @@ on:
     paths:
       - "tds_bridge/request.json"
 
+concurrency:
+  group: tds-wiki-bridge-fetch
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
