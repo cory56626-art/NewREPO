@@ -1,22 +1,24 @@
 {
   "mode": "discussion_deep_search",
-  "query": "solo Fallen loadout",
+  "query": "solo Fallen loadout with DJ Booth",
   "pages": 2000,
   "per_page": 100,
   "must_include": [
     "solo",
     "fallen",
-    "loadout"
+    "loadout",
+    "dj"
   ],
   "prefer_include": [
-    "golden",
+    "dj booth",
+    "farm",
+    "accelerator",
     "turret",
     "golden scout",
     "golden cowboy",
-    "farm",
-    "accelerator",
-    "crook boss",
-    "demoman"
+    "ranger",
+    "gladiator",
+    "golden crook boss"
   ],
   "strict_must_include": false,
   "include_media_candidates": true,
