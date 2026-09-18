@@ -89,7 +89,16 @@ def _media_info(o):
 
 def _group_hit(low, group):
     if isinstance(group,str): group=[group]
-    return any(norm(alias) in low for alias in group if str(alias).strip())
+    for alias in group:
+        term=norm(alias)
+        if not term: continue
+        # Short aliases such as DJ must be whole tokens; otherwise words such as
+        # "adjust" create false-positive loadout matches.
+        if len(term)<=3:
+            if re.search(r'(?<![a-z0-9])'+re.escape(term)+r'(?![a-z0-9])',low): return True
+        elif term in low:
+            return True
+    return False
 
 _LOADOUT_TOWER_ALIASES=[
     ('Golden Minigunner',['golden minigunner','golden mini','gmini']),
@@ -316,7 +325,7 @@ def discussion_deep_search(req):
             },timeout=remaining_timeout())
             full=_deep_blob(d); low=norm(full); full_media=_media_info(d)
             full_matched=[g for g in must if _group_hit(low,g)]
-            required_ok=(not must) or len(full_matched)>=minimum_required
+            required_ok=(not must) or (len(full_matched)==len(must) if strict_must else len(full_matched)>=minimum_required)
             v=dict(item)
             v['full_thread_required_match']=required_ok
             v['full_thread_matched_required_groups']=full_matched
