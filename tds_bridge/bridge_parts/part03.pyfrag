@@ -166,7 +166,7 @@ def _tower_mentions(text):
 def discussion_deep_search(req):
     q=str(req.get('query') or '').strip()
     pages=max(1,min(int(req.get('pages') or 2000),2000))
-    per_page=max(1,min(int(req.get('per_page') or 100),100))
+    per_page=max(1,min(int(req.get('per_page') or 1000),1000))
     must=req.get('must_include') or []
     prefer=req.get('prefer_include') or []
     strict_must=bool(req.get('strict_must_include',True))
@@ -182,7 +182,7 @@ def discussion_deep_search(req):
 
     results=[]; seen=set(); scanned=0; page_summaries=[]
     previous_fingerprint=None; repeated_pages=0; empty_pages=0; consecutive_errors=0
-    started=time.monotonic(); deadline=started+max_runtime
+    started=time.monotonic(); deadline=started+max_runtime; scan_deadline=started+(max_runtime*0.70)
     stop_reason='page_limit_reached'
 
     def remaining_timeout(cap=12):
@@ -202,8 +202,8 @@ def discussion_deep_search(req):
 
     progress('started')
     for page in range(pages):
-        if time.monotonic()>=deadline:
-            stop_reason='runtime_limit'
+        if time.monotonic()>=scan_deadline:
+            stop_reason='scan_runtime_limit'
             page_summaries.append({'page':page,'error':f'max runtime exceeded ({max_runtime}s)'})
             break
         try:
@@ -335,7 +335,7 @@ def discussion_deep_search(req):
     error_pages=[int(x.get('page',0))+1 for x in page_summaries if 'error' in x]
     pages_attempted=len(page_summaries)
     pages_completed=pages_attempted-len(error_pages)
-    partial=stop_reason in {'runtime_limit','runtime_limit_during_verification','endpoint_error','pagination_stalled'}
+    partial=stop_reason in {'scan_runtime_limit','runtime_limit','runtime_limit_during_verification','endpoint_error','pagination_stalled'}
     run_state='partial' if partial else 'completed'
     runtime=round(time.monotonic()-started,2)
 
