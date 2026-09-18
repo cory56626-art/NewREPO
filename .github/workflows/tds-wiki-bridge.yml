@@ -6,6 +6,8 @@ on:
       - tds-wiki-bridge
     paths:
       - "tds_bridge/request.json"
+      - "tds_bridge/bridge_parts/**"
+      - ".github/workflows/tds-wiki-bridge.yml"
 
 concurrency:
   group: tds-wiki-bridge-fetch
@@ -18,6 +20,8 @@ jobs:
   fetch:
     timeout-minutes: 5
     runs-on: ubuntu-latest
+    env:
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
 
@@ -30,18 +34,50 @@ jobs:
           python /tmp/tds_bridge.py
           rc=$?
           set -e
-          # Exit 2 means strict resolver needs the user to choose a candidate.
-          # That is a valid bridge result, not an infrastructure failure.
           if [ "$rc" -eq 2 ]; then
             exit 0
           fi
           exit "$rc"
 
+      - name: Validate fresh bridge outputs
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import pathlib
+
+          root = pathlib.Path("tds_bridge")
+          status_path = root / "run_status.json"
+          result_path = root / "result.txt"
+          if not status_path.exists():
+              raise SystemExit("Missing run_status.json")
+          status = json.loads(status_path.read_text(encoding="utf-8"))
+          if status.get("status") not in {"completed", "needs_selection", "failed"}:
+              raise SystemExit(f"Non-terminal bridge status: {status.get('status')}")
+          if not status.get("request_fingerprint"):
+              raise SystemExit("Missing request fingerprint")
+          if not result_path.exists() or not result_path.read_text(encoding="utf-8").strip():
+              raise SystemExit("Missing result.txt")
+          print(json.dumps({
+              "status": status.get("status"),
+              "mode": status.get("mode"),
+              "query": status.get("query"),
+              "request_fingerprint": status.get("request_fingerprint")
+          }, ensure_ascii=False))
+          PY
+
       - name: Commit fetched evidence
         if: always()
+        shell: bash
         run: |
           git config user.name "tds-wiki-bridge[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin tds-wiki-bridge
+          if ! git diff --quiet "$GITHUB_SHA" "origin/tds-wiki-bridge" --             tds_bridge/request.json             tds_bridge/bridge_parts             .github/workflows/tds-wiki-bridge.yml; then
+            echo "A newer bridge request or code revision exists; skipping stale evidence commit."
+            exit 0
+          fi
           git add tds_bridge/
           git diff --cached --quiet && exit 0
           git commit -m "Update TDS verification evidence"
