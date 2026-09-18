@@ -1,12 +1,12 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Golden Minigunner",
-    "title": "Golden Minigunner",
-    "pageid": 30794,
-    "latest_revid": 618771,
-    "latest_timestamp": "2026-08-20T00:13:53Z",
-    "source_url": "https://tds.fandom.com/wiki/Golden_Minigunner",
+    "requested": "Golden Pyromancer",
+    "title": "Golden Pyromancer",
+    "pageid": 30796,
+    "latest_revid": 619715,
+    "latest_timestamp": "2026-08-21T01:57:52Z",
+    "source_url": "https://tds.fandom.com/wiki/Golden_Pyromancer",
     "classification": {
       "is_tower_page": true,
       "reason": "template/category heuristic"
@@ -22,116 +22,116 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Golden Minigunner",
-    "alias_used": "Golden Minigunner",
-    "target": "Golden Minigunner",
-    "canonical_title": "Golden Minigunner",
-    "pageid": 30794,
+    "input": "Golden Pyromancer",
+    "alias_used": null,
+    "target": "Golden Pyromancer",
+    "canonical_title": "Golden Pyromancer",
+    "pageid": 30796,
     "redirects": [],
-    "selection_method": "known_alias"
+    "selection_method": "exact_or_redirect"
   },
   "revision_history": [
     {
-      "revid": 618771,
-      "parentid": 618763,
-      "timestamp": "2026-08-20T00:13:53Z",
+      "revid": 619715,
+      "parentid": 618527,
+      "timestamp": "2026-08-21T01:57:52Z",
       "user": "Gabonnie",
       "comment": "[IPE-NEXT] Quick edit",
-      "size": 21547,
-      "sha1": "d7d37dae717eace492567310babf2ff2ce658753"
+      "size": 24284,
+      "sha1": "f3cd77690d69915fdf7577fe1cfe7205e1da8cc7"
     },
     {
-      "revid": 618763,
-      "parentid": 618526,
-      "timestamp": "2026-08-19T23:35:48Z",
-      "user": "Gabonnie",
-      "comment": "[IPE-NEXT] Quick edit",
-      "size": 21573,
-      "sha1": "3f0e4c80cb22b5eef53ddf271a32438b66c20eaf"
-    },
-    {
-      "revid": 618526,
-      "parentid": 610156,
-      "timestamp": "2026-08-18T21:25:43Z",
+      "revid": 618527,
+      "parentid": 610157,
+      "timestamp": "2026-08-18T21:25:46Z",
       "user": "DarkGabonnie",
       "comment": "Approved by t7ru (380694434980954114) via /job",
-      "size": 21574,
-      "sha1": "14844eb02bef69ee57c5acecd8168a5971953f00"
+      "size": 24287,
+      "sha1": "a9e3f3a6cb32984b597c8ec0db1584912cfd958d"
     },
     {
-      "revid": 610156,
-      "parentid": 540051,
-      "timestamp": "2026-08-12T20:05:06Z",
+      "revid": 610157,
+      "parentid": 573584,
+      "timestamp": "2026-08-12T20:05:12Z",
       "user": "DarkGabonnie",
       "comment": "Approved by t7ru (380694434980954114) via /job",
-      "size": 21557,
-      "sha1": "b64d0fd4549ed9c7c1044f2fb98cd06e6b99b045"
+      "size": 24258,
+      "sha1": "99391a631da7b88ef6946085b70f72027ac56c6a"
     },
     {
-      "revid": 540051,
-      "parentid": 539801,
-      "timestamp": "2026-07-07T22:42:55Z",
+      "revid": 573584,
+      "parentid": 549141,
+      "timestamp": "2026-07-26T05:32:39Z",
+      "user": "VisibleKnot",
+      "comment": "/* Statistics */",
+      "size": 24235,
+      "sha1": "ab78f361fa346994e120886cfd7176f8228be47a"
+    },
+    {
+      "revid": 549141,
+      "parentid": 549140,
+      "timestamp": "2026-07-12T10:30:04Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 24231,
+      "sha1": "b85e3e73718d4259249949eae8aef0f65d5febc1"
+    },
+    {
+      "revid": 549140,
+      "parentid": 540054,
+      "timestamp": "2026-07-12T10:28:16Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 24154,
+      "sha1": "1edc85c2fb53fccbc17e6988583e38711fff0956"
+    },
+    {
+      "revid": 540054,
+      "parentid": 539802,
+      "timestamp": "2026-07-07T22:44:23Z",
       "user": "Gabonnie",
       "comment": "[IPE-NEXT] Quick edit",
-      "size": 21534,
-      "sha1": "65e0574f208d395bbb2872f0f820a63b1e71b166"
+      "size": 24040,
+      "sha1": "a930157b324c0397a93f8f19a87050f48ebdda4d"
     },
     {
-      "revid": 539801,
-      "parentid": 537067,
-      "timestamp": "2026-07-07T22:03:27Z",
+      "revid": 539802,
+      "parentid": 537068,
+      "timestamp": "2026-07-07T22:03:30Z",
       "user": "DarkGabonnie",
       "comment": "/* Statistics */ migrate fnc to fse, replaced: $FNC-UPGRADEICON → $FSE-UPGRADEICON, $FNC-UPGRADE → $FSE-UPGRADE, $FNC-DETECTION → $FSE-DETECTION",
-      "size": 21504,
-      "sha1": "ac37d12435487eb8ec3cef7051e93bb8740b686e"
+      "size": 24010,
+      "sha1": "88c87ce36b812420a7284055fec6d71e457c8df9"
     },
     {
-      "revid": 537067,
-      "parentid": 525735,
-      "timestamp": "2026-07-06T17:14:25Z",
+      "revid": 537068,
+      "parentid": 525736,
+      "timestamp": "2026-07-06T17:14:27Z",
       "user": "DarkGabonnie",
       "comment": "/* Statistics */ rename, replaced: Stats Table → Statistics",
-      "size": 21504,
-      "sha1": "36f93634166c1ebb055bcfd59f738d89182b333c"
+      "size": 24010,
+      "sha1": "16d1d256325dc19cb9ef9aa83bec64fdef2dac9a"
     },
     {
-      "revid": 525735,
-      "parentid": 519991,
-      "timestamp": "2026-07-01T11:09:50Z",
+      "revid": 525736,
+      "parentid": 502757,
+      "timestamp": "2026-07-01T11:09:57Z",
       "user": "DarkGabonnie",
-      "comment": "/* Update History */ convert raw abbr tags to template, replaced: <abbr title=\"-0.042\">0.167 > 0.125</abbr> → {{Tooltip|0.167 > 0.125|-0.042}} (23)",
-      "size": 21505,
-      "sha1": "d6f2f47044801cacd6bde13700c1545f52b2f1d9"
-    },
-    {
-      "revid": 519991,
-      "parentid": 519990,
-      "timestamp": "2026-06-28T14:20:14Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 21712,
-      "sha1": "20f3a3c69a5ce2c4138a8f2d80404ba28197d354"
-    },
-    {
-      "revid": 519990,
-      "parentid": 502919,
-      "timestamp": "2026-06-28T14:16:17Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 21743,
-      "sha1": "220c8b39d4f5c07606f0ae573b66c0ddf658e13e"
+      "comment": "/* Update History */ convert raw abbr tags to template, replaced: <abbr title=\"-0.2\">1 > 0.8</abbr> → {{Tooltip|1 > 0.8|-0.2}} (12)",
+      "size": 24011,
+      "sha1": "825b85ccdb1569f6e74baaa687347ed93f0b3858"
     }
   ],
   "revision_diff": {
-    "fromrevid": 618763,
-    "torevid": 618771,
-    "fromtitle": "Golden Minigunner",
-    "totitle": "Golden Minigunner",
-    "fromuser": "Gabonnie",
+    "fromrevid": 618527,
+    "torevid": 619715,
+    "fromtitle": "Golden Pyromancer",
+    "totitle": "Golden Pyromancer",
+    "fromuser": "DarkGabonnie",
     "touser": "Gabonnie",
-    "fromcomment": "[IPE-NEXT] Quick edit",
+    "fromcomment": "Approved by t7ru (380694434980954114) via /job",
     "tocomment": "[IPE-NEXT] Quick edit",
-    "diff_text": "Line 85: Line 85: <div class=\"overflow-box\"> <div class=\"overflow-box\"> {|class=\"wikitable stats-table\" {|class=\"wikitable stats-table\" ! Level !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency ! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency |- |- | 0 || {{Money|$TP$}} || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}} | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}} $R$ || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}} $R$ |- |- | 1 || {{Money |$ TP $ }} || 3 || 0.12 || 0.8 || 16 || $DPS$ || {{Money| $ CE $ }} | 1 || $R$ | | $ R $ || 3 || 0.12 || 0.8 || 16 || $DPS $$R $ || $ R $ |- |- | 2 || {{Money |$ TP $ }} || 7 || 0.12 || 0.8 || 20 || $ DPS $ || {{Money| $ CE $ }} | 2 || $R$ | | $ R $ || 7 || 0.12 || 0.8 || 20 || $ R $ || $ R $ |- |- | 3 || {{Money |$ TP $ }} || 13 || 0.1 || 0.6 || 20 || $ DPS $ || {{Money| $ CE $ }} | 3 || $R$ | | $ R $ || 13 || 0.1 || 0.6 || 20 || $ R $ || $ R $ |- |- | 4 || {{Money |$ TP $ }} || 20 || 0.1 || 0.6 || 22 || $ DPS $ || {{Money| $ CE $ }} | 4 || $R$ | | $ R $ || 20 || 0.1 || 0.6 || 22 || $ R $ || $ R $ |} |} </div> </div>"
+    "diff_text": "Line 96: Line 96: $BDPS$ = Burn Damage / Tick $BDPS$ = Burn Damage / Tick $TDPS$ = $NDPS$ + $BDPS$ $TDPS$ = $NDPS$ + $BDPS$ $MDPS$ = $TDPS$ * Max Hits $MDPS$ = DPS * Max Hits $TED$ = Burn Damage * (Burn Time / Tick) $TED$ = Burn Damage * (Burn Time / Tick) $CE$ = Total Cost / DPS $CE$ = Total Cost / DPS"
   },
   "classification": {
     "is_tower_page": true,
@@ -146,108 +146,23 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Golden Minigunner''' is a golden perk for the [[Minigunner]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if you own the [[Minigunner]]. It can also be bought in the [[Daily Store]] for {{Coins|75,000}}.\n\nBefore the '''Golden Minigunner''' starts firing, it needs to rev up its minigun. If there are no enemies in its range while revved-up, it will wait for around a second for an enemy to enter its range. If no enemy enters its range in that time, it begins to deactivate the gun and will need to rev the gun up again when an enemy enters its range. It fires bullets at enemies at a fast firerate. The '''Golden Minigunner''' has high DPS and a relatively cheap cost compared to other high DPS towers, like the [[Accelerator]] or [[Engineer]]. \n\nThe '''Golden Minigunner''' has more damage and costs more than its normal counterpart, the [[Minigunner]], making it a direct upgrade in many ways. It is mostly considered a mid-game to late-game tower, although it can be used in early game if you have enough base health and focus solely on using the [[Farm]] for some time.",
+    "description": "The '''Golden Pyromancer''' is a golden perk for the [[Pyromancer]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Pyromancer]]. Its main gimmick is its ability to burn enemies, dealing extra damage over time and later reducing the enemy [[Defense]].\n\nIf an enemy is set alight, the flames will be applied to the enemy until the burn time runs out. There are two types of damage the '''Golden Pyromancer''' can apply. The first is ''Normal Damage'' which is non-burn related. This can pierce through multiple enemies, not including [[flying]] enemies, which it is unable to damage without flying detection. Its flame can initially only hit four different enemies, but with upgrades it increases to ten enemies at once. The second is ''Burn Damage'' which is applied for every second an enemy is set alight. Both damage methods can damage [[Lead (Attribute)|Lead]] enemies. The '''Golden Pyromancer''' will attack any enemy, even if the enemy is on fire. However, if there are multiple enemies in its range, it will attack the first enemy that is not on fire. Unlike its normal counterpart, the '''Golden Pyromancer''' can detect hidden enemies from Level 0.\n\nThe '''Golden Pyromancer''', in comparison to the [[Pyromancer]], has increased normal damage, burn damage and burn time, at one point having it be effectively infinite. This is considered to be an all rounder tower.",
     "upgrade_modes": {
       "regular": [
         {
           "mode": "unknown",
           "level": 1,
           "title": "Improved Handling",
-          "cost": "{{Money|1,000}}",
-          "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
+          "cost": "{{Money|325}}",
+          "information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}",
           "claims": [
             {
               "kind": "set",
-              "from": "0.16",
-              "to": "0.12",
+              "from": "0.275",
+              "to": "0.175",
               "stat": "Firerate",
-              "text": "0.16 > 0.12 Firerate"
+              "text": "0.275 > 0.175 Firerate"
             },
-            {
-              "kind": "grant",
-              "stat": "Hidden Detection",
-              "text": "+Hidden Detection"
-            }
-          ],
-          "params": {
-            "Level": "Level 1",
-            "Upgrade Title": "Improved Handling",
-            "Cost": "{{Money|1,000}}",
-            "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
-            "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 2,
-          "title": "Thermal Vision",
-          "cost": "{{Money|4,800}}",
-          "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+4",
-              "stat": "Damage",
-              "text": "+4 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+4",
-              "stat": "Range",
-              "text": "+4 Range"
-            }
-          ],
-          "params": {
-            "Level": "Level 2",
-            "Upgrade Title": "Thermal Vision",
-            "Cost": "{{Money|4,800}}",
-            "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
-            "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 3,
-          "title": "High Tech Armory",
-          "cost": "{{Money|13,500}}",
-          "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+6",
-              "stat": "Damage",
-              "text": "+6 Damage"
-            },
-            {
-              "kind": "set",
-              "from": "0.12",
-              "to": "0.1",
-              "stat": "Firerate",
-              "text": "0.12 > 0.1 Firerate"
-            },
-            {
-              "kind": "set",
-              "from": "0.8",
-              "to": "0.6",
-              "stat": "Rev-Up Time",
-              "text": "0.8 > 0.6 Rev-Up Time"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Upgrade Title": "High Tech Armory",
-            "Cost": "{{Money|13,500}}",
-            "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
-            "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
-          }
-        },
-        {
-          "mode": "unknown",
-          "level": 4,
-          "title": "24 Karat Gatling Gun",
-          "cost": "{{Money|27,500}}",
-          "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
-          "claims": [
             {
               "kind": "delta",
               "delta": "+2",
@@ -256,17 +171,191 @@
             },
             {
               "kind": "delta",
-              "delta": "+7",
+              "delta": "+0.25",
+              "stat": "Hitbox",
+              "text": "+0.25 Hitbox"
+            }
+          ],
+          "params": {
+            "Level": "Level 1",
+            "Upgrade Title": "Improved Handling",
+            "Cost": "{{Money|325}}",
+            "Image": "[[File:Common1Image.png|100px]]",
+            "Information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 2,
+          "title": "Golden Flare",
+          "cost": "{{Money|900}}",
+          "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+1",
               "stat": "Damage",
-              "text": "+7 Damage"
+              "text": "+1 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Max Hits",
+              "text": "+2 Max Hits"
+            }
+          ],
+          "params": {
+            "Level": "Level 2",
+            "Upgrade Title": "Golden Flare",
+            "Cost": "{{Money|900}}",
+            "Image": "[[File:Pyro2.png|100px]]",
+            "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 3,
+          "title": "Ring Of Fire",
+          "cost": "{{Money|2,777}}",
+          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Damage",
+              "text": "+2 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Burn Damage",
+              "text": "+3 Burn Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2.5",
+              "stat": "Range",
+              "text": "+2.5 Range"
+            },
+            {
+              "kind": "set",
+              "from": "4",
+              "to": "7",
+              "stat": "Burn Time",
+              "text": "4 > 7 Burn Time"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Max Hits",
+              "text": "+2 Max Hits"
+            },
+            {
+              "kind": "note",
+              "text": "2% > 7% Defense Melting"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Ring Of Fire",
+            "Cost": "{{Money|2,777}}",
+            "Image": "[[File:Pyro3.png|100px]]",
+            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 4,
+          "title": "Eternal Ember",
+          "cost": "{{Money|7,500}}",
+          "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+5",
+              "stat": "Damage",
+              "text": "+5 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+7",
+              "stat": "Burn Damage",
+              "text": "+7 Burn Damage"
+            },
+            {
+              "kind": "set",
+              "from": "7",
+              "to": "360",
+              "stat": "Burn Time",
+              "text": "7 > 360 Burn Time"
+            },
+            {
+              "kind": "delta",
+              "delta": "+0.25",
+              "stat": "Hitbox",
+              "text": "+0.25 Hitbox"
+            },
+            {
+              "kind": "note",
+              "text": "7% > 10% Defense Melting"
             }
           ],
           "params": {
             "Level": "Level 4",
-            "Upgrade Title": "24 Karat Gatling Gun",
-            "Cost": "{{Money|27,500}}",
-            "Image": "[[File:MiniLevel4.png|100px]]",
-            "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
+            "Upgrade Title": "Eternal Ember",
+            "Cost": "{{Money|7,500}}",
+            "Image": "[[File:Pyro4.png|100px]]",
+            "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}"
+          }
+        },
+        {
+          "mode": "unknown",
+          "level": 5,
+          "title": "Kagutsuchi's Blood",
+          "cost": "{{Money|16,000}}",
+          "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Damage",
+              "text": "+3 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+18",
+              "stat": "Burn Damage",
+              "text": "+18 Burn Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+1.5",
+              "stat": "Range",
+              "text": "+1.5 Range"
+            },
+            {
+              "kind": "delta",
+              "delta": "+0.75",
+              "stat": "Hitbox",
+              "text": "+0.75 Hitbox"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Max Hits",
+              "text": "+2 Max Hits"
+            },
+            {
+              "kind": "note",
+              "text": "10% > 15% Defense Melting"
+            }
+          ],
+          "params": {
+            "Level": "Level 5",
+            "Upgrade Title": "Kagutsuchi's Blood",
+            "Cost": "{{Money|16,000}}",
+            "Image": "[[File:Pyro5.png|100px]]",
+            "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}"
           }
         }
       ],
@@ -277,101 +366,16 @@
         "mode": "unknown",
         "level": 1,
         "title": "Improved Handling",
-        "cost": "{{Money|1,000}}",
-        "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
+        "cost": "{{Money|325}}",
+        "information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}",
         "claims": [
           {
             "kind": "set",
-            "from": "0.16",
-            "to": "0.12",
+            "from": "0.275",
+            "to": "0.175",
             "stat": "Firerate",
-            "text": "0.16 > 0.12 Firerate"
+            "text": "0.275 > 0.175 Firerate"
           },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Improved Handling",
-          "Cost": "{{Money|1,000}}",
-          "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
-          "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Thermal Vision",
-        "cost": "{{Money|4,800}}",
-        "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Range",
-            "text": "+4 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Thermal Vision",
-          "Cost": "{{Money|4,800}}",
-          "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
-          "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "High Tech Armory",
-        "cost": "{{Money|13,500}}",
-        "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+6",
-            "stat": "Damage",
-            "text": "+6 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.12",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.12 > 0.1 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "0.8",
-            "to": "0.6",
-            "stat": "Rev-Up Time",
-            "text": "0.8 > 0.6 Rev-Up Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "High Tech Armory",
-          "Cost": "{{Money|13,500}}",
-          "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
-          "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "24 Karat Gatling Gun",
-        "cost": "{{Money|27,500}}",
-        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
-        "claims": [
           {
             "kind": "delta",
             "delta": "+2",
@@ -380,17 +384,191 @@
           },
           {
             "kind": "delta",
-            "delta": "+7",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|325}}",
+          "Image": "[[File:Common1Image.png|100px]]",
+          "Information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Golden Flare",
+        "cost": "{{Money|900}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
             "stat": "Damage",
-            "text": "+7 Damage"
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Golden Flare",
+          "Cost": "{{Money|900}}",
+          "Image": "[[File:Pyro2.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Ring Of Fire",
+        "cost": "{{Money|2,777}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Burn Damage",
+            "text": "+3 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "7",
+            "stat": "Burn Time",
+            "text": "4 > 7 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "note",
+            "text": "2% > 7% Defense Melting"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Ring Of Fire",
+          "Cost": "{{Money|2,777}}",
+          "Image": "[[File:Pyro3.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Eternal Ember",
+        "cost": "{{Money|7,500}}",
+        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Damage",
+            "text": "+5 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Burn Damage",
+            "text": "+7 Burn Damage"
+          },
+          {
+            "kind": "set",
+            "from": "7",
+            "to": "360",
+            "stat": "Burn Time",
+            "text": "7 > 360 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          },
+          {
+            "kind": "note",
+            "text": "7% > 10% Defense Melting"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "24 Karat Gatling Gun",
-          "Cost": "{{Money|27,500}}",
-          "Image": "[[File:MiniLevel4.png|100px]]",
-          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
+          "Upgrade Title": "Eternal Ember",
+          "Cost": "{{Money|7,500}}",
+          "Image": "[[File:Pyro4.png|100px]]",
+          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "Kagutsuchi's Blood",
+        "cost": "{{Money|16,000}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+18",
+            "stat": "Burn Damage",
+            "text": "+18 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.75",
+            "stat": "Hitbox",
+            "text": "+0.75 Hitbox"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "note",
+            "text": "10% > 15% Defense Melting"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Kagutsuchi's Blood",
+          "Cost": "{{Money|16,000}}",
+          "Image": "[[File:Pyro5.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}"
         }
       }
     ],
@@ -400,8 +578,8 @@
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": "{{Attr|Hidden|Level 1+}}",
-        "lead": "N/A",
+        "hidden": "{{Attr|Hidden|Level 0+}}",
+        "lead": "{{Attr|Lead|Level 0+}}",
         "flying": "N/A",
         "immune": "None",
         "placement_limit": null
@@ -417,31 +595,26 @@
       {
         "name": "TowerInfobox",
         "params": {
-          "title": "{{Color|Golden|Golden Minigunner}}",
-          "image-static": "Goldenminigunner.png",
-          "image-dynamic": "GoldenMinigunnerDynamic.png",
-          "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
-          "towercost": "{{Coins|8,000}} ([[Minigunner]])",
-          "basecost": "{{Money|2,400}}",
-          "basesellingprice": "{{Money|800}}",
+          "title": "{{Color|Golden|Golden Pyromancer}}",
+          "image-static": "DHGoldenPyroIcon.png",
+          "image-dynamic": "GoldenPyromancerDynamic.png",
+          "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|65,000}} (Daily Store)",
+          "towercost": "{{Coins|1,250}} ([[Pyromancer]])",
+          "basecost": "{{Money|850}}",
+          "basesellingprice": "{{Money|283}}",
           "role": "Offense",
           "placement": "Ground",
-          "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
-          "damagetype": "Single",
-          "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
-          "baserange": "[[File:Range_Icon.png|20px|Range]]16",
-          "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-          "lead_detection": "N/A",
+          "basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage",
+          "damagetype": "Pierce<br/>Fire",
+          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.275",
+          "baserange": "[[File:Range Icon.png|20px|Range]]9",
+          "hidden_detection": "{{Attr|Hidden|Level 0+}}",
+          "lead_detection": "{{Attr|Lead|Level 0+}}",
           "flying_detection": "N/A",
           "immune": "None",
           "footprint": "1.5",
-          "evolves_into": "[[Juggernaut]]",
-          "evolution_levels": "20",
-          "base_exp": "50",
-          "growth_rate": "1.09",
-          "skip_cost": "599",
-          "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
-          "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+          "tooltip-1": "A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.",
+          "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
         },
         "positional": []
       }
@@ -449,35 +622,30 @@
     "likely_infobox": {
       "name": "TowerInfobox",
       "params": {
-        "title": "{{Color|Golden|Golden Minigunner}}",
-        "image-static": "Goldenminigunner.png",
-        "image-dynamic": "GoldenMinigunnerDynamic.png",
-        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
-        "towercost": "{{Coins|8,000}} ([[Minigunner]])",
-        "basecost": "{{Money|2,400}}",
-        "basesellingprice": "{{Money|800}}",
+        "title": "{{Color|Golden|Golden Pyromancer}}",
+        "image-static": "DHGoldenPyroIcon.png",
+        "image-dynamic": "GoldenPyromancerDynamic.png",
+        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|65,000}} (Daily Store)",
+        "towercost": "{{Coins|1,250}} ([[Pyromancer]])",
+        "basecost": "{{Money|850}}",
+        "basesellingprice": "{{Money|283}}",
         "role": "Offense",
         "placement": "Ground",
-        "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
-        "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
-        "baserange": "[[File:Range_Icon.png|20px|Range]]16",
-        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-        "lead_detection": "N/A",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage",
+        "damagetype": "Pierce<br/>Fire",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.275",
+        "baserange": "[[File:Range Icon.png|20px|Range]]9",
+        "hidden_detection": "{{Attr|Hidden|Level 0+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
         "flying_detection": "N/A",
         "immune": "None",
         "footprint": "1.5",
-        "evolves_into": "[[Juggernaut]]",
-        "evolution_levels": "20",
-        "base_exp": "50",
-        "growth_rate": "1.09",
-        "skip_cost": "599",
-        "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        "tooltip-1": "A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     },
-    "template_count": 228
+    "template_count": 179
   },
   "conflicts": {
     "priority_rule": {
@@ -574,10 +742,6 @@
       "pageid": 275
     },
     {
-      "title": "Grave Digger (Legacy)",
-      "pageid": 294
-    },
-    {
       "title": "Gladiator",
       "pageid": 302
     },
@@ -594,8 +758,8 @@
       "pageid": 454
     },
     {
-      "title": "Normal Boss",
-      "pageid": 486
+      "title": "Hidden",
+      "pageid": 484
     },
     {
       "title": "Commando",
@@ -610,32 +774,12 @@
       "pageid": 1546
     },
     {
-      "title": "Fallen Guardian (Legacy)",
-      "pageid": 1614
-    },
-    {
-      "title": "Error",
-      "pageid": 1616
-    },
-    {
-      "title": "Abnormal Boss",
-      "pageid": 1618
-    },
-    {
-      "title": "Glitch",
-      "pageid": 1619
-    },
-    {
-      "title": "Heavy",
-      "pageid": 1635
-    },
-    {
-      "title": "Shadow Boss",
-      "pageid": 1638
-    },
-    {
       "title": "Slasher",
       "pageid": 1752
+    },
+    {
+      "title": "Scarecrow (Nightmare Carnival)",
+      "pageid": 2011
     },
     {
       "title": "DJ Booth",
@@ -644,10 +788,6 @@
     {
       "title": "Ace Pilot",
       "pageid": 2469
-    },
-    {
-      "title": "Hidden Wave",
-      "pageid": 2531
     },
     {
       "title": "Mortar",
@@ -676,6 +816,10 @@
     {
       "title": "Swarmer",
       "pageid": 4581
+    },
+    {
+      "title": "Bunny Crate",
+      "pageid": 4613
     },
     {
       "title": "Pursuit",
@@ -708,6 +852,30 @@
     {
       "title": "Tank (Unit)",
       "pageid": 9672
+    },
+    {
+      "title": "Railgun Tank",
+      "pageid": 9673
+    },
+    {
+      "title": "SWAT Van",
+      "pageid": 9681
+    },
+    {
+      "title": "Crook",
+      "pageid": 9688
+    },
+    {
+      "title": "Mafia",
+      "pageid": 9690
+    },
+    {
+      "title": "Golden Crook",
+      "pageid": 9752
+    },
+    {
+      "title": "Golden Mafia",
+      "pageid": 9754
     }
   ],
   "templates": [
@@ -763,11 +931,6 @@
     },
     {
       "ns": 10,
-      "title": "Template:Robux",
-      "exists": true
-    },
-    {
-      "ns": 10,
       "title": "Template:QuoteContainer",
       "exists": true
     },
@@ -783,12 +946,12 @@
     },
     {
       "ns": 10,
-      "title": "Template:Hidden",
+      "title": "Template:Neow",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Neow",
+      "title": "Template:Robux",
       "exists": true
     },
     {
@@ -803,12 +966,12 @@
     },
     {
       "ns": 10,
-      "title": "Template:Tooltip",
+      "title": "Template:Bugfix",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Bugfix",
+      "title": "Template:Tooltip",
       "exists": true
     },
     {
@@ -854,20 +1017,20 @@
   ],
   "related_pages": [
     {
-      "title": "Golden Minigunner/Gallery",
+      "title": "Golden Pyromancer/Gallery",
       "score": 6,
-      "pageid": 30795,
-      "latest_revid": 140235,
-      "latest_timestamp": "2023-02-17T12:30:57Z",
-      "wikitext_excerpt": "#REDIRECT [[Minigunner/Gallery]]"
+      "pageid": 31078,
+      "latest_revid": 140237,
+      "latest_timestamp": "2023-02-17T12:36:20Z",
+      "wikitext_excerpt": "#REDIRECT [[Pyromancer/Gallery]]"
     },
     {
-      "title": "Golden Minigunner/History",
+      "title": "Golden Pyromancer/History",
       "score": 6,
-      "pageid": 36235,
-      "latest_revid": 618772,
-      "latest_timestamp": "2026-08-20T00:20:57Z",
-      "wikitext_excerpt": "{{Tabs|History|Regular = Minigunner/History|Perk = Golden Minigunner/History|Evolved=Juggernaut/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Minigunner/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Hardcore Rework Update (5 June 2026) - Current'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:Goldenminigunner.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|2,400}}\n|Footprint = 1.5\n|Sell Price = {{Money|800}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]3\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.16\n|Hidden = {{Hidden|Hidden Detection}}Level 1+\n|Range = [[File:Range Icon.png|20px|Range]]16\n|Lead = N/A\n|Placement = N/A\n|Fly = N/A\n|Title1 = Rev-Up Time\n|Stat1 = [[File:Cooldown Icon.png|20px|Rev-Up Time]]0.8\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|1,000}}|Image = [[File:MinigunnerUpgradeLevel1.png|100px]]|Information = 0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Thermal Vision|Cost = {{Money|4,800}}|Image = [[File:MinigunnerUpgradeLevel2.png|100px]]|Information = +4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = High Tech Armory|Cost = {{Money|13,500}}|Image = [[File:MinigunnerUpgradeLevel3.png|100px]]|Information = +6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = 24 Karat Gatling Gun|Cost = {{Money|27,500}}|Image = [[File:MiniLevel4.png|100px]]|Information = +2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$DPS$ = Damage / Firerate\n$CE$ = Total Cost / DPS\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 2400; 1000; 4800; 13500; 27500\n$FSE-DETECTION$ = 2; ;\n$FSE-UPGRADE$ = Improved Handling; Thermal Vision; High Tech Armory; 24 Karat Gatling Gun\n$FSE-UPGRADEICON$ = 15184753790; 15184753514; 15184753289; 15184752970\n$FSE-META$ = Golden Perks; File:Goldenminigunner.png\n$DREF$ = <ref name=dps>DPS does not consider rev-up time.</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{|class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency\n|-\n| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.16 || 0.8 || 16 || $DPS$ || {{Money|$CE$}}$R$\n|-\n| 1  || $R$ || $R$ || 3 || 0.12 || 0.8 || 16 || $DPS$$R$ || $R$\n|-\n| 2 || $R$ || $R$ || 7 || 0.12 || 0.8 || 20 || $R$ || $R$\n|-\n| 3 || $R$ || $R$ || 13 || 0.1 || 0.6 || 20 || $R$ || $R$\n|-\n| 4 || $R$ || $R$ || 20 || 0.1 || 0.6 || 22 || $R$ || $R$\n|}\n</div>\n</nowiki>}}\n</center>\n</div>\n</div>\n----\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Shock and Awe Update (28 January 2026) – Hardcore Rework Update (5 June 2026)'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n\n==Base Statistics==\n{{BaseStat\n|Image = [[File:Goldenminigunner.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Advanced\n|Role = Offense\n|Cost = {{Money|2,000}}\n|Footprint = 1.5\n|Sell Price = {{Money|666}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]2\n|Damage Type = Single\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15\n|Hidden = {{Hidden|Hidden Detection}}Level 2+\n|Range = [[File:Range Icon.png|20px|Range]]16\n|Lead = N/A\n|Placement = N/A\n|Fly = N/A"
+      "pageid": 34484,
+      "latest_revid": 619716,
+      "latest_timestamp": "2026-08-21T01:58:17Z",
+      "wikitext_excerpt": "{{Tabs|History|Regular = Pyromancer/History|Perk = Golden Pyromancer/History}}\nOnly tracks changes made to the golden perk. For the {{Color|Golden}} skin, go to the [[Pyromancer/History]] page.\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Operator Update (19 June 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{BaseStat\n|Image = [[File:DHGoldenPyroIcon.png|100px]]\n|Unlock Cost = {{Coins|50,000}}\n|Category = Intermediate\n|Role = Offense\n|Cost = {{Money|850}}\n|Footprint = 1.5\n|Sell Price = {{Money|283}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage\n|Damage Type = Pierce<br/>Fire\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.275\n|Hidden = {{Hidden|Hidden Detection}}Level 0+\n|Range = [[File:Range Icon.png|20px|Range]]9\n|Lead = {{Lead|Lead Detection}}Level 0+\n|Placement = N/A\n|Fly = N/A<ref name=\"fly\">Flying enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>\n|Title1 = Hitbox\n|Stat1 = 1.25\n|Title2 = Max Hits\n|Stat2 = 4\n}}\n\n==Upgrades==\n{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|325}}|Image = [[File:Common1Image.png|100px]]|Information = 0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Golden Flare|Cost = {{Money|900}}|Image = [[File:Pyro2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Ring Of Fire|Cost = {{Money|2,777}}|Image = [[File:Pyro3.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Eternal Ember|Cost = {{Money|7,500}}|Image = [[File:Pyro4.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}}}\n{{Upgrade|Level = Level 5|Upgrade Title = Kagutsuchi's Blood|Cost = {{Money|16,000}}|Image = [[File:Pyro5.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}}}\n\n==Statistics==\n{{neow|<nowiki>\n<var>\n$NDPS$ = Normal Damage / Firerate\n$BDPS$ = Burn Damage / Tick\n$TDPS$ = $NDPS$ + $BDPS$\n$MDPS$ = DPS * Max Hits\n$TED$ = Burn Damage * (Burn Time / Tick)\n$CE$ = Total Cost / DPS\n$TP$ = $FNC-TOTAL-COST$\n$COST$ = 850; 325; 900; 2777; 7500; 16000\n$FSE-DETECTION$ = 0; 0;\n$FSE-UPGRADE$ = Improved Handling; Golden Flare; Ring Of Fire; Eternal Ember; Kagutsuchi's Blood\n$FSE-UPGRADEICON$ = 3280081327; 3304823121; 3304823988; 3304824958; 3304825822\n$FNC-ROFBUG$ = Firerate\n$TREF$ = <ref name=\"EP\">Calculated as Burn Damage × (Burn Time ÷ Tick).</ref>\n$NREF$ = <ref name=\"DPS\">DPS assumes the flames only hit one enemy.<br/>Total DPS is calculated as Normal DPS + Burn DPS.<br/>Burn DPS is calculated as Burn Damage ÷ Tick.</ref>\n$MREF$ = <ref name=\"MDPS\">Calculated as Total DPS × Max Hits.</ref>\n$R$ = $FNC-RECURSION$\n</var>\n<div class=\"overflow-box\">\n{| class=\"wikitable stats-table\"\n! Level !! Cost !! Total Cost !! Normal Damage !!"
     },
     {
       "title": "Golden Body Guard",
@@ -953,14 +1116,14 @@
   "raw_wikitext_file": "tds_bridge/result.txt",
   "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt",
   "_bridge_run": {
-    "request_fingerprint": "1a8f7f2398906b08279ee2df3a40cf1895d4d075476e4f5cff4e855925d4068c",
+    "request_fingerprint": "77c5275cf57d99eb1943ac28a32bafe37ed028a74023585e3c094f993d53dc66",
     "mode": "verify",
-    "query": "Golden Minigunner",
-    "started_at": "2026-09-18T14:38:14.189314+00:00",
-    "github_run_id": "35357458690",
-    "source_commit": "04190edb4fca10f8f0e627405ea1cd2a326f07b8",
+    "query": "Golden Pyromancer",
+    "started_at": "2026-09-18T14:43:14.065995+00:00",
+    "github_run_id": "35357911623",
+    "source_commit": "d70ffaf16df4f5c7c6313288c21675d755466744",
     "status": "completed",
-    "finished_at": "2026-09-18T14:38:18.859772+00:00",
+    "finished_at": "2026-09-18T14:43:18.005869+00:00",
     "return_code": 0
   }
 }

@@ -7,108 +7,23 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Golden Minigunner''' is a golden perk for the [[Minigunner]], obtained from the [[Golden Crate]] for {{Coins|50,000}} if you own the [[Minigunner]]. It can also be bought in the [[Daily Store]] for {{Coins|75,000}}.\n\nBefore the '''Golden Minigunner''' starts firing, it needs to rev up its minigun. If there are no enemies in its range while revved-up, it will wait for around a second for an enemy to enter its range. If no enemy enters its range in that time, it begins to deactivate the gun and will need to rev the gun up again when an enemy enters its range. It fires bullets at enemies at a fast firerate. The '''Golden Minigunner''' has high DPS and a relatively cheap cost compared to other high DPS towers, like the [[Accelerator]] or [[Engineer]]. \n\nThe '''Golden Minigunner''' has more damage and costs more than its normal counterpart, the [[Minigunner]], making it a direct upgrade in many ways. It is mostly considered a mid-game to late-game tower, although it can be used in early game if you have enough base health and focus solely on using the [[Farm]] for some time.",
+  "description": "The '''Golden Pyromancer''' is a golden perk for the [[Pyromancer]], obtained from the [[Golden Crate]] for {{Coins|50,000}}, if you own the [[Pyromancer]]. Its main gimmick is its ability to burn enemies, dealing extra damage over time and later reducing the enemy [[Defense]].\n\nIf an enemy is set alight, the flames will be applied to the enemy until the burn time runs out. There are two types of damage the '''Golden Pyromancer''' can apply. The first is ''Normal Damage'' which is non-burn related. This can pierce through multiple enemies, not including [[flying]] enemies, which it is unable to damage without flying detection. Its flame can initially only hit four different enemies, but with upgrades it increases to ten enemies at once. The second is ''Burn Damage'' which is applied for every second an enemy is set alight. Both damage methods can damage [[Lead (Attribute)|Lead]] enemies. The '''Golden Pyromancer''' will attack any enemy, even if the enemy is on fire. However, if there are multiple enemies in its range, it will attack the first enemy that is not on fire. Unlike its normal counterpart, the '''Golden Pyromancer''' can detect hidden enemies from Level 0.\n\nThe '''Golden Pyromancer''', in comparison to the [[Pyromancer]], has increased normal damage, burn damage and burn time, at one point having it be effectively infinite. This is considered to be an all rounder tower.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "unknown",
         "level": 1,
         "title": "Improved Handling",
-        "cost": "{{Money|1,000}}",
-        "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
+        "cost": "{{Money|325}}",
+        "information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}",
         "claims": [
           {
             "kind": "set",
-            "from": "0.16",
-            "to": "0.12",
+            "from": "0.275",
+            "to": "0.175",
             "stat": "Firerate",
-            "text": "0.16 > 0.12 Firerate"
+            "text": "0.275 > 0.175 Firerate"
           },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Improved Handling",
-          "Cost": "{{Money|1,000}}",
-          "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
-          "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Thermal Vision",
-        "cost": "{{Money|4,800}}",
-        "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Damage",
-            "text": "+4 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Range",
-            "text": "+4 Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Thermal Vision",
-          "Cost": "{{Money|4,800}}",
-          "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
-          "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "High Tech Armory",
-        "cost": "{{Money|13,500}}",
-        "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+6",
-            "stat": "Damage",
-            "text": "+6 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.12",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.12 > 0.1 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "0.8",
-            "to": "0.6",
-            "stat": "Rev-Up Time",
-            "text": "0.8 > 0.6 Rev-Up Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "High Tech Armory",
-          "Cost": "{{Money|13,500}}",
-          "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
-          "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "24 Karat Gatling Gun",
-        "cost": "{{Money|27,500}}",
-        "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
-        "claims": [
           {
             "kind": "delta",
             "delta": "+2",
@@ -117,17 +32,191 @@
           },
           {
             "kind": "delta",
-            "delta": "+7",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|325}}",
+          "Image": "[[File:Common1Image.png|100px]]",
+          "Information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Golden Flare",
+        "cost": "{{Money|900}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
             "stat": "Damage",
-            "text": "+7 Damage"
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Golden Flare",
+          "Cost": "{{Money|900}}",
+          "Image": "[[File:Pyro2.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 3,
+        "title": "Ring Of Fire",
+        "cost": "{{Money|2,777}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Burn Damage",
+            "text": "+3 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "7",
+            "stat": "Burn Time",
+            "text": "4 > 7 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "note",
+            "text": "2% > 7% Defense Melting"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Ring Of Fire",
+          "Cost": "{{Money|2,777}}",
+          "Image": "[[File:Pyro3.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Eternal Ember",
+        "cost": "{{Money|7,500}}",
+        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Damage",
+            "text": "+5 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Burn Damage",
+            "text": "+7 Burn Damage"
+          },
+          {
+            "kind": "set",
+            "from": "7",
+            "to": "360",
+            "stat": "Burn Time",
+            "text": "7 > 360 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          },
+          {
+            "kind": "note",
+            "text": "7% > 10% Defense Melting"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "24 Karat Gatling Gun",
-          "Cost": "{{Money|27,500}}",
-          "Image": "[[File:MiniLevel4.png|100px]]",
-          "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
+          "Upgrade Title": "Eternal Ember",
+          "Cost": "{{Money|7,500}}",
+          "Image": "[[File:Pyro4.png|100px]]",
+          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "Kagutsuchi's Blood",
+        "cost": "{{Money|16,000}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+18",
+            "stat": "Burn Damage",
+            "text": "+18 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.75",
+            "stat": "Hitbox",
+            "text": "+0.75 Hitbox"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "note",
+            "text": "10% > 15% Defense Melting"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Kagutsuchi's Blood",
+          "Cost": "{{Money|16,000}}",
+          "Image": "[[File:Pyro5.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}"
         }
       }
     ],
@@ -138,101 +227,16 @@
       "mode": "unknown",
       "level": 1,
       "title": "Improved Handling",
-      "cost": "{{Money|1,000}}",
-      "information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}",
+      "cost": "{{Money|325}}",
+      "information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}",
       "claims": [
         {
           "kind": "set",
-          "from": "0.16",
-          "to": "0.12",
+          "from": "0.275",
+          "to": "0.175",
           "stat": "Firerate",
-          "text": "0.16 > 0.12 Firerate"
+          "text": "0.275 > 0.175 Firerate"
         },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Improved Handling",
-        "Cost": "{{Money|1,000}}",
-        "Image": "[[File:MinigunnerUpgradeLevel1.png|100px]]",
-        "Information": "0.16 > 0.12 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,133}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 2,
-      "title": "Thermal Vision",
-      "cost": "{{Money|4,800}}",
-      "information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Damage",
-          "text": "+4 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Range",
-          "text": "+4 Range"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Thermal Vision",
-        "Cost": "{{Money|4,800}}",
-        "Image": "[[File:MinigunnerUpgradeLevel2.png|100px]]",
-        "Information": "+4 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n+4 Range [[File:Range_Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|2,733}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 3,
-      "title": "High Tech Armory",
-      "cost": "{{Money|13,500}}",
-      "information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+6",
-          "stat": "Damage",
-          "text": "+6 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.12",
-          "to": "0.1",
-          "stat": "Firerate",
-          "text": "0.12 > 0.1 Firerate"
-        },
-        {
-          "kind": "set",
-          "from": "0.8",
-          "to": "0.6",
-          "stat": "Rev-Up Time",
-          "text": "0.8 > 0.6 Rev-Up Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "High Tech Armory",
-        "Cost": "{{Money|13,500}}",
-        "Image": "[[File:MinigunnerUpgradeLevel3.png|100px]]",
-        "Information": "+6 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n0.12 > 0.1 Firerate [[FIle:Cooldown Icon.png|20px|Firerate]]\n\n0.8 > 0.6 Rev-Up Time [[File:Cooldown Icon.png|20px|Rev-Up Time]]\n\n\nSell Price changes to {{Money|7,233}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "24 Karat Gatling Gun",
-      "cost": "{{Money|27,500}}",
-      "information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}",
-      "claims": [
         {
           "kind": "delta",
           "delta": "+2",
@@ -241,17 +245,191 @@
         },
         {
           "kind": "delta",
-          "delta": "+7",
+          "delta": "+0.25",
+          "stat": "Hitbox",
+          "text": "+0.25 Hitbox"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Improved Handling",
+        "Cost": "{{Money|325}}",
+        "Image": "[[File:Common1Image.png|100px]]",
+        "Information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|391}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 2,
+      "title": "Golden Flare",
+      "cost": "{{Money|900}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
           "stat": "Damage",
-          "text": "+7 Damage"
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Golden Flare",
+        "Cost": "{{Money|900}}",
+        "Image": "[[File:Pyro2.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|691}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 3,
+      "title": "Ring Of Fire",
+      "cost": "{{Money|2,777}}",
+      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Damage",
+          "text": "+2 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Burn Damage",
+          "text": "+3 Burn Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2.5",
+          "stat": "Range",
+          "text": "+2.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "4",
+          "to": "7",
+          "stat": "Burn Time",
+          "text": "4 > 7 Burn Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        },
+        {
+          "kind": "note",
+          "text": "2% > 7% Defense Melting"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Ring Of Fire",
+        "Cost": "{{Money|2,777}}",
+        "Image": "[[File:Pyro3.png|100px]]",
+        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 7 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+2 Max Hits\n\n2% > 7% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|1,617}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Eternal Ember",
+      "cost": "{{Money|7,500}}",
+      "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Damage",
+          "text": "+5 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+7",
+          "stat": "Burn Damage",
+          "text": "+7 Burn Damage"
+        },
+        {
+          "kind": "set",
+          "from": "7",
+          "to": "360",
+          "stat": "Burn Time",
+          "text": "7 > 360 Burn Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+0.25",
+          "stat": "Hitbox",
+          "text": "+0.25 Hitbox"
+        },
+        {
+          "kind": "note",
+          "text": "7% > 10% Defense Melting"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "24 Karat Gatling Gun",
-        "Cost": "{{Money|27,500}}",
-        "Image": "[[File:MiniLevel4.png|100px]]",
-        "Information": "+2 Range [[File:Range_Icon.png|20px|Range]]\n\n+7 Damage [[File:Damage_Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|16,400}}"
+        "Upgrade Title": "Eternal Ember",
+        "Cost": "{{Money|7,500}}",
+        "Image": "[[File:Pyro4.png|100px]]",
+        "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+7 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n7 > 360 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n7% > 10% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|4,117}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 5,
+      "title": "Kagutsuchi's Blood",
+      "cost": "{{Money|16,000}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Damage",
+          "text": "+3 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+18",
+          "stat": "Burn Damage",
+          "text": "+18 Burn Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+0.75",
+          "stat": "Hitbox",
+          "text": "+0.75 Hitbox"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        },
+        {
+          "kind": "note",
+          "text": "10% > 15% Defense Melting"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Kagutsuchi's Blood",
+        "Cost": "{{Money|16,000}}",
+        "Image": "[[File:Pyro5.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+18 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+0.75 Hitbox\n\n+2 Max Hits\n\n10% > 15% Defense Melting [[File:Defense.png|20px|Defense Melting]]\n\n\nSell Price changes to {{Money|9,450}}"
       }
     }
   ],
@@ -261,8 +439,8 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 1+}}",
-      "lead": "N/A",
+      "hidden": "{{Attr|Hidden|Level 0+}}",
+      "lead": "{{Attr|Lead|Level 0+}}",
       "flying": "N/A",
       "immune": "None",
       "placement_limit": null
@@ -278,31 +456,26 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "{{Color|Golden|Golden Minigunner}}",
-        "image-static": "Goldenminigunner.png",
-        "image-dynamic": "GoldenMinigunnerDynamic.png",
-        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
-        "towercost": "{{Coins|8,000}} ([[Minigunner]])",
-        "basecost": "{{Money|2,400}}",
-        "basesellingprice": "{{Money|800}}",
+        "title": "{{Color|Golden|Golden Pyromancer}}",
+        "image-static": "DHGoldenPyroIcon.png",
+        "image-dynamic": "GoldenPyromancerDynamic.png",
+        "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|65,000}} (Daily Store)",
+        "towercost": "{{Coins|1,250}} ([[Pyromancer]])",
+        "basecost": "{{Money|850}}",
+        "basesellingprice": "{{Money|283}}",
         "role": "Offense",
         "placement": "Ground",
-        "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
-        "damagetype": "Single",
-        "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
-        "baserange": "[[File:Range_Icon.png|20px|Range]]16",
-        "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-        "lead_detection": "N/A",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage",
+        "damagetype": "Pierce<br/>Fire",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.275",
+        "baserange": "[[File:Range Icon.png|20px|Range]]9",
+        "hidden_detection": "{{Attr|Hidden|Level 0+}}",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
         "flying_detection": "N/A",
         "immune": "None",
         "footprint": "1.5",
-        "evolves_into": "[[Juggernaut]]",
-        "evolution_levels": "20",
-        "base_exp": "50",
-        "growth_rate": "1.09",
-        "skip_cost": "599",
-        "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        "tooltip-1": "A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     }
@@ -310,33 +483,28 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "{{Color|Golden|Golden Minigunner}}",
-      "image-static": "Goldenminigunner.png",
-      "image-dynamic": "GoldenMinigunnerDynamic.png",
-      "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|75,000}} (Daily Store)",
-      "towercost": "{{Coins|8,000}} ([[Minigunner]])",
-      "basecost": "{{Money|2,400}}",
-      "basesellingprice": "{{Money|800}}",
+      "title": "{{Color|Golden|Golden Pyromancer}}",
+      "image-static": "DHGoldenPyroIcon.png",
+      "image-dynamic": "GoldenPyromancerDynamic.png",
+      "perkcost": "{{Coins|50,000}} ([[Golden Crate]]) or {{Coins|65,000}} (Daily Store)",
+      "towercost": "{{Coins|1,250}} ([[Pyromancer]])",
+      "basecost": "{{Money|850}}",
+      "basesellingprice": "{{Money|283}}",
       "role": "Offense",
       "placement": "Ground",
-      "basedamage": "[[File:Damage_Icon.png|20px|Damage]]3",
-      "damagetype": "Single",
-      "basefirerate": "[[File:Cooldown_Icon.png|20px|Firerate]]0.16",
-      "baserange": "[[File:Range_Icon.png|20px|Range]]16",
-      "hidden_detection": "{{Attr|Hidden|Level 1+}}",
-      "lead_detection": "N/A",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage",
+      "damagetype": "Pierce<br/>Fire",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.275",
+      "baserange": "[[File:Range Icon.png|20px|Range]]9",
+      "hidden_detection": "{{Attr|Hidden|Level 0+}}",
+      "lead_detection": "{{Attr|Lead|Level 0+}}",
       "flying_detection": "N/A",
       "immune": "None",
       "footprint": "1.5",
-      "evolves_into": "[[Juggernaut]]",
-      "evolution_levels": "20",
-      "base_exp": "50",
-      "growth_rate": "1.09",
-      "skip_cost": "599",
-      "tooltip-1": "A reliable moderately priced DPS tower with solid range, dependable damage, and a high rate of fire.",
-      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+      "tooltip-1": "A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 228
+  "template_count": 179
 }
