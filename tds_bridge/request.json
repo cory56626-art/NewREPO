@@ -19,5 +19,7 @@
     "demoman"
   ],
   "strict_must_include": false,
-  "include_media_candidates": true
+  "include_media_candidates": true,
+  "max_runtime_seconds": 900,
+  "max_consecutive_errors": 3
 }
