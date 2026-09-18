@@ -53,7 +53,7 @@ jobs:
           if not status_path.exists():
               raise SystemExit("Missing run_status.json")
           status = json.loads(status_path.read_text(encoding="utf-8"))
-          if status.get("status") not in {"completed", "needs_selection", "failed"}:
+          if status.get("status") not in {"completed", "partial", "needs_selection", "failed"}:
               raise SystemExit(f"Non-terminal bridge status: {status.get('status')}")
           if not status.get("request_fingerprint"):
               raise SystemExit("Missing request fingerprint")
