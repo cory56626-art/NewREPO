@@ -102,7 +102,22 @@ def main():
         raise
 
     finished_at=datetime.now(timezone.utc).isoformat()
-    status='needs_selection' if rc==2 else 'completed'
+    if rc==2:
+        status='needs_selection'
+    elif rc!=0:
+        status='failed'
+    else:
+        status='completed'
+        # Propagate an honest mode-specific terminal state. A bounded deep scan can
+        # finish cleanly while still being partial (timeout, endpoint failure, etc.).
+        mode_meta=ROOT/'meta.json'
+        if mode_meta.exists():
+            try:
+                mode_status=json.loads(mode_meta.read_text(encoding='utf-8')).get('run_status')
+                if mode_status in {'completed','partial'}:
+                    status=mode_status
+            except Exception:
+                pass
     final_context={**context,'status':status,'finished_at':finished_at,'return_code':rc}
     for name in ('meta.json','evidence_bundle.json'): _augment_json(name,final_context)
 
