@@ -1,142 +1,254 @@
 {{Tabs}}
+{{SameName|Engineer|'''Tower''' • [[Engineer (Narrator)|Narrator]]}}
 {{TowerInfobox
-|title = Mortar
-|image-static = MortarIcon.png
-|image-dynamic = MortarDynamic.png
-|unlockcost = {{Level|75}} or {{Robux|300}}
+|title = Engineer
+|image-static = EngineerIcon.png
+|image-dynamic = EngineerDynamic.png
+|unlockcost = {{Gem|4,500}} or {{Robux|1,267}}
+|levelrequirement = {{Level|50}}
+|basecost = {{Money|600}}
+|basesellingprice = {{Money|200}}
 |role = Defense
-|placement = Cliff
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])
-|basecost = {{Money|1,000}}
-|basesellingprice = {{Money|333}}
-|basedamage = [[File:SplashDamage.png|20px|Damage]]15
-|damagetype = [[Splash Damage|Splash]]
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]4
-|baserange = [[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)
-|hidden_detection = N/A<ref name="hd">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = {{Attr|Fly|Level 0+}}
-|immune = Stun
-|footprint = 1.75
-|pvp_basecost = {{Money|1,000}}
-|pvp_basesellingprice = {{Money|333}}
-|pvp_basedamage = [[File:SplashDamage.png|20px|Damage]]12
-|pvp_damagetype = [[Splash Damage|Splash]]
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]4
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)
-|pvp_hidden_detection = N/A<ref name="hd"/>
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = {{Attr|Fly|Level 0+}}
-|pvp_immune = Stun
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)
+|basedamage = [[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])
+|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 6)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.4 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]1 ([[Sentry (Unit)|Sentry]])
+|baserange = [[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1.5 (Deadzone Range)
+|hidden_detection = {{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 2+}} (Units)
+|lead_detection = {{Attr|Lead|Level 0+}} (Tower & Splash only)
+|flying_detection = {{Attr|Fly|Level 0+}} (Tower only)<ref name="fd">Through [[War Machine Sentry]] splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>
+|immune = Stun (Level 5+, units with shield only)<br/>Debuff (Units only)
+|footprint = 1.5
+|pvp_basecost = {{Money|700}}
+|pvp_basesellingprice = {{Money|233}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]4 (Tower)<br/>[[File:Damage Icon.png|20px|Damage]]2 ([[Sentry (Unit)|Sentry]])
+|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 6)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.2 (Tower)<br/>[[File:Cooldown Icon.png|20px|Firerate]]0.45 ([[Sentry (Unit)|Sentry]])
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]13 (Tower)<br/>[[File:Range Icon.png|20px|Range]]18 ([[Sentry (Unit)|Sentry]])<br/>[[File:BuildRange.png|20px|Build Range]]4 (Build Range)<br/>[[File:DeadzoneRange.png|20px|Deadzone Range]]1 (Deadzone Range)
+|pvp_hidden_detection = {{Attr|Hidden|Level 2+}} (Tower)<br/>{{Attr|Hidden|Level 5+}} (Units)
+|pvp_lead_detection = {{Attr|Lead|Level 0+}} (Tower & Splash only)
+|pvp_flying_detection = {{Attr|Fly|Level 2+}} (Tower only)<ref name="fd"/>
+|pvp_immune = Stun (Level 4+, units with shield only)<br/>Debuff (Units only)
 |pvp_footprint = 1.5
-|tooltip-1 = AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.
-|tooltip-2 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.
+|tooltip-1 = A well-rounded tower that takes time to ramp up and build its turrets but can create a strong defensive line with great coverage once its turrets are setup.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]], [[Lead (Attribute)|lead]], and [[flying]] enemies.
 }}
-{{QuoteContainer|<tabber>
-|-|Current =
-{{QuoteBox|Rain fire from above! Deals extremely high splash damage!|Store Description}}
-|-|Hardcore Testing =
-{{QuoteBox|Rain fire from above! Deals extremely high splash damage! Unlockable at Lv. 75|Former Store Description}}
-|-|Original =
-{{QuoteBox|Rain from above! Unlockable at Lv. 75|Former Store Description}}
-</tabber>}}
+{{QuoteContainer|
+{{QuoteBox|Sentry comin' up! A Jack of All Trades tower that builds up scrap and deploys powerful sentry turrets.|Store Description}}
+{{QuoteBox|Sentry comin' up!|Former Store Description}}
+}}
 __TOC__
 ==Description==
-The '''Mortar''' is an advanced cliff [[Towers|tower]] with a long range capable of damaging enemies with its explosions. It can be unlocked by reaching {{Level|75}} or purchased via a gamepass for {{Robux|300}}. When the player reaches {{Level|75}}, the '''Mortar''' can be claimed by using the pop-up message that appears when joining the lobby.
+The '''Engineer''' is a hardcore tower that attacks enemies with a rebar launcher and can build various [[Sentry (Unit)|sentries]] within its range to assist with defense. It can be purchased from the store for {{Gem|4,500}} and has a level requirement of {{Level|50}}. The '''Engineer''' is also available through a gamepass for {{Robux|1,267}}.
 
-The '''Mortar''' is a cliff tower that shoots rather slowly but deals high damage over a large explosion radius. It has a long range, but as the '''Mortar''' shoots at a target farther away, the shells take longer to reach their target. These shells will generally land behind the targeted enemy. The explosion it produces is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. At Level 4, when the '''Mortar's''' shells explode, they will drop three cluster bombs, which will create additional explosions when they hit the ground. These will land around the main explosion, meaning they are very unlikely to all hit and deal full damage to the targeted enemy. By default, the '''Mortar''' can damage [[Lead (Attribute)|Lead]], as well as target all non-hidden flying enemies. The '''Mortar''' is immune to all stuns by default. 
+The '''Engineer''' has three range rings: the white ring is the attack range of the '''Engineer''', the yellow ring is the placement range for sentries, and the red ring is the deadzone range in which the '''Engineer''' cannot fire nor build sentries. The '''Engineer''' collects scrap when damaging enemies, with the amount of scrap obtained per shot being equivalent to the damage dealt to an enemy. The scrap fills up its ''Scrap Meter'', which can be seen above its tower icon in the upgrade box or when the player hovers over it. When its ''Scrap Meter'' is full, the '''Engineer''' will briefly stop attacking to build a sentry. Within upgrades, the '''Engineer''' will build stronger sentries, however, they will require more scrap to be built. If the ''Scrap Meter'' is filled up but the maximum number of sentries are placed, the '''Engineer''' will wait until a sentry is despawned or destroyed before building another sentry. There is a limit to how many sentries can be built.
 
-The '''Mortar''' is considered an all-round tower due to its relatively cheap placement cost, expensive upgrade prices, and its ability to effectively handle groups of enemies throughout the game thanks to its high area damage and strong overall damage output.
+Sentries built by the '''Engineer''' are considered units, though they cannot move and can only be placed on the ground in the yellow range ring. They do have health however, which drains over time or decreases when hit by an enemy ability that deals damage, limiting the amount of time they can stay alive. The amount left before a sentry despawns can be seen with the duration bar above a sentry.
 
-The '''Mortar''' has a placement limit of four per player. This is increased to five in [[PVP]] mode.
+The '''Engineer''' is considered an all-round tower due to its cheap placement cost, decent DPS on early levels and very expensive upgrades with extremely high DPS later on.
+
+The '''Engineer''' has a placement limit of six per player. This is reduced to five in [[PVP]] mode.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|500}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = 4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Precise Calculations|Cost = {{Money|325}}|Image = [[File:Engineer_Level_1.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 +3 Range [[File:Range Icon.png|20px|Range]]
 
 
-Sell Price changes to {{Money|500}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|2,250}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +20 Damage [[File:SplashDamage.png|20px|Damage]]
-
-5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-
-Sell Price changes to {{Money|1,250}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|4,250}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +30 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-
-Sell Price changes to {{Money|2,666}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|13,500}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +35 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+4 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]
-
-•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}
-
-
-Sell Price changes to {{Money|7,166}}}}
-
-{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|30,000}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +135 Damage [[File:SplashDamage.png|20px|Damage]]
-
-8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+2 Cluster Amount}}
-
-
-Sell Price changes to {{Money|17,166}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|300}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-
-Sell Price changes to {{Money|433}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|1,400}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +13 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-
-Sell Price changes to {{Money|900}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|2,500}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +25 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+5 Range [[File:Range Icon.png|20px|Range]]
-
-7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-
-Sell Price changes to {{Money|1,733}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|12,000}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +50 Damage [[File:SplashDamage.png|20px|Damage]]
+Sell Price changes to {{Money|308}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Makeshift Radar|Cost = {{Money|900}}|Image = [[File:Radar.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
-{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]
++Hidden Detection {{Hidden|Hidden Detection}}
 
-•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}
+{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•20 Range [[File:Range Icon.png|20px|Range]]
+
+•400 Health [[File:HealthIcon.png|20px|Health]]
+
+•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•32 Scrap Meter
+
+•Hidden Detection {{Hidden|Hidden Detection}}}}
 
 
-Sell Price changes to {{Money|5,733}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|22,500}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|608}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Auto Converter|Cost = {{Money|2,077}}|Image = [[File:Engi3.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+50 Damage [[File:SplashDamage.png|20px|Damage]]
++1 Max Units
 
-8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Cluster Amount}}
+1.2 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|13,233}}}}
+Sell Price changes to {{Money|1,300}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Heavy Construction|Cost = {{Money|6,250}}|Image = [[File:Engineer Level 5.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
+
++3 Range [[File:Range Icon.png|20px|Range]]
+
+-1 Build Range [[File:BuildRange.png|20px|Build Range]]
+
+1 > 0.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•22 Range [[File:Range Icon.png|20px|Range]]
+
+•750 Health [[File:HealthIcon.png|20px|Health]]
+
+•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•150 Scrap Meter
+
+•Hidden Detection {{Hidden|Hidden Detection}}}}
+
+
+Sell Price changes to {{Money|3,384}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Improved Blueprints|Cost = {{Money|12,500}}|Image = [[File:Engi4.png|100px]]|Information = +50 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++Sentry Shield
+
++1 Max Units
+
+
+Sell Price changes to {{Money|7,550}}}}
+{{Upgrade|Level = Level 6|Upgrade Title = Illegal Gun Parts|Cost = {{Money|32,500}}|Image = [[File:Engineerupgrade6.jpg|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
+
++1.5 Range [[File:Range Icon.png|20px|Range]]
+
+-1 Build Range [[File:BuildRange.png|20px|Build Range]]
+
+0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++1 Max Units
+
+{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •3 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•24 Range [[File:Range Icon.png|20px|Range]]
+
+•60x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•1,000 Health [[File:HealthIcon.png|20px|Health]]
+
+•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•340 Scrap Meter
+
+•Hidden Detection {{Hidden|Hidden Detection}}}}
+
+
+Sell Price changes to {{Money|18,384}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Precise Calculations|Cost = {{Money|250}}|Image = [[File:Engineer_Level_1.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+
+Sell Price changes to {{Money|316}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Makeshift Radar|Cost = {{Money|400}}|Image = [[File:Radar.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
++Flying Detection {{Flying|Flying Detection}}
+
++1 Max Units
+
+
+Sell Price changes to {{Money|450}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Auto Converter|Cost = {{Money|1,800}}|Image = [[File:Engi3.png|100px]]|Information = +10 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Spawns Rifle Sentry|Description = •2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•20 Range [[File:Range Icon.png|20px|Range]]
+
+•40 Health [[File:HealthIcon.png|20px|Health]]
+
+•30 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•32 Scrap Meter}}
+
+
+Sell Price changes to {{Money|1,050}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Improved Blueprints|Cost = {{Money|2,600}}|Image = [[File:Engi4.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
+
++3 Range [[File:Range Icon.png|20px|Range]]
+
+1.2 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++Sentry Shield
+
+Sell Price changes to {{Money|1,916}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Heavy Construction|Cost = {{Money|12,500}}|Image = [[File:Engineer_Level_5.png|100px]]|Information = 
++10 Damage [[File:Damage Icon.png|20px|Damage]]
+
++1 Max Units
+
+{{CollapsibleUpgrade|Title = Spawns Minigun Sentry|Description = •6 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•20 Range [[File:Range Icon.png|20px|Range]]
+
+•60 Health [[File:HealthIcon.png|20px|Health]]
+
+•45 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•120 Scrap Meter
+
+•Hidden Detection {{Hidden|Hidden Detection}}}}
+
+
+Sell Price changes to {{Money|5,750}}}}
+{{Upgrade|Level = Level 6|Upgrade Title = Illegal Gun Parts|Cost = {{Money|32,500}}|Image = [[File:Engineerupgrade6.jpg|100px]]|Information = 
++18 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+-0.5 Deadzone Range [[File:DeadzoneRange.png|20px|Deadzone Range]]
+
+0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+{{CollapsibleUpgrade|Title = Spawns War Machine Sentry|Description = •8 Damage [[File:Damage Icon.png|20px|Damage]]
+
+•0.125 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•24 Range [[File:Range Icon.png|20px|Range]]
+
+•28x2 Splash Damage [[File:SplashDamage.png|20px|Splash Damage]]
+
+•4 Rocket Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•250 Health [[File:HealthIcon.png|20px|Health]]
+
+•60 Second Lifespan [[File:Cooldown Icon.png|20px|Lifespan]]
+
+•250 Scrap Meter
+
+•Hidden Detection {{Hidden|Hidden Detection}}}}
+
+
+Sell Price changes to {{Money|14,916}}}}
 }}
 
 ==Statistics==
@@ -144,57 +256,106 @@ Sell Price changes to {{Money|13,233}}}}
 
 {{neow|<nowiki>
 <var>
-$DPS$ = [[Splash Damage]] / Firerate
-$CDPS$ = Cluster Damage * Cluster Count / Firerate
-$CE$ = Total Cost / ($DPS$ + $CDPS$)
+$DPS$ = Damage / Firerate
+$MDPS$ = Splash Damage * Rocket Count / Rocket Firerate
+$SDPS$ = $DPS$ + $MDPS$
+$FNC-INDEX$ = Sentry Stats.Level
+$CDPS$ = DPS + Sentry Stats.DPS * Max Units
+$CE$ = Total Cost / Combined DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 1000; 500; 2250; 4250; 13500; 30000
-$PVP-COST$ = 1000; 300; 1400; 2500; 12000; 22500
-$FSE-DETECTION$ = ; 0; 0
-$FSE-UPGRADE$ = Improved Handling; Upgraded Armaments; Bigger Cannon; Loaded Warhead; City Buster
-$FSE-UPGRADEICON$ = 4538447265; 4538447347; 4538447424; 4538447493; 4538447579
-$FSE-META$ = Advanced; File:MortarIcon.png
-$SREF$ = <ref name="splash">Number is the damage dealt in the inner explosion sphere. Splash damage is decreased linearly if the enemy is in the outer explosion sphere.</ref>
-$FREF$ = <ref name="fr">Firerate does not account for projectile travel time.</ref>
-$DREF$ = <ref name="DPS">DPS assumes only one enemy is hit and receives full splash damage. DPS does not account for projectile travel time.</ref>
-$CREF$ = <ref name="ce">Accounts for both normal and cluster bomb DPS.</ref>
+$COST$ = 600; 325; 900; 2077; 6250; 12500; 32500
+$PVP-COST$ = 700; 250; 400; 1800; 2600; 12500; 32500
+$FSE-DETECTION$ = 2; 0; 0
+$FSE-PVP-DETECTION$ = 2; 0; 2
+$FSE-UPGRADE$ = Precise Calculations; Makeshift Radar; Auto Converter; Heavy Construction; Improved Blueprints; Illegal Gun Parts
+$FSE-PVP-UPGRADE$ = Precise Calculations; Makeshift Radar; Auto Converter; Improved Blueprints; Heavy Construction; Illegal Gun Parts
+$FSE-UPGRADEICON$ = 4517035597; 149177741; 8998290803; 155526941; 31857714; 7852911857
+$FSE-PVP-UPGRADEICON$ = 4517035597; 149177741; 8998290803; 31857714; 155526941; 7852911857
+$FSE-META$ = Hardcore; File:EngineerIcon.png
+$DREF$ = <ref name="dps">Does not account for time taken to build Sentries.</ref>
+$CDREF$ = <ref name="cdps">Combined DPS is the total DPS of the tower itself and the max number of units at that Level.</ref>
+$CEREF$ = <ref name="ce">Uses combined DPS in the calculation.</ref>
+$SREF$ = <ref name="sentry">Sentries are not affected by all buffs and debuffs.</ref>
+$SDREF$ = <ref name="sentrydps">Assumes only one sentry is placed down and does not include '''Engineer''' DPS.<br/>DPS is calculated as Gun DPS + Splash DPS.</ref>
+$RREF$ = <ref name="ref">Rev-up time of 1.5 seconds is not considered into the DPS.</ref>
+$LREF$ = <ref name="lead">Through War Machine Sentry splash damage.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]]$SREF$ !! Cluster Damage$SREF$ !! Cluster Count !! Firerate$FREF$ !! Range !! Explosion Radius !! Cluster Explosion Radius !! DPS$DREF$ !! Cluster DPS$DREF$ !! Cost Efficiency$CREF$
+! colspan="12" |Engineer Stats
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || N/A || N/A || 4 || 24 || 5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Deadzone Range !! Build Range !! Max Units !! DPS$DREF$ !! Combined DPS$CDREF$ !! Cost Efficiency$CEREF$
 |-
-| 1 || $R$ || $R$ || 15 || N/A || N/A || 2.75 || 27 || 5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 1.4 || 13 || 1.5 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 35 || N/A || N/A || 2.75 || 27 || 7.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 6 || 1.2 || 16 || 1.5 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 65 || N/A || N/A || 2.75 || 30 || 8.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 10 || 1.2 || 18 || 1.5 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 100 || 30 || 4 || 2.75 || 34 || 8.5 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 20 || 1 || 18 || 1.5 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
 |-
-| 5 || $R$ || $R$ || 235 || 40 || 6 || 2.75 || 34 || 9 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 30 || 0.9 || 21 || 1.5 || 3 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 80 || 0.75 || 21 || 1.5 || 3 || 3 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 6 || $R$ || $R$ || 90 || 0.6 || 22.5 || 1.5 || 2 || 4 || $DPS$ || $CDPS$ || {{Money|$CE$}}
 |}
 </div>
-|-|PVP =
+
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]]$SREF$ !! Cluster Damage$SREF$ !! Cluster Count !! Firerate$FREF$ !! Range !! Explosion Radius !! Cluster Explosion Radius !! DPS$DREF$ !! Cluster DPS$DREF$ !! Cost Efficiency$CREF$
+! colspan="15" |Sentry Stats$SREF$
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || N/A || N/A || 4 || 20 || 5.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+! Level !! Sentry !! Health !! Damage !! Splash Damage !! Rocket Count !! Firerate !! Rocket Firerate !! Range !! Explosion Range !! Lifespan !! Build Time !! Scrap Meter !! Detections !! DPS$SDREF$
 |-
-| 1 || $R$ || $R$ || 12 || N/A || N/A || 3.25 || 22 || 5.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 0–1 || [[Sentry (Unit)|Sentry]] || 100 || 2 || N/A || N/A || 1 || N/A || 18 || N/A || 20s || 1.25 || 8 || N/A || $DPS$
 |-
-| 2 || $R$ || $R$ || 25 || N/A || N/A || 3.25 || 25 || 7 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 2–3 || [[Rifle Sentry]] || 400 || 1 || N/A || N/A || 0.2 || N/A || 20 || N/A || 30s || 1.5 || 32 || Hidden || $DPS$
 |-
-| 3 || $R$ || $R$ || 50 || N/A || N/A || 3.258 || 30 || 8 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 4–5 || [[Minigun Sentry]] || 750 || 3 || N/A || N/A || 0.15 || N/A || 22 || N/A || 45s || 1.75 || 150 || Hidden || $DPS$$RREF$
 |-
-| 4 || $R$ || $R$ || 100 || 40 || 3 || 3.25 || 32 || 8 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 6 || [[War Machine Sentry]] || 1,000 || 3 || 60 || 2 || 0.125 || 4 || 24 || 5 || 60s || 1.75 || 340 || Hidden, Lead$LREF$ || $SDPS$<ref>$DPS$ Gun DPS + $MDPS$ Rocket DPS.<br>Rev-up time of 1.5 seconds is not considered into the DPS.<br/>Rocket DPS assumes only one enemy is hit and receives full splash damage.</ref>
+|}
+</div>
+|-|PVP = 
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="12" |Engineer Stats
 |-
-| 5 || $R$ || $R$ || 150 || 50 || 6 || 3.25 || 35 || 8.5 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Deadzone Range !! Build Range !! Max Units !! DPS$DREF$ !! Combined DPS$CDREF$ !! Cost Efficiency$CEREF$
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 4 || 1.2 || 13 || 1 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 6 || 1.2 || 15 || 1 || 4 || 1 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 6 || 1.2 || 17 || 1 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 16 || 1.2 || 17 || 1 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 22 || 0.75 || 20 || 1 || 4 || 2 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 30 || 0.75 || 20 || 1 || 4 || 3 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|-
+| 6 || $R$ || $R$ || 50 || 0.6 || 22 || 0.5 || 4 || 3 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+|}
+</div>
+
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="15" |Sentry Stats<ref name="sentry"/>
+|-
+! Level !! Sentry !! Health !! Damage !! Splash Damage !! Rocket Count !! Firerate !! Rocket Firerate !! Range !! Explosion Range !! Lifespan !! Build Time !! Scrap Meter !! Detections !! DPS$SDREF$
+|-
+| 0–2 || [[Sentry (Unit)|Sentry]] || 20 || 2 || N/A || N/A || 0.45 || N/A || 18 || N/A || 20s || 1.25 || 16 || N/A || $DPS$
+|-
+| 3–4 || [[Rifle Sentry]] || 40 || 2 || N/A || N/A || 0.2 || N/A || 20 || N/A || 30s || 1.5 || 32 || N/A || $DPS$
+|-
+| 5 || [[Minigun Sentry]] || 60 || 6 || N/A || N/A || 0.15 || N/A || 20 || N/A || 45s || 1.75 || 120 || Hidden || $DPS$$RREF$
+|-
+| 6 || [[War Machine Sentry]] || 250 || 8 || 28 || 2 || 0.1 || 4 || 24 || 5 || 60s || 1.75 || 250 || Hidden, Lead$LREF$ || $SDPS$<ref>$DPS$ Gun DPS + $MDPS$ Rocket DPS.<br>Rev-up time of 1.5 seconds is not considered into the DPS.<br/>Rocket DPS assumes only one enemy is hit and receives full splash damage.</ref>
 |}
 </div>
 </tabber></div>
@@ -204,555 +365,651 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:DHBunnyMortarIcon.png|175px]]
-|[[File:EclipseMortar.png|175px]]
-|[[File:DuckyMortarIcon.png|175px]]
-|[[File:VigilanteMortarIcon.png|175px]]
+|[[File:DuckyEngineerIcon.png|175px]]
+|[[File:MechanicEngineerIcon.png|175px]]
+|[[File:HolidayEngineerIcon.png|175px]]
+|[[File:HeartbreakEngineerIcon.png|175px]]
 |-
 !Skin
-|{{Color|Bunny|Bunny}}
-|{{Color|Eclipse|Eclipse}}
 |{{Color|Ducky|Ducky}}
-|{{Color|Vigilante|Vigilante}}
+|{{Color|Deluxe|Mechanic}}
+|{{Color|Jolly|Holiday}}
+|{{Color|Lovely|Heartbreak}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|4,500}}
+|{{Robux|560}}
+|{{Coins|5,000}}
+|{{Coins|7,000}}
+|-
+!Obtained From
+|[[Ducky Crate]],<br/>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|[[Deluxe Crate]],<br>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
+||[[Christmas 2025 Crate]],<br/>[[Jolly Crate]],<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]]
+|-
+!
+|[[File:GravediggerEngineer.png|175px]]
+|[[File:Plushie Engineer Icon.png|175px]]
+|[[File:PhantomEngineerSkin.png|175px]]
+|[[File:YTEngiIcon.png|175px]]
+|-
+!Skin
+|{{Color|Lunar|Grave Digger}}
+|{{Color|Other|Plushie}}
+|{{Color|Phantom|Phantom}}
+|{{Color|ContentCreator|Wikia}}
 |-
 !Rarity
 |{{Color|Event}}
-|{{Color|Event}}
-|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Legendary}}
 |{{Color|Rare}}
 |-
 !Daily Store Cost
-|N/A 
 |N/A
-|{{Coins|4,000}}
-|{{Coins|5,000}}
+|N/A
+|{{Robux|499}}
+|{{Coins|3,000}}
 |-
 !Obtained From
-|[[Bunny Crate]]
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Ducky Crate]]
-|[[Vigilante Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing an [[Engineer Plush]].</ref>
+|[[Phantom Crate]]
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
 |-
 !
-|[[File:PirateMortarIcon.png|175px]]
-|[[File:DefenderMortarSkin.png|175px]]
-|[[File:BaseballMortarIcon.png|175px]]
-|[[File:FallenMortarIconIG.png|175px]]
+|[[File:CrazRexEngineerIcon.png|175px]]
+|[[File:FallenEngineerIcon.png|175px]]
+|[[File:DarkFrostEngineerIconIG.png|175px]]
+|[[File:BeachEngineerIcon.png|175px]]
 |-
 !Skin
-|{{Color|Pirate|Pirate}}
-|{{Color|Krampus|Defender}}
-|{{Color|Deluxe|Baseball}}
+|{{Color|ContentCreator|CrazRex}}
 |{{Color|FallenMission|Fallen}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|5,000}}
-|N/A
-|{{Robux|360}}
-|N/A
-|-
-!Obtained From
-|[[Pirate Crate]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
-|[[Deluxe Crate]]
-|''Oppressive Bombardment'' [[Mission Quests|Mission Quest]]
-|-
-!
-|[[File:DarkFrostMortarIconIG.png|175px]]
-|[[File:FrostMortarIconIG.png|175px]]
-|[[File:MechaDuckyMortarIconIG.png|175px]]
-|[[File:FestiveMortarIconIG.png|175px]]
-|-
-!Skin
 |{{Color|OperationICE|Dark Frost}}
-|{{Color|Frost|Frost}}
-|{{Color|DuckyRevenge|Mecha Ducky}}
-|{{Color|Christmas2025|Festive}}
+|{{Color|Surf|Beach}}
 |-
 !Rarity
 |{{Color|Rare}}
 |{{Color|Legendary}}
-|{{Color|Uncommon}}
+|{{Color|Legendary}}
 |{{Color|Rare}}
 |-
 !Daily Store Cost
-|N/A
+|{{Coins|3,000}}
 |N/A
 |N/A
 |N/A
 |-
 !Obtained From
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|''Shadowforge Tinkerer'' [[Mission Quests|Mission Quest]]
 |[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|[[Frost Crate]],<br/>''Nuclear Winter'' [[Mission Quests|Mission Quest]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
-|[[Christmas 2025 Crate]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
 |-
 !
-|[[File:KrampusMortarIconIG.png|175px]]
-|[[File:ValentinesMortarIconIG.png|175px]]
-|[[File:BeachMortar0.png|175px]]
+|[[File:GhostEngineerIconIG.png|175px]]
+|[[File:SpringtimeEngineerIconIG.png|175px]]
+|[[File:BunnyEngineerIconIG.png|175px]]
+|[[File:ScubaOpsEngineerIconIG.png|175px]]
 |-
 !Skin
-|{{Color|FinalAct|Krampus}}
-|{{Color|Valentines2026|Valentines}}
-|{{Color|Beach}}
+|{{Color|Null|Ghost}}
+|{{Color|Shamrock|Springtime}}
+|{{Color|SpringFrenzy|Bunny}}
+|{{Color|Scuba|Scuba Ops}}
 |-
 !Rarity
+|{{Color|Legendary}}
 |{{Color|Rare}}
+|{{Color|Legendary}}
 |{{Color|Rare}}
-|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |N/A
-|{{Coins|5,250}}
+|N/A
+|{{Coins|6,250}}
 |-
 !Obtained From
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
-|[[Valentines 2026 Crate]]
-|[[Beach Crate]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
+|[[Shamrock Crate]]
+|[[Spring Frenzy Battle Pass]]
+|[[Scuba Ops Crate]]
 |}
 
 ==Strategy==
-*The '''Mortar''' is essentially a cliff-based [[Rocketeer]]. However, the '''Mortar''' deals less single target damage without its cluster bombs (which are very unlikely to all deal full damage to the enemy) while having a significantly larger explosion. This makes the '''Mortar''' a better option against hordes.
-*In most cases, the '''Mortar's''' shells will land behind an enemy.
-**This can be useful for hordes of enemies, as the '''Mortar's''' shells will land closer to the middle of the hordes instead of landing at the front. This allows its explosions to hit more enemies.
-**However, this makes the '''Mortar''' somewhat weaker against single targets. As explosions will land behind an enemy, the enemy will be further away from the center of the explosion, which can reduce the amount of damage it receives.
-***This is usually negligible for slow enemies, but for much faster ones like the [[Fallen Rusher]], the '''Mortar's''' DPS may be reduced drastically.
-*At Level 4, the '''Mortar's''' shells drop cluster bombs when they explode. These cluster bombs will also explode when they hit the ground.
-**However, do note that these should not be relied on, as the cluster bombs are very inaccurate and create a smaller explosion than the shells.
-**At least 1 or 2 Level 5 '''Mortars''' can be efficient with taking out hordes of [[Breaker4]]s due to it being able to kill it in a single hit and its cluster bombs killing the [[Breaker3]]s that spawn.
-*Compared to the [[Ranger]] and [[Sniper]], the '''Mortar''' has a significantly smaller range, lacking in range when cliff spots are far enough from the path.
-**The [[DJ Booth]] can aid with this by boosting its range.
-*The [[Commander]] can help remedy the '''Mortar's''' slow firerate.
-*This tower has surprisingly good DPS for a splash damage tower, so it will also be able to help with major bosses like the [[Fallen King]].
-**Additionally, it can easily take care of their summons with its explosions.
-*The '''Mortar''' cannot detect [[Hidden (Attribute)|Hidden]] enemies. You will have to use other towers for an effective [[Hidden (Attribute)|Hidden]] defense.
-**In most gamemodes, [[Hidden (Attribute)|Hidden]] enemies are usually close to other enemies, so the '''Mortar''' can indirectly hit them with its large explosion radius.
-**Towers like the [[Ace Pilot]] or [[Firework Technician]] can give hidden detection but must be close to the '''Mortar''' in order to do so.
-*Large clumped groups that appear from [[Breaker4]] can be better targeted by setting '''Mortar''' to ''Random''.
-*This tower completely ignores defense, dealing full damage to the enemy. Because of this, it can be useful against hordes of enemies with defense, like [[Fallen Hazmat|Hazards]], [[Reaver]] or [[Fallen Giant]].
-*In [[Hardcore Mode|Hardcore]] mode, the '''Mortar''' can be used to kill hordes of [[Lead (Attribute)|Lead]] enemies.
-*The '''Mortar''' can be an effective tower in certain maps where you can stack the '''Mortar''' to maximize the cliff spaces and free up more space for other cliff towers like the [[Ranger]].
+*The '''Engineer''' is a powerful late-game tower, as its DPS combined with its maximum number of sentries is one of the highest in the entire game.
+**Since its sentries have a shield that makes them immune to damage, it can also be powerful against major bosses like the [[Frost Spirit]]. Do note that the shield is only active when the '''Engineer''' is not stunned.
+***It is possible to shield the '''Engineer''' with the [[Medic]], which means that for its sentries to be destroyed there need to be three attacks that damage units and stun towers in a row.
+*The '''Engineer''' can be used as an early game tower due to its decent DPS and sentry DPS and its cheap cost.
+**Since the '''Engineer''' has flying detection and lead detection, it can also be used as an early game tower in [[Hardcore Mode|Hardcore]] mode.
+**Placing multiple Level 2 '''Engineers''' is cost-effective due to its ability to place [[Rifle Sentry|Rifle Sentries]].
+*The sentries are not affected by any buffs or debuffs, but the '''Engineer''' is still affected by all of them.
+**The explosion damage from the [[War Machine Sentry]] is affected by buffs, though this is a bug.
+*Due to how expensive the '''Engineer''' is, the [[DJ Booth]] is highly recommended, as it can greatly decrease the '''Engineer's''' cost.
+**It can also be useful for increasing the '''Engineer's''' attack range.
+***Neither the sentry building range nor the deadzone range will be affected.
+*The '''Engineer''' needs to fill its ''Scrap Meter'' before it can build a sentry, which it can fill up by dealing damage to enemies. Using the [[Commander]], you can summon sentries faster since the damage is dealt faster.
+**The [[Mercenary Base]] and [[DJ Booth]] can also increase its damage, which also affects its ''Scrap Meter'', allowing it to summon sentries even faster.
+***The [[Field Medic]] cannot heal or shield the '''Engineer's''' sentries, as they are not considered humanoids.
+**It is recommended to set the '''Engineer's''' targeting to ''Strongest'' to fill its ''Scrap Meter'' faster due to the higher damage dealt and minimal damage wasted.
+**Do note that when the '''Engineer''' is building a sentry, it is unable to attack for a short while, allowing enemies to pass through, especially hidden enemies.
+***This is not an issue on later levels as the '''Engineer''' can have more than a single sentry. Having other towers alongside the '''Engineer''' can also help mitigate this issue.
 
 ==Trivia==
-*Outside of sales, the '''Mortar''' is a {{Level|75}} tower with a gamepass cost of {{Robux|300}}, lower in Robux compared to the [[Turret]] which is a {{Level|50}} tower with a gamepass cost of {{Robux|340}}.
-*The '''Mortar''' is loosely based on the [[w:c:roblox-tower-battles:Mortar|Mortar]] from ''Tower Battles'' and the [[w:c:bloons:Mortar Monkey|Mortar Monkey]] from the ''Bloons Tower Defense'' series.
-*When the '''Mortar''' was first released, it would have been affected by shockwaves created by bosses from their ''Stomp'' abilities. This would later be fixed the same day.
-**This glitch would later return in the [[Overhaul v1.0|Overhaul Update]], though it only applied to the [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp''. This was later fixed in the [[v1.1.0|Entity System Update]].
-*The '''Mortar''' formerly shared its Level 4 icon with the [[Ace Pilot]]'s Level 2 icon, but rotated.
-*The '''Mortar''' has a unique explosion at Level 5. It will create a nuclear explosion, instead of the usual explosion most other splash towers use.
-*Unlike the game, dropping a shell in real life will spontaneously fire the mortar. In the game, '''Mortar''' drops in a shell after firing and waits for an enemy to come close to fire again.
-*The '''Mortar's''' default skin in the lobby uses its [[Hardcore Testing BETA]] appearance with its face changed, instead of its current appearance.
+*The '''Engineer''' is the only tower to have three range rings.
+**The white ring is the '''Engineer's''' range, the yellow ring is the sentry placement range, and the red ring is a deadzone range where the '''Engineer''' cannot fire or build sentries.
+*The '''Engineer''' tower is very loosely based on the [[w:c:Bloons:Engineer Monkey (BTD6)|Engineer Monkey]] from the ''Bloons Tower Defense'' series.
+**The rebar launcher used by the '''Engineer''' is a reference to a similar weapon used by [[w:c:riskofrain2:MUL-T|MUL-T]] from ''Risk of Rain 2''.
+**The '''Engineer's''' sentry shield is based on the [https://wiki.teamfortress.com/wiki/Wrangler Wrangler] shield, used by the [https://wiki.teamfortress.com/wiki/Engineer Engineer] from ''Team Fortress 2''.
+***The store description of the '''Engineer''' is a reference to a voice line said by the ''Team Fortress 2'' [https://wiki.teamfortress.com/wiki/Engineer Engineer], "''Sentry goin' up!''".
+*While unlikely to be seen as this can only happen through bugs, the shield sentries get at Level 4+ does not make them just immune to enemy abilities, but every form of damage, including damage from towers.
+*The icon used for the level 4 upgrade is the exact same as
+*The '''Engineer''' went through multiple changes before being released.
+**Rather than using a rebar launcher, it wielded a pistol, which, with levels, would be replaced with various rifles.
+**The '''Engineer''' had five sentries instead of four, which had different purposes.
+***The first three sentries were single target sentries, which would only deal damage to one enemy. These sentries are still in the game, with them being the [[Sentry (Unit)|Sentry]], [[Rifle Sentry]] and [[Minigun Sentry]].
+***The fourth sentry was the Missile Sentry, which was a quad missile launcher that would deal splash damage.
+***The fifth and last sentry was the Support Beacon, which would reveal hidden enemies in its range.
+***Due to there being multiple types of sentries, you would be able to pick what kind of sentries the '''Engineer''' would place.
+*The '''Engineer''' Level 3 upgrade cost is possibly a reference to ''Cyberpunk 2077's'' name.
+*The '''Engineer''' Level 6 upgrade is most likely a reference to [https://terraria.wiki.gg/wiki/Illegal_Gun_Parts Illegal Gun Parts] from ''Terraria''.
+*The '''Engineer''' is canonically [[Brawler]]'s sister.
+*It has been stated in [[Blind Faith]] and strongly implied in the [[Brawler]]'s trailer that the '''Engineer''' creates most vehicles and machines used by towers, such as the [[Turret]], [[Pursuit]] or [[Missile APC]].
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{Scroll|text =
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**'''Mortar''' added.
-**{{Bug}} Has the ability to give you negative cash.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0a]]
-**Can no longer be stunned by boss stomps.
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**Projectile speed increased from 25 to 35.
-*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
-**New SFX.
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Splash damage equation reworked.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Statistical changes:
-***'''Base'''
-****Range decreased from 25 to 22.
-****Damage decreased from 6 to 5.
-****Firerate decreased from 5.05 to 5.03.
-****Explosion radius decreased from 12 to 4.
-****Flying detection added.
-****Lead detection added.
-***'''Level 1'''
-****Damage decreased from +2 to +0.
-****Range increased from +0 to +3.
-****Cost decreased from {{Money|500}} to {{Money|250}}.
-***'''Level 2'''
-****Damage decreased from +6 to +0.
-****Firerate changed from 5.05 to {{Tooltip|5.03 > 4.53|-0.5}}.
-****Cost decreased from {{Money|1,000}} to {{Money|400}}.
-****Renamed from ''Safety Gear'' to ''Quick Reloading''.
-***'''Level 3'''
-****Damage decreased from +25 to +10.
-****Range decreased from +6 to +0.
-****Firerate changed from {{Tooltip|5.05 > 4.05|-1}} to 4.53.
-****Renamed from ''BIGGER CANNON'' to ''Bigger Cannon''.
-***'''Level 4'''
-****Damage decreased from +60 to +10.
-****Explosion radius changed from 12 > 17 to 4 > 6.
-****Renamed from ''BETTER BOMBS'' to ''Stronger Shells''.
-***'''Level 5'''
-****Range decreased from +8 to +5.
-****Damage decreased from +65 to +35.
-****Cost decreased from {{Money|13,000}} to {{Money|12,000}}.
-****Explosion radius changed from 17 > 25 to 6.
-****Firerate changed from {{Tooltip|4.05 > 3.05|-1}} to {{Tooltip|4.53 > 3.03|-1.5}}.
-****Renamed from ''NUCLEAR CANNON'' to ''Nuclear Devistation''.
-**{{Bug}} {{Color|Bunny|Bunny}} skin does not attack any enemies.
-**{{Bug}} [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp'' ability can stun the '''Mortar'''.
-**{{Bug}} Default '''Mortar''' uses old [[Hardcore Testing BETA]] appearance in the lobby.
-**{{Bug}} Level 5 upgrade does not increase explosion radius.
-**{{Bug}} Level 5 '''Mortar's''' explosion uses the same explosion as other levels, instead of a nuclear explosion.
-**{{Bugfix}} '''Mortar''' can no longer give negative cash.
-*'''25 December 2020''' - [[Overhaul v1.1|Overhaul v1.1.1d]]
-**Gamepass price decreased from {{Robux|750}} to {{Robux|535}}.
-*'''4 January 2021''' - [[Overhaul v1.1|Overhaul v1.1.1e]]
-**Gamepass price increased from {{Robux|535}} to {{Robux|700}}.
-*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**'''Mortar''' now ignores [[defense]].
-**Splash damage reworked. Now the explosion is separated into two spheres. Inner sphere deals 100% of the stated damage while the damage in the outer sphere decreases linearly.
-**Statistical changes:
-***'''Level 3'''
-****Explosion radius changed from 4 to 4 > 5.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-*'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-*'''29 December 2021'''
-**{{Bug}} Default skin now uses its original version, does not upgrade properly and does not attack any enemies.
-*'''29 December 2021''' - [[v1.0.0]]l
-**{{Bugfix}} Default skin now uses its correct model, fixing it not upgrading properly and it not attacking enemies.
-*'''12 March 2022''' - [[v1.1.0]]
-**'''Mortar''' now uses a path based movement prediction, causing it to hit enemies more accurately.
-**'''Mortar''' is now immune to all stuns.
-**Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 5.03 to 5.008.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|5.03 > 4.53|-0.5}} to {{Tooltip|5.025 > 4.525|-0.5}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|4.53 > 3.03|-1.5}} to {{Tooltip|4.525 > 3.025|-1.5}}.
-**{{Bug}} {{Color|Bunny|Bunny}} uses incorrect animations in the lobby.
-**{{Bugfix}} {{Color|Bunny|Bunny}} skin now works properly.
-**{{Bugfix}} [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp'' ability now cannot stun the '''Mortar'''.
+{{scroll|text =
 *'''17 April 2022''' - [[v1.2.0]]
-**'''Mortar''' can no longer be targeted by most enemy abilities.
+**'''Engineer''' added.
+**{{Bug}} Sentry ranged damage does not increase the ''Total Damage'' counter.
+**{{Bug}} Sentry collision damage does not increase the ''Total Damage'' counter.
+**{{Bug}} Sentry range can be increased by the [[DJ Booth]].
+**{{Bug}} '''Engineer''' does not have lead detection at all levels.
+**{{Bug}} Sentries can be built in the deadzone range.
+**{{Bug}} '''Engineer''' can collide with players.
+**{{Bug}} Upgrading the '''Engineer''' at the right moment allows it to use the previous scrap meter value to build a sentry with a higher scrap meter, making it at a lower cost.
+*'''17 April 2022''' - [[v1.2.0]]a
+**Corrected Level 1 upgrade name being ''Percise Calculations'' instead of ''Precise Calculations''.
 *'''23 April 2022''' - [[v1.2.1]]
-**{{Bugfix}} Level 5 upgrade name ''Nuclear Devastation'' is no longer misspelt as ''Nuclear Devistation''.
+**Sentries can no longer collide with enemies.
+**Statistical changes:
+***'''Level 4'''
+****Sentries now gain a shield which protects them from damage when it is active.
+**New skin: {{Color|DuckHunt|Ducky}}
+**{{Bugfix}} Sentries can no longer be built in the deadzone range.
+**{{Bugfix}} Sentry ranged damage now increases the ''Total Damage'' counter.
+*'''13 May 2022''' - [[v1.2.2]]
+**{{Bugfix}} '''Engineer''' can no longer collide with players.
+*'''30 May 2022''' - [[v1.2.4]]
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
+*'''1 June 2022''' - [[v1.2.4]]b
+**Gamepass price increased from {{Robux|3,000}} to {{Robux|4,000}}.
+*'''26 June 2022''' - [[v1.2.4]]e
+**Gamepass taken offsale.
+*'''5 August 2022''' - [[v1.3.1]]
+**{{Bugfix}} Sentry range can no longer be increased by the [[DJ Booth]].
+*'''8 August 2022''' - [[v1.3.1]]b
+**{{Bug}} '''Engineer''' sometimes does not deal damage when an enemy is hit by its projectile.
+*'''2 September 2022''' - [[v1.3.2]]
+**{{Bugfix}} '''Engineer''' now deals damage properly.
+*'''31 October 2022''' - [[v1.4.2]]
+**'''Engineer''' is available through a gamepass for {{Robux|4,000}}.
+**{{Bugfix}} '''Engineer''' now has lead detection.
+*'''11 November 2022''' - [[v1.4.2]]d
+**New skin: {{Color|Philips|Mechanic}}
+*'''24 November 2022''' - [[v1.5.0]]b
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,200}}.
+*'''1 December 2022''' - [[v1.5.0]]d
+**Gamepass price increased from {{Robux|3,200}} to {{Robux|4,000}}.
 *'''21 December 2022''' - [[v1.6.0]]
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
+**Firerate increased for units due to [[Firerate Bug]] getting more severe for units.
 **Skin rarity added to all skins.
-*'''21 March 2023''' - [[v1.6.3]]e
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|400}} to {{Money|1,000}}.
-****Damage increased from 5 to 10.
-****Explosion radius increased from 4 to 8.
-****Placement limit increased from 5 to 6.
+****Firerate decreased from 2.025 to 1.525.
+****[[Sentry]] firerate increased from 0.525 to 0.53.
 ***'''Level 1'''
-****Firerate changed from 5.008 to {{Tooltip|5.025 > 4.525|-0.5}}.
-****Range decreased from +3 to +2.
-****Cost increased from {{Money|250}} to {{Money|600}}.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.525 > 4.025|-0.5}}.
-****Damage increased from +0 to +10.
-****Explosion radius changed from 4 to 8 > 12.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-****Cost increased from {{Money|400}} to {{Money|1,300}}.
-****Renamed from ''Quick Reloading'' to ''Upgraded Armaments''.
+****Cost decreased from {{Money|350}} to {{Money|250}}.
 ***'''Level 3'''
-****Damage increased from +10 to +30.
-****Range increased from +0 to +4.
-****Explosion radius changed from 4 > 5 to 12 > 14.
-****Cost increased from {{Money|3,000}} to {{Money|3,200}}.
+****Firerate changed from {{Tooltip|2.025 > 1.825|-0.2}} to {{Tooltip|1.525 > 1.275|-0.25}}.
+****[[Rifle Sentry]] firerate increased from 0.275 to 0.28.
 ***'''Level 4'''
-****Damage increased from +10 to +50.
-****Firerate changed from 4.525 to {{Tooltip|4.025 > 3.525|-0.5}}.
-****Range increased from +0 to +2.
-****Explosion radius changed from 5 > 6 to 14.
-*****{{Bug}} The upgrade description did not change, it still says that the explosion radius increases.
-****Cost increased from {{Money|7,200}} to {{Money|9,500}}.
-****Renamed from ''Stronger Shells'' to ''Loaded Warhead''.
+****Firerate changed from {{Tooltip|1.825 > 1.025|-0.8}} to {{Tooltip|1.275 > 1.025|-0.25}}.
 ***'''Level 5'''
-****Firerate changed from {{Tooltip|4.525 > 3.025|-1.5}} to 3.525.
-****Damage increased from +35 to +75.
-****Explosion radius changed from 6 to 14 > 20.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-****Cost increased from {{Money|12,000}} to {{Money|23,000}}.
-****Renamed from ''Nuclear Devastation'' to ''Nuclear Annihilation''.
-**{{Bug}} '''Mortar's''' explosions are smaller than they look.
-*'''22 March 2023''' - [[v1.6.3]]f
-**{{Bugfix}} '''Mortar's''' explosions are now the proper size.
+****[[Minigun Sentry]] firerate increased from 0.183 to 0.19.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''6 January 2023''' - [[v1.6.0]]e
+**Gamepass price increased from {{Robux|3,000}} to {{Robux|4,000}}.
+*'''9 January 2023''' - [[v1.6.0]]f
+**Firerate decreased for units due to [[Firerate Bug]] getting less severe for units.
+**Statistical changes:
+***'''Base'''
+****[[Sentry]] firerate decreased from 0.53 to 0.525.
+***'''Level 3'''
+****[[Rifle Sentry]] firerate decreased from 0.28 to 0.275.
+***'''Level 5'''
+****[[Minigun Sentry]] firerate decreased from 0.19 to 0.183.
+***'''Level 6'''
+*'''14 February 2023''' - [[v1.4.2]]
+**New skin: {{Color|Lovely|Heartbreak}}
 *'''31 March 2023''' - [[v1.6.4]]
 **Statistical changes:
 ***'''Base'''
-****Damage increased from 10 to 12.
-****Explosion radius decreased from 8 to 5.
-***'''Level 2'''
-****Damage increased from +10 to +12.
-****Explosion radius changed from 8 > 12 to 5 > 6.5.
-***'''Level 3'''
-****Damage increased from +30 to +31.
-****Explosion radius changed from 12 > 14 to 6.5.
-***'''Level 4'''
-****Damage increased from +50 to +70.
-****Explosion radius changed from 14 to 6.5 > 7.
-****Cost decreased from {{Money|9,500}} to {{Money|8,500}}.
-***'''Level 5'''
-****Damage increased from +75 to +125.
-****Explosion radius changed from 14 > 20 to 7 > 8.
-****Cost decreased from {{Money|23,000}} to {{Money|21,500}}.
-**{{Bugfix}} '''Mortar's''' upgrade descriptions now list explosion changes properly on all Levels.
-*'''7 April 2023''' - [[v1.7.0]]
-**Gamepass price decreased from {{Robux|700}} to {{Robux|500}}.
-**Shells will now land behind enemies.
-**Statistical changes:
-***'''Base'''
-****Placement limit decreased from 6 to 4.
-****Projectile speed decreased.
-***'''Level 4:'''
-****Cluster bombs with 40 damage and 4 explosion radius added.
-****Explosion radius changed from 6.5 > 7 to 6.5.
-***'''Level 5'''
-****Now increases cluster bomb damage by +10.
-****Explosion radius changed from 7 > 8 to 6.5 > 8.
-****Cost decreased from {{Money|21,500}} to {{Money|20,000}}.
-****Name changed from ''Nuclear Annihilation'' to ''City Buster''.
-**{{Bugfix}} Level 5 '''Mortar''' now has unique nuclear explosions instead of the regular explosions.
-*'''15 April 2023''' - [[v1.7.1]]
-**Gamepass price increased from {{Robux|500}} to {{Robux|700}}.
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Bug}} {{Color|Bunny|Bunny}} '''Mortar''' icon has a floating projectile.
-**{{Bugfix}} Default '''Mortar''' now uses its current appearance in the regular lobby.
-**{{Bugfix}} {{Color|Bunny|Bunny}} '''Mortar''' now uses its current animations in the regular lobby.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''24 June 2023''' - [[v1.8.2]]
-**New skin: {{Color|Vigilante|Vigilante}}
-*'''4 July 2023''' - [[v1.8.2]]d
-**Gamepass price decreased from {{Robux|700}} to {{Robux|500}}.
-*'''6 July 2023''' - [[v1.8.2]]e
-**Gamepass price increased from {{Robux|500}} to {{Robux|700}}.
-*'''5 August 2023''' - [[v1.8.4]]
-**New skin: {{Color|Pirate|Pirate}}
-*'''24 November 2023''' - [[v1.9.4]]
-**Gamepass price decreased from {{Robux|800}} to {{Robux|490}}.
-*'''29 November 2023''' - [[v1.9.4]]a
-**Gamepass price increased from {{Robux|490}} to {{Robux|700}}.
-*'''21 December 2023''' - [[v1.11.0]]
-**New skin: {{Color|Krampus|Defender}}
-*'''24 February 2024''' - [[v1.14.0]]
-**Gamepass price decreased from {{Robux|700}} to {{Robux|525}}.
-**{{Bug}} Gamepass cost is still listed as {{Robux|700}} in the inventory.
-*'''19 April 2024''' - [[v1.19.0]]
-**{{Bugfix}} Gamepass cost is now correctly listed as {{Robux|525}} in the inventory.
-*'''23 May 2024''' - [[v1.23.0]]
-**Gamepass cost decreased from {{Robux|525}} to {{Robux|395}}.
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**No longer bypasses defense.
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|Deluxe|Baseball}}
-*'''9 August 2024''' - [[v1.27.5]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''27 November 2024''' - [[v1.43.0]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|296}}.
-*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
-**Gamepass price increased from {{Robux|296}} to {{Robux|395}}.
-*'''16 December 2024''' - [[v1.46.0]]
-**New skins: {{Color|Frost|Frost}}, {{Color|OperationICE|Dark Frost}}
-*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|296}}.
-*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
-*'''15 January 2025''' - [[v1.49.0]]
-**Placement limit increased from 4 to 5.
-**Now bypasses defense.
-**Statistical changes:
-***'''Base'''
-****Firerate decreased from 5.025 to 4.025.
-****Range decreased from 22 to 20
-****Explosion Radius increased from 5 to 6.
-****Cost decreased from {{Money|1,000}} to {{Money|900}}.
+****Firerate decreased from 1.525 to 1.275.
+****Range decreased from 14 to 12.
+****Max units decreased from 2 to 1.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.025 > 3.025|-1}}.
-****Range decreased from +2 to +0.
-****Cost decreased from {{Money|600}} to {{Money|325}}.
+****Range increased from +1 to +2.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|4.525 > 4.025|-0.5}} to 3.025.
-****Range increased from +0 to +4.
-****Explosion Radius changed from 5 > 6.5 to 6 > 7.5.
-****Cost increased from {{Money|1,300}} to {{Money|1,400}}.
+****Deadzone range decreased from +0 to -1.
 ***'''Level 3'''
-****Range decreased from +4 to +3.
-****Damage decreased from +31 to +26.
-****Explosion Radius changed from 6.5 to 7.5 > 8.5.
-****Cost increased from {{Money|3,200}} to {{Money|3,500}}.
+****Cost increased from {{Money|1,600}} to {{Money|1,750}}.
+****Firerate changed from {{Tooltip|1.525 > 1.275|-0.25}} to {{Tooltip|1.275 > 1.025|-0.25}}.
+****Damage increased from +3 to +5.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|4.025 > 3.525|-0.5}} to 3.025.
-****Range decreased from +2 to +0.
-****Cluster bomb damage increased from 40x3 to 40x4.
-****Cluster bomb explosion radius increased from 4 to 5.
-****Cost increased from {{Money|8,500}} to {{Money|10,000}}.
-***'''Level 5'''
-****Range decreased from +5 to +3.
-****Damage decreased from +125 to +80.
-****Cluster bomb damage increased from 50x3 to 75x6.
-****Explosion Radius changed from 6.5 > 8 to 8.5 > 10.
-****Cost increased from {{Money|20,000}} to {{Money|22,500}}.
-*'''23 January 2025''' - [[v1.50.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage increased from +26 to +36.
 ****Cost decreased from {{Money|3,500}} to {{Money|3,250}}.
-***'''Level 4'''
-****Damage decreased from +70 to +60.
-****Cluster bomb amount decreased from 40x4 to 40x3.
-****Cost increased from {{Money|10,000}} to {{Money|12,000}}.
+****Damage increased from +5 to +7.
+****Renamed from ''Pressure Tank'' to ''Improved Blueprints''.
 ***'''Level 5'''
-****Cluster bomb damage decreased from 75x6 to 50x6.
-****Cost increased from {{Money|22,500}} to {{Money|25,000}}.
+****Damage increased from +10 to +15.
+****Max units increased from +0 to +1.
+***'''Level 6'''
+****Cost decreased from {{Money|35,000}} to {{Money|33,500}}.
+****Deadzone range decreased from +0 to -1.
+****Max units decreased from +1 to +0.
+*'''7 April 2023''' - [[v1.7.0]]
+**You can now see the '''Engineer's''' scrap meter when you hover your cursor over it.
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|2,500}}.
+**{{Bug}} Sentry shields are sometimes not visible.
+*'''15 April 2023''' - [[v1.7.1]]a
+**Gamepass price increased from {{Robux|2,500}} to {{Robux|4,000}}.
+*'''5 May 2023''' - [[v1.7.3]]
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Common}} to {{Color|Legendary}}.
+*'''4 July 2023''' - [[v1.8.2]]d
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
+*'''6 July 2023''' - [[v1.8.2]]e
+**Gamepass price increased from {{Robux|3,000}} to {{Robux|4,000}}.
+*'''31 October 2023''' - [[v1.9.0]]g
+**New skin: {{Color|Lunar|Grave Digger}}
+*'''24 November 2023''' - [[v1.9.4]]
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|2,600}}.
+**New skin: {{Color|Other|Plushie}}
+*'''29 November 2023''' - [[v1.9.4]]a
+**Gamepass price increased from {{Robux|2,600}} to {{Robux|4,000}}.
+*'''21 December 2023''' - [[v1.11.0]]
+**New skin: {{Color|Phantom|Phantom}}
+*'''28 January 2024''' - [[v1.12.0]]
+**New skin: {{Color|ContentCreator|Wikia}}
+*'''10 February 2024''' - [[v1.13.0]]
+**Statistical changes:
+***'''Base'''
+****[[Sentry (Unit)|Sentry]] now has hidden detection.
+***'''Level 3'''
+****[[Rifle Sentry]] now has hidden detection.
+***'''Level 5'''
+****[[Minigun Sentry]] now has hidden detection.
+***'''Level 6'''
+****[[War Machine Sentry]] now has hidden detection.
+**{{Bug}} Enemies that touch the hitbox of a sentry with a shield take high amounts of damage.
+*'''12 February 2024''' - [[v1.13.0]]b
+**Gamepass price decreased from {{Robux|4,000}} to {{Robux|3,000}}.
+**Statistical changes:
+***'''Base'''
+****[[Sentry (Unit)|Sentry]] no longer has hidden detection.
+***'''Level 3'''
+****[[Rifle Sentry]] no longer has hidden detection.
+***'''Level 5'''
+****[[Minigun Sentry]] no longer has hidden detection.
+***'''Level 6'''
+****[[War Machine Sentry]] no longer has hidden detection.
+*'''24 February 2024''' - [[v1.14.0]]
+**Statistical changes:
+***'''Base'''
+****Damage increased from 3 to 4.
+****Firerate increased from 1.275 to 1.525.
+****[[Sentry (Unit)|Sentry]] firerate decreased from 0.525 to 0.475.
+****[[Sentry (Unit)|Sentry]] scrap meter increased from 10 to 16.
+***'''Level 2'''
+****Cost decreased from {{Money|400}} to {{Money|300}}.
+****Range increased from +1 to +3.
+****Deadzone range decreased from -1 to -2.
+***'''Level 3'''
+****Damage increased from +5 to +6.
+****Firerate changed from 1.275 to {{Tooltip|1.525 > 1.275|-0.25}}.
+****[[Rifle Sentry]] scrap meter increased from 20 to 36.
+***'''Level 4'''
+****Cost increased from {{Money|3,250}} to {{Money|3,500}}.
+****Damage increased from +5 to +6.
+****Range decreased from +3 to +1.
+***'''Level 5'''
+****Cost increased from {{Money|12,500}} to {{Money|13,750}}.
+****Damage increased from +15 to +17.
+****[[Minigun Sentry]] scrap meter increased from 50 to 140.
+***'''Level 6'''
+****Cost decreased from {{Money|33,500}} to {{Money|32,500}}.
+****Deadzone range increased from -1 to -0.5.
+****Max units increased from +0 to +1.
+****[[War Machine Sentry]] damage decreased from 12 to 8.
+****[[War Machine Sentry]] splash damage increased from 15 to 33.
+****[[War Machine Sentry]] range increased from 22 to 24.
+****[[War Machine Sentry]] scrap meter increased from 100 to 300.
+*'''8 March 2024''' - [[v1.15.0]]
+**{{Bugfix}} Enemies that touch hitbox of a sentry with a shield no longer take high amounts of damage.
+*'''10 May 2024''' - [[v1.21.0]]
+**{{Bug}} Sentry lifespans do not scale with [[Time Scale]] properly.
+*'''18 May 2024''' - [[v1.22.0]]
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 1.525 to 1.275.
+***'''Level 2'''
+****Cost increased from {{Money|300}} to {{Money|400}}.
+****Max units increased from +0 to +1.
+***'''Level 3'''
+****Cost increased from {{Money|1,750}} to {{Money|2,000}}.
+****Firerate changed from {{Tooltip|1.525 > 1.275|-0.25}} to {{Tooltip|1.275 > 1.125|-0.15}}.
+***'''Level 4'''
+****Cost increased from {{Money|3,500}} to {{Money|3,750}}.
+****Firerate changed from {{Tooltip|1.275 > 1.025|-0.25}} to {{Tooltip|1.125 > 0.875|-0.25}}.
+***'''Level 5'''
+****Max units decreased from +1 to +0.
+****[[Minigun Sentry]] now has hidden detection.
+***'''Level 6'''
+****Damage increased from +15 to +25.
+****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to {{Tooltip|0.875 > 0.675|-0.2}}.
+****[[War Machine Sentry]] damage increased from 8 to 9.
+****[[War Machine Sentry]] splash damage increased from 33 to 35.
+****[[War Machine Sentry]] firerate decreased from 0.15 to 0.133.
+****[[War Machine Sentry]] now has hidden detection.
+*'''23 May 2024''' - [[v1.23.0]]
+**Gamepass price decreased from {{Robux|3,000}} to {{Robux|2,250}}.
+*'''27 May 2024''' - [[v1.23.0|v1.23.2]]a
+**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,800}}.
+*'''29 May 2024''' - [[v1.23.0|v1.23.3]]a
+**Gamepass price increased from {{Robux|1,800}} to {{Robux|2,250}}.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+**{{Bug}} [[War Machine Sentry]] splash damage is boosted by [[Damage Buff]]s.
+**{{Bug}} Can still build sentries when jailed.
+*'''19 July 2024''' - [[v1.26.0]]
+**New skin: {{Color|ContentCreator|DraxRex}}
+*'''2 August 2024''' - [[v1.27.0]]
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 1.275 to 1.225.
+****Range increased from 12 to 13.
+****Build range decreased from 5 to 4.
+****Deadzone range decreased from 3 to 1.
+***'''Level 2'''
+****Range decreased from +3 to +2.
+****Deadzone range increased from -2 to 0.
+***'''Level 3'''
+****Cost decreased from {{Money|2,000}} to {{Money|1,800}}.
+****Firerate changed from {{Tooltip|1.275 > 1.125|-0.15}} to 1.225.
+****[[Rifle Sentry]] firerate increased from 0.275 to 0.325.
+***'''Level 4'''
+****Cost decreased from {{Money|3,750}} to {{Money|3,000}}
+****Firerate changed from {{Tooltip|1.125 > 0.875|-0.25}} to {{Tooltip|1.225 > 0.775|-0.45}}.
+***'''Level 5'''
+****Cost decreased from {{Money|13,750}} to {{Money|12,500}}.
+****Damage decreased from +17 to +12.
+****[[Minigun Sentry]] scrap cost decreased from 140 to 120.
+***'''Level 6'''
+****Cost increased from {{Money|32,500}} to {{Money|35,000}}.
+****Damage decreased from +25 to +20.
+****Firerate changed from {{Tooltip|0.875 > 0.675|-0.2}} to {{Tooltip|0.775 > 0.625|-0.15}}.
+****[[War Machine Sentry]] damage decreased from 9 to 8.
+****[[War Machine Sentry]] firerate increased from 0.133 to 0.15.
+****[[War Machine Sentry]] health increased from 120 to 250.
+****[[War Machine Sentry]] scrap cost decreased from 300 to 250.
+**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
+*'''21 August 2024''' - [[v1.28.0]]
+**New skin: {{Color|FallenMission|Fallen}}
+**{{Bugfix}} Sentry shields now always appear instead of only appearing after the '''Engineer''' was stunned.
+*'''16 November 2024''' - [[v1.41.0|v1.41.5]]
+**{{Bug}} Sentry lifespans no longer work correctly, making them survive for significantly longer than they should and only rarely disappearing.
+*'''18 November 2024''' - [[v1.41.0|v1.41.6]]
+**{{Bugfix}} Sentry lifespans now work correctly.
+*'''20 November 2024''' - [[v1.42.0]]
+**{{Bugfix}} Sentry lifespans now scale correctly with [[Time Scale]].
+*'''27 November 2024''' - [[v1.43.0]]
+**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,462}}.
+*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
+**Gamepass price increased from {{Robux|1,462}} to {{Robux|2,250}}.
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Dark Frost}}
+*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
+**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,575}}.
+*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
+**Gamepass cost increased from {{Robux|1,575}} to {{Robux|2,250}}.
+*'''15 January 2025''' - [[v1.49.0]]
+**{{Bug}} Units have lead detection.
 *'''9 April 2025''' - [[v1.60.0]]
 **Defense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Mecha Ducky}}.
-*'''11 June 2025''' - [[v1.67.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage decreased from +36 to +31.
-***'''Level 4'''
-****Damage decreased from +60 to +45.
-***'''Level 5'''
-****Damage decreased from +80 to +50.
-****Explosion Radius changed from 8.5 > 10 to 8.5 > 9.
+*'''30 April 2025''' - [[v1.63.0]]
+**{{Bugfix}} Units no longer have lead detection.
+*'''26 May 2025''' - [[v1.64.0]]a
+**Robux cost decreased from {{Robux|2,250}} to {{Robux|1,687}}.
+*'''28 May 2025''' - [[v1.65.0]]
+**Robux cost increased from {{Robux|1,687}} to {{Robux|2,250}}.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Beach}}
+**{{Bug}} {{Color|Surf|Beach}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Beach}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
 *'''23 July 2025''' - [[v1.71.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
-****Firerate decreased from 4.025 to 3.775.
-***'''Level 1'''
-****Cost increased from {{Money|325}} to {{Money|400}}.
-****Damage increased from +0 to +3.
-****Range increased from +0 to +2.
-****Firerate changed from {{Tooltip|4.025 > 3.025|-1}} to {{Tooltip|3.775 > 3.275|0.5}}.
-***'''Level 2'''
-****Damage increased from +12 to +13.
-****Range decreased from +4 to +3.
+****Cost decreased from {{Money|750}} to {{Money|700}}.
+****[[Sentry (Unit)|Sentry]] damage increased from 1 to 2.
 ***'''Level 3'''
-****Cost decreased from {{Money|3,250}} to {{Money|3,000}}.
-****Damage increased from +31 to +32.
-****Range increased from +3 to +5.
-****Firerate changed from 3.025 to {{Tooltip|3.275 > 3.025|-0.25}}.
+****Damage increased from +6 to +10.
+****[[Rifle Sentry]] firerate decreased from 0.325 to 0.225.
+****[[Rifle Sentry]] scrap cost decreased from 36 to 32.
 ***'''Level 4'''
-****Cost decreased from {{Money|12,000}} to {{Money|10,000}}.
-****Damage decreased from +45 to +40.
-****Range increased from +0 to +2.
+****Cost decreased from {{Money|3,000}} to {{Money|2,600}}.
+****Range decreased from +1 to +3.
+****Max units decreased from +1 to +0.
 ***'''Level 5'''
-****Cost decreased from {{Money|25,000}} to {{Money|20,000}}.
-*'''6 August 2025''' - [[v1.72.0]]
-**Statistical changes ([[PVP]]):
+****Cost decreased from {{Money|12,500}} to {{Money|11,500}}.
+****Damage decreased from +12 to +8.
+****Max units increased from +0 to +1.
+****[[Minigun Sentry]] damage increased from 5 to 6.
+****[[Minigun Sentry]] firerate decreased from 0.183 to 0.175.
+***'''Level 6'''
+****Cost decreased from {{Money|35,000}} to {{Money|27,500}}.
+****Max units decreased from +1 to +0.
+****[[War Machine Sentry]] damage increased from 8 to 10.
+****[[War Machine Sentry]] firerate decreased from 0.15 to 0.125.
+*'''3 September 2025''' - [[v1.74.0]]
+**Statistical changes:
 ***'''Base'''
-****Firerate increased from 3.775 to 4.025.
-****Explosion radius decreased from 6 to 5.5.
+****Cost decreased from {{Money|750}} to {{Money|600}}.
+****Deadzone range increased from 1 to 1.5
+****[[Sentry (Unit)|Sentry]] firerate increased from 0.475 to 0.625.
+****[[Sentry (Unit)|Sentry]] scrap cost decreased from 16 to 8.
 ***'''Level 1'''
-****Cost decreased from {{Money|400}} to {{Money|300}}.
-****Damage decreased from +3 to +0.
-****Firerate changed from {{Tooltip|3.757 > 3.275|-0.5}} to {{Tooltip|4.025 > 3.275|-0.75}}.
+****Cost increased from {{Money|250}} to {{Money|350}}.
+****Firerate decreased from 1.208 to {{Tooltip|1.225 > 1.025|-0.2}}.
+****Range increased from +2 to +3.
 ***'''Level 2'''
-****Explosion radius changed from 6 > 7.5 to 5.5 > 7.
+****Cost increased from {{Money|400}} to {{Money|550}}.
+****Damage increased from +0 to +4.
+****Max units decreased from +1 to +0.
 ***'''Level 3'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
-****Damage decreased from +32 to +25.
-****Firerate changed from {{Tooltip|3.275 > 3.025|-0.25}} to 3.275.
-****Explosion radius changed from 7.5 > 8.5 to 7 > 8.
+****Cost increased from {{Money|1,800}} to {{Money|2,250}}.
+****Damage decreased from +6 to +5.
+****Max units increased from +0 to +1.
+****[[Rifle Sentry]] firerate decreased from 0.325 to 0.275.
+****[[Rifle Sentry]] scrap cost increased from 36 to 45.
 ***'''Level 4'''
-****Cost increased from {{Money|10,000}} to {{Money|12,000}}.
-****Damage increased from +40 to +50.
+****Cost increased from {{Money|3,000}} to {{Money|4,750}}.
+****Damage increased from +6 to +15.
+****Range increased from +1 to +2.
+****Build range decreased from +0 to -1.
 ***'''Level 5'''
-****Cost increased from {{Money|20,000}} to {{Money|22,500}}.
-****Explosion radius changed from 8.5 > 9 to 8 > 8.5.
+****Cost increased from {{Money|12,500}} to {{Money|13,500}}.
+****Damage increased from +12 to +30.
+****[[Minigun Sentry]] damage decreased from 5 to 3.
+****[[Minigun Sentry]] firerate decreased from 0.183 to 0.125.
+****[[Minigun Sentry]] scrap cost increased from 120 to 180.
+***'''Level 6'''
+****Damage increased from +20 to +35.
+****Range increased from +2 to +2.5.
+****Build range decreased from +0 to -1.
+****Deadzone range increased from -1 to +0.
+****[[War Machine Sentry]] health increased from 250 to 300.
+****[[War Machine Sentry]] damage decreased from 8 to 3.
+****[[War Machine Sentry]] firerate decreased from 0.15 to 0.125.
+****[[War Machine Sentry]] scrap cost increased from 250 to 340.
+****[[War Machine Sentry]] explosion damage increased from 35 to 70.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Ghost}}
 *'''26 November 2025''' - [[v1.81.0]]
-**Gamepass cost decreased from {{Robux|395}} to {{Robux|296}}.
+**Gamepass cost decreased from {{Robux|2,250}} to {{Robux|1,350}}.
 *'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
-*'''20 December 2025''' - [[v1.83.0]]
-**New skin: {{Color|Christmas2025|Festive}}
-**{{Bug}} {{Color|Christmas2025|Festive}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Krampus}}
-**{{Bug}} {{Color|FinalAct|Krampus}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
+**Gamepass cost increased from {{Robux|1,350}} to {{Robux|2,250}}.
 *'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Gamepass cost decreased from {{Robux|395}} to {{Robux|296}}.
+**Gamepass cost decreased from {{Robux|2,250}} to {{Robux|1,350}}.
 *'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
+**Gamepass cost increased from {{Robux|1,350}} to {{Robux|2,250}}.
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 5 to 3 in regular modes.
+**Description changed.
 **Statistical changes (Regular):
 ***'''Base'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
-****Damage increased from 12 to 15.
-****Range increased from 20 to 24.
-****Explosion radius decreased from 6 to 5.
-***'''Level 1'''
-****Cost increased from {{Money|325}} to {{Money|500}}.
-****Firerate changed from {{Tooltip|4.025 > 3.025|-1}} to {{Tooltip|4.025 > 2.775|-1.25}}.
-****Range increased from +0 to +3.
+****Flying detection added, moved from Level 2.
+****[[Sentry (Unit)|Sentry]] damage increased from 1 to 2.
+****[[Sentry (Unit)|Sentry]] firerate increased from 0.625 to 1.025.
 ***'''Level 2'''
-****Cost increased from {{Money|1,400}} to {{Money|2,250}}.
-****Damage increased from +12 to +20.
-****Range decreased from +4 to +0.
-****Explosion radius changed from 6 > 7.5 to 5 > 7.
+****Cost increased from {{Money|550}} to {{Money|1,000}}.
+****Damage increased from +4 to +2.
+****Now summons [[Rifle Sentry]] instead of [[Sentry (Unit)|Sentry]].
+****[[Rifle Sentry]] damage decreased from 2 to 1.
+****[[Rifle Sentry]] firerate decreased from 0.275 to 0.2.
+****[[Rifle Sentry]] scrap meter decreased from 45 to 32.
+****[[Rifle Sentry]] hidden detection added.
 ***'''Level 3'''
-****Cost increased from {{Money|3,250}} to {{Money|4,250}}.
-****Damage decreased from +31 to +30.
-****Explosion radius changed from 7.5 > 8.5 to 7 > 8.5.
+****Cost decreased from {{Money|2,250}} to {{Money|2,077}}.
+****Damage increased from +5 to +12.
 ***'''Level 4'''
-****Cost increased from {{Money|12,000}} to {{Money|19,000}}.
-****Damage increased from +45 to +60.
-****Range increased from +0 to +4.
-****Cluster damage decreased from 40 to 30.
-****Cluster count increased from 3 to 4.
+****Cost increased from {{Money|4,750}} to {{Money|7,500}}.
+****Damage decreased from +15 to +5.
+****Max units decreased from +1 to +0.
+****No longer gives sentry shields, now gained at Level 5 instead.
+****Now summons [[Minigun Sentry]] instead of [[Rifle Sentry]].
+****[[Minigun Sentry]] firerate increased from 0.125 to 0.15.
+****[[Minigun Sentry]] health increased from 60 to 150.
+****[[Minigun Sentry]] scrap meter decreased from 180 to 150.
 ***'''Level 5'''
-****Cost increased from {{Money|25,000}} to {{Money|35,500}}.
-****Damage increased from +50 to +165.
-****Range decreased from +3 to +0.
-****Cluster count decreased from +3 to +2.
+****Cost decreased from {{Money|13,500}} to {{Money|12,500}}.
+****Damage increased from +30 to +50.
+****Max units increased from +0 to +1.
+***'''Level 6'''
+****Cost decreased from {{Money|35,000}} to {{Money|32,500}}.
+****Damage decreased from +25 to +10.
 *'''11 February 2026''' - [[v1.85.0]]
-**New skin: {{Color|Valentines2026|Valentines}}
-**{{Bug}} {{Color|Valentines2026|Valentines}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
+**Level 4 and 5 upgrade names swapped.
+*'''11 March 2026''' - [[v1.86.0]]
+**New skin: {{Color|Shamrock|Springtime}}
+**{{Bug}} {{Color|Surf|Beach}} skin no longer deals any damage.
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Bunny}}
+*'''22 April 2026''' - [[v1.89.0]]
+**{{Bug}} All units no longer have display names.
+*'''24 April 2026''' - [[v1.89.0|v1.89.5]]
+**{{Bugfix}} {{Color|Surf|Beach}} skin now deals damage.
+*'''8 May 2026''' - [[v1.90.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****[[Sentry (Unit)|Sentry]] health increased from 20 to 100.
+***'''Level 1'''
+****Cost decreased from {{Money|350}} to {{Money|325}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,000}} to {{Money|900}}.
+****Damage increased from +2 to +4.
+****[[Rifle Sentry]] health increased from 40 to 400.
+****Without [[Firerate Bug]], [[Rifle Sentry]] firerate decreased from 0.18 to 0.17, however, because of the bug the firerate is effectively the same.
+***'''Level 3'''
+****Damage increased from +12 to +14.
+***'''Level 4'''
+****Cost decreased from {{Money|7,500}} to {{Money|6,250}}.
+****Damage increased from +5 to +6.
+****Range increased from +2 to +3.
+****[[Minigun Sentry]] health increased fro 150 to 750.
+****[[Minigun Sentry]] range increased from 20 to 22.
+***'''Level 6'''
+****Range decreased from +2.5 to +1.5.
+****[[War Machine Sentry]] health increased from 300 to 1,000.
+****[[War Machine Sentry]] explosion damage increased from 70 to 75.
 *'''22 May 2026''' - [[v1.91.0]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|316}}.
+**Gamepass price decreased from {{Robux|2,250}} to {{Robux|1,575}}.
 ***{{Bug}} Gifting was not discounted.
 *'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Gamepass price increased from {{Robux|316}} to {{Robux|395}}.
+**Gamepass price increased from {{Robux|1,575}} to {{Robux|2,250}}.
 *'''5 June 2026''' - [[v2.0.0]]
-**Firerate decreased due to the [[Firerate Bug]] being fixed.
 **Statistical changes (Regular):
 ***'''Base'''
-****Firerate decreased from 4.025 to 4.
-****Now displays its [[Stun Immunity]].
+****Firerate decreased from 1.225 to 1.2.
+****[[Sentry (Unit)|Sentry]] firerate decreased from 1.025 to 1.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|4.025 > 2.775|-1.25}} to {{Tooltip|4 > 2.75|-1.25}}.
+****Firerate changed from {{Tooltip|1.225 > 1.025|-0.2}} to {{Tooltip|1.2 > 1|-0.2}}.
+***'''Level 2'''
+****Without [[Firerate Bug]], [[Rifle Sentry]] firerate increased from 0.17 to 0.2, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.2.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|1 > 0.75|-0.25}}.
+****Without [[Firerate Bug]], [[Minigun Sentry]] firerate increased from 0.12 to 0.15, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.15.
+***'''Level 6'''
+****Firerate changed from {{Tooltip|0.775 > 0.625|-0.15}} to {{Tooltip|0.75 > 0.6|-0.15}}.
+****Without [[Firerate Bug]], [[War Machine Sentry]] firerate increased from 0.1 to 0.125, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.125.
+****[[War Machine Sentry]] splash damage decreased from 75 to 60.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased from 4.025 to 4.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|4.025 > 3.275|-1.25}} to {{Tooltip|4 > 3.25|-1.25}}.
-*'''19 June 2026''' - [[v2.1.0]]
-**Placement limit increased from 3 to 4 in regular modes.
-**Statistical changes (Regular):
+****Firerate decreased from 1.225 to 1.2.
+****[[Sentry (Unit)|Sentry]] firerate decreased from 0.475 to 0.45.
+***'''Level 3'''
+****[[Rifle Sentry]] firerate decreased from 0.225 to 0.2.
 ***'''Level 4'''
-***Cost decreased from {{Money|19,000}} to {{Money|13,500}}.
-***Damage decreased from +50 to +35.
+****Damage decreased from +6 to +4.
+****Firerate changed from {{Tooltip|1.225 > 0.775|-0.45}} to {{Tooltip|1.2 > 0.75|-0.45}}.
 ***'''Level 5'''
-***Cost decreased from {{Money|35,500}} to {{Money|30,000}}.
-***Damage decreased from +165 to +135.
+****Damage increased from +8 to +10.
+****[[Minigun Sentry]] firerate decreased from 0.175 to 0.15.
+***'''Level 6'''
+****Damage decreased from +20 to +18.
+****Firerate changed from {{Tooltip|0.775 > 0.625|-0.15}} to {{Tooltip|0.75 > 0.6|-0.15}}.
+****[[War Machine Sentry]] damage decreased from 10 to 8.
+****Without [[Firerate Bug]], [[War Machine Sentry]] firerate increased from 0.1 to 0.125, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.125.
+****[[War Machine Sentry]] splash damage decreased from 35 to 28.
+*'''8 June 2026''' - [[v2.0.0|v2.0.6]]
+**Statistical changes (Regular):
+***'''Base'''
+****Firerate increased from 1.2 to 1.4.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|1.2 > 1|-0.2}} to {{Tooltip|1.4 > 1.2|-0.2}}.
+***'''Level 3'''
+****Damage decreased from +14 to +10.
+****Firerate changed from {{Tooltip|1.2 > 1|-0.2}} to {{Tooltip|1.2 > 1}}.
+***'''Level 4'''
+****Damage increased from +6 to +10.
+****Firerate changed from {{Tooltip|1 > 0.75|-0.25}} to {{Tooltip|1 > 0.9|-0.1}}.
+***'''Level 5'''
+****Firerate changed from 0.75 to {{Tooltip|0.9 > 0.75|-0.15}}.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Scuba|Scuba Ops}}
 *'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|300}}.
+**Gamepass price increased from {{Robux|2,250}} to {{Robux|1,690}}.
 ***{{Bug}} Gift price has not changed.
 *'''4 September 2026''' - [[v2.9.0]]
-**New skin: {{Color|Beach}}
+**Gamepass price decreased from {{Robux|1,690}} to {{Robux|1,267}}.
+***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,250}} it is now {{Robux|1,687}}.
 }}
 
 ==Notes==
@@ -761,4 +1018,4 @@ $R$ = $FNC-RECURSION$
 
 
 {{TowerNavBox}}
-[[Category:Cliff]]
+[[Category:Ground]]
