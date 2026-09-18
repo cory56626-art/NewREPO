@@ -100,7 +100,15 @@ def discussion_deep_search(req):
     strict_must=bool(req.get('strict_must_include',True))
     include_media=bool(req.get('include_media_candidates',False))
     results=[]; seen=set(); scanned=0; page_summaries=[]; empty_pages=0
+    started=time.monotonic()
+    max_runtime=max(60,min(int(req.get('max_runtime_seconds') or 1800),3600))
+    max_errors=max(1,min(int(req.get('max_consecutive_errors') or 3),20))
+    consecutive_errors=0
+    wjson('bridge_progress.json',{'status':'started','mode':'discussion_deep_search','query':q,'pages_requested':pages,'per_page':per_page,'started_at':datetime.now(timezone.utc).isoformat()})
     for page in range(pages):
+        if time.monotonic()-started >= max_runtime:
+            page_summaries.append({'page':page,'error':f'max runtime exceeded ({max_runtime}s)'})
+            break
         try:
             d=get_json(WIKIA,{
                 'controller':'DiscussionThread','method':'getThreads','siteId':SITE_ID,
@@ -108,8 +116,12 @@ def discussion_deep_search(req):
                 'sortDirection':'descending','sortKey':'creation_date','viewableOnly':'false'
             })
         except Exception as e:
-            page_summaries.append({'page':page,'error':str(e)})
-            break
+            consecutive_errors += 1
+            page_summaries.append({'page':page,'error':str(e),'consecutive_errors':consecutive_errors})
+            wjson('bridge_progress.json',{'status':'error','page':page+1,'pages_attempted':len(page_summaries),'threads_scanned':scanned,'error':str(e),'consecutive_errors':consecutive_errors,'updated_at':datetime.now(timezone.utc).isoformat()})
+            if consecutive_errors >= max_errors: break
+            continue
+        consecutive_errors=0
         objs=flatten(d)
         roots=[]; local_seen=set()
         for o in objs:
@@ -120,6 +132,7 @@ def discussion_deep_search(req):
             local_seen.add(key); roots.append(o)
         scanned+=len(roots)
         page_summaries.append({'page':page,'objects':len(roots)})
+        wjson('bridge_progress.json',{'status':'running','page':page+1,'pages_attempted':len(page_summaries),'threads_scanned':scanned,'matches_so_far':len(results),'updated_at':datetime.now(timezone.utc).isoformat()})
         if not roots:
             continue
         empty_pages = 0
