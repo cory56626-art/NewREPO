@@ -101,13 +101,13 @@ def _group_hit(low, group):
     return False
 
 _LOADOUT_TOWER_ALIASES=[
-    ('Golden Minigunner',['golden minigunner','golden mini','gmini']),
-    ('Golden Crook Boss',['golden crook boss','golden crook','gcrook']),
-    ('Golden Pyromancer',['golden pyromancer','golden pyro','gpyro']),
-    ('Golden Demoman',['golden demoman','golden demo','gdemo']),
-    ('Golden Soldier',['golden soldier','gsoldier']),
-    ('Golden Cowboy',['golden cowboy','gcow']),
-    ('Golden Scout',['golden scout','gscout']),
+    ('Golden Minigunner',['golden minigunner','golden mini','gmini','g mini']),
+    ('Golden Crook Boss',['golden crook boss','golden crook','gcrook','g crook','gcb']),
+    ('Golden Pyromancer',['golden pyromancer','golden pyro','gpyro','g pyro']),
+    ('Golden Demoman',['golden demoman','golden demo','gdemo','g demo']),
+    ('Golden Soldier',['golden soldier','gsoldier','g soldier']),
+    ('Golden Cowboy',['golden cowboy','gcow','g cowboy']),
+    ('Golden Scout',['golden scout','gscout','g scout']),
     ('Mercenary Base',['mercenary base','merc base']),
     ('Military Base',['military base']),
     ('DJ Booth',['dj booth','dj']),
@@ -186,10 +186,14 @@ def discussion_deep_search(req):
     max_errors=max(1,min(int(req.get('max_consecutive_errors') or 3),10))
     max_empty_pages=max(1,min(int(req.get('max_consecutive_empty_pages') or 3),10))
     verify_top=max(1,min(int(req.get('verify_top') or 30),50))
+    min_towers=max(0,min(int(req.get('min_tower_mentions') or 0),100))
+    max_towers=max(0,min(int(req.get('max_tower_mentions') or 0),100))
+    required_towers={norm(x) for x in (req.get('required_towers') or []) if str(x).strip()}
+    exclude_title_terms=[norm(x) for x in (req.get('exclude_title_terms') or []) if str(x).strip()]
     default_min=len(must) if strict_must else min(len(must),max(2,len(must)-1)) if must else 0
     minimum_required=max(0,min(int(req.get('minimum_required_groups',default_min)),len(must)))
 
-    results=[]; seen=set(); scanned=0; page_summaries=[]
+    results=[]; seen=set(); scanned=0; scanned_thread_ids=set(); page_summaries=[]
     previous_fingerprint=None; repeated_pages=0; empty_pages=0; consecutive_errors=0
     started=time.monotonic(); deadline=started+max_runtime; scan_deadline=started+(max_runtime*0.70)
     stop_reason='page_limit_reached'
@@ -233,11 +237,16 @@ def discussion_deep_search(req):
         consecutive_errors=0
         objs=flatten(d); roots=[]; local_seen=set()
         for o in objs:
-            tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
             title=o.get('title')
+            tid=o.get('threadId') or o.get('threadIdStr')
+            # Comment/post IDs are not thread IDs. Only fall back to id for a
+            # titled object, which is how some endpoint variants encode a root.
+            if tid is None and title: tid=o.get('id')
+            if tid is None: continue
             key=str(tid)+'|'+str(title)
             if key in local_seen: continue
-            local_seen.add(key); roots.append(o)
+            local_seen.add(key)
+            root=dict(o); root['_bridge_thread_id']=tid; roots.append(root)
 
         if not roots:
             empty_pages+=1
@@ -250,7 +259,7 @@ def discussion_deep_search(req):
 
         empty_pages=0
         fingerprint=hashlib.sha256('|'.join(sorted(
-            str((o.get('threadId') or o.get('threadIdStr') or o.get('id')))+'::'+str(o.get('title'))
+            str(o.get('_bridge_thread_id'))+'::'+str(o.get('title'))
             for o in roots
         )).encode('utf-8')).hexdigest()
         if fingerprint==previous_fingerprint:
@@ -267,8 +276,9 @@ def discussion_deep_search(req):
             continue
 
         previous_fingerprint=fingerprint; repeated_pages=0
-        scanned+=len(roots)
-        page_summaries.append({'page':page,'objects':len(roots)})
+        for o in roots: scanned_thread_ids.add(str(o.get('_bridge_thread_id')))
+        scanned=len(scanned_thread_ids)
+        page_summaries.append({'page':page,'objects':len(roots),'unique_threads_total':scanned})
         progress('running',page+1)
 
         for o in roots:
@@ -281,22 +291,29 @@ def discussion_deep_search(req):
                 if include_media and media['has_images']: media_only=True
                 else: continue
 
+            mentions=_tower_mentions(blob)
+            if min_towers and len(mentions)<min_towers: continue
+            if max_towers and len(mentions)>max_towers: continue
+            mention_names={norm(x) for x in mentions}
+            if required_towers and not required_towers.issubset(mention_names): continue
+
+            title_low=norm(o.get('title'))
+            if any(term in title_low for term in exclude_title_terms): continue
             toks=[t for t in re.findall(r'[a-z0-9]+',norm(q)) if len(t)>1]
             score=sum(low.count(t) for t in toks)
             score+=sum(8 for _ in matched)
             score+=sum(3 for x in prefer if norm(x) in low)
-            title_low=norm(o.get('title'))
             score+=sum(20 for x in prefer if norm(x) in title_low)
             if any(x in title_low for x in ('loadout','strategy','strat','solo','duo')): score+=60
             if any(x in title_low for x in ('tier list','tierlist','ranking','rating')): score-=50
+            if len(mentions)==5: score+=50
+            elif 5<len(mentions)<=7: score+=25
             if media_only: score-=20
 
-            tid=o.get('threadId') or o.get('threadIdStr') or o.get('id')
+            tid=o.get('_bridge_thread_id')
             key=str(tid)+'|'+str(o.get('title'))
             if key in seen: continue
             seen.add(key)
-            mentions=_tower_mentions(blob)
-            if 5<=len(mentions)<=7: score+=25
             results.append({
                 'score':score,'thread_id':tid,'title':o.get('title'),
                 'author':o.get('createdBy') or o.get('username') or o.get('user'),
@@ -305,18 +322,25 @@ def discussion_deep_search(req):
                 'matched_required_groups':matched,
                 'all_required_groups_in_text':all_required,
                 'media_only_candidate':media_only,
-                'tower_mentions':mentions,
+                'tower_mentions':mentions,'tower_mention_count':len(mentions),
                 **media
             })
 
-    results.sort(key=lambda x:(-x['score'],str(x.get('title') or '')))
-    verified=[]; verification_errors=0
+    def _thread_sort_id(item):
+        try: return int(item.get('thread_id') or 0)
+        except: return 0
+    results.sort(key=lambda x:(-x['score'],-_thread_sort_id(x),str(x.get('title') or '')))
+    verified=[]; verification_failures=[]; verification_errors=0; verification_attempted=0; verification_rejected=0
     for item in results[:verify_top]:
         if time.monotonic()>=deadline-2:
             stop_reason='runtime_limit_during_verification'
             break
         tid=item.get('thread_id')
-        if not str(tid).isdigit(): continue
+        if not str(tid).isdigit():
+            verification_rejected+=1
+            verification_failures.append({'thread_id':tid,'title':item.get('title'),'reason':'invalid_thread_id'})
+            continue
+        verification_attempted+=1
         try:
             d=get_json(WIKIA,{
                 'controller':'DiscussionThread','method':'getThread','threadId':str(tid),
@@ -326,17 +350,32 @@ def discussion_deep_search(req):
             full=_deep_blob(d); low=norm(full); full_media=_media_info(d)
             full_matched=[g for g in must if _group_hit(low,g)]
             required_ok=(not must) or (len(full_matched)==len(must) if strict_must else len(full_matched)>=minimum_required)
+            if not required_ok:
+                verification_rejected+=1
+                verification_failures.append({
+                    'thread_id':tid,'title':item.get('title'),
+                    'reason':'full_thread_required_terms_missing',
+                    'matched_required_groups':full_matched
+                })
+                continue
             v=dict(item)
-            v['full_thread_required_match']=required_ok
+            v['full_thread_required_match']=True
             v['full_thread_matched_required_groups']=full_matched
             v['full_thread_text_excerpt']=strip_html(full)[:5000]
             v['full_thread_has_images']=full_media['has_images']
             v['full_thread_image_urls']=full_media['image_urls']
-            v['tower_mentions']=_tower_mentions(full)
+            v['root_tower_mentions']=item.get('tower_mentions',[])
+            v['full_thread_tower_mentions']=_tower_mentions(full)
+            # Keep the root-post tower list as the loadout candidate. Replies often
+            # mention replacements and must not silently rewrite the sourced deck.
+            v['tower_mentions']=item.get('tower_mentions',[])
             verified.append(v)
         except Exception as e:
             verification_errors+=1
-            v=dict(item); v['verification_error']=str(e); verified.append(v)
+            verification_failures.append({
+                'thread_id':tid,'title':item.get('title'),
+                'reason':'verification_error','error':str(e)
+            })
 
     scanned_page_numbers=[int(x.get('page',0))+1 for x in page_summaries if 'page' in x]
     populated_page_numbers=[int(x.get('page',0))+1 for x in page_summaries if x.get('objects',0)>0 and 'error' not in x]
@@ -363,10 +402,14 @@ def discussion_deep_search(req):
         'error_page_numbers':error_pages,'threads_scanned':scanned,
         'required_groups':must,'minimum_required_groups':minimum_required,
         'preferred_terms':prefer,'strict_must_include':strict_must,
+        'min_tower_mentions':min_towers,'max_tower_mentions':max_towers,
+        'required_towers':sorted(required_towers),'exclude_title_terms':exclude_title_terms,
         'include_media_candidates':include_media,'page_summaries':page_summaries,
-        'matches':results[:100],'verified_top_matches':verified,
+        'match_count':len(results),'matches':results[:100],'verified_top_matches':verified,
         'verification_requested':min(verify_top,len(results)),
-        'verification_completed':len(verified),'verification_errors':verification_errors,
+        'verification_attempted':verification_attempted,
+        'verification_completed':len(verified),'verification_rejected':verification_rejected,
+        'verification_errors':verification_errors,'verification_failures':verification_failures,
         'selection_note':'Text candidates must meet the required-group threshold. Screenshot-only candidates are labeled media_only_candidate and are never treated as text-verified.'
     }
     wjson('discussion_deep_search.json',r)
@@ -377,7 +420,10 @@ def discussion_deep_search(req):
         'pages_requested':pages,'pages_attempted':pages_attempted,
         'pages_completed':pages_completed,'pages_with_threads':len(populated_page_numbers),
         'pages_empty':len(empty_page_numbers),'pages_with_errors':len(error_pages),
-        'verification_completed':len(verified)
+        'verification_attempted':verification_attempted,
+        'verification_completed':len(verified),
+        'verification_rejected':verification_rejected,
+        'verification_errors':verification_errors
     })
     wjson('evidence_bundle.json',{'mode':'discussion_deep_search',**r})
     progress(run_state)
