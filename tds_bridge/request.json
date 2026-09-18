@@ -41,5 +41,16 @@
   "max_consecutive_errors": 3,
   "max_consecutive_empty_pages": 3,
   "verify_top": 30,
-  "minimum_required_groups": 4
+  "minimum_required_groups": 4,
+  "min_tower_mentions": 5,
+  "max_tower_mentions": 7,
+  "required_towers": [
+    "DJ Booth"
+  ],
+  "exclude_title_terms": [
+    "polluted wastelands",
+    "pw2",
+    "solo molten",
+    "molten loadout"
+  ]
 }
