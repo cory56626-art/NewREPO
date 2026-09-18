@@ -99,7 +99,7 @@ def discussion_deep_search(req):
     prefer=req.get('prefer_include') or []
     strict_must=bool(req.get('strict_must_include',True))
     include_media=bool(req.get('include_media_candidates',False))
-    results=[]; seen=set(); scanned=0; page_summaries=[]; empty_pages=0
+    results=[]; seen=set(); scanned=0; page_summaries=[]; empty_pages=0; previous_fingerprint=None; repeated_pages=0
     started=time.monotonic()
     max_runtime=max(60,min(int(req.get('max_runtime_seconds') or 1800),3600))
     max_errors=max(1,min(int(req.get('max_consecutive_errors') or 3),20))
@@ -131,6 +131,15 @@ def discussion_deep_search(req):
             if key in local_seen: continue
             local_seen.add(key); roots.append(o)
         scanned+=len(roots)
+        fingerprint='|'.join(sorted(str((o.get('threadId') or o.get('threadIdStr') or o.get('id')))+'::'+str(o.get('title')) for o in roots))
+        if fingerprint and fingerprint==previous_fingerprint:
+            repeated_pages += 1
+            page_summaries.append({'page':page,'objects':len(roots),'error':'duplicate page payload; pagination endpoint is not advancing','repeated_pages':repeated_pages})
+            if repeated_pages >= 2:
+                break
+            continue
+        previous_fingerprint=fingerprint
+        repeated_pages=0
         page_summaries.append({'page':page,'objects':len(roots)})
         wjson('bridge_progress.json',{'status':'running','page':page+1,'pages_attempted':len(page_summaries),'threads_scanned':scanned,'matches_so_far':len(results),'updated_at':datetime.now(timezone.utc).isoformat()})
         if not roots:
@@ -210,6 +219,7 @@ def discussion_deep_search(req):
         'pages_with_threads':len(populated_page_numbers),
         'pages_empty':len(empty_page_numbers),
         'pages_with_errors':len(error_pages),
+        'pagination_stalled': any('duplicate page payload' in str(x.get('error','')) for x in page_summaries),
         'scanned_page_numbers':scanned_page_numbers,
         'populated_page_numbers':populated_page_numbers,
         'empty_page_numbers':empty_page_numbers,
