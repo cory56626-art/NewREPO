@@ -1,0 +1,759 @@
+{
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  },
+  "description": "The '''Ranger''', formerly known as the '''Outlaw''', is an advanced cliff [[Towers|tower]] with long range that can be purchased in the store for {{Coins|12,000}}.\n\nThe '''Ranger''' deals high damage with very long range but has a slow firerate. As a cliff tower, it can detect [[Flying]] enemies, but cannot detect hidden enemies at any level. The '''Ranger''' can also damage lead enemies at Level 2+. Additionally, it is immune to all stuns by default. At Level 2, it gains the ability to give towers a 10% [[Range Buff]] within its inner radius at the start of every wave for 20 seconds. At Level 4, it also deals splash damage through its ''Explosive Impact''.\n\nThe '''Ranger''' deals extremely high damage at higher levels, but is expensive to upgrade to these levels. Due to these reasons, it is considered a mid-to-late game tower and is most effective for harder gamemodes.\n\nThe '''Ranger''' has a placement limit of eight per player.",
+  "upgrade_modes": {
+    "regular": [
+      {
+        "mode": "regular",
+        "level": 1,
+        "title": "Faster Reloading",
+        "cost": "{{Money|1,500}}",
+        "information": "6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "6",
+            "to": "4.75",
+            "stat": "Firerate",
+            "text": "6 > 4.75 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Faster Reloading",
+          "Cost": "{{Money|1,500}}",
+          "Image": "[[File:Common1Image.png|100px]]",
+          "Information": "6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 2,
+        "title": "Intelligence Radio",
+        "cost": "{{Money|5,500}}",
+        "information": "+85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+85",
+            "stat": "Damage",
+            "text": "+85 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          },
+          {
+            "kind": "grant",
+            "stat": "10% Range Buff",
+            "text": "+10% Range Buff"
+          },
+          {
+            "kind": "note",
+            "text": "12 Buff Range"
+          },
+          {
+            "kind": "note",
+            "text": "Lasts 20 seconds"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Intelligence Radio",
+          "Cost": "{{Money|5,500}}",
+          "Image": "[[File:Outlaw2.png|100px]]",
+          "Information": "+85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Trained Outlaw",
+        "cost": "{{Money|15,750}}",
+        "information": "+245 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|9,083}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+245",
+            "stat": "Damage",
+            "text": "+245 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "4.75",
+            "to": "4.5",
+            "stat": "Firerate",
+            "text": "4.75 > 4.5 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Trained Outlaw",
+          "Cost": "{{Money|15,750}}",
+          "Image": "[[File:Outlaw4.png|100px]]",
+          "Information": "+245 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|9,083}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Experimental Weapon of Destruction",
+        "cost": "{{Money|25,000}}",
+        "information": "+445 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Explosive Impact\n\n•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Max Hits\n\n\nSell Price changes to {{Money|17,416}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+445",
+            "stat": "Damage",
+            "text": "+445 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "4.5",
+            "to": "8",
+            "stat": "Firerate",
+            "text": "4.5 > 8 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Explosive Impact",
+            "text": "+Explosive Impact"
+          },
+          {
+            "kind": "note",
+            "text": "375 Splash Damage"
+          },
+          {
+            "kind": "note",
+            "text": "5 Explosion Range"
+          },
+          {
+            "kind": "note",
+            "text": "3 Max Hits"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Experimental Weapon of Destruction",
+          "Cost": "{{Money|25,000}}",
+          "Image": "[[File:Outlaw5.png|100px]]",
+          "Information": "+445 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Explosive Impact\n\n•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Max Hits\n\n\nSell Price changes to {{Money|17,416}}"
+        }
+      }
+    ],
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Faster Reloading",
+        "cost": "{{Money|650}}",
+        "information": "3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|883}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "2.5",
+            "stat": "Firerate",
+            "text": "3 > 2.5 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Faster Reloading",
+          "Cost": "{{Money|650}}",
+          "Image": "[[File:Common1Image.png|100px]]",
+          "Information": "3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|883}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Intelligence Radio",
+        "cost": "{{Money|2,400}}",
+        "information": "+34 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|1,683}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+34",
+            "stat": "Damage",
+            "text": "+34 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "15% Range Buff",
+            "text": "+15% Range Buff"
+          },
+          {
+            "kind": "note",
+            "text": "12 Buff Range"
+          },
+          {
+            "kind": "note",
+            "text": "Lasts 120 seconds"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Intelligence Radio",
+          "Cost": "{{Money|2,400}}",
+          "Image": "[[File:Outlaw2.png|100px]]",
+          "Information": "+34 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|1,683}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Trained Outlaw",
+        "cost": "{{Money|8,500}}",
+        "information": "+74 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,516}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+74",
+            "stat": "Damage",
+            "text": "+74 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "2.5",
+            "to": "2",
+            "stat": "Firerate",
+            "text": "2.5 > 2 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Trained Outlaw",
+          "Cost": "{{Money|8,500}}",
+          "Image": "[[File:Outlaw4.png|100px]]",
+          "Information": "+74 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,516}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Experimental Weapon of Destruction",
+        "cost": "{{Money|17,000}}",
+        "information": "+126 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Explosive Impact\n\n•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n\nSell Price changes to {{Money|10,183}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+126",
+            "stat": "Damage",
+            "text": "+126 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Explosive Impact",
+            "text": "+Explosive Impact"
+          },
+          {
+            "kind": "note",
+            "text": "25 Splash Damage"
+          },
+          {
+            "kind": "note",
+            "text": "5 Explosion Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Experimental Weapon of Destruction",
+          "Cost": "{{Money|17,000}}",
+          "Image": "[[File:Outlaw5.png|100px]]",
+          "Information": "+126 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Explosive Impact\n\n•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n\nSell Price changes to {{Money|10,183}}"
+        }
+      }
+    ]
+  },
+  "upgrade_templates": [
+    {
+      "mode": "regular",
+      "level": 1,
+      "title": "Faster Reloading",
+      "cost": "{{Money|1,500}}",
+      "information": "6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "6",
+          "to": "4.75",
+          "stat": "Firerate",
+          "text": "6 > 4.75 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Faster Reloading",
+        "Cost": "{{Money|1,500}}",
+        "Image": "[[File:Common1Image.png|100px]]",
+        "Information": "6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 2,
+      "title": "Intelligence Radio",
+      "cost": "{{Money|5,500}}",
+      "information": "+85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+85",
+          "stat": "Damage",
+          "text": "+85 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        },
+        {
+          "kind": "grant",
+          "stat": "10% Range Buff",
+          "text": "+10% Range Buff"
+        },
+        {
+          "kind": "note",
+          "text": "12 Buff Range"
+        },
+        {
+          "kind": "note",
+          "text": "Lasts 20 seconds"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Intelligence Radio",
+        "Cost": "{{Money|5,500}}",
+        "Image": "[[File:Outlaw2.png|100px]]",
+        "Information": "+85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "title": "Trained Outlaw",
+      "cost": "{{Money|15,750}}",
+      "information": "+245 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|9,083}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+245",
+          "stat": "Damage",
+          "text": "+245 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "4.75",
+          "to": "4.5",
+          "stat": "Firerate",
+          "text": "4.75 > 4.5 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Trained Outlaw",
+        "Cost": "{{Money|15,750}}",
+        "Image": "[[File:Outlaw4.png|100px]]",
+        "Information": "+245 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|9,083}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Experimental Weapon of Destruction",
+      "cost": "{{Money|25,000}}",
+      "information": "+445 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Explosive Impact\n\n•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Max Hits\n\n\nSell Price changes to {{Money|17,416}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+445",
+          "stat": "Damage",
+          "text": "+445 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "4.5",
+          "to": "8",
+          "stat": "Firerate",
+          "text": "4.5 > 8 Firerate"
+        },
+        {
+          "kind": "grant",
+          "stat": "Explosive Impact",
+          "text": "+Explosive Impact"
+        },
+        {
+          "kind": "note",
+          "text": "375 Splash Damage"
+        },
+        {
+          "kind": "note",
+          "text": "5 Explosion Range"
+        },
+        {
+          "kind": "note",
+          "text": "3 Max Hits"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Experimental Weapon of Destruction",
+        "Cost": "{{Money|25,000}}",
+        "Image": "[[File:Outlaw5.png|100px]]",
+        "Information": "+445 Damage [[File:Damage Icon.png|20px|Damage]]\n\n4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Explosive Impact\n\n•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Max Hits\n\n\nSell Price changes to {{Money|17,416}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Faster Reloading",
+      "cost": "{{Money|650}}",
+      "information": "3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|883}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "3",
+          "to": "2.5",
+          "stat": "Firerate",
+          "text": "3 > 2.5 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Faster Reloading",
+        "Cost": "{{Money|650}}",
+        "Image": "[[File:Common1Image.png|100px]]",
+        "Information": "3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|883}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Intelligence Radio",
+      "cost": "{{Money|2,400}}",
+      "information": "+34 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|1,683}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+34",
+          "stat": "Damage",
+          "text": "+34 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "15% Range Buff",
+          "text": "+15% Range Buff"
+        },
+        {
+          "kind": "note",
+          "text": "12 Buff Range"
+        },
+        {
+          "kind": "note",
+          "text": "Lasts 120 seconds"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Intelligence Radio",
+        "Cost": "{{Money|2,400}}",
+        "Image": "[[File:Outlaw2.png|100px]]",
+        "Information": "+34 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|1,683}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "title": "Trained Outlaw",
+      "cost": "{{Money|8,500}}",
+      "information": "+74 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,516}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+74",
+          "stat": "Damage",
+          "text": "+74 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "2.5",
+          "to": "2",
+          "stat": "Firerate",
+          "text": "2.5 > 2 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Trained Outlaw",
+        "Cost": "{{Money|8,500}}",
+        "Image": "[[File:Outlaw4.png|100px]]",
+        "Information": "+74 Damage [[File:Damage Icon.png|20px|Damage]]\n\n2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,516}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Experimental Weapon of Destruction",
+      "cost": "{{Money|17,000}}",
+      "information": "+126 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Explosive Impact\n\n•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n\nSell Price changes to {{Money|10,183}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+126",
+          "stat": "Damage",
+          "text": "+126 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "Explosive Impact",
+          "text": "+Explosive Impact"
+        },
+        {
+          "kind": "note",
+          "text": "25 Splash Damage"
+        },
+        {
+          "kind": "note",
+          "text": "5 Explosion Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Experimental Weapon of Destruction",
+        "Cost": "{{Money|17,000}}",
+        "Image": "[[File:Outlaw5.png|100px]]",
+        "Information": "+126 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Explosive Impact\n\n•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n\nSell Price changes to {{Money|10,183}}"
+      }
+    }
+  ],
+  "statistics_tables": {
+    "regular": [
+      {
+        "level": 0,
+        "cost": 4500.0,
+        "total_cost": 4500.0,
+        "damage": 100.0,
+        "tick": null,
+        "charge_up": 6.0,
+        "cooldown": 70.0,
+        "overcharge": null,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 1,
+        "cost": 1500.0,
+        "total_cost": 6000.0,
+        "damage": 100.0,
+        "tick": null,
+        "charge_up": 4.75,
+        "cooldown": 70.0,
+        "overcharge": null,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 2,
+        "cost": 5500.0,
+        "total_cost": 11500.0,
+        "damage": 185.0,
+        "tick": null,
+        "charge_up": 4.75,
+        "cooldown": 70.0,
+        "overcharge": 12.0,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 3,
+        "cost": 15750.0,
+        "total_cost": 27250.0,
+        "damage": 430.0,
+        "tick": null,
+        "charge_up": 4.5,
+        "cooldown": 70.0,
+        "overcharge": 12.0,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 4,
+        "cost": 25000.0,
+        "total_cost": 52250.0,
+        "damage": 875.0,
+        "tick": 375.0,
+        "charge_up": 8.0,
+        "cooldown": 70.0,
+        "overcharge": 12.0,
+        "range": 5.0,
+        "dps": 0.144
+      }
+    ],
+    "pvp": [
+      {
+        "level": 0,
+        "cost": 2000.0,
+        "total_cost": 2000.0,
+        "damage": 40.0,
+        "tick": null,
+        "charge_up": 3.0,
+        "cooldown": 50.0,
+        "overcharge": null,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 1,
+        "cost": 650.0,
+        "total_cost": 2650.0,
+        "damage": 40.0,
+        "tick": null,
+        "charge_up": 2.5,
+        "cooldown": 50.0,
+        "overcharge": null,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 2,
+        "cost": 2400.0,
+        "total_cost": 5050.0,
+        "damage": 74.0,
+        "tick": null,
+        "charge_up": 2.5,
+        "cooldown": 50.0,
+        "overcharge": 12.0,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 3,
+        "cost": 8500.0,
+        "total_cost": 13550.0,
+        "damage": 148.0,
+        "tick": null,
+        "charge_up": 2.0,
+        "cooldown": 50.0,
+        "overcharge": 12.0,
+        "range": null,
+        "dps": null
+      },
+      {
+        "level": 4,
+        "cost": 17000.0,
+        "total_cost": 30550.0,
+        "damage": 272.0,
+        "tick": 25.0,
+        "charge_up": 2.0,
+        "cooldown": 50.0,
+        "overcharge": 12.0,
+        "range": 5.0,
+        "dps": 0.226
+      }
+    ]
+  },
+  "detections_and_limits": {
+    "regular": {
+      "hidden": "N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "lead": "{{Attr|Lead|Level 2+}}",
+      "flying": "{{Attr|Flying|Level 0+}}",
+      "immune": "Stun",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8"
+    },
+    "pvp": {
+      "hidden": "N/A<ref name=\"hd\"/>",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "{{Attr|Flying|Level 0+}}",
+      "immune": "Stun"
+    }
+  },
+  "infoboxes": [
+    {
+      "name": "TowerInfobox",
+      "params": {
+        "title": "Ranger",
+        "image-static": "Newranger.png",
+        "image-dynamic": "RangerDynamic.png",
+        "unlockcost": "{{Coins|12,000}}",
+        "role": "Defense",
+        "placement": "Cliff",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
+        "basecost": "{{Money|4,500}}",
+        "basesellingprice": "{{Money|1,500}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]100",
+        "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 4)",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]6",
+        "baserange": "[[File:Range Icon.png|20px|Range]]70",
+        "hidden_detection": "N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+        "lead_detection": "{{Attr|Lead|Level 2+}}",
+        "flying_detection": "{{Attr|Flying|Level 0+}}",
+        "immune": "Stun",
+        "footprint": "1.5",
+        "pvp_basecost": "{{Money|2,000}}",
+        "pvp_basesellingprice": "{{Money|666}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]40",
+        "pvp_damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 4)",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]3",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]50",
+        "pvp_hidden_detection": "N/A<ref name=\"hd\"/>",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "{{Attr|Flying|Level 0+}}",
+        "pvp_immune": "Stun",
+        "pvp_footprint": "1.5",
+        "tooltip-1": "An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.",
+        "tooltip-2": "Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.",
+        "tooltip-3": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
+      },
+      "positional": []
+    }
+  ],
+  "likely_infobox": {
+    "name": "TowerInfobox",
+    "params": {
+      "title": "Ranger",
+      "image-static": "Newranger.png",
+      "image-dynamic": "RangerDynamic.png",
+      "unlockcost": "{{Coins|12,000}}",
+      "role": "Defense",
+      "placement": "Cliff",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]8",
+      "basecost": "{{Money|4,500}}",
+      "basesellingprice": "{{Money|1,500}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]100",
+      "damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 4)",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]6",
+      "baserange": "[[File:Range Icon.png|20px|Range]]70",
+      "hidden_detection": "N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "lead_detection": "{{Attr|Lead|Level 2+}}",
+      "flying_detection": "{{Attr|Flying|Level 0+}}",
+      "immune": "Stun",
+      "footprint": "1.5",
+      "pvp_basecost": "{{Money|2,000}}",
+      "pvp_basesellingprice": "{{Money|666}}",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]40",
+      "pvp_damagetype": "Single<br/>[[Splash Damage|Splash]] (Level 4)",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]3",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]50",
+      "pvp_hidden_detection": "N/A<ref name=\"hd\"/>",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+      "pvp_flying_detection": "{{Attr|Flying|Level 0+}}",
+      "pvp_immune": "Stun",
+      "pvp_footprint": "1.5",
+      "tooltip-1": "An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.",
+      "tooltip-2": "Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.",
+      "tooltip-3": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
+    },
+    "positional": []
+  },
+  "template_count": 331
+}

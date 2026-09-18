@@ -1,16 +1,32 @@
 {
   "mode": "verify",
-  "status": "needs_selection",
-  "requested": "Ranger, Golden Scout, Golden Pyro, Golden Demoman, Shotgunner, Electroshocker",
+  "requested": "Ranger",
+  "title": "Ranger",
+  "pageid": 193,
+  "latest_revid": 627636,
+  "latest_timestamp": "2026-08-26T12:07:04Z",
+  "source_url": "https://tds.fandom.com/wiki/Ranger",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  },
   "_bridge_run": {
-    "request_fingerprint": "d0575ffc0c967917b797c5af52b31457c6af810f0557b37a35b613bcf9f1d546",
+    "request_fingerprint": "00bcf570cc5b271b34c243d2bad0c81ae39aa86fa36a07c87cb3a4acae327cf1",
     "mode": "verify",
-    "query": "Ranger, Golden Scout, Golden Pyro, Golden Demoman, Shotgunner, Electroshocker",
-    "started_at": "2026-09-18T14:30:07.117097+00:00",
-    "github_run_id": "35356598010",
-    "source_commit": "97f384f1b1a4d445fe90532e0869934e8f0caf6b",
-    "status": "needs_selection",
-    "finished_at": "2026-09-18T14:30:08.201105+00:00",
-    "return_code": 2
+    "query": "Ranger",
+    "started_at": "2026-09-18T14:30:53.530976+00:00",
+    "github_run_id": "35356688187",
+    "source_commit": "039993827938812bb5a17cae52a7dc03033460d8",
+    "status": "completed",
+    "finished_at": "2026-09-18T14:30:57.803082+00:00",
+    "return_code": 0
   }
 }

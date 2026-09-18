@@ -1,5 +1,829 @@
-TDS bridge run completed
-Request fingerprint: d0575ffc0c967917b797c5af52b31457c6af810f0557b37a35b613bcf9f1d546
-Mode: verify
-Query: Ranger, Golden Scout, Golden Pyro, Golden Demoman, Shotgunner, Electroshocker
-See meta.json and evidence_bundle.json for the mode-specific result.
+{{Tabs}}
+{{TowerInfobox
+|title = Ranger
+|image-static = Newranger.png
+|image-dynamic = RangerDynamic.png
+|unlockcost = {{Coins|12,000}}
+|role = Defense
+|placement = Cliff
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8
+|basecost = {{Money|4,500}}
+|basesellingprice = {{Money|1,500}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]100
+|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]6
+|baserange = [[File:Range Icon.png|20px|Range]]70
+|hidden_detection = N/A<ref name="hd">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>
+|lead_detection = {{Attr|Lead|Level 2+}}
+|flying_detection = {{Attr|Flying|Level 0+}}
+|immune = Stun
+|footprint = 1.5
+|pvp_basecost = {{Money|2,000}}
+|pvp_basesellingprice = {{Money|666}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]40
+|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]3
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]50
+|pvp_hidden_detection = N/A<ref name="hd"/>
+|pvp_lead_detection = {{Attr|Lead|Level 0+}}
+|pvp_flying_detection = {{Attr|Flying|Level 0+}}
+|pvp_immune = Stun
+|pvp_footprint = 1.5
+|tooltip-1 = An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.
+|tooltip-2 = Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.
+|tooltip-3 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.
+}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Precision is key. Deals exceptional damage at nearly infinite range.|Current Store Description}}
+|-|Version 3 =
+{{QuoteBox|A long-range cliff tower that deals heavy damage.|Former Store Description}}
+|-|Version 2 =
+{{QuoteBox|A long-range cliff tower that deals heavy damage with a railgun.|Former Store Description}}
+|-|Hardcore Testing =
+{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage with a railgun.|Former Store Description}}
+|-|Original =
+{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage.|Former Store Description}}
+</tabber>}}
+__TOC__
+==Description==
+The '''Ranger''', formerly known as the '''Outlaw''', is an advanced cliff [[Towers|tower]] with long range that can be purchased in the store for {{Coins|12,000}}.
+
+The '''Ranger''' deals high damage with very long range but has a slow firerate. As a cliff tower, it can detect [[Flying]] enemies, but cannot detect hidden enemies at any level. The '''Ranger''' can also damage lead enemies at Level 2+. Additionally, it is immune to all stuns by default. At Level 2, it gains the ability to give towers a 10% [[Range Buff]] within its inner radius at the start of every wave for 20 seconds. At Level 4, it also deals splash damage through its ''Explosive Impact''.
+
+The '''Ranger''' deals extremely high damage at higher levels, but is expensive to upgrade to these levels. Due to these reasons, it is considered a mid-to-late game tower and is most effective for harder gamemodes.
+
+The '''Ranger''' has a placement limit of eight per player.
+
+==Upgrades==
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|2,000}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]
+
++Lead Detection {{Lead|Lead Detection}}
+
++10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+
+•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]
+
+•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]
+
+
+Sell Price changes to {{Money|3,833}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Money|15,750}}|Image =[[File:Outlaw4.png|100px]]|Information = +245 Damage [[File:Damage Icon.png|20px|Damage]]
+
+4.75 > 4.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|9,083}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Experimental Weapon of Destruction|Cost = {{Money|25,000}}|Image = [[File:Outlaw5.png|100px]]|Information = +445 Damage [[File:Damage Icon.png|20px|Damage]]
+
+4.5 > 8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++Explosive Impact
+
+•375 Splash Damage [[File:SplashDamage.png|20px|Damage]]
+
+•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•3 Max Hits
+
+
+Sell Price changes to {{Money|17,416}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|650}}|Image = [[File:Common1Image.png|100px]]|Information = 3 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|883}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|2,400}}|Image = [[File:Outlaw2.png|100px]]|Information = +34 Damage [[File:Damage Icon.png|20px|Damage]]
+
++15% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]
+
+•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]
+
+•Lasts 120 seconds [[File:Cooldown Icon.png|20px|Buff Time]]
+
+
+Sell Price changes to {{Money|1,683}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Money|8,500}}|Image =[[File:Outlaw4.png|100px]]|Information = +74 Damage [[File:Damage Icon.png|20px|Damage]]
+
+2.5 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|4,516}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Experimental Weapon of Destruction|Cost = {{Money|17,000}}|Image = [[File:Outlaw5.png|100px]]|Information = +126 Damage [[File:Damage Icon.png|20px|Damage]]
+
++Explosive Impact
+
+•25 Splash Damage [[File:SplashDamage.png|20px|Damage]]
+
+•5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+
+Sell Price changes to {{Money|10,183}}}}
+}}
+
+==Statistics==
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+
+{{neow|<nowiki>
+<var>
+$DPS$ = Damage / Firerate
+$SDPS$ = Splash Damage / Firerate
+$TDPS$ = $DPS$ + $SDPS$
+$CE$ = Total Cost / DPS
+$TP$ = $FNC-TOTAL-COST$
+$COST$ = 4500; 1500; 5500; 15750; 25000
+$PVP-COST$ = 2000; 650; 2400; 8500; 17000
+$FSE-DETECTION$ = ; 2; 0
+$FSE-PVP-DETECTION$ = ; 0; 0
+$FSE-UPGRADE$ = Faster Reloading; Intelligence Radio; Trained Outlaw; Experimental Weapon of Destruction
+$FSE-UPGRADEICON$ = 3280081327; 3381734408; 3381735232; 3381735846
+$FSE-META$ = Advanced; File:Newranger.png
+$R$ = $FNC-RECURSION$
+</var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Firerate !! Range !! Buff Range !! Explosion Range !! Max Hits !! Range Buff !! Buff Time !! DPS !! Cost Efficiency
+|-
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 100 || N/A || 6 || 70 || N/A || N/A || N/A || N/A || N/A || $TDPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 100 || N/A || 4.75 || 70 || N/A || N/A || N/A || N/A || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 185 || N/A || 4.75 || 70 || 12 || N/A || N/A || 10% || 20 || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 430 || N/A || 4.5 || 70 || 12 || N/A || N/A || 10% || 20 || $DPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 875 || 375 || 8 || 70 || 12 || 5 || 3 || 10% || 20 || $TDPS$<ref>$DPS$ Normal DPS + $SDPS$ Splash DPS.<br/>DPS assumes only one enemy is hit.</ref> || {{Money|$CE$}}
+|}
+</div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Firerate !! Range !! Buff Range !! Explosion Range !! Range Buff !! Buff Time !! DPS !! Cost Efficiency
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 40 || N/A || 3 || 50 || N/A || N/A || N/A || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 40 || N/A || 2.5 || 50 || N/A || N/A || N/A || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 74 || N/A || 2.5 || 50 || 12 || N/A || 15% || 120 || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 148 || N/A || 2 || 50 || 12 || N/A || 15% || 120 || $DPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 272 || 25 || 2 || 50 || 12 || 5 || 15% || 120 || $TDPS$<ref>$DPS$ Normal DPS + $SDPS$ Splash DPS.<br/>DPS assumes only one enemy is hit.</ref> || {{Money|$CE$}}
+|}
+</div>
+</tabber></div>
+</nowiki>}}
+
+==Skins==
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:RailgunnerRangerMissionIcon.png|175px]]
+|[[File:Wraithrangernew.png|175px]]
+|[[File:Greenrangernew.png|175px]]
+|[[File:Newblueranger.png|175px]]
+|-
+!Skin
+|{{Color|Mission|Railgunner}}
+|{{Color|Premium|Wraith}}
+|{{Color|Basic|Green}}
+|{{Color|Basic|Blue}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|{{Color|Common}}
+|-
+!Cost
+|N/A
+|{{Robux|120}}
+|{{Coins|500}}
+|{{Coins|500}}
+|-
+!Obtained From
+|''Chance of Drizzle'' [[Mission Quests|Mission Quest]]
+|[[Premium Crate]]
+|[[Basic Crate]]
+|[[Basic Crate]]
+|-
+!
+|[[File:Blackopsrangernew.png|175px]]
+|[[File:Partisanrangernew.png|175px]]
+|[[File:LOValentinesRanger.png|175px]]
+|[[File:Bunnyrangernew.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Black Ops}}
+|{{Color|Premium|Partisan}}
+|{{Color|Valentine|Valentines}}
+|{{Color|Bunny|Bunny}}
+|-
+!Rarity
+|{{Color|Common}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
+|{{Color|Event}}
+|-
+!Cost
+|{{Robux|85}}
+|{{Robux|105}}
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Premium Crate]]
+|[[Premium Crate]]
+|[[Lovestruck Crate]],<br/>[[Valentines Crate]]
+|[[Bunny Crate]]
+|-
+!
+|[[File:KR Gun Gale Ranger Icon.png|175px]]
+|[[File:Darkmatterrangernew.png|175px]]
+|[[File:Frostrangernew.png|175px]]
+|[[File:Eclipserangernew.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Gun Gale}}
+|{{Color|Premium|Dark Matter}}
+|{{Color|Frost|Frost}}
+|{{Color|Eclipse|Eclipse}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Event}}
+|-
+!Cost
+|{{Robux|560}}
+|{{Robux|120}}
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Deluxe Crate]]
+|[[Premium Crate]]
+|[[Frost Crate]]
+|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
+|-
+!
+|[[File:Classicrangernew.png|175px]]
+|[[File:PumpkinRanger.png|175px]]
+|[[File:PhantomRangerSkin.png|175px]]
+|[[File:BeastSlayerRangerSkin.PNG|175px]]
+|-
+!Skin
+|{{Color|Premium|Classic}}
+|{{Color|Halloween|Pumpkin}}
+|{{Color|Phantom|Phantom}}
+|{{Color|Krampus|Beast Slayer}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Rare}}
+|{{Color|Event}}
+|-
+!Cost
+|{{Robux|120}}
+|{{Coins|5,000}}
+|{{Robux|349}}
+|N/A
+|-
+!Obtained From
+|[[Premium Crate]]
+|[[Halloween Crate]]
+|[[Phantom Crate]]
+|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
+|-
+!
+|[[File:PropellarsRangerIcon.png|175px]]
+|[[File:Badlands Ranger.png|175px]]
+|[[File:SteampunkRangerIcon.png|175px]]
+|[[File:5oulsRangerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|ContentCreator|Propellars}}
+|{{Color|Mission|Badlands}}
+|{{Color|Premium|Steampunk}}
+|{{Color|ContentCreator|5ouls}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|{{Coins|4,500}}
+|N/A
+|{{Robux|105}}
+|{{Coins|3,000}}
+|-
+!Obtained From
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|''A Mysterious Drifter'' [[Mission Quests|Mission Quest]]
+|[[Premium Crate]]
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|-
+!
+|[[File:FrankensteinRangerIconIG.png|175px]]
+|[[File:MechaDuckyRangerIconIG.png|175px]]
+|[[File:SharkRangerIconIG.png|175px]]
+|[[File:EskimoRangerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Hexscape|Frankenstein}}
+|{{Color|DuckyRevenge|Mecha Ducky}}
+|{{Color|Surf|Shark}}
+|{{Color|FinalAct|Indigenous}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Premium Battle Pass]]
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Regular Battle Pass]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
+|-
+!
+|[[File:BeachRangerIconIG.png|175px]]
+|[[File:AxolotlRangerIconIG.png|175px]]
+|[[File:AquaticRangerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Beach}}
+|{{Color|Beach|Axolotl}}
+|{{Color|Beach|Aquatic}}
+|-
+!Rarity
+|{{Color|Common}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|{{Coins|4,500}}
+|{{Coins|5,250}}
+|{{Coins|6,500}}
+|-
+!Obtained From
+|[[Beach Crate]]
+|[[Beach Crate]]
+|[[Beach Crate]]
+|}
+
+==Strategy==
+*The '''Ranger''' is a cliff tower. Its viability changes depending on the map's available cliffs and their locations.
+**It is important to know a map's layout before using the '''Ranger'''. Some maps, like [[Abandoned City]], have many cliff spots in good locations, while others, like [[Dead Ahead]] have very few of them.
+*Being a cliff tower, the '''Ranger''' is immune to almost all stuns. It is recommended to deal with enemies like the [[Fallen Honor Guard]] and especially bosses like the [[Fallen King]] and [[Molten Warlord]].
+**The '''Ranger''' is only not immune to some stuns from event enemies, like the [[Jack-o-Bot]].
+**However, it is not immune to debuffs.
+*The '''Ranger''' is a very expensive tower to use. As such, the '''Ranger''' should not be used as an early game option, due to its high cost and weakness against hordes. It should be reserved for mid-to-late game.
+**Economy towers like the [[Farm]] or [[Golden Cowboy]] are highly recommended to afford the '''Ranger's''' expensive upgrades.
+**The [[DJ Booth]] provides upgrade discounts, effectively making it cheaper to upgrade the '''Ranger'''.
+*The '''Ranger''' grants a range boost to nearby towers at higher levels, so it is recommended to place towers near the '''Ranger'''.
+**The [[Range Buff]] stacks with the [[DJ Booth]]'s.
+**Other expensive towers like the [[Turret]] may not be as viable as you may not have enough cash to use both towers in tandem, though this depends on the gamemode and how you use your [[Farm]]s and/or [[Cowboy]]s.
+**When a support tower, like the [[DJ Booth]] or [[Commander]], is affected by this [[Range Buff]], the towers in the buffed range will keep their buff even when the [[Range Buff]] ends, making it quite close to a permanent buff, which is especially useful for the [[DJ Booth]].
+***If a support tower is upgraded after the [[Range Buff]] ends, towers in the buffed range will not receive the stronger buff until the [[Range Buff]] is applied to the support tower again.
+***Selling a support tower will remove the buffs from towers in the buffed range, even if the [[Range Buff]] is not active.
+***For the [[Commander]], the ''Call to Arms'' ability only affects towers in the buffed range while the [[Range Buff]] is active. If it not active, the [[Firerate Buff]] will not be applied to them, only making the passive [[Firerate Buff]] active.
+*The '''Ranger's''' slow firerate makes it struggle against some fast enemies and especially hordes.
+**Towers with a fast firerate or towers that can damage multiple enemies at once should be used. The [[Commander]] should also be used to help boost the '''Ranger's''' firerate.
+**The '''Ranger's''' firerate is heavily increased at Level 4, making it arguably even worse against hordes or fast enemies. Be wary of this when upgrading '''Rangers'''.
+***The added splash damage somewhat makes up for this against enemies such as [[Breaker]]s.
+*The '''Ranger''' has splash damage at Level 4, making it somewhat useful against hordes of enemies.
+*The '''Ranger''' should be set to ''Strongest''  in most scenarios to ensure it does its maximum damage.
+**Beware of other weaker, but faster enemies that may slip through. Keeping some '''Rangers''' on ''First'', or using other towers, is highly recommended.
+*The '''Ranger''' has flying detection and lead detection, making it useful against enemies such as the [[Lead Balloon]].
+*The '''Ranger''' does not have hidden detection, meaning it is ineffective against enemies like the [[Shadow Boss]] and [[Soul Boss]]. While the splash damage from Level 4 '''Rangers''' can indirectly damage them, it is usually too weak to have a major effect on them, requiring multiple '''Rangers''' as well as detectable enemies nearby.
+**A Level 4+ [[Ace Pilot]] can grant it permanent hidden detection, but it must be close to do so.
+**The [[Medic]] can be used to give it hidden detection and a [[Damage Buff]] with its ''Ubercharge'' ability.
+**The [[UAV]] can grant it hidden detection plus extra range, but only for 30 seconds and with a limit of 4 uses.
+**The [[Firework Technician]] can grant it temporary hidden detection as well as a firework attack, dealing extra damage.
+**The [[Spotlight Tech]] can reveal [[Hidden (Attribute)|Hidden]] enemies for the '''Ranger''' to shoot at.
+*Be incredibly wary of enemies that can slow the '''Ranger's''' firerate, such as [[Patient Zero]], as the firerate will be slowed drastically.
+
+==Trivia==
+*The '''Outlaw's''' purple laser used to make a unique zapping sound when fired.
+*The '''Ranger''' currently has the highest total damage per shot in the game.
+*The '''Ranger''' was loosely based on the [[w:c:roblox-tower-battles:Railgunner|Railgunner]] from ''Tower Battles''.
+*The '''Ranger''' currently has the longest range of any publicly available tower in the game.
+*The '''Ranger''' currently has the highest firerate of any tower in the game.
+*When the '''Ranger''' was added, the game thumbnail called it the ''Space Outlaw'' even though it was only called '''Outlaw''' in the game.
+*Originally, the '''Ranger''' was meant to give hidden detection at the beginning of the wave. However, this was changed to a [[Range Buff]] when the [[v1.9.0|Lunar Overture Update]] rework released.
+**It is unknown if the hidden detection was only given to the '''Ranger''' itself or given to towers in its range like the [[Ace Pilot]].
+
+==Update History==
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{Scroll|text=
+*'''29 June 2019''' - [[BETA v1.3|BETA v1.3.0]]
+**'''Outlaw''' added.
+*'''29 June 2019''' - [[BETA v1.3|BETA v1.3.0a]]
+**'''Statistical changes:
+***'''Level 1'''
+****Cost increased from {{Money|400}} to {{Money|550}}.
+***'''Level 2'''
+****Cost increased from {{Money|950}} to {{Money|1,500}}.
+***'''Level 3'''
+****Cost increased from {{Money|4,500}} to {{Money|7,500}}.
+*'''10 July 2019''' - [[BETA v1.4|BETA v1.4.0]]
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|1,250}} to {{Money|2,000}}.
+****Damage increased from 4 to 10.
+*****{{Bug}} These changes are not shown in the store.
+***'''Level 1'''
+****Damage increased from +1 to +5.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|2.05 > 6.05|+4}} to {{Tooltip|2.05 > 4.05|+2}}.
+***'''Level 4'''
+****Damage increased from +25 to +35.
+****Splash damage increased from +37 to +47.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|6.05 > 3.55|-2.5}} to {{Tooltip|4.05 > 3.05|-1}}.
+****Damage increased from -10 to +25.
+****Splash damage increased from -5 to +13.
+*'''2 August 2019''' - [[BETA v1.7|BETA v1.7.0]]
+**Statistical changes:
+***'''Level 2'''
+****Damage increased from +5 to +15.
+***'''Level 4'''
+****Splash damage increased from +47 to +52.
+*****{{Bugfix}} Store description is now correct.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Upgrade names added.
+**Statistical changes:
+***'''Level 2'''
+****Cost increased from {{Money|1,500}} to {{Money|2,500}}.
+****Damage increased from +15 to +30.
+***'''Level 3'''
+****Cost increased from {{Money|7,500}} to {{Money|8,500}}.
+****Damage increased from +40 to +80.
+***'''Level 4'''
+****Cost increased from {{Money|10,000}} to {{Money|10,500}}.
+****Damage increased from +35 to +100.
+****Impact removed (explosion range decreased from 4 to 0).
+***'''Level 5'''
+****Damage increased from +25 to +65.
+**New skin: {{Color|Premium|Railgunner}}
+*'''8 December 2019''' - [[Release v1.4|Release v1.4.1]]
+**New skin: {{Color|Premium|Wraith}}
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**Placement limit of ten added.
+*'''1 January 2020''' - [[Release v1.5|Release v1.5.1]]
+**Statistical changes:
+***'''Base'''
+****Range increased from 15 to 20.
+***'''Level 1'''
+****Range increased from +3 to +5.
+***'''Level 3'''
+****Range increased from +2 to +5.
+***'''Level 5'''
+****Range increased from +5 to +6.
+*****{{Bug}} This was not shown in the upgrade description.
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**New skins: {{Color|Basic|Blue}}, {{Color|Basic|Green}}, {{Color|Basic|Black Ops}}
+**{{Bug}} Placement limit is higher than intended by 1.
+*'''13 January 2020''' - [[Release v1.6|Release v1.6.0a]]
+**{{Bugfix}} Placement limit is now the correct value.
+*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
+**New skin: {{Color|Premium|Partisan}}
+*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
+**New skin: {{Color|Valentine|Valentines}}
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**New SFX.
+*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
+**Statistical changes:
+***'''Level 2'''
+****Cost increased from {{Money|2,500}} to {{Money|3,500}}.
+***'''Level 3'''
+****Cost decreased from {{Money|8,500}} to {{Money|7,500}}.
+*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
+**New skin: {{Color|Bunny|Bunny}}
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Renamed from ''Outlaw'' to ''Ranger''.
+**Unlock cost increased from {{Coins|4,250}} to {{Coins|8,500}}.
+**{{Level|15}} requirement added.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 10 to 40.
+****Firerate increased from 2.05 to 5.03.
+****Cost increased from {{Money|2,000}} to {{Money|3,500}}.
+****Hidden detection removed.
+****Flying detection added.
+***'''Level 1'''
+****Damage decreased from +5 to +0.
+****Renamed from ''Gloves'' to ''Improved Handling''.
+***'''Level 2'''
+****Cost decreased from {{Money|3,500}} to {{Money|1,500}}.
+****Damage decreased from +30 to +25.
+****Renamed from ''Upgraded Eye Tech'' to ''Steady Aiming''.
+***'''Level 3'''
+****Cost decreased from {{Money|7,500}} to {{Money|3,500}}.
+****Firerate changed from {{Tooltip|2.05 > 4.05|+2}} to 5.03.
+****Damage decreased from +80 to +60.
+****Renamed from ''Bigger Gun'' to ''Railgunner''.
+****Lead detection added.
+***'''Level 4'''
+****Damage decreased from +100 to +80.
+****Firerate changed from 4.05 to {{Tooltip|5.03 > 4.03|-1}}.
+****Renamed from ''Star Lord'' to ''Trained Assassin''.
+***'''Level 5'''
+****Range decreased from +6 to +5.
+****Damage increased from +65 to +95.
+****Firerate changed from {{Tooltip|4.05 > 3.05|-1}} to {{Tooltip|4.03 > 3.53|-0.5}}.
+****Renamed from ''Even Bigger Gun'' to ''Cyber Assassin''.
+**{{Bug}} Level 3 upgrade description does not mention that the '''Ranger''' gains lead detection.
+**New skins: {{Color|Deluxe|Gun Gale}}, {{Color|Premium|Dark Matter}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**New Skin: {{Color|Frost|Frost}}
+*'''4 December 2021''' - [[v1.0.0]]
+**New skin: {{Color|Eclipse|Eclipse}}
+*'''12 March 2022''' - [[v1.1.0]]
+**'''Ranger''' is now immune to all stuns.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 5.03 to 5.025.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|5.03 > 4.03|-0.1}} to {{Tooltip|5.025 > 4.025|-0.1}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|4.03 > 3.53|-0.5}} to {{Tooltip|4.025 > 3.525|-0.5}}.
+*'''17 April 2022''' - [[v1.2.0]]
+**'''Ranger''' can no longer be targeted by most enemy abilities.
+*'''21 December 2022''' - [[v1.6.0]]
+**Level requirement removed.
+**Skin rarity added to all skins.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 40 to 60.
+***'''Level 1'''
+****Firerate changed from 5.025 to {{Tooltip|5.025 > 4.525|-0.5}}.
+***'''Level 2'''
+****Cost increased from {{Money|1,500}} to {{Money|1,800}}.
+****Damage increased from +25 to +40.
+***'''Level 3'''
+****Damage increased from +60 to +65.
+***'''Level 4'''
+****Cost increased from {{Money|10,500}} to {{Money|11,500}}.
+****Damage decreased from +80 to +65.
+****Firerate changed from {{Tooltip|5.025 > 4.025|-1}} to {{Tooltip|4.525 > 4.025|-0.5}}.
+***'''Level 5'''
+****Cost decreased from {{Money|25,000}} to {{Money|22,500}}.
+****Damage increased from +90 to +220.
+***{{Color|Premium|Dark Matter}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
+**{{Color|Premium|Partisan}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
+*'''21 March 2023''' - [[v1.6.3]]e
+**{{Bugfix}} Level 3 upgrade description now mentions that the '''Ranger''' gains lead detection.
+*'''28 October 2023''' - [[v1.9.0]]
+**Placement limit decreased from 10 to 6.
+**Statistical changes:
+***'''Base'''
+****Cost increased from {{Money|3,500}} to {{Money|5,000}}.
+****Damage increased from 60 to 80.
+****Firerate decreased from 5.025 to 4.525.
+****Range increased from 20 to 50.
+****Lead detection added (moved from Level 3).
+***'''Level 1'''
+****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.525 > 3.525|-1}}.
+****Range decreased from +5 to +0.
+****Name changed from ''Improved Handling'' to ''Faster Reloading''.
+****Cost increased from {{Money|550}} to {{Money|1,500}}.
+***'''Level 2'''
+****Cost increased from {{Money|1,800}} to {{Money|4,500}}.
+****Damage increased from +40 to +60.
+****Range decreased from +5 to +0.
+****Now grants a 15% [[Range Buff]] to all towers in its 12 buff range for 20 seconds.
+*****{{Bug}} Information on this statistical change is repeat at Level 3.
+****Name changed from ''Steady Aiming'' to ''Intelligence Radio''.
+***'''Level 3'''
+****Cost increased from {{Money|3,500}} to {{Money|17,000}}.
+****Damage increased from +65 to +160.
+****Range decreased from +5 to +0.
+****Firerate changed from 4.525 to {{Tooltip|3.525 > 3.275|-0.25}}.
+****Name changed from ''Railgunner'' to ''Trained Outlaw''.
+***'''Level 4'''
+****Cost increased from {{Money|11,500}} to {{Money|35,000}}.
+****Damage increased from +65 to +825.
+****Firerate changed from {{Tooltip|4.525 > 4.025|-0.25}} to {{Tooltip|3.275 > 7.025|+3.75}}.
+****Now deals additional 125 splash damage to at max 3 enemies with 5 explosion range. Damage is always 125, regardless of how far away the enemy is. 
+****Name changed from ''Trained Assasin'' to ''Experimental Weapon of Destruction''.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: Cyber Assasin
+*****Cost: {{Money|22,500}}
+*****+5 Range
+*****+220 Damage
+*****{{Tooltip|4.025 > 3.525|-0.25}} Firerate
+**New skin: {{Color|Premium|Classic}}
+**{{Bug}} '''Ranger''' stops firing at Level 4.
+***This was fixed later at the same day.
+**{{Bug}} {{Color|Deluxe|Railgunner}} is removed from the game.
+*'''31 October 2023''' - [[v1.9.0]]f
+**{{Bugfix}} {{Color|Deluxe|Railgunner}} is now in the game again.
+*'''31 October 2023''' - [[v1.9.0]]g
+**New skin: {{Color|Halloween|Pumpkin}}
+*'''21 December 2023''' - [[v1.11.0]]
+**Unlock cost increased from {{Coins|8,500}} to {{Coins|12,000}}.
+**New skins: {{Color|Phantom|Phantom}}, {{Color|Krampus|Beast Slayer}}
+*'''28 January 2024''' - [[v1.12.0]]
+**New skin: {{Color|ContentCreator|Propellars}}
+**{{Bug}} {{Color|Krampus|Beast Slayer}} is removed from the game.
+*'''28 January 2024''' - [[v1.12.0]]a
+**{{Bugfix}} {{Color|Krampus|Beast Slayer}} re-added.
+*'''5 April 2024''' - [[v1.18.0]]
+**{{Color|Mission|Railgunner}} skin rarity changed from {{Color|Uncommon}} to {{Color|Legendary}}.
+*'''10 May 2024''' - [[v1.21.0]]
+**{{Bug}} '''Ranger''' can no longer damage Lead enemies with its main attack.
+*'''11 May 2024''' - [[v1.21.0|v1.21.5]]
+**{{Bugfix}} '''Ranger''' can now damage Lead enemies with its main attack.
+*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
+**Splash damage no longer bypasses defense and it now has damage drop-off.
+**{{Bug}} '''Ranger''' does not attack enemies at Level 4.
+*'''3 June 2024''' - [[v1.23.0|v1.23.6]]
+**{{Bugfix}} '''Ranger''' now attacks enemies at Level 4.
+*'''7 June 2024''' - [[v1.24.0]]
+**New skin: {{Color|Premium|Steampunk}}
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s, but explosion damage still is.
+*'''19 July 2024''' - [[v1.26.0]]
+**New skin: {{Color|ContentCreator|5ouls}}
+*'''2 August 2024''' - [[v1.27.0]]
+**Placement limit increased from 6 to 7.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|5,000}} to {{Money|4,500}}.
+***'''Level 3'''
+****Cost decreased from {{Money|17,000}} to {{Money|13,500}}.
+***'''Level 4'''
+****Cost decreased from {{Money|35,000}} to {{Money|27,500}}.
+****Splash damage increased from 125 to 200.
+****Max hits removed from the explosion, now can hit an infinite amount of enemies.
+**{{Bugfix}} Regular damage is now affected by [[Damage Buff]]s.
+*'''11 October 2024''' - [[v1.35.0|v1.35.1a]]
+**{{Bug}} Statistical changes made in [[TDS Experimental]] have been moved over to the main game.
+*'''11 October 2024''' - [[v1.35.0|v1.35.1b]]
+**{{Bugfix}} Now uses correct statistics during matches, though not in the lobby.
+*'''11 October 2024''' - [[v1.35.0|v1.35.1c]]
+**{{Bugfix}} Now uses correct statistics in the lobby.
+*'''16 October 2024''' - [[v1.36.0]]
+**Statistical changes:
+***'''Level 4'''
+****Cost increased from {{Money|27,500}} to {{Money|30,000}}.
+****Damage decreased from +825 to +750.
+****Splash damage decreased from 200 to 150.
+*'''23 October 2024''' - [[v1.37.0]]
+**{{Bug}} '''Ranger''' has received the following statistical changes:
+***'''Level 3'''
+****Cost increased from {{Money|13,500}} to {{Money|14,750}}.
+****Damage increased from +160 to +200.
+****Firerate changed from {{Tooltip|3.525 > 3.275|-0.25}} to 3.525.
+***'''Level 4'''
+****Damage decreased from +750 to +710.
+****Firerate changed from {{Tooltip|3.275 > 7.025|+3.75}} to {{Tooltip|3.525 > 7.025|+3.5}}.
+**New skin: {{Color|Hexscape|Frankenstein}}
+*'''25 October 2024''' - [[v1.38.0]]
+**{{Bugfix}} Reverted all the incorrect changes made, except for Level 3 firerate.
+*'''30 October 2024''' - [[v1.39.0]]
+**{{Bugfix}} Reverted the incorrect Level 3 firerate change.
+*'''15 January 2025''' - [[v1.49.0]]
+**Splash damage now bypasses defense.
+*'''9 April 2025''' - [[v1.60.0]]
+**Defense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Mecha Ducky}}
+*'''11 June 2025''' - [[v1.67.0]]
+**Corrected "allies" being misspelt as "alies" in the upgrade description.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Shark}}
+**{{Bug}} {{Color|Surf|Shark}} skin is not affected by certain debuffs.
+*'''23 July 2025''' - [[v1.71.0]]
+**Placement limit increased from 7 to 8 in [[PVP]] mode.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|4,500}} to {{Money|3,000}}.
+****Damage decreased from 80 to 40.
+****Firerate decreased from 4.525 to 3.025.
+***'''Level 1'''
+****Cost decreased from {{Money|1,500}} to {{Money|650}}.
+****Firerate changed from {{Tooltip|4.525 > 3.525|-1}} to {{Tooltip|3.025 > 2.525|-0.5}}.
+***'''Level 2'''
+****Cost decreased from {{Money|4,500}} to {{Money|3,250}}.
+****Damage decreased from +60 to +35.
+****[[Range Buff]] time increased from 20 to 120.
+***'''Level 3'''
+****Cost decreased from {{Money|13,500}} to {{Money|10,000}}.
+****Damage decreased from +160 to +75.
+****Firerate changed from {{Tooltip|3.525 > 3.275|-0.25}} to {{Tooltip|2.525 > 2.025|-0.5}}.
+***'''Level 4'''
+****Cost decreased from {{Money|30,000}} to {{Money|20,000}}.
+****Damage decreased from +750 to +125.
+****Splash damage decreased from 150 to 25.
+****Firerate changed {{Tooltip|3.275 > 7.025|+3.75}} to 2.025.
+*'''6 August 2025''' - [[v1.72.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|3,000}} to {{Money|2,000}}.
+***'''Level 2'''
+****Cost decreased from {{Money|3,250}} to {{Money|2,400}}.
+***'''Level 3'''
+****Cost decreased from {{Money|10,000}} to {{Money|8,500}}.
+***'''Level 4'''
+****Cost decreased from {{Money|20,000}} to {{Money|17,000}}.
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skin: {{Color|FinalAct|Eskimo}}
+*'''20 December 2025''' - [[v1.83.0|v1.83.1]]
+**{{Color|FinalAct|Eskimo}} renamed to {{Color|FinalAct|Indigenous}}.
+***{{Bug}} Still uses the previous name on mobile.
+*'''28 January 2026''' - [[v1.84.0]]
+**Description changed.
+**Statistical changes (Regular):
+***'''Base'''
+****Damage increased from 80 to 100.
+****Firerate increased from 4.525 to 6.025.
+****Range increased from 50 to 70.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|4.525 > 3.525|-1}} to {{Tooltip|6.025 > 4.775|-1.25}}.
+***'''Level 2'''
+****Cost increased from {{Money|4,500}} to {{Money|5,500}}.
+****Damage increased from +60 to +85.
+****[[Range Buff]] decreased from 15% to 10%.
+***'''Level 3'''
+****Cost increased from {{Money|13,500}} to {{Money|15,750}}.
+****Damage increased from +160 to +245.
+****Firerate changed from {{Tooltip|3.525 > 3.275|-0.25}} to {{Tooltip|4.775 > 4.525|-0.25}}.
+***'''Level 4'''
+****Cost decreased from {{Money|30,000}} to {{Money|25,000}}.
+****Damage decreased from +750 to +445.
+****Firerate changed from {{Tooltip|3.525 > 7.025|-+3.5}} to {{Tooltip|4.525 > 8.525|+4}}.
+****Splash damage increased from 150 to 375.
+****Max hits of 1 added.
+*****{{Bug}} The limit does not work, the explosion can still hit an infinite number of enemies.
+*'''11 February 2026''' - [[v1.85.0]]
+**Statistical changes (Regular):
+***'''Level 4'''
+****Firerate changed from {{Tooltip|4.525 > 8.525|+4}} to {{Tooltip|4.525 > 8.025|+3.5}}
+****Max hits increased from 1 to 3.
+*****{{Bug}} Despite this change, the limit still does not work, meaning it can actually hit an infinite number of enemies.
+*'''11 March 2026''' - [[v1.86.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****Lead detection removed, moved to Level 2.
+***'''Level 2'''
+****Lead detection added.
+*'''5 June 2026''' - [[v2.0.0]]
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes (Regular):
+***'''Base'''
+****Firerate decreased from 6.025 to 6.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|6.025 > 4.775|-1.25}} to {{Tooltip|6 > 4.75|-1.25}}.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|4.775 > 4.525|-0.25}} to {{Tooltip|4.75 > 4.5|-0.25}}.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|4.525 > 8.025|+3.5}} to {{Tooltip|4.5 > 8|+3.5}}.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Firerate decreased from 3.025 to 3.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|3.025 > 2.525|-0.5}} to {{Tooltip|3 > 2.5|-0.5}}.
+***'''Level 2'''
+****Damage decreased from +35 to +34.
+***'''Level 3'''
+****Damage decreased from +75 to +74.
+****Firerate changed from {{Tooltip|2.525 > 2.025|-0.5}} to {{Tooltip|2.5 > 2|-0.5}}.
+***'''Level 4'''
+****Damage increased from +125 to +126.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skins: {{Color|Beach}}, {{Color|Beach|Axolotl}}, {{Color|Beach|Aquatic}}
+*'''31 July 2026''' - [[v2.4.0]]
+**{{Bugfix}} Max hits now works.
+}}
+
+==Notes==
+<references/>
+
+
+
+{{TowerNavBox}}
+[[Category:Cliff]]

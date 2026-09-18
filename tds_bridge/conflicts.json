@@ -1,0 +1,36 @@
+{
+  "priority_rule": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  },
+  "potential_conflicts": [
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "tick",
+      "upgrade_claim": 8.0,
+      "statistics_table_claim": 375.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "4.5 > 8 Firerate"
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "field": "damage",
+      "upgrade_implied": 274.0,
+      "statistics_table_claim": 272.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+126 Damage"
+    }
+  ],
+  "notes": [
+    "Different upgrade levels can legitimately differ.",
+    "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
+  ]
+}
