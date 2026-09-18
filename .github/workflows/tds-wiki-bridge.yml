@@ -10,7 +10,7 @@ on:
       - ".github/workflows/tds-wiki-bridge.yml"
 
 concurrency:
-  group: tds-wiki-bridge-fetch
+  group: tds-wiki-bridge-fetch-v2
   cancel-in-progress: true
 
 permissions:
