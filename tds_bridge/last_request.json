@@ -22,6 +22,9 @@
   ],
   "strict_must_include": false,
   "include_media_candidates": true,
-  "max_runtime_seconds": 900,
-  "max_consecutive_errors": 3
+  "max_runtime_seconds": 210,
+  "max_consecutive_errors": 3,
+  "max_consecutive_empty_pages": 3,
+  "verify_top": 30,
+  "minimum_required_groups": 3
 }

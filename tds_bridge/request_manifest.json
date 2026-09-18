@@ -1,0 +1,38 @@
+{
+  "request": {
+    "mode": "discussion_deep_search",
+    "query": "solo Fallen loadout with DJ Booth",
+    "pages": 2000,
+    "per_page": 100,
+    "must_include": [
+      "solo",
+      "fallen",
+      "loadout",
+      "dj"
+    ],
+    "prefer_include": [
+      "dj booth",
+      "farm",
+      "accelerator",
+      "turret",
+      "golden scout",
+      "golden cowboy",
+      "ranger",
+      "gladiator",
+      "golden crook boss"
+    ],
+    "strict_must_include": false,
+    "include_media_candidates": true,
+    "max_runtime_seconds": 210,
+    "max_consecutive_errors": 3,
+    "max_consecutive_empty_pages": 3,
+    "verify_top": 30,
+    "minimum_required_groups": 3
+  },
+  "request_fingerprint": "8af10c2ba186e43f10ef05394e912b0eeaef5a50ba3b4fe7637570a5b06b2d39",
+  "mode": "discussion_deep_search",
+  "query": "solo Fallen loadout with DJ Booth",
+  "started_at": "2026-09-18T13:32:01.296180+00:00",
+  "github_run_id": "35350758047",
+  "source_commit": "6d1fb9d78bd27d96616a2f148caaec9871c8fc63"
+}
