@@ -1,32 +1,16 @@
 {
   "mode": "verify",
-  "requested": "Fallen Mode",
-  "title": "Fallen Mode",
-  "pageid": 34091,
-  "latest_revid": 639828,
-  "latest_timestamp": "2026-09-03T17:18:15Z",
-  "source_url": "https://tds.fandom.com/wiki/Fallen_Mode",
-  "classification": {
-    "is_tower_page": false,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  },
+  "status": "needs_selection",
+  "requested": "DJ Booth; Crook Boss; Farm; Accelerator; Engineer; Fallen Mode; Hardcore Mode",
   "_bridge_run": {
-    "request_fingerprint": "973623f5ff57f9ce74c0956b021c04618c7deca72d84945035bd71febce9d2a6",
+    "request_fingerprint": "5632c7863386ab8b4f97b478bc846b884d3ea9cfc3ea5372ddfb7f95942d4e21",
     "mode": "verify",
-    "query": "Fallen Mode",
-    "started_at": "2026-09-18T14:51:34.749783+00:00",
-    "github_run_id": "35358834137",
-    "source_commit": "01697aba45a54a9150198d9243e557ab4a1d0fbb",
-    "status": "completed",
-    "finished_at": "2026-09-18T14:51:39.394251+00:00",
-    "return_code": 0
+    "query": "DJ Booth; Crook Boss; Farm; Accelerator; Engineer; Fallen Mode; Hardcore Mode",
+    "started_at": "2026-09-19T16:58:07.936718+00:00",
+    "github_run_id": "35456594238",
+    "source_commit": "0a60bdefc61c2a5b727a5a849782f9295aed8502",
+    "status": "needs_selection",
+    "finished_at": "2026-09-19T16:58:09.605727+00:00",
+    "return_code": 2
   }
 }
