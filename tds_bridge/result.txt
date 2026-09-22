@@ -1,795 +1,656 @@
-{{Tabs|Regular = Pyromancer|Perk = Golden Pyromancer}}
-{{for|[[Cryomancer]]|[[Null Pyromancer]]}}
+{{Tabs}}
+{{For|[[Null Electroshocker]]|[[Shock]]}}
 {{TowerInfobox
-|title = Pyromancer
-|image-static = DefaultPyromancerIcon.png
-|image-dynamic = PyromancerDynamic.png
-|unlockcost = {{Coins|1,250}}
-|basecost = {{Money|900}}
-|basesellingprice = {{Money|300}}
-|role = Offense
+|title = Electroshocker
+|image-static = DefaultElectroshockerIcon2.png
+|image-dynamic = ElectroshockerDynamic.png
+|unlockcost = {{Coins|2,500}}
+|basecost = {{Money|650}}
+|basesellingprice = {{Money|216}}
+|role = Defense
 |placement = Ground
-|basedamage = [[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage
-|damagetype = Pierce<br/>Fire
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.275
-|baserange = [[File:Range Icon.png|20px|Range]]9
-|hidden_detection = {{Attr|Hidden|Level 1+}}<ref>At Levels 0, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at this level.</ref>
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = N/A
-|pvp_basecost = {{Money|850}}
-|pvp_basesellingprice = {{Money|283}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]1 Burn Damage
-|pvp_damagetype = Pierce<br/>Fire
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.25
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]7
-|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}<ref>At Levels 0-1, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at these levels.</ref>
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = N/A
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]7
+|basedamage = [[File:Damage Icon.png|20px|Damage]]5
+|damagetype = Chain
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.35
+|baserange = [[File:Range Icon.png|20px|Range]]10<br/>[[File:ChainRange.png|20px|Chain Range]]10 (Chain Range)
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 0+}} 
+|flying_detection = N/A<ref>Through chaining, [[Flying]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>
 |immune = None
 |footprint = 1.5
-|tooltip-1 = A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.
+|tooltip-1 = An early game tower that unlocks the ability to stun multiple enemies with a chain of lightning at higher levels.
 |tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
 }}
-{{QuoteContainer|
-{{QuoteBox|Burn multiple enemies at once and chip away defense.|Store Description}}
-{{QuoteBox|Slow down hoards of zombies and slowly burn their health away.|Former Store Description}}
-}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|Zap! An early game tower that can stun enemies at higher levels.|Store Description}}
+|-|Version 2 =
+{{QuoteBox|Zap! Stun enemies and chain your effects!|Former Store Description}}
+|-|Version 3 =
+{{QuoteBox|Shoot a bolt of electricity that chains through nearby zombies.|Former Store Description}}
+</tabber>}}
 __TOC__
 ==Description==
-The '''Pyromancer''' is an intermediate [[Towers|tower]] that costs {{Coins|1,250}} to buy from the store. It is capable of dealing burn damage to enemies, damaging them over time even when not directly targeted. At higher levels, it can also melt defense by up to 50% of the listed value. For example, an enemy with 50% defense will have its defense decreased to 25%.
+The '''Electroshocker''' is an intermediate tower that has the capability to deal damage through chain reactions. At later levels, it also becomes a support tower as it gains the ability to stun enemies and reduce [[Defense]]. It can be purchased in the store for {{Coins|2,500}}. It can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 2 onward.
 
-If an enemy is set alight, the flames will be applied to the enemy until the burn time runs out. There are two types of damage the '''Pyromancer''' can apply. The first is ''Normal Damage'' which is applied every 0.258 when the enemy is colliding with the '''Pyromancer's''' flame. This flame can initially only hit one enemy, though it upgrades it increases to five. This can pierce through multiple enemies. The second is ''Burn Damage'' which is applied for every second an enemy is set alight. Both damage types can damage [[Lead (Attribute)|Lead]] enemies. The '''Pyromancer''' can also detect [[Hidden (Attribute)|Hidden]] enemies at Level 1+. The '''Pyromancer''' will attack any enemy, even if the enemy is on fire, as long as it can detect it, though it will prioritize enemies that are not on fire.
+The '''Electroshocker''' shoots a lightning-chain projectile from its ''Electro Gun'' that arcs toward and damages (where applicable) a set number of enemies, targeting the closest enemy to the original target. The '''Electroshocker''' can also stun enemies for 0.1 seconds at Level 0 which increase as with upgrades up to 0.25 seconds at Level 5. This completely stops the enemy. For enemies with [[Stun Immunity]], the enemy is not stunned but rather slowed down by 40%. [[Boss]]es are not slowed down as much as regular enemies, since the slowdown is 20% on them.
 
-The '''Pyromancer''' is best combined with other towers since it deals little damage by itself but can deal area of effect. Some enemies are immune to burn, like the [[Molten]]. This does not mean the '''Pyromancer''' cannot attack them; it only means that it cannot light them on fire.
+From Level 5, it can melt 20% [[Defense]] with every hit, though it can only remove up to 20% of the defense. For example, if an enemy has 50% defense, the defense can be decreased by up to 10%, down to 40%.
+
+The '''Electroshocker''' is considered an all-rounder tower, as its cheap cost allows it to be used for early-game dps, especially against [[Lead (Attribute)|Lead]] enemies, while its stunning capabilities, [[Defense]] reduction, chain damage and decent DPS, especially from Level 4+, make it extremely effective in the mid to late game.
+
+The '''Electroshocker''' has a placement limit of seven per player.
 
 ==Upgrades==
-{{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|325}}|Image = [[File:Common1Image.png|100px]]|Information = 0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{Upgrade|Level = Level 1|Upgrade Title = Higher Voltage|Cost = {{Money|275}}|Image = [[File:Common1Image.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++1 Damage [[File:Damage Icon.png|20px|Range]]
+
+1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|308}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Improved Handling|Cost = {{Money|950}}|Image = [[File:Electroshocker_Upgrade_2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++1 Range [[File:Range Icon.png|20px|Range]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-+1 Max Hits
-
-+0.25 Hitbox
-
-
-Sell Price changes to {{Money|408}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Fire Fighting|Cost = {{Money|1,000}}|Image = [[File:Pyro2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
-
 +1 Max Hits
 
 
-Sell Price changes to {{Money|741}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Fire Hazard|Cost = {{Money|2,000}}|Image = [[File:Pyro3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|625}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Faraday's Vest|Cost = {{Money|2,400}}|Image = [[File:Electroshocker_Upgrade_3.png|100px]]|Information = +12 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
-3 > 6 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]
-
-+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
-
-+2 Max Hits
-
-1% > 5% Defense Melting {{Defense|Defense Melting}}
++2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]
 
 
-Sell Price changes to {{Money|1,408}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Napalm Thrower|Cost = {{Money|3,777}}|Image = [[File:Pyro4.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|1,425}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Shock Force|Cost = {{Money|4,000}}|Image = [[File:Electroshocker_Upgrade_4.png|100px]]|Information = +40 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+5 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
+1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-6 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]
++2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]
 
-+0.25 Hitbox
++1 Max Hits
 
-5% > 10% Defense Melting {{Defense|Defense Melting}}
-
-
-Sell Price changes to {{Money|2,667}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Pyromaniac|Cost = {{Money|11,111}}|Image = [[File:Pyro5.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+15 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
-
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
-+3 Max Hits
-
-+0.75 Hitbox
+0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]
 
 
-Sell Price changes to {{Money|6,371}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|350}}|Image = [[File:Common1Image.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-1 > 0.75 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-+0.25 Hitbox
-
-
-Sell Price changes to {{Money|400}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Fire Fighting|Cost = {{Money|950}}|Image = [[File:Pyro2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
-
-+2 Max Hits
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-
-Sell Price changes to {{Money|716}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Fire Hazard|Cost = {{Money|1,500}}|Image = [[File:Pyro3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
-
-3 > 5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]
-
-+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
-
-0.75 > 0.5 Tick [[File:Cooldown Icon.png|20px|Tick]]
-
-Melts 5% defense every tick {{Defense|Defense Melting}}
-
-
-Sell Price changes to {{Money|1,216}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Napalm Thrower|Cost = {{Money|3,800}}|Image = [[File:Pyro4.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
-
-5 > 7.5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]
-
-+0.25 Hitbox
-
-
-Sell Price changes to {{Money|2,483}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Pyromaniac|Cost = {{Money|9,000}}|Image = [[File:Pyro5.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+4 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]
+Sell Price changes to {{Money|2,758}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Zeus Cannon|Cost = {{Money|10,000}}|Image = [[File:Electroshocker_Upgrade_5.png|100px]]|Information = +30 Damage [[File: Damage Icon.png|20px|Damage]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
-7.5 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]
-
 +3 Max Hits
 
-+0.75 Hitbox
+0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]
 
-Melts 10% defense every tick {{Defense|Defense Melting}}
+0% > 20% Defense Melting {{Defense|Defense Melting}}
 
 
-Sell Price changes to {{Money|5,483}}}}
-}}
+Sell Price changes to {{Money|6,091}}}}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|History]] page.''
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 
 {{neow|<nowiki>
 <var>
-$NDPS$ = Normal Damage / Firerate
-$BDPS$ = Burn Damage / Tick
-$DPS$ = $NDPS$ + $BDPS$
+$DPS$ = Damage / Firerate
 $MDPS$ = DPS * Max Hits
-$TED$ = Burn Damage * (Burn Time / Tick)
 $CE$ = Total Cost / DPS
+$MCE$ = Total Cost / Max DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 900; 325; 1000; 2000; 3777; 11111
-$PVP-COST$ = 850; 350; 950; 1500; 3800; 9000
+$COST$ = 650; 275; 950; 2400; 4000; 10000
 $FSE-DETECTION$ = 2; 0;
-$FSE-UPGRADE$ = Improved Handling; Fire Fighting; Fire Hazard; Napalm Thrower; Pyromaniac
-$FSE-UPGRADEICON$ = 3280081327; 3304823121; 3304823988; 3304824958; 3304825822
-$FSE-META$ = Intermediate; File:DefaultPyromancerIcon.png
-$TREF$ = <ref>Total Elapsed Damage is calculated as Burn Damage × (Burn Time ÷ Tick).</ref>
-$DREF$ = <ref>DPS assumes the flames only hit one enemy.<br/>Total DPS is calculated as Normal DPS + Burn DPS.<br/>Burn DPS is calculated as Burn Damage ÷ Tick.</ref>
+$FSE-UPGRADE$ = Higher Voltage; Improved Handling; Faraday's Vest; Shock Force; Zeus Cannon
+$FSE-UPGRADEICON$ = 3280081327; 4675534331; 4675521746; 4675504505; 4675504640
+$FSE-META$ = Intermediate; File:DefaultElectroshockerIcon2.png
+$DREF$ = <ref>Assumes that only one enemy is hit per shock.</ref>
+$MREF$ = <ref>Calculated as DPS × Max Hits.</ref>
 $R$ = $FNC-RECURSION$
 </var>
-<div class="mobile-tabber"><tabber>
-|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Normal Damage !! Burn Damage !! Firerate !! Range !! Defense Melt !! Burn Time !! Tick !! Max Hits !! Hitbox !! Total Elapsed Damage$TREF$ !! DPS$DREF$ !! Max DPS !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Chain Range !! Max Hits !! Shock Time !! Defense Melt !! DPS$DREF$ !! Max DPS$MREF$ !! Cost Efficiency !! Max Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 2 || 0.275 || 9 || 1% || 3 || 1 || 3 || 1.25 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || 1.35 || 10 || 10 || 2 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 1 || $R$ || $R$ || 1 || 2 || 0.175 || 11 || 1% || 3 || 1 || 4 || 1.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 6 || 1.15 || 12 || 10 || 2 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 2 || $R$ || $R$ || 2 || 2 || 0.175 || 11 || 1% || 3 || 1 || 5 || 1.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 8 || 1.15 || 13 || 10 || 3 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 3 || $R$ || $R$ || 3 || 5 || 0.175 || 12.5 || 5% || 6 || 1 || 7 || 1.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 20 || 1.15 || 13 || 12.5 || 3 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 4 || $R$ || $R$ || 5 || 10 || 0.175 || 12.5 || 10% || 10 || 1 || 7 || 1.75 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 60 || 2.5 || 13 || 12.5 || 4 || 0.15 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 5 || $R$ || $R$ || 9 || 25 || 0.175 || 14 || 10% || 10 || 1 || 10 || 2.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 90 || 2.5 || 15 || 15 || 6 || 0.25 || 20% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |}
 </div>
-|-|PVP =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Normal Damage !! Burn Damage !! Firerate !! Range !! Defense Melt !! Burn Time !! Tick !! Max Hits !! Hitbox !! Total Elapsed Damage$TREF$ !! DPS$DREF$ !! Max DPS !! Cost Efficiency
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 1 || 0.25 || 8 || N/A || 3 || 1 || 3 || 1.25 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 1 || 1 || 0.25 || 9 || N/A || 3 || 0.75 || 3 || 1.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 2 || 2 || 0.25 || 9 || N/A || 3 || 0.75 || 5 || 1.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 2 || 3 || 0.25 || 10 || 5% || 5 || 0.5 || 5 || 1.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 3 || 4 || 0.25 || 10 || 5% || 7.5 || 0.5 || 5 || 1.75 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 6 || 8 || 0.25 || 12 || 10% || 10 || 0.5 || 8 || 2.5 || $TED$ || $DPS$<ref>$NDPS$ Normal DPS + $BDPS$ Burn DPS</ref> || $MDPS$ || {{Money|$CE$}}
-|}
-</div>
-</tabber></div>
 </nowiki>}}
 
 ==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:DHHazmatPyroIcon.png|175px]]
-|[[File:DHGoldenPyroIcon.png|175px]]
-|[[File:DHScarecrowPyroIcon.png|175px]]
-|[[File:DHAcidicPyroIcon.png|175px]]
+|[[File:ValentinesElectroshockerIcon2.png|175px]]
+|[[File:BunnyElectroshockerIcon2.png|175px]]
+|[[File:HazmatElectroshockerIcon2.png|175px]]
+|[[File:GhostElectroshockerIcon2.png|175px]]
 |-
 !Skin
-|{{Color|Premium|Hazmat}}
-|{{Color|Golden}}<ref>Previously gave +25% Damage[[File:Damage_Buff.png|20px|Damage Buff]]<br/>and +50% Range[[File:Range Buff.png|20px|Range]]</ref>
-|{{Color|Halloween2019|Scarecrow}}
-|{{Color|Premium|Acidic}}
-|-
-!Rarity
-|{{Color|Common}}
-|{{Color|Golden}}
-|{{Color|Event}}
-|{{Color|Uncommon}}
-|-
-!Daily Store Cost
-|{{Robux|85}}
-|{{Coins|65,000}}
-|N/A
-|{{Robux|105}}
-|-
-!Obtained From
-|[[Premium Crate]]
-|[[Golden Crate]]
-|[[Halloween 2019 Crate]]
-|[[Premium Crate]]
-|-
-!
-|[[File:DHBluePyroIcon.png|175px]]
-|[[File:DHValentinesPyroIcon.png|175px]]
-|[[File:DHBunnyPyroIcon.png|175px]]
-|[[File:DHGhostPyroIcon.png|175px]]
-|-
-!Skin
-|{{Color|Basic|Blue}}
 |{{Color|Valentine|Valentines}}
 |{{Color|Bunny|Bunny}}
+|{{Color|Premium|Hazmat}}
 |{{Color|Spooky|Ghost}}
 |-
 !Rarity
+|{{Color|Event}}
+|{{Color|Event}}
 |{{Color|Common}}
-|{{Color|Event}}
-|{{Color|Event}}
 |{{Color|Event}}
 |-
 !Daily Store Cost
-|{{Coins|500}}
+|N/A
+|N/A
+|{{Robux|85}}
+|N/A
+|-
+!Obtained From
+|[[Lovestruck Crate]],<br/>[[Valentines Crate]]
+|[[Bunny Crate]]
+|[[Premium Crate]]
+|[[Spooky Crate]]
+|-
+!
+|[[File:DuckyElectroshockerIcon.png|175px]]
+|[[File:VigilanteElectroshockerIcon.png|175px]]
+|[[File:FrankensteinElectroshocker.png|175px]]
+|[[File:TeeVeeElectroshockerIcon.png|175px]]
+|-
+!Skin
+|{{Color|Ducky|Ducky}}
+|{{Color|Vigilante|Vigilante}}
+|{{Color|Lunar|Frankenstein}}
+|{{Color|Deluxe|TeeVee}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Coins|4,000}}
+|{{Coins|4,000}}
+|N/A
+|{{Robux|560}}
+|-
+!Obtained From
+|[[Ducky Crate]]
+|[[Vigilante Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|[[Deluxe Crate]]
+|-
+!
+|[[File:ClassicElectroIcon.png|175px]]
+|[[File:DarkFrostElectroshockerIconIG.png|175px]]
+|[[File:KorbloxElectroshockerIconIG.png|175px]]
+|[[File:JellyfishElectroshockerIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Classic}}
+|{{Color|OperationICE|Dark Frost}}
+|{{Color|Korblox|Korblox}}
+|{{Color|Surf|Jellyfish}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Robux|360}}
 |N/A
 |N/A
 |N/A
 |-
 !Obtained From
-|[[Basic Crate]]
-|[[Valentines Crate]]
-|[[Bunny Crate]]
-|[[Spooky Crate]]
+|[[Deluxe Crate]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
+|''Enemy of Redcliff'' [[Mission Quests|Mission Quest]]
+|[[Surf & Turf Battle Pass|Surf & Turf Regular Battle Pass]]
 |-
 !
-|[[File:DHFrostPyroIcon.png|175px]]
-|[[File:BarbecuePyroIcon.png|175px]]
-|[[File:MagePyroIcon.png|175px]]
-|[[File:VigilantePyromancerIcon.png|175px]]
+|[[File:BannedElectroshockerIconIG.png|175px]]
+|[[File:LovestrikerElectroshockerIconIG.png|175px]]
+|[[File:EasterElectroshockerIconIG.png|175px]]
+|[[File:BeachElectroshockerIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Frost|Frost}}
-|{{Color|EndOfSummer|Barbecue}}
-|{{Color|Premium|Mage}}
-|{{Color|Vigilante|Vigilante}}
+|{{Color|Banned|Banned}}
+|{{Color|Valentines2026|Lovestriker}}
+|{{Color|SpringFrenzy|Easter}}
+|{{Color|Beach}}
 |-
 !Rarity
-|{{Color|Event}}
-|{{Color|Event}}
-|{{Color|Legendary}}
+|{{Color|Exclusive}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
 |{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |N/A
-|{{Robux|190}}
-|{{Coins|4,000}}
+|N/A
+|{{Coins|5,250}}
 |-
 !Obtained From
-|[[Frost Crate]]
-|[[End of Summer Season#Season Pass|End of Summer Season]]
-|[[Premium Crate]]<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
-|[[Vigilante Crate]]
-|-
-!
-|[[File:DwarfPyromancer.png|175px]]
-|[[File:PlushiePyromancerIconIG.png|175px]]
-|[[File:PoolPartyPyromancerIconIG.png|175px]]
-|[[File:HallowPunkPyromancerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Krampus|Dwarf}}
-|{{Color|Other|Plushie}}
-|{{Color|Surf|Pool Party}}
-|{{Color|Null|Hallow Punk}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Pyromancer Plush]].</ref>
-|[[Surf & Turf Battle Pass|Surf & Turf Regular Battle Pass]]
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
-|-
-!
-|[[File:FireBreatherPyromancerIconIG.png|175px]]
-|[[File:ReindeerPyromancerIconIG.png|175px]]
-|[[File:ScubaOpsPyromancerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Showtime|Fire Breather}}
-|{{Color|FinalAct|Reindeer}}
-|{{Color|Scuba|Scuba Ops}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Coins|6,500}}
-|-
-!Obtained From
-|[[Showtime Crate]]
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
-|[[Scuba Ops Crate]]
+|[[Banned Crate]]
+|[[Valentines 2026 Crate]]
+|[[Spring Frenzy Battle Pass]]
+|[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Pyromancer''' is considered an all-round tower, due to it being useful at every point of the match.
-**It can be used to easily deal with weak enemy hordes like the [[Normal]], [[Heavy]] or [[Quick]] and at higher Levels, it can even take out high health enemies like the [[Normal Boss]] and [[Elite Abnormal]].
-*The '''Pyromancer''' will set every enemy in its range on fire. In what order the '''Pyromancer''' will choose its target is based on its targeting.
-**If there is only one detectable enemy in the '''Pyromancer's''' range, then it will always target that enemy. This also occurs if all current enemies in the '''Pyromancer's''' range is set on fire.
-*The '''Pyromancer''' can also be used to melt an enemy's [[Defense]] by half.
-**The '''Pyromancer''' can be used alongside the [[Freezer]]/[[Frost Blaster]], the [[Electroshocker]] and the [[Toxic Gunner]]/[[Jester]] to further melt the enemy's [[Defense]], though it cannot be used alongside its golden variant, the [[Golden Pyromancer]] or other burn defense melting sources.
-***As such, with these towers, an enemy's [[Defense]] can be removed entirely.
-****Do note that only the [[Toxic Gunner]] or [[Jester]] is required to remove defense entirely, though other defense melting towers can be used to speed up the process.
-****This can be useful since it can harshly decrease high [[Defense]] enemies like the [[Vindicator (Legacy)|Vindicator]], [[Reaver]], or [[Slow King]].
-*The '''Pyromancer''' is less effective against those with [[Burn Immunity]], such as the [[Molten]].
-**However, the '''Pyromancer''' can still deal non-burn damage to them.
-*Due to the '''Pyromancer's''' low range, the [[DJ Booth]] is recommended to increase this tower's range.
-*The '''Pyromancer''' is best placed near the beginning of the path. This lets it kill weaker enemies and decrease the defense of enemies before they reach your other towers.
-*The '''Pyromancer''' will not be able to set enemies on fire when placed on high grounds, like those on [[The Heights]].
-*Since the '''Pyromancer's''' burn damage does not stack if you have multiple '''Pyromancers''', you should generally only place down one '''Pyromancer''' instead of multiple.
-**The '''Pyromancer's''' burn damage also does not stack with burn damage dealt by other towers, like the [[Archer]]'s flame arrows.
-**You can also spread out multiple '''Pyromancer's''' along the path; this will make it so that enemies remain set alight continuously as they walk towards the exit.
+*The '''Electroshocker''' can be used to clear out hordes of weaker enemies, though it will do worse against enemies with higher health, such as the [[Fallen Squire]].
+*Use the '''Electroshocker''' in areas that enemies pass multiple times or at corners, as it gives the '''Electroshocker''' more opportunities to slow down and damage enemies.
+**Intersections such as in the map [[Crossroads]] are also viable options.
+*The '''Electroshocker''' can be very useful against fast enemies, such as the [[Fallen Rusher]], while also dealing a decent amount of damage against them, especially when they come in hordes.
+*While the maximum range is stated as 17, due to the chain range, this can be further extended.
+**Chain range works by shocking an enemy within another enemy's range, so long as they are within the chain range of that enemy. For example, an enemy outside the range of the '''Electroshocker''' may still be shocked if they are within the chain range of another enemy that was shocked. This only applies if the '''Electroshocker''' has not reached its maximum number of hits.
+**This can allow the '''Electroshocker''' to indirectly hit undetectable enemies, like [[Flying]] enemies indirectly, such as the [[Balloon]]. Paired with its ability to hit [[Lead (Attribute)|Lead]] enemies, it can deal with [[Lead Balloon]] pretty well, only if other detectable enemies are in range.
+**You can use the [[DJ Booth]] to increase the range of the '''Electroshocker'''.
+***However, the chain range is not increased.
+*Since the '''Electroshocker''' can stun any enemy without [[Stun Immunity]], it can be useful at any point in the game.
+**Unlike most other slowing towers, its stun is not affected by size, making it quite good against larger enemies, like the [[Fallen Tank]], or even major bosses, such as the [[Fallen King]].
+***For enemies with the  [[Stun Immunity]], there is no stun effect; rather, the enemy is slowed down by up to 40%. For [[Boss]] enemies, that effect is significantly weaker on them, though they are still slowed down by 20%.
+*The '''Electroshocker''' pairs well with towers that take time before they start attacking, such as the [[Minigunner]] and [[Accelerator]].
+**The '''Electroshocker''' also pairs well with towers with a slow firerate, like the [[Ranger]] and [[Mortar]], as it gives them more time to attack enemies with their slow firerate.
+*The '''Electroshocker''' has lead detection, allowing it to deal with lead enemies, like the [[Lead]]. In later Levels a cluster of [[Electroshocker]]s can deal with tankier late-game lead enemies like [[Deep Freeze]].
+*You can use the [[Commander]] to decrease the firerate of the '''Electroshocker''', which increases the number of times that it can stun enemies within its range.
 
 ==Trivia==
-*When the game was in Alpha, and for a while after BETA release, the '''Pyromancer's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "''sans flamey gun''".
-*Prior to the [[Overhaul v1.0|Overhaul Update]], there was a bug where any [[Range Buff]] applied to the '''Pyromancer''' (including {{Color|Platinum}} and {{Color|Golden}} skins) did not affect enemies in their extra range, only affecting them in their initial range.
-*The '''Pyromancer''' was inspired by the [https://wiki.teamfortress.com/wiki/Pyro Pyro] from ''Team Fortress 2''.
-**The '''Pyromancer''' was originally based on the [[w:c:roblox-tower-battles:Flamethrower|Flamethrower]] from ''Tower Battles''.
-*Prior to the [[Overhaul v1.0|Overhaul Update]], this tower used to slow down enemies.
-**After the [[Overhaul v1.0|Overhaul Update]], the '''Pyromancer''' sped up enemies that were on fire, though this has been removed.
-*In the [[Frost Invasion Event]], the '''Pyromancer''' dealt twice as much damage to enemies that spawned there.
-*The '''Pyromancer''' used to appear alongside the [[Scout]], [[Commander]], [[Sniper]] and [[Minigunner]] on the "Triumph" screen before the [[v1.8.0|Community Maps Update]].
-*The '''Pyromancer''' has one of the oldest firing sounds in the game, having kept it since 2020.
-*Despite having the "-mancer" suffix, the '''Pyromancer''' is not a mage.
-*The '''Pyromancer''' in the game has been shown and said to be a great cook multiple times.
+*The vest that the Level 3+ '''Electroshocker''' wears is the [[w:c:r2da:Faraday Vest|Faraday Vest]] from ''R2DA'', which in turn is named after the scientist [[wp:Michael Faraday|Michael Faraday]], who studied electricity.
+**The creator of this vest is BelowNatural, the creator of Tower Defense Simulator.
+*This tower may be very loosely based on the [[w:c:roblox-tower-battles:Plasma Trooper|Plasma Trooper]] and/or the [[w:c:roblox-tower-battles:Stunner|Stunner]] from ''Tower Battles''.
+*The Tesla Tower, originally used by the first versions of the '''Electroshocker''' was a nod to the [[wp:Wardenclyffe Tower|Wardenclyffe Tower]] in Shoreham, Long Island, New York, created by [[Wikipedia:Nikola Tesla|Nikola Tesla]].
+*The first Level 4 upgrade name, "MOAR POWER" could have been a reference to ''Bloons Tower Defense 6'' as there is an upgrade for the [[w:c:bloons:Boomerang Monkey (BTD6)|Boomerang Monkey]] called "M.O.A.R. Glaives". 
+**However, "M.O.A.R." actually stands for Multiple Object Advanced Ricochet in ''Bloons Tower Defense 6''.
+**It could also be a spoof on "more power".
+*The Level 5 upgrade name, "Zeus Cannon" is a reference to an upgraded [[w:c:callofduty:Thundergun|Thundergun]] from the ''Call of Duty'' franchise, specifically the Zombies mode.
+*The '''Electroshocker''' used to be an advanced tower prior to the [[v1.84.0]] update.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-
 {{Scroll|text=
-*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
-**'''Pyromancer''' added.
-*'''2 August 2019''' - [[BETA v1.7|BETA v1.7.0]]
-**Slowness now wears off exponentially.
-**Statistical changes:
-***'''Level 2'''
-****Burn slowness changed from 30% to 30% > 50%.
-***'''Level 4'''
-****Burn slowness changed from 30% to 50% > 65%.
-*'''5 August 2019''' - [[BETA v1.8|BETA v1.8.0]]
-**Fire cooldown buffed.
-*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**Slowness reverted to wearing off linearly.
-**Statistical changes:
-***'''Base'''
-****Range increased from 6 to 9.
-****Burn slowness decreased from 30% to 15%.
-***'''Level 2'''
-****Burn slowness changed from 30% > 50% to 15% > 25%.
-****Firerate changed from 0.55 to {{Tooltip|0.55 > 0.4|-0.15}}.
-****Hidden detection moved from Level 2 to Level 3.
-***'''Level 3'''
-****Firerate changed from 0.55 to {{Tooltip|0.4 > 0.3|-0.1}}.
-***'''Level 4'''
-****Burn slowness changed from 50% > 65% to 25% > 35%.
-****Firerate changed from 0.55 to {{Tooltip|0.3 > 0.15|-0.15}}.
-***'''Level 5'''
-****Burn slowness changed from 65% to 35% > 45%.
-**New skins: {{Color|Premium|Hazmat}}, {{Color|Golden}}
-**{{Bug}} Base firerate stated as 1.25 in the store.
-*'''14 October 2019''' - [[Release v1.0|Release v1.0.1]]
-**{{Bugfix}} Base firerate in the store fixed.
-*'''18 October 2019''' - [[Release v1.1|Release v1.1.0]]
-**New skin: {{Color|Halloween2019|Scarecrow}}
-**{{Color|Golden}} skin 25% [[Range Buff]] added.
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
-**{{Color|Golden}} skin [[Range Buff]] increased from 25% to 50%.
-*'''25 November 2019''' - [[Release v1.3|Release v1.3.0]]
-**New skin: {{Color|Premium|Acidic}}
-* '''8 December 2019''' - [[Release v1.4|Release v1.4.1]]
-**New skin: {{Color|Platinum}}
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**New skin: {{Color|Basic|Blue}}
+*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
+**'''Electroshocker''' added.
 *'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
 **New skin: {{Color|Valentine|Valentines}}
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
-*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**Flames now pierce through enemies.
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|750}} to {{Money|850}}.
-****Firerate decreased from 0.55 to 0.3.
-****Burn slowness decreased from 15% to 0%.
-***'''Level 2'''
-****Burn slowness changed from 15% > 25% to 0% > 10%.
-****Damage decreased from +1 to +0.
-****Firerate changed from {{Tooltip|0.55 > 0.4|-0.15}} to 0.3.
+****Range decreased from 9 to 7.
 ***'''Level 3'''
-****Burn time changed from 3 > 5 to 3 > 4.
-****Firerate changed from {{Tooltip|0.4 > 0.3|-0.1}} to 0.3.
-****Hidden detection removed.
+****Damage decreased from +8 to +4.
+****Chain range increased from +2 to +3.
+****Range decreased from +2 to +0.
 ***'''Level 4'''
-****Burn slowness changed from 25% > 35% to 10% > 20%.
-****Firerate changed from {{Tooltip|0.3 > 0.15|-0.15}} to 0.3.
+****Damage decreased from +12 to +6.
 ***'''Level 5'''
-****Burn slowness changed from 35% > 45% to 20% > 30%.
-****Burn time changed from 6 > 8 to 6 > 10.
-**{{Color|Golden}} skin 25% [[Damage Buff]] added.
-**{{Bugfix}} Level 5 flames being stuck fixed.
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Upgrade names added.
-**Unlock cost increased from {{Coins|1,500}} to {{Coins|2,000}}.
-**Enemies on fire are now 15% faster.
+****Damage decreased from +18 to +10.
+*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
+**New skin: {{Color|Bunny|Bunny}}
+*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
+**New skin: {{Color|Premium|Hazmat}}
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]    
+**Unlock cost decreased from {{Coins|3,500}} to {{Coins|3,000}}.
+**{{Level|10}} requirement added.
+**Placement limit increased from 2 to 4.
+**Shock mechanic changed.
+***Shock time is now proportional to enemy size.
+***Shocking now slows down and stops an enemy instead of slowing down enemies by 30% (or 15% for enemies with [[Partial Electric Immunity]]).
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Updated hitbox.
-**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Skin rarity added to [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
 ****Damage decreased from 1 to 0.
-****Range decreased from 9 to 7.
-****Firerate decreased from 0.3 to 0.28.
-****Hitbox of 0.5 added.
-****Cost decreased from {{Money|850}} to {{Money|800}}.
+****Max hits decreased from 3 to 1.
+****Chain range decreased from 6 to 5.
+****Max shock time increased from 0.25 to 1.
+****Min shock time of 0.25 added.
+****Firerate decreased from 3.05 to 3.03.
+****Cost decreased from {{Money|500}} to {{Money|400}}.
 ****Lead detection added.
 ***'''Level 1'''
-****Cost increased from {{Money|200}} to {{Money|350}}.
-****Hitbox increase of +1 added.
+****Cost decreased from {{Money|350}} to {{Money|250}}.
 ***'''Level 2'''
-****Burn slowness decreased from 0% > 10% to 0%.
-****Now melts 1 defense every tick.
-****Range decreased from +1 to +0.
-****Damage increased from +0 to +1.
-****Cost increased from {{Money|500}} to {{Money|850}}.
-***'''Level 3'''
 ****Damage decreased from +1 to +0.
-****Burn damage decreased from +1 to +0.
-****Burn time changed from 3 > 4 to 3 > 5.
+****Range decreased from +2 to +1.
+****Hidden detection added.
+****Cost decreased from {{Money|525}} to {{Money|400}}.
+****Renamed from ''Tesla Tower 3000'' to ''Outside Support''.
+***'''Level 3'''
+****Damage decreased from +4 to +2.
+****Max hits decreased from +2 to +0.
+****Chain range decreased from +3 to +0.
+****Firerate changed from {{Tooltip|3.05 > 2.05|-1}} to 3.03.
+****Shock time changed from 0.25 to 1 > 1.5.
+****Cost decreased from {{Money|1,250}} to {{Money|1,000}}.
 ***'''Level 4'''
-****Range decreased from +2 to +0.
-****Burn damage decreased from +1 to +0.
-****Cost increased from {{Money|3,200}} to {{Money|4,200}}.
-****Burn slowness decreased from 10% > 20% to 0%.
-****Burn time changed from 4 > 6 to 5 > 3.
-****Tick changed from 1 to {{Tooltip|1 > 0.5|-0.5}}.
-****Hitbox increase of +0.25 added.
+****Damage decreased from +6 to +2.
+****Max hits increased from +1 to +2.
+****Shock time changed from 0.25 > 0.35 to 1.5.
+****Firerate changed from 2.05 to {{Tooltip|3.03 > 2.03|-1}}.
+****Cost decreased from {{Money|4,250}} to {{Money|3,000}}.
+****Renamed from ''MOAR POWER'' to ''Lightning Cannon''.
 ***'''Level 5'''
-****Damage decreased from +2 to +0.
-****Burn damage decreased from +7 to +0.
-****Now melts 2 defense every tick.
-****Burn slowness decreased from 20% > 30% to 0%.
-****Burn time changed from 6 > 10 to 3 > 4.
-****Hitbox increase of +0.75 added.
-****Cost increased from {{Money|8,001}} to {{Money|9,000}}.
-**{{Bug}} Burn damage does not increase.
-**{{Bug}} Burn time is shorter than it is meant to be when tick is lower than 1.
-**{{Bugfix}} [[Range Buff]] now affects enemies outside its initial range.
-**Removed skin: {{Color|Platinum}}
-*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
-**{{Bugfix}} Burn damage now increases.
-***Statistical changes:
-****'''Level 3'''
-*****Burn damage increased from +0 to +1.
-****'''Level 4'''
-*****Burn damage increased from +0 to +1.
-****'''Level 5'''
-*****Burn damage increased from +0 to +5.
+****Range decreased from +4 to +2.
+****Damage decreased from +10 to +0.
+****Max hits decreased from +4 to +1.
+****Chain range decreased from +6 to +0.
+****Shock time changed from 0.35 to 1.5 > 2.
+****Now melts 1 defense every hit.
+****Cost decreased from {{Money|8,500}} to {{Money|6,500}}.
+****Renamed from ''Ultra Violet Lightning'' to ''Shock Force''.
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
 **New skin: {{Color|Spooky|Ghost}}
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**'''Pyromancer''' now turns.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|800}} to {{Money|650}}.
-***'''Level 2'''
-****Defense melting changed from 1 to 5%.
-****Cost decreased from {{Money|850}} to {{Money|500}}.
-***'''Level 3'''
-****Cost decreased from {{Money|1,500}} to {{Money|1,200}}.
-***'''Level 4'''
-****Cost decreased from {{Money|4,200}} to {{Money|3,800}}.
+****Cost decreased from {{Money|400}} to {{Money|325}}.
 ***'''Level 5'''
-****Defense melting changed from 2 to 10%.
-****Cost decreased from {{Money|9,000}} to {{Money|7,500}}.
-**New skin: {{Color|Frost|Frost}}
-*'''12 March 2022'''- [[v1.1.0]]
-**Enemy speed increase when set on fire decreased.
+****Defense melting changed from 1 to 1%.
+*'''12 March 2022''' - [[v1.1.0]]
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 0.28 to 0.275.
-**{{Bug}} Burn damage does not have lead detection.
-**{{Bug}} '''Pyromancer''' does not turn correctly.
-*'''16 March 2022''' - [[v1.1.0]]d
-**{{Bugfix}} Burn damage now has lead detection.
-*'''13 May 2022''' - [[v1.2.2]]
-**{{Color|Golden}} skin buffs removed.
-*'''21 May 2022''' - [[v1.2.3]]
-**{{Bug}} '''Pyromancer's''' flames are invisible when an enemy is on fire.
-*'''5 August 2022''' - [[v1.3.1]]
-**New skin: {{Color|EndOfSummer|Barbecue}}
-**{{Bugfix}} '''Pyromancer''' now turns correctly.
-*'''31 October 2022''' - [[v1.4.2]]
-**No longer speeds up enemies.
-*'''11 November 2022''' - [[v1.4.2]]d
-**New skin: {{Color|Philips|Mage}}
+****Firerate changed from 3.03 to 3.025.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|3.03 > 2.03|-1}} to {{Tooltip|3.025 > 2.025|-1}}.
 *'''21 December 2022''' - [[v1.6.0]]
+**Level requirement removed.
 **Skin rarity added to all skins.
 **{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
-**{{Color|Premium|Acidic}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
-*'''7 April 2023''' - [[v1.7.0]]
+*'''21 March 2023''' - [[v1.6.3]]e
+**Shock time is no longer proportional to enemy size, now its the same for every enemy.
 **Statistical changes:
 ***'''Base'''
-****Damage increased from 0 to 1.
-****Cost increased from {{Money|650}} to {{Money|900}}.
+****Damage increased from 0 to 2.
+****Range increased from 7 to 7.5.
+****Chain range increased from 5 to 6.
+****Max hits increased from 1 to 2.
+****Firerate decreased from 3.025 to 0.925.
+****Shock time decreased from 1 to 0.
+****Cost increased from {{Money|325}} to {{Money|800}}.
 ***'''Level 1'''
-****Tick changed from 1 to {{Tooltip|1 > 0.8|-0.2}}.
-****Cost increased from {{Money|350}} to {{Money|400}}.
+****Firerate changed from 3.025 to {{Tooltip|0.925 > 0.825|-0.1}}.
+****Range decreased from +2 to +1.5.
+****Cost increased from {{Money|250}} to {{Money|325}}.
 ***'''Level 2'''
-****Hidden detection added.
-****Defense melting moved to Level 3.
-****Cost increased from {{Money|500}} to {{Money|950}}.
+****Damage increased from +0 to +2.
+****Range decreased from +1 to +0.
+****Max hits increased from +0 to +1.
+****Cost increased from {{Money|400}} to {{Money|900}}.
+****Hidden detection removed.
+****Flying detection added.
 ***'''Level 3'''
+****Damage increased from +2 to +4.
 ****Range increased from +0 to +1.
-****Burn time changed from 3 > 5 to 3 > 4.
-****Defense melting moved from Level 2, melts 5% defense.
-****Cost increased from {{Money|1,200}} to {{Money|2,200}}.
+****Firerate changed from 3.025 to {{Tooltip|0.825 > 0.675|-0.15}}.
+****Shock time changed from 1 > 1.5 to 0.
+****Cost increased from {{Money|1,000}} to {{Money|3,000}}.
 ***'''Level 4'''
-****Damage decreased from +1 to +0.
-****Burn damage increased from +1 to +2.
-****Burn time changed from 5 > 3 to 4 > 2.5.
-****Tick changed from {{Tooltip|1 > 0.5|-0.5}} to {{Tooltip|0.8 > 0.5|-0.3}}.
+****Damage increased from +2 to +37.
+****Range increased from +0 to +4.
+****Shock time changed from 1.5 to 0 > 0.35.
+****Firerate changed from {{Tooltip|3.025 > 2.025|-1}} to {{Tooltip|0.675 > 2.025|+1.35}}.
+****Cost increased from {{Money|3,000}} to {{Money|5,000}}.
 ***'''Level 5'''
-****Damage increased from +0 to +1.
-****Burn damage decreased from +5 to +4.
-****Burn time changed from 3 > 4 to 2.5 > 3.5.
-****Cost increased from {{Money|7,500}} to {{Money|8,000}}.
+****Damage increased from +0 to +45.
+****Range decreased from +2 to +0.
+****Chain range increased from +0 to +2.
+****Max hits increased from +1 to +3.
+****Shock time changed from 1.5 > 2 to 0.35 > 0.5.
+****Firerate changed from 2.025 to {{Tooltip|2.025 > 2.525|+0.5}}.
+****Cost increased from {{Money|6,500}} to {{Money|13,500}}.
+****Renamed from ''Shock Force'' to ''Zeus Cannon''.
+*'''12 May 2023''' - [[v1.7.3]]
+**New skin: {{Color|Ducky|Ducky}}
 *'''24 June 2023''' - [[v1.8.2]]
 **New skin: {{Color|Vigilante|Vigilante}}
 *'''28 October 2023''' - [[v1.9.0]]
-**'''Pyromancer's''' burn now will thaw frozen enemies and prevent freezing towers from freezing enemies.
-**Statistical changes:
-***'''Level 4'''
-****Burn time changed from 4 > 2.5 to 4 > 5.
-***'''Level 5'''
-****Burn time changed from 2.5 > 3.5 to 5 > 8.
-**{{Bug}} Kills from '''Pyromancer's''' burn do not give cash at Level 0.
-**{{Bugfix}} Flames are now visible when an enemy is on fire.
-**{{Bugfix}} Burn time is no longer decreased when tick is lower than 1.
-*'''21 December 2023''' - [[v1.11.0]]
-**Unlock cost increased from {{Coins|2,000}} to {{Coins|3,500}}.
-**New skin: {{Color|Krampus|Dwarf}}
-*'''10 May 2024''' - [[v1.21.0]]
-**{{Bug}} Main attack has issues hitting enemies at lower [[Time Scale]] values.
-*'''23 May 2024''' - [[v1.23.0]]
-**Updated hitbox.
-**Flames now can only hit a limited number of enemies.
-**Statistical changes:
-***'''Base'''
-****Max hits decreased from infinite to 1.
-***'''Level 1'''
-****Max hits increased from +0 to +1.
-***'''Level 3'''
-****Max hits increased from +0 to +1.
-***'''Level 4'''
-****Max hits increased from +0 to +1.
-***'''Level 5'''
-****Max hits increased from +0 to +1.
-**{{Bug}} Burn damage no longer generates cash in [[Molten Mode|Molten]] mode, [[Fallen Mode|Fallen]] mode and special maps.
-**{{Bug}} Hitbox growth speed does not work properly.
-**{{Bug}} '''Pyromancer''' does not turn properly.
-*'''29 May 2024''' - [[v1.23.0|v1.23.4]]
-**Statistical changes ([[PVP Test]]):
-***'''Base'''
-****Firerate increased from 0.275 to 0.325.
+**Stunned enemies now slow down before being completely stopped.
+*'''31 October 2023''' - [[v1.9.0]]g
+**New skin: {{Color|Lunar|Frankenstein}}
+*'''10 February 2024''' - [[v1.13.0]]
+**{{Bug}} '''Electroshocker''' when placed down does not appear, does not count for the tower placement limit, prevents towers from being placed in the area and takes cash as if it was placed down normally.
+*'''11 February 2024''' - [[v1.13.0]]a
+**{{Bugfix}} '''Electroshocker''' can now be placed down properly.
+*'''1 April 2024''' - [[v1.17.0]]b
+**New skin: {{Color|Deluxe|TeeVee}}
+**{{Bug}} {{Color|Deluxe|TeeVee}} skin cannot be equipped in the intermission lobby.
+**{{Bug}} {{Color|Deluxe|TeeVee}} skin breaks the tower icon and stats in the tower hotbar.
+*'''1 April 2024''' - [[v1.17.2]]
+**{{Bugfix}} {{Color|Deluxe|TeeVee}} skin now can be equipped in the intermission lobby.
+**{{Bugfix}} {{Color|Deluxe|TeeVee}} skin no longer breaks the tower icon and stats in the tower hotbar.
+*'''7 June 2024''' - [[v1.24.0]]
+**New skin: {{Color|Deluxe|Classic}}
 *'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s.
-*'''19 July 2024''' - [[v1.26.0]]
-**{{Bug}} '''Pyromancer''' attacks nothing.
-**{{Bugfix}} Hitbox growth speed now works correctly.
-**{{Bugfix}} '''Pyromancer''' now turns correctly.
-*'''19 July 2024''' - [[v1.26.0|v1.26.1]]
-**{{Bugfix}} '''Pyromancer''' no longer attacks nothing.
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
 *'''2 August 2024''' - [[v1.27.0]]
-** '''Pyromancer''' no longer deals damage to [[Flying]] enemies.
-**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
-*'''16 October 2024''' - [[v1.36.0]]
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|900}} to {{Money|850}}.
-****Max hits increased from 1 to 3.
-****Hitbox width increased from 0.5 to 1.25.
+****Cost decreased from {{Money|800}} to {{Money|725}}.
+****Damage increased from 2 to 3.
+****Firerate decreased from 0.925 to 0.875.
+****Chain range increased from 6 to 7.
+****Shock time increased from 0 to 0.3.
+****Defense melting increased from 0% to 5%.
 ***'''Level 1'''
-****Cost decreased from {{Money|400}} to {{Money|350}}.
-****Tick changed from {{Tooltip|1 > 0.8|-0.2}} to {{Tooltip|1 > 0.75|-0.25}}.
-****Max hits decreased from +1 to +0.
-****Hitbox decreased from +1 to +0.25.
+****Cost decreased from {{Money|325}} to {{Money|300}}.
+****Firerate changed from {{Tooltip|0.925 > 0.825|-0.1}} to {{Tooltip|0.875 > 0.775|-0.1}}.
 ***'''Level 2'''
-****Burn damage increased from +0 to +1.
-****Max hits increased from +0 to +2.
+****Cost decreased from {{Money|900}} to {{Money|600}}.
+****Damage decreased from +2 to +1.
+****Range increased from +0 to +1.
 ***'''Level 3'''
-****Cost decreased from {{Money|2,200}} to {{Money|1,500}}.
-****Burn time changed from 3 > 4 to 3 > 5.
-****Tick changed from 0.8 to {{Tooltip|0.75 > 0.5|-0.25}}.
-****Max hits decreased from +1 to +0.
-***'''Level 4'''
-****Damage increased from +0 to +1.
-****Burn damage decreased from +2 to +1.
-****Burn time changed from 4 > 5 to 5 > 7.5.
-****Tick changed from {{Tooltip|0.8 > 0.5|-0.3}} to 0.75 > 0.5.
-****Max hits decreased from +1 to +0.
-***'''Level 5'''
-****Cost increased from {{Money|8,000}} to {{Money|9,000}}.
-****Damage increased from +1 to +3.
-****Burn time changed from 5 > 8 to 7.5 > 10.
-****Max hits increased from +1 to +3.
-*'''23 October 2024''' - [[v1.37.0]]
-**Burn no longer prevents enemies from being frozen.
-*'''27 November 2024''' - [[v1.43.0]]
-**New skin: {{Color|Other|Plushie}}
-*'''16 December 2024''' - [[v1.46.0]]
-**{{Bug}} '''Pyromancer''' will struggle to hit enemies if it has to aim up or down at them, or when on elevation.
-**{{Bug}} '''Pyromancer''' does not deal damage to [[Flying]] enemies.
-*'''8 January 2025''' - [[v1.48.0]]
-**{{Bugfix}} '''Pyromancer''' now deals damage normally when targeting enemies while aiming up or down, or when on elevation.
-*'''15 January 2025''' - [[v1.49.0]]
-**{{Bugfix}} '''Pyromancer''' now deals damage to [[Flying]] enemies.
-*'''5 March 2025''' - [[v1.56.0]]
-**{{Bug}} '''Pyromancer''' keeps targeting enemies that were previously inside its range and sometimes does not target enemies inside its range.
-**{{Bug}} '''Pyromancer''' does not deal damage.
-*'''5 March 2025''' - [[v1.56.0|v1.56.1]]
-**{{Bugfix}} '''Pyromancer''' now targets and damages enemies correctly.
-*'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''11 June 2025''' - [[v1.67.0]]
-**{{Bug}} When cloned, the '''Pyromancer''' clone will have no animations and after disappearing, will still take up placement from other towers.
-*'''25 June 2025''' - [[v1.68.0]]
-**Unlock cost reduced from {{Coins|3,500}} to {{Coins|1,250}}.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Pool Party}}
-**{{Bug}} {{Color|Surf|Pool Party}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Pool Party}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Hallow Punk}}.
-*'''20 December 2025''' - [[v1.83.0]]
-**New skins: {{Color|Showtime|Fire Breather}}
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skins: {{Color|FinalAct|Reindeer}}
-*'''28 January 2026''' - [[v1.84.0]]
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|850}} to {{Money|900}}.
-****Range increased from 7 to 8.
-****Burn damage increased from 1 to 2.
-****Burn time increased from 3 to 4.
-****Defense melting increased from 0% to 1%.
-***'''Level 1'''
-****Cost decreased from {{Money|350}} to {{Money|325}}.
-****Firerate changed from 0.275 to {{Tooltip|0.275 > 0.175|-0.1}}.
-****Tick changed from {{Tooltip|1 > 0.75|-0.25}} to 1.
+****Cost decreased from {{Money|3,000}} to {{Money|2,000}}.
+****Range increased from +1 to +2.
+****Firerate changed from {{Tooltip|0.825 > 0.675|-0.15}} to 0.775.
+****Defense melting changed from 0% to 5% > 10%.
 ****Max hits increased from +0 to +1.
-***'''Level 2'''
-****Cost decreased from {{Money|950}} to {{Money|915}}.
-****Burn damage decreased from +1 to +0.
-****Max hits decreased from +2 to +1.
-***'''Level 3'''
-****Cost increased from {{Money|1,500}} to {{Money|1,750}}.
-****Damage increased from +0 to +1.
-****Range increased from +1 to +2.5.
-****Burn damage increased from +1 to +3.
-****Burn time changed from 3 > 5 to 4 > 8.
-****Tick changed from {{Tooltip|0.75 > 0.5|-0.25}} to 1.
-****Max hits increased from +0 to +2.
-****Defense melting changed from 0% > 5% to 1% > 5%.
 ***'''Level 4'''
-****Cost increased from {{Money|3,800}} to {{Money|3,400}}.
-****Burn damage increased from +1 to +7.
-****Burn time changed from 5 > 7.5 to 8 > 10.
-****Defense melting changed from 5% to 5% > 10%.
+****Damage increased from +37 to +42.
+****Range decreased from +4 to +2.
+****Chain range increased from +0 to +3.
+****Firerate changed from {{Tooltip|0.675 > 2.025|+1.35}} to {{Tooltip|0.775 > 2.525|+1.75}}.
+****Defense melting changed from 0% to 10% > 15%.
+****Shock time increased from 0.35 to 0.3 > 1.
 ***'''Level 5'''
-****Cost decreased from {{Money|9,000}} to {{Money|7,000}}.
-****Damage decreased from +3 to +2.
-****Range decreased from +2 to +1.5.
-****Burn damage increased from +4 to +23.
-****Burn time changed from 7.5 > 10 to 10.
-****Defense melting changed from 5% > 10% to 10%.
-*'''11 March 2026''' - [[v1.86.0]]
+****Cost increased from {{Money|13,500}} to {{Money|15,000}}.
+****Damage increased from +45 to +50.
+****Firerate changed from {{Tooltip|2.025 > 2.525|+0.5}} to 2.525.
+****Chain range decreased from +2 to +0.
+****Max hits decreased from +3 to +2.
+****Shock time changed from 0.35 > 0.5 to 1 > 1.25.
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Dark Frost}}
+**{{Bug}} '''Electroshocker's''' energy damage type is broken.
+*'''8 January 2025''' - [[v1.48.0]]
+**{{Bug}} '''Electroshocker''' does not damage [[Lead (Attribute)|Lead]] enemies.
+*'''15 January 2025''' - [[v1.49.0]]
+**{{Bugfix}} '''Electroshocker''' can now damage [[Lead (Attribute)|Lead]] enemies.
+**{{Bugfix}} '''Electroshocker''' now has a working energy damage type.
+*'''12 March 2025''' - [[v1.57.0]]
+**{{Bug}} {{Color|Korblox|Korblox}} skin is obtainable.
+*'''12 March 2025''' - [[v1.57.0|v1.57.2]]
+**{{Bugfix}} {{Color|Korblox|Korblox}} skin is no longer obtainable.
+*'''13 March 2025''' - [[v1.57.0|v1.57.7]]
+**New skin: {{Color|Korblox|Korblox}}
+*'''19 March 2025''' - [[v1.57.0|v1.57.11]]
+**{{Bug}} Equipping the {{Color|Korblox|Korblox}} skin prevents some players from placing the '''Electroshocker''' down.
+*'''9 April 2025''' - [[v1.60.0]]
+**Defense role added.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Jellyfish}}
+**{{Bug}} {{Color|Surf|Jellyfish}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Jellyfish}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
+*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]
+**New skin: {{Color|Banned|Banned}}
+*'''4 October 2025''' - [[v1.77.0]]
+**{{Bug}} Enemies hit by the '''Electroshocker''' no longer have stun animations.
+*'''28 January 2026''' - [[v1.84.0]]
+**Unlock cost decreased from {{Coins|3,000}} to {{Coins|2,500}}.
+**Category changed from Advanced to Intermediate.
+**Placement limit increased from 4 to 10.
+**Description changed.
 **Statistical changes:
 ***'''Base'''
-****Burn time decreased from 4 to 3.
+****Cost decreased from {{Money|725}} to {{Money|425}}.
+****Firerate decreased from 0.875 to 0.775.
+****Range increased from 7.5 to 10.
+****Max hits decreased from 2 to 1.
+****Shock time decreased from 0.3 to 0.
+****Defense melting decreased from 5% to 0%.
+***'''Level 1'''
+****Cost decreased from {{Money|300}} to {{Money|200}}.
+****Range decreased from +1.5 to +1.
+****Firerate changed from {{Tooltip|0.875 > 0.775|-0.1}} to 0.775.
+****Damage increased from +0 to +1
 ***'''Level 2'''
-****Cost increased from {{Money|915}} to {{Money|1,000}}.
+****Cost increased from {{Money|600}} to {{Money|625}}.
+****Damage increased from +1 to +4.
+****Range increased from +1 to +2.5.
+****Max hits decreased from +1 to +0.
+****Flying detection removed.
+****Hidden detection added.
+****Name changed from ''Outside Support'' to ''Higher Voltage''.
 ***'''Level 3'''
-****Burn time changed from 4 > 8 to 3 > 6.
+****Cost increased from {{Money|2,000}} to {{Money|2,500}}.
+****Damage increased from +4 to +12.
+****Firerate changed from 0.775 to {{Tooltip|0.775 > 0.675|-0.1}}.
+****Range decreased from +2 to +1.5.
+****Max hits decreased from +1 to +0.
+****Defense melting changed from 5% > 10% to 0%.
 ***'''Level 4'''
-****Cost increased from {{Money|3,400}} to {{Money|3,750}}.
-****Burn damage decreased from +7 to +5.
-****Burn time changed from 8 > 10 to 6 > 10.
+****Cost increased from {{Money|5,000}} to {{Money|6,350}}.
+****Damage increased from +42 to +105.
+****Firerate changed from {{Tooltip|0.775 > 2.525|+1.75}} to {{Tooltip|0.675 > 2.275|+1.6}}.
+****Max hits decreased from +2 to +1.
+****Shock time changed from 0.3 > 1 to 0 > 0.1.
+****Defense melting changed from 10% > 15% to 0%.
+****Name changed from ''Lightning Cannon'' to ''Shock Force''.
 ***'''Level 5'''
-****Cost increased from {{Money|7,000}} to {{Money|7,500}}.
-****Burn damage decreased from +23 to +15.
+****Cost increased from {{Money|15,000}} to {{Money|16,935}}.
+****Damage increased from +50 to +85.
+****Range increased from +0 to +1.
+****Max hits decreased from +2 to +1.
+****Shock time changed from 1 > 1.25 to 0.1 > 0.15.
+****Defense melting changed from 15% to 0% > 25%.
+*'''11 February 2026''' - [[v1.85.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|425}} to {{Money|375}}.
+****Damage decreased from 3 to 2.
+****Range increased from 10 to 11.
+****Shock time increased from 0 to 0.05.
+****Defense melting increased from 0% to 5%.
+***'''Level 1'''
+****Range increased from +1 to +1.5.
+***'''Level 2'''
+****Cost increased from {{Money|625}} to {{Money|700}}.
+****Damage decreased from +4 to +3.
+****Firerate changed from 0.775 to {{Tooltip|0.775 > 0.675|-0.1}}.
+****Shock time increased from 0 to 0.05 > 0.08.
+****Defense melting increased from 0% to 5% > 10%.
+***'''Level 3'''
+****Damage decreased from +12 to +6.
+****Range decreased from +1.5 to +0.
+****Firerate changed from {{Tooltip|0.775 > 0.675|-0.1}} to 0.675.
+****Max hits increased from +0 to +1.
+***'''Level 4'''
+****Damage decreased from +105 to +103.
+****Range increased from +2 to +3.5.
+****Max hit decreased from +1 to +0.
+****Shock time increased from 0 > 0.1 to 0.08 > 0.18.
+****Defense melting increased from 0% to 10% > 15%.
+***'''Level 5'''
+****Shock time increased from 0.08 > 0.18 to 0.18 > 0.3.
+****Defense melting increased from 0% > 25% to 15% > 25%.
+**New skin: {{Color|Valentines2026|Lovestriker}}
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Easter}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
+**Placement limit decreased from 10 to 7.
+**Statistical changes:
 ***'''Base'''
-****Without [[Firerate Bug]], firerate increased from 0.25 to 0.275, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.275.
-****Range increased from 8 to 9.
-***'''Level 1'''
-****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.25 > 0.15|-0.1}} to {{Tooltip|0.275 > 0.175|-0.1}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
-***'''Level 3'''
-****Range decreased from +2.5 to +1.5.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Firerate decreased from 0.275 to 0.25.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Scuba|Scuba Ops}}
-*'''17 July 2026''' - [[v2.3.0]]
-**Statistical changes (Regular):
-***'''Level 1'''
-****Hidden detection added, moved from Level 2.
-***'''Level 4'''
-****Cost increased from {{Money|3,750}} to {{Money|3,777}}.
-****Damage increased from +1 to +2.
-***'''Level 5'''
-****Cost increased from {{Money|7,500}} to {{Money|11,111}}.
+****Cost increased from {{Money|375}} to {{Money|650}}.
 ****Damage increased from +2 to +4.
+****Firerate increased from 0.775 to 1.2.
+****Range decreased from 11 to 10.
+****Max hits increased from 1 to 2.
+****Shock time increased from 0.05 to 0.1.
+****Chain range increased from 7 to 10.
+****Defense melt decreased from 5% to 0%.
+***'''Level 1'''
+****Cost increased from {{Money|200}} to {{Money|275}}.
+****Damage increased from +1 to +2.
+****First changed from 0.775 to {{Tooltip|1.35 > 1.15|-0.2}}.
+****Range increased from +1.5 to +2.
+****Name changed from ''Improved Handling'' to ''Higher Voltage''.
+***'''Level 2'''
+****Cost increased from {{Money|700}} to {{Money|950}}.
+****Damage decreased from +3 to +2.
+****Firerate changed from {{Tooltip|0.775 > 0.675|-0.1}} to 1.15.
+****Range increased from +0 to +1.
+****Max hits increased from +0 to +1.
+****Shock time changed from 0.05 > 0.08 to 0.1.
+****Defense melting changed from 5% > 10% to 0%.
+****Name changed from ''Higher Voltage'' to ''Improved Handling''.
+***'''Level 3'''
+****Cost decreased from {{Money|2,500}} to {{Money|2,400}}.
+****Damage increased from +6 to +14.
+****Max hits decreased from +1 to +0.
+****Chain range increased from +0 to +5.
+***'''Level 4'''
+****Cost decreased from {{Money|6,350}} to {{Money|4,000}}.
+****Damage decreased from +103 to +40.
+****Firerate changed from {{Tooltip|0.675 > 2.275|+1.6}} to {{Tooltip|1.15 > 2.5|+1.35}}.
+****Range decreased from +3.5 to +0.
+****Max hits decreased from +0 to +1.
+****Shock time changed from 0.08 > 0.18 to 0.1 > 0.15.
+****Chain range decreased from +3 to +0.
+****Defense melting changed from 10% > 15% to 0%.
+***'''Level 5'''
+****Cost decreased from {{Money|16,935}} to {{Money|10,000}}.
+****Damage decreased from +85 to +30.
+****Range increased from +1 to +2.
+****Max hits increased from +1 to +3.
+****Shock time changed from 0.18 > 0.3 to 0.15 > 0.25.
+****Chain range increased from +0 to +5.
+****Defense melting changed from 15% > 25% to 0% > 20%.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Beach}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Statistical changes:
+***'''Base'''
+****Damage increased from 4 to 5.
+***'''Level 1'''
+****Damage decreased from +2 to +1.
+***'''Level 3'''
+****Damage decreased from +14 to +12.
+****Chain range decreased from +5 to +2.5.
+***'''Level 4'''
+****Damage decreased from +48 to +40.
+****Chain range increased from +0 to +2.5.
+***'''Level 5'''
+****Chain range decreased from +5 to +0.
 }}
 
 ==Notes==
