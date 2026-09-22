@@ -1,768 +1,657 @@
-{{Tabs|Regular = Scout|Perk = Golden Scout|Evolved = Operator}}
-{{SameName|Scout|'''Tower''' • [[Scout (Pizza Party)|Enemy]]}}
-{{for|[[SCT]], [[Cookie Scout]] sticker|[[Null Scout]]}}
+{{Tabs|Regular = Soldier|Perk = Golden Soldier}}
+{{SameName|Soldier|'''Tower''' • [[Soldier (Unit)|Unit]] • [[Soldier (Narrator)|Narrator]]}}
+{{For|[[Mission Quests|Undead Solider]], a [[Mission Quests|Mission Quest]]}}
 {{TowerInfobox
-|image-static = DefaultScout3.png
-|image-dynamic = ScoutDynamic.png
-|unlockcost = {{Color|00FF00|Free}}
+|title = Soldier
+|image-static = KrampusRevengeSoldierIcon.png
+|image-dynamic = SoldierDynamic.png
+|unlockcost = {{Coins|350}}
 |role = Offense
 |placement = Ground
-|basecost = {{Money|125}}
-|basesellingprice = {{Money|41}}
+|basecost = {{Money|400}}
+|basesellingprice = {{Money|133}}
 |basedamage = [[File:Damage Icon.png|20px|Damage]]1
-|damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1
-|baserange = [[File:Range Icon.png|20px|Range]]12
+|damagetype = Burst
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.175
+|baserange = [[File:Range Icon.png|20px|Range]]17
 |hidden_detection = {{Attr|Hidden|Level 2+}}
 |lead_detection = N/A
-|flying_detection = N/A
+|flying_detection = {{Attr|Flying|Level 4}}
 |immune = None
 |footprint = 1.5
-|pvp_basecost = {{Money|300}}
-|pvp_basesellingprice = {{Money|100}}
-|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]3
-|pvp_damagetype = Single
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]14
+|pvp_basecost = {{Money|450}}
+|pvp_basesellingprice = {{Money|150}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1
+|pvp_damagetype = Burst
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]17
 |pvp_hidden_detection = {{Attr|Hidden|Level 2+}}
 |pvp_lead_detection = N/A
-|pvp_flying_detection = N/A
+|pvp_flying_detection = {{Attr|Flying|Level 0+}}
 |pvp_immune = None
 |pvp_footprint = 1.5
-|tooltip-1 = A well rounded and cheap basic tower.
+|tooltip-1 = A well rounded burst fire tower with solid range and low damage.
 |tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
-|evolves_into = [[Operator]]
-|evolution_levels = 20
-|base_exp = 50
-|growth_rate = 1.09
-|skip_cost = 499
 }}
 {{QuoteContainer|
-{{QuoteBox|The starter tower of the game.|Store Description}}
+{{QuoteBox|A cheap and effective burst tower. Great for beginners!|Store Description}}
+{{QuoteBox|A cheap and effective burst tower.|Former Store Description}}
 }}
 __TOC__
 ==Description==
-The '''Scout''' is one of two starter towers obtained upon joining the game for the first time, with the other being the [[Sniper]].
+The '''Soldier''' is a starter ground tower that fires in bursts. It can be bought for {{Coins|350}} in the store.
 
-The '''Scout''' is very cheap in comparison to other towers, meaning it can be placed right from the start of the game. However, the '''Scout''' has low DPS, even at higher levels, meaning it is not effective later on during the game. In [[PVP]] mode, it has far higher DPS than in regular modes, though it is still lower than most other options.
+The '''Soldier''' fires in bursts, with a short delay between each burst. It is a fairly cheap tower, making it recommended for use in earlier waves. It gains hidden detection at Level 2 and flying detection at Level 4 (Level 0 for [[PVP]]), so it is an effective counter against [[Hidden (Attribute)|Hidden]] and [[Flying]] enemies.
 
-The '''Scout''' is considered an early-game tower due to its low cost and low overall damage.
+The '''Soldier''' is considered an early to mid-game tower. Later on during the game, its effectiveness dwindles against high health enemies, being outclassed by other towers with higher DPS.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|50}}|Image = [[File:Scout1.png|100px]]|Information = 1 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Barracks Training|Cost = {{Money|100}}|Image = [[File:Soldier Upgrade 1 New.png|100px]]|Information = 0.175 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+0.5 > 0.4 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
 
 
-Sell Price changes to {{Money|58}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Precise Aiming|Cost = {{Money|375}}|Image = [[File:Scout2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|166}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Better Aiming|Cost = {{Money|700}}|Image = [[File:Soldier Upgrade 2 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-+2 Range [[File:Range Icon.png|20px|Range]]
++1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-
-Sell Price changes to {{Money|183}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Stronger Equipment|Cost = {{Money|1,350}}|Image = [[File:Scout4.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.75 > 0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+2 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|633}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Akimbo Handguns|Cost = {{Money|2,200}}|Image = [[File:Scout5.png|100px]]|Information = 0.65 > 0.325 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-
-Sell Price changes to {{Money|1,366}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|100}}|Image = [[File:Scout1.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Range [[File:Range Icon.png|20px|Range]]
-
-
-Sell Price changes to {{Money|133}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Precise Aiming|Cost = {{Money|650}}|Image = [[File:Scout2.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Range [[File:Range Icon.png|20px|Range]]
-
-0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+3 > 4 Burst [[File:Damage Icon.png|20px|Burst]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
 
-Sell Price changes to {{Money|350}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Stronger Equipment|Cost = {{Money|1,800}}|Image = [[File:Scout4.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|433}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Equipment Upgrades|Cost = {{Money|1,850}}|Image = [[File:Soldier Upgrade 4 New.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+1 Range [[File:Range Icon.png|20px|Range]]
-
-0.75 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+4 > 8 Burst [[File:Damage Icon.png|20px|Burst]]
 
 
-Sell Price changes to {{Money|950}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Akimbo Handguns|Cost = {{Money|3,250}}|Image = [[File:Scout5.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|1,050}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Deadliest Soldier|Cost = {{Money|6,000}}|Image = [[File:Soldier Upgrade 5 New.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++6 Damage [[File:Damage Icon.png|20px|Damage]]
+
+8 > 12 Burst [[File:Damage Icon.png|20px|Burst]]
+
++Flying Detection {{Flying|Flying Detection}}
 
 
-Sell Price changes to {{Money|2,033}}}}
+Sell Price changes to {{Money|3,050}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Better Vision|Cost = {{Money|200}}|Image = [[File:Soldier Upgrade 1 New.png|100px]]|Information = 
+0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+4 > 6 Burst [[File:Damage Icon.png|20px|Burst]]
+
+0.4 > 0.3 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+
+Sell Price changes to {{Money|216}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Better Aiming|Cost = {{Money|800}}|Image = [[File:Soldier Upgrade 2 New.png|100px]]|Information = 
++2 Range [[File:Range Icon.png|20px|Range]]
+
++1 Damage [[File:Damage Icon.png|20px|Damage]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
+
+Sell Price changes to {{Money|483}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Equipment Upgrades|Cost = {{Money|3,000}}|Image = [[File:Soldier Upgrade 4 New.png|100px]]|Information = 
++2 Range [[File:Range Icon.png|20px|Range]]
+
++2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+6 > 8 Burst [[File:Damage Icon.png|20px|Burst]]
+
+
+Sell Price changes to {{Money|1,483}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Deadliest Soldier|Cost = {{Money|8,000}}|Image = [[File:Soldier Upgrade 5 New.png|100px]]|Information = 
++4 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+8 > 10 Burst [[File:Damage Icon.png|20px|Burst]]
+
+0.3 > 0.2 Cooldown [[File:Cooldown Icon.png|20px|Cooldown]]
+
+
+Sell Price changes to {{Money|4,150}}}}
 }}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Firerate
+$DPS$ = (Damage * Burst Count)  / (Cooldown + (Firerate * Burst Count))
 $CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$TE$ = $FNC-TOTAL-EXP$
-$EXP$ = {{#expr:floor(50 * 1.09^(Level - 1) * (Level > 0))}}
-$COST$ = 125; 50; 375; 1350; 2200
-$PVP-COST$ = 300; 100; 650; 1800; 3250
-$FSE-DETECTION$ = 2; ;
-$FSE-UPGRADE$ = Faster Reloading; Precise Aiming; Stronger Equipment; Akimbo Handguns
-$FSE-UPGRADEICON$ = 3278746120; 3278749117; 3278741672; 3279537687
-$FSE-META$ = Starter; File:DefaultScout3.png
+$COST$ = 400; 100; 700; 1850; 6000
+$PVP-COST$ = 450; 200; 800; 3000; 8000
+$FSE-DETECTION$ = 2; ; 4
+$FSE-PVP-DETECTION$ = 2; ; 0
+$FSE-UPGRADE$ = Barracks Training; Better Aiming; Equipment Upgrades; Deadliest Soldier
+$FSE-PVP-UPGRADE$ = Better Vision; Better Aiming; Equipment Upgrades; Deadliest Soldier
+$FSE-UPGRADEICON$ = 5523192002; 5523193619; 5523195646; 5523196519
+$FSE-META$ = Starter; File:KrampusRevengeSoldierIcon.png
+$FREF$ = <ref name=firerate>Firerate only applies to the burst and is not the time between bursts.</ref>
+$DREF$ = <ref name=dps>Calculated as (Damage × Burst Count) ÷ (Cooldown + (Firerate × Burst Count)).</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Burst Count !! Firerate$FREF$ !! Cooldown !! Range !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 1 || 12 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 3 || 0.175 || 0.5 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 1 || 0.75 || 12 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 1 || 3 || 0.15 || 0.4 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 3 || 0.75 || 14 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 4 || 0.15 || 0.4 || 19 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 8 || 0.65 || 16 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 4 || 8 || 0.15 || 0.4 || 19 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 8 || 0.325 || 16 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 10 || 12 || 0.15 || 0.4 || 22 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 |-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Burst Count !! Firerate$FREF$ !! Cooldown !! Range !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.9 || 14 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 4 || 0.15 || 0.4 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 4 || 0.9 || 15 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 1 || 6 || 0.125 || 0.3 || 17 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 8 || 0.75 || 16 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 6 || 0.125 || 0.3 || 19 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 10 || 0.5 || 17 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 4 || 8 || 0.125 || 0.3 || 21 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 13 || 0.3 || 17 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 8 || 10 || 0.1 || 0.2 || 21 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
-<!-- @se-ignore -->
-|-|Levels =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="12" |Levels
-|-
-! Level !! Exp !! Total Exp
-|-
-| 0 || {{Exp|0}} || {{Exp|$TE$}}$R$
-|-
-| 1 || {{Exp|$EXP$}}$R$ || $R$
-|-
-| 2 || $R$ || $R$
-|-
-| 3 || $R$ || $R$
-|-
-| 4 || $R$ || $R$
-|-
-| 5 || $R$ || $R$
-|-
-| 6 || $R$ || $R$
-|-
-| 7 || $R$ || $R$
-|-
-| 8 || $R$ || $R$
-|-
-| 9 || $R$ || $R$
-|-
-| 10 || $R$ || $R$
-|-
-| 11 || $R$ || $R$
-|-
-| 12 || $R$ || $R$
-|-
-| 13 || $R$ || $R$
-|-
-| 14 || $R$ || $R$
-|-
-| 15 || $R$ || $R$
-|-
-| 16 || $R$ || $R$
-|-
-| 17 || $R$ || $R$
-|-
-| 18 || $R$ || $R$
-|-
-| 19 || $R$ || $R$
-|-
-| 20 || $R$ || $R$
-|}
-</div>
-<!-- @/se-ignore -->
 </tabber></div>
 </nowiki>}}
 
 ==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
-{| class="light-table pad-5 align-center" style="width:800px; margin:0 auto"
+''To see all the upgrades of a skin, see the [[Soldier/Gallery|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:DHRedScout0.png|175px]]
-|[[File:DHGreenScout0.png|175px]]
-|[[File:DHBlueScout0.png|175px]]
-|[[File:DHSurvivorScout0.png|175px]]
+|[[File:LO Blue Soldier 0.png|175px]]
+|[[File:KR Red Soldier 0.png|175px]]
+|[[File:Cold Soldier Soldier 0.png|175px]]
+|[[File:KR Party Soldier 0.png|175px]]
 |-
 !Skin
-|{{Color|Basic|Red}}
-|{{Color|Basic|Green}}
 |{{Color|Basic|Blue}}
-|{{Color|Basic|Survivor}}
+|{{Color|Basic|Red}}
+|{{Color|Premium|Cold Soldier}}
+|{{Color|Party|Party}}
 |-
 !Rarity
 |{{Color|Common}}
 |{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Exclusive}}
 |-
 !Daily Store Cost
-|{{Coins|500}} 
 |{{Coins|500}}
 |{{Coins|500}}
-|{{Coins|1,000}}
+|{{Robux|105}}
+|N/A
 |-
 !Obtained From
-|[[Basic Crate]] 
 |[[Basic Crate]]
 |[[Basic Crate]]
-|[[Basic Crate]]
+|[[Premium Crate]]
+|[[Party Crate]]
 |-
 !
-|[[File:DHBlackOpsScout0.png|175px]]
-|[[File:GoldenScout3.png|175px]]
-|[[File:DHPartyScout0.png|175px]]
-|[[File:DHBunnyScout0.png|175px]]
+|[[File:KRToySoldier0.png|175px]]
+|[[File:KRDoughboySoldier0.png|175px]]
+|[[File:Golden soldier lvl 0.png|175px]]
+|[[File:KRValentinesSoldier0.png|175px]]
 |-
 !Skin
-|{{Color|Premium|Black Ops}} 
+|{{Color|Toy|Toy}}
+|{{Color|Premium|Doughboy}}
 |{{Color|Golden}}
-|{{Color|Party|Party}}
-|{{Color|Bunny|Bunny}}
+|{{Color|Lovely|Valentines}}
 |-
 !Rarity
 |{{Color|Common}}
+|{{Color|Common}}
 |{{Color|Golden}}
-|{{Color|Exclusive}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|{{Coins|850}}
+|{{Robux|85}}
+|{{Coins|50,000}}
+|{{Coins|4,000}}
+|-
+!Obtained From
+|[[Toy Crate]]
+|[[Premium Crate]]
+|[[Golden Crate]]
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
+|-
+!
+|[[File:KRDuckySoldier0.png|175px]]
+|[[File:KRGrandTheftSoldier0.png|175px]]
+|[[File:KRHolidaySoldier0.png|175px]]
+|[[File:BSSoldier0.png|175px]]
+|-
+!Skin
+|{{Color|Ducky|Ducky}}
+|{{Color|Deluxe|Grand Theft}}
+|{{Color|Jolly|Holiday}}
+|{{Color|Krampus|Beast Slayer}}
+|-
+!Rarity
+|{{Color|Common}}
+|{{Color|Common}}
+|{{Color|Event}}
 |{{Color|Event}}
 |-
 !Daily Store Cost
-|{{Robux|85}}
-|{{Coins|55,000}}
+|{{Coins|3,000}}
+|{{Robux|255}}
+|{{Coins|5,000}}
 |N/A
+|-
+!Obtained From
+|[[Ducky Crate]],<br>[[Duck Hunt Event#Hunting Season Pass|Hunting Season]]
+|[[Deluxe Crate]],<br>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
+|[[Jolly Crate]],<br/>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
+|-
+!
+|[[File:LiberatorSoldier0.png|175px]]
+|[[File:ToiletSoldier0.png|175px]]
+|[[File:StealthOpsSoldier0.png|175px]]
+|[[File:AerobicsSoldier0.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Liberator}}
+|{{Color|Premium|Toilet}}
+|{{Color|Premium|Stealth Ops}}
+|{{Color|Hexscape|Aerobics}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|{{Robux|120}}
+|{{Robux|190}}
+|{{Robux|120}}
 |N/A
 |-
 !Obtained From
 |[[Premium Crate]]
-|[[Golden Crate]]
-|[[Party Crate]]
-|[[Bunny Crate]]
-|-
-!
-|[[File:DHEclipseScout0.png|175px]]
-|[[File:DHValentinesScout0.png|175px]]
-|[[File:BeachScout0.png|175px]]
-|[[File:InternScout0.png|175px]]
-|-
-!Skin
-|{{Color|Eclipse|Eclipse}}
-|{{Color|Lovely|Valentines}}
-|{{Color|EndOfSummer|Beach}}
-|{{Color|Premium|Intern}}
-|-
-!Rarity
-|{{Color|Event}}
-|{{Color|Common}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|4,000}}
-|N/A
-|{{Robux|120}}
-|-
-!Obtained From 
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
-|[[End of Summer Season#Season Pass|End of Summer Season]]
-|[[Premium Crate]],<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
-|-
-!
-|[[File:PR_Scout_LVL0.png|175px]]
-|[[File:HolidayScout0.png|175px]]
-|[[File:CookieScout0.png|175px]]
-|[[File:NewFrostHunterScout0.png|175px]]
-|-
-!Skin
-|{{Color|Other|Prime Raven}}
-|{{Color|Jolly|Holiday}}
-|{{Color|Other|Cookie}}
-|{{Color|ColdFront|Frost Hunter}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Event}}
-|{{Color|Exclusive}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|5,000}}
-|N/A
-|{{Coins|3,000}}
-|-
-!Obtained From 
-|{{RLinkC|10911743463|Raven Hunter Hood}} from Amazon Prime Gaming
-|[[Jolly Crate]],<br/>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
-|[[Codes|Code]]:<br/>M3RRY2022TDS<ref>Expired.</ref>
-|[[Cold Front Crate]]
-|-
-!
-|[[File:PlushScout_0.png|175px]]
-|[[File:DuckyScout0.png|175px]]
-|[[File:SkullScout0_(1).png|175px]]
-|[[File:MasquerateScout0.png|175px]]
-|-
-!Skin
-|{{Color|Other|Plushie}}
-|{{Color|Ducky|Ducky}}
-|{{Color|Halloween|Skull Trooper}}
-|{{Color|Lunar|Masquerade}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Common}}
-|{{Color|Exclusive}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|3,000}}
-|{{Coins|5,000}}
-|N/A
-|-
-!Obtained From 
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Obtained by purchasing a [[Scout Plush]].</ref>
-|[[Ducky Crate]]
-|[[Halloween Crate]]
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|-
-!
-|[[File:PhantomScout0.png|175px]]
-|[[File:VScout0.png|175px]]
-|[[File:ToiletScoutL0.png|175px]]
-|[[File:GuestScout0.png|175px]]
-|-
-!Skin
-|{{Color|Phantom|Phantom}}
-|{{Color|Krampus|Valhalla}}
-|{{Color|Premium|Toilet}}
-|{{Color|Classic|Guest}}
-|-
-!Rarity
-|{{Color|Uncommon}}
-|{{Color|Event}}
-|{{Color|Legendary}}
-|{{Color|Exclusive}}
-|-
-!Daily Store Cost
-|{{Robux|249}}
-|N/A
-|{{Robux|190}}
-|N/A
-|-
-!Obtained From
-|[[Phantom Crate]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
-|[[Premium Crate]] (Formerly),<ref>Limited time skin obtainable between the 1st of April 2024 and 7th of April 2024.</ref><br/>Triumph [[Headache Headquarters]] (Formerly)<ref name="sandbox">Not via [[Sandbox Mode|Sandbox]] mode.</ref>
-|Triumph [[Classic Castle]] (Formerly)<ref name="sandbox"/>
-|-
-!
-|[[File:FallenScoutLv0.png|175px]]
-|[[File:KingofRockScout0.png|175px]]
-|[[File:Haz3mnScout0.png|175px]]
-|[[File:SharkScout0.png|175px]]
-|-
-!Skin
-|{{Color|FallenMission|Fallen}}
-|{{Color|Hexscape|King of Rock}}
-|{{Color|PlsDonate|Haz3mn}}
-|{{Color|Surf|Shark}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Common}}
-|{{Color|Event}}
-|{{Color|Uncommon}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|''The Underworld Dreg'' [[Mission Quests|Mission Quest]]
+|[[Premium Crate]] (Formerly)<ref>Limited time skin obtainable between the 1st of April 2024 and 7th of April 2024.</ref>
+|[[Premium Crate]]
 |[[Hexscape Event#Hexscape Event Battle Pass|Hexscape Event Regular Battle Pass]]
-|Triumph [[Pls Donate]] Easy difficulty
-|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Regular Battle Pass]]
 |-
 !
-|[[File:BannedScoutLevel0.png|175px]]
-|[[File:PinguScout0.png|175px]]
+|[[File:DFSoldier0.png|175px]]
+|[[File:KorbloxSoldier0.png|175px]]
+|[[File:BunnySoldier0.png|175px]]
+|[[File:NullSoldier0Noseless.png|175px]]
 |-
 !Skin
-|{{Color|Banned|Banned}}
-|{{Color|FinalAct|Penguin}}
+|{{Color|OperationICE|Dark Frost}}
+|{{Color|Korblox|Korblox}}
+|{{Color|DuckyRevenge|Bunny}}
+|{{Color|Null|Null}}
 |-
 !Rarity
-|{{Color|Exclusive}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
+|{{Color|Uncommon}}
 |{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |N/A
+|N/A
+|N/A
 |-
 !Obtained From
-|[[Banned Crate]]
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|[[The Hunt: Mega Edition Event]] Easy Difficulty
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Regular Battle Pass]]
+|-
+!
+|[[File:PatrioticSoldierIconIG.png|175px]]
+|[[File:BeachSoldierIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Patriotic}}
+|{{Color|Beach}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|{{Coins|6,500}}
+|{{Coins|6,500}}
+|-
+!Obtained From
+|[[Patriotic Crate]]
+|[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Scout''' is mainly used as an early-game tower due to its cheap price and great cost efficiency compared to other towers.
-**After the [[Fallen Shield]] debut in [[Fallen Mode|Fallen]] mode, the '''Scout''' becomes weak against the enemies that spawn, mainly due to its minimal DPS.
-*Early on, placing down multiple Level 2 '''Scouts''' can be effective due to their cheap hidden detection, decent damage and acceptable firerate.
-**Later on, upgrading them to Level 3 or 4 is advised, as they are more cost efficient than previous levels.
-*The '''Scout''' has cheap hidden detection. Accordingly, the '''Scout''' can be used to defend against weaker [[Hidden (Attribute)|Hidden]] enemies, like the [[Hidden]] and [[Molten Demon]], while you can work on getting more expensive towers and upgrades.
-**Later on during the game, towers that deal more DPS, such as the [[Minigunner]], are more efficient at dealing with stronger [[Hidden (Attribute)|Hidden]] enemies like [[Hidden Boss]]es.
-*The '''Scout''' can be used as a cheap way to distract enemies, like [[Patient Zero]], from using their abilities on superior towers, like the [[Turret]].
-**This is only advised if you have brought the '''Scout''' to deal with the early waves. It is not advised to bring the '''Scout''' for the sole purpose of feigning abilities.
-***Additionally, if you have other towers that will contribute more to overall DPS, it is advised to maximize the placement limit for these towers before preparing feigning '''Scouts'''.
-*The [[DJ Booth]] is useful to increase the '''Scout's''' somewhat short range.
-**Due to the cheap placement cost of the '''Scout''',  it may be cost efficient to place multiple '''Scouts''' around the [[DJ Booth]] to use in conjunction with its ''Drop the Beat'' ability, on the green track, to generate cash.
+*The '''Soldier''' is an effective early-game tower at Level 2, having high DPS for a cheap price.
+**By mid-game, you should have multiple Level 3–4 '''Soldiers''', as they can effectively kill enemies that appear there, such as the [[Dark Necromancer]] or [[Slow Boss]].
+***However, it loses value as the waves progress due to its DPS being too low to deal with high health enemies that appear later on during the game.
+***It should not be relied on late-game if you have better towers and can be replaced by towers like the [[Minigunner]] or [[Ranger]].
+*The '''Soldier''' is able to change targets between bursts if another enemy enters its range. 
+**This avoids the need to swap targets from time to time.
+*The '''Soldier's''' firerate can be boosted by the [[Commander]].
+**However, the '''Soldier's''' cooldown cannot be decreased.
+**However, it is not recommended to prioritize this tower over higher DPS alternatives such as the [[Minigunner]] and [[Turret]].
 
 ==Trivia==
-*The '''Scout's''' name, appearance and function is loosely based on the ''Tower Battles<nowiki>'</nowiki>''  [[w:c:roblox-tower-battles:Scout|Scout]].
-*When the game was in Alpha, and for a while after BETA release, the '''Scout's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "''sans gun''".
-*The '''Scout''' has the second lowest placement cost in the game, only {{Money|25}} behind the [[Paintballer]].
-**However, the [[Golden Snowballer]] is technically the cheapest placement cost in the game, being {{Money|67}}, but it is only available to developers.
-**Additionally, its Level 1 upgrade cost is the second cheapest upgrade in the game, just {{Money|25}} behind the [[Paintballer]]'s Level 1 upgrade cost.
-*The [[SCT]] from the [[Hidden Wave (Legacy)|legacy Hidden Wave]], the [[Scout (Pizza Party)|Scout]] from [[Pizza Party]] and the [[Null Scout]] from the [[Null & Void Event|Null & Void]] event are based on this tower.
-*The '''Scout''' used to appear alongside the [[Pyromancer]], [[Commander]], [[Sniper]] and [[Minigunner]] on the "Triumph" screen before the [[v1.8.0|Community Maps Update]].
-*The '''Scout''' and the [[Sniper]] are the only towers which can be unlocked without any requirements or currency.
-*The '''Scout''' currently appears in the loading screen image alongside the [[Commander]], [[Engineer]], [[Pyromancer]] and the [[DJ Booth]].
+*When the game was in Alpha, and for a while after BETA release, the '''Soldier's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "''sans gun''".
+*The '''Soldier's''' name and function is very loosely based on the [[w:c:roblox-tower-battles:Soldier|Soldier]] from ''Tower Battles''.
+*The '''Soldier''', along with the [[Turret]], are the first towers to have toys made based on them.
+**They are also the first to have mini-figures made based on them, as they appear in the [[Roblox Core Pack - Tower Defense Simulator]].
+*Prior to the [[v1.0.0|Solar Eclipse Update]], the '''Soldier''' alongside the [[Commander]] used to appear on the triumph screen.
 
-==Update History==
+== Update History ==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 
 {{Scroll|text=
 *'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
-**'''Scout''' added.
+**'''Soldier''' added.
+*'''15 August 2019''' - [[BETA v1.10|BETA v1.10.0]]
+**Unlock cost increased from {{Coins|100}} to {{Coins|250}}.
 *'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
-**Upgrade names added.
 **Statistical changes:
 ***'''Base'''
-****Range increased from 9 to 12.
+****Range increased from 8 to 12.
+***'''Level 2'''
+****Damage decreased from +1 to +0.
 ***'''Level 3'''
-****Damage increased from +1 to +2.
-****Firerate changed from {{Tooltip|1.05 > 0.7|-0.35}} to 1.05.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|0.7 > 0.55|-0.15}} to {{Tooltip|1.05 > 0.55|-0.5}}.
-***'''Level 5'''
-****Damage increased from +1 to +2.
-**New skins: {{Color|Basic|Red}}, {{Color|Basic|Green}}, {{Color|Basic|Blue}}, {{Color|Premium|Survivor}}, {{Color|Premium|Black Ops}}
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1]]
-**New skin: {{Color|Golden}}
-*'''27 October 2019''' - [[Release v1.1|Release v1.1.1a]]
-**{{Color|Golden}} skin Level 5 [[Damage Buff]] decreased from 300% to 200%.
+****Damage decreased from +3 to +2.
+**New skins: {{Color|Basic|Red}}, {{Color|Basic|Blue}}, {{Color|Premium|Cold Soldier}}
 *'''9 November 2019''' - [[Release v1.2|Release v1.2.0]]
-**{{Color|Golden}} skin upgrade costs increased by 50%.
-***{{Bug}} {{Color|Golden}} skin upgrade costs do not increase despite its display.
-**{{Color|Golden}} [[Damage Buff]] can now stack with other [[Damage Buff]]s.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**{{Color|Golden}} skin upgrade costs increased from 50% to 100%.
-**{{Bugfix}} {{Color|Golden}} skin upgrade costs are now properly shown.
+**[[Commander]] now reduces cooldown four-fold.
+**{{Bug}} Level 4 firerate decrease does not occur.
 *'''1 January 2020''' - [[Release v1.5|Release v1.5.1]]
 **New skin: {{Color|Party|Party}}
-*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
-**Statistical changes:
-***'''Level 3'''
-****Range decreased from +1 to +0.
-*****{{Bug}} This was not changed in the upgrade description.
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
-*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**{{Bugfix}} Level 3 upgrade description is now correct.
-*'''29 October 2020''' - [[Overhaul v1.0]]
-**Firerate decreased as the severity of the [[Firerate Bug]] was reduced.
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**New SFX.
+*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
+**New skin: {{Color|Toy|Toy}}
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Unlock cost increased from {{Coins|250}} to {{Coins|350}}.
+**Upgrade names added.
+**[[Commander]] now reduces cooldown by stated percentage.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|250}} to {{Money|200}}.
-****Firerate increased from 1.05 to 1.53.
+****Range decreased from 12 to 10.
+****Firerate decreased from 0.25 to 0.23.
+****Cooldown increased from 1 to 1.2.
 ***'''Level 1'''
-****Cost decreased from {{Money|100}} to {{Money|50}}.
-***'''Level 2'''
-****Cost increased from {{Money|200}} to {{Money|300}}.
-****Renamed from ''Cool Shades'' to ''Precise Aiming''.
-***'''Level 3'''
-****Cost increased from {{Money|500}} to {{Money|600}}.
-****Damage decreased from +2 to +1.
-****Firerate changed from 1.05 to {{Tooltip|1.53 > 0.78|-0.5}}.
-****Renamed from ''Scouting Vest'' to ''Double Tap''.
-***'''Level 4'''
-****Damage increased from +1 to +2.
-****Firerate changed from {{Tooltip|1.05 > 0.55|-0.5}} to 0.78.
-****Range increased from +0 to +1.
-****Renamed from ''Dual-Wield'' to ''Field Operator''.
-***'''Level 5 removed'''
-*'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-**Statistical changes:
-***'''Level 1'''
-****Range decreased from +2 to +0.
-****Firerate changed from 1.5 to {{Tooltip|1.53 > 1.23|-0.3}}.
-****Renamed from ''Laser Sight'' to ''Faster Reloading''.
-***'''Level 2'''
-****Damage increased from +0 to +1.
-***'''Level 3'''
-****Cost increased from {{Money|600}} to {{Money|800}}.
-****Damage increased from +1 to +2.
-****Firerate changed from {{Tooltip|1.53 > 0.78|-0.75}} to {{Tooltip|1.23 > 0.83|-0.4}}.
-****Renamed from ''Double Tap'' to ''Stronger Equipment''.
-***'''Level 4'''
-****Cost increased from {{Money|1,000}} to {{Money|2,000}}.
-****Damage decreased from +3 to +0.
 ****Range increased from +1 to +2.
-****Firerate changed from 0.78 to {{Tooltip|0.83 > 0.43|-0.4}}.
-****Renamed from ''Field Operator'' to ''Double Tap''.
+***'''Level 2'''
+****Range decreased from +2 to +1.
+***'''Level 3'''
+****Firerate changed from 0.25 to {{Tooltip|0.23 > 0.18|-0.05}}.
+****Damage decreased from +2 to +1.
+****Cost decreased from {{Money|1,500}} to {{Money|1,400}}.
+****Cooldown decreased from 1 to {{Tooltip|1.2 > 0.85|-0.35}}.
+***'''Level 4'''
+**** Firerate changed from {{Tooltip|0.2 > 0.15|-0.05}} to 0.15.
+****Damage increased from +2 to +3.
+****Burst count increased from +0 to +1.
+****Cost increased from {{Money|3,100}} to {{Money|5,500}}.
+***'''Level 5 removed'''
+****Original statistics:
+*****Cost: {{Money|5,500}}
+*****+3 Damage
+*****+2 Range
+**New skins: {{Color|Premium|Doughboy}}, {{Color|Golden}}
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**Level 2 upgrade name changed from ''Radio'' to ''Radio Communications''.
 *'''13 February 2022''' - [[v1.0.2]]
-**New skin: {{Color|SeasonOfLove|Valentines}}
-*'''12 March 2022''' - [[v1.1.0]]
-**Firerate decreased as the severity of the [[Firerate Bug]] was reduced.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 1.53 to 1.525.
+****Cost decreased from {{Money|375}} to {{Money|350}}.
+****Range increased from 10 to 13.
+****Firerate decreased from 0.23 to 0.18.
+****Cooldown decreased from 1.2 to 1.
 ***'''Level 1'''
-****Firerate decreased from {{Tooltip|1.53 > 1.23|-0.3}} to {{Tooltip|1.525 > 1.225|-0.3}}.
+****Name changed from ''Laser Sight'' to ''Better Vision''.
+***'''Level 2'''
+****Cost increased from {{Money|300}} to {{Money|500}}.
+****Name changed from ''Radio Communications'' to ''Better Aiming''.
+****Damage increased from +0 to +1.
 ***'''Level 3'''
-****Firerate decreased from {{Tooltip|1.23 > 0.83|-0.4}} to {{Tooltip|1.225 > 0.825|-0.4}}.
+****Name changed from ''Up Skill'' to ''Equipment Upgrades''.
+****Cost increased from {{Money|1,400}} to {{Money|1,500}}.
+****Range decreased from +1 to +0.
+****Burst changed from 3 > 4 to 3 > 5.
+****Cooldown changed from {{Tooltip|1.2 > 0.85|-0.35}} to 1.
+****Firerate changed from {{Tooltip|0.23 > 0.18|-0.05}} to 0.18.
 ***'''Level 4'''
-****Firerate decreased from {{Tooltip|0.83 > 0.43|-0.4}} to {{Tooltip|0.825 > 0.425|-0.4}}.
+****Cost decreased from {{Money|5,500}} to {{Money|3,750}}.
+****Range increased from +1 to +2.
+****Burst changed from 4 > 5 to 5 > 8.
+****Firerate changed from  0.18 to <abbr title="-0.05>0.18 > 0.13</abbr>.
+**New skin: {{Color|SeasonOfLove|Valentines}}
+**{{Color|Golden}} skin burst increase decreased on Level 3 from +4 to +2, and Level 4 from +10 to +4.
+**{{Bug}} Statistics in the lobby are not updated.
+**{{Bug}} Cooldown animation is sligthly longer than the cooldown statistic.
+*'''12 March 2022''' - [[v1.1.0]]
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**[[Commander]] can no longer decrease its cooldown.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.18 to 0.175.
+***'''Level 4'''
+****Cost increased from {{Money|3,750}} to {{Money|4,000}}.
+****Burst changed from 5 > 8 to 5 > 7.
+****Firerate changed from {{Tooltip|0.18 > 0.13|-0.05}} to {{Tooltip|0.175 > 0.15|-0.025}}.
+**{{Color|Golden}} skin burst increase decreased on Level 4 from +4 to +3.
+*'''17 April 2022''' - [[v1.2.0]]
+**New skin: {{Color|DuckHunt|Ducky}}
 *'''13 May 2022''' - [[v1.2.2]]
 **{{Color|Golden}} skin buffs removed.
-*'''5 August 2022''' - [[v1.3.1]]
-**New skin: {{Color|EndOfSummer|Beach}}
+**Statistical changes:
+***'''Level 4'''
+****Cost increased from {{Money|4,000}} to {{Money|5,000}}.
 *'''30 September 2022''' - [[v1.4.0]]
-**New skins: {{Color|Philips|Intern}}, {{Color|Other|Prime Raven}}
+**New skin: {{Color|Philips|Grand Theft}}
+*'''31 October 2022''' - [[v1.4.2]]
+**{{Bug}} {{Color|Golden}} skin uses incorrect animations in the lobby.
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-**{{Color|Basic|Survivor}} skin rarity changed from {{Color|Uncommon}} to {{Color|Rare}}.
-**New skins: {{Color|ViolentNight|Holiday}}, {{Color|Other|Cookie}}
-*'''14 February 2023''' - [[V1.6.2]]
-**New skin: {{Color|ColdFront|Frost Hunter}}
-*'''14 April 2023''' - [[V1.7.1]]
-**New skin: {{Color|Other|Plushie}}
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''28 October 2023''' - [[v1.9.0]]
-**New skins: {{Color|Halloween|Skull Trooper}}, {{Color|Lunar|Masquerade}}
+**{{Color|Premium|Cold Soldier}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''14 February 2023''' - [[v1.6.2]]
+**{{Color|Lovely|Valentines}} skin rarity changed from {{Color|Event}} to {{Color|Common}}.
+*'''21 March 2023''' - [[v1.6.3]]e
+**Statistical Changes:
+***'''Level 4'''
+****Cost decreased from {{Money|5,000}} to {{Money|3,500}}.
+****Name changed from ''Deadliest's Soldier'' to ''Deadliest Soldier''.
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Color|DuckHunt|Ducky}} skin rarity changed from {{Color|Event}} to {{Color|Common}}.
+**{{Bugfix}} {{Color|Golden}} skin now uses correct animations in the regular lobby.
 *'''21 December 2023''' - [[v1.11.0]]
-**New skins: {{Color|Phantom|Phantom}}, {{Color|Krampus|Valhalla}}
-*'''15 March 2024''' - [[v1.16.0]]
-**Statistical changes:
-***'''Base'''
-****Damage increased from 1 to 2.
-***'''Level 2'''
-****Cost increased from {{Money|300}} to {{Money|350}}.
-***'''Level 3'''
-****Cost increased from {{Money|800}} to {{Money|900}}.
-****Damage decreased from +2 to +1.
-***'''Level 4'''
-****Cost increased from {{Money|2,000}} to {{Money|2,500}}.
-****Damage increased from +0 to +1.
-****Firerate decreased from {{Tooltip|0.825 > 0.425|-0.4}} to {{Tooltip|0.825 > 0.275|-0.55}}.
-*'''17 March 2024''' - [[v1.16.0]]b
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 2 to 1.
-***'''Level 2'''
-****Cost decreased from {{Money|350}} to {{Money|300}}.
-***'''Level 3'''
-****Cost decreased from {{Money|900}} to {{Money|800}}.
-****Damage increased from +1 to +2.
-***'''Level 4'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,000}}.
-****Firerate decreased from {{Tooltip|0.825 > 0.275|-0.55}} to {{Tooltip|0.825 > 0.425|-0.4}}.
-**{{Bug}} '''Scout''' displays outdated stats in the lobby.
-*'''22 March 2024''' - [[v1.16.0]]e
-**Statistical changes:
-***'''Level 4'''
-****Damage decreased from +1 to +0.
-**{{Bugfix}} '''Scout''' stats in the lobby are now correct.
+**Unlock cost increased from {{Coins|350}} to {{Coins|400}}.
+**{{Color|Deluxe|Grand Theft}} skin rarity changed from {{Color|Legendary}} to {{Color|Common}}.
+**New skin: {{Color|Krampus|Beast Slayer}}
+*'''28 January 2024''' - [[v1.12.0]]
+**{{Bug}} {{Color|Krampus|Beast Slayer}} is removed from the game.
+*'''28 January 2024''' - [[v1.12.0]]a
+**{{Bugfix}} {{Color|Krampus|Beast Slayer}} skin is now in the game again.
+*'''31 January 2024''' - [[v1.12.0]]c
+**{{Color|Krampus|Beast Slayer}} skin rarity changed from {{Color|Common}} to {{Color|Event}}.
+*'''29 March 2024''' - [[v1.17.0]]
+**New skin: {{Color|Premium|Liberator}}
 *'''1 April 2024''' - [[v1.17.0]]b
 **New skin: {{Color|Premium|Toilet}}
 **{{Bug}} {{Color|Premium|Toilet}} skin cannot be equipped in the intermission lobby.
 **{{Bug}} {{Color|Premium|Toilet}} skin breaks the tower icon and stats in the tower hotbar.
 *'''1 April 2024''' - [[v1.17.2]]
-**{{Bugfix}} {{Color|Premium|Toilet}} skin can now be equipped in the intermission lobby.
+**{{Bugfix}} {{Color|Premium|Toilet}} skin now can be equipped in the intermission lobby.
 **{{Bugfix}} {{Color|Premium|Toilet}} skin no longer breaks the tower icon and stats in the tower hotbar.
-*'''5 April 2024''' - [[v1.18.0]]
+*'''3 May 2024''' - [[v1.20.0]]
 **Statistical changes:
-***'''Base'''
-****Firerate decreased from 1.525 to 1.225.
-***'''Level 1'''
-****Cost decreased from {{Money|50}} to {{Money|25}}.
-****Firerate decreased from {{Tooltip|1.525 > 1.225|-0.3}} to {{Tooltip|1.225 > 1.025|-0.2}}.
 ***'''Level 2'''
-****Cost decreased from {{Money|300}} to {{Money|250}}.
+****Cost decreased from {{Money|500}} to {{Money|400}}.
+****Burst changed from 3 to 3 > 4.
 ***'''Level 3'''
-****Cost decreased from {{Money|800}} to {{Money|750}}.
-****Firerate decreased from {{Tooltip|1.225 > 0.825|-0.4}} to {{Tooltip|1.025 > 0.625|-0.4}}.
+****Damage increased from +1 to +2.
+****Burst changed from 3 > 5 to 4 > 5.
+****Cooldown changed from 1 to {{Tooltip|1 > 0.8|-0.2}}.
 ***'''Level 4'''
-****Cost increased from {{Money|2,000}} to {{Money|2,250}}.
-****Damage increased from +0 to +1.
-****Firerate decreased from {{Tooltip|0.825 > 0.425|-0.4}} to {{Tooltip|0.625 > 0.325|-0.3}}.
-*'''23 May 2024''' - [[v1.23.0]]
-**New skin: {{Color|Classic|Guest}}
+****Cost increased from {{Money|3,500}} to {{Money|4,750}}.
+****Damage increased from +3 to +4.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to {{Tooltip|0.15 > 0.12|-0.03}}, however, because of the bug the firerate is effectively the same without [[Firerate Buff]]s.
 *'''21 June 2024''' - [[v1.25.0]]
 **{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
 *'''2 August 2024''' - [[v1.27.0]]
-**New skin: {{Color|FallenMission|Fallen}}
 **{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
-*'''9 August 2024''' - [[v1.27.5]]
-**{{Color|FallenMission|Fallen}} skin rarity changed from {{Color|Exclusive}} to {{Color|Rare}}.
-*'''16 October 2024''' - [[v1.36.0]]
-**Level 4 upgrade name changed from ''Double Tap'' to ''Akimbo Handguns''.
+*'''11 September 2024''' - [[v1.31.0]]
+**New skin: {{Color|Premium|Stealth Ops}}
 *'''23 October 2024''' - [[v1.37.0]]
-**New skin: {{Color|Hexscape|King of Rock}}
-*'''13 November 2024''' - [[v1.41.0]]
-**New skin: {{Color|PlsDonate|Haz3mn}}
-*'''26 March 2025''' - [[v1.58.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|200}} to {{Money|150}}.
-****Firerate decreased from 1.225 to 1.125.
-***'''Level 1'''
-****Cost increased from {{Money|25}} to {{Money|50}}.
-****Firerate changed from {{Tooltip|1.225 > 1.025|-0.2}} to {{Tooltip|1.125 > 0.825|-0.3}}.
-***'''Level 2'''
-****Cost decreased from {{Money|250}} to {{Money|200}}.
-***'''Level 3'''
-****Cost increased from {{Money|750}} to {{Money|950}}.
-****Damage increased from +4 to +6.
-****Firerate increased from {{Tooltip|1.025 > 0.625|-0.4}} to {{Tooltip|0.825 > 0.725|-0.1}}.
-***'''Level 4'''
-****Cost increased from {{Money|2,250}} to {{Money|2,500}}.
-****Damage increased from +1 to +2.
-****Firerate increased from {{Tooltip|0.625 > 0.325|-0.3}} to {{Tooltip|0.725 > 0.325|-0.35}}.
+**New skin: {{Color|Hexscape|Aerobics}}
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Dark Frost}}
+*'''13 March 2025''' - [[v1.57.0|v1.57.7]]
+**New skin: {{Color|Korblox|Korblox}}
 *'''9 April 2025''' - [[v1.60.0]]
 **Offense role added.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Shark}}
+*'''16 March 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Bunny}}
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost reduced from {{Coins|400}} to {{Coins|350}}.
 *'''23 July 2025''' - [[v1.71.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Cost increased from {{Money|150}} to {{Money|300}}.
-****Damage increased from 1 to 3.
-****Range increased from 12 to 14.
-****Firerate decreased from 1.125 to 0.925.
+****Cost increased from {{Money|350}} to {{Money|450}}.
+****Range increased from 13.
+****Burst increased from 3 to 4.
+****Cooldown decreased from 1 to 0.4.
+****Flying detection added.
 ***'''Level 1'''
-****Cost increased from {{Money|50}} to {{Money|100}}.
-****Damage increased from +0 to +1.
-****Range increased from +0 to +1.
-****Firerate changed from {{Tooltip|1.125 > 0.825|-0.3}} to 0.925.
-***'''Level 2'''
-****Cost increased from {{Money|200}} to {{Money|650}}
-****Damage increased from +1 to +4.
-****Range decreased from +2 to +1.
-****Firerate changed from 0.808 to {{Tooltip|0.925 > 0.775|-0.15}}.
-***'''Level 3'''
-****Cost increased from {{Money|950}} to {{Money|1,600}}.
-****Range increased from +0 to +2.
-****Firerate changed from {{Tooltip|0.825 > 0.725|-0.1}} to {{Tooltip|0.775 > 0.525|-0.25}}.
-***'''Level 4'''
-****Cost increased from {{Money|2,500}} to {{Money|3,250}}.
-****Damage increased from +2 to +4.
+****Cost increased from {{Money|100}} to {{Money|200}}.
+****Firerate changed from 0.175 to {{Tooltip|0.175 > 0.15|-0.025}}.
 ****Range decreased from +2 to +0.
-****Firerate changed from {{Tooltip|0.725 > 0.375|-0.35}}  to {{Tooltip|0.525 > 0.325|-0.2}}.
-*'''6 August 2025''' - [[v1.72.0]]
-**Statistical changes ([[PVP]]):
+****Burst changed from 3 to 4 > 6.
+****Cooldown changed from 1 to {{Tooltip|0.4 > 0.3|-0.1}}.
+***'''Level 2'''
+****Cost increased from {{Money|400}} to {{Money|800}}.
+****Range increased from +1 to +2.
+****Burst changed from 3 > 4 to 6.
 ***'''Level 3'''
-****Cost increased from {{Money|1,600}} to {{Money|1,800}}.
-****Range decreased from +2 to +1.
+****Cost increased from {{Money|1,500}} to {{Money|3,000}}.
+****Damage increased from +2 to +3.
+****Range increased from +0 to +2.
+****Burst changed from 4 > 5 to 6 > 8.
+****Cooldown changed from {{Tooltip|1 > 0.8|-0.2}} to 0.3.
 ***'''Level 4'''
-****Damage decreased from +4 to +2.
-*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]
-**New skin: {{Color|Banned|Banned}}
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Penguin}}
+****Cost increased from {{Money|4,750}} to {{Money|8,000}}.
+****Damage decreased from +4 to +5.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.15 > 0.125|-0.025}}.
+****Range decreased from +2 to +0.
+****Burst changed from 5 > 7 to 8 > 10.
+****Cooldown changed from 0.8 to {{Tooltip|0.3 > 0.2|-0.1}}.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Null}}.
+*'''28 January 2026''' - [[v1.84.0]]
+**Statistical changes (Regular):
+***'''Base'''
+****Range increased from 13 to 17.
+****Cooldown decreased from 1 to 0.85.
+***'''Level 1'''
+****Cost decreased from {{Money|100}} to {{Money|50}}.
+****Firerate changed from 0.175 to {{Tooltip|0.175 > 0.125|-0.05}}.
+****Range decreased from +2 to +0.
+***'''Level 2'''
+****Cost increased from {{Money|400}} to {{Money|650}}.
+****Range increased from +1 to +2.
+****Burst changed from 3 to 3 > 4.
+***'''Level 3'''
+****Cost increased from {{Money|1,500}} to {{Money|2,250}}.
+****Burst changed from 4 > 5 to 4 > 6.
+****Cooldown changed from {{Tooltip|1 > 0.8|-0.2}} to {{Tooltip|0.85 > 0.6|-0.25}}.
+***'''Level 4'''
+****Cost decreased from {{Money|4,750}} to {{Money|4,600}}.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to 0.125.
+****Range increased from +2 to +3.
+****Burst changed from 5 > 7 to 6 > 8.
+****Flying detection added.
 *'''11 March 2026''' - [[v1.86.0]]
 **Statistical changes (Regular):
 ***'''Base'''
-****Cost decreased from {{Money|150}} to {{Money|125}}.
-****Firerate decreased from 1.125 to 1.025.
+****Cost increased from {{Money|350}} to {{Money|400}}.
+****Burst cooldown decreased from 0.85 to 0.55.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|1.125 > 0.825|-0.3}} to {{Tooltip|1.025 > 0.775|-0.25}}.
-***'''Level 2'''
-****Cost increased from {{Money|200}} to {{Money|375}}
-****Damage increased from +1 to +2.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to {{Tooltip|0.175 > 0.15|-0.025}}.
+****Name changed from ''Better Vision'' to ''Barracks Training''.
 ***'''Level 3'''
-****Cost increased from {{Money|950}} to {{Money|1,350}}.
-****Damage increased from +4 to +5.
-****Firerate changed from {{Tooltip|0.825 > 0.725|-0.1}} to {{Tooltip|0.775 > 0.625|-0.15}}.
-****Range increased from +0 to +2.
+****Cost decreased from {{Money|2,250}} to {{Money|1,350}}.
+****Damage decreased from +2 to +1.
+****Burst count changed from 4 > 6 to 4 > 8.
+****Burst cooldown changed from {{Tooltip|0.85 > 0.6|-0.25}} to {{Tooltip|0.55 > 0.4|-0.15}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,200}}.
-****Damage decreased from +2 to +0.
-****Firerate changed from {{Tooltip|0.725 > 0.375|-0.35}} to {{Tooltip|0.625 > 0.325|-0.3}}.
-****Range decreased from +2 to +0.
+****Cost increased from {{Money|4,600}} to {{Money|5,000}}.
+****Damage increased from +4 to +5.
+****Burst changed from 6 > 8 to 8 > 12.
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
 **Statistical changes (Regular):
 ***'''Base'''
-****Firerate decreased from 1.025 to 1.
+****Without [[Firerate Bug]], firerate increased from 0.15 to 0.175, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+****Cooldown decreased from 0.55 to 0.5.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|1 > 0.75|-0.3}}.
-****Hidden detection removed, moved to Level 2.
+****Cost increased from {{Money|50}} to {{Money|100}}.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to {{Tooltip|0.175 > 0.15|-0.025}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+****Cooldown changed from 0.55 to {{Tooltip|0.5 > 0.4|-0.1}}.
+***'''Level 2'''
+****Cost increased from {{Money|650}} to {{Money|700}}.
 ***'''Level 3'''
-****Firerate changed from {{Tooltip|0.775 > 0.625|-0.1}} to {{Tooltip|0.75 > 0.65|-0.1}}.
+****Cost increased from {{Money|1,350}} to {{Money|1,850}}.
+****Damage increased from +1 to +2.
+****Cooldown changed {{Tooltip|0.55 > 0.4|-0.15}} to 0.4.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|0.625 > 0.325|-0.3}} to {{Tooltip|0.65 > 0325|-0.325}}.
+****Cost increased from {{Money|5,000}} to {{Money|6,000}}.
+****Damage increased from +5 to +6.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased from 0.925 to 0.9.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|0.925 > 0.775|-0.15}} to {{Tooltip|0.9 > 075|-0.15}}.
+****Firerate decreased from 0.175 to 0.15.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.15 > 0.12|-0.03}}.
 ***'''Level 3'''
-****Damage decreased from +4 to +2.
-****Firerate changed from {{Tooltip|0.775 > 0.525|-0.25}} to {{Tooltip|0.75 > 0.5|-0.25}}.
+****Damage decreased from +3 to +2.
 ***'''Level 4'''
-****Damage increased from +2 to +3.
-****Firerate changed from {{Tooltip|0.525 > 0.325|-0.2}} to {{Tooltip|0.5 > 0.3|-0.2}}.
-*'''19 June 2026''' - [[v2.1.0]]
-**Now can gain experience which is used to unlock the [[Operator]]. Has 20 levels, a base exp of 50 and a growth rate of 1.09.
+****Damage decreased from +5 to +4.
+****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to {{Tooltip|0.12 > 0.1|-0.02}}.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Patriotic}}
+*'''7 August 2026''' - [[v2.5.0]]
+**New skin: {{Color|Beach}}
 }}
 
 ==Notes==
 <references/>
+
 
 
 {{TowerNavBox}}
