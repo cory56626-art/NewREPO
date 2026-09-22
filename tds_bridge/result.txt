@@ -1,656 +1,976 @@
 {{Tabs}}
-{{For|[[Null Electroshocker]]|[[Shock]]}}
+{{For|[[Null Pursuit]]}}
 {{TowerInfobox
-|title = Electroshocker
-|image-static = DefaultElectroshockerIcon2.png
-|image-dynamic = ElectroshockerDynamic.png
-|unlockcost = {{Coins|2,500}}
-|basecost = {{Money|650}}
-|basesellingprice = {{Money|216}}
-|role = Defense
-|placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]7
-|basedamage = [[File:Damage Icon.png|20px|Damage]]5
-|damagetype = Chain
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.35
-|baserange = [[File:Range Icon.png|20px|Range]]10<br/>[[File:ChainRange.png|20px|Chain Range]]10 (Chain Range)
-|hidden_detection = {{Attr|Hidden|Level 2+}}
-|lead_detection = {{Attr|Lead|Level 0+}} 
-|flying_detection = N/A<ref>Through chaining, [[Flying]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>
-|immune = None
+|title = Pursuit
+|image-static = PursuitNewIcon.png
+|image-dynamic = PursuitDynamic.png
+|unlockcost = {{Coins|15,000}} or {{Robux|1,500}}
+|role = Offense
+|placement = Ground (Air-based)
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]6 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])
+|levelrequirement = {{Level|100}}
+|basecost = {{Money|5,000}}
+|basesellingprice = {{Money|1,666}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]7
+|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 3+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.225
+|baserange = [[File:Range Icon.png|20px|Range]]7
+|hidden_detection = {{Attr|Hidden|Level 4B+}}<ref name=hidden>From Level 3, its missiles can indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 4B.</ref>
+|lead_detection = {{Attr|Lead|Level 3+}} (Splash only)
+|flying_detection = {{Attr|Flying|Level 0+}}
+|immune = Stun<br/>Partial Debuff
 |footprint = 1.5
-|tooltip-1 = An early game tower that unlocks the ability to stun multiple enemies with a chain of lightning at higher levels.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
+|pvp_basecost = {{Money|2,500}}
+|pvp_basesellingprice = {{Money|833}}
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]6
+|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 3+)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.25
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]7
+|pvp_hidden_detection = {{Attr|Hidden|Level 4B+}}<ref name=hidden/>
+|pvp_lead_detection = {{Attr|Lead|Level 1+}}
+|pvp_flying_detection = {{Attr|Flying|Level 0+}}
+|pvp_immune = Stun<br/>Partial Debuff
+|pvp_footprint = 1.5
+|tooltip-1 = An expensive and high damage dealing tower that occasionally fires AOE rockets. Can be ordered to patrol specific areas of the map to provide universal coverage.
+|tooltip-2 = Capable of targeting [[flying]] and [[Lead (Attribute)|lead]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|Zap! An early game tower that can stun enemies at higher levels.|Store Description}}
+{{QuoteBox|Roger that! Pursues enemies in a designated patrol zone and splits into two upgrade paths!|Store Description}}
 |-|Version 2 =
-{{QuoteBox|Zap! Stun enemies and chain your effects!|Former Store Description}}
-|-|Version 3 =
-{{QuoteBox|Shoot a bolt of electricity that chains through nearby zombies.|Former Store Description}}
+{{QuoteBox|Roger that! A vehicle that follows a path and enemies.|Former Store Description}}
+|-|Hardcore Testing =
+{{QuoteBox|Roger that! A vehicle that follows a path and enemies. Unlockable at Lv. 100|Former Store Description}}
+|-|Original =
+{{QuoteBox|Rain fire from the air! A vehicle that follows a path and follows enemies.|Former Store Description}}
 </tabber>}}
 __TOC__
 ==Description==
-The '''Electroshocker''' is an intermediate tower that has the capability to deal damage through chain reactions. At later levels, it also becomes a support tower as it gains the ability to stun enemies and reduce [[Defense]]. It can be purchased in the store for {{Coins|2,500}}. It can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 2 onward.
+The '''Pursuit''' is an advanced tower that can be bought for {{Coins|15,000}} after reaching {{Level|100}} or bought via a gamepass for {{Robux|1,500}}. The '''Pursuit''' patrols a specified area, attacking any enemy that enters it that it can also see in its own range. The area it patrols can be changed with its ''Patrol'' ability. It also has two upgrade paths.
 
-The '''Electroshocker''' shoots a lightning-chain projectile from its ''Electro Gun'' that arcs toward and damages (where applicable) a set number of enemies, targeting the closest enemy to the original target. The '''Electroshocker''' can also stun enemies for 0.1 seconds at Level 0 which increase as with upgrades up to 0.25 seconds at Level 5. This completely stops the enemy. For enemies with [[Stun Immunity]], the enemy is not stunned but rather slowed down by 40%. [[Boss]]es are not slowed down as much as regular enemies, since the slowdown is 20% on them.
+Once an enemy enters its range, it fires upon the enemy that fits its targeting, hovering in the air while it fires at the targeted enemy. It only stops firing when all enemies are killed, or all enemies have left its attacking area. It then resumes patrolling its range. It has a limited amount of ammo which, when it runs out, makes it reload.
 
-From Level 5, it can melt 20% [[Defense]] with every hit, though it can only remove up to 20% of the defense. For example, if an enemy has 50% defense, the defense can be decreased by up to 10%, down to 40%.
+At Level 3, the '''Pursuit''' gains the ability to fire missiles at enemies, which deal splash damage. The explosion is separated into two spheres. Enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. Additionally, the '''Pursuit's''' missiles can damage [[Lead (Attribute)|Lead]] enemies. The '''Pursuit's''' can also detect [[Flying]] enemies because it is an air-based tower. If upgraded to the bottom Level 4, it also can detect [[Hidden (Attribute)|Hidden]] enemies.
 
-The '''Electroshocker''' is considered an all-rounder tower, as its cheap cost allows it to be used for early-game dps, especially against [[Lead (Attribute)|Lead]] enemies, while its stunning capabilities, [[Defense]] reduction, chain damage and decent DPS, especially from Level 4+, make it extremely effective in the mid to late game.
+The '''Pursuit''' is considered to be a mid to late-game tower due to its high DPS and splash damage capabilities, as well as its high cost. 
 
-The '''Electroshocker''' has a placement limit of seven per player.
+The '''Pursuit''' has a placement limit of six per player. This is decreased to five in [[PVP]] mode.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Higher Voltage|Cost = {{Money|275}}|Image = [[File:Common1Image.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-+1 Damage [[File:Damage Icon.png|20px|Range]]
-
-1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = AP Rounds|Cost = {{Money|1,750}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +3 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|308}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Improved Handling|Cost = {{Money|950}}|Image = [[File:Electroshocker_Upgrade_2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|2,250}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Radar|Cost = {{Money|3,000}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-+1 Range [[File:Range Icon.png|20px|Range]]
+0.225 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +25 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+3.5 > 3 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+
+Sell Price changes to {{Money|3,250}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Air to Ground Missiles|Cost = {{Money|4,750}}|Image = [[File:PursuitLevel3.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+{{CollapsibleUpgrade|Title = Unlocks Missiles|Description = •30 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+•4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•4 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
+•2 Missiles
+
+•0.5 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+
+•20 Missile Speed
+}}
+
+
+Sell Price changes to {{Money|4,833}}}}
+{{PathTabber
+|{{Upgrade|Level = Level 4|Upgrade Title = Sky Shredder|Cost = {{Money|15,000}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +6 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.175 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++3 Range [[File:Range Icon.png|20px|Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +125 Ammo [[File:Damage Icon.png|20px|Ammo]]}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +5 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
++2 Missiles
+}}
+
+
+Sell Price changes to {{Money|9,833}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Leviathan|Cost = {{Money|47,500}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +28 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+
+Sell Price changes to {{Money|25,666}}}}
+|{{Upgrade|Level = Level 4|Upgrade Title = Modified Payload|Cost = {{Money|9,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+
++4 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-+1 Max Hits
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +5 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+4 > 7.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
++4 Missiles
+
+0.5 > 0.25 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
 
 
-Sell Price changes to {{Money|625}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Faraday's Vest|Cost = {{Money|2,400}}|Image = [[File:Electroshocker_Upgrade_3.png|100px]]|Information = +12 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|8,000}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Demolition Gunship|Cost = {{Money|13,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
 
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +25 Missile Damage [[File:SplashDamage.png|20px|Damage]]
 
-Sell Price changes to {{Money|1,425}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Shock Force|Cost = {{Money|4,000}}|Image = [[File:Electroshocker_Upgrade_4.png|100px]]|Information = +40 Damage [[File:Damage Icon.png|20px|Damage]]
+7.5 > 8.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
 
-1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++2 Missiles
 
-+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]
-
-+1 Max Hits
-
-0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]
+0.25 > 0.15 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
 
 
-Sell Price changes to {{Money|2,758}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Zeus Cannon|Cost = {{Money|10,000}}|Image = [[File:Electroshocker_Upgrade_5.png|100px]]|Information = +30 Damage [[File: Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|12,500}}}}
+}}
+|{{Upgrade|Level = Level 1|Upgrade Title = .50 Caliber|Cost = {{Money|750}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
 
-+2 Range [[File:Range Icon.png|20px|Range]]
++1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+3 Max Hits
+25 > 16 Speed [[File:SpeedIcon.png|20px|Speed]]
 
-0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]
-
-0% > 20% Defense Melting {{Defense|Defense Melting}}
++Lead Detection {{Lead|Lead Detection}}
 
 
-Sell Price changes to {{Money|6,091}}}}
+Sell Price changes to {{Money|1,083}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Enhanced Radar|Cost = {{Money|1,500}}|Image = [[File:PursuitLevel1.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
+
++3 Damage [[File:Damage Icon.png|20px|Damage]]
+
+16 > 25 Speed [[File:SpeedIcon.png|20px|Speed]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+
+Sell Price changes to {{Money|1,583}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Air to Ground Missiles|Cost = {{Money|3,500}}|Image = [[File:PursuitLevel3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
+0.25 > 0.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +40 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+4 > 3.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Unlocks Missiles|Description = •32 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+•3 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+•7 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
+•2 Missiles
+
+•0.5 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+
+•20 Missile Speed
+}}
+
+
+Sell Price changes to {{Money|2,750}}}}
+{{PathTabber
+|{{Upgrade|Level = Level 4|Upgrade Title = Tri-Barrel Minigun|Cost = {{Money|12,500}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+
++2 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.2 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2.5 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +75 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+3.5 > 3 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+
+•1.5 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +3 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+7 > 6 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
++2 Missiles
+}}
+
+
+Sell Price changes to {{Money|9,016}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Sky Shredder|Cost = {{Money|30,000}}|Image = [[File:PursuitLevelT4.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++14 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.1 > 0.085 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
++2.5 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = +50 Ammo [[File:Damage Icon.png|20px|Ammo]]
+
+3 > 2.5 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = 3 > 4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+0.5 > 0.25 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|16,916}}}}
+|{{Upgrade|Level = Level 4|Upgrade Title = Upgraded Payload|Cost = {{Money|7,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +0.5 Range [[File:Range Icon.png|20px|Range]]
+
++1.5 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
++Hidden Detection {{Hidden|Hidden Detection}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = -7 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
+3 > 6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+
+7 > 3 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]]
+
++4 Missiles
+
+0.5 > 0.25 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|5,250}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Demolition Gunship|Cost = {{Money|22,500}}|Image = [[File:PursuitLevelB4.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]
+
++2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Patrol Range [[File:Range Icon.png|20px|Patrol Range]]
+
+{{CollapsibleUpgrade|Title = Upgraded Ammo|Description = 3.5 > 2.25 Reload Time [[File:Cooldown Icon.png|20px|Reload Time]]
+}}
+
+{{CollapsibleUpgrade|Title = Upgraded Missiles|Description = +35 Missile Damage [[File:SplashDamage.png|20px|Damage]]
+
++2 Missiles
+
+0.25 > 0.15 Burst Time [[File:Cooldown Icon.png|20px|Burst Time]]
+}}
+
+
+Sell Price changes to {{Money|12,750}}}}
+}}
+}}
+
+==Ability==
+{{Ability|Level Unlock = Level 0+|Cooldown Time= 20s Cooldown|Ability Title = Patrol|Image = [[File:PatrolAbility.png|100px]]|Information = Changes the position of its patrol range to the one selected by the player.}}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+''To see all the previous statistics of this tower, see the [[/History|history]] page, while for the statistics without the [[Firerate Bug]], visit the [[Firerate Bug/Pursuit|Firerate Bug]] page.''
 
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Firerate
-$MDPS$ = DPS * Max Hits
-$CE$ = Total Cost / DPS
-$MCE$ = Total Cost / Max DPS
+$DPS2$ = (Damage * Ammo) / (Reload Time + Rev Time + (Firerate * Ammo))
+$DPS$ = (Damage * Ammo) / (Reload Time + (Firerate * Ammo))
+$MDPS$ = (Splash Damage * Missile Count) / (Missile Cooldown + (Burst Time * Missile Count))
+$TDPS$ = Gun DPS + Missile DPS
+$CE$ = Total Cost / Total DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 650; 275; 950; 2400; 4000; 10000
-$FSE-DETECTION$ = 2; 0;
-$FSE-UPGRADE$ = Higher Voltage; Improved Handling; Faraday's Vest; Shock Force; Zeus Cannon
-$FSE-UPGRADEICON$ = 3280081327; 4675534331; 4675521746; 4675504505; 4675504640
-$FSE-META$ = Intermediate; File:DefaultElectroshockerIcon2.png
-$DREF$ = <ref>Assumes that only one enemy is hit per shock.</ref>
-$MREF$ = <ref>Calculated as DPS × Max Hits.</ref>
+$FNC-SCHEMA$ = N; N; N; N; A; A; B; B;
+$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
+$COST$ = 5000; 1750; 3000; 4750; 15000; 47500; 9500; 13500;
+$PVP-COST$ = 2500; 750; 1500; 3500; 12500; 30000; 7500; 22500;
+$FSE-DETECTION$ = ; 3; ; ; 3; ; 4; 3;
+$FSE-PVP-DETECTION$ = ; 1; ; ; 1; ; 4; 1;
+$FSE-UPGRADE$ = AP Rounds; Enhanced Radar; Air to Ground Missiles; Sky Shredder; Leviathan; Modified Payload; Demolition Gunship
+$FSE-PVP-UPGRADE$ = .50 Caliber; Enhanced Radar; Air to Ground Missiles; Sky Shredder; Leviathan; Modified Payload; Demolition Gunship
+$FSE-UPGRADEICON$ = 117186100008439; 117186100008439; 98101516586169; File:PursuitLevelT4.png; File:PursuitLevelT4.png; File:PursuitLevelB4.png; File:PursuitLevelB4.png
+$FSE-META$ = Advanced; File:PursuitNewIcon.png
+$DREF$ = <ref name=dps>Calculated as:<br><math>\frac{\left(\text{Damage}\ \times\ Ammo\right)}{\left(\text{Reload Time}+\left(Firerate\times Ammo\right)\right)}</math></ref>
+$DREF2$ = <ref name=dps2>Calculated as:<br><math>\frac{\left(\text{Damage}\ \times\ Ammo\right)}{\left(\text{Reload Time}+\text{Rev Time}+\left(Firerate\times Ammo\right)\right)}</math></ref>
+$MREF$ = <ref name=missile>Calculated as:<br><math>\frac{\left(\text{Splash Damage} \times\ \text{Missile Count}\right)}{\left(\text{Missile Cooldown}+\left(\text{Burst Time}\times \text{Missile Count}\right)\right)}</math><br>Assumes missiles only hit one enemy.</ref>
 $R$ = $FNC-RECURSION$
 </var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Chain Range !! Max Hits !! Shock Time !! Defense Melt !! DPS$DREF$ !! Max DPS$MREF$ !! Cost Efficiency !! Max Cost Efficiency
+! colspan="20" | Neutral Stats
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || 1.35 || 10 || 10 || 2 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
 |-
-| 1 || $R$ || $R$ || 6 || 1.15 || 12 || 10 || 2 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 7 || N/A || N/A || 50 || 0.225 || N/A || N/A || 3.5 || 7 || 14 || N/A || 45 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 8 || 1.15 || 13 || 10 || 3 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 1 || $R$ || $R$ || 10 || N/A || N/A || 50 || 0.225 || N/A || N/A || 3.5 || 7 || 14 || N/A || 45 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 20 || 1.15 || 13 || 12.5 || 3 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 2 || $R$ || $R$ || 10 || N/A || N/A || 75 || 0.175 || N/A || N/A || 3 || 8 || 16 || N/A || 45 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 60 || 2.5 || 13 || 12.5 || 4 || 0.15 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 3 || $R$ || $R$ || 12 || 30 || 2 || 75 || 0.175 || 4 || 0.5 || 3 || 8 || 16 || 4 || 45 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="20" | Top Path Stats
 |-
-| 5 || $R$ || $R$ || 90 || 2.5 || 15 || 15 || 6 || 0.25 || 20% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 4 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 18 || 35 || 4 || 200 || 0.15 || 4 || 0.5 || 3 || 11 || 20 || 3 || 60 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 46 || 35 || 4 || 200 || 0.15 || 4 || 0.5 || 3 || 11 || 22 || 4 || 60 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="20" | Bottom Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 4 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 35 || 6 || 75 || 0.175 || 4 || 0.25 || 3 || 10 || 20 || 7.5 || 45 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 10 || 60 || 8 || 75 || 0.175 || 4 || 0.15 || 3 || 12 || 22 || 8.5 || 45 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
 |}
 </div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! colspan="21" | Neutral Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Rev Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF2$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 6 || N/A || N/A || 35 || 0.25 || N/A || N/A || 4 || N/A || 7 || 14 || N/A || 30 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 7 || N/A || N/A || 35 || 0.25 || N/A || N/A || 4 || N/A || 8 || 14 || N/A || 16 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 10 || N/A || N/A || 35 || 0.25 || N/A || N/A || 4 || N/A || 9.5 || 16 || N/A || 25 || N/A || $DPS$ || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 10 || 32 || 2 || 75 || 0.2 || 7 || 0.5 || 3.5 || N/A || 10.5 || 16 || 3 || 25 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="21" | Top Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Rev Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF2$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 4 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || 35 || 4 || 150 || 0.1 || 6 || 0.5 || 3 || 1.5 || 11 || 18.5 || 3 || 25 || 20 || $DPS2$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 26 || 35 || 4 || 200 || 0.085 || 6 || 0.25 || 2.5 || 1.5 || 12 || 21 || 4 || 25 || 20 || $DPS2$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+
+{| class="wikitable stats-table"
+! colspan="21" | Bottom Path Stats
+|-
+! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Missile Count !! Ammo !! Firerate !! Missile Cooldown !! Burst Time !! Reload Time !! Rev Time !! Range !! Patrol Range !! Explosion Range !! Speed !! Missile Speed !! Gun DPS$DREF2$ !! Missile DPS$MREF$ !! Total DPS !! Cost Efficiency
+|-
+| 4 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 25 || 6 || 75 || 0.2 || 3 || 0.25 || 3.5 || N/A || 11 || 17.5 || 6 || 25 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 12 || 60 || 8 || 75 || 0.2 || 3 || 0.15 || 2.25 || N/A || 12 || 19.5 || 6 || 25 || 20 || $DPS$ || $MDPS$ || $TDPS$ || {{Money|$CE$}}
+|}
+</div>
+</tabber></div>
 </nowiki>}}
 
 ==Skins==
-''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:ValentinesElectroshockerIcon2.png|175px]]
-|[[File:BunnyElectroshockerIcon2.png|175px]]
-|[[File:HazmatElectroshockerIcon2.png|175px]]
-|[[File:GhostElectroshockerIcon2.png|175px]]
+|[[File:EggyPursuitIconIG.png|175px]]
+|[[File:DragonPursuitIconIG.png|175px]]
+|[[File:MercenaryPursuitIconIG.png|175px]]
+|[[File:PatrioticPursuitIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Valentine|Valentines}}
-|{{Color|Bunny|Bunny}}
-|{{Color|Premium|Hazmat}}
-|{{Color|Spooky|Ghost}}
+|{{Color|DuckyRevenge|Easter}}
+|{{Color|Null|Dragon}}
+|{{Color|Other|Mercenary}}
+|{{Color|Patriotic}}
 |-
 !Rarity
-|{{Color|Event}}
-|{{Color|Event}}
-|{{Color|Common}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Robux|85}}
-|N/A
-|-
-!Obtained From
-|[[Lovestruck Crate]],<br/>[[Valentines Crate]]
-|[[Bunny Crate]]
-|[[Premium Crate]]
-|[[Spooky Crate]]
-|-
-!
-|[[File:DuckyElectroshockerIcon.png|175px]]
-|[[File:VigilanteElectroshockerIcon.png|175px]]
-|[[File:FrankensteinElectroshocker.png|175px]]
-|[[File:TeeVeeElectroshockerIcon.png|175px]]
-|-
-!Skin
-|{{Color|Ducky|Ducky}}
-|{{Color|Vigilante|Vigilante}}
-|{{Color|Lunar|Frankenstein}}
-|{{Color|Deluxe|TeeVee}}
-|-
-!Rarity
-|{{Color|Rare}}
 |{{Color|Uncommon}}
-|{{Color|Event}}
 |{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Coins|4,000}}
-|{{Coins|4,000}}
-|N/A
-|{{Robux|560}}
-|-
-!Obtained From
-|[[Ducky Crate]]
-|[[Vigilante Crate]]
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|[[Deluxe Crate]]
-|-
-!
-|[[File:ClassicElectroIcon.png|175px]]
-|[[File:DarkFrostElectroshockerIconIG.png|175px]]
-|[[File:KorbloxElectroshockerIconIG.png|175px]]
-|[[File:JellyfishElectroshockerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Deluxe|Classic}}
-|{{Color|OperationICE|Dark Frost}}
-|{{Color|Korblox|Korblox}}
-|{{Color|Surf|Jellyfish}}
-|-
-!Rarity
 |{{Color|Rare}}
 |{{Color|Rare}}
-|{{Color|Event}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|360}}
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
-|[[Deluxe Crate]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|''Enemy of Redcliff'' [[Mission Quests|Mission Quest]]
-|[[Surf & Turf Battle Pass|Surf & Turf Regular Battle Pass]]
-|-
-!
-|[[File:BannedElectroshockerIconIG.png|175px]]
-|[[File:LovestrikerElectroshockerIconIG.png|175px]]
-|[[File:EasterElectroshockerIconIG.png|175px]]
-|[[File:BeachElectroshockerIconIG.png|175px]]
-|-
-!Skin
-|{{Color|Banned|Banned}}
-|{{Color|Valentines2026|Lovestriker}}
-|{{Color|SpringFrenzy|Easter}}
-|{{Color|Beach}}
-|-
-!Rarity
-|{{Color|Exclusive}}
-|{{Color|Uncommon}}
-|{{Color|Rare}}
-|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |N/A
 |N/A
-|{{Coins|5,250}}
+|{{Coins|6,250}}
 |-
 !Obtained From
-|[[Banned Crate]]
-|[[Valentines 2026 Crate]]
-|[[Spring Frenzy Battle Pass]]
-|[[Beach Crate]]
+|[[Ducky Revenge Event|Ducky Revenge Premium Battle Pass]]
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Premium Battle Pass]]
+|[[Codes|Code]]:<br/>2MILLION
+|[[Patriotic Crate]]
 |}
 
 ==Strategy==
-*The '''Electroshocker''' can be used to clear out hordes of weaker enemies, though it will do worse against enemies with higher health, such as the [[Fallen Squire]].
-*Use the '''Electroshocker''' in areas that enemies pass multiple times or at corners, as it gives the '''Electroshocker''' more opportunities to slow down and damage enemies.
-**Intersections such as in the map [[Crossroads]] are also viable options.
-*The '''Electroshocker''' can be very useful against fast enemies, such as the [[Fallen Rusher]], while also dealing a decent amount of damage against them, especially when they come in hordes.
-*While the maximum range is stated as 17, due to the chain range, this can be further extended.
-**Chain range works by shocking an enemy within another enemy's range, so long as they are within the chain range of that enemy. For example, an enemy outside the range of the '''Electroshocker''' may still be shocked if they are within the chain range of another enemy that was shocked. This only applies if the '''Electroshocker''' has not reached its maximum number of hits.
-**This can allow the '''Electroshocker''' to indirectly hit undetectable enemies, like [[Flying]] enemies indirectly, such as the [[Balloon]]. Paired with its ability to hit [[Lead (Attribute)|Lead]] enemies, it can deal with [[Lead Balloon]] pretty well, only if other detectable enemies are in range.
-**You can use the [[DJ Booth]] to increase the range of the '''Electroshocker'''.
-***However, the chain range is not increased.
-*Since the '''Electroshocker''' can stun any enemy without [[Stun Immunity]], it can be useful at any point in the game.
-**Unlike most other slowing towers, its stun is not affected by size, making it quite good against larger enemies, like the [[Fallen Tank]], or even major bosses, such as the [[Fallen King]].
-***For enemies with the  [[Stun Immunity]], there is no stun effect; rather, the enemy is slowed down by up to 40%. For [[Boss]] enemies, that effect is significantly weaker on them, though they are still slowed down by 20%.
-*The '''Electroshocker''' pairs well with towers that take time before they start attacking, such as the [[Minigunner]] and [[Accelerator]].
-**The '''Electroshocker''' also pairs well with towers with a slow firerate, like the [[Ranger]] and [[Mortar]], as it gives them more time to attack enemies with their slow firerate.
-*The '''Electroshocker''' has lead detection, allowing it to deal with lead enemies, like the [[Lead]]. In later Levels a cluster of [[Electroshocker]]s can deal with tankier late-game lead enemies like [[Deep Freeze]].
-*You can use the [[Commander]] to decrease the firerate of the '''Electroshocker''', which increases the number of times that it can stun enemies within its range.
+*As the '''Pursuit''' is an air-based tower, it is immune to all stuns. This makes it useful against enemies that can stun towers, like [[Molten Executioner]]s, [[Fallen Honor Guard]]s, [[Unstable Ice]]s and bosses.
+**As it is also not a humanoid tower, it is also immune to any debuffs from enemies prior to [[Lunar Overture Event]], that being enemies like the [[Nuclear Monster]] or [[Soul Stealer (Legacy)|Soul Stealer]].
+*At Level 3, the '''Pursuit''' gains missiles. These can be quite powerful, as they allow it to deal damage to multiple enemies at once.
+**If you want to use the '''Pursuit's''' missiles for their area of effect capabilities, the bottom path upgrade is recommended as it focuses on missiles.
+**Due to being explosives, they can bypass the defense of enemies such as [[Frost Hunter]]s or [[Fallen Shield]]s, and many other enemies with defense.
+**While the top path's missiles are somewhat inconsistent due to their explosion size, the bottom path's explosion radius is far larger, rendering potential misses extremely unlikely.
+*The better buffs to apply to the '''Pursuit''' depend on the upgrade path you want to use the most.
+**If you are going to use the top upgrade path, [[Firerate Buff]]s from towers like the [[Commander]] are recommended, as its main DPS comes from its guns.
+**If you are going to use the bottom upgrade path, [[Damage Buff]]s from towers like the [[DJ Booth]] or [[Mercenary Base]] are recommended. As its main DPS comes from its missiles, which are not affected by [[Firerate Buff]]s, [[Damage Buff]]s are better here, as they can affect both the guns and the missiles.
+**Regardless, both are still beneficial and, preferably, both should be applied.
+*The missiles of the '''Pursuit''' can damage [[Lead (Attribute)|Lead]] enemies and both its guns and missiles detect [[Flying]] enemies. This, combined with its high DPS, makes it very useful against these enemies later on during the game.
+**However, the '''Pursuit''' cannot directly attack [[Hidden (Attribute)|Hidden]] enemies unless it is upgraded to Level 4 of the bottom upgrade path. It can only damage them indirectly if they are caught in its missile explosions otherwise.
+**Due to the price of this upgrade, and the price of the '''Pursuit''' as a whole, it is not advised to rely on this for hidden detection early on.
+*Do keep in mind that the '''Pursuit''' has an ammo system, which means it will need to reload after it has depleted its ammo bar.
+*The '''Pursuit's''' ''Patrol'' ability is very useful, as it gives the '''Pursuit''' effectively full map range and allows it to keep up with enemies that may escape from its range.
+**Do note that, compared to the '''Pursuit's''' range, the cooldown on this ability is less than favorable for the top path, so using ''Patrol'' carefully is advised.
+**This ability is even more effective in maps with lots of loops like [[Polluted Wasteland II]] and [[Honey Valley]] as the '''Pursuit''' will not need to be constantly moved.
+**The '''Pursuit's''' patrol range is slightly bigger than it looks, as it extends to any area that the '''Pursuit''' can reach with its attack range. When using the ''Patrol'' ability, keeping this in mind can increase the amount of enemies '''Pursuit''' can cover.
 
 ==Trivia==
-*The vest that the Level 3+ '''Electroshocker''' wears is the [[w:c:r2da:Faraday Vest|Faraday Vest]] from ''R2DA'', which in turn is named after the scientist [[wp:Michael Faraday|Michael Faraday]], who studied electricity.
-**The creator of this vest is BelowNatural, the creator of Tower Defense Simulator.
-*This tower may be very loosely based on the [[w:c:roblox-tower-battles:Plasma Trooper|Plasma Trooper]] and/or the [[w:c:roblox-tower-battles:Stunner|Stunner]] from ''Tower Battles''.
-*The Tesla Tower, originally used by the first versions of the '''Electroshocker''' was a nod to the [[wp:Wardenclyffe Tower|Wardenclyffe Tower]] in Shoreham, Long Island, New York, created by [[Wikipedia:Nikola Tesla|Nikola Tesla]].
-*The first Level 4 upgrade name, "MOAR POWER" could have been a reference to ''Bloons Tower Defense 6'' as there is an upgrade for the [[w:c:bloons:Boomerang Monkey (BTD6)|Boomerang Monkey]] called "M.O.A.R. Glaives". 
-**However, "M.O.A.R." actually stands for Multiple Object Advanced Ricochet in ''Bloons Tower Defense 6''.
-**It could also be a spoof on "more power".
-*The Level 5 upgrade name, "Zeus Cannon" is a reference to an upgraded [[w:c:callofduty:Thundergun|Thundergun]] from the ''Call of Duty'' franchise, specifically the Zombies mode.
-*The '''Electroshocker''' used to be an advanced tower prior to the [[v1.84.0]] update.
+*The '''Pursuit''' was teased on the 15th of May 2020 by BelowNatural in [https://twitter.com/BelowNatural/status/1261492298514300929 this tweet].
+*The '''Pursuit''' seems to be based on the [[w:c:bloons:Heli Pilot|Heli Pilot]] from the ''Bloons Tower Defense'' series.
+*Before its rework on the 27th of November 2024, the placement sound was taken from the {{RLinkC|88885539|Airstrike}} gear from the Roblox catalog.
+*Weirdly, the [[Gamepasses|gamepass]] for the '''Pursuit''' used to be called ''Helicopter'' instead of ''Pursuit'' before 15th of April 2023.
+*The '''Pursuit''' is the first tower to have two upgrade paths, with previous towers having only one upgrade path.
+**However, the [[Hacker]] was the first tower to originally come with two upgrade paths, as the '''Pursuit''' was an older tower with only one upgrade path prior to its rework in [[v1.43.0]].
+*The '''Pursuit''' is the second tower to change the position in other maps without being sold, with the first being [[Brawler]].
+**However, unlike [[Brawler]] which can free space for other towers after being moved, the Pursuit's originally placed helipads still have a fixed position and cannot free up space until it is sold.
+*The '''Pursuit''' was originally free to be claimed once the player reached {{Level|100}}, but due to the '''Pursuit''' rework in [[v1.43.0]], the '''Pursuit''' needs to be bought from the shop for {{Coins|15,000}} once the player is at {{Level|100+}}.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{Scroll|text=
-*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
-**'''Electroshocker''' added.
-*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
-**New skin: {{Color|Valentine|Valentines}}
-*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
-**Statistical changes:
-***'''Base'''
-****Range decreased from 9 to 7.
-***'''Level 3'''
-****Damage decreased from +8 to +4.
-****Chain range increased from +2 to +3.
-****Range decreased from +2 to +0.
-***'''Level 4'''
-****Damage decreased from +12 to +6.
-***'''Level 5'''
-****Damage decreased from +18 to +10.
-*'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
-**New skin: {{Color|Bunny|Bunny}}
-*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
-**New skin: {{Color|Premium|Hazmat}}
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]    
-**Unlock cost decreased from {{Coins|3,500}} to {{Coins|3,000}}.
-**{{Level|10}} requirement added.
-**Placement limit increased from 2 to 4.
-**Shock mechanic changed.
-***Shock time is now proportional to enemy size.
-***Shocking now slows down and stops an enemy instead of slowing down enemies by 30% (or 15% for enemies with [[Partial Electric Immunity]]).
+{{scroll|text =
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**'''Pursuit''' added.
+**{{Bug}} '''Pursuit''' has a stacking issue.
+*'''31 May 2020''' - [[Release v1.11|Release v1.11.1]]
+**{{Bugfix}} Stacking issue fixed.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0]]
+**Placement limit decreased from 10 to 6.
+**Splash damage equation reworked.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
-**Skin rarity added to [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Damage decreased from 1 to 0.
-****Max hits decreased from 3 to 1.
-****Chain range decreased from 6 to 5.
-****Max shock time increased from 0.25 to 1.
-****Min shock time of 0.25 added.
-****Firerate decreased from 3.05 to 3.03.
-****Cost decreased from {{Money|500}} to {{Money|400}}.
-****Lead detection added.
+****Cost increased from {{Money|800}} to {{Money|1,000}}.
+****Firerate decreased from 0.35 to 0.33.
+****Flying detection added.
 ***'''Level 1'''
-****Cost decreased from {{Money|350}} to {{Money|250}}.
+****Cost increased from {{Money|250}} to {{Money|500}}.
 ***'''Level 2'''
-****Damage decreased from +1 to +0.
-****Range decreased from +2 to +1.
-****Hidden detection added.
-****Cost decreased from {{Money|525}} to {{Money|400}}.
-****Renamed from ''Tesla Tower 3000'' to ''Outside Support''.
+****Cost increased from {{Money|500}} to {{Money|650}}.
+****Missile damage decreased from 8x2 to 3x2.
+****Missiles now deal damage to lead enemies.
 ***'''Level 3'''
-****Damage decreased from +4 to +2.
-****Max hits decreased from +2 to +0.
-****Chain range decreased from +3 to +0.
-****Firerate changed from {{Tooltip|3.05 > 2.05|-1}} to 3.03.
-****Shock time changed from 0.25 to 1 > 1.5.
-****Cost decreased from {{Money|1,250}} to {{Money|1,000}}.
+****Cost decreased from {{Money|2,500}} to {{Money|1,500}}.
+****Firerate changed from {{Tooltip|0.35 > 0.2|-0.15}} to {{Tooltip|0.33 > 0.18|-0.15}}.
+****Damage decreased from +1 to +0.
+****Missile damage increased from 8x2 to 30x2.
 ***'''Level 4'''
-****Damage decreased from +6 to +2.
-****Max hits increased from +1 to +2.
-****Shock time changed from 0.25 > 0.35 to 1.5.
-****Firerate changed from 2.05 to {{Tooltip|3.03 > 2.03|-1}}.
-****Cost decreased from {{Money|4,250}} to {{Money|3,000}}.
-****Renamed from ''MOAR POWER'' to ''Lightning Cannon''.
+****Cost increased from {{Money|4,000}} to {{Money|6,000}}.
+****Missile damage increased from 8x4 to 30x4.
 ***'''Level 5'''
-****Range decreased from +4 to +2.
-****Damage decreased from +10 to +0.
-****Max hits decreased from +4 to +1.
-****Chain range decreased from +6 to +0.
-****Shock time changed from 0.35 to 1.5 > 2.
-****Now melts 1 defense every hit.
-****Cost decreased from {{Money|8,500}} to {{Money|6,500}}.
-****Renamed from ''Ultra Violet Lightning'' to ''Shock Force''.
+****Cost increased from {{Money|9,000}} to {{Money|9,500}}.
+****Firerate changed from {{Tooltip|0.2 > 0.1|-0.1}} to {{Tooltip|0.18 > 0.13|-0.05}}.
+****Missile damage increased from 8x6 to 30x6.
+**{{Bug}} '''Pursuit''' attack range and circling direction is not shown properly.
+**{{Bug}} '''Pursuit''' missiles only deal damage to one enemy.
+**{{Bug}} '''Pursuit''' uses its old model from before the [[Overhaul v1.0|Overhaul Update]] in the lobby.
+*'''31 October 2020''' - [[Overhaul v1.1|Overhaul v1.1.0]]
+**Placement limit increased from 6 to 10.
 *'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
-**New skin: {{Color|Spooky|Ghost}}
+**{{Bugfix}} '''Pursuit''' attack range is now shown properly.
+*'''26 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1b]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+*'''28 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1c]]
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
+*'''25 December 2020''' - [[Overhaul v1.1|Overhaul v1.1.1d]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+*'''4 January 2021''' - [[Overhaul v1.1|Overhaul v1.1.1e]]
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**{{Bugfix}} '''Pursuit''' missiles now deal damage to multiple enemies.
+**{{Bug}} '''Pursuit''' is no longer immune to stuns.
+**'''Pursuit's''' missiles now ignore [[defense]].
+**Splash damage reworked. Now the explosion is separated into two spheres. Inner sphere deals 100% of the stated damage while the damage in the outer sphere decreases linearly.
+*'''31 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.1c]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''2 June 2021''' - [[Overhaul v1.3|Overhaul v1.3.1d]]
+**Gamepass price increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''26 November 2021''' - [[Overhaul v1.4|Overhaul v1.4.1c]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''28 November 2021''' - [[Overhaul v1.4|Overhaul v1.4.1c]]
+**Gamepass price increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''4 December 2021''' - [[v1.0.0]]
+**{{Bugfix}} '''Pursuit''' is now immune to stuns.
+*'''11 December 2021''' - [[v1.0.0]]f
 **Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|400}} to {{Money|325}}.
+***'''Level 3'''
+****Missile damage decreased from 30x2 to 5x2.
+***'''Level 4'''
+****Missile damage decreased from 30x4 to 5x4.
 ***'''Level 5'''
-****Defense melting changed from 1 to 1%.
+****Missile damage decreased from 30x6 to 5x6.
 *'''12 March 2022''' - [[v1.1.0]]
+**'''Pursuit''' is now immune to all debuffs.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
-****Firerate changed from 3.03 to 3.025.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|3.03 > 2.03|-1}} to {{Tooltip|3.025 > 2.025|-1}}.
+****Firerate decreased from 0.33 to 0.325.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.33 > 0.18|-0.15}} to {{Tooltip|0.325 > 0.175|-0.15}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|0.18 > 0.13|-0.05}} to {{Tooltip|0.175 > 0.125|-0.05}}.
+**{{Bug}} Level 4 '''Pursuit''' missiles do not appear.
+**{{Bug}} '''Pursuit''' can be targeted by enemies.
+*'''12 March 2022''' - [[v1.1.0]]a
+**{{Bugfix}} Level 4 '''Pursuit''' missiles now appear.
+*'''17 April 2022''' - [[v1.2.0]]
+**{{Bugfix}} '''Pursuit''' can no longer be targeted by enemies.
 *'''21 December 2022''' - [[v1.6.0]]
-**Level requirement removed.
-**Skin rarity added to all skins.
-**{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
+**Skin rarity added to the Default skin.
 *'''21 March 2023''' - [[v1.6.3]]e
-**Shock time is no longer proportional to enemy size, now its the same for every enemy.
 **Statistical changes:
 ***'''Base'''
-****Damage increased from 0 to 2.
-****Range increased from 7 to 7.5.
-****Chain range increased from 5 to 6.
-****Max hits increased from 1 to 2.
-****Firerate decreased from 3.025 to 0.925.
-****Shock time decreased from 1 to 0.
-****Cost increased from {{Money|325}} to {{Money|800}}.
+****Cost increased from {{Money|1,000}} to {{Money|3,000}}.
+****Damage increased from 1 to 2.
+****Range decreased from 9 to 8.
+****Firerate decreased from 0.325 to 0.125.
 ***'''Level 1'''
-****Firerate changed from 3.025 to {{Tooltip|0.925 > 0.825|-0.1}}.
+****Lead detection added to its gun.
+****Cost increased from {{Money|500}} to {{Money|900}}.
+***'''Level 2'''
+****Range increased from +0 to +1.5.
+****Missile damage increased from 3x2 to 30x2.
+****Missile reload time increased from 5 to 6.
+****Explosion range decreased from 5 to 4.
+****Cost increased from {{Money|650}} to {{Money|1,650}}.
+***'''Level 3'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|0.325 > 0.175|-0.15}} to {{Tooltip|0.125 > 0.117|-0.008}}.
+****Missile damage changed from 3x2 > 5x2 to 30x2.
+****Explosion range changed from 5 to 4 > 5.
+****Hidden detection added (moved from Level 5).
+****Cost increased from {{Money|1,500}} to {{Money|4,500}}.
+***'''Level 4'''
+****Damage increased from +2 to +3.
+****Missile damage changed from 5x2 > 5x4 to 30x2 > 30x4.
+****Cost increased from {{Money|6,000}} to {{Money|10,000}}.
+***'''Level 5'''
+****Damage increased from +4 to +5.
 ****Range decreased from +2 to +1.5.
-****Cost increased from {{Money|250}} to {{Money|325}}.
+****Firerate changed from {{Tooltip|0.175 > 0.125|-0.05}} to 0.117.
+****Missile damage changed from 5x4 > 5x6 to 30x4 > 30x6.
+****Cost increased from {{Money|9,500}} to {{Money|25,000}}.
+****Renamed from ''Laser Apache'' to ''Space Defense''.
+*'''31 March 2023''' - [[v1.6.4]]
+**Statistical changes:
+***'''Base'''
+****Damage increased from 2 to 5.
+****Firerate increased from 0.125 to 0.275.
+***'''Level 1'''
+****Damage increased from +1 to +3.
+***'''Level 3'''
+****Damage decreased from +1 to -3.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.275 > 0.117|-0.158}}.
+****Hidden detection removed.
+***'''Level 5'''
+****Renamed from ''Space Defense'' to ''Space Raider''.
+*'''7 April 2023''' - [[v1.7.0]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+**{{Bugfix}} Circling range is now displayed properly.
+*'''15 April 2023''' - [[v1.7.1]]a
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Bugfix}} '''Pursuit''' now uses its current model in the regular lobby.
+**{{Bug}} Placement footprint does not show up when the '''Pursuit''' is selected.
+*'''4 July 2023''' - [[v1.8.2]]d
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,000}}.
+*'''6 July 2023''' - [[v1.8.2]]e
+**Gamepass price increased from {{Robux|1,000}} to {{Robux|1,500}}.
+*'''24 November 2023''' - [[v1.9.4]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|900}}.
+*'''29 November 2023''' - [[v1.9.4]]a
+**Gamepass price increased from {{Robux|900}} to {{Robux|1,500}}.
+*'''10 May 2024''' - [[v1.21.0]]
+**{{Bug}} '''Pursuit''' does not stop moving while attacking.
+*'''14 May 2024''' - [[v1.21.0|v1.21.6]]
+**{{Bugfix}} '''Pursuit''' now stops moving while attacking.
+*'''23 May 2024''' - [[v1.23.0]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,200}}.
+*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
+**Splash damage no longer bypasses defense.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s, but explosion damage still is.
+*'''19 July 2024''' - [[v1.26.0]]
+**{{Bug}} Flight path is not displayed correctly.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
+*'''27 November 2024''' - [[v1.43.0]]
+**Now has to be bought for {{Coins|15,000}} after reaching {{Level|100}}.
+**'''Pursuit''' now splits into two paths after being upgraded to Level 3.
+**'''Pursuit''' no longer flies in a circular path, now it patrols a selected area on the map, which by default is placed at its helipad.
+***''Patrol'' allows '''Pursuit''' to patrol a specific section of the map.
+**'''Pursuit''' now has to reload after running out of ammo.
+**Placement limit decreased from 10 to 5.
+**Gamepass price decreased from {{Robux|1,200}} to {{Robux|900}}.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 5 to 6.
+****Flight Speed is now 25.
+****Ammo of 35 added.
+****Reload Time of 3 added.
+***'''Level 1'''
+****Damage decreased from +3 to +2.
+****Flight Speed change of 25 > 16 added.
+****Cost increased from {{Money|900}} to {{Money|1,200}}.
+****Name changed from ''Armor Penetration'' to ''0.50 Caliber''.
 ***'''Level 2'''
 ****Damage increased from +0 to +2.
-****Range decreased from +1 to +0.
-****Max hits increased from +0 to +1.
-****Cost increased from {{Money|400}} to {{Money|900}}.
-****Hidden detection removed.
-****Flying detection added.
+****Patrol range increase of +2 added.
+****Flight Speed chane of 16 > 25 added.
+****No longer unlocks missiles.
+****Cost increased from {{Money|1,650}} to {{Money|1,850}}.
+****Name changed from ''Missiles'' to ''Enhanced Radar''.
 ***'''Level 3'''
-****Damage increased from +2 to +4.
-****Range increased from +0 to +1.
-****Firerate changed from 3.025 to {{Tooltip|0.825 > 0.675|-0.15}}.
-****Shock time changed from 1 > 1.5 to 0.
-****Cost increased from {{Money|1,000}} to {{Money|3,000}}.
-***'''Level 4'''
-****Damage increased from +2 to +37.
-****Range increased from +0 to +4.
-****Shock time changed from 1.5 to 0 > 0.35.
-****Firerate changed from {{Tooltip|3.025 > 2.025|-1}} to {{Tooltip|0.675 > 2.025|+1.35}}.
-****Cost increased from {{Money|3,000}} to {{Money|5,000}}.
-***'''Level 5'''
-****Damage increased from +0 to +45.
-****Range decreased from +2 to +0.
-****Chain range increased from +0 to +2.
-****Max hits increased from +1 to +3.
-****Shock time changed from 1.5 > 2 to 0.35 > 0.5.
-****Firerate changed from 2.025 to {{Tooltip|2.025 > 2.525|+0.5}}.
-****Cost increased from {{Money|6,500}} to {{Money|13,500}}.
-****Renamed from ''Shock Force'' to ''Zeus Cannon''.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''24 June 2023''' - [[v1.8.2]]
-**New skin: {{Color|Vigilante|Vigilante}}
-*'''28 October 2023''' - [[v1.9.0]]
-**Stunned enemies now slow down before being completely stopped.
-*'''31 October 2023''' - [[v1.9.0]]g
-**New skin: {{Color|Lunar|Frankenstein}}
-*'''10 February 2024''' - [[v1.13.0]]
-**{{Bug}} '''Electroshocker''' when placed down does not appear, does not count for the tower placement limit, prevents towers from being placed in the area and takes cash as if it was placed down normally.
-*'''11 February 2024''' - [[v1.13.0]]a
-**{{Bugfix}} '''Electroshocker''' can now be placed down properly.
-*'''1 April 2024''' - [[v1.17.0]]b
-**New skin: {{Color|Deluxe|TeeVee}}
-**{{Bug}} {{Color|Deluxe|TeeVee}} skin cannot be equipped in the intermission lobby.
-**{{Bug}} {{Color|Deluxe|TeeVee}} skin breaks the tower icon and stats in the tower hotbar.
-*'''1 April 2024''' - [[v1.17.2]]
-**{{Bugfix}} {{Color|Deluxe|TeeVee}} skin now can be equipped in the intermission lobby.
-**{{Bugfix}} {{Color|Deluxe|TeeVee}} skin no longer breaks the tower icon and stats in the tower hotbar.
-*'''7 June 2024''' - [[v1.24.0]]
-**New skin: {{Color|Deluxe|Classic}}
-*'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
-*'''2 August 2024''' - [[v1.27.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|800}} to {{Money|725}}.
-****Damage increased from 2 to 3.
-****Firerate decreased from 0.925 to 0.875.
-****Chain range increased from 6 to 7.
-****Shock time increased from 0 to 0.3.
-****Defense melting increased from 0% to 5%.
-***'''Level 1'''
-****Cost decreased from {{Money|325}} to {{Money|300}}.
-****Firerate changed from {{Tooltip|0.925 > 0.825|-0.1}} to {{Tooltip|0.875 > 0.775|-0.1}}.
-***'''Level 2'''
-****Cost decreased from {{Money|900}} to {{Money|600}}.
-****Damage decreased from +2 to +1.
-****Range increased from +0 to +1.
-***'''Level 3'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,000}}.
-****Range increased from +1 to +2.
-****Firerate changed from {{Tooltip|0.825 > 0.675|-0.15}} to 0.775.
-****Defense melting changed from 0% to 5% > 10%.
-****Max hits increased from +0 to +1.
-***'''Level 4'''
-****Damage increased from +37 to +42.
-****Range decreased from +4 to +2.
-****Chain range increased from +0 to +3.
-****Firerate changed from {{Tooltip|0.675 > 2.025|+1.35}} to {{Tooltip|0.775 > 2.525|+1.75}}.
-****Defense melting changed from 0% to 10% > 15%.
-****Shock time increased from 0.35 to 0.3 > 1.
-***'''Level 5'''
-****Cost increased from {{Money|13,500}} to {{Money|15,000}}.
-****Damage increased from +45 to +50.
-****Firerate changed from {{Tooltip|2.025 > 2.525|+0.5}} to 2.525.
-****Chain range decreased from +2 to +0.
-****Max hits decreased from +3 to +2.
-****Shock time changed from 0.35 > 0.5 to 1 > 1.25.
-**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
-*'''16 December 2024''' - [[v1.46.0]]
-**New skin: {{Color|OperationICE|Dark Frost}}
-**{{Bug}} '''Electroshocker's''' energy damage type is broken.
-*'''8 January 2025''' - [[v1.48.0]]
-**{{Bug}} '''Electroshocker''' does not damage [[Lead (Attribute)|Lead]] enemies.
-*'''15 January 2025''' - [[v1.49.0]]
-**{{Bugfix}} '''Electroshocker''' can now damage [[Lead (Attribute)|Lead]] enemies.
-**{{Bugfix}} '''Electroshocker''' now has a working energy damage type.
-*'''12 March 2025''' - [[v1.57.0]]
-**{{Bug}} {{Color|Korblox|Korblox}} skin is obtainable.
-*'''12 March 2025''' - [[v1.57.0|v1.57.2]]
-**{{Bugfix}} {{Color|Korblox|Korblox}} skin is no longer obtainable.
-*'''13 March 2025''' - [[v1.57.0|v1.57.7]]
-**New skin: {{Color|Korblox|Korblox}}
-*'''19 March 2025''' - [[v1.57.0|v1.57.11]]
-**{{Bug}} Equipping the {{Color|Korblox|Korblox}} skin prevents some players from placing the '''Electroshocker''' down.
-*'''9 April 2025''' - [[v1.60.0]]
-**Defense role added.
-*'''9 July 2025''' - [[v1.70.0]]
-**New skin: {{Color|Surf|Jellyfish}}
-**{{Bug}} {{Color|Surf|Jellyfish}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|Surf|Jellyfish}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]
-**New skin: {{Color|Banned|Banned}}
-*'''4 October 2025''' - [[v1.77.0]]
-**{{Bug}} Enemies hit by the '''Electroshocker''' no longer have stun animations.
-*'''28 January 2026''' - [[v1.84.0]]
-**Unlock cost decreased from {{Coins|3,000}} to {{Coins|2,500}}.
-**Category changed from Advanced to Intermediate.
-**Placement limit increased from 4 to 10.
-**Description changed.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|725}} to {{Money|425}}.
-****Firerate decreased from 0.875 to 0.775.
-****Range increased from 7.5 to 10.
-****Max hits decreased from 2 to 1.
-****Shock time decreased from 0.3 to 0.
-****Defense melting decreased from 5% to 0%.
-***'''Level 1'''
-****Cost decreased from {{Money|300}} to {{Money|200}}.
-****Range decreased from +1.5 to +1.
-****Firerate changed from {{Tooltip|0.875 > 0.775|-0.1}} to 0.775.
-****Damage increased from +0 to +1
-***'''Level 2'''
-****Cost increased from {{Money|600}} to {{Money|625}}.
-****Damage increased from +1 to +4.
-****Range increased from +1 to +2.5.
-****Max hits decreased from +1 to +0.
-****Flying detection removed.
+****Damage increased from -3 to +0.
+****Firerate changed from {{Tooltip|0.275 > 0.117|-0.165}} to {{Tooltip|0.275 > 0.225|-0.05}}.
+****Ammo increase of +40 added.
+****Reload Time change of 3 > 2.5 added.
+****Patrol Range increase of +1.5 added.
+****Now unlocks missiles.
+*****Missile damage increased from 30 to 35.
+*****Explosion range decreased from 5 to 3.
+*****Missile Cooldown increased from 6 to 7.
+*****Missile Speed of 20 added.
+****Cost increased from {{Money|4,500}} to {{Money|4,750}}.
+****Name changed from ''Tri-Barrel Minigun'' to ''Air to Ground Missiles''.
+***'''Level 4A'''
+****Damage decreased from +3 to +0.
+****Firerate changed from 0.117 to {{Tooltip|0.225 > 0.125|-0.1}}.
+****Patrol Range increase of +2.5 added.
+****Ammo increase of +75 added.
+****Reload Time change of 2.5 > 2.25 added.
+****Rev Time of 1.5 added.
+****Missile Cooldown changed from 6 to 7 > 6.
+****Burst Time changed from 0.5 > 0.35 to 0.5.
+****Cost increased from {{Money|10,000}} to {{Money|17,500}}.
+****Name changed from ''Huey'' to ''Tri-Barrel Minigun''.
+***'''Level 5A'''
+****Damage increased from +5 to +18.
+****Firerate changed from 0.093 to {{Tooltip|0.108 > 0.093|-0.015}}.
+****Patrol Range increased from +0 to +2.5.
+****Ammo increase of +50 added.
+****Reload time change of 2.25 > 1.75 added.
+****Missiles decreased from +2 to +0.
+****Burst Time changed from 0.35 > 0.2 to 0.5 > 0.25.
 ****Hidden detection added.
-****Name changed from ''Outside Support'' to ''Higher Voltage''.
-***'''Level 3'''
-****Cost increased from {{Money|2,000}} to {{Money|2,500}}.
-****Damage increased from +4 to +12.
-****Firerate changed from 0.775 to {{Tooltip|0.775 > 0.675|-0.1}}.
-****Range decreased from +2 to +1.5.
-****Max hits decreased from +1 to +0.
-****Defense melting changed from 5% > 10% to 0%.
-***'''Level 4'''
-****Cost increased from {{Money|5,000}} to {{Money|6,350}}.
-****Damage increased from +42 to +105.
-****Firerate changed from {{Tooltip|0.775 > 2.525|+1.75}} to {{Tooltip|0.675 > 2.275|+1.6}}.
-****Max hits decreased from +2 to +1.
-****Shock time changed from 0.3 > 1 to 0 > 0.1.
-****Defense melting changed from 10% > 15% to 0%.
-****Name changed from ''Lightning Cannon'' to ''Shock Force''.
-***'''Level 5'''
-****Cost increased from {{Money|15,000}} to {{Money|16,935}}.
-****Damage increased from +50 to +85.
-****Range increased from +0 to +1.
-****Max hits decreased from +2 to +1.
-****Shock time changed from 1 > 1.25 to 0.1 > 0.15.
-****Defense melting changed from 15% to 0% > 25%.
-*'''11 February 2026''' - [[v1.85.0]]
+****Cost increased from {{Money|25,000}} to {{Money|35,000}}.
+*****{{Bug}} Intended cost is {{Money|45,000}}.
+****Name changed from ''Space Raider'' to ''Sky Shredder''.
+***'''Level 4B Added'''
+****Statistics:
+*****Upgrade Name: ''Upgraded Payload''
+*****Cost: {{Money|13,500}}
+*****+1.5 Patrol Range
+*****2.5 > 2.25 Reload Time
+*****+10 Missile Damage
+*****3 > 5 Explosion Range
+*****7 > 5 Missile Cooldown
+*****+4 Missiles
+*****0.5 > 0.25 Burst Time
+***'''Level 5B Added'''
+****Statistics:
+*****Upgrade Name: ''Demolition Gunship''
+*****Cost: {{Money|40,000}}
+*****+10 Damage
+*****+2 Patrol Range
+*****+15 Missile Damage
+*****5 > 6 Explosion Range
+*****5 > 3.5 Missile Cooldown
+*****+2 Missiles
+*****0.25 > 0.15 Burst Time
+**{{Bug}} '''Pursuit''' can still be claimed in the [[Rewards]] tab after reaching {{Level|100}}.
+**{{Bug}} Bottom path missiles fire significantly slower than intended.
+**{{Bug}} Using the Sticker/Emote wheel will prevent the player from being able to change the patrol point.
+**{{Bug}} Missiles do not target [[Flying]] enemies correctly.
+**{{Bug}} Using ''Reposition'' too quickly can cause the '''Pursuit''' to move back to a different spot than the selected position.
+*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
+**Gamepass price increased from {{Robux|900}} to {{Robux|1,200}}.
+*'''4 December 2024''' - [[v1.44.0]]
+**{{Bugfix}} Corrected incorrect statistics:
+***'''Level 5A'''
+****Cost increased from {{Money|35,000}} to {{Money|45,000}}.
+*'''7 December 2024''' - [[v1.44.0]]a
+**Gamepass cost increased from {{Robux|1,200}} to {{Robux|1,500}}.
+*'''16 December 2024''' - [[v1.45.0]]
+**{{Bug}} '''Pursuit''' will begin to move uncontrollably at higher [[Time Scale]] values in [[Sandbox Mode|Sandbox]] mode, with certain values causing it to break completely.
+*'''16 December 2024''' - [[v1.45.0|v1.45.1a]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,200}}.
+*'''16 December 2024''' - [[v1.45.0|v1.45.1b]]
+**Gamepass cost increased from {{Robux|1,200}} to {{Robux|1,500}}.
+*'''16 December 2024''' - [[v1.46.0]]
+**The '''Pursuit''' is now freeze immune.
+**{{Bugfix}} '''Pursuit''' can no longer be claimed in the [[Rewards]] tab after reaching {{Level|100}}, as it has been removed.
+**{{Bugfix}} Bottom path '''Pursuit''' missiles are now fired at the correct speed.
+**{{Bug}} The '''Pursuit''' can still be frozen, though it cannot be targeted.
+*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
+**Gamepass cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''8 January 2025''' - [[v1.48.0]]
+**{{Bugfix}} Missiles target [[Flying]] enemies correctly.
+*'''15 January 2025''' - [[v1.49.0]]
+**Missiles now bypass defense.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|425}} to {{Money|375}}.
-****Damage decreased from 3 to 2.
-****Range increased from 10 to 11.
-****Shock time increased from 0 to 0.05.
-****Defense melting increased from 0% to 5%.
-***'''Level 1'''
-****Range increased from +1 to +1.5.
-***'''Level 2'''
-****Cost increased from {{Money|625}} to {{Money|700}}.
-****Damage decreased from +4 to +3.
-****Firerate changed from 0.775 to {{Tooltip|0.775 > 0.675|-0.1}}.
-****Shock time increased from 0 to 0.05 > 0.08.
-****Defense melting increased from 0% to 5% > 10%.
+****Reload time increased from 3 to 4.
 ***'''Level 3'''
-****Damage decreased from +12 to +6.
-****Range decreased from +1.5 to +0.
-****Firerate changed from {{Tooltip|0.775 > 0.675|-0.1}} to 0.675.
-****Max hits increased from +0 to +1.
-***'''Level 4'''
-****Damage decreased from +105 to +103.
-****Range increased from +2 to +3.5.
-****Max hit decreased from +1 to +0.
-****Shock time increased from 0 > 0.1 to 0.08 > 0.18.
-****Defense melting increased from 0% to 10% > 15%.
-***'''Level 5'''
-****Shock time increased from 0.08 > 0.18 to 0.18 > 0.3.
-****Defense melting increased from 0% > 25% to 15% > 25%.
-**New skin: {{Color|Valentines2026|Lovestriker}}
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Easter}}
+****Reload time changed from {{Tooltip|3 > 2.5|-0.5}} to {{Tooltip|4 > 3.5|-0.5}}.
+***'''Level 4A'''
+****Damage increased from +0 to +2.
+****Reload time changed from {{Tooltip|2.5 > 2.25|-0.25}} to {{Tooltip|3.5 > 3|-0.5}}.
+***'''Level 5A'''
+****Damage decreased from +18 to +16.
+****Reload time changed from {{Tooltip|2.25 > 1.75|-0.5}} to {{Tooltip|3 > 2.5|-0.5}}.
+*'''26 March 2025''' - [[v1.58.0]]
+**Statistical changes:
+***'''Level 3'''
+****Cost increased from {{Money|4,750}} to {{Money|5,000}}.
+***'''Level 4A'''
+****Cost decreased from {{Money|17,500}} to {{Money|16,000}}.
+****Range increased from +0 to +0.5.
+***'''Level 5A'''
+****Cost decreased from {{Money|45,000}} to {{Money|42,500}}.
+****Damage decreased from +16 to +14.
+****Range decreased from +1.5 to +1.
+****Hidden detection removed.
+***'''Level 4B'''
+****Cost decreased from {{Money|13,500}} to {{Money|10,000}}.
+****Range increased from +0 to +0.5.
+****Reload time changed from 2.5 > 2.25 to 3.5.
+****Missile damage decreased from +10 to -10.
+****Explosion range changed from 3 > 5 to 3 > 6.
+****Missile cooldown changed from 7 > 5 to 7 > 3.
+****Hidden detection added.
+***'''Level 5B'''
+****Cost decreased from {{Money|40,000}} to {{Money|28,500}}.
+****Damage decreased from +10 to +2.
+****Range increased from +0 to +1.
+****Reload time changed from 2.25 to 3.5 > 2.25.
+****Missile damage increased from +15 to +35.
+****Explosion range changed from 5 > 6 to 6.
+****Missile cooldown changed from 5 > 3.5 to 3.
+**{{Bug}} Level 4A will list it getting hidden detection, even though it does not actually get hidden detection.
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+**{{Bug}} When first upgraded to either 4A or 4B, both paths will remain open as if the player could change paths, however, upgrading using either button would end up upgrading it on the current path. Fixes itself when reselecting the tower.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Eggy}}
+*'''26 May 2025''' - [[v1.64.0]]
+**Robux cost decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''28 May 2025''' - [[v1.65.0]]
+**Robux cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''23 July 2025''' - [[v1.71.0]]
+**'''Pursuit''' now can detect enemies both outside its patrol range and attack range if the enemy is in an area the '''Pursuit's''' attack range can reach.
+**'''Pursuit''' now always revs-up after it reloads. Previously, it would only rev-up when enemies first enter its range.
+**Statistical changes:
+***'''Base'''
+****Range decreased from 8 to 7.
+****Speed increased from 25 to 30.
+****Repulsion radius increased from 3 to 6.
+***'''Level 1'''
+****Range increased from +0 to +1.
+****Speed changed from 25 > 16 to 30 > 16.
+***'''Level 3'''
+****Missile targeting time of 3 added.
+**{{Bug}} '''Pursuit''' struggles to target enemies at the edge of its range.
+*'''6 August 2025''' - [[v1.72.0]]
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+***'''Level 1'''
+****Cost decreased from {{Money|1,200}} to {{Money|750}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,850}} to {{Money|1,500}}.
+***'''Level 3'''
+****Cost decreased from {{Money|5,000}} to {{Money|3,500}}.
+***'''Level 4A'''
+****Cost decreased from {{Money|16,000}} to {{Money|12,500}}.
+***'''Level 5A'''
+****Cost decreased from {{Money|42,500}} to {{Money|30,000}}.
+***'''Level 4B'''
+****Cost decreased from {{Money|10,000}} to {{Money|7,500}}.
+***'''Level 5B'''
+****Cost decreased from {{Money|28,500}} to {{Money|22,500}}.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Dragon}}
+*'''31 October 2025''' - [[v1.79.0]]
+**'''Pursuit''' is no longer immune to freeze.
+*'''26 November 2025''' - [[v1.81.0]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
+**Gamepass cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
+**Gamepass cost decreased from {{Robux|1,500}} to {{Robux|1,050}}.
+*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
+**Gamepass cost increased from {{Robux|1,050}} to {{Robux|1,500}}.
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit increased from 5 to 6 in regular modes.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost increased from {{Money|3,000}} to {{Money|5,000}}.
+****Damage increased from 6 to 7.
+****Firerate decreased from 0.275 to 0.225.
+****Range decreased from 7 to 6.
+****Ammo increased from 35 to 50.
+****Reload time decreased from 4 to 3.5.
+****Speed increased from 30 to 35.
+****''Patrol'' cooldown decreased from 20 to 10.
+***'''Level 1'''
+****Cost increased from {{Money|1,200}} to {{Money|1,750}}.
+****Damage increased from +2 to +3.
+****Range decreased from +1 to +0
+****Speed changed from 30 > 16 to 35.
+****Name changed from ''.50 Caliber'' to ''AP Rounds''.
+***'''Level 2'''
+****Cost increased from {{Money|1,850}} to {{Money|3,000}}.
+****Range decreased from +1.5 to +1.
+****Firerate changed from 0.275 to {{Tooltip|0.225 > 0.175|-0.05}}.
+****Ammo increased from +0 to +15.
+****Reload time decreased from 4 to 3.5 > 3.
+****Speed changed from 16 > 25 to 35.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to 0.175.
+****Range decreased from +1 to +0.
+****Ammo decreased from +40 to +0.
+****Reload time decreased from 4 > 3.5 to 3.
+****Missile damage increased from 35 to 45
+****Explosion range increased from 3 to 4.
+****Missile cooldown decreased from 7 to 4.
+***'''Level 4A'''
+****Cost increased from {{Money|16,000}} to {{Money|18,000}}.
+****Damage increased from +2 to +14.
+****Firerate changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.175 > 0.15|-0.025}}.
+****Range decreased from +0.5 to +0.
+****Patrol range decreased from +2.5 to -6.
+****Ammo decreased from +75 to +10.
+****Reload time changed from 3.5 > 3 to 3.
+****Rev-up time decreased from 1.5 to 0.
+****Missile cooldown changed from 7 > 6 to 4 > 8.
+****Name changed from ''Tri-Barrel Minigun'' to ''Sky Shredder''.
+***'''Level 5A'''
+****Cost increased from {{Money|42,500}} to {{Money|45,000}}.
+****Damage increased from +14 to +26.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.15 > 0.117|-0.033}}.
+****Range decreased from +1 to +0.
+****Patrol range decreased from +2.5 to +0.
+****Ammo decreased from +50 to +0.
+****Reload time changed from 3 > 2.5 to 3.
+****Explosion damage increased from 35 to 45.
+****Burst time changed from 0.5 > 0.25 to 0.5.
+****Explosion range changed from 3 > 4 to 4.
+****Missile cooldown increased from 6 to 8.
+****Name change from ''Sky Shredder'' to ''Leviathan''.
+***'''Level 4B'''
+****Cost decreased from {{Money|10,000}} to {{Money|8,500}}.
+****Range increased from +0.5 to +3.
+****Patrol range increased from +1.5 to +2.
+****Speed changed from 25 to 35 > 45.
+****Ammo decreased from 75 to 65.
+****Missile damage increased from -10 to +0.
+****Explosion radius increased from 3 > 6 to 4 > 7.5.
+****Missile cooldown increased from 7 > 3 to 4.
+****Name changed from ''Upgraded Payload'' to ''Modified Payload''.
+***'''Level 5B'''
+****Cost decreased from {{Money|28,500}} to {{Money|15,000}}.
+****Damage decreased from +2 to +0.
+****Range increased from +1 to +2.
+****Reload time increased from 3.5 > 2.25 to 3.
+****Missile damage decreased from +35 to +15.
+****Explosion radius increased from 6 to 7.5.
+*'''11 March 2026''' - [[v1.86.0]]
+**Statistical changes (Regular):
+***'''Level 1'''
+****Lead detection removed.
+*'''22 May 2026''' - [[v1.91.0]]
+**Gamepass price decreased from {{Robux|1,500}} to {{Robux|1,125}}.
+***{{Bug}} Gifting was not discounted.
+**{{Bugfix}} '''Pursuit''' now repositions correctly.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Gamepass price increased from {{Robux|1,125}} to {{Robux|1,500}}.
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Placement limit decreased from 10 to 7.
-**Statistical changes:
+**Statistical changes (Regular):
 ***'''Base'''
-****Cost increased from {{Money|375}} to {{Money|650}}.
-****Damage increased from +2 to +4.
-****Firerate increased from 0.775 to 1.2.
-****Range decreased from 11 to 10.
-****Max hits increased from 1 to 2.
-****Shock time increased from 0.05 to 0.1.
-****Chain range increased from 7 to 10.
-****Defense melt decreased from 5% to 0%.
-***'''Level 1'''
-****Cost increased from {{Money|200}} to {{Money|275}}.
-****Damage increased from +1 to +2.
-****First changed from 0.775 to {{Tooltip|1.35 > 1.15|-0.2}}.
-****Range increased from +1.5 to +2.
-****Name changed from ''Improved Handling'' to ''Higher Voltage''.
+****Without [[Firerate Bug]], firerate increased from 0.2 to 0.225, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.225.
+****Range increased from 6 to 7.
+****Speed increased from 35 to 45.
+****''Patrol'' ability cooldown decreased from 20 to 10.
 ***'''Level 2'''
-****Cost increased from {{Money|700}} to {{Money|950}}.
-****Damage decreased from +3 to +2.
-****Firerate changed from {{Tooltip|0.775 > 0.675|-0.1}} to 1.15.
-****Range increased from +0 to +1.
-****Max hits increased from +0 to +1.
-****Shock time changed from 0.05 > 0.08 to 0.1.
-****Defense melting changed from 5% > 10% to 0%.
-****Name changed from ''Higher Voltage'' to ''Improved Handling''.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.2 > 0.15|-0.05}} to {{Tooltip|0.225 > 0.175|-0.05}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+****Ammo increased from +15 to +25.
 ***'''Level 3'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,400}}.
-****Damage increased from +6 to +14.
-****Max hits decreased from +1 to +0.
-****Chain range increased from +0 to +5.
-***'''Level 4'''
-****Cost decreased from {{Money|6,350}} to {{Money|4,000}}.
-****Damage decreased from +103 to +40.
-****Firerate changed from {{Tooltip|0.675 > 2.275|+1.6}} to {{Tooltip|1.15 > 2.5|+1.35}}.
-****Range decreased from +3.5 to +0.
-****Max hits decreased from +0 to +1.
-****Shock time changed from 0.08 > 0.18 to 0.1 > 0.15.
-****Chain range decreased from +3 to +0.
-****Defense melting changed from 10% > 15% to 0%.
-***'''Level 5'''
-****Cost decreased from {{Money|16,935}} to {{Money|10,000}}.
-****Damage decreased from +85 to +30.
-****Range increased from +1 to +2.
-****Max hits increased from +1 to +3.
-****Shock time changed from 0.18 > 0.3 to 0.15 > 0.25.
-****Chain range increased from +0 to +5.
-****Defense melting changed from 15% > 25% to 0% > 20%.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Beach}}
-*'''17 July 2026''' - [[v2.3.0]]
-**Statistical changes:
+****Cost decreased from {{Money|5,000}} to {{Money|4,750}}.
+****Damage increased from +0 to +2.
+****Missile damage decreased from 45 to 30.
+***'''Level 4A'''
+****Cost decreased from {{Money|18,000}} to {{Money|15,000}}.
+****Damage decreased from +14 to +6.
+****Without [[Firerate Bug]], firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to {{Tooltip|0.175 > 0.15|-0.025}}, however, as in the same update it has been fully fixed, the firerate effectively does not change and remains at 0.175.
+****Range decreased from +3 to +0.
+****Patrol range increased from -6 to +0.
+****Ammo increased from +10 to +125.
+****Missile damage increased from +0 to +5.
+****Missile cooldown changed from 4 > 8 to 4.
+***'''Level 5A'''
+****Cost increased from {{Money|45,000}} to {{Money|47,500}}.
+****Damage decreased from +26 to +28.
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to 0.15.
+****Patrol range increased from +0 to +2.
+***'''Level 4B'''
+****Cost increased from {{Money|8,500}} to {{Money|9,500}}.
+****Range decreased from +3 to +2.
+****Patrol range increased from +2 to +4.
+****Speed changed from 35 > 45 to 45.
+****Missile damage increased from +0 to +5.
+***'''Level 5B'''
+****Cost decreased from {{Money|15,000}} to {{Money|13,500}}.
+****Missile damage increased from +15 to +25.
+****Explosion range changed from 7.5 to 7.5 > 8.5.
+**Statistical changes ([[PVP]]):
 ***'''Base'''
-****Damage increased from 4 to 5.
+****Firerate decreased from 0.275 to 0.25.
 ***'''Level 1'''
 ****Damage decreased from +2 to +1.
+***'''Level 2'''
+****Damage increased from +2 to +3.
 ***'''Level 3'''
-****Damage decreased from +14 to +12.
-****Chain range decreased from +5 to +2.5.
-***'''Level 4'''
-****Damage decreased from +48 to +40.
-****Chain range increased from +0 to +2.5.
-***'''Level 5'''
-****Chain range decreased from +5 to +0.
+****Firerate changed from {{Tooltip|0.275 > 0.225|-0.05}} to {{Tooltip|0.25 > 0.2|-0.05}}.
+****Missile damage decreased from 35 to 32.
+***'''Level 4A'''
+****Firerate changed from {{Tooltip|0.225 > 0.125|-0.1}} to {{Tooltip|0.2 > 0.1|-0.1}}.
+****Missile damage increased from +0 to +3.
+***'''Level 5A'''
+****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.1 > 0.085|-0.015}}.
+***'''Level 4B'''
+****Missile damage increased from -10 to -7.
+**{{Bug}} '''Pursuit''' fires slower than intended.
+*'''8 June 2026''' - [[v2.0.0|v2.0.6a]]
+**New skin: {{Color|Other|Mercenary}}.
+*'''9 June 2026''' - [[v2.0.0|v2.0.7a]]
+**{{Color|Other|Mercenary}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Patriotic}}
+*'''3 July 2026''' - [[v2.2.0]]
+**{{Bugfix}} '''Pursuit''' now fires at the intended speed.
 }}
 
 ==Notes==
@@ -660,3 +980,4 @@ $R$ = $FNC-RECURSION$
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
