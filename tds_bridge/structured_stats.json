@@ -7,50 +7,79 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Commander''' is an advanced support [[Towers|tower]] that decreases the firerate of towers within its range, increasing their damage output. It can be purchased in the store for {{Coins|4,000}}.\n\nThe '''Commander''' provides a 10% firerate boost to towers in its range, making them attack enemies faster. This buff can be boosted further at Level 2+ through the ''Call to Arms'' ability, which increases it by 10% for ten seconds. Both buffs get higher with levels, with the passive buff getting increased to 20% and the ''Call to Arms'' ability buff getting increased to 20%. It also has a second ability, ''Support Caravan'', which costs {{Money|2,000}} to use. This will summon two [[Gunner APC]]s and one [[Missile APC]] on the map. When any ability used, it will enter fury mode, allowing it to attack any enemy in its range for ten seconds. The attack time from using an ability stacks if multiple are used at once or when an ability is used while it is attacking. When an ability is used while fury mode is active, the timer for it will stop until the ability animation is finished.\n\nThe '''Commander''' is the primary [[Narrators|narrator]] in most matches. Text dialogue appears beside the image or the model with an idle animation of the '''Commander''', corresponding to the appearance of certain [[waves]]. This dialogue appears regardless of whether a '''Commander''' tower is present on the map, and the image or model of the '''Commander''' next to the dialogue will display different emotions.\n\nThe '''Commander''' has a placement limit of six per player.",
+  "description": "The '''Mortar''' is an advanced cliff [[Towers|tower]] with a long range capable of damaging enemies with its explosions. It can be unlocked by reaching {{Level|75}} or purchased via a gamepass for {{Robux|300}}. When the player reaches {{Level|75}}, the '''Mortar''' can be claimed by using the pop-up message that appears when joining the lobby.\n\nThe '''Mortar''' is a cliff tower that shoots rather slowly but deals high damage over a large explosion radius. It has a long range, but as the '''Mortar''' shoots at a target farther away, the shells take longer to reach their target. These shells will generally land behind the targeted enemy. The explosion it produces is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. At Level 4, when the '''Mortar's''' shells explode, they will drop three cluster bombs, which will create additional explosions when they hit the ground. These will land around the main explosion, meaning they are very unlikely to all hit and deal full damage to the targeted enemy. By default, the '''Mortar''' can damage [[Lead (Attribute)|Lead]], as well as target all non-hidden flying enemies. The '''Mortar''' is immune to all stuns by default. \n\nThe '''Mortar''' is considered an all-round tower due to its relatively cheap placement cost, expensive upgrade prices, and its ability to effectively handle groups of enemies throughout the game thanks to its high area damage and strong overall damage output.\n\nThe '''Mortar''' has a placement limit of four per player. This is increased to five in [[PVP]] mode.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 1,
-        "title": "Leadership",
-        "cost": "{{Money|400}}",
-        "information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}",
+        "title": "Improved Handling",
+        "cost": "{{Money|500}}",
+        "information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}",
         "claims": [
           {
-            "kind": "note",
-            "text": "10% > 15% Buff"
+            "kind": "set",
+            "from": "4",
+            "to": "2.75",
+            "stat": "Firerate",
+            "text": "4 > 2.75 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Leadership",
-          "Cost": "{{Money|400}}",
-          "Image": "[[File:Commander Upgrade 1  New.png|100px]]",
-          "Information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}"
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|500}}",
+          "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+          "Information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}"
         }
       },
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 2,
-        "title": "Call to Arms",
-        "cost": "{{Money|2,450}}",
-        "information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}",
+        "title": "Upgraded Armaments",
+        "cost": "{{Money|2,250}}",
+        "information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}",
         "claims": [
           {
-            "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
+            "kind": "delta",
+            "delta": "+20",
+            "stat": "Damage",
+            "text": "+20 Damage"
           },
           {
-            "kind": "grant",
-            "stat": "Flying Detection",
-            "text": "+Flying Detection"
-          },
+            "kind": "set",
+            "from": "5",
+            "to": "7",
+            "stat": "Explosion Radius",
+            "text": "5 > 7 Explosion Radius"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Upgraded Armaments",
+          "Cost": "{{Money|2,250}}",
+          "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+          "Information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Bigger Cannon",
+        "cost": "{{Money|4,250}}",
+        "information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}",
+        "claims": [
           {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
+            "kind": "delta",
+            "delta": "+30",
+            "stat": "Damage",
+            "text": "+30 Damage"
           },
           {
             "kind": "delta",
@@ -59,78 +88,104 @@
             "text": "+3 Range"
           },
           {
-            "kind": "delta",
-            "delta": "+15",
-            "stat": "Damage",
-            "text": "+15 Damage"
-          },
-          {
             "kind": "set",
-            "from": "0",
-            "to": "0.6",
-            "stat": "Firerate",
-            "text": "0 > 0.6 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Call to Arms Ability",
-            "text": "+Call to Arms Ability"
-          },
-          {
-            "kind": "note",
-            "text": "10% Firerate Buff"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Call to Arms",
-          "Cost": "{{Money|2,450}}",
-          "Image": "[[File:Commander_Upgrade_3.png|100px]]",
-          "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 3,
-        "title": "Intense Training",
-        "cost": "{{Money|4,500}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+15",
-            "stat": "Damage",
-            "text": "+15 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "15% > 17.5% Buff"
-          },
-          {
-            "kind": "note",
-            "text": "10% > 15% Call To Arms Buff"
+            "from": "7",
+            "to": "8.5",
+            "stat": "Explosion Radius",
+            "text": "7 > 8.5 Explosion Radius"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Intense Training",
-          "Cost": "{{Money|4,500}}",
-          "Image": "[[File:Commander Upgrade 4 New.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}"
+          "Upgrade Title": "Bigger Cannon",
+          "Cost": "{{Money|4,250}}",
+          "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+          "Information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}"
         }
       },
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 4,
-        "title": "Strength in Numbers",
-        "cost": "{{Money|14,000}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}",
+        "title": "Loaded Warhead",
+        "cost": "{{Money|13,500}}",
+        "information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+35",
+            "stat": "Damage",
+            "text": "+35 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "5 Explosion Radius }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Loaded Warhead",
+          "Cost": "{{Money|13,500}}",
+          "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+          "Information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 5,
+        "title": "City Buster",
+        "cost": "{{Money|30,000}}",
+        "information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+135",
+            "stat": "Damage",
+            "text": "+135 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "8.5",
+            "to": "9",
+            "stat": "Explosion Radius",
+            "text": "8.5 > 9 Explosion Radius"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Cluster Amount}}",
+            "text": "+2 Cluster Amount}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "City Buster",
+          "Cost": "{{Money|30,000}}",
+          "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+          "Information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}"
+        }
+      }
+    ],
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Improved Handling",
+        "cost": "{{Money|300}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}",
         "claims": [
           {
             "kind": "delta",
@@ -139,78 +194,245 @@
             "text": "+2 Range"
           },
           {
+            "kind": "set",
+            "from": "4",
+            "to": "3.25",
+            "stat": "Firerate",
+            "text": "4 > 3.25 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|300}}",
+          "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Upgraded Armaments",
+        "cost": "{{Money|1,400}}",
+        "information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}",
+        "claims": [
+          {
             "kind": "delta",
-            "delta": "+20",
+            "delta": "+13",
             "stat": "Damage",
-            "text": "+20 Damage"
+            "text": "+13 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          },
+          {
+            "kind": "set",
+            "from": "5.5",
+            "to": "7",
+            "stat": "Explosion Radius",
+            "text": "5.5 > 7 Explosion Radius"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Upgraded Armaments",
+          "Cost": "{{Money|1,400}}",
+          "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+          "Information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Bigger Cannon",
+        "cost": "{{Money|2,500}}",
+        "information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+25",
+            "stat": "Damage",
+            "text": "+25 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Range",
+            "text": "+5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "7",
+            "to": "8",
+            "stat": "Explosion Radius",
+            "text": "7 > 8 Explosion Radius"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Bigger Cannon",
+          "Cost": "{{Money|2,500}}",
+          "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+          "Information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Loaded Warhead",
+        "cost": "{{Money|12,000}}",
+        "information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Damage",
+            "text": "+50 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
           },
           {
             "kind": "note",
-            "text": "17.5% > 20% Buff"
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage"
           },
           {
             "kind": "note",
-            "text": "15% > 20% Call To Arms Buff"
-          },
-          {
-            "kind": "grant",
-            "stat": "Support Caravan Ability",
-            "text": "+Support Caravan Ability"
+            "text": "5 Explosion Radius }}"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Strength in Numbers",
-          "Cost": "{{Money|14,000}}",
-          "Image": "[[File:SupportCaravanIcon.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}"
+          "Upgrade Title": "Loaded Warhead",
+          "Cost": "{{Money|12,000}}",
+          "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+          "Information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 5,
+        "title": "City Buster",
+        "cost": "{{Money|22,500}}",
+        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Damage",
+            "text": "+50 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "8",
+            "to": "8.5",
+            "stat": "Explosion Radius",
+            "text": "8 > 8.5 Explosion Radius"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Cluster Amount}}",
+            "text": "+3 Cluster Amount}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "City Buster",
+          "Cost": "{{Money|22,500}}",
+          "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}"
         }
       }
-    ],
-    "pvp": []
+    ]
   },
   "upgrade_templates": [
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 1,
-      "title": "Leadership",
-      "cost": "{{Money|400}}",
-      "information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}",
+      "title": "Improved Handling",
+      "cost": "{{Money|500}}",
+      "information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}",
       "claims": [
         {
-          "kind": "note",
-          "text": "10% > 15% Buff"
+          "kind": "set",
+          "from": "4",
+          "to": "2.75",
+          "stat": "Firerate",
+          "text": "4 > 2.75 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Leadership",
-        "Cost": "{{Money|400}}",
-        "Image": "[[File:Commander Upgrade 1  New.png|100px]]",
-        "Information": "10% > 15% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\nSell Price changes to {{Money|350}}"
+        "Upgrade Title": "Improved Handling",
+        "Cost": "{{Money|500}}",
+        "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+        "Information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}"
       }
     },
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 2,
-      "title": "Call to Arms",
-      "cost": "{{Money|2,450}}",
-      "information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}",
+      "title": "Upgraded Armaments",
+      "cost": "{{Money|2,250}}",
+      "information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}",
       "claims": [
         {
-          "kind": "grant",
-          "stat": "Lead Detection",
-          "text": "+Lead Detection"
+          "kind": "delta",
+          "delta": "+20",
+          "stat": "Damage",
+          "text": "+20 Damage"
         },
         {
-          "kind": "grant",
-          "stat": "Flying Detection",
-          "text": "+Flying Detection"
-        },
+          "kind": "set",
+          "from": "5",
+          "to": "7",
+          "stat": "Explosion Radius",
+          "text": "5 > 7 Explosion Radius"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Upgraded Armaments",
+        "Cost": "{{Money|2,250}}",
+        "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+        "Information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "title": "Bigger Cannon",
+      "cost": "{{Money|4,250}}",
+      "information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}",
+      "claims": [
         {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
+          "kind": "delta",
+          "delta": "+30",
+          "stat": "Damage",
+          "text": "+30 Damage"
         },
         {
           "kind": "delta",
@@ -219,78 +441,102 @@
           "text": "+3 Range"
         },
         {
-          "kind": "delta",
-          "delta": "+15",
-          "stat": "Damage",
-          "text": "+15 Damage"
-        },
-        {
           "kind": "set",
-          "from": "0",
-          "to": "0.6",
-          "stat": "Firerate",
-          "text": "0 > 0.6 Firerate"
-        },
-        {
-          "kind": "grant",
-          "stat": "Call to Arms Ability",
-          "text": "+Call to Arms Ability"
-        },
-        {
-          "kind": "note",
-          "text": "10% Firerate Buff"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Call to Arms",
-        "Cost": "{{Money|2,450}}",
-        "Image": "[[File:Commander_Upgrade_3.png|100px]]",
-        "Information": "+Lead Detection {{Lead|Lead Detection}}\n\n+Flying Detection {{Flying|Flying Detection}}\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Call to Arms Ability \n\n•10% [[Firerate Buff]] [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|1,166}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 3,
-      "title": "Intense Training",
-      "cost": "{{Money|4,500}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+15",
-          "stat": "Damage",
-          "text": "+15 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "15% > 17.5% Buff"
-        },
-        {
-          "kind": "note",
-          "text": "10% > 15% Call To Arms Buff"
+          "from": "7",
+          "to": "8.5",
+          "stat": "Explosion Radius",
+          "text": "7 > 8.5 Explosion Radius"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Intense Training",
-        "Cost": "{{Money|4,500}}",
-        "Image": "[[File:Commander Upgrade 4 New.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n15% > 17.5% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n10% > 15% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n\nSell Price changes to {{Money|2,666}}"
+        "Upgrade Title": "Bigger Cannon",
+        "Cost": "{{Money|4,250}}",
+        "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+        "Information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}"
       }
     },
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 4,
-      "title": "Strength in Numbers",
-      "cost": "{{Money|14,000}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}",
+      "title": "Loaded Warhead",
+      "cost": "{{Money|13,500}}",
+      "information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+35",
+          "stat": "Damage",
+          "text": "+35 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Range",
+          "text": "+4 Range"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage"
+        },
+        {
+          "kind": "note",
+          "text": "5 Explosion Radius }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Loaded Warhead",
+        "Cost": "{{Money|13,500}}",
+        "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+        "Information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "title": "City Buster",
+      "cost": "{{Money|30,000}}",
+      "information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+135",
+          "stat": "Damage",
+          "text": "+135 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "8.5",
+          "to": "9",
+          "stat": "Explosion Radius",
+          "text": "8.5 > 9 Explosion Radius"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Cluster Amount}}",
+          "text": "+2 Cluster Amount}}"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "City Buster",
+        "Cost": "{{Money|30,000}}",
+        "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+        "Information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Improved Handling",
+      "cost": "{{Money|300}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}",
       "claims": [
         {
           "kind": "delta",
@@ -299,77 +545,374 @@
           "text": "+2 Range"
         },
         {
+          "kind": "set",
+          "from": "4",
+          "to": "3.25",
+          "stat": "Firerate",
+          "text": "4 > 3.25 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Improved Handling",
+        "Cost": "{{Money|300}}",
+        "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Upgraded Armaments",
+      "cost": "{{Money|1,400}}",
+      "information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}",
+      "claims": [
+        {
           "kind": "delta",
-          "delta": "+20",
+          "delta": "+13",
           "stat": "Damage",
-          "text": "+20 Damage"
+          "text": "+13 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
+        },
+        {
+          "kind": "set",
+          "from": "5.5",
+          "to": "7",
+          "stat": "Explosion Radius",
+          "text": "5.5 > 7 Explosion Radius"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Upgraded Armaments",
+        "Cost": "{{Money|1,400}}",
+        "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+        "Information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "title": "Bigger Cannon",
+      "cost": "{{Money|2,500}}",
+      "information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+25",
+          "stat": "Damage",
+          "text": "+25 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Range",
+          "text": "+5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "7",
+          "to": "8",
+          "stat": "Explosion Radius",
+          "text": "7 > 8 Explosion Radius"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Bigger Cannon",
+        "Cost": "{{Money|2,500}}",
+        "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+        "Information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Loaded Warhead",
+      "cost": "{{Money|12,000}}",
+      "information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+50",
+          "stat": "Damage",
+          "text": "+50 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
         },
         {
           "kind": "note",
-          "text": "17.5% > 20% Buff"
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage"
         },
         {
           "kind": "note",
-          "text": "15% > 20% Call To Arms Buff"
-        },
-        {
-          "kind": "grant",
-          "stat": "Support Caravan Ability",
-          "text": "+Support Caravan Ability"
+          "text": "5 Explosion Radius }}"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Strength in Numbers",
-        "Cost": "{{Money|14,000}}",
-        "Image": "[[File:SupportCaravanIcon.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+20 Damage [[File:Damage Icon.png|20px|Damage]]\n\n17.5% > 20% Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n15% > 20% Call To Arms Buff [[File:Cooldown Buff.png|20px|Firerate Buff]]\n\n+Support Caravan Ability\n\n\nSell Price changes to {{Money|7,333}}"
+        "Upgrade Title": "Loaded Warhead",
+        "Cost": "{{Money|12,000}}",
+        "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+        "Information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "title": "City Buster",
+      "cost": "{{Money|22,500}}",
+      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+50",
+          "stat": "Damage",
+          "text": "+50 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "8",
+          "to": "8.5",
+          "stat": "Explosion Radius",
+          "text": "8 > 8.5 Explosion Radius"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Cluster Amount}}",
+          "text": "+3 Cluster Amount}}"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "City Buster",
+        "Cost": "{{Money|22,500}}",
+        "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [],
-    "pvp": []
+    "regular": [
+      {
+        "level": 0,
+        "cost": 1000.0,
+        "total_cost": 1000.0,
+        "damage": 15.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 4.0,
+        "overcharge": 24.0,
+        "range": 5.0,
+        "dps": null
+      },
+      {
+        "level": 1,
+        "cost": 500.0,
+        "total_cost": 1500.0,
+        "damage": 15.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 2.75,
+        "overcharge": 27.0,
+        "range": 5.0,
+        "dps": null
+      },
+      {
+        "level": 2,
+        "cost": 2250.0,
+        "total_cost": 3750.0,
+        "damage": 35.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 2.75,
+        "overcharge": 27.0,
+        "range": 7.5,
+        "dps": null
+      },
+      {
+        "level": 3,
+        "cost": 4250.0,
+        "total_cost": 8000.0,
+        "damage": 65.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 2.75,
+        "overcharge": 30.0,
+        "range": 8.5,
+        "dps": null
+      },
+      {
+        "level": 4,
+        "cost": 13500.0,
+        "total_cost": 21500.0,
+        "damage": 100.0,
+        "tick": 30.0,
+        "charge_up": 4.0,
+        "cooldown": 2.75,
+        "overcharge": 34.0,
+        "range": 8.5,
+        "dps": 2.006
+      },
+      {
+        "level": 5,
+        "cost": 30000.0,
+        "total_cost": 51500.0,
+        "damage": 235.0,
+        "tick": 40.0,
+        "charge_up": 6.0,
+        "cooldown": 2.75,
+        "overcharge": 34.0,
+        "range": 9.0,
+        "dps": 2.339
+      }
+    ],
+    "pvp": [
+      {
+        "level": 0,
+        "cost": 1000.0,
+        "total_cost": 1000.0,
+        "damage": 12.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 4.0,
+        "overcharge": 20.0,
+        "range": 5.5,
+        "dps": null
+      },
+      {
+        "level": 1,
+        "cost": 300.0,
+        "total_cost": 1300.0,
+        "damage": 12.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 3.25,
+        "overcharge": 22.0,
+        "range": 5.5,
+        "dps": null
+      },
+      {
+        "level": 2,
+        "cost": 1400.0,
+        "total_cost": 2700.0,
+        "damage": 25.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 3.25,
+        "overcharge": 25.0,
+        "range": 7.0,
+        "dps": null
+      },
+      {
+        "level": 3,
+        "cost": 2500.0,
+        "total_cost": 5200.0,
+        "damage": 50.0,
+        "tick": null,
+        "charge_up": null,
+        "cooldown": 3.258,
+        "overcharge": 30.0,
+        "range": 8.0,
+        "dps": null
+      },
+      {
+        "level": 4,
+        "cost": 12000.0,
+        "total_cost": 17200.0,
+        "damage": 100.0,
+        "tick": 40.0,
+        "charge_up": 3.0,
+        "cooldown": 3.25,
+        "overcharge": 32.0,
+        "range": 8.0,
+        "dps": 1.68
+      },
+      {
+        "level": 5,
+        "cost": 22500.0,
+        "total_cost": 39700.0,
+        "damage": 150.0,
+        "tick": 50.0,
+        "charge_up": 6.0,
+        "cooldown": 3.25,
+        "overcharge": 35.0,
+        "range": 8.5,
+        "dps": 1.673
+      }
+    ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 2+}}",
-      "lead": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
-      "flying": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
-      "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6"
+      "hidden": "N/A<ref name=\"hd\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "{{Attr|Fly|Level 0+}}",
+      "immune": "Stun",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])"
     },
     "pvp": {
-      "hidden": null,
-      "lead": null,
-      "flying": null,
-      "immune": null
+      "hidden": "N/A<ref name=\"hd\"/>",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "{{Attr|Fly|Level 0+}}",
+      "immune": "Stun",
+      "placement_limit": "five"
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Commander",
-        "image-static": "Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->",
-        "image-dynamic": "CommanderDynamic.png",
-        "unlockcost": "{{Coins|4,000}}",
-        "basecost": "{{Money|650}}",
-        "basesellingprice": "{{Money|216}}",
-        "role": "Support",
-        "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
-        "damagetype": "Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0",
-        "baserange": "[[File:Range Icon.png|20px|Range]]10",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "lead_detection": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
-        "flying_detection": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
-        "immune": "None",
-        "footprint": "1.5",
-        "tooltip-1": "A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.",
-        "tooltip-2": "At final level also unlocks the ability to summon a caravan of friendly APC units."
+        "title": "Mortar",
+        "image-static": "MortarIcon.png",
+        "image-dynamic": "MortarDynamic.png",
+        "unlockcost": "{{Level|75}} or {{Robux|300}}",
+        "role": "Defense",
+        "placement": "Cliff",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])",
+        "basecost": "{{Money|1,000}}",
+        "basesellingprice": "{{Money|333}}",
+        "basedamage": "[[File:SplashDamage.png|20px|Damage]]15",
+        "damagetype": "[[Splash Damage|Splash]]",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+        "baserange": "[[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)",
+        "hidden_detection": "N/A<ref name=\"hd\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "{{Attr|Fly|Level 0+}}",
+        "immune": "Stun",
+        "footprint": "1.75",
+        "pvp_basecost": "{{Money|1,000}}",
+        "pvp_basesellingprice": "{{Money|333}}",
+        "pvp_basedamage": "[[File:SplashDamage.png|20px|Damage]]12",
+        "pvp_damagetype": "[[Splash Damage|Splash]]",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)",
+        "pvp_hidden_detection": "N/A<ref name=\"hd\"/>",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
+        "pvp_immune": "Stun",
+        "pvp_footprint": "1.5",
+        "tooltip-1": "AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.",
+        "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     }
@@ -377,28 +920,39 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Commander",
-      "image-static": "Commandernew.png<!--The icon with the correct face is File:CommanderIconInGame.png-->",
-      "image-dynamic": "CommanderDynamic.png",
-      "unlockcost": "{{Coins|4,000}}",
-      "basecost": "{{Money|650}}",
-      "basesellingprice": "{{Money|216}}",
-      "role": "Support",
-      "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]6",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
-      "damagetype": "Single<br/>Collision (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0",
-      "baserange": "[[File:Range Icon.png|20px|Range]]10",
-      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-      "lead_detection": "{{Attr|Lead|Level 2+}} (Tower)<br/>{{Attr|Lead|Level 4}} ([[Missile APC]] & [[Gunner APC]] Collision)",
-      "flying_detection": "{{Attr|Fly|Level 2+}} (Tower & [[Gunner APC]])",
-      "immune": "None",
-      "footprint": "1.5",
-      "tooltip-1": "A support tower that provides a passive attack speed buff to nearby towers. Can also use its active skills to provide a temporary massive buff to nearby towers.",
-      "tooltip-2": "At final level also unlocks the ability to summon a caravan of friendly APC units."
+      "title": "Mortar",
+      "image-static": "MortarIcon.png",
+      "image-dynamic": "MortarDynamic.png",
+      "unlockcost": "{{Level|75}} or {{Robux|300}}",
+      "role": "Defense",
+      "placement": "Cliff",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])",
+      "basecost": "{{Money|1,000}}",
+      "basesellingprice": "{{Money|333}}",
+      "basedamage": "[[File:SplashDamage.png|20px|Damage]]15",
+      "damagetype": "[[Splash Damage|Splash]]",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+      "baserange": "[[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)",
+      "hidden_detection": "N/A<ref name=\"hd\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "lead_detection": "{{Attr|Lead|Level 0+}}",
+      "flying_detection": "{{Attr|Fly|Level 0+}}",
+      "immune": "Stun",
+      "footprint": "1.75",
+      "pvp_basecost": "{{Money|1,000}}",
+      "pvp_basesellingprice": "{{Money|333}}",
+      "pvp_basedamage": "[[File:SplashDamage.png|20px|Damage]]12",
+      "pvp_damagetype": "[[Splash Damage|Splash]]",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)",
+      "pvp_hidden_detection": "N/A<ref name=\"hd\"/>",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+      "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
+      "pvp_immune": "Stun",
+      "pvp_footprint": "1.5",
+      "tooltip-1": "AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.",
+      "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 274
+  "template_count": 315
 }
