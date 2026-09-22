@@ -7,7 +7,193 @@
       "infobox_or_summary"
     ]
   },
-  "potential_conflicts": [],
+  "potential_conflicts": [
+    {
+      "mode": "regular",
+      "level": 1,
+      "field": "tick",
+      "upgrade_claim": 0.175,
+      "statistics_table_claim": 2.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.275 > 0.175 Firerate"
+    },
+    {
+      "mode": "regular",
+      "level": 1,
+      "field": "range",
+      "upgrade_implied": 5.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "field": "range",
+      "upgrade_implied": 4.5,
+      "statistics_table_claim": 6.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1.5 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "field": "damage",
+      "upgrade_implied": 5.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+3 Burn Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "damage",
+      "upgrade_implied": 8.0,
+      "statistics_table_claim": 5.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+5 Burn Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 20.0,
+      "statistics_table_claim": 9.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+15 Burn Damage"
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 11.5,
+      "statistics_table_claim": 10.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1.5 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "field": "range",
+      "upgrade_implied": 5.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "field": "tick",
+      "upgrade_claim": 0.75,
+      "statistics_table_claim": 1.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "1 > 0.75 Tick"
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "field": "range",
+      "upgrade_implied": 4.0,
+      "statistics_table_claim": 5.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "field": "damage",
+      "upgrade_implied": 3.0,
+      "statistics_table_claim": 2.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+1 Burn Damage"
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "field": "tick",
+      "upgrade_claim": 0.5,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0.75 > 0.5 Tick"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "damage",
+      "upgrade_implied": 7.0,
+      "statistics_table_claim": 6.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+4 Burn Damage"
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "field": "range",
+      "upgrade_implied": 9.5,
+      "statistics_table_claim": 10.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 0,
+      "field": "damage",
+      "infobox_claim": 2.0,
+      "statistics_table_claim": 1.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    },
+    {
+      "mode": "regular",
+      "level": 0,
+      "field": "tick",
+      "infobox_claim": 0.275,
+      "statistics_table_claim": 2.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    },
+    {
+      "mode": "regular",
+      "level": 0,
+      "field": "range",
+      "infobox_claim": 9.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    },
+    {
+      "mode": "pvp",
+      "level": 0,
+      "field": "tick",
+      "infobox_claim": 0.25,
+      "statistics_table_claim": 1.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    },
+    {
+      "mode": "pvp",
+      "level": 0,
+      "field": "range",
+      "infobox_claim": 7.0,
+      "statistics_table_claim": 3.0,
+      "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
+      "type": "base_summary_mismatch"
+    }
+  ],
   "notes": [
     "Different upgrade levels can legitimately differ.",
     "When a current-level Upgrade claim disagrees with the Statistics table, the configured rule prefers Upgrade/Description and flags the mismatch rather than silently choosing."
