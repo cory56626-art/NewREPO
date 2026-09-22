@@ -10,49 +10,89 @@
   "potential_conflicts": [
     {
       "mode": "regular",
-      "level": 1,
+      "level": 2,
+      "field": "range",
+      "upgrade_implied": 12.0,
+      "statistics_table_claim": 10.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "regular",
+      "level": 3,
       "field": "tick",
       "upgrade_claim": 0.15,
       "statistics_table_claim": 3.0,
       "preferred_source": "upgrade_template",
       "type": "set_mismatch",
-      "claim_text": "0.175 > 0.15 Firerate"
+      "claim_text": "0.35 > 0.15 Firerate"
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "field": "cooldown",
+      "upgrade_claim": 0.6,
+      "statistics_table_claim": 1.0,
+      "preferred_source": "upgrade_template",
+      "type": "set_mismatch",
+      "claim_text": "0 > 0.6 Burst Cooldown"
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "field": "range",
+      "upgrade_implied": 14.5,
+      "statistics_table_claim": 12.5,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
     },
     {
       "mode": "pvp",
-      "level": 1,
-      "field": "tick",
-      "upgrade_claim": 0.12,
-      "statistics_table_claim": 6.0,
+      "level": 2,
+      "field": "range",
+      "upgrade_implied": 7.0,
+      "statistics_table_claim": 5.0,
+      "preferred_source": "upgrade_template",
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "field": "cooldown",
+      "upgrade_claim": 0.8,
+      "statistics_table_claim": 60.0,
       "preferred_source": "upgrade_template",
       "type": "set_mismatch",
-      "claim_text": "0.15 > 0.12 Firerate"
+      "claim_text": "0 > 0.8 Burst Cooldown"
     },
     {
       "mode": "pvp",
       "level": 4,
-      "field": "tick",
-      "upgrade_claim": 0.1,
-      "statistics_table_claim": 10.0,
+      "field": "range",
+      "upgrade_implied": 7.0,
+      "statistics_table_claim": 5.0,
       "preferred_source": "upgrade_template",
-      "type": "set_mismatch",
-      "claim_text": "0.12 > 0.1 Firerate"
+      "type": "delta_mismatch",
+      "claim_text": "+2 Range"
     },
     {
       "mode": "regular",
       "level": 0,
-      "field": "tick",
-      "infobox_claim": 0.175,
-      "statistics_table_claim": 3.0,
+      "field": "range",
+      "infobox_claim": 12.0,
+      "statistics_table_claim": 7.5,
       "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
       "type": "base_summary_mismatch"
     },
     {
       "mode": "pvp",
       "level": 0,
-      "field": "tick",
-      "infobox_claim": 0.15,
-      "statistics_table_claim": 4.0,
+      "field": "range",
+      "infobox_claim": 12.0,
+      "statistics_table_claim": 5.0,
       "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
       "type": "base_summary_mismatch"
     }
