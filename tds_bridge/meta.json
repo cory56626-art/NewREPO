@@ -1,32 +1,16 @@
 {
   "mode": "verify",
-  "requested": "Freezer",
-  "title": "Freezer",
-  "pageid": 185,
-  "latest_revid": 648535,
-  "latest_timestamp": "2026-09-09T19:35:44Z",
-  "source_url": "https://tds.fandom.com/wiki/Freezer",
-  "classification": {
-    "is_tower_page": true,
-    "reason": "template/category heuristic"
-  },
-  "source_priority": {
-    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
-    "priority": [
-      "upgrade_templates",
-      "description",
-      "infobox_or_summary"
-    ]
-  },
+  "status": "needs_selection",
+  "requested": "TDS towers with base cost 600",
   "_bridge_run": {
-    "request_fingerprint": "ad52dfb4f7a8e44a65a5fd424dc47722c28d8616bccd63db909ba05cf76619f5",
+    "request_fingerprint": "8c4684e2feb917d505493cbca4fae29db0744d8d09fdb6cafded41f902c49a90",
     "mode": "verify",
-    "query": "Freezer",
-    "started_at": "2026-09-22T18:10:20.876587+00:00",
-    "github_run_id": "35765410945",
-    "source_commit": "0e765093af2ef14e62c041167d6060223fd02703",
-    "status": "completed",
-    "finished_at": "2026-09-22T18:10:24.114350+00:00",
-    "return_code": 0
+    "query": "TDS towers with base cost 600",
+    "started_at": "2026-09-22T18:11:06.620395+00:00",
+    "github_run_id": "35765490021",
+    "source_commit": "db7ed3d7dfc24f576514b832bc9abc57a95f7661",
+    "status": "needs_selection",
+    "finished_at": "2026-09-22T18:11:07.498931+00:00",
+    "return_code": 2
   }
 }
