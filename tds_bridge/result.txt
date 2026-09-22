@@ -1,178 +1,233 @@
-{{Tabs|Regular = Demoman|Perk = Golden Demoman}}
-{{SameName|Demoman|'''Tower''' • [[Demoman (Narrator)|Narrator]]}}
+{{Tabs}}
+{{For|[[Frost Blaster]]|[[Null Freezer]]}}
 {{TowerInfobox
-|title = Demoman
-|image-static = DefaultDemomanIcon2.png
-|image-dynamic = DemomanDynamic.png
-|unlockcost = {{Coins|200}}
-|role = Offense
+|title = Freezer
+|image-static = ReworkedFreezerIcon.png
+|image-dynamic = FreezerDynamic.png
+|unlockcost = {{Coins|650}}
+|basecost = {{Money|450}}
+|basesellingprice = {{Money|150}}
+|role = Defense
 |placement = Ground
-|basecost = {{Money|700}}
-|basesellingprice = {{Money|233}}
-|basedamage = [[File:SplashDamage.png|20px|Damage]]8
-|damagetype = [[Splash Damage|Splash]]
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]2.6
-|baserange = [[File:Range Icon.png|20px|Range]]10<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)
+|basedamage = [[File:Damage Icon.png|20px|Damage]]2
+|damagetype = Single<br/>Burst (Level 3+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55
+|baserange = [[File:Range Icon.png|20px|Range]]12
 |hidden_detection = {{Attr|Hidden|Level 2+}}
 |lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = N/A<ref name=fd>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target flying enemies.</ref>
+|flying_detection = N/A
+|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]
 |immune = None
 |footprint = 1.5
-|pvp_basecost = {{Money|575}}
-|pvp_basesellingprice = {{Money|191}}
-|pvp_basedamage = [[File:SplashDamage.png|20px|Damage]]6
-|pvp_damagetype = [[Splash Damage|Splash]]
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.75
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]9<br/>[[File:ExplosiveRange.png|20px|Explosion Range]]4.5 (Explosion Range)
-|pvp_hidden_detection = N/A<ref>Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies.</ref>
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = N/A<ref name=fd/>
+|pvp_basecost = {{Money|450}}
+|pvp_basesellingprice = {{Money|150}}
+|pvp_role = Defense
+|pvp_placement = Ground
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1
+|pvp_damagetype = Single<br/>Burst (Level 3+)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]12
+|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}
+|pvp_lead_detection = N/A
+|pvp_flying_detection = N/A
 |pvp_immune = None
 |pvp_footprint = 1.5
-|tooltip-1 = A cheap AOE tower with a slow rate of fire and moderate damage and splash radius.
-|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
+|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|Ka-boooom! A great early game splash tower.|Store Description}}
-|-|Version 2 =
-{{QuoteBox|Ka-boooom! A great splash damage tower for beginners!|Former Store Description}}
+{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}
 |-|Version 3 =
-{{QuoteBox|Ka-boooom!|Former Store Description}}
-</tabber>
-}}
+{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}
+|-|Version 2 =
+{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}
+|-|Version 1 =
+{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}
+</tabber>}}
 __TOC__
 ==Description==
-The '''Demoman''' is a starter splash damage tower that can be bought in the store for {{Coins|200}}. While targeting a specific enemy, it will also affect those around the target, dealing splash damage. 
+The '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.
 
-At Levels 0-2, the '''Demoman''' takes one second to aim at an enemy before throwing its explosive grenades. This only affects the damage for the first throw, as it means the '''Demoman''' has to wait a second before throwing it. While it is aiming, it will focus on one enemy until it throws its explosive grenade, after which it can target a different one. If the targeted enemy dies, the '''Demoman''' will continue targeting it, though its grenade will not land where it died, it will throw it further away, which is generally the area where the enemy would have travelled to if it did not die. The '''Demoman''' will also continue to aim at that enemy even if it leaves its range, allowing it to attack outside of its range. After the first throw, while the '''Demoman''' still aims, this does not affect its firerate. The explosion caused by the '''Demoman''' does not have damage drop-off. The '''Demoman''' can also damage [[Lead (Attribute)|Lead]] enemies.
+The '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.
 
-The '''Demoman''' is great for large hordes of non-boss enemies, except for those immune to splash damage. It is relatively weak against major bosses, though it can be useful in tackling the enemies that spawn from some major bosses. The '''Demoman''' is considered an early game to mid-game tower, though in late game it can be quite useful for swarm-clearing when multiple are placed down.
+At Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.
+
+The '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.
+
+The '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Faster Throwing|Cost = {{Money|300}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-2.6 > 1.9 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+15% > 20% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+7.5% > 10% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]
 
 
-Sell Price changes to {{Money|33}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Ullapool Caber|Cost = {{Money|950}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +10 Damage [[File:SplashDamage.png|20px|Damage]]
+Sell Price changes to {{Money|250}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bundled Up!|Cost = {{Money|450}}|Image = [[File:Freezer Upgrade 2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-4.5 > 5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
++2 Range [[File:Range Icon.png|20px|Range]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
+Now freezes enemies upon reaching max chillness
 
-Sell Price changes to {{Money|650}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Loch-n-Load|Cost = {{Money|2,400}}|Image = [[File:Demoman Upgrade 2 New.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-1.9 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+7 Damage [[File:SplashDamage.png|20px|Damage]]
-
-1 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
-
-5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-+Faster Projectile
+•0.5 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
 
 
-Sell Price changes to {{Money|1,450}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Expert's Ordnance|Cost = {{Money|5,500}}|Image = [[File:NewDemomanLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|400}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Arctic Soldier|Cost = {{Money|1,700}}|Image = [[File:Freezer Upgrade 3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.5 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+0.35 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-+10 Damage [[File:SplashDamage.png|20px|Damage]]
+1 > 6 Burst [[File:Damage Icon.png|20px|Burst]]
 
+0 > 0.6 Burst Cooldown [[File:Cooldown Icon.png|20px|Firerate]]
 
-Sell Price changes to {{Money|3,283}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Further{{sic}} Throwing|Cost = {{Money|150}}|Image = [[File:Transparent.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+20% > 25% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
 
-1.75 > 1.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+10% > 12.5% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]
 
+2 > 3 Slowdown Time [[File:Slowness.png|20px|Slowdown Time]]
 
-Sell Price changes to {{Money|241}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Steil Grenade|Cost = {{Money|500}}|Image = [[File:Demoman Upgrade 1 New.png|100px]]|Information = +4 Damage [[File:SplashDamage.png|20px|Damage]]
+Melts 10% defense every tick {{Defense|Defense Melting}}
 
-4.5 > 5.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
+Enemies take damage when slowed down
 
+•3 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]
 
-Sell Price changes to {{Money|408}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Chinalake|Cost = {{Money|1,500}}|Image = [[File:Demoman Upgrade 2 New.png|100px]]|Information = 
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-1.5 > 1.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+5 Damage [[File:SplashDamage.png|20px|Damage]]
-
-1 > 0 Aim Time [[File:Cooldown Icon.png|20px|Aim Time]]
-
-+Faster Projectile
+•1 Tick [[File:Cooldown Icon.png|20px|Tick]]
 
 
-Sell Price changes to {{Money|908}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Collateral Damage|Cost = {{Money|6,000}}|Image = [[File:NewDemomanLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|966}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Ull's Arrow|Cost = {{Money|4,500}}|Image = [[File:Freezer Upgrade 4.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.35 > 1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++2 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]
 
-+19 Damage [[File:SplashDamage.png|20px|Damage]]
++2 Range [[File:Range Icon.png|20px|Range]]
+
+6 > 8 Burst [[File:Damage Icon.png|20px|Burst]]
+
+0.5 > 0.75 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
++Frost Grenade Ability
 
 
-Sell Price changes to {{Money|2,908}}}}
+Sell Price changes to {{Money|2,466}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|225}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+30% > 40% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+
+Sell Price changes to {{Money|216}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bundled Up!|Cost = {{Money|650}}|Image = [[File:Freezer Upgrade 2.png|100px]]|Information = +Hidden Detection {{Hidden|Hidden Detection}}
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+Now freezes enemies upon reaching max chillness
+
+•2 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
+10% > 20% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]
+
+
+Sell Price changes to {{Money|433}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Arctic Soldier|Cost = {{Money|2,000}}|Image = [[File:Freezer Upgrade 3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.5 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+1 > 4 Burst [[File:Damage Icon.png|20px|Burst]]
+
+0 > 0.8 Burst Cooldown [[File:Cooldown Icon.png|20px|Firerate]]
+
+40% > 60% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+2 > 2.5 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
+Melts 10% defense every tick {{Defense|Defense Melting}}
+
+
+Sell Price changes to {{Money|1,100}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Frost Bite!|Cost = {{Money|4,500}}|Image = [[File:Freezer Upgrade 4.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+4 > 7 Burst [[File:Damage Icon.png|20px|Burst]]
+
+2.5 > 3 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
++Frost Grenade Ability
+
+
+Sell Price changes to {{Money|2,600}}}}
+}}
+
+==Ability==
+{{PVPTabber
+|{{Ability|Level Unlock = Level 4|Cooldown Time= 15s Cooldown|Ability Title = Frost Grenade|Image = [[File:Jester_Ability.png|100px]]|Information = 
+Throws a frost grenade that freezes up to five enemies for 2 seconds in an explosion radius of 6.
+}}
+|{{Ability|Level Unlock = Level 4|Cooldown Time= 15s Cooldown|Ability Title = Frost Grenade|Image = [[File:Jester_Ability.png|100px]]|Information = 
+Throws a frost grenade that freezes up to five enemies for 6 seconds in an explosion radius of 6.
+}}
 }}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+
 {{neow|<nowiki>
 <var>
-$DPS$ = Splash Damage / Firerate
+$DPS$ = (Damage * Burst Count) / (Cooldown + (Firerate * Burst Count))
+$CDPS$ = Chill Damage / Tick
+$TDPS$ = $DPS$ + $CDPS$
+$TED$ = Chill Damage * (Slowdown Time / Tick)
 $CE$ = Total Cost / DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 700; 300; 950; 2400; 5500
-$PVP-COST$ = 575; 150; 500; 1500; 6000
+$COST$ = 450; 300; 450; 1700; 4500
+$PVP-COST$ = 425; 225; 650; 2000; 4500
 $FSE-DETECTION$ = 2; 0;
-$FSE-PVP-DETECTION$ = ; 0;
-$FSE-UPGRADE$ = Faster Throwing; Ullapool Caber; Loch-n-Load; Expert's Ordnance
-$FSE-PVP-UPGRADE$ = Further Throwing; Steil Grenade; Chinalake; Collateral Damage
-$FSE-UPGRADEICON$ = 5523227714; 5523227714; 5523228733; 5523229364
-$FSE-PVP-UPGRADEICON$ = ; 5523227714; 5523228733; 5523229364
-$FSE-META$ = Starter; File:DefaultDemomanIcon2.png
-$AREF$ = <ref name=aim>Aim Time happens before the '''Demoman''' throws a grenade. This does not affect its firerate.</ref>
-$DREF$ = <ref name=dps>DPS does not consider projectile travel time.</ref>
+$FSE-PVP-DETECTION$ = 2; ;
+$FSE-UPGRADE$ = Expedition Gear; Bundled Up!; Arctic Soldier; Ull's Arrow
+$FSE-PVP-UPGRADE$ = Expedition Gear; Bundled Up!; Arctic Soldier; Frost Bite!
+$FSE-UPGRADEICON$ = 15686418975; 15686418835; 15686418748; 15686418571
+$FSE-META$ = Intermediate; File:ReworkedFreezerIcon.png
+$DREF$ = <ref name=dps>Calculated as (Damage × Burst Count) ÷ (Cooldown + (Firerate × Burst Count)) at Level 3+.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Splash Damage !! Firerate !! Aim Time$AREF$ !! Range !! Explosion Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Chill Damage !! Firerate !! Tick !! Max Slowdown !! Slowdown Per Hit !! Slowdown Time !! Defense Melting !! Burst Count !! Cooldown !! Range !! Freeze Time !! Total Elapsed Damage !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 8 || 2.6 || 1 || 10 || 4.5 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || N/A || 0.55 || 1 || 15% || 7.5% || 2 || N/A || 1 || 0 || 12 || N/A || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 8 || 1.9 || 1 || 12 || 4.5 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 2 || N/A || 0.35 || 1 || 20% || 10% || 2 || N/A || 1 || 0 || 12 || N/A || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 18 || 1.9 || 1 || 12 || 5 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 3 || N/A || 0.35 || 1 || 20% || 10% || 2 || N/A || 1 || 0 || 14 || 0.5 || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 25 || 1.5 || 0 || 14 || 5.5 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 4 || 3 || 0.15 || 1 || 25% || 12.5% || 3 || 10% || 6 || 0.6 || 14 || 0.5 || $TED$ || $TDPS$<ref>$DPS$ Normal DPS + $CDPS$ Chill DPS</ref> || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 35 || 1 || 0 || 16 || 5.5 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 9 || 5 || 0.15 || 1 || 25% || 12.5% || 3 || 10% || 8 || 0.6 || 16 || 0.75 || $TED$ || $TDPS$<ref>$DPS$ Normal DPS + $CDPS$ Chill DPS</ref> || {{Money|$CE$}}
 |}
 </div>
 |-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Splash Damage !! Firerate !! Aim Time$AREF$ !! Range !! Explosion Range !! DPS$DREF$ !! Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Tick !! Max Slowdown !! Slowdown Per Hit !! Slowdown Time !! Defense Melting !! Burst Count !! Cooldown !! Range !! Freeze Time !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 6 || 1.75 || 1 || 9 || 4.5 || $DPS$ || {{Money|$CE$}}
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 0.5 || 0.25 || 30% || 10% || 5 || N/A || 1 || 0 || 12 || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 6 || 1.5 || 1 || 11 || 4.5 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 2 || 0.5 || 0.25 || 40% || 10% || 5 || N/A || 1 || 0 || 12 || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 10 || 1.5 || 1 || 11 || 5.5 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 2 || 0.5 || 0.25 || 40% || 20% || 5 || N/A || 1 || 0 || 14 || 2 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 15 || 1.35 || 0 || 14 || 5.5 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 3 || 0.15 || 0.25 || 60% || 20% || 5 || 10% || 4 || 0.8 || 14 || 2.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 34 || 1 || 0 || 16 || 5.5 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 5 || 0.15 || 0.25 || 60% || 20% || 5 || 10% || 7 || 0.8 || 16 || 3 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 </tabber></div>
@@ -182,82 +237,52 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:ImprovedAngleDemoG0.png|175px]]
-|[[File:M23BlueDemoman0.png|175px]]
-|[[File:M23MilitaryDemoman0.png|175px]]
-|[[File:NewRedDemoman0.png|175px]]
+|[[File:KRDFFreezer0.png|175px]]
+|[[File:KRMCFreezer0.png|175px]]
+|[[File:KRIcyTeaFreezer0.png|175px]]
+|[[File:FoamFreezerNew0.png|175px]]
 |-
 !Skin
-|{{Color|Basic|Green}}
-|{{Color|Basic|Blue}}
-|{{Color|Basic|Military}}
-|{{Color|Basic|Red}}
-|-
-!Rarity
-|{{Color|Common}}
-|{{Color|Common}}
-|{{Color|Uncommon}}
-|{{Color|Common}}
-|-
-!Daily Store Cost
-|{{Coins|500}}
-|{{Coins|500}}
-|{{Coins|750}}
-|{{Coins|500}}
-|-
-!Obtained From
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|[[Basic Crate]]
-|-
-!
-|[[File:YellowDemoman0.png|175px]]
-|[[File:FortressDemoman0.png|175px]]
-|[[File:PirateDemoman0.png|175px]]
-|[[File:PumpkinDemoman0Fixed.png|175px]]
-|-
-!Skin
-|{{Color|Basic|Yellow}}
-|{{Color|Premium|Fortress}}
-|{{Color|Premium|Pirate}}
-|{{Color|Halloween|Pumpkin}}
+|{{Color|Premium|Deep Freeze}}
+|{{Color|Premium|Mint Choco}}
+|{{Color|Other|IcyTea}}
+|{{Color|Other|Foam}}
 |-
 !Rarity
 |{{Color|Common}}
 |{{Color|Uncommon}}
-|{{Color|Common}}
+|{{Color|Uncommon}}
 |{{Color|Exclusive}}
 |-
 !Daily Store Cost
-|{{Coins|500}}
+|{{Robux|85}}
 |{{Robux|105}}
-|{{Coins|3,500}}
-|{{Coins|5,000}}
+|N/A
+|N/A
 |-
 !Obtained From
-|[[Basic Crate]]
 |[[Premium Crate]]
-|[[Pirate Crate]]
-|[[Halloween Crate]]
+|[[Premium Crate]]
+|[[Codes|Code]]:<br />ICYFREEZE<ref>Expired</ref>
+|[[NERF: The Mint Choco Freezer Dart Blaster|Roblox Code]]<ref>Can be obtained from a [[NERF: The Mint Choco Freezer Dart Blaster]] code.</ref>
 |-
 !
-|[[File:DuckyDemoman0.png|175px]]
-|[[File:GhostDemoman0.png|175px]]
-|[[File:EggDemoman0.png|175px]]
-|[[File:CrewDemoman0.png|175px]]
+|[[File:CFreezer0.png|175px]]
+|[[File:FrostLegionFreezer0.png|175px]]
+|[[File:Vendor LV0.png|175px]]
+|[[File:PolarBearFreezer0.png|175px]]
 |-
 !Skin
-|{{Color|DuckyRevenge|Ducky}}
-|{{Color|Null|Ghost}}
-|{{Color|SpringFrenzy|Egg}}
-|{{Color|Backyard|Crew}}
+|{{Color|Krampus|Cryptid}}
+|{{Color|OperationICE|Frost Legion}}
+|{{Color|Surf|Vendor}}
+|{{Color|FinalAct|Polar Bear}}
 |-
 !Rarity
+|{{Color|Event}}
+|{{Color|Rare}}
 |{{Color|Uncommon}}
 |{{Color|Uncommon}}
-|{{Color|Uncommon}}
-|{{Color|Exclusive}}
 |-
 !Daily Store Cost
 |N/A
@@ -266,425 +291,383 @@ $R$ = $FNC-RECURSION$
 |N/A
 |-
 !Obtained From
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Regular Battle Pass]]
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Regular Battle Pass]]
+|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
+|-
+!
+|[[File:BunnyFreezer0.png|175px]]
+|-
+!Skin
+|{{Color|SpringFrenzy|Bunny}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|-
+!Daily Store Cost
+|N/A
+|-
+!Obtained From
 |[[Spring Frenzy Battle Pass]]
-|Triumph all [[Backyard Legends Event]] maps on Easy difficulty
-|-
-!
-|[[File:GoldenDemoman0.png|175px]]
-|[[File:BeachDemoman0.png|175px]]
-|-
-!Skin
-|{{Color|Golden}}
-|{{Color|Beach}}
-|-
-!Rarity
-|{{Color|Golden}}
-|{{Color|Uncommon}}
-|-
-!Daily Store Cost
-|{{Coins|55,000}}
-|{{Coins|5,250}}
-|-
-!Obtained From
-|[[Golden Crate]]
-|[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Demoman''' can outshine the [[Sniper]] and [[Soldier]] as a cheap tower, as its versatility is exceptional.
-*The main weakness of the '''Demoman''' is its slow firerate and projectile.
-**Faster enemies, such as the [[Bolt]], can easily get out of the range of the '''Demoman'''.
-***At later Levels, the '''Demoman''' has faster projectile and much faster firerate, making it easier to deal with them.
-***You can also use a [[Commander]] or [[DJ Booth]] to remedy this as they boost firerate and range respectively.
-**Additionally, these enemies may get out of range of the explosion as it takes time for the projectile to leave the '''Demoman''' and hit the path.
-*At Level 0-2, the '''Demoman''' has an aim time. While it is aiming, it will focus on one enemy until it throws its grenade. Additionally, it will never stop aiming at that specific enemy.
-**Because of this, it can actually attack that enemy even if it gets out of its range.
-**This also means that it will not stop aiming at it even if it dies, which in some cases may make the grenades land in an area where there are no enemies.
-*The '''Demoman''' can be used to kill [[Lead (Attribute)|Lead]] enemies.
-*The '''Demoman's''' firerate is lower than the [[Rocketeer]] and [[Mortar]], and the '''Demoman''' does not have a placement limit. Therefore, it may be more beneficial to use the '''Demoman''' over these towers in certain situations. Though to compensate, the '''Demoman''' overall has lower DPS, so having no placement limit is a great feature.
+*The '''Freezer''' is an excellent choice to deal with early waves, especially when multiple are placed down, due to its cost efficiency and low price.
+**Other towers should be used against higher health enemies like the [[Fallen Giant]].
+**Later on, it does not have enough DPS to handle other enemies, due to their much higher health, but can still be used for stall.
+*The '''Freezer''' can be used to deal with [[Lead (Attribute)|lead]] and [[Hidden (Attribute)|hidden]] enemies early on, which can be very useful in [[Hardcore Mode]]. 
+** The '''Freezer''' plays a very similar role in early-game defense to [[Golden Scout]], making '''Freezer''' a viable alternative to it.
+*The '''Freezer''' can be very effective at slowing down enemies, especially at Level 3+, as its burst count allows it to freeze an enemy in a single burst.
+**It can be very effective at slowing down fast average-sized enemies, like the [[Fallen Rusher]] or [[Bolt]].
+***It is much less effective against bigger enemies like the [[Fallen Giant]], as freeze time is reduced on larger enemies. It also cannot freeze or slowdown freeze immune enemies.
+***While it cannot freeze [[Boss]]es as they are immune to freeze by default, they are not immune to the chillness slowdown effect unless they have the [[Freeze Immunity]]. However, [[Boss]]es are slowed down by much less than regular enemies.
+*The '''Freezer's''' defense dropping ability can be useful for decreasing an enemy's defense, allowing your towers to deal more damage to it.
+**However, do note that as the defense dropping happens when an enemy is frozen or slowed down. Because of this, freeze immune enemies cannot have their defense dropped.
+**The defense drop can stack with other towers, such as the [[Pyromancer]], [[Electroshocker]], [[Toxic Gunner]] or [[Jester]], allowing you to remove all of an enemy's defense.
+***Do note that only a burn defense dropping tower and a poison defense dropping tower, like the [[Pyromancer]] or [[Toxic Gunner]] are required to do this. The '''Freezer''' can still be used to speed up the process.
+***However, the '''Freezer's''' defense drop does not stack with other freeze defense dropping sources, such as the [[Frost Blaster]]'s and [[Cryomancer]]'s defense drop.
+*Unlike some other towers that slow down enemies, the '''Freezer''' has no placement limit.
+**This means that, theoretically, you can easily stop a decent number of enemies from progressing for a long time.
+**It is recommended to have multiple Level 3-4 '''Freezers''' set to ''Random'', as this allows them to slow down the highest amount of enemies.
+*The '''Freezer''' is especially useful when paired with towers that have long charge-up times or a high firerate.
+**One example would be pairing the '''Freezer''' with the [[Accelerator]].
+*The '''Freezer''' can be quite useful when combined with towers that can deal damage to multiple enemies, such as the [[Demoman]], [[Mortar]] or [[Rocketeer]] as it can cluster up a group of enemies. This allows these towers to damage more enemies within their fixed attack radius.
+*The '''Freezer's''' ''Frost Grenade'' ability is quite effective against crowds of enemies, due to it being able to freeze five enemies at once and freezing them for longer than with its regular attack.
+**While it does freeze enemies for a longer amount of time, it is not recommended to use it on singular enemies as it has a hefty 15 second cooldown.
+***This can be somewhat mitigated by having multiple Level 4 '''Freezers'''.
+**This ability should not be used on enemies with [[Freeze Immunity]], as it will do nothing on them, wasting the ability.
 
-==Trivia==
-*The '''Demoman''' was inspired by ''Team Fortress 2's'' RED [https://wiki.teamfortress.com/wiki/Demoman Demoman].
-**The first and second versions of the Level 3, 4 and 5 Default skin were a direct reference to this as they both wore a black vest with a red shirt underneath.
-**The Level 2 and 3 upgrades are direct references to unlockable weapons for the [https://wiki.teamfortress.com/wiki/Demoman Demoman].
-***The Level 2 upgrade name is based on the [https://wiki.teamfortress.com/wiki/Ullapool_Caber Ullapool Caber], which is similarly based on a [[wp:Stielhandgranate|Stielhandgranate]].
-***The Level 3 upgrade name is based on the [https://wiki.teamfortress.com/wiki/Loch-n-Load Loch-n-Load].
-***The Level 4 upgrade name is based on one of [https://wiki.teamfortress.com/wiki/Item_sets Demoman's item sets], which the set coincidentally contains both weapons above and the [https://wiki.teamfortress.com/wiki/Scotch_Bonnet Scotch Bonnet], which the Level 4 '''Demoman'''<nowiki/>'s helmet takes inspiration of.
-**The {{Color|Premium|Fortress}} skin is directly based on the RED [https://wiki.teamfortress.com/wiki/Demoman Demoman].
-*When the game was in Alpha, and for a while after BETA release, the '''Demoman's''' upgrade stats were not displayed on its upgrade description. It was simply referred to as "''sans explosive gun''".
-*The Level 2 '''Demoman''' throws Steil Grenades, a possible reference to the [[w:c:r2da:Steil Grenade|steils]] in ''R2DA.''
-**The Level 3+ '''Demoman''' uses a [[w:c:r2da:Chinalake|Chinalake]], a reference to ''R2DA''.
-*The Demoman is purchased as part of the [[Tutorial]], if the [[Tutorial]] is started using the objective that appears for every new player.
+==Trivia== 
+*When the '''Frezer''' was first released, it did not have any statistics for its upgrade descriptions. Instead, its upgrade description was "sans ice gun".
+*Before the [[Release v1.0|MEGA Update]], the '''Freezer''' had an ability called ''Ice Drop'', which dropped ice on the first enemy within the '''Freezer's''' range. This froze all enemies within a 10 stud radius for 6 seconds (except major bosses and those immune to the ''Ice Drop''). It used to cost {{Money|250}} and had a 75 second cooldown. 
+** This ability was unusable against enemies under a roof since the drop would never collide with them. This did not apply to [[Crystal Cave]] as that roof was non-collidable.
+**The '''Freezer's''' ''Ice Drop'' was able to freeze the [[Gold Titan]] and [[Molten Boss]] prior to the 15th of August 2019.
+*Before the [[Overhaul v1.0|Overhaul Update]], the '''Freezer''' had another ability called ''Ice Age'' which froze all enemies around the '''Freezer''' in a 10-stud radius for about 3 seconds. It had a 30 second cooldown.
+**Additionally, the '''Freezer''' gained the ''Frost Mark'' at Level 3. It slowed enemies down by about 20% for a short duration after they had thawed. 
+***Any enemy with the ''Frost Mark'' effect could not be frozen by the '''Freezer'''. This included the [[Frost Blaster]]'s ''Frost Mark''.
+**This was seemingly replaced by the ''Frost Grenade'' ability.
+*Prior to the [[Release v1.0|MEGA Update]], the '''Freezer''' fired in bursts, similar to the [[Soldier]], except that it targeted different enemies with every shot within a burst.
+**If there was only one enemy in range of the '''Freezer''', then it would target that enemy only once.
+**However, if an enemy had [[Freeze Immunity|Basic Freeze Immunity]], then the '''Freezer''' could target those enemy multiple times.
+**This burst functionality would later be re-added in the [[v1.11.0|Krampus' Revenge Update]], though it would target an enemy based on its targeting.
+*Prior to the [[Overhaul v1.0|Overhaul Update]], the '''Freezer''' fired an explosive ice projectile which could freeze multiple enemies.
+**After the 24th of December 2019, the '''Freezer''' was the only explosive tower to have direct damage.
+***This meant that it could deal damage to a targeted enemy that had explosive immunity (like the [[Golden]]) but could not deal damage to other enemies with explosive immunity if they were not the intended target.
+****This meant that the total damage was effectively doubled for the targeted enemy, if they were caught in the projectile explosion.
+*This tower may be loosely based on the [[w:c:bloons:Ice Monkey (BTD6)|Ice Monkey]] from ''Bloons Tower Defense'' as well as the [[w:c:roblox-tower-battles:Cryo-Gunner|Cryo-Gunner]] from ''Tower Battles''.
+*The original Level 1 upgrade name is a reference to ''R2DA's'' [[w:c:r2da:Frost Knuckles|Frost Knuckles]].
+*Prior to the 5th of May 2023, the {{Color|Other|IcyTea}} skin decreased the '''Freezer's''' placement footprint. It was the only skin that could decrease the tower's placement footprint.
+**It was also one of the only skins in the game to change a tower in any other way than its appearance at the time, with the other being {{Color|Premium|XR500}} [[Turret]].
+*When the third act of the [[Lunar Overture Event]] released, the '''Freezer''', alongside all other freezing towers, were able to permanently stop enemies from moving, making them ridiculously strong. This, however, was fixed few hours later.
+*Before the [[V1.11.0|Krampus' Revenge Update]], the '''Freezer''' was a Starter tower.
+*The Level 4 upgrade name is a reference to the [https://callofduty.fandom.com/wiki/Elemental_Staffs/Staff_of_Ice Ull's Arrow] from ''Call of Duty''.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{Scroll|text=
-*'''14 June 2019''' - [[BETA v1.0|BETA v1.0.0]]
-**'''Demoman''' added.
-*'''16 June 2019''' - [[BETA v1.1|BETA v1.1.0]]
-**Unlock cost decreased from {{Coins|1,500}} to {{Coins|500}}.
-*'''14 July 2019''' - [[BETA v1.5|BETA v1.5.0]]
-**Statistical changes:
-***'''Level 2'''
-****Direct damage increased from +0 to +3.
-****Splash damage increased from +0 to +1.
-***'''Level 3'''
-****Direct damage increased from +2 to +5.
-****Splash damage increased from +1 to +3.
-***'''Level 4'''
-****Direct damage increased from +4 to +10.
-****Splash damage increased from +2 to +5.
-***'''Level 5'''
-****Direct damage increased from +10 to +25.
-****Splash damage increased from +5 to +12.
-****Cost increased from {{Money|5,000}} to {{Money|6,500}}.
-*'''22 July 2019''' - [[BETA v1.6|BETA v1.6.1]]
-**Statistical changes:
-***'''Level 5'''
-****Direct damage decreased from +25 to +18.
-****Splash damage decreased from +12 to +9.
+*'''24 June 2019''' - [[BETA v1.2|BETA v1.2.0]]
+**'''Freezer''' added.
+**{{Bug}} '''Freezer''' is prone to errors.
+*'''14 August 2019''' - [[BETA v1.9|BETA v1.9.3]]
+**{{Bugfix}} '''Freezer''' is no longer prone to errors.
+*'''15 August 2019''' - [[BETA v1.10|BETA v1.10.0]]
+**''Ice Drop'' is no longer able to affect major bosses.
 *'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
 **Upgrade names added.
-**Statistical changes:
-***'''Base'''
-****Range increased from 7 to 9.
-****Direct damage decreased from 4 to 2.
-***'''Level 2'''
-****Splash damage increased from +1 to +3.
-***'''Level 3'''
-****Splash damage increased from +3 to +5.
-***'''Level 4'''
-****Splash damage increased from +5 to +10.
-***'''Level 5'''
-****Range decreased from +2 to +1.
-****Splash damage increased from +9 to +18.
 ***Now uses the new projectile and explosive system.
-****Direct damage and splash damage now deal the same amount of damage instead of splash damage being half of direct damage.
-**New skins: {{Color|Basic|Green}}, {{Color|Basic|Blue}}
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**Direct damage removed.
-*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+***No longer is a burst tower.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|550}} to {{Money|450}}.
-****Firerate decreased from 3.3 to 2.55.
-***'''Level 1'''
-****Cost decreased from {{Money|200}} to {{Money|100}}.
+****Range changed from 8 to 10.
+****Cooldown removed (was 3).
+****Firerate increased from 0.25 to 3.05.
+****Freeze time increased from 0.35 to 0.75.
+****Explosion range of 3 added.
 ***'''Level 2'''
-****Cost decreased from {{Money|500}} to {{Money|400}}.
+****Burst removed (was 1 > 2).
+****Firerate changed from 0.25 to {{Tooltip|3.05 > 2.3|-0.75}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|1,350}} to {{Money|1,000}}.
+****Hidden Detection removed.
+****Freeze time changed from {{Tooltip|0.35 > 0.5|+0.15}} to 0.75.
+****Now gains ''Frost Mark'' (passive ability that slows enemies after being hit).
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|3.3 > 2.3|-1}} to {{Tooltip|2.55 > 2.05|-0.5}}.
+****Burst removed (was 2 > 3).
+****Freeze time changed from {{Tooltip|0.5 > 0.75|+0.25}} to 0.75.
+****Firerate changed from 0.25 to {{Tooltip|2.3 > 0.65|-1.65}}.
+****Cooldown removed (was {{Tooltip|3 > 2.25|-0.75}}).
 ***'''Level 5'''
-****Damage decreased from +18 to +12.
+****Ability changed from ''Ice Drop'' to ''Ice Age''.
+**New skin: {{Color|Premium|Deep Freeze}}
+*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
+**New skin: {{Color|Premium|Mint Choco}}
+*'''18 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Statistical changes:
+***'''Level 2'''
+****Damage decreased from +2 to +1.
 *****{{Bug}} This was not changed in the upgrade description.
-****Firerate changed from {{Tooltip|2.3 > 1.2|-1.1}} to {{Tooltip|2.05 > 1.3|-0.75}}.
+****Range decreased from +2 to +1.
+*****{{Bug}} This was not changed in the upgrade description.
+***'''Level 3'''
+****Damage decreased from +3 to +1.
+*****{{Bug}} This was not changed in the upgrade description.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|2.3 > 0.65|-1.65}} to {{Tooltip|2.3 > 1.05|-1.25}}.
 *****{{Bug}} This was not changed in the upgrade description.
 *'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
-**{{Bugfix}} Level 5 upgrade description is now correct.
+**New skin: {{Color|Other|IcyTea}}
+**{{Bug}} {{Color|Other|IcyTea}} skin decreases tower placement footprint.
 *'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Unlock cost decreased from {{Coins|500}} to {{Coins|250}}.
-**Splash damage equation reworked.
+**Unlock cost decreased from {{Coins|1,000}} to {{Coins|800}}.
+**No longer fires an explosive projectile.
+**Freeze mechanic changed.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Range decreased from 9 to 7.
-****Firerate increased from 2.55 to 3.03.
-****Explosion range decreased from 5 to 1.5.
-****Lead detection added.
+****Damage decreased from 1 to 0.
+****Range decreased from 10 to 8.
+****Firerate decreased from 3.05 to 3.03.
+****Maximum Freeze Time increased from 0.75 to 0.8.
+****Mininum Freeze Time of 0.35 added.
+****Cost decreased from {{Money|450}} to {{Money|350}}.
 ***'''Level 1'''
-****Range increased from +2 to +3.
-****Renamed from ''Gloves'' to ''Further Throwing''.
+****Freeze time changed from 0.75 to 0.8 > 1.35.
 ***'''Level 2'''
 ****Range increased from +1 to +2.
-****Hidden detection removed.
-****Renamed from ''Epic Shades'' to ''Steil Grenade''
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|3.05 > 2.3|-0.75}} to 3.03.
+****Cost decreased from {{Money|600}} to {{Money|400}}.
 ***'''Level 3'''
-****Firerate changed from 2.55 to {{Tooltip|3.03 > 2.03|-1}}.
-****Explosion range changed from 5 > 6 to 1.5.
-****Damage decreased from +5 to +2.
-****Range decreased from +1 to +0.
-****Renamed from ''Explosive Vest'' to ''Chinalake''.
+****Damage increased from +1 to +2.
+****''Frost Mark'' removed.
+****Now drops 1 defense every hit.
+****Cost decreased from {{Money|1,500}} to {{Money|1,400}}.
+****Renamed from ''Winter Attire'' to ''Cold Snap''.
 ***'''Level 4'''
-****Damage increased from +10 to +13.
-****Range increased from +1 to +2.
-****Firerate changed from {{Tooltip|2.55 > 2.05|-0.5}} to {{Tooltip|2.03 > 1.83|-0.2}}.
-****Explosion range changed from 6 to 1.5 > 3.
-****Renamed from ''Improved Grenades'' to ''Collateral Damage''.
-***'''Level 5 removed'''
-****Original statistics:
-*****Name: ''Dual Wield''
-*****Cost: {{Money|6,500}}
-*****+1 Range
-*****+12 Damage
-*****2.05 > 1.3 Firerate
-*****6 > 8 Explosion Range
-**{{Bug}} {{Color|Basic|Blue}} and {{Color|Basic|Green}} skins use outdated models in the lobby.
+****Firerate changed from {{Tooltip|2.3 > 1.05|-1.25}} to {{Tooltip|3.03 > 1.53|-1.5}}.
+****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+****Renamed from ''Subarctic Vest'' to ''Arctic Commando''.
+***'''Level 5'''
+****Damage decreased from +2 to +0.
+****Freeze time changed from 0.75 > 1 to 1.35 > 1.5.
+****Firerate changed from 1.05 to {{Tooltip|1.53 > 1.03|-0.5}}.
+****''Ice Age'' ability removed.
+****Now drops 2 defense every hit.
+****Cost decreased from {{Money|7,500}} to {{Money|6,000}}.
+**{{Bug}} Level 3 upgrade description does not list that the '''Freezer''' gains defense dropping.
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**'''Demoman''' now ignores [[defense]].
-**Splash damage reworked. Explosion is now separated into two spheres. Inner sphere deals 100% of the stated damage, while damage in the outer sphere decreases linearly from the edge of the inner sphere to the edge of the outer sphere.
+**Statistical changes:
+***'''Level 3'''
+****Defense dropping changed from 1 to 5%.
+***'''Level 5'''
+****Defense dropping changed from 2 to 10%.
+**{{Bug}} If the '''Freezer''' freezes an enemy that was slowed down by the [[Toxic Gunner]], that enemy has a chance to stop moving completly until it is frozen again, with slower enemies being more likely to be affected.
 *'''12 March 2022''' - [[v1.1.0]]
-**The '''Demoman''' now uses a path based movement prediction, causing it to hit enemies more accurately.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
 ****Firerate decreased from 3.03 to 3.025.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|3.03 > 2.03|-1}} to {{Tooltip|3.025 > 2.025|-1}}.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|2.03 > 1.83|-0.2}} to {{Tooltip|2.025 > 1.825|-0.2}}.
+****Firerate changed from {{Tooltip|3.03 > 1.53|-1.5}} to {{Tooltip|3.025 > 1.525|-1.5}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|1.53 > 1.03|-0.5}} to {{Tooltip|1.525 > 1.025|-0.5}}.
+**{{Bugfix}} The '''Freezer''' can no longer make an enemy stop moving completly, if it freezes that enemy while it is being slowed down by the [[Toxic Gunner]].
+*'''30 September 2022''' - [[v1.4.0]]
+**New skin: {{Color|Other|Foam}}
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|450}} to {{Money|300}}.
-****Firerate decreased from 3.025 to 2.525.
-****Explosion range increased from 1.5 to 2.5.
-****Damage increased from 2 to 3.
-***'''Level 1'''
-****Cost increased from {{Money|100}} to {{Money|150}}.
-****Firerate changed from 3.025 to {{Tooltip|2.525 > 2.025|-0.5}}.
-****Renamed from ''Further Throwing'' to ''Stronger Throw''.
-***'''Level 2'''
-****Cost increased from {{Money|400}} to {{Money|525}}.
-****Range decreased from +2 to +0.
-****Explosion range changed from 1.5 to 2.5 > 3.25.
-***'''Level 3'''
-****Cost increased from {{Money|1,000}} to {{Money|1,500}}.
-****Damage increased from +2 to +6.
-****Firerate changed from {{Tooltip|3.025 > 2.025|-1}} to {{Tooltip|2.025 > 1.525|-0.5}}.
-***'''Level 4'''
-****Cost increased from {{Money|3,500}} to {{Money|6,000}}.
-****Damage increased from +13 to +16.
-****Range increased from +2 to +4.
-****Firerate changed from {{Tooltip|2.025 > 1.825|-0.2}} to {{Tooltip|1.525 > 1.225|-0.3}}.
-****Explosion range changed from 1.5 > 3 to 3.25 > 4.
-**New skin: {{Color|Basic|Military}}
-**{{Bug}} {{Color|Basic|Military}} skin in the regular lobby uses outdated animations.
-*'''21 March 2023''' - [[v1.6.4]]
-**{{Bug}} Level 2 upgrade description does not mention the '''Demoman''' getting a bigger explosion.
-**{{Bug}} Level 1 upgrade is named ''Further Throwing'' instead of ''Stronger Throw''.
+**{{Color|Premium|Deep Freeze}} skin rarity changed from {{Color|Uncommon}} to {{Color|Common}}.
+*'''21 March 2023''' - [[v1.6.3]]e
+**{{Bugfix}} Level 3 upgrade description now lists that the '''Freezer''' gains defense dropping.
 *'''5 May 2023''' - [[v1.7.2]]
-**'''Demoman''' now has to aim before attacking enemies at lower Levels. It will focus on one enemy while aiming and will not switch to a different one even if it dies or leaves its range.
-**Projectiles now land behind the enemy.
+**{{Bugfix}} {{Color|Other|IcyTea}} no longer decreases tower placement footprint.
+*'''28 October 2023''' - [[v1.9.0]]
+**The '''Freezer''' can no longer freeze enemies if it was set on fire by a tower.
+*'''12 November 2023''' - [[v1.9.0]]l
+**{{Bug}} '''Freezer''' permanently stops enemies from moving after being frozen.
+*'''12 November 2023''' - [[v1.9.0]]m
+**{{Bugfix}} '''Freezer''' does not permanently stop enemies from moving after being frozen anymore.
+*'''21 December 2023''' - [[v1.11.0]]
+**Category changed from Starter to Intermediate.
+**Unlock cost increased from {{Coins|800}} to {{Coins|1,600}}.
+**Now applies a chill slowness effect when hitting an enemy, only freezing them when slowdown is higher than max slowdown.
+**Now drops defense every tick while an enemy is slowed down or frozen instead of dropping it on hit.
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|300}} to {{Money|400}}.
-****Range increased from 7 to 8.
-****Damage increased from 3 to 4.
-****Firerate increased from 2.525 to 3.025.
-****Explosion Range increased from 2.5 to 2.75.
-****Aim Time of 1 added.
+****Damage increased from 0 to 1.
+****Range increased from 8 to 10.
+****Firerate decreased from 3.025 to 0.625.
+****Freeze time increased from 0.8 to 1.5.
+****Max Slowdown of 45% added.
+****Slowdown per Shot of 15% added.
+****Burst of 1 added.
+****Cooldown of 0 added.
+****Cost increased from {{Money|350}} to {{Money|450}}.
 ***'''Level 1'''
-****Cost decreased from {{Money|150}} to {{Money|100}}.
-****Range decreased from +3 to +2.
-****Firerate changed from {{Tooltip|2.525 > 2.025|-0.5}} to {{Tooltip|3.025 > 2.675|-0.35}}.
+****Max Slowdown change of 45% > 60% added.
+****Slowdown per Shot change of 15% > 20% added.
+****Freeze Time changed from 0.8 > 1.35 to 1.5.
+****Cost decreased from {{Money|350}} to {{Money|150}}.
+****Renamed from ''Frost Knuckles'' to ''Expedition Gear''.
 ***'''Level 2'''
-****Damage increased from +3 to +4.
-****Explosion range changed from 2.5 > 3.25 to 2.75 > 3.25.
+****Damage increased from +0 to +1.
+****Range decreased from +2 to +0.
+****Freeze Time changed from 1.35 to 1.5 > 2.
+****Defense dropping changed from 0% to 10%.
+****Max defense dropping changed from 20% to 33%.
+****Cost increased from {{Money|400}} to {{Money|625}}.
+****Renamed from ''Frost Vision'' to ''Bundled Up!''.
 ***'''Level 3'''
-****Firerate changed from {{Tooltip|2.025 > 1.525|-0.5}} to {{Tooltip|2.675 > 1.525|-1.15}}.
+****Damage decreased from +2 to +0.
+****Firerate changed from 3.025 to {{Tooltip|0.625 > 0.15|-0.475}}.
+****Burst change of 1 > 4 added.
+****Burst Cooldown change of 0 > 1 added.
+****Max Slowdown change of 60% > 75% added.
+****Slowdown per Shot change of 20% > 25% added.
+****Defense dropping changed from 5% to 10%.
+****Cost increased from {{Money|1,400}} to {{Money|1,650}}.
+****Renamed from ''Cold Snap'' to ''Arctic Soldier''.
+****Cost decreased from {{Money|1,500}} to {{Money|1,400}}.
+***'''Level 4'''
+****Damage increased from +0 to +1.
 ****Range increased from +0 to +2.
-****Aim Time change of 1 > 0 added.
-****Now increases projectile speed.
-***'''Level 4'''
-****Range changed from +4 to +2.
-**{{Color|Basic|Military}} skin rarity changed from {{Color|Rare}} to {{Color|Uncommon}}.
-**New skins: {{Color|Basic|Red}}, {{Color|Basic|Yellow}}, {{Color|Premium|Fortress}}, {{Color|Premium|Pirate}}
-**{{Bugfix}} {{Color|Basic|Blue}}, {{Color|Basic|Green}} and {{Color|Basic|Military}} skins no longer use outdated animations in the regular lobby.
-**{{Bugfix}} {{Color|Basic|Blue}} and {{Color|Basic|Green}} no longer use outdated models in the regular lobby.
-*'''5 August 2023''' - [[v1.8.4]]
-**Statistical changes:
-***'''Base'''
-****Range increased from 8 to 9.
-****Firerate decreased from 3.025 to 2.775.
-***'''Level 1'''
-****Range decreased from +2 to +1.
-****Firerate changed from {{Tooltip|3.025 > 2.675|-0.35}} to {{Tooltip|2.775 > 2.525|-0.25}}.
-****Cost decreased from {{Money|100}} to {{Money|50}}.
-***'''Level 2'''
-****Cost decreased from {{Money|525}} to {{Money|450}}.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|2.675 > 1.525|-1.15}} to {{Tooltip|2.525 > 1.525|-1}}.
-***'''Level 4'''
-****Hidden detection added.
-**{{Color|Pirate|Pirate}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
-*'''31 October 2023''' - [[v1.9.0]]g
-**New skin: {{Color|Halloween|Pumpkin}}
-*'''31 May 2024''' - [[V1.23.0|v1.23.5]]
-**No longer bypasses defense.
-*'''19 July 2024''' - [[v1.26.0]]
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|400}} to {{Money|575}}.
-****Damage increased from 4 to 6.
-****Firerate decreased from 2.775 to 2.625.
-****Explosion range increased from 2.75 to 3.5.
-***'''Level 1'''
-****Cost increased from {{Money|50}} to {{Money|150}}.
-****Firerate changed from {{Tooltip|2.775 > 2.525|-0.25}} to {{Tooltip|2.625 > 2.275|-0.35}}.
-****Range increased from +1 to +2.
-***'''Level 2'''
-****Cost increased from {{Money|450}} to {{Money|475}}.
-****Explosion range changed from 2.75 > 3.25 to 3.5 > 4.
-***'''Level 3'''
-****Cost increased from {{Money|1,500}} to {{Money|1,650}}.
-****Damage increased from +4 to +8.
-****Firerate changed from {{Tooltip|2.525 > 1.525|-1}} to {{Tooltip|2.275 > 1.775|-0.5}}.
-****Range increased from +2 to +3.
-***'''Level 4'''
-****Damage increased from +16 to +32.
-****Firerate changed from {{Tooltip|1.525 > 1.225|-0.3}} to {{Tooltip|1.775 > 1.525|-0.25}}.
-****Range decreased from +2 to +1.
-****Explosion range changed from 3.25 > 4 to 4 > 4.5.
-****Hidden detection removed.
-*'''25 September 2024''' - [[v1.33.0]]
-**Unlock cost decreased from {{Coins|250}} to {{Coins|200}}.
+****Firerate changed from {{Tooltip|3.025 > 1.525|-1.5}} to {{Tooltip|0.15 > 0.125|-0.025}}.
+****Hidden Detection added.
+****Burst change of 4 > 7 added.
+****''Frost Grenade'' ability added.
+****Cost increased from {{Money|2,500}} to {{Money|5,000}}.
+****Renamed from ''Arctic Commando'' to ''Frost Bite!''.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Subzero Hero''
+*****Cost: {{Money|6,000}}
+*****+2 Damage
+*****{{Tooltip|1.525 > 1.025|-0.5}} Firerate
+*****1.35 > 1.5 Freeze Time
+*****10% Defense Dropping
+**New skin: {{Color|Krampus|Cryptid}}
+**{{Bug}} '''Freezer's''' Level 4 description includes the slowness changes from Level 3.
+**{{Bug}} Burst is higher than intended by 1 at Level 3-4.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''23 October 2024''' - [[v1.37.0]]
+**'''Freezer''' now can freeze enemies that are set on fire.
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Frost Legion}}
 *'''15 January 2025''' - [[v1.49.0]]
-**Now bypasses defense.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.625 to 0.525.
+****Range increased from 10 to 12.
+****Max Slowdown increased from 45% to 50%.
+****Slowdown per Shot decreased from 15% to 10%.
+****Slowdown Time increased from 3 to 5.
+****No longer freezes, moved to Level 2.
+****Cost decreased from {{Money|450}} to {{Money|425}}.
+***'''Level 1'''
+****Damage increased from +0 to +1.
+****Range decreased from +2 to +0.
+****Max Slowdown changed from 45% > 60% to 50% > 60%.
+****Slowdown per Shot changed from 15% > 20% to 10% > 15%.
+****Cost increased from {{Money|150}} to {{Money|225}}.
+***'''Level 2'''
+****Damage decreased from +1 to +0.
+****Range increased from +0 to +2.
+****Hidden detection added, moved from Level 4.
+****Max Slowdown changed from 45% > 60% to 50% > 60%.
+****Slowdown per Shot changed from 20% to 15% > 20%.
+****Now freezes enemies for 2 seconds, moved from Level 0.
+****No longer has defense dropping, moved to Level 3.
+****Cost increased from {{Money|625}} to {{Money|650}}.
+***'''Level 3'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|0.625 > 0.15|-0.475}} to {{Tooltip|0.525 > 0.175|-0.35}}.
+****Burst Cooldown changed from {{Tooltip|0 > 1|+1}} to {{Tooltip|0 > 0.75|+0.75}}.
+****Now removes 10% defense every tick, moved from Level 2.
+****Freeze Time changed from 2 to 2 > 2.5.
+****Cost increased from {{Money|1,650}} to {{Money|2,000}}.
+***'''Level 4'''
+****Damage increased from +1 to +2.
+****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.175.
+****Freeze Time changed from 2 to 2.5 > 3.
+****''Frost Grenade'' ability cooldown decreased from 25 to 15.
+****Cost decreased from {{Money|5,000}} to {{Money|4,500}}.
 *'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Ducky}}
+**Defense role added.
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost decreased from {{Coins|1,600}} to {{Coins|500}}.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Vendor}}
 *'''23 July 2025''' - [[v1.71.0]]
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased from 2.625 to 1.775.
-****Explosion range increased from 3.5 to 4.5.
+****Max Slowdown decreased from 50% to 30%.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|2.625 > 2.275|-0.35}} to {{Tooltip|1.775 > 1.525|-0.25}}.
+****Max Slowdown changed from 50% > 60% to 30% > 40%.
+****Slowdown per Shot changed from 10% > 15% to 10%.
 ***'''Level 2'''
-****Cost increased from {{Money|475}} to {{Money|500}}.
-****Explosion range changed from 3.5 > 4 to 4.5 > 5.5.
+****Slowdown per Shot changed from 15% > 20% to 10% > 20%.
 ***'''Level 3'''
-****Cost decreased from {{Money|1,650}} to {{Money|1,500}}.
-****Damage decreased from +8 to +5.
-****Firerate changed from {{Tooltip|2.275 > 1.775|-0.5}} to {{Tooltip|1.525 > 1.375|-0.15}}.
-***'''Level 4'''
-****Cost decreased from {{Money|6,250}} to {{Money|6,000}}.
-****Damage decreased from +32 to +20.
-****Firerate changed from {{Tooltip|1.775 > 1.525|-0.25}} to {{Tooltip|1.375 > 1.025|-0.35}}.
-****Range increased from +1 to +2.
-****Explosion range changed from 4 > 4.5 to 5.5.
-*'''18 October 2025''' - [[v1.77.0]]
-**Improved accuracy, allowing it to hit enemies more often and prevents it from shooting behind the [[Corpse (Enemy)|Corpse]] enemy.
-**New skin: {{Color|Null|Ghost}}
+****Max Slowdown changed from 60% > 75% to 40% > 60%.
+****Slowdown per Shot changed from 20% > 25% to 20%.
+****Burst Cooldown changed from {{Tooltip|0 > 0.75|+0.75}} to {{Tooltip|0 > 0.8|+0.8}}.
+*'''6 August 2025''' - [[v1.72.0]]
+**Unlock cost increased from {{Coins|500}} to {{Coins|650}}.
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skin: {{Color|FinalAct|Polar Bear}}
 *'''28 January 2026''' - [[v1.84.0]]
-**Statistical changes (Regular):
-***'''Base'''
-****Cost decreased from {{Money|575}} to {{Money|550}}.
-****Firerate increased from 2.625 to 2.825.
-****Range increased from 9 to 10.
-****Explosion range increased from 3.5 to 4.75.
-***'''Level 1'''
-****Cost increased from {{Money|150}} to {{Money|225}}.
-****Firerate changed from {{Tooltip|2.625 > 2.275|-0.35}} to {{Tooltip|2.825 > 2.025|-0.8}}.
-****Name changed from ''Further Throwing'' to ''Faster Throwing''.
-***'''Level 2'''
-****Cost increased from {{Money|475}} to {{Money|500}}.
-****Explosion range changed from 3.5 > 4 to 4.75 > 5.25.
-****Name changed from ''Steil Grenade'' to ''Ullapool Caber''.
-***'''Level 3'''
-****Cost increased from {{Money|1,650}} to {{Money|2,100}}.
-****Damage increased from +8 to +12.
-****Firerate changed from {{Tooltip|2.275 > 1.775|-0.5}} to {{Tooltip|2.025 > 1.725|-0.3}}.
-****Range decreased from +3 to +2.
-****Name changed from ''Chinalake'' to ''Lock-n-Load''.
-***'''Level 4'''
-****Cost increased from {{Money|6,250}} to {{Money|6,500}}.
-****Damage decreased from +32 to +25.
-****Firerate changed from {{Tooltip|1.775 > 1.525|-0.25}} to {{Tooltip|1.725 > 1.325|-0.4}}.
-****Range increased from +1 to +1.5.
-****Explosion range changed from 4 > 4.5 to 5.25 > 6.
-****Name changed from ''Collateral Damage'' to ''Expert's Ordnance''.
-*'''11 March 2026''' - [[v1.86.0]]
-**Second tooltip updated to mention hidden detection. Original tooltip:
-***"''Capable of detecting [[Lead (Attribute)|lead]] enemies.''"
-**Statistical changes (Regular):
-***'''Base'''
-****Firerate decreased from 2.825 to 2.425.
-****Explosion range increased from 4.75 to 5.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|2.825 > 2.025|-0.8}} to {{Tooltip|2.425 > 1.775|-0.65}}.
-***'''Level 2'''
-****Cost increased from {{Money|500}} to {{Money|800}}.
-****Damage increased from +4 to +6.
-****Explosion range changed from 4.75 > 5.25 to 5 > 5.25.
-***'''Level 3'''
-****Cost increased from {{Money|2,100}} to {{Money|2,325}}.
-****Damage increased from +12 to +13.
-****Firerate changed from {{Tooltip|2.025 > 1.725|-0.3}} to {{Tooltip|1.775 > 1.525|-0.25}}.
-****Hidden detection added.
-***'''Level 4'''
-****Cost decreased from {{Money|6,500}} to {{Money|5,750}}.
-****Firerate changed from {{Tooltip|1.725 > 1.325|-0.4}} to {{Tooltip|1.525 > 1.325|-0.2}}.
+**Level 4 upgrade name changed from ''Frost Bite!'' to ''Ull's Arrow'' in regular modes.
 *'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Egg}}
-*'''22 May 2026''' - [[v1.91.0]]
-**New skin: {{Color|Backyard|Crew}}
+**New skin: {{Color|SpringFrenzy|Bunny}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
 **Statistical changes (Regular):
 ***'''Base'''
-****Cost increased from {{Money|550}} to {{Money|700}}.
-****Damage increased from 6 to 8.
-****Firerate decreased from 2.425 to 2.4.
+****Cost increased from {{Money|425}} to {{Money|450}}.
+****Firerate increased from 0.525 to 0.55.
+****Tick increased from 0.25 to 1.
+****Max slowdown decreased from 50% to 15%.
+****Slowdown per hit decreased from 10% to 7.5%.
+****Slowdown time decreased from 5 to 2.
 ***'''Level 1'''
-****Cost increased from {{Money|225}} to {{Money|250}}.
-****Firerate decreased from {{Tooltip|2.425 > 1.775|-0.65}} {{Tooltip|2.4 > 1.75|-0.65}}.
+****Cost increased from {{Money|225}} to {{Money|300}}.
+****Damage decreased from +1 to +0.
+****Firerate changed from 0.525 to {{Tooltip|0.55 > 0.35|-0.2}}.
+****Max slowdown changed from 50% > 60% to 15% > 20%.
+****Slowdown per hit changed from 10% > 15% to 7.5% > 10%.
 ***'''Level 2'''
-****Cost increased from {{Money|800}} to {{Money|950}}.
-****Damage increased from +6 to +7.
-****Explosion range changed from 5 > 5.25 to 5 > 6.
-****Hidden detection added, moved from Level 3.
+****Cost decreased from {{Money|650}} to {{Money|450}}.
+****Damage increased from +0 to +1.
+****Freeze time decreased from 2 to 0.5.
+****Slowdown per hit changed from 15% > 20% to 10%.
 ***'''Level 3'''
-****Cost increased from {{Money|2,325}} to {{Money|2,500}}.
-****Damage increased from +13 to +15.
-****Firerate decreased from {{Tooltip|1.775 > 1.525|-0.25}} {{Tooltip|1.75 > 1.5|-0.25}}.
+****Cost decreased from {{Money|2,000}} to {{Money|1,700}}.
+****Firerate changed from {{Tooltip|0.525 > 0.175|-0.35}} to {{Tooltip|0.35 > 0.15|-0.2}}.
+****Burst changed from 1 > 4 to 1 > 6.
+****Burst cooldown changed from 0 > 0.6 to 0 > 0.75.
+****Chill damage increased from 0 to 3.
+****Freeze time changed from 2 > 2.5 to 0.5.
+****Max slowdown changed from 60% > 75% to 20% > 25%.
+****Slowdown per hit changed from 20% > 25% to 10% > 12.5%.
+****Slowdown time changed from 5 to 2 > 3.
 ***'''Level 4'''
-****Cost increased from {{Money|5,750}} to {{Money|6,000}}.
-****Damage decreased from +25 to +20.
-****Firerate changed from {{Tooltip|1.525 > 1.325|-0.2}} {{Tooltip|1.5 > 1.2|-0.3}}.
-****Range increased from +1.5 to +2.
-****Explosion range changed from 5.25 > 6 to 6.
+****Damage increased from +2 to +5.
+****Chill damage increased from +0 to +2.
+****Burst changed from 4 > 7 to 6 > 8.
+****Freeze time changed from 2.5 > 3 to 0.5 > 0.75.
+****''Frost Grenade'' freeze time decreased from 6 to 1.5.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased fro 1.775 to 1.75.
-***'''Level 1'''
-****Firerate decreased from {{Tooltip|1.775 > 1.525|-0.25}} {{Tooltip|1.75 > 1.5|-0.25}}.
+****Firerate decreased from 0.525 to 0.5.
 ***'''Level 3'''
-****Firerate changed from {{Tooltip|1.525 > 1.375|-0.15}} {{Tooltip|1.5 > 1.35|-0.15}}.
-***'''Level 4'''
-****Damage decreased from +20 to +19.
-****Firerate changed from {{Tooltip|1.375 > 1.025|-0.35}} {{Tooltip|1.35 > 1|-0.35}}.
+****Firerate changed from {{Tooltip|0.525 > 0.175|-0.35}} to {{Tooltip|0.5 > 0.15|-0.35}}.
 *'''17 July 2026''' - [[v2.3.0]]
-**Explosions no longer have damage drop-off.
 **Statistical changes (Regular):
-***'''Base'''
-****Firerate increased from 2.4 to 2.6.
-****Explosion range decreased from 5 to 4.5.
-***'''Level 1'''
-****Cost increased from {{Money|250}} to {{Money|300}}.
-****Firerate changed from {{Tooltip|2.4 > 1.75|-0.65}} {{Tooltip|2.6 > 1.9|-0.7}}.
-***'''Level 2'''
-****Damage increased from +7 to +10.
-****Explosion range changed from 5 > 6 to 4.5 > 5.
-***'''Level 3'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,400}}.
-****Damage decreased from +15 to +7.
-****Firerate decreased from {{Tooltip|1.75 > 1.5|-0.25}} {{Tooltip|1.9 > 1.5|-0.4}}.
-****Explosion range changed from 6 to 5 > 5.5.
 ***'''Level 4'''
-****Cost decreased from {{Money|6,000}} to {{Money|5,500}}.
-****Damage decreased from +20 to +10.
-****Firerate changed from {{Tooltip|1.5 > 1.2|-0.3}} {{Tooltip|1.5 > 1|-0.5}}.
-**New skin: {{Color|Golden}}
-*'''4 September 2026''' - [[v2.9.0]]
-**New skin: {{Color|Beach}}
+****''Frost Grenade'' freeze time increased from 1.5 to 2.
 }}
 
 ==Notes==
@@ -694,3 +677,4 @@ $R$ = $FNC-RECURSION$
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
