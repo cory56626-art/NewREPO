@@ -7,16 +7,28 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Electroshocker''' is an intermediate tower that has the capability to deal damage through chain reactions. At later levels, it also becomes a support tower as it gains the ability to stun enemies and reduce [[Defense]]. It can be purchased in the store for {{Coins|2,500}}. It can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 2 onward.\n\nThe '''Electroshocker''' shoots a lightning-chain projectile from its ''Electro Gun'' that arcs toward and damages (where applicable) a set number of enemies, targeting the closest enemy to the original target. The '''Electroshocker''' can also stun enemies for 0.1 seconds at Level 0 which increase as with upgrades up to 0.25 seconds at Level 5. This completely stops the enemy. For enemies with [[Stun Immunity]], the enemy is not stunned but rather slowed down by 40%. [[Boss]]es are not slowed down as much as regular enemies, since the slowdown is 20% on them.\n\nFrom Level 5, it can melt 20% [[Defense]] with every hit, though it can only remove up to 20% of the defense. For example, if an enemy has 50% defense, the defense can be decreased by up to 10%, down to 40%.\n\nThe '''Electroshocker''' is considered an all-rounder tower, as its cheap cost allows it to be used for early-game dps, especially against [[Lead (Attribute)|Lead]] enemies, while its stunning capabilities, [[Defense]] reduction, chain damage and decent DPS, especially from Level 4+, make it extremely effective in the mid to late game.\n\nThe '''Electroshocker''' has a placement limit of seven per player.",
+  "description": "The '''Pyromancer''' is an intermediate [[Towers|tower]] that costs {{Coins|1,250}} to buy from the store. It is capable of dealing burn damage to enemies, damaging them over time even when not directly targeted. At higher levels, it can also melt defense by up to 50% of the listed value. For example, an enemy with 50% defense will have its defense decreased to 25%.\n\nIf an enemy is set alight, the flames will be applied to the enemy until the burn time runs out. There are two types of damage the '''Pyromancer''' can apply. The first is ''Normal Damage'' which is applied every 0.258 when the enemy is colliding with the '''Pyromancer's''' flame. This flame can initially only hit one enemy, though it upgrades it increases to five. This can pierce through multiple enemies. The second is ''Burn Damage'' which is applied for every second an enemy is set alight. Both damage types can damage [[Lead (Attribute)|Lead]] enemies. The '''Pyromancer''' can also detect [[Hidden (Attribute)|Hidden]] enemies at Level 1+. The '''Pyromancer''' will attack any enemy, even if the enemy is on fire, as long as it can detect it, though it will prioritize enemies that are not on fire.\n\nThe '''Pyromancer''' is best combined with other towers since it deals little damage by itself but can deal area of effect. Some enemies are immune to burn, like the [[Molten]]. This does not mean the '''Pyromancer''' cannot attack them; it only means that it cannot light them on fire.",
   "upgrade_modes": {
     "regular": [
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 1,
-        "title": "Higher Voltage",
-        "cost": "{{Money|275}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Range]]\n\n1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|308}}",
+        "title": "Improved Handling",
+        "cost": "{{Money|325}}",
+        "information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|408}}",
         "claims": [
+          {
+            "kind": "set",
+            "from": "0.275",
+            "to": "0.175",
+            "stat": "Firerate",
+            "text": "0.275 > 0.175 Firerate"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
           {
             "kind": "delta",
             "delta": "+2",
@@ -26,48 +38,36 @@
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Damage",
-            "text": "+1 Damage"
+            "stat": "Max Hits",
+            "text": "+1 Max Hits"
           },
           {
-            "kind": "set",
-            "from": "1.35",
-            "to": "1.15",
-            "stat": "Firerate",
-            "text": "1.35 > 1.15 Firerate"
+            "kind": "delta",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Higher Voltage",
-          "Cost": "{{Money|275}}",
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|325}}",
           "Image": "[[File:Common1Image.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Range]]\n\n1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|308}}"
+          "Information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|408}}"
         }
       },
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 2,
-        "title": "Improved Handling",
-        "cost": "{{Money|950}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|625}}",
+        "title": "Fire Fighting",
+        "cost": "{{Money|1,000}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|741}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+2",
-            "stat": "Damage",
-            "text": "+2 Damage"
-          },
-          {
-            "kind": "delta",
             "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
+            "stat": "Damage",
+            "text": "+1 Damage"
           },
           {
             "kind": "delta",
@@ -78,106 +78,132 @@
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Improved Handling",
-          "Cost": "{{Money|950}}",
-          "Image": "[[File:Electroshocker_Upgrade_2.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|625}}"
+          "Upgrade Title": "Fire Fighting",
+          "Cost": "{{Money|1,000}}",
+          "Image": "[[File:Pyro2.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|741}}"
         }
       },
       {
-        "mode": "unknown",
+        "mode": "regular",
         "level": 3,
-        "title": "Faraday's Vest",
-        "cost": "{{Money|2,400}}",
-        "information": "+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n\nSell Price changes to {{Money|1,425}}",
+        "title": "Fire Hazard",
+        "cost": "{{Money|2,000}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 6 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n1% > 5% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,408}}",
         "claims": [
-          {
-            "kind": "delta",
-            "delta": "+12",
-            "stat": "Damage",
-            "text": "+12 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Chain Range",
-            "text": "+2.5 Chain Range"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Faraday's Vest",
-          "Cost": "{{Money|2,400}}",
-          "Image": "[[File:Electroshocker_Upgrade_3.png|100px]]",
-          "Information": "+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n\nSell Price changes to {{Money|1,425}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Shock Force",
-        "cost": "{{Money|4,000}}",
-        "information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+1 Max Hits\n\n0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n\nSell Price changes to {{Money|2,758}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+40",
-            "stat": "Damage",
-            "text": "+40 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "1.15",
-            "to": "2.5",
-            "stat": "Firerate",
-            "text": "1.15 > 2.5 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Chain Range",
-            "text": "+2.5 Chain Range"
-          },
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Max Hits",
-            "text": "+1 Max Hits"
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
+            "stat": "Range",
+            "text": "+1.5 Range"
           },
           {
             "kind": "set",
-            "from": "0.1",
-            "to": "0.15",
-            "stat": "Shock Time",
-            "text": "0.1 > 0.15 Shock Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Shock Force",
-          "Cost": "{{Money|4,000}}",
-          "Image": "[[File:Electroshocker_Upgrade_4.png|100px]]",
-          "Information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+1 Max Hits\n\n0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n\nSell Price changes to {{Money|2,758}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 5,
-        "title": "Zeus Cannon",
-        "cost": "{{Money|10,000}}",
-        "information": "+30 Damage [[File: Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n0% > 20% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|6,091}}",
-        "claims": [
+            "from": "3",
+            "to": "6",
+            "stat": "Burn Time",
+            "text": "3 > 6 Burn Time"
+          },
           {
             "kind": "delta",
-            "delta": "+30",
-            "stat": "Damage",
-            "text": "+30 Damage"
+            "delta": "+3",
+            "stat": "Burn Damage",
+            "text": "+3 Burn Damage"
           },
           {
             "kind": "delta",
             "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "note",
+            "text": "1% > 5% Defense Melting"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Fire Hazard",
+          "Cost": "{{Money|2,000}}",
+          "Image": "[[File:Pyro3.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 6 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n1% > 5% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,408}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Napalm Thrower",
+        "cost": "{{Money|3,777}}",
+        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n6 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n5% > 10% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|2,667}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Damage",
+            "text": "+2 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+5",
+            "stat": "Burn Damage",
+            "text": "+5 Burn Damage"
+          },
+          {
+            "kind": "set",
+            "from": "6",
+            "to": "10",
+            "stat": "Burn Time",
+            "text": "6 > 10 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          },
+          {
+            "kind": "note",
+            "text": "5% > 10% Defense Melting"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Napalm Thrower",
+          "Cost": "{{Money|3,777}}",
+          "Image": "[[File:Pyro4.png|100px]]",
+          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n6 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n5% > 10% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|2,667}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 5,
+        "title": "Pyromaniac",
+        "cost": "{{Money|11,111}}",
+        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\n\nSell Price changes to {{Money|6,371}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+15",
+            "stat": "Burn Damage",
+            "text": "+15 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1.5",
             "stat": "Range",
-            "text": "+2 Range"
+            "text": "+1.5 Range"
           },
           {
             "kind": "delta",
@@ -186,36 +212,262 @@
             "text": "+3 Max Hits"
           },
           {
-            "kind": "set",
-            "from": "0.15",
-            "to": "0.25",
-            "stat": "Shock Time",
-            "text": "0.15 > 0.25 Shock Time"
-          },
-          {
-            "kind": "note",
-            "text": "0% > 20% Defense Melting"
+            "kind": "delta",
+            "delta": "+0.75",
+            "stat": "Hitbox",
+            "text": "+0.75 Hitbox"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Zeus Cannon",
-          "Cost": "{{Money|10,000}}",
-          "Image": "[[File:Electroshocker_Upgrade_5.png|100px]]",
-          "Information": "+30 Damage [[File: Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n0% > 20% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|6,091}}"
+          "Upgrade Title": "Pyromaniac",
+          "Cost": "{{Money|11,111}}",
+          "Image": "[[File:Pyro5.png|100px]]",
+          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\n\nSell Price changes to {{Money|6,371}}"
         }
       }
     ],
-    "pvp": []
+    "pvp": [
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Improved Handling",
+        "cost": "{{Money|350}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.75 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|400}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "set",
+            "from": "1",
+            "to": "0.75",
+            "stat": "Tick",
+            "text": "1 > 0.75 Tick"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|350}}",
+          "Image": "[[File:Common1Image.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.75 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|400}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Fire Fighting",
+        "cost": "{{Money|950}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|716}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Burn Damage",
+            "text": "+1 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Max Hits",
+            "text": "+2 Max Hits"
+          },
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Fire Fighting",
+          "Cost": "{{Money|950}}",
+          "Image": "[[File:Pyro2.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|716}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 3,
+        "title": "Fire Hazard",
+        "cost": "{{Money|1,500}}",
+        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n0.75 > 0.5 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\nMelts 5% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,216}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Range",
+            "text": "+1 Range"
+          },
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "5",
+            "stat": "Burn Time",
+            "text": "3 > 5 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Burn Damage",
+            "text": "+1 Burn Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.75",
+            "to": "0.5",
+            "stat": "Tick",
+            "text": "0.75 > 0.5 Tick"
+          },
+          {
+            "kind": "note",
+            "text": "Melts 5% defense every tick"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Fire Hazard",
+          "Cost": "{{Money|1,500}}",
+          "Image": "[[File:Pyro3.png|100px]]",
+          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n0.75 > 0.5 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\nMelts 5% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,216}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Napalm Thrower",
+        "cost": "{{Money|3,800}}",
+        "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n5 > 7.5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|2,483}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Damage",
+            "text": "+1 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+1",
+            "stat": "Burn Damage",
+            "text": "+1 Burn Damage"
+          },
+          {
+            "kind": "set",
+            "from": "5",
+            "to": "7.5",
+            "stat": "Burn Time",
+            "text": "5 > 7.5 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.25",
+            "stat": "Hitbox",
+            "text": "+0.25 Hitbox"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Napalm Thrower",
+          "Cost": "{{Money|3,800}}",
+          "Image": "[[File:Pyro4.png|100px]]",
+          "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n5 > 7.5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|2,483}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 5,
+        "title": "Pyromaniac",
+        "cost": "{{Money|9,000}}",
+        "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n7.5 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\nMelts 10% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|5,483}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Damage",
+            "text": "+3 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Burn Damage",
+            "text": "+4 Burn Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "set",
+            "from": "7.5",
+            "to": "10",
+            "stat": "Burn Time",
+            "text": "7.5 > 10 Burn Time"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Max Hits",
+            "text": "+3 Max Hits"
+          },
+          {
+            "kind": "delta",
+            "delta": "+0.75",
+            "stat": "Hitbox",
+            "text": "+0.75 Hitbox"
+          },
+          {
+            "kind": "note",
+            "text": "Melts 10% defense every tick"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Pyromaniac",
+          "Cost": "{{Money|9,000}}",
+          "Image": "[[File:Pyro5.png|100px]]",
+          "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n7.5 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\nMelts 10% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|5,483}}"
+        }
+      }
+    ]
   },
   "upgrade_templates": [
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 1,
-      "title": "Higher Voltage",
-      "cost": "{{Money|275}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Range]]\n\n1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|308}}",
+      "title": "Improved Handling",
+      "cost": "{{Money|325}}",
+      "information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|408}}",
       "claims": [
+        {
+          "kind": "set",
+          "from": "0.275",
+          "to": "0.175",
+          "stat": "Firerate",
+          "text": "0.275 > 0.175 Firerate"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
         {
           "kind": "delta",
           "delta": "+2",
@@ -225,48 +477,36 @@
         {
           "kind": "delta",
           "delta": "+1",
-          "stat": "Damage",
-          "text": "+1 Damage"
+          "stat": "Max Hits",
+          "text": "+1 Max Hits"
         },
         {
-          "kind": "set",
-          "from": "1.35",
-          "to": "1.15",
-          "stat": "Firerate",
-          "text": "1.35 > 1.15 Firerate"
+          "kind": "delta",
+          "delta": "+0.25",
+          "stat": "Hitbox",
+          "text": "+0.25 Hitbox"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Higher Voltage",
-        "Cost": "{{Money|275}}",
+        "Upgrade Title": "Improved Handling",
+        "Cost": "{{Money|325}}",
         "Image": "[[File:Common1Image.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Damage [[File:Damage Icon.png|20px|Range]]\n\n1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|308}}"
+        "Information": "0.275 > 0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Max Hits\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|408}}"
       }
     },
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 2,
-      "title": "Improved Handling",
-      "cost": "{{Money|950}}",
-      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|625}}",
+      "title": "Fire Fighting",
+      "cost": "{{Money|1,000}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|741}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+2",
-          "stat": "Damage",
-          "text": "+2 Damage"
-        },
-        {
-          "kind": "delta",
           "delta": "+1",
-          "stat": "Range",
-          "text": "+1 Range"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
+          "stat": "Damage",
+          "text": "+1 Damage"
         },
         {
           "kind": "delta",
@@ -277,106 +517,132 @@
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Improved Handling",
-        "Cost": "{{Money|950}}",
-        "Image": "[[File:Electroshocker_Upgrade_2.png|100px]]",
-        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|625}}"
+        "Upgrade Title": "Fire Fighting",
+        "Cost": "{{Money|1,000}}",
+        "Image": "[[File:Pyro2.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|741}}"
       }
     },
     {
-      "mode": "unknown",
+      "mode": "regular",
       "level": 3,
-      "title": "Faraday's Vest",
-      "cost": "{{Money|2,400}}",
-      "information": "+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n\nSell Price changes to {{Money|1,425}}",
+      "title": "Fire Hazard",
+      "cost": "{{Money|2,000}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 6 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n1% > 5% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,408}}",
       "claims": [
-        {
-          "kind": "delta",
-          "delta": "+12",
-          "stat": "Damage",
-          "text": "+12 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2.5",
-          "stat": "Chain Range",
-          "text": "+2.5 Chain Range"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Faraday's Vest",
-        "Cost": "{{Money|2,400}}",
-        "Image": "[[File:Electroshocker_Upgrade_3.png|100px]]",
-        "Information": "+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n\nSell Price changes to {{Money|1,425}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "Shock Force",
-      "cost": "{{Money|4,000}}",
-      "information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+1 Max Hits\n\n0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n\nSell Price changes to {{Money|2,758}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+40",
-          "stat": "Damage",
-          "text": "+40 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "1.15",
-          "to": "2.5",
-          "stat": "Firerate",
-          "text": "1.15 > 2.5 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2.5",
-          "stat": "Chain Range",
-          "text": "+2.5 Chain Range"
-        },
         {
           "kind": "delta",
           "delta": "+1",
-          "stat": "Max Hits",
-          "text": "+1 Max Hits"
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
+          "stat": "Range",
+          "text": "+1.5 Range"
         },
         {
           "kind": "set",
-          "from": "0.1",
-          "to": "0.15",
-          "stat": "Shock Time",
-          "text": "0.1 > 0.15 Shock Time"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Shock Force",
-        "Cost": "{{Money|4,000}}",
-        "Image": "[[File:Electroshocker_Upgrade_4.png|100px]]",
-        "Information": "+40 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+1 Max Hits\n\n0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n\nSell Price changes to {{Money|2,758}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 5,
-      "title": "Zeus Cannon",
-      "cost": "{{Money|10,000}}",
-      "information": "+30 Damage [[File: Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n0% > 20% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|6,091}}",
-      "claims": [
+          "from": "3",
+          "to": "6",
+          "stat": "Burn Time",
+          "text": "3 > 6 Burn Time"
+        },
         {
           "kind": "delta",
-          "delta": "+30",
-          "stat": "Damage",
-          "text": "+30 Damage"
+          "delta": "+3",
+          "stat": "Burn Damage",
+          "text": "+3 Burn Damage"
         },
         {
           "kind": "delta",
           "delta": "+2",
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        },
+        {
+          "kind": "note",
+          "text": "1% > 5% Defense Melting"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Fire Hazard",
+        "Cost": "{{Money|2,000}}",
+        "Image": "[[File:Pyro3.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 6 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n1% > 5% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,408}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Napalm Thrower",
+      "cost": "{{Money|3,777}}",
+      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n6 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n5% > 10% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|2,667}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Damage",
+          "text": "+2 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+5",
+          "stat": "Burn Damage",
+          "text": "+5 Burn Damage"
+        },
+        {
+          "kind": "set",
+          "from": "6",
+          "to": "10",
+          "stat": "Burn Time",
+          "text": "6 > 10 Burn Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+0.25",
+          "stat": "Hitbox",
+          "text": "+0.25 Hitbox"
+        },
+        {
+          "kind": "note",
+          "text": "5% > 10% Defense Melting"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Napalm Thrower",
+        "Cost": "{{Money|3,777}}",
+        "Image": "[[File:Pyro4.png|100px]]",
+        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+5 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n6 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n5% > 10% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|2,667}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "title": "Pyromaniac",
+      "cost": "{{Money|11,111}}",
+      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\n\nSell Price changes to {{Money|6,371}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+15",
+          "stat": "Burn Damage",
+          "text": "+15 Burn Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1.5",
           "stat": "Range",
-          "text": "+2 Range"
+          "text": "+1.5 Range"
         },
         {
           "kind": "delta",
@@ -385,42 +651,401 @@
           "text": "+3 Max Hits"
         },
         {
-          "kind": "set",
-          "from": "0.15",
-          "to": "0.25",
-          "stat": "Shock Time",
-          "text": "0.15 > 0.25 Shock Time"
-        },
-        {
-          "kind": "note",
-          "text": "0% > 20% Defense Melting"
+          "kind": "delta",
+          "delta": "+0.75",
+          "stat": "Hitbox",
+          "text": "+0.75 Hitbox"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "Zeus Cannon",
-        "Cost": "{{Money|10,000}}",
-        "Image": "[[File:Electroshocker_Upgrade_5.png|100px]]",
-        "Information": "+30 Damage [[File: Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n0% > 20% Defense Melting {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|6,091}}"
+        "Upgrade Title": "Pyromaniac",
+        "Cost": "{{Money|11,111}}",
+        "Image": "[[File:Pyro5.png|100px]]",
+        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+15 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\n\nSell Price changes to {{Money|6,371}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Improved Handling",
+      "cost": "{{Money|350}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.75 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|400}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "set",
+          "from": "1",
+          "to": "0.75",
+          "stat": "Tick",
+          "text": "1 > 0.75 Tick"
+        },
+        {
+          "kind": "delta",
+          "delta": "+0.25",
+          "stat": "Hitbox",
+          "text": "+0.25 Hitbox"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Improved Handling",
+        "Cost": "{{Money|350}}",
+        "Image": "[[File:Common1Image.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1 > 0.75 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|400}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Fire Fighting",
+      "cost": "{{Money|950}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|716}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Burn Damage",
+          "text": "+1 Burn Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Max Hits",
+          "text": "+2 Max Hits"
+        },
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Fire Fighting",
+        "Cost": "{{Money|950}}",
+        "Image": "[[File:Pyro2.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Max Hits\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|716}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 3,
+      "title": "Fire Hazard",
+      "cost": "{{Money|1,500}}",
+      "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n0.75 > 0.5 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\nMelts 5% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,216}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Range",
+          "text": "+1 Range"
+        },
+        {
+          "kind": "set",
+          "from": "3",
+          "to": "5",
+          "stat": "Burn Time",
+          "text": "3 > 5 Burn Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Burn Damage",
+          "text": "+1 Burn Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.75",
+          "to": "0.5",
+          "stat": "Tick",
+          "text": "0.75 > 0.5 Tick"
+        },
+        {
+          "kind": "note",
+          "text": "Melts 5% defense every tick"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Fire Hazard",
+        "Cost": "{{Money|1,500}}",
+        "Image": "[[File:Pyro3.png|100px]]",
+        "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n3 > 5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n0.75 > 0.5 Tick [[File:Cooldown Icon.png|20px|Tick]]\n\nMelts 5% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|1,216}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 4,
+      "title": "Napalm Thrower",
+      "cost": "{{Money|3,800}}",
+      "information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n5 > 7.5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|2,483}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Damage",
+          "text": "+1 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+1",
+          "stat": "Burn Damage",
+          "text": "+1 Burn Damage"
+        },
+        {
+          "kind": "set",
+          "from": "5",
+          "to": "7.5",
+          "stat": "Burn Time",
+          "text": "5 > 7.5 Burn Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+0.25",
+          "stat": "Hitbox",
+          "text": "+0.25 Hitbox"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Napalm Thrower",
+        "Cost": "{{Money|3,800}}",
+        "Image": "[[File:Pyro4.png|100px]]",
+        "Information": "+1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n5 > 7.5 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+0.25 Hitbox\n\n\nSell Price changes to {{Money|2,483}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "title": "Pyromaniac",
+      "cost": "{{Money|9,000}}",
+      "information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n7.5 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\nMelts 10% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|5,483}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Damage",
+          "text": "+3 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Burn Damage",
+          "text": "+4 Burn Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "set",
+          "from": "7.5",
+          "to": "10",
+          "stat": "Burn Time",
+          "text": "7.5 > 10 Burn Time"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Max Hits",
+          "text": "+3 Max Hits"
+        },
+        {
+          "kind": "delta",
+          "delta": "+0.75",
+          "stat": "Hitbox",
+          "text": "+0.75 Hitbox"
+        },
+        {
+          "kind": "note",
+          "text": "Melts 10% defense every tick"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Pyromaniac",
+        "Cost": "{{Money|9,000}}",
+        "Image": "[[File:Pyro5.png|100px]]",
+        "Information": "+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Burn Damage [[File:BurnIcon.png|20px|Burn Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n7.5 > 10 Burn Time [[File:Cooldown Icon.png|20px|Burn Time]]\n\n+3 Max Hits\n\n+0.75 Hitbox\n\nMelts 10% defense every tick {{Defense|Defense Melting}}\n\n\nSell Price changes to {{Money|5,483}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [],
-    "pvp": []
+    "regular": [
+      {
+        "level": 0,
+        "cost": 900.0,
+        "total_cost": 900.0,
+        "damage": 1.0,
+        "tick": 2.0,
+        "charge_up": 0.275,
+        "cooldown": 9.0,
+        "overcharge": 1.0,
+        "range": 3.0,
+        "dps": 0.089
+      },
+      {
+        "level": 1,
+        "cost": 325.0,
+        "total_cost": 1225.0,
+        "damage": 1.0,
+        "tick": 2.0,
+        "charge_up": 0.175,
+        "cooldown": 11.0,
+        "overcharge": 1.0,
+        "range": 3.0,
+        "dps": 0.076
+      },
+      {
+        "level": 2,
+        "cost": 1000.0,
+        "total_cost": 2225.0,
+        "damage": 2.0,
+        "tick": 2.0,
+        "charge_up": 0.175,
+        "cooldown": 11.0,
+        "overcharge": 1.0,
+        "range": 3.0,
+        "dps": 0.082
+      },
+      {
+        "level": 3,
+        "cost": 2000.0,
+        "total_cost": 4225.0,
+        "damage": 3.0,
+        "tick": 5.0,
+        "charge_up": 0.175,
+        "cooldown": 12.5,
+        "overcharge": 5.0,
+        "range": 6.0,
+        "dps": 0.238
+      },
+      {
+        "level": 4,
+        "cost": 3777.0,
+        "total_cost": 8002.0,
+        "damage": 5.0,
+        "tick": 10.0,
+        "charge_up": 0.175,
+        "cooldown": 12.5,
+        "overcharge": 10.0,
+        "range": 10.0,
+        "dps": 0.306
+      },
+      {
+        "level": 5,
+        "cost": 11111.0,
+        "total_cost": 19113.0,
+        "damage": 9.0,
+        "tick": 25.0,
+        "charge_up": 0.175,
+        "cooldown": 14.0,
+        "overcharge": 10.0,
+        "range": 10.0,
+        "dps": 0.238
+      }
+    ],
+    "pvp": [
+      {
+        "level": 0,
+        "cost": 850.0,
+        "total_cost": 850.0,
+        "damage": 1.0,
+        "tick": 1.0,
+        "charge_up": 0.25,
+        "cooldown": 8.0,
+        "overcharge": null,
+        "range": 3.0,
+        "dps": null
+      },
+      {
+        "level": 1,
+        "cost": 350.0,
+        "total_cost": 1200.0,
+        "damage": 1.0,
+        "tick": 1.0,
+        "charge_up": 0.25,
+        "cooldown": 9.0,
+        "overcharge": null,
+        "range": 3.0,
+        "dps": null
+      },
+      {
+        "level": 2,
+        "cost": 950.0,
+        "total_cost": 2150.0,
+        "damage": 2.0,
+        "tick": 2.0,
+        "charge_up": 0.25,
+        "cooldown": 9.0,
+        "overcharge": null,
+        "range": 3.0,
+        "dps": null
+      },
+      {
+        "level": 3,
+        "cost": 1500.0,
+        "total_cost": 3650.0,
+        "damage": 2.0,
+        "tick": 3.0,
+        "charge_up": 0.25,
+        "cooldown": 10.0,
+        "overcharge": 5.0,
+        "range": 5.0,
+        "dps": 0.282
+      },
+      {
+        "level": 4,
+        "cost": 3800.0,
+        "total_cost": 7450.0,
+        "damage": 3.0,
+        "tick": 4.0,
+        "charge_up": 0.25,
+        "cooldown": 10.0,
+        "overcharge": 5.0,
+        "range": 7.5,
+        "dps": 0.296
+      },
+      {
+        "level": 5,
+        "cost": 9000.0,
+        "total_cost": 16450.0,
+        "damage": 6.0,
+        "tick": 8.0,
+        "charge_up": 0.25,
+        "cooldown": 12.0,
+        "overcharge": 10.0,
+        "range": 10.0,
+        "dps": 0.391
+      }
+    ]
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 2+}}",
+      "hidden": "{{Attr|Hidden|Level 1+}}<ref>At Levels 0, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at this level.</ref>",
       "lead": "{{Attr|Lead|Level 0+}}",
-      "flying": "N/A<ref>Through chaining, [[Flying]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "flying": "N/A",
       "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]7"
+      "placement_limit": null
     },
     "pvp": {
-      "hidden": null,
-      "lead": null,
-      "flying": null,
+      "hidden": "{{Attr|Hidden|Level 2+}}<ref>At Levels 0-1, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at these levels.</ref>",
+      "lead": "{{Attr|Lead|Level 0+}}",
+      "flying": "N/A",
       "immune": null
     }
   },
@@ -428,25 +1053,33 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Electroshocker",
-        "image-static": "DefaultElectroshockerIcon2.png",
-        "image-dynamic": "ElectroshockerDynamic.png",
-        "unlockcost": "{{Coins|2,500}}",
-        "basecost": "{{Money|650}}",
-        "basesellingprice": "{{Money|216}}",
-        "role": "Defense",
+        "title": "Pyromancer",
+        "image-static": "DefaultPyromancerIcon.png",
+        "image-dynamic": "PyromancerDynamic.png",
+        "unlockcost": "{{Coins|1,250}}",
+        "basecost": "{{Money|900}}",
+        "basesellingprice": "{{Money|300}}",
+        "role": "Offense",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]7",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
-        "damagetype": "Chain",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.35",
-        "baserange": "[[File:Range Icon.png|20px|Range]]10<br/>[[File:ChainRange.png|20px|Chain Range]]10 (Chain Range)",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage",
+        "damagetype": "Pierce<br/>Fire",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.275",
+        "baserange": "[[File:Range Icon.png|20px|Range]]9",
+        "hidden_detection": "{{Attr|Hidden|Level 1+}}<ref>At Levels 0, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at this level.</ref>",
         "lead_detection": "{{Attr|Lead|Level 0+}}",
-        "flying_detection": "N/A<ref>Through chaining, [[Flying]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+        "flying_detection": "N/A",
+        "pvp_basecost": "{{Money|850}}",
+        "pvp_basesellingprice": "{{Money|283}}",
+        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]1 Burn Damage",
+        "pvp_damagetype": "Pierce<br/>Fire",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.25",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]7",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref>At Levels 0-1, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at these levels.</ref>",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "N/A",
         "immune": "None",
         "footprint": "1.5",
-        "tooltip-1": "An early game tower that unlocks the ability to stun multiple enemies with a chain of lightning at higher levels.",
+        "tooltip-1": "A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.",
         "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
@@ -455,28 +1088,36 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Electroshocker",
-      "image-static": "DefaultElectroshockerIcon2.png",
-      "image-dynamic": "ElectroshockerDynamic.png",
-      "unlockcost": "{{Coins|2,500}}",
-      "basecost": "{{Money|650}}",
-      "basesellingprice": "{{Money|216}}",
-      "role": "Defense",
+      "title": "Pyromancer",
+      "image-static": "DefaultPyromancerIcon.png",
+      "image-dynamic": "PyromancerDynamic.png",
+      "unlockcost": "{{Coins|1,250}}",
+      "basecost": "{{Money|900}}",
+      "basesellingprice": "{{Money|300}}",
+      "role": "Offense",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]7",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
-      "damagetype": "Chain",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.35",
-      "baserange": "[[File:Range Icon.png|20px|Range]]10<br/>[[File:ChainRange.png|20px|Chain Range]]10 (Chain Range)",
-      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]2 Burn Damage",
+      "damagetype": "Pierce<br/>Fire",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.275",
+      "baserange": "[[File:Range Icon.png|20px|Range]]9",
+      "hidden_detection": "{{Attr|Hidden|Level 1+}}<ref>At Levels 0, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at this level.</ref>",
       "lead_detection": "{{Attr|Lead|Level 0+}}",
-      "flying_detection": "N/A<ref>Through chaining, [[Flying]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+      "flying_detection": "N/A",
+      "pvp_basecost": "{{Money|850}}",
+      "pvp_basesellingprice": "{{Money|283}}",
+      "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]1 Damage<br/>[[File:BurnIcon.png|20px|Burn Damage]]1 Burn Damage",
+      "pvp_damagetype": "Pierce<br/>Fire",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.25",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]7",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref>At Levels 0-1, hidden enemies may be hit and/or burned indirectly if another detectable enemy is nearby, but this tower can never directly target hidden enemies at these levels.</ref>",
+      "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+      "pvp_flying_detection": "N/A",
       "immune": "None",
       "footprint": "1.5",
-      "tooltip-1": "An early game tower that unlocks the ability to stun multiple enemies with a chain of lightning at higher levels.",
+      "tooltip-1": "A close range tower that sprays fire, melts defense, and burns enemies to deal damage over time.",
       "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 225
+  "template_count": 274
 }
