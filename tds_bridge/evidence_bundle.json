@@ -1,36 +1,12 @@
 {
   "mode": "verify",
-  "requested": "TDS towers with base cost 600",
+  "requested": "Golden Cowboy, Necromancer, DJ Booth, Accelerator, Engineer",
   "resolution": {
     "status": "needs_selection",
-    "input": "TDS towers with base cost 600",
+    "input": "Golden Cowboy, Necromancer, DJ Booth, Accelerator, Engineer",
     "alias_used": null,
-    "target": "TDS towers with base cost 600",
+    "target": "Golden Cowboy, Necromancer, DJ Booth, Accelerator, Engineer",
     "candidates": [
-      {
-        "title": "Turret",
-        "pageid": 454,
-        "snippet": "",
-        "size": 26023,
-        "wordcount": 3187,
-        "timestamp": "2026-08-18T21:27:12Z"
-      },
-      {
-        "title": "Operator",
-        "pageid": 61365,
-        "snippet": "",
-        "size": 14408,
-        "wordcount": 1763,
-        "timestamp": "2026-09-12T01:41:51Z"
-      },
-      {
-        "title": "V1.67.0",
-        "pageid": 49992,
-        "snippet": "",
-        "size": 21443,
-        "wordcount": 2472,
-        "timestamp": "2026-07-01T11:29:53Z"
-      },
       {
         "title": "DJ Booth",
         "pageid": 2235,
@@ -40,50 +16,74 @@
         "timestamp": "2026-08-18T21:25:09Z"
       },
       {
-        "title": "Military Base",
-        "pageid": 197,
+        "title": "Necromancer",
+        "pageid": 36391,
         "snippet": "",
-        "size": 44281,
-        "wordcount": 5922,
-        "timestamp": "2026-08-25T15:02:56Z"
+        "size": 50677,
+        "wordcount": 6372,
+        "timestamp": "2026-09-05T15:10:47Z"
       },
       {
-        "title": "Shotgunner/History",
-        "pageid": 28799,
+        "title": "Golden Cowboy",
+        "pageid": 30799,
         "snippet": "",
-        "size": 90548,
-        "wordcount": 10347,
-        "timestamp": "2026-08-18T21:39:51Z"
+        "size": 29622,
+        "wordcount": 3657,
+        "timestamp": "2026-08-18T21:25:37Z"
       },
       {
-        "title": "Accelerator/History",
-        "pageid": 28702,
+        "title": "DJ Booth/History",
+        "pageid": 28733,
         "snippet": "",
-        "size": 92862,
-        "wordcount": 10245,
-        "timestamp": "2026-08-18T21:36:21Z"
+        "size": 61244,
+        "wordcount": 7528,
+        "timestamp": "2026-08-18T21:37:16Z"
       },
       {
-        "title": "Hacker",
-        "pageid": 49984,
+        "title": "Golden Crook",
+        "pageid": 9752,
         "snippet": "",
-        "size": 31134,
-        "wordcount": 3970,
-        "timestamp": "2026-09-07T16:14:07Z"
+        "size": 5387,
+        "wordcount": 807,
+        "timestamp": "2026-06-05T07:32:21Z"
+      },
+      {
+        "title": "Cowboy",
+        "pageid": 7565,
+        "snippet": "",
+        "size": 46817,
+        "wordcount": 5897,
+        "timestamp": "2026-08-25T14:52:09Z"
+      },
+      {
+        "title": "Accelerator",
+        "pageid": 16493,
+        "snippet": "",
+        "size": 37145,
+        "wordcount": 4559,
+        "timestamp": "2026-09-01T14:03:44Z"
+      },
+      {
+        "title": "Kingpin/History",
+        "pageid": 63959,
+        "snippet": "",
+        "size": 28824,
+        "wordcount": 3239,
+        "timestamp": "2026-08-18T21:38:32Z"
       }
     ],
     "message": "No exact/redirect match. Fuzzy candidates returned; NONE chosen automatically."
   },
   "warning": "No fuzzy result auto-selected.",
   "_bridge_run": {
-    "request_fingerprint": "8c4684e2feb917d505493cbca4fae29db0744d8d09fdb6cafded41f902c49a90",
+    "request_fingerprint": "5787f5c1dc1f62797169e21e9ac592ed0d9ea2cb08828c7d1718dc2e9d246df5",
     "mode": "verify",
-    "query": "TDS towers with base cost 600",
-    "started_at": "2026-09-22T18:11:06.620395+00:00",
-    "github_run_id": "35765490021",
-    "source_commit": "db7ed3d7dfc24f576514b832bc9abc57a95f7661",
+    "query": "Golden Cowboy, Necromancer, DJ Booth, Accelerator, Engineer",
+    "started_at": "2026-09-26T04:52:56.690461+00:00",
+    "github_run_id": "36219136437",
+    "source_commit": "d61cfb8da3ff13ebe7b535b45ab19b05b9a55461",
     "status": "needs_selection",
-    "finished_at": "2026-09-22T18:11:07.498931+00:00",
+    "finished_at": "2026-09-26T04:52:57.758431+00:00",
     "return_code": 2
   }
 }
