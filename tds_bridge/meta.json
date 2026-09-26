@@ -1,16 +1,32 @@
 {
   "mode": "verify",
-  "status": "needs_selection",
-  "requested": "Golden Cowboy, Necromancer, DJ Booth, Accelerator, Engineer",
+  "requested": "Necromancer",
+  "title": "Necromancer",
+  "pageid": 36391,
+  "latest_revid": 642671,
+  "latest_timestamp": "2026-09-05T15:10:47Z",
+  "source_url": "https://tds.fandom.com/wiki/Necromancer",
+  "classification": {
+    "is_tower_page": true,
+    "reason": "template/category heuristic"
+  },
+  "source_priority": {
+    "rule": "For TDS tower disagreements, prefer {{Upgrade}} blocks and ==Description== over stale summary/infobox tables.",
+    "priority": [
+      "upgrade_templates",
+      "description",
+      "infobox_or_summary"
+    ]
+  },
   "_bridge_run": {
-    "request_fingerprint": "5787f5c1dc1f62797169e21e9ac592ed0d9ea2cb08828c7d1718dc2e9d246df5",
+    "request_fingerprint": "a6c7d1331cace5793328780a7e491dfa1f705dbbd6f391540c3693cb79cd1deb",
     "mode": "verify",
-    "query": "Golden Cowboy, Necromancer, DJ Booth, Accelerator, Engineer",
-    "started_at": "2026-09-26T04:52:56.690461+00:00",
-    "github_run_id": "36219136437",
-    "source_commit": "d61cfb8da3ff13ebe7b535b45ab19b05b9a55461",
-    "status": "needs_selection",
-    "finished_at": "2026-09-26T04:52:57.758431+00:00",
-    "return_code": 2
+    "query": "Necromancer",
+    "started_at": "2026-09-26T04:53:37.898491+00:00",
+    "github_run_id": "36219171251",
+    "source_commit": "13073a946e5b7f8d46d24d005425354daa52c12a",
+    "status": "completed",
+    "finished_at": "2026-09-26T04:53:41.901063+00:00",
+    "return_code": 0
   }
 }
