@@ -1,758 +1,656 @@
 {{Tabs}}
+{{For|[[Null Electroshocker]]|[[Shock]]}}
 {{TowerInfobox
-|title = Mortar
-|image-static = MortarIcon.png
-|image-dynamic = MortarDynamic.png
-|unlockcost = {{Level|75}} or {{Robux|300}}
+|title = Electroshocker
+|image-static = DefaultElectroshockerIcon2.png
+|image-dynamic = ElectroshockerDynamic.png
+|unlockcost = {{Coins|2,500}}
+|basecost = {{Money|650}}
+|basesellingprice = {{Money|216}}
 |role = Defense
-|placement = Cliff
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])
-|basecost = {{Money|1,000}}
-|basesellingprice = {{Money|333}}
-|basedamage = [[File:SplashDamage.png|20px|Damage]]15
-|damagetype = [[Splash Damage|Splash]]
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]4
-|baserange = [[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)
-|hidden_detection = N/A<ref name="hd">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = {{Attr|Fly|Level 0+}}
-|immune = Stun
-|footprint = 1.75
-|pvp_basecost = {{Money|1,000}}
-|pvp_basesellingprice = {{Money|333}}
-|pvp_basedamage = [[File:SplashDamage.png|20px|Damage]]12
-|pvp_damagetype = [[Splash Damage|Splash]]
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]4
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)
-|pvp_hidden_detection = N/A<ref name="hd"/>
-|pvp_lead_detection = {{Attr|Lead|Level 0+}}
-|pvp_flying_detection = {{Attr|Fly|Level 0+}}
-|pvp_immune = Stun
-|pvp_footprint = 1.5
-|tooltip-1 = AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.
-|tooltip-2 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]7
+|basedamage = [[File:Damage Icon.png|20px|Damage]]5
+|damagetype = Chain
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.35
+|baserange = [[File:Range Icon.png|20px|Range]]10<br/>[[File:ChainRange.png|20px|Chain Range]]10 (Chain Range)
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 0+}} 
+|flying_detection = N/A<ref>Through chaining, [[Flying]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>
+|immune = None
+|footprint = 1.5
+|tooltip-1 = An early game tower that unlocks the ability to stun multiple enemies with a chain of lightning at higher levels.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|Rain fire from above! Deals extremely high splash damage!|Store Description}}
-|-|Hardcore Testing =
-{{QuoteBox|Rain fire from above! Deals extremely high splash damage! Unlockable at Lv. 75|Former Store Description}}
-|-|Original =
-{{QuoteBox|Rain from above! Unlockable at Lv. 75|Former Store Description}}
+{{QuoteBox|Zap! An early game tower that can stun enemies at higher levels.|Store Description}}
+|-|Version 2 =
+{{QuoteBox|Zap! Stun enemies and chain your effects!|Former Store Description}}
+|-|Version 3 =
+{{QuoteBox|Shoot a bolt of electricity that chains through nearby zombies.|Former Store Description}}
 </tabber>}}
 __TOC__
 ==Description==
-The '''Mortar''' is an advanced cliff [[Towers|tower]] with a long range capable of damaging enemies with its explosions. It can be unlocked by reaching {{Level|75}} or purchased via a gamepass for {{Robux|300}}. When the player reaches {{Level|75}}, the '''Mortar''' can be claimed by using the pop-up message that appears when joining the lobby.
+The '''Electroshocker''' is an intermediate tower that has the capability to deal damage through chain reactions. At later levels, it also becomes a support tower as it gains the ability to stun enemies and reduce [[Defense]]. It can be purchased in the store for {{Coins|2,500}}. It can also damage [[Lead (Attribute)|Lead]] enemies from Level 0 and detect [[Hidden (Attribute)|Hidden]] enemies from Level 2 onward.
 
-The '''Mortar''' is a cliff tower that shoots rather slowly but deals high damage over a large explosion radius. It has a long range, but as the '''Mortar''' shoots at a target farther away, the shells take longer to reach their target. These shells will generally land behind the targeted enemy. The explosion it produces is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. At Level 4, when the '''Mortar's''' shells explode, they will drop three cluster bombs, which will create additional explosions when they hit the ground. These will land around the main explosion, meaning they are very unlikely to all hit and deal full damage to the targeted enemy. By default, the '''Mortar''' can damage [[Lead (Attribute)|Lead]], as well as target all non-hidden flying enemies. The '''Mortar''' is immune to all stuns by default. 
+The '''Electroshocker''' shoots a lightning-chain projectile from its ''Electro Gun'' that arcs toward and damages (where applicable) a set number of enemies, targeting the closest enemy to the original target. The '''Electroshocker''' can also stun enemies for 0.1 seconds at Level 0 which increase as with upgrades up to 0.25 seconds at Level 5. This completely stops the enemy. For enemies with [[Stun Immunity]], the enemy is not stunned but rather slowed down by 40%. [[Boss]]es are not slowed down as much as regular enemies, since the slowdown is 20% on them.
 
-The '''Mortar''' is considered an all-round tower due to its relatively cheap placement cost, expensive upgrade prices, and its ability to effectively handle groups of enemies throughout the game thanks to its high area damage and strong overall damage output.
+From Level 5, it can melt 20% [[Defense]] with every hit, though it can only remove up to 20% of the defense. For example, if an enemy has 50% defense, the defense can be decreased by up to 10%, down to 40%.
 
-The '''Mortar''' has a placement limit of four per player. This is increased to five in [[PVP]] mode.
+The '''Electroshocker''' is considered an all-rounder tower, as its cheap cost allows it to be used for early-game dps, especially against [[Lead (Attribute)|Lead]] enemies, while its stunning capabilities, [[Defense]] reduction, chain damage and decent DPS, especially from Level 4+, make it extremely effective in the mid to late game.
+
+The '''Electroshocker''' has a placement limit of seven per player.
 
 ==Upgrades==
-{{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|500}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = 4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{Upgrade|Level = Level 1|Upgrade Title = Higher Voltage|Cost = {{Money|275}}|Image = [[File:Common1Image.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-+3 Range [[File:Range Icon.png|20px|Range]]
++1 Damage [[File:Damage Icon.png|20px|Range]]
 
-
-Sell Price changes to {{Money|500}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|2,250}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +20 Damage [[File:SplashDamage.png|20px|Damage]]
-
-5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
+1.35 > 1.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|1,250}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|4,250}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +30 Damage [[File:SplashDamage.png|20px|Damage]]
+Sell Price changes to {{Money|308}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Improved Handling|Cost = {{Money|950}}|Image = [[File:Electroshocker_Upgrade_2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+3 Range [[File:Range Icon.png|20px|Range]]
++1 Range [[File:Range Icon.png|20px|Range]]
 
-7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
++Hidden Detection {{Hidden|Hidden Detection}}
 
-
-Sell Price changes to {{Money|2,666}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|13,500}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +35 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+4 Range [[File:Range Icon.png|20px|Range]]
-
-{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]
-
-•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}
++1 Max Hits
 
 
-Sell Price changes to {{Money|7,166}}}}
+Sell Price changes to {{Money|625}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Faraday's Vest|Cost = {{Money|2,400}}|Image = [[File:Electroshocker_Upgrade_3.png|100px]]|Information = +12 Damage [[File:Damage Icon.png|20px|Damage]]
 
-{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|30,000}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +135 Damage [[File:SplashDamage.png|20px|Damage]]
-
-8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+2 Cluster Amount}}
++2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]
 
 
-Sell Price changes to {{Money|17,166}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|300}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|1,425}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Shock Force|Cost = {{Money|4,000}}|Image = [[File:Electroshocker_Upgrade_4.png|100px]]|Information = +40 Damage [[File:Damage Icon.png|20px|Damage]]
 
-4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+1.15 > 2.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
++2.5 Chain Range [[File:ChainRange.png|20px|Chain Range]]
 
-Sell Price changes to {{Money|433}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|1,400}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +13 Damage [[File:SplashDamage.png|20px|Damage]]
++1 Max Hits
 
-+3 Range [[File:Range Icon.png|20px|Range]]
-
-5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
+0.1 > 0.15 Shock Time [[File:Slowness.png|20px|Shock Time]]
 
 
-Sell Price changes to {{Money|900}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|2,500}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +25 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+5 Range [[File:Range Icon.png|20px|Range]]
-
-7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-
-Sell Price changes to {{Money|1,733}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|12,000}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +50 Damage [[File:SplashDamage.png|20px|Damage]]
+Sell Price changes to {{Money|2,758}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Zeus Cannon|Cost = {{Money|10,000}}|Image = [[File:Electroshocker_Upgrade_5.png|100px]]|Information = +30 Damage [[File: Damage Icon.png|20px|Damage]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
-{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]
++3 Max Hits
 
-•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}
+0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]
 
-
-Sell Price changes to {{Money|5,733}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|22,500}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
-
-+50 Damage [[File:SplashDamage.png|20px|Damage]]
-
-8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]
-
-{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]
-
-+3 Cluster Amount}}
+0% > 20% Defense Melting {{Defense|Defense Melting}}
 
 
-Sell Price changes to {{Money|13,233}}}}
-}}
+Sell Price changes to {{Money|6,091}}}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 
 {{neow|<nowiki>
 <var>
-$DPS$ = [[Splash Damage]] / Firerate
-$CDPS$ = Cluster Damage * Cluster Count / Firerate
-$CE$ = Total Cost / ($DPS$ + $CDPS$)
+$DPS$ = Damage / Firerate
+$MDPS$ = DPS * Max Hits
+$CE$ = Total Cost / DPS
+$MCE$ = Total Cost / Max DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 1000; 500; 2250; 4250; 13500; 30000
-$PVP-COST$ = 1000; 300; 1400; 2500; 12000; 22500
-$FSE-DETECTION$ = ; 0; 0
-$FSE-UPGRADE$ = Improved Handling; Upgraded Armaments; Bigger Cannon; Loaded Warhead; City Buster
-$FSE-UPGRADEICON$ = 4538447265; 4538447347; 4538447424; 4538447493; 4538447579
-$FSE-META$ = Advanced; File:MortarIcon.png
-$SREF$ = <ref name="splash">Number is the damage dealt in the inner explosion sphere. Splash damage is decreased linearly if the enemy is in the outer explosion sphere.</ref>
-$FREF$ = <ref name="fr">Firerate does not account for projectile travel time.</ref>
-$DREF$ = <ref name="DPS">DPS assumes only one enemy is hit and receives full splash damage. DPS does not account for projectile travel time.</ref>
-$CREF$ = <ref name="ce">Accounts for both normal and cluster bomb DPS.</ref>
+$COST$ = 650; 275; 950; 2400; 4000; 10000
+$FSE-DETECTION$ = 2; 0;
+$FSE-UPGRADE$ = Higher Voltage; Improved Handling; Faraday's Vest; Shock Force; Zeus Cannon
+$FSE-UPGRADEICON$ = 3280081327; 4675534331; 4675521746; 4675504505; 4675504640
+$FSE-META$ = Intermediate; File:DefaultElectroshockerIcon2.png
+$DREF$ = <ref>Assumes that only one enemy is hit per shock.</ref>
+$MREF$ = <ref>Calculated as DPS × Max Hits.</ref>
 $R$ = $FNC-RECURSION$
 </var>
-<div class="mobile-tabber"><tabber>
-|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]]$SREF$ !! Cluster Damage$SREF$ !! Cluster Count !! Firerate$FREF$ !! Range !! Explosion Radius !! Cluster Explosion Radius !! DPS$DREF$ !! Cluster DPS$DREF$ !! Cost Efficiency$CREF$
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! Chain Range !! Max Hits !! Shock Time !! Defense Melt !! DPS$DREF$ !! Max DPS$MREF$ !! Cost Efficiency !! Max Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || N/A || N/A || 4 || 24 || 5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || 1.35 || 10 || 10 || 2 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 1 || $R$ || $R$ || 15 || N/A || N/A || 2.75 || 27 || 5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 6 || 1.15 || 12 || 10 || 2 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 2 || $R$ || $R$ || 35 || N/A || N/A || 2.75 || 27 || 7.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 8 || 1.15 || 13 || 10 || 3 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 3 || $R$ || $R$ || 65 || N/A || N/A || 2.75 || 30 || 8.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 20 || 1.15 || 13 || 12.5 || 3 || 0.1 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 4 || $R$ || $R$ || 100 || 30 || 4 || 2.75 || 34 || 8.5 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 60 || 2.5 || 13 || 12.5 || 4 || 0.15 || 0% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |-
-| 5 || $R$ || $R$ || 235 || 40 || 6 || 2.75 || 34 || 9 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
+| 5 || $R$ || $R$ || 90 || 2.5 || 15 || 15 || 6 || 0.25 || 20% || $DPS$ || $MDPS$ || {{Money|$CE$}} || {{Money|$MCE$}}
 |}
 </div>
-|-|PVP =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! [[Splash Damage]]$SREF$ !! Cluster Damage$SREF$ !! Cluster Count !! Firerate$FREF$ !! Range !! Explosion Radius !! Cluster Explosion Radius !! DPS$DREF$ !! Cluster DPS$DREF$ !! Cost Efficiency$CREF$
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 12 || N/A || N/A || 4 || 20 || 5.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
-|-
-| 1 || $R$ || $R$ || 12 || N/A || N/A || 3.25 || 22 || 5.5 || N/A || $DPS$ || N/A || {{Money|$CE$}}
-|-
-| 2 || $R$ || $R$ || 25 || N/A || N/A || 3.25 || 25 || 7 || N/A || $DPS$ || N/A || {{Money|$CE$}}
-|-
-| 3 || $R$ || $R$ || 50 || N/A || N/A || 3.258 || 30 || 8 || N/A || $DPS$ || N/A || {{Money|$CE$}}
-|-
-| 4 || $R$ || $R$ || 100 || 40 || 3 || 3.25 || 32 || 8 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|-
-| 5 || $R$ || $R$ || 150 || 50 || 6 || 3.25 || 35 || 8.5 || 5 || $DPS$ || $CDPS$ || {{Money|$CE$}}
-|}
-</div>
-</tabber></div>
 </nowiki>}}
 
 ==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:DHBunnyMortarIcon.png|175px]]
-|[[File:EclipseMortar.png|175px]]
-|[[File:DuckyMortarIcon.png|175px]]
-|[[File:VigilanteMortarIcon.png|175px]]
+|[[File:ValentinesElectroshockerIcon2.png|175px]]
+|[[File:BunnyElectroshockerIcon2.png|175px]]
+|[[File:HazmatElectroshockerIcon2.png|175px]]
+|[[File:GhostElectroshockerIcon2.png|175px]]
 |-
 !Skin
+|{{Color|Valentine|Valentines}}
 |{{Color|Bunny|Bunny}}
-|{{Color|Eclipse|Eclipse}}
+|{{Color|Premium|Hazmat}}
+|{{Color|Spooky|Ghost}}
+|-
+!Rarity
+|{{Color|Event}}
+|{{Color|Event}}
+|{{Color|Common}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|{{Robux|85}}
+|N/A
+|-
+!Obtained From
+|[[Lovestruck Crate]],<br/>[[Valentines Crate]]
+|[[Bunny Crate]]
+|[[Premium Crate]]
+|[[Spooky Crate]]
+|-
+!
+|[[File:DuckyElectroshockerIcon.png|175px]]
+|[[File:VigilanteElectroshockerIcon.png|175px]]
+|[[File:FrankensteinElectroshocker.png|175px]]
+|[[File:TeeVeeElectroshockerIcon.png|175px]]
+|-
+!Skin
 |{{Color|Ducky|Ducky}}
 |{{Color|Vigilante|Vigilante}}
+|{{Color|Lunar|Frankenstein}}
+|{{Color|Deluxe|TeeVee}}
 |-
 !Rarity
-|{{Color|Event}}
-|{{Color|Event}}
 |{{Color|Rare}}
-|{{Color|Rare}}
+|{{Color|Uncommon}}
+|{{Color|Event}}
+|{{Color|Legendary}}
 |-
 !Daily Store Cost
-|N/A 
-|N/A
 |{{Coins|4,000}}
-|{{Coins|5,000}}
+|{{Coins|4,000}}
+|N/A
+|{{Robux|560}}
 |-
 !Obtained From
-|[[Bunny Crate]]
-|[[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]]
 |[[Ducky Crate]]
 |[[Vigilante Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|[[Deluxe Crate]]
 |-
 !
-|[[File:PirateMortarIcon.png|175px]]
-|[[File:DefenderMortarSkin.png|175px]]
-|[[File:BaseballMortarIcon.png|175px]]
-|[[File:FallenMortarIconIG.png|175px]]
+|[[File:ClassicElectroIcon.png|175px]]
+|[[File:DarkFrostElectroshockerIconIG.png|175px]]
+|[[File:KorbloxElectroshockerIconIG.png|175px]]
+|[[File:JellyfishElectroshockerIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Pirate|Pirate}}
-|{{Color|Krampus|Defender}}
-|{{Color|Deluxe|Baseball}}
-|{{Color|FallenMission|Fallen}}
+|{{Color|Deluxe|Classic}}
+|{{Color|OperationICE|Dark Frost}}
+|{{Color|Korblox|Korblox}}
+|{{Color|Surf|Jellyfish}}
 |-
 !Rarity
+|{{Color|Rare}}
 |{{Color|Rare}}
 |{{Color|Event}}
-|{{Color|Rare}}
 |{{Color|Legendary}}
 |-
 !Daily Store Cost
-|{{Coins|5,000}}
-|N/A
 |{{Robux|360}}
 |N/A
+|N/A
+|N/A
 |-
 !Obtained From
-|[[Pirate Crate]]
-|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
 |[[Deluxe Crate]]
-|''Oppressive Bombardment'' [[Mission Quests|Mission Quest]]
-|-
-!
-|[[File:DarkFrostMortarIconIG.png|175px]]
-|[[File:FrostMortarIconIG.png|175px]]
-|[[File:MechaDuckyMortarIconIG.png|175px]]
-|[[File:FestiveMortarIconIG.png|175px]]
-|-
-!Skin
-|{{Color|OperationICE|Dark Frost}}
-|{{Color|Frost|Frost}}
-|{{Color|DuckyRevenge|Mecha Ducky}}
-|{{Color|Christmas2025|Festive}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Uncommon}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|N/A
-|N/A
-|-
-!Obtained From
 |[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|[[Frost Crate]],<br/>''Nuclear Winter'' [[Mission Quests|Mission Quest]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
-|[[Christmas 2025 Crate]]
+|''Enemy of Redcliff'' [[Mission Quests|Mission Quest]]
+|[[Surf & Turf Battle Pass|Surf & Turf Regular Battle Pass]]
 |-
 !
-|[[File:KrampusMortarIconIG.png|175px]]
-|[[File:ValentinesMortarIconIG.png|175px]]
-|[[File:BeachMortar0.png|175px]]
+|[[File:BannedElectroshockerIconIG.png|175px]]
+|[[File:LovestrikerElectroshockerIconIG.png|175px]]
+|[[File:EasterElectroshockerIconIG.png|175px]]
+|[[File:BeachElectroshockerIconIG.png|175px]]
 |-
 !Skin
-|{{Color|FinalAct|Krampus}}
-|{{Color|Valentines2026|Valentines}}
+|{{Color|Banned|Banned}}
+|{{Color|Valentines2026|Lovestriker}}
+|{{Color|SpringFrenzy|Easter}}
 |{{Color|Beach}}
 |-
 !Rarity
-|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Uncommon}}
 |{{Color|Rare}}
 |{{Color|Uncommon}}
 |-
 !Daily Store Cost
+|N/A
 |N/A
 |N/A
 |{{Coins|5,250}}
 |-
 !Obtained From
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
+|[[Banned Crate]]
 |[[Valentines 2026 Crate]]
+|[[Spring Frenzy Battle Pass]]
 |[[Beach Crate]]
 |}
 
 ==Strategy==
-*The '''Mortar''' is essentially a cliff-based [[Rocketeer]]. However, the '''Mortar''' deals less single target damage without its cluster bombs (which are very unlikely to all deal full damage to the enemy) while having a significantly larger explosion. This makes the '''Mortar''' a better option against hordes.
-*In most cases, the '''Mortar's''' shells will land behind an enemy.
-**This can be useful for hordes of enemies, as the '''Mortar's''' shells will land closer to the middle of the hordes instead of landing at the front. This allows its explosions to hit more enemies.
-**However, this makes the '''Mortar''' somewhat weaker against single targets. As explosions will land behind an enemy, the enemy will be further away from the center of the explosion, which can reduce the amount of damage it receives.
-***This is usually negligible for slow enemies, but for much faster ones like the [[Fallen Rusher]], the '''Mortar's''' DPS may be reduced drastically.
-*At Level 4, the '''Mortar's''' shells drop cluster bombs when they explode. These cluster bombs will also explode when they hit the ground.
-**However, do note that these should not be relied on, as the cluster bombs are very inaccurate and create a smaller explosion than the shells.
-**At least 1 or 2 Level 5 '''Mortars''' can be efficient with taking out hordes of [[Breaker4]]s due to it being able to kill it in a single hit and its cluster bombs killing the [[Breaker3]]s that spawn.
-*Compared to the [[Ranger]] and [[Sniper]], the '''Mortar''' has a significantly smaller range, lacking in range when cliff spots are far enough from the path.
-**The [[DJ Booth]] can aid with this by boosting its range.
-*The [[Commander]] can help remedy the '''Mortar's''' slow firerate.
-*This tower has surprisingly good DPS for a splash damage tower, so it will also be able to help with major bosses like the [[Fallen King]].
-**Additionally, it can easily take care of their summons with its explosions.
-*The '''Mortar''' cannot detect [[Hidden (Attribute)|Hidden]] enemies. You will have to use other towers for an effective [[Hidden (Attribute)|Hidden]] defense.
-**In most gamemodes, [[Hidden (Attribute)|Hidden]] enemies are usually close to other enemies, so the '''Mortar''' can indirectly hit them with its large explosion radius.
-**Towers like the [[Ace Pilot]] or [[Firework Technician]] can give hidden detection but must be close to the '''Mortar''' in order to do so.
-*Large clumped groups that appear from [[Breaker4]] can be better targeted by setting '''Mortar''' to ''Random''.
-*This tower completely ignores defense, dealing full damage to the enemy. Because of this, it can be useful against hordes of enemies with defense, like [[Fallen Hazmat|Hazards]], [[Reaver]] or [[Fallen Giant]].
-*In [[Hardcore Mode|Hardcore]] mode, the '''Mortar''' can be used to kill hordes of [[Lead (Attribute)|Lead]] enemies.
-*The '''Mortar''' can be an effective tower in certain maps where you can stack the '''Mortar''' to maximize the cliff spaces and free up more space for other cliff towers like the [[Ranger]].
+*The '''Electroshocker''' can be used to clear out hordes of weaker enemies, though it will do worse against enemies with higher health, such as the [[Fallen Squire]].
+*Use the '''Electroshocker''' in areas that enemies pass multiple times or at corners, as it gives the '''Electroshocker''' more opportunities to slow down and damage enemies.
+**Intersections such as in the map [[Crossroads]] are also viable options.
+*The '''Electroshocker''' can be very useful against fast enemies, such as the [[Fallen Rusher]], while also dealing a decent amount of damage against them, especially when they come in hordes.
+*While the maximum range is stated as 17, due to the chain range, this can be further extended.
+**Chain range works by shocking an enemy within another enemy's range, so long as they are within the chain range of that enemy. For example, an enemy outside the range of the '''Electroshocker''' may still be shocked if they are within the chain range of another enemy that was shocked. This only applies if the '''Electroshocker''' has not reached its maximum number of hits.
+**This can allow the '''Electroshocker''' to indirectly hit undetectable enemies, like [[Flying]] enemies indirectly, such as the [[Balloon]]. Paired with its ability to hit [[Lead (Attribute)|Lead]] enemies, it can deal with [[Lead Balloon]] pretty well, only if other detectable enemies are in range.
+**You can use the [[DJ Booth]] to increase the range of the '''Electroshocker'''.
+***However, the chain range is not increased.
+*Since the '''Electroshocker''' can stun any enemy without [[Stun Immunity]], it can be useful at any point in the game.
+**Unlike most other slowing towers, its stun is not affected by size, making it quite good against larger enemies, like the [[Fallen Tank]], or even major bosses, such as the [[Fallen King]].
+***For enemies with the  [[Stun Immunity]], there is no stun effect; rather, the enemy is slowed down by up to 40%. For [[Boss]] enemies, that effect is significantly weaker on them, though they are still slowed down by 20%.
+*The '''Electroshocker''' pairs well with towers that take time before they start attacking, such as the [[Minigunner]] and [[Accelerator]].
+**The '''Electroshocker''' also pairs well with towers with a slow firerate, like the [[Ranger]] and [[Mortar]], as it gives them more time to attack enemies with their slow firerate.
+*The '''Electroshocker''' has lead detection, allowing it to deal with lead enemies, like the [[Lead]]. In later Levels a cluster of [[Electroshocker]]s can deal with tankier late-game lead enemies like [[Deep Freeze]].
+*You can use the [[Commander]] to decrease the firerate of the '''Electroshocker''', which increases the number of times that it can stun enemies within its range.
 
 ==Trivia==
-*Outside of sales, the '''Mortar''' is a {{Level|75}} tower with a gamepass cost of {{Robux|300}}, lower in Robux compared to the [[Turret]] which is a {{Level|50}} tower with a gamepass cost of {{Robux|340}}.
-*The '''Mortar''' is loosely based on the [[w:c:roblox-tower-battles:Mortar|Mortar]] from ''Tower Battles'' and the [[w:c:bloons:Mortar Monkey|Mortar Monkey]] from the ''Bloons Tower Defense'' series.
-*When the '''Mortar''' was first released, it would have been affected by shockwaves created by bosses from their ''Stomp'' abilities. This would later be fixed the same day.
-**This glitch would later return in the [[Overhaul v1.0|Overhaul Update]], though it only applied to the [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp''. This was later fixed in the [[v1.1.0|Entity System Update]].
-*The '''Mortar''' formerly shared its Level 4 icon with the [[Ace Pilot]]'s Level 2 icon, but rotated.
-*The '''Mortar''' has a unique explosion at Level 5. It will create a nuclear explosion, instead of the usual explosion most other splash towers use.
-*Unlike the game, dropping a shell in real life will spontaneously fire the mortar. In the game, '''Mortar''' drops in a shell after firing and waits for an enemy to come close to fire again.
-*The '''Mortar's''' default skin in the lobby uses its [[Hardcore Testing BETA]] appearance with its face changed, instead of its current appearance.
+*The vest that the Level 3+ '''Electroshocker''' wears is the [[w:c:r2da:Faraday Vest|Faraday Vest]] from ''R2DA'', which in turn is named after the scientist [[wp:Michael Faraday|Michael Faraday]], who studied electricity.
+**The creator of this vest is BelowNatural, the creator of Tower Defense Simulator.
+*This tower may be very loosely based on the [[w:c:roblox-tower-battles:Plasma Trooper|Plasma Trooper]] and/or the [[w:c:roblox-tower-battles:Stunner|Stunner]] from ''Tower Battles''.
+*The Tesla Tower, originally used by the first versions of the '''Electroshocker''' was a nod to the [[wp:Wardenclyffe Tower|Wardenclyffe Tower]] in Shoreham, Long Island, New York, created by [[Wikipedia:Nikola Tesla|Nikola Tesla]].
+*The first Level 4 upgrade name, "MOAR POWER" could have been a reference to ''Bloons Tower Defense 6'' as there is an upgrade for the [[w:c:bloons:Boomerang Monkey (BTD6)|Boomerang Monkey]] called "M.O.A.R. Glaives". 
+**However, "M.O.A.R." actually stands for Multiple Object Advanced Ricochet in ''Bloons Tower Defense 6''.
+**It could also be a spoof on "more power".
+*The Level 5 upgrade name, "Zeus Cannon" is a reference to an upgraded [[w:c:callofduty:Thundergun|Thundergun]] from the ''Call of Duty'' franchise, specifically the Zombies mode.
+*The '''Electroshocker''' used to be an advanced tower prior to the [[v1.84.0]] update.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{Scroll|text =
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
-**'''Mortar''' added.
-**{{Bug}} Has the ability to give you negative cash.
-*'''24 December 2019''' - [[Release v1.5|Release v1.5.0a]]
-**Can no longer be stunned by boss stomps.
-*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
-**Projectile speed increased from 25 to 35.
-*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
-**New SFX.
+{{Scroll|text=
+*'''11 February 2020''' - [[Release v1.7|Release v1.7.0]]
+**'''Electroshocker''' added.
+*'''14 February 2020''' - [[Release v1.7|Release v1.7.1]]
+**New skin: {{Color|Valentine|Valentines}}
+*'''4 March 2020''' - [[Release v1.8|Release v1.8.0]]
+**Statistical changes:
+***'''Base'''
+****Range decreased from 9 to 7.
+***'''Level 3'''
+****Damage decreased from +8 to +4.
+****Chain range increased from +2 to +3.
+****Range decreased from +2 to +0.
+***'''Level 4'''
+****Damage decreased from +12 to +6.
+***'''Level 5'''
+****Damage decreased from +18 to +10.
 *'''6 April 2020''' - [[Release v1.9|Release v1.9.0]]
 **New skin: {{Color|Bunny|Bunny}}
-*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
-**Splash damage equation reworked.
+*'''29 April 2020''' - [[Release v1.10|Release v1.10.0]]
+**New skin: {{Color|Premium|Hazmat}}
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]    
+**Unlock cost decreased from {{Coins|3,500}} to {{Coins|3,000}}.
+**{{Level|10}} requirement added.
+**Placement limit increased from 2 to 4.
+**Shock mechanic changed.
+***Shock time is now proportional to enemy size.
+***Shocking now slows down and stops an enemy instead of slowing down enemies by 30% (or 15% for enemies with [[Partial Electric Immunity]]).
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Premium Crate]] skins.
 **Statistical changes:
 ***'''Base'''
-****Range decreased from 25 to 22.
-****Damage decreased from 6 to 5.
-****Firerate decreased from 5.05 to 5.03.
-****Explosion radius decreased from 12 to 4.
-****Flying detection added.
+****Damage decreased from 1 to 0.
+****Max hits decreased from 3 to 1.
+****Chain range decreased from 6 to 5.
+****Max shock time increased from 0.25 to 1.
+****Min shock time of 0.25 added.
+****Firerate decreased from 3.05 to 3.03.
+****Cost decreased from {{Money|500}} to {{Money|400}}.
 ****Lead detection added.
 ***'''Level 1'''
-****Damage decreased from +2 to +0.
-****Range increased from +0 to +3.
-****Cost decreased from {{Money|500}} to {{Money|250}}.
+****Cost decreased from {{Money|350}} to {{Money|250}}.
 ***'''Level 2'''
-****Damage decreased from +6 to +0.
-****Firerate changed from 5.05 to {{Tooltip|5.03 > 4.53|-0.5}}.
-****Cost decreased from {{Money|1,000}} to {{Money|400}}.
-****Renamed from ''Safety Gear'' to ''Quick Reloading''.
+****Damage decreased from +1 to +0.
+****Range decreased from +2 to +1.
+****Hidden detection added.
+****Cost decreased from {{Money|525}} to {{Money|400}}.
+****Renamed from ''Tesla Tower 3000'' to ''Outside Support''.
 ***'''Level 3'''
-****Damage decreased from +25 to +10.
-****Range decreased from +6 to +0.
-****Firerate changed from {{Tooltip|5.05 > 4.05|-1}} to 4.53.
-****Renamed from ''BIGGER CANNON'' to ''Bigger Cannon''.
+****Damage decreased from +4 to +2.
+****Max hits decreased from +2 to +0.
+****Chain range decreased from +3 to +0.
+****Firerate changed from {{Tooltip|3.05 > 2.05|-1}} to 3.03.
+****Shock time changed from 0.25 to 1 > 1.5.
+****Cost decreased from {{Money|1,250}} to {{Money|1,000}}.
 ***'''Level 4'''
-****Damage decreased from +60 to +10.
-****Explosion radius changed from 12 > 17 to 4 > 6.
-****Renamed from ''BETTER BOMBS'' to ''Stronger Shells''.
+****Damage decreased from +6 to +2.
+****Max hits increased from +1 to +2.
+****Shock time changed from 0.25 > 0.35 to 1.5.
+****Firerate changed from 2.05 to {{Tooltip|3.03 > 2.03|-1}}.
+****Cost decreased from {{Money|4,250}} to {{Money|3,000}}.
+****Renamed from ''MOAR POWER'' to ''Lightning Cannon''.
 ***'''Level 5'''
-****Range decreased from +8 to +5.
-****Damage decreased from +65 to +35.
-****Cost decreased from {{Money|13,000}} to {{Money|12,000}}.
-****Explosion radius changed from 17 > 25 to 6.
-****Firerate changed from {{Tooltip|4.05 > 3.05|-1}} to {{Tooltip|4.53 > 3.03|-1.5}}.
-****Renamed from ''NUCLEAR CANNON'' to ''Nuclear Devistation''.
-**{{Bug}} {{Color|Bunny|Bunny}} skin does not attack any enemies.
-**{{Bug}} [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp'' ability can stun the '''Mortar'''.
-**{{Bug}} Default '''Mortar''' uses old [[Hardcore Testing BETA]] appearance in the lobby.
-**{{Bug}} Level 5 upgrade does not increase explosion radius.
-**{{Bug}} Level 5 '''Mortar's''' explosion uses the same explosion as other levels, instead of a nuclear explosion.
-**{{Bugfix}} '''Mortar''' can no longer give negative cash.
-*'''25 December 2020''' - [[Overhaul v1.1|Overhaul v1.1.1d]]
-**Gamepass price decreased from {{Robux|750}} to {{Robux|535}}.
-*'''4 January 2021''' - [[Overhaul v1.1|Overhaul v1.1.1e]]
-**Gamepass price increased from {{Robux|535}} to {{Robux|700}}.
+****Range decreased from +4 to +2.
+****Damage decreased from +10 to +0.
+****Max hits decreased from +4 to +1.
+****Chain range decreased from +6 to +0.
+****Shock time changed from 0.35 to 1.5 > 2.
+****Now melts 1 defense every hit.
+****Cost decreased from {{Money|8,500}} to {{Money|6,500}}.
+****Renamed from ''Ultra Violet Lightning'' to ''Shock Force''.
+*'''23 November 2020''' - [[Overhaul v1.1|Overhaul v1.1.1]]
+**New skin: {{Color|Spooky|Ghost}}
 *'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
-**'''Mortar''' now ignores [[defense]].
-**Splash damage reworked. Now the explosion is separated into two spheres. Inner sphere deals 100% of the stated damage while the damage in the outer sphere decreases linearly.
 **Statistical changes:
-***'''Level 3'''
-****Explosion radius changed from 4 to 4 > 5.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-*'''4 December 2021''' - [[v1.0.0]]
-**New skin: {{Color|Eclipse|Eclipse}}
-*'''29 December 2021'''
-**{{Bug}} Default skin now uses its original version, does not upgrade properly and does not attack any enemies.
-*'''29 December 2021''' - [[v1.0.0]]l
-**{{Bugfix}} Default skin now uses its correct model, fixing it not upgrading properly and it not attacking enemies.
+***'''Base'''
+****Cost decreased from {{Money|400}} to {{Money|325}}.
+***'''Level 5'''
+****Defense melting changed from 1 to 1%.
 *'''12 March 2022''' - [[v1.1.0]]
-**'''Mortar''' now uses a path based movement prediction, causing it to hit enemies more accurately.
-**'''Mortar''' is now immune to all stuns.
 **Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 5.03 to 5.008.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|5.03 > 4.53|-0.5}} to {{Tooltip|5.025 > 4.525|-0.5}}.
-***'''Level 5'''
-****Firerate changed from {{Tooltip|4.53 > 3.03|-1.5}} to {{Tooltip|4.525 > 3.025|-1.5}}.
-**{{Bug}} {{Color|Bunny|Bunny}} uses incorrect animations in the lobby.
-**{{Bugfix}} {{Color|Bunny|Bunny}} skin now works properly.
-**{{Bugfix}} [[Grave Digger (Legacy)|Grave Digger]]'s ''Stomp'' ability now cannot stun the '''Mortar'''.
-*'''17 April 2022''' - [[v1.2.0]]
-**'''Mortar''' can no longer be targeted by most enemy abilities.
-*'''23 April 2022''' - [[v1.2.1]]
-**{{Bugfix}} Level 5 upgrade name ''Nuclear Devastation'' is no longer misspelt as ''Nuclear Devistation''.
+****Firerate changed from 3.03 to 3.025.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|3.03 > 2.03|-1}} to {{Tooltip|3.025 > 2.025|-1}}.
 *'''21 December 2022''' - [[v1.6.0]]
+**Level requirement removed.
 **Skin rarity added to all skins.
+**{{Color|Premium|Hazmat}} skin rarity changed from {{Color|Rare}} to {{Color|Common}}.
 *'''21 March 2023''' - [[v1.6.3]]e
+**Shock time is no longer proportional to enemy size, now its the same for every enemy.
 **Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|400}} to {{Money|1,000}}.
-****Damage increased from 5 to 10.
-****Explosion radius increased from 4 to 8.
-****Placement limit increased from 5 to 6.
+****Damage increased from 0 to 2.
+****Range increased from 7 to 7.5.
+****Chain range increased from 5 to 6.
+****Max hits increased from 1 to 2.
+****Firerate decreased from 3.025 to 0.925.
+****Shock time decreased from 1 to 0.
+****Cost increased from {{Money|325}} to {{Money|800}}.
 ***'''Level 1'''
-****Firerate changed from 5.008 to {{Tooltip|5.025 > 4.525|-0.5}}.
-****Range decreased from +3 to +2.
-****Cost increased from {{Money|250}} to {{Money|600}}.
+****Firerate changed from 3.025 to {{Tooltip|0.925 > 0.825|-0.1}}.
+****Range decreased from +2 to +1.5.
+****Cost increased from {{Money|250}} to {{Money|325}}.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.525 > 4.025|-0.5}}.
-****Damage increased from +0 to +10.
-****Explosion radius changed from 4 to 8 > 12.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-****Cost increased from {{Money|400}} to {{Money|1,300}}.
-****Renamed from ''Quick Reloading'' to ''Upgraded Armaments''.
+****Damage increased from +0 to +2.
+****Range decreased from +1 to +0.
+****Max hits increased from +0 to +1.
+****Cost increased from {{Money|400}} to {{Money|900}}.
+****Hidden detection removed.
+****Flying detection added.
 ***'''Level 3'''
-****Damage increased from +10 to +30.
+****Damage increased from +2 to +4.
+****Range increased from +0 to +1.
+****Firerate changed from 3.025 to {{Tooltip|0.825 > 0.675|-0.15}}.
+****Shock time changed from 1 > 1.5 to 0.
+****Cost increased from {{Money|1,000}} to {{Money|3,000}}.
+***'''Level 4'''
+****Damage increased from +2 to +37.
 ****Range increased from +0 to +4.
-****Explosion radius changed from 4 > 5 to 12 > 14.
-****Cost increased from {{Money|3,000}} to {{Money|3,200}}.
-***'''Level 4'''
-****Damage increased from +10 to +50.
-****Firerate changed from 4.525 to {{Tooltip|4.025 > 3.525|-0.5}}.
-****Range increased from +0 to +2.
-****Explosion radius changed from 5 > 6 to 14.
-*****{{Bug}} The upgrade description did not change, it still says that the explosion radius increases.
-****Cost increased from {{Money|7,200}} to {{Money|9,500}}.
-****Renamed from ''Stronger Shells'' to ''Loaded Warhead''.
+****Shock time changed from 1.5 to 0 > 0.35.
+****Firerate changed from {{Tooltip|3.025 > 2.025|-1}} to {{Tooltip|0.675 > 2.025|+1.35}}.
+****Cost increased from {{Money|3,000}} to {{Money|5,000}}.
 ***'''Level 5'''
-****Firerate changed from {{Tooltip|4.525 > 3.025|-1.5}} to 3.525.
-****Damage increased from +35 to +75.
-****Explosion radius changed from 6 to 14 > 20.
-*****{{Bug}} Upgrade description does not list the explosion radius change.
-****Cost increased from {{Money|12,000}} to {{Money|23,000}}.
-****Renamed from ''Nuclear Devastation'' to ''Nuclear Annihilation''.
-**{{Bug}} '''Mortar's''' explosions are smaller than they look.
-*'''22 March 2023''' - [[v1.6.3]]f
-**{{Bugfix}} '''Mortar's''' explosions are now the proper size.
-*'''31 March 2023''' - [[v1.6.4]]
-**Statistical changes:
-***'''Base'''
-****Damage increased from 10 to 12.
-****Explosion radius decreased from 8 to 5.
-***'''Level 2'''
-****Damage increased from +10 to +12.
-****Explosion radius changed from 8 > 12 to 5 > 6.5.
-***'''Level 3'''
-****Damage increased from +30 to +31.
-****Explosion radius changed from 12 > 14 to 6.5.
-***'''Level 4'''
-****Damage increased from +50 to +70.
-****Explosion radius changed from 14 to 6.5 > 7.
-****Cost decreased from {{Money|9,500}} to {{Money|8,500}}.
-***'''Level 5'''
-****Damage increased from +75 to +125.
-****Explosion radius changed from 14 > 20 to 7 > 8.
-****Cost decreased from {{Money|23,000}} to {{Money|21,500}}.
-**{{Bugfix}} '''Mortar's''' upgrade descriptions now list explosion changes properly on all Levels.
-*'''7 April 2023''' - [[v1.7.0]]
-**Gamepass price decreased from {{Robux|700}} to {{Robux|500}}.
-**Shells will now land behind enemies.
-**Statistical changes:
-***'''Base'''
-****Placement limit decreased from 6 to 4.
-****Projectile speed decreased.
-***'''Level 4:'''
-****Cluster bombs with 40 damage and 4 explosion radius added.
-****Explosion radius changed from 6.5 > 7 to 6.5.
-***'''Level 5'''
-****Now increases cluster bomb damage by +10.
-****Explosion radius changed from 7 > 8 to 6.5 > 8.
-****Cost decreased from {{Money|21,500}} to {{Money|20,000}}.
-****Name changed from ''Nuclear Annihilation'' to ''City Buster''.
-**{{Bugfix}} Level 5 '''Mortar''' now has unique nuclear explosions instead of the regular explosions.
-*'''15 April 2023''' - [[v1.7.1]]
-**Gamepass price increased from {{Robux|500}} to {{Robux|700}}.
-*'''5 May 2023''' - [[v1.7.2]]
-**{{Bug}} {{Color|Bunny|Bunny}} '''Mortar''' icon has a floating projectile.
-**{{Bugfix}} Default '''Mortar''' now uses its current appearance in the regular lobby.
-**{{Bugfix}} {{Color|Bunny|Bunny}} '''Mortar''' now uses its current animations in the regular lobby.
+****Damage increased from +0 to +45.
+****Range decreased from +2 to +0.
+****Chain range increased from +0 to +2.
+****Max hits increased from +1 to +3.
+****Shock time changed from 1.5 > 2 to 0.35 > 0.5.
+****Firerate changed from 2.025 to {{Tooltip|2.025 > 2.525|+0.5}}.
+****Cost increased from {{Money|6,500}} to {{Money|13,500}}.
+****Renamed from ''Shock Force'' to ''Zeus Cannon''.
 *'''12 May 2023''' - [[v1.7.3]]
 **New skin: {{Color|Ducky|Ducky}}
 *'''24 June 2023''' - [[v1.8.2]]
 **New skin: {{Color|Vigilante|Vigilante}}
-*'''4 July 2023''' - [[v1.8.2]]d
-**Gamepass price decreased from {{Robux|700}} to {{Robux|500}}.
-*'''6 July 2023''' - [[v1.8.2]]e
-**Gamepass price increased from {{Robux|500}} to {{Robux|700}}.
-*'''5 August 2023''' - [[v1.8.4]]
-**New skin: {{Color|Pirate|Pirate}}
-*'''24 November 2023''' - [[v1.9.4]]
-**Gamepass price decreased from {{Robux|800}} to {{Robux|490}}.
-*'''29 November 2023''' - [[v1.9.4]]a
-**Gamepass price increased from {{Robux|490}} to {{Robux|700}}.
-*'''21 December 2023''' - [[v1.11.0]]
-**New skin: {{Color|Krampus|Defender}}
-*'''24 February 2024''' - [[v1.14.0]]
-**Gamepass price decreased from {{Robux|700}} to {{Robux|525}}.
-**{{Bug}} Gamepass cost is still listed as {{Robux|700}} in the inventory.
-*'''19 April 2024''' - [[v1.19.0]]
-**{{Bugfix}} Gamepass cost is now correctly listed as {{Robux|525}} in the inventory.
-*'''23 May 2024''' - [[v1.23.0]]
-**Gamepass cost decreased from {{Robux|525}} to {{Robux|395}}.
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**No longer bypasses defense.
-*'''19 July 2024''' - [[v1.26.0]]
-**New skin: {{Color|Deluxe|Baseball}}
-*'''9 August 2024''' - [[v1.27.5]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''27 November 2024''' - [[v1.43.0]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|296}}.
-*'''3 December 2024''' - [[v1.43.0|v1.43.3]]
-**Gamepass price increased from {{Robux|296}} to {{Robux|395}}.
-*'''16 December 2024''' - [[v1.46.0]]
-**New skins: {{Color|Frost|Frost}}, {{Color|OperationICE|Dark Frost}}
-*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|296}}.
-*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
-*'''15 January 2025''' - [[v1.49.0]]
-**Placement limit increased from 4 to 5.
-**Now bypasses defense.
+*'''28 October 2023''' - [[v1.9.0]]
+**Stunned enemies now slow down before being completely stopped.
+*'''31 October 2023''' - [[v1.9.0]]g
+**New skin: {{Color|Lunar|Frankenstein}}
+*'''10 February 2024''' - [[v1.13.0]]
+**{{Bug}} '''Electroshocker''' when placed down does not appear, does not count for the tower placement limit, prevents towers from being placed in the area and takes cash as if it was placed down normally.
+*'''11 February 2024''' - [[v1.13.0]]a
+**{{Bugfix}} '''Electroshocker''' can now be placed down properly.
+*'''1 April 2024''' - [[v1.17.0]]b
+**New skin: {{Color|Deluxe|TeeVee}}
+**{{Bug}} {{Color|Deluxe|TeeVee}} skin cannot be equipped in the intermission lobby.
+**{{Bug}} {{Color|Deluxe|TeeVee}} skin breaks the tower icon and stats in the tower hotbar.
+*'''1 April 2024''' - [[v1.17.2]]
+**{{Bugfix}} {{Color|Deluxe|TeeVee}} skin now can be equipped in the intermission lobby.
+**{{Bugfix}} {{Color|Deluxe|TeeVee}} skin no longer breaks the tower icon and stats in the tower hotbar.
+*'''7 June 2024''' - [[v1.24.0]]
+**New skin: {{Color|Deluxe|Classic}}
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 5.025 to 4.025.
-****Range decreased from 22 to 20
-****Explosion Radius increased from 5 to 6.
-****Cost decreased from {{Money|1,000}} to {{Money|900}}.
+****Cost decreased from {{Money|800}} to {{Money|725}}.
+****Damage increased from 2 to 3.
+****Firerate decreased from 0.925 to 0.875.
+****Chain range increased from 6 to 7.
+****Shock time increased from 0 to 0.3.
+****Defense melting increased from 0% to 5%.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|5.025 > 4.525|-0.5}} to {{Tooltip|4.025 > 3.025|-1}}.
-****Range decreased from +2 to +0.
-****Cost decreased from {{Money|600}} to {{Money|325}}.
+****Cost decreased from {{Money|325}} to {{Money|300}}.
+****Firerate changed from {{Tooltip|0.925 > 0.825|-0.1}} to {{Tooltip|0.875 > 0.775|-0.1}}.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|4.525 > 4.025|-0.5}} to 3.025.
-****Range increased from +0 to +4.
-****Explosion Radius changed from 5 > 6.5 to 6 > 7.5.
-****Cost increased from {{Money|1,300}} to {{Money|1,400}}.
+****Cost decreased from {{Money|900}} to {{Money|600}}.
+****Damage decreased from +2 to +1.
+****Range increased from +0 to +1.
 ***'''Level 3'''
-****Range decreased from +4 to +3.
-****Damage decreased from +31 to +26.
-****Explosion Radius changed from 6.5 to 7.5 > 8.5.
-****Cost increased from {{Money|3,200}} to {{Money|3,500}}.
+****Cost decreased from {{Money|3,000}} to {{Money|2,000}}.
+****Range increased from +1 to +2.
+****Firerate changed from {{Tooltip|0.825 > 0.675|-0.15}} to 0.775.
+****Defense melting changed from 0% to 5% > 10%.
+****Max hits increased from +0 to +1.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|4.025 > 3.525|-0.5}} to 3.025.
-****Range decreased from +2 to +0.
-****Cluster bomb damage increased from 40x3 to 40x4.
-****Cluster bomb explosion radius increased from 4 to 5.
-****Cost increased from {{Money|8,500}} to {{Money|10,000}}.
+****Damage increased from +37 to +42.
+****Range decreased from +4 to +2.
+****Chain range increased from +0 to +3.
+****Firerate changed from {{Tooltip|0.675 > 2.025|+1.35}} to {{Tooltip|0.775 > 2.525|+1.75}}.
+****Defense melting changed from 0% to 10% > 15%.
+****Shock time increased from 0.35 to 0.3 > 1.
 ***'''Level 5'''
-****Range decreased from +5 to +3.
-****Damage decreased from +125 to +80.
-****Cluster bomb damage increased from 50x3 to 75x6.
-****Explosion Radius changed from 6.5 > 8 to 8.5 > 10.
-****Cost increased from {{Money|20,000}} to {{Money|22,500}}.
-*'''23 January 2025''' - [[v1.50.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage increased from +26 to +36.
-****Cost decreased from {{Money|3,500}} to {{Money|3,250}}.
-***'''Level 4'''
-****Damage decreased from +70 to +60.
-****Cluster bomb amount decreased from 40x4 to 40x3.
-****Cost increased from {{Money|10,000}} to {{Money|12,000}}.
-***'''Level 5'''
-****Cluster bomb damage decreased from 75x6 to 50x6.
-****Cost increased from {{Money|22,500}} to {{Money|25,000}}.
+****Cost increased from {{Money|13,500}} to {{Money|15,000}}.
+****Damage increased from +45 to +50.
+****Firerate changed from {{Tooltip|2.025 > 2.525|+0.5}} to 2.525.
+****Chain range decreased from +2 to +0.
+****Max hits decreased from +3 to +2.
+****Shock time changed from 0.35 > 0.5 to 1 > 1.25.
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Dark Frost}}
+**{{Bug}} '''Electroshocker's''' energy damage type is broken.
+*'''8 January 2025''' - [[v1.48.0]]
+**{{Bug}} '''Electroshocker''' does not damage [[Lead (Attribute)|Lead]] enemies.
+*'''15 January 2025''' - [[v1.49.0]]
+**{{Bugfix}} '''Electroshocker''' can now damage [[Lead (Attribute)|Lead]] enemies.
+**{{Bugfix}} '''Electroshocker''' now has a working energy damage type.
+*'''12 March 2025''' - [[v1.57.0]]
+**{{Bug}} {{Color|Korblox|Korblox}} skin is obtainable.
+*'''12 March 2025''' - [[v1.57.0|v1.57.2]]
+**{{Bugfix}} {{Color|Korblox|Korblox}} skin is no longer obtainable.
+*'''13 March 2025''' - [[v1.57.0|v1.57.7]]
+**New skin: {{Color|Korblox|Korblox}}
+*'''19 March 2025''' - [[v1.57.0|v1.57.11]]
+**{{Bug}} Equipping the {{Color|Korblox|Korblox}} skin prevents some players from placing the '''Electroshocker''' down.
 *'''9 April 2025''' - [[v1.60.0]]
 **Defense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Mecha Ducky}}.
-*'''11 June 2025''' - [[v1.67.0]]
-**Statistical changes:
-***'''Level 3'''
-****Damage decreased from +36 to +31.
-***'''Level 4'''
-****Damage decreased from +60 to +45.
-***'''Level 5'''
-****Damage decreased from +80 to +50.
-****Explosion Radius changed from 8.5 > 10 to 8.5 > 9.
-*'''23 July 2025''' - [[v1.71.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
-****Firerate decreased from 4.025 to 3.775.
-***'''Level 1'''
-****Cost increased from {{Money|325}} to {{Money|400}}.
-****Damage increased from +0 to +3.
-****Range increased from +0 to +2.
-****Firerate changed from {{Tooltip|4.025 > 3.025|-1}} to {{Tooltip|3.775 > 3.275|0.5}}.
-***'''Level 2'''
-****Damage increased from +12 to +13.
-****Range decreased from +4 to +3.
-***'''Level 3'''
-****Cost decreased from {{Money|3,250}} to {{Money|3,000}}.
-****Damage increased from +31 to +32.
-****Range increased from +3 to +5.
-****Firerate changed from 3.025 to {{Tooltip|3.275 > 3.025|-0.25}}.
-***'''Level 4'''
-****Cost decreased from {{Money|12,000}} to {{Money|10,000}}.
-****Damage decreased from +45 to +40.
-****Range increased from +0 to +2.
-***'''Level 5'''
-****Cost decreased from {{Money|25,000}} to {{Money|20,000}}.
-*'''6 August 2025''' - [[v1.72.0]]
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Firerate increased from 3.775 to 4.025.
-****Explosion radius decreased from 6 to 5.5.
-***'''Level 1'''
-****Cost decreased from {{Money|400}} to {{Money|300}}.
-****Damage decreased from +3 to +0.
-****Firerate changed from {{Tooltip|3.757 > 3.275|-0.5}} to {{Tooltip|4.025 > 3.275|-0.75}}.
-***'''Level 2'''
-****Explosion radius changed from 6 > 7.5 to 5.5 > 7.
-***'''Level 3'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
-****Damage decreased from +32 to +25.
-****Firerate changed from {{Tooltip|3.275 > 3.025|-0.25}} to 3.275.
-****Explosion radius changed from 7.5 > 8.5 to 7 > 8.
-***'''Level 4'''
-****Cost increased from {{Money|10,000}} to {{Money|12,000}}.
-****Damage increased from +40 to +50.
-***'''Level 5'''
-****Cost increased from {{Money|20,000}} to {{Money|22,500}}.
-****Explosion radius changed from 8.5 > 9 to 8 > 8.5.
-*'''26 November 2025''' - [[v1.81.0]]
-**Gamepass cost decreased from {{Robux|395}} to {{Robux|296}}.
-*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
-*'''20 December 2025''' - [[v1.83.0]]
-**New skin: {{Color|Christmas2025|Festive}}
-**{{Bug}} {{Color|Christmas2025|Festive}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
-*'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Krampus}}
-**{{Bug}} {{Color|FinalAct|Krampus}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
-*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
-**Gamepass cost decreased from {{Robux|395}} to {{Robux|296}}.
-*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
-**Gamepass cost increased from {{Robux|296}} to {{Robux|395}}.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Jellyfish}}
+**{{Bug}} {{Color|Surf|Jellyfish}} skin is not affected by certain debuffs.
+**{{Bug}} {{Color|Surf|Jellyfish}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
+*'''4 October 2025''' - [[v1.76.0|v1.76.2b]]
+**New skin: {{Color|Banned|Banned}}
+*'''4 October 2025''' - [[v1.77.0]]
+**{{Bug}} Enemies hit by the '''Electroshocker''' no longer have stun animations.
 *'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 5 to 3 in regular modes.
-**Statistical changes (Regular):
+**Unlock cost decreased from {{Coins|3,000}} to {{Coins|2,500}}.
+**Category changed from Advanced to Intermediate.
+**Placement limit increased from 4 to 10.
+**Description changed.
+**Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|900}} to {{Money|1,000}}.
-****Damage increased from 12 to 15.
-****Range increased from 20 to 24.
-****Explosion radius decreased from 6 to 5.
+****Cost decreased from {{Money|725}} to {{Money|425}}.
+****Firerate decreased from 0.875 to 0.775.
+****Range increased from 7.5 to 10.
+****Max hits decreased from 2 to 1.
+****Shock time decreased from 0.3 to 0.
+****Defense melting decreased from 5% to 0%.
 ***'''Level 1'''
-****Cost increased from {{Money|325}} to {{Money|500}}.
-****Firerate changed from {{Tooltip|4.025 > 3.025|-1}} to {{Tooltip|4.025 > 2.775|-1.25}}.
-****Range increased from +0 to +3.
+****Cost decreased from {{Money|300}} to {{Money|200}}.
+****Range decreased from +1.5 to +1.
+****Firerate changed from {{Tooltip|0.875 > 0.775|-0.1}} to 0.775.
+****Damage increased from +0 to +1
 ***'''Level 2'''
-****Cost increased from {{Money|1,400}} to {{Money|2,250}}.
-****Damage increased from +12 to +20.
-****Range decreased from +4 to +0.
-****Explosion radius changed from 6 > 7.5 to 5 > 7.
+****Cost increased from {{Money|600}} to {{Money|625}}.
+****Damage increased from +1 to +4.
+****Range increased from +1 to +2.5.
+****Max hits decreased from +1 to +0.
+****Flying detection removed.
+****Hidden detection added.
+****Name changed from ''Outside Support'' to ''Higher Voltage''.
 ***'''Level 3'''
-****Cost increased from {{Money|3,250}} to {{Money|4,250}}.
-****Damage decreased from +31 to +30.
-****Explosion radius changed from 7.5 > 8.5 to 7 > 8.5.
+****Cost increased from {{Money|2,000}} to {{Money|2,500}}.
+****Damage increased from +4 to +12.
+****Firerate changed from 0.775 to {{Tooltip|0.775 > 0.675|-0.1}}.
+****Range decreased from +2 to +1.5.
+****Max hits decreased from +1 to +0.
+****Defense melting changed from 5% > 10% to 0%.
 ***'''Level 4'''
-****Cost increased from {{Money|12,000}} to {{Money|19,000}}.
-****Damage increased from +45 to +60.
-****Range increased from +0 to +4.
-****Cluster damage decreased from 40 to 30.
-****Cluster count increased from 3 to 4.
+****Cost increased from {{Money|5,000}} to {{Money|6,350}}.
+****Damage increased from +42 to +105.
+****Firerate changed from {{Tooltip|0.775 > 2.525|+1.75}} to {{Tooltip|0.675 > 2.275|+1.6}}.
+****Max hits decreased from +2 to +1.
+****Shock time changed from 0.3 > 1 to 0 > 0.1.
+****Defense melting changed from 10% > 15% to 0%.
+****Name changed from ''Lightning Cannon'' to ''Shock Force''.
 ***'''Level 5'''
-****Cost increased from {{Money|25,000}} to {{Money|35,500}}.
-****Damage increased from +50 to +165.
-****Range decreased from +3 to +0.
-****Cluster count decreased from +3 to +2.
+****Cost increased from {{Money|15,000}} to {{Money|16,935}}.
+****Damage increased from +50 to +85.
+****Range increased from +0 to +1.
+****Max hits decreased from +2 to +1.
+****Shock time changed from 1 > 1.25 to 0.1 > 0.15.
+****Defense melting changed from 15% to 0% > 25%.
 *'''11 February 2026''' - [[v1.85.0]]
-**New skin: {{Color|Valentines2026|Valentines}}
-**{{Bug}} {{Color|Valentines2026|Valentines}} has worse accuracy, leading to the targeted enemy receiving reduced damage from damage drop off when it normally does not happen for other skins.
-*'''22 May 2026''' - [[v1.91.0]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|316}}.
-***{{Bug}} Gifting was not discounted.
-*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
-**Gamepass price increased from {{Robux|316}} to {{Robux|395}}.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|425}} to {{Money|375}}.
+****Damage decreased from 3 to 2.
+****Range increased from 10 to 11.
+****Shock time increased from 0 to 0.05.
+****Defense melting increased from 0% to 5%.
+***'''Level 1'''
+****Range increased from +1 to +1.5.
+***'''Level 2'''
+****Cost increased from {{Money|625}} to {{Money|700}}.
+****Damage decreased from +4 to +3.
+****Firerate changed from 0.775 to {{Tooltip|0.775 > 0.675|-0.1}}.
+****Shock time increased from 0 to 0.05 > 0.08.
+****Defense melting increased from 0% to 5% > 10%.
+***'''Level 3'''
+****Damage decreased from +12 to +6.
+****Range decreased from +1.5 to +0.
+****Firerate changed from {{Tooltip|0.775 > 0.675|-0.1}} to 0.675.
+****Max hits increased from +0 to +1.
+***'''Level 4'''
+****Damage decreased from +105 to +103.
+****Range increased from +2 to +3.5.
+****Max hit decreased from +1 to +0.
+****Shock time increased from 0 > 0.1 to 0.08 > 0.18.
+****Defense melting increased from 0% to 10% > 15%.
+***'''Level 5'''
+****Shock time increased from 0.08 > 0.18 to 0.18 > 0.3.
+****Defense melting increased from 0% > 25% to 15% > 25%.
+**New skin: {{Color|Valentines2026|Lovestriker}}
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Easter}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Statistical changes (Regular):
+**Placement limit decreased from 10 to 7.
+**Statistical changes:
 ***'''Base'''
-****Firerate decreased from 4.025 to 4.
-****Now displays its [[Stun Immunity]].
+****Cost increased from {{Money|375}} to {{Money|650}}.
+****Damage increased from +2 to +4.
+****Firerate increased from 0.775 to 1.2.
+****Range decreased from 11 to 10.
+****Max hits increased from 1 to 2.
+****Shock time increased from 0.05 to 0.1.
+****Chain range increased from 7 to 10.
+****Defense melt decreased from 5% to 0%.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|4.025 > 2.775|-1.25}} to {{Tooltip|4 > 2.75|-1.25}}.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****Firerate decreased from 4.025 to 4.
-***'''Level 1'''
-****Firerate changed from {{Tooltip|4.025 > 3.275|-1.25}} to {{Tooltip|4 > 3.25|-1.25}}.
-*'''19 June 2026''' - [[v2.1.0]]
-**Placement limit increased from 3 to 4 in regular modes.
-**Statistical changes (Regular):
+****Cost increased from {{Money|200}} to {{Money|275}}.
+****Damage increased from +1 to +2.
+****First changed from 0.775 to {{Tooltip|1.35 > 1.15|-0.2}}.
+****Range increased from +1.5 to +2.
+****Name changed from ''Improved Handling'' to ''Higher Voltage''.
+***'''Level 2'''
+****Cost increased from {{Money|700}} to {{Money|950}}.
+****Damage decreased from +3 to +2.
+****Firerate changed from {{Tooltip|0.775 > 0.675|-0.1}} to 1.15.
+****Range increased from +0 to +1.
+****Max hits increased from +0 to +1.
+****Shock time changed from 0.05 > 0.08 to 0.1.
+****Defense melting changed from 5% > 10% to 0%.
+****Name changed from ''Higher Voltage'' to ''Improved Handling''.
+***'''Level 3'''
+****Cost decreased from {{Money|2,500}} to {{Money|2,400}}.
+****Damage increased from +6 to +14.
+****Max hits decreased from +1 to +0.
+****Chain range increased from +0 to +5.
 ***'''Level 4'''
-***Cost decreased from {{Money|19,000}} to {{Money|13,500}}.
-***Damage decreased from +50 to +35.
+****Cost decreased from {{Money|6,350}} to {{Money|4,000}}.
+****Damage decreased from +103 to +40.
+****Firerate changed from {{Tooltip|0.675 > 2.275|+1.6}} to {{Tooltip|1.15 > 2.5|+1.35}}.
+****Range decreased from +3.5 to +0.
+****Max hits decreased from +0 to +1.
+****Shock time changed from 0.08 > 0.18 to 0.1 > 0.15.
+****Chain range decreased from +3 to +0.
+****Defense melting changed from 10% > 15% to 0%.
 ***'''Level 5'''
-***Cost decreased from {{Money|35,500}} to {{Money|30,000}}.
-***Damage decreased from +165 to +135.
-*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
-**Gamepass price decreased from {{Robux|395}} to {{Robux|300}}.
-***{{Bug}} Gift price has not changed.
-*'''4 September 2026''' - [[v2.9.0]]
+****Cost decreased from {{Money|16,935}} to {{Money|10,000}}.
+****Damage decreased from +85 to +30.
+****Range increased from +1 to +2.
+****Max hits increased from +1 to +3.
+****Shock time changed from 0.18 > 0.3 to 0.15 > 0.25.
+****Chain range increased from +0 to +5.
+****Defense melting changed from 15% > 25% to 0% > 20%.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
 **New skin: {{Color|Beach}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Statistical changes:
+***'''Base'''
+****Damage increased from 4 to 5.
+***'''Level 1'''
+****Damage decreased from +2 to +1.
+***'''Level 3'''
+****Damage decreased from +14 to +12.
+****Chain range decreased from +5 to +2.5.
+***'''Level 4'''
+****Damage decreased from +48 to +40.
+****Chain range increased from +0 to +2.5.
+***'''Level 5'''
+****Chain range decreased from +5 to +0.
 }}
 
 ==Notes==
@@ -761,4 +659,4 @@ $R$ = $FNC-RECURSION$
 
 
 {{TowerNavBox}}
-[[Category:Cliff]]
+[[Category:Ground]]
