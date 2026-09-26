@@ -1,478 +1,180 @@
 {{Tabs}}
-{{SameName|Necromancer|[[Necromancer|Tower]] • [[Necromancer (Modern Enemy)|Modern Enemy]] • [[Necromancer (Legacy Enemy)|Legacy Enemy]]}}
-{{For|other uses of [[Necromancer (Disambiguation)|Necromancer]]}}
+{{For|the [[Gatling Gun]]|one of the multiple [[Sentry (Disambiguation)|Sentries]]}}
 {{TowerInfobox
-|image-static = NecromancerTowerIcon.png
-|image-dynamic = NecromancerDynamic.png
-|unlockcost = {{Gem|2,250}}
-|levelrequirement = {{Level|50}}
-|role = Defense
+|title = Turret
+|image-static = TurretIcon.png
+|image-dynamic = TurretDynamic.png
+|unlockcost = {{Level|50}} or {{Robux|340}}
+|role = Offense
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]3
-|basecost = {{Money|4,200}}
-|basesellingprice = {{Money|1,400}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]15
-|damagetype = Single<br/>Multi-target (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.2
-|baserange = [[File:Range Icon.png|20px|Range]]23<br/>[[File:BuildRange.png|20px|Gravestone Range]]6.5 (Gravestone Range)
-|hidden_detection = {{Attr|Hidden|Level 2+}}<ref name="hd">At Level 0, the projectile fired by the '''Necromancer''' can indirectly hit a hidden enemy. Additionally, the [[Skeleton (Unit)|Skeletons]] it spawns can collide with hidden enemies.</ref>
-|lead_detection = {{Attr|Lead|Level 4}} (Tower and collision only)
-|flying_detection = {{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)
-|immune = Partial Debuff<ref name="pd">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name="stun">Due to bugs.</ref>
-|footprint = 1.5
-|pvp_basecost = {{Money|1,500}}
-|pvp_basesellingprice = {{Money|500}}
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)
+|basecost = {{Money|7,750}}
+|basesellingprice = {{Money|2,583}}
+|basedamage = [[File:Damage Icon.png|20px|Damage]]20
+|damagetype = Single
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.4
+|baserange = [[File:Range Icon.png|20px|Range]]19
+|hidden_detection = {{Attr|Hidden|Level 0+}}
+|lead_detection = {{Attr|Lead|Level 1+}}
+|flying_detection = N/A
+|immune = Partial Debuff
+|footprint = Large (2)
+|pvp_basecost = {{Money|4,000}}
+|pvp_basesellingprice = {{Money|1,333}}
 |pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]10
-|pvp_damagetype = Single (Level 0)<br/>Pierce (Level 1-3)<br/>Multi-target (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)
-|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]1.5
-|pvp_baserange = [[File:Range Icon.png|20px|Range]]21<br/>[[File:BuildRange.png|20px|Gravestone Range]]6.5 (Gravestone Range)
-|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}<ref name="hd"/>
-|pvp_lead_detection = {{Attr|Lead|Level 0+}} (Collision & Splash only)
-|pvp_flying_detection = {{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)
-|pvp_immune = Partial Debuff<ref name="pd"/> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name="stun"/>
-|pvp_footprint = 1.5
-|tooltip-1 = A mid-late game tower that fires piercing magical projectiles. Dealing damage creates tombstones which can then be triggered to summon a variety of different skeletal minions.
-|tooltip-2 = Capable of targeting [[flying]] and [[Hidden (Attribute)|hidden]] enemies.
+|pvp_damagetype = Single
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.35
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]16.5
+|pvp_hidden_detection = {{Attr|Hidden|Level 1+}}
+|pvp_lead_detection = {{Attr|Lead|Level 2+}}
+|pvp_flying_detection = N/A
+|pvp_immune = Partial Debuff
+|pvp_footprint = 2
+|tooltip-1 = An expensive high damage dealing tower with great range. Exceptional stats make up for low placement limit.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|Deal damage to collect souls! Collected souls generate gravestones that can be used to resurrect the dead.|Store Description}}
-|-|Version 2 =
-{{QuoteBox|Deal damage to collect souls! Souls get used to summon gravestones.|Former Store Description}}
-|-|Version 1 =
-{{QuoteBox|...|Former Store Description}}
+{{QuoteBox|Shoots extremely strong bullets and chews bosses.|Store Description}}
+|-|Hardcore Testing =
+{{QuoteBox|Shoots extremely strong bullets and chews bosses. Unlockable at Lv. 50|Former Store Description}}
+|-|Original =
+{{QuoteBox|The most powerful boss shredder. Unlockable at Lv. 50|Former Store Description}}
 </tabber>}}
 __TOC__
 ==Description==
-The '''Necromancer''' is a hardcore spawner [[Towers|tower]] that can be unlocked in the store for {{Gem|2,250}} and has a level requirement of {{Level|50}}. It could have also been obtained through a gamepass for {{Robux|1,500}}.
+The '''Turret''' is an advanced [[Towers|tower]] with long range and high damage. It cannot be purchased from the store, instead unlocked at {{Level|50}} or via its [[Gamepasses|gamepass]], priced at {{Robux|340}}. When the player reaches {{Level|50}}, the '''Turret''' can be claimed using the pop up message that appears when joining the lobby.
 
-The '''Necromancer''' fires magic bolts at enemies. At Level 4, these are replaced by beams fired from its book, which are not projectiles. This makes it now lock on enemies, meaning it will not change what enemy it is targeting until the current enemy moves out of range or is killed. These beams deal damage based on the number of enemies targeted. For example, if it only targets one enemy, it will deal 30 damage, 45 damage when targeting two enemies, and 90 damage when targeting three enemies. The '''Necromancer''' also has a soul meter of 105, which it fills up by damaging enemies. When the soul meter is full, the '''Necromancer''' will summon gravestones. The '''Necromancer''' can destroy these gravestones using its ''Raise the Dead'' ability. The '''Necromancer''' will summon gravestones until it reaches the limit at that level. At Level 3, the '''Necromancer''' can now upgrade gravestones. After dealing enough damage it will upgrade the gravestones, regardless of whether they are currently placed down or not. Upgraded gravestones summon stronger units. At Level 4, these gravestones can also deal damage when destroyed. This is done through an explosion which has damage fall off, though it can only hit up to three enemies per explosion.
+The '''Turret''' excels at single target damage, boasting a strong mix of high range, damage and firerate. However, it is also very expensive. It costs {{Money|7,750}} to place it down, the second most expensive starting cost for any tower. It takes a cumulative total of {{Money|149,000}} to reach the max level, making it the third most expensive tower to fully upgrade in the entire game. In [[PVP]] mode, it does have reduced placement and upgrade costs, but it is still one of the most expensive towers to fully upgrade there. As the '''Turret''' is not a humanoid tower, it is immune to debuffs which are applied by enemies added before the [[v1.9.0]] update. Debuffs from enemies like the [[Boomer]] can still affect it. This however does not make it immune to stuns. Additionally, it has a larger placement footprint than most other towers. It can detect hidden enemies and has lead detection.
 
-The units spawned depend on the Level of the tower and the gravestone. At Level 0, Level 1 gravestones can only spawn [[Skeleton (Unit)|Skeletons]], at Level 1, Level 1 gravestones gain the ability to summon [[Sword Skeleton]]s. At Level 2, Level 1 gravestones gain the ability to summon [[Giant Skeleton (Unit)|Giant Skeletons]]. At Level 3, gravestones can be upgraded to Level 2, where they spawn [[Skeleton (Unit)|Skeletons]], [[Skeleton Knight]]s, [[Hallow Guard (Unit)|Hallow Guards]] and [[Giant Skeleton (Unit)|Giant Skeletons]]. At Level 4, gravestones can be upgraded to Level 3, where they spawn [[Skeleton Knight]]s, [[Hallow Guard (Unit)|Hallow Guards]] and [[Executioner Skeleton]]s. The units that spawn from gravestones are random, with each unit having a chance of being summoned, though once the gravestones are at their final Level and they are all placed down, the summoned units will always be the same, based on the limits set for them at a specific '''Necromancer''' level.
+Because of its extremely high base cost and very expensive upgrade prices, as well as high DPS, the '''Turret''' is considered a mid-late game tower.
 
-The '''Necromancer''' has a placement limit of three per player.
+The '''Turret''' has a placement limit of three per player. This is increased to five in [[PVP]] mode.
 
 ==Upgrades==
 {{PVPTabber
-|{{Upgrade|Level = Level 1|Upgrade Title = Soul Forge|Cost = {{Money|3,950}}|Image = [[File:NecromancerLevel1.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
-
-1.2 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+20 Soul Meter
-
-1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]
-
-{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces [[Skeleton (Unit)|Skeleton]]
-
-•24 Damage [[File:OffensiveModifier.png|20px|Damage]]
-
-•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•6 Range [[File:Range Icon.png|20px|Range]]
-
-•120 Health [[File:HealthIcon.png|20px|Health]]
-
-•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
-
-
-Sell Price changes to {{Money|2,716}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Skull Centrifuge|Cost = {{Money|11,320}}|Image = [[File:NecromancerLevel2.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
-
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+3 Max Gravestone
-
-+55 Soul Meter
-
-+2 [[Sword Skeleton]] Limit
-
-+Hidden Detection {{Hidden|Hidden Detection}}
-
-{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]
-
-•1,200 Health [[File:HealthIcon.png|20px|Health]]
-
-•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
-
-
-Sell Price changes to {{Money|6,490}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Graveward|Cost = {{Money|26,650}}|Image = [[File:NecromancerLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
-
-1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+15 Damage [[File:Damage Icon.png|20px|Damage]]
-
-1 > 2 Max Gravestone Level
-
-•[[Giant Skeleton (Unit)|Giant Skeleton]] - 2 Limit, 15.38% Chance
-
-•[[Sword Skeleton]] - 2 Limit, 38.46% Chance
-
-•[[Skeleton Knight]] - 1 Limit, 23.08% Chance
-
-•[[Hallow Guard (Unit)|Hallow Guard]] - 1 Limit, 23.08% Chance
-
-+225 Soul Meter
-
-1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]
-
-75 > 60 Projectile Speed [[File:SpeedIcon.png|20px|Projectile Speed]]
-
-{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage [[File:OffensiveModifier.png|20px|Damage]]
-
-•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•15% Defense {{Defense}}
-
-•6 Range [[File:Range Icon.png|20px|Range]]
-
-•235 Health [[File:HealthIcon.png|20px|Health]]
-
-•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
-
-{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]
-
-•2,000 Health [[File:HealthIcon.png|20px|Health]]
-
-•15% Defense {{Defense}}
-
-•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}
-
-
-Sell Price changes to {{Money|15,373}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Apostle Of Hades|Cost = {{Money|65,000}}|Image = [[File:NecromancerLevel4.png|100px]]|Information = 0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+|{{Upgrade|Level = Level 1|Upgrade Title = Stronger Ammunition|Cost = {{Money|3,750}}|Image = [[File:Radar.png|100px]]|Information = +8 Damage [[File:Damage Icon.png|20px|Damage]]
 
 +Lead Detection {{Lead|Lead Detection}}
 
-+8 Range [[File:Range Icon.png|20px|Range]]
 
--17 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|3,833}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Radar|Cost = {{Money|7,500}}|Image = [[File:Radar.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
 
-+2 Max Hits
-
-+3 Max Gravestone
-
-Pierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.
-
-+500 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•5 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-•3 Gravestone Explosion Max Hits
-
-2 > 3 Max Gravestone Level
-
-•[[Hallow Guard (Unit)|Hallow Guard]] - 3 Limit, 40% Chance
-
-•[[Executioner Skeleton]] - 1 Limit, 20% Chance
-
-•[[Skeleton Knight]] - 5 Limit, 40% Chance
-
-+1,215 Soul Meter
-
-{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]
-
-•25% Defense {{Defense}}
-
-•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]
-
-•32 Range [[File:Range Icon.png|20px|Range]]
-
-•3,000 Health [[File:HealthIcon.png|20px|Health]]
-
-•2 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}
-
-•Flying Detection {{Flying|Flying Detection}}
-
-•Lead Detection {{Lead|Lead Detection}}}}
+0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|37,040}}}}
-|{{Upgrade|Level = Level 1|Upgrade Title = Spirit Tuning|Cost = {{Money|1,000}}|Image = [[File:NecromancerLevel1.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|6,333}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Dual Turret|Cost = {{Money|20,000}}|Image = [[File:Turret3.png|100px]]|Information = +7 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.5 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+1 Max Hits
-
-+2 Max Gravestone
-
-+10 Soul Meter
-
-1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]
+0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|833}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Soul Forge|Cost = {{Money|3,500}}|Image = [[File:NecromancerLevel2.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|13,000}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Even Heavier Ammo|Cost = {{Money|35,000}}|Image = [[File:Turret4.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-+1 Gravestone Spawn Count
++22 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+2 Max Gravestone
 
-+36 Soul Meter
+Sell Price changes to {{Money|24,666}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = XR-200 Turret|Cost = {{Money|65,000}}|Image = [[File:Turret5.png|100px]]|Information = +3 Range [[File:Range Icon.png|20px|Range]]
+
++11 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|46,333}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Radar|Cost = {{Money|1,000}}|Image = [[File:Radar.png|100px]]|Information = +4.5 Range [[File:Range Icon.png|20px|Range]]
+
+0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage [[File:OffensiveModifier.png|20px|Damage]]
 
-•0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell Price changes to {{Money|1,666}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Stronger Ammunition|Cost = {{Money|2,750}}|Image = [[File:Radar.png|100px]]|Information = +4 Damage [[File:Damage Icon.png|20px|Damage]]
 
-•6 Range [[File:Range Icon.png|20px|Range]]
-
-•90 Health [[File:HealthIcon.png|20px|Health]]
-
-•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}
-
-•3 Limit per Summon
-
-•30% Chance}}
++Lead Detection {{Lead|Lead Detection}}
 
 
-Sell Price changes to {{Money|2,000}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Skull Centrifuge|Cost = {{Money|10,000}}|Image = [[File:NecromancerLevel3.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
+Sell Price changes to {{Money|2,583}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Dual Turret|Cost = {{Money|9,000}}|Image = [[File:Turret3.png|100px]]|Information = -1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.2 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++2 Range [[File:Range Icon.png|20px|Range]]
 
-+18 Damage [[File:Damage Icon.png|20px|Damage]]
-
-1 > 2 Max Gravestone Level
-
-•[[Giant Skeleton (Unit)|Giant Skeleton]] - 1 Limit, 20% Chance
-
-•[[Sword Skeleton]] - 4 Limit, 50% Chance
-
-•[[Skeleton Knight]] - 1 Limit, 30% Chance
-
-+224 Soul Meter
-
-1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]
-
-{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]
-
-•1,200 Health [[File:HealthIcon.png|20px|Health]]
-
-•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
-
-{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage [[File:OffensiveModifier.png|20px|Damage]]
-
-•0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•6 Range [[File:Range Icon.png|20px|Range]]
-
-•250 Health [[File:HealthIcon.png|20px|Health]]
-
-•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}}}
+0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|5,333}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Apostle Of Hades|Cost = {{Money|40,000}}|Image = [[File:NecromancerLevel4.png|100px]]|Information = 0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell Price changes to {{Money|5,583}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Even Heavier Ammo|Cost = {{Money|20,000}}|Image = [[File:Turret4.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
 
-+6 Range [[File:Range Icon.png|20px|Range]]
-
--10 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+1 Max Hits
-
-+3 Max Gravestone
-
-Pierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.
-
-+4900 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•4 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-•3 Gravestone Explosion Max Hits
-
-2 > 3 Max Gravestone Level
-
-•[[Hallow Guard (Unit)|Hallow Guard]] - 2 Limit, 40% Chance
-
-•[[Executioner Skeleton]] - 1 Limit, 20% Chance
-
-•[[Skeleton Knight]] - 6 Limit, 40% Chance
-
-+990 Soul Meter
-
-{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]
-
-•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]
-
-•32 Range [[File:Range Icon.png|20px|Range]]
-
-•3,000 Health [[File:HealthIcon.png|20px|Health]]
-
-•25% [[Defense]] {{Defense}}
-
-•2 Speed [[File:SpeedIcon.png|20px|Speed]]
-
-•Hidden Detection {{Hidden|Hidden Detection}}
-
-•Flying Detection {{Flying|Flying Detection}}
-
-•Lead Detection {{Lead|Lead Detection}}}}
-
-{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]
-
-•2,000 Health [[File:HealthIcon.png|20px|Health]]
-
-•15% Defense {{Defense}}
-
-•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}
++14 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|18,666}}}}
-}}
+Sell Price changes to {{Money|12,250}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = XR-200 Turret|Cost = {{Money|42,500}}|Image = [[File:Turret5.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]
 
-==Ability==
-{{Ability|Level Unlock = Level 0+|Cooldown Time= 5s Cooldown|Ability Title = Raise the Dead|Image = [[File:RaisetheDeadAbility.png|100px]]|Information = 
-Destroys all its graves, summoning units based on the gravestone level.
++17 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+
+Sell Price changes to {{Money|26,416}}}}
 }}
 
 ==Statistics==
-''To see all the previous statistics of this tower, see the [[Necromancer/History|history]] page, while for the statistics without the [[Firerate Bug]].''
-
-{{neow|<nowiki>
+''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+{{Neow|<nowiki>
 <var>
-$TP$ = $FNC-TOTAL-COST$
-$COST$ = 4200; 3950; 11320; 26650; 65000
-$PVP-COST$ = 1500; 1000; 3500; 10000; 40000
-$FSE-DETECTION$ = 2; 4; 0
-$FSE-PVP-DETECTION$ = 2; 0; 0
-$FSE-UPGRADE$ = Soul Forge; Skull Centrifuge; Graveward; Apostle Of Hades
-$FSE-UPGRADEICON$ = 15332519996; 15332520691; 15332520335; 15332519505
-$FSE-META$ = Hardcore; File:NecromancerTowerIcon.png
 $DPS$ = Damage / Firerate
-$Nec4DPS$ = (Damage * Max Hits) / Firerate
-$ExecDPS$ = (Damage / Tick) / Firerate
 $CE$ = Total Cost / DPS
-$DREF$ = <ref name="dps">DPS assumes only one enemy is hit and does not include unit DPS.<br/>For Level 4, DPS assumes all beams hit the same enemy and does not include unit DPS.</ref>
-$UDREF$ = <ref name="unitdps">DPS does not include collision damage and assumes only one enemy is hit by a unit.<br/>For the [[Executioner Skeleton]], DPS is calculated as (Damage ÷ Tick) ÷ Firerate.</ref>
-$MUREF$ = <ref name="maxunit">Units when gravestones are fully placed down and upgraded.</ref>
-$CUREF$ = <ref name="cth">Health for units with defense is calculated as Health × Defense.</ref>
-$CCUREF$ = <ref name="cdps">DPS does not include collision damage and assumes only one enemy is hit by a unit.<br>For the [[Executioner Skeleton]], DPS is calculated as (Damage ÷ Tick) ÷ Firerate.</ref>
-$SSREF$ = <ref name="unitstats">Skeletons are not affected by any buffs or debuffs.</ref>
+$TP$ = $FNC-TOTAL-COST$
+$COST$ = 7750; 3750; 7500; 20000; 35000; 65000
+$PVP-COST$ = 4000; 1000; 2750; 9000; 20000; 42500
+$FSE-DETECTION$ = 0; 1;
+$FSE-PVP-DETECTION$ = 1; 2;
+$FSE-UPGRADE$ = Stronger Ammunition; Radar; Dual Turret; Even Heavier Ammo; XR-200 Turret
+$FSE-PVP-UPGRADE$ = Radar; Stronger Ammunition; Dual Turret; Even Heavier Ammo; XR-200 Turret
+$FSE-UPGRADEICON$ = 149177741; 149177741; 3584258139; 3584280869; 3584258608
+$FSE-META$ = Advanced; File:TurretIcon.png
 $R$ = $FNC-RECURSION$
 </var>
 <div class="mobile-tabber"><tabber>
 |-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="17" |Necromancer Stats
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
 |-
-! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Firerate !! Range !! Explosion Range !! Max Hits !! Projectile Speed !! Soul Meter !! Build Time !! Max Gravestones !! Gravestone Spawn Count !! Max Gravestone Level !! DPS$DREF$ !! Cost Efficiency
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 20 || 0.4 || 19 || $DPS$ || {{Money|$CE$}}
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || N/A || 1.2 || 23 || N/A || 1 || 75 || 105 || 1.5 || 3 || 3 || 1 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 28 || 0.4 || 19 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 20 || N/A || 1.1 || 23 || N/A || 1 || 75 || 125 || 1 || 3 || 3 || 1 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 28 || 0.26 || 22 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 30 || N/A || 1.1 || 26 || N/A || 1 || 75 || 180 || 1 || 6 || 3 || 1 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 35 || 0.16 || 22 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 45 || N/A || 0.8 || 28 || N/A || 1 || 60 || 405 || 0.8 || 6 || 3 || 2 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 57 || 0.16 || 24 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 28 || 490 || 0.4 || 36 || 5 || 3 || N/A || 1,620 || 0.8 || 9 || 3 || 3 || $Nec4DPS$ || {{Money|$CE$}}
-|}
-
-{| class="wikitable stats-table"
-! colspan="11" |Skeleton Stats$SSREF$
-|-
-! Gravestone Level !! Unit !! Health !! Defense !! Speed !! Damage !! Firerate !! Tick !! Range !! Detections !! DPS$UDREF$
-|-
-| 1 || [[Skeleton (Unit)|Skeleton]] || 90 || N/A || 4 || N/A || N/A || N/A || 2 || N/A || N/A
-|-
-| 1–2 || [[Sword Skeleton]] || 120 || N/A || 3.3 || 24 || 0.7 || N/A || 6 || Hidden || $DPS$
-|-
-| 1–2 || [[Giant Skeleton (Unit)|Giant Skeleton]] || 1,200 || N/A || 3.5 || N/A || N/A || N/A || 2 || Hidden || N/A
-|-
-| 2–3 || [[Skeleton Knight]] || 235 || 15% || 3.3 || 87 || 0.7 || N/A || 6 || Hidden || $DPS$
-|-
-| 2–3 || [[Hallow Guard (Unit)|Hallow Guard]] || 2,000 || 15% || 3.5 || N/A || N/A || N/A || 2 || N/A || N/A
-|-
-| 3 || [[Executioner Skeleton]] || 3,000 || 25% || 2 || 75 || 6 || 0.1 || 32 || Flying, Hidden || $ExecDPS$
-|}
-
-{| class="wikitable stats-table"
-! colspan="7" |Raise the Dead Stats
-|-
-! Level !! Cost !! Total Cost !! Max Units$MUREF$ !! Combined Total Health$CUREF$ !! Combined DPS
-|-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3x [[Skeleton]] || 270 || N/A
-|-
-| 1 || $R$ || $R$ || 3x [[Sword Skeleton]] || 360 || 102.87
-|-
-| 2 || $R$ || $R$ || 1x [[Giant Skeleton (Unit)|Giant Skeleton]]<br/>5x [[Sword Skeleton]] || 1,800 || 171.45
-|-
-| 3 || $R$ || $R$ || 2x [[Giant Skeleton (Unit)|Giant Skeleton]]<br/>2x [[Sword Skeleton]]<br/>1x [[Skeleton Knight]]<br/>1x [[Hallow Guard (Unit)|Hallow Guard]] || 5,210 || 192.87
-|-
-| 4 || $R$ || $R$ || 1x [[Executioner Skeleton]]<br/>5x [[Skeleton Knight]]<br/>3x [[Hallow Guard (Unit)|Hallow Guard]] || 12,001 || 746.45
+| 5 || $R$ || $R$ || 68 || 0.12 || 27 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 |-|PVP =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="17" |Necromancer Stats
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Range !! DPS !! Cost Efficiency
 |-
-! Level !! Cost !! Total Cost !! Damage !! Splash Damage !! Firerate !! Range !! Explosion Range !! Max Hits !! Projectile Speed !! Soul Meter !! Build Time !! Max Gravestones !! Gravestone Spawn Count !! Max Gravestone Level !! DPS<ref name="dps"/> !! Cost Efficiency
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || 0.35 || 16.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 10 || N/A || 1.5 || 21 || N/A || 1 || 50 || 50 || 1.5 || 2 || 2 || 1 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 10 || 0.3 || 21 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 12 || N/A || 1.2 || 21 || N/A || 2 || 50 || 60 || 1 || 4 || 2 || 1 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 14 || 0.3 || 21 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 12 || N/A || 1.2 || 24 || N/A || 2 || 50 || 96 || 1 || 6 || 3 || 1 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 13 || 0.15 || 23 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 30 || N/A || 0.8 || 26 || N/A || 2 || 50 || 450 || 0.8 || 6 || 3 || 2 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 27 || 0.15 || 24.5 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 20 || 500 || 0.4 || 32 || 4 || 3 || N/A || 1,440 || 0.8 || 9 || 3 || 3 || $Nec4DPS$ || {{Money|$CE$}}
-|}
-
-{| class="wikitable stats-table"
-! colspan="11" |Skeleton Stats$SSREF$
-|-
-! Gravestone Level !! Unit !! Health !! Defense !! Speed !! Damage !! Firerate !! Tick !! Range !! Detections !! DPS<ref name="unitdps"/>
-|-
-| 1 || [[Skeleton (Unit)|Skeleton]] || 90 || N/A || 4 || N/A || N/A || N/A || 2 || N/A || N/A
-|-
-| 1-2 || [[Sword Skeleton]] || 90 || N/A || 3.5 || 20 || 0.8 || N/A || 6 || Hidden || $DPS$
-|-
-| 2 || [[Giant Skeleton (Unit)|Giant Skeleton]] || 1200 || N/A || 3.5 || N/A || N/A || N/A || 2 || Hidden || N/A
-|-
-| 2-3 || [[Skeleton Knight]] || 250 || N/A || 3.5 || 90 || 0.65 || N/A || 6 || Hidden || $DPS$
-|-
-| 3 || [[Hallow Guard (Unit)|Hallow Guard]] || 2,000 || 15% || 3.5 || N/A || N/A || N/A || 2 || N/A || N/A
-|-
-| 3 || [[Executioner Skeleton]] || 3,000 || 25% || 2 || 75 || 6 || 0.1 || 32 || Flying, Hidden || $ExecDPS$
-|}
-
-{| class="wikitable stats-table"
-! colspan="7" |Raise the Dead Stats
-|-
-! Level !! Cost !! Total Cost !! Max Units<ref name="maxunit"/> !! Combined Total Health<ref name="cth"/> !! Combined DPS
-|-
-| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 2x [[Skeleton]] || 180 || N/A
-|-
-| 1 || $R$ || $R$ || 4x [[Skeleton]] || 360 || N/A
-|-
-| 2 || $R$ || $R$ || 3x [[Skeleton]]<br/>3x [[Sword Skeleton]] || 540 || 75
-|-
-| 3 || $R$ || $R$ || 1x [[Giant Skeleton (Unit)|Giant Skeleton]]<br/>4x [[Sword Skeleton]]<br/>1x [[Skeleton Knight]] || 1,810 || 238.46
-|-
-| 4 || $R$ || $R$ || 1x [[Executioner Skeleton]]<br/>6x [[Skeleton Knight]]<br/>2x [[Hallow Guard (Unit)|Hallow Guard]] || 9,850 || 955.76
+| 5 || $R$ || $R$ || 44 || 0.12 || 26.5 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 </tabber></div>
@@ -482,476 +184,391 @@ $R$ = $FNC-RECURSION$
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:Magenecromancer.png|175px]]
-|[[File:FallenNecromancerIconIG.png|175px]]
-|[[File:DuckNecromancerIconIG.png|175px]]
-|[[File:CreepySantaNecromancerIconIG.png|175px]]
+|[[File:XR500TurretIconIGAug25.png|175px]]
+|[[File:XR300TurretIconIGAug25.png|175px]]
+|[[File:CrossbowTurretIconIGAug25.png|175px]]
+|[[File:JetskiTurretIconIG.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Mage}}
-|{{Color|FallenMission|Fallen}}
-|{{Color|DuckyRevenge|Duck}}
-|{{Color|FinalAct|Creepy Santa}}
+|{{Color|Premium|XR500}}
+|{{Color|Premium|XR300}}
+|{{Color|Lunar|Crossbow}}
+|{{Color|EventMission|Jetski}}
 |-
 !Rarity
 |{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Legendary}}
 |{{Color|Rare}}
+|{{Color|Event}}
+|{{Color|Legendary}}
 |-
 !Daily Store Cost
-|{{Robux|560}}
-|N/A
+|{{Robux|190}}
+|{{Robux|120}}
 |N/A
 |N/A
 |-
 !Obtained From
-|[[Deluxe Crate]]
-|''Forbidden Magic'' [[Mission Quests|Mission Quest]]
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
-|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
+|[[Premium Crate]]
+|[[Premium Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|''Raft Wars'' [[Mission Quests|Mission Quest]]
+|-
+!
+|[[File:GrinchTurretIconIG.png|175px]]
+|[[File:BunnyTurretIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FinalAct|Grinch}}
+|{{Color|SpringFrenzy|Bunny}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|-
+!Obtained From
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Premium Battle Pass]]
+|[[Spring Frenzy Battle Pass]]
 |}
 
 ==Strategy==
-*Placement is important for the '''Necromancer''', because of the way it spawns gravestones.
-**The '''Necromancer''' needs to be placed next to the path so that it can summon gravestones, so you might not be able to utilize the most of its range.
-***It is best to bring the '''Necromancer''' on maps with long paths, as it can often cover the entire map while placed at the back. This allows the '''Necromancer''' to stack its units more easily and fill its '''Soul Meter''' more quickly, as it will be continuously attacking at all times with full map range. Maps like [[Honey Valley]], [[Polluted Wasteland II]], and more, allow the '''Necromancer''' to fully utilize the potential DPS of its units, and itself.
-*The '''Necromancer''' stops attacking while summoning gravestones, making it unable to attack for a while.
-**This does not happen when the '''Necromancer''' upgrades gravestones.
-**This makes it unable to defend by itself, as hordes of fast enemies like the [[Bolt]] or [[Fallen]] could get out of its range fairly easily. Thus, bringing in reliable towers like the [[Minigunner]] will help avoid this issue.
-*The '''Necromancer's''' ''Raise the Dead'' ability can be used to summon various skeletons, which get quite powerful at later levels.
-**It is recommended to wait until gravestones are at their higher level so that it spawns its strongest units.
-**The units that spawn have determined limits, meaning that once the maximum amount of gravestones are upgraded to their final level, the summoned units will be the same every single time. If the gravestones are not fully upgraded, the summons will still be random.
-**At Level 4, the Level 3 gravestones explode when you activate the ability, which can make them useful as traps to take down groups of weaker enemies and chip the health down of stronger ones. 
-*Units spawned by the '''Necromancer''', especially at higher levels, have high health, making them useful against crowds of enemies.
-**The [[Executioner Skeleton]]'s axe also deals piercing damage, rapidly dealing damage to any enemy caught by it, though its high firerate and the far distance that its axe travels make it quite inconsistent.
-*The '''Necromancer''' has flying detection at Level 0, which can make it fairly useful against flying enemies, and while it does not have hidden detection until Level 2, some of its units can detect [[Hidden (Attribute)|Hidden]] enemies and all of them can deal damage to them, making it still useful against [[Hidden (Attribute)|Hidden]] enemies before being upgraded to Level 2.
-**At Level 4, it also gets lead detection, making it useable against [[Lead (Attribute)|Lead]] enemies.
-**You should not solely rely on the '''Necromancer''' for these two traits alone, however; there are better and cheaper alternatives such as [[Ace Pilot]], [[Militant]], and [[Golden Crook Boss]].
-**That being said, the '''Necromancer's''' pierce and high damage makes it great against hordes of [[Hidden]]s and [[Balloon]]s, only slightly compounded by its slow firerate. At Level 4, it can do quite well against groups of [[Hidden Boss]]es along with supplementary damage with its ability.
-*The '''Necromancer''' is quite expensive to upgrade. Because of this, towers like the [[Farm]] or [[Cowboy]] are recommended to afford them more easily.
-**The [[DJ Booth]] can also be helpful at reducing its upgrade costs.
-*As its units provide it with a huge increase in DPS, having support towers that make upgrading gravestones faster is recommended with this tower.
-*The '''Necromancer''' can pair up well with the [[Mercenary Base]], because its [[Field Medic]]s can heal multiple skeletons. This is particularly useful for the [[Executioner Skeleton]] as its primary attack is ranged.
-**Additionally, its [[Damage Buff]] can be useful at boosting the '''Necromancer's''' damage, increasing its DPS and making it build graves faster.
-*Try stacking [[Executioner Skeleton]]s on the map. To do this, wait for the '''Necromancer''' to place down its gravestones, and check if most of them have reached their max level. Once most of the gravestones are at max level, use the ''Raise the Dead'' ability. Repeat this process continuously.
-**Certain maps, like [[Honey Valley]], are better for stacking, as the [[Executioner Skeleton]]s can be both summoned far away from the entrance while also having enemies in range for most of the time, delaying them from reaching the entrance as much as possible.
-**This allows the '''Necromancer''' to reach its full potential DPS by stacking the various units from its gravestones. The units can also deal a lot of damage by ramming into enemies, such as the [[Hallow Guard (Unit)|Hallow Guard]] and [[Executioner Skeleton]].
-*Paired with [[Firework Technician]], '''Necromancer''' is able to trigger multiple fireworks across multiple enemies.
-**Unfortunately, fireworks damage and burn damage do not contribute to the '''Soul Meter'''.
+*The '''Turret''' has one of the most expensive starting costs for a tower, so it is impractical for the early-game.
+**For the early-game, using cheaper towers is recommended.
+**Using the [[Farm]] or [[Cowboy]] will allow you to place a '''Turret''' earlier, though, usually this is not recommended as there are better options than this.
+*The '''Turret''' has hidden detection by default and lead detection at Level 1, making it useful against enemies with these properties that may appear in the mid and late-game, especially in [[Hardcore Mode|Hardcore]] mode.
+*The '''Turret''' has a larger placement footprint than other towers, so be aware of the space that it takes up.
+*It is highly recommended to pair the '''Turret''' with the [[DJ Booth]] to decrease the price of its extremely expensive upgrades.
+**It can also be helpful at increasing its already large range.
+*The '''Turret''' is immune to debuffs applied by legacy enemies. This includes the [[Soul Stealer (Legacy)|Soul Stealer]]'s [[Fatigue Debuff]] or the [[Gunslinger]]'s [[Scared Debuff]]. However, this does not include the [[Boomer]] or [[Necrotic Skeleton]]'s debuffs as they do not apply an icon to the tower.
+**The [[Soul Stealer (Legacy)|Soul Stealer]] also cannot spawn a [[Soul]] from it, as the [[Fatigue Debuff]] is never applied.
+*While the '''Turret''' does have a very high DPS, one of the highest in the entire game, it also has one of the lowest placement limits.
+**Due to this, towers without limits like the [[Minigunner]], [[Golden Minigunner]], [[Swarmer]] or [[Golden Soldier]] can, if enough are placed down, deal more DPS than it.
+**This is far less of an issue the more players there are in the match, as with player count the placement limit per player gets decreased, making towers with no limits far less viable while low placement limit towers like the '''Turret''' are completely unaffected.
 
 ==Trivia==
-*A '''Necromancer''' tower was originally planned to be added for the [[Halloween 2020 Event]], however, it was replaced with the [[Toxic Gunner]] to avoid potential drama due to the tower being similar to the [[w:c:roblox-tower-battles:Graveyard (Tower)|Graveyard]] tower from ''Tower Battles''.
-*The '''Necromancer''' was the first non-hardcore tower to be obtainable for {{Gem|Gems}}.
-*Originally, the '''Necromancer''' was planned to be only available every Halloween, though during the [[Lunar Overture Event]], it was on sale until 2nd of December 2023.
-**However, due to a bug, it returned on 21st of December 2023 and was present in the store since. An update on the 15th of January 2025 made the '''Necromancer''' a hardcore tower, now officially making it permanent rather than a bug.
-**Because of this, the '''Necromancer''' was considered an event tower and put in the {{Color|Exclusive}} category.
-*The '''Necromancer's''' beam attack at Level 4 shares a visual resemblance to the [[w:c:roblox-tower-battles:Plasma Trooper|Plasma Trooper]]'s attack from ''Tower Battles.''
-*The original '''Necromancer''' Level 4 upgrade name is a reference to the [[w:c:marvel:Darkhold|Darkhold]] from the ''Marvel Comics''.
-*The '''Necromancer''' was planned to be the final reward for the [[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season Pass]], but was later changed to only be obtainable via purchasing with gems on the shop, as BelowNatural stated it would have been "''too easy''" to obtain it from the Season Pass. 
-*The '''Necromancer''' was originally meant to deal splash damage, but this was changed to pierce for unknown reasons.
+*Strangely, the [[Void Reaver (Legacy)|Void Reaver]] can still spawn a [[Soul]] from the '''Turret''', which is not a humanoid tower unless the {{Color|Premium|XR500}} skin is equipped.
+**The [[Soul Stealer (Legacy)|Soul Stealer]] cannot spawn a soul from the '''Turret''' unless it is the {{Color|Premium|XR500}} '''Turret'''. The [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]] also can only increase the firerate of the {{Color|Premium|XR500}} '''Turret''', but not any other skins.
+*The '''Turret''' has a unique placement and upgrade sound.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll| text =  
+{{scroll|text =
+*'''5 August 2019''' - [[BETA v1.8|BETA v1.8.0]]
+**'''Turret''' added.
+*'''9 August 2019''' - [[BETA v1.9|BETA v1.9.0]]
+**'''Turret''' default targeting setting changed from ''Closest'' to ''First''.
+*'''2 September 2019''' - [[BETA v1.10|BETA v1.10.0]]b
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''3 September 2019''' - [[BETA v1.10|BETA v1.10.0]]c
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Placement footprint size increased.
+**Statistical changes:
+***'''Base'''
+****Range increased from 10 to 16.
+**New skin: {{Color|Premium|XR500}}
+*'''29 November 2019''' - [[Release v1.4|Release v1.4.0]]
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''30 November 2019''' - [[Release v1.4|Release v1.4.0a]]
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''24 December 2019''' - [[Release v1.5|Release v1.5.0]]
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''28 December 2019''' - [[Release v1.5|Release v1.5.0c]]
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''12 January 2020''' - [[Release v1.6|Release v1.6.0]]
+**{{Bug}} Placement limit is higher than intended by 1.
+*'''13 January 2020''' - [[Release v1.6|Release v1.6.0a]]
+**{{Bugfix}} Placement limit is now the correct value.
+*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
+**New skin: {{Color|Premium|XR300}}
+*'''18 March 2020''' - [[Release v1.8|Release v1.8.1]]
+**New SFX added.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Upgrade names added.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.55 to 0.53.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.55 > 0.425|-0.125}} to {{Tooltip|0.53 > 0.405|-0.125}}.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|0.425 > 0.25|-0.175}} to {{Tooltip|0.405 > 0.23|-0.175}}.
+*'''31 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.1c]]
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''2 June 2021''' - [[Overhaul v1.3|Overhaul v1.3.1d]]
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''12 March 2022''' - [[v1.1.0]]
+**'''Turret''' is now immune to all debuffs.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 0.53 to 0.525.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.53 > 0.405|-0.125}} to {{Tooltip|0.525 > 0.4|-0.125}}.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|0.405 > 0.23|-0.175}} to {{Tooltip|0.4 > 0.225|-0.175}}.
+**{{Bug}} {{Color|Premium|XR500}} skin is not immune to debuffs.
+*'''30 May 2022''' - [[v1.2.4]]a
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''1 June 2022''' - [[v1.2.4]]b
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''24 November 2022''' - [[v1.5.0]]b
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''1 December 2022''' - [[v1.5.0]]d
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''21 December 2022''' - [[v1.6.0]]
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+**{{Color|Premium|XR300}} skin rarity changed from {{Color|Uncommon}} to {{Color|Rare}}.
+*'''6 January 2023''' - [[v1.6.0]]e
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''7 April 2023''' - [[v1.7.0]]
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 6 to 8.
+****Firerate increased from 0.525 to 0.575.
+***'''Level 1'''
+****Range increased from +2 to +4.
+****Hidden detection added (moved from Level 3).
+***'''Level 2'''
+****Damage increased from +7 to +12.
+****Range decreased from +1 to +0.
+****Firerate changed from 0.525 to {{Tooltip|0.575 > 0.725|+0.15}}.
+****Lead detection added.
+***'''Level 3'''
+****Cost increased from {{Money|5,000}} to {{Money|7,250}}.
+****Firerate changed from {{Tooltip|0.525 > 0.4|-0.125}} to {{Tooltip|0.725 > 0.375|-0.35}}.
+***'''Level 4'''
+****Damage increased from +0 to +8.
+****Range decreased from +3 to +2.
+****Firerate changed from {{Tooltip|0.4 > 0.225|-0.175}} to {{Tooltip|0.375 > 0.325|-0.05}}.
+***'''Level 5'''
+****Cost increased from {{Money|20,000}} to {{Money|32,000}}.
+****Damage decreased from +12 to +7.
+****Firerate changed from 0.225 to {{Tooltip|0.325 > 0.2|-0.125}}.
+****Renamed from ''Double Barrel Minigun'' to ''XR-200 Turret''.
+*'''15 April 2023''' - [[v1.7.1]]a
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
+*'''4 July 2023''' - [[v1.8.2]]d
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+*'''6 July 2023''' - [[v1.8.2]]e
+**Gamepass price increased from {{Robux|600}} to {{Robux|800}}.
 *'''31 October 2023''' - [[v1.9.0]]g
-**'''Necromancer''' added.
-**{{Bug}} '''Necromancer''' units can walk towards the exit.
-**{{Bug}} '''Necromancer''' can attack enemies while stunned at Level 4.
-**{{Bug}} '''Necromancer''' uses the [[Accelerator]] icon.
-**{{Bug}} '''Necromancer''''s gravestones can collide with players.
-**{{Bug}} [[Sword Skeleton]] and [[Skeleton Knight]] sometimes get stuck in the ground for a short amount of time after spawning.
-**{{Bug}} [[Executioner Skeleton]] deals full damage to enemies with defense.
-**{{Bug}} When there is no path in range to build gravestones and '''Necromancer''' attempts to build them, it will stop attacking enemies.
-*'''31 October 2023''' - [[v1.9.0]]h
-**{{Bugfix}} Units no longer walk towards the exit.
-*'''12 November 2023''' - [[v1.9.0]]l
-**{{Bug}} '''Necromancer''' units start going backwards after reaching the entrance, disappearing after reaching the exit.
+**New skin: {{Color|Lunar|Crossbow}}
 *'''24 November 2023''' - [[v1.9.4]]
-**Gamepass price decreased from {{Robux|1,500}} to {{Robux|900}}.
+**Gamepass price decreased from {{Robux|800}} to {{Robux|560}}.
 *'''29 November 2023''' - [[v1.9.4]]a
-**Gamepass price increased from {{Robux|900}} to {{Robux|1,500}}.
-*'''1 December 2023''' - [[v1.9.4]]b
-**{{Bugfix}} '''Necromancer''' units no longer move backwards after reaching the entrance, they now disappear there instead.
-*'''2 December 2023''' - [[v1.9.4]]c
-**'''Necromancer''' taken offsale.
-*'''21 December 2023''' - [[v1.11.0]]
-**{{Bug}} '''Necromancer''' is in the store again.
-**{{Bug}} '''Necromancer''' projectiles are now invisible.
-*'''28 January 2024''' - [[v1.12.0]]
-**{{Bug}} Gravestones are now invisible.
-*'''10 February 2024''' - [[v1.13.0]]
-**Statistical changes:
-***'''Base'''
-****[[Skeleton (Unit)|Skeleton]] hidden detection added.
-***'''Level 2'''
-****[[Sword Skeleton]] hidden detection added.
-***'''Level 3'''
-****[[Giant Skeleton (Unit)|Giant Skeleton]] hidden detection added.
-****[[Skeleton Knight]] hidden detection added.
-***'''Level 4'''
-****[[Hallow Guard (Unit)|Hallow Guard]] hidden detection added.
-****[[Executioner Skeleton]] hidden detection added.
-**{{Bugfix}} Projectiles are now visible.
-**{{Bugfix}} Gravestones are now visible.
+**Gamepass price increased from {{Robux|560}} to {{Robux|800}}.
 *'''24 February 2024''' - [[v1.14.0]]
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|2,250}} to {{Money|1,650}}.
-****Damage increased from 8 to 15.
-****Firerate increased from 1.525 to 2.025.
-****Hidden detection removed, moved to Level 2.
-****Max gravestones decreased from 6 to 4.
-****[[Skeleton (Unit)|Skeleton]] health increased from 20 to 30.
-****[[Skeleton (Unit)|Skeleton]] hidden detection removed.
-***'''Level 1'''
-****Cost decreased from {{Money|750}} to {{Money|650}}.
-****Max hits decreased from +2 to +1.
-****Max gravestones increased from +0 to +2.
-***'''Level 2'''
-****Cost decreased from {{Money|2,000}} to {{Money|1,750}}.
-****Firerate changed from {{Tooltip|1.525 > 1.025|-0.5}} to {{Tooltip|2.025 > 1.525|-0.5}}.
-****Max hits increased from +0 to +1
-****Hidden detection added, moved from Level 0.
-****[[Sword Skeleton]] health increased from 20 to 30.
-***'''Level 3'''
-****Cost decreased from {{Money|10,000}} to {{Money|9,500}}.
-****Damage increased from +15 to +22.
-****Max hits increased from +0 to +2.
-****Max gravestones increased from +0 to +1.
-****[[Skeleton Knight]] damage increased from 25 to 35.
-****[[Skeleton Knight]] range increased from 6 to 7.
-****[[Skeleton Knight]] health increased from 65 to 100.
-***'''Level 4'''
-****Renamed from ''The Darkhold'' to ''Into Oblivion''.
-****Damage decreased from -10 to -20.
-****Firerate changed from {{Tooltip|1.025 > 0.325|-0.7}} to {{Tooltip|1.525 > 0.325|-1.2}}.
-****Range increased from +0 to +2.
-****Gravestone explosion damage increased from 75 to 300.
-****Max hits increased from +1 to +2.
-****Gravestone spawn count increased from +0 to +1.
-****[[Hallow Guard (Unit)|Hallow Guard]] health increased from 750 to 1,250.
-****[[Hallow Guard (Unit)|Hallow Guard]] hidden detection removed.
-****[[Executioner Skeleton]] health increased from 3,000 to 3,500.
-****[[Executioner Skeleton]] range increased from 24 to 30.
-*'''29 March 2024''' - [[v1.17.0]]
-**New skin: {{Color|Deluxe|Mage}}
-*'''31 May 2024''' - [[v1.23.0|v1.23.5]]
-**{{Bug}} Level 4 '''Necromancer''' can only destroy one gravestone instead of multiple.
-*'''5 June 2024''' - [[v1.23.0|v1.23.8]]
-**{{Bugfix}} Level 4 '''Necromancer''' now destroys all of its gravestones.
-*'''7 June 2024''' - [[v1.24.0]]
-**{{Bugfix}} '''Necromancer''' no longer stops attacking enemies after attempting to build gravestones while having no path in range.
+**Gamepass price decreased from {{Robux|800}} to {{Robux|600}}.
+**{{Bug}} Gamepass cost is still listed as {{Robux|800}} in the inventory.
+*'''19 April 2024''' - [[v1.19.0]]
+**{{Bugfix}} Gamepass cost is now correctly listed as {{Robux|600}} in the inventory.
+*'''23 May 2024''' - [[v1.23.0]]
+**Gamepass cost decreased from {{Robux|600}} to {{Robux|450}}.
 *'''21 June 2024''' - [[v1.25.0]]
-**{{Bug}} Regular damage is no longer boosted by [[Damage Buff]]s.
-*'''19 July 2024''' - [[v1.26.0]]
-**{{Bug}} [[Executioner Skeleton]] has no damage indicators.
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
 *'''2 August 2024''' - [[v1.27.0]]
-**{{Bug}} Can keep targeting the [[Possessed Armor]] even after it becomes a [[Hidden (Attribute)|Hidden]] enemy.
-**{{Bugfix}} Regular damage is now boosted by [[Damage Buff]]s.
-*'''21 August 2024''' - [[v1.28.0]]
-**New skin: {{Color|FallenMission|Fallen}}
-**{{Bugfix}} Unknown '''Necromancer''' errors no longer happen.
-*'''18 September 2024''' - [[v1.32.0]]
-**{{Bug}} Currency icon for its cost uses the {{Coins|Coins}} icon instead of {{Gem|Gems}}.
-*'''15 January 2025''' - [[v1.49.0]]
-**Category changed from Exclusive to Hardcore.
-**Unlock cost increased from {{Gem|1,800}} to {{Gem|2,250}}.
-**''Raise the Dead'' ability no longer kills all units present on the path from the '''Necromancer''' that activated the ability.
-**Units now have limits on how many can spawn, completely getting rid of random summons when gravestones are fully upgraded.
-**Beams at Level 4 now deal damage based on how many enemies they are targeting, if they are attacking less than the max amount of enemies it can hit, the damage will scale for each enemy that is not being attacked, increasing damage dealt.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 2.025 to 1.525.
-****Damage decreased from 15 to 10.
-****Range increased from 16 to 21.
-****Soul Meter increased from 30 to 50.
-****Book Aim decreased from 0.8 to 0.4
-****Summon Delay decreased from 1.33 to 0.4.
-****Summon Debounce decreased from 3 to 0.1
-****Build Delay decreased from 0.85 to 0.4.
-****Max gravestones decreased from 4 to 2.
-****[[Skeleton (Unit)|Skeleton]] health increased from 30 to 60.
+****Damage increased from 8 to 10.
+****Firerate decreased from 0.575 to 0.325.
+****Range decreased from 16 to 15.
+****Cost increased from {{Money|4,000}} to {{Money|6,000}}.
+****Placement limit decreased from 5 to 3.
 ***'''Level 1'''
-****Cost increased from {{Money|650}} to {{Money|1,150}}.
-****Firerate changed from 2.025 to {{Tooltip|1.525 > 1.225|-0.3}}.
-****Damage decreased from +3 to +2.
-****Soul Meter changed from +0 to +10.
-****Build Time changed from 1.5 to {{Tooltip|1.5 > 1|-0.5}}.
-****Name changed from ''Dark Magic'' to ''Spirit Tuning''.
+****Cost increased from {{Money|500}} to {{Money|1,000}}.
+****Range increased from +4 to +5.
 ***'''Level 2'''
-****Cost increased from {{Money|1,750}} to {{Money|3,950}}.
-****Firerate changed from {{Tooltip|2.025 > 1.525|-0.5}} to 1.225.
-****Range increased from +0 to +3.
-****Max hits decreased from +1 to +0.
-****Soul Meter changed from +0 to +36.
-****Max gravestones increased from +1 to +2
-****[[Sword Skeleton]] health increased from 30 to 90.
-****[[Sword Skeleton]] speed decreased from 4 to 3.5.
-****[[Sword Skeleton]] range increased from 6 to 7.5.
-****Name changed from ''Armed Skeletons'' to ''Soul Forge''.
+****Cost increased from {{Money|2,000}} to {{Money|4,250}}.
+****Damage decreased from +12 to +5.
+****Firerate changed from {{Tooltip|0.575 > 0.725|+0.15}} to 0.325.
 ***'''Level 3'''
-****Cost increased from {{Money|9,500}} to {{Money|11,320}}.
-****Firerate changed from 1.525 to {{Tooltip|1.225 > 0.825|-0.4}}.
-****Damage decreased from +22 to +8.
-****Max hits decreased from +2 to +0.
-****Soul Meter changed from +0 to +224.
-****Max gravestones decreased from +1 to +0.
-****Build Time changed from 1.5 to {{Tooltip|1 > 0.8|-0.2}}.
-****[[Skeleton (Unit)|Skeleton]] from the Level 2 gravestones replaced with the [[Sword Skeleton]].
-****[[Giant Skeleton]] health increased from 250 to 600.
-****[[Giant Skeleton]] speed increased from 1.8 to 2.4.
-****[[Skeleton Knight]] health increased from 100 to 250.
-****[[Skeleton Knight]] damage increased from 35 to 90.
-****[[Skeleton Knight]] range increased from 7 to 7.5.
-****Name changed ''Corpse Manipulation'' from to ''Skull Centrifuge''.
+****Cost increased from {{Money|7,250}} to {{Money|12,000}}.
+****Firerate changed from {{Tooltip|0.725 > 0.375|-0.35}} to {{Tooltip|0.325 > 0.175|-0.15}}.
 ***'''Level 4'''
-****Cost increased from {{Money|30,000}} to {{Money|48,000}}.
-****Firerate changed from {{Tooltip|1.525 > 0.325|-1.2}} to {{Tooltip|0.825 > 0.425|-0.4}}.
-****Base damage increased from -20 to -5.
-****Range increased from +2 to +6.
-****Max hits decreased from +2 to +1.
-****Soul Meter changed from +0 to +1,120.
-****Gravestone explosion damage increased from 300 to 500.
-****Max gravestones increased from +1 to +3.
-****[[Hallow Guard (Unit)|Hallow Guard]] health increased from 1,250 to 1,500.
-****[[Hallow Guard (Unit)|Hallow Guard]] speed increased from 1.2 to 2.4.
-****[[Hallow Guard (Unit)|Hallow Guard]] now has 20% defense.
-****[[Executioner Skeleton]] firerate decreased from 4.025 to 3.025.
-****[[Executioner Skeleton]] now has Flying Detection.
-****Name changed from ''Into Oblivion'' to ''Apostle Of Hades''.
-**{{Bugfix}} [[Executioner Skeleton]] now has [[Damage Indicators]].
-**{{Bugfix}} [[Executioner Skeleton]] no longer bypasses defense.
-*'''22 January 2025''' - [[v1.50.0]]
-**Statistical changes:
-***'''Level 2'''
-****[[Sword Skeleton]] damage increased from 15 to 20.
-***'''Level 3'''
-****Damage increased from +8 to +18.
-****Soul Meter changed from +224 to +354.
-***'''Level 4'''
-****Cost decreased from {{Money|48,000}} to {{Money|44,000}}.
-****Base damage decreased from -5 to -10.
-****Soul Meter changed from +1,120 to +990.
+****Cost increased from {{Money|12,500}} to {{Money|26,000}}.
+****Damage increased from +8 to +17.
+****Firerate changed from {{Tooltip|0.375 > 0.325|-0.05}} to 0.175.
+***'''Level 5'''
+****Cost increased from {{Money|32,000}} to {{Money|56,250}}.
+****Damage increased from +7 to +23.
+****Firerate changed from {{Tooltip|0.325 > 0.2|-0.125}} to {{Tooltip|0.175 > 0.15|-0.025}}.
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''27 November 2024''' - [[v1.43.0]]
+**Gamepass price decreased from {{Robux|450}} to {{Robux|337}}.
+*'''3 December 2024''' - [[v1.43.0|v1.43.2b]]
+**Gamepass price increased from {{Robux|337}} to {{Robux|450}}.
+*'''25 December 2024''' - [[v1.47.0|v1.47.4]]
+**Gamepass price decreased from {{Robux|450}} to {{Robux|337}}.
+*'''28 December 2024''' - [[v1.47.0|v1.47.5b]]
+**Gamepass cost increased from {{Robux|337}} to {{Robux|450}}.
 *'''9 April 2025''' - [[v1.60.0]]
-**Defense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Duck}}
-**{{Bug}} {{Color|DuckyRevenge|Duck}} skin at Level 4 will break if placed in range of a [[Firework Technician]] after it generates a firework, it will stop dealing damage and once the targeted enemies get out of its range, it will stop attacking enemies entirely.
-**{{Bug}} {{Color|DuckyRevenge|Duck}} skin is not affected by certain debuffs.
-**{{Bug}} {{Color|DuckyRevenge|Duck}} skin is unaffected by stuns from legacy enemy if they are fired like a minigun or beam, examples include the [[Gunslinger]], [[Warden (Legacy Enemy)|Warden]] and [[Minigunner (Pizza Party)|Minigunner]] enemies.
-**{{Bug}} {{Color|DuckyRevenge|Duck}} skin can attack enemies when frozen by freeze from legacy enemies.
-**{{Bug}} When the {{Color|DuckyRevenge|Duck}} skin is in range of a [[Medic]], it will be able to affect less towers with its ''Cleansing'' ability. Stacks with each {{Color|DuckyRevenge|Duck}} skin or other similarly bugged tower/skin in range.
-**{{Bug}} '''Necromancer''' continues to attack enemies when stunned on any Level.
-*'''28 May 2025''' - [[v1.65.0]]
-**{{Bugfix}} {{Color|DuckyRevenge|Duck}} skin no longer breaks the [[Medic]]'s ''Cleansing'' ability.
-*'''11 June 2025''' - [[v1.67.0]]
-**{{Bug}} '''Necromancer's''' attack remains locked onto [[Hacker]]'s cloned enemies.
-**{{Bug}} '''Necromancer's''' beams no longer multiply their damage based on how many enemies it is targeting.
-**{{Bug}} '''Necromancer''' does not target enemies properly until its targeting is changed.
-**{{Bug}} '''Necromancer''' will visually continue to target enemies that have been killed if they have a death animation.
-*'''18 June 2025''' - [[v1.67.0|v1.67.6]]
-**{{Bugfix}} When the {{Color|DuckyRevenge|Duck}} skin generates a firework at Level 4, it will no longer break completely.
+**Offense role added.
 *'''23 July 2025''' - [[v1.71.0]]
+**Placement limit increased from 3 to 5 in [[PVP]] mode.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Cost decreased from {{Money|1,650}} to {{Money|1,100}}.
+****Cost decreased from {{Money|6,000}} to {{Money|4,000}}.
+****Firerate increased from 0.325 to 0.375.
+****Range increased from 15 to 16.5.
 ***'''Level 1'''
-****Cost decreased from {{Money|1,150}} to {{Money|750}}.
+****Firerate changed from 0.325 to {{Tooltip|0.375 > 0.325|-0.05}}.
+****Range decreased from +5 to +4.5.
 ***'''Level 2'''
-****Cost decreased from {{Money|3,950}} to {{Money|1,750}}.
-****[[Sword Skeleton]] range increased from 7.5 to 8.
+****Cost decreased from {{Money|4,250}} to {{Money|2,750}}.
 ***'''Level 3'''
-****Cost decreased from {{Money|11,320}} to {{Money|7,500}}.
-****[[Skeleton Knight]] range increased from 7.5 to 8.
+****Cost decreased from {{Money|12,000}} to {{Money|9,000}}.
 ***'''Level 4'''
-****Cost decreased from {{Money|44,000}} to {{Money|30,000}}.
-*'''6 August 2025''' - [[v1.72.0]]
-**Statistical changes ([[PVP]]):
+****Cost decreased from {{Money|26,000}} to {{Money|20,000}}.
+****Range decreased from +2 to +1.5.
+***'''Level 5'''
+****Cost decreased from {{Money|56,250}} to {{Money|42,500}}.
+*'''20 August 2025''' - [[v1.73.0]]
+**Statistical changes:
 ***'''Base'''
-****Cost increased from {{Money|1,100}} to {{Money|1,500}}.
+****Cost decreased from {{Money|6,000}} to {{Money|5,000}}.
+****Firerate changed from 0.325 to 0.375.
 ***'''Level 1'''
-****Cost increased from {{Money|750}} to {{Money|1,000}}.
+****Cost increased from {{Money|1,000}} to {{Money|1,250}}.
+****Firerate changed from 0.325 to {{Tooltip|0.375 > 0.325|-0.05}}.
 ***'''Level 2'''
-****Cost increased from {{Money|1,750}} to {{Money|3,500}}.
-****[[Sword Skeleton]] range decreased from 8 to 6.
+****Cost increased from {{Money|4,250}} to {{Money|7,250}}.
+****Damage increased from +5 to +10.
 ***'''Level 3'''
-****Cost increased from {{Money|7,500}} to {{Money|10,000}}.
-****[[Skeleton Knight]] range decreased from 8 to 6.
+****Cost increased from {{Money|12,000}} to {{Money|15,000}}.
 ***'''Level 4'''
-****Cost increased from {{Money|30,000}} to {{Money|40,000}}.
-*'''3 September 2025''' - [[v1.74.0]]
-**{{Bug}} ''Strongest'' and ''Weakest'' will occasionally not target as many enemies as it can.
-**{{Bugfix}} Damage now changes based on number of enemies targeted.
-**{{Bugfix}} No longer has issues with it not targeting every enemy it can with its beams at Level 4.
+****Cost increased from {{Money|26,000}} to {{Money|30,000}}.
+****Damage increased from +17 to +20.
+***'''Level 5'''
+****Cost decreased from {{Money|56,250}} to {{Money|52,500}}.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to 0.175.
+****Damage increased from +23 to +35.
+**New skin: {{Color|EventMission|Jetski}}
+**{{Bugfix}} {{Color|Premium|XR500}} skin is now immune to debuffs from enemies before [[v1.9.0]].
+*'''26 November 2025''' - [[v1.81.0]]
+**Gamepass cost decreased from {{Robux|450}} to {{Robux|292}}.
+*'''2 December 2025''' - [[v1.81.0|v1.81.4b]]
+**Gamepass cost increased from {{Robux|292}} to {{Robux|450}}.
 *'''20 December 2025''' - [[v1.83.0]]a
-**New skin: {{Color|FinalAct|Creepy Santa}}
+**New skin: {{Color|FinalAct|Grinch}}
+*'''23 December 2025''' - [[v1.83.0|v1.83.5]]
+**Gamepass cost decreased from {{Robux|450}} to {{Robux|292}}.
+*'''2 January 2026''' - [[v1.83.0|v1.83.9b]]
+**Gamepass cost increased from {{Robux|292}} to {{Robux|450}}.
 *'''28 January 2026''' - [[v1.84.0]]
 **Statistical changes (Regular):
-***'''Base'''
-****Cost increased from {{Money|1,650}} to {{Money|4,200}}.
-****Damage increased from 10 to 15.
-****Firerate decreased from 1.525 to 1.225.
-****Range increased from 21 to 23.
-****Gravestone range decreased from 8 to 6.5.
-****Projectile speed increased from 50 to 75.
-****Soul meter increased from 50 to 105.
-****Max gravestones increased from 2 to 3.
-****Gravestone count increased from 2 to 3.
-****Summon delay decreased from 1.33 to 0.5.
-****Build delay decreased from 0.85 to 0.5.
-****[[Skeleton (Unit)|Skeleton]] health increased from 60 to 120.
-***'''Level 1'''
-****Cost increased from {{Money|1,150}} to {{Money|3,950}}.
-****Damage increased from +2 to +5.
-****Firerate changed from {{Tooltip|1.525 > 1.225|-0.3}} to {{Tooltip|1.225 > 1.125|-0.1}}.
-****Max hits decreased from +1 to +0.
-****Soul meter increased from +10 to +20.
-****Now summons [[Sword Skeleton]]s, replacing the [[Skeleton (Unit)|Skeleton]]s.
-****[[Sword Skeleton]] damage increased from 20 to 25.
-****[[Sword Skeleton]] firerate decreased from 0.825 to 0.725.
-****[[Sword Skeleton]] range decreased from 7.5 to 6.
-****[[Sword Skeleton]] health increased from 90 to 150.
-****[[Sword Skeleton]] speed decreased from Above Average (3.5) to Average (3.3).
-****Name changed from ''Spirit Tuning'' to ''Soul Forge''.
-***'''Level 2'''
-****Cost increased from {{Money|3,950}} to {{Money|11,320}}.
-****Damage increased from +0 to +10.
-****Max gravestones increased from +2 to +3.
-****Soul meter increased from +36 to +55.
-****[[Sword Skeleton]] limit increased from +0 to +2.
-****Now spawns the [[Giant Skeleton (Unit)|Giant Skeleton]].
-****[[Giant Skeleton (Unit)|Giant Skeleton]] health increased from 600 to 1,500.
-****[[Giant Skeleton (Unit)|Giant Skeleton]] speed increased from Slightly Slow (2.4) to Above Average (3.5).
-****Name changed from ''Soul Forge'' to ''Skull Centrifuge''.
-***'''Level 3'''
-****Cost increased from {{Money|11,320}} to {{Money|26,250}}.
-****Firerate changed from {{Tooltip|1.225 > 0.825|-0.4}} to {{Tooltip|1.125 > 0.825|-0.3}}.
-****Damage decreased from +18 to +15.
-****Soul meter increased from +224 to +340.
-****Projectile changed from 50 to 75 > 60.
-****[[Giant Skeleton (Unit)|Giant Skeleton]] limit from Level 2 gravestones increased from 1 to 2.
-****[[Giant Skeleton (Unit)|Giant Skeleton]] chance from Level 2 gravestones decreased from 20% to 15.38%.
-****[[Sword Skeleton]] limit from Level 2 gravestones increased from 4 to 2.
-****[[Sword Skeleton]] chance from Level 2 gravestones increased from 50% to 38.46%.
-****[[Skeleton Knight]] chance from Level 2 gravestones increased from 30% to 23.25%.
-****[[Skeleton Knight]] damage increased from 90 to 100.
-****[[Skeleton Knight]] firerate decreased from 0.675 to 0.625.
-****[[Skeleton Knight]] [[Defense]] of 15% added.
-****[[Skeleton Knight]] range decreased from 7.5 to 6.
-****[[Skeleton Knight]] health increased from 250 to 335.
-****[[Skeleton Knight]] speed decreased from Above Average (3.5) to Average (3.3).
-****Now summons the [[Hallow Guard (Unit)|Hallow Guard]] with a limit of 1 and 23.25% spawn chance.
-****[[Hallow Guard (Unit)|Hallow Guard]] health increased from 1,500 to 2,500.
-****[[Hallow Guard (Unit)|Hallow Guard]] [[Defense]] decreased from 20% to 15%.
-****[[Hallow Guard (Unit)|Hallow Guard]] speed increased from Slightly Slow (2.4) to Above Average (3.5).
-****Name changed from ''Skull Centrifuge'' to ''Graveward''.
-***'''Level 4'''
-****Cost increased from {{Money|44,000}} to {{Money|65,000}}.
-****Damage decreased from -10 to -15.
-****Range increased from +6 to +8.
-****Max hits increased from +1 to +2.
-****Gravestone explosion range increased from 4 to 5.
-****Soul meter increased from +990 to +1,480.
-****Lead detection added.
-****[[Hallow Guard (Unit)|Hallow Guard]] limit from Level 3 gravestones increased from 2 to 3.
-****[[Skeleton Knight]] limit from Level 3 gravestones decreased from 6 to 5.
-****[[Executioner Skeleton]] damage increased from 50 to 100.
-****[[Executioner Skeleton]] [[Defense]] of 25% added.
-****[[Executioner Skeleton]] firerate increased from 3.025 to 6.025.
-****[[Executioner Skeleton]] range increaased from 30 to 32.
-****[[Executioner Skeleton]] speed increased from Very Slow (1.2) to Slightly Slow (2).
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****[[Skeleton (Unit)|Skeleton]] health increased from 60 to 120.
-***'''Level 3'''
-****[[Giant Skeleton (Unit)|Giant Skeleton]] health increased from 600 to 1,500.
-****[[Giant Skeleton (Unit)|Giant Skeleton]] speed increased from Slightly Slow (2.4) to Above Average (3.5).
-***'''Level 4'''
-****[[Hallow Guard (Unit)|Hallow Guard]] health increased from 1,500 to 2,500.
-****[[Hallow Guard (Unit)|Hallow Guard]] [[Defense]] decreased from 20% to 15%.
-****[[Hallow Guard (Unit)|Hallow Guard]] speed increased from Slightly Slow (2.4) to Above Average (3.5).
-****[[Executioner Skeleton]] damage increased from 50 to 100.
-****[[Executioner Skeleton]] [[Defense]] of 25% added.
-****[[Executioner Skeleton]] firerate increased from 3.025 to 6.025.
-****[[Executioner Skeleton]] range increaased from 30 to 32.
-****[[Executioner Skeleton]] speed increased from Very Slow (1.2) to Slightly Slow (2).
+***'''Level 5'''
+****Range increased from +2 to +3.
 *'''11 February 2026''' - [[v1.85.0]]
 **Statistical changes (Regular):
 ***'''Base'''
-****[[Skeleton (Unit)|Skeleton]] health decreased from 120 to 90.
+****Cost increased from {{Money|5,000}} to {{Money|8,250}}.
+****Damage increased from 10 to 20.
+****Firerate increased from 0.375 to 0.425.
 ***'''Level 1'''
-****[[Sword Skeleton]] health decreased from 150 to 120.
+****Cost increased from {{Money|1,250}} to {{Money|3,250}}.
+****Firerate changed from {{Tooltip|0.375 > 0.325|-0.05}} to {{Tooltip|0.425 > 0.325|-0.1}}.
 ***'''Level 2'''
-****[[Giant Skeleton (Unit)|Giant Skeleton]] health decreased from 1,500 to 1,200.
+****Cost increased from {{Money|7,250}} to {{Money|7,500}}.
 ***'''Level 3'''
-****Soul meter decreased from +360 to +225.
-****[[Skeleton Knight]] damage decreased from 100 to 90.
-****[[Skeleton Knight]] firerate increased from 0.625 to 0.725.
-****[[Skeleton Knight]] health decreased from 335 to 235.
-****[[Hallow Guard (Unit)|Hallow Guard]] health decreased from 2,500 to 2,000.
+****Cost increased from {{Money|15,000}} to {{Money|20,000}}.
+****Damage increased from +0 to +10.
+****Firerate changed from {{Tooltip|0.325 > 0.175|-0.15}} to {{Tooltip|0.325 > 0.183|-0.142}}.
 ***'''Level 4'''
-****Soul meter decreased from +1,480 to +1,215.
-****[[Executioner Skeleton]] damage decreased from 100 to 75.
-****[[Executioner Skeleton]] health decreased from 3,500 to 3,000.
-**Statistical changes ([[PVP]]):
-***'''Base'''
-****[[Skeleton (Unit)|Skeleton]] health decreased from 120 to 90.
-***'''Level 2'''
-****[[Giant Skeleton (Unit)|Giant Skeleton]] health decreased from 1,500 to 1,200.
-***'''Level 3'''
-****[[Hallow Guard (Unit)|Hallow Guard]] health decreased from 2,500 to 2,000.
-***'''Level 4'''
-****[[Executioner Skeleton]] damage decreased from 100 to 75.
-****[[Executioner Skeleton]] health decreased from 3,500 to 3,000.
-*'''5 June 2026''' - [[v2.0.0]]
+****Cost increased from {{Money|30,000}} to {{Money|35,000}}.
+****Damage increased from +20 to +25.
+***'''Level 5'''
+****Cost increased from {{Money|52,500}} to {{Money|85,000}}.
+****Damage decreased from +35 to +22.
+****Firerate changed from 0.175 to {{Tooltip|0.183 > 0.155|-0.33}}.
+*'''11 March 2026''' - [[v1.86.0]]
+**Statistical changes (Regular):
+***'''Level 5'''
+****Cost decreased from {{Money|85,000}} to {{Money|75,000}}.
+****Damage decreased from +22 to +13.
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Bunny}}
+*'''22 April 2026''' - [[v1.89.0]]
 **Statistical changes (Regular):
 ***'''Base'''
-****Firerate decreased from 1.225 to 1.2.
+****Cost increased from {{Money|8,250}} to {{Money|8,750}}.
+****Damage increased from 20 to 24.
+****Range increased from 15 to 18.
+****Hidden detection added, moved from Level 1.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|1.225 > 1.125|-0.1}} to {{Tooltip|1.2 > 1.1|-0.1}}.
-****[[Sword Skeleton]] damage decreased from 25 to 24.
-****[[Sword Skeleton]] firerate decreased from 0.725 to 0.7.
+****Cost decreased from {{Money|3,250}} to {{Money|2,750}}.
+****Damage increased from +0 to +6.
+****Firerate changed from {{Tooltip|0.425 > 0.325|-0.1}} to 0.425.
+****Range decreased from +5 to +0.
+****Lead detection added, moved from Level 2.
+****Name changed from ''Radar'' to ''Stronger Ammunition''.
+***'''Level 2'''
+****Damage decreased from +10 to +0.
+****Firerate changed from 0.325 to {{Tooltip|0.325 > 0.283|-0.042}}.
+****Range increased from +0 to +4.
+****Name changed from ''Stronger Ammunition'' to ''Radar''.
 ***'''Level 3'''
-****Firerate changed from {{Tooltip|1.125 > 0.825|-0.3}} to {{Tooltip|1.1 > 0.8|-0.3}}.
-****[[Skeleton Knight]] damage decreased from 90 to 87.
-****[[Skeleton Knight]] firerate decreased from 0.725 to 0.7.
+****Firerate changed from {{Tooltip|0.325 > 0.183|-0.142}} to {{Tooltip|0.283 > 0.183|-0.1}}.
+****Range decreased from +2 to +0.
+***'''Level 5'''
+****Cost decreased from {{Money|75,000}} to {{Money|65,000}}.
+*'''22 May 2026''' - [[v1.91.0]]
+**Gamepass price decreased from {{Robux|450}} to {{Robux|360}}.
+***{{Bug}} Gifting was not discounted.
+*'''27 May 2026''' - [[v1.91.0|v1.91.4a]]
+**Gamepass price increased from {{Robux|360}} to {{Robux|450}}.
+*'''5 June 2026''' - [[v2.0.0]]
+**Firerate decreased due to the [[Firerate Bug]] being fixed.
+**Statistical changes (Regular):
+***'''Base'''
+****Cost decreased from {{Money|8,750}} to {{Money|7,750}}.
+****Damage decreased from 24 to 20.
+****Firerate decreased from 0.425 to 0.4.
+****Range increased from 18 to 19.
+***'''Level 1'''
+****Cost increased from {{Money|2,750}} to {{Money|3,750}}.
+****Damage increased from +6 to +8.
+***'''Level 2'''
+****Firerate changed from {{Tooltip|0.425 > 0.283|-0.142}} to {{Tooltip|0.4 > 0.26|-0.14}}.
+****Range decreased from +4 to +3.
+***'''Level 3'''
+****Damage decreased from +10 to +7.
+****Firerate changed from {{Tooltip|0.283 > 0.183|-0.1}} to {{Tooltip|0.26 > 0.16|-0.1}}.
 ***'''Level 4'''
-****Damage decreased from -15 to -17.
-****Firerate changed from {{Tooltip|0.825 > 0.425|-0.4}} to {{Tooltip|0.8 > 0.4|-0.4}}.
-****Gravestone explosion damage decreased from 500 to 490.
-****[[Executioner Skeleton]] firerate decreased from 6.025 to 6.
+****Damage decreased from +25 to +22.
+***'''Level 5'''
+****Damage decreased from +13 to +5.
+****Firerate changed from {{Tooltip|0.183 > 0.15|-0.033}} to {{Tooltip|0.16 > 0.12|-0.04}}.
 **Statistical changes ([[PVP]]):
 ***'''Base'''
-****Firerate decreased from 1.525 to 1.5.
+****Firerate decreased from 0.375 to 0.35.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|1.525 > 1.225|-0.3}} to {{Tooltip|1.5 > 1.2|-0.3}}.
+****Firerate changed from {{Tooltip|0.375 > 0.325|-0.05}} to {{Tooltip|0.35 > 0.3|-0.05}}.
 ***'''Level 2'''
-****[[Sword Skeleton]] firerate decreased from 0.825 to 0.8.
+****Damage decreased from +5 to +4.
 ***'''Level 3'''
-****Firerate changed from {{Tooltip|1.225 > 0.825|-0.4}} to {{Tooltip|1.2 > 0.8|-0.3}}.
-****[[Skeleton Knight]] firerate decreased from 0.675 to 0.65.
+****Damage decreased from +0 to -1.
+****Firerate changed from {{Tooltip|0.325 > 0.175|-0.15}} to {{Tooltip|0.3 > 0.15|-0.15}}.
 ***'''Level 4'''
-****Firerate changed from {{Tooltip|0.825 > 0.425|-0.4}} to {{Tooltip|0.8 > 0.4|-0.4}}.
-****[[Executioner Skeleton]] firerate decreased from 6.025 to 6.
-**{{Bug}} '''Necromancer's''' level 2 upgrade will not subtract cash from a player that buys the upgrade.
-**{{Bug}} If a '''Necromancer''' that is level 2 or above is cloned by a [[Hacker]], the cloned tower will be level 2 and will act like a normal tower, being able to be upgraded and sold. The clone will not disappear.
-**{{Bug}} When a [[Revive]] is used with a level 3-4 '''Necromancer''' placed down, the tower will be reverted back to level 2 and the player will not be refunded.
-*'''8 June 2026''' - [[v2.0.0|v2.0.5]]
-**{{Bugfix}} '''Necromancer's''' level 2 upgrade now correctly subtracts cash from the player that buys it.
-**{{Bugfix}} [[Hacker]] now clones the '''Necromancer''' properly.
-**{{Bugfix}} [[Revive|Revives]] now work properly with '''Necromancer'''.
-*'''19 June 2026''' - [[v2.1.0]]
-**{{Bug}} Level 4's primary attack no longer works and deals no damage to enemies.
-*'''19 June 2026''' - [[v2.1.0|v2.1.3]]
-**{{Bugfix}} Level 4 now deals damage again.
+****Damage decreased from +17 to +14.
+***'''Level 5'''
+****Damage decreased from +23 to +17.
+****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.15 > 0.12|-0.03}}.
+*'''2 August 2026''' - [[v2.4.0|v2.4.2a]]
+**Gamepass price decreased from {{Robux|450}} to {{Robux|340}}.
+***{{Bug}} Gift price has not changed.
+*'''7 August 2026''' - [[v2.5.0]]
+**Statistical changes (Regular):
+***'''Level 5'''
+****Damage increased from +5 to +11.
 }}
-
-==Notes==
-<references/>
 
 
 
 {{TowerNavBox}}
 [[Category:Ground]]
-[[Category:Ability]]

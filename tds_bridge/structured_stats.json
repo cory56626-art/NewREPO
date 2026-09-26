@@ -7,85 +7,128 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Necromancer''' is a hardcore spawner [[Towers|tower]] that can be unlocked in the store for {{Gem|2,250}} and has a level requirement of {{Level|50}}. It could have also been obtained through a gamepass for {{Robux|1,500}}.\n\nThe '''Necromancer''' fires magic bolts at enemies. At Level 4, these are replaced by beams fired from its book, which are not projectiles. This makes it now lock on enemies, meaning it will not change what enemy it is targeting until the current enemy moves out of range or is killed. These beams deal damage based on the number of enemies targeted. For example, if it only targets one enemy, it will deal 30 damage, 45 damage when targeting two enemies, and 90 damage when targeting three enemies. The '''Necromancer''' also has a soul meter of 105, which it fills up by damaging enemies. When the soul meter is full, the '''Necromancer''' will summon gravestones. The '''Necromancer''' can destroy these gravestones using its ''Raise the Dead'' ability. The '''Necromancer''' will summon gravestones until it reaches the limit at that level. At Level 3, the '''Necromancer''' can now upgrade gravestones. After dealing enough damage it will upgrade the gravestones, regardless of whether they are currently placed down or not. Upgraded gravestones summon stronger units. At Level 4, these gravestones can also deal damage when destroyed. This is done through an explosion which has damage fall off, though it can only hit up to three enemies per explosion.\n\nThe units spawned depend on the Level of the tower and the gravestone. At Level 0, Level 1 gravestones can only spawn [[Skeleton (Unit)|Skeletons]], at Level 1, Level 1 gravestones gain the ability to summon [[Sword Skeleton]]s. At Level 2, Level 1 gravestones gain the ability to summon [[Giant Skeleton (Unit)|Giant Skeletons]]. At Level 3, gravestones can be upgraded to Level 2, where they spawn [[Skeleton (Unit)|Skeletons]], [[Skeleton Knight]]s, [[Hallow Guard (Unit)|Hallow Guards]] and [[Giant Skeleton (Unit)|Giant Skeletons]]. At Level 4, gravestones can be upgraded to Level 3, where they spawn [[Skeleton Knight]]s, [[Hallow Guard (Unit)|Hallow Guards]] and [[Executioner Skeleton]]s. The units that spawn from gravestones are random, with each unit having a chance of being summoned, though once the gravestones are at their final Level and they are all placed down, the summoned units will always be the same, based on the limits set for them at a specific '''Necromancer''' level.\n\nThe '''Necromancer''' has a placement limit of three per player.",
+  "description": "The '''Turret''' is an advanced [[Towers|tower]] with long range and high damage. It cannot be purchased from the store, instead unlocked at {{Level|50}} or via its [[Gamepasses|gamepass]], priced at {{Robux|340}}. When the player reaches {{Level|50}}, the '''Turret''' can be claimed using the pop up message that appears when joining the lobby.\n\nThe '''Turret''' excels at single target damage, boasting a strong mix of high range, damage and firerate. However, it is also very expensive. It costs {{Money|7,750}} to place it down, the second most expensive starting cost for any tower. It takes a cumulative total of {{Money|149,000}} to reach the max level, making it the third most expensive tower to fully upgrade in the entire game. In [[PVP]] mode, it does have reduced placement and upgrade costs, but it is still one of the most expensive towers to fully upgrade there. As the '''Turret''' is not a humanoid tower, it is immune to debuffs which are applied by enemies added before the [[v1.9.0]] update. Debuffs from enemies like the [[Boomer]] can still affect it. This however does not make it immune to stuns. Additionally, it has a larger placement footprint than most other towers. It can detect hidden enemies and has lead detection.\n\nBecause of its extremely high base cost and very expensive upgrade prices, as well as high DPS, the '''Turret''' is considered a mid-late game tower.\n\nThe '''Turret''' has a placement limit of three per player. This is increased to five in [[PVP]] mode.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "regular",
         "level": 1,
-        "title": "Soul Forge",
-        "cost": "{{Money|3,950}}",
-        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.2 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+20 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces [[Skeleton (Unit)|Skeleton]]\n\n•24 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•120 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|2,716}}",
+        "title": "Stronger Ammunition",
+        "cost": "{{Money|3,750}}",
+        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+5",
+            "delta": "+8",
             "stat": "Damage",
-            "text": "+5 Damage"
+            "text": "+8 Damage"
           },
           {
-            "kind": "set",
-            "from": "1.2",
-            "to": "1.1",
-            "stat": "Firerate",
-            "text": "1.2 > 1.1 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+20",
-            "stat": "Soul Meter",
-            "text": "+20 Soul Meter"
-          },
-          {
-            "kind": "set",
-            "from": "1.5",
-            "to": "1",
-            "stat": "Build Time",
-            "text": "1.5 > 1 Build Time"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces Skeleton"
-          },
-          {
-            "kind": "note",
-            "text": "24 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.7 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "6 Range"
-          },
-          {
-            "kind": "note",
-            "text": "120 Health"
-          },
-          {
-            "kind": "note",
-            "text": "3.3 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Soul Forge",
-          "Cost": "{{Money|3,950}}",
-          "Image": "[[File:NecromancerLevel1.png|100px]]",
-          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.2 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+20 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces [[Skeleton (Unit)|Skeleton]]\n\n•24 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•120 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|2,716}}"
+          "Upgrade Title": "Stronger Ammunition",
+          "Cost": "{{Money|3,750}}",
+          "Image": "[[File:Radar.png|100px]]",
+          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}"
         }
       },
       {
         "mode": "regular",
         "level": 2,
-        "title": "Skull Centrifuge",
-        "cost": "{{Money|11,320}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Max Gravestone\n\n+55 Soul Meter\n\n+2 [[Sword Skeleton]] Limit\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|6,490}}",
+        "title": "Radar",
+        "cost": "{{Money|7,500}}",
+        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
+          },
+          {
+            "kind": "set",
+            "from": "0.4",
+            "to": "0.26",
+            "stat": "Firerate",
+            "text": "0.4 > 0.26 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 2",
+          "Upgrade Title": "Radar",
+          "Cost": "{{Money|7,500}}",
+          "Image": "[[File:Radar.png|100px]]",
+          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 3,
+        "title": "Dual Turret",
+        "cost": "{{Money|20,000}}",
+        "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+7",
+            "stat": "Damage",
+            "text": "+7 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.26",
+            "to": "0.16",
+            "stat": "Firerate",
+            "text": "0.26 > 0.16 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Dual Turret",
+          "Cost": "{{Money|20,000}}",
+          "Image": "[[File:Turret3.png|100px]]",
+          "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Even Heavier Ammo",
+        "cost": "{{Money|35,000}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+22",
+            "stat": "Damage",
+            "text": "+22 Damage"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Even Heavier Ammo",
+          "Cost": "{{Money|35,000}}",
+          "Image": "[[File:Turret4.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 5,
+        "title": "XR-200 Turret",
+        "cost": "{{Money|65,000}}",
+        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}",
         "claims": [
           {
             "kind": "delta",
@@ -95,313 +138,24 @@
           },
           {
             "kind": "delta",
-            "delta": "+10",
+            "delta": "+11",
             "stat": "Damage",
-            "text": "+10 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Max Gravestone",
-            "text": "+3 Max Gravestone"
-          },
-          {
-            "kind": "delta",
-            "delta": "+55",
-            "stat": "Soul Meter",
-            "text": "+55 Soul Meter"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Sword Skeleton Limit",
-            "text": "+2 Sword Skeleton Limit"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range"
-          },
-          {
-            "kind": "note",
-            "text": "1,200 Health"
-          },
-          {
-            "kind": "note",
-            "text": "3.5 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 2",
-          "Upgrade Title": "Skull Centrifuge",
-          "Cost": "{{Money|11,320}}",
-          "Image": "[[File:NecromancerLevel2.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Max Gravestone\n\n+55 Soul Meter\n\n+2 [[Sword Skeleton]] Limit\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|6,490}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 3,
-        "title": "Graveward",
-        "cost": "{{Money|26,650}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 2 Limit, 15.38% Chance\n\n•[[Sword Skeleton]] - 2 Limit, 38.46% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 23.08% Chance\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 1 Limit, 23.08% Chance\n\n+225 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n75 > 60 Projectile Speed [[File:SpeedIcon.png|20px|Projectile Speed]]\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•15% Defense {{Defense}}\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•235 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|15,373}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Range",
-            "text": "+2 Range"
+            "text": "+11 Damage"
           },
           {
             "kind": "set",
-            "from": "1.1",
-            "to": "0.8",
+            "from": "0.16",
+            "to": "0.12",
             "stat": "Firerate",
-            "text": "1.1 > 0.8 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+15",
-            "stat": "Damage",
-            "text": "+15 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "1",
-            "to": "2",
-            "stat": "Max Gravestone Level",
-            "text": "1 > 2 Max Gravestone Level"
-          },
-          {
-            "kind": "note",
-            "text": "Giant Skeleton - 2 Limit, 15.38% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Sword Skeleton - 2 Limit, 38.46% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Skeleton Knight - 1 Limit, 23.08% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Hallow Guard - 1 Limit, 23.08% Chance"
-          },
-          {
-            "kind": "delta",
-            "delta": "+225",
-            "stat": "Soul Meter",
-            "text": "+225 Soul Meter"
-          },
-          {
-            "kind": "set",
-            "from": "1",
-            "to": "0.8",
-            "stat": "Build Time",
-            "text": "1 > 0.8 Build Time"
-          },
-          {
-            "kind": "set",
-            "from": "75",
-            "to": "60",
-            "stat": "Projectile Speed",
-            "text": "75 > 60 Projectile Speed"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.7 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "15% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "6 Range"
-          },
-          {
-            "kind": "note",
-            "text": "235 Health"
-          },
-          {
-            "kind": "note",
-            "text": "3.3 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range"
-          },
-          {
-            "kind": "note",
-            "text": "2,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "15% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "3.5 Speed }}"
+            "text": "0.16 > 0.12 Firerate"
           }
         ],
         "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Graveward",
-          "Cost": "{{Money|26,650}}",
-          "Image": "[[File:NecromancerLevel3.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 2 Limit, 15.38% Chance\n\n•[[Sword Skeleton]] - 2 Limit, 38.46% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 23.08% Chance\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 1 Limit, 23.08% Chance\n\n+225 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n75 > 60 Projectile Speed [[File:SpeedIcon.png|20px|Projectile Speed]]\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•15% Defense {{Defense}}\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•235 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|15,373}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "Apostle Of Hades",
-        "cost": "{{Money|65,000}}",
-        "information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+8 Range [[File:Range Icon.png|20px|Range]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+500 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 3 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 5 Limit, 40% Chance\n\n+1,215 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•25% Defense {{Defense}}\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n\nSell Price changes to {{Money|37,040}}",
-        "claims": [
-          {
-            "kind": "set",
-            "from": "0.8",
-            "to": "0.4",
-            "stat": "Firerate",
-            "text": "0.8 > 0.4 Firerate"
-          },
-          {
-            "kind": "grant",
-            "stat": "Lead Detection",
-            "text": "+Lead Detection"
-          },
-          {
-            "kind": "delta",
-            "delta": "+8",
-            "stat": "Range",
-            "text": "+8 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "-17",
-            "stat": "Damage",
-            "text": "-17 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Max Hits",
-            "text": "+2 Max Hits"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Max Gravestone",
-            "text": "+3 Max Gravestone"
-          },
-          {
-            "kind": "note",
-            "text": "Pierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range."
-          },
-          {
-            "kind": "delta",
-            "delta": "+500",
-            "stat": "Gravestone Explosion Damage",
-            "text": "+500 Gravestone Explosion Damage"
-          },
-          {
-            "kind": "note",
-            "text": "5 Gravestone Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "3 Gravestone Explosion Max Hits"
-          },
-          {
-            "kind": "set",
-            "from": "2",
-            "to": "3",
-            "stat": "Max Gravestone Level",
-            "text": "2 > 3 Max Gravestone Level"
-          },
-          {
-            "kind": "note",
-            "text": "Hallow Guard - 3 Limit, 40% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Executioner Skeleton - 1 Limit, 20% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Skeleton Knight - 5 Limit, 40% Chance"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1,215",
-            "stat": "Soul Meter",
-            "text": "+1,215 Soul Meter"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "25% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "6 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "0.1 Tick"
-          },
-          {
-            "kind": "note",
-            "text": "32 Range"
-          },
-          {
-            "kind": "note",
-            "text": "3,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "2 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Lead Detection }}"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Apostle Of Hades",
+          "Level": "Level 5",
+          "Upgrade Title": "XR-200 Turret",
           "Cost": "{{Money|65,000}}",
-          "Image": "[[File:NecromancerLevel4.png|100px]]",
-          "Information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+8 Range [[File:Range Icon.png|20px|Range]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+500 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 3 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 5 Limit, 40% Chance\n\n+1,215 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•25% Defense {{Defense}}\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n\nSell Price changes to {{Money|37,040}}"
+          "Image": "[[File:Turret5.png|100px]]",
+          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}"
         }
       }
     ],
@@ -409,141 +163,77 @@
       {
         "mode": "pvp",
         "level": 1,
-        "title": "Spirit Tuning",
+        "title": "Radar",
         "cost": "{{Money|1,000}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+2 Max Gravestone\n\n+10 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n\nSell Price changes to {{Money|833}}",
+        "information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+2",
-            "stat": "Damage",
-            "text": "+2 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "1.5",
-            "to": "1.2",
-            "stat": "Firerate",
-            "text": "1.5 > 1.2 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Hits",
-            "text": "+1 Max Hits"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Max Gravestone",
-            "text": "+2 Max Gravestone"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
-            "stat": "Soul Meter",
-            "text": "+10 Soul Meter"
-          },
-          {
-            "kind": "set",
-            "from": "1.5",
-            "to": "1",
-            "stat": "Build Time",
-            "text": "1.5 > 1 Build Time"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Spirit Tuning",
-          "Cost": "{{Money|1,000}}",
-          "Image": "[[File:NecromancerLevel1.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+2 Max Gravestone\n\n+10 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n\nSell Price changes to {{Money|833}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 2,
-        "title": "Soul Forge",
-        "cost": "{{Money|3,500}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Gravestone Spawn Count\n\n+2 Max Gravestone\n\n+36 Soul Meter\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•90 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•3 Limit per Summon\n\n•30% Chance}}\n\n\nSell Price changes to {{Money|2,000}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+3",
+            "delta": "+4.5",
             "stat": "Range",
-            "text": "+3 Range"
+            "text": "+4.5 Range"
           },
           {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Gravestone Spawn Count",
-            "text": "+1 Gravestone Spawn Count"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Max Gravestone",
-            "text": "+2 Max Gravestone"
-          },
-          {
-            "kind": "delta",
-            "delta": "+36",
-            "stat": "Soul Meter",
-            "text": "+36 Soul Meter"
+            "kind": "set",
+            "from": "0.35",
+            "to": "0.3",
+            "stat": "Firerate",
+            "text": "0.35 > 0.3 Firerate"
           },
           {
             "kind": "grant",
             "stat": "Hidden Detection",
             "text": "+Hidden Detection"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Radar",
+          "Cost": "{{Money|1,000}}",
+          "Image": "[[File:Radar.png|100px]]",
+          "Information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "title": "Stronger Ammunition",
+        "cost": "{{Money|2,750}}",
+        "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Damage",
+            "text": "+4 Damage"
           },
           {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.8 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "6 Range"
-          },
-          {
-            "kind": "note",
-            "text": "90 Health"
-          },
-          {
-            "kind": "note",
-            "text": "3.5 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "3 Limit per Summon"
-          },
-          {
-            "kind": "note",
-            "text": "30% Chance}}"
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Soul Forge",
-          "Cost": "{{Money|3,500}}",
-          "Image": "[[File:NecromancerLevel2.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Gravestone Spawn Count\n\n+2 Max Gravestone\n\n+36 Soul Meter\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•90 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•3 Limit per Summon\n\n•30% Chance}}\n\n\nSell Price changes to {{Money|2,000}}"
+          "Upgrade Title": "Stronger Ammunition",
+          "Cost": "{{Money|2,750}}",
+          "Image": "[[File:Radar.png|100px]]",
+          "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}"
         }
       },
       {
         "mode": "pvp",
         "level": 3,
-        "title": "Skull Centrifuge",
-        "cost": "{{Money|10,000}}",
-        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 1 Limit, 20% Chance\n\n•[[Sword Skeleton]] - 4 Limit, 50% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 30% Chance\n\n+224 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,333}}",
+        "title": "Dual Turret",
+        "cost": "{{Money|9,000}}",
+        "information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}",
         "claims": [
+          {
+            "kind": "delta",
+            "delta": "-1",
+            "stat": "Damage",
+            "text": "-1 Damage"
+          },
           {
             "kind": "delta",
             "delta": "+2",
@@ -552,242 +242,81 @@
           },
           {
             "kind": "set",
-            "from": "1.2",
-            "to": "0.8",
+            "from": "0.3",
+            "to": "0.15",
             "stat": "Firerate",
-            "text": "1.2 > 0.8 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+18",
-            "stat": "Damage",
-            "text": "+18 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "1",
-            "to": "2",
-            "stat": "Max Gravestone Level",
-            "text": "1 > 2 Max Gravestone Level"
-          },
-          {
-            "kind": "note",
-            "text": "Giant Skeleton - 1 Limit, 20% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Sword Skeleton - 4 Limit, 50% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Skeleton Knight - 1 Limit, 30% Chance"
-          },
-          {
-            "kind": "delta",
-            "delta": "+224",
-            "stat": "Soul Meter",
-            "text": "+224 Soul Meter"
-          },
-          {
-            "kind": "set",
-            "from": "1",
-            "to": "0.8",
-            "stat": "Build Time",
-            "text": "1 > 0.8 Build Time"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range"
-          },
-          {
-            "kind": "note",
-            "text": "1,200 Health"
-          },
-          {
-            "kind": "note",
-            "text": "3.5 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "0.65 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "6 Range"
-          },
-          {
-            "kind": "note",
-            "text": "250 Health"
-          },
-          {
-            "kind": "note",
-            "text": "3.5 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection }}"
+            "text": "0.3 > 0.15 Firerate"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Skull Centrifuge",
-          "Cost": "{{Money|10,000}}",
-          "Image": "[[File:NecromancerLevel3.png|100px]]",
-          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 1 Limit, 20% Chance\n\n•[[Sword Skeleton]] - 4 Limit, 50% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 30% Chance\n\n+224 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,333}}"
+          "Upgrade Title": "Dual Turret",
+          "Cost": "{{Money|9,000}}",
+          "Image": "[[File:Turret3.png|100px]]",
+          "Information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}"
         }
       },
       {
         "mode": "pvp",
         "level": 4,
-        "title": "Apostle Of Hades",
-        "cost": "{{Money|40,000}}",
-        "information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+6 Range [[File:Range Icon.png|20px|Range]]\n\n-10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+4900 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 2 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 6 Limit, 40% Chance\n\n+990 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•25% [[Defense]] {{Defense}}\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|18,666}}",
+        "title": "Even Heavier Ammo",
+        "cost": "{{Money|20,000}}",
+        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}",
         "claims": [
           {
-            "kind": "set",
-            "from": "0.8",
-            "to": "0.4",
-            "stat": "Firerate",
-            "text": "0.8 > 0.4 Firerate"
-          },
-          {
             "kind": "delta",
-            "delta": "+6",
+            "delta": "+1.5",
             "stat": "Range",
-            "text": "+6 Range"
+            "text": "+1.5 Range"
           },
           {
             "kind": "delta",
-            "delta": "-10",
+            "delta": "+14",
             "stat": "Damage",
-            "text": "-10 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Max Hits",
-            "text": "+1 Max Hits"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Max Gravestone",
-            "text": "+3 Max Gravestone"
-          },
-          {
-            "kind": "note",
-            "text": "Pierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range."
-          },
-          {
-            "kind": "delta",
-            "delta": "+4900",
-            "stat": "Gravestone Explosion Damage",
-            "text": "+4900 Gravestone Explosion Damage"
-          },
-          {
-            "kind": "note",
-            "text": "4 Gravestone Explosion Range"
-          },
-          {
-            "kind": "note",
-            "text": "3 Gravestone Explosion Max Hits"
-          },
-          {
-            "kind": "set",
-            "from": "2",
-            "to": "3",
-            "stat": "Max Gravestone Level",
-            "text": "2 > 3 Max Gravestone Level"
-          },
-          {
-            "kind": "note",
-            "text": "Hallow Guard - 2 Limit, 40% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Executioner Skeleton - 1 Limit, 20% Chance"
-          },
-          {
-            "kind": "note",
-            "text": "Skeleton Knight - 6 Limit, 40% Chance"
-          },
-          {
-            "kind": "delta",
-            "delta": "+990",
-            "stat": "Soul Meter",
-            "text": "+990 Soul Meter"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage"
-          },
-          {
-            "kind": "note",
-            "text": "6 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "0.1 Tick"
-          },
-          {
-            "kind": "note",
-            "text": "32 Range"
-          },
-          {
-            "kind": "note",
-            "text": "3,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "25% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "2 Speed"
-          },
-          {
-            "kind": "note",
-            "text": "Hidden Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Flying Detection"
-          },
-          {
-            "kind": "note",
-            "text": "Lead Detection }}"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range"
-          },
-          {
-            "kind": "note",
-            "text": "2,000 Health"
-          },
-          {
-            "kind": "note",
-            "text": "15% Defense"
-          },
-          {
-            "kind": "note",
-            "text": "3.5 Speed }}"
+            "text": "+14 Damage"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Apostle Of Hades",
-          "Cost": "{{Money|40,000}}",
-          "Image": "[[File:NecromancerLevel4.png|100px]]",
-          "Information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+6 Range [[File:Range Icon.png|20px|Range]]\n\n-10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+4900 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 2 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 6 Limit, 40% Chance\n\n+990 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•25% [[Defense]] {{Defense}}\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|18,666}}"
+          "Upgrade Title": "Even Heavier Ammo",
+          "Cost": "{{Money|20,000}}",
+          "Image": "[[File:Turret4.png|100px]]",
+          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 5,
+        "title": "XR-200 Turret",
+        "cost": "{{Money|42,500}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "delta",
+            "delta": "+17",
+            "stat": "Damage",
+            "text": "+17 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.15",
+            "to": "0.12",
+            "stat": "Firerate",
+            "text": "0.15 > 0.12 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "XR-200 Turret",
+          "Cost": "{{Money|42,500}}",
+          "Image": "[[File:Turret5.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}"
         }
       }
     ]
@@ -796,457 +325,122 @@
     {
       "mode": "regular",
       "level": 1,
-      "title": "Soul Forge",
-      "cost": "{{Money|3,950}}",
-      "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.2 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+20 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces [[Skeleton (Unit)|Skeleton]]\n\n•24 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•120 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|2,716}}",
+      "title": "Stronger Ammunition",
+      "cost": "{{Money|3,750}}",
+      "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+5",
+          "delta": "+8",
           "stat": "Damage",
-          "text": "+5 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "1.2",
-          "to": "1.1",
-          "stat": "Firerate",
-          "text": "1.2 > 1.1 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+20",
-          "stat": "Soul Meter",
-          "text": "+20 Soul Meter"
-        },
-        {
-          "kind": "set",
-          "from": "1.5",
-          "to": "1",
-          "stat": "Build Time",
-          "text": "1.5 > 1 Build Time"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces Skeleton"
-        },
-        {
-          "kind": "note",
-          "text": "24 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.7 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "6 Range"
-        },
-        {
-          "kind": "note",
-          "text": "120 Health"
-        },
-        {
-          "kind": "note",
-          "text": "3.3 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Soul Forge",
-        "Cost": "{{Money|3,950}}",
-        "Image": "[[File:NecromancerLevel1.png|100px]]",
-        "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.2 > 1.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+20 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = Replaces [[Skeleton (Unit)|Skeleton]]\n\n•24 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•120 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|2,716}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 2,
-      "title": "Skull Centrifuge",
-      "cost": "{{Money|11,320}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Max Gravestone\n\n+55 Soul Meter\n\n+2 [[Sword Skeleton]] Limit\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|6,490}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Range",
-          "text": "+3 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Damage",
-          "text": "+10 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Max Gravestone",
-          "text": "+3 Max Gravestone"
-        },
-        {
-          "kind": "delta",
-          "delta": "+55",
-          "stat": "Soul Meter",
-          "text": "+55 Soul Meter"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Sword Skeleton Limit",
-          "text": "+2 Sword Skeleton Limit"
-        },
-        {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range"
-        },
-        {
-          "kind": "note",
-          "text": "1,200 Health"
-        },
-        {
-          "kind": "note",
-          "text": "3.5 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 2",
-        "Upgrade Title": "Skull Centrifuge",
-        "Cost": "{{Money|11,320}}",
-        "Image": "[[File:NecromancerLevel2.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Max Gravestone\n\n+55 Soul Meter\n\n+2 [[Sword Skeleton]] Limit\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|6,490}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 3,
-      "title": "Graveward",
-      "cost": "{{Money|26,650}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 2 Limit, 15.38% Chance\n\n•[[Sword Skeleton]] - 2 Limit, 38.46% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 23.08% Chance\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 1 Limit, 23.08% Chance\n\n+225 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n75 > 60 Projectile Speed [[File:SpeedIcon.png|20px|Projectile Speed]]\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•15% Defense {{Defense}}\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•235 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|15,373}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Range",
-          "text": "+2 Range"
-        },
-        {
-          "kind": "set",
-          "from": "1.1",
-          "to": "0.8",
-          "stat": "Firerate",
-          "text": "1.1 > 0.8 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+15",
-          "stat": "Damage",
-          "text": "+15 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "1",
-          "to": "2",
-          "stat": "Max Gravestone Level",
-          "text": "1 > 2 Max Gravestone Level"
-        },
-        {
-          "kind": "note",
-          "text": "Giant Skeleton - 2 Limit, 15.38% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Sword Skeleton - 2 Limit, 38.46% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Skeleton Knight - 1 Limit, 23.08% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Hallow Guard - 1 Limit, 23.08% Chance"
-        },
-        {
-          "kind": "delta",
-          "delta": "+225",
-          "stat": "Soul Meter",
-          "text": "+225 Soul Meter"
-        },
-        {
-          "kind": "set",
-          "from": "1",
-          "to": "0.8",
-          "stat": "Build Time",
-          "text": "1 > 0.8 Build Time"
-        },
-        {
-          "kind": "set",
-          "from": "75",
-          "to": "60",
-          "stat": "Projectile Speed",
-          "text": "75 > 60 Projectile Speed"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.7 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "15% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "6 Range"
-        },
-        {
-          "kind": "note",
-          "text": "235 Health"
-        },
-        {
-          "kind": "note",
-          "text": "3.3 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range"
-        },
-        {
-          "kind": "note",
-          "text": "2,000 Health"
-        },
-        {
-          "kind": "note",
-          "text": "15% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "3.5 Speed }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Graveward",
-        "Cost": "{{Money|26,650}}",
-        "Image": "[[File:NecromancerLevel3.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.1 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 2 Limit, 15.38% Chance\n\n•[[Sword Skeleton]] - 2 Limit, 38.46% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 23.08% Chance\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 1 Limit, 23.08% Chance\n\n+225 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n75 > 60 Projectile Speed [[File:SpeedIcon.png|20px|Projectile Speed]]\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •87 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.7 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•15% Defense {{Defense}}\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•235 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.3 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|15,373}}"
-      }
-    },
-    {
-      "mode": "regular",
-      "level": 4,
-      "title": "Apostle Of Hades",
-      "cost": "{{Money|65,000}}",
-      "information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+8 Range [[File:Range Icon.png|20px|Range]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+500 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 3 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 5 Limit, 40% Chance\n\n+1,215 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•25% Defense {{Defense}}\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n\nSell Price changes to {{Money|37,040}}",
-      "claims": [
-        {
-          "kind": "set",
-          "from": "0.8",
-          "to": "0.4",
-          "stat": "Firerate",
-          "text": "0.8 > 0.4 Firerate"
+          "text": "+8 Damage"
         },
         {
           "kind": "grant",
           "stat": "Lead Detection",
           "text": "+Lead Detection"
-        },
-        {
-          "kind": "delta",
-          "delta": "+8",
-          "stat": "Range",
-          "text": "+8 Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "-17",
-          "stat": "Damage",
-          "text": "-17 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Max Hits",
-          "text": "+2 Max Hits"
-        },
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Max Gravestone",
-          "text": "+3 Max Gravestone"
-        },
-        {
-          "kind": "note",
-          "text": "Pierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range."
-        },
-        {
-          "kind": "delta",
-          "delta": "+500",
-          "stat": "Gravestone Explosion Damage",
-          "text": "+500 Gravestone Explosion Damage"
-        },
-        {
-          "kind": "note",
-          "text": "5 Gravestone Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "3 Gravestone Explosion Max Hits"
-        },
-        {
-          "kind": "set",
-          "from": "2",
-          "to": "3",
-          "stat": "Max Gravestone Level",
-          "text": "2 > 3 Max Gravestone Level"
-        },
-        {
-          "kind": "note",
-          "text": "Hallow Guard - 3 Limit, 40% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Executioner Skeleton - 1 Limit, 20% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Skeleton Knight - 5 Limit, 40% Chance"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1,215",
-          "stat": "Soul Meter",
-          "text": "+1,215 Soul Meter"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "25% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "6 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "0.1 Tick"
-        },
-        {
-          "kind": "note",
-          "text": "32 Range"
-        },
-        {
-          "kind": "note",
-          "text": "3,000 Health"
-        },
-        {
-          "kind": "note",
-          "text": "2 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Lead Detection }}"
-        }
-      ],
-      "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Apostle Of Hades",
-        "Cost": "{{Money|65,000}}",
-        "Image": "[[File:NecromancerLevel4.png|100px]]",
-        "Information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+8 Range [[File:Range Icon.png|20px|Range]]\n\n-17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+500 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 3 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 5 Limit, 40% Chance\n\n+1,215 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•25% Defense {{Defense}}\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n\nSell Price changes to {{Money|37,040}}"
-      }
-    },
-    {
-      "mode": "pvp",
-      "level": 1,
-      "title": "Spirit Tuning",
-      "cost": "{{Money|1,000}}",
-      "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+2 Max Gravestone\n\n+10 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n\nSell Price changes to {{Money|833}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Damage",
-          "text": "+2 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "1.5",
-          "to": "1.2",
-          "stat": "Firerate",
-          "text": "1.5 > 1.2 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Hits",
-          "text": "+1 Max Hits"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Max Gravestone",
-          "text": "+2 Max Gravestone"
-        },
-        {
-          "kind": "delta",
-          "delta": "+10",
-          "stat": "Soul Meter",
-          "text": "+10 Soul Meter"
-        },
-        {
-          "kind": "set",
-          "from": "1.5",
-          "to": "1",
-          "stat": "Build Time",
-          "text": "1.5 > 1 Build Time"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Spirit Tuning",
-        "Cost": "{{Money|1,000}}",
-        "Image": "[[File:NecromancerLevel1.png|100px]]",
-        "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.5 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+1 Max Hits\n\n+2 Max Gravestone\n\n+10 Soul Meter\n\n1.5 > 1 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n\nSell Price changes to {{Money|833}}"
+        "Upgrade Title": "Stronger Ammunition",
+        "Cost": "{{Money|3,750}}",
+        "Image": "[[File:Radar.png|100px]]",
+        "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|3,833}}"
       }
     },
     {
-      "mode": "pvp",
+      "mode": "regular",
       "level": 2,
-      "title": "Soul Forge",
-      "cost": "{{Money|3,500}}",
-      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Gravestone Spawn Count\n\n+2 Max Gravestone\n\n+36 Soul Meter\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•90 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•3 Limit per Summon\n\n•30% Chance}}\n\n\nSell Price changes to {{Money|2,000}}",
+      "title": "Radar",
+      "cost": "{{Money|7,500}}",
+      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Range",
+          "text": "+3 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.4",
+          "to": "0.26",
+          "stat": "Firerate",
+          "text": "0.4 > 0.26 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 2",
+        "Upgrade Title": "Radar",
+        "Cost": "{{Money|7,500}}",
+        "Image": "[[File:Radar.png|100px]]",
+        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.4 > 0.26 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|6,333}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 3,
+      "title": "Dual Turret",
+      "cost": "{{Money|20,000}}",
+      "information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+7",
+          "stat": "Damage",
+          "text": "+7 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.26",
+          "to": "0.16",
+          "stat": "Firerate",
+          "text": "0.26 > 0.16 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Upgrade Title": "Dual Turret",
+        "Cost": "{{Money|20,000}}",
+        "Image": "[[File:Turret3.png|100px]]",
+        "Information": "+7 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.26 > 0.16 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|13,000}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 4,
+      "title": "Even Heavier Ammo",
+      "cost": "{{Money|35,000}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+22",
+          "stat": "Damage",
+          "text": "+22 Damage"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Upgrade Title": "Even Heavier Ammo",
+        "Cost": "{{Money|35,000}}",
+        "Image": "[[File:Turret4.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+22 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|24,666}}"
+      }
+    },
+    {
+      "mode": "regular",
+      "level": 5,
+      "title": "XR-200 Turret",
+      "cost": "{{Money|65,000}}",
+      "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}",
       "claims": [
         {
           "kind": "delta",
@@ -1256,75 +450,100 @@
         },
         {
           "kind": "delta",
-          "delta": "+1",
-          "stat": "Gravestone Spawn Count",
-          "text": "+1 Gravestone Spawn Count"
+          "delta": "+11",
+          "stat": "Damage",
+          "text": "+11 Damage"
         },
         {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Max Gravestone",
-          "text": "+2 Max Gravestone"
-        },
+          "kind": "set",
+          "from": "0.16",
+          "to": "0.12",
+          "stat": "Firerate",
+          "text": "0.16 > 0.12 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "XR-200 Turret",
+        "Cost": "{{Money|65,000}}",
+        "Image": "[[File:Turret5.png|100px]]",
+        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+11 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.16 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|46,333}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 1,
+      "title": "Radar",
+      "cost": "{{Money|1,000}}",
+      "information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}",
+      "claims": [
         {
           "kind": "delta",
-          "delta": "+36",
-          "stat": "Soul Meter",
-          "text": "+36 Soul Meter"
+          "delta": "+4.5",
+          "stat": "Range",
+          "text": "+4.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "0.35",
+          "to": "0.3",
+          "stat": "Firerate",
+          "text": "0.35 > 0.3 Firerate"
         },
         {
           "kind": "grant",
           "stat": "Hidden Detection",
           "text": "+Hidden Detection"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Radar",
+        "Cost": "{{Money|1,000}}",
+        "Image": "[[File:Radar.png|100px]]",
+        "Information": "+4.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.35 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell Price changes to {{Money|1,666}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 2,
+      "title": "Stronger Ammunition",
+      "cost": "{{Money|2,750}}",
+      "information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+4",
+          "stat": "Damage",
+          "text": "+4 Damage"
         },
         {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.8 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "6 Range"
-        },
-        {
-          "kind": "note",
-          "text": "90 Health"
-        },
-        {
-          "kind": "note",
-          "text": "3.5 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "3 Limit per Summon"
-        },
-        {
-          "kind": "note",
-          "text": "30% Chance}}"
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Soul Forge",
-        "Cost": "{{Money|3,500}}",
-        "Image": "[[File:NecromancerLevel2.png|100px]]",
-        "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Gravestone Spawn Count\n\n+2 Max Gravestone\n\n+36 Soul Meter\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n{{CollapsibleUpgrade|Title = Spawns Sword Skeleton|Description = •20 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•90 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•3 Limit per Summon\n\n•30% Chance}}\n\n\nSell Price changes to {{Money|2,000}}"
+        "Upgrade Title": "Stronger Ammunition",
+        "Cost": "{{Money|2,750}}",
+        "Image": "[[File:Radar.png|100px]]",
+        "Information": "+4 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n\nSell Price changes to {{Money|2,583}}"
       }
     },
     {
       "mode": "pvp",
       "level": 3,
-      "title": "Skull Centrifuge",
-      "cost": "{{Money|10,000}}",
-      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 1 Limit, 20% Chance\n\n•[[Sword Skeleton]] - 4 Limit, 50% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 30% Chance\n\n+224 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,333}}",
+      "title": "Dual Turret",
+      "cost": "{{Money|9,000}}",
+      "information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}",
       "claims": [
+        {
+          "kind": "delta",
+          "delta": "-1",
+          "stat": "Damage",
+          "text": "-1 Damage"
+        },
         {
           "kind": "delta",
           "delta": "+2",
@@ -1333,493 +552,139 @@
         },
         {
           "kind": "set",
-          "from": "1.2",
-          "to": "0.8",
+          "from": "0.3",
+          "to": "0.15",
           "stat": "Firerate",
-          "text": "1.2 > 0.8 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+18",
-          "stat": "Damage",
-          "text": "+18 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "1",
-          "to": "2",
-          "stat": "Max Gravestone Level",
-          "text": "1 > 2 Max Gravestone Level"
-        },
-        {
-          "kind": "note",
-          "text": "Giant Skeleton - 1 Limit, 20% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Sword Skeleton - 4 Limit, 50% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Skeleton Knight - 1 Limit, 30% Chance"
-        },
-        {
-          "kind": "delta",
-          "delta": "+224",
-          "stat": "Soul Meter",
-          "text": "+224 Soul Meter"
-        },
-        {
-          "kind": "set",
-          "from": "1",
-          "to": "0.8",
-          "stat": "Build Time",
-          "text": "1 > 0.8 Build Time"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range"
-        },
-        {
-          "kind": "note",
-          "text": "1,200 Health"
-        },
-        {
-          "kind": "note",
-          "text": "3.5 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "0.65 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "6 Range"
-        },
-        {
-          "kind": "note",
-          "text": "250 Health"
-        },
-        {
-          "kind": "note",
-          "text": "3.5 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection }}"
+          "text": "0.3 > 0.15 Firerate"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Skull Centrifuge",
-        "Cost": "{{Money|10,000}}",
-        "Image": "[[File:NecromancerLevel3.png|100px]]",
-        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n1.2 > 0.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+18 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1 > 2 Max Gravestone Level\n\n•[[Giant Skeleton (Unit)|Giant Skeleton]] - 1 Limit, 20% Chance\n\n•[[Sword Skeleton]] - 4 Limit, 50% Chance\n\n•[[Skeleton Knight]] - 1 Limit, 30% Chance\n\n+224 Soul Meter\n\n1 > 0.8 Build Time [[File:Cooldown Icon.png|20px|Build Time]]\n\n{{CollapsibleUpgrade|Title = Spawns Giant Skeleton|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•1,200 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Skeleton Knight|Description = •90 Damage [[File:OffensiveModifier.png|20px|Damage]]\n\n•0.65 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•6 Range [[File:Range Icon.png|20px|Range]]\n\n•250 Health [[File:HealthIcon.png|20px|Health]]\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}}}\n\n\nSell Price changes to {{Money|5,333}}"
+        "Upgrade Title": "Dual Turret",
+        "Cost": "{{Money|9,000}}",
+        "Image": "[[File:Turret3.png|100px]]",
+        "Information": "-1 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|5,583}}"
       }
     },
     {
       "mode": "pvp",
       "level": 4,
-      "title": "Apostle Of Hades",
-      "cost": "{{Money|40,000}}",
-      "information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+6 Range [[File:Range Icon.png|20px|Range]]\n\n-10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+4900 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 2 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 6 Limit, 40% Chance\n\n+990 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•25% [[Defense]] {{Defense}}\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|18,666}}",
+      "title": "Even Heavier Ammo",
+      "cost": "{{Money|20,000}}",
+      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}",
       "claims": [
         {
-          "kind": "set",
-          "from": "0.8",
-          "to": "0.4",
-          "stat": "Firerate",
-          "text": "0.8 > 0.4 Firerate"
-        },
-        {
           "kind": "delta",
-          "delta": "+6",
+          "delta": "+1.5",
           "stat": "Range",
-          "text": "+6 Range"
+          "text": "+1.5 Range"
         },
         {
           "kind": "delta",
-          "delta": "-10",
+          "delta": "+14",
           "stat": "Damage",
-          "text": "-10 Damage"
-        },
-        {
-          "kind": "delta",
-          "delta": "+1",
-          "stat": "Max Hits",
-          "text": "+1 Max Hits"
-        },
-        {
-          "kind": "delta",
-          "delta": "+3",
-          "stat": "Max Gravestone",
-          "text": "+3 Max Gravestone"
-        },
-        {
-          "kind": "note",
-          "text": "Pierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range."
-        },
-        {
-          "kind": "delta",
-          "delta": "+4900",
-          "stat": "Gravestone Explosion Damage",
-          "text": "+4900 Gravestone Explosion Damage"
-        },
-        {
-          "kind": "note",
-          "text": "4 Gravestone Explosion Range"
-        },
-        {
-          "kind": "note",
-          "text": "3 Gravestone Explosion Max Hits"
-        },
-        {
-          "kind": "set",
-          "from": "2",
-          "to": "3",
-          "stat": "Max Gravestone Level",
-          "text": "2 > 3 Max Gravestone Level"
-        },
-        {
-          "kind": "note",
-          "text": "Hallow Guard - 2 Limit, 40% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Executioner Skeleton - 1 Limit, 20% Chance"
-        },
-        {
-          "kind": "note",
-          "text": "Skeleton Knight - 6 Limit, 40% Chance"
-        },
-        {
-          "kind": "delta",
-          "delta": "+990",
-          "stat": "Soul Meter",
-          "text": "+990 Soul Meter"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage"
-        },
-        {
-          "kind": "note",
-          "text": "6 Firerate"
-        },
-        {
-          "kind": "note",
-          "text": "0.1 Tick"
-        },
-        {
-          "kind": "note",
-          "text": "32 Range"
-        },
-        {
-          "kind": "note",
-          "text": "3,000 Health"
-        },
-        {
-          "kind": "note",
-          "text": "25% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "2 Speed"
-        },
-        {
-          "kind": "note",
-          "text": "Hidden Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Flying Detection"
-        },
-        {
-          "kind": "note",
-          "text": "Lead Detection }}"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range"
-        },
-        {
-          "kind": "note",
-          "text": "2,000 Health"
-        },
-        {
-          "kind": "note",
-          "text": "15% Defense"
-        },
-        {
-          "kind": "note",
-          "text": "3.5 Speed }}"
+          "text": "+14 Damage"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Apostle Of Hades",
-        "Cost": "{{Money|40,000}}",
-        "Image": "[[File:NecromancerLevel4.png|100px]]",
-        "Information": "0.8 > 0.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+6 Range [[File:Range Icon.png|20px|Range]]\n\n-10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Max Hits\n\n+3 Max Gravestone\n\nPierce attack replaced with beam attack, which can stack on one enemy if not enough enemies are in range.\n\n+4900 Gravestone Explosion Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•4 Gravestone Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•3 Gravestone Explosion Max Hits\n\n2 > 3 Max Gravestone Level\n\n•[[Hallow Guard (Unit)|Hallow Guard]] - 2 Limit, 40% Chance\n\n•[[Executioner Skeleton]] - 1 Limit, 20% Chance\n\n•[[Skeleton Knight]] - 6 Limit, 40% Chance\n\n+990 Soul Meter\n\n{{CollapsibleUpgrade|Title = Spawns Executioner Skeleton|Description = •75 Damage [[File:Damage Icon.png|20px|Damage]]\n\n•6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n•0.1 Tick [[File:Cooldown Icon.png|20px|Firerate]]\n\n•32 Range [[File:Range Icon.png|20px|Range]]\n\n•3,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•25% [[Defense]] {{Defense}}\n\n•2 Speed [[File:SpeedIcon.png|20px|Speed]]\n\n•Hidden Detection {{Hidden|Hidden Detection}}\n\n•Flying Detection {{Flying|Flying Detection}}\n\n•Lead Detection {{Lead|Lead Detection}}}}\n\n{{CollapsibleUpgrade|Title = Spawns Hallow Guard|Description = •2 Range [[File:Range Icon.png|20px|Range]]\n\n•2,000 Health [[File:HealthIcon.png|20px|Health]]\n\n•15% Defense {{Defense}}\n\n•3.5 Speed [[File:SpeedIcon.png|20px|Speed]]}}\n\n\nSell Price changes to {{Money|18,666}}"
+        "Upgrade Title": "Even Heavier Ammo",
+        "Cost": "{{Money|20,000}}",
+        "Image": "[[File:Turret4.png|100px]]",
+        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|12,250}}"
+      }
+    },
+    {
+      "mode": "pvp",
+      "level": 5,
+      "title": "XR-200 Turret",
+      "cost": "{{Money|42,500}}",
+      "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        },
+        {
+          "kind": "delta",
+          "delta": "+17",
+          "stat": "Damage",
+          "text": "+17 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.15",
+          "to": "0.12",
+          "stat": "Firerate",
+          "text": "0.15 > 0.12 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "XR-200 Turret",
+        "Cost": "{{Money|42,500}}",
+        "Image": "[[File:Turret5.png|100px]]",
+        "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|26,416}}"
       }
     }
   ],
   "statistics_tables": {
-    "regular": [
-      {
-        "level": 0,
-        "cost": 4200.0,
-        "total_cost": 4200.0,
-        "damage": 15.0,
-        "tick": null,
-        "charge_up": 1.2,
-        "cooldown": 23.0,
-        "overcharge": null,
-        "range": 1.0,
-        "dps": null
-      },
-      {
-        "level": 1,
-        "cost": 3950.0,
-        "total_cost": 8150.0,
-        "damage": 20.0,
-        "tick": null,
-        "charge_up": 1.1,
-        "cooldown": 23.0,
-        "overcharge": null,
-        "range": 1.0,
-        "dps": null
-      },
-      {
-        "level": 2,
-        "cost": 11320.0,
-        "total_cost": 19470.0,
-        "damage": 30.0,
-        "tick": null,
-        "charge_up": 1.1,
-        "cooldown": 26.0,
-        "overcharge": null,
-        "range": 1.0,
-        "dps": null
-      },
-      {
-        "level": 3,
-        "cost": 26650.0,
-        "total_cost": 46120.0,
-        "damage": 45.0,
-        "tick": null,
-        "charge_up": 0.8,
-        "cooldown": 28.0,
-        "overcharge": null,
-        "range": 1.0,
-        "dps": null
-      },
-      {
-        "level": 4,
-        "cost": 65000.0,
-        "total_cost": 111120.0,
-        "damage": 28.0,
-        "tick": 490.0,
-        "charge_up": 0.4,
-        "cooldown": 36.0,
-        "overcharge": 5.0,
-        "range": 3.0,
-        "dps": 0.04
-      },
-      {
-        "level": 1,
-        "cost": 3950.0,
-        "total_cost": 115070.0,
-        "damage": null,
-        "tick": 4.0,
-        "charge_up": null,
-        "cooldown": null,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 3,
-        "cost": 26650.0,
-        "total_cost": 141720.0,
-        "damage": 25.0,
-        "tick": 2.0,
-        "charge_up": 75.0,
-        "cooldown": 6.0,
-        "overcharge": 0.1,
-        "range": 32.0,
-        "dps": 0.001
-      }
-    ],
-    "pvp": [
-      {
-        "level": 0,
-        "cost": 1500.0,
-        "total_cost": 1500.0,
-        "damage": 10.0,
-        "tick": null,
-        "charge_up": 1.5,
-        "cooldown": 21.0,
-        "overcharge": null,
-        "range": 1.0,
-        "dps": null
-      },
-      {
-        "level": 1,
-        "cost": 1000.0,
-        "total_cost": 2500.0,
-        "damage": 12.0,
-        "tick": null,
-        "charge_up": 1.2,
-        "cooldown": 21.0,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 2,
-        "cost": 3500.0,
-        "total_cost": 6000.0,
-        "damage": 12.0,
-        "tick": null,
-        "charge_up": 1.2,
-        "cooldown": 24.0,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 3,
-        "cost": 10000.0,
-        "total_cost": 16000.0,
-        "damage": 30.0,
-        "tick": null,
-        "charge_up": 0.8,
-        "cooldown": 26.0,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 4,
-        "cost": 40000.0,
-        "total_cost": 56000.0,
-        "damage": 20.0,
-        "tick": 500.0,
-        "charge_up": 0.4,
-        "cooldown": 32.0,
-        "overcharge": 4.0,
-        "range": 3.0,
-        "dps": 0.03
-      },
-      {
-        "level": 1,
-        "cost": 1000.0,
-        "total_cost": 57000.0,
-        "damage": null,
-        "tick": 4.0,
-        "charge_up": null,
-        "cooldown": null,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 2,
-        "cost": 3500.0,
-        "total_cost": 60500.0,
-        "damage": null,
-        "tick": 3.5,
-        "charge_up": null,
-        "cooldown": null,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 3,
-        "cost": 10000.0,
-        "total_cost": 70500.0,
-        "damage": 15.0,
-        "tick": 3.5,
-        "charge_up": null,
-        "cooldown": null,
-        "overcharge": null,
-        "range": 2.0,
-        "dps": null
-      },
-      {
-        "level": 3,
-        "cost": 10000.0,
-        "total_cost": 80500.0,
-        "damage": 25.0,
-        "tick": 2.0,
-        "charge_up": 75.0,
-        "cooldown": 6.0,
-        "overcharge": 0.1,
-        "range": 32.0,
-        "dps": 0.001
-      }
-    ]
+    "regular": [],
+    "pvp": []
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\">At Level 0, the projectile fired by the '''Necromancer''' can indirectly hit a hidden enemy. Additionally, the [[Skeleton (Unit)|Skeletons]] it spawns can collide with hidden enemies.</ref>",
-      "lead": "{{Attr|Lead|Level 4}} (Tower and collision only)",
-      "flying": "{{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)",
-      "immune": "Partial Debuff<ref name=\"pd\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name=\"stun\">Due to bugs.</ref>",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3"
+      "hidden": "{{Attr|Hidden|Level 0+}}",
+      "lead": "{{Attr|Lead|Level 1+}}",
+      "flying": "N/A",
+      "immune": "Partial Debuff",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)"
     },
     "pvp": {
-      "hidden": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
-      "lead": "{{Attr|Lead|Level 0+}} (Collision & Splash only)",
-      "flying": "{{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)",
-      "immune": "Partial Debuff<ref name=\"pd\"/> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name=\"stun\"/>"
+      "hidden": "{{Attr|Hidden|Level 1+}}",
+      "lead": "{{Attr|Lead|Level 2+}}",
+      "flying": "N/A",
+      "immune": "Partial Debuff",
+      "placement_limit": "five"
     }
   },
   "infoboxes": [
     {
       "name": "TowerInfobox",
       "params": {
-        "image-static": "NecromancerTowerIcon.png",
-        "image-dynamic": "NecromancerDynamic.png",
-        "unlockcost": "{{Gem|2,250}}",
-        "levelrequirement": "{{Level|50}}",
-        "role": "Defense",
+        "title": "Turret",
+        "image-static": "TurretIcon.png",
+        "image-dynamic": "TurretDynamic.png",
+        "unlockcost": "{{Level|50}} or {{Robux|340}}",
+        "role": "Offense",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3",
-        "basecost": "{{Money|4,200}}",
-        "basesellingprice": "{{Money|1,400}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]15",
-        "damagetype": "Single<br/>Multi-target (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.2",
-        "baserange": "[[File:Range Icon.png|20px|Range]]23<br/>[[File:BuildRange.png|20px|Gravestone Range]]6.5 (Gravestone Range)",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\">At Level 0, the projectile fired by the '''Necromancer''' can indirectly hit a hidden enemy. Additionally, the [[Skeleton (Unit)|Skeletons]] it spawns can collide with hidden enemies.</ref>",
-        "lead_detection": "{{Attr|Lead|Level 4}} (Tower and collision only)",
-        "flying_detection": "{{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)",
-        "immune": "Partial Debuff<ref name=\"pd\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name=\"stun\">Due to bugs.</ref>",
-        "footprint": "1.5",
-        "pvp_basecost": "{{Money|1,500}}",
-        "pvp_basesellingprice": "{{Money|500}}",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
+        "basecost": "{{Money|7,750}}",
+        "basesellingprice": "{{Money|2,583}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]20",
+        "damagetype": "Single",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.4",
+        "baserange": "[[File:Range Icon.png|20px|Range]]19",
+        "hidden_detection": "{{Attr|Hidden|Level 0+}}",
+        "lead_detection": "{{Attr|Lead|Level 1+}}",
+        "flying_detection": "N/A",
+        "immune": "Partial Debuff",
+        "footprint": "Large (2)",
+        "pvp_basecost": "{{Money|4,000}}",
+        "pvp_basesellingprice": "{{Money|1,333}}",
         "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
-        "pvp_damagetype": "Single (Level 0)<br/>Pierce (Level 1-3)<br/>Multi-target (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.5",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]21<br/>[[File:BuildRange.png|20px|Gravestone Range]]6.5 (Gravestone Range)",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
-        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision & Splash only)",
-        "pvp_flying_detection": "{{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)",
-        "pvp_immune": "Partial Debuff<ref name=\"pd\"/> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name=\"stun\"/>",
-        "pvp_footprint": "1.5",
-        "tooltip-1": "A mid-late game tower that fires piercing magical projectiles. Dealing damage creates tombstones which can then be triggered to summon a variety of different skeletal minions.",
-        "tooltip-2": "Capable of targeting [[flying]] and [[Hidden (Attribute)|hidden]] enemies."
+        "pvp_damagetype": "Single",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.35",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]16.5",
+        "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+        "pvp_lead_detection": "{{Attr|Lead|Level 2+}}",
+        "pvp_flying_detection": "N/A",
+        "pvp_immune": "Partial Debuff",
+        "pvp_footprint": "2",
+        "tooltip-1": "An expensive high damage dealing tower with great range. Exceptional stats make up for low placement limit.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     }
@@ -1827,39 +692,39 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "image-static": "NecromancerTowerIcon.png",
-      "image-dynamic": "NecromancerDynamic.png",
-      "unlockcost": "{{Gem|2,250}}",
-      "levelrequirement": "{{Level|50}}",
-      "role": "Defense",
+      "title": "Turret",
+      "image-static": "TurretIcon.png",
+      "image-dynamic": "TurretDynamic.png",
+      "unlockcost": "{{Level|50}} or {{Robux|340}}",
+      "role": "Offense",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3",
-      "basecost": "{{Money|4,200}}",
-      "basesellingprice": "{{Money|1,400}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]15",
-      "damagetype": "Single<br/>Multi-target (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.2",
-      "baserange": "[[File:Range Icon.png|20px|Range]]23<br/>[[File:BuildRange.png|20px|Gravestone Range]]6.5 (Gravestone Range)",
-      "hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\">At Level 0, the projectile fired by the '''Necromancer''' can indirectly hit a hidden enemy. Additionally, the [[Skeleton (Unit)|Skeletons]] it spawns can collide with hidden enemies.</ref>",
-      "lead_detection": "{{Attr|Lead|Level 4}} (Tower and collision only)",
-      "flying_detection": "{{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)",
-      "immune": "Partial Debuff<ref name=\"pd\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name=\"stun\">Due to bugs.</ref>",
-      "footprint": "1.5",
-      "pvp_basecost": "{{Money|1,500}}",
-      "pvp_basesellingprice": "{{Money|500}}",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]3 (Regular)<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 (PVP)",
+      "basecost": "{{Money|7,750}}",
+      "basesellingprice": "{{Money|2,583}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]20",
+      "damagetype": "Single",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.4",
+      "baserange": "[[File:Range Icon.png|20px|Range]]19",
+      "hidden_detection": "{{Attr|Hidden|Level 0+}}",
+      "lead_detection": "{{Attr|Lead|Level 1+}}",
+      "flying_detection": "N/A",
+      "immune": "Partial Debuff",
+      "footprint": "Large (2)",
+      "pvp_basecost": "{{Money|4,000}}",
+      "pvp_basesellingprice": "{{Money|1,333}}",
       "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
-      "pvp_damagetype": "Single (Level 0)<br/>Pierce (Level 1-3)<br/>Multi-target (Level 4)<br/>[[Splash Damage|Splash]] (Level 4)",
-      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]1.5",
-      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]21<br/>[[File:BuildRange.png|20px|Gravestone Range]]6.5 (Gravestone Range)",
-      "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}<ref name=\"hd\"/>",
-      "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision & Splash only)",
-      "pvp_flying_detection": "{{Attr|Flying|Level 0+}} (Tower & [[Executioner Skeleton]] only)",
-      "pvp_immune": "Partial Debuff<ref name=\"pd\"/> ({{Color|DuckyRevenge|Duck}} only)<br/>Stun<ref name=\"stun\"/>",
-      "pvp_footprint": "1.5",
-      "tooltip-1": "A mid-late game tower that fires piercing magical projectiles. Dealing damage creates tombstones which can then be triggered to summon a variety of different skeletal minions.",
-      "tooltip-2": "Capable of targeting [[flying]] and [[Hidden (Attribute)|hidden]] enemies."
+      "pvp_damagetype": "Single",
+      "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.35",
+      "pvp_baserange": "[[File:Range Icon.png|20px|Range]]16.5",
+      "pvp_hidden_detection": "{{Attr|Hidden|Level 1+}}",
+      "pvp_lead_detection": "{{Attr|Lead|Level 2+}}",
+      "pvp_flying_detection": "N/A",
+      "pvp_immune": "Partial Debuff",
+      "pvp_footprint": "2",
+      "tooltip-1": "An expensive high damage dealing tower with great range. Exceptional stats make up for low placement limit.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] and [[Lead (Attribute)|lead]] enemies."
     },
     "positional": []
   },
-  "template_count": 257
+  "template_count": 287
 }
