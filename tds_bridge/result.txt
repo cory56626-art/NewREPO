@@ -1,261 +1,266 @@
 {{Tabs}}
+{{SameName|Executioner|[[Executioner|Tower]] • [[Executioner (Lunar Overture)|Lunar Overture]] • [[Executioner (Pizza Party)|Pizza Party]] • [[Executioner (Narrator)|Narrator]]}}
+{{EventObtain|date = 26th of January 2022|event = [[Solar Eclipse Event]]}}
+{{For|other uses of [[Executioner (Disambiguation)|Executioner]]}}
 {{TowerInfobox
-|title = Tesla
-|image-static = TeslaIcon.png
-|image-dynamic = TeslaDynamic.png
-|unlockcost = {{Coins|6,000}}
-|role = Defense
+|title = Executioner
+|image-static = DefaultExecutioner2.png
+|image-dynamic = ExecutionerDynamic.png
+|image-dynamic-start = 22
+|unlockcost = Triumph [[Totality Tower]]
+|basecost = {{Money|1,800}}
+|basesellingprice = {{Money|816}}
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]9
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]2
-|basecost = {{Money|5,750}}
-|basesellingprice = {{Money|1897}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]55
-|damagetype = Chain<br/>[[Splash Damage|Splash]] (Level 2+)
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]2
-|baserange = [[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)
-|hidden_detection = N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>
-|lead_detection = {{Attr|Lead|Level 0+}}
-|flying_detection = {{Attr|Flying|Level 0+}}
+|role = Offensive
+|basedamage = [[File:Damage Icon.png|20px|Damage]]5
+|damagetype = Ricochet<br/>Pierce
+|basefirerate = [[File:Cooldown Icon.png|20px|Swingrate]]3
+|baserange = [[File:Range Icon.png|20px|Range]]14
+|hidden_detection = {{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>
+|lead_detection = N/A
+|flying_detection = {{Attr|Fly|Level 0+}}
 |immune = None
-|footprint = 2
-|tooltip-1 = A powerful tower that deals high damage and can stun all enemies in range with its active ability.
-|tooltip-2 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.
+|footprint = 1.5
+|tooltip-1 = A{{sic}} early-mid game tower that throws an axe that bounces across multiple enemies.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
 {{QuoteContainer|
-{{QuoteBox|A strong crowd controller with SHOCKING results! Builds up a meter to smite enemies from above|Store Description}}
+{{QuoteBox|Throws an axe that bounces between enemies, dealing tick damage to each enemy it hits.|Inventory Description}}
+{{QuoteBox|Boomerang, you always come back! Hit multiple enemies at once with area damage. (Detects flying enemies)|Former Description}}
 }}
-
+__TOC__
 ==Description==
-The '''Tesla''' is a mid-late game advanced tower which attacks enemies with chain lightning, temporarily immobilizing them. It can be bought for {{Coins|6,000}}.
+The '''Executioner''' is a ranged ground [[tower]] that was unlocked by triumphing [[Totality Tower]]. It could have also been obtained through a gamepass for {{Robux|750}} during the [[Solar Eclipse Event]]. The '''Executioner's''' most recent sale had it require {{Robux|799}} to purchase.
 
-The '''Tesla''' fires lightning at enemies in its range. This lightning will extend to as many enemies as its max hits will allow it to, hitting the closest enemy to the initial target in a range of 12 at Level 0. These enemies will be stunned when hit, which stops them from moving. [[Boss]] and [[Stun Immunity]] enemies will only get slowed down instead.
+The '''Executioner''' attacks by throwing its axe at an enemy. The axe will travel to that enemy and damage it, and then bounce to other enemies. Any enemy that is in '''Executioner's''' range when the axe is thrown may be targeted. The enemy it bounces onto depends on the '''Executioner's''' current targeting option. This axe can bounce 3 times (4 times at Level 3-4 and 7 times at Level 5). If the axe runs out of bounces or there are no enemies to bounce to, it will travel back to the '''Executioner'''. The '''Executioner's''' axe can also hit other enemies without directly targeting them if they are in its flight path, even if it used all of its bounces. However, it can only hit up to three enemies at once per axe tick. The effective firerate of the '''Executioner''' depends on when the axe returns to it; if the axe bounces multiple times or it travels long distances to its targets there will be a greater delay per attack. 
 
-At Level 2+, it gains smite, an ability activated when its meter seen in the upgrade menu is filled up by hitting multiple enemies. This will unleash thunder on the targeted enemy, dealing explosion damage to it. This being an explosion, it will deal less damage to enemies the further away they are from the center of the explosion. Additionally, it can bypass [[Defense]].
+The '''Executioner's''' high damage and ability to damage multiple enemies makes it a great tower for area of effect. However, it is very weak against singular enemies. The '''Executioner''' has hidden detection at Level 4 and flying detection at Level 0.
 
-The '''Tesla''' is an excellent option for stalling over a pretty large area, as its electric shocks can hold large crowds in place and give other towers more time to attack them, on top of dealing decent damage itself. 
-
-The '''Tesla''' has a placement limit of two per player.
+The '''Executioner''' has a placement limit of 9 per player.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Kite in the Wind|Cost = {{Money|4,314}}|Image = [[File:TeslaLevel1.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Range]]
-
-0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]
-
-+2 Max Hits
+{{Upgrade|Level = Level 1|Upgrade Title = Improved Throwing|Cost = {{Money|250}}|Image = [[File:executionerlvl1upgrd.png|100px]]|Information = 3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 
-Sell Price changes to {{Money|1,285}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Self-Sustaining Battery|Cost = {{Money|8,888}}|Image = [[File:TeslaLevel2.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]
-
-2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]
-
-{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion
-
-•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-•5 Meter}}
+Sell price changes to {{Money|333}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Double Head Axe|Cost = {{Money|750}}|Image=[[File:executionerlvl2upgrd.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
 
 
-Sell Price changes to {{Money|4,248}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Auric Quantum Cooling Cell|Cost = {{Money|18,450}}|Image = [[File:TeslaLevel3.png|100px]]|Information = 1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell price changes to {{Money|583}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Blood Seeking|Cost = {{Money|1,900}}|Image=[[File:executionerlvl3upgrd.png|100px]]|Information = +8 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]
++4 Range [[File:Range Icon.png|20px|Range]]
 
-5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-5 > 4 Meter
-
-+1 Max Hits
++1 Bounces
 
 
-Sell Price changes to {{Money|10,398}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Kimat's Bite|Cost = {{Money|44,001}}|Image = [[File:TeslaLevel4.png|100px]]|Information = 1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell price changes to {{Money|1,216}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Tactical Ops|Cost = {{Money|4,500}}|Image=[[File:executionerlvl4upgrd.png|100px]]|Information = +17 Damage [[File:Damage Icon.png|20px|Damage]]
 
-0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]
-
-+1.5 Range [[File:Range Icon.png|20px|Range]]
-
-+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]
-
-+2 Max Hits
-
-+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]
-
-5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]
-
-4 > 3 Meter
++Hidden Detection {{Hidden|Hidden Detection}}
 
 
-Sell Price changes to {{Money|25,065}}}}
+Sell price changes to {{Money|2,716}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Head Chopping|Cost = {{Money|12,500}}|Image=[[File:executionerlvl5upgrd.png|100px]]|Information = +45 Damage [[File:Damage Icon.png|20px|Damage]]
+
++3 Bounces
+
+
+Sell price changes to {{Money|6,883}}}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
-
 {{neow|<nowiki>
 <var>
-$DPS0$ = Damage / Firerate
-$MDPS0$ = DPS * Max Hits
-$DPS2$ =  (Smite Meter * Damage + Smite Damage) / (Firerate * Smite Meter)
-$MDPS2$ = {{#expr:(Damage * Max Hits * ceil((Smite Meter / Max Hits)) + Smite Damage) / (Firerate * ceil((Smite Meter / Max Hits))) round 2}}
+$DPS$ = Damage / Firerate
 $CE$ = Total Cost / DPS
-$MCE$ = Total Cost / Max DPS
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 2000; 1856; 8888; 18450; 44001
-$FSE-DETECTION$ = ; 0; 0
-$FSE-UPGRADE$ = Kite in the Wind; Self-Sustaining Battery; Auric Quantum Cooling Cell; Kimat's Bite
-$FSE-UPGRADEICON$ = 91355001385794; 75051178841119; 106313416363708; 109247042334349
-$FSE-META$ = Advanced; File:TeslaIcon.png
-$DREF$ = <ref>For Level 2+, the '''Smite Damage''' is also included, assuming it only hits the targeted enemy and deals full damage to it.<br>Calculated as (Smite Meter × Damage + Smite Damage) ÷ (Firerate × Smite Meter).</ref>
-$MREF$ = <ref>Accounts for every enemy being hit.<br>Calculated as (Damage × Max Hits * [Smite Meter ÷ Max Hits] + Smite Damage) ÷ (Firerate × [Smite Meter ÷ Max Hits]) for Level 2+, where in both cases of Smite Meter ÷ Max Hits, the result of that (such as 3 divided by 8 resulting in 0.375) has to be rounded up (in the previous example, that turns 0.375 to 1).</ref>
+$COST$ = 750; 250; 750; 1900; 4500; 12500
+$FSE-DETECTION$ = 2; ;
+$FSE-UPGRADE$ = Improved Throwing; Double Head Axe; Blood Seeking; Tactical Ops; Head Chopping
+$FSE-UPGRADEICON$ = 129697807; 542098553; 6426220009; 27386833; 143769378
+$FSE-META$ = Exclusive; File:DefaultExecutioner2.png
+$FREF$ = <ref>The firerate assumes that the axe returns on time.</ref>
+$DREF$ = <ref>DPS assumes that only one enemy is hit per throw.<br/>DPS also assumes that the axe returns on time.</ref>
 $R$ = $FNC-RECURSION$
 </var>
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Smite Damage !! Firerate !! Range !! Smite Radius !! Smite Meter !! Shock Time !! Chain Range !! Max Hits !! DPS$DREF$ !! Max DPS$MREF$ !! Cost Efficiency !! Max Cost Efficiency
+! Level !! Cost !! Total Cost !! Damage !! Firerate$FREF$ !! Tick !! Bounces !! Max Hits !! Range !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 15 || N/A || 2 || 17 || N/A || N/A || 0.15 || 12 || 3 || $DPS0$ || $MDPS0$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 5 || 3 || 0.15 || 3 || 3 || 14 || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 20 || N/A || 2 || 17 || N/A || N/A || 0.25 || 12 || 5 || $DPS0$ || $MDPS0$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 1 || $R$ || $R$ || 5 || 2 || 0.15 || 3 || 3 || 14 || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 20 || 70 || 1.8 || 18.5 || 5 || 5 || 0.25 || 16 || 5 || $DPS2$ || $MDPS2$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 2 || $R$ || $R$ || 10 || 2 || 0.15 || 3 || 3 || 14 || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 20 || 85 || 1.4 || 18.5 || 5.5 || 4 || 0.25 || 16 || 6 || $DPS2$ || $MDPS2$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 3 || $R$ || $R$ || 18 || 2 || 0.15 || 4 || 3 || 18 || $DPS$ || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 20 || 140 || 1.2 || 20 || 7 || 3 || 0.3 || 20 || 8 || $DPS2$ || $MDPS2$ || {{Money|$CE$}} || {{Money|$MCE$}}
+| 4 || $R$ || $R$ || 35 || 2 || 0.15 || 4 || 3 || 18 || $DPS$ || {{Money|$CE$}}
+|-
+| 5 || $R$ || $R$ || 80 || 2 || 0.15 || 7 || 3 || 18 || $DPS$ || {{Money|$CE$}}
 |}
 </div>
 </nowiki>}}
 
 ==Skins==
-{| class="light-table align-center" style="width:500px; margin:0 auto"
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:GardenTeslaIconIG.png|175px]]
-|[[File:VoidborneTeslaIconIG.png|175px]]
+|[[File:EclipseExecutioner.png|175px]]
+|[[File:VanquisherExecutionerIcon.png|175px]]
+|[[File:HeartbreakExecutionerIconIG.png|175px]]
 |-
 !Skin
-|{{Color|SpringFrenzy|Garden}}
-|{{Color|Void|Voidborne}}
+|{{Color|Eclipse|Eclipse}}
+|{{Color|StarWars|Vanquisher}}
+|{{Color|Lovestruck|Heartbreak}}
 |-
 !Rarity
-|{{Color|Legendary}}
+|{{Color|Event}}
+|{{Color|Rare}}
 |{{Color|Rare}}
 |-
 !Daily Store Cost
 |N/A
+|{{Coins|3,000}}
 |N/A
 |-
 !Obtained From
-|[[Spring Frenzy Battle Pass]]
-|[[Void Crate]]
+|Owning '''Executioner''' before 24th of November 2023
+|[[Daily Store#Daily Skin Store|Daily Skin Store]]
+|[[Lovestruck Crate]],<br/>''Romantic Reaper'' [[Mission Quests|Mission Quest]]
 |}
 
 ==Strategy==
-*The '''Tesla''' can be an effective mid to late-game AOE tower due to its chaining.
-**While its range is rather average, its lightning has a high chain range, allowing it to chain to enemies that are very far away, though it still needs an enemy to attack in its main range for that to happen.
-**Its shock allows it to keep enemies in its and other tower's range for longer, allowing it to deal more damage to them.
-*The '''Tesla''' is essentially a larger version of the [[Electroshocker]], with a much higher chain radius. However, the '''Tesla''' has slightly less single target DPS and worse single target value compared to the [[Electroshocker]], while being able to hit more enemies. This means that the '''Tesla''' is much more effective against hordes.
-**Moreover, the '''Tesla''' has a much higher shock time, making it more better for stunning enemies and crowds than the [[Electroshocker]]. 
-*At Level 2, the '''Tesla''' unlocks smite, which unleashes thunder on the targeted enemy once a damage meter is filled up.
-**This thunder creates an explosion, meaning it bypasses [[Defense]], making the '''Tesla''' more effective against such enemies.
-**While the smite does have a small explosion radius, the shock applied by its main attack will help with keeping enemies close to each other, allowing the '''Tesla''' to hit more enemies at once.
-*The '''Tesla''' shocks enemies when they are hit by its lightning, allowing it to be used as a stalling tower.
-**Do note that enemies with the [[Stun Immunity]] or [[Boss]] are only slowed down instead.
-*The '''Tesla''' can detect [[Flying]] and [[Lead (Attribute)|Lead]] enemies, making it useful against hordes of such enemies.
-**While it does not have [[Hidden (Attribute)|Hidden]], its lightning can still chain to them if they are in its chain range, though this requires other enemies that can be targeted.
-***Similarly, its explosion from smite also can hit these enemies.
+*Because of how the '''Executioner''' works, the axe may take longer to return to it, increasing its firerate.
+**Because of this, the [[Commander]] will be less effective or have no effect on the '''Executioner's''' firerate if the projectile travel time is longer than the firerate.
+*Each hit of the '''Executioner's''' axe can trigger a firework from the [[Firework Technician]].
+**Since usually the axe will be hitting multiple times, it will drastically increase the odds of getting a firework by sheer quantity, which will also greatly increase the '''Executioner's''' damage output.
+*The targeting option of the '''Executioner''' affects what enemy its axe will bounce onto. Certain targeting options will allow the '''Executioner's''' axe to hit more enemies, increasing its DPS.
+**Setting the '''Executioner's''' targeting to ''Farthest'' will make its axe bounce onto enemies the furthest distance away from the '''Executioner''', making it travel on a longer route, which gives it more time to hit enemies.
+*Due to the '''Executioner's''' ability to damage multiple enemies, this can be used as a great tower to clear out hordes of weaker enemies and even minor bosses at Level 5.
+*The '''Executioner''' may damage an enemy more than once, effectively increasing its DPS.
+*The '''Executioner''' should be placed far away from the path, as it makes its axe travel on a longer route, giving it time to attack more enemies.
+**The '''Executioner's''' range can be increased by the [[DJ Booth]].
+**If the '''Executioner''' is placed next to a path, it may not be able to hit an enemy that is next to it.
+*The '''Executioner''' gains hidden detection at Level 4, however because of how expensive it is to upgrade it to that level, it is recommended to bring other towers with cheap hidden detection, if you are planning to use this early on during the game.
+**Later on in the game, the '''Executioner''' can deal with hordes of high health hidden enemies, like the [[Soul]] and [[Shadow Boss]].
+**While the '''Executioner''' can indirectly damage hidden enemies before Level 4 through bouncing, this is unreliable and unlikely to eliminate many of them.
+*The '''Executioner''' can do well against the [[Mystery]], as it can both damage the [[Mystery]] and the enemy it spawned if you are lucky enough.
+*The '''Executioner''' can detect flying enemies, making it useful in [[Hardcore Mode|Hardcore mode]] against the [[Balloon]] and in [[Pizza Party]] against [[Balloon Kid]]s.
+**However, the '''Executioner''' cannot damage lead enemies, making it useless against the [[Lead Balloon]].
+*Towers that can slow down enemies, like the [[Electroshocker]], [[Toxic Gunner]] or [[Sledger]] are very useful with the '''Executioner''', as they give it more time to damage enemies.
 
 ==Trivia==
-*The Level 1 has two references:
-**The upgrade cost is a reference to [[wp:Nikola Tesla|Nikola Tesla]]'s birth year.
-**The upgrade name "''Kite in the Wind''" is a reference to [[wp:Benjamin Franklin|Benjamin Franklin]]'s [[wp:Kite experiment|Kite experiment]].
-*The Level 3 upgrade name is likely a reference to the [https://calamitymod.wiki.gg/wiki/The_Codebreaker#Components final upgrade for the Codebreaker] in the ''Terraria Calamity'' mod.
-**In addition, the overall color scheme resembles [https://calamitymod.wiki.gg/wiki/Auric_Bar auric] material from the mod.
-*The Level 4 upgrade name is a reference to [[w:c:callofduty:Staff of Lightning|Kimat's Bite]] from ''Call of Duty'' series.
-*The '''Tesla''' tower was originally set to release in September of 2025, but was delayed to November of 2025, later being delayed to its current release date of 28th of January 2026.
-**Stated reasons for the delays were the developers not being satisfied with the design and balancing of the tower<ref>[[File:TeslaDelayReason1.png|280px]]<br/>https://discord.com/channels/587355301083349002/664997359071002637/1417226801192636536 (Tower Defense Simulator Server)</ref> and making sure it is unique from [[Electroshocker]].<ref>[[File:TeslaDelayReason2.png|280px]]<br/>https://discord.com/channels/735394249863987241/735394249863987244/1463595406477885440 (Tower Defense Simulator Wiki Server)</ref>
-**As stated by the developers, the '''Tesla''' tower was originally meant to be an intermediate tower. It was likely shifted to advanced due to its uniqueness and higher damage as opposed to the [[Electroshocker]].
-*The '''Tesla''' tower is likely inspired by earlier versions of [[Electroshocker]] which used a tesla gun at later levels.<ref>https://discord.com/channels/587355301083349002/664903629546717218/1441270727893585951</ref>
-**The trailer for the '''Tesla''' tower refers to the tesla it is using as something which has been catching dust for a while, implying that the '''Tesla''' tower is potentially using the [[Electroshocker]]'s old teslas.
-*Strangely, '''Tesla's''' tooltips refer to ''Smite'' as an active ability even though the ability happens automatically.
+*The '''Executioner''' is the second ground tower that can detect flying enemies, with the first being the [[Hunter]].
+*The '''Executioner''' may have based been on the [[w:c:clashroyale:Executioner|Executioner]] card from ''Clash Royale'' and the [[w:c:bloons:Boomerang Thrower|Boomerang Thrower]] from the ''Bloons Tower Defense'' game series.
+**The store description of the '''Executioner''' is a reference to the ''Avatar: The Last Airbender'' franchise.
+**The '''Executioner's''' flying detection may have also been based on the [[w:c:clashroyale:Executioner|Executioner]] card's ability to attack air troops.
+*The '''Executioner''' is planned to be reworked in the third quarter of 2026.
 
 ==Update History==
-''For previous cosmetic variations, see the [[Tesla/Gallery|gallery]] page.''
-{{scroll|text=
-*'''28 January 2026''' - [[v1.84.0]]
-**'''Tesla''' added.
-**{{Bug}} Smite damage does not update, making it always 85.
-*'''11 February 2026''' - [[v1.85.0]]
+''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
+{{scroll|text =
+*'''13 December 2021''' - [[v1.0.0]]g
+**'''Executioner''' added.
+**{{Bug}} The '''Executioner''' attacks extremely fast only at enemies in front of it and has no animation.
+**{{Bug}} Level 1 upgrade description says that the '''Executioner's''' range is increased from 14 to 14.
+**{{Bug}} Level 5 upgrade description says that the '''Executioner's''' range is increased from 18 to 18.
+**{{Bug}} Selling the '''Executioner''' before the axe hits its target makes it stay permanently at the location where it would have hit.
+*'''13 December 2021''' - [[v1.0.0]]h
+**{{Bugfix}} No longer attacks extremely fast if an enemy is in front of it.
+*'''14 December 2021''' - [[v1.0.0]]i
+**{{Bugfix}} The '''Executioner's''' axe now properly disappears after the '''Executioner''' is sold.
+*'''26 January 2022''' - [[v1.0.1]]
+**The '''Executioner''' is no longer obtainable through beating [[Totality Tower]].
+**Gamepass taken offsale.
+*'''26 January 2022''' - [[v1.0.1]]a
+**'''Executioner''' is available through a gamepass for {{Robux|750}}.
+*'''13 February 2022''' - [[v1.0.2]]
+**New skin: {{Color|Eclipse|Eclipse}}
+*'''23 February 2022''' - [[v1.0.2]]b
+**Gamepass taken offsale, '''Executioner''' is no longer obtainable.
+*'''12 March 2022''' - [[v1.1.0]]
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
 **Statistical changes:
 ***'''Base'''
-****Chain range decreased from 40 to 30.
-*'''3 April 2026''' - [[v1.88.0]]
-**New skin: {{Color|SpringFrenzy|Garden}}
-*'''22 April 2026''' - [[v1.89.0]]
-**Smite meter now tracks how many enemies were hit instead of damage dealt.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|2,500}} to {{Money|2,000}}.
-****Damage decreased from 20 to 15.
-****Firerate decreased from 2.525 to 2.025.
-****Range increased from 16 to 17.
-****Chain range decreased from 30 to 12.
-****Shock time decreased from 0.5 to 0.15.
-****Max hits decreased from 5 to 3.
+****Firerate decreased from 3.03 to 3.025.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|2.525 > 2.275|-0.25}} to 2.025.
-****Shock time changed from 0.5 to 0.15 > 0.25.
-****Max hits increased from +0 to +2.
+****Firerate changed from {{Tooltip|3.03 > 2.03|-1}} to {{Tooltip|3.025 > 2.025|-1}}.
+*'''24 November 2022''' - [[v1.5.0]]b
+**'''Executioner''' is available through a gamepass for {{Robux|800}}.
+*'''1 December 2022''' - [[v1.5.0]]d
+**'''Executioner''' gamepass taken offsale.
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to the Default skin.
+*'''21 March 2023''' - [[v1.6.3]]e
+**{{Bugfix}} Level 1 upgrade description no longer says that the '''Executioner's''' range is increased from 14 to 14.
+**{{Bugfix}} Level 5 upgrade description no longer says that the '''Executioner's''' range is increased from 18 to 18.
+*'''24 November 2023''' - [[v1.9.4]]
+**'''Executioner''' is available through a gamepass for {{Robux|750}}.
+*'''29 November 2023''' - [[v1.9.4]]a
+**'''Executioner''' gamepass taken offsale.
+*'''4 May 2024''' - [[v1.20.0]]a
+**'''Executioner''' is available through a gamepass for {{Robux|750}}.
+**New skin: {{Color|Premium|Vanquisher}}
+*'''6 May 2024''' - [[v1.20.0|v1.20.1]]
+**'''Executioner''' gamepass taken offsale.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bug}} When placed near the path, deals high amounts of damage to enemies close to it.
+**{{Bug}} If the '''Executioners''' has its firerate massively reduced and is set to attack ''Closest'' enemies, it can create an invisible axe on the path.
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''12 February 2025''' - [[v1.53.0]]
+**'''Executioner''' is now available through a gamepass for {{Robux|799}}.
+**New skin: {{Color|Lovestruck|Heartbreak}}
+**{{Bug}} '''Executioner''' completely breaks after throwing its axe.
+*'''12 February 2025''' - [[v1.53.0|v1.53.4]]
+**{{Bugfix}} '''Executioner''' no longer breaks.
+*'''18 February 2025''' - [[v1.53.0|v1.53.6]]
+**'''Executioner''' taken offsale.
+**{{Bug}} '''Executioner''' can still be gifted.
+*'''1 April 2025''' - [[v1.59.0]]
+**{{Bugfix}} Can no longer be gifted.
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**{{Bug}} '''Executioner''' axe does not visually hit enemies.
+*'''11 October 2025''' - [[V1.76.0|v1.76.3]]
+**{{Bug}} '''Executioner''' can stop attacking enemies randomly.
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit increased from 8 to 9.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|800}} to {{Money|750}}.
+****Damage increased from 4 to 5.
 ***'''Level 2'''
-****Cost increased from {{Money|8,400}} to {{Money|8,888}}.
-****Damage decreased from +15 to +0.
-****Firerate changed from {{Tooltip|2.275 > 1.825|-0.45}} to {{Tooltip|2.025 > 1.825|-0.2}}.
-****Range increased from +0.5 to +1.5.
-****Max hits decreased from +2 to +0.
-****Chain range increased from +0 to +4.
-****Shock time changed from 0.5 > 0.6 to 0.25.
-****Smite damage decreased from 70 to 85.
-****Smite radius increased from 2 to 5.
-****Smite meter decreased from 1,400 to 5.
+****Damage increased from +4 to +5.
 ***'''Level 3'''
-****Damage decreased from +44 to +0.
-****Shock time changed from 0.6 > 0.45 to 0.25.
-****Max hits increased from +0 to +1.
-****Smite damage increased from +0 to +15.
-****Smite radius changed from 2 to 5 > 5.5.
-****Smite meter changed from 1,400 > 2,250 to 5 > 4.
+****Cost decreased from {{Money|2,500}} to {{Money|1,900}}.
+****Damage increased from +7 to +8.
+****Bounces decreased from +2 to +1.
 ***'''Level 4'''
-****Cost decreased from {{Money|50,001}} to {{Money|44,001}}.
-****Damage decreased from +21 to +0.
-****Range increased from +1 to +1.5.
-****Max hits decreased from +5 to +2.
-****Chain range increased from +0 to +4.
-****Shock time changed from 0.45 > 0.55 to 0.25 > 0.3.
-****Smite damage increased from +0 to +55.
-****Smite radius changed from 2 > 2.5 to 5.5 > 7.
-****Smite meter changed from 2,250 > 4,900 to 4 > 3.
-**{{Bugfix}} Smite damage now changes with upgrades.
+****Cost decreased from {{Money|6,000}} to {{Money|4,500}}.
+****Damage increased from +15 to +17.
+***'''Level 5'''
+****Damage decreased from +50 to +45.
+****Bounces increased from +2 to +3.
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
 **Statistical changes:
 ***'''Base'''
-****Firerate decreased from 2.025 to 2.
-****Flying detection added, moved from Level 2.
-***'''Level 2'''
-****Firerate changed from {{Tooltip|2.025 > 1.825|-0.2}} to {{Tooltip|2 > 1.8|-0.2}}.
-***'''Level 3'''
-****Firerate changed from {{Tooltip|1.825 > 1.425|-0.4}} to {{Tooltip|1.8 > 1.4|-0.2}}.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|1.425 > 1.225|-0.2}} to {{Tooltip|1.4 > 1.2|-0.2}}.
-**New skin: {{Color|Void|Voidborne}}
+****Firerate decreased from 3.025 to 3.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|3.025 > 2.025|-1}} to {{Tooltip|3 > 2|-1}}.
+*'''17 July 2026''' - [[v2.3.0]]
+**Description changed.
 }}
 
 ==Notes==
-<references/>
-
+<references />
 
 
 {{TowerNavBox}}

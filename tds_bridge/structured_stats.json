@@ -7,210 +7,141 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Tesla''' is a mid-late game advanced tower which attacks enemies with chain lightning, temporarily immobilizing them. It can be bought for {{Coins|6,000}}.\n\nThe '''Tesla''' fires lightning at enemies in its range. This lightning will extend to as many enemies as its max hits will allow it to, hitting the closest enemy to the initial target in a range of 12 at Level 0. These enemies will be stunned when hit, which stops them from moving. [[Boss]] and [[Stun Immunity]] enemies will only get slowed down instead.\n\nAt Level 2+, it gains smite, an ability activated when its meter seen in the upgrade menu is filled up by hitting multiple enemies. This will unleash thunder on the targeted enemy, dealing explosion damage to it. This being an explosion, it will deal less damage to enemies the further away they are from the center of the explosion. Additionally, it can bypass [[Defense]].\n\nThe '''Tesla''' is an excellent option for stalling over a pretty large area, as its electric shocks can hold large crowds in place and give other towers more time to attack them, on top of dealing decent damage itself. \n\nThe '''Tesla''' has a placement limit of two per player.",
+  "description": "The '''Executioner''' is a ranged ground [[tower]] that was unlocked by triumphing [[Totality Tower]]. It could have also been obtained through a gamepass for {{Robux|750}} during the [[Solar Eclipse Event]]. The '''Executioner's''' most recent sale had it require {{Robux|799}} to purchase.\n\nThe '''Executioner''' attacks by throwing its axe at an enemy. The axe will travel to that enemy and damage it, and then bounce to other enemies. Any enemy that is in '''Executioner's''' range when the axe is thrown may be targeted. The enemy it bounces onto depends on the '''Executioner's''' current targeting option. This axe can bounce 3 times (4 times at Level 3-4 and 7 times at Level 5). If the axe runs out of bounces or there are no enemies to bounce to, it will travel back to the '''Executioner'''. The '''Executioner's''' axe can also hit other enemies without directly targeting them if they are in its flight path, even if it used all of its bounces. However, it can only hit up to three enemies at once per axe tick. The effective firerate of the '''Executioner''' depends on when the axe returns to it; if the axe bounces multiple times or it travels long distances to its targets there will be a greater delay per attack. \n\nThe '''Executioner's''' high damage and ability to damage multiple enemies makes it a great tower for area of effect. However, it is very weak against singular enemies. The '''Executioner''' has hidden detection at Level 4 and flying detection at Level 0.\n\nThe '''Executioner''' has a placement limit of 9 per player.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "unknown",
         "level": 1,
-        "title": "Kite in the Wind",
-        "cost": "{{Money|4,314}}",
-        "information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}",
+        "title": "Improved Throwing",
+        "cost": "{{Money|250}}",
+        "information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "3",
+            "to": "2",
+            "stat": "Firerate",
+            "text": "3 > 2 Firerate"
+          }
+        ],
+        "params": {
+          "Level": "Level 1",
+          "Upgrade Title": "Improved Throwing",
+          "Cost": "{{Money|250}}",
+          "Image": "[[File:executionerlvl1upgrd.png|100px]]",
+          "Information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 2,
+        "title": "Double Head Axe",
+        "cost": "{{Money|750}}",
+        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}",
         "claims": [
           {
             "kind": "delta",
             "delta": "+5",
             "stat": "Damage",
             "text": "+5 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.15",
-            "to": "0.25",
-            "stat": "Shock Time",
-            "text": "0.15 > 0.25 Shock Time"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Max Hits",
-            "text": "+2 Max Hits"
-          }
-        ],
-        "params": {
-          "Level": "Level 1",
-          "Upgrade Title": "Kite in the Wind",
-          "Cost": "{{Money|4,314}}",
-          "Image": "[[File:TeslaLevel1.png|100px]]",
-          "Information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 2,
-        "title": "Self-Sustaining Battery",
-        "cost": "{{Money|8,888}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "2",
-            "to": "1.8",
-            "stat": "Firerate",
-            "text": "2 > 1.8 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Chain Range",
-            "text": "+4 Chain Range"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion"
-          },
-          {
-            "kind": "note",
-            "text": "70 Smite Damage"
-          },
-          {
-            "kind": "note",
-            "text": "5 Smite Radius"
-          },
-          {
-            "kind": "note",
-            "text": "5 Meter}}"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Self-Sustaining Battery",
-          "Cost": "{{Money|8,888}}",
-          "Image": "[[File:TeslaLevel2.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}"
+          "Upgrade Title": "Double Head Axe",
+          "Cost": "{{Money|750}}",
+          "Image": "[[File:executionerlvl2upgrd.png|100px]]",
+          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}"
         }
       },
       {
         "mode": "unknown",
         "level": 3,
-        "title": "Auric Quantum Cooling Cell",
-        "cost": "{{Money|18,450}}",
-        "information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}",
+        "title": "Blood Seeking",
+        "cost": "{{Money|1,900}}",
+        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}",
         "claims": [
           {
-            "kind": "set",
-            "from": "1.8",
-            "to": "1.4",
-            "stat": "Firerate",
-            "text": "1.8 > 1.4 Firerate"
+            "kind": "delta",
+            "delta": "+8",
+            "stat": "Damage",
+            "text": "+8 Damage"
           },
           {
             "kind": "delta",
-            "delta": "+15",
-            "stat": "Smite Damage",
-            "text": "+15 Smite Damage"
-          },
-          {
-            "kind": "set",
-            "from": "5",
-            "to": "5.5",
-            "stat": "Smite Radius",
-            "text": "5 > 5.5 Smite Radius"
-          },
-          {
-            "kind": "set",
-            "from": "5",
-            "to": "4",
-            "stat": "Meter",
-            "text": "5 > 4 Meter"
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
           },
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Max Hits",
-            "text": "+1 Max Hits"
+            "stat": "Bounces",
+            "text": "+1 Bounces"
           }
         ],
         "params": {
           "Level": "Level 3",
-          "Upgrade Title": "Auric Quantum Cooling Cell",
-          "Cost": "{{Money|18,450}}",
-          "Image": "[[File:TeslaLevel3.png|100px]]",
-          "Information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}"
+          "Upgrade Title": "Blood Seeking",
+          "Cost": "{{Money|1,900}}",
+          "Image": "[[File:executionerlvl3upgrd.png|100px]]",
+          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}"
         }
       },
       {
         "mode": "unknown",
         "level": 4,
-        "title": "Kimat's Bite",
-        "cost": "{{Money|44,001}}",
-        "information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}",
+        "title": "Tactical Ops",
+        "cost": "{{Money|4,500}}",
+        "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}",
         "claims": [
           {
-            "kind": "set",
-            "from": "1.4",
-            "to": "1.2",
-            "stat": "Firerate",
-            "text": "1.4 > 1.2 Firerate"
-          },
-          {
-            "kind": "set",
-            "from": "0.25",
-            "to": "0.3",
-            "stat": "Shock Time",
-            "text": "0.25 > 0.3 Shock Time"
-          },
-          {
             "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
+            "delta": "+17",
+            "stat": "Damage",
+            "text": "+17 Damage"
           },
           {
-            "kind": "delta",
-            "delta": "+4",
-            "stat": "Chain Range",
-            "text": "+4 Chain Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Max Hits",
-            "text": "+2 Max Hits"
-          },
-          {
-            "kind": "delta",
-            "delta": "+55",
-            "stat": "Smite Damage",
-            "text": "+55 Smite Damage"
-          },
-          {
-            "kind": "set",
-            "from": "5.5",
-            "to": "7",
-            "stat": "Smite Radius",
-            "text": "5.5 > 7 Smite Radius"
-          },
-          {
-            "kind": "set",
-            "from": "4",
-            "to": "3",
-            "stat": "Meter",
-            "text": "4 > 3 Meter"
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
           }
         ],
         "params": {
           "Level": "Level 4",
-          "Upgrade Title": "Kimat's Bite",
-          "Cost": "{{Money|44,001}}",
-          "Image": "[[File:TeslaLevel4.png|100px]]",
-          "Information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}"
+          "Upgrade Title": "Tactical Ops",
+          "Cost": "{{Money|4,500}}",
+          "Image": "[[File:executionerlvl4upgrd.png|100px]]",
+          "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "Head Chopping",
+        "cost": "{{Money|12,500}}",
+        "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+45",
+            "stat": "Damage",
+            "text": "+45 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Bounces",
+            "text": "+3 Bounces"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "Head Chopping",
+          "Cost": "{{Money|12,500}}",
+          "Image": "[[File:executionerlvl5upgrd.png|100px]]",
+          "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}"
         }
       }
     ],
@@ -220,204 +151,135 @@
     {
       "mode": "unknown",
       "level": 1,
-      "title": "Kite in the Wind",
-      "cost": "{{Money|4,314}}",
-      "information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}",
+      "title": "Improved Throwing",
+      "cost": "{{Money|250}}",
+      "information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "3",
+          "to": "2",
+          "stat": "Firerate",
+          "text": "3 > 2 Firerate"
+        }
+      ],
+      "params": {
+        "Level": "Level 1",
+        "Upgrade Title": "Improved Throwing",
+        "Cost": "{{Money|250}}",
+        "Image": "[[File:executionerlvl1upgrd.png|100px]]",
+        "Information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 2,
+      "title": "Double Head Axe",
+      "cost": "{{Money|750}}",
+      "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}",
       "claims": [
         {
           "kind": "delta",
           "delta": "+5",
           "stat": "Damage",
           "text": "+5 Damage"
-        },
-        {
-          "kind": "set",
-          "from": "0.15",
-          "to": "0.25",
-          "stat": "Shock Time",
-          "text": "0.15 > 0.25 Shock Time"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Max Hits",
-          "text": "+2 Max Hits"
-        }
-      ],
-      "params": {
-        "Level": "Level 1",
-        "Upgrade Title": "Kite in the Wind",
-        "Cost": "{{Money|4,314}}",
-        "Image": "[[File:TeslaLevel1.png|100px]]",
-        "Information": "+5 Damage [[File:Damage Icon.png|20px|Range]]\n\n0.15 > 0.25 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+2 Max Hits\n\n\nSell Price changes to {{Money|1,285}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 2,
-      "title": "Self-Sustaining Battery",
-      "cost": "{{Money|8,888}}",
-      "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
-        },
-        {
-          "kind": "set",
-          "from": "2",
-          "to": "1.8",
-          "stat": "Firerate",
-          "text": "2 > 1.8 Firerate"
-        },
-        {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Chain Range",
-          "text": "+4 Chain Range"
-        },
-        {
-          "kind": "note",
-          "text": "{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion"
-        },
-        {
-          "kind": "note",
-          "text": "70 Smite Damage"
-        },
-        {
-          "kind": "note",
-          "text": "5 Smite Radius"
-        },
-        {
-          "kind": "note",
-          "text": "5 Meter}}"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Self-Sustaining Battery",
-        "Cost": "{{Money|8,888}}",
-        "Image": "[[File:TeslaLevel2.png|100px]]",
-        "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Smite|Description = Smites the currently targeted enemy once the hit meter is full, creating an explosion\n\n•70 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n•5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n•5 Meter}}\n\n\nSell Price changes to {{Money|4,248}}"
+        "Upgrade Title": "Double Head Axe",
+        "Cost": "{{Money|750}}",
+        "Image": "[[File:executionerlvl2upgrd.png|100px]]",
+        "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}"
       }
     },
     {
       "mode": "unknown",
       "level": 3,
-      "title": "Auric Quantum Cooling Cell",
-      "cost": "{{Money|18,450}}",
-      "information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}",
+      "title": "Blood Seeking",
+      "cost": "{{Money|1,900}}",
+      "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}",
       "claims": [
         {
-          "kind": "set",
-          "from": "1.8",
-          "to": "1.4",
-          "stat": "Firerate",
-          "text": "1.8 > 1.4 Firerate"
+          "kind": "delta",
+          "delta": "+8",
+          "stat": "Damage",
+          "text": "+8 Damage"
         },
         {
           "kind": "delta",
-          "delta": "+15",
-          "stat": "Smite Damage",
-          "text": "+15 Smite Damage"
-        },
-        {
-          "kind": "set",
-          "from": "5",
-          "to": "5.5",
-          "stat": "Smite Radius",
-          "text": "5 > 5.5 Smite Radius"
-        },
-        {
-          "kind": "set",
-          "from": "5",
-          "to": "4",
-          "stat": "Meter",
-          "text": "5 > 4 Meter"
+          "delta": "+4",
+          "stat": "Range",
+          "text": "+4 Range"
         },
         {
           "kind": "delta",
           "delta": "+1",
-          "stat": "Max Hits",
-          "text": "+1 Max Hits"
+          "stat": "Bounces",
+          "text": "+1 Bounces"
         }
       ],
       "params": {
         "Level": "Level 3",
-        "Upgrade Title": "Auric Quantum Cooling Cell",
-        "Cost": "{{Money|18,450}}",
-        "Image": "[[File:TeslaLevel3.png|100px]]",
-        "Information": "1.8 > 1.4 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+15 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5 > 5.5 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n5 > 4 Meter\n\n+1 Max Hits\n\n\nSell Price changes to {{Money|10,398}}"
+        "Upgrade Title": "Blood Seeking",
+        "Cost": "{{Money|1,900}}",
+        "Image": "[[File:executionerlvl3upgrd.png|100px]]",
+        "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}"
       }
     },
     {
       "mode": "unknown",
       "level": 4,
-      "title": "Kimat's Bite",
-      "cost": "{{Money|44,001}}",
-      "information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}",
+      "title": "Tactical Ops",
+      "cost": "{{Money|4,500}}",
+      "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}",
       "claims": [
         {
-          "kind": "set",
-          "from": "1.4",
-          "to": "1.2",
-          "stat": "Firerate",
-          "text": "1.4 > 1.2 Firerate"
-        },
-        {
-          "kind": "set",
-          "from": "0.25",
-          "to": "0.3",
-          "stat": "Shock Time",
-          "text": "0.25 > 0.3 Shock Time"
-        },
-        {
           "kind": "delta",
-          "delta": "+1.5",
-          "stat": "Range",
-          "text": "+1.5 Range"
+          "delta": "+17",
+          "stat": "Damage",
+          "text": "+17 Damage"
         },
         {
-          "kind": "delta",
-          "delta": "+4",
-          "stat": "Chain Range",
-          "text": "+4 Chain Range"
-        },
-        {
-          "kind": "delta",
-          "delta": "+2",
-          "stat": "Max Hits",
-          "text": "+2 Max Hits"
-        },
-        {
-          "kind": "delta",
-          "delta": "+55",
-          "stat": "Smite Damage",
-          "text": "+55 Smite Damage"
-        },
-        {
-          "kind": "set",
-          "from": "5.5",
-          "to": "7",
-          "stat": "Smite Radius",
-          "text": "5.5 > 7 Smite Radius"
-        },
-        {
-          "kind": "set",
-          "from": "4",
-          "to": "3",
-          "stat": "Meter",
-          "text": "4 > 3 Meter"
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
         }
       ],
       "params": {
         "Level": "Level 4",
-        "Upgrade Title": "Kimat's Bite",
-        "Cost": "{{Money|44,001}}",
-        "Image": "[[File:TeslaLevel4.png|100px]]",
-        "Information": "1.4 > 1.2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n0.25 > 0.3 Shock Time [[File:Slowness.png|20px|Shock Time]]\n\n+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+4 Chain Range [[File:ChainRange.png|20px|Chain Range]]\n\n+2 Max Hits\n\n+55 Smite Damage [[File:SplashDamage.png|20px|Splash Damage]]\n\n5.5 > 7 Smite Radius [[File:ExplosiveRange.png|20px|Explosion Range]]\n\n4 > 3 Meter\n\n\nSell Price changes to {{Money|25,065}}"
+        "Upgrade Title": "Tactical Ops",
+        "Cost": "{{Money|4,500}}",
+        "Image": "[[File:executionerlvl4upgrd.png|100px]]",
+        "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 5,
+      "title": "Head Chopping",
+      "cost": "{{Money|12,500}}",
+      "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+45",
+          "stat": "Damage",
+          "text": "+45 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+3",
+          "stat": "Bounces",
+          "text": "+3 Bounces"
+        }
+      ],
+      "params": {
+        "Level": "Level 5",
+        "Upgrade Title": "Head Chopping",
+        "Cost": "{{Money|12,500}}",
+        "Image": "[[File:executionerlvl5upgrd.png|100px]]",
+        "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}"
       }
     }
   ],
@@ -427,11 +289,11 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
-      "lead": "{{Attr|Lead|Level 0+}}",
-      "flying": "{{Attr|Flying|Level 0+}}",
+      "hidden": "{{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>",
+      "lead": "N/A",
+      "flying": "{{Attr|Fly|Level 0+}}",
       "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2"
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9"
     },
     "pvp": {
       "hidden": null,
@@ -444,26 +306,27 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Tesla",
-        "image-static": "TeslaIcon.png",
-        "image-dynamic": "TeslaDynamic.png",
-        "unlockcost": "{{Coins|6,000}}",
-        "role": "Defense",
+        "title": "Executioner",
+        "image-static": "DefaultExecutioner2.png",
+        "image-dynamic": "ExecutionerDynamic.png",
+        "image-dynamic-start": "22",
+        "unlockcost": "Triumph [[Totality Tower]]",
+        "basecost": "{{Money|1,800}}",
+        "basesellingprice": "{{Money|816}}",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9",
         "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-        "basecost": "{{Money|5,750}}",
-        "basesellingprice": "{{Money|1897}}",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]55",
-        "damagetype": "Chain<br/>[[Splash Damage|Splash]] (Level 2+)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
-        "baserange": "[[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)",
-        "hidden_detection": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
-        "lead_detection": "{{Attr|Lead|Level 0+}}",
-        "flying_detection": "{{Attr|Flying|Level 0+}}",
+        "role": "Offensive",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
+        "damagetype": "Ricochet<br/>Pierce",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]3",
+        "baserange": "[[File:Range Icon.png|20px|Range]]14",
+        "hidden_detection": "{{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>",
+        "lead_detection": "N/A",
+        "flying_detection": "{{Attr|Fly|Level 0+}}",
         "immune": "None",
-        "footprint": "2",
-        "tooltip-1": "A powerful tower that deals high damage and can stun all enemies in range with its active ability.",
-        "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
+        "footprint": "1.5",
+        "tooltip-1": "A{{sic}} early-mid game tower that throws an axe that bounces across multiple enemies.",
+        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
       },
       "positional": []
     }
@@ -471,28 +334,29 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Tesla",
-      "image-static": "TeslaIcon.png",
-      "image-dynamic": "TeslaDynamic.png",
-      "unlockcost": "{{Coins|6,000}}",
-      "role": "Defense",
+      "title": "Executioner",
+      "image-static": "DefaultExecutioner2.png",
+      "image-dynamic": "ExecutionerDynamic.png",
+      "image-dynamic-start": "22",
+      "unlockcost": "Triumph [[Totality Tower]]",
+      "basecost": "{{Money|1,800}}",
+      "basesellingprice": "{{Money|816}}",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9",
       "placement": "Ground",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-      "basecost": "{{Money|5,750}}",
-      "basesellingprice": "{{Money|1897}}",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]55",
-      "damagetype": "Chain<br/>[[Splash Damage|Splash]] (Level 2+)",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]2",
-      "baserange": "[[File:Range Icon.png|20px|Range]]17<br/>[[File:ChainRange.png|20px|Chain Range]]12 (Chain Range)",
-      "hidden_detection": "N/A<ref>Through chaining and explosions, [[Hidden (Attribute)|Hidden]] enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
-      "lead_detection": "{{Attr|Lead|Level 0+}}",
-      "flying_detection": "{{Attr|Flying|Level 0+}}",
+      "role": "Offensive",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
+      "damagetype": "Ricochet<br/>Pierce",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]3",
+      "baserange": "[[File:Range Icon.png|20px|Range]]14",
+      "hidden_detection": "{{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>",
+      "lead_detection": "N/A",
+      "flying_detection": "{{Attr|Fly|Level 0+}}",
       "immune": "None",
-      "footprint": "2",
-      "tooltip-1": "A powerful tower that deals high damage and can stun all enemies in range with its active ability.",
-      "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
+      "footprint": "1.5",
+      "tooltip-1": "A{{sic}} early-mid game tower that throws an axe that bounces across multiple enemies.",
+      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
     },
     "positional": []
   },
-  "template_count": 62
+  "template_count": 85
 }
