@@ -1,12 +1,12 @@
 {
   "meta": {
     "mode": "verify",
-    "requested": "Hacker",
-    "title": "Hacker",
-    "pageid": 49984,
-    "latest_revid": 645511,
-    "latest_timestamp": "2026-09-07T16:14:07Z",
-    "source_url": "https://tds.fandom.com/wiki/Hacker",
+    "requested": "Mortar",
+    "title": "Mortar",
+    "pageid": 2730,
+    "latest_revid": 642724,
+    "latest_timestamp": "2026-09-05T16:19:29Z",
+    "source_url": "https://tds.fandom.com/wiki/Mortar",
     "classification": {
       "is_tower_page": true,
       "reason": "template/category heuristic"
@@ -22,116 +22,116 @@
   },
   "resolution": {
     "status": "resolved",
-    "input": "Hacker",
-    "alias_used": "Hacker",
-    "target": "Hacker",
-    "canonical_title": "Hacker",
-    "pageid": 49984,
+    "input": "Mortar",
+    "alias_used": "Mortar",
+    "target": "Mortar",
+    "canonical_title": "Mortar",
+    "pageid": 2730,
     "redirects": [],
     "selection_method": "known_alias"
   },
   "revision_history": [
     {
-      "revid": 645511,
-      "parentid": 645412,
-      "timestamp": "2026-09-07T16:14:07Z",
+      "revid": 642724,
+      "parentid": 642723,
+      "timestamp": "2026-09-05T16:19:29Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 31134,
-      "sha1": "18168329fb01a1cc06452f228f9b3f036a7c91b0"
+      "size": 36386,
+      "sha1": "6e465f62662cc30770bd6d01d7277519aca1dfab"
     },
     {
-      "revid": 645412,
-      "parentid": 627695,
-      "timestamp": "2026-09-07T14:47:19Z",
+      "revid": 642723,
+      "parentid": 626345,
+      "timestamp": "2026-09-05T16:17:34Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 31009,
-      "sha1": "d21af5e7ffb73a19a40952469df0014d8bbb5d73"
+      "size": 36321,
+      "sha1": "aa361fa8fadf37b2376f0595ab279969255df4f6"
     },
     {
-      "revid": 627695,
-      "parentid": 627590,
-      "timestamp": "2026-08-26T13:10:34Z",
+      "revid": 626345,
+      "parentid": 618544,
+      "timestamp": "2026-08-25T14:06:04Z",
       "user": "Mentin123",
       "comment": "",
-      "size": 30904,
-      "sha1": "89226eb154ff578d4f2ae6f64b6f6dc77ed4236b"
+      "size": 36217,
+      "sha1": "f2d4d42944c9ae7b0c0c42b0ab81f755aef743eb"
     },
     {
-      "revid": 627590,
-      "parentid": 626739,
-      "timestamp": "2026-08-26T11:32:16Z",
+      "revid": 618544,
+      "parentid": 610172,
+      "timestamp": "2026-08-18T21:26:22Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 36217,
+      "sha1": "75061edc5f4ba88be224adc6343537584042c036"
+    },
+    {
+      "revid": 610172,
+      "parentid": 595167,
+      "timestamp": "2026-08-12T20:06:57Z",
+      "user": "DarkGabonnie",
+      "comment": "Approved by t7ru (380694434980954114) via /job",
+      "size": 36173,
+      "sha1": "1a2d03d76fc65248b87b6c810176d8dfa981dc5f"
+    },
+    {
+      "revid": 595167,
+      "parentid": 595076,
+      "timestamp": "2026-08-05T14:30:19Z",
       "user": "Mentin123",
-      "comment": "completely unable to replicate this",
-      "size": 30891,
-      "sha1": "50533f66099adf03acbe59c11a7b7c33c3853f46"
+      "comment": "",
+      "size": 36156,
+      "sha1": "9dec0a8edd5c576da970979b931aa894f1116e0e"
     },
     {
-      "revid": 626739,
-      "parentid": 626738,
-      "timestamp": "2026-08-25T20:03:48Z",
-      "user": "Breathix",
+      "revid": 595076,
+      "parentid": 540039,
+      "timestamp": "2026-08-05T13:45:50Z",
+      "user": "Mentin123",
+      "comment": "",
+      "size": 36156,
+      "sha1": "8deafcdb9374d2ba7c43d795518ef53190b1f5e3"
+    },
+    {
+      "revid": 540039,
+      "parentid": 539818,
+      "timestamp": "2026-07-07T22:39:33Z",
+      "user": "Gabonnie",
       "comment": "[IPE-NEXT] Quick edit",
-      "size": 30961,
-      "sha1": "c47323b330206dc9070b70c80a0ec473b36d6596"
+      "size": 36011,
+      "sha1": "fdb2a4eaad9dfb3a55353528f91cb99354628fdf"
     },
     {
-      "revid": 626738,
-      "parentid": 626656,
-      "timestamp": "2026-08-25T20:03:31Z",
-      "user": "Breathix",
-      "comment": "[IPE-NEXT] Quick edit",
-      "size": 30956,
-      "sha1": "1787ee0ff75a8254085c51d09ee9ef2a536e5697"
+      "revid": 539818,
+      "parentid": 537084,
+      "timestamp": "2026-07-07T22:04:18Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Statistics */ migrate fnc to fse, replaced: $FNC-UPGRADEICON → $FSE-UPGRADEICON, $FNC-UPGRADE → $FSE-UPGRADE, $FNC-DETECTION → $FSE-DETECTION",
+      "size": 35985,
+      "sha1": "6ee4469c8ca215362726885cd0ddbc6b3182bc1a"
     },
     {
-      "revid": 626656,
-      "parentid": 618683,
-      "timestamp": "2026-08-25T18:47:25Z",
-      "user": "Slimersonic",
-      "comment": "/* Update History */",
-      "size": 30955,
-      "sha1": "dd631ba60947f5c30308d42ad13acce6c0df6cd8"
-    },
-    {
-      "revid": 618683,
-      "parentid": 618682,
-      "timestamp": "2026-08-19T14:43:29Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 30891,
-      "sha1": "50533f66099adf03acbe59c11a7b7c33c3853f46"
-    },
-    {
-      "revid": 618682,
-      "parentid": 618651,
-      "timestamp": "2026-08-19T14:39:16Z",
-      "user": "Mentin123",
-      "comment": "",
-      "size": 30993,
-      "sha1": "52281c05ef5a745b5811fa5f12d163cd61d8c504"
-    },
-    {
-      "revid": 618651,
-      "parentid": 618650,
-      "timestamp": "2026-08-18T22:58:01Z",
-      "user": "Memor22",
-      "comment": "/* Statistics */",
-      "size": 30586,
-      "sha1": "b6ab2ba1bc34885a65b724e796b5399a3f8b5fed"
+      "revid": 537084,
+      "parentid": 525754,
+      "timestamp": "2026-07-06T17:15:00Z",
+      "user": "DarkGabonnie",
+      "comment": "/* Statistics */ rename, replaced: Stats Table → Statistics",
+      "size": 35985,
+      "sha1": "6309ba9b1ae5642db0d1a1d108280675316e8cf2"
     }
   ],
   "revision_diff": {
-    "fromrevid": 645412,
-    "torevid": 645511,
-    "fromtitle": "Hacker",
-    "totitle": "Hacker",
+    "fromrevid": 642723,
+    "torevid": 642724,
+    "fromtitle": "Mortar",
+    "totitle": "Mortar",
     "fromuser": "Mentin123",
     "touser": "Mentin123",
     "fromcomment": "",
     "tocomment": "",
-    "diff_text": "Line 602: Line 602: *'''4 September 2026''' - [[v2.9.0]] *'''4 September 2026''' - [[v2.9.0]] **Gamepass price decreased from {{Robux|2,249}} to {{Robux|1,574}}. **Gamepass price decreased from {{Robux|2,249}} to {{Robux|1,574}}. ***{{Bug}} The gift price is similarly discounted, though due to it previously being {{Robux|2,999}} is now {{Robux|2,099}}. }} }}"
+    "diff_text": "Line 752: Line 752: **Gamepass price decreased from {{Robux|395}} to {{Robux|300}}. **Gamepass price decreased from {{Robux|395}} to {{Robux|300}}. ***{{Bug}} Gift price has not changed. ***{{Bug}} Gift price has not changed. *'''4 September 2026''' - [[v2.9.0]] **New skin: {{Color|Beach}} }} }}"
   },
   "classification": {
     "is_tower_page": true,
@@ -146,280 +146,80 @@
         "infobox_or_summary"
       ]
     },
-    "description": "The '''Hacker''' is a hardcore tower that hacks enemies, applying various effects to them. It can be purchased from the store for {{Gem|5,500}} or through a gamepass for {{Robux|1,574}}.\n\nIt damages enemies using synapses fired from its equipment, which starts off with a smartphone, then some sort of wrist gadget and in the bottom path, a laptop. These beams target a single enemy, dealing single target damage. Any enemy attacked by the '''Hacker''' will have these effects applied to it:\n#First hack is ''Unit Conversion'', unlocked at Level 0. When the enemy is killed, it will be converted into a hologram, with reduced health. This hologram will function similarly to a [[Units|unit]], dealing damage to an enemy upon collision. The converted enemy will ignore defense and [[Tank (Attribute)|Tank]] of the enemy it is colliding with. If the converted enemy has defense, this defense will boost the damage it deals to other enemies. [[Bloated]] does also boost the health of such enemies. [[Boss]] enemies are unable to be converted into holograms.<br/>Enemy health is calculated using their max health and the tower's EV. Health is calculated as:<br/><math>\\text{Max Health}^\\text{EV}</math>\n#Second hack is ''Wire Fraud''. Enemies targeted by the '''Hacker''' will have their rewards on death or damage increased. This is a global boost, meaning everyone in the match receives the added income.\n#Third hack is ''Slowness''. This applies a slowness effect to any enemy, as long as it is not a [[Boss]] enemy.\n\nThe '''Hacker''' also has an ability, ''Hologram Tower'', which allows it to duplicate a tower. It can duplicate any tower on the map and place it down in any spot. This tower will last for a limited amount of time and disappear once the lifetime ends. The cloned tower will have the hologram modifier on it. The ability has a varying cost based on the total cost of the cloned tower. '''Hacker''' cannot clone other '''Hackers''' or itself. If a cloned tower has a placement limit, then there can only be as many clones of that tower from one player at a time as its placement limit. For example, the [[Gatling Gun]] can only have one clone from a player at a time due to the tower having a placement limit of one.\n\nThe '''Hacker''' has hidden detection from Level 2. It has a placement limit of two per player.",
+    "description": "The '''Mortar''' is an advanced cliff [[Towers|tower]] with a long range capable of damaging enemies with its explosions. It can be unlocked by reaching {{Level|75}} or purchased via a gamepass for {{Robux|300}}. When the player reaches {{Level|75}}, the '''Mortar''' can be claimed by using the pop-up message that appears when joining the lobby.\n\nThe '''Mortar''' is a cliff tower that shoots rather slowly but deals high damage over a large explosion radius. It has a long range, but as the '''Mortar''' shoots at a target farther away, the shells take longer to reach their target. These shells will generally land behind the targeted enemy. The explosion it produces is separated into two spheres; enemies in the inner sphere will be dealt 100% of the stated damage, while the damage in the outer sphere decreases linearly. At Level 4, when the '''Mortar's''' shells explode, they will drop three cluster bombs, which will create additional explosions when they hit the ground. These will land around the main explosion, meaning they are very unlikely to all hit and deal full damage to the targeted enemy. By default, the '''Mortar''' can damage [[Lead (Attribute)|Lead]], as well as target all non-hidden flying enemies. The '''Mortar''' is immune to all stuns by default. \n\nThe '''Mortar''' is considered an all-round tower due to its relatively cheap placement cost, expensive upgrade prices, and its ability to effectively handle groups of enemies throughout the game thanks to its high area damage and strong overall damage output.\n\nThe '''Mortar''' has a placement limit of four per player. This is increased to five in [[PVP]] mode.",
     "upgrade_modes": {
       "regular": [
         {
           "mode": "regular",
           "level": 1,
-          "title": "Upgraded Rig",
-          "cost": "{{Money|125}}",
-          "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}",
+          "title": "Improved Handling",
+          "cost": "{{Money|500}}",
+          "information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}",
           "claims": [
             {
-              "kind": "delta",
-              "delta": "+1.5",
-              "stat": "Range",
-              "text": "+1.5 Range"
+              "kind": "set",
+              "from": "4",
+              "to": "2.75",
+              "stat": "Firerate",
+              "text": "4 > 2.75 Firerate"
             },
             {
-              "kind": "note",
-              "text": "7.5% > 10% Slowness"
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Range",
+              "text": "+3 Range"
             }
           ],
           "params": {
             "Level": "Level 1",
-            "Upgrade Title": "Upgraded Rig",
-            "Cost": "{{Money|125}}",
-            "Image": "[[File:HackerUpgrade1.png|100px]]",
-            "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}"
+            "Upgrade Title": "Improved Handling",
+            "Cost": "{{Money|500}}",
+            "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+            "Information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}"
           }
         },
         {
           "mode": "regular",
           "level": 2,
-          "title": "Shady Business",
-          "cost": "{{Money|1,337}}",
-          "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}",
+          "title": "Upgraded Armaments",
+          "cost": "{{Money|2,250}}",
+          "information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}",
           "claims": [
             {
               "kind": "delta",
-              "delta": "+1.5",
-              "stat": "Range",
-              "text": "+1.5 Range"
-            },
-            {
-              "kind": "grant",
-              "stat": "Hidden Detection",
-              "text": "+Hidden Detection"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Synapses",
-              "text": "+1 Synapses"
+              "delta": "+20",
+              "stat": "Damage",
+              "text": "+20 Damage"
             },
             {
               "kind": "set",
-              "from": "0.45",
-              "to": "0.55",
-              "stat": "Hologram EV",
-              "text": "0.45 > 0.55 Hologram EV"
-            },
-            {
-              "kind": "note",
-              "text": "12.5% > 15% Wire Fraud"
+              "from": "5",
+              "to": "7",
+              "stat": "Explosion Radius",
+              "text": "5 > 7 Explosion Radius"
             }
           ],
           "params": {
             "Level": "Level 2",
-            "Upgrade Title": "Shady Business",
-            "Cost": "{{Money|1,337}}",
-            "Image": "[[File:HackerUpgrade2.png|100px]]",
-            "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}"
+            "Upgrade Title": "Upgraded Armaments",
+            "Cost": "{{Money|2,250}}",
+            "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+            "Information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}"
           }
         },
         {
           "mode": "regular",
           "level": 3,
-          "title": "Teleportation Tech",
-          "cost": "{{Money|6,500}}",
-          "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}",
+          "title": "Bigger Cannon",
+          "cost": "{{Money|4,250}}",
+          "information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}",
           "claims": [
             {
               "kind": "delta",
-              "delta": "+1",
-              "stat": "Range",
-              "text": "+1 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "+10",
+              "delta": "+30",
               "stat": "Damage",
-              "text": "+10 Damage"
+              "text": "+30 Damage"
             },
-            {
-              "kind": "set",
-              "from": "0.55",
-              "to": "0.625",
-              "stat": "Hologram EV",
-              "text": "0.55 > 0.625 Hologram EV"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
-            },
-            {
-              "kind": "note",
-              "text": "30% Clone Cost"
-            },
-            {
-              "kind": "note",
-              "text": "25 Hologram Lifetime}}"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Upgrade Title": "Teleportation Tech",
-            "Cost": "{{Money|6,500}}",
-            "Image": "[[File:HackerUpgrade3.png|100px]]",
-            "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 4,
-          "title": "5th Gen I9 3260590327",
-          "cost": "{{Money|24,000}}",
-          "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Range",
-              "text": "+1 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "+12",
-              "stat": "Damage",
-              "text": "+12 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Synapses",
-              "text": "+1 Synapses"
-            },
-            {
-              "kind": "set",
-              "from": "0.625",
-              "to": "0.675",
-              "stat": "Hologram EV",
-              "text": "0.625 > 0.675 Hologram EV"
-            },
-            {
-              "kind": "note",
-              "text": "15% > 20% Wire Fraud"
-            },
-            {
-              "kind": "note",
-              "text": "30% > 25% Clone Cost"
-            }
-          ],
-          "params": {
-            "Level": "Level 4",
-            "Upgrade Title": "5th Gen I9 3260590327",
-            "Cost": "{{Money|24,000}}",
-            "Image": "[[File:HackerUpgrade4.png|100px]]",
-            "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 5,
-          "title": "Overclock",
-          "cost": "{{Money|60,001}}",
-          "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2.5",
-              "stat": "Range",
-              "text": "+2.5 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.3",
-              "to": "0.1",
-              "stat": "Firerate",
-              "text": "0.3 > 0.1 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "+3",
-              "stat": "Damage",
-              "text": "+3 Damage"
-            },
-            {
-              "kind": "set",
-              "from": "0.675",
-              "to": "0.75",
-              "stat": "Hologram EV",
-              "text": "0.675 > 0.75 Hologram EV"
-            },
-            {
-              "kind": "set",
-              "from": "25",
-              "to": "30",
-              "stat": "Hologram Lifetime",
-              "text": "25 > 30 Hologram Lifetime"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Upgrade Title": "Overclock",
-            "Cost": "{{Money|60,001}}",
-            "Image": "[[File:HackerUpgrade5A.png|100px]]",
-            "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}"
-          }
-        },
-        {
-          "mode": "regular",
-          "level": 5,
-          "title": "Rug Pull",
-          "cost": "{{Money|53,200}}",
-          "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+5",
-              "stat": "Range",
-              "text": "+5 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Synapses",
-              "text": "+1 Synapses"
-            },
-            {
-              "kind": "note",
-              "text": "10% > 12.5% Slowness"
-            },
-            {
-              "kind": "note",
-              "text": "20% > 25% Wire Fraud"
-            },
-            {
-              "kind": "note",
-              "text": "25% > 75% Clone Cost"
-            },
-            {
-              "kind": "set",
-              "from": "25",
-              "to": "120",
-              "stat": "Hologram Lifetime",
-              "text": "25 > 120 Hologram Lifetime"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Upgrade Title": "Rug Pull",
-            "Cost": "{{Money|53,200}}",
-            "Image": "[[File:HackerUpgrade5B.png|100px]]",
-            "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}"
-          }
-        }
-      ],
-      "pvp": [
-        {
-          "mode": "pvp",
-          "level": 1,
-          "title": "Upgraded Rig",
-          "cost": "{{Money|600}}",
-          "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}",
-          "claims": [
             {
               "kind": "delta",
               "delta": "+3",
@@ -428,243 +228,174 @@
             },
             {
               "kind": "set",
-              "from": "0.8",
-              "to": "0.5",
-              "stat": "Firerate",
-              "text": "0.8 > 0.5 Firerate"
+              "from": "7",
+              "to": "8.5",
+              "stat": "Explosion Radius",
+              "text": "7 > 8.5 Explosion Radius"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Bigger Cannon",
+            "Cost": "{{Money|4,250}}",
+            "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+            "Information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}"
+          }
+        },
+        {
+          "mode": "regular",
+          "level": 4,
+          "title": "Loaded Warhead",
+          "cost": "{{Money|13,500}}",
+          "information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+35",
+              "stat": "Damage",
+              "text": "+35 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+4",
+              "stat": "Range",
+              "text": "+4 Range"
             },
             {
               "kind": "note",
-              "text": "7.5% Wire Fraud"
+              "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage"
+            },
+            {
+              "kind": "note",
+              "text": "5 Explosion Radius }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "Loaded Warhead",
+            "Cost": "{{Money|13,500}}",
+            "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+            "Information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}"
+          }
+        },
+        {
+          "mode": "regular",
+          "level": 5,
+          "title": "City Buster",
+          "cost": "{{Money|30,000}}",
+          "information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+135",
+              "stat": "Damage",
+              "text": "+135 Damage"
+            },
+            {
+              "kind": "set",
+              "from": "8.5",
+              "to": "9",
+              "stat": "Explosion Radius",
+              "text": "8.5 > 9 Explosion Radius"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Cluster Amount}}",
+              "text": "+2 Cluster Amount}}"
+            }
+          ],
+          "params": {
+            "Level": "Level 5",
+            "Upgrade Title": "City Buster",
+            "Cost": "{{Money|30,000}}",
+            "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+            "Information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}"
+          }
+        }
+      ],
+      "pvp": [
+        {
+          "mode": "pvp",
+          "level": 1,
+          "title": "Improved Handling",
+          "cost": "{{Money|300}}",
+          "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
+            },
+            {
+              "kind": "set",
+              "from": "4",
+              "to": "3.25",
+              "stat": "Firerate",
+              "text": "4 > 3.25 Firerate"
             }
           ],
           "params": {
             "Level": "Level 1",
-            "Upgrade Title": "Upgraded Rig",
-            "Cost": "{{Money|600}}",
-            "Image": "[[File:HackerUpgrade1.png|100px]]",
-            "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}"
+            "Upgrade Title": "Improved Handling",
+            "Cost": "{{Money|300}}",
+            "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+            "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}"
           }
         },
         {
           "mode": "pvp",
           "level": 2,
-          "title": "Shady Business",
-          "cost": "{{Money|1,250}}",
-          "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}",
+          "title": "Upgraded Armaments",
+          "cost": "{{Money|1,400}}",
+          "information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}",
           "claims": [
             {
               "kind": "delta",
-              "delta": "+2",
+              "delta": "+13",
               "stat": "Damage",
-              "text": "+2 Damage"
-            },
-            {
-              "kind": "grant",
-              "stat": "Hidden Detection",
-              "text": "+Hidden Detection"
+              "text": "+13 Damage"
             },
             {
               "kind": "delta",
-              "delta": "+1",
-              "stat": "Synapses",
-              "text": "+1 Synapses"
-            },
-            {
-              "kind": "note",
-              "text": "15% Slowness"
+              "delta": "+3",
+              "stat": "Range",
+              "text": "+3 Range"
             },
             {
               "kind": "set",
-              "from": "0.6",
-              "to": "0.65",
-              "stat": "Hologram EV",
-              "text": "0.6 > 0.65 Hologram EV"
-            },
-            {
-              "kind": "note",
-              "text": "7.5% > 10% Wire Fraud"
+              "from": "5.5",
+              "to": "7",
+              "stat": "Explosion Radius",
+              "text": "5.5 > 7 Explosion Radius"
             }
           ],
           "params": {
             "Level": "Level 2",
-            "Upgrade Title": "Shady Business",
-            "Cost": "{{Money|1,250}}",
-            "Image": "[[File:HackerUpgrade2.png|100px]]",
-            "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}"
+            "Upgrade Title": "Upgraded Armaments",
+            "Cost": "{{Money|1,400}}",
+            "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+            "Information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}"
           }
         },
         {
           "mode": "pvp",
           "level": 3,
-          "title": "Teleportation Tech",
-          "cost": "{{Money|7,500}}",
-          "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}",
+          "title": "Bigger Cannon",
+          "cost": "{{Money|2,500}}",
+          "information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}",
           "claims": [
             {
               "kind": "delta",
-              "delta": "+1",
-              "stat": "Range",
-              "text": "+1 Range"
-            },
-            {
-              "kind": "delta",
-              "delta": "+14",
+              "delta": "+25",
               "stat": "Damage",
-              "text": "+14 Damage"
+              "text": "+25 Damage"
             },
-            {
-              "kind": "set",
-              "from": "0.65",
-              "to": "0.725",
-              "stat": "Hologram EV",
-              "text": "0.65 > 0.725 Hologram EV"
-            },
-            {
-              "kind": "note",
-              "text": "7.5% > 10% Wire Fraud"
-            },
-            {
-              "kind": "note",
-              "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
-            },
-            {
-              "kind": "note",
-              "text": "35% Clone Cost"
-            },
-            {
-              "kind": "note",
-              "text": "60 Hologram Lifetime}}"
-            }
-          ],
-          "params": {
-            "Level": "Level 3",
-            "Upgrade Title": "Teleportation Tech",
-            "Cost": "{{Money|7,500}}",
-            "Image": "[[File:HackerUpgrade3.png|100px]]",
-            "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 4,
-          "title": "5th Gen I9 3260590327",
-          "cost": "{{Money|22,000}}",
-          "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "-2",
-              "stat": "Damage",
-              "text": "-2 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+1",
-              "stat": "Range",
-              "text": "+1 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.5",
-              "to": "0.3",
-              "stat": "Firerate",
-              "text": "0.5 > 0.3 Firerate"
-            },
-            {
-              "kind": "note",
-              "text": "15% > 20% Slowness"
-            },
-            {
-              "kind": "set",
-              "from": "0.725",
-              "to": "0.825",
-              "stat": "Hologram EV",
-              "text": "0.725 > 0.825 Hologram EV"
-            },
-            {
-              "kind": "note",
-              "text": "10% > 12.5% Wire Fraud"
-            },
-            {
-              "kind": "note",
-              "text": "35% > 30% Clone Cost"
-            },
-            {
-              "kind": "set",
-              "from": "60",
-              "to": "75",
-              "stat": "Hologram Lifetime",
-              "text": "60 > 75 Hologram Lifetime"
-            }
-          ],
-          "params": {
-            "Level": "Level 4",
-            "Upgrade Title": "5th Gen I9 3260590327",
-            "Cost": "{{Money|22,000}}",
-            "Image": "[[File:HackerUpgrade4.png|100px]]",
-            "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 5,
-          "title": "Overclock",
-          "cost": "{{Money|63,500}}",
-          "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}",
-          "claims": [
-            {
-              "kind": "delta",
-              "delta": "+2.5",
-              "stat": "Range",
-              "text": "+2.5 Range"
-            },
-            {
-              "kind": "set",
-              "from": "0.3",
-              "to": "0.1",
-              "stat": "Firerate",
-              "text": "0.3 > 0.1 Firerate"
-            },
-            {
-              "kind": "delta",
-              "delta": "-3",
-              "stat": "Damage",
-              "text": "-3 Damage"
-            },
-            {
-              "kind": "delta",
-              "delta": "+2",
-              "stat": "Synapses",
-              "text": "+2 Synapses"
-            },
-            {
-              "kind": "note",
-              "text": "20% > 15% Slowness"
-            },
-            {
-              "kind": "set",
-              "from": "0.825",
-              "to": "0.9",
-              "stat": "Hologram EV",
-              "text": "0.825 > 0.9 Hologram EV"
-            }
-          ],
-          "params": {
-            "Level": "Level 5",
-            "Upgrade Title": "Overclock",
-            "Cost": "{{Money|63,500}}",
-            "Image": "[[File:HackerUpgrade5A.png|100px]]",
-            "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}"
-          }
-        },
-        {
-          "mode": "pvp",
-          "level": 5,
-          "title": "Rug Pull",
-          "cost": "{{Money|48,000}}",
-          "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}",
-          "claims": [
             {
               "kind": "delta",
               "delta": "+5",
@@ -672,37 +403,100 @@
               "text": "+5 Range"
             },
             {
+              "kind": "set",
+              "from": "7",
+              "to": "8",
+              "stat": "Explosion Radius",
+              "text": "7 > 8 Explosion Radius"
+            }
+          ],
+          "params": {
+            "Level": "Level 3",
+            "Upgrade Title": "Bigger Cannon",
+            "Cost": "{{Money|2,500}}",
+            "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+            "Information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}"
+          }
+        },
+        {
+          "mode": "pvp",
+          "level": 4,
+          "title": "Loaded Warhead",
+          "cost": "{{Money|12,000}}",
+          "information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}",
+          "claims": [
+            {
               "kind": "delta",
-              "delta": "+1",
-              "stat": "Synapses",
-              "text": "+1 Synapses"
+              "delta": "+50",
+              "stat": "Damage",
+              "text": "+50 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+2",
+              "stat": "Range",
+              "text": "+2 Range"
             },
             {
               "kind": "note",
-              "text": "20% > 25% Slowness"
+              "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage"
             },
             {
               "kind": "note",
-              "text": "12.5% > 20% Wire Fraud"
+              "text": "5 Explosion Radius }}"
+            }
+          ],
+          "params": {
+            "Level": "Level 4",
+            "Upgrade Title": "Loaded Warhead",
+            "Cost": "{{Money|12,000}}",
+            "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+            "Information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}"
+          }
+        },
+        {
+          "mode": "pvp",
+          "level": 5,
+          "title": "City Buster",
+          "cost": "{{Money|22,500}}",
+          "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}",
+          "claims": [
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Range",
+              "text": "+3 Range"
             },
             {
-              "kind": "note",
-              "text": "30% > 25% Clone Cost"
+              "kind": "delta",
+              "delta": "+50",
+              "stat": "Damage",
+              "text": "+50 Damage"
             },
             {
               "kind": "set",
-              "from": "75",
-              "to": "120",
-              "stat": "Hologram Lifetime",
-              "text": "75 > 120 Hologram Lifetime"
+              "from": "8",
+              "to": "8.5",
+              "stat": "Explosion Radius",
+              "text": "8 > 8.5 Explosion Radius"
+            },
+            {
+              "kind": "note",
+              "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+            },
+            {
+              "kind": "delta",
+              "delta": "+3",
+              "stat": "Cluster Amount}}",
+              "text": "+3 Cluster Amount}}"
             }
           ],
           "params": {
             "Level": "Level 5",
-            "Upgrade Title": "Rug Pull",
-            "Cost": "{{Money|48,000}}",
-            "Image": "[[File:HackerUpgrade5B.png|100px]]",
-            "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}"
+            "Upgrade Title": "City Buster",
+            "Cost": "{{Money|22,500}}",
+            "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+            "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}"
           }
         }
       ]
@@ -711,272 +505,74 @@
       {
         "mode": "regular",
         "level": 1,
-        "title": "Upgraded Rig",
-        "cost": "{{Money|125}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}",
+        "title": "Improved Handling",
+        "cost": "{{Money|500}}",
+        "information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}",
         "claims": [
           {
-            "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
+            "kind": "set",
+            "from": "4",
+            "to": "2.75",
+            "stat": "Firerate",
+            "text": "4 > 2.75 Firerate"
           },
           {
-            "kind": "note",
-            "text": "7.5% > 10% Slowness"
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Upgraded Rig",
-          "Cost": "{{Money|125}}",
-          "Image": "[[File:HackerUpgrade1.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}"
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|500}}",
+          "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+          "Information": "4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}"
         }
       },
       {
         "mode": "regular",
         "level": 2,
-        "title": "Shady Business",
-        "cost": "{{Money|1,337}}",
-        "information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}",
+        "title": "Upgraded Armaments",
+        "cost": "{{Money|2,250}}",
+        "information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1.5",
-            "stat": "Range",
-            "text": "+1.5 Range"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
+            "delta": "+20",
+            "stat": "Damage",
+            "text": "+20 Damage"
           },
           {
             "kind": "set",
-            "from": "0.45",
-            "to": "0.55",
-            "stat": "Hologram EV",
-            "text": "0.45 > 0.55 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "12.5% > 15% Wire Fraud"
+            "from": "5",
+            "to": "7",
+            "stat": "Explosion Radius",
+            "text": "5 > 7 Explosion Radius"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Shady Business",
-          "Cost": "{{Money|1,337}}",
-          "Image": "[[File:HackerUpgrade2.png|100px]]",
-          "Information": "+1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}"
+          "Upgrade Title": "Upgraded Armaments",
+          "Cost": "{{Money|2,250}}",
+          "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+          "Information": "+20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}"
         }
       },
       {
         "mode": "regular",
         "level": 3,
-        "title": "Teleportation Tech",
-        "cost": "{{Money|6,500}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}",
+        "title": "Bigger Cannon",
+        "cost": "{{Money|4,250}}",
+        "information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+10",
+            "delta": "+30",
             "stat": "Damage",
-            "text": "+10 Damage"
+            "text": "+30 Damage"
           },
-          {
-            "kind": "set",
-            "from": "0.55",
-            "to": "0.625",
-            "stat": "Hologram EV",
-            "text": "0.55 > 0.625 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
-          },
-          {
-            "kind": "note",
-            "text": "30% Clone Cost"
-          },
-          {
-            "kind": "note",
-            "text": "25 Hologram Lifetime}}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Teleportation Tech",
-          "Cost": "{{Money|6,500}}",
-          "Image": "[[File:HackerUpgrade3.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 4,
-        "title": "5th Gen I9 3260590327",
-        "cost": "{{Money|24,000}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+12",
-            "stat": "Damage",
-            "text": "+12 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
-          },
-          {
-            "kind": "set",
-            "from": "0.625",
-            "to": "0.675",
-            "stat": "Hologram EV",
-            "text": "0.625 > 0.675 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "15% > 20% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "30% > 25% Clone Cost"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "5th Gen I9 3260590327",
-          "Cost": "{{Money|24,000}}",
-          "Image": "[[File:HackerUpgrade4.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "Overclock",
-        "cost": "{{Money|60,001}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.3",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.3 > 0.1 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "+3",
-            "stat": "Damage",
-            "text": "+3 Damage"
-          },
-          {
-            "kind": "set",
-            "from": "0.675",
-            "to": "0.75",
-            "stat": "Hologram EV",
-            "text": "0.675 > 0.75 Hologram EV"
-          },
-          {
-            "kind": "set",
-            "from": "25",
-            "to": "30",
-            "stat": "Hologram Lifetime",
-            "text": "25 > 30 Hologram Lifetime"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Overclock",
-          "Cost": "{{Money|60,001}}",
-          "Image": "[[File:HackerUpgrade5A.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\nSell Price changes to {{Money|30,954}}"
-        }
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "title": "Rug Pull",
-        "cost": "{{Money|53,200}}",
-        "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+5",
-            "stat": "Range",
-            "text": "+5 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
-          },
-          {
-            "kind": "note",
-            "text": "10% > 12.5% Slowness"
-          },
-          {
-            "kind": "note",
-            "text": "20% > 25% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "25% > 75% Clone Cost"
-          },
-          {
-            "kind": "set",
-            "from": "25",
-            "to": "120",
-            "stat": "Hologram Lifetime",
-            "text": "25 > 120 Hologram Lifetime"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Rug Pull",
-          "Cost": "{{Money|53,200}}",
-          "Image": "[[File:HackerUpgrade5B.png|100px]]",
-          "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 1,
-        "title": "Upgraded Rig",
-        "cost": "{{Money|600}}",
-        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}",
-        "claims": [
           {
             "kind": "delta",
             "delta": "+3",
@@ -985,243 +581,172 @@
           },
           {
             "kind": "set",
-            "from": "0.8",
-            "to": "0.5",
-            "stat": "Firerate",
-            "text": "0.8 > 0.5 Firerate"
+            "from": "7",
+            "to": "8.5",
+            "stat": "Explosion Radius",
+            "text": "7 > 8.5 Explosion Radius"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Bigger Cannon",
+          "Cost": "{{Money|4,250}}",
+          "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+          "Information": "+30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 4,
+        "title": "Loaded Warhead",
+        "cost": "{{Money|13,500}}",
+        "information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+35",
+            "stat": "Damage",
+            "text": "+35 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
           },
           {
             "kind": "note",
-            "text": "7.5% Wire Fraud"
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage"
+          },
+          {
+            "kind": "note",
+            "text": "5 Explosion Radius }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Loaded Warhead",
+          "Cost": "{{Money|13,500}}",
+          "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+          "Information": "+35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}"
+        }
+      },
+      {
+        "mode": "regular",
+        "level": 5,
+        "title": "City Buster",
+        "cost": "{{Money|30,000}}",
+        "information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+135",
+            "stat": "Damage",
+            "text": "+135 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "8.5",
+            "to": "9",
+            "stat": "Explosion Radius",
+            "text": "8.5 > 9 Explosion Radius"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Cluster Amount}}",
+            "text": "+2 Cluster Amount}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 5",
+          "Upgrade Title": "City Buster",
+          "Cost": "{{Money|30,000}}",
+          "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+          "Information": "+135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 1,
+        "title": "Improved Handling",
+        "cost": "{{Money|300}}",
+        "information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          },
+          {
+            "kind": "set",
+            "from": "4",
+            "to": "3.25",
+            "stat": "Firerate",
+            "text": "4 > 3.25 Firerate"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Upgraded Rig",
-          "Cost": "{{Money|600}}",
-          "Image": "[[File:HackerUpgrade1.png|100px]]",
-          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n0.8 > 0.5 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n7.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|666}}"
+          "Upgrade Title": "Improved Handling",
+          "Cost": "{{Money|300}}",
+          "Image": "[[File:Mortar_Upgrade_1.png|100px]]",
+          "Information": "+2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}"
         }
       },
       {
         "mode": "pvp",
         "level": 2,
-        "title": "Shady Business",
-        "cost": "{{Money|1,250}}",
-        "information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}",
+        "title": "Upgraded Armaments",
+        "cost": "{{Money|1,400}}",
+        "information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+2",
+            "delta": "+13",
             "stat": "Damage",
-            "text": "+2 Damage"
-          },
-          {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
+            "text": "+13 Damage"
           },
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
-          },
-          {
-            "kind": "note",
-            "text": "15% Slowness"
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
           },
           {
             "kind": "set",
-            "from": "0.6",
-            "to": "0.65",
-            "stat": "Hologram EV",
-            "text": "0.6 > 0.65 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "7.5% > 10% Wire Fraud"
+            "from": "5.5",
+            "to": "7",
+            "stat": "Explosion Radius",
+            "text": "5.5 > 7 Explosion Radius"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Shady Business",
-          "Cost": "{{Money|1,250}}",
-          "Image": "[[File:HackerUpgrade2.png|100px]]",
-          "Information": "+2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.6 > 0.65 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|1,083}}"
+          "Upgrade Title": "Upgraded Armaments",
+          "Cost": "{{Money|1,400}}",
+          "Image": "[[File:Mortar_Upgrade_2.png|100px]]",
+          "Information": "+13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}"
         }
       },
       {
         "mode": "pvp",
         "level": 3,
-        "title": "Teleportation Tech",
-        "cost": "{{Money|7,500}}",
-        "information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}",
+        "title": "Bigger Cannon",
+        "cost": "{{Money|2,500}}",
+        "information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "delta",
-            "delta": "+14",
+            "delta": "+25",
             "stat": "Damage",
-            "text": "+14 Damage"
+            "text": "+25 Damage"
           },
-          {
-            "kind": "set",
-            "from": "0.65",
-            "to": "0.725",
-            "stat": "Hologram EV",
-            "text": "0.65 > 0.725 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "7.5% > 10% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower"
-          },
-          {
-            "kind": "note",
-            "text": "35% Clone Cost"
-          },
-          {
-            "kind": "note",
-            "text": "60 Hologram Lifetime}}"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Teleportation Tech",
-          "Cost": "{{Money|7,500}}",
-          "Image": "[[File:HackerUpgrade3.png|100px]]",
-          "Information": "+1 Range [[File:Range Icon.png|20px|Range]]\n\n+14 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.65 > 0.725 Hologram EV\n\n7.5% > 10% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•35% Clone Cost\n\n•60 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|3,583}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 4,
-        "title": "5th Gen I9 3260590327",
-        "cost": "{{Money|22,000}}",
-        "information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "-2",
-            "stat": "Damage",
-            "text": "-2 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+1",
-            "stat": "Range",
-            "text": "+1 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.5",
-            "to": "0.3",
-            "stat": "Firerate",
-            "text": "0.5 > 0.3 Firerate"
-          },
-          {
-            "kind": "note",
-            "text": "15% > 20% Slowness"
-          },
-          {
-            "kind": "set",
-            "from": "0.725",
-            "to": "0.825",
-            "stat": "Hologram EV",
-            "text": "0.725 > 0.825 Hologram EV"
-          },
-          {
-            "kind": "note",
-            "text": "10% > 12.5% Wire Fraud"
-          },
-          {
-            "kind": "note",
-            "text": "35% > 30% Clone Cost"
-          },
-          {
-            "kind": "set",
-            "from": "60",
-            "to": "75",
-            "stat": "Hologram Lifetime",
-            "text": "60 > 75 Hologram Lifetime"
-          }
-        ],
-        "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "5th Gen I9 3260590327",
-          "Cost": "{{Money|22,000}}",
-          "Image": "[[File:HackerUpgrade4.png|100px]]",
-          "Information": "-2 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Range [[File:Range Icon.png|20px|Range]]\n\n0.5 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n15% > 20% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.725 > 0.825 Hologram EV\n\n10% > 12.5% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n35% > 30% Clone Cost\n\n60 > 75 Hologram Lifetime\n\n\nSell Price changes to {{Money|10,916}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "title": "Overclock",
-        "cost": "{{Money|63,500}}",
-        "information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+2.5",
-            "stat": "Range",
-            "text": "+2.5 Range"
-          },
-          {
-            "kind": "set",
-            "from": "0.3",
-            "to": "0.1",
-            "stat": "Firerate",
-            "text": "0.3 > 0.1 Firerate"
-          },
-          {
-            "kind": "delta",
-            "delta": "-3",
-            "stat": "Damage",
-            "text": "-3 Damage"
-          },
-          {
-            "kind": "delta",
-            "delta": "+2",
-            "stat": "Synapses",
-            "text": "+2 Synapses"
-          },
-          {
-            "kind": "note",
-            "text": "20% > 15% Slowness"
-          },
-          {
-            "kind": "set",
-            "from": "0.825",
-            "to": "0.9",
-            "stat": "Hologram EV",
-            "text": "0.825 > 0.9 Hologram EV"
-          }
-        ],
-        "params": {
-          "Level": "Level 5",
-          "Upgrade Title": "Overclock",
-          "Cost": "{{Money|63,500}}",
-          "Image": "[[File:HackerUpgrade5A.png|100px]]",
-          "Information": "+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n-3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Synapses\n\n20% > 15% Slowness [[File:Slowness.png|20px|Slowness]]\n\n0.825 > 0.9 Hologram EV\n\n\nSell Price changes to {{Money|32,083}}"
-        }
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "title": "Rug Pull",
-        "cost": "{{Money|48,000}}",
-        "information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}",
-        "claims": [
           {
             "kind": "delta",
             "delta": "+5",
@@ -1229,37 +754,100 @@
             "text": "+5 Range"
           },
           {
+            "kind": "set",
+            "from": "7",
+            "to": "8",
+            "stat": "Explosion Radius",
+            "text": "7 > 8 Explosion Radius"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Upgrade Title": "Bigger Cannon",
+          "Cost": "{{Money|2,500}}",
+          "Image": "[[File:Mortar_Upgrade_3.png|100px]]",
+          "Information": "+25 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+5 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,733}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 4,
+        "title": "Loaded Warhead",
+        "cost": "{{Money|12,000}}",
+        "information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}",
+        "claims": [
+          {
             "kind": "delta",
-            "delta": "+1",
-            "stat": "Synapses",
-            "text": "+1 Synapses"
+            "delta": "+50",
+            "stat": "Damage",
+            "text": "+50 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
           },
           {
             "kind": "note",
-            "text": "20% > 25% Slowness"
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage"
           },
           {
             "kind": "note",
-            "text": "12.5% > 20% Wire Fraud"
+            "text": "5 Explosion Radius }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Upgrade Title": "Loaded Warhead",
+          "Cost": "{{Money|12,000}}",
+          "Image": "[[File:Mortar_Upgrade_4.png|100px]]",
+          "Information": "+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •40x3 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|5,733}}"
+        }
+      },
+      {
+        "mode": "pvp",
+        "level": 5,
+        "title": "City Buster",
+        "cost": "{{Money|22,500}}",
+        "information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Range",
+            "text": "+3 Range"
           },
           {
-            "kind": "note",
-            "text": "30% > 25% Clone Cost"
+            "kind": "delta",
+            "delta": "+50",
+            "stat": "Damage",
+            "text": "+50 Damage"
           },
           {
             "kind": "set",
-            "from": "75",
-            "to": "120",
-            "stat": "Hologram Lifetime",
-            "text": "75 > 120 Hologram Lifetime"
+            "from": "8",
+            "to": "8.5",
+            "stat": "Explosion Radius",
+            "text": "8 > 8.5 Explosion Radius"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+3",
+            "stat": "Cluster Amount}}",
+            "text": "+3 Cluster Amount}}"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Rug Pull",
-          "Cost": "{{Money|48,000}}",
-          "Image": "[[File:HackerUpgrade5B.png|100px]]",
-          "Information": "+5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n20% > 25% Slowness [[File:Slowness.png|20px|Slowness]]\n\n12.5% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n75 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|26,916}}"
+          "Upgrade Title": "City Buster",
+          "Cost": "{{Money|22,500}}",
+          "Image": "[[File:Mortar_Upgrade_5.png|100px]]",
+          "Information": "+3 Range [[File:Range Icon.png|20px|Range]]\n\n+50 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Cluster Amount}}\n\n\nSell Price changes to {{Money|13,233}}"
         }
       }
     ],
@@ -1267,228 +855,203 @@
       "regular": [
         {
           "level": 0,
-          "cost": 900.0,
-          "total_cost": 900.0,
-          "damage": 0.0,
-          "tick": 0.3,
-          "charge_up": 1.0,
-          "cooldown": 11.0,
-          "overcharge": 0.45,
-          "range": 7.5,
+          "cost": 1000.0,
+          "total_cost": 1000.0,
+          "damage": 15.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 4.0,
+          "overcharge": 24.0,
+          "range": 5.0,
           "dps": null
         },
         {
           "level": 1,
-          "cost": 125.0,
-          "total_cost": 1025.0,
-          "damage": 0.0,
-          "tick": 0.3,
-          "charge_up": 1.0,
-          "cooldown": 12.5,
-          "overcharge": 0.45,
-          "range": 10.0,
+          "cost": 500.0,
+          "total_cost": 1500.0,
+          "damage": 15.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 2.75,
+          "overcharge": 27.0,
+          "range": 5.0,
           "dps": null
         },
         {
           "level": 2,
-          "cost": 1337.0,
-          "total_cost": 2362.0,
-          "damage": 0.0,
-          "tick": 0.3,
-          "charge_up": 2.0,
-          "cooldown": 14.0,
-          "overcharge": 0.55,
-          "range": 10.0,
+          "cost": 2250.0,
+          "total_cost": 3750.0,
+          "damage": 35.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 2.75,
+          "overcharge": 27.0,
+          "range": 7.5,
           "dps": null
         },
         {
           "level": 3,
-          "cost": 6500.0,
-          "total_cost": 8862.0,
-          "damage": 10.0,
-          "tick": 0.3,
-          "charge_up": 2.0,
-          "cooldown": 15.0,
-          "overcharge": 0.625,
-          "range": 10.0,
-          "dps": 0.037
+          "cost": 4250.0,
+          "total_cost": 8000.0,
+          "damage": 65.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 2.75,
+          "overcharge": 30.0,
+          "range": 8.5,
+          "dps": null
         },
         {
           "level": 4,
-          "cost": 24000.0,
-          "total_cost": 32862.0,
-          "damage": 22.0,
-          "tick": 0.3,
-          "charge_up": 3.0,
-          "cooldown": 16.0,
-          "overcharge": 0.675,
-          "range": 10.0,
-          "dps": 0.036
-        },
-        {
-          "level": 5,
-          "cost": 60001.0,
-          "total_cost": 92863.0,
-          "damage": 25.0,
-          "tick": 0.1,
-          "charge_up": 3.0,
-          "cooldown": 18.5,
-          "overcharge": 0.75,
-          "range": 10.0,
-          "dps": 0.035
-        },
-        {
-          "level": 5,
-          "cost": 60001.0,
-          "total_cost": 152864.0,
-          "damage": 22.0,
-          "tick": 0.3,
+          "cost": 13500.0,
+          "total_cost": 21500.0,
+          "damage": 100.0,
+          "tick": 30.0,
           "charge_up": 4.0,
-          "cooldown": 21.0,
-          "overcharge": 0.675,
-          "range": 12.5,
-          "dps": 0.027
+          "cooldown": 2.75,
+          "overcharge": 34.0,
+          "range": 8.5,
+          "dps": 2.006
+        },
+        {
+          "level": 5,
+          "cost": 30000.0,
+          "total_cost": 51500.0,
+          "damage": 235.0,
+          "tick": 40.0,
+          "charge_up": 6.0,
+          "cooldown": 2.75,
+          "overcharge": 34.0,
+          "range": 9.0,
+          "dps": 2.339
         }
       ],
       "pvp": [
         {
           "level": 0,
-          "cost": 1400.0,
-          "total_cost": 1400.0,
-          "damage": 4.0,
-          "tick": 0.8,
-          "charge_up": 1.0,
-          "cooldown": 11.0,
-          "overcharge": 0.6,
-          "range": 0.0,
-          "dps": 0.05
+          "cost": 1000.0,
+          "total_cost": 1000.0,
+          "damage": 12.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 4.0,
+          "overcharge": 20.0,
+          "range": 5.5,
+          "dps": null
         },
         {
           "level": 1,
-          "cost": 600.0,
-          "total_cost": 2000.0,
-          "damage": 4.0,
-          "tick": 0.5,
-          "charge_up": 2.0,
-          "cooldown": 14.0,
-          "overcharge": 0.6,
-          "range": 0.0,
-          "dps": 0.037
+          "cost": 300.0,
+          "total_cost": 1300.0,
+          "damage": 12.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 3.25,
+          "overcharge": 22.0,
+          "range": 5.5,
+          "dps": null
         },
         {
           "level": 2,
-          "cost": 1250.0,
-          "total_cost": 3250.0,
-          "damage": 6.0,
-          "tick": 0.5,
-          "charge_up": 2.0,
-          "cooldown": 14.0,
-          "overcharge": 0.65,
-          "range": 15.0,
-          "dps": 0.04
+          "cost": 1400.0,
+          "total_cost": 2700.0,
+          "damage": 25.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 3.25,
+          "overcharge": 25.0,
+          "range": 7.0,
+          "dps": null
         },
         {
           "level": 3,
-          "cost": 7500.0,
-          "total_cost": 10750.0,
-          "damage": 20.0,
-          "tick": 0.5,
-          "charge_up": 2.0,
-          "cooldown": 15.0,
-          "overcharge": 0.725,
-          "range": 15.0,
-          "dps": 0.043
+          "cost": 2500.0,
+          "total_cost": 5200.0,
+          "damage": 50.0,
+          "tick": null,
+          "charge_up": null,
+          "cooldown": 3.258,
+          "overcharge": 30.0,
+          "range": 8.0,
+          "dps": null
         },
         {
           "level": 4,
-          "cost": 22000.0,
-          "total_cost": 32750.0,
-          "damage": 18.0,
-          "tick": 0.3,
-          "charge_up": 2.0,
-          "cooldown": 16.0,
-          "overcharge": 0.825,
-          "range": 20.0,
-          "dps": 0.046
-        },
-        {
-          "level": 5,
-          "cost": 63500.0,
-          "total_cost": 96250.0,
-          "damage": 15.0,
-          "tick": 0.1,
-          "charge_up": 4.0,
-          "cooldown": 18.5,
-          "overcharge": 0.9,
-          "range": 15.0,
-          "dps": 0.04
-        },
-        {
-          "level": 5,
-          "cost": 63500.0,
-          "total_cost": 159750.0,
-          "damage": 18.0,
-          "tick": 0.3,
+          "cost": 12000.0,
+          "total_cost": 17200.0,
+          "damage": 100.0,
+          "tick": 40.0,
           "charge_up": 3.0,
-          "cooldown": 21.0,
-          "overcharge": 0.825,
-          "range": 25.0,
-          "dps": 0.034
+          "cooldown": 3.25,
+          "overcharge": 32.0,
+          "range": 8.0,
+          "dps": 1.68
+        },
+        {
+          "level": 5,
+          "cost": 22500.0,
+          "total_cost": 39700.0,
+          "damage": 150.0,
+          "tick": 50.0,
+          "charge_up": 6.0,
+          "cooldown": 3.25,
+          "overcharge": 35.0,
+          "range": 8.5,
+          "dps": 1.673
         }
       ]
     },
     "detections_and_limits": {
       "regular": {
-        "hidden": "{{Attr|Hidden|Level 2+}}",
-        "lead": "{{Attr|Lead|Level 0+}} (Converted Hologram Only)",
-        "flying": "N/A",
-        "immune": "Partial Debuff<ref name=\"debuff\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2"
+        "hidden": "N/A<ref name=\"hd\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+        "lead": "{{Attr|Lead|Level 0+}}",
+        "flying": "{{Attr|Fly|Level 0+}}",
+        "immune": "Stun",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])"
       },
       "pvp": {
-        "hidden": "{{Attr|Hidden|Level 2+}}",
-        "lead": "{{Attr|Lead|Level 0+}} (Collision only)",
-        "flying": "N/A",
-        "immune": "Partial Debuff<ref name=\"debuff\"/><br/>Partial Stun<ref name=\"stun\"/>"
+        "hidden": "N/A<ref name=\"hd\"/>",
+        "lead": "{{Attr|Lead|Level 0+}}",
+        "flying": "{{Attr|Fly|Level 0+}}",
+        "immune": "Stun",
+        "placement_limit": "five"
       }
     },
     "infoboxes": [
       {
         "name": "TowerInfobox",
         "params": {
-          "title": "Hacker",
-          "image-static": "HackerIcon.png",
-          "image-dynamic": "HackerDynamic.png",
-          "unlockcost": "{{Gem|5,500}} or {{Robux|1,574}}",
-          "basecost": "{{Money|900}}",
-          "basesellingprice": "{{Money|300}}",
-          "role": "Support",
-          "placement": "Ground",
-          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-          "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
-          "damagetype": "Single<br/>Multi-target (Level 2+)",
-          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.3",
-          "baserange": "[[File:Range Icon.png|20px|Range]]11",
-          "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-          "lead_detection": "{{Attr|Lead|Level 0+}} (Converted Hologram Only)",
-          "flying_detection": "N/A",
-          "immune": "Partial Debuff<ref name=\"debuff\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>",
-          "footprint": "1.5",
-          "pvp_basecost": "{{Money|1,400}}",
-          "pvp_basesellingprice": "{{Money|466}}",
-          "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
-          "pvp_damagetype": "Single<br/>Multi-target (Level 2+)",
-          "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.8",
-          "pvp_baserange": "[[File:Range Icon.png|20px|Range]]11",
-          "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}",
-          "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision only)",
-          "pvp_flying_detection": "N/A",
-          "pvp_immune": "Partial Debuff<ref name=\"debuff\"/><br/>Partial Stun<ref name=\"stun\"/>",
+          "title": "Mortar",
+          "image-static": "MortarIcon.png",
+          "image-dynamic": "MortarDynamic.png",
+          "unlockcost": "{{Level|75}} or {{Robux|300}}",
+          "role": "Defense",
+          "placement": "Cliff",
+          "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])",
+          "basecost": "{{Money|1,000}}",
+          "basesellingprice": "{{Money|333}}",
+          "basedamage": "[[File:SplashDamage.png|20px|Damage]]15",
+          "damagetype": "[[Splash Damage|Splash]]",
+          "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+          "baserange": "[[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)",
+          "hidden_detection": "N/A<ref name=\"hd\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+          "lead_detection": "{{Attr|Lead|Level 0+}}",
+          "flying_detection": "{{Attr|Fly|Level 0+}}",
+          "immune": "Stun",
+          "footprint": "1.75",
+          "pvp_basecost": "{{Money|1,000}}",
+          "pvp_basesellingprice": "{{Money|333}}",
+          "pvp_basedamage": "[[File:SplashDamage.png|20px|Damage]]12",
+          "pvp_damagetype": "[[Splash Damage|Splash]]",
+          "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+          "pvp_baserange": "[[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)",
+          "pvp_hidden_detection": "N/A<ref name=\"hd\"/>",
+          "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+          "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
+          "pvp_immune": "Stun",
           "pvp_footprint": "1.5",
-          "tooltip-1": "A defensive tower that targets multiple enemies and applies slow to targets",
-          "tooltip-2": "Enemy attacked by '''Hacker''' will be hacked and turned into a friendly units{{sic}}.",
-          "tooltip-3": "Enemies killed in '''Hacker's''' range will reward more cash at later levels.",
-          "tooltip-4": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+          "tooltip-1": "AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.",
+          "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
         },
         "positional": []
       }
@@ -1496,43 +1059,41 @@
     "likely_infobox": {
       "name": "TowerInfobox",
       "params": {
-        "title": "Hacker",
-        "image-static": "HackerIcon.png",
-        "image-dynamic": "HackerDynamic.png",
-        "unlockcost": "{{Gem|5,500}} or {{Robux|1,574}}",
-        "basecost": "{{Money|900}}",
-        "basesellingprice": "{{Money|300}}",
-        "role": "Support",
-        "placement": "Ground",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]2",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]0",
-        "damagetype": "Single<br/>Multi-target (Level 2+)",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.3",
-        "baserange": "[[File:Range Icon.png|20px|Range]]11",
-        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "lead_detection": "{{Attr|Lead|Level 0+}} (Converted Hologram Only)",
-        "flying_detection": "N/A",
-        "immune": "Partial Debuff<ref name=\"debuff\">Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref><br/>Partial Stun<ref name=\"stun\">Due to bugs, it cannot be stunned by abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref>",
-        "footprint": "1.5",
-        "pvp_basecost": "{{Money|1,400}}",
-        "pvp_basesellingprice": "{{Money|466}}",
-        "pvp_basedamage": "[[File:Damage Icon.png|20px|Damage]]4",
-        "pvp_damagetype": "Single<br/>Multi-target (Level 2+)",
-        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.8",
-        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]11",
-        "pvp_hidden_detection": "{{Attr|Hidden|Level 2+}}",
-        "pvp_lead_detection": "{{Attr|Lead|Level 0+}} (Collision only)",
-        "pvp_flying_detection": "N/A",
-        "pvp_immune": "Partial Debuff<ref name=\"debuff\"/><br/>Partial Stun<ref name=\"stun\"/>",
+        "title": "Mortar",
+        "image-static": "MortarIcon.png",
+        "image-dynamic": "MortarDynamic.png",
+        "unlockcost": "{{Level|75}} or {{Robux|300}}",
+        "role": "Defense",
+        "placement": "Cliff",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]4<br/>[[File:PlacementLimit.png|20px|Placement Limit]]5 ([[PVP]])",
+        "basecost": "{{Money|1,000}}",
+        "basesellingprice": "{{Money|333}}",
+        "basedamage": "[[File:SplashDamage.png|20px|Damage]]15",
+        "damagetype": "[[Splash Damage|Splash]]",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+        "baserange": "[[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion Radius)",
+        "hidden_detection": "N/A<ref name=\"hd\">Through splash damage, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>",
+        "lead_detection": "{{Attr|Lead|Level 0+}}",
+        "flying_detection": "{{Attr|Fly|Level 0+}}",
+        "immune": "Stun",
+        "footprint": "1.75",
+        "pvp_basecost": "{{Money|1,000}}",
+        "pvp_basesellingprice": "{{Money|333}}",
+        "pvp_basedamage": "[[File:SplashDamage.png|20px|Damage]]12",
+        "pvp_damagetype": "[[Splash Damage|Splash]]",
+        "pvp_basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]4",
+        "pvp_baserange": "[[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion Radius)",
+        "pvp_hidden_detection": "N/A<ref name=\"hd\"/>",
+        "pvp_lead_detection": "{{Attr|Lead|Level 0+}}",
+        "pvp_flying_detection": "{{Attr|Fly|Level 0+}}",
+        "pvp_immune": "Stun",
         "pvp_footprint": "1.5",
-        "tooltip-1": "A defensive tower that targets multiple enemies and applies slow to targets",
-        "tooltip-2": "Enemy attacked by '''Hacker''' will be hacked and turned into a friendly units{{sic}}.",
-        "tooltip-3": "Enemies killed in '''Hacker's''' range will reward more cash at later levels.",
-        "tooltip-4": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        "tooltip-1": "AOE cliff tower that deals dependable damage and can be upgraded to release cluster bombs on impact.",
+        "tooltip-2": "Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies."
       },
       "positional": []
     },
-    "template_count": 202
+    "template_count": 315
   },
   "conflicts": {
     "priority_rule": {
@@ -1548,87 +1109,48 @@
         "mode": "regular",
         "level": 1,
         "field": "range",
-        "upgrade_implied": 9.0,
-        "statistics_table_claim": 10.0,
+        "upgrade_implied": 8.0,
+        "statistics_table_claim": 5.0,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
-        "claim_text": "+1.5 Range"
-      },
-      {
-        "mode": "regular",
-        "level": 2,
-        "field": "range",
-        "upgrade_implied": 11.5,
-        "statistics_table_claim": 10.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+1.5 Range"
+        "claim_text": "+3 Range"
       },
       {
         "mode": "regular",
         "level": 3,
         "field": "range",
-        "upgrade_implied": 11.0,
-        "statistics_table_claim": 10.0,
+        "upgrade_implied": 10.5,
+        "statistics_table_claim": 8.5,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
-        "claim_text": "+1 Range"
+        "claim_text": "+3 Range"
       },
       {
         "mode": "regular",
         "level": 4,
         "field": "range",
-        "upgrade_implied": 11.0,
-        "statistics_table_claim": 10.0,
+        "upgrade_implied": 12.5,
+        "statistics_table_claim": 8.5,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
-        "claim_text": "+1 Range"
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "field": "tick",
-        "upgrade_claim": 0.1,
-        "statistics_table_claim": 0.3,
-        "preferred_source": "upgrade_template",
-        "type": "set_mismatch",
-        "claim_text": "0.3 > 0.1 Firerate"
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "field": "damage",
-        "upgrade_implied": 25.0,
-        "statistics_table_claim": 22.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+3 Damage"
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "field": "cost",
-        "upgrade_claim": 53200.0,
-        "statistics_table_claim": 60001.0,
-        "preferred_source": "upgrade_template",
-        "type": "cost_mismatch"
-      },
-      {
-        "mode": "regular",
-        "level": 5,
-        "field": "range",
-        "upgrade_implied": 15.0,
-        "statistics_table_claim": 12.5,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "+5 Range"
+        "claim_text": "+4 Range"
       },
       {
         "mode": "pvp",
         "level": 1,
         "field": "range",
-        "upgrade_implied": 3.0,
-        "statistics_table_claim": 0.0,
+        "upgrade_implied": 7.5,
+        "statistics_table_claim": 5.5,
+        "preferred_source": "upgrade_template",
+        "type": "delta_mismatch",
+        "claim_text": "+2 Range"
+      },
+      {
+        "mode": "pvp",
+        "level": 2,
+        "field": "range",
+        "upgrade_implied": 8.5,
+        "statistics_table_claim": 7.0,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
         "claim_text": "+3 Range"
@@ -1637,78 +1159,31 @@
         "mode": "pvp",
         "level": 3,
         "field": "range",
-        "upgrade_implied": 16.0,
-        "statistics_table_claim": 15.0,
+        "upgrade_implied": 12.0,
+        "statistics_table_claim": 8.0,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
-        "claim_text": "+1 Range"
+        "claim_text": "+5 Range"
       },
       {
         "mode": "pvp",
         "level": 4,
         "field": "range",
-        "upgrade_implied": 16.0,
-        "statistics_table_claim": 20.0,
+        "upgrade_implied": 10.0,
+        "statistics_table_claim": 8.0,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
-        "claim_text": "+1 Range"
+        "claim_text": "+2 Range"
       },
       {
         "mode": "pvp",
         "level": 5,
         "field": "range",
-        "upgrade_implied": 22.5,
-        "statistics_table_claim": 25.0,
+        "upgrade_implied": 11.0,
+        "statistics_table_claim": 8.5,
         "preferred_source": "upgrade_template",
         "type": "delta_mismatch",
-        "claim_text": "+2.5 Range"
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "field": "tick",
-        "upgrade_claim": 0.1,
-        "statistics_table_claim": 0.3,
-        "preferred_source": "upgrade_template",
-        "type": "set_mismatch",
-        "claim_text": "0.3 > 0.1 Firerate"
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "field": "damage",
-        "upgrade_implied": 15.0,
-        "statistics_table_claim": 18.0,
-        "preferred_source": "upgrade_template",
-        "type": "delta_mismatch",
-        "claim_text": "-3 Damage"
-      },
-      {
-        "mode": "pvp",
-        "level": 5,
-        "field": "cost",
-        "upgrade_claim": 48000.0,
-        "statistics_table_claim": 63500.0,
-        "preferred_source": "upgrade_template",
-        "type": "cost_mismatch"
-      },
-      {
-        "mode": "regular",
-        "level": 0,
-        "field": "range",
-        "infobox_claim": 11.0,
-        "statistics_table_claim": 7.5,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
-      },
-      {
-        "mode": "pvp",
-        "level": 0,
-        "field": "range",
-        "infobox_claim": 11.0,
-        "statistics_table_claim": 0.0,
-        "preferred_source": "infobox_or_description_only_if_no_upgrade_claim",
-        "type": "base_summary_mismatch"
+        "claim_text": "+3 Range"
       }
     ],
     "notes": [
@@ -1719,11 +1194,11 @@
   "categories": [
     {
       "ns": 14,
-      "title": "Category:Ability"
+      "title": "Category:Cliff"
     },
     {
       "ns": 14,
-      "title": "Category:Support"
+      "title": "Category:Defense"
     },
     {
       "ns": 14,
@@ -1796,6 +1271,14 @@
       "pageid": 275
     },
     {
+      "title": "Molten",
+      "pageid": 286
+    },
+    {
+      "title": "Grave Digger (Legacy)",
+      "pageid": 294
+    },
+    {
       "title": "Gladiator",
       "pageid": 302
     },
@@ -1808,16 +1291,88 @@
       "pageid": 392
     },
     {
+      "title": "Strong",
+      "pageid": 397
+    },
+    {
+      "title": "Harbor",
+      "pageid": 442
+    },
+    {
       "title": "Turret",
       "pageid": 454
     },
     {
-      "title": "Boomer",
-      "pageid": 505
+      "title": "Robloxia",
+      "pageid": 482
+    },
+    {
+      "title": "Hidden",
+      "pageid": 484
+    },
+    {
+      "title": "Normal Boss",
+      "pageid": 486
+    },
+    {
+      "title": "Mystery",
+      "pageid": 488
+    },
+    {
+      "title": "Necromancer (Legacy Enemy)",
+      "pageid": 490
+    },
+    {
+      "title": "Hidden Boss",
+      "pageid": 492
+    },
+    {
+      "title": "Shock",
+      "pageid": 493
+    },
+    {
+      "title": "Super Mystery",
+      "pageid": 496
+    },
+    {
+      "title": "Mystery Summoner",
+      "pageid": 504
+    },
+    {
+      "title": "Chained Boss",
+      "pageid": 512
+    },
+    {
+      "title": "Infernal Abyss",
+      "pageid": 515
+    },
+    {
+      "title": "Gold Titan",
+      "pageid": 526
+    },
+    {
+      "title": "Golden",
+      "pageid": 529
+    },
+    {
+      "title": "Fallen Hero (Legacy)",
+      "pageid": 534
     },
     {
       "title": "Commando",
       "pageid": 599
+    },
+    {
+      "title": "Dead Ahead",
+      "pageid": 889
+    },
+    {
+      "title": "24 Karat",
+      "pageid": 891
+    },
+    {
+      "title": "Splash Damage",
+      "pageid": 1007
     },
     {
       "title": "Medic",
@@ -1828,108 +1383,28 @@
       "pageid": 1546
     },
     {
-      "title": "Slasher",
-      "pageid": 1752
+      "title": "Fallen Guardian (Legacy)",
+      "pageid": 1614
     },
     {
-      "title": "DJ Booth",
-      "pageid": 2235
+      "title": "Abnormal Boss",
+      "pageid": 1618
     },
     {
-      "title": "Ace Pilot",
-      "pageid": 2469
+      "title": "Glitch",
+      "pageid": 1619
     },
     {
-      "title": "Hidden Wave",
-      "pageid": 2531
+      "title": "Summoner Boss",
+      "pageid": 1620
     },
     {
-      "title": "Mortar",
-      "pageid": 2730
+      "title": "Giant Boss",
+      "pageid": 1621
     },
     {
-      "title": "Frost Blaster",
-      "pageid": 2732
-    },
-    {
-      "title": "Archer",
-      "pageid": 2747
-    },
-    {
-      "title": "Electroshocker",
-      "pageid": 3751
-    },
-    {
-      "title": "Swarmer",
-      "pageid": 4581
-    },
-    {
-      "title": "Soundtrack",
-      "pageid": 6663
-    },
-    {
-      "title": "Pursuit",
-      "pageid": 6735
-    },
-    {
-      "title": "Mecha Base",
-      "pageid": 7179
-    },
-    {
-      "title": "War Machine",
-      "pageid": 7181
-    },
-    {
-      "title": "Cowboy",
-      "pageid": 7565
-    },
-    {
-      "title": "Humvee",
-      "pageid": 9668
-    },
-    {
-      "title": "Humvee 2",
-      "pageid": 9670
-    },
-    {
-      "title": "Humvee 3",
-      "pageid": 9671
-    },
-    {
-      "title": "Tank (Unit)",
-      "pageid": 9672
-    },
-    {
-      "title": "Railgun Tank",
-      "pageid": 9673
-    },
-    {
-      "title": "SWAT Van",
-      "pageid": 9681
-    },
-    {
-      "title": "Crook",
-      "pageid": 9688
-    },
-    {
-      "title": "Mafia",
-      "pageid": 9690
-    },
-    {
-      "title": "Golden Crook",
-      "pageid": 9752
-    },
-    {
-      "title": "Golden Mafia",
-      "pageid": 9754
-    },
-    {
-      "title": "Commando/Gallery",
-      "pageid": 9764
-    },
-    {
-      "title": "Sentry/Gallery",
-      "pageid": 9800
+      "title": "Bolt",
+      "pageid": 1631
     }
   ],
   "templates": [
@@ -1950,7 +1425,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:Gem",
+      "title": "Template:Level",
       "exists": true
     },
     {
@@ -1976,16 +1451,6 @@
     {
       "ns": 10,
       "title": "Template:AttrTag/styles.css",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Sic",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Sic/quote.css",
       "exists": true
     },
     {
@@ -2020,22 +1485,7 @@
     },
     {
       "ns": 10,
-      "title": "Template:Hidden",
-      "exists": true
-    },
-    {
-      "ns": 10,
       "title": "Template:CollapsibleUpgrade",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:PathTabber",
-      "exists": true
-    },
-    {
-      "ns": 10,
-      "title": "Template:Ability",
       "exists": true
     },
     {
@@ -2065,12 +1515,12 @@
     },
     {
       "ns": 10,
-      "title": "Template:Bugfix",
+      "title": "Template:Tooltip",
       "exists": true
     },
     {
       "ns": 10,
-      "title": "Template:Tooltip",
+      "title": "Template:Bugfix",
       "exists": true
     },
     {
@@ -2121,44 +1571,36 @@
   ],
   "related_pages": [
     {
-      "title": "Hacker/Gallery",
+      "title": "Mortar/Gallery",
       "score": 3,
-      "pageid": 49985,
-      "latest_revid": 623557,
-      "latest_timestamp": "2026-08-23T14:11:39Z",
-      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{UpgradeIconsDouble\n|t1 = [[File:HackerUpgrade1.png|150px]]\n|t2 = [[File:HackerUpgrade2.png|150px]]\n|t3 = [[File:HackerUpgrade3.png|150px]]\n|t4 = [[File:HackerUpgrade4.png|150px]]\n|t5 = [[File:HackerUpgrade5A.png|150px]]\n|b5 = [[File:HackerUpgrade5B.png|150px]]\n}}\n==Skin Upgrades==\nThe '''Hacker''' has six skins. This includes:\n#The Default skin.\n#Two skins that can be obtained from [[Crates|Skincrates]].\n#One skin that can be unlocked from [[Passes]].\n#One skin that can be obtained from [[Mission Quests]].\n#One skin that could have been obtained from triumphing [[Hidden Wave]].\n\n{{Tabber\n|Default\n|{{SkinGalleryDouble\n|Title1 = Default\n|Icon1 = [[File:DefaultHackerIconIG.png|200px]]\n|Title2 = Drone\n|Icon2 = [[File:DefaultHackerDrone.png|200px]]\n|TImage1 = [[File:Hacker0.png|200px]]\n|TDesc1 = Pale skin, blonde hair, brown cap with white Paradoxum Games logo, white jacket, blue pants with black buckle and black shoes.\n\nHas a smartphone to attack enemies with.\n\nHolograms are colored green.\n|TImage2 = [[File:Hacker1.png|200px]]\n|TDesc2 = Black gloves, black shades, dark brown scarf and brown coat.\n|TImage3 = [[File:Hacker2.png|200px]]\n|TDesc3 = Black headset, backpack, belt and knee-pads.\n\nGloves now have barbed knuckles.\n|TImage4 = [[File:Hacker3.png|200px]]\n|TDesc4 = Black watch to attack enemies, coat replaced with cyan ski jacket with zipper, cap, pants and shoes are now black,\n\nhair is now a ponytail and no longer has a scarf.\n\nBelt slightly adjusted, headset is now bigger and backpack now has an antenna.\n\nNow has a drone which can be used to clone towers.\n\n|TImage5 = [[File:Hacker4.png|200px]]\n|TDesc5 = Black goggles with ten dots on each eyes, jacket is now dark blue, backpack now has two antennae.\n\nHeadset removed.\n\n|TImage6 = [[File:HackerT5.png|200px]]\n|TDesc6 = Black vest and shoulder-pads.\n\nGoggles now cover more of its head.\n\nJacket is now red.\n\nCap removed.\n\nNo longer holds a phone.\n\nHolograms are now red.\n|BImage6 = [[File:HackerB5.png|200px]]\n|BDesc6 = Black trench coat, hood, scarf and shades.\n\nKnee-pads are now black.\n\nNow wields a laptop.\n\nHolograms are now orange.\n}}\n|Fallen\n|The {{Color|FallenMission|Fallen}} skin is obtained from [[Mission Quests]].\n{{SkinGalleryDouble\n|Title1 = {{Color|FallenMission|Fallen}}\n|Icon1 = [[File:FallenHackerIconIG.png|200px]]\n|TImage1 = [[File:FallenHacker0.png|200px]]\n|Title2 = Drone\n|Icon2 = 3-5B[[File:FallenHackerDrone.png|200px]] 5A[[File:FallenHackerDrone5A.png|200px]]\n|TDesc1 = Dark blue skin, white hair, purple crying eyes, dark blue crown, blue, grey and brown vest and loincloth, arm-bands, belt, pants and shoes.\n\nFires at enemies using a tablet flying above its head, from which it fires blue beams from.\n\nHolograms are colored blue.\n|TImage2 = [[File:FallenHacker1.png|200px]]\n|TDesc2 = Purple veins around body and one blue vein on the left arm.\n\nLoincloth moved at the side of torso and left leg.\n\nAdditional details on the vest and crown.\n|TImage3 = [[File:FallenHacker2.png|200px]]\n|TDesc3 = Dark blue wings.\n\nExtended arm-bands.\n\nLonger hair.\n\nBlue on the clothes is now slightly purple.\n\nLoincloth has moved back again.\n\nEven more blue and purple veins.\n|TImage4 = [[File:FallenHacker3.png|200px]]\n|TDesc4 = Dark blue halo.\n\nFace is covered by dark blue wings.\n\nLight blue outlines on arm-bands.\n|TImage5 = [[File:FallenHacker4.png|200px]]\n|TDesc5 = Blue wings around legs.\n\nGrey spikes on the tablet, blue on the tablet is now also darker.\n|TImage6 = [[File:FallenHacker5TP.png.png|200px]]\n|TDesc6 = Blue waves behind the tower and wings behind head.\n\nBlue spikes on halo.\n\nWings behind back are now lighter.\n\nNow has a different tablet.\n\nNow fires black and purple beams.\n\nHolograms and crystal in drone are now purple.\n|BImage6 = [[File:FallenHacker5BP.png|200px]]\n|BDesc6 = Grey helmet.\n\nBlue spikes on halo.\n\nWings behind back are now lighter.\n\nNow has a different tablet.\n\nNow fires blue and purple beams.\n}}\n|Triumphant\n|The {{Color|Other|Triumpha"
+      "pageid": 11731,
+      "latest_revid": 642816,
+      "latest_timestamp": "2026-09-05T17:25:30Z",
+      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{UpgradeIcons\n|[[File:Mortar Upgrade 1.png|150px]]\n|[[File:Mortar Upgrade 2.png|150px]]\n|[[File:Mortar Upgrade 3.png|150px]]\n|[[File:Mortar Upgrade 4.png|150px]]\n|[[File:Mortar Upgrade 5.png|150px]]\n}}\n\n==Skin Upgrades==\nThe '''Mortar''' has sixteen skins in total. These include:\n#The Default skin.\n#Eight skins that can be unlocked from [[Crates]].\n#Five skins that can be unlocked from [[Passes]].\n#One skin that can be unlocked from [[Mission Quests]].\n#One skin that can be unlocked from [[Crates]] and [[Mission Quests]].\n\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultMortarIconIGAug26.png|128px]]\n|[[File:DHDefaultMortar0.png|200px]]\n|Pale skin, green visor, torso and pants, and black shoes.\n\nWields a dark green cannon on a grey metal stand to attack enemies.\n|[[File:DHDefaultMortar1.png|200px]]\n|Black gloves and backpack.\n|[[File:DHDefaultMortar2.png|200px]]\n|Grey vest, green pouches and black headset.\n|[[File:DHDefaultMortar3.png|200px]]\n|Grey goggles.\n\nNow wields a bigger green cannon.\n|[[File:DHDefaultMortar4.png|200px]]\n|Green helmet.\n|[[File:DHDefaultMortar5.png|200px]]\n|Now wields a nuclear cannon.\n}}\n|Bunny\n|The {{Color|Bunny|Bunny}} skin is obtained from the [[Bunny Crate|{{Color|Bunny|Bunny Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Bunny|Bunny}}\n|Icon1 = [[File:BunnyMortarIconIGAug26.png|128px]]\n|[[File:DHBunnyMortar0.png|200px]]\n|Pale skin, pink onesie and pink shoes with bunny ears.\n\nWields a light pink cannon to attack enemies.\n|[[File:DHBunnyMortar1.png|200px]]\n|Black backpack, black utility belt, dark pink gloves and pink bunny hood.\n|[[File:DHBunnyMortar2.png|200px]]\n|Pink basic vest and black goggles.\n|[[File:DHBunnyMortar3.png|200px]]\n|Now wields a bigger pink cannon with yellow stripes.\n|[[File:DHBunnyMortar3.png|200px]]\n|No change.\n|[[File:DHBunnyMortar5.png|200px]]\n|Cannon turns black and red.\n\nGains scaffolding, an operating seat and a button.\n}}\n|Eclipse\n|The {{Color|Eclipse|Eclipse}} skin is obtained from Rank 6 of the [[Solar Eclipse Event#Solar Eclipse Season Pass|Solar Eclipse Season]].\n{{SkinGallery\n|Title1 = {{Color|Eclipse|Eclipse}}\n|Icon1 = [[File:EclipseMortarIconIGAug26.png|128px]]\n|[[File:DHEclipseMortar0.png|200px]]\n|Tan skin, purple visor, black torso and pants, yellow-purple striped boots.\n\nWield a black cannon on a blue metal stand to attack enemies.\n|[[File:DHEclipseMortar1.png|200px]]\n|Black gloves and purple backpack.\n|[[File:DHEclipseMortar2.png|200px]]\n|Purple vest and sleeves, and black headset.\n|[[File:DHEclipseMortar3.png|200px]]\n|Black goggles with yellow neon lens.\n\nNow wields a bigger black cannon.\n|[[File:DHEclipseMortar4.png|200px]]\n|Yellow and purple sallet.\n|[[File:DHEclipseMortar5.png|200px]]\n|Yellow and purple knee-pads and shoulder-pads, and black pouches on legs.\n\nNow wields a nuclear cannon.\n}}\n|Ducky\n|The {{Color|Ducky|Ducky}} skin is obtained from the [[Ducky Crate|{{Color|Ducky|Ducky Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Ducky|Ducky}}\n|Icon1 = [[File:DuckyMortarIconIGAug26.png|128px]]\n|[[File:12FebDuckyMortar0.png|200px]]\n|Pale skin, yellow and orange suit, yellow duck visor, tail and wings, and black shoes.\n\nWields a duck-themed cannon to attack enemies.\n|[[File:12FebDuckyMortar1.png|200px]]\n|Black gloves and loaf of bread.\n|[[File:12FebDuckyMortar2.png|200px]]\n|Black vest and headset.\n|[[File:12FebDuckyMortar3.png|200px]]\n|Black goggles with opaque/translucent orange lens.\n\nNow wields a bigger duck-themed cannon in a nest with two ducks.\n|[[File:12FebDuckyMortar4.png|200px]]\n|Yellow duck helmet.\n|[[File:12FebDuckyMortar5.png|200px]]\n|Now wields an evil duck-themed cannon in a nest with two evil ducks.\n}}\n|Vigilante\n|The {{Color|Vigilante|Vigilante}} skin is obtained from the [[Vigilante Crate|{{Color|Vigilante|Vigilante Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Vigilante|Vigilante}}\n|Icon1 = [[File:VigilanteMortarIconIGAug26.png|128px]]\n|[[File:VigilanteMortar0.png|200px]]\n|Pale skin, dark grey "
     },
     {
-      "title": "Hacker/History",
+      "title": "Mortar/History",
       "score": 3,
-      "pageid": 50335,
-      "latest_revid": 618685,
-      "latest_timestamp": "2026-08-19T14:47:12Z",
-      "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''8 June 2026 – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:HackerIcon.png|100px]]\n|Unlock Cost = {{Gem|5,500}}\n|Category = Hardcore\n|Role = Support\n|Cost = {{Money|900}}\n|Footprint = 1.5\n|Sell Price = {{Money|300}}\n|Placement Type = Ground\n|Damage = [[File:Damage Icon.png|20px|Damage]]0\n|Damage Type = Single<br/>Multi-target (Level 2+)\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.3\n|Hidden = {{Hidden|Hidden Detection}}Level 2+\n|Range = [[File:Range Icon.png|20px|Range]]11\n|Lead = {{Lead|LeadDetection}}Level 0+ (Collision only)\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]2\n|Fly = N/A\n|Title1 = Hologram EV\n|Stat1 = 0.45\n|Title2 = Synapses\n|Stat2 = 1\n|Title3 = Wire Fraud\n|Stat3 = [[File:Cash_Icon.png|20px|Wire Fraud]]12.5%\n|Title4 = Slowness\n|Stat4 = [[File:Slowness.png|20px|Slowness]]7.5%\n|PVP Cost = {{Money|1,400}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|466}}\n|PVP Placement Type = Ground\n|PVP Damage = [[File:Damage Icon.png|20px|Damage]]4\n|PVP Damage Type = Single<br/>Multi-target (Level 2+)\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]0.8\n|PVP Hidden = {{Hidden|Hidden Detection}}Level 2+\n|PVP Range = [[File:Range Icon.png|20px|Range]]11\n|PVP Lead = {{Lead|LeadDetection}}Level 0+ (Collision only)\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]2\n|PVP Fly = N/A\n|PVP Title1 = Hologram EV\n|PVP Stat1 = 0.6\n|PVP Title2 = Synapses\n|PVP Stat2 = 1\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Upgraded Rig|Cost = {{Money|125}}|Image = [[File:HackerUpgrade1.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]\n\n7.5% > 10% Slowness [[File:Slowness.png|20px|Slowness]]\n\n\nSell Price changes to {{Money|341}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Shady Business|Cost = {{Money|1,337}}|Image = [[File:HackerUpgrade2.png|100px]]|Information = +1.5 Range [[File:Range Icon.png|20px|Range]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n+1 Synapses\n\n0.45 > 0.55 Hologram EV\n\n12.5% > 15% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n\nSell Price changes to {{Money|787}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Teleportation Tech|Cost = {{Money|6,500}}|Image = [[File:HackerUpgrade3.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.55 > 0.625 Hologram EV\n\n{{CollapsibleUpgrade|Title = Unlocks Hologram Tower|Description = Creates a temporary hologram of the selected tower\n\n•30% Clone Cost\n\n•25 Hologram Lifetime}}\n\n\nSell Price changes to {{Money|2,954}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = 5th Gen I9 3260590327|Cost = {{Money|24,000}}|Image = [[File:HackerUpgrade4.png|100px]]|Information = +1 Range [[File:Range Icon.png|20px|Range]]\n\n+12 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+1 Synapses\n\n0.625 > 0.675 Hologram EV\n\n15% > 20% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n30% > 25% Clone Cost\n\n\nSell Price changes to {{Money|10,954}}}}\n{{PathTabber\n|{{Upgrade|Level = Level 5|Upgrade Title = Overclock|Cost = {{Money|60,001}}|Image = [[File:HackerUpgrade5A.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]\n\n0.3 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.675 > 0.75 Hologram EV\n\n25 > 30 Hologram Lifetime\n\n\nSell Price changes to {{Money|30,954}}}}\n|{{Upgrade|Level = Level 5|Upgrade Title = Rug Pull|Cost = {{Money|53,200}}|Image = [[File:HackerUpgrade5B.png|100px]]|Information = +5 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Synapses\n\n10% > 12.5% Slowness [[File:Slowness.png|20px|Slowness]]\n\n20% > 25% Wire Fraud [[File:Cash_Icon.png|20px|Wire Fraud]]\n\n25% > 75% Clone Cost\n\n25 > 120 Hologram Lifetime\n\n\nSell Price changes to {{Money|28,687}}}}\n}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Upgraded Rig|Cost "
+      "pageid": 28737,
+      "latest_revid": 628261,
+      "latest_timestamp": "2026-08-26T21:40:50Z",
+      "wikitext_excerpt": "{{Tabs|History}}\n\n<div class=\"mw-collapsible mw-collapsed\">\n<div class=\"sectionheader\">'''Operator Update (19 June 2026) – Present'''</div>\n<div class=\"ContainerColumn mw-collapsible-content\">\n<center>\n==Base Statistics==\n{{PVPBaseStat\n|Image = [[File:MortarIcon.png|100px]]\n|Level Unlock = {{Level|75}}\n|Category = Advanced\n|Role = Defense\n|Cost = {{Money|1,000}}\n|Footprint = 1.75\n|Sell Price = {{Money|333}}\n|Placement Type = Cliff\n|Damage = [[File:SplashDamage.png|20px|Damage]]15\n|Damage Type = [[Splash Damage|Splash]]\n|Firerate = [[File:Cooldown Icon.png|20px|Firerate]]4\n|Hidden = N/A\n|Range = [[File:Range Icon.png|20px|Range]]24<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5 (Explosion)\n|Lead = {{Lead|Lead Detection}}Level 0+\n|Placement = [[File:PlacementLimit.png|20px|Placement Limit]]4\n|Fly = {{Flying|Flying Detection}}Level 0+\n|PVP Cost = {{Money|1,000}}\n|PVP Footprint = 1.5\n|PVP Sell Price = {{Money|333}}\n|PVP Placement Type = Cliff\n|PVP Damage = [[File:SplashDamage.png|20px|Damage]]12\n|PVP Damage Type = [[Splash Damage|Splash]]\n|PVP Firerate = [[File:Cooldown Icon.png|20px|Firerate]]4\n|PVP Hidden = N/A\n|PVP Range = [[File:Range Icon.png|20px|Range]]20<br/>[[File:ExplosiveRange.png|20px|Explosion Radius]]5.5 (Explosion)\n|PVP Lead = {{Lead|Lead Detection}}Level 0+\n|PVP Placement = [[File:PlacementLimit.png|20px|Placement Limit]]5\n|PVP Fly = {{Flying|Flying Detection}}Level 0+\n}}\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|500}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = 4 > 2.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|500}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|2,250}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +20 Damage [[File:SplashDamage.png|20px|Damage]]\n\n5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|1,250}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|4,250}}|Image = [[File:Mortar_Upgrade_3.png|100px]]|Information = +30 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n7 > 8.5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|2,666}}}}\n{{Upgrade|Level = Level 4|Upgrade Title = Loaded Warhead|Cost = {{Money|13,500}}|Image = [[File:Mortar_Upgrade_4.png|100px]]|Information = +35 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n{{CollapsibleUpgrade|Title = Unlocks Cluster Bombs|Description = •30x4 Damage [[File:SplashDamage.png|20px|Damage]]\n\n•5 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]}}\n\n\nSell Price changes to {{Money|7,166}}}}\n\n{{Upgrade|Level = Level 5|Upgrade Title = City Buster|Cost = {{Money|30,000}}|Image = [[File:Mortar_Upgrade_5.png|100px]]|Information = +135 Damage [[File:SplashDamage.png|20px|Damage]]\n\n8.5 > 9 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n{{CollapsibleUpgrade|Title = Stronger Cluster Bombs|Description = +10 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+2 Cluster Amount}}\n\n\nSell Price changes to {{Money|17,166}}}}\n|{{Upgrade|Level = Level 1|Upgrade Title = Improved Handling|Cost = {{Money|300}}|Image = [[File:Mortar_Upgrade_1.png|100px]]|Information = +2 Range [[File:Range Icon.png|20px|Range]]\n\n4 > 3.25 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|433}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Upgraded Armaments|Cost = {{Money|1,400}}|Image = [[File:Mortar_Upgrade_2.png|100px]]|Information = +13 Damage [[File:SplashDamage.png|20px|Damage]]\n\n+3 Range [[File:Range Icon.png|20px|Range]]\n\n5.5 > 7 Explosion Radius [[File:ExplosiveRange.png|20px|Explosion Radius]]\n\n\nSell Price changes to {{Money|900}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Bigger Cannon|Cost = {{Money|2,50"
     },
     {
-      "title": "Fatigue Debuff",
-      "score": 2,
-      "pageid": 49626,
-      "latest_revid": 630982,
-      "latest_timestamp": "2026-08-28T17:08:39Z",
-      "wikitext_excerpt": "{{BuffInfobox\n|name = Fatigue Debuff\n|image = Slowness.png\n|type = Debuff\n|display = Tower\n}}\n\n==Description==\nThe '''Fatigue Debuff''' is a debuff that increases a tower's firerate, making them fire slower. It is displayed on the tower itself with the icon of a ball and chain.\n\n==Mechanics==\nCurrently, the '''Fatigue Debuff''' is calculated as:\n\n::<big>'''Original Firerate + Original Firerate × (Fatigue Debuff ÷ (1 + Fatigue Debuff))'''</big>\n::: where '''Fatigue Debuff''' is the debuff supplied by the enemy in decimal form (for example, 10% is 0.1).\n\nWhile it may look like the firerate of a tower with the '''Firerate Debuff''' is rounded up or down to the second decimal, this is only visual. The number can be far longer than what is displayed.\n\nThe firerate of a tower with the [[Firerate Bug]] is calculated as:\n\n::<big>'''(Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) + (Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 + Fatigue Debuff ÷ (1 + Fatigue Debuff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n:::where ''Bugged Firerate'' is the firerate with the [[Firerate Bug]].\n\nPrior to the [[v1.1.0|Entity System Update]], '''Fatigue Debuff''' was calculated as:\n\n::<big>'''Original Firerate × (1 + Firerate Debuff)'''</big>\n\nThe firerate of a tower with the [[Firerate Bug]] was calculated as:\n\n::<big>'''((Bugged Firerate - [[Firerate Bug|Firerate Bug Increase]]) × (1 + Fatigue Debuff)) + [[Firerate Bug|Firerate Bug Increase]]'''</big>\n\nThe following towers are either partially or fully not affected by the '''Fatigue Debuff''':\n*All towers that are not humanoids are immune to any debuff applied by enemies prior to the 28th of October 2023.\n**The {{Color|Premium|XR500}} is still affected, as the skin has a humanoid.\n**Multiple skins added starting from the 1st of April 2025 also have this immunity due to bugs.\n*All [[units]].\n*Firerate of secondary attacks, like the [[Pursuit]]'s missiles.\n**Their main firerate can still be increased.\n*Tick of effects applied to enemies.\n**The tick of the [[Accelerator]] can still be increased.\n*The rev-up times of various towers, like the [[Minigunner]] or [[Pursuit]]\n*Charge-up and cooldown of various burst or burst adjacent attacks, such as the [[Soldier]], [[Freezer]] and [[Accelerator]].\n*Ability cooldowns.\n\n==Applied By==\nThe following consumables can apply the '''Fatigue Debuff''' to towers:\n*[[Sugar Rush (Consumable)|Sugar Rush]] (Passive)\n\nThe following enemies can apply the '''Fatigue Debuff''' to towers:\n*[[Boomer]] (''Weakening Bile'' ability)\n*[[Clown]] (''Bombastic Performance'' ability)\n*[[Tanker]] (''Toxic Fumes'' ability)\n*[[Elite Boomer]] (''Weakening Bile'' ability)\n*[[Molten Warlord]] (''Fireball'' ability)\n*[[Fallen Soul (Legacy)|Fallen Soul]] (Legacy version, ''Slash'' ability)\n*[[Unknown Small]] (''Unknown Fatigue'' ability)\n*[[Unknown Boss]] (''Second Chance'' ability)\n*[[Crystalian]] (''Heartfelt Ray'' ability)\n*[[Soul Stealer (Legacy)|Soul Stealer]] (''Soul Steal'' ability)\n*[[Snow Minion]] (''Snowball Throw'' ability)\n\nThe following event enemies could apply the '''Fatigue Debuff''' to towers:\n*[[Frost Spirit (Frost Invasion)|Frost Spirit]] (''Nausea Stomp'' ability, [[Frost Invasion Event|Frost Invasion]])\n*[[Clown (Lunar Overture)|Clown]] (''Bombastic Performance'' ability, [[Lunar Overture Event|Lunar Overture]])\n*[[Krampus (Krampus Frosthold)|Krampus]] (All stunning abilities, [[Krampus' Revenge Event|Krampus' Revenge]])\n*[[Blight Walker]] (''Spit Burst'' ability, [[Hexscape Event|Hexscape]])\n*[[Primordial Drakobloxxer]] (''Nightmare Storm'' ability, [[Hexscape Event|Hexscape]])\n*[[Ducky D00M III]] (''Rocket Barrage'' ability, [[Ducky Revenge Event|Ducky Revenge]])\n*[[Nerd Ducky]] (''Ducky Blast'' ability, [[Ducky Revenge Event|Ducky Revenge]])\n*[[Producer]] (''Spotlight'' ability, [[The Final Act Event|The Final Act]])\n*[[Narrator (Enemy)|Narrator]] (''Hand Laser'' ability, [[The Final Act Event|The Final Act]])\n*[[Decoy]] (''Soccer Bo"
-    },
-    {
-      "title": "Scared Debuff",
-      "score": 2,
-      "pageid": 49646,
-      "latest_revid": 644040,
-      "latest_timestamp": "2026-09-06T14:35:39Z",
-      "wikitext_excerpt": "{{BuffInfobox\n|name = Scared Debuff\n|image = DebuffRangeIcon.png\n|type = Debuff\n|display = Tower\n}}\n\n==Description==\nThe '''Scared Debuff''' is a debuff that decreases a tower's range. It is displayed on the tower itself using the icon of a ghost. Multiple ghosts will also appear out of the tower.\n\n==Mechanics==\n'''Scared Debuff''' range reduction is calculated as:\n::<big>'''Range × (1 - Scared Debuff)'''</big>\n:::where '''Scared Debuff''' is the debuff supplied by the enemy in decimal form (for example, 10% is 0.1).\n\nThe range of a tower affected by the '''Scared Debuff''' can be in decimal form, instead of being rounded down or rounded up to the nearest integer. For example, a tower with 5 range with a 50% '''Scared Debuff''' will have a range of 2.5.\n\nThe following towers are either partially or fully not affected by the '''Scared Debuff''':\n*All towers that are not humanoids are immune to any debuff applied by enemies prior to the 28th of October 2023.\n**Multiple skins added starting from the 1st of April 2025 also have this immunity due to bugs.\n*All [[units]]..\n*Circling/patrol range of the [[Pursuit]] and [[Ace Pilot]].\n**The radius in which towers gain hidden detection from the [[Ace Pilot]] also cannot be decreased.\n**These towers' attack range can still be decreased.\n*The deadzone ranges of towers, like the [[Engineer]].\n**The attack range for these towers can still be decreased.\n*Secondary orange range of towers like the range buff range for the [[Ranger]] or the gravestone range for the [[Necromancer]].\n**The main range of these towers can still be decreased.\n*The chain range of the [[Electroshocker]].\n**The attack range can still be decreased.\n*The explosion radius from [[Splash Damage|Splash Damage towers]] cannot be decreased.\n\n==Applied By==\nThe following enemies can apply the '''Scared Debuff''' to towers:\n*[[Unstable Ice]] (''Avalanche'' ability)\n*[[Nuclear Monster]] (''Blindly Shooting'' ability)\n*[[Gunslinger]] (''Time's Up'' ability)\n*[[Wox the Fox]] (''Game Over'' ability)\n*[[Vindicator]] (''Blinding Carom'' ability)\n*[[Void Reaver]] (''Cursed Blade'' ability)\n\nThe following event enemies can apply the '''Scared Debuff''' to towers:\n*[[Conserver]] (''Spirit Release'' ability, [[Hexscape Event|Hexscape]])\n*[[Corrupted Conserver (Hexscape)|Corrupted Conserver]] (''Spirit Release'' ability, [[Hexscape Event|Hexscape]])\n*[[Corrupted Conserver (Nil Zone)|Corrupted Conserver]] (''Spirit Release'' ability, [[Nil Zone]])\n*[[Null Pyromancer]] (''Foul Breath'' ability, [[Null & Void Event|Null & Void]])\n*[[Painter]] (''Paint Splatter'' ability, [[The Final Act Event|The Final Act]])\n*[[Narrator (Enemy)|Narrator]] (''Hand Laser'' ability, [[The Final Act Event|The Final Act]])\n*[[Referee]] (''Red Card'' ability, [[Backyard Legends Event|Backyard Legends]])\n\nThe following event enemies used to apply the '''Scared Debuff''' to towers, but no longer do so:\n*[[Nerd Ducky]] (''Ducky Blast'' ability, [[Ducky Revenge Event|Ducky Revenge]])\n\n==Sounds==\n{{Sounds|{{pe|\n{| class{{=}}\"article-table align-center\" style{{=}}\"width:750px; margin:0 auto;\"\n|-\n! style{{=}}\"width:30%;\" |Sound\n|-\n! colspan{{=}}\"2\" |Applied Scared Debuff\n|-\n|[[File:ScaredDebuff1.ogg]]\n|-\n|[[File:ScaredDebuff2.ogg]]\n|-\n|[[File:ScaredDebuff3.ogg]]\n|}\n}}}}\n\n==Update Log==\n*'''29 July 2022''' - [[v1.3.0]]\n**'''Scared Debuff''' added.\n\n\n\n{{BuffsNavBox}}"
-    },
-    {
-      "title": "Damage Indicators",
+      "title": "Defense",
       "score": 1,
-      "pageid": 41292,
-      "latest_revid": 511703,
-      "latest_timestamp": "2026-06-24T17:42:09Z",
-      "wikitext_excerpt": "==Description==\n'''Damage Indicators''' are numbers that pop up on enemies when a tower is selected. These numbers are how much damage was dealt to the enemy. The colors used by them mainly varies based on the damage type of the tower or unit. As not all damage types are registered by the game, not all sources of damage will have them appear.\n__TOC__\n\n==Regular Indicators==\n[[File:RegularIndicator.png|100px|thumb]]\nRegular indicators are the basic indicator that appears on most towers. These indicators are colored red. If a tower does not fall into any of the categories below, it uses these indicators.\n{{Clear}}\n\n==Explosion Indicators==\n[[File:ExplosionIndicator.png|100px|thumb]]\nExplosion indicators appear when a tower or unit deals explosion damage. They are also appear when a tower deals burn damage. These indicators are colored orange. Additionally, damage under this type will bypass defense. These following towers and units deal this type of damage:\n*[[Demoman]]\n*[[Ace Pilot]]\n*[[Military Base]]\n*[[Tank]]\n*[[Railgun Tank]]\n*[[Rocketeer]]\n*[[Trapper]]\n*[[Pyromancer]]\n*[[Tesla]]\n*[[Necromancer]]\n*[[Archer]]\n*[[Commando]]\n*[[Firework Technician]]\n*[[Jester]]\n*[[Snowballer]]\n*[[Swarmer]]\n*[[Missile APC]]\n*[[Grenadier]]\n*[[War Machine Sentry]]\n*[[Bomber Elf (Unit)|Bomber Elf]]\n*[[Gift Bomber]]\n*[[Ripped Elf (Unit)|Ripped Elf]]\n\nHowever, despite this, not every single explosive actually uses these indicators. The following towers do not use explosive indicators, meaning they do not bypass defense:\n*[[Paintballer]]\n**Uses Regular indicators.\n*[[Slime Trooper]]\n**Uses Regular indicators.\n*[[Hallow Punk]]\n**Uses Regular indicators.\n*[[Ivy]]\n**Uses Energy indicators.\n\nAdditionally, the [[Elementalist]] uses similarly colored damage indicators for its burn related attacks, though it shares no other traits with explosion indicators, such as defense bypass.\n\n==Collision Indicators==\n[[File:CollisionIndicator.png|100px|thumb]]\nCollision indicators appear when a tower or unit deals unit collision damage. This means it has a few traits, such as bypassing defense, damaging [[Lead (Attribute)|Lead]] enemies, bypassing [[Tank (Attribute)|Tank]]  and dealing no damage to [[Ghost (Attribute)|Ghost]] enemies. These indicators are colored yellow. This means it will mainly appear when a unit collides with another enemy. There is one exception to this, as the [[Trapper]]'s spike and bear traps deal unit collision damage, making them use these indicators.\n\n==Melee Indicators==\n[[File:MeleeIndicators.png|100px|thumb]]\nMelee indicators appear when a tower or unit deals melee damage. These indicators are yellow. These indicators are quite inconsistent, as multiple towers that would be considered melee are not registered as ones. These following towers and units deal this type of damage:\n*[[Gladiator]]\n*[[Warden]]\n*[[Sledger]]\n*[[Executioner]]\n*[[Riot Guard]]\n*[[Slasher]]\n**With its main attack.\n*[[Assassin]]\n*[[Warlock]]\n**With its melee attack.\n*[[Brawler]]\nThese towers, despite looking like they would deal such damage, do not have melee indicators:\n*[[Sword Skeleton]] and [[Skeleton Knight]].\n**Both use regular indicators.\n*[[Executioner Skeleton]].\n**Despite [[Executioner]] having melee indicators, [[Executioner Skeleton]] does not. It has regular indicators.\n*[[Guardian Elf]]\n**Uses regular indicators.\n\n==Poison Indicators==\n[[File:PoisonIndicator.png|100px|thumb]]\nPoison indicators appear when a tower deals poison damage. These indicators are colored green. These following towers and units deal this type of damage:\n*[[Toxic Gunner]]\n*[[Saboteur]]\n*[[Ivy]]\n*[[Jester]]\n\nThe [[Swarmer]]'s sting damage used to have its damage create such indicators, though this is not longer the case starting from [[v1.63.0]].\n\n==Chillness Indicators==\n[[File:ChillnessIndicator.png|100px|thumb]]\nChillness indicators appear when a tower deals damage through chillness. These indicators are colored blue. While all freezing tower apply chillness, only the [[Cryomancer]"
+      "pageid": 21503,
+      "latest_revid": 495331,
+      "latest_timestamp": "2026-06-17T01:52:27Z",
+      "wikitext_excerpt": "{{AttributeInfobox\n|image1 = Defense.png\n|type = Damage Reduction\n}}\n\n==Description==\n'''Defense''' is a status value given to certain enemies and units. Enemies may spawn with this naturally, or be granted this through a litany of means.\n\n==Mechanics==\nThere are two types of defense statistic. The main defense statistic is ''Percentage Defense'' which is used to calculate ''Effective Damage''.\n\n''Percentage Defense'' is the actual defense percentage you see on an enemy or unit. However, this does not mean that if an enemy has 50% defense damage dealt towards it will be decreased 50%. In reality, the number listed is far closer to the percentage of additional health that '''Defense''' gives it.\n\n''Effective Damage'' is the actual damage dealt towards an enemy by a tower once ''Percentage Defense'' is applied. ''Effective Damage'' is calculated by calculating\n\n::<big>'''Original Damage ÷ (1 + Percentage Defense)'''</big>\n\nwhere ''Percentage Defense'' is changed from a percentage into its equivalent decimal number (for instance, 50% would be 0.5 in decimal form). For example, a tower that deals 100 damage attacking an enemy with 50% defense would deal 67 damage as 100 ÷ (1 + 0.5) = 66.67 to two decimal places. Due to ''Effective Damage'' always being rounded up to the nearest integer, 66.67 rounds up to 67. Prior to the [[v1.1.0|Entity System Update]], ''Effective Damage'' was always rounded down to the nearest integer.\n\nUnit defense works identically to enemy defense, reducing damage from enemy abilities and collision.\n\nA list of certain ''Percentage Defense'' values and how much damage they actually reduce has been provided below. This is not a comprehensive list and the values may not be fully accurate due to how the game rounds up the damage, making the values occasionally lower.\n{| class=\"wikitable pad-5\" style=\"text-align: center; margin: 1em auto;\"\n!Percentage Defense\n!Damage Reduced\n|-\n|10%\n|9.09%\n|-\n|15%\n|13.04%\n|-\n|20%\n|16.67%\n|-\n|25%\n|20%\n|-\n|35%\n|25.93%\n|-\n|40%\n|28.57%\n|-\n|50%\n|33.33%\n|-\n|60%\n|37.5%\n|-\n|80%\n|44.44%\n|-\n|100%\n|50%\n|-\n|150%\n|60%\n|-\n|200%\n|66.67%\n|-\n|300%\n|75%\n|}\n\n===Countering Defense===\n'''Defense''' can reduce the damage output of most towers significantly.\n\nThere are a couple of towers and consumables that can melt the ''Percentage Defense'' value of enemies, allowing your towers to deal more damage. A few certain towers can also ignore defense. There are two types of defense melting towers. The first has them decrease ''Total Defense'' by a certain percentage. However, if the [[Pyromancer]], which melts defense by 50%, is decreasing defense of [[Fallen Hero]], which has 50% defense, this does not mean its defense will be lowered to 0%. Instead, it is decreased by 25% defense, as which is 50% of 50% defense. The defense removal can stack, so the [[Pyromancer]] and [[Electroshocker]] can together remove 70% ''Percentage Defense'', but two [[Pyromancer]]s cannot remove 100% ''Percentage Defense''. Instead, only 50% ''Percentage Defense'' can be melted. Additionally, defense melting from burn cannot stack with other burn towers, freeze defense melting cannot stack with other freeze towers and poison defense melting cannot stack with other poison towers.\n\nThe second type has them decrease ''Total Defense'' by a flat amount. For example, the [[DJ Booth]] at maximum power can melt 25% defense. This means that when melting defense of the [[Fallen Giant]], it will will melt its defense from 60% to 35%.\n\nBoth forms of defense melting do not interfere with each other and can stack. For example, if the [[DJ Booth]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 75%, the [[Pyromancer]] will reduce it from 75% to 25%, which is the same decrease (50% less defense) as if [[DJ Booth]] did not affect it. Likewise, if the [[Pyromancer]] decreases the [[Vindicator (Legacy)|Vindicator]]'s defense from 100% to 50%, the [[DJ Booth]] will still be able to decrease it by 25%, from 50% to 25%.\n\nMost "
+    },
+    {
+      "title": "Firerate Bug",
+      "score": 1,
+      "pageid": 29369,
+      "latest_revid": 629054,
+      "latest_timestamp": "2026-08-27T12:17:15Z",
+      "wikitext_excerpt": "{{Removed|date = 6th of June 2026}}\n{{Improve|this page and majority of tower/unit pages require updating}}\nThe '''Firerate Bug''', also known as the '''RoF (Rate of Fire) Bug''', was a bug that slightly increased the firerate of all towers and units. This increase was not displayed on the statistics in the game. This bug significantly affected the statistics of fast-firing towers, such as the [[Minigunner]] and [[Ace Pilot]], by significantly decreasing their DPS, whereas slow-firing towers like the [[Ranger]] or [[Sniper]] were hardly affected.\n\nThis has been fixed as of the 6th of June 2026, and all firerate statistics in the game are considered to be accurate unless affected by a different unrelated bug.\n\n{{RightTOC}}\n\n==Prior to 5th of June 2026==\nThe '''Firerate Bug''' affects all towers and units that can directly attack enemies, meaning the only towers that are not affected are the [[Farm]], [[Medic]] and the [[Firework Technician]] and the only units that are not affected are the [[Humvee]], [[Humvee 2]], [[Elf]], [[Bomber Elf (Unit)|Bomber Elf]], [[Skeleton (Unit)|Skeleton]], [[Giant Skeleton (Unit)|Giant Skeleton]] and [[Hallow Guard (Unit)|Hallow Guard]]. The '''Firerate Bug''' does not affect the firerate of some secondary attacks towers or units may perform, some damage-over-time effects applied by towers (like burn from the [[Pyromancer]]) or certain other cooldowns.\n\nThe '''Firerate Bug''' increases the firerate of a tower/unit depending on its firerate, which can vary anywhere between 0.017 and 0.032 seconds. The firerate increase affects fast firing towers the most; for example, the [[Minigunner]] at Level 4 should have a firerate of 0.09, but because of the '''Firerate Bug''', it has a firerate of about 0.117, decreasing its DPS from 166.67 to 128.20, which is a decrease of 38.47 DPS, or a loss of about 23.08 DPS. Meanwhile, slow firing towers are barely affected by it; for example, the [[Ranger]] at Level 4 should have a firerate of 8, but because of the '''Firerate Bug''', it has a firerate of about 8.025, decreasing its DPS from 156.26 to 155.76, which is a decrease of 0.30 DPS, or a loss of 0.2% DPS.\n\nThe [[Firerate Buff]] is also affected by the '''Firerate Bug''', making it less effective. For example, the Level 4 [[Minigunner]] without the '''Firerate Bug''' with a 50% firerate boost should have a firerate of 0.06, but with the '''Firerate Bug''' it has a firerate of 0.083. This means that its DPS with a 50% firerate boost is decreased from 250 to 180.72, which is a decrease of 69.28 DPS, or a loss of 27.71% DPS.\n\nOn this Wiki, the firerate statistic of all towers and units is increased by specific values based on the firerate. While technically possible to calculate by hand, due to the effort it would take, it is overall recommended to either use [[Help:Neowtext#ROFBUG|Neowtext]] or [https://fiheron.github.io/dps-calc/ an online calculator].\n\n==Prior to the 9th of January 2023==\nPrior to the 9th of January 2023, the firerate increase caused by the '''Firerate Bug''' for units was higher than it currently is. The firerate increase was generally around 0.03 seconds. For towers, the firerate increase remained at around 0.008 seconds.\n\nOn this Wiki, the firerate statistic of all towers and units after the [[V1.6.0|Violent Night Update]] and before the 9th of January 2023 is increased by 0.008 and 0.03 respectively, unless stated otherwise. This does not, however, mean the actual value is this; it can vary between towers and even between matches.\n\n==Prior to the Violent Night Update==\nPrior to the [[V1.6.0|Violent Night Update]], the firerate increase caused by the '''Firerate Bug''' for units was lower than it was before the [[V1.6.0|Violent Night Update]]. The firerate increases could be anywhere between 0.008 and 0.017 seconds, but the increase was generally around 0.008 seconds. This is the same as the current situation.\n\nOn this Wiki, the firerate statistic of all units after the [[V1.1.0|Entity Syst"
     },
     {
       "title": "Flying",
@@ -2201,12 +1643,12 @@
       "wikitext_excerpt": "{{SameName|Hidden|[[Hidden (Attribute)|Attribute]] • [[Hidden|Enemy]]}}\n{{For|the [[Hidden Boss]]|[[Hidden Zoomer]]}}\n{{AttributeInfobox\n|title1 = Hidden\n|image1 = HiddenDetection.png\n|type = Enemy Type\n|detection = Hidden Detection\n|effects = Translucent Body\n|sandbox = Yes\n|tag = {{AttrTag|Second|HiddenDetection.png|Hidden}}\n}}\n==Description==\n'''Hidden''' is an enemy type that makes the enemy require hidden detection to be targeted.\n\n==Mechanics==\nEnemies that are '''Hidden''' cannot be detected by towers that do not have hidden detection. They may be indirectly damaged by towers that do not have hidden detection by collision with [[units]] or by being caught in an explosive radius, for example. The appearance of '''Hidden''' enemies are also affected, in which they will have a transparency. These following towers have hidden detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Hidden Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Paintballer]]\n| class=\"yes-table\" |Full<ref>At Level 0, its splash damage can indirectly damage '''Hidden''' enemies.</ref>\n|Level 1+\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full<ref>From Level 0+, its splash damage can indirectly damage '''Hidden''' enemies, but this tower cannot directly target '''Hidden''' enemies until Level 3.</ref>\n|Level 3+<br/>N/A ([[PVP]])\n|-\n|[[Boomerang]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies if hit by the boomerang, but they cannot be targeted.</ref>\n|N/A\n|-\n|[[Slime Trooper]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Soldier]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Shotgunner]]\n| class=\"yes-table\" |Full<ref>Its piercing can indirectly damage '''Hidden''' enemies.</ref>\n|Level 2+\n|-\n|[[Freezer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Assassin]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Militant]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Hunter]]\n| class=\"yes-table\" |Full\n|Level 3+<br/>Level 1+ ([[PVP]])\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ace Pilot]]\n| class=\"yes-table\" |Full\n|Level 4+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None<ref>Can indirectly damage '''Hidden''' enemies with thorns generated, if a [[Harvester]] is also used in the match.</ref>\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full<ref>Its chain attack can indirectly target '''Hidden''' enemies before Level 2.</ref>\n|Level 2+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Trapper]]\n| class=\"no-table\" |None<ref>Despite not having hidden detections, its traps can deal damage to '''Hidden''' enemies.</ref>\n|N/A\n|-\n|[[Military Base]]\n| class=\"yes-table\" |Full<ref>Can deal damage to enemies with collisions for Level 0-2.</ref>\n|Level 3+\n|-\n|[[Crook Boss]]\n| class=\"yes-table\" |Full<ref>Its unit can target '''Hidden''' enemies at Level 0.</ref>\n|Level 2+ (Tower)<br/>Level 0+ (Units)\n|-\n|[[Commander]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Cowboy]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 3+ ([[PVP]])\n|-\n|[[DJ Booth]]\n| class=\"no-table\" |None<ref>At Level 3, its pulses can indirectly hit hidden enemies if they are in its range, though the actual tower cannot detect them.</ref>\n|N/A\n|-\n|[[Tesla]]\n| class=\"no-table\" |None<ref>Its lightning can damage '''Hidden''' enemies by chaining to them, but the tower itself cannot directly target them.</ref>\n|N/A\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Minigunner]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Ranger]]\n| class=\"no-table\" |None<ref>Only its splash damage can indirectly hit hidden enemies. The tower itself can never directly target them.</ref>\n|N/A\n|-\n|[[Pursuit]]\n| class=\"yes-table\" |Full\n|Level 4B+\n|-\n|[[Gatling Gun]]\n| class=\"yes-table\" |Full<ref>When controlled by the player, the Gatling Gun"
     },
     {
-      "title": "Hidden Wave",
+      "title": "Lead (Attribute)",
       "score": 1,
-      "pageid": 2531,
-      "latest_revid": 579442,
-      "latest_timestamp": "2026-07-29T02:38:55Z",
-      "wikitext_excerpt": "{{SameName|Hidden Wave|[[Hidden Wave|Current]] • [[Hidden Wave (Legacy)|Legacy]]}}\n{{HiddenWaveInfobox\n|image1 = HiddenBadge3.png\n|rewards = {{Gem|50}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|VeryEasy}})<br/>{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Easy}})<br/>{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}  ({{Color|Normal}})<br/>{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Hard}})<br/>{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}} ({{Color|Insane}})<br/>{{Gem|+100}} (First Triumph)\n|music-1 = '''Wave 41''' [[File:(Official) Tower Defense Simulator OST - Eye Of The Swarm|thumb|center|250px]]\n|music-2 = '''[[???]] Speech & Wave ???''' [[File:(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)|thumb|center|250px]]\n|music-ingame-2 = '''[[???]] Speech & Wave ???''' [[File:Tower Defense Simulator OST - Equinox In-Game Version|thumb|center|250px]]\n}}\n{{QuoteContainer|\n{{QuoteBox|GREETINGS PLAYER.<br/>YOU HAVE PROVED YOURSELF QUITE SKILLFUL SO FAR...<br/>BUT HOW SKILLFUL DO YOU THINK YOU ACTUALLY ARE?|[[???]] dialogue at Wave 41}}\n}}\n__TOC__\n==Description==\nThe '''Hidden Wave''' is a secret wave that can only be accessed in [[Fallen Mode|Fallen]] mode.\n\nPlayers need to disable \"Skills Enabled\" from the Gameplay [[Settings]] first to enable Hidden Wave.\n\nAfter voting for [[Fallen Mode|Fallen]] mode, one player must type \"120\", \"1\" and \"1009\" in the game chat. A shriek and screen darkening will accompany each message. After the last number is typed out, the map will become permanently discolored. The base health needs to be reduced to 1, and on Wave 40, the [[Fallen King]] must be defeated in under 60 seconds, which will cause a quicker death animation to play, with the [[Fallen King]] smashing the ground and fleeing with its sword. Using [[Consumables]] on Wave 40 will cause the '''Hidden Wave''' not to be activated.\n\nAfter defeating the [[Fallen King]] under 60 seconds, the next wave will appear as Wave 41. After the Wave 41 timer ends, the players will begin floating in mid-air, and the screen will become a strong purple static background. An unknown narrator simply known in the game as [[???]] will address the player. After the [[Commander (Narrator)|Commander]]'s dialogue, the game abruptly pauses and displays a false disconnect message with defeating the [[Fallen King]] as the reason on a pitch-black background. As the fake error message glitches, it flashes back to the game. The [[Awakened Fallen King]] will spawn in, and the Wave ??? begins, giving all players {{Money|50,000}}.\n\nDuring the course of the wave, purple fog and dark purple particles will cover the entire map, with bright trails flying around. The wave text becomes glitched in a similar fashion to the [[Glitchy Nametag]].\n\n==Rewards==\nTriumph rewards are based on the difficulty of the map. First time triumph also have their rewards increased by {{Gem|100}}. The rewards for each difficulty are:\n\n{| class=\"tds-table align-center\" style=\"width:600px; margin:1em auto;\"\n! rowspan=\"2\" |Difficulty\n! colspan=\"2\" |Rewards\n|-\n!Regular\n!First Triumph\n|-\n|{{Color|VeryEasy}}\n|{{Gem|50}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Easy}}\n|{{Gem|75}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|175}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Normal}}\n|{{Gem|100}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|200}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Hard}}\n|{{Gem|125}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|225}}, {{Exp|250}} & {{TowerExp|185}}\n|-\n|{{Color|Insane}}\n|{{Gem|150}}, {{Exp|250}} & {{TowerExp|185}}\n|{{Gem|250}}, {{Exp|250}} & {{TowerExp|185}}\n|}\n\nThe reward for the first 50 players who beat '''Hidden Wave''' was the {{Color|Other|Triumphant}} [[Hacker]] skin.\n\nTriumphing '''Hidden Wave''' will give out an additional reward, which can be a crate, consumable or ticket. They are meant to be guaranteed, though due to a bug this does not always happen. These items are:\n*{{Color|Common}} (47.39%"
+      "pageid": 42673,
+      "latest_revid": 654581,
+      "latest_timestamp": "2026-09-23T08:02:30Z",
+      "wikitext_excerpt": "{{SameName|Lead|[[Lead (Attribute)|Attribute]] • [[Lead (Legacy Enemy)|Legacy Enemy]] • [[Lead|Modern Enemy]]}}\n{{For|the [[Lead Boss]]|[[Lead Balloon]]}}\n{{AttributeInfobox\n|title1 = Lead\n|image1 = LeadIcon.png\n|type = Enemy Type\n|detection = Lead Detection\n|immunities = Damage\n|sandbox = Yes\n|tag = {{AttrTag|Second|LeadIcon.png|Lead}}\n}}\n==Description==\n'''Lead''' is an enemy type that prevents the enemy from being damaged by any tower that does not have lead detection.\n\n==Mechanics==\n'''Lead''' enemies cannot be damaged by any tower without lead detection, though despite what the detection name suggests, they can still be targeted by towers without it unless other attributes prevent the tower from doing so. Only towers with lead detection can damage them. By default, [[Splash Damage]] (except [[Paintballer]]), fire damage and collision damage all have lead detection. Some towers cannot damage lead enemies with all their attacks as only some of them have it, such as the [[Archer]] not being able to damage ''Lead'' enemies with its arrows, but still being able to damage them through its burn. These following towers have lead detection:\n{| class=\"sortable wikitable pad-5 align-center mw-collapsible mw-collapsed\" style=\"margin:0 auto; width: 50%;\"\n! colspan=\"3\" |Lead Detection\n|-\n!Tower\n!Status\n!Level\n|-\n|[[Scout]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Sniper]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Paintballer]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Demoman]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Boomerang]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Slime Trooper]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Soldier]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Shotgunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Freezer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Assassin]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Militant]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Hunter]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Pyromancer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Ace Pilot]]\n| class=\"neutral-table\" |Partial<ref name=\"splash\">Splash damage only.</ref>\n|Level 2+\n|-\n|[[Medic]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Farm]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Electroshocker]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Rocketeer]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Trapper]]\n| class=\"yes-table\" |Full<ref>While the [[Trapper]] itself does not have lead detection, all of its traps can damage lead enemies.</ref>\n|Level 0+\n|-\n|[[Military Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\">Collision and splash damage only.</ref>\n|Level 0+\n|-\n|[[Crook Boss]]\n| class=\"neutral-table\" |Partial<ref name=\"col\">Collision damage only.</ref>\n|Level 0+\n|-\n|[[Commander]]\n| class=\"neutral-table\" |Partial<ref>Tower, splash and collision damage only.</ref>\n|Level 2+\n|-\n|[[Warden]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Cowboy]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Tesla]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[DJ Booth]]\n| class=\"yes-table\" |Full\n|Level 3+\n|-\n|[[Saboteur]]\n| class=\"yes-table\" |Full\n|Level 2+\n|-\n|[[Minigunner]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Ranger]]\n| class=\"yes-table\" |Full\n|Level 2+<br/>Level 0+ ([[PVP]])\n|-\n|[[Pursuit]]\n| class=\"neutral-table\" |Partial<ref>Missiles only. Bullets do not damage '''Lead''' enemies.</ref>\n|Level 3+\n|-\n|[[Gatling Gun]]\n| class=\"no-table\" |None\n|N/A\n|-\n|[[Turret]]\n| class=\"yes-table\" |Full\n|Level 1+\n|-\n|[[Mortar]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Mercenary Base]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Brawler]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Necromancer]]\n| class=\"neutral-table\" |Partial<ref name=\"colsplash\"/>\n|Level 0+\n|-\n|[[Accelerator]]\n| class=\"yes-table\" |Full\n|Level 0+\n|-\n|[[Engineer]]\n| class=\"neutral-table\" |Partial<ref>Tower and splash damage only. Sentries are also able to damage them through their main gun, but that is a bug.</ref>\n|Level 0+\n|-\n|[[Hacker]]\n| class=\"neutral-table\" |Partial<ref>Converted enemy collision only.</ref>\n|Level 0+\n|-\n|["
     },
     {
       "title": "Ranger",
@@ -2215,19 +1657,27 @@
       "latest_revid": 627636,
       "latest_timestamp": "2026-08-26T12:07:04Z",
       "wikitext_excerpt": "{{Tabs}}\n{{TowerInfobox\n|title = Ranger\n|image-static = Newranger.png\n|image-dynamic = RangerDynamic.png\n|unlockcost = {{Coins|12,000}}\n|role = Defense\n|placement = Cliff\n|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]8\n|basecost = {{Money|4,500}}\n|basesellingprice = {{Money|1,500}}\n|basedamage = [[File:Damage Icon.png|20px|Damage]]100\n|damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]6\n|baserange = [[File:Range Icon.png|20px|Range]]70\n|hidden_detection = N/A<ref name=\"hd\">Through splash damage from Level 4, hidden enemies may be hit indirectly if another detectable enemy is nearby.</ref>\n|lead_detection = {{Attr|Lead|Level 2+}}\n|flying_detection = {{Attr|Flying|Level 0+}}\n|immune = Stun\n|footprint = 1.5\n|pvp_basecost = {{Money|2,000}}\n|pvp_basesellingprice = {{Money|666}}\n|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]40\n|pvp_damagetype = Single<br/>[[Splash Damage|Splash]] (Level 4)\n|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]3\n|pvp_baserange = [[File:Range Icon.png|20px|Range]]50\n|pvp_hidden_detection = N/A<ref name=\"hd\"/>\n|pvp_lead_detection = {{Attr|Lead|Level 0+}}\n|pvp_flying_detection = {{Attr|Flying|Level 0+}}\n|pvp_immune = Stun\n|pvp_footprint = 1.5\n|tooltip-1 = An expensive cliff tower with great range and damage. Fires extremely slow so best used targeting high health targets.\n|tooltip-2 = Later levels provide nearby towers with a range boost at the beginner{{sic}} of waves.\n|tooltip-3 = Capable of detecting [[flying]] and [[Lead (Attribute)|lead]] enemies.\n}}\n{{QuoteContainer|<tabber>\n|-|Current =\n{{QuoteBox|Precision is key. Deals exceptional damage at nearly infinite range.|Current Store Description}}\n|-|Version 3 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage.|Former Store Description}}\n|-|Version 2 =\n{{QuoteBox|A long-range cliff tower that deals heavy damage with a railgun.|Former Store Description}}\n|-|Hardcore Testing =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage with a railgun.|Former Store Description}}\n|-|Original =\n{{QuoteBox|A long-range tower that can be placed on cliffs and deals heavy damage.|Former Store Description}}\n</tabber>}}\n__TOC__\n==Description==\nThe '''Ranger''', formerly known as the '''Outlaw''', is an advanced cliff [[Towers|tower]] with long range that can be purchased in the store for {{Coins|12,000}}.\n\nThe '''Ranger''' deals high damage with very long range but has a slow firerate. As a cliff tower, it can detect [[Flying]] enemies, but cannot detect hidden enemies at any level. The '''Ranger''' can also damage lead enemies at Level 2+. Additionally, it is immune to all stuns by default. At Level 2, it gains the ability to give towers a 10% [[Range Buff]] within its inner radius at the start of every wave for 20 seconds. At Level 4, it also deals splash damage through its ''Explosive Impact''.\n\nThe '''Ranger''' deals extremely high damage at higher levels, but is expensive to upgrade to these levels. Due to these reasons, it is considered a mid-to-late game tower and is most effective for harder gamemodes.\n\nThe '''Ranger''' has a placement limit of eight per player.\n\n==Upgrades==\n{{PVPTabber\n|{{Upgrade|Level = Level 1|Upgrade Title = Faster Reloading|Cost = {{Money|1,500}}|Image = [[File:Common1Image.png|100px]]|Information = 6 > 4.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|2,000}}}}\n{{Upgrade|Level = Level 2|Upgrade Title = Intelligence Radio|Cost = {{Money|5,500}}|Image = [[File:Outlaw2.png|100px]]|Information = +85 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n+10% [[Range Buff]] [[File:Range Buff.png|20px|Range Buff]]\n\n•12 Buff Range [[File:BuildRange.png|20px|Buff Range]]\n\n•Lasts 20 seconds [[File:Cooldown Icon.png|20px|Buff Time]]\n\n\nSell Price changes to {{Money|3,833}}}}\n{{Upgrade|Level = Level 3|Upgrade Title = Trained Outlaw|Cost = {{Mone"
+    },
+    {
+      "title": "Ranger/Gallery",
+      "score": 1,
+      "pageid": 11725,
+      "latest_revid": 641051,
+      "latest_timestamp": "2026-09-04T13:03:05Z",
+      "wikitext_excerpt": "{{Tabs|Gallery}}\n==Upgrade Icons==\n{{Tabber\n|Current\n|{{UpgradeIcons\n|[[File:Common1Image.png|150px]]\n|[[File:Outlaw2.png|150px]]\n|[[File:Outlaw4.png|150px]]\n|[[File:Outlaw5.png|150px]]\n}}\n|29 June 2019 – 28 October 2023\n|{{UpgradeIcons\n|[[File:Common1Image.png|150px]]\n|[[File:Outlaw2.png|150px]]\n|[[File:Outlaw3.png|150px]]\n|[[File:Outlaw4.png|150px]]\n|[[File:Outlaw5.png|150px]]\n}}\n}}\n\n==Skin Upgrades==\nThe '''Ranger''' has twenty eight skins in total. This includes:\n#The Default skin.\n#Seventeen skins that can be unlocked from [[Crates]].\n#Six skins that can be unlocked from [[Passes]].\n#Two skins that can only be purchased through the [[Daily Store#Daily Skin Store|Daily Skin Store]].\n#Two skins that can be obtained through [[Mission Quests]].\n\n{{Tabber\n|Default\n|{{SkinGallery\n|Title1 = Default\n|Icon1 = [[File:DefaultRangerIconIGAug26.png|128px]]\n|[[File:Ranger_lvl_0.png|200px]]\n|Dark tan skin, dark grey camo jacket and pants with pockets, dark grey shoes, cap with grey logo, headset and vest, and light grey knee-pads.\n\nWields a blue and grey railgun with neon blue parts to attack enemies.\n|[[File:Ranger_lvl_1.png|200px]]\n|Dark grey gloves.\n|[[File:Ranger_lvl_2.png|200px]]\n|Dark grey backpack with an antenna, headset microphone and neon blue lens.\n|[[File:Ranger_lvl_3.png|200px]]\n|Cap replaced with grey hood and face mask.\n\nHeadset replaced with a futuristic one.\n|[[File:Ranger_lvl_4.png|200px]]\n|Backpack is now futuristic and grey wight light blue neon parts\n\nNow wields an upgraded blue and grey railgun with neon blue parts.\n}}\n|Blue\n|The {{Color|Basic|Blue}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Blue}}\n|Icon1 = [[File:BlueRangerIconIGAug26.png|128px]]\n|[[File:LO Blue Ranger 0.png|200px]]\n|Dark tan skin, dark blue camo jacket and pants with pockets, grey shoes, cap with blue logo, headset and vest, and light grey knee-pads.\n\nWields a blue and grey railgun with neon blue parts to attack enemies.\n|[[File:LO Blue Ranger 1.png|200px]]\n|Dark grey gloves.\n|[[File:LO Blue Ranger 2.png|200px]]\n|Dark grey and blue backpack with a blue antenna, headset microphone and neon blue lens.\n|[[File:LO Blue Ranger 3.png|200px]]\n|Cap replaced with blue hood and face mask.\n\nHeadset replaced with a futuristic one.\n|[[File:LO Blue Ranger 4.png|200px]]\n|Backpack is now futuristic and grey wight light blue neon parts\n\nNow wields an upgraded blue and grey railgun with neon blue parts.\n}}\n|Green\n|The {{Color|Basic|Green}} skin is obtained from the [[Basic Crate|{{Color|Basic|Basic Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Basic|Green}}\n|Icon1 = [[File:GreenRangerIconIGAug26.png|128px]]\n|[[File:LO Green Ranger 0.png|200px]]\n|Dark tan skin, dark green camo jacket and pants with pockets, grey shoes, cap with green logo, headset and vest, and light grey knee-pads.\n\nWields a blue and grey railgun with neon blue parts to attack enemies.\n|[[File:LO Green Ranger 1.png|200px]]\n|Dark grey gloves.\n|[[File:LO Green Ranger 2.png|200px]]\n|Dark grey and green backpack with a green antenna, headset microphone and neon blue lens.\n|[[File:LO Green Ranger 3.png|200px]]\n|Cap replaced with green hood and face mask.\n\nHeadset replaced with a futuristic one.\n|[[File:LO Green Ranger 4.png|200px]]\n|Backpack is now futuristic and grey wight light blue neon parts\n\nNow wields an upgraded blue and grey railgun with neon blue parts.\n}}\n|Black Ops\n|The {{Color|Premium|Black Ops}} skin is obtained from the [[Premium Crate|{{Color|Premium|Premium Crate}}]].\n{{SkinGallery\n|Title1 = {{Color|Premium|Black Ops}}\n|Icon1 = [[File:BlackOpsRangerIconIGAug26.png|128px]]\n|[[File:OpsBlackRanger0.png|200px]]\n|Tan skin, black shirt, pants and mask, dark brown shoes, beige headset and vest with dark brown pouches, dark brown belt and brown hat with black stripe.\n\nWields a light beige and black Denel NTW-20 to attack enemies.\n|[[File:OpsBlackRanger1.png|200px]]\n|Light brown gloves.\n|[[File:OpsBlackRanger2.png|200px]]\n|Two beige"
     }
   ],
   "raw_wikitext_file": "tds_bridge/result.txt",
   "expanded_wikitext_file": "tds_bridge/expanded_wikitext.txt",
   "_bridge_run": {
-    "request_fingerprint": "aa815ecc0f568fad5263ca6749daa84f8ebc4c7c78e4bc0d9b9dab18d1ade341",
+    "request_fingerprint": "785a9326866eb4dff9e564faa6596b35df06f49c15f1f03b05f2badbb9bf9ea5",
     "mode": "verify",
-    "query": "Hacker",
-    "started_at": "2026-09-26T04:59:03.245160+00:00",
-    "github_run_id": "36219401180",
-    "source_commit": "3a9c6387cfccf1ece5be319cfaf9671157418a00",
+    "query": "Mortar",
+    "started_at": "2026-09-26T04:59:25.762277+00:00",
+    "github_run_id": "36219445968",
+    "source_commit": "c1f9ad58f01a03a6fdde90b79c2d2a9b1d255fdc",
     "status": "completed",
-    "finished_at": "2026-09-26T04:59:06.713754+00:00",
+    "finished_at": "2026-09-26T04:59:29.380129+00:00",
     "return_code": 0
   }
 }
