@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-10-03T16:27:37.350758+00:00",
+  "generated_at": "2026-10-03T19:57:55.312661+00:00",
   "tracked_page_count": 101,
   "entries": [
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Minigunner",
+      "pageid": 162,
+      "revid": 654648,
+      "old_revid": 654647,
+      "rcid": 658739,
+      "user": "Sansonete",
+      "bot": false,
+      "new": false,
+      "minor": true,
+      "oldlen": 34372,
+      "newlen": 34372,
+      "timestamp": "2026-10-03T18:55:16Z",
+      "comment": "El precio era incorrecto",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 10: Line 10: |placement = Ground |placement = Ground |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]∞ (Regular)<br/>[ |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]∞ (Regular)<br/>[ |basecost = {{Money| 3 , 000 }} |basecost = {{Money| 1 , 850 }} |basesellingprice = {{Money|1,000}} |basesellingprice = {{Money|1,000}} |basedamage = [[File:Damage Icon.png|20px|Damage]]3 |basedamage = [[File:Damage Icon.png|20px|Damage]]3"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Minigunner",
+      "pageid": 162,
+      "revid": 654647,
+      "old_revid": 627637,
+      "rcid": 658738,
+      "user": "PicklesworfPerson1234",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 34425,
+      "newlen": 34372,
+      "timestamp": "2026-10-03T17:46:09Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 9: Line 9: |role = Offense |role = Offense |placement = Ground |placement = Ground |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]∞ (Regular)<br/>[ [File:PlacementLimit.png|20px|Placement Limit]]12 (PVP) |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]∞ (Regular)<br/>[ |basecost = {{Money| 1 , 850 }} |basecost = {{Money| 3 , 000 }} |basesellingprice = {{Money| 616 }} |basesellingprice = {{Money| 1,000 }} |basedamage = [[File:Damage Icon.png|20px|Damage]] 2 |basedamage = [[File:Damage Icon.png|20px|Damage]] 3 |damagetype = Single |damagetype = Single |basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15 |basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.15 Line 134: Line 134: $TE$ = $FNC-TOTAL-EXP$ $TE$ = $FNC-TOTAL-EXP$ $EXP$ = {{#expr:floor(50 * 1.09^(Level - 1) * (Level > 0))}} $EXP$ = {{#expr:floor(50 * 1.09^(Level - 1) * (Level > 0))}} $COST$ = 1850 ; 350 ; 1500 ; 6500; 21500 $COST$ = 3000 ; 600 ; 1600 ; 6500; 21500 $PVP-COST$ = 2550; 850; 1550; 8500; 18750 $PVP-COST$ = idk $FSE-DETECTION$ = 1 ; ; $FSE-DETECTION$ = 2 ; ; $FSE-PVP-DETECTION$ = 2; ; $FSE-PVP-DETECTION$ = 2; ; $FSE-UPGRADE$ = Improved Handling; Specialized Tech; Geared Up; Futuristic Armory $FSE-UPGRADE$ = Improved Handling; Specialized Tech; Geared Up; Ohio Armory $FSE-UPGRADEICON$ = 15184753790; 15184753514; 15184753289; 15184752970 $FSE-UPGRADEICON$ = 15184753790; 15184753514; 15184753289; 15184752970 $FSE-META$ = Advanced; File:NewMinigunner.png $FSE-META$ = Advanced; File:NewMinigunner.png Line 150: Line 150: ! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency ! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev-Up Time !! Range !! DPS$DREF$ !! Cost Efficiency |- |- | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || 0.15 || 1. 4 || 16 || $DPS$ || {{Money|$CE$}} | 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.15 || 1. 5 || 20 || $DPS$ || {{Money|$CE$}} |- |- | 1 || $R$ || $R$ || 2 || 0.12 || 1.2 || 16 || $DPS$ || {{Money|$CE$}} | 1 || $R$ || $R$ || 3 || 0.12 || 1.2 || 25 || $DPS$ || {{Money|$CE$}} |- |- | 2 || $R$ || $R$ || 3 || 0.12 || 1.2 || 18 || $DPS$ || {{Money|$CE$}} | 2 || $R$ || $R$ || 5 || 0.12 || 1.2 || 33.33 || $DPS$ || {{Money|$CE$}} |- |- | 3 || $R$ || $R$ || 7 || 0.1 || 1 || 18 || $DPS$ || {{Money|$CE$}} | 3 || $R$ || $R$ || 7 || 0.1 || 1 || 70 || $DPS$ || {{Money|$CE$}} |- |- | 4 || $R$ || $R$ || 16 || 0.1 || 1 || 21 || $DPS$ || {{Money|$CE$}} | 4 || $R$ || $R$ || 17 || 0.1 || 1 || 170 || $DPS$ || {{Money|$CE$}} |} |} </div> </div> Line 168: Line 168: | 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.18 || 1.4 || 16 || $DPS$ || {{Money|$CE$}} | 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.18 || 1.4 || 16 || $DPS$ || {{Money|$CE$}} |- |- | 1 || $R$ || $R$ || 3 || 0. 17 || 1.2 || 17 | | $DPS$ || {{Money|$CE$}} | 1 || $R$ || $R$ || e || 0. 81819117 || 1.2 || fart | $DPS$ || {{Money|$CE$}} |- |- | 2 || $R$ || $R$ || 5 || 0. 17 || 1.2 || 18.5 || $DPS$ || {{Money|$CE$}} | 2 || $R$ || $R$ || e² || 0. 17j3u || 1.2 || toliet || $DPS$ || {{Money|$CE$}} |- |- | 3 || $R$ || $R$ || 13 || 0. 15 || 1 || 19 || $DPS$ || {{Money|$CE$}} | 3 || $R$ || $R$ || e³ || 0. 15×8 || 1 || something || $DPS$ || {{Money|$CE$}} |- |- | 4 || $R$ || $R$ || 20 || 0. 1 || 1 || 20 || $DPS$ || {{Money|$CE$}} | 4 || $R$ || $R$ || e⁴ || 0. 1e || 1 || idk || $DPS$ || {{Money|$CE$}} |} |} </div> </div>"
+    },
     {
       "type": "edit",
       "ns": 0,
