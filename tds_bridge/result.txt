@@ -1,558 +1,663 @@
-{{Tabs|Regular = Minigunner|Perk = Golden Minigunner|Evolved = Juggernaut}}
-{{SameName|Juggernaut|'''Tower''' • [[Juggernaut (Challenge)|Challenge]] • [[Juggernaut (Modifier)|Modifier]]}}
+{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}
+{{For|other uses of [[Gold (Disambiguation)|Gold]]}}
 {{TowerInfobox
-|image-static = EvolvedJuggernautIcon.png
-|image-dynamic = EvolvedJuggernautDynamic.png
-|image-dynamic-start = 22
-|towercost = {{Coins|15,000}} & {{Gem|6,000}}
-|placement = Ground
+|title = {{Color|Golden|Golden Cowboy}}
+|image-static = WDGoldenCowboyIcon.png
+|image-dynamic = GoldenCowboyDynamic.png
+|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)
+|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])
+|basecost = {{Money|600}}
+|basesellingprice = {{Money|200}}
 |role = Offense
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]1
-|basecost = {{Money|10,000}}
-|basesellingprice = {{Money|3,333}}
-|basedamage = [[File:Damage Icon.png|20px|Damage]]10
+|placement = Ground
+|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12
+|basedamage = [[File:Damage Icon.png|20px|Damage]]3
 |damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.14
-|baserange = [[File:Range Icon.png|20px|Range]]17.5
-|hidden_detection = {{Attr|Hidden|Level 2+}}
-|lead_detection = {{Attr|Lead|Level 4B+}}
-|flying_detection = {{Attr|Flying|Level 4A+}}
-|immune = None
-|footprint = Very Large (2.5)
-|evolved_from = [[Minigunner]]
-|evolution_levels = 20
-|base_exp = 75
-|growth_rate = 1.075
-|skip_cost = 1,199
-|tooltip-1 = A massive offensive tower that fires high damage shots at a quick rate. At level 4, splits into two paths.
-|tooltip-2 = On top path, gains a fortify zone that reduces debuff and stun times for nearby towers.
-|tooltip-3 = On Bottom Path, gains a damage multiplier on boss enemies.
-|tooltip-4 = Capable of detecting hidden enemies, flying enemies on top path, and lead enemies on bottom path.
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9
+|baserange = [[File:Range Icon.png|20px|Range]]13
+|baseincome = {{Money|35}}
+|hidden_detection = {{Attr|Hidden|Level 3+}}
+|lead_detection = N/A
+|flying_detection = N/A
+|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)
+|footprint = 1.25
+|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.
+|tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
-{{QuoteContainer|
-{{QuoteBox|We're only just getting started... An absolute unit of a tower with unmatched firepower, supportive capabilities, and boss destruction.|Store Description}}
-{{QuoteBox|A single tower with high single target damage capabilities and the potential for some defensive utility for nearby towers.|Former Store Description}}
-}}
+{{QuoteContainer|<tabber>
+|-|Current =
+{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}
+|-|Version 2 =
+{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}
+|-|Version 1 =
+{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}
+</tabber>}}
 __TOC__
 ==Description==
-The '''Juggernaut''' or '''EvolvedJuggernaut''' is the [[Tower Evolution|evolved]] version of the [[Minigunner]], unlocked by reaching Level 20 on the [[Minigunner]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|6,000}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.
+The '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.
 
-The '''Juggernaut''' starts out working very similarly to the [[Minigunner]]. When enemies enter its range, it will rev up its minigun and start firing at them. It will not differ mechanically until Level 4, where it gains two paths.
-#The top path is a more support based path where it gains a secondary range in which it reduces stun, freeze and debuff durations. Any tower in that range will have orange shields around them.
-#The bottom path is more offensive based as it gives the passive ability of dealing boosted damage to [[Boss]] enemies.
+While initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. 
 
-The '''Juggernaut''' has hidden detection from Level 2, flying detection from Level 4A and lead detection from Level 4B. It has a placement limit of 1.
+The '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.
+
+In comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.
+
+The '''Golden Cowboy''' has a placement limit of twelve per player.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Evolution Level = 0|Upgrade Title = Combat Tactics|Cost = {{Money|2,800}}|Image = [[File:JuggernautUpgrade1.png|100px]]|Information = 0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-
-Sell Price changes to {{Money|4,266}}}}
-{{Upgrade|Level = Level 2|Evolution Level = 0|Upgrade Title = 32nd Spec-Ops|Cost = {{Money|7,000}}|Image = [[File:JuggernautUpgrade2.png|100px]]|Information = +Hidden Detection {{Hidden|Hidden Detection}}
-
-+5 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+2.5 Range [[File:Range Icon.png|20px|Range]]
-
-2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
-
-
-Sell Price changes to {{Money|6,600}}}}
-{{Upgrade|Level = Level 3|Evolution Level = 0|Upgrade Title = Re-routed Funds|Cost = {{Money|17,200}}|Image = [[File:JuggernautUpgrade3.png|100px]]|Information = +15 Damage [[File:Damage Icon.png|20px|Damage]]
+{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
-
-Sell Price changes to {{Money|12,33}}}}
-{{PathTabber
-|{{Upgrade|Level = Level 4|Evolution Level = 0|Upgrade Title = Fortifier|Cost = {{Money|35,000}}|Image = [[File:JuggernautUpgrade4A.png|100px]]|Information = 0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] 
-
-+35 Damage [[File:Damage Icon.png|20px|Damage]]
-
-1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
-
-+Flying Detection {{Flying|Flying Detection}}
-
-{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = "Don't quit now! We were just getting warmed up."
-
-'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times
-
-•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]
-
-•35% Fortify Debuff Time Reduction}}
+2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
 
 
-Sell Price changes to {{Money|24,000}}}}
-{{Upgrade|Level = Level 5|Evolution Level = 3|Upgrade Title = Defensive Maneuvers|Cost = {{Money|60,000}}|Image = [[File:JuggernautUpgrade5A.png|100px]]|Information = +55 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|266}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+4 Range [[File:Range Icon.png|20px|Range]]
-
-+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]
-
-35% > 40% Fortify Debuff Time Reduction
+{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]
 
 
-Sell Price changes to {{Money|44,000}}}}
-{{Upgrade|Level = Level 6|Evolution Level = 9|Upgrade Title = Flak Jacket|Cost = {{Money|95,000}}|Image = [[File:JuggernautUpgrade6A.png|100px]]|Information = +30 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|483}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
 
-0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
++7 Damage [[File:Damage Icon.png|20px|Damage]]
 
-1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
+0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
++Hidden Detection {{Hidden|Hidden Detection}}
 
-Sell Price changes to {{Money|75,666}}}}
-{{Upgrade|Level = Level 7|Evolution Level = 16|Upgrade Title = Hammerhead|Cost = {{Money|175,000}}|Image = [[File:JuggernautUpgrade7A.png|100px]]|Information = +65 Damage [[File:Damage Icon.png|20px|Damage]]
-
-+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]
-
-40% > 50% Fortify Debuff Time Reduction
+1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
 
 
-Sell Price changes to {{Money|134,566}}}}
-|{{Upgrade|Level = Level 4|Evolution Level = 0|Upgrade Title = Experimental Weaponry|Cost = {{Money|40,000}}|Image = [[File:JuggernautUpgrade4B.png|100px]]|Information = 0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell Price changes to {{Money|1,283}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-+10 Damage [[File:Damage Icon.png|20px|Damage]]
++2.5 Range [[File:Range Icon.png|20px|Range]]
 
-+Lead Detection {{Lead|Lead Detection}}
+{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]
 
-{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = "Fine. I'll do it myself."
-
-'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.
-
-•1.4 Boss Multiplier {{Boss}}}}
+6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]
 
 
-Sell Price changes to {{Money|25,666}}}}
-{{Upgrade|Level = Level 5|Evolution Level = 6|Upgrade Title = Bigger Guns|Cost = {{Money|95,000}}|Image = [[File:JuggernautUpgrade5B.png|100px]]|Information = +45 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|2,700}}}}
+{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+4 Range [[File:Range Icon.png|20px|Range]]
+{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]
 
-
-Sell Price changes to {{Money|57,333}}}}
-{{Upgrade|Level = Level 6|Evolution Level = 12|Upgrade Title = Titanium Armor|Cost = {{Money|130,000}}|Image = [[File:JuggernautUpgrade6B.png|100px]]|Information = +55 Damage [[File:Damage Icon.png|20px|Damage]]
+1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
 
 
-Sell Price changes to {{Money|100,666}}}}
-{{Upgrade|Level = Level 7|Evolution Level = 20|Upgrade Title = Thresher|Cost = {{Money|230,000}}|Image = [[File:JuggernautUpgrade7B.png|100px]]|Information = +25 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
-1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]
-
-1.4 > 1.5 Boss Multiplier {{Boss}}
-
-
-Sell Price changes to {{Money|177,333}}}}
-}}
+Sell Price changes to {{Money|5,950}}}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
 {{neow|<nowiki>
 <var>
-$DPS$ = Damage / Firerate
-$BOSS$ = {{#expr:Damage * Boss Multiplier round 0}}
-$BDPS$ = Boss Damage / Firerate
+$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))
 $CE$ = Total Cost / DPS
-$BCE$ = Total Cost / Boss DPS
+$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))
+$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)
 $TP$ = $FNC-TOTAL-COST$
-$TE$ = $FNC-TOTAL-EXP$
-$EXP$ = {{#expr:floor(75 * 1.075^(Level - 1) * (Level > 0))}}
-$FNC-SCHEMA$ = N; N; N; N; A; A; A; A; B; B; B; B;
-$FNC-BRANCH$ = Top Path Stats; Bottom Path Stats
-$COST$ = 10000; 2800; 7000; 17200; 35000; 60000; 95000; 175000; 40000; 95000; 130000; 230000
-$FSE-DETECTION$ = 2; ; ; ; ; 5; ; 4; -1;
-$FSE-UPGRADE$ = Combat Tactics; 32nd Spec-Ops; Re-routed Funds; Fortifier; Defensive Maneuvers; Flak Jacket; Hammerhead; Experimental Weaponry; Bigger Guns; Titanium Armor; Thresher
-$FSE-UPGRADEICON$ = 123365136014760; 93721065871366; 96118655853436; 111732653007157; 95544278655808; 98941243657730; 106308635701035; 110879981278605; 88574561737643; 126158680785346; 101185222776747
-$FSE-META$ = Evolved; File:EvolvedJuggernautIcon.png
-$DREF$ = <ref name=dps>DPS does not consider rev time.</ref>
-$RC$ = $FNC-RECURSION$
+$COST$ = 600; 200; 650; 2400; 4250; 9750
+$FSE-DETECTION$ = 3; ;
+$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West
+$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990
+$FSE-META$ = Golden Perks; File:WDGoldenCowboyIcon.png
+$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
+$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
+$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>
+$R$ = $FNC-RECURSION$
 </var>
-<div class="mobile-tabber"><tabber>
-|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! colspan="9" |Neutral Stats
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$
 |-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev Time !! Range !! DPS$DREF$ !! Cost Efficiency
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
 |-
-| 0 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 10 || 0.14 || 2 || 17.5 || $DPS$ || {{Money|$CE$}}
+| 1 || $R$ || $R$ || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
 |-
-| 1 || $RC$ || $RC$ || 10 || 0.12 || 2 || 17.5 || $DPS$ || {{Money|$CE$}}
+| 2 || $R$ || $R$ || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
 |-
-| 2 || $RC$ || $RC$ || 15 || 0.12 || 1.8 || 20 || $DPS$ || {{Money|$CE$}}
+| 3 || $R$ || $R$ || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
 |-
-| 3 || $RC$ || $RC$ || 30 || 0.12 || 1.8 || 22 || $DPS$ || {{Money|$CE$}}
+| 4 || $R$ || $R$ || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+|-
+| 5 || $R$ || $R$ || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
 |}
 </div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="11" |Top Path Stats
-|-
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Rev Time !! Range !! Fortify Radius !! Fortify Debuff Time Reduction !! DPS$DREF$ !! Cost Efficiency
-|-
-| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 65 || 0.15 || 1.2 || 22 || 13 || 35% || $DPS$ || {{Money|$CE$}}
-|-
-| 5 || $RC$ || $RC$ || 120 || 0.15 || 1.2 || 26 || 14 || 40% || $DPS$ || {{Money|$CE$}}
-|-
-| 6 || $RC$ || $RC$ || 150 || 0.12 || 1 || 26 || 14 || 40% || $DPS$ || {{Money|$CE$}}
-|-
-| 7 || $RC$ || $RC$ || 215 || 0.12 || 1 || 26 || 16 || 50% || $DPS$ || {{Money|$CE$}}
-|}
-</div>
-
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="13" |Bottom Path Stats
-|-
-! Level !! Cost !! Total Cost !! Damage !! Boss Multiplier !! Boss Damage !! Firerate !! Rev Time !! Range !! DPS$DREF$ !! Boss DPS !! Cost Efficiency !! Boss Cost Efficiency
-|-
-| 4 || {{Money|$COST$}}$RC$ || {{Money|$TP$}}$RC$ || 40 || 1.4 || $BOSS$ || 0.1 || 1.8 || 22 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
-|-
-| 5 || $RC$ || $RC$ || 85 || 1.4 || $BOSS$ || 0.1 || 1.8 || 26 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
-|-
-| 6 || $RC$ || $RC$ || 140 || 1.4 || $BOSS$ || 0.1 || 1.8 || 26 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
-|-
-| 7 || $RC$ || $RC$ || 165 || 1.5 || $BOSS$ || 0.09 || 1.6 || 26 || $DPS$ || $BDPS$ || {{Money|$CE$}} || {{Money|$BCE$}}
-|}
-</div>
-<!-- @se-ignore -->
-|-|Levels =
-<div class="overflow-box">
-{| class="wikitable stats-table"
-! colspan="12" |Levels
-|-
-! Level !! Exp !! Total Exp
-|-
-| 0 || {{Exp|0}} || {{Exp|$TE$}}$RC$
-|-
-| 1 || {{Exp|$EXP$}}$RC$ || $RC$
-|-
-| 2 || $RC$ || $RC$
-|-
-| 3 || $RC$ || $RC$
-|-
-| 4 || $RC$ || $RC$
-|-
-| 5 || $RC$ || $RC$
-|-
-| 6 || $RC$ || $RC$
-|-
-| 7 || $RC$ || $RC$
-|-
-| 8 || $RC$ || $RC$
-|-
-| 9 || $RC$ || $RC$
-|-
-| 10 || $RC$ || $RC$
-|-
-| 11 || $RC$ || $RC$
-|-
-| 12 || $RC$ || $RC$
-|-
-| 13 || $RC$ || $RC$
-|-
-| 14 || $RC$ || $RC$
-|-
-| 15 || $RC$ || $RC$
-|-
-| 16 || $RC$ || $RC$
-|-
-| 17 || $RC$ || $RC$
-|-
-| 18 || $RC$ || $RC$
-|-
-| 19 || $RC$ || $RC$
-|-
-| 20 || $RC$ || $RC$
-|}
-</div>
-<!-- @/se-ignore -->
-</tabber></div>
 </nowiki>}}
 
-== Strategy ==
-*The '''Juggernaut''' is best utilized as a mid-to-late game tower.
-*The '''Juggernaut''', due to having the highest placement and upgrade costs, is impractical for easier gamemodes with a lower number of waves such as [[Intermediate Mode|Intermediate]] and [[Casual Mode|Casual]].
-**Economy towers, such as the [[Farm]], [[Cowboy]] and [[Kingpin]] (top path) can aid in the its extremely expensive upgrades.
-**The [[DJ Booth]]'s ''Green Track'' can also significantly aid in its extremely expensive upgrades, with the [[DJ Booth]] itself being an economy tower itself through its ''Drop The Beat'' ability  through its ''Green Track''.
-*As it has a placement limit of one and an extremely large placement footprint, consider placing it where its range will cover most of the path.
-*At Level 3, the '''Juggernaut''' gains two paths:
-**The top path is focused on reducing the stun or debuff times of towers caused by enemies' abilities, such as the [[Necrotic Skeleton]]'s ''Gooey Demise'', or the [[Fallen King]]'s ''Sword Swing''.
-***This is particularly useful for reducing the downtime of towers by reducing the stun and debuff durations of them.
-****This is best utilized if the tower is already surrounded by other towers.
-*****Note that this is not as effective if it is not surrounded by enough towers, usually behind or in front of where most of the towers are placed.
-***This path also gains flying detection, being useful for dealing with high health flying enemies like the [[Fallen Seraph]], [[Balloon Kid]], [[Voodoo Doll]] and [[Fallen Angel]].
-****Despite the fact that this path is only slightly cheaper than bottom path for flying detection, costing a total of around {{Money|72,000}}, this should not be much of a concern, as it is possible to get a Level 4A+ Juggernaut before Wave 22 in [[Fallen Mode|Fallen]] mode and before Wave 28 in [[Pizza Party]].
-**The bottom path is focused on dealing extra DPS to enemies with the [[Boss]] attribute via a damage multiplier.
-***Note that the damage multiplier does not apply to enemies without the [[Boss]] attribute, but this still deals more DPS to enemies in general companed to the top path.
-****This is best utilized for aiding in the defeat of [[Boss]] enemies, such as the [[Fallen Honor Guard]] and [[Executioner (Pizza Party)|Executioner]], as well as final boss enemies such as the [[Fallen King]], [[Frost Spirit]], and [[Wox the Fox]].
-***Although this path gains [[Lead (Attribute)|Lead]] detection, it is impractical for gamemodes that introduce enemies that have the [[Lead (Attribute)|Lead]] attribute early on, such as [[Pizza Party]], costing a total of {{Money|77,000}} just to get the detection.
+==Skins==
+''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
+{| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
+!
+|[[File:WDDefaultCowboyIcon.png|175px]]
+|[[File:WDPumpkinCowboyIcon.png|175px]]
+|[[File:WDRedemptionCowboyIcon.png|175px]]
+|[[File:WDBanditCowboyIcon.png|175px]]
+|-
+!Skin
+|Default
+|{{Color|Halloween2019|Pumpkin}}
+|{{Color|Premium|Redemption}}
+|{{Color|Premium|Bandit}}
+|-
+!Rarity
+|{{Color|Common}}
+|{{Color|Event}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|{{Coins|5,000}}
+|{{Robux|120}}
+|{{Robux|120}}
+|-
+!Obtained From
+|Owning [[Cowboy]]
+|[[Halloween Crate]]<br/>[[Pumpkin Crate]]<br/>[[Halloween 2019 Crate]]
+|[[Premium Crate]]
+|[[Premium Crate]]
+|-
+!
+|[[File:NewKasodusCowboyIcon.png|175px]]
+|[[File:WDValentinesCowboyIcon.png|175px]]
+|[[File:CopCowboyIcon.png|175px]]
+|[[File:NoirCowboyIcon.png|175px]]
+|-
+!Skin
+|{{Color|Premium|Kasodus}}
+|{{Color|Lovely|Valentines}}
+|{{Color|Premium|Cop}}
+|{{Color|Deluxe|Noir}}
+|-
+!Rarity
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|{{Robux|360}}
+|{{Robux|105}}
+|{{Coins|5,500}}
+|{{Robux|85}}
+|-
+!Obtained From
+|[[Premium Crate]]<br/>[[Codes|Code]]:<br/>DOUBLEBLOXIES<ref>Expired</ref>
+|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
+|[[Premium Crate]]
+|[[Deluxe Crate]]
+|-
+!
+|[[File:CyberpunkCowboy.png|175px]]
+|[[File:RetiredCowboyIcon.png|175px]]
+|[[File:BadlandsCowboyIcon.png|175px]]
+|[[File:AgentCowboyIcon.png|175px]]
+|-
+!Skin
+|{{Color|Deluxe|Cyberpunk}}
+|{{Color|Deluxe|Retired}}
+|{{Color|Other|Badlands}}
+|{{Color|Premium|Agent}}
+|-
+!Rarity 
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Exclusive}}
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|{{Robux|560}}
+|{{Robux|560}}
+|N/A 
+|{{Robux|190}}
+|-
+! Obtained From
+|[[Deluxe Crate]]
+|[[Deluxe Crate]]
+|[[Badges|Quickdraw! Badge]]<ref>Triumph [[Badlands II]] in under 16 minutes.</ref>
+|[[Premium Crate]]<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
+|-
+!
+|[[File:HolidayCowboyIcon.png|175px]]
+|[[File:DuckyCowboyIcon.png|175px]]
+|[[File:BountyHunterCowboyIcon.png|175px]]
+|[[File:MasqCowboyIcon.png|175px]]
+|-
+!Skin
+|{{Color|Jolly|Holiday}}
+|{{Color|Ducky|Ducky}}
+|{{Color|Deluxe|Bounty Hunter}}
+|{{Color|Lunar|Masquerade}}
+|-
+!Rarity
+|{{Color|Event}}
+|{{Color|Rare}}
+|{{Color|Legendary}}
+|{{Color|Event}}
+|-
+!Daily Store Cost
+|{{Coins|5,000}}
+|{{Coins|4,000}}
+|{{Robux|560}}
+|N/A
+|-
+! Obtained From
+|[[Jolly Crate]]<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
+|[[Ducky Crate]]
+|[[Deluxe Crate]]
+|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
+|-
+!
+|[[File:FallenCowboyIconIG.png|175px]]
+|[[File:PlushieCowboyIconIG.png|175px]]
+|[[File:MegalodonCowboy.png|175px]]
+|[[File:DarkFrostCowboyIconIG.png|175px]]
+|-
+!Skin
+|{{Color|FallenMission|Fallen}}
+|{{Color|Other|Plushie}}
+|{{Color|ContentCreator|MegaBit}}
+|{{Color|OperationICE|Dark Frost}}
+|-
+!Rarity
+|{{Color|Rare}}
+|{{Color|Exclusive}}
+|{{Color|Rare}}
+|{{Color|Rare}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|{{Coins|3,000}}
+|N/A
+|-
+!Obtained From
+|''Condemned Vigilante'' [[Mission Quests|Mission Quest]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Cowboy Plush]].</ref>
+|[[Daily Store]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
+|-
+!
+|[[File:SpringTimeCowboyIconIG.png|175px]]
+|[[File:MechaBunnyCowboyIconIG.png|175px]]
+|[[File:VampireHunterCowboyIconIG.png|175px]]
+|[[File:ShamrockCowboyIconIG.png|175px]]
+|-
+!Skin
+|{{Color|DuckyRevenge|Spring Time}}
+|{{Color|Other|Mecha Bunny}}
+|{{Color|Null|Vampire Hunter}}
+|{{Color|Shamrock|Shamrock}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|{{Color|Legendary}}
+|{{Color|Rare}}
+|{{Color|Common}}
+|-
+!Daily Store Cost
+|N/A
+|N/A
+|N/A
+|N/A
+|-
+!Obtained From
+|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
+|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Code obtained by purchasing a [[Mecha Bunny + Nerd Ducky Mini Plush]].</ref>
+|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
+|[[Shamrock Crate]]
+|-
+!
+|[[File:PatrioticCowboyIconIG.png|175px]]
+|-
+!Skin
+|{{Color|Patriotic}}
+|-
+!Rarity
+|{{Color|Legendary}}
+|-
+!Daily Store Cost
+|N/A
+|-
+!Obtained From
+|[[Patriotic Crate]]
+|}
 
-==Trivia==
-*The '''Juggernaut''' was originally intended to release alongside the [[Overhaul v1.0|Overhaul Update]] as an evolved counterpart to the [[Minigunner]], but would be cut for undisclosed reasons, likely due to time constraints.
-*The '''Juggernaut''' tower is the most expensive tower in the game's history, regardless of whether the player uses the top or bottom path, costing a total of {{Money|532,000}} to completely max out the tower if on the bottom path, or {{Money|400,200}} otherwise, followed by the [[Gatling Gun]].
-**Although, if developer-exclusive towers are counted, the [[Golden Snowballer]] is more expensive overall, costing {{Money|1,002,609}} in total.
-*The '''Juggernaut''' is the first tower to cost both {{Coins|Coins}} and {{Gem|Gems}} simultaneously.
-*The '''Juggernaut''' is the first tower to have seven upgrades.
-*The '''Juggernaut''' is the first tower to evolve from one another—in which this tower is evolved from the [[Minigunner]]—followed by the [[Operator]] which is evolved from the [[Scout]].
-*The orange shield seen around towers in '''Juggernaut's''' ''Fortify'' range may be a reference to the [[Shield]] seen on certain enemies prior to the [[Overhaul v1.0|Overhaul Update]].
-*The '''Juggernaut's''' quote in Experimental Weaponry is likely a reference to [https://www.youtube.com/watch?v=EzWNBmjyv7Y Thanos in the end credits scene for the ''Age of Ultron''].
-*The '''Juggernaut's''' final upgrades on both paths share names with shark species.
+==Strategy==
+*The '''Golden Cowboy''' is a great all-round tower, being able to handle earlier waves and later waves on most gamemodes.
+**Early on during the game, you may want to place down multiple Level 0 '''Golden Cowboys''' because of their low price.
+***Due to its low placement limit of 12, it is unable to deal with the later waves on its own in terms of DPS, though its money generation can still be effective in the later waves.
+*The '''Golden Cowboy''' generates a specified amount of money every sixth shot from Levels 0-3 and every twelfth shot at Levels 4-5.
+**Later on during the game, higher level '''Golden Cowboys''' will be able to earn lots of money from enemies, being on par with the [[Farm]], and even outperforming it.
+**If you want to use this tower for farming early on, multiple Level 2 '''Golden Cowboys''' can be quite effective at generating money.
+***The amount of cash earned can be increased even further with the [[Commander]] and [[Cooldown Flag]] [[Firerate Buff]].
+***Enemies summoned by other enemies or sent by players do not count for cash shot.
+****Any enemy that the game does not consider a summoned enemy can still be generated cash from. This includes actually summoned enemies that the game does not consider summoned, like the [[Slime]] from the [[Slime (Attribute)|Slime]], or enemies converted in a way that makes them look like a summoned enemy, such as [[Corpse (Attribute)|Corpses]].
+***Additionally, you can increase the money earned by the '''Golden Cowboy''' by placing it near the start of the path, ensuring that no other towers can damage enemies before the '''Golden Cowboy'''.
+***While the '''Golden Cowboy''' cannot damage lead enemies, like the [[Lead]], shots towards these enemies will contribute to the '''Golden Cowboy's''' cash shot.
+*The [[DJ Booth]] can be very useful at decreasing the '''Golden Cowboy's''' high upgrade costs.
+**It can also be useful for further increasing its high range.
+
+== Trivia==
+*The two former descriptions for the '''Golden Cowboy''' are incorrect, as the '''Golden Cowboy''' generates money every sixth or twelfth shot, instead of fifth or eighth.
+**This is because the description is referring to previous versions of the normal [[Cowboy]], though these are outdated even for it.
+*The Level 5 upgrade name, ''Wildest Of The West'', is a reference to the [[Cowboy]]'s old ability, ''Wildest of The West'' which it gained at Level 5 before the [[Overhaul v1.0|Overhaul Update]].
+*The '''Golden Cowboy''' is the first golden perk to give a tower a placement limit.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
 {{scroll|text =
-*'''1 April 2026''' - [[v1.87.0]]
-**{{Bug}} '''Juggernaut''' accidentally added and made publicly available for any player.
-*'''1 April 2026''' - [[v1.87.0|v1.87.1]]
-**{{Bug}} '''Juggernaut''' is given to every player in [[Sandbox Mode|Sandbox]] in a non-functional state if they bought Sandbox Plus+.
-**{{Bugfix}} '''Juggernaut''' no longer appears in the inventory as a purchasable tower for {{Gem|15,000}}.
-*'''1 April 2026''' - [[v1.87.0|v1.87.3]]
-**{{Bugfix}} '''Juggernaut''' is no longer given to people with Sandbox Plus+ in [[Sandbox Mode|Sandbox]] mode.
-*'''3 April 2026''' - [[v1.88.0]]
-**Description changed.
-**Tooltips added.
-**Tower information added.
-**Towers protected by fortify now gain orange shields around them.
+*'''13 May 2022''' - [[v1.2.2]]
+**'''Golden Cowboy''' added, replacing the {{Color|Golden}} [[Cowboy]] skin buffs.
+*'''30 September 2022''' - [[v1.4.0]]
+**No longer gives a random amount of cash, now gives a set amount of cash.
+**Amount of cash generated no longer increases with each wave, now increases with Levels.
+**Now shows the amount of shots needed for it to generate cash.
+**Now spins its guns when generating cash, which prevents it from attacking.
+**{{Color|Other|Kasodus}} skin now has rarity.
 **Statistical changes:
 ***'''Base'''
-****Damage increased from 10 to 14.
-****Firerate increased from 0.175 to 0.225.
+****Damage decreased from 4 to 3.
+****Range decreased from 14 to 13.
+****Firerate decreased from 1.525 to 1.025.
+****Spin Time of 1.7 added.
+****Now generates {{Money|35}} cash instead of a random amount which increases with each wave.
 ***'''Level 1'''
-****Cost increased from {{Money|2,500}} to {{Money|8,000}}.
-****Damage increased from +0 to +8.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to {{Tooltip|0.225 > 0.2|-0.025}}.
-****Name changed from ''Weapon Attachments'' to ''Combat Tactics''.
+****Cost increased from {{Money|250}} to {{Money|300}}.
+****Firerate changed from {{Tooltip|1.525 > 1.325|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
+****Renamed from ''Quick Shot'' to ''Steady Hand''.
 ***'''Level 2'''
-****Cost increased from {{Money|5,820}} to {{Money|19,500}}.
-****Damage increased from +0 to +26.
-****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.2.
-****Name changed from ''Precise Aiming'' to ''32nd Spec-Ops''.
+****Cost increased from {{Money|300}} to {{Money|400}}.
+****Damage increased from +0 to +2.
+****Range increased from +0 to +3.
+****Cash shot changed from 6 > 4 to 6.
+****Income now changes from {{Money|35}} > {{Money|65}}.
+****Renamed from ''Gold Shot'' to ''Lucky Shot''.
 ***'''Level 3'''
-****Cost increased from {{Money|14,000}} to {{Money|41,000}}.
-****Damage increased from +8 to +52.
-****Name changed from ''Improved Weaponry'' to ''Re-routed Funds''.
-***'''Level 4A'''
-****Cost increased from {{Money|18,500}} to {{Money|55,000}}.
-****Firerate changed from {{Tooltip|0.125 > 0.225|+0.1}} to {{Tooltip|0.2 > 0.225|+0.025}}.
-****Damage increased from +37 to +85.
-***'''Level 5A'''
-****Cost increased from {{Money|45,000}} to {{Money|72,000}}.
-****Damage decreased from +50 to +45.
-****Firerate changed from 0.225 to {{Tooltip|0.225 > 0.2|-0.025}}.
-****Name changed from ''Bastion'' to ''Defensive Maneuvers''.
-***'''Level 6A'''
-****Cost decreased from {{Money|120,000}} to {{Money|95,000}}.
-****Damage decreased from +95 to +85.
-****Firerate changed from {{Tooltip|0.225 > 0.175|-0.05}} to 0.2.
-***'''Level 7A'''
-****Cost decreased from {{Money|235,000}} to {{Money|150,000}}.
-****Damage increased from +60 to +110.
-****Firerate changed from {{Tooltip|0.175 > 0.15|-0.025}} to 0.2.
-****Fortify buff time reduction changed from 30% > 60% to 30% > 50%.
-****[[Stun Immunity]] removed.
-***'''Level 4B'''
-****Cost increased from {{Money|28,750}} to {{Money|85,000}}.
-****Damage decreased from +12 to +0.
-****Firerate changed from {{Tooltip|0.125 > 0.117|-0.008}} to {{Tooltip|0.2 > 0.125|-0.075}}.
-****Boss multiplier decreased from 1.5 to 1.25.
-***'''Level 5B'''
-****Cost increased from {{Money|95,000}} to {{Money|120,000}}.
-****Damage increased from +46 to +75.
-****Name changed from ''Higher Caliber'' to ''Bigger Guns''.
-***'''Level 6B'''
-****Cost decreased from {{Money|205,000}} to {{Money|180,000}}.
-****Damage increased from +44 to +85.
-****Firerate changed from {{Tooltip|0.117 > 0.1|-0.017}} to 0.125.
-****Boss multiplier changed from 1.5 > 2.5 to 1.25 > 1.5.
-***'''Level 7B'''
-****Damage increased from +130 to +140.
-*'''22 April 2026''' - [[v1.89.0]]
+****Damage increased from +4 to +7.
+****Range increased from +2 to +4.
+****Firerate changed from {{Tooltip|1.325 > 1.025|-0.3}} to {{Tooltip|0.825 > 0.625|-0.2}}.
+****Spin Time now changes from 1.7 > 1.3.
+****Renamed from ''Dualling Instincts'' to ''Faster Instincts''.
+***'''Level 4'''
+****Damage decreased from +7 to +3.
+****Firerate changed from {{Tooltip|1.025 > 0.575|-0.45}} to {{Tooltip|0.625 > 0.375|-0.25}}.
+****Income now changes from {{Money|65}} > {{Money|90}}.
+***'''Level 5'''
+****Cost increased from {{Money|11,500}} to {{Money|12,000}}.
+****Damage increased from +10 to +15.
+****Firerate changed from {{Tooltip|0.575 > 0.425|-0.15}} to 0.375.
+****Income now changes from {{Money|90}} > {{Money|120}}.
+****Spin Time now changes from 1.3 > 1.
+****Renamed from ''Gunslinger of Death'' to ''Outlawed''.
+**New skins: {{Color|Premium|Cop}}, {{Color|Philips|Agent}}, {{Color|Deluxe|Noir}}, {{Color|Deluxe|Cyberpunk}}, {{Color|Deluxe|Retired}}, {{Color|Other|Badlands}}
+*'''4 October 2022''' - [[v1.4.0]]b
+**Statistical changes:
+***'''Level 3'''
+****Cost increased from {{Money|1,750}} to {{Money|2,150}}.
+*'''31 October 2022''' - [[v1.4.2]]
+**Statistical changes:
+***'''Level 2'''
+****Cost increased from {{Money|400}} to {{Money|450}}.
+***'''Level 3'''
+****Cost increased from {{Money|2,150}} to {{Money|2,250}}.
+*'''21 December 2022''' - [[v1.6.0]]
+**Skin rarity added to all skins.
+**{{Color|Premium|Bandit}} skin rarity changed from {{Color|Uncommon}} to {{Color|Rare}}.
+**{{Color|Premium|Redemption}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
+**{{Color|Premium|Kasodus}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
+**New skin: {{Color|ViolentNight|Holiday}}
+*'''14 February 2023''' - [[v1.6.2]]
+**{{Color|Lovely|Valentines}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
+*'''7 April 2023''' - [[v1.7.0]]
+**You can now see '''Golden Cowboy's''' cash shot when you hover your cursor over it.
 **Statistical changes:
 ***'''Base'''
-****Damage decreased from 14 to 10.
-****Firerate decreased from 0.225 to 0.167.
+****Damage decreased from 3 to 2.
+****Firerate decreased from 1.025 to 0.725.
+****Range decreased from 13 to 12.
+****Income decreased from {{Money|35}} to {{Money|25}}.
 ***'''Level 1'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to 0.725.
+****Cost decreased from {{Money|300}} to {{Money|250}}.
+***'''Level 2'''
+****Range decreased from +3 to +2.
+****Firerate changed from 0.825 to {{Tooltip|0.725 > 0.625|-0.1}}.
+****Damage decreased from +2 to +1.
+****Income changed from {{Money|35}} > {{Money|65}} to {{Money|25}} > {{Money|40}}.
+****Cost increased from {{Money|450}} to {{Money|500}}.
+***'''Level 3'''
+****Damage decreased from +7 to +6.
+****Firerate changed from {{Tooltip|0.825 > 0.625|-0.2}} to {{Tooltip|0.625 > 0.525|-0.1}}.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|0.625 > 0.375|-0.25}} to {{Tooltip|0.525 > 0.3|-0.225}}.
+****Damage decreased from +3 to +2.
+****Cash shot changed from 6 to 6 > 12.
+****Income changed from {{Money|65}} > {{Money|90}} to {{Money|40}} > {{Money|65}}.
+****Cost increased from {{Money|5,500}} to {{Money|6,650}}.
+***'''Level 5'''
+****Damage decreased from +15 to +8.
+****Income changed from {{Money|90}} > {{Money|120}} to {{Money|65}} > {{Money|100}}.
+****Renamed from ''Outlawed'' to ''Gold Rush''.
+*'''12 May 2023''' - [[v1.7.3]]
+**New skin: {{Color|Ducky|Ducky}}
+*'''5 August 2023''' - [[v1.8.4]]
+**Statistical changes:
+***'''Level 1'''
+****Name changed from ''Steady Hand'' to ''Headshot Practice''.
+***'''Level 2'''
+****Income changed from {{Money|25}} > {{Money|40}} to {{Money|25}} > {{Money|45}}.
+****Name changed from ''Lucky Shot'' to ''Gold Shot''.
+***'''Level 4'''
+****Income changed from {{Money|40}} > {{Money|65}} to {{Money|45}} > {{Money|115}}.
+***'''Level 5'''
+****Income changed from {{Money|65}} > {{Money|100}} to {{Money|115}} > {{Money|160}}.
+****Name changed from ''Gold Rush'' to ''Wildest Of The West''.
+*'''28 October 2023''' - [[v1.9.0]]
+**New skins: {{Color|Deluxe|Bounty Hunter}}, {{Color|Lunar|Masquerade}}
+*'''5 April 2024''' - [[v1.18.0]]
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|700}} to {{Money|600}}.
+****Damage increased from 2 to 3.
+****Firerate increased from 0.725 to 1.025.
+****Spin Time increased from 1.7 to 1.75.
+****Range increased from 12 to 14.
+****Income increased from {{Money|25}} to {{Money|30}}.
+****Placement limit of 12 added.
+***'''Level 1'''
+****Cost decreased from {{Money|250}} to {{Money|225}}.
+****Damage decreased from +1 to +0.
+****Firerate changed from 0.708 to {{Tooltip|1.025 > 0.725|-0.3}}
+****Spin Time changed from 1.7 to 1.75 > 1.35.
+***'''Level 2'''
+****Firerate changed from {{Tooltip|0.725 > 0.625|-0.1}} to 0.725.
+****Range decreased from +2 to +0.
+****Income changed from {{Money|25}} > {{Money|45}} to {{Money|30}} > {{Money|50}}.
+***'''Level 3'''
+****Cost decreased from {{Money|2,250}} to {{Money|2,000}}.
+****Damage increased from +6 to +8.
+****Firerate changed from {{Tooltip|0.625 > 0.525|-0.1}} to 0.725.
+****Spin time changed from 1.7 > 1.3 to 1.35 > 1.
+***'''Level 4'''
+****Cost decreased from {{Money|6,650}} to {{Money|5,850}}.
+****Damage decreased from +2 to +0.
+****Income changed from {{Money|45}} > {{Money|115}} to {{Money|50}} > {{Money|150}}.
+****Firerate changed from {{Tooltip|0.525 > 0.3|-0.225}} to {{Tooltip|0.725 > 0.325|-0.4}}.
+****Renamed from ''Double Tap'' to ''Double Tap II''.
+***'''Level 5'''
+****Cost increased from {{Money|12,000}} to {{Money|17,500}}.
+****Damage increased from +8 to +12.
+****Range increased from +0 to +2.
+****Firerate changed from 0.3 to {{Tooltip|0.325 > 0.225|-0.1}}.
+****Income changed from {{Money|115}} > {{Money|160}} to {{Money|150}} > {{Money|250}}.
+****Spin time changed from 1.3 > 1 to 1 > 0.75.
+*'''23 May 2024''' - [[v1.23.0]]
+**Damage dealt to summoned enemies no longer counts for cash shot.
+*'''21 June 2024''' - [[v1.25.0]]
+**{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
+*'''2 August 2024''' - [[v1.27.0]]
+**{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
+*'''9 August 2024''' - [[v1.27.5]]
+**New skin: {{Color|FallenMission|Fallen}}
+*'''4 September 2024''' - [[v1.30.0]]
+**New skin: {{Color|Other|Plushie}}
+*'''11 September 2024''' - [[v1.31.0]]
+**New skin: {{Color|ContentCreator|Megalodon}}
+*'''16 December 2024''' - [[v1.46.0]]
+**New skin: {{Color|OperationICE|Dark Frost}}
+*'''9 April 2025''' - [[v1.60.0]]
+**Offense role added.
+*'''16 April 2025''' - [[v1.61.0]]
+**New skin: {{Color|DuckyRevenge|Spring Time}}
+**{{Bug}} {{Color|DuckyRevenge|Spring Time}} at Level 5 will break if placed in range of a [[Firework Technician]] after it generates a firework, it will stop dealing damage and once the targeted enemies get out of its range, it will stop attacking enemies entirely.
+*'''18 April 2025''' - [[v1.61.0|v1.61.6a]]
+**New skin: {{Color|Other|Mecha Bunny}}
+*'''11 June 2025''' - [[v1.67.0]]
+**Placement limit decreased from 12 to 10.
+**Statistical changes:
+***'''Base'''
+****Damage increased from 3 to 4.
+****Spin time decreased from 1.75 to 1.5.
+****Income increased from {{Money|30}} to {{Money|35}}
+***'''Level 1'''
+****Cost decreased from {{Money|225}} to {{Money|150}}.
+****Firerate changed from {{Tooltip|1.025 > 0.725|-0.3}} to {{Tooltip|1.025 > 0.775|-0.25}}
+****Range decreased from +2 to +0.
+****Spin time changed from 1.75 > 1.35 to 1.5 > 1.25.
+***'''Level 2'''
+****Cost increased from {{Money|500}} to {{Money|600}}.
+****Damage increased from +1 to +2.
+****Range increased from +0 to +2.
+****Income changed from {{Money|30}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
+***'''Level 3'''
+****Cost decreased from {{Money|2,000}} to {{Money|1,750}}.
 ****Damage decreased from +8 to +4.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.25}} to {{Tooltip|0.167 > 0.133|-0.34}}.
+****Firerate changed from 0.725 to {{Tooltip|0.775 > 0.525|-0.25}}.
+****Spin time changed from 1.35 > 1 to 1.25 > 1.
+***'''Level 4'''
+****Cost decreased from {{Money|5,850}} to {{Money|4,750}}.
+****Firerate changed from {{Tooltip|0.725 > 0.325|-0.4}} to {{Tooltip|0.525 > 0.275|-0.25}}.
+****Range increased from +0 to +2.
+****Income changed from {{Money|50}} > {{Money|150}} to {{Money|60}} > {{Money|150}}.
+***'''Level 5'''
+****Cost decreased from {{Money|17,500}} to {{Money|9,500}}.
+****Damage increased from +12 to +14.
+****Range decreased from +2 to +0.
+****Firerate changed from {{Tooltip|0.325 > 0.225|-0.1}} to 0.275.
+****Income changed from {{Money|150}} > {{Money|250}} to {{Money|150}} > {{Money|225}}.
+*'''18 October 2025''' - [[v1.77.0]]
+**New skin: {{Color|Null|Vampire Hunter}}
+*'''28 January 2026''' - [[v1.84.0]]
+**Placement limit decreased from 10 to 6.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 4 to 2.
+****Firerate decreased from 1.025 to 0.375.
+****Range increased from 14 to 15.
+****Income decreased from {{Money|35}} to {{Money|20}}.
+****Spin time increasaed from 1.5 to 1.75.
+***'''Level 1'''
+****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|0.375 > 0.325|-0.05}}.
+****Range increased from +0 to +2.
+****Spin time changed from 1.5 > 1.25 to 1.75 > 1.25.
 ***'''Level 2'''
-****Cost decreased from {{Money|19,500}} to {{Money|18,500}}.
-****Damage decreased from +26 to +16.
+****Cost increased from {{Money|600}} to {{Money|1,000}}.
+****Range decreased from +2 to +0.
+****Hidden detection added, moved from Level 3.
+****Income changed from {{Money|35}} > {{Money|60}} to {{Money|20}} > {{Money|40}}.
 ***'''Level 3'''
-****Damage decreased from +52 to +35.
-***'''Level 4A'''
-****Cost decreased from {{Money|55,000}} to {{Money|45,000}}.
-****Damage increased from +85 to +100.
-****Firerate changed from {{Tooltip|0.2 > 0.225|+0.25}} to {{Tooltip|0.133 > 0.225|+0.92}}.
-****Range increased from +0 to +1.
-****Flying detection added, moved from Level 5A.
-****Fortify radius increased from 6 to 8.
-****Fortify debuff time reduction increased from 15% to 25%.
-***'''Level 5A'''
-****Damage decreased from +45 to +35.
-****Fortify radius increased from +1.5 to +2.
-***'''Level 6A'''
-****Cost increased from {{Money|95,000}} to {{Money|100,000}}.
-****Damage increased from +85 to +100.
-****Fortify radius increased from +0 to +1.
-****Fortify debuff time reduction changed from 15% > 30% to 25% > 30%.
-***'''Level 7A'''
-****Fortify radius decreased from +3.5 to +2.
-****Fortify debuff time reduction changed from 30% > 50% to 30% > 40%.
-***'''Level 4B'''
-****Cost increased from {{Money|85,000}} to {{Money|95,000}}.
-****Damage increased from +0 to +27.
-****Firerate changed from {{Tooltip|0.2 > 0.125|-0.75}} to {{Tooltip|0.133 > 0.125|-0.08}}.
-****Range increased from +0 to +1.
-****Lead detection added, moved from Level 7B.
-****Boss multiplier decreased from 1.25 to 1.2.
-***'''Level 5B'''
-****Cost increased from {{Money|120,000}} to {{Money|125,000}}.
-****Damage decreased from +75 to +64.
-****Range increased from +3 to +4.
-***'''Level 6B'''
-****Damage decreased from +85 to +54.
-****Boss multiplier changed from 1.25 > 1.5 to 1.2 > 1.4.
-***'''Level 7B'''
-****Cost decreased from {{Money|500,320}} to {{Money|400,000}}.
-****Damage increased from +140 to +190.
-****Range decreased from +4 to +0.
+****Cost increased from {{Money|1,750}} to {{Money|4,500}}.
+****Damage increased from +4 to +11.
+****Firerate changed from {{Tooltip|0.775 > 0.525|-0.25}} to {{Tooltip|0.325 > 0.425|+0.1}}.
+****Income changed from {{Money|60}} to {{Money|40}} > {{Money|75}}.
+***'''Level 4'''
+****Cost increased from {{Money|4,750}} to {{Money|7,500}}.
+****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.425 > 0.225|-0.2}}.
+****Range decreased from +2 to +0.
+****Income changed from {{Money|60}} > {{Money|150}} to {{Money|75}} > {{Money|150}}.
+***'''Level 5'''
+****Cost increased from {{Money|9,500}} to {{Money|15,000}}
+****Damage increased from +14 to +15.
+****Range increased from +0 to +2.
+**{{Color|ContentCreator|Megalodon}} renamed to {{Color|ContentCreator|MegaBit}}.
+***{{Bug}} Still uses the previous name on mobile.
+*'''11 February 2026''' - [[v1.85.0]]
+**Placement footprint decreased from 1.5 to 1.25.
+**Statistical changes:
+***'''Base'''
+****Cost decreased from {{Money|600}} to {{Money|550}}.
+****Income increased from {{Money|20}} to {{Money|25}}.
+***'''Level 2'''
+****Cost decreased from {{Money|1,000}} to {{Money|900}}.
+****Income changed from {{Money|20}} > {{Money|40}} to {{Money|25}} > {{Money|50}}.
+***'''Level 3'''
+****Cost decreased from {{Money|4,500}} to {{Money|3,500}}.
+****Firerate changed from {{Tooltip|0.325 > 0.425|+0.1}} to {{Tooltip|0.325 > 0.525|+0.2}}.
+****Income changed from {{Money|40}} > {{Money|75}} to {{Money|50}} > {{Money|85}}.
+***'''Level 4'''
+****Cost decreased from {{Money|7,500}} to {{Money|5,500}}.
+****Firerate changed from {{Tooltip|0.425 > 0.225|-0.2}} to {{Tooltip|0.525 > 0.275|-0.25}}.
+****Range increased from +0 to +2.
+****Income changed from {{Money|75}} > {{Money|150}} to {{Money|85}} > {{Money|175}}.
+***'''Level 5'''
+****Cost increased from {{Money|15,000}} to {{Money|17,000}}
+****Damage increased from +15 to +20.
+****Range decreased from +2 to +0.
+****Income changed from {{Money|150}} > {{Money|225}} to {{Money|175}} > {{Money|325}}.
+*'''11 March 2026''' - [[v1.86.0]]
+**New skin: {{Color|Shamrock|Shamrock}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Now supports the [[Tower Evolution]] system.
-***Has 20 levels, base exp of 75 and a growth rate of 1.075.
-***All upgrades up until Level 4 are unlocked instantly, will all other requiring the tower to be leveled up.
-****Level 5A is unlocked at level 3.
-****Level 5B is unlocked at level 6.
-****Level 6A is unlocked at level 9.
-****Level 6B is unlocked at level 12.
-****Level 7A is unlocked at level 16.
-****Level 7B is unlocked at level 20.
+**Placement limit increased from 6 to 12.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|10,000}} to {{Money|8,000}}.
-****Damage decreased from 10 to 9.
-****Range increased from 16 to 17.5.
-****Firerate decreased from 0.167 to 0.15.
-****Hidden detection added, moved from Level 2.
+****Cost increased from {{Money|550}} to {{Money|600}}.
+****Damage increased from 2 to 3.
+****Firerate increased for 0.375 to 0.9.
+****Range decreased from 15 to 13.
+****Income increased from {{Money|25}} to {{Money|35}}.
+****Spin time increased from 1.75 to 2.
 ***'''Level 1'''
-****Cost decreased from {{Money|8,000}} to {{Money|2,600}}.
-****Damage decreased from +4 to +0.
-****Firerate changed from {{Tooltip|0.167 > 0.133|-0.034}} to {{Tooltip|0.15 > 0.12|-0.3}}.
+****Cost decreased from {{Money|225}} to {{Money|200}}.
+****Firerate increased for {{Tooltip|0.375 > 0.325|-0.05}} to {{Tooltip|0.9 > 0.75|-0.15}}.
+****Spin time changed from 1.75 > 1.25 to 2 > 1.5.
 ***'''Level 2'''
-****Cost decreased from {{Money|18,500}} to {{Money|6,450}}.
-****Damage decreased from +16 to +5.
-****Range decreased from +3 to +2.5.
-****Hidden detection moved to Level 0.
+****Cost decreased from {{Money|900}} to {{Money|650}}.
+****Income changed from {{Money|25}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
+****Hidden detection removed, moved to Level 3.
 ***'''Level 3'''
-****Cost decreased from {{Money|41,000}} to {{Money|17,200}}.
-****Damage decreased from +35 to +14.
-***'''Level 4A'''
-****Cost decreased from {{Money|45,000}} to {{Money|35,000}}.
-****Damage decreased from +100 to +37.
-****Firerate changed from {{Tooltip|0.133 > 0.225|+0.092}} to {{Tooltip|0.12 > 0.15|+0.03}}.
-****Range decreased from +1 to +0.
-****Flying detection removed, moved to Level 5A.
-****Fortify radius increased from 8 to 10.
-***'''Level 5A'''
-****Cost decreased from {{Money|72,000}} to {{Money|55,000}}.
-****Damage increased from +35 to +55.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.15.
-****Fortify radius increased from +2 to +3.
-****Flying detection removed.
-***'''Level 6A'''
-****Damage decreased from +100 to +40.
-****Fortify radius decreased from +1 to +0.
-***'''Level 7A'''
-****Damage decreased from +110 to +80.
-****Fortify radius decreased from +2 to +1.
-****Fortify debuff time reduction changed from 30% > 40% to 30% > 50%.
-***'''Level 4B'''
-****Cost decreased from {{Money|90,000}} to {{Money|40,000}}.
-****Damage decreased from +27 to +22.
-****Firerate changed from {{Tooltip|0.133 > 0.125|-0.008}} to {{Tooltip|0.12 > 0.1|-0.02}}.
-****Range decreased from +1 to +0.
-****Boss multipler increased from 1.2 to 1.4.
-***'''Level 5B'''
-****Cost decreased from {{Money|125,000}} to {{Money|95,000}}.
-****Damage decreased fro +64 to +35.
-***'''Level 6B'''
-****Cost decreased from {{Money|180,000}} to {{Money|120,000}}.
-****Damage decreased from +54 to +50.
-****Boss multiplier changed from 1.2 > 1.4 to 1.4.
-***'''Level 7B'''
-****Cost decreased from {{Money|400,000}} to {{Money|250,000}}.
-****Damage decreased from +190 to +65.
-****Firerate changed from 0.125 to {{Tooltip|0.1 > 0.09|-0.01}}.
-*'''8 June 2026''' - [[v2.0.0|v2.0.6]]
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|8,000}} to {{Money|8,500}}.
-***'''Level 1'''
-****Cost increased from {{Money|2,600}} to {{Money|3,000}}.
-***'''Level 2'''
-****Cost increased from {{Money|6,450}} to {{Money|7,000}}.
-***'''Level 4B'''
-****Damage decreased from +22 to +12.
-***'''Level 5B'''
-****Damage increased from +35 to +45.
-***'''Level 7B'''
-****Damage decreased from +65 to +45.
-*'''19 June 2026''' - [[v2.1.0]]
-**Category changed from Hardcore to Evolved.
-**Statistical changes:
-***'''Level 4A'''
-****Flying detection added.
-***'''Level 5A'''
-****Flying detection moved to 4A.
-***'''Level 6A'''
-****Damage decreased from +40 to +30.
-***'''Level 7A'''
-****Cost increased from {{Money|150,000}} to {{Money|175,000}}.
-****Damage decreased from +80 to +65.
-*'''14 August 2026''' - [[v2.0.0]]
-**Statistical changes:
-***'''Base'''
-****Cost increased from {{Money|8,000}} to {{Money|10,000}}.
-****Damage increased from 9 to 10.
-****Firerate decreased from 0.15 to 0.14.
-***'''Level 1'''
-****Cost decreased from {{Money|3,000}} to {{Money|2,800}}.
-****Firerate changed from {{Tooltip|0.15 > 0.12|-0.03}} to {{Tooltip|0.14 > 0.12|-0.02}}.
-***'''Level 3'''
-****Damage increased from +14 to +15.
-***'''Level 4A'''
-****Cost decreased from {{Money|45,000}} to {{Money|35,000}}.
-****Damage decreased from +37 to +35.
-****Fortify radius increased from 10 to 13.
-****Fortify debuff time reduction increased from 25% to 35%.
-***'''Level 5A'''
-****Cost increased from {{Money|55,000}} to {{Money|60,000}}.
-****Damage increased from +35 to +55.
-****Firerate changed from {{Tooltip|0.225 > 0.2|-0.025}} to 0.15.
-****Fortify radius decreased from +3 to +1.
-****Fortify debuff time reduction increased from 25% to 35% > 40%.
-***'''Level 6A'''
-****Cost decreased from {{Money|100,000}} to {{Money|95,000}}.
-****Fortify debuff time reduction increased from 25% > 30% to 40%.
-***'''Level 7A'''
-****Fortify radius increased from +1 to +2.
-****Fortify debuff time reduction changed from 30% > 50% to 40% > 50%.
-***'''Level 4B'''
-****Damage decreased from +12 to +10.
-***'''Level 6B'''
-****Cost increased from {{Money|120,000}} to {{Money|130,000}}.
-****Damage increased from +50 to +55.
-****Range decreased from +2 to +0.
-***'''Level 7B'''
-****Cost decreased from {{Money|250,000}} to {{Money|230,000}}.
-****Boss multiplier changed from 1.4 to 1.4 > 1.5.
+****Cost decreased from {{Money|3,500}} to {{Money|2,400}}.
+****Damage decreased from +11 to +7.
+****Firerate changed from {{Tooltip|0.325 > 0.525|+0.2}} to {{Tooltip|0.75 > 0.6|-0.15}}.
+****Range increased from +2 to +2.5.
+****Income changed from {{Money|50}} > {{Money|85}} to {{Money|60}}.
+****Spin time changed from 1.25 > 1 to 1.5 > 1.25.
+****Hidden detection added.
+****Name changed from ''Faster Instincts'' to ''Deadly Precision''.
+***'''Level 4'''
+****Cost increased from {{Money|5,500}} to {{Money|4,250}}.
+****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.6 > 0.3|-0.3}}.
+****Range increased from +2 to +2.5.
+****Income changed from {{Money|85}} > {{Money|175}} to {{Money|60}} > {{Money|150}}.
+***'''Level 5'''
+****Cost decreased from {{Money|17,000}} to {{Money|9,750}}.
+****Damage decreased from +20 to +14.
+****Income changed from {{Money|175}} > {{Money|325}} to {{Money|150}} > {{Money|225}}.
+****Spin time changed from 1 to 1.25 > 1.
+*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
+**New skin: {{Color|Patriotic}}
+*'''17 July 2026''' - [[v2.3.0]]
+**Corrected incorrect spin time values at Level 5 in the upgrade descriptions.
 }}
 
 ==Notes==
-<references/>
-
+<references />
 
 
 {{TowerNavBox}}
