@@ -7,66 +7,220 @@
       "infobox_or_summary"
     ]
   },
-  "description": "The '''Executioner''' is a ranged ground [[tower]] that was unlocked by triumphing [[Totality Tower]]. It could have also been obtained through a gamepass for {{Robux|750}} during the [[Solar Eclipse Event]]. The '''Executioner's''' most recent sale had it require {{Robux|799}} to purchase.\n\nThe '''Executioner''' attacks by throwing its axe at an enemy. The axe will travel to that enemy and damage it, and then bounce to other enemies. Any enemy that is in '''Executioner's''' range when the axe is thrown may be targeted. The enemy it bounces onto depends on the '''Executioner's''' current targeting option. This axe can bounce 3 times (4 times at Level 3-4 and 7 times at Level 5). If the axe runs out of bounces or there are no enemies to bounce to, it will travel back to the '''Executioner'''. The '''Executioner's''' axe can also hit other enemies without directly targeting them if they are in its flight path, even if it used all of its bounces. However, it can only hit up to three enemies at once per axe tick. The effective firerate of the '''Executioner''' depends on when the axe returns to it; if the axe bounces multiple times or it travels long distances to its targets there will be a greater delay per attack. \n\nThe '''Executioner's''' high damage and ability to damage multiple enemies makes it a great tower for area of effect. However, it is very weak against singular enemies. The '''Executioner''' has hidden detection at Level 4 and flying detection at Level 0.\n\nThe '''Executioner''' has a placement limit of 9 per player.",
+  "description": "The '''Juggernaut''' or '''EvolvedJuggernaut''' is the [[Tower Evolution|evolved]] version of the [[Minigunner]], unlocked by reaching Level 20 on the [[Minigunner]] tower, either by getting the experience or by skipping the need to get it by paying {{Robux|599}}. Once done, it can be bought for {{Gem|6,000}} and {{Coins|15,000}}. As it is an evolved tower, only some of its upgrades are unlocked at the start. All other have to be unlocked by reaching higher [[Tower Evolution|evolution levels]] on the tower.\n\nThe '''Juggernaut''' starts out working very similarly to the [[Minigunner]]. When enemies enter its range, it will rev up its minigun and start firing at them. It will not differ mechanically until Level 4, where it gains two paths.\n#The top path is a more support based path where it gains a secondary range in which it reduces stun, freeze and debuff durations. Any tower in that range will have orange shields around them.\n#The bottom path is more offensive based as it gives the passive ability of dealing boosted damage to [[Boss]] enemies.\n\nThe '''Juggernaut''' has hidden detection from Level 2, flying detection from Level 4A and lead detection from Level 4B. It has a placement limit of 1.",
   "upgrade_modes": {
     "regular": [
       {
         "mode": "unknown",
         "level": 1,
-        "title": "Improved Throwing",
-        "cost": "{{Money|250}}",
-        "information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}",
+        "title": "Combat Tactics",
+        "cost": "{{Money|2,800}}",
+        "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}",
         "claims": [
           {
             "kind": "set",
-            "from": "3",
-            "to": "2",
+            "from": "0.14",
+            "to": "0.12",
             "stat": "Firerate",
-            "text": "3 > 2 Firerate"
+            "text": "0.14 > 0.12 Firerate"
           }
         ],
         "params": {
           "Level": "Level 1",
-          "Upgrade Title": "Improved Throwing",
-          "Cost": "{{Money|250}}",
-          "Image": "[[File:executionerlvl1upgrd.png|100px]]",
-          "Information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}"
+          "Evolution Level": "0",
+          "Upgrade Title": "Combat Tactics",
+          "Cost": "{{Money|2,800}}",
+          "Image": "[[File:JuggernautUpgrade1.png|100px]]",
+          "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}"
         }
       },
       {
         "mode": "unknown",
         "level": 2,
-        "title": "Double Head Axe",
-        "cost": "{{Money|750}}",
-        "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}",
+        "title": "32nd Spec-Ops",
+        "cost": "{{Money|7,000}}",
+        "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}",
         "claims": [
+          {
+            "kind": "grant",
+            "stat": "Hidden Detection",
+            "text": "+Hidden Detection"
+          },
           {
             "kind": "delta",
             "delta": "+5",
             "stat": "Damage",
             "text": "+5 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2.5",
+            "stat": "Range",
+            "text": "+2.5 Range"
+          },
+          {
+            "kind": "set",
+            "from": "2",
+            "to": "1.8",
+            "stat": "Rev Time",
+            "text": "2 > 1.8 Rev Time"
           }
         ],
         "params": {
           "Level": "Level 2",
-          "Upgrade Title": "Double Head Axe",
-          "Cost": "{{Money|750}}",
-          "Image": "[[File:executionerlvl2upgrd.png|100px]]",
-          "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}"
+          "Evolution Level": "0",
+          "Upgrade Title": "32nd Spec-Ops",
+          "Cost": "{{Money|7,000}}",
+          "Image": "[[File:JuggernautUpgrade2.png|100px]]",
+          "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}"
         }
       },
       {
         "mode": "unknown",
         "level": 3,
-        "title": "Blood Seeking",
-        "cost": "{{Money|1,900}}",
-        "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}",
+        "title": "Re-routed Funds",
+        "cost": "{{Money|17,200}}",
+        "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}",
         "claims": [
           {
             "kind": "delta",
-            "delta": "+8",
+            "delta": "+15",
             "stat": "Damage",
-            "text": "+8 Damage"
+            "text": "+15 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Range",
+            "text": "+2 Range"
+          }
+        ],
+        "params": {
+          "Level": "Level 3",
+          "Evolution Level": "0",
+          "Upgrade Title": "Re-routed Funds",
+          "Cost": "{{Money|17,200}}",
+          "Image": "[[File:JuggernautUpgrade3.png|100px]]",
+          "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Fortifier",
+        "cost": "{{Money|35,000}}",
+        "information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.12",
+            "to": "0.15",
+            "stat": "Firerate",
+            "text": "0.12 > 0.15 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+35",
+            "stat": "Damage",
+            "text": "+35 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "1.8",
+            "to": "1.2",
+            "stat": "Rev Time",
+            "text": "1.8 > 1.2 Rev Time"
+          },
+          {
+            "kind": "grant",
+            "stat": "Flying Detection",
+            "text": "+Flying Detection"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\""
+          },
+          {
+            "kind": "note",
+            "text": "'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times"
+          },
+          {
+            "kind": "note",
+            "text": "13 Fortify Radius"
+          },
+          {
+            "kind": "note",
+            "text": "35% Fortify Debuff Time Reduction}}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Evolution Level": "0",
+          "Upgrade Title": "Fortifier",
+          "Cost": "{{Money|35,000}}",
+          "Image": "[[File:JuggernautUpgrade4A.png|100px]]",
+          "Information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 4,
+        "title": "Experimental Weaponry",
+        "cost": "{{Money|40,000}}",
+        "information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}",
+        "claims": [
+          {
+            "kind": "set",
+            "from": "0.12",
+            "to": "0.1",
+            "stat": "Firerate",
+            "text": "0.12 > 0.1 Firerate"
+          },
+          {
+            "kind": "delta",
+            "delta": "+10",
+            "stat": "Damage",
+            "text": "+10 Damage"
+          },
+          {
+            "kind": "grant",
+            "stat": "Lead Detection",
+            "text": "+Lead Detection"
+          },
+          {
+            "kind": "note",
+            "text": "{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\""
+          },
+          {
+            "kind": "note",
+            "text": "'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies."
+          },
+          {
+            "kind": "note",
+            "text": "1.4 Boss Multiplier }}"
+          }
+        ],
+        "params": {
+          "Level": "Level 4",
+          "Evolution Level": "0",
+          "Upgrade Title": "Experimental Weaponry",
+          "Cost": "{{Money|40,000}}",
+          "Image": "[[File:JuggernautUpgrade4B.png|100px]]",
+          "Information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 5,
+        "title": "Defensive Maneuvers",
+        "cost": "{{Money|60,000}}",
+        "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+55",
+            "stat": "Damage",
+            "text": "+55 Damage"
           },
           {
             "kind": "delta",
@@ -77,51 +231,29 @@
           {
             "kind": "delta",
             "delta": "+1",
-            "stat": "Bounces",
-            "text": "+1 Bounces"
-          }
-        ],
-        "params": {
-          "Level": "Level 3",
-          "Upgrade Title": "Blood Seeking",
-          "Cost": "{{Money|1,900}}",
-          "Image": "[[File:executionerlvl3upgrd.png|100px]]",
-          "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}"
-        }
-      },
-      {
-        "mode": "unknown",
-        "level": 4,
-        "title": "Tactical Ops",
-        "cost": "{{Money|4,500}}",
-        "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}",
-        "claims": [
-          {
-            "kind": "delta",
-            "delta": "+17",
-            "stat": "Damage",
-            "text": "+17 Damage"
+            "stat": "Fortify Radius",
+            "text": "+1 Fortify Radius"
           },
           {
-            "kind": "grant",
-            "stat": "Hidden Detection",
-            "text": "+Hidden Detection"
+            "kind": "note",
+            "text": "35% > 40% Fortify Debuff Time Reduction"
           }
         ],
         "params": {
-          "Level": "Level 4",
-          "Upgrade Title": "Tactical Ops",
-          "Cost": "{{Money|4,500}}",
-          "Image": "[[File:executionerlvl4upgrd.png|100px]]",
-          "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}"
+          "Level": "Level 5",
+          "Evolution Level": "3",
+          "Upgrade Title": "Defensive Maneuvers",
+          "Cost": "{{Money|60,000}}",
+          "Image": "[[File:JuggernautUpgrade5A.png|100px]]",
+          "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}"
         }
       },
       {
         "mode": "unknown",
         "level": 5,
-        "title": "Head Chopping",
-        "cost": "{{Money|12,500}}",
-        "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}",
+        "title": "Bigger Guns",
+        "cost": "{{Money|95,000}}",
+        "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}",
         "claims": [
           {
             "kind": "delta",
@@ -131,17 +263,155 @@
           },
           {
             "kind": "delta",
-            "delta": "+3",
-            "stat": "Bounces",
-            "text": "+3 Bounces"
+            "delta": "+4",
+            "stat": "Range",
+            "text": "+4 Range"
           }
         ],
         "params": {
           "Level": "Level 5",
-          "Upgrade Title": "Head Chopping",
-          "Cost": "{{Money|12,500}}",
-          "Image": "[[File:executionerlvl5upgrd.png|100px]]",
-          "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}"
+          "Evolution Level": "6",
+          "Upgrade Title": "Bigger Guns",
+          "Cost": "{{Money|95,000}}",
+          "Image": "[[File:JuggernautUpgrade5B.png|100px]]",
+          "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 6,
+        "title": "Flak Jacket",
+        "cost": "{{Money|95,000}}",
+        "information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+30",
+            "stat": "Damage",
+            "text": "+30 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.15",
+            "to": "0.12",
+            "stat": "Firerate",
+            "text": "0.15 > 0.12 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "1.2",
+            "to": "1",
+            "stat": "Rev Time",
+            "text": "1.2 > 1 Rev Time"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Evolution Level": "9",
+          "Upgrade Title": "Flak Jacket",
+          "Cost": "{{Money|95,000}}",
+          "Image": "[[File:JuggernautUpgrade6A.png|100px]]",
+          "Information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 6,
+        "title": "Titanium Armor",
+        "cost": "{{Money|130,000}}",
+        "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+55",
+            "stat": "Damage",
+            "text": "+55 Damage"
+          }
+        ],
+        "params": {
+          "Level": "Level 6",
+          "Evolution Level": "12",
+          "Upgrade Title": "Titanium Armor",
+          "Cost": "{{Money|130,000}}",
+          "Image": "[[File:JuggernautUpgrade6B.png|100px]]",
+          "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 7,
+        "title": "Hammerhead",
+        "cost": "{{Money|175,000}}",
+        "information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+65",
+            "stat": "Damage",
+            "text": "+65 Damage"
+          },
+          {
+            "kind": "delta",
+            "delta": "+2",
+            "stat": "Fortify Radius",
+            "text": "+2 Fortify Radius"
+          },
+          {
+            "kind": "note",
+            "text": "40% > 50% Fortify Debuff Time Reduction"
+          }
+        ],
+        "params": {
+          "Level": "Level 7",
+          "Evolution Level": "16",
+          "Upgrade Title": "Hammerhead",
+          "Cost": "{{Money|175,000}}",
+          "Image": "[[File:JuggernautUpgrade7A.png|100px]]",
+          "Information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}"
+        }
+      },
+      {
+        "mode": "unknown",
+        "level": 7,
+        "title": "Thresher",
+        "cost": "{{Money|230,000}}",
+        "information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}",
+        "claims": [
+          {
+            "kind": "delta",
+            "delta": "+25",
+            "stat": "Damage",
+            "text": "+25 Damage"
+          },
+          {
+            "kind": "set",
+            "from": "0.1",
+            "to": "0.09",
+            "stat": "Firerate",
+            "text": "0.1 > 0.09 Firerate"
+          },
+          {
+            "kind": "set",
+            "from": "1.8",
+            "to": "1.6",
+            "stat": "Rev Time",
+            "text": "1.8 > 1.6 Rev Time"
+          },
+          {
+            "kind": "set",
+            "from": "1.4",
+            "to": "1.5",
+            "stat": "Boss Multiplier",
+            "text": "1.4 > 1.5 Boss Multiplier"
+          }
+        ],
+        "params": {
+          "Level": "Level 7",
+          "Evolution Level": "20",
+          "Upgrade Title": "Thresher",
+          "Cost": "{{Money|230,000}}",
+          "Image": "[[File:JuggernautUpgrade7B.png|100px]]",
+          "Information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}"
         }
       }
     ],
@@ -151,60 +421,214 @@
     {
       "mode": "unknown",
       "level": 1,
-      "title": "Improved Throwing",
-      "cost": "{{Money|250}}",
-      "information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}",
+      "title": "Combat Tactics",
+      "cost": "{{Money|2,800}}",
+      "information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}",
       "claims": [
         {
           "kind": "set",
-          "from": "3",
-          "to": "2",
+          "from": "0.14",
+          "to": "0.12",
           "stat": "Firerate",
-          "text": "3 > 2 Firerate"
+          "text": "0.14 > 0.12 Firerate"
         }
       ],
       "params": {
         "Level": "Level 1",
-        "Upgrade Title": "Improved Throwing",
-        "Cost": "{{Money|250}}",
-        "Image": "[[File:executionerlvl1upgrd.png|100px]]",
-        "Information": "3 > 2 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell price changes to {{Money|333}}"
+        "Evolution Level": "0",
+        "Upgrade Title": "Combat Tactics",
+        "Cost": "{{Money|2,800}}",
+        "Image": "[[File:JuggernautUpgrade1.png|100px]]",
+        "Information": "0.14 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n\nSell Price changes to {{Money|4,266}}"
       }
     },
     {
       "mode": "unknown",
       "level": 2,
-      "title": "Double Head Axe",
-      "cost": "{{Money|750}}",
-      "information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}",
+      "title": "32nd Spec-Ops",
+      "cost": "{{Money|7,000}}",
+      "information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}",
       "claims": [
+        {
+          "kind": "grant",
+          "stat": "Hidden Detection",
+          "text": "+Hidden Detection"
+        },
         {
           "kind": "delta",
           "delta": "+5",
           "stat": "Damage",
           "text": "+5 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2.5",
+          "stat": "Range",
+          "text": "+2.5 Range"
+        },
+        {
+          "kind": "set",
+          "from": "2",
+          "to": "1.8",
+          "stat": "Rev Time",
+          "text": "2 > 1.8 Rev Time"
         }
       ],
       "params": {
         "Level": "Level 2",
-        "Upgrade Title": "Double Head Axe",
-        "Cost": "{{Money|750}}",
-        "Image": "[[File:executionerlvl2upgrd.png|100px]]",
-        "Information": "+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell price changes to {{Money|583}}"
+        "Evolution Level": "0",
+        "Upgrade Title": "32nd Spec-Ops",
+        "Cost": "{{Money|7,000}}",
+        "Image": "[[File:JuggernautUpgrade2.png|100px]]",
+        "Information": "+Hidden Detection {{Hidden|Hidden Detection}}\n\n+5 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2.5 Range [[File:Range Icon.png|20px|Range]]\n\n2 > 1.8 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|6,600}}"
       }
     },
     {
       "mode": "unknown",
       "level": 3,
-      "title": "Blood Seeking",
-      "cost": "{{Money|1,900}}",
-      "information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}",
+      "title": "Re-routed Funds",
+      "cost": "{{Money|17,200}}",
+      "information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}",
       "claims": [
         {
           "kind": "delta",
-          "delta": "+8",
+          "delta": "+15",
           "stat": "Damage",
-          "text": "+8 Damage"
+          "text": "+15 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Range",
+          "text": "+2 Range"
+        }
+      ],
+      "params": {
+        "Level": "Level 3",
+        "Evolution Level": "0",
+        "Upgrade Title": "Re-routed Funds",
+        "Cost": "{{Money|17,200}}",
+        "Image": "[[File:JuggernautUpgrade3.png|100px]]",
+        "Information": "+15 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|12,33}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Fortifier",
+      "cost": "{{Money|35,000}}",
+      "information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "0.12",
+          "to": "0.15",
+          "stat": "Firerate",
+          "text": "0.12 > 0.15 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+35",
+          "stat": "Damage",
+          "text": "+35 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "1.8",
+          "to": "1.2",
+          "stat": "Rev Time",
+          "text": "1.8 > 1.2 Rev Time"
+        },
+        {
+          "kind": "grant",
+          "stat": "Flying Detection",
+          "text": "+Flying Detection"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\""
+        },
+        {
+          "kind": "note",
+          "text": "'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times"
+        },
+        {
+          "kind": "note",
+          "text": "13 Fortify Radius"
+        },
+        {
+          "kind": "note",
+          "text": "35% Fortify Debuff Time Reduction}}"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Evolution Level": "0",
+        "Upgrade Title": "Fortifier",
+        "Cost": "{{Money|35,000}}",
+        "Image": "[[File:JuggernautUpgrade4A.png|100px]]",
+        "Information": "0.12 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]] \n\n+35 Damage [[File:Damage Icon.png|20px|Damage]]\n\n1.8 > 1.2 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n+Flying Detection {{Flying|Flying Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Fortify Zone|Description = \"Don't quit now! We were just getting warmed up.\"\n\n'''Juggernaut''' unlocks a secondary range in which towers receive reduced stun and debuff times\n\n•13 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n•35% Fortify Debuff Time Reduction}}\n\n\nSell Price changes to {{Money|24,000}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 4,
+      "title": "Experimental Weaponry",
+      "cost": "{{Money|40,000}}",
+      "information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}",
+      "claims": [
+        {
+          "kind": "set",
+          "from": "0.12",
+          "to": "0.1",
+          "stat": "Firerate",
+          "text": "0.12 > 0.1 Firerate"
+        },
+        {
+          "kind": "delta",
+          "delta": "+10",
+          "stat": "Damage",
+          "text": "+10 Damage"
+        },
+        {
+          "kind": "grant",
+          "stat": "Lead Detection",
+          "text": "+Lead Detection"
+        },
+        {
+          "kind": "note",
+          "text": "{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\""
+        },
+        {
+          "kind": "note",
+          "text": "'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies."
+        },
+        {
+          "kind": "note",
+          "text": "1.4 Boss Multiplier }}"
+        }
+      ],
+      "params": {
+        "Level": "Level 4",
+        "Evolution Level": "0",
+        "Upgrade Title": "Experimental Weaponry",
+        "Cost": "{{Money|40,000}}",
+        "Image": "[[File:JuggernautUpgrade4B.png|100px]]",
+        "Information": "0.12 > 0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n+10 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Lead Detection {{Lead|Lead Detection}}\n\n{{CollapsibleUpgrade|Title = Unlocks Experimental Weaponry|Description = \"Fine. I'll do it myself.\"\n\n'''Juggernaut''' equips an experimental multi-barrel minigun, with special rounds that deal extra damage to boss enemies.\n\n•1.4 Boss Multiplier {{Boss}}}}\n\n\nSell Price changes to {{Money|25,666}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 5,
+      "title": "Defensive Maneuvers",
+      "cost": "{{Money|60,000}}",
+      "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+55",
+          "stat": "Damage",
+          "text": "+55 Damage"
         },
         {
           "kind": "delta",
@@ -215,51 +639,29 @@
         {
           "kind": "delta",
           "delta": "+1",
-          "stat": "Bounces",
-          "text": "+1 Bounces"
-        }
-      ],
-      "params": {
-        "Level": "Level 3",
-        "Upgrade Title": "Blood Seeking",
-        "Cost": "{{Money|1,900}}",
-        "Image": "[[File:executionerlvl3upgrd.png|100px]]",
-        "Information": "+8 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Bounces\n\n\nSell price changes to {{Money|1,216}}"
-      }
-    },
-    {
-      "mode": "unknown",
-      "level": 4,
-      "title": "Tactical Ops",
-      "cost": "{{Money|4,500}}",
-      "information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}",
-      "claims": [
-        {
-          "kind": "delta",
-          "delta": "+17",
-          "stat": "Damage",
-          "text": "+17 Damage"
+          "stat": "Fortify Radius",
+          "text": "+1 Fortify Radius"
         },
         {
-          "kind": "grant",
-          "stat": "Hidden Detection",
-          "text": "+Hidden Detection"
+          "kind": "note",
+          "text": "35% > 40% Fortify Debuff Time Reduction"
         }
       ],
       "params": {
-        "Level": "Level 4",
-        "Upgrade Title": "Tactical Ops",
-        "Cost": "{{Money|4,500}}",
-        "Image": "[[File:executionerlvl4upgrd.png|100px]]",
-        "Information": "+17 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+Hidden Detection {{Hidden|Hidden Detection}}\n\n\nSell price changes to {{Money|2,716}}"
+        "Level": "Level 5",
+        "Evolution Level": "3",
+        "Upgrade Title": "Defensive Maneuvers",
+        "Cost": "{{Money|60,000}}",
+        "Image": "[[File:JuggernautUpgrade5A.png|100px]]",
+        "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n+1 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n35% > 40% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|44,000}}"
       }
     },
     {
       "mode": "unknown",
       "level": 5,
-      "title": "Head Chopping",
-      "cost": "{{Money|12,500}}",
-      "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}",
+      "title": "Bigger Guns",
+      "cost": "{{Money|95,000}}",
+      "information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}",
       "claims": [
         {
           "kind": "delta",
@@ -269,17 +671,155 @@
         },
         {
           "kind": "delta",
-          "delta": "+3",
-          "stat": "Bounces",
-          "text": "+3 Bounces"
+          "delta": "+4",
+          "stat": "Range",
+          "text": "+4 Range"
         }
       ],
       "params": {
         "Level": "Level 5",
-        "Upgrade Title": "Head Chopping",
-        "Cost": "{{Money|12,500}}",
-        "Image": "[[File:executionerlvl5upgrd.png|100px]]",
-        "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+3 Bounces\n\n\nSell price changes to {{Money|6,883}}"
+        "Evolution Level": "6",
+        "Upgrade Title": "Bigger Guns",
+        "Cost": "{{Money|95,000}}",
+        "Image": "[[File:JuggernautUpgrade5B.png|100px]]",
+        "Information": "+45 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+4 Range [[File:Range Icon.png|20px|Range]]\n\n\nSell Price changes to {{Money|57,333}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 6,
+      "title": "Flak Jacket",
+      "cost": "{{Money|95,000}}",
+      "information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+30",
+          "stat": "Damage",
+          "text": "+30 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.15",
+          "to": "0.12",
+          "stat": "Firerate",
+          "text": "0.15 > 0.12 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "1.2",
+          "to": "1",
+          "stat": "Rev Time",
+          "text": "1.2 > 1 Rev Time"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Evolution Level": "9",
+        "Upgrade Title": "Flak Jacket",
+        "Cost": "{{Money|95,000}}",
+        "Image": "[[File:JuggernautUpgrade6A.png|100px]]",
+        "Information": "+30 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.15 > 0.12 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.2 > 1 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n\nSell Price changes to {{Money|75,666}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 6,
+      "title": "Titanium Armor",
+      "cost": "{{Money|130,000}}",
+      "information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+55",
+          "stat": "Damage",
+          "text": "+55 Damage"
+        }
+      ],
+      "params": {
+        "Level": "Level 6",
+        "Evolution Level": "12",
+        "Upgrade Title": "Titanium Armor",
+        "Cost": "{{Money|130,000}}",
+        "Image": "[[File:JuggernautUpgrade6B.png|100px]]",
+        "Information": "+55 Damage [[File:Damage Icon.png|20px|Damage]]\n\n\nSell Price changes to {{Money|100,666}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 7,
+      "title": "Hammerhead",
+      "cost": "{{Money|175,000}}",
+      "information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+65",
+          "stat": "Damage",
+          "text": "+65 Damage"
+        },
+        {
+          "kind": "delta",
+          "delta": "+2",
+          "stat": "Fortify Radius",
+          "text": "+2 Fortify Radius"
+        },
+        {
+          "kind": "note",
+          "text": "40% > 50% Fortify Debuff Time Reduction"
+        }
+      ],
+      "params": {
+        "Level": "Level 7",
+        "Evolution Level": "16",
+        "Upgrade Title": "Hammerhead",
+        "Cost": "{{Money|175,000}}",
+        "Image": "[[File:JuggernautUpgrade7A.png|100px]]",
+        "Information": "+65 Damage [[File:Damage Icon.png|20px|Damage]]\n\n+2 Fortify Radius [[File:BuildRange.png|20px|Fortify Radius]]\n\n40% > 50% Fortify Debuff Time Reduction\n\n\nSell Price changes to {{Money|134,566}}"
+      }
+    },
+    {
+      "mode": "unknown",
+      "level": 7,
+      "title": "Thresher",
+      "cost": "{{Money|230,000}}",
+      "information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}",
+      "claims": [
+        {
+          "kind": "delta",
+          "delta": "+25",
+          "stat": "Damage",
+          "text": "+25 Damage"
+        },
+        {
+          "kind": "set",
+          "from": "0.1",
+          "to": "0.09",
+          "stat": "Firerate",
+          "text": "0.1 > 0.09 Firerate"
+        },
+        {
+          "kind": "set",
+          "from": "1.8",
+          "to": "1.6",
+          "stat": "Rev Time",
+          "text": "1.8 > 1.6 Rev Time"
+        },
+        {
+          "kind": "set",
+          "from": "1.4",
+          "to": "1.5",
+          "stat": "Boss Multiplier",
+          "text": "1.4 > 1.5 Boss Multiplier"
+        }
+      ],
+      "params": {
+        "Level": "Level 7",
+        "Evolution Level": "20",
+        "Upgrade Title": "Thresher",
+        "Cost": "{{Money|230,000}}",
+        "Image": "[[File:JuggernautUpgrade7B.png|100px]]",
+        "Information": "+25 Damage [[File:Damage Icon.png|20px|Damage]]\n\n0.1 > 0.09 Firerate [[File:Cooldown Icon.png|20px|Firerate]]\n\n1.8 > 1.6 Rev Time [[File:Cooldown Icon.png|20px|Rev Time]]\n\n1.4 > 1.5 Boss Multiplier {{Boss}}\n\n\nSell Price changes to {{Money|177,333}}"
       }
     }
   ],
@@ -289,11 +829,11 @@
   },
   "detections_and_limits": {
     "regular": {
-      "hidden": "{{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>",
-      "lead": "N/A",
-      "flying": "{{Attr|Fly|Level 0+}}",
+      "hidden": "{{Attr|Hidden|Level 2+}}",
+      "lead": "{{Attr|Lead|Level 4B+}}",
+      "flying": "{{Attr|Flying|Level 4A+}}",
       "immune": "None",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9"
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1"
     },
     "pvp": {
       "hidden": null,
@@ -306,27 +846,33 @@
     {
       "name": "TowerInfobox",
       "params": {
-        "title": "Executioner",
-        "image-static": "DefaultExecutioner2.png",
-        "image-dynamic": "ExecutionerDynamic.png",
+        "image-static": "EvolvedJuggernautIcon.png",
+        "image-dynamic": "EvolvedJuggernautDynamic.png",
         "image-dynamic-start": "22",
-        "unlockcost": "Triumph [[Totality Tower]]",
-        "basecost": "{{Money|1,800}}",
-        "basesellingprice": "{{Money|816}}",
-        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9",
+        "towercost": "{{Coins|15,000}} & {{Gem|6,000}}",
         "placement": "Ground",
-        "role": "Offensive",
-        "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
-        "damagetype": "Ricochet<br/>Pierce",
-        "basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]3",
-        "baserange": "[[File:Range Icon.png|20px|Range]]14",
-        "hidden_detection": "{{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>",
-        "lead_detection": "N/A",
-        "flying_detection": "{{Attr|Fly|Level 0+}}",
+        "role": "Offense",
+        "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
+        "basecost": "{{Money|10,000}}",
+        "basesellingprice": "{{Money|3,333}}",
+        "basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+        "damagetype": "Single",
+        "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.14",
+        "baserange": "[[File:Range Icon.png|20px|Range]]17.5",
+        "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+        "lead_detection": "{{Attr|Lead|Level 4B+}}",
+        "flying_detection": "{{Attr|Flying|Level 4A+}}",
         "immune": "None",
-        "footprint": "1.5",
-        "tooltip-1": "A{{sic}} early-mid game tower that throws an axe that bounces across multiple enemies.",
-        "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+        "footprint": "Very Large (2.5)",
+        "evolved_from": "[[Minigunner]]",
+        "evolution_levels": "20",
+        "base_exp": "75",
+        "growth_rate": "1.075",
+        "skip_cost": "1,199",
+        "tooltip-1": "A massive offensive tower that fires high damage shots at a quick rate. At level 4, splits into two paths.",
+        "tooltip-2": "On top path, gains a fortify zone that reduces debuff and stun times for nearby towers.",
+        "tooltip-3": "On Bottom Path, gains a damage multiplier on boss enemies.",
+        "tooltip-4": "Capable of detecting hidden enemies, flying enemies on top path, and lead enemies on bottom path."
       },
       "positional": []
     }
@@ -334,29 +880,35 @@
   "likely_infobox": {
     "name": "TowerInfobox",
     "params": {
-      "title": "Executioner",
-      "image-static": "DefaultExecutioner2.png",
-      "image-dynamic": "ExecutionerDynamic.png",
+      "image-static": "EvolvedJuggernautIcon.png",
+      "image-dynamic": "EvolvedJuggernautDynamic.png",
       "image-dynamic-start": "22",
-      "unlockcost": "Triumph [[Totality Tower]]",
-      "basecost": "{{Money|1,800}}",
-      "basesellingprice": "{{Money|816}}",
-      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]9",
+      "towercost": "{{Coins|15,000}} & {{Gem|6,000}}",
       "placement": "Ground",
-      "role": "Offensive",
-      "basedamage": "[[File:Damage Icon.png|20px|Damage]]5",
-      "damagetype": "Ricochet<br/>Pierce",
-      "basefirerate": "[[File:Cooldown Icon.png|20px|Swingrate]]3",
-      "baserange": "[[File:Range Icon.png|20px|Range]]14",
-      "hidden_detection": "{{Attr|Hidden|Level 3+}}<ref>Through axe bouncing and piercing, the '''Executioner''' may indirectly hit hidden enemies, but this tower cannot directly target hidden enemies until Level 3.</ref>",
-      "lead_detection": "N/A",
-      "flying_detection": "{{Attr|Fly|Level 0+}}",
+      "role": "Offense",
+      "placement_limit": "[[File:PlacementLimit.png|20px|Placement Limit]]1",
+      "basecost": "{{Money|10,000}}",
+      "basesellingprice": "{{Money|3,333}}",
+      "basedamage": "[[File:Damage Icon.png|20px|Damage]]10",
+      "damagetype": "Single",
+      "basefirerate": "[[File:Cooldown Icon.png|20px|Firerate]]0.14",
+      "baserange": "[[File:Range Icon.png|20px|Range]]17.5",
+      "hidden_detection": "{{Attr|Hidden|Level 2+}}",
+      "lead_detection": "{{Attr|Lead|Level 4B+}}",
+      "flying_detection": "{{Attr|Flying|Level 4A+}}",
       "immune": "None",
-      "footprint": "1.5",
-      "tooltip-1": "A{{sic}} early-mid game tower that throws an axe that bounces across multiple enemies.",
-      "tooltip-2": "Capable of detecting [[Hidden (Attribute)|hidden]] enemies."
+      "footprint": "Very Large (2.5)",
+      "evolved_from": "[[Minigunner]]",
+      "evolution_levels": "20",
+      "base_exp": "75",
+      "growth_rate": "1.075",
+      "skip_cost": "1,199",
+      "tooltip-1": "A massive offensive tower that fires high damage shots at a quick rate. At level 4, splits into two paths.",
+      "tooltip-2": "On top path, gains a fortify zone that reduces debuff and stun times for nearby towers.",
+      "tooltip-3": "On Bottom Path, gains a damage multiplier on boss enemies.",
+      "tooltip-4": "Capable of detecting hidden enemies, flying enemies on top path, and lead enemies on bottom path."
     },
     "positional": []
   },
-  "template_count": 85
+  "template_count": 201
 }
