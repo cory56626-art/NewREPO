@@ -1,303 +1,288 @@
-{{Tabs|Regular = Cowboy|Perk = Golden Cowboy}}
-{{For|other uses of [[Gold (Disambiguation)|Gold]]}}
+{{Tabs}}
+{{For|[[Frost Blaster]]|[[Null Freezer]]}}
 {{TowerInfobox
-|title = {{Color|Golden|Golden Cowboy}}
-|image-static = WDGoldenCowboyIcon.png
-|image-dynamic = GoldenCowboyDynamic.png
-|perkcost = {{Coins|50,000}} ([[Golden Crate]]) or {{Coins|70,000}} (Daily Store)
-|towercost = Triumph [[Badlands II]] & {{Coins|4,000}} or {{Robux|340}} ([[Cowboy]])
-|basecost = {{Money|600}}
-|basesellingprice = {{Money|200}}
-|role = Offense
+|title = Freezer
+|image-static = ReworkedFreezerIcon.png
+|image-dynamic = FreezerDynamic.png
+|unlockcost = {{Coins|650}}
+|basecost = {{Money|450}}
+|basesellingprice = {{Money|150}}
+|role = Defense
 |placement = Ground
-|placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]12
-|basedamage = [[File:Damage Icon.png|20px|Damage]]3
-|damagetype = Single
-|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.9
-|baserange = [[File:Range Icon.png|20px|Range]]13
-|baseincome = {{Money|35}}
-|hidden_detection = {{Attr|Hidden|Level 3+}}
-|lead_detection = N/A
+|basedamage = [[File:Damage Icon.png|20px|Damage]]2
+|damagetype = Single<br/>Burst (Level 3+)
+|basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.55
+|baserange = [[File:Range Icon.png|20px|Range]]12
+|hidden_detection = {{Attr|Hidden|Level 2+}}
+|lead_detection = {{Attr|Lead|Level 0+}}
 |flying_detection = N/A
-|immune = Partial Debuff<ref>Due to bugs, it cannot have [[Scared Debuff]]s applied from [[Wox the Fox]], [[Nuclear Monster]] and [[Gunslinger]], [[Fatigue Debuff]]s from the [[Soul Stealer (Legacy)|Soul Stealer]] and legacy [[Fallen Soul (Legacy)|Fallen Soul]], and it cannot have a [[Soul]] spawn from it by the [[Soul Stealer (Legacy)|Soul Stealer]].</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)<br/>Partial Stun<ref>Due to bugs, it cannot be stunned by legacy enemy abilities fired like a minigun or ones that are lasers. This includes the legacy [[Templar]], legacy [[P3NGU (D00M's Revenge)|P3NGU]], [[Warden (Legacy Enemy)|Warden]], [[Minigunner (Pizza Party)|Minigunner]], [[Gunslinger]]'s ''Crossbones Crossfire'' and [[Nuclear Monster]]'s ''Nuclear Beam''.</ref> ({{Color|DuckyRevenge|Spring Time}} & {{Color|Other|Mecha Bunny}} only)
-|footprint = 1.25
-|tooltip-1 = A gunslinger with solid range and moderately low damage. Helps by giving the player extra cash every time it needs to reload.
+|music-1 = '''Ice Age ability'''[[File:IceAge.ogg]]
+|immune = None
+|footprint = 1.5
+|pvp_basecost = {{Money|450}}
+|pvp_basesellingprice = {{Money|150}}
+|pvp_role = Defense
+|pvp_placement = Ground
+|pvp_basedamage = [[File:Damage Icon.png|20px|Damage]]1
+|pvp_damagetype = Single<br/>Burst (Level 3+)
+|pvp_basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0.5
+|pvp_baserange = [[File:Range Icon.png|20px|Range]]12
+|pvp_hidden_detection = {{Attr|Hidden|Level 2+}}
+|pvp_lead_detection = N/A
+|pvp_flying_detection = N/A
+|pvp_immune = None
+|pvp_footprint = 1.5
+|tooltip-1 = A support tower focused on slowing down and freezing enemies to support the team.
 |tooltip-2 = Capable of detecting [[Hidden (Attribute)|hidden]] enemies.
 }}
 {{QuoteContainer|<tabber>
 |-|Current =
-{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash on reload.|Inventory Description}}
+{{QuoteBox|Brrr! Build up chill to slow and freeze enemies in their tracks!|Store Description}}
+|-|Version 3 =
+{{QuoteBox|Chill enemies to a slow freeze!|Store Description}}
 |-|Version 2 =
-{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 6th shot.|Former Inventory Description}}
+{{QuoteBox|Shoot an ice beam, freezing targets for a few seconds.|Store Description}}
 |-|Version 1 =
-{{QuoteBox|There ain't enough room for the two of us pardner... Gain cash every 8th shot.|Former Inventory Description}}
+{{QuoteBox|Freeze zombies temporarily with a freeze ray!|Former Store Description}}
 </tabber>}}
 __TOC__
 ==Description==
-The '''Golden Cowboy''' is a golden perk for the [[Cowboy]], unlocked from the [[Golden Crate]] for {{Coins|50,000}}, if you have the [[Cowboy]]. It can also appear in the daily skin store for {{Coins|70,000}}.
+The '''Freezer''' is a ground [[Towers|tower]] that fires an ice beam and applies chill and slow down enemies, freezing at later levels. It can be bought in the store for {{Coins|650}}.
 
-While initially it has a slow firerate, it deals moderate damage with a fairly low range. On later levels, the '''Golden Cowboy''' gains much higher damage, higher range and a faster firerate. The '''Golden Cowboy''' can also generate cash every sixth shot. The amount of shots needed for the '''Golden Cowboy''' to generate cash can be seen above its tower icon in the upgrade box or when you hover your cursor over it. After firing the last shot, it will spin its gun for a short while. The ''Spin Time'' is decreased at higher Levels. This ability can act as a primary or secondary source of economy. 
+The '''Freezer''' targets a single enemy and fires a ''Frost Ray'', chilling the enemy and slowing it down. The chillness slowness effect stacks with each hit multiple times. This chillness effect also deals damage over time, chipping away the health of enemies affected by it. Starting from Level 2, it can freeze enemies. When the chillness slowness effect is higher than the max slowdown, the enemy will be frozen, which generally when targeting a single enemy takes four or five shots. Larger enemies will be frozen for a shorter amount of time than average sized enemies. Enemies with [[Freeze Immunity]] also cannot be frozen, slowed down or have their defense dropped by the '''Freezer'''.
 
-The '''Golden Cowboy''' is considered an all round tower. Its DPS makes it decent to defend early and mid-game, while its ability to generate cash can make it useful for the entire match.
+At Level 3+, the '''Freezer''' fires in bursts, with a short delay between them. Additionally, at Level 3+, it drops defense by 10% every tick. It can only decrease an enemy's defense by 33%. For example, if an enemy has 50% defense, it will be decreased by 16%. On top of this, it will also start dealing damage over time with its chill at Level 3. Additionally at Level 4, the '''Freezer''' gains the ability to throw a '''Frost Grenade''', freezing enemies within an explosion radius.
 
-In comparison to its normal counterpart, the [[Cowboy]], the '''Golden Cowboy''' has higher damage, slightly higher range at Level 0 and it generates more money. It is, however, more expensive to place down and upgrade.
+The '''Freezer''' does well as an all-rounder support tower. Due to its generally low price and decent DPS, the '''Freezer''' can be a solid choice for early-game defense to mid game with very good cost efficiency. Towards late game, the '''Freezer''' is useful for stalling, defense melting and deal additional DPS through its damage over time, though its DPS is insufficient to deal with late-game waves alone.
 
-The '''Golden Cowboy''' has a placement limit of twelve per player.
+The '''Freezer''' has [[Lead (Attribute)|lead]] detection from Level 0 and [[Hidden (Attribute)|hidden]] detection from level 2. It has no placement limit.
 
 ==Upgrades==
-{{Upgrade|Level = Level 1|Upgrade Title = Headshot Practice|Cost = {{Money|200}}|Image = [[File:Cowboy Upgrade 1 New.png|100px]]|Information = 0.9 > 0.75 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+{{PVPTabber
+|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|300}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = 0.55 > 0.35 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+15% > 20% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+7.5% > 10% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]
+
+
+Sell Price changes to {{Money|250}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bundled Up!|Cost = {{Money|450}}|Image = [[File:Freezer Upgrade 2.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
 +2 Range [[File:Range Icon.png|20px|Range]]
 
-2 > 1.5 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
-
-
-Sell Price changes to {{Money|266}}}}
-{{Upgrade|Level = Level 2|Upgrade Title = Gold Shot|Cost = {{Money|650}}|Image = [[File:NewCowboyLevel2.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
-
-{{Money|35}} > {{Money|60}} Income [[File:Cash Icon.png|20px|Income]]
-
-
-Sell Price changes to {{Money|483}}}}
-{{Upgrade|Level = Level 3|Upgrade Title = Deadly Precision|Cost = {{Money|2,400}}|Image = [[File:Cowboy Upgrade 3 New.png|100px]]|Information = +2.5 Range [[File:Range Icon.png|20px|Range]]
-
-+7 Damage [[File:Damage Icon.png|20px|Damage]]
-
-0.75 > 0.6 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
-
 +Hidden Detection {{Hidden|Hidden Detection}}
 
-1.5 > 1.25 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
+Now freezes enemies upon reaching max chillness
+
+•0.5 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
 
 
-Sell Price changes to {{Money|1,283}}}}
-{{Upgrade|Level = Level 4|Upgrade Title = Double Tap II|Cost = {{Money|4,250}}|Image = [[File:Cowboy Upgrade 4 New.png|100px]]|Information = 0.6 > 0.3 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+Sell Price changes to {{Money|400}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Arctic Soldier|Cost = {{Money|1,700}}|Image = [[File:Freezer Upgrade 3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
 
-+2.5 Range [[File:Range Icon.png|20px|Range]]
+0.35 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
 
-{{Money|60}} > {{Money|150}} Income [[File:Cash Icon.png|20px|Income]]
+1 > 6 Burst [[File:Damage Icon.png|20px|Burst]]
 
-6 > 12 Cash Shot [[File:Cash Icon.png|20px|Cash Shot]]
+0 > 0.6 Burst Cooldown [[File:Cooldown Icon.png|20px|Firerate]]
+
+20% > 25% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+10% > 12.5% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]
+
+2 > 3 Slowdown Time [[File:Slowness.png|20px|Slowdown Time]]
+
+Melts 10% defense every tick {{Defense|Defense Melting}}
+
+Enemies take damage when slowed down
+
+•3 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]
+
+•1 Tick [[File:Cooldown Icon.png|20px|Tick]]
 
 
-Sell Price changes to {{Money|2,700}}}}
-{{Upgrade|Level = Level 5|Upgrade Title = Wildest Of The West|Cost = {{Money|9,750}}|Image = [[File:Cowboy Upgrade 5 New.png|100px]]|Information = +14 Damage [[File:Damage Icon.png|20px|Damage]]
+Sell Price changes to {{Money|966}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Ull's Arrow|Cost = {{Money|4,500}}|Image = [[File:Freezer Upgrade 4.png|100px]]|Information = +5 Damage [[File:Damage Icon.png|20px|Damage]]
 
-{{Money|150}} > {{Money|225}} Income [[File:Cash Icon.png|20px|Income]]
++2 Chill Damage [[File:Damage Icon.png|20px|Chill Damage]]
 
-1.25 > 1 Spin Time [[File:Cooldown Icon.png|20px|Spin Time]]
++2 Range [[File:Range Icon.png|20px|Range]]
+
+6 > 8 Burst [[File:Damage Icon.png|20px|Burst]]
+
+0.5 > 0.75 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
++Frost Grenade Ability
 
 
-Sell Price changes to {{Money|5,950}}}}
+Sell Price changes to {{Money|2,466}}}}
+|{{Upgrade|Level = Level 1|Upgrade Title = Expedition Gear|Cost = {{Money|225}}|Image = [[File:Freezer Upgrade 1.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+30% > 40% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+
+Sell Price changes to {{Money|216}}}}
+{{Upgrade|Level = Level 2|Upgrade Title = Bundled Up!|Cost = {{Money|650}}|Image = [[File:Freezer Upgrade 2.png|100px]]|Information = +Hidden Detection {{Hidden|Hidden Detection}}
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+Now freezes enemies upon reaching max chillness
+
+•2 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
+10% > 20% Slowdown per Shot [[File:Slowness.png|20px|Slowness per Shot]]
+
+
+Sell Price changes to {{Money|433}}}}
+{{Upgrade|Level = Level 3|Upgrade Title = Arctic Soldier|Cost = {{Money|2,000}}|Image = [[File:Freezer Upgrade 3.png|100px]]|Information = +1 Damage [[File:Damage Icon.png|20px|Damage]]
+
+0.5 > 0.15 Firerate [[File:Cooldown Icon.png|20px|Firerate]]
+
+1 > 4 Burst [[File:Damage Icon.png|20px|Burst]]
+
+0 > 0.8 Burst Cooldown [[File:Cooldown Icon.png|20px|Firerate]]
+
+40% > 60% Max Slowdown [[File:Slowness.png|20px|Max Slowness]]
+
+2 > 2.5 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
+Melts 10% defense every tick {{Defense|Defense Melting}}
+
+
+Sell Price changes to {{Money|1,100}}}}
+{{Upgrade|Level = Level 4|Upgrade Title = Frost Bite!|Cost = {{Money|4,500}}|Image = [[File:Freezer Upgrade 4.png|100px]]|Information = +2 Damage [[File:Damage Icon.png|20px|Damage]]
+
++2 Range [[File:Range Icon.png|20px|Range]]
+
+4 > 7 Burst [[File:Damage Icon.png|20px|Burst]]
+
+2.5 > 3 Freeze Time [[File:Slowness.png|20px|Freeze Time]]
+
++Frost Grenade Ability
+
+
+Sell Price changes to {{Money|2,600}}}}
+}}
+
+==Ability==
+{{PVPTabber
+|{{Ability|Level Unlock = Level 4|Cooldown Time= 15s Cooldown|Ability Title = Frost Grenade|Image = [[File:Jester_Ability.png|100px]]|Information = 
+Throws a frost grenade that freezes up to five enemies for 2 seconds in an explosion radius of 6.
+}}
+|{{Ability|Level Unlock = Level 4|Cooldown Time= 15s Cooldown|Ability Title = Frost Grenade|Image = [[File:Jester_Ability.png|100px]]|Information = 
+Throws a frost grenade that freezes up to five enemies for 6 seconds in an explosion radius of 6.
+}}
+}}
 
 ==Statistics==
 ''To see all the previous statistics of this tower, see the [[/History|history]] page.''
+
 {{neow|<nowiki>
 <var>
-$DPS$ = (Damage * Cash Shot) / (Spin Time + (Firerate * (Cash Shot--)))
+$DPS$ = (Damage * Burst Count) / (Cooldown + (Firerate * Burst Count))
+$CDPS$ = Chill Damage / Tick
+$TDPS$ = $DPS$ + $CDPS$
+$TED$ = Chill Damage * (Slowdown Time / Tick)
 $CE$ = Total Cost / DPS
-$IPS$ = Income / (Spin Time + (Firerate * (Cash Shot--)))
-$IE$ = (Income + Cash Shot * Damage) / (Cash Shot * Damage)
 $TP$ = $FNC-TOTAL-COST$
-$COST$ = 600; 200; 650; 2400; 4250; 9750
-$FSE-DETECTION$ = 3; ;
-$FSE-UPGRADE$ = Headshot Practice; Gold Shot; Deadly Precision; Double Tap II; Wildest Of The West
-$FSE-UPGRADEICON$ = 5523231844; 4999425200; 5523233366; 5523234030; 5523234990
-$FSE-META$ = Golden Perks; File:WDGoldenCowboyIcon.png
-$DREF$ = <ref name=dps>DPS is calculated as (Damage × Cash Shot) ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
-$IREF$ = <ref name=ips>This is calculated as Income ÷ (Spin Time + (Firerate × (Cash Shot - 1))).</ref>
-$IEREF$ = <ref name=ie>Money generated per 1 damage is calculated as (Income + Cash Shot × Damage) ÷ (Cash Shot × Damage).</ref>
+$COST$ = 450; 300; 450; 1700; 4500
+$PVP-COST$ = 425; 225; 650; 2000; 4500
+$FSE-DETECTION$ = 2; 0;
+$FSE-PVP-DETECTION$ = 2; ;
+$FSE-UPGRADE$ = Expedition Gear; Bundled Up!; Arctic Soldier; Ull's Arrow
+$FSE-PVP-UPGRADE$ = Expedition Gear; Bundled Up!; Arctic Soldier; Frost Bite!
+$FSE-UPGRADEICON$ = 15686418975; 15686418835; 15686418748; 15686418571
+$FSE-META$ = Intermediate; File:ReworkedFreezerIcon.png
+$DREF$ = <ref name=dps>Calculated as (Damage × Burst Count) ÷ (Cooldown + (Firerate × Burst Count)) at Level 3+.</ref>
 $R$ = $FNC-RECURSION$
 </var>
+<div class="mobile-tabber"><tabber>
+|-|Regular =
 <div class="overflow-box">
 {| class="wikitable stats-table"
-! Level !! Cost !! Total Cost !! Damage !! Firerate !! Spin Time !! Cash Shot !! Income !! Range !! DPS$DREF$ !! Cost Efficiency !! Income Per Second$IREF$ !! Income Efficiency$IEREF$
+! Level !! Cost !! Total Cost !! Damage !! Chill Damage !! Firerate !! Tick !! Max Slowdown !! Slowdown Per Hit !! Slowdown Time !! Defense Melting !! Burst Count !! Cooldown !! Range !! Freeze Time !! Total Elapsed Damage !! DPS$DREF$ !! Cost Efficiency
 |-
-| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 3 || 0.9 || 2 || 6 || {{Money|35}} || 13 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+| 0 || {{Money|$COST$}}$R$ || {{Money|$TP$}}$R$ || 2 || N/A || 0.55 || 1 || 15% || 7.5% || 2 || N/A || 1 || 0 || 12 || N/A || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 1 || $R$ || $R$ || 3 || 0.75 || 1.5 || 6 || {{Money|35}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+| 1 || $R$ || $R$ || 2 || N/A || 0.35 || 1 || 20% || 10% || 2 || N/A || 1 || 0 || 12 || N/A || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 2 || $R$ || $R$ || 5 || 0.75 || 1.5 || 6 || {{Money|60}} || 15 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+| 2 || $R$ || $R$ || 3 || N/A || 0.35 || 1 || 20% || 10% || 2 || N/A || 1 || 0 || 14 || 0.5 || N/A || $DPS$ || {{Money|$CE$}}
 |-
-| 3 || $R$ || $R$ || 12 || 0.6 || 1.25 || 6 || {{Money|60}} || 17.5 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+| 3 || $R$ || $R$ || 4 || 3 || 0.15 || 1 || 25% || 12.5% || 3 || 10% || 6 || 0.6 || 14 || 0.5 || $TED$ || $TDPS$<ref>$DPS$ Normal DPS + $CDPS$ Chill DPS</ref> || {{Money|$CE$}}
 |-
-| 4 || $R$ || $R$ || 12 || 0.3 || 1.25 || 12 || {{Money|150}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
-|-
-| 5 || $R$ || $R$ || 26 || 0.3 || 1 || 12 || {{Money|225}} || 20 || $DPS$ || {{Money|$CE$}} || {{Money|$IPS$}} || {{Money|$IE$}}
+| 4 || $R$ || $R$ || 9 || 5 || 0.15 || 1 || 25% || 12.5% || 3 || 10% || 8 || 0.6 || 16 || 0.75 || $TED$ || $TDPS$<ref>$DPS$ Normal DPS + $CDPS$ Chill DPS</ref> || {{Money|$CE$}}
 |}
 </div>
+|-|PVP =
+<div class="overflow-box">
+{| class="wikitable stats-table"
+! Level !! Cost !! Total Cost !! Damage !! Firerate !! Tick !! Max Slowdown !! Slowdown Per Hit !! Slowdown Time !! Defense Melting !! Burst Count !! Cooldown !! Range !! Freeze Time !! DPS$DREF$ !! Cost Efficiency
+|-
+| 0 || {{Money|$PVP-COST$}}$R$ || {{Money|$TP$}}$R$ || 1 || 0.5 || 0.25 || 30% || 10% || 5 || N/A || 1 || 0 || 12 || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 1 || $R$ || $R$ || 2 || 0.5 || 0.25 || 40% || 10% || 5 || N/A || 1 || 0 || 12 || N/A || $DPS$ || {{Money|$CE$}}
+|-
+| 2 || $R$ || $R$ || 2 || 0.5 || 0.25 || 40% || 20% || 5 || N/A || 1 || 0 || 14 || 2 || $DPS$ || {{Money|$CE$}}
+|-
+| 3 || $R$ || $R$ || 3 || 0.15 || 0.25 || 60% || 20% || 5 || 10% || 4 || 0.8 || 14 || 2.5 || $DPS$ || {{Money|$CE$}}
+|-
+| 4 || $R$ || $R$ || 5 || 0.15 || 0.25 || 60% || 20% || 5 || 10% || 7 || 0.8 || 16 || 3 || $DPS$ || {{Money|$CE$}}
+|}
+</div>
+</tabber></div>
 </nowiki>}}
 
 ==Skins==
 ''To see all the upgrades of a skin, see the [[/Gallery#Skin Upgrades|gallery]] page.''
 {| class="light-table pad-5 align-center" style="width:300px; margin:0 auto"
 !
-|[[File:WDDefaultCowboyIcon.png|175px]]
-|[[File:WDPumpkinCowboyIcon.png|175px]]
-|[[File:WDRedemptionCowboyIcon.png|175px]]
-|[[File:WDBanditCowboyIcon.png|175px]]
+|[[File:KRDFFreezer0.png|175px]]
+|[[File:KRMCFreezer0.png|175px]]
+|[[File:KRIcyTeaFreezer0.png|175px]]
+|[[File:FoamFreezerNew0.png|175px]]
 |-
 !Skin
-|Default
-|{{Color|Halloween2019|Pumpkin}}
-|{{Color|Premium|Redemption}}
-|{{Color|Premium|Bandit}}
+|{{Color|Premium|Deep Freeze}}
+|{{Color|Premium|Mint Choco}}
+|{{Color|Other|IcyTea}}
+|{{Color|Other|Foam}}
 |-
 !Rarity
 |{{Color|Common}}
-|{{Color|Event}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|{{Coins|5,000}}
-|{{Robux|120}}
-|{{Robux|120}}
-|-
-!Obtained From
-|Owning [[Cowboy]]
-|[[Halloween Crate]]<br/>[[Pumpkin Crate]]<br/>[[Halloween 2019 Crate]]
-|[[Premium Crate]]
-|[[Premium Crate]]
-|-
-!
-|[[File:NewKasodusCowboyIcon.png|175px]]
-|[[File:WDValentinesCowboyIcon.png|175px]]
-|[[File:CopCowboyIcon.png|175px]]
-|[[File:NoirCowboyIcon.png|175px]]
-|-
-!Skin
-|{{Color|Premium|Kasodus}}
-|{{Color|Lovely|Valentines}}
-|{{Color|Premium|Cop}}
-|{{Color|Deluxe|Noir}}
-|-
-!Rarity
 |{{Color|Uncommon}}
 |{{Color|Uncommon}}
-|{{Color|Rare}}
-|{{Color|Common}}
+|{{Color|Exclusive}}
 |-
 !Daily Store Cost
-|{{Robux|360}}
-|{{Robux|105}}
-|{{Coins|5,500}}
 |{{Robux|85}}
+|{{Robux|105}}
+|N/A
+|N/A
 |-
 !Obtained From
-|[[Premium Crate]]<br/>[[Codes|Code]]:<br/>DOUBLEBLOXIES<ref>Expired</ref>
-|[[Valentines 2026 Crate]],<br/>[[Lovestruck Crate]],<br/>[[Lovely Crate]],<br/>[[Season of Love#Season Pass|Season of Love Season]]
 |[[Premium Crate]]
-|[[Deluxe Crate]]
+|[[Premium Crate]]
+|[[Codes|Code]]:<br />ICYFREEZE<ref>Expired</ref>
+|[[NERF: The Mint Choco Freezer Dart Blaster|Roblox Code]]<ref>Can be obtained from a [[NERF: The Mint Choco Freezer Dart Blaster]] code.</ref>
 |-
 !
-|[[File:CyberpunkCowboy.png|175px]]
-|[[File:RetiredCowboyIcon.png|175px]]
-|[[File:BadlandsCowboyIcon.png|175px]]
-|[[File:AgentCowboyIcon.png|175px]]
+|[[File:CFreezer0.png|175px]]
+|[[File:FrostLegionFreezer0.png|175px]]
+|[[File:Vendor LV0.png|175px]]
+|[[File:PolarBearFreezer0.png|175px]]
 |-
 !Skin
-|{{Color|Deluxe|Cyberpunk}}
-|{{Color|Deluxe|Retired}}
-|{{Color|Other|Badlands}}
-|{{Color|Premium|Agent}}
-|-
-!Rarity 
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Exclusive}}
-|{{Color|Legendary}}
-|-
-!Daily Store Cost
-|{{Robux|560}}
-|{{Robux|560}}
-|N/A 
-|{{Robux|190}}
-|-
-! Obtained From
-|[[Deluxe Crate]]
-|[[Deluxe Crate]]
-|[[Badges|Quickdraw! Badge]]<ref>Triumph [[Badlands II]] in under 16 minutes.</ref>
-|[[Premium Crate]]<br/>[[Philips x TDS Season#Season Pass|Philips x TDS Season]]
-|-
-!
-|[[File:HolidayCowboyIcon.png|175px]]
-|[[File:DuckyCowboyIcon.png|175px]]
-|[[File:BountyHunterCowboyIcon.png|175px]]
-|[[File:MasqCowboyIcon.png|175px]]
-|-
-!Skin
-|{{Color|Jolly|Holiday}}
-|{{Color|Ducky|Ducky}}
-|{{Color|Deluxe|Bounty Hunter}}
-|{{Color|Lunar|Masquerade}}
+|{{Color|Krampus|Cryptid}}
+|{{Color|OperationICE|Frost Legion}}
+|{{Color|Surf|Vendor}}
+|{{Color|FinalAct|Polar Bear}}
 |-
 !Rarity
 |{{Color|Event}}
 |{{Color|Rare}}
-|{{Color|Legendary}}
-|{{Color|Event}}
-|-
-!Daily Store Cost
-|{{Coins|5,000}}
-|{{Coins|4,000}}
-|{{Robux|560}}
-|N/A
-|-
-! Obtained From
-|[[Jolly Crate]]<br>[[Violent Night Event#Violent Night Season Pass|Violent Night Season]]
-|[[Ducky Crate]]
-|[[Deluxe Crate]]
-|[[Lunar Overture Event#Lunar Overture Season Pass|Lunar Overture Season]]
-|-
-!
-|[[File:FallenCowboyIconIG.png|175px]]
-|[[File:PlushieCowboyIconIG.png|175px]]
-|[[File:MegalodonCowboy.png|175px]]
-|[[File:DarkFrostCowboyIconIG.png|175px]]
-|-
-!Skin
-|{{Color|FallenMission|Fallen}}
-|{{Color|Other|Plushie}}
-|{{Color|ContentCreator|MegaBit}}
-|{{Color|OperationICE|Dark Frost}}
-|-
-!Rarity
-|{{Color|Rare}}
-|{{Color|Exclusive}}
-|{{Color|Rare}}
-|{{Color|Rare}}
-|-
-!Daily Store Cost
-|N/A
-|N/A
-|{{Coins|3,000}}
-|N/A
-|-
-!Obtained From
-|''Condemned Vigilante'' [[Mission Quests|Mission Quest]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Can be obtained by purchasing a [[Cowboy Plush]].</ref>
-|[[Daily Store]]
-|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Premium Battle Pass]]
-|-
-!
-|[[File:SpringTimeCowboyIconIG.png|175px]]
-|[[File:MechaBunnyCowboyIconIG.png|175px]]
-|[[File:VampireHunterCowboyIconIG.png|175px]]
-|[[File:ShamrockCowboyIconIG.png|175px]]
-|-
-!Skin
-|{{Color|DuckyRevenge|Spring Time}}
-|{{Color|Other|Mecha Bunny}}
-|{{Color|Null|Vampire Hunter}}
-|{{Color|Shamrock|Shamrock}}
-|-
-!Rarity
-|{{Color|Legendary}}
-|{{Color|Legendary}}
-|{{Color|Rare}}
-|{{Color|Common}}
+|{{Color|Uncommon}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
@@ -306,359 +291,390 @@ $R$ = $FNC-RECURSION$
 |N/A
 |-
 !Obtained From
-|[[Ducky Revenge Event#Ducky Revenge Battle Pass|Ducky Revenge Premium Battle Pass]]
-|[[Tower Defense Simulator Toys|Merch Shop]]<ref>Code obtained by purchasing a [[Mecha Bunny + Nerd Ducky Mini Plush]].</ref>
-|[[Null & Void Event#Null & Void Battle Pass|Null & Void Event Premium Battle Pass]]
-|[[Shamrock Crate]]
+|[[Krampus' Revenge Event#Krampus' Revenge Season Pass|Krampus' Revenge Season]]
+|[[Operation I.C.E Event#Operation I.C.E Battle Pass|Operation I.C.E Regular Battle Pass]]
+|[[Surf & Turf Battle Pass#Battle Pass|Surf & Turf Premium Battle Pass]]
+|[[The Final Act Event#The Final Act Battle Pass|The Final Act Regular Battle Pass]]
 |-
 !
-|[[File:PatrioticCowboyIconIG.png|175px]]
+|[[File:BunnyFreezer0.png|175px]]
 |-
 !Skin
-|{{Color|Patriotic}}
+|{{Color|SpringFrenzy|Bunny}}
 |-
 !Rarity
-|{{Color|Legendary}}
+|{{Color|Uncommon}}
 |-
 !Daily Store Cost
 |N/A
 |-
 !Obtained From
-|[[Patriotic Crate]]
+|[[Spring Frenzy Battle Pass]]
 |}
 
 ==Strategy==
-*The '''Golden Cowboy''' is a great all-round tower, being able to handle earlier waves and later waves on most gamemodes.
-**Early on during the game, you may want to place down multiple Level 0 '''Golden Cowboys''' because of their low price.
-***Due to its low placement limit of 12, it is unable to deal with the later waves on its own in terms of DPS, though its money generation can still be effective in the later waves.
-*The '''Golden Cowboy''' generates a specified amount of money every sixth shot from Levels 0-3 and every twelfth shot at Levels 4-5.
-**Later on during the game, higher level '''Golden Cowboys''' will be able to earn lots of money from enemies, being on par with the [[Farm]], and even outperforming it.
-**If you want to use this tower for farming early on, multiple Level 2 '''Golden Cowboys''' can be quite effective at generating money.
-***The amount of cash earned can be increased even further with the [[Commander]] and [[Cooldown Flag]] [[Firerate Buff]].
-***Enemies summoned by other enemies or sent by players do not count for cash shot.
-****Any enemy that the game does not consider a summoned enemy can still be generated cash from. This includes actually summoned enemies that the game does not consider summoned, like the [[Slime]] from the [[Slime (Attribute)|Slime]], or enemies converted in a way that makes them look like a summoned enemy, such as [[Corpse (Attribute)|Corpses]].
-***Additionally, you can increase the money earned by the '''Golden Cowboy''' by placing it near the start of the path, ensuring that no other towers can damage enemies before the '''Golden Cowboy'''.
-***While the '''Golden Cowboy''' cannot damage lead enemies, like the [[Lead]], shots towards these enemies will contribute to the '''Golden Cowboy's''' cash shot.
-*The [[DJ Booth]] can be very useful at decreasing the '''Golden Cowboy's''' high upgrade costs.
-**It can also be useful for further increasing its high range.
+*The '''Freezer''' is an excellent choice to deal with early waves, especially when multiple are placed down, due to its cost efficiency and low price.
+**Other towers should be used against higher health enemies like the [[Fallen Giant]].
+**Later on, it does not have enough DPS to handle other enemies, due to their much higher health, but can still be used for stall.
+*The '''Freezer''' can be used to deal with [[Lead (Attribute)|lead]] and [[Hidden (Attribute)|hidden]] enemies early on, which can be very useful in [[Hardcore Mode]]. 
+** The '''Freezer''' plays a very similar role in early-game defense to [[Golden Scout]], making '''Freezer''' a viable alternative to it.
+*The '''Freezer''' can be very effective at slowing down enemies, especially at Level 3+, as its burst count allows it to freeze an enemy in a single burst.
+**It can be very effective at slowing down fast average-sized enemies, like the [[Fallen Rusher]] or [[Bolt]].
+***It is much less effective against bigger enemies like the [[Fallen Giant]], as freeze time is reduced on larger enemies. It also cannot freeze or slowdown freeze immune enemies.
+***While it cannot freeze [[Boss]]es as they are immune to freeze by default, they are not immune to the chillness slowdown effect unless they have the [[Freeze Immunity]]. However, [[Boss]]es are slowed down by much less than regular enemies.
+*The '''Freezer's''' defense dropping ability can be useful for decreasing an enemy's defense, allowing your towers to deal more damage to it.
+**However, do note that as the defense dropping happens when an enemy is frozen or slowed down. Because of this, freeze immune enemies cannot have their defense dropped.
+**The defense drop can stack with other towers, such as the [[Pyromancer]], [[Electroshocker]], [[Toxic Gunner]] or [[Jester]], allowing you to remove all of an enemy's defense.
+***Do note that only a burn defense dropping tower and a poison defense dropping tower, like the [[Pyromancer]] or [[Toxic Gunner]] are required to do this. The '''Freezer''' can still be used to speed up the process.
+***However, the '''Freezer's''' defense drop does not stack with other freeze defense dropping sources, such as the [[Frost Blaster]]'s and [[Cryomancer]]'s defense drop.
+*Unlike some other towers that slow down enemies, the '''Freezer''' has no placement limit.
+**This means that, theoretically, you can easily stop a decent number of enemies from progressing for a long time.
+**It is recommended to have multiple Level 3-4 '''Freezers''' set to ''Random'', as this allows them to slow down the highest amount of enemies.
+*The '''Freezer''' is especially useful when paired with towers that have long charge-up times or a high firerate.
+**One example would be pairing the '''Freezer''' with the [[Accelerator]].
+*The '''Freezer''' can be quite useful when combined with towers that can deal damage to multiple enemies, such as the [[Demoman]], [[Mortar]] or [[Rocketeer]] as it can cluster up a group of enemies. This allows these towers to damage more enemies within their fixed attack radius.
+*The '''Freezer's''' ''Frost Grenade'' ability is quite effective against crowds of enemies, due to it being able to freeze five enemies at once and freezing them for longer than with its regular attack.
+**While it does freeze enemies for a longer amount of time, it is not recommended to use it on singular enemies as it has a hefty 15 second cooldown.
+***This can be somewhat mitigated by having multiple Level 4 '''Freezers'''.
+**This ability should not be used on enemies with [[Freeze Immunity]], as it will do nothing on them, wasting the ability.
 
-== Trivia==
-*The two former descriptions for the '''Golden Cowboy''' are incorrect, as the '''Golden Cowboy''' generates money every sixth or twelfth shot, instead of fifth or eighth.
-**This is because the description is referring to previous versions of the normal [[Cowboy]], though these are outdated even for it.
-*The Level 5 upgrade name, ''Wildest Of The West'', is a reference to the [[Cowboy]]'s old ability, ''Wildest of The West'' which it gained at Level 5 before the [[Overhaul v1.0|Overhaul Update]].
-*The '''Golden Cowboy''' is the first golden perk to give a tower a placement limit.
+==Trivia== 
+*When the '''Frezer''' was first released, it did not have any statistics for its upgrade descriptions. Instead, its upgrade description was "sans ice gun".
+*Before the [[Release v1.0|MEGA Update]], the '''Freezer''' had an ability called ''Ice Drop'', which dropped ice on the first enemy within the '''Freezer's''' range. This froze all enemies within a 10 stud radius for 6 seconds (except major bosses and those immune to the ''Ice Drop''). It used to cost {{Money|250}} and had a 75 second cooldown. 
+** This ability was unusable against enemies under a roof since the drop would never collide with them. This did not apply to [[Crystal Cave]] as that roof was non-collidable.
+**The '''Freezer's''' ''Ice Drop'' was able to freeze the [[Gold Titan]] and [[Molten Boss]] prior to the 15th of August 2019.
+*Before the [[Overhaul v1.0|Overhaul Update]], the '''Freezer''' had another ability called ''Ice Age'' which froze all enemies around the '''Freezer''' in a 10-stud radius for about 3 seconds. It had a 30 second cooldown.
+**Additionally, the '''Freezer''' gained the ''Frost Mark'' at Level 3. It slowed enemies down by about 20% for a short duration after they had thawed. 
+***Any enemy with the ''Frost Mark'' effect could not be frozen by the '''Freezer'''. This included the [[Frost Blaster]]'s ''Frost Mark''.
+**This was seemingly replaced by the ''Frost Grenade'' ability.
+*Prior to the [[Release v1.0|MEGA Update]], the '''Freezer''' fired in bursts, similar to the [[Soldier]], except that it targeted different enemies with every shot within a burst.
+**If there was only one enemy in range of the '''Freezer''', then it would target that enemy only once.
+**However, if an enemy had [[Freeze Immunity|Basic Freeze Immunity]], then the '''Freezer''' could target those enemy multiple times.
+**This burst functionality would later be re-added in the [[v1.11.0|Krampus' Revenge Update]], though it would target an enemy based on its targeting.
+*Prior to the [[Overhaul v1.0|Overhaul Update]], the '''Freezer''' fired an explosive ice projectile which could freeze multiple enemies.
+**After the 24th of December 2019, the '''Freezer''' was the only explosive tower to have direct damage.
+***This meant that it could deal damage to a targeted enemy that had explosive immunity (like the [[Golden]]) but could not deal damage to other enemies with explosive immunity if they were not the intended target.
+****This meant that the total damage was effectively doubled for the targeted enemy, if they were caught in the projectile explosion.
+*This tower may be loosely based on the [[w:c:bloons:Ice Monkey (BTD6)|Ice Monkey]] from ''Bloons Tower Defense'' as well as the [[w:c:roblox-tower-battles:Cryo-Gunner|Cryo-Gunner]] from ''Tower Battles''.
+*The original Level 1 upgrade name is a reference to ''R2DA's'' [[w:c:r2da:Frost Knuckles|Frost Knuckles]].
+*Prior to the 5th of May 2023, the {{Color|Other|IcyTea}} skin decreased the '''Freezer's''' placement footprint. It was the only skin that could decrease the tower's placement footprint.
+**It was also one of the only skins in the game to change a tower in any other way than its appearance at the time, with the other being {{Color|Premium|XR500}} [[Turret]].
+*When the third act of the [[Lunar Overture Event]] released, the '''Freezer''', alongside all other freezing towers, were able to permanently stop enemies from moving, making them ridiculously strong. This, however, was fixed few hours later.
+*Before the [[V1.11.0|Krampus' Revenge Update]], the '''Freezer''' was a Starter tower.
+*The Level 4 upgrade name is a reference to the [https://callofduty.fandom.com/wiki/Elemental_Staffs/Staff_of_Ice Ull's Arrow] from ''Call of Duty''.
 
 ==Update History==
 ''For previous cosmetic variations, see the [[/Gallery|gallery]] page.''
-{{scroll|text =
-*'''13 May 2022''' - [[v1.2.2]]
-**'''Golden Cowboy''' added, replacing the {{Color|Golden}} [[Cowboy]] skin buffs.
-*'''30 September 2022''' - [[v1.4.0]]
-**No longer gives a random amount of cash, now gives a set amount of cash.
-**Amount of cash generated no longer increases with each wave, now increases with Levels.
-**Now shows the amount of shots needed for it to generate cash.
-**Now spins its guns when generating cash, which prevents it from attacking.
-**{{Color|Other|Kasodus}} skin now has rarity.
+{{Scroll|text=
+*'''24 June 2019''' - [[BETA v1.2|BETA v1.2.0]]
+**'''Freezer''' added.
+**{{Bug}} '''Freezer''' is prone to errors.
+*'''14 August 2019''' - [[BETA v1.9|BETA v1.9.3]]
+**{{Bugfix}} '''Freezer''' is no longer prone to errors.
+*'''15 August 2019''' - [[BETA v1.10|BETA v1.10.0]]
+**''Ice Drop'' is no longer able to affect major bosses.
+*'''13 October 2019''' - [[Release v1.0|Release v1.0.0]]
+**Upgrade names added.
+***Now uses the new projectile and explosive system.
+***No longer is a burst tower.
 **Statistical changes:
 ***'''Base'''
-****Damage decreased from 4 to 3.
-****Range decreased from 14 to 13.
-****Firerate decreased from 1.525 to 1.025.
-****Spin Time of 1.7 added.
-****Now generates {{Money|35}} cash instead of a random amount which increases with each wave.
-***'''Level 1'''
-****Cost increased from {{Money|250}} to {{Money|300}}.
-****Firerate changed from {{Tooltip|1.525 > 1.325|-0.2}} to {{Tooltip|1.025 > 0.825|-0.2}}.
-****Renamed from ''Quick Shot'' to ''Steady Hand''.
+****Range changed from 8 to 10.
+****Cooldown removed (was 3).
+****Firerate increased from 0.25 to 3.05.
+****Freeze time increased from 0.35 to 0.75.
+****Explosion range of 3 added.
 ***'''Level 2'''
-****Cost increased from {{Money|300}} to {{Money|400}}.
-****Damage increased from +0 to +2.
-****Range increased from +0 to +3.
-****Cash shot changed from 6 > 4 to 6.
-****Income now changes from {{Money|35}} > {{Money|65}}.
-****Renamed from ''Gold Shot'' to ''Lucky Shot''.
+****Burst removed (was 1 > 2).
+****Firerate changed from 0.25 to {{Tooltip|3.05 > 2.3|-0.75}}.
 ***'''Level 3'''
-****Damage increased from +4 to +7.
-****Range increased from +2 to +4.
-****Firerate changed from {{Tooltip|1.325 > 1.025|-0.3}} to {{Tooltip|0.825 > 0.625|-0.2}}.
-****Spin Time now changes from 1.7 > 1.3.
-****Renamed from ''Dualling Instincts'' to ''Faster Instincts''.
+****Hidden Detection removed.
+****Freeze time changed from {{Tooltip|0.35 > 0.5|+0.15}} to 0.75.
+****Now gains ''Frost Mark'' (passive ability that slows enemies after being hit).
 ***'''Level 4'''
-****Damage decreased from +7 to +3.
-****Firerate changed from {{Tooltip|1.025 > 0.575|-0.45}} to {{Tooltip|0.625 > 0.375|-0.25}}.
-****Income now changes from {{Money|65}} > {{Money|90}}.
+****Burst removed (was 2 > 3).
+****Freeze time changed from {{Tooltip|0.5 > 0.75|+0.25}} to 0.75.
+****Firerate changed from 0.25 to {{Tooltip|2.3 > 0.65|-1.65}}.
+****Cooldown removed (was {{Tooltip|3 > 2.25|-0.75}}).
 ***'''Level 5'''
-****Cost increased from {{Money|11,500}} to {{Money|12,000}}.
-****Damage increased from +10 to +15.
-****Firerate changed from {{Tooltip|0.575 > 0.425|-0.15}} to 0.375.
-****Income now changes from {{Money|90}} > {{Money|120}}.
-****Spin Time now changes from 1.3 > 1.
-****Renamed from ''Gunslinger of Death'' to ''Outlawed''.
-**New skins: {{Color|Premium|Cop}}, {{Color|Philips|Agent}}, {{Color|Deluxe|Noir}}, {{Color|Deluxe|Cyberpunk}}, {{Color|Deluxe|Retired}}, {{Color|Other|Badlands}}
-*'''4 October 2022''' - [[v1.4.0]]b
-**Statistical changes:
-***'''Level 3'''
-****Cost increased from {{Money|1,750}} to {{Money|2,150}}.
-*'''31 October 2022''' - [[v1.4.2]]
+****Ability changed from ''Ice Drop'' to ''Ice Age''.
+**New skin: {{Color|Premium|Deep Freeze}}
+*'''26 January 2020''' - [[Release v1.6|Release v1.6.1]]
+**New skin: {{Color|Premium|Mint Choco}}
+*'''18 March 2020''' - [[Release v1.8|Release v1.8.0]]
 **Statistical changes:
 ***'''Level 2'''
-****Cost increased from {{Money|400}} to {{Money|450}}.
+****Damage decreased from +2 to +1.
+*****{{Bug}} This was not changed in the upgrade description.
+****Range decreased from +2 to +1.
+*****{{Bug}} This was not changed in the upgrade description.
 ***'''Level 3'''
-****Cost increased from {{Money|2,150}} to {{Money|2,250}}.
+****Damage decreased from +3 to +1.
+*****{{Bug}} This was not changed in the upgrade description.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|2.3 > 0.65|-1.65}} to {{Tooltip|2.3 > 1.05|-1.25}}.
+*****{{Bug}} This was not changed in the upgrade description.
+*'''26 May 2020''' - [[Release v1.11|Release v1.11.0]]
+**New skin: {{Color|Other|IcyTea}}
+**{{Bug}} {{Color|Other|IcyTea}} skin decreases tower placement footprint.
+*'''29 October 2020''' - [[Overhaul v1.0|Overhaul v1.0.0]]
+**Unlock cost decreased from {{Coins|1,000}} to {{Coins|800}}.
+**No longer fires an explosive projectile.
+**Freeze mechanic changed.
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Skin rarity added to [[Basic Crate]] and [[Premium Crate]] skins.
+**Statistical changes:
+***'''Base'''
+****Damage decreased from 1 to 0.
+****Range decreased from 10 to 8.
+****Firerate decreased from 3.05 to 3.03.
+****Maximum Freeze Time increased from 0.75 to 0.8.
+****Mininum Freeze Time of 0.35 added.
+****Cost decreased from {{Money|450}} to {{Money|350}}.
+***'''Level 1'''
+****Freeze time changed from 0.75 to 0.8 > 1.35.
+***'''Level 2'''
+****Range increased from +1 to +2.
+****Damage decreased from +1 to +0.
+****Firerate changed from {{Tooltip|3.05 > 2.3|-0.75}} to 3.03.
+****Cost decreased from {{Money|600}} to {{Money|400}}.
+***'''Level 3'''
+****Damage increased from +1 to +2.
+****''Frost Mark'' removed.
+****Now drops 1 defense every hit.
+****Cost decreased from {{Money|1,500}} to {{Money|1,400}}.
+****Renamed from ''Winter Attire'' to ''Cold Snap''.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|2.3 > 1.05|-1.25}} to {{Tooltip|3.03 > 1.53|-1.5}}.
+****Cost decreased from {{Money|3,000}} to {{Money|2,500}}.
+****Renamed from ''Subarctic Vest'' to ''Arctic Commando''.
+***'''Level 5'''
+****Damage decreased from +2 to +0.
+****Freeze time changed from 0.75 > 1 to 1.35 > 1.5.
+****Firerate changed from 1.05 to {{Tooltip|1.53 > 1.03|-0.5}}.
+****''Ice Age'' ability removed.
+****Now drops 2 defense every hit.
+****Cost decreased from {{Money|7,500}} to {{Money|6,000}}.
+**{{Bug}} Level 3 upgrade description does not list that the '''Freezer''' gains defense dropping.
+*'''8 May 2021''' - [[Overhaul v1.3|Overhaul v1.3.0]]
+**Statistical changes:
+***'''Level 3'''
+****Defense dropping changed from 1 to 5%.
+***'''Level 5'''
+****Defense dropping changed from 2 to 10%.
+**{{Bug}} If the '''Freezer''' freezes an enemy that was slowed down by the [[Toxic Gunner]], that enemy has a chance to stop moving completly until it is frozen again, with slower enemies being more likely to be affected.
+*'''12 March 2022''' - [[v1.1.0]]
+**Firerate decreased due to the [[Firerate Bug]] being made less severe.
+**Statistical changes:
+***'''Base'''
+****Firerate decreased from 3.03 to 3.025.
+***'''Level 4'''
+****Firerate changed from {{Tooltip|3.03 > 1.53|-1.5}} to {{Tooltip|3.025 > 1.525|-1.5}}.
+***'''Level 5'''
+****Firerate changed from {{Tooltip|1.53 > 1.03|-0.5}} to {{Tooltip|1.525 > 1.025|-0.5}}.
+**{{Bugfix}} The '''Freezer''' can no longer make an enemy stop moving completly, if it freezes that enemy while it is being slowed down by the [[Toxic Gunner]].
+*'''30 September 2022''' - [[v1.4.0]]
+**New skin: {{Color|Other|Foam}}
 *'''21 December 2022''' - [[v1.6.0]]
 **Skin rarity added to all skins.
-**{{Color|Premium|Bandit}} skin rarity changed from {{Color|Uncommon}} to {{Color|Rare}}.
-**{{Color|Premium|Redemption}} skin rarity changed from {{Color|Legendary}} to {{Color|Rare}}.
-**{{Color|Premium|Kasodus}} skin rarity changed from {{Color|Common}} to {{Color|Uncommon}}.
-**New skin: {{Color|ViolentNight|Holiday}}
-*'''14 February 2023''' - [[v1.6.2]]
-**{{Color|Lovely|Valentines}} skin rarity changed from {{Color|Event}} to {{Color|Rare}}.
-*'''7 April 2023''' - [[v1.7.0]]
-**You can now see '''Golden Cowboy's''' cash shot when you hover your cursor over it.
-**Statistical changes:
-***'''Base'''
-****Damage decreased from 3 to 2.
-****Firerate decreased from 1.025 to 0.725.
-****Range decreased from 13 to 12.
-****Income decreased from {{Money|35}} to {{Money|25}}.
-***'''Level 1'''
-****Damage increased from +0 to +1.
-****Firerate changed from {{Tooltip|1.025 > 0.825|-0.2}} to 0.725.
-****Cost decreased from {{Money|300}} to {{Money|250}}.
-***'''Level 2'''
-****Range decreased from +3 to +2.
-****Firerate changed from 0.825 to {{Tooltip|0.725 > 0.625|-0.1}}.
-****Damage decreased from +2 to +1.
-****Income changed from {{Money|35}} > {{Money|65}} to {{Money|25}} > {{Money|40}}.
-****Cost increased from {{Money|450}} to {{Money|500}}.
-***'''Level 3'''
-****Damage decreased from +7 to +6.
-****Firerate changed from {{Tooltip|0.825 > 0.625|-0.2}} to {{Tooltip|0.625 > 0.525|-0.1}}.
-***'''Level 4'''
-****Firerate changed from {{Tooltip|0.625 > 0.375|-0.25}} to {{Tooltip|0.525 > 0.3|-0.225}}.
-****Damage decreased from +3 to +2.
-****Cash shot changed from 6 to 6 > 12.
-****Income changed from {{Money|65}} > {{Money|90}} to {{Money|40}} > {{Money|65}}.
-****Cost increased from {{Money|5,500}} to {{Money|6,650}}.
-***'''Level 5'''
-****Damage decreased from +15 to +8.
-****Income changed from {{Money|90}} > {{Money|120}} to {{Money|65}} > {{Money|100}}.
-****Renamed from ''Outlawed'' to ''Gold Rush''.
-*'''12 May 2023''' - [[v1.7.3]]
-**New skin: {{Color|Ducky|Ducky}}
-*'''5 August 2023''' - [[v1.8.4]]
-**Statistical changes:
-***'''Level 1'''
-****Name changed from ''Steady Hand'' to ''Headshot Practice''.
-***'''Level 2'''
-****Income changed from {{Money|25}} > {{Money|40}} to {{Money|25}} > {{Money|45}}.
-****Name changed from ''Lucky Shot'' to ''Gold Shot''.
-***'''Level 4'''
-****Income changed from {{Money|40}} > {{Money|65}} to {{Money|45}} > {{Money|115}}.
-***'''Level 5'''
-****Income changed from {{Money|65}} > {{Money|100}} to {{Money|115}} > {{Money|160}}.
-****Name changed from ''Gold Rush'' to ''Wildest Of The West''.
+**{{Color|Premium|Deep Freeze}} skin rarity changed from {{Color|Uncommon}} to {{Color|Common}}.
+*'''21 March 2023''' - [[v1.6.3]]e
+**{{Bugfix}} Level 3 upgrade description now lists that the '''Freezer''' gains defense dropping.
+*'''5 May 2023''' - [[v1.7.2]]
+**{{Bugfix}} {{Color|Other|IcyTea}} no longer decreases tower placement footprint.
 *'''28 October 2023''' - [[v1.9.0]]
-**New skins: {{Color|Deluxe|Bounty Hunter}}, {{Color|Lunar|Masquerade}}
-*'''5 April 2024''' - [[v1.18.0]]
+**The '''Freezer''' can no longer freeze enemies if it was set on fire by a tower.
+*'''12 November 2023''' - [[v1.9.0]]l
+**{{Bug}} '''Freezer''' permanently stops enemies from moving after being frozen.
+*'''12 November 2023''' - [[v1.9.0]]m
+**{{Bugfix}} '''Freezer''' does not permanently stop enemies from moving after being frozen anymore.
+*'''21 December 2023''' - [[v1.11.0]]
+**Category changed from Starter to Intermediate.
+**Unlock cost increased from {{Coins|800}} to {{Coins|1,600}}.
+**Now applies a chill slowness effect when hitting an enemy, only freezing them when slowdown is higher than max slowdown.
+**Now drops defense every tick while an enemy is slowed down or frozen instead of dropping it on hit.
 **Statistical changes:
 ***'''Base'''
-****Cost decreased from {{Money|700}} to {{Money|600}}.
-****Damage increased from 2 to 3.
-****Firerate increased from 0.725 to 1.025.
-****Spin Time increased from 1.7 to 1.75.
-****Range increased from 12 to 14.
-****Income increased from {{Money|25}} to {{Money|30}}.
-****Placement limit of 12 added.
+****Damage increased from 0 to 1.
+****Range increased from 8 to 10.
+****Firerate decreased from 3.025 to 0.625.
+****Freeze time increased from 0.8 to 1.5.
+****Max Slowdown of 45% added.
+****Slowdown per Shot of 15% added.
+****Burst of 1 added.
+****Cooldown of 0 added.
+****Cost increased from {{Money|350}} to {{Money|450}}.
 ***'''Level 1'''
-****Cost decreased from {{Money|250}} to {{Money|225}}.
-****Damage decreased from +1 to +0.
-****Firerate changed from 0.708 to {{Tooltip|1.025 > 0.725|-0.3}}
-****Spin Time changed from 1.7 to 1.75 > 1.35.
+****Max Slowdown change of 45% > 60% added.
+****Slowdown per Shot change of 15% > 20% added.
+****Freeze Time changed from 0.8 > 1.35 to 1.5.
+****Cost decreased from {{Money|350}} to {{Money|150}}.
+****Renamed from ''Frost Knuckles'' to ''Expedition Gear''.
 ***'''Level 2'''
-****Firerate changed from {{Tooltip|0.725 > 0.625|-0.1}} to 0.725.
+****Damage increased from +0 to +1.
 ****Range decreased from +2 to +0.
-****Income changed from {{Money|25}} > {{Money|45}} to {{Money|30}} > {{Money|50}}.
+****Freeze Time changed from 1.35 to 1.5 > 2.
+****Defense dropping changed from 0% to 10%.
+****Max defense dropping changed from 20% to 33%.
+****Cost increased from {{Money|400}} to {{Money|625}}.
+****Renamed from ''Frost Vision'' to ''Bundled Up!''.
 ***'''Level 3'''
-****Cost decreased from {{Money|2,250}} to {{Money|2,000}}.
-****Damage increased from +6 to +8.
-****Firerate changed from {{Tooltip|0.625 > 0.525|-0.1}} to 0.725.
-****Spin time changed from 1.7 > 1.3 to 1.35 > 1.
-***'''Level 4'''
-****Cost decreased from {{Money|6,650}} to {{Money|5,850}}.
 ****Damage decreased from +2 to +0.
-****Income changed from {{Money|45}} > {{Money|115}} to {{Money|50}} > {{Money|150}}.
-****Firerate changed from {{Tooltip|0.525 > 0.3|-0.225}} to {{Tooltip|0.725 > 0.325|-0.4}}.
-****Renamed from ''Double Tap'' to ''Double Tap II''.
-***'''Level 5'''
-****Cost increased from {{Money|12,000}} to {{Money|17,500}}.
-****Damage increased from +8 to +12.
+****Firerate changed from 3.025 to {{Tooltip|0.625 > 0.15|-0.475}}.
+****Burst change of 1 > 4 added.
+****Burst Cooldown change of 0 > 1 added.
+****Max Slowdown change of 60% > 75% added.
+****Slowdown per Shot change of 20% > 25% added.
+****Defense dropping changed from 5% to 10%.
+****Cost increased from {{Money|1,400}} to {{Money|1,650}}.
+****Renamed from ''Cold Snap'' to ''Arctic Soldier''.
+****Cost decreased from {{Money|1,500}} to {{Money|1,400}}.
+***'''Level 4'''
+****Damage increased from +0 to +1.
 ****Range increased from +0 to +2.
-****Firerate changed from 0.3 to {{Tooltip|0.325 > 0.225|-0.1}}.
-****Income changed from {{Money|115}} > {{Money|160}} to {{Money|150}} > {{Money|250}}.
-****Spin time changed from 1.3 > 1 to 1 > 0.75.
-*'''23 May 2024''' - [[v1.23.0]]
-**Damage dealt to summoned enemies no longer counts for cash shot.
+****Firerate changed from {{Tooltip|3.025 > 1.525|-1.5}} to {{Tooltip|0.15 > 0.125|-0.025}}.
+****Hidden Detection added.
+****Burst change of 4 > 7 added.
+****''Frost Grenade'' ability added.
+****Cost increased from {{Money|2,500}} to {{Money|5,000}}.
+****Renamed from ''Arctic Commando'' to ''Frost Bite!''.
+***'''Level 5 removed'''
+****Statistics:
+*****Name: ''Subzero Hero''
+*****Cost: {{Money|6,000}}
+*****+2 Damage
+*****{{Tooltip|1.525 > 1.025|-0.5}} Firerate
+*****1.35 > 1.5 Freeze Time
+*****10% Defense Dropping
+**New skin: {{Color|Krampus|Cryptid}}
+**{{Bug}} '''Freezer's''' Level 4 description includes the slowness changes from Level 3.
+**{{Bug}} Burst is higher than intended by 1 at Level 3-4.
 *'''21 June 2024''' - [[v1.25.0]]
 **{{Bug}} Damage is no longer boosted by [[Damage Buff]]s.
 *'''2 August 2024''' - [[v1.27.0]]
 **{{Bugfix}} Damage is now boosted by [[Damage Buff]]s.
-*'''9 August 2024''' - [[v1.27.5]]
-**New skin: {{Color|FallenMission|Fallen}}
-*'''4 September 2024''' - [[v1.30.0]]
-**New skin: {{Color|Other|Plushie}}
-*'''11 September 2024''' - [[v1.31.0]]
-**New skin: {{Color|ContentCreator|Megalodon}}
+*'''23 October 2024''' - [[v1.37.0]]
+**'''Freezer''' now can freeze enemies that are set on fire.
 *'''16 December 2024''' - [[v1.46.0]]
-**New skin: {{Color|OperationICE|Dark Frost}}
-*'''9 April 2025''' - [[v1.60.0]]
-**Offense role added.
-*'''16 April 2025''' - [[v1.61.0]]
-**New skin: {{Color|DuckyRevenge|Spring Time}}
-**{{Bug}} {{Color|DuckyRevenge|Spring Time}} at Level 5 will break if placed in range of a [[Firework Technician]] after it generates a firework, it will stop dealing damage and once the targeted enemies get out of its range, it will stop attacking enemies entirely.
-*'''18 April 2025''' - [[v1.61.0|v1.61.6a]]
-**New skin: {{Color|Other|Mecha Bunny}}
-*'''11 June 2025''' - [[v1.67.0]]
-**Placement limit decreased from 12 to 10.
+**New skin: {{Color|OperationICE|Frost Legion}}
+*'''15 January 2025''' - [[v1.49.0]]
 **Statistical changes:
 ***'''Base'''
-****Damage increased from 3 to 4.
-****Spin time decreased from 1.75 to 1.5.
-****Income increased from {{Money|30}} to {{Money|35}}
+****Firerate decreased from 0.625 to 0.525.
+****Range increased from 10 to 12.
+****Max Slowdown increased from 45% to 50%.
+****Slowdown per Shot decreased from 15% to 10%.
+****Slowdown Time increased from 3 to 5.
+****No longer freezes, moved to Level 2.
+****Cost decreased from {{Money|450}} to {{Money|425}}.
 ***'''Level 1'''
-****Cost decreased from {{Money|225}} to {{Money|150}}.
-****Firerate changed from {{Tooltip|1.025 > 0.725|-0.3}} to {{Tooltip|1.025 > 0.775|-0.25}}
+****Damage increased from +0 to +1.
 ****Range decreased from +2 to +0.
-****Spin time changed from 1.75 > 1.35 to 1.5 > 1.25.
+****Max Slowdown changed from 45% > 60% to 50% > 60%.
+****Slowdown per Shot changed from 15% > 20% to 10% > 15%.
+****Cost increased from {{Money|150}} to {{Money|225}}.
 ***'''Level 2'''
-****Cost increased from {{Money|500}} to {{Money|600}}.
+****Damage decreased from +1 to +0.
+****Range increased from +0 to +2.
+****Hidden detection added, moved from Level 4.
+****Max Slowdown changed from 45% > 60% to 50% > 60%.
+****Slowdown per Shot changed from 20% to 15% > 20%.
+****Now freezes enemies for 2 seconds, moved from Level 0.
+****No longer has defense dropping, moved to Level 3.
+****Cost increased from {{Money|625}} to {{Money|650}}.
+***'''Level 3'''
+****Damage increased from +0 to +1.
+****Firerate changed from {{Tooltip|0.625 > 0.15|-0.475}} to {{Tooltip|0.525 > 0.175|-0.35}}.
+****Burst Cooldown changed from {{Tooltip|0 > 1|+1}} to {{Tooltip|0 > 0.75|+0.75}}.
+****Now removes 10% defense every tick, moved from Level 2.
+****Freeze Time changed from 2 to 2 > 2.5.
+****Cost increased from {{Money|1,650}} to {{Money|2,000}}.
+***'''Level 4'''
 ****Damage increased from +1 to +2.
-****Range increased from +0 to +2.
-****Income changed from {{Money|30}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
-***'''Level 3'''
-****Cost decreased from {{Money|2,000}} to {{Money|1,750}}.
-****Damage decreased from +8 to +4.
-****Firerate changed from 0.725 to {{Tooltip|0.775 > 0.525|-0.25}}.
-****Spin time changed from 1.35 > 1 to 1.25 > 1.
-***'''Level 4'''
-****Cost decreased from {{Money|5,850}} to {{Money|4,750}}.
-****Firerate changed from {{Tooltip|0.725 > 0.325|-0.4}} to {{Tooltip|0.525 > 0.275|-0.25}}.
-****Range increased from +0 to +2.
-****Income changed from {{Money|50}} > {{Money|150}} to {{Money|60}} > {{Money|150}}.
-***'''Level 5'''
-****Cost decreased from {{Money|17,500}} to {{Money|9,500}}.
-****Damage increased from +12 to +14.
-****Range decreased from +2 to +0.
-****Firerate changed from {{Tooltip|0.325 > 0.225|-0.1}} to 0.275.
-****Income changed from {{Money|150}} > {{Money|250}} to {{Money|150}} > {{Money|225}}.
-*'''18 October 2025''' - [[v1.77.0]]
-**New skin: {{Color|Null|Vampire Hunter}}
-*'''28 January 2026''' - [[v1.84.0]]
-**Placement limit decreased from 10 to 6.
-**Statistical changes:
+****Firerate changed from {{Tooltip|0.15 > 0.125|-0.025}} to 0.175.
+****Freeze Time changed from 2 to 2.5 > 3.
+****''Frost Grenade'' ability cooldown decreased from 25 to 15.
+****Cost decreased from {{Money|5,000}} to {{Money|4,500}}.
+*'''9 April 2025''' - [[v1.60.0]]
+**Defense role added.
+*'''25 June 2025''' - [[v1.68.0]]
+**Unlock cost decreased from {{Coins|1,600}} to {{Coins|500}}.
+*'''9 July 2025''' - [[v1.70.0]]
+**New skin: {{Color|Surf|Vendor}}
+*'''23 July 2025''' - [[v1.71.0]]
+**Statistical changes ([[PVP]]):
 ***'''Base'''
-****Damage decreased from 4 to 2.
-****Firerate decreased from 1.025 to 0.375.
-****Range increased from 14 to 15.
-****Income decreased from {{Money|35}} to {{Money|20}}.
-****Spin time increasaed from 1.5 to 1.75.
+****Max Slowdown decreased from 50% to 30%.
 ***'''Level 1'''
-****Firerate changed from {{Tooltip|1.025 > 0.775|-0.25}} to {{Tooltip|0.375 > 0.325|-0.05}}.
-****Range increased from +0 to +2.
-****Spin time changed from 1.5 > 1.25 to 1.75 > 1.25.
+****Max Slowdown changed from 50% > 60% to 30% > 40%.
+****Slowdown per Shot changed from 10% > 15% to 10%.
 ***'''Level 2'''
-****Cost increased from {{Money|600}} to {{Money|1,000}}.
-****Range decreased from +2 to +0.
-****Hidden detection added, moved from Level 3.
-****Income changed from {{Money|35}} > {{Money|60}} to {{Money|20}} > {{Money|40}}.
+****Slowdown per Shot changed from 15% > 20% to 10% > 20%.
 ***'''Level 3'''
-****Cost increased from {{Money|1,750}} to {{Money|4,500}}.
-****Damage increased from +4 to +11.
-****Firerate changed from {{Tooltip|0.775 > 0.525|-0.25}} to {{Tooltip|0.325 > 0.425|+0.1}}.
-****Income changed from {{Money|60}} to {{Money|40}} > {{Money|75}}.
-***'''Level 4'''
-****Cost increased from {{Money|4,750}} to {{Money|7,500}}.
-****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.425 > 0.225|-0.2}}.
-****Range decreased from +2 to +0.
-****Income changed from {{Money|60}} > {{Money|150}} to {{Money|75}} > {{Money|150}}.
-***'''Level 5'''
-****Cost increased from {{Money|9,500}} to {{Money|15,000}}
-****Damage increased from +14 to +15.
-****Range increased from +0 to +2.
-**{{Color|ContentCreator|Megalodon}} renamed to {{Color|ContentCreator|MegaBit}}.
-***{{Bug}} Still uses the previous name on mobile.
-*'''11 February 2026''' - [[v1.85.0]]
-**Placement footprint decreased from 1.5 to 1.25.
-**Statistical changes:
-***'''Base'''
-****Cost decreased from {{Money|600}} to {{Money|550}}.
-****Income increased from {{Money|20}} to {{Money|25}}.
-***'''Level 2'''
-****Cost decreased from {{Money|1,000}} to {{Money|900}}.
-****Income changed from {{Money|20}} > {{Money|40}} to {{Money|25}} > {{Money|50}}.
-***'''Level 3'''
-****Cost decreased from {{Money|4,500}} to {{Money|3,500}}.
-****Firerate changed from {{Tooltip|0.325 > 0.425|+0.1}} to {{Tooltip|0.325 > 0.525|+0.2}}.
-****Income changed from {{Money|40}} > {{Money|75}} to {{Money|50}} > {{Money|85}}.
-***'''Level 4'''
-****Cost decreased from {{Money|7,500}} to {{Money|5,500}}.
-****Firerate changed from {{Tooltip|0.425 > 0.225|-0.2}} to {{Tooltip|0.525 > 0.275|-0.25}}.
-****Range increased from +0 to +2.
-****Income changed from {{Money|75}} > {{Money|150}} to {{Money|85}} > {{Money|175}}.
-***'''Level 5'''
-****Cost increased from {{Money|15,000}} to {{Money|17,000}}
-****Damage increased from +15 to +20.
-****Range decreased from +2 to +0.
-****Income changed from {{Money|150}} > {{Money|225}} to {{Money|175}} > {{Money|325}}.
-*'''11 March 2026''' - [[v1.86.0]]
-**New skin: {{Color|Shamrock|Shamrock}}
+****Max Slowdown changed from 60% > 75% to 40% > 60%.
+****Slowdown per Shot changed from 20% > 25% to 20%.
+****Burst Cooldown changed from {{Tooltip|0 > 0.75|+0.75}} to {{Tooltip|0 > 0.8|+0.8}}.
+*'''6 August 2025''' - [[v1.72.0]]
+**Unlock cost increased from {{Coins|500}} to {{Coins|650}}.
+*'''20 December 2025''' - [[v1.83.0]]a
+**New skin: {{Color|FinalAct|Polar Bear}}
+*'''28 January 2026''' - [[v1.84.0]]
+**Level 4 upgrade name changed from ''Frost Bite!'' to ''Ull's Arrow'' in regular modes.
+*'''3 April 2026''' - [[v1.88.0]]
+**New skin: {{Color|SpringFrenzy|Bunny}}
 *'''5 June 2026''' - [[v2.0.0]]
 **Firerate decreased due to the [[Firerate Bug]] being fixed.
-**Placement limit increased from 6 to 12.
-**Statistical changes:
+**Statistical changes (Regular):
 ***'''Base'''
-****Cost increased from {{Money|550}} to {{Money|600}}.
-****Damage increased from 2 to 3.
-****Firerate increased for 0.375 to 0.9.
-****Range decreased from 15 to 13.
-****Income increased from {{Money|25}} to {{Money|35}}.
-****Spin time increased from 1.75 to 2.
+****Cost increased from {{Money|425}} to {{Money|450}}.
+****Firerate increased from 0.525 to 0.55.
+****Tick increased from 0.25 to 1.
+****Max slowdown decreased from 50% to 15%.
+****Slowdown per hit decreased from 10% to 7.5%.
+****Slowdown time decreased from 5 to 2.
 ***'''Level 1'''
-****Cost decreased from {{Money|225}} to {{Money|200}}.
-****Firerate increased for {{Tooltip|0.375 > 0.325|-0.05}} to {{Tooltip|0.9 > 0.75|-0.15}}.
-****Spin time changed from 1.75 > 1.25 to 2 > 1.5.
+****Cost increased from {{Money|225}} to {{Money|300}}.
+****Damage decreased from +1 to +0.
+****Firerate changed from 0.525 to {{Tooltip|0.55 > 0.35|-0.2}}.
+****Max slowdown changed from 50% > 60% to 15% > 20%.
+****Slowdown per hit changed from 10% > 15% to 7.5% > 10%.
 ***'''Level 2'''
-****Cost decreased from {{Money|900}} to {{Money|650}}.
-****Income changed from {{Money|25}} > {{Money|50}} to {{Money|35}} > {{Money|60}}.
-****Hidden detection removed, moved to Level 3.
+****Cost decreased from {{Money|650}} to {{Money|450}}.
+****Damage increased from +0 to +1.
+****Freeze time decreased from 2 to 0.5.
+****Slowdown per hit changed from 15% > 20% to 10%.
 ***'''Level 3'''
-****Cost decreased from {{Money|3,500}} to {{Money|2,400}}.
-****Damage decreased from +11 to +7.
-****Firerate changed from {{Tooltip|0.325 > 0.525|+0.2}} to {{Tooltip|0.75 > 0.6|-0.15}}.
-****Range increased from +2 to +2.5.
-****Income changed from {{Money|50}} > {{Money|85}} to {{Money|60}}.
-****Spin time changed from 1.25 > 1 to 1.5 > 1.25.
-****Hidden detection added.
-****Name changed from ''Faster Instincts'' to ''Deadly Precision''.
+****Cost decreased from {{Money|2,000}} to {{Money|1,700}}.
+****Firerate changed from {{Tooltip|0.525 > 0.175|-0.35}} to {{Tooltip|0.35 > 0.15|-0.2}}.
+****Burst changed from 1 > 4 to 1 > 6.
+****Burst cooldown changed from 0 > 0.6 to 0 > 0.75.
+****Chill damage increased from 0 to 3.
+****Freeze time changed from 2 > 2.5 to 0.5.
+****Max slowdown changed from 60% > 75% to 20% > 25%.
+****Slowdown per hit changed from 20% > 25% to 10% > 12.5%.
+****Slowdown time changed from 5 to 2 > 3.
 ***'''Level 4'''
-****Cost increased from {{Money|5,500}} to {{Money|4,250}}.
-****Firerate changed from {{Tooltip|0.525 > 0.275|-0.25}} to {{Tooltip|0.6 > 0.3|-0.3}}.
-****Range increased from +2 to +2.5.
-****Income changed from {{Money|85}} > {{Money|175}} to {{Money|60}} > {{Money|150}}.
-***'''Level 5'''
-****Cost decreased from {{Money|17,000}} to {{Money|9,750}}.
-****Damage decreased from +20 to +14.
-****Income changed from {{Money|175}} > {{Money|325}} to {{Money|150}} > {{Money|225}}.
-****Spin time changed from 1 to 1.25 > 1.
-*'''2 July 2026''' - [[v2.1.0|v2.1.7]]
-**New skin: {{Color|Patriotic}}
+****Damage increased from +2 to +5.
+****Chill damage increased from +0 to +2.
+****Burst changed from 4 > 7 to 6 > 8.
+****Freeze time changed from 2.5 > 3 to 0.5 > 0.75.
+****''Frost Grenade'' freeze time decreased from 6 to 1.5.
+**Statistical changes ([[PVP]]):
+***'''Base'''
+****Firerate decreased from 0.525 to 0.5.
+***'''Level 3'''
+****Firerate changed from {{Tooltip|0.525 > 0.175|-0.35}} to {{Tooltip|0.5 > 0.15|-0.35}}.
 *'''17 July 2026''' - [[v2.3.0]]
-**Corrected incorrect spin time values at Level 5 in the upgrade descriptions.
+**Statistical changes (Regular):
+***'''Level 4'''
+****''Frost Grenade'' freeze time increased from 1.5 to 2.
 }}
 
 ==Notes==
-<references />
+<references/>
+
 
 
 {{TowerNavBox}}
 [[Category:Ground]]
+[[Category:Ability]]
