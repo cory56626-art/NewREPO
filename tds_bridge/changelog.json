@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-11-01T02:18:34.779997+00:00",
+  "generated_at": "2026-11-01T10:36:00.159574+00:00",
   "tracked_page_count": 107,
   "entries": [
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Firework Technician",
+      "pageid": 45039,
+      "revid": 655304,
+      "old_revid": 618518,
+      "rcid": 659476,
+      "user": "Heraishi",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 18081,
+      "newlen": 18081,
+      "timestamp": "2026-11-01T05:51:43Z",
+      "comment": "/* Description */",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 31: Line 31: The '''Firework Technician''' is a support based [[Towers|tower]] that can only be obtained from completing a specific [[Mission Quests|Mission Quest]]. Either the ''🇺🇸 Rise for the Pledge!'' or ''Happy New Years!'' quests must be completed to get the '''Firework Technician''', either of which costs {{Coins|650}} to start. Currently, the ''🇺🇸 Rise for the Pledge! quest'' can be started. The '''Firework Technician''' is a support based [[Towers|tower]] that can only be obtained from completing a specific [[Mission Quests|Mission Quest]]. Either the ''🇺🇸 Rise for the Pledge!'' or ''Happy New Years!'' quests must be completed to get the '''Firework Technician''', either of which costs {{Coins|650}} to start. Currently, the ''🇺🇸 Rise for the Pledge! quest'' can be started. At the beginning of each wave, '''Firework Technician''' grants all 3 detections; hidden, lead and flying, for a few seconds to all towers within its range, with the duration depending on the level. Additionally, all towers in its range at all times will have a chance to fire out a firework. The chance depends on the tower's firerate and the '''Firework Technician's''' firework shot percentage cap. At base, it is set to 0.5 which is a maximum chance of 50% and at Level 4 it is set to 1, a maximum chance of 100%. The maximum chances however, are quite unlikely to actually ever be reached outside of [[Sandbox Mode|Sandbox]] mode, where the tower's firerate can be set to high numbers. Fireworks are fired out on impact, which is when enemy receives damage from the tower's main attack. If a tower can hit multiple enemies, in most cases this means each enemy damaged will have a chance to make the tower generate a firework. For example, the [[Rocketeer]] will generate one for each missile, the [[Necromancer]] will generate one for each enemy hit by its projectile or each one of its beams, and the [[Hallow Punk]] has a chance to generate an infinite number of fireworks as each enemy damaged by its explosion has a chance to generate one. Not all towers can generate fireworks and units are completely unable to generate them. These fireworks will be fired out at the hit enemy which generated the firework and deal their own firework damage. While stated to be additional damage, the damage from them is not added to the tower's damage, it is instead just its base damage. Fireworks will create explosions which deal damage to enemies hit, bypassing defense, dealing damage to [[Lead (Attribute)|Lead]] enemies and being boostable by [[Damage Buff]]s, these explosions have no damage drop off, and will also set the enemies on fire, dealing additional burn damage. The chance of a firework being fired is calculated as: At the beginning of each wave, '''Firework Technician''' grants [[Hidden Detection Buff|Hidden Detection]] for a few seconds to all towers within its range, with the duration depending on the level. Additionally, all towers in its range at all times will have a chance to fire out a firework. The chance depends on the tower's firerate and the '''Firework Technician's''' firework shot percentage cap. At base, it is set to 0.5 which is a maximum chance of 50% and at Level 4 it is set to 1, a maximum chance of 100%. The maximum chances however, are quite unlikely to actually ever be reached outside of [[Sandbox Mode|Sandbox]] mode, where the tower's firerate can be set to high numbers. Fireworks are fired out on impact, which is when enemy receives damage from the tower's main attack. If a tower can hit multiple enemies, in most cases this means each enemy damaged will have a chance to make the tower generate a firework. For example, the [[Rocketeer]] will generate one for each missile, the [[Necromancer]] will generate one for each enemy hit by its projectile or each one of its beams, and the [[Hallow Punk]] has a chance to generate an infinite number of fireworks as each enemy damaged by its explosion has a chance to generate one. Not all towers can generate fireworks and units are completely unable to generate them. These fireworks will be fired out at the hit enemy which generated the firework and deal their own firework damage. While stated to be additional damage, the damage from them is not added to the tower's damage, it is instead just its base damage. Fireworks will create explosions which deal damage to enemies hit, bypassing defense, dealing damage to [[Lead (Attribute)|Lead]] enemies and being boostable by [[Damage Buff]]s, these explosions have no damage drop off, and will also set the enemies on fire, dealing additional burn damage. The chance of a firework being fired is calculated as: <math>\\frac{\\text{Firework Shot Chance Cap}}{1+2.718^{\\left(-0.5\\times\\left(Firerate-6\\right)\\right)}}</math> <math>\\frac{\\text{Firework Shot Chance Cap}}{1+2.718^{\\left(-0.5\\times\\left(Firerate-6\\right)\\right)}}</math>"
+    },
     {
       "type": "edit",
       "ns": 0,
