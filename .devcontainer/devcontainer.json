@@ -1,0 +1,20 @@
+{
+  "name": "Skyhand",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "hostRequirements": { "cpus": 2, "memory": "4gb" },
+  "postCreateCommand": "npm ci && npx playwright install --with-deps chromium",
+  "postStartCommand": "bash scripts/start-background.sh",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Skyhand", "onAutoForward": "notify" }
+  },
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Your Anthropic API key, from console.anthropic.com > API keys.",
+      "documentationUrl": "https://console.anthropic.com/settings/keys"
+    },
+    "APP_PASSWORD": {
+      "description": "Any long password you like. You type it on your phone to unlock Skyhand."
+    }
+  }
+}
