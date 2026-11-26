@@ -25,7 +25,7 @@ Nothing gets installed on your phone. It's a web app you add to your Home Screen
 You need a GitHub account (free) and an Anthropic API key (pay per use, usually a few cents per task).
 
 1. **Get an API key.** In Safari, go to **console.anthropic.com**, sign up, add a little credit under *Billing*, then open *API keys* → *Create key*. Copy it.
-2. **Start the cloud computer.** On this repository's GitHub page, tap **Code** → **Codespaces** → **⋯** → **New with options**. Paste your API key into `ANTHROPIC_API_KEY`, make up a long password for `APP_PASSWORD`, then tap **Create codespace**. The first start takes about 3 minutes.
+2. **Start the cloud computer.** On this repository's GitHub page, tap **Code** → **Codespaces** → **⋯** → **New with options**. Under *Branch*, pick **skyhand**. Paste your API key into `ANTHROPIC_API_KEY`, make up a long password for `APP_PASSWORD`, then tap **Create codespace**. The first start takes about 3 minutes.
 3. **Open Skyhand.** When the codespace opens, find the **PORTS** tab and the row labeled **Skyhand (3000)**. Tap the globe icon, or copy the address and open it in Safari.
    - If Safari asks you to sign in to GitHub, the port is still private. Long-press the port → **Port Visibility** → **Public**. Skyhand still requires your password.
 4. **Add it to your Home Screen.** In Safari, tap **Share** → **Add to Home Screen**. It now opens full screen like an app.
