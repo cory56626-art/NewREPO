@@ -106,24 +106,38 @@ function snapshotInPage({ maxEls, maxText }) {
     return x.join(' ');
   };
 
-  const els = [];
+  // Collect every candidate, then list what the user can actually reach first:
+  // on-screen and on top (e.g. an open popup) before covered or below-the-fold ones.
+  const cands = [];
   const listed = new Set();
-  let below = 0;
   for (const el of document.querySelectorAll(SEL)) {
-    if (els.length >= maxEls) { below++; continue; }
+    if (cands.length >= 800) break;
     if (el.closest('[aria-hidden="true"],[inert]')) continue;
     const r = el.getBoundingClientRect();
     if (r.width < 1 || r.height < 1) continue;
-    if (r.bottom < -H * 0.25 || r.right < 0 || r.left > W) continue;
-    if (r.top > H * 2) { below++; continue; }
+    if (r.bottom < -H * 0.25 || r.right < 0 || r.left > W || r.top > H * 2) continue;
     if (el.checkVisibility && !el.checkVisibility(VIS)) continue;
     const anc = el.parentElement && el.parentElement.closest(SEL);
     if (anc && listed.has(anc) && nameOf(anc) === nameOf(el)) continue; // <a><button>Same</button></a>
+    listed.add(el);
+    const inView = r.top < H && r.bottom > 0;
+    let covered = false;
+    if (inView) {
+      const cx = Math.min(W - 1, Math.max(0, r.left + r.width / 2)), cy = Math.min(H - 1, Math.max(0, r.top + r.height / 2));
+      const hit = document.elementFromPoint(cx, cy);
+      covered = !!hit && hit !== el && !el.contains(hit) && !hit.contains(el);
+    }
+    cands.push({ el, r, rank: inView ? (covered ? 1 : 0) : 2, covered });
+  }
+  cands.sort((a, b) => a.rank - b.rank);
+  const els = [];
+  for (const c of cands.slice(0, maxEls)) {
+    const el = c.el;
     if (!el.hasAttribute('data-sk-ref')) el.setAttribute('data-sk-ref', String(++window.__skN));
     const role = roleOf(el);
-    listed.add(el);
-    els.push({ ref: +el.getAttribute('data-sk-ref'), role, name: nameOf(el), extra: extraOf(el, role), below: r.top >= H });
+    els.push({ ref: +el.getAttribute('data-sk-ref'), role, name: nameOf(el), extra: extraOf(el, role), below: c.r.top >= H, covered: c.covered, top: c.r.top });
   }
+  const below = Math.max(0, cands.length - maxEls);
 
   // Visible text, grouped into visual lines.
   let text = '';
@@ -365,10 +379,10 @@ export class BrowserSession extends EventEmitter {
     if (this.lastDialog) { lines.push(`A dialog popped up and was auto-answered: ${this.lastDialog}`); this.lastDialog = null; }
     lines.push('', 'Elements:');
     for (const e of d.els) {
-      lines.push(`[${e.ref}] ${e.role}${e.name ? ` ${JSON.stringify(e.name)}` : ''}${e.extra ? ' ' + e.extra : ''}${e.below ? ' (below fold)' : ''}`);
+      lines.push(`[${e.ref}] ${e.role}${e.name ? ` ${JSON.stringify(e.name)}` : ''}${e.extra ? ' ' + e.extra : ''}${e.covered ? ' (covered)' : ''}${e.below ? ' (below fold)' : ''}`);
     }
     if (!d.els.length) lines.push('(no interactive elements in view)');
-    if (d.below) lines.push(`(+${d.below} more further down the page)`);
+    if (d.below) lines.push(`(+${d.below} more elements not listed: covered or further down)`);
     lines.push('', 'Visible text:', d.text || '(none)');
     return lines.join('\n');
   }

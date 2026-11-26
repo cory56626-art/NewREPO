@@ -15,7 +15,11 @@ const listen = (srv) => new Promise((r) => srv.listen(0, '127.0.0.1', () => r(sr
 // 1) A small website to operate on.
 const site = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
-  if (req.url.startsWith('/swap')) {
+  if (req.url.startsWith('/popup')) {
+    // 300 links behind a modal whose button comes last in the DOM.
+    res.end(`<title>Popup</title>${Array.from({ length: 300 }, (_, i) => `<a href="#${i}">Link ${i}</a> `).join('')}
+      <div style="position:fixed;inset:0;background:#0006;display:grid;place-items:center"><div style="background:#fff;padding:20px"><button>Pick me</button></div></div>`);
+  } else if (req.url.startsWith('/swap')) {
     // Shows a disabled box, then swaps in a fresh enabled one 400 ms later
     // (like Showdown re-rendering once its server connection is up).
     res.end(`<title>Swap</title><div id="app"><input aria-label="Team name" disabled></div><script>
@@ -130,6 +134,12 @@ try {
     assert.match(typed.snapshot, /textbox "Team name" value="Hello"/, typed.snapshot);
     assert.ok(ms < 2500, `took ${ms}ms`);
     console.log(`ok  element swapped out mid-action: retried on the new one (${ms}ms)`);
+
+    await bs.goto(`${SITE}popup`);
+    const pop = await bs.snapshot();
+    assert.match(pop.split('\n').slice(0, 12).join('\n'), /button "Pick me"/, 'the popup button should be listed first');
+    assert.match(pop, /link "Link 0" \(covered\)/);
+    console.log('ok  popups are listed first; elements behind them are marked covered');
   } finally { await bs.close(); }
 
   // 4) Open it like an iPhone would.
