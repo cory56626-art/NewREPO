@@ -15,7 +15,13 @@ const listen = (srv) => new Promise((r) => srv.listen(0, '127.0.0.1', () => r(sr
 // 1) A small website to operate on.
 const site = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
-  if (req.url.startsWith('/rerender')) {
+  if (req.url.startsWith('/swap')) {
+    // Shows a disabled box, then swaps in a fresh enabled one 400 ms later
+    // (like Showdown re-rendering once its server connection is up).
+    res.end(`<title>Swap</title><div id="app"><input aria-label="Team name" disabled></div><script>
+      setTimeout(() => { app.innerHTML = '<input aria-label="Team name">'; }, 400);
+    </script>`);
+  } else if (req.url.startsWith('/rerender')) {
     // Rebuilds its buttons after every click, like React/Backbone apps do.
     res.end(`<title>Rerender</title><div id="app"></div><script>
       const clicked = [];
@@ -114,6 +120,16 @@ try {
     assert.match(r.log, /re-rendered/, r.log);
     assert.match(r.snapshot, /clicked: one,two/, r.snapshot);
     console.log('ok  stale elements after a re-render are found again by name');
+
+    await bs.goto(`${SITE}swap`);
+    const box = (await bs.snapshot()).match(/\[(\d+)\] textbox "Team name"/)[1];
+    const t = Date.now();
+    const typed = await bs.act([{ type: 'type', ref: +box, text: 'Hello' }]);
+    const ms = Date.now() - t;
+    assert.match(typed.log, /^ok: .*re-rendered/m, typed.log);
+    assert.match(typed.snapshot, /textbox "Team name" value="Hello"/, typed.snapshot);
+    assert.ok(ms < 2500, `took ${ms}ms`);
+    console.log(`ok  element swapped out mid-action: retried on the new one (${ms}ms)`);
   } finally { await bs.close(); }
 
   // 4) Open it like an iPhone would.

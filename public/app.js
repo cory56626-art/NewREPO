@@ -195,16 +195,28 @@ function setStatus(text) {
   if (text) $('statusText').textContent = text;
 }
 
+// Live stopwatch in the status bar while Claude works.
+let clockStart = 0;
+let clockTimer = 0;
+function startClock() {
+  clockStart = performance.now();
+  clearInterval(clockTimer);
+  const tick = () => { $('statusTime').textContent = `${((performance.now() - clockStart) / 1000).toFixed(1)}s`; };
+  tick();
+  clockTimer = setInterval(tick, 100);
+}
+function stopClock() { clearInterval(clockTimer); $('statusTime').textContent = ''; }
+
 function setRunning(on) {
   running = !!on;
   screenEl.classList.toggle('working', running);
-  if (!running) setStatus('');
+  if (!running) { setStatus(''); stopClock(); }
   updateSendButton();
 }
 
 function onAgent(m) {
   switch (m.event) {
-    case 'start': bubble('user', m.task); currentBubble = null; setRunning(true); setStatus('Thinking…'); break;
+    case 'start': bubble('user', m.task); currentBubble = null; setRunning(true); setStatus('Thinking…'); startClock(); break;
     case 'thinking': currentBubble = null; setStatus('Thinking…'); break;
     case 'tool': setStatus(m.name === 'navigate' ? 'Opening a page…' : m.name === 'read_page' ? 'Reading…' : 'Choosing what to do…'); break;
     case 'text':

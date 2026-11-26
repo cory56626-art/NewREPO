@@ -427,9 +427,9 @@ export class BrowserSession extends EventEmitter {
     throw new Error('ref not found on the page anymore (page changed - use the newest snapshot)');
   }
 
-  async pointAt(loc, kind, label) {
-    await loc.scrollIntoViewIfNeeded({ timeout: 2500 }).catch(() => {});
-    const box = await loc.boundingBox({ timeout: 2500 });
+  async pointAt(handle, kind, label) {
+    await handle.scrollIntoViewIfNeeded({ timeout: 2000 }).catch(() => {});
+    const box = await handle.boundingBox();
     if (!box) throw new Error('element is not visible');
     const x = box.x + box.width / 2, y = box.y + box.height / 2;
     this.emit('cursor', { x, y, kind, label });
@@ -437,35 +437,63 @@ export class BrowserSession extends EventEmitter {
     return { x, y };
   }
 
+  // Runs fn on the element behind a ref. Works on the element itself (not a
+  // selector), so if the page swaps the element out mid-action we notice at once,
+  // find its replacement by role + name, and try again instead of timing out.
+  async withElement(ref, kind, label, fn) {
+    let lastErr;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const handle = await (await this.locate(ref)).elementHandle({ timeout: 1000 }).catch(() => null);
+      if (!handle) { lastErr = new Error('element disappeared while acting on it'); this.recovered = true; continue; }
+      try {
+        await this.pointAt(handle, kind, label);
+        return await fn(handle);
+      } catch (e) {
+        lastErr = e;
+        const attached = await handle.evaluate((el) => el.isConnected).catch(() => false);
+        if (attached) throw e; // a real problem (covered, disabled, ...): report it
+        this.recovered = true;
+      } finally {
+        handle.dispose().catch(() => {});
+      }
+    }
+    throw lastErr;
+  }
+
   async runAction(a) {
     const p = this.page;
     const label = this.describe(a);
     switch (a.type) {
-      case 'click': {
-        const loc = await this.locate(a.ref);
-        await this.pointAt(loc, 'click', label);
-        try { await loc.click({ timeout: 3500 }); }
-        catch { await loc.click({ force: true, timeout: 2000 }); return 'forced (something was covering it)'; }
-        return '';
-      }
+      case 'click':
+        return this.withElement(a.ref, 'click', label, async (el) => {
+          try { await el.click({ timeout: 3000 }); return ''; } catch (e) {
+            if (!(await el.evaluate((n) => n.isConnected).catch(() => false))) throw e;
+            await el.click({ force: true, timeout: 1500 });
+            return 'forced (something was covering it)';
+          }
+        });
       case 'type': {
-        const loc = await this.locate(a.ref);
-        await this.pointAt(loc, 'type', label);
-        try { await loc.fill(a.text ?? '', { timeout: 3500 }); }
-        catch { await loc.click({ timeout: 2500 }); await p.keyboard.press('ControlOrMeta+A'); await p.keyboard.insertText(a.text ?? ''); }
+        const note = await this.withElement(a.ref, 'type', label, async (el) => {
+          try { await el.fill(a.text ?? '', { timeout: 3000 }); } catch (e) {
+            if (!(await el.evaluate((n) => n.isConnected).catch(() => false))) throw e;
+            await el.click({ timeout: 2000 });
+            await p.keyboard.press('ControlOrMeta+A');
+            await p.keyboard.insertText(a.text ?? '');
+          }
+          return '';
+        });
         if (a.submit) await p.keyboard.press('Enter');
-        return '';
+        return note;
       }
       case 'press': await p.keyboard.press(a.key); return '';
-      case 'select': {
-        const loc = await this.locate(a.ref);
-        await this.pointAt(loc, 'click', label);
-        await loc.selectOption({ label: a.option }, { timeout: 3000 }).catch(() => loc.selectOption(a.option, { timeout: 3000 }));
-        return '';
-      }
-      case 'hover': { const loc = await this.locate(a.ref); await this.pointAt(loc, 'move', label); await loc.hover({ timeout: 3000 }); return ''; }
+      case 'select':
+        return this.withElement(a.ref, 'click', label, async (el) => {
+          await el.selectOption({ label: a.option }, { timeout: 3000 }).catch(() => el.selectOption(a.option, { timeout: 3000 }));
+          return '';
+        });
+      case 'hover': return this.withElement(a.ref, 'move', label, async (el) => { await el.hover({ timeout: 3000 }); return ''; });
       case 'scroll': {
-        if (a.ref != null) { await this.pointAt(await this.locate(a.ref), 'move', label); return ''; }
+        if (a.ref != null) return this.withElement(a.ref, 'move', label, async () => '');
         const { width, height } = this.viewport;
         this.emit('cursor', { x: width / 2, y: height / 2, kind: 'scroll', label });
         await p.mouse.move(width / 2, height / 2);
