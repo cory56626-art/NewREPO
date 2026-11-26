@@ -15,7 +15,15 @@ const listen = (srv) => new Promise((r) => srv.listen(0, '127.0.0.1', () => r(sr
 // 1) A small website to operate on.
 const site = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
-  if (req.url.startsWith('/hello')) {
+  if (req.url.startsWith('/rerender')) {
+    // Rebuilds its buttons after every click, like React/Backbone apps do.
+    res.end(`<title>Rerender</title><div id="app"></div><script>
+      const clicked = [];
+      const render = () => { app.innerHTML = '<button data-k="one">Step one</button><button data-k="two">Step two</button><p>clicked: ' + clicked.join(',') + '</p>'; };
+      document.addEventListener('click', (e) => { const k = e.target.dataset.k; if (k) { clicked.push(k); render(); } });
+      render();
+    </script>`);
+  } else if (req.url.startsWith('/hello')) {
     const name = new URL(req.url, 'http://x').searchParams.get('name');
     res.end(`<title>Greeting</title><h1>Hello, ${name.replace(/[<>&]/g, '')}!</h1>`);
   } else {
@@ -93,6 +101,21 @@ assert.ok(appLog.includes('Skyhand is running'), `server did not start:\n${appLo
 const browser = await chromium.launch();
 let failed = false;
 try {
+  // 0) Batched clicks keep working when the page replaces its elements mid-batch.
+  const { BrowserSession } = await import('../src/browser.js');
+  const bs = new BrowserSession({ allowPrivate: true });
+  await bs.start();
+  try {
+    await bs.goto(`${SITE}rerender`);
+    const snap = await bs.snapshot();
+    const one = snap.match(/\[(\d+)\] button "Step one"/)[1];
+    const two = snap.match(/\[(\d+)\] button "Step two"/)[1];
+    const r = await bs.act([{ type: 'click', ref: +one }, { type: 'click', ref: +two }]);
+    assert.match(r.log, /re-rendered/, r.log);
+    assert.match(r.snapshot, /clicked: one,two/, r.snapshot);
+    console.log('ok  stale elements after a re-render are found again by name');
+  } finally { await bs.close(); }
+
   // 4) Open it like an iPhone would.
   const phone = await browser.newContext({ ...devices['iPhone 15'], deviceScaleFactor: 2 });
   const page = await phone.newPage();

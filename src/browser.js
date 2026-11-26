@@ -165,6 +165,19 @@ function domQuietInPage({ quietMs, capMs }) {
   });
 }
 
+// Who each element is (role + name + which one among equals), independent of DOM identity.
+function identities(els) {
+  const seen = new Map();
+  const out = new Map();
+  for (const e of els) {
+    const key = `${e.role}\u0000${e.name}`;
+    const nth = seen.get(key) ?? 0;
+    seen.set(key, nth + 1);
+    out.set(e.ref, { key, nth });
+  }
+  return out;
+}
+
 export class BrowserSession extends EventEmitter {
   constructor({ allowPrivate = false } = {}) {
     super();
@@ -175,6 +188,7 @@ export class BrowserSession extends EventEmitter {
     this.cdp = null;
     this.lastFrame = null;
     this.refNames = new Map();
+    this.refInfo = new Map();
     this.lastDialog = null;
     this.phoneViewport = { ...MODES.phone.viewport }; // resized to match the user's screen
   }
@@ -341,6 +355,7 @@ export class BrowserSession extends EventEmitter {
     }
     if (!d) return `URL: ${this.page.url()}\n(The page is still loading; try again.)`;
     this.refNames = new Map(d.els.map((e) => [e.ref, e.name]));
+    this.refInfo = identities(d.els);
     const maxScroll = Math.max(0, d.scrollH - d.H);
     const lines = [
       `Title: ${d.title || '(none)'}`,
@@ -389,13 +404,30 @@ export class BrowserSession extends EventEmitter {
     }
   }
 
-  locate(ref) {
+  // Finds the element for a ref. Apps built with React, Vue, Backbone etc. often
+  // re-render and replace DOM nodes right after a click; when that happens, find
+  // the same element again by role + name instead of failing the action.
+  async locate(ref) {
     if (ref == null) throw new Error('this action needs a ref');
-    return this.page.locator(`[data-sk-ref="${ref}"]`).first();
+    const loc = this.page.locator(`[data-sk-ref="${ref}"]`).first();
+    if (await loc.count()) return loc;
+    const info = this.refInfo.get(ref);
+    if (info) {
+      const d = await this.page.evaluate(snapshotInPage, { maxEls: 400, maxText: 0 }).catch(() => null);
+      if (d) {
+        const now = identities(d.els);
+        const same = [...now].filter(([, v]) => v.key === info.key);
+        const hit = same.find(([, v]) => v.nth === info.nth) ?? (same.length === 1 ? same[0] : null);
+        if (hit) {
+          this.recovered = true;
+          return this.page.locator(`[data-sk-ref="${hit[0]}"]`).first();
+        }
+      }
+    }
+    throw new Error('ref not found on the page anymore (page changed - use the newest snapshot)');
   }
 
   async pointAt(loc, kind, label) {
-    if ((await loc.count()) === 0) throw new Error('ref not found on the page anymore (page changed - use the newest snapshot)');
     await loc.scrollIntoViewIfNeeded({ timeout: 2500 }).catch(() => {});
     const box = await loc.boundingBox({ timeout: 2500 });
     if (!box) throw new Error('element is not visible');
@@ -410,14 +442,14 @@ export class BrowserSession extends EventEmitter {
     const label = this.describe(a);
     switch (a.type) {
       case 'click': {
-        const loc = this.locate(a.ref);
+        const loc = await this.locate(a.ref);
         await this.pointAt(loc, 'click', label);
         try { await loc.click({ timeout: 3500 }); }
         catch { await loc.click({ force: true, timeout: 2000 }); return 'forced (something was covering it)'; }
         return '';
       }
       case 'type': {
-        const loc = this.locate(a.ref);
+        const loc = await this.locate(a.ref);
         await this.pointAt(loc, 'type', label);
         try { await loc.fill(a.text ?? '', { timeout: 3500 }); }
         catch { await loc.click({ timeout: 2500 }); await p.keyboard.press('ControlOrMeta+A'); await p.keyboard.insertText(a.text ?? ''); }
@@ -426,14 +458,14 @@ export class BrowserSession extends EventEmitter {
       }
       case 'press': await p.keyboard.press(a.key); return '';
       case 'select': {
-        const loc = this.locate(a.ref);
+        const loc = await this.locate(a.ref);
         await this.pointAt(loc, 'click', label);
         await loc.selectOption({ label: a.option }, { timeout: 3000 }).catch(() => loc.selectOption(a.option, { timeout: 3000 }));
         return '';
       }
-      case 'hover': { const loc = this.locate(a.ref); await this.pointAt(loc, 'move', label); await loc.hover({ timeout: 3000 }); return ''; }
+      case 'hover': { const loc = await this.locate(a.ref); await this.pointAt(loc, 'move', label); await loc.hover({ timeout: 3000 }); return ''; }
       case 'scroll': {
-        if (a.ref != null) { await this.pointAt(this.locate(a.ref), 'move', label); return ''; }
+        if (a.ref != null) { await this.pointAt(await this.locate(a.ref), 'move', label); return ''; }
         const { width, height } = this.viewport;
         this.emit('cursor', { x: width / 2, y: height / 2, kind: 'scroll', label });
         await p.mouse.move(width / 2, height / 2);
@@ -464,7 +496,9 @@ export class BrowserSession extends EventEmitter {
       onAction?.(label);
       const before = this.page.url();
       try {
-        const note = await this.runAction(a);
+        this.recovered = false;
+        let note = await this.runAction(a);
+        if (this.recovered) note = [note, 'page had re-rendered; matched the same element by name'].filter(Boolean).join('; ');
         log.push(`ok: ${label}${note ? ` (${note})` : ''}`);
       } catch (e) {
         log.push(`FAILED: ${label} - ${short(String(e.message).split('\n')[0], 200)}`);
