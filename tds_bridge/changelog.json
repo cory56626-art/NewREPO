@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-11-27T02:55:50.803360+00:00",
+  "generated_at": "2026-11-27T12:40:05.478772+00:00",
   "tracked_page_count": 109,
   "entries": [
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Military Base",
+      "pageid": 197,
+      "revid": 655748,
+      "old_revid": 655747,
+      "rcid": 660006,
+      "user": "ConnorThird",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 44345,
+      "newlen": 44280,
+      "timestamp": "2026-11-27T08:55:58Z",
+      "comment": "",
+      "tags": [
+        "visualeditor-wikitext"
+      ],
+      "diff_text": "Line 41: Line 41: }} }} __TOC__ __TOC__ == <big>'''''<u>OUTDATED, HAS BEEN REWORKED.</u>'''''</big> == ==Description== ==Description== The '''Military Base''' is an intermediate [[Towers|tower]] that spawns various military-themed vehicles, which can be bought in the store for {{Coins|4,000}}. Levels 0-3 will spawn [[Humvee]]s of varying strength, Level 4 will spawn a [[Tank (Unit)|Tank]] and Level 5 will spawn a [[Railgun Tank]]. The '''Military Base''' is an intermediate [[Towers|tower]] that spawns various military-themed vehicles, which can be bought in the store for {{Coins|4,000}}. Levels 0-3 will spawn [[Humvee]]s of varying strength, Level 4 will spawn a [[Tank (Unit)|Tank]] and Level 5 will spawn a [[Railgun Tank]]."
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Military Base",
+      "pageid": 197,
+      "revid": 655747,
+      "old_revid": 655745,
+      "rcid": 660005,
+      "user": "ConnorThird",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 44376,
+      "newlen": 44345,
+      "timestamp": "2026-11-27T08:51:54Z",
+      "comment": "Reverted vandalism",
+      "tags": [
+        "visualeditor-wikitext",
+        "mw-manual-revert"
+      ],
+      "diff_text": "Line 9: Line 9: |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5 |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]5 |unlockcost = {{Coins|4,000}} |unlockcost = {{Coins|4,000}} |basecost = {{Money| 1400 }} |basecost = {{Money| 400 }} |basesellingprice = {{Money| 886 }} |basesellingprice = {{Money| 133 }} |basedamage = N/A |basedamage = N/A |damagetype = Collision<br/>Single (Level 3+)<br/>Splash (Level 4+) |damagetype = Collision<br/>Single (Level 3+)<br/>Splash (Level 4+) |basefirerate = N/A |basefirerate = N/A |baserange = [[File:Range Icon.png|20px|Range]]5 |baserange = [[File:Range Icon.png|20px|Range]]5 |basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]] 25s |basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]] 45s |hidden_detection = {{Attr|Hidden|Level 3+}}<ref name=\"hd\">[[Units]] spawned by the '''Military Base''' can collide with [[Hidden (Attribute)|Hidden]] enemies from Level 0.</ref> |hidden_detection = {{Attr|Hidden|Level 3+}}<ref name=\"hd\">[[Units]] spawned by the '''Military Base''' can collide with [[Hidden (Attribute)|Hidden]] enemies from Level 0.</ref> |lead_detection = {{Attr|Lead|Level 0+}} (Collision & [[Splash Damage]] only) |lead_detection = {{Attr|Lead|Level 0+}} (Collision & [[Splash Damage]] only) Line 57: Line 57: ==Upgrades== ==Upgrades== {{PVPTabber {{PVPTabber |{{Upgrade|Level = Level 1|Upgrade Title = Mechanics|Cost = {{Money| 750 }}|Image = [[File:Military_Base_Upgrade_1.png|100px]]|Information = 25 > 16 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]] |{{Upgrade|Level = Level 1|Upgrade Title = Mechanics|Cost = {{Money| 200 }}|Image = [[File:Military_Base_Upgrade_1.png|100px]]|Information = 45 > 35 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]] Sell Price changes to {{Money| 1,361 }}}} Sell Price changes to {{Money| 200 }}}} {{Upgrade|Level = Level 2|Upgrade Title = Barbed Wire|Cost = {{Money| 1,100 }}|Image = [[File:Military_Base_Upgrade_2.png|100px]]|Information = Spawns [[Humvee 2]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] {{Upgrade|Level = Level 2|Upgrade Title = Barbed Wire|Cost = {{Money| 400 }}|Image = [[File:Military_Base_Upgrade_2.png|100px]]|Information = Spawns [[Humvee 2]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] •275 Health [[File:HealthIcon.png|20px|Health]] •100 Health [[File:HealthIcon.png|20px|Health]] Sell Price changes to {{Money| 2,058 }}}} Sell Price changes to {{Money| 333 }}}} {{Upgrade|Level = Level 3|Upgrade Title = Mounted Gunner|Cost = {{Money| 3 , 500 }}|Image = [[File:Military_Base_Upgrade_3.png|100px]]|Information = Spawns [[Humvee 3]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] {{Upgrade|Level = Level 3|Upgrade Title = Mounted Gunner|Cost = {{Money| 2 , 000 }}|Image = [[File:Military_Base_Upgrade_3.png|100px]]|Information = Spawns [[Humvee 3]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] •300 Health [[File:HealthIcon.png|20px|Health]] •100 Health [[File:HealthIcon.png|20px|Health]] •6 Damage [[File:Damage Icon.png|20px|Damage]] •4 Damage [[File:Damage Icon.png|20px|Damage]] •0.225 Firerate [[File:Cooldown Icon.png|20px|Firerate]] •0.225 Firerate [[File:Cooldown Icon.png|20px|Firerate]] Line 80: Line 80: Sell Price changes to {{Money| 4 , 275 }}}} Sell Price changes to {{Money| 1 , 000 }}}} {{Upgrade|Level = Level 4|Upgrade Title = Tank|Cost = {{Money| 15 , 000 }}|Image = [[File:MilitaryBase4.png|100px]]|Information = Spawns [[Tank (Unit)|Tank]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] {{Upgrade|Level = Level 4|Upgrade Title = Tank|Cost = {{Money| 7 , 500 }}|Image = [[File:MilitaryBase4.png|100px]]|Information = Spawns [[Tank (Unit)|Tank]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] •1550 Health [[File:HealthIcon.png|20px|Health]] •500 Health [[File:HealthIcon.png|20px|Health]] •15 Damage [[File:Damage Icon.png|20px|Damage]] •8 Damage [[File:Damage Icon.png|20px|Damage]] •35 Range [[File:Range Icon.png|20px|Firerate]] •30 Range [[File:Range Icon.png|20px|Firerate]] •0.225 Firerate [[File:Cooldown Icon.png|20px|Firerate]] •0.225 Firerate [[File:Cooldown Icon.png|20px|Firerate]] •85 Cannon Damage [[File:SplashDamage.png|20px|Splash Damage]] •40 Cannon Damage [[File:SplashDamage.png|20px|Splash Damage]] •2 Cannon Firerate [[File:Cooldown Icon.png|20px|Firerate]] •2 Cannon Firerate [[File:Cooldown Icon.png|20px|Firerate]] •4 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]] •6 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]] •Hidden Detection {{Hidden|Hidden Detection}} •Hidden Detection {{Hidden|Hidden Detection}} Line 106: Line 106: Sell Price changes to {{ Money1 |3, 775Q }}}} Sell Price changes to {{ Money |3, 500 }}}} {{Upgrade|Level = Level 5|Upgrade Title = Railgun Tank|Cost = {{Money| 37 , 500 }}|Image = [[File:MilitaryBase5.png|100px]]|Information = Spawns [[Railgun Tank]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] {{Upgrade|Level = Level 5|Upgrade Title = Railgun Tank|Cost = {{Money| 25 , 000 }}|Image = [[File:MilitaryBase5.png|100px]]|Information = Spawns [[Railgun Tank]] [[File:VehicleSpawn.png|20px|Vehicle Spawn]] •3 , 250 Health [[File:HealthIcon.png|20px|Health]] •1 , 600 Health [[File:HealthIcon.png|20px|Health]] •25 Damage [[File:Damage Icon.png|20px|Damage]] •22 Damage [[File:Damage Icon.png|20px|Damage]] •30 Range [[File:Range Icon.png|20px|Firerate]] •30 Range [[File:Range Icon.png|20px|Firerate]] Line 117: Line 117: •0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]] •0.175 Firerate [[File:Cooldown Icon.png|20px|Firerate]] •450 Cannon Damage [[File:SplashDamage.png|20px|Splash Damage]] •75 Cannon Damage [[File:SplashDamage.png|20px|Splash Damage]] •2 Cannon Firerate [[File:Cooldown Icon.png|20px|Firerate]] •2 Cannon Firerate [[File:Cooldown Icon.png|20px|Firerate]] •4.5 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]] •8 Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]] •Hidden Detection {{Hidden|Hidden Detection}} •Hidden Detection {{Hidden|Hidden Detection}} Line 130: Line 130: Sell Price changes to {{Money| 37 , 525 }}}} Sell Price changes to {{Money| 11 , 833 }}}} |{{Upgrade|Level = Level 1|Upgrade Title = Mechanics|Cost = {{Money|200}}|Image = [[File:Military_Base_Upgrade_1.png|100px]]|Information = 40 > 25 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]] |{{Upgrade|Level = Level 1|Upgrade Title = Mechanics|Cost = {{Money|200}}|Image = [[File:Military_Base_Upgrade_1.png|100px]]|Information = 40 > 25 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]] Line 209: Line 209: ==Ability== ==Ability== {{PVPTabber {{PVPTabber |{{Ability|Level Unlock = Level 4+|Cooldown Time= 52s Cooldown|Ability Title = Airstrike|Cost = {{Money|500}}|Image = [[File:Airstrike.png|100px]]|Information = |{{Ability|Level Unlock = Level 4+|Cooldown Time= 45s Cooldown|Ability Title = Airstrike|Cost = {{Money|500}}|Image = [[File:Airstrike.png|100px]]|Information = Drops bombs on a selected path location, damaging any enemies within the bombs' explosion radius. A red marker will appear on the location of the path selected, and bombs will drop when the marker is clicked. Drops bombs on a selected path location, damaging any enemies within the bombs' explosion radius. A red marker will appear on the location of the path selected, and bombs will drop when the marker is clicked. }} }} Line 229: Line 229: $CE$ = Total Cost / Total DPS $CE$ = Total Cost / Total DPS $TP$ = $FNC-TOTAL-COST$ $TP$ = $FNC-TOTAL-COST$ $COST$ = 1400 ; 750 ; 1,100 ; 3,500 ; 15,000 ; 37,500 $COST$ = 400 ; 200 ; 400 ; 2000 ; 7500 ; 25000 $PVP-COST$ = 1400 ; 750 ; 1,100 ; 3,500 ; 15,000 ; 37,500 $PVP-COST$ = 400 ; 200 ; 400 ; 1750 ; 7500 ; 25000 $FSE-DETECTION$ = 3; 0; $FSE-DETECTION$ = 3; 0; $FSE-UPGRADE$ = Mechanics; Barbed Wire; Mounted Gunner; Tank; Railgun Tank $FSE-UPGRADE$ = Mechanics; Barbed Wire; Mounted Gunner; Tank; Railgun Tank Line 245: Line 245: ! Level !! Cost !! Total Cost !! Health !! Gunner Damage !! Cannon Splash Damage$SREF$ !! Cannon Firerate !! Airstrike Damage$SREF$ !! Spaw"
+    },
     {
       "type": "edit",
       "ns": 0,
