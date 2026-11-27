@@ -1,7 +1,175 @@
 {
-  "generated_at": "2026-11-27T12:40:05.478772+00:00",
+  "generated_at": "2026-11-27T22:03:58.554481+00:00",
   "tracked_page_count": 109,
   "entries": [
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655757,
+      "old_revid": 655756,
+      "rcid": 660015,
+      "user": "Cuti ler",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 22500,
+      "newlen": 22501,
+      "timestamp": "2026-11-27T19:06:26Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 6: Line 6: |image-dynamic = MechaBaseDynamic.png |image-dynamic = MechaBaseDynamic.png |image-dynamic-start = 0 |image-dynamic-start = 0 |unlockcost = {{Coins|15,000}} & {{Gem| 6500 }}<ref>During [[Hardcore Testing BETA]], it had a cost of {{Gem|3,500}} and a level requirement of {{Level|50}}.</ref> |unlockcost = {{Coins|15,000}} & {{Gem| 6,500 }}<ref>During [[Hardcore Testing BETA]], it had a cost of {{Gem|3,500}} and a level requirement of {{Level|50}}.</ref> |basecost = {{Money|12,000}} |basecost = {{Money|12,000}} |basesellingprice = {{Money|4,000}} |basesellingprice = {{Money|4,000}}"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655756,
+      "old_revid": 655755,
+      "rcid": 660014,
+      "user": "Cuti ler",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 22478,
+      "newlen": 22500,
+      "timestamp": "2026-11-27T19:06:08Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 6: Line 6: |image-dynamic = MechaBaseDynamic.png |image-dynamic = MechaBaseDynamic.png |image-dynamic-start = 0 |image-dynamic-start = 0 |unlockcost = Exclusive <ref>During [[Hardcore Testing BETA]], it had a cost of {{Gem|3,500}} and a level requirement of {{Level|50}}.</ref> |unlockcost = {{Coins|15,000}} & {{Gem|6500}} <ref>During [[Hardcore Testing BETA]], it had a cost of {{Gem|3,500}} and a level requirement of {{Level|50}}.</ref> |basecost = {{Money|12,000}} |basecost = {{Money|12,000}} |basesellingprice = {{Money|4,000}} |basesellingprice = {{Money|4,000}}"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655755,
+      "old_revid": 655754,
+      "rcid": 660013,
+      "user": "Cuti ler",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 22478,
+      "newlen": 22478,
+      "timestamp": "2026-11-27T19:05:03Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 12: Line 12: |placement = Ground |placement = Ground |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]3 |placement_limit = [[File:PlacementLimit.png|20px|Placement Limit]]3 |basedamage = [[File:Damage Icon.png|20px|Damage]] 10 |basedamage = [[File:Damage Icon.png|20px|Damage]] 6 |damagetype = Single<br/>Collision<br/>[[Splash Damage|Splash]] |damagetype = Single<br/>Collision<br/>[[Splash Damage|Splash]] |basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0. 2 |basefirerate = [[File:Cooldown Icon.png|20px|Firerate]]0. 19 |baserange = [[File:Range Icon.png|20px|Range]] 30 (Unit)<br/>[[File:Range Icon.png|20px|Range]]3 (Tower) |baserange = [[File:Range Icon.png|20px|Range]] 22 (Unit)<br/>[[File:Range Icon.png|20px|Range]]3 (Tower) |basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]] 45s |basespawnrate = [[File:VehicleSpawn.png|20px|Spawnrate]] 55s |hidden_detection = {{Attr|Hidden|Level 0 +}} |hidden_detection = {{Attr|Hidden|Level ? +}} |lead_detection= {{Attr|Lead|Level 0+}} (Collision & [[Splash Damage]] only) |lead_detection= {{Attr|Lead|Level 0+}} (Collision & [[Splash Damage]] only) |flying_detection = {{Attr|Flying|Level 5}}<ref>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref> |flying_detection = {{Attr|Flying|Level 5}}<ref>Through splash damage, flying enemies may be hit indirectly if another detectable enemy is nearby, but [[units]] from this tower can never directly target flying enemies.</ref>"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655754,
+      "old_revid": 655752,
+      "rcid": 660012,
+      "user": "Cuti ler",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 23039,
+      "newlen": 22478,
+      "timestamp": "2026-11-27T19:03:20Z",
+      "comment": "well mecha base has released, helpin around for ts to get updated",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 7: Line 7: |image-dynamic-start = 0 |image-dynamic-start = 0 |unlockcost = Exclusive<ref>During [[Hardcore Testing BETA]], it had a cost of {{Gem|3,500}} and a level requirement of {{Level|50}}.</ref> |unlockcost = Exclusive<ref>During [[Hardcore Testing BETA]], it had a cost of {{Gem|3,500}} and a level requirement of {{Level|50}}.</ref> |basecost = {{Money| 6 ,000}} |basecost = {{Money| 12 ,000}} |basesellingprice = {{Money| 2 ,000}} |basesellingprice = {{Money| 4 ,000}} |role = Defense |role = Defense |placement = Ground |placement = Ground Line 39: Line 39: ==Upgrades== ==Upgrades== {{Upgrade|Level = Level 1|Upgrade Title = ROCKET MECHA |Cost = {{Money|1, 200 }}|Image = [[File:MechaBaseDog.png|100px]]|Information = 45 > 30 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]] {{Upgrade|Level = Level 1|Upgrade Title = Bunker Down |Cost = {{Money|1, 526 }}|Image = [[File:MechaBaseDog.png|100px]]|Information = 55 > 45 Spawnrate [[File:VehicleSpawn.png|20px|Spawnrate]] Adds Missile Launcher to [[Mark I]] •25 Missile Damage [[File:SplashDamage.png|20px|Splash Damage]] •7 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]] •5 Missile Explosion Range [[File:ExplosiveRange.png|20px|Explosion Range]] {{CollapsibleUpgrade|Title = Tragedy|Description = AI ruined my funny descriptions ill fix later}} {{CollapsibleUpgrade|Title = Tragedy|Description = AI ruined my funny descriptions ill fix later}} Sell Price changes to {{Money| 1,800 }}}} Sell Price changes to {{Money| 4508 }}}} {{Upgrade|Level = Level 2|Upgrade Title = EPIC MECHA |Cost = {{Money| 2 , 000 }}|Image = [[File:MechaBaseDog.png|100px]]|Information = Spawns [[Mark II]] [[File:VehicleSpawn.png|20px|Mech Spawn]] {{Upgrade|Level = Level 2|Upgrade Title = New Hardware |Cost = {{Money| 8 , 077 }}|Image = [[File:MechaBaseDog.png|100px]]|Information = Spawns [[Mark II]] [[File:VehicleSpawn.png|20px|Mech Spawn]] (Replaces [[Mark I]]) •1,000 Health [[File: HealthIcon .png|20px| Health ]] • 45 Spawnrate [[File: VehicleSpawn .png|20px| Spawnrate ]] •12 Damage [[File: Damage Icon .png|20px| Damage ]] •3,500 Health [[File: HealthIcon .png|20px| Health ]] •0.15 Firerate [[File: Cooldown Icon.png|20px| Firerate ]] •9 Damage [[File: Damage Icon.png|20px| Damage ]] •35 Range [[File: Range Icon.png|20px| Range ]] •0.19 Firerate [[File: Cooldown Icon.png|20px| Firerate ]] •40 Missile Damage [[File: SplashDamage .png|20px| Splash Damage ]] •22 Range [[File: Range Icon .png|20px| Range ]] •7 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]] •Hidden Detection {{Hidden|Hidden Detection}} {{CollapsibleUpgrade|Title = Mikey|Description = Mikey Boss}} {{CollapsibleUpgrade|Title = Mikey|Description = Mikey Boss}} Sell Price changes to {{Money| 3 , 066 }}}} Sell Price changes to {{Money| 7 , 201 }}}} {{Upgrade|Level = Level 3|Upgrade Title = SIGMA MECHA |Cost = {{Money| 4 ,000}}|Image = [[File:MechaBaseDog.png|100px]]|Information = {{Upgrade|Level = Level 3|Upgrade Title = Stormbreaker Grid |Cost = {{Money| 12 ,000}}|Image = [[File:MechaBaseDog.png|100px]]|Information = Spawns [[Mark III ]] [[File:VehicleSpawn.png|20px|Mech Spawn]] Spawns [[Mark I]] [[File:VehicleSpawn.png|20px|Mech Spawn]] Along [[Mark II ]] [[File:VehicleSpawn.png|20px|Mech Spawn]] •1,500 Health [[File: HealthIcon .png|20px| Health ]] •[[Mark I]] 45 > 40 Spawnrate [[File: VehicleSpawn .png|20px| Spawnrate ]] • + Shock Barrier Ability •10 Damage [[File:Damage Icon.png|20px|Damage]] •0.1 Firerate [[File:Cooldown Icon.png|20px|Firerate]] •35 Range [[File:Range Icon.png|20px|Range]] •60 Missile Damage [[File:SplashDamage.png|20px|Splash Damage]] •3.5 Missile Cooldown [[File:Cooldown Icon.png|20px|Missile Cooldown]] •Hidden Detection {{Hidden|Hidden Detection}} {{CollapsibleUpgrade|Title = Mikey|Description = Mikey Boss}} {{CollapsibleUpgrade|Title = Mikey|Description = Mikey Boss}} Sell Price changes to {{Money| 4 , 400 }}}} Sell Price changes to {{Money| 11 , 201 }}}} {{Upgrade|Level = Level 4|Upgrade Title = OMEGA MECHA|Cost = {{Money|8,000}}|Image = [[File:MechaBaseDog.png|100px]]|Information = Spawns [[Mark IV]] [[File:VehicleSpawn.png|20px|Mech Spawn]] {{Upgrade|Level = Level 4|Upgrade Title = OMEGA MECHA (Outdated, TBA) |Cost = {{Money|8,000}}|Image = [[File:MechaBaseDog.png|100px]]|Information = Spawns [[Mark IV]] [[File:VehicleSpawn.png|20px|Mech Spawn]] •2,500 Health [[File:HealthIcon.png|20px|Health]] •2,500 Health [[File:HealthIcon.png|20px|Health]] Line 114: Line 92: Sell Price changes to {{Money|7,066}}}} Sell Price changes to {{Money|7,066}}}} {{Upgrade|Level = Level 5|Upgrade Title = Z.O.D. MACHINE|Cost = {{Money|80,000}}|Image = [[File:MechaBaseDog.png|100px]]|Information = {{Upgrade|Level = Level 5|Upgrade Title = Z.O.D. MACHINE (OUTDATED, TBA) |Cost = {{Money|80,000}}|Image = [[File:MechaBaseDog.png|100px]]|Information = Spawns [[Mark V]] [[File:VehicleSpawn.png|20px|Mech Spawn]] Spawns [[Mark V]] [[File:VehicleSpawn.png|20px|Mech Spawn]]"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Crates",
+      "pageid": 1174,
+      "revid": 655753,
+      "old_revid": 627798,
+      "rcid": 660011,
+      "user": "Stpoland9",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 9258,
+      "newlen": 9284,
+      "timestamp": "2026-11-27T18:27:27Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 15: Line 15: ---- ---- '''Skins''' are just cosmetic overhauls of the [[Towers|tower]] in question, with no added bonus. Not all '''Skins''' can be found in '''Skincrates''' as some can only be obtained through different means, like a [[Codes|code]], such as the {{Color|Other|Spring Time}} [[Commander]] or from [[Passes]], such as the [[Duck Hunt Event#Skins|{{Color|Ducky|Ducky}}]] skins. To equip a skin, you must go into the ''Towers'' section of your inventory while in the lobby and select the specific tower you want to equip a skin for. '''Skins''' are just cosmetic overhauls of the [[Towers|tower]] in question, with no added bonus (Golden skins are exempt) . Not all '''Skins''' can be found in '''Skincrates''' as some can only be obtained through different means, like a [[Codes|code]], such as the {{Color|Other|Spring Time}} [[Commander]] or from [[Passes]], such as the [[Duck Hunt Event#Skins|{{Color|Ducky|Ducky}}]] skins. To equip a skin, you must go into the ''Towers'' section of your inventory while in the lobby and select the specific tower you want to equip a skin for. Every skin has a rarity. For the skincrates that appear in the store, there are four rarities that they can have which determine how likely you are to unlock it. These rarities are {{Color|Common|Common}}, {{Color|Uncommon|Uncommon}}, {{Color|Rare|Rare}} and {{Color|Legendary|Legendary}}. For the [[Golden Crate]], they all use the {{Color|Golden|Golden}} rarity instead, making them all equal. Skins obtained directly from events and some seasons use the {{Color|Event|Event}} rarity, making them all equal. Skins obtained directly via Robux or from [[PVP]] rewards use the {{Color|Ultimate|Ultimate}} rarity. Other skins, such as code skins use the {{Color|Exclusive|Exclusive}} rarity. Skins that are in legacy crates from before 2023 also use the {{Color|Event|Event}} and the {{Color|Exclusive|Exclusive}} rarity. There are a few exceptions where a skin should have a {{Color|Event|Event}} or {{Color|Exclusive|Exclusive}} rarity, but it uses a different rarity instead. Every skin has a rarity. For the skincrates that appear in the store, there are four rarities that they can have which determine how likely you are to unlock it. These rarities are {{Color|Common|Common}}, {{Color|Uncommon|Uncommon}}, {{Color|Rare|Rare}} and {{Color|Legendary|Legendary}}. For the [[Golden Crate]], they all use the {{Color|Golden|Golden}} rarity instead, making them all equal. Skins obtained directly from events and some seasons use the {{Color|Event|Event}} rarity, making them all equal. Skins obtained directly via Robux or from [[PVP]] rewards use the {{Color|Ultimate|Ultimate}} rarity. Other skins, such as code skins use the {{Color|Exclusive|Exclusive}} rarity. Skins that are in legacy crates from before 2023 also use the {{Color|Event|Event}} and the {{Color|Exclusive|Exclusive}} rarity. There are a few exceptions where a skin should have a {{Color|Event|Event}} or {{Color|Exclusive|Exclusive}} rarity, but it uses a different rarity instead."
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655752,
+      "old_revid": 655751,
+      "rcid": 660010,
+      "user": "MagnusFalsen",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 23058,
+      "newlen": 23039,
+      "timestamp": "2026-11-27T17:27:16Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 27: Line 27: }} }} {{QuoteContainer| {{QuoteContainer| {{QuoteBox| Zombie Obliteration Device: Spawns OP gunner walkers with (big number) damage and (high hp) to destroy zombie waves! This is truly a threat defense strategy .|Inventory Description}} {{QuoteBox| Finality has arrived. Deploy powerful mechas, shock barriers, a commander mecha with support grenades, and an ally from another dimension .|Inventory Description}} {{QuoteBox|Send out a mecha every couple of seconds to run over and shoot zombies.|Former Inventory Description}} {{QuoteBox|Send out a mecha every couple of seconds to run over and shoot zombies.|Former Inventory Description}} }} }}"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655751,
+      "old_revid": 655750,
+      "rcid": 660009,
+      "user": "MagnusFalsen",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 23072,
+      "newlen": 23058,
+      "timestamp": "2026-11-27T17:25:27Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 1: Line 1: {{Tabs}} {{Tabs}} {{Exclusive}} {{for|[[Military Base]] or [[Mercenary Base]]}} {{for|[[Military Base]] or [[Mercenary Base]]}} {{TowerInfobox {{TowerInfobox"
+    },
+    {
+      "type": "edit",
+      "ns": 0,
+      "title": "Mecha Base",
+      "pageid": 7179,
+      "revid": 655750,
+      "old_revid": 655453,
+      "rcid": 660008,
+      "user": "MagnusFalsen",
+      "bot": false,
+      "new": false,
+      "minor": false,
+      "oldlen": 23486,
+      "newlen": 23072,
+      "timestamp": "2026-11-27T17:20:10Z",
+      "comment": "",
+      "tags": [
+        "visualeditor"
+      ],
+      "diff_text": "Line 33: Line 33: __TOC__ __TOC__ ==Description== ==Description== The '''Mecha Base''' is currently a [[Towers|tower]] exclusive to anyone who is an administrator or higher in the Tower Defense Simulator Discord server, though on rare occasions it has been given to other people. It is planned to become an evolved version of the [[Military Base]] in the fourth quarter of 2026.<ref>{{InlineQuote|Evolved from Military Base. An advanced base that deploys mechs and brings high-impact battlefield abilities . |[https://trello.com/c/8EGpJVaN/30-tower-mecha-base Tower Defense Simulator Roadmap]}}</ref> It spawns futuristic units which can attack enemies as it moves. Each vehicle spawns at the end of the path, with regular intervals between each spawn. It heads towards the start of the path until it is destroyed. If it reaches the start of the map, it will naturally be destroyed. The '''Mecha Base''' is an evolved [[Towers|tower]] which can be unlocked once reaching level 20 on the military base. It spawns futuristic units which can attack enemies as it moves. Each vehicle spawns at the end of the path, with regular intervals between each spawn. It heads towards the start of the path until it is destroyed. If it reaches the start of the map, it will naturally be destroyed. The '''Mecha Base''' spawns several mechanized walkers called Marks that upgrade in stats depending on the level of the '''Mecha Base'''. The units can shoot bullets from afar, and upgraded variations can also shoot missiles which deal splash damage. The '''Mecha Base''' spawns several mechanized walkers called Marks that upgrade in stats depending on the level of the '''Mecha Base'''. The units can shoot bullets from afar, and upgraded variations can also shoot missiles which deal splash damage."
+    },
     {
       "type": "edit",
       "ns": 0,
